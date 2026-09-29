@@ -1,0 +1,153 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-30T02:34:56+05:30",
+      "check": {
+        "duration": 54.4,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong counter-intuitive opening that challenges common knowledge.",
+        "clarity": "Simple narrative flow, one idea per beat, very easy to follow.",
+        "payoff": "The reveal of the rocket booster as the actual 'star' is satisfying.",
+        "visuals": "Beats 5 and 6 use a generic orbit diagram that doesn't specifically show the booster vs the satellite.",
+        "loop": "The repetition of the first sentence creates a perfect seamless loop."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The diagram shows a generic orbit around the sun, not an Earth orbit which is where Sputnik was."
+        },
+        {
+          "beat": 6,
+          "problem": "Same issue as beat 5; the visual does not distinguish the satellite from the 'massive' booster described."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The loop is more tightly integrated into the narrative than in ep002.",
+      "judge": "gemma-4-31b-it",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T02:54:38+05:30",
+      "check": {
+        "duration": 54.4,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong counter-intuitive opening that creates immediate curiosity.",
+        "clarity": "Information is presented linearly and logically; easy to follow.",
+        "payoff": "The reveal of the rocket booster is satisfying, though could be more dramatic.",
+        "visuals": "Too many repeats of the same museum photo; Beat 6 needs a picture of a rocket booster.",
+        "loop": "The transition from the final line back to the first is perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows the Sputnik satellite sphere again instead of the rocket booster mentioned in the script."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The loop is more tightly integrated than in ep002.",
+      "judge": "gemma-4-31b-it",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T02:57:19+05:30",
+      "check": {
+        "duration": 54.4,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong opening that creates immediate curiosity about a famous event.",
+        "clarity": "The narrative flow is logical and easy to follow.",
+        "payoff": "The revelation about the rocket booster is a satisfying twist.",
+        "visuals": "Repetitive use of the same museum photo for beats 3, 5, and 6 makes it feel low-effort.",
+        "loop": "The transition from the final sentence back to the start is seamless."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The image is a photo of the Sputnik satellite, but the beat describes the massive rocket booster."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The loop is tighter and the hook is more provocative than in ep002.",
+      "judge": "gemma-4-31b-it",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-09-30T02:57:19+05:30"
+}

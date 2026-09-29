@@ -1,0 +1,149 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-30T01:36:00+05:30",
+      "check": {
+        "duration": 49.67,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong irony in the first sentence to grab attention.",
+        "clarity": "Very easy to follow, one clear point per beat.",
+        "payoff": "The reveal about spy balloons is a satisfying connection to the hook.",
+        "visuals": "Beats 6 and 7 use a 16th-century map (Mappa Mundi) which is completely off-topic.",
+        "loop": "The ending mirrors the beginning perfectly."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows an ancient world map instead of spy balloons or film."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows the same ancient world map; not related to transmission or lunar maps."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The looping structure is more seamless than the previous episode.",
+      "judge": "gemma-4-31b-it",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T01:44:08+05:30",
+      "check": {
+        "duration": 49.67,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 2,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong, paradoxical start that creates immediate curiosity.",
+        "clarity": "Logical flow, well-paced, and easy to understand.",
+        "payoff": "The revelation about the spy balloons is a great twist.",
+        "visuals": "Beats 6 and 7 show an architectural drawing of a building, which is completely unrelated to space or film.",
+        "loop": "Seamless transition from the end back to the start."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The image is an architectural sketch of a building, not a spy balloon or film."
+        },
+        {
+          "beat": 7,
+          "problem": "The image is an architectural sketch of a building, not the Moon or a map."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short has a much stronger narrative payoff than the secret NASA age story.",
+      "judge": "gemma-4-31b-it",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T01:47:21+05:30",
+      "check": {
+        "duration": 49.67,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong paradoxical claim that immediately grabs attention.",
+        "clarity": "Logical progression from the mission goal to the technical solution and the irony.",
+        "payoff": "The reveal about US spy balloons is a great historical twist.",
+        "visuals": "Generally high quality, though some images are repeats (as permitted).",
+        "loop": "The final sentence mirrors the first perfectly for a seamless transition."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short has a tighter narrative structure and a more satisfying thematic loop than the previous example.",
+      "judge": "gemma-4-31b-it",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

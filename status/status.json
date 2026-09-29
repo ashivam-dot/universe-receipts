@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-09-30T01:05:55+05:30",
+  "updated_at": "2026-09-30T05:06:09+05:30",
   "day": -1,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M3QAKV58942HSR2P0EJT9E6R",
+    "id": "ta-01M3QRB59F24PG2M1N4MGSMYGR",
     "number": null,
-    "trigger": "e2e-test",
-    "started_at": "2026-09-30T01:05:15+05:30",
-    "started_at_utc": "2026-09-29T19:35:15+00:00",
-    "seconds": 40
+    "trigger": "schedule",
+    "started_at": "2026-09-30T05:05:10+05:30",
+    "started_at_utc": "2026-09-29T23:35:10+00:00",
+    "seconds": 59
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.9
+      "seconds": 2.8
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "1 posts",
-      "seconds": 0.5
+      "seconds": 0.7
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 0.9
+      "seconds": 0.6
     },
     {
       "name": "on youtube",
@@ -39,50 +39,50 @@
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep003 still working (0.0 h); ep004 still working (0.0 h)",
-      "seconds": 0.4
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "0 subscribers",
-      "seconds": 1.3
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "No new Shorts with 48+ hours of data today, so no metrics to evaluate or rules to promote.",
-      "seconds": 4.5
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.1
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 13.4
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "4 added",
-      "seconds": 15.1
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day--01.md",
-      "seconds": 0.0
+      "detail": "ep003 rejected (low scores: visuals); ep004 ready",
+      "seconds": 7.0
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.4
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.4
+    },
+    {
+      "name": "schedule ep004",
+      "ok": true,
+      "detail": "2026-10-07T20:00:00-04:00",
+      "seconds": 1.1
+    },
+    {
+      "name": "start ep005",
+      "ok": true,
+      "detail": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep006",
+      "ok": true,
+      "detail": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep007",
+      "ok": true,
+      "detail": "Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for \"towing\"",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep008",
+      "ok": true,
+      "detail": "Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022",
+      "seconds": 0.9
     },
     {
       "name": "publish",
@@ -93,16 +93,20 @@
   ],
   "errors": [],
   "owner_action": [],
-  "notes": [],
+  "notes": [
+    "only 2 Shorts made and unposted; scheduling 1 a day"
+  ],
   "inventory": {
-    "total": 1,
-    "in_buffer": 1,
+    "total": 2,
+    "in_buffer": 2,
     "waiting": 0,
     "target": 42,
     "making": [],
     "remote": [
-      "ep003",
-      "ep004"
+      "ep005",
+      "ep006",
+      "ep007",
+      "ep008"
     ]
   },
   "queue": [
@@ -110,55 +114,118 @@
       "id": "ep002",
       "title": "NASA's 1915 secret",
       "due_at": "2026-10-01T20:00:00-04:00"
-    }
-  ],
-  "waiting": [],
-  "made": [],
-  "spawned": [],
-  "in_cloud": [
-    {
-      "id": "ep003",
-      "topic": "Sputnik 1 (1957): a satellite the size of a beach ball whose beeps anyone with a shortwave radio could hear",
-      "spawned_at": "2026-09-30T01:02:56+05:30"
     },
     {
       "id": "ep004",
-      "topic": "Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons",
-      "spawned_at": "2026-09-30T01:02:56+05:30"
+      "title": "Soviet Moon Photos on US Spy Film",
+      "due_at": "2026-10-07T20:00:00-04:00"
     }
   ],
-  "published": [],
+  "waiting": [],
+  "made": [
+    {
+      "id": "ep003",
+      "outcome": "rejected",
+      "topic": "Sputnik 1 (1957): a satellite the size of a beach ball whose beeps anyone with a shortwave radio could hear",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep004",
+      "outcome": "ready",
+      "topic": "Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons",
+      "title": "Soviet Moon Photos on US Spy Film",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790713042/universereceipts/ep004-d3cf16bc.mp4"
+    }
+  ],
+  "spawned": [
+    {
+      "id": "ep005",
+      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "call_id": "fc-01M3QRD3BQHT61FZFVGVR8AYPM"
+    },
+    {
+      "id": "ep006",
+      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "call_id": "fc-01M3QRD3VASMSBCBZJM63YMSV0"
+    },
+    {
+      "id": "ep007",
+      "topic": "Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for \"towing\"",
+      "call_id": "fc-01M3QRD4CPR0K2CT2XTCKA8RKR"
+    },
+    {
+      "id": "ep008",
+      "topic": "Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022",
+      "call_id": "fc-01M3QRD5A3N34Y06BVNKRVX9C6"
+    }
+  ],
+  "in_cloud": [
+    {
+      "id": "ep005",
+      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "spawned_at": "2026-09-30T05:06:07+05:30"
+    },
+    {
+      "id": "ep006",
+      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "spawned_at": "2026-09-30T05:06:08+05:30"
+    },
+    {
+      "id": "ep007",
+      "topic": "Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for \"towing\"",
+      "spawned_at": "2026-09-30T05:06:08+05:30"
+    },
+    {
+      "id": "ep008",
+      "topic": "Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022",
+      "spawned_at": "2026-09-30T05:06:09+05:30"
+    }
+  ],
+  "published": [
+    {
+      "id": "ep004",
+      "title": "Soviet Moon Photos on US Spy Film",
+      "due_at": "2026-10-07T20:00:00-04:00"
+    }
+  ],
   "live": 0,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 3,
+    "calls": 14,
     "by_model": {
-      "gemini-3.5-flash-lite": 3
+      "gemini-3.5-flash": 1,
+      "gemini-3.5-flash-lite": 7,
+      "gemma-4-31b-it": 6
     },
-    "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 0,
+    "modal": 6,
     "runner": 0
   },
   "daily_done": "2026-09-30",
   "minutes_this_month": 6.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 0.26,
+    "metered": 0.59,
     "billed": 0.0
   },
   "modal_credit": 30.0,
-  "capacity": null,
+  "capacity": {
+    "cloud": 228,
+    "runner": 0,
+    "runner_minutes": 0,
+    "modal_credit_left": 27.41
+  },
   "made_here": 0,
-  "open_topics": 84,
-  "parked_topics": 0
+  "open_topics": 80,
+  "parked_topics": 1
 }

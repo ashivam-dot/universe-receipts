@@ -28,8 +28,8 @@ unexplained, not alien.
 | Date | Story | Series |
 |---|---|---|
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
-| Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — making (ep003) | Mission Files |
-| Oct 7 | Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons — making (ep004) | Mission Files |
+| Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
+| Oct 7 | Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons — done (ep004) | Mission Files |
 | Oct 10 | Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon | Space Got Weird |
 | Oct 15 | Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph | The Universe Is Terrifying |
 | Oct 19 | 1I/ʻOumuamua (2017): the first known visitor from another star system sped up as it left, with no visible tail | Space Got Weird |
@@ -52,7 +52,7 @@ unexplained, not alien.
 ### The Universe Is Terrifying
 
 - Boötes Void (1981): a hole in space holding just 60 galaxies where about 2,000 would be expected
-- Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022
+- Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022 — making (ep008)
 - Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away
 - HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds
 - Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare
@@ -72,7 +72,7 @@ unexplained, not alien.
 - Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe
 - Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old
 - Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself
-- Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes
+- Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — making (ep006)
 - Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away
 - Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza
 - Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there
@@ -109,7 +109,7 @@ unexplained, not alien.
 
 ### Near Misses
 
-- Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for "towing"
+- Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for "towing" — making (ep007)
 - Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged
 - 99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029
 - 2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032
@@ -132,5 +132,5 @@ unexplained, not alien.
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day
 - Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close
-- Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before
+- Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — making (ep005)
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop
