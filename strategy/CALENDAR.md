@@ -27,11 +27,11 @@ unexplained, not alien.
 
 | Date | Story | Series |
 |---|---|---|
-| Oct 1 | NASA (1958): the agency opened a year after Sputnik, built out of a 43-year-old agency called NACA — making (ep002) | Mission Files |
-| Oct 4 | Sputnik 1 (1957): a satellite the size of a beach ball whose beeps anyone with a shortwave radio could hear — making (ep003) | Mission Files |
-| Oct 7 | Luna 3 (1959): humanity's first look at the far side of the Moon | Mission Files |
+| Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — making (ep002) | Mission Files |
+| Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — making (ep003) | Mission Files |
+| Oct 7 | Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons | Mission Files |
 | Oct 10 | Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon | Space Got Weird |
-| Oct 15 | Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 60 mph | The Universe Is Terrifying |
+| Oct 15 | Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph | The Universe Is Terrifying |
 | Oct 19 | 1I/ʻOumuamua (2017): the first known visitor from another star system sped up as it left, with no visible tail | Space Got Weird |
 | Oct 21 | Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet | Space Myths, Busted |
 | Oct 22 | Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus | Mission Files |
@@ -43,9 +43,9 @@ unexplained, not alien.
 | Nov 14 | Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on | Near Misses |
 | Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away | Space Got Weird |
 | Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors | Space Got Weird |
-| Nov 20 | International Space Station (1998): its first piece launched this day; it grew into the most expensive object ever built | Mission Files |
+| Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean | Mission Files |
 | Nov 26 | InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough | Mission Files |
-| Nov 30 | Sylacauga (meteorite) (1954): the only well-documented person hit by a meteorite was napping on her couch | Space Got Weird |
+| Nov 30 | Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock | Space Got Weird |
 
 ## Backlog
 
@@ -64,17 +64,17 @@ unexplained, not alien.
 
 ### Scale Breaker
 
-- TON 618: a black hole estimated at around 40 billion Suns, first catalogued as a faint blue star
+- TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star
 - Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014
 - Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe
 - Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old
-- Pale Blue Dot (1990): Voyager 1's photo of Earth from 6 billion kilometers, where our planet is smaller than one pixel
-- Voyager 1 (1977): in late 2026 it becomes the first human-made object a full light-day from Earth
-- Olympus Mons (1971): a Martian volcano two and a half times the height of Everest and about 600 kilometers wide
+- Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself
+- Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes
+- Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away
 - Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza
-- Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need over 70,000 years to get there
+- Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there
 
 ### Mission Files
 
@@ -85,23 +85,23 @@ unexplained, not alien.
 - Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life
 - New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it
-- Hubble Space Telescope (1990): launched with a mirror polished precisely to the wrong shape, so its first pictures came back blurry
-- James Webb Space Telescope (2021): 344 single points of failure all had to work, nearly a million miles from any repair crew
-- Voyager 2 (1977): still the only spacecraft ever to visit Uranus and Neptune
+- Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum
+- James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew
+- Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune
 
 ### Space Got Weird
 
 - PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star
 - Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain
-- Hoag's Object (1950): a near-perfect ring of stars around a yellow core, and nobody is sure how it formed
-- Wow! signal (1977): a 72-second radio signal so strong the astronomer circled it and wrote Wow! in the margin
+- Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy
+- Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests
-- Betelgeuse (2019): the Great Dimming made the famous red star fade so much people wondered if it was about to explode
-- Enceladus (2005): a tiny moon of Saturn sprays jets of water into space from a hidden ocean under its ice
-- Voyager Golden Record (1977): a gold-plated record sent to aliens, with a drawing of how to play it on its cover
-- Moon tree (1971): seeds that orbited the Moon on Apollo 14 grew into trees across the US, and many were forgotten
-- Skylab (1979): when it fell on Western Australia, a local shire fined NASA $400 for littering
+- Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide
+- Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings
+- Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is
+- Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one
+- Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009
 
 ### Near Misses
 
@@ -115,7 +115,7 @@ unexplained, not alien.
 - Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months
 - 1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm
 - Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater
-- Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.3 million years
+- Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years
 
 ### Space Myths, Busted
 
@@ -124,9 +124,9 @@ unexplained, not alien.
 - Season: Earth is closest to the Sun in early January, so distance isn't what makes summer
 - Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth
-- Sun: the Sun is white; our atmosphere is what makes it look yellow
-- Meteoroid: shooting stars aren't stars at all; most are specks of space dust burning up
-- Pluto (2006): it didn't shrink; a vote by just 424 astronomers changed the rules
+- Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds
+- Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day
+- Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close
 - Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop
