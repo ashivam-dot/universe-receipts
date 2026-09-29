@@ -1,0 +1,50 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-30T00:27:32+05:30",
+      "check": {
+        "duration": 56.13,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'which began because'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong counter-intuitive claim to start.",
+        "clarity": "The narrative flow from Sputnik to NASA's origin is clear.",
+        "payoff": "The connection back to the 1915 committee provides a satisfying resolution.",
+        "visuals": "Relevant historical imagery used throughout.",
+        "loop": "Seamless transition from the end back to the beginning."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "First Short in the series, establishing a high quality baseline for historical space narratives.",
+      "judge": "gemma-4-31b-it",
+      "passed": true
+    }
+  ],
+  "best_round": 1
+}
