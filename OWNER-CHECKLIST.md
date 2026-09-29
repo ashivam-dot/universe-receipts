@@ -6,8 +6,28 @@ your phone, your card, or a sign-in. Owner: akshshivam5@gmail.com (Chrome Profil
 
 ## Needed from you
 
-Until setup finishes, the one-time sign-ups in `../YOUR-30-MINUTES-OF-CLICKS.md` (YouTube channel and phone
-verification, Google Cloud client, Gemini, Buffer, Cloudinary, Modal). After that, nothing.
+Nothing is required: every account was created by the agent on 2026-09-29 and the channel runs in the cloud.
+Three optional steps make it grow faster, in order of value:
+
+1. **Modal card, spend limit $0** (2 minutes, <https://modal.com/settings/akshshivam5/usage>): add a card, then set
+   **Spend limit** to **$0**. Nothing can be charged, and the monthly credit rises from $1 to $30, which roughly
+   triples how many Shorts the studio makes. Tell the agent afterwards (it sets `YTC_MODAL_CREDIT=30`).
+2. **Phone verification** (<https://www.youtube.com/verify>, SMS to [owner phone removed]): needed before applying for
+   monetization, not before.
+3. **ntfy on your phone:** subscribe to the topic on the `YTC_NTFY_TOPIC` line of `pipeline/.env` (the agent
+   tells you it once) for alerts and a morning summary.
+
+## Done by the agent (2026-09-29)
+
+- **Channel:** Universe Receipts (@UniverseReceipts), a Brand Account under akshshivam5@gmail.com, with picture,
+  banner, description, keywords, country India, and "not made for kids". Your Scam Autopsy channel is untouched.
+- **Google Cloud:** project `universe-receipts`, YouTube Data and Analytics APIs, OAuth app in production (home
+  page and privacy policy on GitHub Pages), signed in as the channel for stats and playlists.
+- **Gemini, Buffer, Cloudinary, Modal:** accounts on your Google address (Buffer by email: use **Forgot
+  password** at <https://login.buffer.com> if you ever want to sign in yourself). Keys in `pipeline/.env`, the Modal
+  secret, and the GitHub repository's secrets.
+- **Cloud studio:** private repository <https://github.com/ashivam-dot/universe-receipts>; Modal runs it four
+  times a day, GitHub's `studio` workflow is the backup, and `watchdog` checks every 3 hours.
 
 ## Optional extras that add reach
 
@@ -31,7 +51,7 @@ verification, Google Cloud client, Gemini, Buffer, Cloudinary, Modal). After tha
 
 ## Once a year: the Buffer key
 
-The Buffer API key expires on ... (it's made for a year at most). Before then, make a new one at
+The Buffer API key expires on 2027-09-29 (it's made for a year at most). Before then, make a new one at
 <https://publish.buffer.com/settings/api> and give it to the agent (START-HERE, rule 2), which puts it in
 the three places below. If it lapses, Buffer rejects the studio's posts and ntfy says so.
 
