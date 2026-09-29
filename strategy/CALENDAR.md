@@ -27,8 +27,8 @@ unexplained, not alien.
 
 | Date | Story | Series |
 |---|---|---|
-| Oct 1 | NASA (1958): the agency opened a year after Sputnik, built out of a 43-year-old agency called NACA | Mission Files |
-| Oct 4 | Sputnik 1 (1957): a satellite the size of a beach ball whose beeps anyone with a shortwave radio could hear | Mission Files |
+| Oct 1 | NASA (1958): the agency opened a year after Sputnik, built out of a 43-year-old agency called NACA — making (ep002) | Mission Files |
+| Oct 4 | Sputnik 1 (1957): a satellite the size of a beach ball whose beeps anyone with a shortwave radio could hear — making (ep003) | Mission Files |
 | Oct 7 | Luna 3 (1959): humanity's first look at the far side of the Moon | Mission Files |
 | Oct 10 | Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon | Space Got Weird |
 | Oct 15 | Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 60 mph | The Universe Is Terrifying |
