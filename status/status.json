@@ -1,28 +1,34 @@
 {
-  "updated_at": "2026-09-30T01:02:56+05:30",
+  "updated_at": "2026-09-30T01:05:55+05:30",
   "day": -1,
   "result": "ok",
   "run": {
-    "host": "github-actions",
-    "id": "36619912134",
-    "number": "3",
-    "trigger": "workflow_dispatch",
-    "started_at": "2026-09-30T01:02:44+05:30",
-    "started_at_utc": "2026-09-29T19:32:44+00:00",
-    "seconds": 12
+    "host": "modal",
+    "id": "ta-01M3QAKV58942HSR2P0EJT9E6R",
+    "number": null,
+    "trigger": "e2e-test",
+    "started_at": "2026-09-30T01:05:15+05:30",
+    "started_at_utc": "2026-09-29T19:35:15+00:00",
+    "seconds": 40
   },
   "stages": [
     {
+      "name": "deploy",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.9
+    },
+    {
       "name": "sync",
       "ok": true,
-      "detail": "0 posts",
-      "seconds": 0.7
+      "detail": "1 posts",
+      "seconds": 0.5
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 0.5
+      "seconds": 0.9
     },
     {
       "name": "on youtube",
@@ -33,8 +39,44 @@
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep002 ready",
-      "seconds": 4.2
+      "detail": "ep003 still working (0.0 h); ep004 still working (0.0 h)",
+      "seconds": 0.4
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "0 subscribers",
+      "seconds": 1.3
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "No new Shorts with 48+ hours of data today, so no metrics to evaluate or rules to promote.",
+      "seconds": 4.5
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.1
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 13.4
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "4 added",
+      "seconds": 15.1
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day--01.md",
+      "seconds": 0.0
     },
     {
       "name": "buffer channel",
@@ -46,44 +88,12 @@
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
-    },
-    {
-      "name": "schedule ep002",
-      "ok": true,
-      "detail": "2026-10-01T20:00:00-04:00",
-      "seconds": 1.0
-    },
-    {
-      "name": "deploy",
-      "ok": true,
-      "detail": "",
-      "seconds": 2.1
-    },
-    {
-      "name": "start ep003",
-      "ok": true,
-      "detail": "Sputnik 1 (1957): a satellite the size of a beach ball whose beeps anyone with a shortwave radio could hear",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep004",
-      "ok": true,
-      "detail": "Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons",
-      "seconds": 0.5
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
       "seconds": 0.0
     }
   ],
   "errors": [],
   "owner_action": [],
-  "notes": [
-    "only 1 Shorts made and unposted; scheduling 1 a day"
-  ],
+  "notes": [],
   "inventory": {
     "total": 1,
     "in_buffer": 1,
@@ -103,34 +113,8 @@
     }
   ],
   "waiting": [],
-  "made": [
-    {
-      "id": "ep002",
-      "outcome": "ready",
-      "topic": "NASA (1958): the agency opened a year after Sputnik, built out of a 43-year-old agency called NACA",
-      "title": "NASA's 1915 secret",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790708253/universereceipts/ep002-be3ddf58.mp4"
-    }
-  ],
-  "spawned": [
-    {
-      "id": "ep003",
-      "topic": "Sputnik 1 (1957): a satellite the size of a beach ball whose beeps anyone with a shortwave radio could hear",
-      "call_id": "fc-01M3QAFSTA58541WZCZ522XY40"
-    },
-    {
-      "id": "ep004",
-      "topic": "Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons",
-      "call_id": "fc-01M3QAFTAPK3K07T21WBFJY9V2"
-    }
-  ],
+  "made": [],
+  "spawned": [],
   "in_cloud": [
     {
       "id": "ep003",
@@ -143,44 +127,38 @@
       "spawned_at": "2026-09-30T01:02:56+05:30"
     }
   ],
-  "published": [
-    {
-      "id": "ep002",
-      "title": "NASA's 1915 secret",
-      "due_at": "2026-10-01T20:00:00-04:00"
-    }
-  ],
+  "published": [],
   "live": 0,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 5,
+    "calls": 3,
     "by_model": {
-      "gemini-3-flash-preview": 3,
-      "gemini-3.5-flash-lite": 1,
-      "gemma-4-31b-it": 1
+      "gemini-3.5-flash-lite": 3
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3-flash-preview",
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash",
+      "gemini-flash-latest"
+    ]
   },
   "renders": {
-    "modal": 1,
+    "modal": 0,
     "runner": 0
   },
-  "daily_done": null,
-  "minutes_this_month": 6.2060742005,
+  "daily_done": "2026-09-30",
+  "minutes_this_month": 6.0,
   "minutes_budget": 2000,
   "modal_cost": {
     "metered": 0.26,
     "billed": 0.0
   },
   "modal_credit": 30.0,
-  "capacity": {
-    "cloud": 231,
-    "runner": 6,
-    "runner_minutes": 120,
-    "modal_credit_left": 27.74
-  },
+  "capacity": null,
   "made_here": 0,
-  "open_topics": 80,
+  "open_topics": 84,
   "parked_topics": 0
 }

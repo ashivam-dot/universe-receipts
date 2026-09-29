@@ -61,6 +61,7 @@ unexplained, not alien.
 - Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all
 - Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece
 - Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty
+- R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot
 
 ### Scale Breaker
 
@@ -88,6 +89,8 @@ unexplained, not alien.
 - Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum
 - James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew
 - Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune
+- Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it
+- Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload
 
 ### Space Got Weird
 
@@ -102,6 +105,7 @@ unexplained, not alien.
 - Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009
+- SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars
 
 ### Near Misses
 

@@ -25,11 +25,9 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 
 ## Hypotheses to test (from research, not yet our data)
 
-- Put the strongest surprise in the first 2 seconds, then give context. It was the first rule proven on
-  Days of Odd, the channel this studio was built for.
-- Cut each Short to 45–59 seconds (vidIQ: that length reaches 1M views more often).
-- Write a last line that flows straight into the first line, so viewers rewatch and average percentage
-  viewed rises.
+- Put the strongest surprise in the first 2 seconds, then give context.
+- Cut each Short to 45–59 seconds to maximize reach potential.
+- Write a last line that flows straight into the first line to increase average percentage viewed.
 
 ## Scoreboard
 
@@ -42,3 +40,4 @@ contradiction.
 ## Log
 
 - Day 0: the studio is set up. Nothing to learn from yet.
+- 2026-09-30: No new Shorts with 48+ hours of data today, so no metrics to evaluate or rules to promote.
