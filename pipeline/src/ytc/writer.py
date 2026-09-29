@@ -247,6 +247,9 @@ def normalize(script: dict, research: dict | None = None) -> dict:
     return script
 
 
+DANGLING_END = r"\b(because|when|until|that|and|but|so|as|while|after|before|if|since|which|with|of|to|the|a)\W*$"
+
+
 def problems(script: dict, research: dict) -> list[str]:
     """Every way the draft breaks the script rules, as instructions for a rewrite."""
     found = []
@@ -262,6 +265,9 @@ def problems(script: dict, research: dict) -> list[str]:
             found.append(f"The hook (beat 1) must be 12 words or fewer (it has {word_count(hook)}).")
         if re.match(r"\s*(did you know|hey|hi|welcome)", hook, re.I) or "universe receipts" in hook.lower():
             found.append("The hook must open inside the story: no 'Did you know', greeting, or channel name.")
+        if re.search(DANGLING_END, spoken(beats[-1]["text"]), re.I):
+            found.append("The last beat must be a complete sentence that echoes beat 1, not end on a dangling word "
+                         "such as 'because', 'when', 'until', or 'that'.")
     title = script.get("title", "")
     if len(title) > 60:
         found.append(f"The title must be 60 characters or fewer (it has {len(title)}).")
