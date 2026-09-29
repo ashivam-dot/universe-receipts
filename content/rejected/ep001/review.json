@@ -1,0 +1,213 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-29T23:50:07+05:30",
+      "check": {
+        "duration": 46.9,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'11th' heard as '11' after 'launched on april'",
+          "'haise' heard as 'hayes' after 'lovell with fred'",
+          "'swigert' heard as 'swijert' after 'haise and jack'",
+          "'swigert' heard as 'swijert' after 'an explosion jack'",
+          "'17th' heard as '17' after 'ocean on april'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "The high-stakes opening statement effectively creates immediate tension.",
+        "clarity": "Narrative follows a clear, logical chronological sequence.",
+        "payoff": "Historical resolution is satisfying though lacks a surprising twist.",
+        "visuals": "Uses authentic imagery, but technical diagrams are cluttered.",
+        "loop": "The transition between the end and start is grammatically jarring."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Diagram contains dense text labels unreadable on mobile screens."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Swigert",
+          "respelling": "swig gert"
+        },
+        {
+          "beat": 4,
+          "word": "Swigert",
+          "respelling": "swig gert"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: Two hundred thousand miles from Earth, an oxygen tank exploded because",
+        "Beat 8: They splashed down safely on April seventeenth, but the nightmare began when"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-09-29T23:59:46+05:30",
+      "check": {
+        "duration": 46.73,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'11th' heard as '11' after 'launched on april'",
+          "'haise' heard as 'hayes' after 'lovell with fred'",
+          "'swigert' heard as 'swijert' after 'haise and jack'",
+          "'swigert' heard as 'swijert' after 'massive explosion jack'",
+          "'17th' heard as '17' after 'safely on april'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "High stakes and immediate action create a strong opening.",
+        "clarity": "The initial jump from explosion back to launch is slightly disjointed.",
+        "payoff": "The 'mailbox' solution is a compelling technical resolution.",
+        "visuals": "Technical diagrams in foreign languages reduce professional quality.",
+        "loop": "The trailing 'because' creates a logical disconnect between beats."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Visual shows a launch while the script and text describe an explosion."
+        },
+        {
+          "beat": 3,
+          "problem": "The diagram is in Spanish and the text is too small for mobile."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Haise",
+          "respelling": "hize"
+        },
+        {
+          "beat": 2,
+          "word": "Swigert",
+          "respelling": "swig gurt"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: Change to 'Two hundred thousand miles from Earth, an oxygen tank exploded.'",
+        "Beat 2: Change to 'It happened after Apollo thirteen launched on April eleventh, 1970.'",
+        "Beat 8: Change to 'They splashed down safely on April seventeenth, but the crisis began when'"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T00:07:45+05:30",
+      "check": {
+        "duration": 47.87,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "'11th' heard as '11' after 'launched on april'",
+          "'haise' heard as 'hayes' after 'lovell with fred'",
+          "'swigert' heard as 'swijert' after 'haise and jack'",
+          "'swigert' heard as 'swijert' after 'massive explosion jack'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong dramatic premise, though the trailing connector is awkward.",
+        "clarity": "Logical and straightforward chronological flow.",
+        "payoff": "The improvised adapter provides a solid survival payoff.",
+        "visuals": "Historical assets are relevant, though beat 1 uses launch imagery for deep space.",
+        "loop": "The sentence connection between end and beginning is slightly clunky."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Shows launch pad rather than deep space."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Swigert",
+          "respelling": "swy gert"
+        },
+        {
+          "beat": 4,
+          "word": "Swigert",
+          "respelling": "swy gert"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: Two hundred thousand miles from Earth, Apollo thirteen suffered a catastrophic explosion.",
+        "Beat 8: They splashed down safely after an ordeal that began when"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, visuals, loop",
+  "rejected_at": "2026-09-30T00:07:45+05:30"
+}

@@ -24,7 +24,7 @@ voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: An oxygen tank exploded two hundred thousand miles from Earth, all because
+- text: Two hundred thousand miles from Earth, an oxygen tank exploded because
   emphasis:
   - oxygen tank exploded
   sfx: whoosh
@@ -42,12 +42,18 @@ beats:
     - color
     motion: zoom_out
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.45
+    box:
+    - 0.35
+    - 0.3
+    - 0.55
+    - 0.85
     card:
       kind: fact
       big: 200,000 miles
       small: From Earth
-- text: Apollo thirteen launched on April eleventh, 1970, commanded by Jim Lovell, with Fred Haise and Jack Swigert.
+- text: It happened after Apollo thirteen launched on April eleventh, 1970, commanded by Jim Lovell, with Fred Haise and Jack
+    Swigert.
   emphasis:
   - Jim Lovell
   - Jack Swigert
@@ -66,14 +72,19 @@ beats:
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
+    box:
+    - 0.1
+    - 0.1
+    - 0.95
+    - 0.9
     card:
       kind: dateline
       big: April 11, 1970
       small: Apollo 13 Launch
-- text: Fifty-six hours into the mission, a routine oxygen tank stir triggered an explosion.
+- text: Fifty-six hours into the mission, a routine oxygen tank stir triggered a massive explosion.
   emphasis:
   - routine oxygen tank stir
-  - triggered an explosion
+  - triggered a massive explosion
   sfx: riser
   visual:
     source: url
@@ -102,41 +113,41 @@ beats:
       big: Houston, we've had a problem here.
       small: Jack Swigert
     motion: zoom_in
-- text: The blast crippled power and vented all oxygen from the service module.
+- text: The sudden blast crippled electrical power and vented all oxygen from the service module.
   emphasis:
-  - crippled power
+  - crippled electrical power
   - vented all oxygen
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/d/dc/Apollo_13_SM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b1/Modulo_Servi%C3%A7o_Danificado_Apollo_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Apollo 13 SM.jpg
-      credit: NASA Astronaut (either James A. Lovell, John L. Swigert, or Fred W. Haise)
+      title: Modulo Serviço Danificado Apollo 13.jpg
+      credit: NASA/Apollo 13
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Apollo_13_SM.jpg
+      url: https://commons.wikimedia.org/wiki/File:Modulo_Servi%C3%A7o_Danificado_Apollo_13.jpg
     fallbacks:
     - color
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: The crew scrambled into the tiny lunar module, using it as a lifeboat.
+- text: The crew scrambled into the tiny lunar module, using it as a life-saving lifeboat.
   emphasis:
   - lunar module
   - lifeboat
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Apollo_13_Lunar_Module_after_separation_from_CSM_%28AS13-59-8562%29.jpg/3840px-Apollo_13_Lunar_Module_after_separation_from_CSM_%28AS13-59-8562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/8/86/Apollo_13_Lunar_Module.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Apollo 13 Lunar Module after separation from CSM (AS13-59-8562).jpg
+      title: Apollo 13 Lunar Module.jpg
       credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Apollo_13_Lunar_Module_after_separation_from_CSM_(AS13-59-8562).jpg
+      url: https://commons.wikimedia.org/wiki/File:Apollo_13_Lunar_Module.jpg
     fallbacks:
     - color
-    motion: zoom_in
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
 - text: Engineers and astronauts created a duct-tape adapter called the mailbox to scrub lethal carbon dioxide.
@@ -159,13 +170,14 @@ beats:
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: They looped around the Moon and splashed down safely in the Pacific Ocean on April seventeenth, 1970,
+- text: They splashed down safely on April seventeenth, but the crisis began when
   emphasis:
-  - looped around the Moon
   - splashed down safely
+  - crisis began
   sfx: whoosh
   visual:
     reuse: 1
     motion: zoom_in
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.45
+hook_text: 3 ASTRONAUTS, 1 DYING SHIP
