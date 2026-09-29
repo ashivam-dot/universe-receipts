@@ -105,7 +105,7 @@ unexplained, not alien.
 
 ### Near Misses
 
-- Apollo 13 (1970): an oxygen tank exploded on the way to the Moon, and the crew used their lunar module as a lifeboat
+- Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for "towing"
 - Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged
 - 99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029
 - 2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032

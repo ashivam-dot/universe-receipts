@@ -25,9 +25,14 @@ Folder: `content/episodes/<id>/` (ids are `ep001`, `ep002`, ...).
   opens a question the rest of the Short answers ("An oxygen tank exploded 200,000 miles from Earth."; "There is
   a star that seems to be made partly of rare metals."). No "Did you know", no greeting, no channel name, no
   question the Short can't answer. Open inside the story.
-- **Shape:** hook, then context, 2–3 escalating beats, a twist or payoff, and a last line that flows back
-  into the first line so the Short loops cleanly ("...and NASA still calls it a successful failure, all
-  because" / "An oxygen tank exploded 200,000 miles from Earth.").
+- **Shape:** hook, then context, 2–3 escalating beats, a twist or payoff, and a last line that loops back to
+  the first. The twist is the fact a curious viewer is least likely to already know. For a famous subject
+  (Apollo 13, Voyager, Pluto), build the Short around its least-known true detail rather than retelling the
+  familiar story in order: reviewers score a well-told but well-known story 3 on payoff.
+- **Loop:** the last line is a complete sentence on its own that echoes the hook's image or question, so
+  replaying the hook feels like the next line ("It was built to last 32 minutes." / "A Soviet lander kept
+  talking from the surface of Venus for 127 minutes."). Never end on a dangling "because", "when", "until",
+  or "that": the reviewer scores it 2 or 3 as jarring.
 - **Clarity:** one idea per beat. After the hook, tell events in the order they happened; for a fact Short,
   build from the familiar to the mind-bending. Introduce each person the first time with who they are
   ("Apollo 13 commander Jim Lovell"), and name at most 3 people in a Short. Explain any object type in a few

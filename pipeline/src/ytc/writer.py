@@ -112,10 +112,13 @@ Write the episode:
 - hooks: three candidate first lines in different styles, each 12 words or fewer, opening inside the story
   on its most surprising true fact. Use the strongest as beat 1 and name its style in hook_style.
 - beats: 6 to 9 beats and 105 to 135 spoken words in total, one or two short sentences each. The shape is
-  hook, context, 2 or 3 escalating beats, a twist or payoff near the end, and a last beat that runs straight
-  into beat 1 as one sentence when the Short loops (a last beat ending "...and NASA still calls it a successful
-  failure, all because" loops into a first beat "An oxygen tank exploded 200,000 miles from Earth."). Set loop to
-  true when it does.
+  hook, context, 2 or 3 escalating beats, a twist or payoff near the end, and a last beat that loops back to
+  beat 1. The twist is the claim a curious viewer is least likely to know already; for a famous subject, build
+  the Short around its least-known true detail instead of retelling the familiar story in order.
+- The loop: the last beat is a complete, grammatical sentence on its own that echoes beat 1's image or question,
+  so replaying beat 1 feels like the natural next line (a last beat "It was built to last 32 minutes." before a
+  first beat "A Soviet lander kept talking from the surface of Venus for 127 minutes."). Never end on a dangling
+  word such as "because", "when", "until", or "that". Set loop to true when it loops.
 - Each beat: claims lists the numbers of the claims it states (the last beat may reuse the hook's);
   emphasis has 1 or 2 words or short phrases copied exactly from that beat's text; sfx is "whoosh" on up to 3
   scene changes, "pop" on up to 2 punchlines, "riser" once just before the twist, otherwise "none";

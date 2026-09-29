@@ -86,7 +86,8 @@ For every beat:
   exoplanet's surface, a black hole close up), but a real photo of the subject always ranks above it. Never: an
   unrelated or wrong picture (a different object, mission, or spacecraft; an illustration passed off as a photo of
   something that has been photographed), sci-fi or movie stills, corpses, wounds, executions, gore, nudity, a
-  large watermark, or a page of text unless the line is about that document. Leave ranked empty when nothing
+  large watermark, a diagram whose labels are small or not in English, or a page of text unless the line is
+  about that document. Leave ranked empty when nothing
   qualifies.
 - fit: how well your first choice fits its line: "exact" (it shows what the line names), "close" (the same
   subject from another angle, instrument, or moment), "scene" (it only sets the scene), or "none".
@@ -110,8 +111,8 @@ VERIFY_PROMPT = """Check the pictures chosen for a space Short before it is made
 narration and the picture chosen for it. Mark a picture not ok only for a clear problem: it shows a different
 object, spacecraft, mission, person, or place than the line is about; it is from the wrong mission or era (a
 modern rocket for a 1960s line); it is a sci-fi or movie still; it shows corpses, wounds, gore, or nudity; it has
-a large watermark; it is mostly text though the line isn't about a document; or it is too damaged or blurry to
-make out. A real picture that sets the scene is ok, and so is an artist's concept of something never
+a large watermark; it is mostly text though the line isn't about a document; it is a diagram whose labels are
+small or not in English; or it is too damaged or blurry to make out. A real picture that sets the scene is ok, and so is an artist's concept of something never
 photographed.
 Give the problem in a few words, or "" when it is ok.
 
