@@ -9,9 +9,7 @@ your phone, your card, or a sign-in. Owner: akshshivam5@gmail.com (Chrome Profil
 Nothing is required: every account was created by the agent on 2026-09-29 and the channel runs in the cloud.
 Three optional steps make it grow faster, in order of value:
 
-1. **Modal card, spend limit $0** (2 minutes, <https://modal.com/settings/akshshivam5/usage>): add a card, then set
-   **Spend limit** to **$0**. Nothing can be charged, and the monthly credit rises from $1 to $30, which roughly
-   triples how many Shorts the studio makes. Tell the agent afterwards (it sets `YTC_MODAL_CREDIT=30`).
+1. ~~Modal card, spend limit $0~~: done 2026-09-30 ($30 a month of credit, spend limit $0).
 2. **Phone verification** (<https://www.youtube.com/verify>, SMS to [owner phone removed]): needed before applying for
    monetization, not before.
 3. **ntfy on your phone:** subscribe to the topic on the `YTC_NTFY_TOPIC` line of `pipeline/.env` (the agent

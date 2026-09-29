@@ -91,6 +91,7 @@ Start here: `PLAYBOOK.md` (the daily routine), `strategy/STRATEGY.md`, `strategy
 | 2026-09-29 | Phone verification deferred | It needs the SMS code on the owner's phone. Shorts don't need it; the Partner Program application does. Tracked in `OWNER-CHECKLIST.md` |
 | 2026-09-29 | `llm._configured` counts Gemini models only when `YTC_GEMINI_API_KEY` is set, so without the key the ladder falls through to the keyless backups instead of failing | The first local test had no key and stopped at the first Gemini call |
 | 2026-09-29 | First cloud run (GitHub `studio`, run 1): deployed the Modal app with its schedule and started ep001 (Apollo 13), ep002 (NASA's founding, Oct 1 anniversary), ep003 (Sputnik 1, Oct 4) on Modal; the watchdog ran clean | Modal's Starter plan without a card gives $1 a month, so most Shorts will be made on GitHub's runner until a card is added with a $0 spend limit |
+| 2026-09-30 | Modal: the owner added a card (Starter plan, $30 of credit a month); the agent set the spend limit to $0 and `YTC_MODAL_CREDIT=30` in `pipeline/.env`, the Modal secret, and the GitHub variable | Modal's default usage limit was $42.50, which would have allowed $12.50 of charges. At $0, work stops when the credit runs out and nothing is charged. $30 covers about 230 Shorts a month, so every Short is made on Modal |
 
 ## Layout
 
