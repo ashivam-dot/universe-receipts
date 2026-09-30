@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-09-30T23:06:03+05:30",
-  "day": -1,
+  "updated_at": "2026-10-01T05:05:40+05:30",
+  "day": 0,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M3SP4P8S2VGG64000PZZKHZR",
+    "id": "ta-01M3TAQW05WS6T3RS71SJW31WR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-09-30T23:05:15+05:30",
-    "started_at_utc": "2026-09-30T17:35:15+00:00",
-    "seconds": 48
+    "started_at": "2026-10-01T05:05:11+05:30",
+    "started_at_utc": "2026-09-30T23:35:11+00:00",
+    "seconds": 29
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 4.0
+      "seconds": 1.8
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "3 posts",
-      "seconds": 0.9
+      "detail": "4 posts",
+      "seconds": 0.5
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 0.9
+      "seconds": 0.7
     },
     {
       "name": "on youtube",
@@ -39,62 +39,56 @@
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep005 rejected (low scores: payoff, visuals, loop); ep009 ready; ep010 rejected (low scores: payoff, visuals); ep011 rejected (low scores: hook, payoff, visuals; 2 frame problems)",
-      "seconds": 20.9
+      "detail": "ep012 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep013 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep014 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash'",
+      "seconds": 13.0
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.8
+      "seconds": 0.2
     },
     {
       "name": "preflight ep002",
       "ok": true,
-      "detail": "video downloads whole (22 MB in 2 s)",
-      "seconds": 2.0
+      "detail": "video still hosted",
+      "seconds": 0.5
     },
     {
       "name": "preflight ep008",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.1
+      "seconds": 0.8
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
-    },
-    {
-      "name": "schedule ep009",
-      "ok": true,
-      "detail": "2026-10-02T19:00:00-04:00",
-      "seconds": 1.4
+      "seconds": 0.1
     },
     {
       "name": "start ep012",
       "ok": true,
       "detail": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "seconds": 1.4
+      "seconds": 1.2
     },
     {
       "name": "start ep013",
       "ok": true,
       "detail": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
-      "seconds": 1.7
+      "seconds": 1.1
     },
     {
       "name": "start ep014",
       "ok": true,
       "detail": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "seconds": 1.3
+      "seconds": 1.2
     },
     {
-      "name": "start ep015",
+      "name": "start ep016",
       "ok": true,
-      "detail": "James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew",
-      "seconds": 1.6
+      "detail": "Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum",
+      "seconds": 0.6
     },
     {
       "name": "publish",
@@ -106,7 +100,9 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "only 4 Shorts made and unposted; scheduling 1 a day"
+    "ep012 stopped on Gemini's free quota; it resumes in a later run",
+    "ep013 stopped on Gemini's free tier being overloaded; it resumes in a later run",
+    "ep014 stopped on Gemini's free tier being overloaded; it resumes in a later run"
   ],
   "inventory": {
     "total": 4,
@@ -118,7 +114,7 @@
       "ep012",
       "ep013",
       "ep014",
-      "ep015"
+      "ep016"
     ]
   },
   "queue": [
@@ -146,122 +142,112 @@
   "waiting": [],
   "made": [
     {
-      "id": "ep005",
-      "outcome": "rejected",
-      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "reason": "low scores: payoff, visuals, loop"
+      "id": "ep012",
+      "outcome": "unfinished",
+      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep009",
-      "outcome": "ready",
-      "topic": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
-      "title": "The Solar Storm That Powered the Telegraph",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790768322/universereceipts/ep009-1f57acd9.mp4"
+      "id": "ep013",
+      "outcome": "unfinished",
+      "topic": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
+      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
+      "quota": false,
+      "overloaded": true
     },
     {
-      "id": "ep010",
-      "outcome": "rejected",
-      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
-      "reason": "low scores: payoff, visuals"
+      "id": "ep014",
+      "outcome": "unfinished",
+      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
+      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
+      "quota": false,
+      "overloaded": true
     },
     {
-      "id": "ep011",
+      "id": "ep015",
       "outcome": "rejected",
-      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "reason": "low scores: hook, payoff, visuals; 2 frame problems"
+      "topic": "James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew",
+      "reason": "research: only 6 claims have two different sites"
     }
   ],
   "spawned": [
     {
       "id": "ep012",
       "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "call_id": "fc-01M3SP6B27EQ24Y61AX556ZS35"
+      "call_id": "fc-01M3TARWW671M8TRB2VPAS95SC"
     },
     {
       "id": "ep013",
       "topic": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
-      "call_id": "fc-01M3SP6CQDC9YK65J0MPENAFZ9"
+      "call_id": "fc-01M3TARXZY5VBQPSYP9MEV1W37"
     },
     {
       "id": "ep014",
       "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "call_id": "fc-01M3SP6E11YSQS87W1QKJY5Q6H"
+      "call_id": "fc-01M3TARZ4KNZN0BJRZT3N2J8TJ"
     },
     {
-      "id": "ep015",
-      "topic": "James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew",
-      "call_id": "fc-01M3SP6FKE36PCHJ76W3FSAV1C"
+      "id": "ep016",
+      "topic": "Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum",
+      "call_id": "fc-01M3TARZQXZB5J95YJ5KDC7D7M"
     }
   ],
   "in_cloud": [
     {
       "id": "ep012",
       "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "spawned_at": "2026-09-30T23:05:58+05:30"
+      "spawned_at": "2026-10-01T05:05:37+05:30"
     },
     {
       "id": "ep013",
       "topic": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
-      "spawned_at": "2026-09-30T23:05:59+05:30"
+      "spawned_at": "2026-10-01T05:05:38+05:30"
     },
     {
       "id": "ep014",
       "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "spawned_at": "2026-09-30T23:06:01+05:30"
+      "spawned_at": "2026-10-01T05:05:40+05:30"
     },
     {
-      "id": "ep015",
-      "topic": "James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew",
-      "spawned_at": "2026-09-30T23:06:02+05:30"
+      "id": "ep016",
+      "topic": "Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum",
+      "spawned_at": "2026-10-01T05:05:40+05:30"
     }
   ],
-  "published": [
-    {
-      "id": "ep009",
-      "title": "The Solar Storm That Powered the Telegraph",
-      "due_at": "2026-10-02T19:00:00-04:00"
-    }
-  ],
+  "published": [],
   "live": 0,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 16,
+    "calls": 23,
     "by_model": {
-      "gemini-3.5-flash": 5,
-      "gemini-3.6-flash": 3,
-      "gemini-3-flash-preview": 3,
-      "gemini-3.5-flash-lite": 4,
-      "gemini-3.7-flash": 1
+      "gemini-3.5-flash-lite": 19,
+      "gemini-3-flash-preview": 2,
+      "gemini-3.5-flash": 2
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 9,
+    "modal": 5,
     "runner": 0
   },
   "daily_done": "2026-09-30",
   "minutes_this_month": 6.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 3.01,
+    "metered": 3.44,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 208,
+    "cloud": 204,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 24.99
+    "modal_credit_left": 24.56
   },
   "made_here": 0,
-  "open_topics": 73,
+  "open_topics": 72,
   "parked_topics": 5
 }

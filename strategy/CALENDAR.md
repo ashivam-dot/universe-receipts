@@ -86,8 +86,8 @@ unexplained, not alien.
 - Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life
 - New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it
-- Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum
-- James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew — making (ep015)
+- Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum — making (ep016)
+- James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew — dropped (ep015)
 - Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune
 - Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it
 - Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload

@@ -1,0 +1,68 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-30T23:21:12+05:30",
+      "check": {
+        "duration": 55.73,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'electroplated' heard as 'electriplated' after 'nasa'",
+          "'(nothing)' heard as 'you' after 'the exact age'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong opening that highlights a surprising material on a famous artifact.",
+        "clarity": "The explanation of radiometric dating for aliens is handled very logically.",
+        "payoff": "Provides a solid technical reason for the uranium that adds depth to the mission.",
+        "visuals": "Most frames are iconic, but one uses the wrong mission's diagram.",
+        "loop": "The transition is conceptually sound but grammatically slightly disjointed."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows the Pioneer plaque instead of the Voyager record cover map."
+        },
+        {
+          "beat": 7,
+          "problem": "Diagram contains Japanese text which is distracting and unclear."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "electroplated",
+          "respelling": "ee lek tro play ted"
+        }
+      ],
+      "rewrite": [
+        "Beat 9: No matter how long it drifts, this silent atomic clock proves that"
+      ],
+      "better_than_last": "This script explains radiometric dating more simply than the physics in the solar storm episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

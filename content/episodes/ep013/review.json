@@ -1,0 +1,58 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-30T23:19:29+05:30",
+      "check": {
+        "duration": 49.22,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'plain' heard as 'plane' after 'appears as a'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The paradoxical opening creates immediate curiosity about how a mountain can be 'invisible'.",
+        "clarity": "The explanation of the horizon distance makes the scale of the volcano very easy to grasp.",
+        "payoff": "The revelation that the horizon is only three kilometers away is a perfect 'mind-bending' fact.",
+        "visuals": "Several frames use confusing stock imagery or contain visible watermarks.",
+        "loop": "The repetition of the hook at the end creates a perfectly circular narrative."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The frame shows wind-blown sand dunes which are unrelated to the specific 5 percent slope of a rocky Martian shield volcano."
+        },
+        {
+          "beat": 7,
+          "problem": "Contains a visible credit watermark in the bottom left corner."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The narrative hook is much stronger and more focused than the technical history presented in the Soviet Moon Photos episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
