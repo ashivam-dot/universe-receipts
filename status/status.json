@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-09-30T11:06:01+05:30",
+  "updated_at": "2026-09-30T17:05:35+05:30",
   "day": -1,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M3RCYB726PF20S95WP2WTPBR",
+    "id": "ta-01M3S1HH3X9YWPE59ZB1W6AV5R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-09-30T11:05:17+05:30",
-    "started_at_utc": "2026-09-30T05:35:17+00:00",
-    "seconds": 44
+    "started_at": "2026-09-30T17:05:10+05:30",
+    "started_at_utc": "2026-09-30T11:35:10+00:00",
+    "seconds": 25
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.4
+      "seconds": 1.9
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "2 posts",
-      "seconds": 1.3
+      "detail": "3 posts",
+      "seconds": 0.4
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 0.7
+      "seconds": 0.8
     },
     {
       "name": "on youtube",
@@ -39,50 +39,50 @@
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep005 unfinished (RuntimeError: ep005 script still breaks the rules: [\"The last beat must be a complete sentence that echoes beat 1, not end on a dangling word such as 'because', 'when', 'until', or 'that'.\"]); ep006 rejected (low scores: visuals; duration 58.67 s is outside 35-58 s); ep007 rejected (research: The provided sources do not contain any mention of Grumman sending a towing invoice to the command module's maker, making the core topic unverifiable using only the given sources.); ep008 ready",
-      "seconds": 22.1
+      "detail": "ep005 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep009 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep010 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash'",
+      "seconds": 9.3
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.4
+      "seconds": 0.3
+    },
+    {
+      "name": "preflight ep008",
+      "ok": true,
+      "detail": "video downloads whole (16 MB in 0 s)",
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.3
-    },
-    {
-      "name": "schedule ep008",
-      "ok": true,
-      "detail": "2026-09-30T20:00:00-04:00",
-      "seconds": 1.2
+      "seconds": 0.1
     },
     {
       "name": "start ep005",
       "ok": true,
       "detail": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "seconds": 2.1
+      "seconds": 0.4
     },
     {
       "name": "start ep009",
       "ok": true,
       "detail": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
-      "seconds": 2.7
+      "seconds": 0.3
     },
     {
       "name": "start ep010",
       "ok": true,
       "detail": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
-      "seconds": 2.8
+      "seconds": 0.2
     },
     {
       "name": "start ep011",
       "ok": true,
       "detail": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "seconds": 1.3
+      "seconds": 0.3
     },
     {
       "name": "publish",
@@ -94,7 +94,10 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "only 3 Shorts made and unposted; scheduling 1 a day"
+    "ep005 stopped on Gemini's free tier being overloaded; it resumes in a later run",
+    "ep009 stopped on Gemini's free quota; it resumes in a later run",
+    "ep010 stopped on Gemini's free tier being overloaded; it resumes in a later run",
+    "ep011 stopped on Gemini's free tier being overloaded; it resumes in a later run"
   ],
   "inventory": {
     "total": 3,
@@ -132,119 +135,110 @@
       "id": "ep005",
       "outcome": "unfinished",
       "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "reason": "RuntimeError: ep005 script still breaks the rules: [\"The last beat must be a complete sentence that echoes beat 1, not end on a dangling word such as 'because', 'when', 'until', or 'that'.\"]",
+      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
       "quota": false,
+      "overloaded": true
+    },
+    {
+      "id": "ep009",
+      "outcome": "unfinished",
+      "topic": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep006",
-      "outcome": "rejected",
-      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "reason": "low scores: visuals; duration 58.67 s is outside 35-58 s"
+      "id": "ep010",
+      "outcome": "unfinished",
+      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
+      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
+      "quota": false,
+      "overloaded": true
     },
     {
-      "id": "ep007",
-      "outcome": "rejected",
-      "topic": "Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for \"towing\"",
-      "reason": "research: The provided sources do not contain any mention of Grumman sending a towing invoice to the command module's maker, making the core topic unverifiable using only the given sources."
-    },
-    {
-      "id": "ep008",
-      "outcome": "ready",
-      "topic": "Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022",
-      "title": "The Terrifying Truth of Our Galaxy's Black Hole",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790727205/universereceipts/ep008-59661081.mp4"
+      "id": "ep011",
+      "outcome": "unfinished",
+      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
+      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
+      "quota": false,
+      "overloaded": true
     }
   ],
   "spawned": [
     {
       "id": "ep005",
       "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "call_id": "fc-01M3RCZVPABJV5AER722GFZVS3"
+      "call_id": "fc-01M3S1JDYTJG8NC42CA5R8TNE3"
     },
     {
       "id": "ep009",
       "topic": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
-      "call_id": "fc-01M3RCZYAKY91PJ9FPTXGG5MWG"
+      "call_id": "fc-01M3S1JE74P50ZE8GWA04BXEG3"
     },
     {
       "id": "ep010",
       "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
-      "call_id": "fc-01M3RD012DANXTHAFK8BCFXTPK"
+      "call_id": "fc-01M3S1JEFS3EGH6RFZ9NQXJ7V3"
     },
     {
       "id": "ep011",
       "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "call_id": "fc-01M3RD029PG07V8FPG0PD2GR6R"
+      "call_id": "fc-01M3S1JER6R8D5PN17XP2Q4S96"
     }
   ],
   "in_cloud": [
     {
       "id": "ep005",
       "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "spawned_at": "2026-09-30T11:05:54+05:30"
+      "spawned_at": "2026-09-30T17:05:34+05:30"
     },
     {
       "id": "ep009",
       "topic": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
-      "spawned_at": "2026-09-30T11:05:56+05:30"
+      "spawned_at": "2026-09-30T17:05:34+05:30"
     },
     {
       "id": "ep010",
       "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
-      "spawned_at": "2026-09-30T11:05:59+05:30"
+      "spawned_at": "2026-09-30T17:05:34+05:30"
     },
     {
       "id": "ep011",
       "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "spawned_at": "2026-09-30T11:06:00+05:30"
+      "spawned_at": "2026-09-30T17:05:34+05:30"
     }
   ],
-  "published": [
-    {
-      "id": "ep008",
-      "title": "The Terrifying Truth of Our Galaxy's Black Hole",
-      "due_at": "2026-09-30T20:00:00-04:00"
-    }
-  ],
+  "published": [],
   "live": 0,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 28,
+    "calls": 13,
     "by_model": {
-      "gemini-3.5-flash-lite": 13,
-      "gemini-3.6-flash": 3,
-      "gemini-3.5-flash": 4,
-      "gemini-3-flash-preview": 4,
-      "gemma-4-31b-it": 4
+      "gemini-3.6-flash": 2,
+      "gemini-3-flash-preview": 2,
+      "gemini-3.5-flash-lite": 8,
+      "gemini-3.8-flash": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 5,
+    "modal": 4,
     "runner": 0
   },
   "daily_done": "2026-09-30",
   "minutes_this_month": 6.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 0.7,
+    "metered": 0.76,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 227,
+    "cloud": 226,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 27.3
+    "modal_credit_left": 27.24
   },
   "made_here": 0,
   "open_topics": 77,

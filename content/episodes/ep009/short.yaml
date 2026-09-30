@@ -1,0 +1,191 @@
+id: ep009
+title: The Solar Storm That Powered the Telegraph
+series: Near Misses
+description: Discover how the Carrington Event of 1859 turned the sky into a battery and kept telegraph lines running without
+  power.
+sources:
+- https://en.wikipedia.org/wiki/Carrington_Event
+- https://www.space.com/the-carrington-event
+- https://spacedaily.com/sd-in-1859-a-solar-storm-now-called-the-carrington-event-induced-currents-so-strong-in-north-american-telegraph-lines-that-operators-disconnected-their-batteries-and-kept-sending-messages-on-the-geoma/
+- https://science.nasa.gov/science-news/science-at-nasa/2014/23jul_superstorm/
+- https://web.archive.org/web/20110305110813/http://news.nationalgeographic.com/news/2011/03/110302-solar-flares-sun-storms-earth-danger-carrington-event-science
+- https://web.archive.org/web/20090322055348/http://www.newscientist.com/article/mg20127001.300-space-storm-alert-90-seconds-from-catastrophe.html?full=true
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5215858
+hashtags:
+- '#space'
+- '#carringtonevent'
+- '#astronomy'
+tags:
+- Carrington Event
+- solar flare
+- aurora
+- telegraph
+- space weather
+- solar storm
+- '1859'
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: In 1859, telegraphs sent messages while completely unplugged from their batteries.
+  emphasis:
+  - unplugged
+  - batteries
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Morse_electromagnetic_telegraph.jpg/1920px-Morse_electromagnetic_telegraph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Morse electromagnetic telegraph.jpg
+      credit: Fil22plm
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Morse_electromagnetic_telegraph.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '1859'
+      small: North America
+- text: On September 1, astronomer Richard Carrington saw two blinding white flashes on the Sun.
+  emphasis:
+  - Richard Carrington
+  - white flashes
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Maull_%26_Polyblank_photograph_of_Richard_C._Carrington.jpg/1280px-Maull_%26_Polyblank_photograph_of_Richard_C._Carrington.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Maull & Polyblank photograph of Richard C. Carrington.jpg
+      credit: Maull & Polyblank
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Maull_%26_Polyblank_photograph_of_Richard_C._Carrington.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Solar Flare
+      small: Two blinding flashes
+- text: Only 17.6 hours later, a massive cloud of solar plasma slammed into Earth.
+  emphasis:
+  - 17.6 hours
+  - solar plasma
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 17.6 Hours
+      small: Travel time to Earth
+    motion: zoom_in
+- text: Auroras glowed so bright that miners in the Rockies woke up to cook breakfast.
+  emphasis:
+  - cook breakfast
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Lofoten%2C_Norway_%28Unsplash%29.jpg/3840px-Lofoten%2C_Norway_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Lofoten, Norway (Unsplash).jpg
+      credit: Johannes Groll followhansi
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Lofoten,_Norway_(Unsplash).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Across the world, the magnetic storm induced high-voltage currents into the telegraph grid.
+  emphasis:
+  - induced
+  - high-voltage
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Magnetosphere_rendition.jpg/960px-Magnetosphere_rendition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Magnetosphere rendition.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Magnetosphere_rendition.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Equipment sparked and set offices on fire as operators received electric shocks.
+  emphasis:
+  - set offices on fire
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Telegraf%C3%ADa_morse-2009.jpg/3840px-Telegraf%C3%ADa_morse-2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Telegrafía morse-2009.jpg
+      credit: Tamorlan
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Telegraf%C3%ADa_morse-2009.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Between Boston and Portland, operators realized they did not need their own batteries.
+  emphasis:
+  - Boston and Portland
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Map_Of_The_States_Of_Maine%2C_New_Hampshire%2C_Vermont%2C_Massachusetts%2C_Connecticut_%26_Rhode_Island_By_H.S._Tanner._%28with%29_North_Part_%28IA_dr_map-of-the-states-of-maine-new-hampshire-vermont-massachusetts-connecti-00104132%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Map Of The States Of Maine, New Hampshire, Vermont, Massachusetts, Connecticut & Rhode Island By H.S. Tanner.
+        (with) North Part (IA dr map-of-the-states-of-maine-new-hampshire-vermont-massachusetts-connecti-00104132).jpg
+      credit: Tanner, Henry S.
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Map_Of_The_States_Of_Maine,_New_Hampshire,_Vermont,_Massachusetts,_Connecticut_%26_Rhode_Island_By_H.S._Tanner._(with)_North_Part_(IA_dr_map-of-the-states-of-maine-new-hampshire-vermont-massachusetts-connecti-00104132).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They disconnected their equipment and successfully sent messages for about two hours using only the induced auroral
+    current.
+  emphasis:
+  - about two hours
+  - induced auroral current
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://iiif.wellcomecollection.org/image/V0025513/full/!1920,1920/0/default.jpg
+    credit:
+      source: Wellcome Collection
+      title: 'Telegraphy: four different inventors'' telegraph machines [on exhibition in Paris?]. Wood engraving, (1889?)
+        by Poyet.'
+      credit: Wellcome Collection
+      license: Public domain
+      url: https://wellcomecollection.org/works/xsdpk9w4
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That is how a solar storm kept the telegraphs talking without any batteries.
+  emphasis:
+  - talking
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: NO BATTERIES REQUIRED
