@@ -52,7 +52,7 @@ unexplained, not alien.
 ### The Universe Is Terrifying
 
 - Boötes Void (1981): a hole in space holding just 60 galaxies where about 2,000 would be expected
-- Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022 — making (ep008)
+- Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022 — done (ep008)
 - Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away
 - HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds
 - Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare
@@ -65,14 +65,14 @@ unexplained, not alien.
 
 ### Scale Breaker
 
-- TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star
+- TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star — making (ep010)
 - Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014
 - Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe
 - Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old
 - Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself
-- Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — making (ep006)
+- Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — parked (ep006)
 - Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away
 - Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza
 - Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there
@@ -100,7 +100,7 @@ unexplained, not alien.
 - Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests
-- Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide
+- Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — making (ep011)
 - Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings
 - Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one
@@ -109,8 +109,8 @@ unexplained, not alien.
 
 ### Near Misses
 
-- Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for "towing" — making (ep007)
-- Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged
+- Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for "towing" — dropped (ep007)
+- Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged — making (ep009)
 - 99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029
 - 2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032
 - Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past

@@ -1,0 +1,170 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-30T05:40:59+05:30",
+      "check": {
+        "duration": 58.63,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [
+          "duration 58.63 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Intriguing premise, though 'freezing sleep' is a bit poetic for a technical event.",
+        "clarity": "Clear progression from launch to the current mission status.",
+        "payoff": "The successful firing after decades provides a satisfying conclusion.",
+        "visuals": "Beat 2 uses a rocket that is not a Titan IIIE (looks like an SLS or modern rocket), and Beat 7 shows a generic lab scene rather than Voyager-specific hardware.",
+        "loop": "Ends and begins with the concept of waking up/firing engines, creating a smooth cycle."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The rocket shown is a modern heavy-lift vehicle, not the Titan IIIE used to launch Voyager 1."
+        },
+        {
+          "beat": 7,
+          "problem": "Generic laboratory image with a person at a table; does not visually represent the thrusters or the engineering challenge."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Spacecraft engines successfully fired after thirty-seven years of silence.",
+        "The render ran 58.63 s; it must be 35-58 s."
+      ],
+      "better_than_last": "Stronger narrative structure and better loop than ep002.",
+      "judge": "gemma-4-31b-it",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T06:05:03+05:30",
+      "check": {
+        "duration": 58.63,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 58.63 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong contrast between 'freezing sleep' and 'successfully fired' captures attention immediately.",
+        "clarity": "The narrative flow is logical and easy to follow, with one clear idea per beat.",
+        "payoff": "The successful firing of the backup engines provides a satisfying resolution to the hook.",
+        "visuals": "Most frames are excellent; however, beat 2 shows a rocket that is not the Titan IIIE/Centaur used for Voyager.",
+        "loop": "The final line connects well to the first, but the phrasing 'ready to wake up' is slightly different from 'successfully fired'."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The rocket shown is a Space Shuttle or similar heavy lifter, not the Titan IIIE/Centaur used for Voyager 1."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: \"Deep in the interstellar cold, the legendary Voyager was ready to successfully fire.\"",
+        "The render ran 58.63 s; it must be 35-58 s."
+      ],
+      "better_than_last": "This Short has a more compelling narrative arc and a stronger hook compared to the previous ones.",
+      "judge": "gemma-4-31b-it",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T06:08:56+05:30",
+      "check": {
+        "duration": 58.67,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 58.67 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong imagery and a surprising time frame, though a bit generic.",
+        "clarity": "Well-paced, one clear idea per beat.",
+        "payoff": "The successful firing after 37 years is a satisfying conclusion.",
+        "visuals": "Beat 2 uses an SLS rocket, which was not used for Voyager 1 (Titan IIIE).",
+        "loop": "The transition from 'ready to wake up' to 'successfully fired' is seamless."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a modern SLS rocket; Voyager 1 was launched by a Titan IIIE."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: 'Deep in the interstellar cold, the legendary voyager was finally ready to wake up.'"
+      ],
+      "better_than_last": "This Short has a tighter loop than ep004 and more consistent narrative flow.",
+      "judge": "gemma-4-31b-it",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; duration 58.67 s is outside 35-58 s",
+  "rejected_at": "2026-09-30T06:08:56+05:30"
+}

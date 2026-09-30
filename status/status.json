@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-09-30T05:06:09+05:30",
+  "updated_at": "2026-09-30T11:06:01+05:30",
   "day": -1,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M3QRB59F24PG2M1N4MGSMYGR",
+    "id": "ta-01M3RCYB726PF20S95WP2WTPBR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-09-30T05:05:10+05:30",
-    "started_at_utc": "2026-09-29T23:35:10+00:00",
-    "seconds": 59
+    "started_at": "2026-09-30T11:05:17+05:30",
+    "started_at_utc": "2026-09-30T05:35:17+00:00",
+    "seconds": 44
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.8
+      "seconds": 3.4
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "1 posts",
-      "seconds": 0.7
+      "detail": "2 posts",
+      "seconds": 1.3
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 0.6
+      "seconds": 0.7
     },
     {
       "name": "on youtube",
@@ -39,8 +39,8 @@
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep003 rejected (low scores: visuals); ep004 ready",
-      "seconds": 7.0
+      "detail": "ep005 unfinished (RuntimeError: ep005 script still breaks the rules: [\"The last beat must be a complete sentence that echoes beat 1, not end on a dangling word such as 'because', 'when', 'until', or 'that'.\"]); ep006 rejected (low scores: visuals; duration 58.67 s is outside 35-58 s); ep007 rejected (research: The provided sources do not contain any mention of Grumman sending a towing invoice to the command module's maker, making the core topic unverifiable using only the given sources.); ep008 ready",
+      "seconds": 22.1
     },
     {
       "name": "buffer channel",
@@ -52,64 +52,69 @@
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 2.3
     },
     {
-      "name": "schedule ep004",
+      "name": "schedule ep008",
       "ok": true,
-      "detail": "2026-10-07T20:00:00-04:00",
-      "seconds": 1.1
+      "detail": "2026-09-30T20:00:00-04:00",
+      "seconds": 1.2
     },
     {
       "name": "start ep005",
       "ok": true,
       "detail": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "seconds": 1.0
+      "seconds": 2.1
     },
     {
-      "name": "start ep006",
+      "name": "start ep009",
       "ok": true,
-      "detail": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "seconds": 0.5
+      "detail": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
+      "seconds": 2.7
     },
     {
-      "name": "start ep007",
+      "name": "start ep010",
       "ok": true,
-      "detail": "Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for \"towing\"",
-      "seconds": 0.5
+      "detail": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
+      "seconds": 2.8
     },
     {
-      "name": "start ep008",
+      "name": "start ep011",
       "ok": true,
-      "detail": "Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022",
-      "seconds": 0.9
+      "detail": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
+      "seconds": 1.3
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.0
+      "seconds": 0.1
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "only 2 Shorts made and unposted; scheduling 1 a day"
+    "only 3 Shorts made and unposted; scheduling 1 a day"
   ],
   "inventory": {
-    "total": 2,
-    "in_buffer": 2,
+    "total": 3,
+    "in_buffer": 3,
     "waiting": 0,
     "target": 42,
     "making": [],
     "remote": [
       "ep005",
-      "ep006",
-      "ep007",
-      "ep008"
+      "ep009",
+      "ep010",
+      "ep011"
     ]
   },
   "queue": [
+    {
+      "id": "ep008",
+      "title": "The Terrifying Truth of Our Galaxy's Black Hole",
+      "due_at": "2026-09-30T20:00:00-04:00"
+    },
     {
       "id": "ep002",
       "title": "NASA's 1915 secret",
@@ -124,108 +129,124 @@
   "waiting": [],
   "made": [
     {
-      "id": "ep003",
-      "outcome": "rejected",
-      "topic": "Sputnik 1 (1957): a satellite the size of a beach ball whose beeps anyone with a shortwave radio could hear",
-      "reason": "low scores: visuals"
+      "id": "ep005",
+      "outcome": "unfinished",
+      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "reason": "RuntimeError: ep005 script still breaks the rules: [\"The last beat must be a complete sentence that echoes beat 1, not end on a dangling word such as 'because', 'when', 'until', or 'that'.\"]",
+      "quota": false,
+      "overloaded": false
     },
     {
-      "id": "ep004",
+      "id": "ep006",
+      "outcome": "rejected",
+      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "reason": "low scores: visuals; duration 58.67 s is outside 35-58 s"
+    },
+    {
+      "id": "ep007",
+      "outcome": "rejected",
+      "topic": "Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for \"towing\"",
+      "reason": "research: The provided sources do not contain any mention of Grumman sending a towing invoice to the command module's maker, making the core topic unverifiable using only the given sources."
+    },
+    {
+      "id": "ep008",
       "outcome": "ready",
-      "topic": "Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons",
-      "title": "Soviet Moon Photos on US Spy Film",
+      "topic": "Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022",
+      "title": "The Terrifying Truth of Our Galaxy's Black Hole",
       "scores": {
         "hook": 5,
         "clarity": 5,
         "payoff": 4,
-        "visuals": 4,
+        "visuals": 5,
         "loop": 5
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790713042/universereceipts/ep004-d3cf16bc.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790727205/universereceipts/ep008-59661081.mp4"
     }
   ],
   "spawned": [
     {
       "id": "ep005",
       "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "call_id": "fc-01M3QRD3BQHT61FZFVGVR8AYPM"
+      "call_id": "fc-01M3RCZVPABJV5AER722GFZVS3"
     },
     {
-      "id": "ep006",
-      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "call_id": "fc-01M3QRD3VASMSBCBZJM63YMSV0"
+      "id": "ep009",
+      "topic": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
+      "call_id": "fc-01M3RCZYAKY91PJ9FPTXGG5MWG"
     },
     {
-      "id": "ep007",
-      "topic": "Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for \"towing\"",
-      "call_id": "fc-01M3QRD4CPR0K2CT2XTCKA8RKR"
+      "id": "ep010",
+      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
+      "call_id": "fc-01M3RD012DANXTHAFK8BCFXTPK"
     },
     {
-      "id": "ep008",
-      "topic": "Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022",
-      "call_id": "fc-01M3QRD5A3N34Y06BVNKRVX9C6"
+      "id": "ep011",
+      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
+      "call_id": "fc-01M3RD029PG07V8FPG0PD2GR6R"
     }
   ],
   "in_cloud": [
     {
       "id": "ep005",
       "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "spawned_at": "2026-09-30T05:06:07+05:30"
+      "spawned_at": "2026-09-30T11:05:54+05:30"
     },
     {
-      "id": "ep006",
-      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "spawned_at": "2026-09-30T05:06:08+05:30"
+      "id": "ep009",
+      "topic": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
+      "spawned_at": "2026-09-30T11:05:56+05:30"
     },
     {
-      "id": "ep007",
-      "topic": "Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for \"towing\"",
-      "spawned_at": "2026-09-30T05:06:08+05:30"
+      "id": "ep010",
+      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
+      "spawned_at": "2026-09-30T11:05:59+05:30"
     },
     {
-      "id": "ep008",
-      "topic": "Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022",
-      "spawned_at": "2026-09-30T05:06:09+05:30"
+      "id": "ep011",
+      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
+      "spawned_at": "2026-09-30T11:06:00+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep004",
-      "title": "Soviet Moon Photos on US Spy Film",
-      "due_at": "2026-10-07T20:00:00-04:00"
+      "id": "ep008",
+      "title": "The Terrifying Truth of Our Galaxy's Black Hole",
+      "due_at": "2026-09-30T20:00:00-04:00"
     }
   ],
   "live": 0,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 14,
+    "calls": 28,
     "by_model": {
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 7,
-      "gemma-4-31b-it": 6
+      "gemini-3.5-flash-lite": 13,
+      "gemini-3.6-flash": 3,
+      "gemini-3.5-flash": 4,
+      "gemini-3-flash-preview": 4,
+      "gemma-4-31b-it": 4
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 6,
+    "modal": 5,
     "runner": 0
   },
   "daily_done": "2026-09-30",
   "minutes_this_month": 6.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 0.59,
+    "metered": 0.7,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 228,
+    "cloud": 227,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 27.41
+    "modal_credit_left": 27.3
   },
   "made_here": 0,
-  "open_topics": 80,
-  "parked_topics": 1
+  "open_topics": 77,
+  "parked_topics": 2
 }

@@ -1,0 +1,73 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-30T05:15:13+05:30",
+      "check": {
+        "duration": 51.36,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'suck earth in' heard as 'sucker thin' after 'sun would not'",
+          "'schwarzschild' heard as 'shore scaled' after 'must cross this'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The premise is intriguing but the opening delivery is fairly standard.",
+        "clarity": "Logical flow makes complex gravitational physics easy to grasp.",
+        "payoff": "Dispelling the vacuum cleaner myth provides a satisfying resolution.",
+        "visuals": "Educational diagrams are too text-dense for mobile phone viewing.",
+        "loop": "The transition from the final beat back to the start lacks flow."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "diagram is too text-heavy and unreadable on phone screens"
+        },
+        {
+          "beat": 7,
+          "problem": "infographic contains small text that is difficult to see"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "suck Earth in",
+          "respelling": "suck erth in"
+        },
+        {
+          "beat": 6,
+          "word": "Schwarzschild",
+          "respelling": "shworts sheeld"
+        }
+      ],
+      "rewrite": [
+        "beat 8: \"Meaning we would still safely circle a...\"",
+        "beat 1: \"black hole replacing our Sun, which wouldn't suck Earth in.\""
+      ],
+      "better_than_last": "This script addresses a more prevalent scientific misconception than the historical facts in recent shorts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
