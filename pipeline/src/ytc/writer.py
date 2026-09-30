@@ -23,6 +23,21 @@ SERIES = (
     "Space Myths, Busted",
 )
 HOOK_STYLES = ["statement", "question", "number", "contradiction"]
+# Shapes an episode can take. The writer is given the one the recent episodes used least, so the channel never
+# settles into one template (YouTube demonetizes "narrated stories with only superficial differences").
+STRUCTURES = {
+    "story": "hook, context, 2 or 3 escalating beats, then a twist or payoff near the end",
+    "myth_vs_fact": "open on what most people believe, then the evidence that overturns it beat by beat, ending on the true fact",
+    "scale_ladder": "start from something familiar, then 3 to 5 steps of comparison up (or down) to the astonishing true "
+                    "size, speed, age, or number",
+    "mystery": "open on something that made no sense, give the clues in the order they were found, then the answer",
+    "record": "open on the record itself, then what it beat, the trick or cost behind it, and the surprise nobody expected",
+}
+# Two scripts sharing this share of their three-word phrases read as the same script with the nouns swapped.
+SAME_SCRIPT = 0.25
+# A hook whose first this-many words match a recent hook's opens on a template.
+SAME_OPENING = 4
+RECENT = 40
 SFX = ["none", "whoosh", "pop", "riser"]
 CARD_KINDS = ["none", "dateline", "fact", "quote"]
 # The longest a title card's lines may be, in characters, so they stay large on a phone.
@@ -43,6 +58,7 @@ SCRIPT_SCHEMA = {
             },
         },
         "hook_style": {"type": "string", "enum": HOOK_STYLES},
+        "structure": {"type": "string", "enum": list(STRUCTURES)},
         "title": {"type": "string"},
         "description": {"type": "string"},
         "hashtags": {"type": "array", "items": {"type": "string"}},
@@ -84,6 +100,7 @@ and facts in American English for a US audience. Promise: one true, jaw-dropping
 minute, told well and sourced, with every claim backed by receipts.
 
 Episode {id}, series "{series}". Topic: {topic}
+Structure: {structure} ({structure_how}). Set structure to "{structure}".
 
 Follow these rules exactly:
 
@@ -111,9 +128,8 @@ Visual ideas:
 Write the episode:
 - hooks: three candidate first lines in different styles, each 12 words or fewer, opening inside the story
   on its most surprising true fact. Use the strongest as beat 1 and name its style in hook_style.
-- beats: 6 to 9 beats and 105 to 135 spoken words in total, one or two short sentences each. The shape is
-  hook, context, 2 or 3 escalating beats, a twist or payoff near the end, and a last beat that loops back to
-  beat 1. The twist is the claim a curious viewer is least likely to know already; for a famous subject, build
+- beats: 6 to 9 beats and 105 to 135 spoken words in total, one or two short sentences each. Follow the
+  structure above, and end with a last beat that loops back to beat 1. The twist is the claim a curious viewer is least likely to know already; for a famous subject, build
   the Short around its least-known true detail instead of retelling the familiar story in order.
 - The loop: the last beat is a complete, grammatical sentence on its own that echoes beat 1's image or question,
   so replaying beat 1 feels like the natural next line (a last beat "It was built to last 32 minutes." before a
@@ -171,6 +187,55 @@ def exemplars(count: int = 2) -> str:
         blocks.append(yaml.safe_dump({"title": spec["title"], "series": spec.get("series"), "beats": beats},
                                      sort_keys=False, allow_unicode=True, width=120))
     return "\n---\n".join(blocks) or "(none yet)"
+
+
+def recent_scripts(topic: str | None = None, count: int = RECENT) -> list[dict]:
+    """The newest made episodes' scripts (id, structure, spoken beats), leaving out the given topic's own drafts."""
+    out = []
+    for folder in sorted((ROOT / "content" / "episodes").glob("ep*"), reverse=True):
+        try:
+            spec = yaml.safe_load((folder / "short.yaml").read_text(encoding="utf-8"))
+        except (OSError, yaml.YAMLError):
+            continue
+        try:
+            meta = json.loads((folder / "script.json").read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            meta = {}
+        try:
+            own = json.loads((folder / "research.json").read_text(encoding="utf-8")).get("topic")
+        except (OSError, ValueError):
+            own = None
+        if topic and own == topic:
+            continue
+        out.append({"id": folder.name, "structure": meta.get("structure"), "beats": [spoken(b["text"]) for b in spec.get("beats", [])]})
+        if len(out) >= count:
+            break
+    return out
+
+
+def choose_structure(recent: list[dict]) -> str:
+    """The structure the last 8 episodes used least (the first listed on a tie)."""
+    used = [r["structure"] for r in recent[:8] if r.get("structure") in STRUCTURES]
+    return min(STRUCTURES, key=lambda s: (used.count(s), list(STRUCTURES).index(s)))
+
+
+def _trigrams(text: str) -> set[tuple[str, ...]]:
+    words = _plain_words(text)
+    return {tuple(words[i:i + 3]) for i in range(len(words) - 2)}
+
+
+def sameness(beats: list[str], recent: list[dict]) -> list[str]:
+    """Ways a script repeats a recent one: most of its phrasing, or its hook's opening words."""
+    found = []
+    mine = _trigrams(" ".join(beats))
+    opening = _plain_words(beats[0])[:SAME_OPENING] if beats else []
+    for other in recent:
+        theirs = _trigrams(" ".join(other["beats"]))
+        if mine and theirs and len(mine & theirs) / len(mine | theirs) >= SAME_SCRIPT:
+            found.append(f"The script reuses much of {other['id']}'s wording; write it fresh in your own words.")
+        if len(opening) == SAME_OPENING and other["beats"] and _plain_words(other["beats"][0])[:SAME_OPENING] == opening:
+            found.append(f"The hook opens with the same words as {other['id']}'s ({' '.join(opening)}...); open differently.")
+    return found[:2]
 
 
 def spoken(text: str) -> str:
@@ -299,6 +364,8 @@ def problems(script: dict, research: dict) -> list[str]:
             found.append(f"Beat {number}: give 2 or 3 Commons queries.")
     if counts["whoosh"] > 3 or counts["pop"] > 2 or counts["riser"] > 1:
         found.append("Use sfx whoosh at most 3 times, pop at most 2, riser at most once.")
+    if beats:
+        found += sameness([spoken(b["text"]) for b in beats], recent_scripts(research.get("topic")))
     return found
 
 
@@ -309,10 +376,14 @@ def _claims_listing(research: dict) -> str:
 def write_script(research: dict, episode_id: str, feedback: list[str] | None = None, draft: dict | None = None) -> dict:
     """A script that meets the rules, from the research alone. With a reviewer's feedback on a rendered draft,
     a revision of that draft. Raises if two rewrites can't fix it."""
+    structure = (draft or {}).get("structure") if (draft or {}).get("structure") in STRUCTURES else None
+    structure = structure or choose_structure(recent_scripts(research.get("topic")))
     prompt = PROMPT.format(
         id=episode_id,
         series=research["series"],
         topic=research["topic"],
+        structure=structure,
+        structure_how=STRUCTURES[structure],
         rules=_rules(),
         learnings=_learnings(),
         exemplars=exemplars(),
@@ -331,7 +402,7 @@ def write_script(research: dict, episode_id: str, feedback: list[str] | None = N
         )
     script = llm.generate(prompt, schema=SCRIPT_SCHEMA, purpose=f"{episode_id} script" + (" revision" if feedback else ""))
     for attempt in range(2):
-        script = normalize(script, research)
+        script = normalize(script, research) | {"structure": structure}
         issues = problems(script, research)
         if not issues:
             return script
@@ -341,7 +412,7 @@ def write_script(research: dict, episode_id: str, feedback: list[str] | None = N
             + "\n\nFix every one and return the whole episode again. Your draft:\n" + json.dumps(script, indent=1),
             schema=SCRIPT_SCHEMA, purpose=f"{episode_id} script fix {attempt + 1}",
         )
-    script = normalize(script, research)
+    script = normalize(script, research) | {"structure": structure}
     if issues := problems(script, research):
         raise RuntimeError(f"{episode_id} script still breaks the rules: {issues}")
     return script

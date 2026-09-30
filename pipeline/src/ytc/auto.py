@@ -1010,30 +1010,47 @@ def per_day(stock: int, slots: int) -> int:
     return max(1, min(slots, stock // 3))
 
 
-# Days from which a day gets one more of publish.SLOTS (decision 2026-09-26): every reviewed Short is another chance
-# in the feed, and more than 5 a day starts to look mass-produced to the Partner Program.
-PACE_STEPS = (30, 50)
+# (day, Shorts a day) from that day on (decision 2026-09-30, research/growth-playbook-2026.md, upgrade 4): YouTube
+# gives no boost for volume, new channels do best at 1 to 3 a day, and more than 5 looks mass-produced. Every step
+# past BASE_PACE is earned: the last 10 Shorts must keep 90% of the engaged views per Short and of the engaged share
+# of the 10 before them. Without 20 Shorts of numbers, the pace stops at UNPROVEN_PACE.
+PACE = ((1, 2), (15, 3), (30, 4), (50, 5))
+BASE_PACE = 2
+UNPROVEN_PACE = 3
+# The last 10 Shorts falling this far below the 10 before them in engaged views per Short drops back to BASE_PACE.
+PACE_DROP = 0.7
+
+
+def _pace_numbers() -> tuple[list[float], list[float]]:
+    """Engaged views and engaged share of the Shorts 48 hours old or more, oldest first."""
+    latest = max(ANALYTICS.glob("*.json"), default=None)
+    rows = [r for r in _video_rows(_json(latest, {}), episodes()) if r["hours"] >= 48
+            and isinstance(r["engaged_share"], (int, float))] if latest else []
+    return [r["views"] * r["engaged_share"] for r in rows], [r["engaged_share"] for r in rows]
 
 
 def slots_per_day(today: date | None = None) -> int:
-    """How many of publish.SLOTS a day uses: 3, one more from Day 30 and another from Day 50, for as long as the last
-    10 Shorts keep at least 90% of the engaged share of the Shorts before them. Without those numbers, 3."""
+    """How many of publish.SLOTS a day uses (PACE), held back while the per-Short numbers don't earn more."""
     from .publish import SLOTS
 
-    steps = sum(day_number(today) >= day for day in PACE_STEPS)
-    if steps:
-        # Scheduling runs through here, so a stats file it can't read costs the extra slots, not the posting.
-        try:
-            latest = max(ANALYTICS.glob("*.json"), default=None)
-            rows = [r for r in _video_rows(_json(latest, {}), episodes()) if r["hours"] >= 48
-                    and isinstance(r["engaged_share"], (int, float))] if latest else []
-            recent, before = _median(r["engaged_share"] for r in rows[-10:]), _median(r["engaged_share"] for r in rows[:-10])
-        except Exception as err:
-            log.warning("couldn't read engagement for the posting pace (%s); posting 3 a day", err)
-            recent = before = None
-        if not (recent and before and recent >= 0.9 * before):
-            steps = 0
-    return min(len(SLOTS), 3 + steps)
+    planned = max(n for day, n in PACE if day_number(today) >= day) if day_number(today) >= PACE[0][0] else BASE_PACE
+    if planned <= BASE_PACE:
+        return min(len(SLOTS), planned)
+    # Scheduling runs through here, so a stats file it can't read costs the extra slots, not the posting.
+    try:
+        engaged, share = _pace_numbers()
+    except Exception as err:
+        log.warning("couldn't read engagement for the posting pace (%s); posting %d a day", err, BASE_PACE)
+        return BASE_PACE
+    if len(engaged) < 20:
+        return min(len(SLOTS), planned, UNPROVEN_PACE)
+    recent, before = _median(engaged[-10:]), _median(engaged[-20:-10])
+    recent_share, before_share = _median(share[-10:]), _median(share[-20:-10])
+    if not before or recent < PACE_DROP * before:
+        return BASE_PACE
+    if recent >= 0.9 * before and recent_share and before_share and recent_share >= 0.9 * before_share:
+        return min(len(SLOTS), planned)
+    return min(len(SLOTS), planned, UNPROVEN_PACE)
 
 
 def publish_waiting(run: Run) -> None:
@@ -1077,7 +1094,7 @@ def publish_waiting(run: Run) -> None:
         ordered.remove(pick)
         when = None
         if day := anniversary(pick):
-            for slot in (clock(20), clock(22), clock(14)):
+            for slot in SLOTS[:3]:
                 candidate = datetime.combine(day, slot, AUDIENCE_TZ)
                 if candidate > today + timedelta(minutes=30) and candidate not in taken:
                     when = candidate
@@ -1171,7 +1188,8 @@ def _video_rows(analytics: dict, eps: list[dict]) -> list[dict]:
         script = _json(e["folder"] / "script.json", {}) if e else {}
         rows.append({
             "short": e["id"] if e else video["id"], "series": (e or {}).get("series") or "?",
-            "hook_style": script.get("hook_style", "–"), "title": video["title"], "views": video["views"],
+            "hook_style": f"{script.get('hook_style', '–')}, {script.get('structure', 'story')}", "title": video["title"],
+            "views": video["views"],
             "likes": video["likes"], "comments": video["comments"], "hours": round((now - published).total_seconds() / 3600),
             "engaged_share": a.get("engaged_share"), "avg_viewed": a.get("averageViewPercentage"),
             "at10": at10["watching"] if at10 else None, "subs": a.get("subscribersGained"),

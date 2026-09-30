@@ -30,8 +30,10 @@ log = logging.getLogger(__name__)
 
 BUFFER_API = "https://api.buffer.com"
 AUDIENCE_TZ = ZoneInfo("America/New_York")
-# Best first: a day that posts fewer Shorts than there are slots keeps the first ones (auto.slots_per_day).
-SLOTS = (clock(20, 0), clock(14, 0), clock(22, 0), clock(17, 0), clock(11, 0))
+# Best first: a day that posts fewer Shorts than there are slots keeps the first ones (auto.slots_per_day). Buffer's
+# 2026 data (1.8M videos) puts Shorts' peak at 6-11 p.m. and the weekday 12-5 p.m. stretch lowest, so the first two
+# are evening slots 2.5 hours apart (research/growth-playbook-2026.md, upgrade 5).
+SLOTS = (clock(19, 0), clock(21, 30), clock(12, 30), clock(16, 30), clock(22, 30))
 BUFFER_QUEUE_LIMIT = 10
 # A live Short's copy is on YouTube, and a remake fetches the same images again.
 BULKY = ("{id}.mp4", "work/assets", "work/frames", "work/narration.wav", "work/contact.jpg")

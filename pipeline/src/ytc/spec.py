@@ -81,7 +81,7 @@ class Voice(_Model):
     model: str = ""
     direction: str = ""
     # Seconds before the first word. A Reel needs enough for its cover frame to show the hook before any caption.
-    lead_in: float = Field(0.15, ge=0, le=1)
+    lead_in: float = Field(0.08, ge=0, le=1)
 
 
 class Music(_Model):

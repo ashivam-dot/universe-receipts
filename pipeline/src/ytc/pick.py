@@ -33,7 +33,7 @@ MODERN_BEFORE = 0
 MODERN_FACTOR = 0.35
 MODERN_BELOW = 0.3
 # Found through the beat's own subject, a candidate is more likely to be the right thing than a keyword hit.
-ROUTE_BONUS = {"subject": 0.08, "article": 0.05, "depicts": 0.05, "category": 0.03, "period": 0.02}
+ROUTE_BONUS = {"subject": 0.08, "article": 0.05, "taxon": 0.05, "depicts": 0.05, "category": 0.03, "period": 0.02}
 # Pictures whose 64-bit difference hashes are this close are copies of one another.
 SAME_PICTURE = 6
 MAX_CARDS = 2
@@ -366,11 +366,13 @@ def _loop_visual(first: dict) -> dict:
 
 
 def _reuse_of(visuals: list, number: int) -> dict | None:
-    """The nearest earlier picture again, framed differently, for a beat left without one of its own."""
+    """The nearest earlier picture again, framed differently, for a beat left without one of its own. Each picture
+    is shown again at most once: the reviewer rejects a Short that shows one photo three times."""
     previous = visuals[number - 2].get("motion") if number > 1 and visuals[number - 2] else None
+    reused = {v.get("reuse") for v in visuals if v and v.get("reuse")}
     for k in range(number - 1, 0, -1):
         source = visuals[k - 1]
-        if source and source.get("_choice") and not source.get("reuse"):
+        if source and source.get("_choice") and not source.get("reuse") and k not in reused:
             options = [m for m in MOTIONS_SQUARE if m != source.get("motion")]
             return {"reuse": k, "motion": next((m for m in options if m != previous), options[0]),
                     **{key: source[key] for key in ("focus_x", "focus_y") if key in source}}

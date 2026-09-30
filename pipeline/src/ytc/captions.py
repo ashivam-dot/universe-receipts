@@ -140,8 +140,9 @@ def _hook_event(text: str, end: float, fonts_dir: Path, style: CaptionStyle) -> 
         else:
             lines[-1] = trial
     body = "\\N".join(lines[:3])
-    return (f"Dialogue: 1,{_ass_time(0.15)},{_ass_time(max(end, 1.5))},Hook,,0,0,0,,"
-            f"{{\\an8\\pos({WIDTH // 2},{int(HEIGHT * style.hook_y)})\\fad(150,200)}}{body}")
+    # Fully on screen from frame 0: the swipe-or-stay decision is made in the first second.
+    return (f"Dialogue: 1,{_ass_time(0)},{_ass_time(max(end, 1.5))},Hook,,0,0,0,,"
+            f"{{\\an8\\pos({WIDTH // 2},{int(HEIGHT * style.hook_y)})\\fad(0,200)}}{body}")
 
 
 def write_ass(

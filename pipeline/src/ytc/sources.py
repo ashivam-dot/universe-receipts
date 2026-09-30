@@ -30,6 +30,13 @@ OPENVERSE = "https://api.openverse.org/v1/images/"
 WELLCOME = "https://api.wellcomecollection.org/catalogue/v2/images"
 AIC = "https://api.artic.edu/api/v1/artworks/search"
 MET = "https://collectionapi.metmuseum.org/public/collection/v1"
+INAT = "https://api.inaturalist.org/v1"
+# iNaturalist asks API clients for about one request a second.
+INAT_GAP = 1.1
+_inat_lock = threading.Lock()
+_inat_last = [0.0]
+INAT_LICENSES = {"cc0": ("CC0", "https://creativecommons.org/publicdomain/zero/1.0/"),
+                 "cc-by": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/")}
 # A standard Wikimedia thumbnail width; the picker's model sees these, and the ranker a smaller copy.
 THUMB = 500
 # Shown full screen or as a card at this size; smaller real photos (down to SMALL_SIDE) only as a framed card.
@@ -207,6 +214,7 @@ def entities(qids: list[str]) -> dict[str, dict]:
                 "coords": (coords["latitude"], coords["longitude"]) if isinstance(coords, dict) else None,
                 "year": next((y for y in years if y), None),
                 "human": any(v.get("id") == "Q5" for v in _claim_values(claims, "P31") if isinstance(v, dict)),
+                "taxon": next((v for v in _claim_values(claims, "P225") if isinstance(v, str)), None),
             }
     return out
 
@@ -371,6 +379,67 @@ def met(query: str, limit: int = 8) -> list[dict]:
     return out
 
 
+def _inat_get(path: str, params: dict) -> dict:
+    with _inat_lock:
+        time.sleep(max(0.0, _inat_last[0] + INAT_GAP - time.monotonic()))
+        _inat_last[0] = time.monotonic()
+    return _get(f"{INAT}/{path}", params=params).json()
+
+
+def _inat_photo(photo: dict, name: str, page: str, route: str) -> dict | None:
+    license_code = (photo.get("license_code") or "").lower()
+    size = photo.get("original_dimensions") or {}
+    width, height = size.get("width") or 0, size.get("height") or 0
+    if license_code not in INAT_LICENSES or not photo.get("url") or max(width, height) < SMALL_SIDE or min(width, height) < 300:
+        return None
+    license_name, license_url = INAT_LICENSES[license_code]
+    url = photo["url"]
+    return {
+        "key": f"inat:{photo['id']}", "origin": "inaturalist", "title": name[:120],
+        "thumb": url.replace("/square.", "/medium."), "original": url.replace("/square.", "/original."),
+        "width": width, "height": height, "license": license_name, "license_url": license_url,
+        "artist": (photo.get("attribution") or "")[:200] or None, "description": name, "categories": "",
+        "date": "", "year": None, "page": page, "route": route, "source_name": "iNaturalist",
+    }
+
+
+def inaturalist(name: str, limit: int = 16) -> list[dict]:
+    """Photos of a living thing (a species or a group, by scientific or common name) on iNaturalist: the taxon's
+    curated photos, then the most-voted research-grade observations. CC0 and CC BY only."""
+    try:
+        taxa = _inat_get("taxa", {"q": _plain_query(name), "per_page": 1, "is_active": "true"}).get("results", [])
+    except Exception as err:
+        log.info("iNaturalist taxon lookup failed for %r: %s", name, err)
+        return []
+    if not taxa:
+        return []
+    taxon = taxa[0]
+    label = f"{taxon.get('preferred_common_name') or taxon.get('name')} ({taxon.get('name')})"
+    out: list[dict] = []
+    seen: set[int] = set()
+    try:
+        detail = _inat_get(f"taxa/{taxon['id']}", {}).get("results", [{}])[0]
+        for entry in detail.get("taxon_photos") or []:
+            photo = entry.get("photo") or {}
+            if photo.get("id") not in seen and (c := _inat_photo(photo, label, f"https://www.inaturalist.org/photos/{photo.get('id')}", "taxon")):
+                seen.add(photo["id"])
+                out.append(c)
+    except Exception as err:
+        log.info("iNaturalist taxon photos failed for %r: %s", name, err)
+    try:
+        observations = _inat_get("observations", {"taxon_id": taxon["id"], "photo_license": "cc0,cc-by", "quality_grade": "research",
+                                                  "order_by": "votes", "per_page": 20, "captive": "any"}).get("results", [])
+    except Exception as err:
+        log.info("iNaturalist observations failed for %r: %s", name, err)
+        observations = []
+    for obs in observations:
+        for photo in (obs.get("photos") or [])[:2]:
+            if photo.get("id") not in seen and (c := _inat_photo(photo, label, obs.get("uri") or "https://www.inaturalist.org", "taxon")):
+                seen.add(photo["id"])
+                out.append(c)
+    return out[:limit]
+
+
 def _run(tasks: list[tuple]) -> list[list[dict]]:
     """Run (function, *args) tasks, WORKERS at a time, keeping their order."""
     with ThreadPoolExecutor(WORKERS) as pool:
@@ -419,6 +488,8 @@ def gather(beats: list[dict], numbers: list[int], topic_titles: list[str], gener
                     pairs.append((category, year))
             if article.get("qid"):
                 add(n, commons_search, f"haswbstatement:P180={article['qid']}", "depicts")
+            if taxon := item.get("taxon"):
+                add(n, inaturalist, taxon)
         if files:
             add(n, commons_files, files, "subject")
         for query in (beat.get("queries") or [])[:3]:
@@ -441,7 +512,7 @@ def gather(beats: list[dict], numbers: list[int], topic_titles: list[str], gener
     per_beat: dict[int, list[dict]] = {n: [] for n in numbers}
     pool: list[dict] = []
     # Entity routes before keyword searches, so a file both found stays tagged with the stronger route.
-    order = {"subject": 0, "article": 1, "category": 2, "depicts": 3, "period": 4, "search": 5}
+    order = {"subject": 0, "article": 1, "taxon": 2, "category": 2, "depicts": 3, "period": 4, "search": 5}
     ranked = sorted(zip(owners, results), key=lambda pair: min((order.get(c["route"], 9) for c in pair[1]), default=9))
     for owner, found in ranked:
         for candidate in found:
