@@ -1,0 +1,187 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-30T17:13:15+05:30",
+      "check": {
+        "duration": 61.83,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 61.83 s is outside 35-58 s"
+        ],
+        "speech_differences": [
+          "'iriarte' heard as 'iraert' after 'a star braulio'",
+          "'tonantzintla' heard as 'toninsintla' after 'at mexico is'",
+          "'suns' heard as 'the sun is' after 'brilliance of 140000000000000'",
+          "'light' heard as '(nothing)' after '66000000000 solar masses'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Excellent hook that creates immediate curiosity about what this object actually was.",
+        "clarity": "Very clear chronological journey from mistaken identity to mind-blowing astronomical discovery.",
+        "payoff": "The reveal of the true scale and mass of TON 618 provides an excellent payoff to the 'not a star' hook.",
+        "visuals": "Beat 6 uses a complex diagram with tiny, unreadable text on mobile screens, and Beat 3 is a dry technical drawing.",
+        "loop": "Flawless verbal and visual loop that feeds right back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The frame is a complex diagram with tiny, unreadable text that is impossible to decipher on mobile screens."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Iriarte",
+          "respelling": "ee ree ar tay"
+        },
+        {
+          "beat": 2,
+          "word": "Tonantzintla",
+          "respelling": "toe nahnt zeent lah"
+        }
+      ],
+      "rewrite": [
+        "Beat 2: 'Astronomers at Mexico's Tonantzintla Observatory recorded entry 618 as a white dwarf.'",
+        "Beat 3: 'By 1970, radio signals and spectra revealed it was actually a quasar.'",
+        "Beat 6: 'Astronomers estimate its central black hole contains up to 66 billion solar masses.'",
+        "The render ran 61.83 s; it must be 35-58 s."
+      ],
+      "better_than_last": "This Short delivers a stronger payoff than recent episodes by building a massive sense of scale from its initial humble premise.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T17:45:36+05:30",
+      "check": {
+        "duration": 50.13,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'tonantzintla' heard as 'tonnentsintla' after 'at mexico is'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The mystery of a star that is not a star is engaging.",
+        "clarity": "The timeline of scientific discovery is easy to follow.",
+        "payoff": "The massive scale contrast provides a satisfying conclusion.",
+        "visuals": "Beat 6 uses a text-heavy diagram that is illegible on mobile.",
+        "loop": "The phrasing creates a perfectly circular narrative transition."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The frame is a technical diagram with excessive, small text."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "tonantzintla",
+          "respelling": "toe nant zeent lah"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "The specific brightness and mass statistics provide a more visceral sense of wonder than the 1915 secret episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T17:54:51+05:30",
+      "check": {
+        "duration": 50.13,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'tonantzintla' heard as 'tonnentsintla' after 'at mexico is'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The contradiction of a star that is not a star effectively hooks interest.",
+        "clarity": "Information is presented in a clear chronological sequence that is easy to track.",
+        "payoff": "The revelation of the massive scale provides a satisfying resolution to the mystery.",
+        "visuals": "Later frames are confusing and include non-English text that distracts from the topic.",
+        "loop": "The repetition of the 'tiny faint star' phrase makes the transition seamless."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "shows a solar system diagram with non-English labels instead of the black hole."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Tonantzintla",
+          "respelling": "toe nann tsint lah"
+        }
+      ],
+      "rewrite": [
+        "beat 6: That tiny dot hides a black hole sixty-six billion times heavier than our Sun."
+      ],
+      "better_than_last": "The verbal loop here is significantly tighter and more natural than the ending of episode 004.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-09-30T17:54:51+05:30"
+}

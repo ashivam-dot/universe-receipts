@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-09-30T17:05:35+05:30",
+  "updated_at": "2026-09-30T23:06:03+05:30",
   "day": -1,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M3S1HH3X9YWPE59ZB1W6AV5R",
+    "id": "ta-01M3SP4P8S2VGG64000PZZKHZR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-09-30T17:05:10+05:30",
-    "started_at_utc": "2026-09-30T11:35:10+00:00",
-    "seconds": 25
+    "started_at": "2026-09-30T23:05:15+05:30",
+    "started_at_utc": "2026-09-30T17:35:15+00:00",
+    "seconds": 48
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.9
+      "seconds": 4.0
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "3 posts",
-      "seconds": 0.4
+      "seconds": 0.9
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 0.8
+      "seconds": 0.9
     },
     {
       "name": "on youtube",
@@ -39,50 +39,62 @@
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep005 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep009 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep010 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash'",
-      "seconds": 9.3
+      "detail": "ep005 rejected (low scores: payoff, visuals, loop); ep009 ready; ep010 rejected (low scores: payoff, visuals); ep011 rejected (low scores: hook, payoff, visuals; 2 frame problems)",
+      "seconds": 20.9
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.3
+      "seconds": 0.8
+    },
+    {
+      "name": "preflight ep002",
+      "ok": true,
+      "detail": "video downloads whole (22 MB in 2 s)",
+      "seconds": 2.0
     },
     {
       "name": "preflight ep008",
       "ok": true,
-      "detail": "video downloads whole (16 MB in 0 s)",
-      "seconds": 0.6
+      "detail": "video still hosted",
+      "seconds": 1.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.1
+      "seconds": 1.8
     },
     {
-      "name": "start ep005",
+      "name": "schedule ep009",
       "ok": true,
-      "detail": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "seconds": 0.4
+      "detail": "2026-10-02T19:00:00-04:00",
+      "seconds": 1.4
     },
     {
-      "name": "start ep009",
+      "name": "start ep012",
       "ok": true,
-      "detail": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
-      "seconds": 0.3
+      "detail": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
+      "seconds": 1.4
     },
     {
-      "name": "start ep010",
+      "name": "start ep013",
       "ok": true,
-      "detail": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
-      "seconds": 0.2
+      "detail": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
+      "seconds": 1.7
     },
     {
-      "name": "start ep011",
+      "name": "start ep014",
       "ok": true,
-      "detail": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "seconds": 0.3
+      "detail": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep015",
+      "ok": true,
+      "detail": "James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew",
+      "seconds": 1.6
     },
     {
       "name": "publish",
@@ -94,22 +106,19 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep005 stopped on Gemini's free tier being overloaded; it resumes in a later run",
-    "ep009 stopped on Gemini's free quota; it resumes in a later run",
-    "ep010 stopped on Gemini's free tier being overloaded; it resumes in a later run",
-    "ep011 stopped on Gemini's free tier being overloaded; it resumes in a later run"
+    "only 4 Shorts made and unposted; scheduling 1 a day"
   ],
   "inventory": {
-    "total": 3,
-    "in_buffer": 3,
+    "total": 4,
+    "in_buffer": 4,
     "waiting": 0,
     "target": 42,
     "making": [],
     "remote": [
-      "ep005",
-      "ep009",
-      "ep010",
-      "ep011"
+      "ep012",
+      "ep013",
+      "ep014",
+      "ep015"
     ]
   },
   "queue": [
@@ -124,6 +133,11 @@
       "due_at": "2026-10-01T20:00:00-04:00"
     },
     {
+      "id": "ep009",
+      "title": "The Solar Storm That Powered the Telegraph",
+      "due_at": "2026-10-02T19:00:00-04:00"
+    },
+    {
       "id": "ep004",
       "title": "Soviet Moon Photos on US Spy Film",
       "due_at": "2026-10-07T20:00:00-04:00"
@@ -133,114 +147,121 @@
   "made": [
     {
       "id": "ep005",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
-      "quota": false,
-      "overloaded": true
+      "reason": "low scores: payoff, visuals, loop"
     },
     {
       "id": "ep009",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "The Solar Storm That Powered the Telegraph",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790768322/universereceipts/ep009-1f57acd9.mp4"
     },
     {
       "id": "ep010",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
-      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
-      "quota": false,
-      "overloaded": true
+      "reason": "low scores: payoff, visuals"
     },
     {
       "id": "ep011",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
-      "quota": false,
-      "overloaded": true
+      "reason": "low scores: hook, payoff, visuals; 2 frame problems"
     }
   ],
   "spawned": [
     {
-      "id": "ep005",
-      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "call_id": "fc-01M3S1JDYTJG8NC42CA5R8TNE3"
+      "id": "ep012",
+      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
+      "call_id": "fc-01M3SP6B27EQ24Y61AX556ZS35"
     },
     {
-      "id": "ep009",
-      "topic": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
-      "call_id": "fc-01M3S1JE74P50ZE8GWA04BXEG3"
+      "id": "ep013",
+      "topic": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
+      "call_id": "fc-01M3SP6CQDC9YK65J0MPENAFZ9"
     },
     {
-      "id": "ep010",
-      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
-      "call_id": "fc-01M3S1JEFS3EGH6RFZ9NQXJ7V3"
+      "id": "ep014",
+      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
+      "call_id": "fc-01M3SP6E11YSQS87W1QKJY5Q6H"
     },
     {
-      "id": "ep011",
-      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "call_id": "fc-01M3S1JER6R8D5PN17XP2Q4S96"
+      "id": "ep015",
+      "topic": "James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew",
+      "call_id": "fc-01M3SP6FKE36PCHJ76W3FSAV1C"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep005",
-      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "spawned_at": "2026-09-30T17:05:34+05:30"
+      "id": "ep012",
+      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
+      "spawned_at": "2026-09-30T23:05:58+05:30"
     },
     {
-      "id": "ep009",
-      "topic": "Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged",
-      "spawned_at": "2026-09-30T17:05:34+05:30"
+      "id": "ep013",
+      "topic": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
+      "spawned_at": "2026-09-30T23:05:59+05:30"
     },
     {
-      "id": "ep010",
-      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
-      "spawned_at": "2026-09-30T17:05:34+05:30"
+      "id": "ep014",
+      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
+      "spawned_at": "2026-09-30T23:06:01+05:30"
     },
     {
-      "id": "ep011",
-      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "spawned_at": "2026-09-30T17:05:34+05:30"
+      "id": "ep015",
+      "topic": "James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew",
+      "spawned_at": "2026-09-30T23:06:02+05:30"
     }
   ],
-  "published": [],
+  "published": [
+    {
+      "id": "ep009",
+      "title": "The Solar Storm That Powered the Telegraph",
+      "due_at": "2026-10-02T19:00:00-04:00"
+    }
+  ],
   "live": 0,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 13,
+    "calls": 16,
     "by_model": {
-      "gemini-3.6-flash": 2,
-      "gemini-3-flash-preview": 2,
-      "gemini-3.5-flash-lite": 8,
-      "gemini-3.8-flash": 1
+      "gemini-3.5-flash": 5,
+      "gemini-3.6-flash": 3,
+      "gemini-3-flash-preview": 3,
+      "gemini-3.5-flash-lite": 4,
+      "gemini-3.7-flash": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 4,
+    "modal": 9,
     "runner": 0
   },
   "daily_done": "2026-09-30",
   "minutes_this_month": 6.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 0.76,
+    "metered": 3.01,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 226,
+    "cloud": 208,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 27.24
+    "modal_credit_left": 24.99
   },
   "made_here": 0,
-  "open_topics": 77,
-  "parked_topics": 2
+  "open_topics": 73,
+  "parked_topics": 5
 }

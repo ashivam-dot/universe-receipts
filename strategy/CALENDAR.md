@@ -65,7 +65,7 @@ unexplained, not alien.
 
 ### Scale Breaker
 
-- TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star — making (ep010)
+- TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star — parked (ep010)
 - Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014
@@ -73,7 +73,7 @@ unexplained, not alien.
 - Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old
 - Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — parked (ep006)
-- Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away
+- Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away — making (ep013)
 - Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza
 - Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there
 
@@ -87,7 +87,7 @@ unexplained, not alien.
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life
 - New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it
 - Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum
-- James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew
+- James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew — making (ep015)
 - Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune
 - Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it
 - Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload
@@ -100,9 +100,9 @@ unexplained, not alien.
 - Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests
-- Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — making (ep011)
+- Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — parked (ep011)
 - Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings
-- Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is
+- Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — making (ep014)
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009
 - SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars
@@ -110,7 +110,7 @@ unexplained, not alien.
 ### Near Misses
 
 - Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for "towing" — dropped (ep007)
-- Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged — making (ep009)
+- Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged — done (ep009)
 - 99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029
 - 2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032
 - Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past
@@ -123,7 +123,7 @@ unexplained, not alien.
 
 ### Space Myths, Busted
 
-- Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit
+- Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit — making (ep012)
 - Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see
 - Season: Earth is closest to the Sun in early January, so distance isn't what makes summer
 - Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun
@@ -132,5 +132,5 @@ unexplained, not alien.
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day
 - Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close
-- Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — making (ep005)
+- Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — parked (ep005)
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop

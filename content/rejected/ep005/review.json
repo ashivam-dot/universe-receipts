@@ -1,0 +1,180 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-30T05:15:13+05:30",
+      "check": {
+        "duration": 51.36,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'suck earth in' heard as 'sucker thin' after 'sun would not'",
+          "'schwarzschild' heard as 'shore scaled' after 'must cross this'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The premise is intriguing but the opening delivery is fairly standard.",
+        "clarity": "Logical flow makes complex gravitational physics easy to grasp.",
+        "payoff": "Dispelling the vacuum cleaner myth provides a satisfying resolution.",
+        "visuals": "Educational diagrams are too text-dense for mobile phone viewing.",
+        "loop": "The transition from the final beat back to the start lacks flow."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "diagram is too text-heavy and unreadable on phone screens"
+        },
+        {
+          "beat": 7,
+          "problem": "infographic contains small text that is difficult to see"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "suck Earth in",
+          "respelling": "suck erth in"
+        },
+        {
+          "beat": 6,
+          "word": "Schwarzschild",
+          "respelling": "shworts sheeld"
+        }
+      ],
+      "rewrite": [
+        "beat 8: \"Meaning we would still safely circle a...\"",
+        "beat 1: \"black hole replacing our Sun, which wouldn't suck Earth in.\""
+      ],
+      "better_than_last": "This script addresses a more prevalent scientific misconception than the historical facts in recent shorts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T17:11:53+05:30",
+      "check": {
+        "duration": 51.29,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Excellent hook that immediately debunks a popular space myth.",
+        "clarity": "Highly logical explanation that breaks down general relativity simply.",
+        "payoff": "The size comparison of a 3-kilometer event horizon provides a mind-bending payoff.",
+        "visuals": "Multiple frames use illegible, text-heavy academic diagrams or duplicate previous images.",
+        "loop": "The final line flows beautifully and seamlessly back into the start of the video."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The frame is a text-heavy infographic with tiny labels that are impossible to read on a mobile screen."
+        },
+        {
+          "beat": 6,
+          "problem": "The frame duplicates the M87* black hole image used in Beat 1."
+        },
+        {
+          "beat": 7,
+          "problem": "The frame shows a complex, academic diagram with small, illegible text."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This video does a better job of explaining a pure physics concept simply and clearly than the historical trivia in ep002 and ep004.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T17:16:35+05:30",
+      "check": {
+        "duration": 51.29,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The hook is engaging but uses a familiar concept.",
+        "clarity": "Physics explanations are easy to grasp.",
+        "payoff": "The resolution is logical but lacks a surprising twist.",
+        "visuals": "Beat 5 uses an incorrect diagram.",
+        "loop": "The transition works but is not entirely seamless."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The frame shows a diagram of a Quasistar instead of a solar-mass black hole."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: 'So at our distant orbit, Earth safely circles, meaning that...'"
+      ],
+      "better_than_last": "It explains a counterintuitive physics concept more clearly than the historical anecdotes in prior episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals, loop",
+  "rejected_at": "2026-09-30T17:16:35+05:30"
+}

@@ -1,0 +1,163 @@
+{
+  "rounds": [
+    {
+      "at": "2026-09-30T17:08:29+05:30",
+      "check": {
+        "duration": 45.87,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Flickr via Openverse",
+          "Flickr via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing concept but slightly generic opening phrasing.",
+        "clarity": "Concepts and scale comparisons are easy to follow.",
+        "payoff": "The bow shock reveal is interesting but lacks a sharp twist.",
+        "visuals": "Visuals support the script well, though some graphics have small inset text.",
+        "loop": "Last line transitions smoothly back into the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Betelgeuse is secretly an escaped runaway star barreling across the galaxy.",
+        "Beat 7: Its collision with interstellar dust creates a glowing shield four light-years wide.",
+        "Beat 8: That is how a giant star became a celestial runaway."
+      ],
+      "better_than_last": "Provides stronger scale comparisons using our solar system than previous episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T17:27:57+05:30",
+      "check": {
+        "duration": 50.25,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong premise that catches immediate attention.",
+        "clarity": "Easy to follow with clear individual concepts.",
+        "payoff": "Good reveal of the star's massive bow shock.",
+        "visuals": "Relevant images, though some contain small text labels.",
+        "loop": "Smoothly transitions back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Star map contains small text labels hard to read on a phone screen."
+        },
+        {
+          "beat": 6,
+          "problem": "Split-screen frame includes tiny technical text captions."
+        },
+        {
+          "beat": 7,
+          "problem": "Diagram frame relies on small annotated text overlays."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short uses a more direct narrative arc and dynamic spatial comparisons than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-09-30T17:31:26+05:30",
+      "check": {
+        "duration": 50.25,
+        "words": 121,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The hook is moderately engaging but starts slowly with a complex star name.",
+        "clarity": "The script flows well and uses effective, easy-to-visualize scale comparisons.",
+        "payoff": "The ending details the bow shock well but lacks a truly surprising twist.",
+        "visuals": "Several frames use incorrect, generic nebula graphics instead of Betelgeuse's actual bow shock.",
+        "loop": "The final line connects cleanly back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The green filamentary nebula shown is a generic supernova remnant, not Betelgeuse's actual bow shock."
+        },
+        {
+          "beat": 7,
+          "problem": "Repeats the incorrect green nebula image instead of showing the real crescent-shaped bow shock."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Change to 'A giant star is secretly escaping the constellation Orion and barreling across the galaxy.'",
+        "Beat 8: Change to 'This massive bow shock is how'"
+      ],
+      "better_than_last": "This episode provides a much clearer physical scale and velocity comparison than the more abstract concept in NASA's 1915 secret.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, visuals; 2 frame problems",
+  "rejected_at": "2026-09-30T17:31:26+05:30"
+}
