@@ -1,7 +1,7 @@
 id: ep017
-title: The Twin That Launched First
+title: The Spacecraft That Launched First
 series: Mission Files
-description: Discover why Voyager 2 launched before its twin and became the only probe to visit Uranus and Neptune.
+description: Discover why Voyager 2 launched before its twin and became the only probe to visit the ice giants.
 sources:
 - https://en.wikipedia.org/wiki/Voyager_2
 - https://www.nasa.gov/missions/voyager-program/voyager-2/voyager-nasas-longest-lived-mission-logs-45-years-in-space/
@@ -16,9 +16,10 @@ tags:
 - Uranus
 - Neptune
 - NASA
-- spacecraft
+- Voyager program
 - interstellar space
 - astronomy
+- space missions
 voice:
   voice: af_heart
   speed: 1.05
@@ -46,10 +47,10 @@ beats:
     - 0.2
     - 0.65
     - 0.9
-- text: Most people naturally assume the lower numbered spacecraft went up first.
+- text: Most people assume the lower numbered spacecraft must have lifted off first.
   emphasis:
-  - most people naturally assume
-  - lower numbered
+  - assume
+  - lifted off first
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/1/11/Voyager_spacecraft_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -63,13 +64,13 @@ beats:
     - card
     - color
     motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.42
+    focus_y: 0.45
     card:
       kind: fact
       big: Voyager 2
       small: Launched first
-- text: In 1977, NASA relied on a rare planetary alignment occurring once every 176 years.
+- text: In 1977, NASA utilized a rare planetary alignment occurring once every 176 years.
   emphasis:
   - '1977'
   - rare planetary alignment
@@ -87,53 +88,53 @@ beats:
     - card
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.55
+    focus_y: 0.55
     card:
       kind: dateline
       big: '1977'
       small: Planetary Alignment
-- text: Voyager 1 took a shorter and faster trajectory, reaching Jupiter and Saturn sooner.
+- text: Voyager 1 took a shorter and faster path to reach Jupiter and Saturn sooner.
   emphasis:
   - shorter and faster
   - sooner
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Voyager_1_-_Jupiter_Mosaic_-_1979-03-11_%2819069026659%29.png/1280px-Voyager_1_-_Jupiter_Mosaic_-_1979-03-11_%2819069026659%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e9/Jupiter_by_voyager_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Voyager 1 - Jupiter Mosaic - 1979-03-11 (19069026659).png
-      credit: Justin Cowart
+      title: Jupiter by voyager 1.jpg
+      credit: Voyager 1
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Voyager_1_-_Jupiter_Mosaic_-_1979-03-11_(19069026659).png
+      url: https://commons.wikimedia.org/wiki/File:Jupiter_by_voyager_1.jpg
     fallbacks:
     - color
-    motion: pan_up
+    motion: pan_left
     focus_x: 0.5
-    focus_y: 0.5
-- text: Meanwhile, the truly first-launched probe simply took a much slower path.
+    focus_y: 0.35
+- text: Meanwhile, Voyager 2 was sent on a longer journey toward the edge of the solar system.
   emphasis:
-  - truly first-launched
-  - slower path
+  - longer journey
+  - edge
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Voyager_final_region_before_interstellar_space.jpg/1920px-Voyager_final_region_before_interstellar_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Voyager_2_on_closest_approach_to_Saturn.jpg/1280px-Voyager_2_on_closest_approach_to_Saturn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Voyager final region before interstellar space.jpg
-      credit: NASA/JPL-Caltech
+      title: Voyager 2 on closest approach to Saturn.jpg
+      credit: Don Davis
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Voyager_final_region_before_interstellar_space.jpg
+      url: https://commons.wikimedia.org/wiki/File:Voyager_2_on_closest_approach_to_Saturn.jpg
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: That brilliant cosmic detour made Voyager 2 the only spacecraft to visit Uranus and Neptune.
+    focus_x: 0.58
+    focus_y: 0.45
+- text: That detour made it the only spacecraft to ever visit the ice giants, Uranus and Neptune.
   emphasis:
   - only spacecraft
-  - Uranus and Neptune
+  - ice giants
   sfx: whoosh
   pause_after: 0.4
   visual:
@@ -153,11 +154,11 @@ beats:
     focus_y: 0.5
     card:
       kind: fact
-      big: Uranus & Neptune
+      big: Ice Giants
       small: Only visitor
-- text: It discovered hidden rings and dozens of new moons before diving completely south into interstellar space.
+- text: It discovered rings and new moons before diving south and entering interstellar space in 2018.
   emphasis:
-  - hidden rings
+  - diving south
   - interstellar space
   sfx: pop
   pause_after: 0.4
@@ -175,9 +176,9 @@ beats:
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: That is precisely why Voyager 2 launched two weeks before its twin, yet was named second.
+- text: Reaching its destination second is why Voyager 2 launched two weeks before its twin, yet was named second.
   emphasis:
-  - two weeks before
+  - destination second
   - named second
   sfx: pop
   visual:
@@ -185,3 +186,4 @@ beats:
     motion: zoom_out
     focus_x: 0.45
     focus_y: 0.5
+hook_text: A 176-YEAR ALIGNMENT

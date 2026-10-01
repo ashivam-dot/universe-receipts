@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-10-01T17:09:27+05:30",
+  "updated_at": "2026-10-01T22:31:21+05:30",
   "day": 0,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M3VKY86KRBR47F9K3PPN5TSR",
+    "id": "ta-01M3W6JE4895EWD89P22KX9HJR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-01T17:05:10+05:30",
-    "started_at_utc": "2026-10-01T11:35:10+00:00",
-    "seconds": 257
+    "started_at": "2026-10-01T22:30:45+05:30",
+    "started_at_utc": "2026-10-01T17:00:45+00:00",
+    "seconds": 36
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 2.0
     },
     {
       "name": "sync",
@@ -28,67 +28,31 @@
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 0.9
+      "seconds": 0.7
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep008 at 6 h: shown: 607 views in 12 hours, 4.0 likes per 100 views",
-      "seconds": 0.7
+      "detail": "no checkpoint due",
+      "seconds": 0.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep012 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep014 rejected (low scores: payoff, visuals, loop; 2 frame problems); ep017 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep018 unfinished (Overloaded",
-      "seconds": 8.9
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "2 subscribers",
-      "seconds": 1.2
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "No changes made today as no Shorts have accumulated 24+ hours of data yet.",
-      "seconds": 16.4
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.1
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 190.0
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 31.9
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-000.md",
-      "seconds": 0.1
+      "detail": "ep012 rejected (low scores: hook, payoff, visuals, loop); ep017 ready; ep018 rejected (low scores: payoff); ep019 rejected (low scores: payoff, visuals); ep020 rejected (low scores: visuals; 2 frame problems)",
+      "seconds": 16.1
     },
     {
       "name": "buffer channel",
@@ -105,44 +69,56 @@
     {
       "name": "preflight ep009",
       "ok": true,
-      "detail": "video downloads whole (22 MB in 0 s)",
+      "detail": "video still hosted",
       "seconds": 0.5
+    },
+    {
+      "name": "release ep004",
+      "ok": true,
+      "detail": "off its Oct 07 anniversary slot: too few other Shorts to fill the days before it",
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.1
+      "seconds": 2.5
     },
     {
-      "name": "start ep012",
+      "name": "schedule ep004",
       "ok": true,
-      "detail": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "seconds": 0.3
+      "detail": "2026-10-04T19:00:00-04:00",
+      "seconds": 1.1
     },
     {
-      "name": "start ep017",
+      "name": "schedule ep017",
       "ok": true,
-      "detail": "Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune",
-      "seconds": 0.3
+      "detail": "2026-10-05T19:00:00-04:00",
+      "seconds": 1.2
     },
     {
-      "name": "start ep018",
+      "name": "start ep021",
       "ok": true,
-      "detail": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
-      "seconds": 0.3
-    },
-    {
-      "name": "start ep019",
-      "ok": true,
-      "detail": "Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces",
+      "detail": "Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun",
       "seconds": 0.4
     },
     {
-      "name": "start ep020",
+      "name": "start ep022",
       "ok": true,
-      "detail": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "seconds": 0.3
+      "detail": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep023",
+      "ok": true,
+      "detail": "3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away",
+      "seconds": 0.4
+    },
+    {
+      "name": "start ep024",
+      "ok": true,
+      "detail": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
+      "seconds": 0.5
     },
     {
       "name": "publish",
@@ -154,22 +130,19 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep012 stopped on Gemini's free tier being overloaded; it resumes in a later run",
-    "ep017 stopped on Gemini's free tier being overloaded; it resumes in a later run",
-    "ep018 stopped on Gemini's free tier being overloaded; it resumes in a later run"
+    "only 5 Shorts made and unposted; scheduling 1 a day"
   ],
   "inventory": {
-    "total": 4,
-    "in_buffer": 4,
+    "total": 5,
+    "in_buffer": 5,
     "waiting": 0,
     "target": 42,
     "making": [],
     "remote": [
-      "ep012",
-      "ep017",
-      "ep018",
-      "ep019",
-      "ep020"
+      "ep021",
+      "ep022",
+      "ep023",
+      "ep024"
     ]
   },
   "queue": [
@@ -191,130 +164,144 @@
     {
       "id": "ep004",
       "title": "Soviet Moon Photos on US Spy Film",
-      "due_at": "2026-10-07T20:00:00-04:00"
+      "due_at": "2026-10-04T19:00:00-04:00"
+    },
+    {
+      "id": "ep017",
+      "title": "The Spacecraft That Launched First",
+      "due_at": "2026-10-05T19:00:00-04:00"
     }
   ],
   "waiting": [],
   "made": [
     {
       "id": "ep012",
-      "outcome": "unfinished",
-      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
-      "quota": false,
-      "overloaded": true
-    },
-    {
-      "id": "ep014",
       "outcome": "rejected",
-      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "reason": "low scores: payoff, visuals, loop; 2 frame problems"
+      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
+      "reason": "low scores: hook, payoff, visuals, loop"
     },
     {
       "id": "ep017",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune",
-      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
-      "quota": false,
-      "overloaded": true
+      "title": "The Spacecraft That Launched First",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790855798/universereceipts/ep017-8cf2c5c2.mp4"
     },
     {
       "id": "ep018",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
-      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
-      "quota": false,
-      "overloaded": true
+      "reason": "low scores: payoff"
+    },
+    {
+      "id": "ep019",
+      "outcome": "rejected",
+      "topic": "Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces",
+      "reason": "low scores: payoff, visuals"
+    },
+    {
+      "id": "ep020",
+      "outcome": "rejected",
+      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
+      "reason": "low scores: visuals; 2 frame problems"
     }
   ],
   "spawned": [
     {
-      "id": "ep012",
-      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "call_id": "fc-01M3VM67G1ASMM5Q8JSACBPCBX"
+      "id": "ep021",
+      "topic": "Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun",
+      "call_id": "fc-01M3W6KMQ4QKV0XY14PM7QT4BC"
     },
     {
-      "id": "ep017",
-      "topic": "Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune",
-      "call_id": "fc-01M3VM67RZ0GQ1FBHY286SJSGC"
+      "id": "ep022",
+      "topic": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
+      "call_id": "fc-01M3W6KN52DDQ9X59521B99744"
     },
     {
-      "id": "ep018",
-      "topic": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
-      "call_id": "fc-01M3VM680Z68725AQWXFGCTGWN"
+      "id": "ep023",
+      "topic": "3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away",
+      "call_id": "fc-01M3W6KNHSQB681GNSNDRPJSV8"
     },
     {
-      "id": "ep019",
-      "topic": "Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces",
-      "call_id": "fc-01M3VM68CFT4NHFS1HCQ84CH7J"
-    },
-    {
-      "id": "ep020",
-      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "call_id": "fc-01M3VM68PMS89WBSBSBM0PVP5P"
+      "id": "ep024",
+      "topic": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
+      "call_id": "fc-01M3W6KP0BXE0MYC9SFPF5Q4HE"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep012",
-      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "spawned_at": "2026-10-01T17:09:26+05:30"
+      "id": "ep021",
+      "topic": "Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun",
+      "spawned_at": "2026-10-01T22:31:20+05:30"
+    },
+    {
+      "id": "ep022",
+      "topic": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
+      "spawned_at": "2026-10-01T22:31:20+05:30"
+    },
+    {
+      "id": "ep023",
+      "topic": "3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away",
+      "spawned_at": "2026-10-01T22:31:20+05:30"
+    },
+    {
+      "id": "ep024",
+      "topic": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
+      "spawned_at": "2026-10-01T22:31:21+05:30"
+    }
+  ],
+  "published": [
+    {
+      "id": "ep004",
+      "title": "Soviet Moon Photos on US Spy Film",
+      "due_at": "2026-10-04T19:00:00-04:00"
     },
     {
       "id": "ep017",
-      "topic": "Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune",
-      "spawned_at": "2026-10-01T17:09:26+05:30"
-    },
-    {
-      "id": "ep018",
-      "topic": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
-      "spawned_at": "2026-10-01T17:09:26+05:30"
-    },
-    {
-      "id": "ep019",
-      "topic": "Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces",
-      "spawned_at": "2026-10-01T17:09:27+05:30"
-    },
-    {
-      "id": "ep020",
-      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "spawned_at": "2026-10-01T17:09:27+05:30"
+      "title": "The Spacecraft That Launched First",
+      "due_at": "2026-10-05T19:00:00-04:00"
     }
   ],
-  "published": [],
   "live": 1,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 18,
+    "calls": 29,
     "by_model": {
-      "gemini-3.8-flash": 1,
-      "gemini-3-flash-preview": 5,
-      "gemini-3.5-flash-lite": 9,
-      "gemini-3.6-flash": 1,
-      "gemini-3.5-flash": 2
+      "gemini-3.8-flash": 3,
+      "gemini-3-flash-preview": 13,
+      "gemini-3.5-flash-lite": 7,
+      "gemini-3.6-flash": 3,
+      "gemini-3.5-flash": 3
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 5,
+    "modal": 12,
     "runner": 0
   },
   "daily_done": "2026-10-01",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 0.3,
+    "metered": 0.74,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 230,
+    "cloud": 227,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 27.7
+    "modal_credit_left": 27.26
   },
   "made_here": 0,
-  "open_topics": 75,
-  "parked_topics": 6
+  "open_topics": 71,
+  "parked_topics": 10
 }

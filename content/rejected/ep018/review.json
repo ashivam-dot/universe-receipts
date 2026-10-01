@@ -1,0 +1,177 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-01T17:13:30+05:30",
+      "check": {
+        "duration": 54.53,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'cour palais' heard as 'kerpale' after 'kessler and burton'",
+          "'(nothing)' heard as 'you' after 'earth for centuries'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong high-stakes premise that halts swiping immediately.",
+        "clarity": "Logical breakdown of orbital debris chain reactions.",
+        "payoff": "Historical 2009 satellite collision validates the threat.",
+        "visuals": "Contains dense graphs and tiny text unreadable on mobile screens.",
+        "loop": "Phrasing and visuals link back to the start smoothly."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Dense line plot with small text that is hard to read on a mobile screen."
+        },
+        {
+          "beat": 6,
+          "problem": "Multi-panel chart with tiny text illegible at phone size."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Cour-Palais",
+          "respelling": "core pah lay"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a clearer real-world historical example to prove its core premise compared to recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-01T17:17:38+05:30",
+      "check": {
+        "duration": 54.73,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'cour palais' heard as 'korpale' after 'kessler and burton'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The high-stakes opening effectively captures immediate attention.",
+        "clarity": "The scientific concept is explained through logical, distinct steps.",
+        "payoff": "Connecting the 1978 theory to a real 2009 crash is satisfying.",
+        "visuals": "The imagery is relevant but feels repetitive near the middle.",
+        "loop": "The final sentence transitions seamlessly into the hook."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Frame is underexposed and lacks a distinct focal point."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Cour-Palais",
+          "respelling": "core pah lay"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a more direct and evidence-based payoff than the black hole episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-01T17:20:28+05:30",
+      "check": {
+        "duration": 54.73,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'cour palais' heard as 'korpale' after 'kessler and burton'",
+          "'(nothing)' heard as 'you' after 'earth for centuries'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong immediate stakes regarding human confinement.",
+        "clarity": "Logical progression from theory to physical proof.",
+        "payoff": "The historical collision validates the theory effectively.",
+        "visuals": "Consistent space imagery and clean title cards.",
+        "loop": "Seamless grammatical connection between the end and start."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Cour-Palais",
+          "respelling": "core pal ay"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: In 2009, this theory became real when a dead Russian satellite struck an active US one.",
+        "Beat 8: The resulting debris cloud still threatens every mission, proving how..."
+      ],
+      "better_than_last": "Better use of a historical event to anchor a theoretical concept compared to ep008.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff",
+  "rejected_at": "2026-10-01T17:20:28+05:30"
+}

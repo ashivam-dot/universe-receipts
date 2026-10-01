@@ -22,8 +22,8 @@ unexplained, not alien.
 
 | Added | Story | Series | Why |
 |---|---|---|---|
-| 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — making (ep019) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
-| 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — making (ep020) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
+| 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — parked (ep019) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
+| 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — parked (ep020) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -59,13 +59,13 @@ unexplained, not alien.
 - Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away
 - HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds
 - Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare
-- Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — making (ep018)
+- Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — parked (ep018)
 - WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth
 - Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all
 - Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece
 - Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty
 - R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot
-- 3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away
+- 3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away — making (ep023)
 - Hypervelocity star (2005): stars being flung out of the Milky Way at millions of miles per hour, doomed to wander intergalactic space alone
 
 ### Scale Breaker
@@ -95,7 +95,7 @@ unexplained, not alien.
 - New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it
 - Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum — dropped (ep016)
 - James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew — dropped (ep015)
-- Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune — making (ep017)
+- Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune — done (ep017)
 - Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it
 - Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload
 
@@ -104,7 +104,7 @@ unexplained, not alien.
 - PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star
 - Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain
 - Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy
-- Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should
+- Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — making (ep022)
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — parked (ep011)
@@ -125,15 +125,15 @@ unexplained, not alien.
 - Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin
 - Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months
 - 1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm
-- Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater
+- Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater — making (ep024)
 - Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years
 
 ### Space Myths, Busted
 
-- Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit — making (ep012)
+- Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit — parked (ep012)
 - Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see
 - Season: Earth is closest to the Sun in early January, so distance isn't what makes summer
-- Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun
+- Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — making (ep021)
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth
 - Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day

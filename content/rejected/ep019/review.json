@@ -1,0 +1,162 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-01T17:24:32+05:30",
+      "check": {
+        "duration": 55.33,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'site' heard as 'sight' after 'silos this solemn'",
+          "'(nothing)' heard as 'you' after 'never actually exploded'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The debunking premise immediately grabs attention.",
+        "clarity": "The scientific breakdown of the structural failure is highly logical and easy to follow.",
+        "payoff": "The twist regarding the intact crew cabin and wind shear delivers a strong payoff.",
+        "visuals": "Most diagrams and photos are correct, but there is a major error in the crew photograph.",
+        "loop": "The final phrase connects back to the starting hook perfectly."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The image shows the STS-51-A crew of Discovery instead of the STS-51-L Challenger crew."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It delivers a much cleaner scientific resolution to its central mystery than ep008.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-01T17:29:31+05:30",
+      "check": {
+        "duration": 55.33,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'site' heard as 'sight' after 'silos this solemn'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strongly challenges common history to stop the scroll.",
+        "clarity": "Logical flow from myth to technical explanation is clear.",
+        "payoff": "The distinction between fire and wind shear is rewarding.",
+        "visuals": "Major error with the astronaut crew photo identification.",
+        "loop": "Phrasing allows for a perfect transition back to start."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows the STS-107 Columbia crew instead of the Challenger crew."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It utilizes a more emotionally resonant historical mystery than the geographical facts of ep013.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-01T17:32:28+05:30",
+      "check": {
+        "duration": 55.33,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'site' heard as 'sight' after 'silos this solemn'",
+          "'(nothing)' heard as 'you' after 'never actually exploded'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong myth-busting statement effectively captures attention immediately.",
+        "clarity": "Technical explanation of the structural failure is logically sound.",
+        "payoff": "The missile silo detail is surprising but needs more impact.",
+        "visuals": "Technical diagrams are helpful though recovery footage is generic.",
+        "loop": "The final sentence mirrors the hook for a perfect transition."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Recovery ship is generic and fails to show the cabin."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: NASA ignored engineers and buried the remains in missile silos."
+      ],
+      "better_than_last": "Offers a more compelling historical correction than the recent black hole episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-10-01T17:32:28+05:30"
+}

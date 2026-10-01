@@ -1,0 +1,164 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-01T17:25:28+05:30",
+      "check": {
+        "duration": 52.87,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The concept of an asymmetrical galaxy with a single dominating arm is an engaging visual curiosity.",
+        "clarity": "The narrative clearly explains how gravitational interaction with a dwarf companion caused the deformation.",
+        "payoff": "Identifying NGC 770 as the gravitational culprit gives a satisfying resolution to the mystery.",
+        "visuals": "Beat 5 crops out the giant arm being discussed, and Beat 8 duplicates Beat 5's imagery.",
+        "loop": "Beat 9 says the entire hook sentence rather than bridging into Beat 1, causing an awkward verbatim repetition."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "the subject cropped out"
+        },
+        {
+          "beat": 8,
+          "problem": "the same picture as another beat"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: That is why"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-01T17:34:27+05:30",
+      "check": {
+        "duration": 52.87,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'entire spiral galaxy'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opener framing an asymmetric galactic mystery.",
+        "clarity": "Logical sequence following the history and physical cause.",
+        "payoff": "Reveals the dwarf companion causing the tidal structure.",
+        "visuals": "Beat 4 frame is too distant to see clearly on mobile.",
+        "loop": "Last sentence connects seamlessly to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Subject is too small and unreadable on a mobile screen."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Features a cleaner audio loop than recent installments.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-01T17:45:19+05:30",
+      "check": {
+        "duration": 53.12,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The unique visual of the lopsided galaxy and the clear narration immediately spark curiosity.",
+        "clarity": "The story flows logically from the concept of symmetry to the specific cause of the anomaly.",
+        "payoff": "Connecting the deformity to a specific companion galaxy provides a satisfying 'why' to the hook.",
+        "visuals": "Multiple beats reuse the same wide shot of NGC 772, which becomes repetitive and fails to highlight the dwarf companion.",
+        "loop": "The concluding line mirrors the opening perfectly for a seamless transition."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The subject, dwarf galaxy NGC 770, is not shown; the frame shows a generic spiral instead of the elliptical companion."
+        },
+        {
+          "beat": 8,
+          "problem": "The frame uses the same picture as beat 5."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The clarity of the gravitational mechanism is superior to the abstract explanation in episode 013.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-01T17:45:19+05:30"
+}
