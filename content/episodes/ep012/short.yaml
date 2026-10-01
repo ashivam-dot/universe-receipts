@@ -71,13 +71,13 @@ beats:
   - complete myth
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/NASA_HQ_Building_2.jpg/1920px-NASA_HQ_Building_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1920px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: NASA HQ Building 2.jpg
+      title: NASA HQ Building.jpg
       credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:NASA_HQ_Building_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:NASA_HQ_Building.jpg
     fallbacks:
     - color
     motion: pan_right
@@ -133,22 +133,22 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Earth_Observation_%28iss071e003218%29.jpg/3840px-Earth_Observation_%28iss071e003218%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Earth_Observation_%28iss069e033761%29.jpg/3840px-Earth_Observation_%28iss069e033761%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Earth Observation (iss071e003218).jpg
-      credit: NASA Johnson Space Center / CRONUS
+      title: Earth Observation (iss069e033761).jpg
+      credit: NASA Johnson Space Center / Warren Hoburg
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Earth_Observation_(iss071e003218).jpg
+      url: https://commons.wikimedia.org/wiki/File:Earth_Observation_(iss069e033761).jpg
     fallbacks:
     - color
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: Even China's first astronaut, Yang Liwei, admitted he could not see it from space.
+- text: China's own Yang Liwei admitted he searched but couldn't find it.
   emphasis:
   - Yang Liwei
-  - could not see it
+  - couldn't find it
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Shenzhou_5_in_space_Yang_Liwei.png/960px-Shenzhou_5_in_space_Yang_Liwei.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -161,12 +161,12 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Which confirms once and for all that the famous lunar legend is dead.
+    focus_x: 0.8
+    focus_y: 0.3
+- text: Proving that even the largest structures are often impossible to see from afar.
   emphasis:
-  - once and for all
-  - lunar legend
+  - largest structures
+  - impossible to see
   sfx: pop
   pause_after: 0.4
   visual:

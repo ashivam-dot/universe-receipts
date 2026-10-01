@@ -126,7 +126,66 @@
       "better_than_last": "Explains a technical radiometric dating concept with greater narrative clarity than recent episodes.",
       "judge": "gemini-3.8-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-01T11:09:04+05:30",
+      "check": {
+        "duration": 54.99,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'electroplated' heard as 'electriplated' after 'nasa'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Mentions radioactive material early to grab viewer attention effectively.",
+        "clarity": "Presents a straightforward step-by-step explanation of the atomic clock concept.",
+        "payoff": "Explains how the uranium clock works, though missing a larger surprising twist.",
+        "visuals": "Relevant images overall, but suffers from repetitive visuals and text-heavy frames.",
+        "loop": "Connects back to the beginning, though the transition is slightly abrupt."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "the same picture as another beat"
+        },
+        {
+          "beat": 7,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: Change to 'To determine when the space journey began,' to complete the loop into Beat 1."
+      ],
+      "better_than_last": "This Short grounds its narrative around a tangible physical artifact to explain a complex space concept simply.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
     }
   ],
-  "best_round": 2
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals, loop; 2 frame problems",
+  "rejected_at": "2026-10-01T11:09:04+05:30"
 }

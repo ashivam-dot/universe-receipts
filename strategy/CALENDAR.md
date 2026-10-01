@@ -22,6 +22,8 @@ unexplained, not alien.
 
 | Added | Story | Series | Why |
 |---|---|---|---|
+| 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — making (ep019) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
+| 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — making (ep020) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -35,6 +37,7 @@ unexplained, not alien.
 | Oct 19 | 1I/ʻOumuamua (2017): the first known visitor from another star system sped up as it left, with no visible tail | Space Got Weird |
 | Oct 21 | Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet | Space Myths, Busted |
 | Oct 22 | Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus | Mission Files |
+| Oct 24 | V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up | Mission Files |
 | Oct 29 | STS-95 (1998): John Glenn went back to space at 77, 36 years after his first orbit | Mission Files |
 | Oct 31 | 2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween | Near Misses |
 | Nov 2 | Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day | Mission Files |
@@ -62,6 +65,8 @@ unexplained, not alien.
 - Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece
 - Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty
 - R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot
+- 3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away
+- Hypervelocity star (2005): stars being flung out of the Milky Way at millions of miles per hour, doomed to wander intergalactic space alone
 
 ### Scale Breaker
 
@@ -76,6 +81,8 @@ unexplained, not alien.
 - Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away — done (ep013)
 - Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza
 - Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there
+- IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it
+- Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies
 
 ### Mission Files
 
@@ -102,7 +109,7 @@ unexplained, not alien.
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — parked (ep011)
 - Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings
-- Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — making (ep014)
+- Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — parked (ep014)
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009
 - SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars
