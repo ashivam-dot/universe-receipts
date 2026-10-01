@@ -174,7 +174,7 @@ beats:
 
 ## Render and check
 
-From `/Users/ashivam/Desktop/YouTube-100-Day-Autopilot/youtube-studio/pipeline`:
+From `/Users/ashivam/Desktop/YouTube/YouTube-100-Day-Autopilot/youtube-studio/pipeline`:
 
 ```bash
 uv run --no-sync ytc make ../content/episodes/<id>/short.yaml

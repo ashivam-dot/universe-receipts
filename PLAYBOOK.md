@@ -13,7 +13,7 @@ improving the pipeline or the strategy. Publishing runs at the cadence in `strat
 answers questions during a session; make the best decision and record it.
 
 Day number: `N = (today in IST - 2026-10-01)` in days.
-Root: `/Users/ashivam/Desktop/YouTube-100-Day-Autopilot/youtube-studio`. Pipeline commands run from `pipeline/` with `uv run --no-sync ytc ...`.
+Root: `/Users/ashivam/Desktop/YouTube/YouTube-100-Day-Autopilot/youtube-studio`. Pipeline commands run from `pipeline/` with `uv run --no-sync ytc ...`.
 Keep `--no-sync`: without it, every `uv run` re-checks a GitHub-hosted dependency and waits on other runs,
 which can stall a command for minutes.
 
