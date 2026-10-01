@@ -51,6 +51,8 @@ jobs:
       MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
       MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
       YTC_CONTACT: ${{ secrets.YTC_CONTACT }}
+      # Each Short's 6, 24 and 72 hour review goes to the owner's phone (review.py).
+      YTC_NTFY_TOPIC: ${{ secrets.YTC_NTFY_TOPIC }}
       # Modal's monthly credit in dollars: 1 on the card-free Starter plan, 30 once a card is on file.
       YTC_MODAL_CREDIT: ${{ vars.YTC_MODAL_CREDIT }}
       HF_HOME: ${{ github.workspace }}/.cache/huggingface
