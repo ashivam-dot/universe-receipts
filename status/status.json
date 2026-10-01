@@ -1,46 +1,58 @@
 {
-  "updated_at": "2026-10-01T05:05:40+05:30",
+  "updated_at": "2026-10-01T11:05:46+05:30",
   "day": 0,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M3TAQW05WS6T3RS71SJW31WR",
+    "id": "ta-01M3TZB0Z13B5KPR4YM1MS4TDR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-01T05:05:11+05:30",
-    "started_at_utc": "2026-09-30T23:35:11+00:00",
-    "seconds": 29
+    "started_at": "2026-10-01T11:05:11+05:30",
+    "started_at_utc": "2026-10-01T05:35:11+00:00",
+    "seconds": 35
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
+      "seconds": 3.0
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "4 posts",
-      "seconds": 0.5
+      "seconds": 0.8
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 0.7
+      "detail": "created playlist 'The Universe Is Terrifying'; added ep008 to 'The Universe Is Terrifying'",
+      "seconds": 2.3
+    },
+    {
+      "name": "languages",
+      "ok": true,
+      "detail": "every live Short is in English",
+      "seconds": 0.1
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.0
+      "seconds": 0.1
+    },
+    {
+      "name": "short reviews",
+      "ok": true,
+      "detail": "no checkpoint due",
+      "seconds": 0.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep012 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep013 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep014 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash'",
-      "seconds": 13.0
+      "detail": "ep012 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep013 ready; ep014 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep016 rejected (research: The central elements of the requested story—the Kodak backu",
+      "seconds": 12.5
     },
     {
       "name": "buffer channel",
@@ -52,31 +64,25 @@
       "name": "preflight ep002",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
-    },
-    {
-      "name": "preflight ep008",
-      "ok": true,
-      "detail": "video still hosted",
       "seconds": 0.8
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.1
+      "seconds": 1.9
+    },
+    {
+      "name": "schedule ep013",
+      "ok": true,
+      "detail": "2026-10-03T19:00:00-04:00",
+      "seconds": 1.3
     },
     {
       "name": "start ep012",
       "ok": true,
       "detail": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep013",
-      "ok": true,
-      "detail": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
-      "seconds": 1.1
+      "seconds": 1.3
     },
     {
       "name": "start ep014",
@@ -85,9 +91,15 @@
       "seconds": 1.2
     },
     {
-      "name": "start ep016",
+      "name": "start ep017",
       "ok": true,
-      "detail": "Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum",
+      "detail": "Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune",
+      "seconds": 1.2
+    },
+    {
+      "name": "start ep018",
+      "ok": true,
+      "detail": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
       "seconds": 0.6
     },
     {
@@ -100,9 +112,9 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep012 stopped on Gemini's free quota; it resumes in a later run",
-    "ep013 stopped on Gemini's free tier being overloaded; it resumes in a later run",
-    "ep014 stopped on Gemini's free tier being overloaded; it resumes in a later run"
+    "ep012 stopped on Gemini's free tier being overloaded; it resumes in a later run",
+    "ep014 stopped on Gemini's free tier being overloaded; it resumes in a later run",
+    "only 4 Shorts made and unposted; scheduling 1 a day"
   ],
   "inventory": {
     "total": 4,
@@ -112,17 +124,12 @@
     "making": [],
     "remote": [
       "ep012",
-      "ep013",
       "ep014",
-      "ep016"
+      "ep017",
+      "ep018"
     ]
   },
   "queue": [
-    {
-      "id": "ep008",
-      "title": "The Terrifying Truth of Our Galaxy's Black Hole",
-      "due_at": "2026-09-30T20:00:00-04:00"
-    },
     {
       "id": "ep002",
       "title": "NASA's 1915 secret",
@@ -132,6 +139,11 @@
       "id": "ep009",
       "title": "The Solar Storm That Powered the Telegraph",
       "due_at": "2026-10-02T19:00:00-04:00"
+    },
+    {
+      "id": "ep013",
+      "title": "The Mountain Where You Cannot See the Peak",
+      "due_at": "2026-10-03T19:00:00-04:00"
     },
     {
       "id": "ep004",
@@ -145,17 +157,23 @@
       "id": "ep012",
       "outcome": "unfinished",
       "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep013",
-      "outcome": "unfinished",
-      "topic": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
       "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
       "quota": false,
       "overloaded": true
+    },
+    {
+      "id": "ep013",
+      "outcome": "ready",
+      "topic": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
+      "title": "The Mountain Where You Cannot See the Peak",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790811621/universereceipts/ep013-8b4cbfa2.mp4"
     },
     {
       "id": "ep014",
@@ -166,66 +184,73 @@
       "overloaded": true
     },
     {
-      "id": "ep015",
+      "id": "ep016",
       "outcome": "rejected",
-      "topic": "James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew",
-      "reason": "research: only 6 claims have two different sites"
+      "topic": "Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum",
+      "reason": "research: The central elements of the requested story—the Kodak backup mirror, its construction via traditional polishing techniques, the primary mirror's spherical aberration error, and the fact that the backup mirror is on display at the National Air and Space Museum—are only documented in a single source ([S1]). Per the instructions, each claim requires verification from at least two different sites. Because sources [S2] through [S7] do not mention the backup mirror or the 1990 optical flaw, it is impossible to construct the specific 10-claim mind-bending story requested."
     }
   ],
   "spawned": [
     {
       "id": "ep012",
       "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "call_id": "fc-01M3TARWW671M8TRB2VPAS95SC"
-    },
-    {
-      "id": "ep013",
-      "topic": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
-      "call_id": "fc-01M3TARXZY5VBQPSYP9MEV1W37"
+      "call_id": "fc-01M3TZC8A08HTYD61PXD0RBZ7B"
     },
     {
       "id": "ep014",
       "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "call_id": "fc-01M3TARZ4KNZN0BJRZT3N2J8TJ"
+      "call_id": "fc-01M3TZC9FP805VRQT9P7N0D36V"
     },
     {
-      "id": "ep016",
-      "topic": "Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum",
-      "call_id": "fc-01M3TARZQXZB5J95YJ5KDC7D7M"
+      "id": "ep017",
+      "topic": "Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune",
+      "call_id": "fc-01M3TZCANGEMX4TBNB0HG7WEJC"
+    },
+    {
+      "id": "ep018",
+      "topic": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
+      "call_id": "fc-01M3TZCB93C88D5705NFBQY7EE"
     }
   ],
   "in_cloud": [
     {
       "id": "ep012",
       "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "spawned_at": "2026-10-01T05:05:37+05:30"
-    },
-    {
-      "id": "ep013",
-      "topic": "Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away",
-      "spawned_at": "2026-10-01T05:05:38+05:30"
+      "spawned_at": "2026-10-01T11:05:43+05:30"
     },
     {
       "id": "ep014",
       "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "spawned_at": "2026-10-01T05:05:40+05:30"
+      "spawned_at": "2026-10-01T11:05:44+05:30"
     },
     {
-      "id": "ep016",
-      "topic": "Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum",
-      "spawned_at": "2026-10-01T05:05:40+05:30"
+      "id": "ep017",
+      "topic": "Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune",
+      "spawned_at": "2026-10-01T11:05:45+05:30"
+    },
+    {
+      "id": "ep018",
+      "topic": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
+      "spawned_at": "2026-10-01T11:05:46+05:30"
     }
   ],
-  "published": [],
-  "live": 0,
+  "published": [
+    {
+      "id": "ep013",
+      "title": "The Mountain Where You Cannot See the Peak",
+      "due_at": "2026-10-03T19:00:00-04:00"
+    }
+  ],
+  "live": 1,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 23,
+    "calls": 9,
     "by_model": {
-      "gemini-3.5-flash-lite": 19,
-      "gemini-3-flash-preview": 2,
-      "gemini-3.5-flash": 2
+      "gemini-3.8-flash": 2,
+      "gemini-3.5-flash": 2,
+      "gemini-3-flash-preview": 3,
+      "gemini-3.5-flash-lite": 2
     },
     "out_of_quota": []
   },
@@ -234,20 +259,20 @@
     "runner": 0
   },
   "daily_done": "2026-09-30",
-  "minutes_this_month": 6.0,
+  "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 3.44,
+    "metered": 0.08,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 204,
+    "cloud": 232,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 24.56
+    "modal_credit_left": 27.92
   },
   "made_here": 0,
-  "open_topics": 72,
+  "open_topics": 70,
   "parked_topics": 5
 }

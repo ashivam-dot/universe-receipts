@@ -62,7 +62,71 @@
       "better_than_last": "This script explains radiometric dating more simply than the physics in the solar storm episode.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-01T05:08:57+05:30",
+      "check": {
+        "duration": 56.53,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": 0.4,
+        "warnings": [
+          "true peak 0.4 dBFS is above -1"
+        ],
+        "speech_differences": [
+          "'electroplated' heard as 'electriplated' after 'nasa'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong curiosity gap established immediately.",
+        "clarity": "Concepts are clear and easy to follow.",
+        "payoff": "Satisfying payoff explaining the nuclear clock.",
+        "visuals": "Reuses beat 1 image on beat 4 and has Japanese text in beat 7.",
+        "loop": "Last sentence halts rather than joining cleanly into beat 1."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Same picture as beat 1."
+        },
+        {
+          "beat": 7,
+          "problem": "Diagram contains untranslated Japanese text."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "electroplated",
+          "respelling": "ee lek tro play tid"
+        }
+      ],
+      "rewrite": [
+        "Beat 9: Change to 'Aliens can always calculate when it left Earth, because' to seamlessly loop into beat 1."
+      ],
+      "better_than_last": "Explains a technical radiometric dating concept with greater narrative clarity than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 2
 }

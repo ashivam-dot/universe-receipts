@@ -149,7 +149,6 @@ beats:
   emphasis:
   - Yang Liwei
   - could not see it
-  pause_after: 0.4
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Shenzhou_5_in_space_Yang_Liwei.png/960px-Shenzhou_5_in_space_Yang_Liwei.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -164,11 +163,12 @@ beats:
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: You cannot see the Great Wall of China from the Moon.
+- text: Which confirms once and for all that the famous lunar legend is dead.
   emphasis:
-  - cannot see
-  - from the Moon
+  - once and for all
+  - lunar legend
   sfx: pop
+  pause_after: 0.4
   visual:
     reuse: 1
     motion: zoom_in
