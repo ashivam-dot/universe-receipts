@@ -133,11 +133,11 @@ unexplained, not alien.
 - Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit — parked (ep012)
 - Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see
 - Season: Earth is closest to the Sun in early January, so distance isn't what makes summer
-- Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — making (ep021)
+- Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — dropped (ep021)
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth
 - Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day
-- Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178
+- Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — making (ep025)
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close
 - Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — parked (ep005)
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop

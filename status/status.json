@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-01T22:31:21+05:30",
+  "updated_at": "2026-10-01T23:05:46+05:30",
   "day": 0,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M3W6JE4895EWD89P22KX9HJR",
+    "id": "ta-01M3W8HDPMQ3E2C45X8M1534NR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-01T22:30:45+05:30",
-    "started_at_utc": "2026-10-01T17:00:45+00:00",
-    "seconds": 36
+    "started_at": "2026-10-01T23:05:12+05:30",
+    "started_at_utc": "2026-10-01T17:35:12+00:00",
+    "seconds": 34
   },
   "stages": [
     {
@@ -21,14 +21,14 @@
     {
       "name": "sync",
       "ok": true,
-      "detail": "5 posts",
-      "seconds": 0.4
+      "detail": "6 posts",
+      "seconds": 1.0
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 0.7
+      "seconds": 1.1
     },
     {
       "name": "languages",
@@ -40,7 +40,7 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
@@ -51,74 +51,56 @@
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep012 rejected (low scores: hook, payoff, visuals, loop); ep017 ready; ep018 rejected (low scores: payoff); ep019 rejected (low scores: payoff, visuals); ep020 rejected (low scores: visuals; 2 frame problems)",
-      "seconds": 16.1
+      "detail": "ep021 rejected (research: only 4 claims have two different sites); ep022 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep023 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep024 unfinished (OutOfQuota: no model in ('gemini-3.8-fl",
+      "seconds": 13.3
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "name": "preflight ep002",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 1.1
     },
     {
       "name": "preflight ep009",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
-    },
-    {
-      "name": "release ep004",
-      "ok": true,
-      "detail": "off its Oct 07 anniversary slot: too few other Shorts to fill the days before it",
-      "seconds": 0.4
+      "seconds": 0.8
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.5
-    },
-    {
-      "name": "schedule ep004",
-      "ok": true,
-      "detail": "2026-10-04T19:00:00-04:00",
-      "seconds": 1.1
-    },
-    {
-      "name": "schedule ep017",
-      "ok": true,
-      "detail": "2026-10-05T19:00:00-04:00",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep021",
-      "ok": true,
-      "detail": "Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun",
-      "seconds": 0.4
+      "seconds": 0.1
     },
     {
       "name": "start ep022",
       "ok": true,
       "detail": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
-      "seconds": 0.5
+      "seconds": 1.3
     },
     {
       "name": "start ep023",
       "ok": true,
       "detail": "3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away",
-      "seconds": 0.4
+      "seconds": 1.2
     },
     {
       "name": "start ep024",
       "ok": true,
       "detail": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
-      "seconds": 0.5
+      "seconds": 1.1
+    },
+    {
+      "name": "start ep025",
+      "ok": true,
+      "detail": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
+      "seconds": 1.0
     },
     {
       "name": "publish",
@@ -130,7 +112,9 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "only 5 Shorts made and unposted; scheduling 1 a day"
+    "ep022 stopped on Gemini's free tier being overloaded; it resumes in a later run",
+    "ep023 stopped on Gemini's free quota; it resumes in a later run",
+    "ep024 stopped on Gemini's free quota; it resumes in a later run"
   ],
   "inventory": {
     "total": 5,
@@ -139,10 +123,10 @@
     "target": 42,
     "making": [],
     "remote": [
-      "ep021",
       "ep022",
       "ep023",
-      "ep024"
+      "ep024",
+      "ep025"
     ]
   },
   "queue": [
@@ -175,133 +159,110 @@
   "waiting": [],
   "made": [
     {
-      "id": "ep012",
+      "id": "ep021",
       "outcome": "rejected",
-      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "reason": "low scores: hook, payoff, visuals, loop"
+      "topic": "Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun",
+      "reason": "research: only 4 claims have two different sites"
     },
     {
-      "id": "ep017",
-      "outcome": "ready",
-      "topic": "Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune",
-      "title": "The Spacecraft That Launched First",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790855798/universereceipts/ep017-8cf2c5c2.mp4"
+      "id": "ep022",
+      "outcome": "unfinished",
+      "topic": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
+      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
+      "quota": false,
+      "overloaded": true
     },
     {
-      "id": "ep018",
-      "outcome": "rejected",
-      "topic": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
-      "reason": "low scores: payoff"
+      "id": "ep023",
+      "outcome": "unfinished",
+      "topic": "3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep019",
-      "outcome": "rejected",
-      "topic": "Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces",
-      "reason": "low scores: payoff, visuals"
-    },
-    {
-      "id": "ep020",
-      "outcome": "rejected",
-      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "reason": "low scores: visuals; 2 frame problems"
+      "id": "ep024",
+      "outcome": "unfinished",
+      "topic": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep021",
-      "topic": "Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun",
-      "call_id": "fc-01M3W6KMQ4QKV0XY14PM7QT4BC"
-    },
-    {
       "id": "ep022",
       "topic": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
-      "call_id": "fc-01M3W6KN52DDQ9X59521B99744"
+      "call_id": "fc-01M3W8JKCGPVNMY76G0F2M9XGM"
     },
     {
       "id": "ep023",
       "topic": "3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away",
-      "call_id": "fc-01M3W6KNHSQB681GNSNDRPJSV8"
+      "call_id": "fc-01M3W8JMJW1FWQGR7VC368RDS3"
     },
     {
       "id": "ep024",
       "topic": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
-      "call_id": "fc-01M3W6KP0BXE0MYC9SFPF5Q4HE"
+      "call_id": "fc-01M3W8JNKWSBZZ2M0246XZAWCM"
+    },
+    {
+      "id": "ep025",
+      "topic": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
+      "call_id": "fc-01M3W8JPHXG8SSMZBNC1YHP7EQ"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep021",
-      "topic": "Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun",
-      "spawned_at": "2026-10-01T22:31:20+05:30"
-    },
-    {
       "id": "ep022",
       "topic": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
-      "spawned_at": "2026-10-01T22:31:20+05:30"
+      "spawned_at": "2026-10-01T23:05:43+05:30"
     },
     {
       "id": "ep023",
       "topic": "3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away",
-      "spawned_at": "2026-10-01T22:31:20+05:30"
+      "spawned_at": "2026-10-01T23:05:44+05:30"
     },
     {
       "id": "ep024",
       "topic": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
-      "spawned_at": "2026-10-01T22:31:21+05:30"
-    }
-  ],
-  "published": [
-    {
-      "id": "ep004",
-      "title": "Soviet Moon Photos on US Spy Film",
-      "due_at": "2026-10-04T19:00:00-04:00"
+      "spawned_at": "2026-10-01T23:05:45+05:30"
     },
     {
-      "id": "ep017",
-      "title": "The Spacecraft That Launched First",
-      "due_at": "2026-10-05T19:00:00-04:00"
+      "id": "ep025",
+      "topic": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
+      "spawned_at": "2026-10-01T23:05:46+05:30"
     }
   ],
+  "published": [],
   "live": 1,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 29,
+    "calls": 17,
     "by_model": {
-      "gemini-3.8-flash": 3,
-      "gemini-3-flash-preview": 13,
-      "gemini-3.5-flash-lite": 7,
-      "gemini-3.6-flash": 3,
-      "gemini-3.5-flash": 3
+      "gemini-3.5-flash-lite": 17
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 12,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-10-01",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 0.74,
+    "metered": 0.89,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 227,
+    "cloud": 225,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 27.26
+    "modal_credit_left": 27.11
   },
   "made_here": 0,
-  "open_topics": 71,
+  "open_topics": 70,
   "parked_topics": 10
 }

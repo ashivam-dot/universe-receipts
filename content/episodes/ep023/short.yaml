@@ -1,0 +1,150 @@
+id: ep023
+title: The Quasar in Your Backyard Telescope
+series: The Universe Is Terrifying
+description: Discover how a faint point of light visible through amateur backyard telescopes is actually a monstrous quasar
+  outshining the Sun by trillions of times.
+sources:
+- https://en.wikipedia.org/wiki/3C_273
+- https://science.nasa.gov/asset/hubble/quasar-3c-273-2/
+- https://nasaspacenews.com/2024/12/from-1963-to-now-hubble-explores-the-first-quasar-like-never-before/
+- https://blackholes.stardate.org/objects/factsheet-3c273.html
+- http://www.perseus.gr/Astro-DSO-QSO-3C273.htm
+- https://web.archive.org/web/20090123191313/http://www.aavso.org/vstar/vsots/spring05.shtml
+hashtags:
+- '#space'
+- '#astronomy'
+- '#telescope'
+tags:
+- 3C 273
+- quasar
+- astronomy
+- telescope
+- black hole
+- Maarten Schmidt
+- universe
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: An amateur telescope can spot a quasar 2.4 billion light-years away.
+  emphasis:
+  - amateur telescope
+  - 2.4 billion light-years away
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Skywatcher_telescope_16_inch_and_the_Milky_Way_galaxy_in_Brod%2C_Dragash_-_Kosovo.jpg/1920px-Skywatcher_telescope_16_inch_and_the_Milky_Way_galaxy_in_Brod%2C_Dragash_-_Kosovo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Skywatcher telescope 16 inch and the Milky Way galaxy in Brod, Dragash - Kosovo.jpg
+      credit: Astroclubkosova
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Skywatcher_telescope_16_inch_and_the_Milky_Way_galaxy_in_Brod,_Dragash_-_Kosovo.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.75
+- text: Cataloged in the Third Cambridge Catalog as 3C 273, this enigmatic object baffled astronomers for years.
+  emphasis:
+  - 3C 273
+  - baffled astronomers
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Palomar_Observatory_2.jpg/960px-Palomar_Observatory_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Palomar Observatory 2.jpg
+      credit: User:Tylerfinvold
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Palomar_Observatory_2.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: In 1963, astronomer Maarten Schmidt calculated its massive redshift and revealed its true distance.
+  emphasis:
+  - '1963'
+  - Maarten Schmidt
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/fa/Maarten_Schmidt_1978_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Maarten Schmidt 1978 (cropped).png
+      credit: Unknown authorUnknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Maarten_Schmidt_1978_(cropped).png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.25
+    - 0.25
+    - 0.75
+    - 0.75
+    card:
+      kind: dateline
+      big: '1963'
+      small: Maarten Schmidt
+- text: It was identified as the very first quasar ever discovered in the universe.
+  emphasis:
+  - first quasar
+  - ever discovered
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/21/QuasarStarburst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: QuasarStarburst.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:QuasarStarburst.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Powered by a supermassive black hole at the center of an elliptical galaxy in Virgo, it shoots out a 200,000-light-year
+    jet.
+  emphasis:
+  - supermassive black hole
+  - 200,000-light-year jet
+  sfx: riser
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 200,000 Light-Years
+      small: Visible Jet Length
+    motion: zoom_in
+- text: At visible wavelengths, it shines over 4 trillion times more luminous than the Sun.
+  emphasis:
+  - 4 trillion times
+  - more luminous
+  sfx: whoosh
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 4 Trillion Times
+      small: Brighter than the Sun
+    motion: zoom_in
+- text: That incredible brightness is why an amateur telescope can spot a quasar 2.4 billion light-years away.
+  emphasis:
+  - incredible brightness
+  - amateur telescope
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.75
+hook_text: VISIBLE FROM BACKYARD TELESCOPES
