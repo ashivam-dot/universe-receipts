@@ -1,0 +1,149 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-02T05:08:31+05:30",
+      "check": {
+        "duration": 52.73,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing premise about an unseen planet, though slightly slow to establish stakes.",
+        "clarity": "Chronological narrative is straightforward and easy to follow.",
+        "payoff": "The reveal of Pluto's active surface provides a mild payoff to the hunt.",
+        "visuals": "Historical stills and diagrams are clear, though some images have map annotations.",
+        "loop": "Last line loops smoothly back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "Mosaic image contains large black fill blocks and prominent map labels."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A wealthy businessman spent his fortune hunting a missing ninth planet.",
+        "Beat 8: New Horizons proved Pluto was alive with churning nitrogen glaciers."
+      ],
+      "better_than_last": "Provides a clearer historical narrative arc tracing from 1906 predictions through modern flyby imagery.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-02T11:10:04+05:30",
+      "check": {
+        "duration": 51.57,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": 1.5,
+        "warnings": [
+          "true peak 1.5 dBFS is above -1"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing premise about a missing ninth planet catches attention immediately.",
+        "clarity": "Linear historical timeline keeps the narrative clear and easy to follow.",
+        "payoff": "Revealing Pluto's active nitrogen glaciers provides a solid final surprise.",
+        "visuals": "Historical archival photos and planet renders are clean and well-framed.",
+        "loop": "Ending phrase creates a smooth thematic transition back into the opening beat."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode provides a clearer chronological narrative structure than recent entries.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-02T11:12:54+05:30",
+      "check": {
+        "duration": 51.57,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing premise, but lacks immediate drama to grab swipers instantly.",
+        "clarity": "Sequential storytelling makes facts straightforward to follow.",
+        "payoff": "Pluto's reclassification is familiar, dampening the ultimate twist.",
+        "visuals": "Relevant archival imagery and planetary renders complement each beat well.",
+        "loop": "Final narrative line bridges smoothly back into the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Change to 'A wealthy businessman spent his fortune searching for a ghost planet.'"
+      ],
+      "better_than_last": "Integrates archival portraiture with modern astronomical visuals more effectively than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff",
+  "rejected_at": "2026-10-02T11:12:54+05:30"
+}

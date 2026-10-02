@@ -24,11 +24,13 @@ unexplained, not alien.
 |---|---|---|---|
 | 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — parked (ep019) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
 | 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — parked (ep020) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
+| 2026-10-02 | Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon — making (ep027) | The Universe Is Terrifying | NASA's Webb telescope recently released new findings on planet-shattering collisions, mirroring the historic clash of Earth and Theia. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
 | Date | Story | Series |
 |---|---|---|
+| Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot | Mission Files |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
 | Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
 | Oct 7 | Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons — done (ep004) | Mission Files |
@@ -83,6 +85,7 @@ unexplained, not alien.
 - Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there — making (ep026)
 - IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it
 - Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies
+- Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail
 
 ### Mission Files
 
@@ -113,6 +116,7 @@ unexplained, not alien.
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009
 - SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars
+- 55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond
 
 ### Near Misses
 
@@ -125,8 +129,9 @@ unexplained, not alien.
 - Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin
 - Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months
 - 1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm
-- Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater — making (ep024)
+- Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater — done (ep024)
 - Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years
+- 4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed
 
 ### Space Myths, Busted
 
@@ -137,7 +142,8 @@ unexplained, not alien.
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth
 - Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day
-- Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — making (ep025)
-- Polaris: the North Star isn't the brightest star in the sky, and it isn't even close
+- Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — parked (ep025)
+- Polaris: the North Star isn't the brightest star in the sky, and it isn't even close — making (ep028)
 - Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — parked (ep005)
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop
+- Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes

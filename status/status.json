@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-02T11:06:43+05:30",
+  "updated_at": "2026-10-02T17:09:10+05:30",
   "day": 1,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M3XHQQ98DJC27DWS345J2NFR",
+    "id": "ta-01M3Y6AXQANH4JGQNPHJQZYWAR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-02T11:05:09+05:30",
-    "started_at_utc": "2026-10-02T05:35:09+00:00",
-    "seconds": 94
+    "started_at": "2026-10-02T17:05:10+05:30",
+    "started_at_utc": "2026-10-02T11:35:10+00:00",
+    "seconds": 240
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 1.6
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "6 posts",
-      "seconds": 0.6
+      "detail": "7 posts",
+      "seconds": 0.5
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "created playlist 'Mission Files'; added ep002 to 'Mission Files'",
-      "seconds": 2.2
+      "detail": "nothing new",
+      "seconds": 0.9
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "on youtube",
@@ -45,14 +45,50 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep008 at 24 h: shown: 689 views in 30 hours, 3.8 likes per 100 views; learnings: Initial analysis of ep008 shows strong hook performance from physical-object angles but a total lack of engagement at the finish.",
-      "seconds": 63.3
+      "detail": "ep002 at 6 h: shown: 78 views in 12 hours, 2.6 likes per 100 views",
+      "seconds": 0.8
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep022 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep023 ready; ep024 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep025 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash',",
-      "seconds": 11.2
+      "detail": "ep022 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep024 ready; ep025 rejected (low scores: hook, payoff); ep026 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes)",
+      "seconds": 10.2
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "2 subscribers",
+      "seconds": 1.2
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Added ep008 performance data, highlighting a critical need to replace passive summary endings with active debate prompts to drive comments.",
+      "seconds": 153.6
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.2
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "1 added",
+      "seconds": 16.1
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 43.1
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-001.md",
+      "seconds": 0.2
     },
     {
       "name": "buffer channel",
@@ -64,43 +100,49 @@
       "name": "preflight ep009",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.6
+    },
+    {
+      "name": "preflight ep013",
+      "ok": true,
+      "detail": "video downloads whole (16 MB in 0 s)",
+      "seconds": 0.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.5
     },
     {
-      "name": "schedule ep023",
+      "name": "schedule ep024",
       "ok": true,
-      "detail": "2026-10-06T19:00:00-04:00",
-      "seconds": 1.0
+      "detail": "2026-10-02T21:30:00-04:00",
+      "seconds": 1.1
     },
     {
       "name": "start ep022",
       "ok": true,
       "detail": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep024",
-      "ok": true,
-      "detail": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep025",
-      "ok": true,
-      "detail": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
-      "seconds": 1.0
+      "seconds": 0.8
     },
     {
       "name": "start ep026",
       "ok": true,
       "detail": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
-      "seconds": 1.2
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep027",
+      "ok": true,
+      "detail": "Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep028",
+      "ok": true,
+      "detail": "Polaris: the North Star isn't the brightest star in the sky, and it isn't even close",
+      "seconds": 0.5
     },
     {
       "name": "publish",
@@ -113,21 +155,19 @@
   "owner_action": [],
   "notes": [
     "ep022 stopped on Gemini's free tier being overloaded; it resumes in a later run",
-    "ep024 stopped on Gemini's free tier being overloaded; it resumes in a later run",
-    "ep025 stopped on Gemini's free tier being overloaded; it resumes in a later run",
-    "only 5 Shorts made and unposted; scheduling 1 a day"
+    "ep026 stopped on Gemini's free tier being overloaded; it resumes in a later run"
   ],
   "inventory": {
-    "total": 5,
-    "in_buffer": 5,
+    "total": 6,
+    "in_buffer": 6,
     "waiting": 0,
     "target": 42,
     "making": [],
     "remote": [
       "ep022",
-      "ep024",
-      "ep025",
-      "ep026"
+      "ep026",
+      "ep027",
+      "ep028"
     ]
   },
   "queue": [
@@ -135,6 +175,11 @@
       "id": "ep009",
       "title": "The Solar Storm That Powered the Telegraph",
       "due_at": "2026-10-02T19:00:00-04:00"
+    },
+    {
+      "id": "ep024",
+      "title": "The Siberian explosion that left no crater",
+      "due_at": "2026-10-02T21:30:00-04:00"
     },
     {
       "id": "ep013",
@@ -168,10 +213,10 @@
       "overloaded": true
     },
     {
-      "id": "ep023",
+      "id": "ep024",
       "outcome": "ready",
-      "topic": "3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away",
-      "title": "The Quasar in Your Backyard Telescope",
+      "topic": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
+      "title": "The Siberian explosion that left no crater",
       "scores": {
         "hook": 5,
         "clarity": 5,
@@ -179,20 +224,18 @@
         "visuals": 5,
         "loop": 5
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790898012/universereceipts/ep023-850c3bc2.mp4"
-    },
-    {
-      "id": "ep024",
-      "outcome": "unfinished",
-      "topic": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
-      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
-      "quota": false,
-      "overloaded": true
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790919745/universereceipts/ep024-f3f2f27b.mp4"
     },
     {
       "id": "ep025",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
+      "reason": "low scores: hook, payoff"
+    },
+    {
+      "id": "ep026",
+      "outcome": "unfinished",
+      "topic": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
       "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
       "quota": false,
       "overloaded": true
@@ -202,91 +245,85 @@
     {
       "id": "ep022",
       "topic": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
-      "call_id": "fc-01M3XHTNXV116SEWHNAZA67AA1"
-    },
-    {
-      "id": "ep024",
-      "topic": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
-      "call_id": "fc-01M3XHTPXD51HY1GA0RB8WP52Y"
-    },
-    {
-      "id": "ep025",
-      "topic": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
-      "call_id": "fc-01M3XHTQW1396MFB64B2NNEHC9"
+      "call_id": "fc-01M3Y6JC8EGC9AC059FC1J022K"
     },
     {
       "id": "ep026",
       "topic": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
-      "call_id": "fc-01M3XHTS0ZQ2NWZQG5A9PKA2S6"
+      "call_id": "fc-01M3Y6JD2XP1PTX0Q9CMCP56V8"
+    },
+    {
+      "id": "ep027",
+      "topic": "Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon",
+      "call_id": "fc-01M3Y6JE11HBJHGWDAQWB28NWF"
+    },
+    {
+      "id": "ep028",
+      "topic": "Polaris: the North Star isn't the brightest star in the sky, and it isn't even close",
+      "call_id": "fc-01M3Y6JEH75300BZSGTGPJ44E6"
     }
   ],
   "in_cloud": [
     {
       "id": "ep022",
       "topic": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
-      "spawned_at": "2026-10-02T11:06:39+05:30"
-    },
-    {
-      "id": "ep024",
-      "topic": "Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater",
-      "spawned_at": "2026-10-02T11:06:40+05:30"
-    },
-    {
-      "id": "ep025",
-      "topic": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
-      "spawned_at": "2026-10-02T11:06:41+05:30"
+      "spawned_at": "2026-10-02T17:09:07+05:30"
     },
     {
       "id": "ep026",
       "topic": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
-      "spawned_at": "2026-10-02T11:06:42+05:30"
+      "spawned_at": "2026-10-02T17:09:08+05:30"
+    },
+    {
+      "id": "ep027",
+      "topic": "Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon",
+      "spawned_at": "2026-10-02T17:09:09+05:30"
+    },
+    {
+      "id": "ep028",
+      "topic": "Polaris: the North Star isn't the brightest star in the sky, and it isn't even close",
+      "spawned_at": "2026-10-02T17:09:09+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep023",
-      "title": "The Quasar in Your Backyard Telescope",
-      "due_at": "2026-10-06T19:00:00-04:00"
+      "id": "ep024",
+      "title": "The Siberian explosion that left no crater",
+      "due_at": "2026-10-02T21:30:00-04:00"
     }
   ],
   "live": 2,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 14,
+    "calls": 12,
     "by_model": {
-      "gemini-3.8-flash": 2,
-      "gemini-3-flash-preview": 4,
-      "gemini-3.5-flash-lite": 5,
-      "gemini-3.7-flash": 2,
-      "gemini-3.5-flash": 1
+      "gemini-3.5-flash": 5,
+      "gemini-3-flash-preview": 2,
+      "gemini-3.6-flash": 2,
+      "gemini-3.5-flash-lite": 3
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
     "modal": 7,
     "runner": 0
   },
-  "daily_done": "2026-10-01",
+  "daily_done": "2026-10-02",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 1.26,
+    "metered": 1.46,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 222,
+    "cloud": 221,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 26.74
+    "modal_credit_left": 26.54
   },
   "made_here": 0,
-  "open_topics": 69,
-  "parked_topics": 10
+  "open_topics": 73,
+  "parked_topics": 11
 }

@@ -1,0 +1,94 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-02T11:10:14+05:30",
+      "check": {
+        "duration": 48.53,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening line and matching historical photograph immediately grab attention and raise curiosity.",
+        "clarity": "The explanation of the Tunguska event is exceptionally clear, direct, and easy to follow.",
+        "payoff": "The resolution of the mystery with the air-burst explanation and microscopic resin evidence is highly satisfying.",
+        "visuals": "The visuals are outstanding, though there is a minor numerical mismatch on the beat 3 title card.",
+        "loop": "The repetition of the hook at the end creates a solid loop, though not a seamless sentence completion."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The text on the screen reads '2,150 SQ KM' while the voiceover says 'two thousand one hundred square kilometers'."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short features excellent historical imagery and scientific evidence that makes the mystery feel more grounded and authentic than recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-02T11:12:23+05:30",
+      "check": {
+        "duration": 48.53,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The contrast between eighty million trees and zero craters is an immediate scroll-stopper.",
+        "clarity": "The timeline and geographic reach of the shockwaves are very easy to follow.",
+        "payoff": "Connecting the lack of a crater to an air burst and microscopic resin evidence is satisfying.",
+        "visuals": "Excellent use of the actual historical photos of the site alongside relevant scientific imagery.",
+        "loop": "The repetition of the hook is perfectly timed for a seamless transition."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short provides a more tangible and localized mystery than the abstract scale of the quasar or the naming trivia of the Voyager craft.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}
