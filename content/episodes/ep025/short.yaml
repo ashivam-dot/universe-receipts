@@ -1,8 +1,8 @@
 id: ep025
-title: The Search for Planet X and the Demise of Pluto
+title: The Wealthy Businessman Who Hunted Pluto's Secret
 series: Space Myths, Busted
-description: Discover how a search for Planet X led to the discovery of Pluto, its reclassification as a dwarf planet, and
-  what New Horizons revealed.
+description: Discover how the hunt for a missing ninth planet led to Pluto, its demotion, and the active world New Horizons
+  found.
 sources:
 - https://en.wikipedia.org/wiki/Pluto
 - https://en.wikipedia.org/wiki/Planets_beyond_Neptune
@@ -16,19 +16,19 @@ hashtags:
 - '#nasa'
 tags:
 - Pluto
-- Planet X
+- Percival Lowell
 - New Horizons
 - Clyde Tombaugh
-- Kuiper belt
 - astronomy
+- dwarf planet
 voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: A wealthy businessman spent years hunting for an unseen planet.
+- text: A wealthy businessman spent his fortune hunting a missing ninth planet.
   emphasis:
   - wealthy businessman
-  - unseen planet
+  - missing ninth planet
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/9/91/Percival_Lowell_1900s2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -42,12 +42,12 @@ beats:
     - color
     motion: pan_down
     focus_x: 0.5
-    focus_y: 0.4
+    focus_y: 0.35
     box:
-    - 0.2
-    - 0.1
-    - 0.8
-    - 0.9
+    - 0.15
+    - 0.05
+    - 0.85
+    - 0.75
 - text: In 1906, Percival Lowell began searching for Planet X in Arizona.
   emphasis:
   - '1906'
@@ -173,40 +173,40 @@ beats:
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: NASA's New Horizons later revealed an active world featuring a massive nitrogen-ice basin.
+- text: New Horizons proved Pluto was alive with churning nitrogen glaciers.
   emphasis:
   - New Horizons
-  - nitrogen-ice basin
+  - churning nitrogen glaciers
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/NH-Pluto-SputnikPlanum-20150714.jpg/960px-NH-Pluto-SputnikPlanum-20150714.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Valley_Glaciers_on_Pluto_-_PIA19944.jpg/1280px-Valley_Glaciers_on_Pluto_-_PIA19944.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: NH-Pluto-SputnikPlanum-20150714.jpg
-      credit: NASA/JHUAPL/SWRI
+      title: Valley Glaciers on Pluto - PIA19944.jpg
+      credit: NASA / Johns Hopkins University Applied Physics Laboratory / Southwest Research Institute
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:NH-Pluto-SputnikPlanum-20150714.jpg
+      url: https://commons.wikimedia.org/wiki/File:Valley_Glaciers_on_Pluto_-_PIA19944.jpg
     fallbacks:
     - card
     - color
-    motion: zoom_in
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
       big: Sputnik Planitia
       small: Nitrogen-ice basin
-- text: That ongoing mystery started when a wealthy businessman spent years hunting for an unseen planet.
+- text: That ongoing mystery started when a wealthy businessman spent his fortune hunting a missing ninth planet.
   emphasis:
   - wealthy businessman
-  - unseen planet
+  - missing ninth planet
   sfx: pop
   pause_after: 0.4
   visual:
     reuse: 1
     motion: zoom_out
     focus_x: 0.5
-    focus_y: 0.4
-hook_text: A CENTURY-LONG PLANET HUNT
+    focus_y: 0.35
+hook_text: THE NINTH PLANET HUNT

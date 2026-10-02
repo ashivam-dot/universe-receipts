@@ -65,7 +65,7 @@ unexplained, not alien.
 - Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece
 - Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty
 - R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot
-- 3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away — making (ep023)
+- 3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away — done (ep023)
 - Hypervelocity star (2005): stars being flung out of the Milky Way at millions of miles per hour, doomed to wander intergalactic space alone
 
 ### Scale Breaker
@@ -80,7 +80,7 @@ unexplained, not alien.
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — parked (ep006)
 - Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away — done (ep013)
 - Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza
-- Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there
+- Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there — making (ep026)
 - IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it
 - Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies
 

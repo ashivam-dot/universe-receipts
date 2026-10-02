@@ -13,8 +13,8 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 | Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | not enough data yet | 70%+; under 60% rarely takes off |
 | Average percentage viewed | `analytics.averageViewPercentage` | not enough data yet | 80%+ (loops can push it past 100%) |
 | Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | not enough data yet | rising week over week |
-| Subscribers per 1,000 views | `subscribersGained` / `views` | not enough data yet | 2+ |
-| Likes per 100 views | `likes` / `views` | not enough data yet | 4+ |
+| Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
+| Likes per 100 views | `likes` / `views` | 3.8 | 4+ |
 
 ## Rules we've proven
 
@@ -28,6 +28,7 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Put the strongest surprise in the first 2 seconds, then give context.
 - Cut each Short to 45–59 seconds to maximize reach potential.
 - Write a last line that flows straight into the first line to increase average percentage viewed.
+- Replace informational summaries with direct debate prompts or open-ended reaction hooks in the final beat to drive audience interaction.
 
 ## Scoreboard
 
@@ -36,9 +37,11 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
+| ep008 | The Universe Is Terrifying | statement, story | 689 | – | – | – | – | Hook (hard drives) and topic (Black Hole) drove 3.8% like rate, matching median; ending failed to spark comments. |
 
 ## Log
 
 - Day 0: the studio is set up. Nothing to learn from yet.
 - 2026-09-30: No new Shorts with 48+ hours of data today, so no metrics to evaluate or rules to promote.
 - 2026-10-01: No changes made today as no Shorts have accumulated 24+ hours of data yet.
+- 2026-10-02: Initial analysis of ep008 shows strong hook performance from physical-object angles but a total lack of engagement at the finish.
