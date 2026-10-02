@@ -1,0 +1,136 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-02T23:20:15+05:30",
+      "check": {
+        "duration": 51.07,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'whitest' heard as 'widest' after 'moon is the'",
+          "'s' heard as 'is' after 'to build saturn'",
+          "'whitest' heard as 'widest' after 'moon is the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The comparative scale of brightness creates immediate interest.",
+        "clarity": "Logical flow from discovery to mechanics ensures easy comprehension.",
+        "payoff": "The link between geysers and planetary rings provides a solid resolution.",
+        "visuals": "Several frames rely on complex diagrams with illegible text elements.",
+        "loop": "The phrasing creates a smooth transition for continuous viewing."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The orbital diagram contains text that is too small for mobile."
+        },
+        {
+          "beat": 5,
+          "problem": "The infographic is cluttered and difficult to read on a phone screen."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "whitest",
+          "respelling": "wite est"
+        },
+        {
+          "beat": 9,
+          "word": "whitest",
+          "respelling": "wite est"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode provides a more satisfying mechanical explanation of its core claim than ep028.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-02T23:22:26+05:30",
+      "check": {
+        "duration": 51.23,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'to build saturn'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Superlative claim is clear but lacks the immediate curiosity of recent viral hooks.",
+        "clarity": "The logical progression from internal heating to ring formation is easy to follow.",
+        "payoff": "Revealing that the moon builds Saturn's E-ring provides a solid concluding surprise.",
+        "visuals": "Reusing the historical portrait during a physics explanation creates a thematic mismatch.",
+        "loop": "Mirroring the opening phrase at the end ensures a seamless transition for replay."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Subject mismatch; shows astronomer portrait instead of gravitational interaction between planets."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "whitest",
+          "respelling": "white est"
+        },
+        {
+          "beat": 9,
+          "word": "whitest",
+          "respelling": "white est"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: The whitest world in the solar system is actually a giant snow machine.",
+        "Beat 9: That is why the whitest world in the solar system is a giant snow machine."
+      ],
+      "better_than_last": "It establishes a more cohesive causal link between geological activity and visible cosmic structures than episode 028.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

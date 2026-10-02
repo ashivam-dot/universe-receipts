@@ -1,0 +1,296 @@
+{
+  "viable": true,
+  "reason": "The sources provide over 15 highly detailed, doubly verified claims about the New Horizons mission, including its launch, gravity assist, safe-mode glitch, and the cultural mementos on board.",
+  "story": "In 1991, the US Postal Service released a set of stamps celebrating planetary exploration. Each showed a planet alongside the probe that visited it—except for the ninth. Pluto's stamp simply declared: \"Pluto: Not Yet Explored.\" This phrase irked scientists so much that it became a call to arms, inspiring the mission that would eventually become NASA's New Horizons.\n\nLaunched in 2006 as the fastest object ever sent from Earth, New Horizons sped past Mars and utilized a gravity assist from Jupiter to shave three years off its voyage. Despite a tense software glitch just ten days before arrival, the spacecraft made its historic Pluto flyby on July 14, 2015. Onboard was the very 1991 stamp that had taunted the team for decades, finally delivered to its destination. After Pluto, New Horizons continued into the Kuiper Belt, exploring Arrokoth—the most distant object ever visited up close.",
+  "angle": "A US postage stamp reading \"Pluto: Not Yet Explored\" taunted scientists so much that they built a spacecraft to go there—and literally pasted the stamp onto the probe.",
+  "claims": [
+    {
+      "claim": "New Horizons was launched from Cape Canaveral on January 19, 2006.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "At launch, New Horizons achieved the highest launch velocity of any human-made object relative to Earth.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft passed the orbit of Mars on April 7, 2006.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "New Horizons flew past the asteroid 132524 APL on June 13, 2006.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft made its closest approach to Jupiter on February 28, 2007.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Jupiter flyby provided a gravity assist that increased New Horizons' speed by about 4 km/s (9,000 mph).",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The gravity assist from Jupiter shortened the spacecraft's journey to Pluto by three years.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Most of the voyage after passing Jupiter was spent in hibernation mode to preserve onboard systems.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Ground controllers brought the spacecraft out of its final hibernation on December 6, 2014.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "New Horizons began its official approach phase to Pluto on January 15, 2015.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "On July 4, 2015, a software anomaly sent the spacecraft into safe mode.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft successfully recovered from the July 4 safe mode within a few days.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "New Horizons successfully completed its close flyby of Pluto on July 14, 2015.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "It took more than 15 months to completely download all the data collected during the Pluto encounter.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "The final data from the Pluto flyby was received on Earth on October 25, 2016.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "On January 1, 2019, New Horizons flew past the Kuiper Belt Object Arrokoth.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Arrokoth is the most distant object ever explored up close by a spacecraft.",
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft carried a USPS postage stamp that featured Pluto and read \"Not Yet Explored.\"",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Alan Stern served as the principal investigator for the New Horizons mission.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Pluto was discovered in the year 1930.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Flyby Altitude: S1 states that New Horizons flew 12,500 km (7,800 miles) above Pluto's surface, while S2 states it flew 7,800 kilometers (4,800 miles) above the surface. This is a swap of numbers and units. The script should avoid mentioning the exact distance to prevent inaccuracy.",
+    "Clyde Tombaugh's Ashes: S1 claims that New Horizons carried about 30 grams of Clyde Tombaugh's ashes, but this is not mentioned in any other source. Because this claim lacks a second verifying site, the script must leave it out.",
+    "Data Download Duration: S1 states it took approximately 16 months to transmit the data, while S2 says it took over 15 months. The script should use the broader term 'over 15 months' or state that it took over a year."
+  ],
+  "visuals": [
+    {
+      "subject": "Launch of the New Horizons spacecraft on the Atlas V rocket",
+      "queries": [
+        "New Horizons launch Atlas V",
+        "Atlas V 551 New Horizons",
+        "New Horizons liftoff"
+      ]
+    },
+    {
+      "subject": "Principal Investigator Alan Stern",
+      "queries": [
+        "Alan Stern",
+        "Alan Stern NASA"
+      ]
+    },
+    {
+      "subject": "Jupiter as photographed by New Horizons",
+      "queries": [
+        "Jupiter New Horizons",
+        "Jupiter Little Red Spot New Horizons"
+      ]
+    },
+    {
+      "subject": "Active volcano on Io photographed by New Horizons",
+      "queries": [
+        "Tvashtar Io New Horizons",
+        "Io volcano New Horizons"
+      ]
+    },
+    {
+      "subject": "Artist concept of the New Horizons spacecraft (illustration)",
+      "queries": [
+        "New Horizons spacecraft illustration",
+        "New Horizons model NASA"
+      ]
+    },
+    {
+      "subject": "High-resolution color view of Pluto's surface",
+      "queries": [
+        "Pluto color portrait New Horizons",
+        "Pluto global view New Horizons"
+      ]
+    },
+    {
+      "subject": "Sputnik Planitia, Pluto's nitrogen-ice heart",
+      "queries": [
+        "Sputnik Planitia New Horizons",
+        "Pluto heart New Horizons"
+      ]
+    },
+    {
+      "subject": "Arrokoth (2014 MU69) Kuiper Belt Object",
+      "queries": [
+        "Arrokoth New Horizons",
+        "2014 MU69 Arrokoth"
+      ]
+    },
+    {
+      "subject": "USPS \"Pluto: Not Yet Explored\" stamp",
+      "queries": [
+        "Pluto Not Yet Explored stamp",
+        "1991 Pluto stamp"
+      ]
+    },
+    {
+      "subject": "ALMA Radio Telescope Array in Chile",
+      "queries": [
+        "ALMA array Atacama",
+        "ALMA antennas Chile"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/New_Horizons",
+      "title": "New Horizons",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://science.nasa.gov/mission/new-horizons/",
+      "title": "New Horizons",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "http://www.eso.org/public/announcements/ann14059/",
+      "title": "ALMA Pinpoints Pluto to Help Guide New Horizons Spacecraft",
+      "site": "eso.org"
+    },
+    {
+      "label": "S4",
+      "url": "https://blogs.scientificamerican.com/life-unbounded/the-fastest-spacecraft-ever/",
+      "title": "The Fastest Spacecraft Ever?",
+      "site": "scientificamerican.com"
+    },
+    {
+      "label": "S5",
+      "url": "http://www.astronomy.com/year-of-pluto/2015/06/postage-for-pluto-a-29-cent-stamp-pissed-off-scientists-enough-they-tacked-it-to-new-horizons",
+      "title": "Postage for Pluto: A 29-cent stamp pissed off scientists so much they tacked it to New Horizons | Astronomy.com",
+      "site": "astronomy.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.planetary.org/articles/billions-wasted-mysteries-unsolved-the-missions-nasa-may-be-forced-to-abandon",
+      "title": "New NASA budget would shut down 41 space missions",
+      "site": "planetary.org"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.space.com/33844-proxima-b-exoplanet-interstellar-mission.html",
+      "title": "How We Could Visit the Possibly Earth-Like Planet Proxima b",
+      "site": "space.com"
+    }
+  ],
+  "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
+  "series": "Mission Files"
+}

@@ -1,0 +1,98 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-02T23:15:03+05:30",
+      "check": {
+        "duration": 46.5,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'realized' heard as 'realize' after 'but astronomers quickly'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Using 'invisible cosmic monster' is an excellent high-curiosity hook for this niche.",
+        "clarity": "The progression from the visual blockage to the technical solution and discovery is very easy to follow.",
+        "payoff": "The double-reveal structure—finding the Attractor then finding the Supercluster pulling it—is very satisfying.",
+        "visuals": "The primary diagram in beats 1 and 8 shows the Andromeda collision, which is the wrong astronomical phenomenon.",
+        "loop": "Linking the 'plunge' in the final beat back to 'falling' in the first beat creates a seamless narrative circle."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The image shows the Milky Way-Andromeda collision, which is a local movement unrelated to the Great Attractor pull."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The narrative layering of discovery in this script provides a more compelling 'receipt' than the straightforward debunking seen in the North Star episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-02T23:16:45+05:30",
+      "check": {
+        "duration": 46.5,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'realized' heard as 'realize' after 'but astronomers quickly'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong imagery using 'invisible cosmic monster' immediately grabs attention.",
+        "clarity": "The narrative steps from the mystery to the obstacle to the discovery are perfectly logical.",
+        "payoff": "The reveal that the Great Attractor is just the tip of the iceberg is a satisfying twist.",
+        "visuals": "Excellent use of cosmic maps and deep-space galaxy clusters that look great on mobile.",
+        "loop": "Ending on the word 'plunge' and starting with 'falling' creates a flawless transition."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The thematic continuity of the loop—connecting the 'plunge' to 'falling'—is even tighter than the myth-busting loop in ep028.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}
