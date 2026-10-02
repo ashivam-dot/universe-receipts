@@ -24,7 +24,7 @@ unexplained, not alien.
 |---|---|---|---|
 | 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — parked (ep019) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
 | 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — parked (ep020) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
-| 2026-10-02 | Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon — making (ep027) | The Universe Is Terrifying | NASA's Webb telescope recently released new findings on planet-shattering collisions, mirroring the historic clash of Earth and Theia. |
+| 2026-10-02 | Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon — parked (ep027) | The Universe Is Terrifying | NASA's Webb telescope recently released new findings on planet-shattering collisions, mirroring the historic clash of Earth and Theia. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -60,7 +60,7 @@ unexplained, not alien.
 - Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022 — done (ep008)
 - Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away
 - HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds
-- Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare
+- Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare — making (ep032)
 - Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — parked (ep018)
 - WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth
 - Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all
@@ -81,8 +81,8 @@ unexplained, not alien.
 - Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — parked (ep006)
 - Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away — done (ep013)
-- Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza
-- Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there — making (ep026)
+- Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza — making (ep030)
+- Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there — parked (ep026)
 - IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it
 - Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies
 - Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail
@@ -95,7 +95,7 @@ unexplained, not alien.
 - OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space
 - Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life
-- New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it
+- New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it — making (ep031)
 - Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum — dropped (ep016)
 - James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew — dropped (ep015)
 - Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune — done (ep017)
@@ -107,11 +107,11 @@ unexplained, not alien.
 - PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star
 - Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain
 - Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy
-- Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — making (ep022)
+- Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — parked (ep022)
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — parked (ep011)
-- Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings
+- Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings — making (ep029)
 - Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — parked (ep014)
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009
@@ -143,7 +143,7 @@ unexplained, not alien.
 - Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day
 - Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — parked (ep025)
-- Polaris: the North Star isn't the brightest star in the sky, and it isn't even close — making (ep028)
+- Polaris: the North Star isn't the brightest star in the sky, and it isn't even close — done (ep028)
 - Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — parked (ep005)
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop
 - Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes

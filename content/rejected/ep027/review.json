@@ -1,0 +1,151 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-02T17:36:44+05:30",
+      "check": {
+        "duration": 47.27,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The imagery of buried continents creates strong immediate curiosity.",
+        "clarity": "The narrative successfully links ancient collisions to modern geological evidence.",
+        "payoff": "The explanation of Earth's density and Moon's origin is satisfying.",
+        "visuals": "Several shots rely on technical diagrams or non-English text.",
+        "loop": "Seamlessly repeating the hook line ensures a smooth replay experience."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Diagram labels are in German rather than English."
+        },
+        {
+          "beat": 8,
+          "problem": "The frame is a technical graph that lacks visual impact."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This story offers a more tangible connection to Earth's interior than previous episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-02T17:41:50+05:30",
+      "check": {
+        "duration": 47.27,
+        "words": 107,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing premise that immediately creates curiosity.",
+        "clarity": "Logical and easy-to-follow chronological progression.",
+        "payoff": "Satisfying connection between the Moon's origin and Earth's interior.",
+        "visuals": "Illustrative overall, though the technical diagrams are slightly dry.",
+        "loop": "Seamless verbatim loop transition."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Connects an astronomical collision directly to internal terrestrial geology more effectively than previous space facts.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-02T17:57:19+05:30",
+      "check": {
+        "duration": 47.27,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The hook introduces an intriguing, mind-bending concept right away.",
+        "clarity": "Simple chronological storytelling makes the complex collision history easy to digest.",
+        "payoff": "Directly links the giant impact theory to modern subterranean discoveries.",
+        "visuals": "Several beats rely on simplistic diagrams and plain scientific plots.",
+        "loop": "Identical script phrasing creates a seamless transition back to the beginning."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "Displays a plain seismic chart instead of a compelling visual of the planetary remnants."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It offers a more compelling local mystery than the Voyager spacecraft episode.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-02T17:57:19+05:30"
+}

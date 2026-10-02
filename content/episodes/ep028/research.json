@@ -1,0 +1,280 @@
+{
+  "viable": true,
+  "reason": "The provided sources contain multiple matching facts across independent sites supporting a compelling, myth-busting 45-second story.",
+  "story": "Many people assume the North Star, Polaris, is the brightest star in the night sky, but it actually ranks around 48th. The brightest star in our sky is Sirius, which appears roughly 25 times brighter than Polaris. Sirius blazes so brightly mainly because it is practically next door—only 8.7 light-years from Earth. By contrast, Polaris sits over 430 light-years away, though it is intrinsically a yellow supergiant 2,500 times more luminous than our Sun. Polaris earned its iconic fame not from brilliant light, but from its unique position aligned directly above Earth's northern rotational axis, making it appear fixed while other stars rotate around it. But even this title is temporary: Earth's 26,000-year axial precession wobble means Polaris will reach its closest northern alignment around 2100, and in 13,000 years, the brilliant star Vega will take over as the North Star.",
+  "angle": "Polaris isn't even close to being the brightest star in the night sky—it ranks around 48th, while Sirius appears 25 times brighter.",
+  "claims": [
+    {
+      "claim": "Polaris is widely believed by the public to be the brightest star in the night sky.",
+      "sources": [
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Polaris actually ranks around the 48th brightest star visible from Earth.",
+      "sources": [
+        "S2",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Sirius is the brightest star in the night sky excluding the Sun.",
+      "sources": [
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Sirius has an apparent magnitude of -1.46, whereas Polaris has an apparent magnitude of about 1.98.",
+      "sources": [
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Sirius appears roughly 24 to 25 times brighter in the night sky than Polaris.",
+      "sources": [
+        "S3",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Sirius appears extremely bright from Earth because it is located only about 8.6 to 8.7 light-years away.",
+      "sources": [
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Polaris is located roughly 430 to 433 light-years away from Earth.",
+      "sources": [
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Polaris is intrinsically far more luminous than the Sun, outputting roughly 2,000 to 2,500 times the Sun's light.",
+      "sources": [
+        "S2",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Polaris derives its practical importance from sitting almost directly above Earth's northern rotational axis.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Earth's rotational axis wobbles in a process called precession over a cycle of roughly 25,800 to 26,000 years.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Polaris will reach its closest alignment to true north celestial pole around the year 2100.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Vega served as the North Star in the distant past and will become the North Star again in about 13,000 years.",
+      "sources": [
+        "S3",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Navigators find Polaris by drawing a line through the two outer pointer stars of the Big Dipper's bowl.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Polaris is actually a multiple star system containing three gravitationally bound stars.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Polaris is a Cepheid variable star that changes brightness over a period of roughly four days.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Exact numerical distance to Polaris: older modeling and summary sources estimate 430 to 433 light-years, while Hipparcos gives 432 light-years and Gaia DR3 gives 446.5 light-years. Script should state 'over 430 light-years away'.",
+    "Exact visual brightness rank: S1 cites 47th, S2/S4/S5/S7 cite 48th, and S3/S6 cite around 50th. Script should state 'around 48th brightest'.",
+    "Historical change in brightness reported by Ptolemy: S1 notes Ptolemy saw it as third magnitude whereas today it is second magnitude, but notes this is controversial and theoretical models disagree. Script should leave this out."
+  ],
+  "visuals": [
+    {
+      "subject": "Hubble Space Telescope image resolving the Polaris triple star system",
+      "queries": [
+        "Polaris Hubble Space Telescope image",
+        "Polaris triple star system Hubble",
+        "Polaris Aa Ab B Hubble photo"
+      ]
+    },
+    {
+      "subject": "Long exposure circumpolar star trails circling Polaris at the celestial pole",
+      "queries": [
+        "Polaris star trails long exposure",
+        "North celestial pole star trails",
+        "Circumpolar star trails Polaris"
+      ]
+    },
+    {
+      "subject": "Astronomical diagram showing how pointer stars Merak and Dubhe lead to Polaris",
+      "queries": [
+        "Big Dipper pointer stars Polaris diagram",
+        "Ursa Major pointer stars Polaris guide",
+        "Finding Polaris Big Dipper illustration"
+      ]
+    },
+    {
+      "subject": "Hubble Space Telescope image of Sirius A and its white dwarf companion Sirius B",
+      "queries": [
+        "Sirius A and B Hubble Space Telescope",
+        "Sirius white dwarf companion Hubble photo",
+        "Sirius binary system Hubble"
+      ]
+    },
+    {
+      "subject": "Diagram explaining Earth's axial precession wobble over 26,000 years",
+      "queries": [
+        "Earth axial precession diagram",
+        "Precession of the equinoxes celestial pole diagram",
+        "Earth rotational axis wobble precession"
+      ]
+    },
+    {
+      "subject": "Telescope view of the star Vega in the constellation Lyra",
+      "queries": [
+        "Vega star Hubble photograph",
+        "Vega star Spitzer Space Telescope",
+        "Vega star portrait Lyra"
+      ]
+    },
+    {
+      "subject": "Wide field telescope view of the constellation Ursa Minor",
+      "queries": [
+        "Ursa Minor constellation photograph",
+        "Little Dipper stars wide field photo",
+        "Polaris Ursa Minor night sky"
+      ]
+    },
+    {
+      "subject": "NASA artist concept of yellow supergiant star Polaris Aa with close companion",
+      "queries": [
+        "Yellow supergiant star artist concept NASA",
+        "Polaris Aa Ab artist impression",
+        "Cepheid variable supergiant illustration"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Polaris",
+      "title": "Polaris",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "http://stars.astro.illinois.edu/sow/polaris.html",
+      "title": "Polaris",
+      "site": "illinois.edu"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.sciencing.com/1863568/myth-north-star-isnt-brightest-star-sky/",
+      "title": "Well Actually, The North Star Isn't The Brightest Star In The Sky - Sciencing",
+      "site": "sciencing.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://discoverwildscience.com/the-north-star-isnt-the-brightest-star-and-it-wont-always-be-north-4-335803/",
+      "title": "The North Star Isn't the Brightest Star — And It Won't Always Be North - discoverwildscience",
+      "site": "discoverwildscience.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.spacedaily.com/m-the-north-star-is-not-the-brightest-star-in-the-sky-not-even-close-polaris-ranks-around-48th-far-outshone-by-sirius-and-dozens-of-others-what-makes-it-special-is-only-that-it-sits-almost/",
+      "title": "The North Star is not the brightest star in the sky — not even close: Polaris ranks around 48th, far outshone by Sirius and dozens of others; what makes it special is only that it sits almost over the North Pole",
+      "site": "spacedaily.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.scienceaq.com/Article/Astronomy/398793.html",
+      "title": "Polaris: A Symbolic Beacon, Not the Brightest Star",
+      "site": "scienceaq.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://thrushobservatory.org/why-the-north-star-isnt-the-brightest-star-in-the-sky/",
+      "title": "Why the North Star Isn't the Brightest Star in the Sky - Thrush Observatory",
+      "site": "thrushobservatory.org"
+    }
+  ],
+  "topic": "Polaris: the North Star isn't the brightest star in the sky, and it isn't even close",
+  "series": "Space Myths, Busted"
+}

@@ -1,0 +1,179 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-02T17:14:44+05:30",
+      "check": {
+        "duration": 48.77,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'threaten' heard as 'threat' after 'intense stellar flares'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing opening hook that catches viewer attention immediately.",
+        "clarity": "Information is easy to process, though stellar convection is sudden.",
+        "payoff": "Linking invisibility directly to flare activity lacks clear scientific logic.",
+        "visuals": "Beat 7 shows a ground observatory building instead of space visuals.",
+        "loop": "Repeats the hook verbatim rather than creating a seamless sentence transition."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Contains a technical graph with small, hard-to-read text overlay"
+        },
+        {
+          "beat": 7,
+          "problem": "Shows an Earth-based observatory structure instead of space flares or atmospheric loss"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Change audio to 'Its low mass and faint glow are why' to fix the payoff physics and smooth the loop into Beat 1."
+      ],
+      "better_than_last": "It features more striking planet render imagery than episode 17.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-02T17:19:42+05:30",
+      "check": {
+        "duration": 48.93,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.0,
+        "warnings": [],
+        "speech_differences": [
+          "'threaten' heard as 'threat' after 'intense stellar flares'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong, intriguing premise regarding our closest stellar neighbor.",
+        "clarity": "Easy to follow with clear, sequential points.",
+        "payoff": "Good scientific resolution, though a bit predictable.",
+        "visuals": "Ground-based observatories in beat 7 break the space perspective.",
+        "loop": "Repeats the hook sentence fully, making the transition redundant."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows Earth-based telescopes instead of a stellar flare or planet atmosphere."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "threaten",
+          "respelling": "thret ten"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: 'Its low mass and faint glow are why...'"
+      ],
+      "better_than_last": "This video presents a much clearer physical size and mass comparison than the conceptual naming trivia in episode 17.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-02T17:24:44+05:30",
+      "check": {
+        "duration": 48.93,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'threaten' heard as 'threat' after 'intense stellar flares'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing paradox regarding our closest stellar neighbor.",
+        "clarity": "Concepts are logical and easy to follow.",
+        "payoff": "The flare hazard conclusion is slightly underwhelming.",
+        "visuals": "Diagrams contain small, unreadable text on mobile screens.",
+        "loop": "Last line repeats the first beat verbatim rather than bridging seamlessly."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 3,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 7,
+          "problem": "off-topic"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: 'Yet its faint glow and violent nature ensure that...'"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals, loop; 3 frame problems",
+  "rejected_at": "2026-10-02T17:24:44+05:30"
+}
