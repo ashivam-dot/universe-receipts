@@ -45,6 +45,54 @@
       "better_than_last": "This episode connects abstract stellar science to everyday objects like jewelry better than the purely galactic focus of episode 32.",
       "judge": "gemini-3.5-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-03T11:36:49+05:30",
+      "check": {
+        "duration": 50.7,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong engaging fact, though widely known.",
+        "clarity": "Logical flow and easy to understand.",
+        "payoff": "Connecting neutron star collisions to jewelry provides a solid payoff.",
+        "visuals": "Diagram in beat 5 is overly technical and hard to read.",
+        "loop": "Beat 7 repeats beat 1 almost verbatim rather than looping seamlessly."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Diagram contains small, illegible schematics and arrows."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: 'These cosmic impacts created the heavy gold and platinum found in our jewelry today, all forged when'"
+      ],
+      "better_than_last": "Effectively connects stellar physics to everyday jewelry for a relatable human angle.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
     }
   ],
   "best_round": 1

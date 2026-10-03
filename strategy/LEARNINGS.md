@@ -14,7 +14,7 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 | Average percentage viewed | `analytics.averageViewPercentage` | 98.3% | 80%+ (loops can push it past 100%) |
 | Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 144% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 1.2 | 2+ |
-| Likes per 100 views | `likes` / `views` | 2.9 | 4+ |
+| Likes per 100 views | `likes` / `views` | 2.8 | 4+ |
 
 ## Rules we've proven
 
@@ -38,8 +38,8 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep002 | Mission Files | statement, story | 94 | – | – | – | – | Static statement hook on a historical topic fell far below median views, proving the need for curiosity gaps. |
-| ep008 | The Universe Is Terrifying | statement, story | 862 | 46% | 98.3% | 144% | 2 | Strong physical-drive hook and terrifying black hole topic beat median likes, but a passive informational ending failed to generate comments. |
+| ep002 | Mission Files | statement, story | 98 | – | – | – | – | Static historical statement hook lacked curiosity, driving low view velocity (98 views) and below-median likes (2.04 vs 2.82). |
+| ep008 | The Universe Is Terrifying | statement, story | 863 | 46% | 98.3% | 144% | 2 | Intriguing physical mail hook drove strong reach (863 views) and above-median likes (3.59 vs 2.82), but a passive summary ending yielded only 1 comment. |
 
 ## Log
 
@@ -49,3 +49,4 @@ contradiction.
 - 2026-10-02: Initial analysis of ep008 shows strong hook performance from physical-object angles but a total lack of engagement at the finish.
 - 2026-10-02: Added ep008 performance data, highlighting a critical need to replace passive summary endings with active debate prompts to drive comments.
 - 2026-10-03: Added ep002 and ep008 to the learning log, introducing a curiosity-gap hook hypothesis and supporting the debate-prompt ending hypothesis.
+- 2026-10-03: Logged 24h+ reviews for ep002 and ep008; retained all core script hypotheses as evidence remains under the two-Short rule threshold.

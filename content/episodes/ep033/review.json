@@ -1,0 +1,63 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-03T11:10:14+05:30",
+      "check": {
+        "duration": 50.19,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'own' heard as 'on' after 'nation can ever'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Lunar ownership claim effectively stops the swipe.",
+        "clarity": "Some beats combine too many legal details.",
+        "payoff": "Loophole is interesting but lacks dramatic impact.",
+        "visuals": "Beat four image doesn't match nuclear weapon topic.",
+        "loop": "Seamlessly repeats the hook for continuous play."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Image shows Sputnik model rather than nuclear weapons."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "own",
+          "respelling": "ohn"
+        }
+      ],
+      "rewrite": [
+        "Beat 3: In 1967, rivals signed this treaty across three global capitals.",
+        "Beat 5: It forbids nations from claiming any celestial bodies.",
+        "Beat 6: The treaty only bans nukes, not conventional weapons."
+      ],
+      "better_than_last": "Offers a more structured historical narrative than the star brightness myth.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

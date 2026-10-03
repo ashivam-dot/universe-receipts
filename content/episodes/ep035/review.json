@@ -1,0 +1,99 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-03T11:15:09+05:30",
+      "check": {
+        "duration": 51.8,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strongly engages the viewer with the record hazard rating hook.",
+        "clarity": "Easy to follow chronological sequence with clear transitions.",
+        "payoff": "Delivers neat physical details about tidal flexing and visibility.",
+        "visuals": "Exceptional selection of relevant scientific diagrams and concepts.",
+        "loop": "Awkwardly repeats 'massive asteroid' across the video boundary."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: This intense cosmic encounter will forever alter its orbit."
+      ],
+      "better_than_last": "This episode uses superior, highly specific orbital diagrams that explain complex dynamics better than the visual assets in recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-03T11:17:32+05:30",
+      "check": {
+        "duration": 50.3,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong opening hook using historical hazard rating.",
+        "clarity": "Logical timeline of discovery, correction, and future encounter.",
+        "payoff": "Excellent resolution detailing the extremely close physical effects and visibility.",
+        "visuals": "Generally high quality, though some diagrams contain too much small text.",
+        "loop": "End of script does not connect seamlessly back to the beginning."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The diagram is cluttered with small, unreadable text on mobile screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: This intense cosmic encounter will forever alter the orbit of",
+        "Beat 1: a massive asteroid that once reached the highest hazard rating in history."
+      ],
+      "better_than_last": "This video provides a more tangible and upcoming calendar event for viewers to anticipate compared to abstract galactic scale mysteries.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

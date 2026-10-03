@@ -1,7 +1,8 @@
 id: ep030
-title: A Teaspoon Weighs One Billion Tons
+title: The Dead Star Heavier Than 900 Pyramids
 series: Scale Breaker
-description: Discover how crushed stellar remnants pack the mass of a sun into a city-sized sphere.
+description: One teaspoon of a neutron star weighs one billion tons, more than nine hundred Great Pyramids. Discover how these
+  dense stars forged the world's gold.
 sources:
 - https://en.wikipedia.org/wiki/Neutron_star
 - https://web.archive.org/web/20171023230823/https://www.ligo.caltech.edu/news/ligo20171016
@@ -11,15 +12,15 @@ sources:
 - https://web.archive.org/web/20171016143216/https://www.nytimes.com/2017/10/16/science/ligo-neutron-stars-collision.html
 hashtags:
 - '#space'
-- '#pulsar'
 - '#astronomy'
+- '#neutronstar'
 tags:
 - neutron star
 - pulsar
 - Jocelyn Bell Burnell
 - supernova
-- gravitational waves
-- astronomy
+- gold
+- LIGO
 voice:
   voice: af_heart
   speed: 1.05
@@ -29,125 +30,160 @@ beats:
   - one billion tons
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Artist%E2%80%99s_concept_of_magnetar_1E_1547.0-5408.png/3840px-Artist%E2%80%99s_concept_of_magnetar_1E_1547.0-5408.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Neutron_star_illustrated.jpg/960px-Neutron_star_illustrated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Artist’s concept of magnetar 1E 1547.0-5408.png
-      credit: NASA/Pablo Garcia
+      title: Neutron star illustrated.jpg
+      credit: Casey Reed - Penn State University
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_concept_of_magnetar_1E_1547.0-5408.png
+      url: https://commons.wikimedia.org/wiki/File:Neutron_star_illustrated.jpg
     fallbacks:
-    - card
     - color
     motion: zoom_out
-    focus_x: 0.45
-    focus_y: 0.55
-    box:
-    - 0.25
-    - 0.45
-    - 0.65
-    - 0.75
-    card:
-      kind: fact
-      big: ONE BILLION TONS
-      small: Single teaspoon weight
-- text: Neutron stars are the gravitationally collapsed cores of massive stars formed following a supernova explosion.
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That is roughly nine hundred times the weight of the Great Pyramid of Giza.
   emphasis:
-  - collapsed cores
-  - supernova explosion
+  - nine hundred times
+  - Great Pyramid
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Chandra_3-color_X-ray_Image_of_Cassiopeia_A_%282004-casa-more-1%29.tiff/lossy-page1-1920px-Chandra_3-color_X-ray_Image_of_Cassiopeia_A_%282004-casa-more-1%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Giza-pyramids.JPG/1280px-Giza-pyramids.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Chandra 3-color X-ray Image of Cassiopeia A (2004-casa-more-1).tiff
-      credit: '(Credit: NASA/CXC/GSFC/U.Hwang et al.)'
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Chandra_3-color_X-ray_Image_of_Cassiopeia_A_(2004-casa-more-1).tiff
+      title: Giza-pyramids.JPG
+      credit: Robster1983 at English Wikipedia
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Giza-pyramids.JPG
     fallbacks:
     - color
-    motion: zoom_in
+    motion: pan_left
+    focus_x: 0.45
+    focus_y: 0.5
+    box:
+    - 0.2
+    - 0.3
+    - 0.6
+    - 0.7
+- text: Neutron stars are the collapsed cores of supergiant stars that died in a supernova.
+  emphasis:
+  - collapsed cores
+  - supernova
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Heic0609.jpg/3840px-Heic0609.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Heic0609.jpg
+      credit: 'NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgement: Robert A. Fesen
+        (Dartmouth College, USA) and James Long (ESA/Hubble)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Heic0609.jpg
+    fallbacks:
+    - color
+    motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: In nineteen sixty-seven, graduate student Jocelyn Bell Burnell detected a radio pulse so rhythmic she nicknamed it
-    Little Green Men.
+- text: In 1967, graduate student Jocelyn Bell Burnell detected a radio pulse so rhythmic she nicknamed it Little Green Men.
   emphasis:
   - Jocelyn Bell Burnell
   - Little Green Men
   sfx: whoosh
   visual:
-    source: card
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/9d/Jocelyn_Bell_Burnell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Jocelyn Bell Burnell.jpg
+      credit: Harry the Dirty Dog at English Wikipedia
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Jocelyn_Bell_Burnell.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.35
+    box:
+    - 0.2
+    - 0.1
+    - 0.8
+    - 0.9
     card:
       kind: dateline
       big: '1967'
-      small: Discovery of Pulsars
-    motion: zoom_in
-- text: These stellar remnants pack the mass of a sun into a sphere only twelve miles wide.
+      small: Cambridge, England
+- text: These remnants pack the mass of a sun into a city-sized sphere only 12 miles wide.
   emphasis:
-  - twelve miles wide
+  - mass of a sun
+  - 12 miles wide
   visual:
-    reuse: 2
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Degenerate_star_sizes.png/960px-Degenerate_star_sizes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Degenerate star sizes.png
+      credit: Grufo
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Degenerate_star_sizes.png
+    fallbacks:
+    - color
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: The extreme objects rotate hundreds of times per second and generate magnetic fields trillions of times stronger than
-    Earth's.
+- text: The star's gravity is so intense that the escape velocity exceeds half the speed of light.
   emphasis:
-  - hundreds of times per second
-  - trillions of times stronger
+  - escape velocity
+  - speed of light
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/The_polarisation_of_light_emitted_by_a_neutron_star_%28eso1641a%29.tiff/lossy-page1-3840px-The_polarisation_of_light_emitted_by_a_neutron_star_%28eso1641a%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Illustration_of_a_gravitational_lensing_effect_%28heic0814f%29.tiff/lossless-page1-1920px-Illustration_of_a_gravitational_lensing_effect_%28heic0814f%29.tiff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: The polarisation of light emitted by a neutron star (eso1641a).tiff
-      credit: ESO/L. Calçada
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:The_polarisation_of_light_emitted_by_a_neutron_star_(eso1641a).tiff
+      title: Illustration of a gravitational lensing effect (heic0814f).tiff
+      credit: 'NASA, ESA, and Johan Richard (Caltech, USA) Acknowledgement: Davide de Martin & James Long (ESA/Hubble)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Illustration_of_a_gravitational_lensing_effect_(heic0814f).tiff
     fallbacks:
     - color
-    motion: pan_right
-    focus_x: 0.25
-    focus_y: 0.4
-    box:
-    - 0.1
-    - 0.25
-    - 0.4
-    - 0.55
-- text: In twenty seventeen, scientists finally heard two of them collide through gravitational waves.
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: In 2017, the LIGO observatory detected two of these giants colliding to forge the world's gold and platinum.
   emphasis:
-  - gravitational waves
+  - LIGO
+  - gold and platinum
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/6/68/Eso1733q_Artist%E2%80%99s_impression_of_merging_neutron_stars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Eso1733s_Artist%27s_impression_of_merging_neutron_stars.jpg/3840px-Eso1733s_Artist%27s_impression_of_merging_neutron_stars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Eso1733q Artist’s impression of merging neutron stars.jpg
-      credit: ESO/L. Calçada/M. Kornmesser
+      title: Eso1733s Artist's impression of merging neutron stars.jpg
+      credit: University of Warwick/Mark Garlick
       license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Eso1733q_Artist%E2%80%99s_impression_of_merging_neutron_stars.jpg
+      url: https://commons.wikimedia.org/wiki/File:Eso1733s_Artist%27s_impression_of_merging_neutron_stars.jpg
     fallbacks:
     - card
     - color
-    motion: pan_left
+    motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: dateline
       big: '2017'
-      small: First Gravitational Wave Detection
-- text: These cosmic impacts created the heavy gold and platinum found in our jewelry today, leaving behind a single teaspoon
-    of material that weighs one billion tons.
+      small: LIGO Detection
+- text: These cosmic impacts created the heavy metals found in our jewelry today, but their origin remains unimaginably dense.
   emphasis:
-  - gold and platinum
-  - weighs one billion tons
+  - jewelry today
+  - unimaginably dense
   sfx: whoosh
   visual:
     reuse: 1
     motion: zoom_in
-    focus_x: 0.45
-    focus_y: 0.55
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: HEAVIER THAN 900 PYRAMIDS

@@ -13,75 +13,67 @@ sources:
 - https://orbitalradar.com/regulatory/outer-space-treaty
 hashtags:
 - '#space'
-- '#outerspacetreaty'
-- '#nasa'
+- '#spacetreaty'
+- '#coldwar'
 tags:
 - Outer Space Treaty
 - Cold War
-- Moon
+- Moon ownership
 - space law
 - nuclear weapons
-- space race
+- NASA history
 voice:
   voice: af_heart
   speed: 1.05
 beats:
 - text: No nation can ever own the Moon.
   emphasis:
-  - Moon
+  - own the Moon
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Buzz_Aldrin_by_Neil_Armstrong.jpg/1920px-Buzz_Aldrin_by_Neil_Armstrong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Aldrin_Apollo_11_%283x5_crop%29.jpg/960px-Aldrin_Apollo_11_%283x5_crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Buzz Aldrin by Neil Armstrong.jpg
-      credit: Neil Armstrong
+      title: Aldrin Apollo 11 (3x5 crop).jpg
+      credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Buzz_Aldrin_by_Neil_Armstrong.jpg
+      url: https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_(3x5_crop).jpg
     fallbacks:
     - card
     - color
-    motion: zoom_out
-    focus_x: 0.49
-    focus_y: 0.38
-    box:
-    - 0.22
-    - 0.08
-    - 0.77
-    - 0.69
-    card:
-      kind: fact
-      big: No nation
-      small: can own the Moon
-- text: During the intense geopolitical tensions of the Cold War, the United States and the Soviet Union faced a dangerous
-    new frontier.
-  emphasis:
-  - Cold War
-  - dangerous new frontier
-  sfx: whoosh
-  visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/3/31/Atlas_ICBM_Launch--%27%28no_text_on_envelope_or_negative%29_%2816069937516%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Atlas ICBM Launch--'(no text on envelope or negative) (16069937516).jpg
-      credit: SDASM Archives
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Atlas_ICBM_Launch--%27(no_text_on_envelope_or_negative)_(16069937516).jpg
-    fallbacks:
-    - color
-    motion: pan_up
+    motion: pan_down
     focus_x: 0.5
     focus_y: 0.45
     box:
     - 0.35
-    - 0.15
-    - 0.65
+    - 0.05
     - 0.75
-- text: On January 27, 1967, rival superpowers opened the Outer Space Treaty for signature in Washington, London, and Moscow.
+    - 0.65
+    card:
+      kind: fact
+      big: No nation
+      small: can own the Moon
+- text: During the height of the Cold War, the United States and the Soviet Union faced a dangerous new frontier.
   emphasis:
-  - January 27, 1967
-  - Outer Space Treaty
+  - dangerous new frontier
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/87/Atlas-B_ICBM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Atlas-B ICBM.jpg
+      credit: USAF
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Atlas-B_ICBM.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.35
+- text: In 1967, rivals signed this treaty across three global capitals to prevent the space race from turning nuclear.
+  emphasis:
+  - three global capitals
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Signing_Outer_Space_Treaty.jpg/960px-Signing_Outer_Space_Treaty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -96,17 +88,14 @@ beats:
     - color
     motion: pan_right
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.6
     card:
       kind: dateline
-      big: January 27, 1967
-      small: Treaty opening
-- text: This foundational agreement strictly bans countries from placing nuclear weapons or weapons of mass destruction in
-    Earth orbit.
+      big: '1967'
+      small: Washington, London, Moscow
+- text: This agreement strictly bans countries from placing nuclear weapons or weapons of mass destruction in Earth orbit.
   emphasis:
-  - nuclear weapons
-  - Earth orbit
-  sfx: riser
+  - weapons of mass destruction
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Sputnik_1.jpg/1280px-Sputnik_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -120,19 +109,16 @@ beats:
     - card
     - color
     motion: pan_up
-    focus_x: 0.65
-    focus_y: 0.35
+    focus_x: 0.5
+    focus_y: 0.3
     card:
       kind: fact
-      big: Nuclear ban
-      small: Weapons in orbit
-- text: The treaty explicitly forbids claiming sovereignty over any celestial body and legally designates outer space as the
-    province of all mankind.
+      big: Nuclear Ban
+      small: Orbiting WMDs
+- text: It forbids nations from claiming any celestial bodies.
   emphasis:
-  - forbids claiming sovereignty
-  - province of all mankind
-  sfx: pop
-  pause_after: 0.4
+  - celestial bodies
+  sfx: riser
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/6/6b/Buzz_Aldrin_and_the_U.S._Flag_on_the_Moon_%289460188482%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -145,43 +131,43 @@ beats:
     fallbacks:
     - color
     motion: zoom_out
-    focus_x: 0.55
+    focus_x: 0.65
     focus_y: 0.45
-    box:
-    - 0.25
-    - 0.25
-    - 0.8
-    - 0.75
-- text: Yet remarkably, the treaty does not explicitly ban conventional military weapons in space.
+- text: The treaty only bans nukes, not conventional weapons.
   emphasis:
-  - does not explicitly ban
-  - conventional military weapons
+  - only bans nukes
+  sfx: pop
+  pause_after: 0.4
   visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Tethered_asteroid.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Tethered asteroid.png
-      credit: nasa
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Tethered_asteroid.png
-    fallbacks:
-    - card
-    - color
-    motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.5
+    source: card
     card:
       kind: fact
-      big: Conventional weapons
-      small: Allowed in space
-- text: This Cold War relic keeps the heavens peaceful because no nation can ever own the Moon.
+      big: Conventional Weapons
+      small: Still permitted
+    motion: zoom_in
+- text: While the Moon remains a zone of peace, the legality of commercial asteroid mining is still fiercely debated.
   emphasis:
-  - Cold War relic
-  - ever own the Moon
+  - asteroid mining
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/S78_27139.2.jpg/3840px-S78_27139.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: S78 27139.2.jpg
+      credit: NASA/ Denise Watt
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:S78_27139.2.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Today, this legal shield ensures that no nation can ever own the Moon.
+  emphasis:
+  - no nation
   visual:
     reuse: 1
-    motion: zoom_in
-    focus_x: 0.49
-    focus_y: 0.38
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.45
 hook_text: COLD WAR SPACE LAW

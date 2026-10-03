@@ -1,58 +1,94 @@
 {
-  "updated_at": "2026-10-03T11:07:20+05:30",
+  "updated_at": "2026-10-03T17:11:30+05:30",
   "day": 2,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4044CH9DG83HGE1MCSHP5SR",
+    "id": "ta-01M40RQK3PT32KQFFZ3ZQHQX2R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-03T11:05:05+05:30",
-    "started_at_utc": "2026-10-03T05:35:05+00:00",
-    "seconds": 135
+    "started_at": "2026-10-03T17:05:11+05:30",
+    "started_at_utc": "2026-10-03T11:35:11+00:00",
+    "seconds": 379
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 1.6
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "10 posts",
-      "seconds": 0.9
+      "seconds": 0.5
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep009 to 'Near Misses'; added ep024 to 'Near Misses'",
-      "seconds": 1.5
+      "detail": "nothing new",
+      "seconds": 1.4
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep002 at 24 h: shown: 94 views in 30 hours, 2.1 likes per 100 views; ep009 at 6 h: shown: 156 views in 7 hours, 5.8 likes per 100 views; learnings: Added ep002 and ep008 to the learning log, introducing a curiosity-gap hook hypothesis and supporting the debate-prompt ending hypothesis.",
-      "seconds": 115.0
+      "detail": "ep024 at 6 h: ahead of the channel's earlier Shorts at this age: 774 views against a median of 156 (5.0x)",
+      "seconds": 0.7
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep029 rejected (low scores: payoff, visuals, loop; 3 frame problems); ep030 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep031 rejected (low scores: visuals; 2 frame problems); ep033 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed ",
-      "seconds": 7.7
+      "detail": "ep030 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep033 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep034 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-",
+      "seconds": 8.2
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "4 subscribers",
+      "seconds": 1.7
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Logged 24h+ reviews for ep002 and ep008; retained all core script hypotheses as evidence remains under the two-Short rule threshold.",
+      "seconds": 17.5
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.2
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "1 added",
+      "seconds": 55.1
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 283.2
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-002.md",
+      "seconds": 0.3
     },
     {
       "name": "buffer channel",
@@ -61,59 +97,73 @@
       "seconds": 0.2
     },
     {
-      "name": "preflight ep013",
+      "name": "preflight ep004",
       "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.3
+      "detail": "video downloads whole (19 MB in 0 s)",
+      "seconds": 0.7
     },
     {
-      "name": "preflight ep028",
+      "name": "preflight ep013",
       "ok": true,
       "detail": "video still hosted",
       "seconds": 0.2
     },
     {
+      "name": "preflight ep028",
+      "ok": true,
+      "detail": "video still hosted",
+      "seconds": 0.3
+    },
+    {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "start ep030",
       "ok": true,
       "detail": "Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza",
-      "seconds": 0.3
+      "seconds": 0.5
     },
     {
       "name": "start ep033",
       "ok": true,
       "detail": "Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "start ep034",
       "ok": true,
       "detail": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "start ep035",
       "ok": true,
       "detail": "99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029",
-      "seconds": 0.3
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep036",
+      "ok": true,
+      "detail": "DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus",
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.1
+      "seconds": 0.2
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
     "ep030 stopped on Gemini's free tier being overloaded; it resumes in a later run",
-    "ep033 stopped on Gemini's free tier being overloaded; it resumes in a later run"
+    "ep033 stopped on Gemini's free tier being overloaded; it resumes in a later run",
+    "ep034 stopped on Gemini's free tier being overloaded; it resumes in a later run",
+    "ep035 stopped on Gemini's free tier being overloaded; it resumes in a later run"
   ],
   "inventory": {
     "total": 6,
@@ -125,7 +175,8 @@
       "ep030",
       "ep033",
       "ep034",
-      "ep035"
+      "ep035",
+      "ep036"
     ]
   },
   "queue": [
@@ -163,12 +214,6 @@
   "waiting": [],
   "made": [
     {
-      "id": "ep029",
-      "outcome": "rejected",
-      "topic": "Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings",
-      "reason": "low scores: payoff, visuals, loop; 3 frame problems"
-    },
-    {
       "id": "ep030",
       "outcome": "unfinished",
       "topic": "Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza",
@@ -177,15 +222,25 @@
       "overloaded": true
     },
     {
-      "id": "ep031",
-      "outcome": "rejected",
-      "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
-      "reason": "low scores: visuals; 2 frame problems"
-    },
-    {
       "id": "ep033",
       "outcome": "unfinished",
       "topic": "Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon",
+      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
+      "quota": false,
+      "overloaded": true
+    },
+    {
+      "id": "ep034",
+      "outcome": "unfinished",
+      "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
+      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
+      "quota": false,
+      "overloaded": true
+    },
+    {
+      "id": "ep035",
+      "outcome": "unfinished",
+      "topic": "99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029",
       "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
       "quota": false,
       "overloaded": true
@@ -195,44 +250,54 @@
     {
       "id": "ep030",
       "topic": "Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza",
-      "call_id": "fc-01M4048KCRK3R4H9T6DTSXBDXK"
+      "call_id": "fc-01M40S3C57N4HEEVQX41CNYPZX"
     },
     {
       "id": "ep033",
       "topic": "Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon",
-      "call_id": "fc-01M4048KN9DCX5FQ0T8XVFZ52A"
+      "call_id": "fc-01M40S3CHMJCVRPPM6WWG5K41B"
     },
     {
       "id": "ep034",
       "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
-      "call_id": "fc-01M4048M0XZ30DPNXPAQHWJNP2"
+      "call_id": "fc-01M40S3D1JC7Q1499F4PM15VMY"
     },
     {
       "id": "ep035",
       "topic": "99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029",
-      "call_id": "fc-01M4048MAMAHGJZV2ZR7JC91GT"
+      "call_id": "fc-01M40S3DK65FCFQ49X7MPV4B0K"
+    },
+    {
+      "id": "ep036",
+      "topic": "DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus",
+      "call_id": "fc-01M40S3E4QXSAF6B80JKFTW8H8"
     }
   ],
   "in_cloud": [
     {
       "id": "ep030",
       "topic": "Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza",
-      "spawned_at": "2026-10-03T11:07:18+05:30"
+      "spawned_at": "2026-10-03T17:11:27+05:30"
     },
     {
       "id": "ep033",
       "topic": "Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon",
-      "spawned_at": "2026-10-03T11:07:19+05:30"
+      "spawned_at": "2026-10-03T17:11:28+05:30"
     },
     {
       "id": "ep034",
       "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
-      "spawned_at": "2026-10-03T11:07:19+05:30"
+      "spawned_at": "2026-10-03T17:11:28+05:30"
     },
     {
       "id": "ep035",
       "topic": "99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029",
-      "spawned_at": "2026-10-03T11:07:19+05:30"
+      "spawned_at": "2026-10-03T17:11:29+05:30"
+    },
+    {
+      "id": "ep036",
+      "topic": "DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus",
+      "spawned_at": "2026-10-03T17:11:29+05:30"
     }
   ],
   "published": [],
@@ -240,38 +305,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 13,
+    "calls": 26,
     "by_model": {
-      "gemini-3.6-flash": 3,
-      "gemini-3.5-flash": 5,
-      "gemini-3.8-flash": 1,
-      "gemini-3.5-flash-lite": 2,
-      "gemini-3.1-flash-lite": 2
+      "gemini-3.8-flash": 3,
+      "gemini-3.7-flash": 1,
+      "gemini-3-flash-preview": 6,
+      "gemini-3.5-flash": 7,
+      "gemini-3.5-flash-lite": 9
     },
-    "out_of_quota": [
-      "gemini-3.6-flash",
-      "gemini-3.7-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 6,
+    "modal": 8,
     "runner": 0
   },
-  "daily_done": "2026-10-02",
+  "daily_done": "2026-10-03",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 2.57,
+    "metered": 3.26,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 211,
+    "cloud": 206,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 25.43
+    "modal_credit_left": 24.74
   },
   "made_here": 0,
-  "open_topics": 66,
+  "open_topics": 71,
   "parked_topics": 16
 }
