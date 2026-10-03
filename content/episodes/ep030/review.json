@@ -44,7 +44,7 @@
       "rewrite": [],
       "better_than_last": "This episode connects abstract stellar science to everyday objects like jewelry better than the purely galactic focus of episode 32.",
       "judge": "gemini-3.5-flash",
-      "passed": false
+      "passed": true
     },
     {
       "at": "2026-10-03T11:36:49+05:30",
@@ -93,7 +93,52 @@
       "better_than_last": "Effectively connects stellar physics to everyday jewelry for a relatable human angle.",
       "judge": "gemini-3.8-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-03T17:14:54+05:30",
+      "check": {
+        "duration": 51.13,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging comparison, though density facts are somewhat common.",
+        "clarity": "Strong progression from density scale to astronomical origins.",
+        "payoff": "The connection to gold jewelry is good but lacks a shocking punchline.",
+        "visuals": "High-quality, relevant astronomy diagrams and historical photos.",
+        "loop": "Seamless semantic connection back to the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: 'Which means every piece of gold jewelry you wear was actually forged by these ultra-dense dead stars.'"
+      ],
+      "better_than_last": "Provides a more relatable human connection through gold jewelry than the abstract forces in Episode 32.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 1,
+  "kept_round": 1
 }

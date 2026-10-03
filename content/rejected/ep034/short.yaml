@@ -66,29 +66,17 @@ beats:
     motion: pan_up
     focus_x: 0.5
     focus_y: 0.45
-- text: In June 1971, Soyuz 11 launched carrying Georgy Dobrovolsky, Vladislav Volkov, and Viktor Patsayev.
+- text: In June 1971, Soyuz 11 launched carrying Georgy Dobrovolsky, Vladislav Volkov, and Viktor [Patsayev](/pˈætsˈIjˈɛv/).
   emphasis:
   - June 1971
   - Georgy Dobrovolsky
   visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/c/c7/1979_CPA_5027.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: 1979 CPA 5027.jpg
-      credit: Post of Soviet Union
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:1979_CPA_5027.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    source: card
     card:
       kind: dateline
       big: June 1971
       small: Soyuz 11 Mission
+    motion: zoom_in
 - text: The crew successfully docked with Salyut 1, setting new space endurance records over three weeks.
   emphasis:
   - docked with Salyut 1
@@ -115,13 +103,13 @@ beats:
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Expedition_59_Soyuz_MS-11_Landing_%28NHQ201906250017%29.jpg/3840px-Expedition_59_Soyuz_MS-11_Landing_%28NHQ201906250017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Expedition_59_Soyuz_MS-11_Landing_%28NHQ201906250018%29.jpg/3840px-Expedition_59_Soyuz_MS-11_Landing_%28NHQ201906250018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Expedition 59 Soyuz MS-11 Landing (NHQ201906250017).jpg
+      title: Expedition 59 Soyuz MS-11 Landing (NHQ201906250018).jpg
       credit: Bill Ingalls
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Expedition_59_Soyuz_MS-11_Landing_(NHQ201906250017).jpg
+      url: https://commons.wikimedia.org/wiki/File:Expedition_59_Soyuz_MS-11_Landing_(NHQ201906250018).jpg
     fallbacks:
     - color
     motion: zoom_out

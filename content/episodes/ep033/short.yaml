@@ -115,7 +115,7 @@ beats:
       kind: fact
       big: Nuclear Ban
       small: Orbiting WMDs
-- text: It forbids nations from claiming any celestial bodies.
+- text: It explicitly forbids nations from claiming sovereignty over the Moon or other celestial bodies.
   emphasis:
   - celestial bodies
   sfx: riser
@@ -131,8 +131,13 @@ beats:
     fallbacks:
     - color
     motion: zoom_out
-    focus_x: 0.65
-    focus_y: 0.45
+    focus_x: 0.5
+    focus_y: 0.42
+    box:
+    - 0.25
+    - 0.21
+    - 0.76
+    - 0.63
 - text: The treaty only bans nukes, not conventional weapons.
   emphasis:
   - only bans nukes
@@ -162,9 +167,9 @@ beats:
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: Today, this legal shield ensures that no nation can ever own the Moon.
+- text: This international treaty remains a permanent guarantee.
   emphasis:
-  - no nation
+  - permanent guarantee
   visual:
     reuse: 1
     motion: zoom_out

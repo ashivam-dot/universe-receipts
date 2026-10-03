@@ -57,7 +57,102 @@
       "better_than_last": "Offers a more structured historical narrative than the star brightness myth.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-03T17:17:04+05:30",
+      "check": {
+        "duration": 44.13,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "'own' heard as 'on' after 'nation can ever'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Clear and bold premise that immediately sparks curiosity about space law.",
+        "clarity": "Logical structure with one distinct historical or legal fact per beat.",
+        "payoff": "Revealing that conventional weapons are still allowed in space provides a neat twist.",
+        "visuals": "On-topic archival photos and graphics that match the Cold War theme well.",
+        "loop": "Beat 8 repeats the exact phrase from Beat 1, making the loop redundant instead of seamless."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Change 'Today, this legal shield ensures that no nation can ever own the Moon.' to 'Today, this legal shield ensures that...'"
+      ],
+      "better_than_last": "It grounds complex space history effectively in accessible Cold War geopolitics.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-03T17:22:36+05:30",
+      "check": {
+        "duration": 45.93,
+        "words": 108,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'own' heard as 'on' after 'nation can ever'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "A bold, counter-intuitive opening statement about Moon ownership that immediately engages the viewer.",
+        "clarity": "Extremely clear timeline explaining the Outer Space Treaty, what is prohibited, and what is still debated.",
+        "payoff": "The twist that conventional weapons are not technically banned in orbit is a strong payoff.",
+        "visuals": "Historically rich imagery, though one frame is historically mismatched to the narration.",
+        "loop": "The transition from the final guarantee back to the opening claim flows flawlessly."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The frame shows a replica of Sputnik 1, which was a harmless transmitter rather than an orbital nuclear weapon or WMD."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode establishes a much cleaner narrative structure and a far more natural loop than ep028.",
+      "judge": "gemini-3.5-flash",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

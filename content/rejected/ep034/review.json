@@ -1,0 +1,176 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-03T17:17:07+05:30",
+      "check": {
+        "duration": 48.37,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'happened' heard as 'happen' after 'assume space fatalities'",
+          "'georgy dobrovolsky' heard as 'georgi dabravalsky' after '11 launched carrying'",
+          "'patsayev' heard as 'patseev' after 'volkov and viktor'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "An engaging, direct hook that immediately captures attention.",
+        "clarity": "The chronological flow makes the tragic sequence easy to follow.",
+        "payoff": "The sudden technical failure provides a strong and informative resolution.",
+        "visuals": "Some frames use stamps of ships or landed capsules instead of the active event.",
+        "loop": "The final line seamlessly transitions back into the starting hook."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The frame shows a tracking ship stamp rather than the launch or the crew members."
+        },
+        {
+          "beat": 5,
+          "problem": "The frame shows a landed capsule, which is premature for the pre-re-entry separation."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Patsayev",
+          "respelling": "pat sigh yev"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode delivers a more poignant, human-centered historical mystery than the purely cosmic themes of recent videos.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-03T17:19:44+05:30",
+      "check": {
+        "duration": 48.56,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'soyuz' heard as 'salyut' after 'in june 1971'",
+          "'georgy' heard as 'georgi' after '11 launched carrying'",
+          "'patsayev' heard as 'patsyev' after 'volkov and viktor'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong, high-interest premise that immediately grabs attention.",
+        "clarity": "The chronological chain of events is easy to follow on one listen.",
+        "payoff": "The tragic ending provides a solid resolution to the opening hook.",
+        "visuals": "Most graphics fit, but the tracking ship stamp in beat 3 is historically confusing.",
+        "loop": "Seamless transition from the final line back into the hook."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows a tracking ship stamp instead of the Soyuz 11 spacecraft or crew."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Patsayev",
+          "respelling": "pah tsah yef"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode delivers a tighter and more emotional narrative hook than the North Star myth bust.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-03T17:21:48+05:30",
+      "check": {
+        "duration": 48.56,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'georgy' heard as 'georgi' after '11 launched carrying'",
+          "'patsayev' heard as 'patsyev' after 'volkov and viktor'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong historical hook that grabs attention immediately.",
+        "clarity": "Easy to follow chronological sequence with clear concepts.",
+        "payoff": "Tragic final details deliver a satisfying, informative conclusion.",
+        "visuals": "Good archival imagery, but beat 5 shows the wrong flight phase.",
+        "loop": "Seamless transition from the tragic ending back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The frame shows the capsule already on the ground with dust, but the script describes separation in space before re-entry."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode has a much stronger, more gripping narrative hook than the star debunking fact in episode 28.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-03T17:21:48+05:30"
+}

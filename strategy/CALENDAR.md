@@ -25,7 +25,7 @@ unexplained, not alien.
 | 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — parked (ep019) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
 | 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — parked (ep020) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
 | 2026-10-02 | Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon — parked (ep027) | The Universe Is Terrifying | NASA's Webb telescope recently released new findings on planet-shattering collisions, mirroring the historic clash of Earth and Theia. |
-| 2026-10-03 | DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus — making (ep036) | Mission Files | NASA recently highlighted extreme thermal testing on the probe's engineering model for its mission to Venus. |
+| 2026-10-03 | DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus — done (ep036) | Mission Files | NASA recently highlighted extreme thermal testing on the probe's engineering model for its mission to Venus. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -36,7 +36,7 @@ unexplained, not alien.
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
 | Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
 | Oct 7 | Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons — done (ep004) | Mission Files |
-| Oct 10 | Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon — making (ep033) | Space Got Weird |
+| Oct 10 | Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon — done (ep033) | Space Got Weird |
 | Oct 15 | Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph | The Universe Is Terrifying |
 | Oct 19 | 1I/ʻOumuamua (2017): the first known visitor from another star system sped up as it left, with no visible tail | Space Got Weird |
 | Oct 21 | Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet | Space Myths, Busted |
@@ -58,7 +58,7 @@ unexplained, not alien.
 
 ### The Universe Is Terrifying
 
-- Boötes Void (1981): a hole in space holding just 60 galaxies where about 2,000 would be expected
+- Boötes Void (1981): a hole in space holding just 60 galaxies where about 2,000 would be expected — making (ep039)
 - Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022 — done (ep008)
 - Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away
 - HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds
@@ -80,11 +80,11 @@ unexplained, not alien.
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014
 - Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe
-- Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old
+- Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old — making (ep038)
 - Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — parked (ep006)
 - Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away — done (ep013)
-- Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza — making (ep030)
+- Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza — done (ep030)
 - Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there — parked (ep026)
 - IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it
 - Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies
@@ -93,7 +93,7 @@ unexplained, not alien.
 
 ### Mission Files
 
-- Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated — making (ep034)
+- Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated — parked (ep034)
 - Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127
 - Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons
 - OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space
@@ -119,7 +119,7 @@ unexplained, not alien.
 - Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings — parked (ep029)
 - Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — parked (ep014)
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one
-- Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009
+- Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009 — making (ep040)
 - SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars
 - 55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond
 
@@ -127,7 +127,7 @@ unexplained, not alien.
 
 - Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for "towing" — dropped (ep007)
 - Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged — done (ep009)
-- 99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029 — making (ep035)
+- 99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029 — done (ep035)
 - 2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032
 - Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past
 - July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot
@@ -143,7 +143,7 @@ unexplained, not alien.
 
 - Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit — parked (ep012)
 - Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see
-- Season: Earth is closest to the Sun in early January, so distance isn't what makes summer
+- Season: Earth is closest to the Sun in early January, so distance isn't what makes summer — making (ep037)
 - Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — dropped (ep021)
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth
 - Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds
