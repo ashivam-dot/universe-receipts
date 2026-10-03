@@ -10,11 +10,11 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | not enough data yet | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | not enough data yet | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | not enough data yet | rising week over week |
-| Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
-| Likes per 100 views | `likes` / `views` | 3.8 | 4+ |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 46% | 70%+; under 60% rarely takes off |
+| Average percentage viewed | `analytics.averageViewPercentage` | 98.3% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 144% | rising week over week |
+| Subscribers per 1,000 views | `subscribersGained` / `views` | 1.2 | 2+ |
+| Likes per 100 views | `likes` / `views` | 2.9 | 4+ |
 
 ## Rules we've proven
 
@@ -29,6 +29,7 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Cut each Short to 45-59 seconds to maximize reach potential.
 - Write a last line that flows straight into the first line to increase average percentage viewed.
 - Replace informational summaries with direct debate prompts or open-ended reaction hooks in the final beat to drive audience interaction.
+- Start the opening script line with a curiosity gap rather than a static statement or text overlay to improve initial retention and view velocity.
 
 ## Scoreboard
 
@@ -37,7 +38,8 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep008 | The Universe Is Terrifying | statement, story | 714 | – | – | – | – | Strong hard-drive hook and terrifying black hole topic maintained median likes, but a passive summary ending killed comment interaction. |
+| ep002 | Mission Files | statement, story | 94 | – | – | – | – | Static statement hook on a historical topic fell far below median views, proving the need for curiosity gaps. |
+| ep008 | The Universe Is Terrifying | statement, story | 862 | 46% | 98.3% | 144% | 2 | Strong physical-drive hook and terrifying black hole topic beat median likes, but a passive informational ending failed to generate comments. |
 
 ## Log
 
@@ -46,3 +48,4 @@ contradiction.
 - 2026-10-01: No changes made today as no Shorts have accumulated 24+ hours of data yet.
 - 2026-10-02: Initial analysis of ep008 shows strong hook performance from physical-object angles but a total lack of engagement at the finish.
 - 2026-10-02: Added ep008 performance data, highlighting a critical need to replace passive summary endings with active debate prompts to drive comments.
+- 2026-10-03: Added ep002 and ep008 to the learning log, introducing a curiosity-gap hook hypothesis and supporting the debate-prompt ending hypothesis.

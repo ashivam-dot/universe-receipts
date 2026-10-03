@@ -1,34 +1,33 @@
 {
-  "updated_at": "2026-10-03T05:05:36+05:30",
+  "updated_at": "2026-10-03T11:07:20+05:30",
   "day": 2,
-  "result": "degraded",
+  "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M3ZFH7FYRSJD0H2W2VW6K3ZR",
+    "id": "ta-01M4044CH9DG83HGE1MCSHP5SR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-03T05:05:07+05:30",
-    "started_at_utc": "2026-10-02T23:35:07+00:00",
-    "seconds": 29
+    "started_at": "2026-10-03T11:05:05+05:30",
+    "started_at_utc": "2026-10-03T05:35:05+00:00",
+    "seconds": 135
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 1.2
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "9 posts",
-      "seconds": 0.4
+      "detail": "10 posts",
+      "seconds": 0.9
     },
     {
       "name": "playlists",
-      "ok": false,
-      "detail": "",
-      "error": "HttpError: <HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">",
+      "ok": true,
+      "detail": "added ep009 to 'Near Misses'; added ep024 to 'Near Misses'",
       "seconds": 1.5
     },
     {
@@ -46,110 +45,90 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 0.1
+      "detail": "ep002 at 24 h: shown: 94 views in 30 hours, 2.1 likes per 100 views; ep009 at 6 h: shown: 156 views in 7 hours, 5.8 likes per 100 views; learnings: Added ep002 and ep008 to the learning log, introducing a curiosity-gap hook hypothesis and supporting the debate-prompt ending hypothesis.",
+      "seconds": 115.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep029 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep030 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep031 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-fla",
-      "seconds": 10.4
+      "detail": "ep029 rejected (low scores: payoff, visuals, loop; 3 frame problems); ep030 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes); ep031 rejected (low scores: visuals; 2 frame problems); ep033 unfinished (Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed ",
+      "seconds": 7.7
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "preflight ep013",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
-    },
-    {
-      "name": "preflight ep024",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "name": "preflight ep028",
       "ok": true,
-      "detail": "video downloads whole (19 MB in 0 s)",
-      "seconds": 0.5
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
-    },
-    {
-      "name": "schedule ep032",
-      "ok": true,
-      "detail": "2026-10-04T21:30:00-04:00",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep029",
-      "ok": true,
-      "detail": "Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings",
-      "seconds": 0.7
+      "seconds": 0.1
     },
     {
       "name": "start ep030",
       "ok": true,
       "detail": "Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep031",
-      "ok": true,
-      "detail": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "name": "start ep033",
       "ok": true,
       "detail": "Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon",
-      "seconds": 0.5
+      "seconds": 0.3
+    },
+    {
+      "name": "start ep034",
+      "ok": true,
+      "detail": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
+      "seconds": 0.4
+    },
+    {
+      "name": "start ep035",
+      "ok": true,
+      "detail": "99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029",
+      "seconds": 0.3
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.2
+      "seconds": 0.1
     }
   ],
-  "errors": [
-    "playlists: HttpError: <HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">"
-  ],
+  "errors": [],
   "owner_action": [],
   "notes": [
-    "ep029 stopped on Gemini's free tier being overloaded; it resumes in a later run",
     "ep030 stopped on Gemini's free tier being overloaded; it resumes in a later run",
-    "ep031 stopped on Gemini's free quota; it resumes in a later run"
+    "ep033 stopped on Gemini's free tier being overloaded; it resumes in a later run"
   ],
   "inventory": {
-    "total": 7,
-    "in_buffer": 7,
+    "total": 6,
+    "in_buffer": 6,
     "waiting": 0,
     "target": 42,
     "making": [],
     "remote": [
-      "ep029",
       "ep030",
-      "ep031",
-      "ep033"
+      "ep033",
+      "ep034",
+      "ep035"
     ]
   },
   "queue": [
-    {
-      "id": "ep024",
-      "title": "The Siberian explosion that left no crater",
-      "due_at": "2026-10-02T21:30:00-04:00"
-    },
     {
       "id": "ep013",
       "title": "The Mountain Where You Cannot See the Peak",
@@ -185,11 +164,9 @@
   "made": [
     {
       "id": "ep029",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings",
-      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
-      "quota": false,
-      "overloaded": true
+      "reason": "low scores: payoff, visuals, loop; 3 frame problems"
     },
     {
       "id": "ep030",
@@ -201,110 +178,100 @@
     },
     {
       "id": "ep031",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "reason": "low scores: visuals; 2 frame problems"
     },
     {
-      "id": "ep032",
-      "outcome": "ready",
-      "topic": "Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare",
-      "title": "The Unseen Force Dragging the Milky Way",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1790963206/universereceipts/ep032-e8746ab2.mp4"
+      "id": "ep033",
+      "outcome": "unfinished",
+      "topic": "Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon",
+      "reason": "Overloaded: every model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') with quota left stayed overloaded for 25 minutes",
+      "quota": false,
+      "overloaded": true
     }
   ],
   "spawned": [
     {
-      "id": "ep029",
-      "topic": "Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings",
-      "call_id": "fc-01M3ZFJ7R9BRA847GS0CXA2H15"
-    },
-    {
       "id": "ep030",
       "topic": "Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza",
-      "call_id": "fc-01M3ZFJ89G6MCBTRVAPA64B8A6"
-    },
-    {
-      "id": "ep031",
-      "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
-      "call_id": "fc-01M3ZFJ8PHSTC2VKQJ1MTPMGZT"
+      "call_id": "fc-01M4048KCRK3R4H9T6DTSXBDXK"
     },
     {
       "id": "ep033",
       "topic": "Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon",
-      "call_id": "fc-01M3ZFJ94WNC8CZT6RF954PVNG"
+      "call_id": "fc-01M4048KN9DCX5FQ0T8XVFZ52A"
+    },
+    {
+      "id": "ep034",
+      "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
+      "call_id": "fc-01M4048M0XZ30DPNXPAQHWJNP2"
+    },
+    {
+      "id": "ep035",
+      "topic": "99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029",
+      "call_id": "fc-01M4048MAMAHGJZV2ZR7JC91GT"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep029",
-      "topic": "Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings",
-      "spawned_at": "2026-10-03T05:05:34+05:30"
-    },
-    {
       "id": "ep030",
       "topic": "Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza",
-      "spawned_at": "2026-10-03T05:05:35+05:30"
-    },
-    {
-      "id": "ep031",
-      "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
-      "spawned_at": "2026-10-03T05:05:35+05:30"
+      "spawned_at": "2026-10-03T11:07:18+05:30"
     },
     {
       "id": "ep033",
       "topic": "Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon",
-      "spawned_at": "2026-10-03T05:05:35+05:30"
-    }
-  ],
-  "published": [
+      "spawned_at": "2026-10-03T11:07:19+05:30"
+    },
     {
-      "id": "ep032",
-      "title": "The Unseen Force Dragging the Milky Way",
-      "due_at": "2026-10-04T21:30:00-04:00"
+      "id": "ep034",
+      "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
+      "spawned_at": "2026-10-03T11:07:19+05:30"
+    },
+    {
+      "id": "ep035",
+      "topic": "99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029",
+      "spawned_at": "2026-10-03T11:07:19+05:30"
     }
   ],
-  "live": 3,
+  "published": [],
+  "live": 4,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 30,
+    "calls": 13,
     "by_model": {
-      "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 10,
-      "gemini-3.5-flash-lite": 14,
-      "gemini-3.5-flash": 5
+      "gemini-3.6-flash": 3,
+      "gemini-3.5-flash": 5,
+      "gemini-3.8-flash": 1,
+      "gemini-3.5-flash-lite": 2,
+      "gemini-3.1-flash-lite": 2
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.6-flash",
+      "gemini-3.7-flash"
+    ]
   },
   "renders": {
-    "modal": 8,
+    "modal": 6,
     "runner": 0
   },
   "daily_done": "2026-10-02",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 2.17,
+    "metered": 2.57,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 215,
+    "cloud": 211,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 25.83
+    "modal_credit_left": 25.43
   },
   "made_here": 0,
-  "open_topics": 68,
-  "parked_topics": 14
+  "open_topics": 66,
+  "parked_topics": 16
 }

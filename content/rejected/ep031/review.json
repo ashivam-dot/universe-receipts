@@ -1,0 +1,163 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-02T23:16:38+05:30",
+      "check": {
+        "duration": 55.7,
+        "words": 132,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 2,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The hook is undermined by the confusing use of the word 'unexploded' instead of 'unexplored'.",
+        "clarity": "Calling Pluto 'unexploded' and saying the probe sped 'toward the solar system' makes no sense.",
+        "payoff": "The reveal that the actual 1991 stamp was carried onboard all the way to Pluto is a perfect payoff.",
+        "visuals": "The visuals are sharp and clean, though using 2015 Pluto photos to represent the 1991 stamp is anachronistic.",
+        "loop": "The loop is structurally seamless but repeats the incorrect 'unexploded' line from the hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A postage stamp declaring Pluto unexplored inspired a spacecraft to visit it.",
+        "Beat 6: A Jupiter gravity assist shaved three years off the voyage, sending the probe speeding toward the outer solar system.",
+        "Beat 9: A postage stamp declaring Pluto unexplored inspired a spacecraft to visit it."
+      ],
+      "better_than_last": "This episode has a much more narrative and emotionally satisfying historical payoff than the factual trivia of the recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-03T05:09:33+05:30",
+      "check": {
+        "duration": 55.1,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The initial premise holds attention but lacks immediate urgency.",
+        "clarity": "The narrative line is straightforward and clear on first listen.",
+        "payoff": "Revealing the stamp's presence on the spacecraft provides a solid finish.",
+        "visuals": "Beats 2 and 3 show a delivery truck instead of the actual postage stamps.",
+        "loop": "The closing line repeats the opening hook cleanly."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a USPS delivery truck instead of postage stamps."
+        },
+        {
+          "beat": 3,
+          "problem": "Shows a USPS delivery truck instead of the Pluto stamp."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A single postage stamp inspired a mission to Pluto."
+      ],
+      "better_than_last": "This episode delivers a more concrete story payoff around a singular physical object.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-03T05:14:36+05:30",
+      "check": {
+        "duration": 48.27,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'ninth' heard as '9th' after 'spacecraft except the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong and intriguing opening hook connecting a humble stamp to a grand space mission.",
+        "clarity": "An exceptionally clear, easy-to-follow chronological story about the mission's motivation.",
+        "payoff": "The revelation that the actual physical stamp was taped inside the probe is a superb, satisfying twist.",
+        "visuals": "Weak visual storytelling in the first half, opting for a generic delivery truck and a Hubble map rather than showing the historic stamp itself.",
+        "loop": "Perfect seamless loop that flows directly back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a generic modern mail truck instead of the 1991 planet stamp series."
+        },
+        {
+          "beat": 3,
+          "problem": "Shows a grainy Hubble map of Pluto instead of the actual 'Pluto: Not Yet Explored' stamp being described."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short delivers a far more emotionally resonant and satisfying payoff than episode 028's dry debunking of the North Star's brightness.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-03T05:14:36+05:30"
+}
