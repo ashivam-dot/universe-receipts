@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-03T23:05:34+05:30",
-  "day": 2,
-  "result": "ok",
+  "updated_at": "2026-10-04T05:07:42+05:30",
+  "day": 3,
+  "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M41DART581CD1MASVAMX11XR",
+    "id": "ta-01M421XYQ211J6DCBN3VSWX24R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-03T23:05:06+05:30",
-    "started_at_utc": "2026-10-03T17:35:06+00:00",
-    "seconds": 28
+    "started_at": "2026-10-04T05:05:06+05:30",
+    "started_at_utc": "2026-10-03T23:35:06+00:00",
+    "seconds": 156
   },
   "stages": [
     {
@@ -21,20 +21,21 @@
     {
       "name": "sync",
       "ok": true,
-      "detail": "10 posts",
+      "detail": "14 posts",
       "seconds": 0.4
     },
     {
       "name": "playlists",
-      "ok": true,
-      "detail": "nothing new",
-      "seconds": 1.0
+      "ok": false,
+      "detail": "",
+      "error": "HttpError: <HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">",
+      "seconds": 2.3
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "on youtube",
@@ -45,14 +46,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 0.1
+      "detail": "ep009 at 24 h: shown: 211 views in 25 hours, 4.3 likes per 100 views; learnings: Logged performance reviews for ep002, ep008, and ep009; keeping all existing hypotheses as no single effect has appeared in two shorts yet.",
+      "seconds": 133.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep030 ready; ep033 ready; ep034 rejected (low scores: visuals); ep035 ready; ep036 ready",
-      "seconds": 9.9
+      "detail": "ep037 rejected (research: only 0 claims have two different sites); ep038 rejected (low scores: clarity, payoff, visuals; 3 frame problems); ep039 rejected (research: only 0 claims have two different sites); ep040 ready",
+      "seconds": 8.3
     },
     {
       "name": "buffer channel",
@@ -64,78 +65,60 @@
       "name": "preflight ep004",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
-    },
-    {
-      "name": "preflight ep013",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "preflight ep028",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep032",
       "ok": true,
-      "detail": "video downloads whole (20 MB in 0 s)",
-      "seconds": 0.5
+      "detail": "video still hosted",
+      "seconds": 0.2
+    },
+    {
+      "name": "preflight ep036",
+      "ok": true,
+      "detail": "video downloads whole (17 MB in 0 s)",
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 3.1
+      "seconds": 1.1
     },
     {
-      "name": "schedule ep036",
+      "name": "schedule ep040",
       "ok": true,
-      "detail": "2026-10-04T12:30:00-04:00",
-      "seconds": 0.7
-    },
-    {
-      "name": "schedule ep035",
-      "ok": true,
-      "detail": "2026-10-05T21:30:00-04:00",
-      "seconds": 0.7
-    },
-    {
-      "name": "schedule ep033",
-      "ok": true,
-      "detail": "2026-10-06T21:30:00-04:00",
-      "seconds": 0.7
-    },
-    {
-      "name": "schedule ep030",
-      "ok": true,
-      "detail": "2026-10-07T19:00:00-04:00",
+      "detail": "2026-10-07T21:30:00-04:00",
       "seconds": 0.8
     },
     {
-      "name": "start ep037",
+      "name": "start ep041",
       "ok": true,
-      "detail": "Season: Earth is closest to the Sun in early January, so distance isn't what makes summer",
-      "seconds": 0.3
-    },
-    {
-      "name": "start ep038",
-      "ok": true,
-      "detail": "Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old",
+      "detail": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
       "seconds": 0.4
     },
     {
-      "name": "start ep039",
+      "name": "start ep042",
       "ok": true,
-      "detail": "Boötes Void (1981): a hole in space holding just 60 galaxies where about 2,000 would be expected",
+      "detail": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
+      "seconds": 0.4
+    },
+    {
+      "name": "start ep043",
+      "ok": true,
+      "detail": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
       "seconds": 0.3
     },
     {
-      "name": "start ep040",
+      "name": "start ep044",
       "ok": true,
-      "detail": "Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009",
+      "detail": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
       "seconds": 0.3
     },
     {
@@ -145,7 +128,9 @@
       "seconds": 0.1
     }
   ],
-  "errors": [],
+  "errors": [
+    "playlists: HttpError: <HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">"
+  ],
   "owner_action": [],
   "notes": [],
   "inventory": {
@@ -155,18 +140,13 @@
     "target": 42,
     "making": [],
     "remote": [
-      "ep037",
-      "ep038",
-      "ep039",
-      "ep040"
+      "ep041",
+      "ep042",
+      "ep043",
+      "ep044"
     ]
   },
   "queue": [
-    {
-      "id": "ep013",
-      "title": "The Mountain Where You Cannot See the Peak",
-      "due_at": "2026-10-03T19:00:00-04:00"
-    },
     {
       "id": "ep028",
       "title": "The North Star Brightness Myth Busted",
@@ -211,15 +191,38 @@
       "id": "ep030",
       "title": "A Teaspoon Weighs One Billion Tons",
       "due_at": "2026-10-07T19:00:00-04:00"
+    },
+    {
+      "id": "ep040",
+      "title": "The Day NASA Got a Ticket for Littering",
+      "due_at": "2026-10-07T21:30:00-04:00"
     }
   ],
   "waiting": [],
   "made": [
     {
-      "id": "ep030",
+      "id": "ep037",
+      "outcome": "rejected",
+      "topic": "Season: Earth is closest to the Sun in early January, so distance isn't what makes summer",
+      "reason": "research: only 0 claims have two different sites"
+    },
+    {
+      "id": "ep038",
+      "outcome": "rejected",
+      "topic": "Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old",
+      "reason": "low scores: clarity, payoff, visuals; 3 frame problems"
+    },
+    {
+      "id": "ep039",
+      "outcome": "rejected",
+      "topic": "Boötes Void (1981): a hole in space holding just 60 galaxies where about 2,000 would be expected",
+      "reason": "research: only 0 claims have two different sites"
+    },
+    {
+      "id": "ep040",
       "outcome": "ready",
-      "topic": "Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza",
-      "title": "A Teaspoon Weighs One Billion Tons",
+      "topic": "Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009",
+      "title": "The Day NASA Got a Ticket for Littering",
       "scores": {
         "hook": 4,
         "clarity": 4,
@@ -227,156 +230,95 @@
         "visuals": 4,
         "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791027895/universereceipts/ep030-0217a6b5.mp4"
-    },
-    {
-      "id": "ep033",
-      "outcome": "ready",
-      "topic": "Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon",
-      "title": "The Cold War Treaty That Banned Nuclear Weapons in Space",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791028358/universereceipts/ep033-053d0194.mp4"
-    },
-    {
-      "id": "ep034",
-      "outcome": "rejected",
-      "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep035",
-      "outcome": "ready",
-      "topic": "99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029",
-      "title": "The Asteroid Passing Closer Than Our Satellites",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791027843/universereceipts/ep035-0edeab19.mp4"
-    },
-    {
-      "id": "ep036",
-      "outcome": "ready",
-      "topic": "DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus",
-      "title": "NASA's titanium probe to Venus",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791029661/universereceipts/ep036-c87817e3.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791049786/universereceipts/ep040-b5b6fbf7.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep037",
-      "topic": "Season: Earth is closest to the Sun in early January, so distance isn't what makes summer",
-      "call_id": "fc-01M41DBQCV58MYXT6NAHAC9C4H"
+      "id": "ep041",
+      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
+      "call_id": "fc-01M4222TX77WAAN53JES63R61E"
     },
     {
-      "id": "ep038",
-      "topic": "Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old",
-      "call_id": "fc-01M41DBQQPYCFAA5SPHH1C7AH8"
+      "id": "ep042",
+      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
+      "call_id": "fc-01M4222V9DBGSQR8WGRT1P3YTJ"
     },
     {
-      "id": "ep039",
-      "topic": "Boötes Void (1981): a hole in space holding just 60 galaxies where about 2,000 would be expected",
-      "call_id": "fc-01M41DBR1N331YNMSEYDKEW4MX"
+      "id": "ep043",
+      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
+      "call_id": "fc-01M4222VHGR9AD6AJKY7BWV4NY"
     },
     {
-      "id": "ep040",
-      "topic": "Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009",
-      "call_id": "fc-01M41DBRBEFP8PXWPHQ0QHNEHZ"
+      "id": "ep044",
+      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
+      "call_id": "fc-01M4222VSTG237J2QBSRNM2WT8"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep037",
-      "topic": "Season: Earth is closest to the Sun in early January, so distance isn't what makes summer",
-      "spawned_at": "2026-10-03T23:05:32+05:30"
+      "id": "ep041",
+      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
+      "spawned_at": "2026-10-04T05:07:41+05:30"
     },
     {
-      "id": "ep038",
-      "topic": "Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old",
-      "spawned_at": "2026-10-03T23:05:33+05:30"
+      "id": "ep042",
+      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
+      "spawned_at": "2026-10-04T05:07:41+05:30"
     },
     {
-      "id": "ep039",
-      "topic": "Boötes Void (1981): a hole in space holding just 60 galaxies where about 2,000 would be expected",
-      "spawned_at": "2026-10-03T23:05:33+05:30"
+      "id": "ep043",
+      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
+      "spawned_at": "2026-10-04T05:07:42+05:30"
     },
     {
-      "id": "ep040",
-      "topic": "Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009",
-      "spawned_at": "2026-10-03T23:05:33+05:30"
+      "id": "ep044",
+      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
+      "spawned_at": "2026-10-04T05:07:42+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep036",
-      "title": "NASA's titanium probe to Venus",
-      "due_at": "2026-10-04T12:30:00-04:00"
-    },
-    {
-      "id": "ep035",
-      "title": "The Asteroid Passing Closer Than Our Satellites",
-      "due_at": "2026-10-05T21:30:00-04:00"
-    },
-    {
-      "id": "ep033",
-      "title": "The Cold War Treaty That Banned Nuclear Weapons in Space",
-      "due_at": "2026-10-06T21:30:00-04:00"
-    },
-    {
-      "id": "ep030",
-      "title": "A Teaspoon Weighs One Billion Tons",
-      "due_at": "2026-10-07T19:00:00-04:00"
+      "id": "ep040",
+      "title": "The Day NASA Got a Ticket for Littering",
+      "due_at": "2026-10-07T21:30:00-04:00"
     }
   ],
-  "live": 4,
+  "live": 5,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 18,
+    "calls": 23,
     "by_model": {
-      "gemini-3.5-flash": 9,
-      "gemini-3.6-flash": 1,
-      "gemini-3.5-flash-lite": 3,
-      "gemini-3.7-flash": 1,
-      "gemini-3-flash-preview": 4
+      "gemini-3.5-flash-lite": 7,
+      "gemini-3.5-flash": 4,
+      "gemini-3.8-flash": 1,
+      "gemini-3-flash-preview": 11
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.7-flash",
+      "gemini-flash-latest"
+    ]
   },
   "renders": {
-    "modal": 8,
+    "modal": 6,
     "runner": 0
   },
   "daily_done": "2026-10-03",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 3.76,
+    "metered": 4.15,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 202,
+    "cloud": 198,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 24.24
+    "modal_credit_left": 23.86
   },
   "made_here": 0,
-  "open_topics": 67,
-  "parked_topics": 17
+  "open_topics": 63,
+  "parked_topics": 18
 }

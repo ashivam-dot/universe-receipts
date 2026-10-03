@@ -1,0 +1,287 @@
+{
+  "viable": true,
+  "reason": "The sources robustly corroborate over 15 specific claims explaining why the observable universe spans 93 billion light-years despite being 13.8 billion years old.",
+  "story": "If light travels at a strict cosmic speed limit and the universe is only 13.8 billion years old, you might expect the visible cosmos to stretch at most 13.8 billion light-years in every direction. Instead, astronomers calculate the observable universe spans a mind-boggling 93 billion light-years across. No photon ever broke the speed of light. The secret lies in cosmic expansion: while ancient light spent nearly 13.8 billion years traveling toward us, the space between us and the light's source never stopped stretching. When the cosmic microwave background was released roughly 380,000 years after the Big Bang, the matter that emitted it sat merely 40 to 42 million light-years away. Over billions of years, cosmic expansion carried that matter out to today's comoving distance of 46.5 billion light-years. Because space itself expands, remote regions recede faster than light without violating Einstein's relativity, leaving our cosmic bubble vastly larger than its age.",
+  "angle": "The matter that emitted the oldest visible light in the cosmos was only about 40 million light-years away when it shone, yet expansion has dragged it 46.5 billion light-years away today.",
+  "claims": [
+    {
+      "claim": "The universe is approximately 13.8 billion years old.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The observable universe is a sphere with a diameter of roughly 93 billion light-years.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The comoving radius from Earth to the edge of the observable universe is about 46.5 billion light-years.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In a static, non-expanding universe, light traveling for 13.8 billion years would define a sphere spanning at most 27.6 billion light-years across.",
+      "sources": [
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The observable universe is far larger than twice the light-travel time because space itself expanded while light was in flight.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Distant regions of space can recede from an observer faster than the speed of light without violating special relativity.",
+      "sources": [
+        "S2",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "For its first few hundred thousand years, the early universe was an opaque, ionized plasma where photons could not travel freely.",
+      "sources": [
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Roughly 380,000 years after the Big Bang, electrons bound to nuclei and radiation decoupled to stream freely across space.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The oldest light that can be mapped across the entire sky survives today as the cosmic microwave background.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The matter that originally emitted the cosmic microwave background was only about 40 to 42 million light-years away from our location at the time of emission.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The redshift of photon decoupling is approximately z = 1,090 to 1,092.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The surface of last scattering lies slightly inside the ideal particle horizon.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Under a cosmological constant model, the cosmic event horizon is currently situated at a comoving distance of about 16 billion light-years.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA sometimes quotes a rounded diameter of about 92 billion light-years for the observable universe.",
+      "sources": [
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The cosmological principle assumes that on sufficiently large scales, matter is distributed homogeneously and isotropically.",
+      "sources": [
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The total size of the entire universe is unknown and may be infinite.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The observable universe is an observer-centered region, meaning every location in space has its own observable bubble.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The observable universe is estimated to contain on the order of 10 to the 22nd to 10 to the 24th stars.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Diameter estimate rounding: NASA often rounds the observable universe diameter to 92 billion light-years, while other standard models round to 93 or 94 billion light-years depending on cosmological parameters; scripts should frame this as 'roughly 93 billion light-years, with NASA rounding to 92 billion.'",
+    "Estimated number of galaxies: older studies cite 100 to 200 billion galaxies based on Hubble surveys, while other estimates reach up to 2 trillion galaxies; scripts should mention that estimates range from hundreds of billions to trillions."
+  ],
+  "visuals": [
+    {
+      "subject": "Planck all-sky cosmic microwave background map",
+      "queries": [
+        "Planck CMB all sky",
+        "Planck cosmic microwave background full sky"
+      ]
+    },
+    {
+      "subject": "WMAP all-sky cosmic microwave background map",
+      "queries": [
+        "WMAP 9-year CMB",
+        "WMAP microwave sky map"
+      ]
+    },
+    {
+      "subject": "Hubble eXtreme Deep Field (XDF)",
+      "queries": [
+        "Hubble eXtreme Deep Field",
+        "Hubble XDF full resolution"
+      ]
+    },
+    {
+      "subject": "Hubble Ultra Deep Field (HUDF)",
+      "queries": [
+        "Hubble Ultra Deep Field",
+        "HUDF 2014 full field"
+      ]
+    },
+    {
+      "subject": "Planck satellite spacecraft photo",
+      "queries": [
+        "Planck spacecraft model",
+        "Planck observatory cleanroom"
+      ]
+    },
+    {
+      "subject": "Wilkinson Microwave Anisotropy Probe (WMAP) spacecraft concept illustration",
+      "queries": [
+        "WMAP spacecraft NASA",
+        "WMAP artist concept"
+      ]
+    },
+    {
+      "subject": "Observable universe logarithmic scale map diagram",
+      "queries": [
+        "Observable universe logarithmic illustration",
+        "Observable universe diagram"
+      ]
+    },
+    {
+      "subject": "Cosmic expansion scale factor diagram",
+      "queries": [
+        "Expanding universe diagram",
+        "Cosmic expansion timeline NASA"
+      ]
+    },
+    {
+      "subject": "Hubble Space Telescope servicing mission",
+      "queries": [
+        "Hubble servicing mission STS-125",
+        "Hubble Space Telescope astronaut repair"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Observable_universe",
+      "title": "Observable universe",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.space.com/25303-how-many-galaxies-are-in-the-universe.html",
+      "title": "How Many Galaxies Are There?",
+      "site": "space.com"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.livescience.com/how-many-atoms-in-universe.html",
+      "title": "How many atoms are in the observable universe?",
+      "site": "livescience.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://astro.ucla.edu/~wright/cosmology_faq.html",
+      "title": "Frequently Asked Questions in Cosmology",
+      "site": "ucla.edu"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6997386",
+      "title": "Emergence of life in an inflationary universe",
+      "site": "nih.gov"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.spacedaily.com/t-universe-13-8-billion-years-93-billion-light-years-46-5/",
+      "title": "The universe is 13.8 billion years old, yet the observable universe is about 93 billion light-years across. That isn’t because light broke its own speed limit: while the oldest light travelled toward us, the space separating us from its source continued to expand, leaving that source’s present-day location roughly 46.5 billion light-years away.",
+      "site": "spacedaily.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://newspaceeconomy.ca/2026/09/14/how-can-the-observable-universe-be-93-billion-light-years-wide-if-it-is-only-13-8-billion-years-old/",
+      "title": "How Can the Observable Universe Be 93 Billion Light-Years Wide If It Is Only 13.8 Billion Years Old?",
+      "site": "newspaceeconomy.ca"
+    }
+  ],
+  "topic": "Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old",
+  "series": "Scale Breaker"
+}

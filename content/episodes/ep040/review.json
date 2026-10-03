@@ -1,0 +1,178 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-03T23:15:01+05:30",
+      "check": {
+        "duration": 53.89,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'esperance' heard as 'aspirance' after 'the town of'",
+          "'(nothing)' heard as 'you' after 'littering across australia'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong contrast between NASA's scale and a petty littering fine.",
+        "clarity": "Narrative follows a clear chronological path from crash to payment.",
+        "payoff": "The radio show resolution provides a satisfying and lighthearted ending.",
+        "visuals": "Effective use of archival and geographic imagery to support the story.",
+        "loop": "Phrasing the start and end identically ensures a perfect transition."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "Esperance",
+          "respelling": "ess per unce"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "The narrative irony is more engaging than the technical nature of the Venus probe story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    },
+    {
+      "at": "2026-10-03T23:17:49+05:30",
+      "check": {
+        "duration": 54.07,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'esperance' heard as 'esperancee' after 'the town of'",
+          "'(nothing)' heard as 'you' after 'littering across australia'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "National littering fine creates a strong curiosity gap.",
+        "clarity": "Chronological flow ensures the history is easy to follow.",
+        "payoff": "Radio show resolution provides a satisfying ending twist.",
+        "visuals": "Beat 2 launch visual conflicts with de-orbiting text.",
+        "loop": "Final line mirrors hook for a seamless loop."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Launch footage used while discussing de-orbiting/ocean landing."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "Esperance",
+          "respelling": "ess per unce"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Stronger narrative payoff via radio show involvement than recent technical logs.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-03T23:19:44+05:30",
+      "check": {
+        "duration": 54.07,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'esperance' heard as 'esperancee' after 'the town of'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Initial premise effectively grabs attention.",
+        "clarity": "Narrative is simple and easy to follow.",
+        "payoff": "Resolution is slightly anticlimactic as written.",
+        "visuals": "Several frames are generic or illegible.",
+        "loop": "Verbal transition is very effective."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Map is illegible at phone size."
+        },
+        {
+          "beat": 6,
+          "problem": "Shot is generic and lacks relevance."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "Esperance",
+          "respelling": "ess per unce"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: In two thousand nine, loyal listeners raised the cash to finally pay the debt.",
+        "Beat 9: Proving that even NASA can't escape a ticket for littering across Australia."
+      ],
+      "better_than_last": "It leverages a humorous human element that sets it apart from purely scientific topics.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "kept_round": 1
+}

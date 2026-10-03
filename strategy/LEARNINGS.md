@@ -10,11 +10,11 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 46% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 98.3% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 144% | rising week over week |
-| Subscribers per 1,000 views | `subscribersGained` / `views` | 1.2 | 2+ |
-| Likes per 100 views | `likes` / `views` | 2.8 | 4+ |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 47% | 70%+; under 60% rarely takes off |
+| Average percentage viewed | `analytics.averageViewPercentage` | 71.1% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 117% | rising week over week |
+| Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
+| Likes per 100 views | `likes` / `views` | 3.6 | 4+ |
 
 ## Rules we've proven
 
@@ -38,8 +38,9 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep002 | Mission Files | statement, story | 98 | – | – | – | – | Static historical statement hook lacked curiosity, driving low view velocity (98 views) and below-median likes (2.04 vs 2.82). |
-| ep008 | The Universe Is Terrifying | statement, story | 863 | 46% | 98.3% | 144% | 2 | Intriguing physical mail hook drove strong reach (863 views) and above-median likes (3.59 vs 2.82), but a passive summary ending yielded only 1 comment. |
+| ep002 | Mission Files | statement, story | 99 | 47% | 43.0% | 89% | 0 | Static historical statement hook resulted in low view velocity and poor early retention. |
+| ep008 | The Universe Is Terrifying | statement, story | 865 | 47% | 99.2% | 145% | 2 | Strong black hole topic and hard-drive mailing angle drove high views and great average percentage viewed, but passive summary hurt comments. |
+| ep009 | Near Misses | statement, story | 211 | – | – | – | – | Unplugged telegraph hook drove solid early likes, but sluggish narrative pacing after the hook reduced overall view velocity. |
 
 ## Log
 
@@ -50,3 +51,4 @@ contradiction.
 - 2026-10-02: Added ep008 performance data, highlighting a critical need to replace passive summary endings with active debate prompts to drive comments.
 - 2026-10-03: Added ep002 and ep008 to the learning log, introducing a curiosity-gap hook hypothesis and supporting the debate-prompt ending hypothesis.
 - 2026-10-03: Logged 24h+ reviews for ep002 and ep008; retained all core script hypotheses as evidence remains under the two-Short rule threshold.
+- 2026-10-04: Logged performance reviews for ep002, ep008, and ep009; keeping all existing hypotheses as no single effect has appeared in two shorts yet.
