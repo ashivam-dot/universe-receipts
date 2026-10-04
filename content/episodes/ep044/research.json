@@ -1,0 +1,214 @@
+{
+  "viable": true,
+  "reason": "The sources provide enough multi-sourced atomic facts to build a high-impact, true 45-second script about Stanislav Petrov.",
+  "story": "On September 26, 1983, at the height of Cold War tensions, Soviet early-warning satellites suddenly detected a US intercontinental ballistic missile launch, followed quickly by four more. Lieutenant Colonel Stanislav Petrov sat at his console in a secret bunker near Moscow. Soviet doctrine demanded an immediate, compulsory nuclear counterattack upon receiving such a warning. But Petrov hesitated. He suspected the new system might be malfunctioning, reasoning that a genuine US first strike would involve hundreds of simultaneous missiles, not just five. Disobeying protocol, he reported the alert as a false alarm rather than notifying top commanders. Twenty-three minutes later, with no impacts recorded, he realized he was right. The satellites had mistaken sunlight reflecting off high-altitude clouds for missile exhaust. By trusting his gut and stalling the chain of command, Petrov single-handedly prevented a catastrophic retaliatory nuclear war.",
+  "angle": "A single Soviet duty officer prevented a full-scale nuclear war by intentionally disobeying protocol and dismissing a computer-verified missile attack as a glitch.",
+  "claims": [
+    {
+      "claim": "Stanislav Petrov was a lieutenant colonel in the Soviet Air Defence Forces and the duty officer at the Serpukhov-15 command center.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The early warning computer system reported four additional incoming missiles shortly after the first.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Petrov decided to treat the warning as a false alarm instead of immediately relaying the warning up the chain of command.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Subsequent investigation determined the false alarm was caused by a rare alignment of sunlight on high-altitude clouds and the satellites' Molniya orbits.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Petrov reasoned that a real US first strike would involve a massive, all-out onslaught of hundreds of missiles rather than just five.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "On 1 September 1983, the Soviet military shot down Korean Air Lines Flight 007 after it strayed into Soviet airspace, killing all 269 people aboard.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Petrov was later questioned by his superiors and received an official reprimand for mistakes made in his logbook or paperwork.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The incident did not become publicly known until 1998 with the publication of General Yuri Votintsev's memoirs.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Petrov died on 19 May 2017 at the age of 77 in Fryazino, a suburb of Moscow.",
+      "sources": [
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Petrov received international recognition later in life, including the Dresden Peace Prize and an award from the Association of World Citizens.",
+      "sources": [
+        "S2",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Accounts differ on whether Petrov notified his superiors or completely withheld the warning up the chain of command; scripts should follow the primary account that he reported a system malfunction instead of forwarding an attack warning.",
+    "Accounts vary on whether Petrov received initial praise or a promised reward alongside his reprimand; scripts can state he faced intense questioning and an official reprimand over paperwork errors."
+  ],
+  "visuals": [
+    {
+      "subject": "Soviet early-warning satellite model",
+      "queries": [
+        "Molniya satellite model",
+        "Soviet Oko early warning satellite illustration"
+      ]
+    },
+    {
+      "subject": "Cold War nuclear command bunker control panel",
+      "queries": [
+        "Serpukhov-15 command center",
+        "Soviet military cold war command bunker control room"
+      ]
+    },
+    {
+      "subject": "Minuteman intercontinental ballistic missile",
+      "queries": [
+        "Minuteman ICBM silo launch",
+        "Minuteman missile launch illustration"
+      ]
+    },
+    {
+      "subject": "Portrait of Stanislav Petrov",
+      "queries": [
+        "Stanislav Petrov portrait",
+        "Stanislav Petrov officer photo"
+      ]
+    },
+    {
+      "subject": "High altitude clouds reflecting sunlight",
+      "queries": [
+        "High altitude clouds sunlight reflection",
+        "Sunlight reflection on clouds satellite view"
+      ]
+    },
+    {
+      "subject": "Cold War map of US and Soviet missile ranges",
+      "queries": [
+        "Cold War Europe missile ranges map",
+        "Pershing II missile map"
+      ]
+    },
+    {
+      "subject": "Red button nuclear launch console concept",
+      "queries": [
+        "Nuclear launch control panel",
+        "Cold war nuclear launch button"
+      ]
+    },
+    {
+      "subject": "United Nations headquarters where Petrov was honored",
+      "queries": [
+        "United Nations headquarters New York",
+        "UN General Assembly hall"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident",
+      "title": "1983 Soviet nuclear false alarm incident",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Stanislav_Petrov",
+      "title": "Stanislav Petrov",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://web.archive.org/web/20061108234104/http://news.bbc.co.uk/2/hi/europe/198173.stm",
+      "title": "'How I stopped nuclear war'",
+      "site": "bbc.co.uk"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.bbc.com/news/world-europe-24280831",
+      "title": "Stanislav Petrov: The man who may have saved the world",
+      "site": "bbc.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://web.archive.org/web/20170918170724/https://www.npr.org/sections/thetwo-way/2017/09/18/551792129/stanislav-petrov-the-man-who-saved-the-world-dies-at-77",
+      "title": "Stanislav Petrov, 'The Man Who Saved The World,' Dies At 77",
+      "site": "npr.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://web.archive.org/web/20170919023131/https://www.nytimes.com/2017/09/18/world/europe/stanislav-petrov-nuclear-war-dead.html",
+      "title": "Stanislav Petrov, Soviet Officer Who Helped Avert Nuclear War, Is Dead at 77",
+      "site": "nytimes.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://web.archive.org/web/20171011171747/https://www.theguardian.com/world/2017/oct/11/stanislav-petrov-obituary",
+      "title": "Stanislav Petrov obituary",
+      "site": "theguardian.com"
+    }
+  ],
+  "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
+  "series": "Near Misses"
+}

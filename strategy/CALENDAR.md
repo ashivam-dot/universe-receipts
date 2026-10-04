@@ -98,7 +98,7 @@ unexplained, not alien.
 - Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons
 - OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space
 - Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour
-- Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life
+- Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life — making (ep045)
 - New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it — parked (ep031)
 - Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum — dropped (ep016)
 - James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew — dropped (ep015)
@@ -114,7 +114,7 @@ unexplained, not alien.
 - Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy
 - Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — parked (ep022)
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer
-- Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests
+- Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests — making (ep046)
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — parked (ep011)
 - Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings — parked (ep029)
 - Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — parked (ep014)
@@ -142,7 +142,7 @@ unexplained, not alien.
 ### Space Myths, Busted
 
 - Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit — parked (ep012)
-- Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see
+- Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see — making (ep047)
 - Season: Earth is closest to the Sun in early January, so distance isn't what makes summer — dropped (ep037)
 - Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — dropped (ep021)
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth — making (ep041)
