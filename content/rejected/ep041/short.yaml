@@ -1,0 +1,142 @@
+id: ep041
+title: Why Astronauts Don't Explode in Space
+series: Space Myths, Busted
+description: Discover why the human body doesn't explode in the vacuum of space, based on a real NASA accident.
+sources:
+- https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body
+- https://imagine.gsfc.nasa.gov/ask_astro/space_travel.html
+hashtags:
+- '#space'
+- '#nasa'
+- '#spacemyths'
+tags:
+- space vacuum
+- Jim LeBlanc
+- NASA
+- space myth
+- decompression
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: Exposed to the vacuum of space, your body does not explode.
+  emphasis:
+  - Exposed to the vacuum
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Bruce McCandless II during EVA in 1984.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.35
+    box:
+    - 0.3
+    - 0.16
+    - 0.71
+    - 0.54
+- text: Popular movies love to show astronauts bursting like fragile balloons when their pressurized suits fail completely.
+  emphasis:
+  - bursting like fragile balloons
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: bursting like fragile balloo
+      small: ''
+    motion: zoom_in
+- text: In December nineteen sixty-six, NASA test subject Jim LeBlanc tested this terrifying theory.
+  emphasis:
+  - Jim LeBlanc
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: December 1966
+      small: NASA Test Facility
+    motion: zoom_in
+- text: His spacesuit hose accidentally detached inside a massive altitude vacuum chamber.
+  emphasis:
+  - hose accidentally detached
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: hose accidentally detached
+      small: ''
+    motion: zoom_in
+- text: LeBlanc remained conscious for about fourteen seconds before severe hypoxia completely set in.
+  emphasis:
+  - fourteen seconds
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 14 seconds
+      small: Consciousness in vacuum
+    motion: zoom_in
+- text: His very last conscious memory was feeling the warm saliva on his tongue start to bubble.
+  emphasis:
+  - saliva on his tongue
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/STS-118_EVA_EMU_Suit.jpg/960px-STS-118_EVA_EMU_Suit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS-118 EVA EMU Suit.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-118_EVA_EMU_Suit.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A quick colleague entered the chamber within twenty-five seconds to provide emergency oxygen.
+  emphasis:
+  - twenty-five seconds
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/ec/Vacuum_chamber-being_opened_by_engineer.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Vacuum chamber-being opened by engineer.jpeg
+      credit: NASA JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Vacuum_chamber-being_opened_by_engineer.jpeg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.89
+    box:
+    - 0.34
+    - 0.78
+    - 0.56
+    - 1.0
+    card:
+      kind: fact
+      big: 25 seconds
+      small: Rescue time
+- text: Human skin is remarkably elastic, keeping you completely intact whenever you find yourself
+  emphasis:
+  - Human skin
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.35
+hook_text: SURVIVING A VACUUM

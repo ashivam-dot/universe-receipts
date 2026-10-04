@@ -1,7 +1,8 @@
 id: ep047
-title: The Moon Has No Dark Side
+title: The Myth of the Moon's Dark Side
 series: Space Myths, Busted
-description: Discover the truth about the lunar far side and how it receives just as much sunlight as the side we see.
+description: Despite popular belief, the far side of the Moon receives as much sunlight as the near side. Here is how lunar
+  phases actually light up the unseen hemisphere.
 sources:
 - https://en.wikipedia.org/wiki/Far_side_of_the_Moon
 - https://svs.gsfc.nasa.gov/14992/
@@ -12,52 +13,55 @@ sources:
 hashtags:
 - '#space'
 - '#moon'
-- '#nasa'
+- '#astronomy'
 tags:
 - Moon
-- far side of the Moon
-- space myths
+- lunar far side
+- dark side of the moon
 - astronomy
+- space myths
 - Chang'e 4
 voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: There is no permanent dark side of the Moon.
+- text: Half of the Moon is permanently frozen in total darkness, right?
   emphasis:
-  - no permanent dark side
+  - permanently frozen
+  - total darkness
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Keeler_crater_AS10-32-4823.jpg/1920px-Keeler_crater_AS10-32-4823.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Tsiolkovskiy_crater_Apollo_15.jpg/1920px-Tsiolkovskiy_crater_Apollo_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Keeler crater AS10-32-4823.jpg
-      credit: James Stuby based on NASA image
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:Keeler_crater_AS10-32-4823.jpg
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Pop culture claims one hemisphere is shrouded in endless shadow.
-  emphasis:
-  - endless shadow
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Lunar_Near_and_Far_Side_Phases_%28SVS14992_-_Moon-Phases-Near-Far-VERT-Thumbnail%29.jpg/1920px-Lunar_Near_and_Far_Side_Phases_%28SVS14992_-_Moon-Phases-Near-Far-VERT-Thumbnail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Lunar Near and Far Side Phases (SVS14992 - Moon-Phases-Near-Far-VERT-Thumbnail).jpg
-      credit: NASA's Scientific Visualization Studio - eMITS/Dan Gallagher, USRA/Ernie Wright, Tuomas Kankola
+      title: Tsiolkovskiy crater Apollo 15.jpg
+      credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Lunar_Near_and_Far_Side_Phases_(SVS14992_-_Moon-Phases-Near-Far-VERT-Thumbnail).jpg
+      url: https://commons.wikimedia.org/wiki/File:Tsiolkovskiy_crater_Apollo_15.jpg
     fallbacks:
     - color
-    motion: pan_up
+    motion: zoom_out
     focus_x: 0.5
-    focus_y: 0.5
-- text: In October 1959, the Soviet Luna 3 probe beamed back the first grainy photographs of the unseen hemisphere.
+    focus_y: 0.55
+- text: Pop culture calls it the dark side, but that term originally meant unexplored.
+  emphasis:
+  - dark side
+  - originally meant unexplored
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/AS08-13-2319_-_Apollo_8_-_Apollo_8_Mission_image%2C_Target_of_Opportunity_%28T-O%29_10_-_NARA_-_16670146.jpg/3840px-AS08-13-2319_-_Apollo_8_-_Apollo_8_Mission_image%2C_Target_of_Opportunity_%28T-O%29_10_-_NARA_-_16670146.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS08-13-2319 - Apollo 8 - Apollo 8 Mission image, Target of Opportunity (T-O) 10 - NARA - 16670146.jpg
+      credit: Unknown authorUnknown author or not provided
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS08-13-2319_-_Apollo_8_-_Apollo_8_Mission_image,_Target_of_Opportunity_(T-O)_10_-_NARA_-_16670146.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.55
+- text: In October 1959, the Soviet Luna 3 probe took the first photographs of this unseen face.
   emphasis:
   - October 1959
   - Luna 3 probe
@@ -80,10 +84,11 @@ beats:
     card:
       kind: dateline
       big: October 1959
-      small: Luna 3 Mission
-- text: Direct radio contact with Earth is completely blocked behind the lunar globe.
+      small: Luna 3 probe
+- text: Operating spacecraft on the far side requires relay satellites because the Moon blocks radio signals.
   emphasis:
-  - completely blocked
+  - relay satellites
+  - blocks radio signals
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/QueqiaoDFH.jpg/960px-QueqiaoDFH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -97,12 +102,12 @@ beats:
     - color
     motion: pan_left
     focus_x: 0.5
-    focus_y: 0.5
-- text: On January 3, 2019, China's Chang'e 4 mission achieved the first soft landing on this rugged terrain.
+    focus_y: 0.45
+- text: On January 3, 2019, China's Chang'e 4 achieved the first soft landing on the far side.
   emphasis:
   - January 3, 2019
-  - Chang'e 4
-  sfx: riser
+  - first soft landing
+  sfx: whoosh
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/ChangE-4_-_PCAM.png/3840px-ChangE-4_-_PCAM.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -116,31 +121,42 @@ beats:
     - card
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.52
+    focus_y: 0.55
+    box:
+    - 0.18
+    - 0.25
+    - 0.9
+    - 0.89
     card:
       kind: dateline
       big: January 3, 2019
-      small: Chang'e 4 Landing
-- text: When Earth sees a full Moon, the far side is cast in complete darkness.
+      small: Chang'e 4 touchdown
+- text: Sunlight sweeps across the entire lunar surface in a repeating cycle of approximately 29.5 days.
   emphasis:
-  - full Moon
-  - complete darkness
+  - repeating cycle
+  - 29.5 days
+  sfx: riser
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/3/3b/Lunar_Near_and_Far_Side_Phases_%28SVS14992_-_Moon_Phases_Waning_Thumbnail_V2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/37._Production_of_phases_of_the_moon_%2822126908233%29.jpg/1280px-37._Production_of_phases_of_the_moon_%2822126908233%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Lunar Near and Far Side Phases (SVS14992 - Moon Phases Waning Thumbnail V2).jpg
-      credit: NASA's Scientific Visualization Studio - eMITS/Dan Gallagher, USRA/Ernie Wright, Tuomas Kankola
+      title: 37. Production of phases of the moon (22126908233).jpg
+      credit: Community Archives
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Lunar_Near_and_Far_Side_Phases_(SVS14992_-_Moon_Phases_Waning_Thumbnail_V2).jpg
+      url: https://commons.wikimedia.org/wiki/File:37._Production_of_phases_of_the_moon_(22126908233).jpg
     fallbacks:
+    - card
     - color
-    motion: pan_left
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-- text: Yet during a new Moon, the far side is bathed in blazing daylight.
+    card:
+      kind: fact
+      big: 29.5 days
+      small: Lunar day-night cycle
+- text: During a new Moon, the far side is actually bathed in blazing daylight.
   emphasis:
   - new Moon
   - blazing daylight
@@ -164,13 +180,14 @@ beats:
     card:
       kind: fact
       big: New Moon
-      small: Far side daylight
-- text: Both halves cycle through sunlight equally, proving there is no permanent dark side of the Moon.
+      small: Far side in daylight
+- text: Both sides share equal sun, proving that no side is permanently frozen in total darkness.
   emphasis:
-  - sunlight equally
-  - no permanent dark side
+  - equal sun
+  - permanently frozen in total darkness
   visual:
     reuse: 1
-    motion: zoom_out
+    motion: zoom_in
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.55
+hook_text: THE UNSEEN HEMISPHERE

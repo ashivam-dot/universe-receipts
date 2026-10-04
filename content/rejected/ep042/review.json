@@ -1,0 +1,155 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-04T17:14:26+05:30",
+      "check": {
+        "duration": 48.09,
+        "words": 108,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong opening stat that grabs attention immediately.",
+        "clarity": "Logical flow tracing the photo origin to the camera shutoff.",
+        "payoff": "The optical artifact reveal delivers a solid surprise.",
+        "visuals": "Several diagrams are low-contrast or contain foreign text.",
+        "loop": "Last line repeats the opening clause rather than flowing naturally into it."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Diagram contains small German text labels that are difficult to read on mobile."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Mission control then permanently powered down the cameras, leaving humanity with a final portrait where..."
+      ],
+      "better_than_last": "Provides a more focused debunking of a famous historical image artifact.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-04T17:22:49+05:30",
+      "check": {
+        "duration": 47.6,
+        "words": 109,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Specific numerical data creates immediate curiosity about the scale.",
+        "clarity": "Narrative flows logically from mission history to image analysis.",
+        "payoff": "The technical explanation for the sunbeam is interesting but lacks punch.",
+        "visuals": "Frame selection for beat 3 is distracting and low quality.",
+        "loop": "Phrasing allows for a perfect, seamless transition back to the start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Subject has eyes closed/rolled back in an unflattering and unprofessional frame."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: That ray wasn't space magic; it was just sunlight bouncing inside the lens."
+      ],
+      "better_than_last": "The technical reveal about the sunbeam provides a more surprising educational twist than the historical narrative in the NASA littering episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-04T17:28:17+05:30",
+      "check": {
+        "duration": 53.16,
+        "words": 132,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing scale fact immediately halts scrolling.",
+        "clarity": "Logical sequence explaining the mission and photo backstory.",
+        "payoff": "The camera flare revelation provides a solid insight.",
+        "visuals": "Cropped text on the primary frame weakens overall polish.",
+        "loop": "Closing phrase flows smoothly back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Text overlay on the left margin is noticeably cut off."
+        },
+        {
+          "beat": 3,
+          "problem": "Second shot features a Viking lander model rather than Voyager hardware."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a stronger, fact-driven technical twist behind an iconic photo compared to ep040.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-04T17:28:17+05:30"
+}

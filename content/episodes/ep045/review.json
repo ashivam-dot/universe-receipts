@@ -1,0 +1,100 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-04T17:14:50+05:30",
+      "check": {
+        "duration": 56.93,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong dollar figure and stark premise grab attention immediately.",
+        "clarity": "Narrative moves logically from discovery to planetary protection rationale.",
+        "payoff": "The contamination dilemma neatly justifies the opening premise.",
+        "visuals": "Several frames use text-heavy diagrams and archived borders poorly suited for mobile.",
+        "loop": "Awkwardly repeats 'three-billion-dollar spacecraft' across the seam instead of flowing seamlessly."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Image contains large metadata borders and archive text."
+        },
+        {
+          "beat": 6,
+          "problem": "Complex orbital diagram contains illegible fine print at phone scale."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Change to 'This deliberate sacrifice prevented planetary contamination, explaining why'"
+      ],
+      "better_than_last": "It establishes higher financial stakes in the hook than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-04T17:21:42+05:30",
+      "check": {
+        "duration": 55.1,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong financial angle and dramatic premise immediately grab viewer interest.",
+        "clarity": "Narrative flows logically from scientific discovery to environmental risk to solution.",
+        "payoff": "Revealing that the probe was destroyed to protect alien life-supporting worlds is a great twist.",
+        "visuals": "Accurate and high-quality mission graphics represent the Saturnian system beautifully.",
+        "loop": "Seamless grammatical connection back to the start creates an excellent replay effect."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short achieves a much smoother looping structure than episode 40 by integrating the setup directly into the final sentence.",
+      "judge": "gemini-3.5-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

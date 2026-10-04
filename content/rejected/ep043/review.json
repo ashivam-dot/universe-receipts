@@ -1,0 +1,157 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-04T17:14:21+05:30",
+      "check": {
+        "duration": 48.23,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Atmospheric premise, but lacks an immediate dramatic stake to stop swiping.",
+        "clarity": "Concepts are introduced cleanly and follow a logical progression.",
+        "payoff": "Concludes on an upcoming telescope rather than a mind-bending revelation.",
+        "visuals": "Beat 6 relies on a dense diagram covered in illegible text on mobile screens.",
+        "loop": "Repeating the first beat verbatim feels clumsy rather than seamless."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: In twenty twenty-seven, NASA will launch a new telescope designed to hunt them.",
+        "Beat 8: Revealing that the shadows are quietly crowded with..."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-04T17:20:33+05:30",
+      "check": {
+        "duration": 53.0,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'with wandering worlds'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise and text overlay about dark, sunless worlds floating in deep space.",
+        "clarity": "Easy to follow progression from planet origin theories to real historical discoveries.",
+        "payoff": "Revealing that an Earth-mass rogue planet was discovered and a dedicated mission is launching gives a satisfying payoff.",
+        "visuals": "Beat 6 relies on a cluttered scientific diagram with text too small to read on a phone.",
+        "loop": "The final phrase 'wandering worlds' flows cleanly back into 'Billions of starless rogue planets'."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "mostly text and unreadable diagram labels at phone size"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short builds a stronger sense of mystery and cosmic scale than ep040.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-04T17:23:27+05:30",
+      "check": {
+        "duration": 53.0,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing concept, but lacks an immediate punchy hook to halt scrolling.",
+        "clarity": "Well-paced and easy to follow, transitioning smoothly between facts.",
+        "payoff": "Resolves nicely with the future telescope mission, giving a sense of anticipation.",
+        "visuals": "Engaging and clean, but Beat 6 displays the wrong exoplanet diagram.",
+        "loop": "Passable thematic transition, but lacks a seamless grammatical connection."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Diagram shows OGLE-2005-BLG-169 instead of the mentioned OGLE-2016-BLG-1928."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Change to 'It will reveal that the deep cosmic shadows are quietly crowded with'",
+        "Beat 1: Change to 'billions of starless rogue planets drifting through total darkness.'"
+      ],
+      "better_than_last": "This episode has much stronger thematic cohesion and smoother narration flow than episode 40.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, visuals, loop",
+  "rejected_at": "2026-10-04T17:23:27+05:30"
+}

@@ -1,46 +1,48 @@
 {
   "hooks": [
     {
+      "style": "question",
+      "text": "Half of the Moon is permanently frozen in total darkness, right?"
+    },
+    {
       "style": "contradiction",
       "text": "There is no permanent dark side of the Moon."
     },
     {
       "style": "statement",
-      "text": "The far side of the Moon gets as much sunlight as the near side."
-    },
-    {
-      "style": "number",
-      "text": "During a new Moon, the far side is bathed in blazing daylight."
+      "text": "The far side of the Moon gets equal sunlight."
     }
   ],
-  "hook_style": "contradiction",
+  "hook_style": "question",
   "structure": "mystery",
-  "title": "The Moon Has No Dark Side",
-  "description": "Discover the truth about the lunar far side and how it receives just as much sunlight as the side we see.",
+  "title": "The Myth of the Moon's Dark Side",
+  "description": "Despite popular belief, the far side of the Moon receives as much sunlight as the near side. Here is how lunar phases actually light up the unseen hemisphere.",
   "hashtags": [
     "#space",
     "#moon",
-    "#nasa"
+    "#astronomy"
   ],
   "tags": [
     "Moon",
-    "far side of the Moon",
-    "space myths",
+    "lunar far side",
+    "dark side of the moon",
     "astronomy",
+    "space myths",
     "Chang'e 4"
   ],
   "beats": [
     {
-      "text": "There is no permanent dark side of the Moon.",
+      "text": "Half of the Moon is permanently frozen in total darkness, right?",
       "emphasis": [
-        "no permanent dark side"
+        "permanently frozen",
+        "total darkness"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         1
       ],
-      "visual": "NASA Lunar Reconnaissance Orbiter photograph of the lunar far side, 2011",
+      "visual": "Lunar Reconnaissance Orbiter topographic map of the lunar far side, 2011",
       "subjects": [
         "Moon"
       ],
@@ -56,23 +58,26 @@
       }
     },
     {
-      "text": "Pop culture claims one hemisphere is shrouded in endless shadow.",
+      "text": "Pop culture calls it the dark side, but that term originally meant unexplored.",
       "emphasis": [
-        "endless shadow"
+        "dark side",
+        "originally meant unexplored"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1
+        1,
+        2
       ],
-      "visual": "Diagram illustrating lunar phases and near and far side illumination by NASA SVS",
+      "visual": "Apollo 8 photograph of the heavily cratered lunar far side, 1968",
       "subjects": [
+        "Apollo 8",
         "Moon"
       ],
-      "year": 0,
+      "year": 1968,
       "queries": [
-        "Lunar Near and Far Side Phases NASA SVS",
-        "Moon illumination phases animation NASA"
+        "Apollo 8 lunar far side photograph",
+        "Apollo 8 Moon backside cratered terrain"
       ],
       "card": {
         "kind": "none",
@@ -81,7 +86,7 @@
       }
     },
     {
-      "text": "In October 1959, the Soviet Luna 3 probe beamed back the first grainy photographs of the unseen hemisphere.",
+      "text": "In October 1959, the Soviet Luna 3 probe took the first photographs of this unseen face.",
       "emphasis": [
         "October 1959",
         "Luna 3 probe"
@@ -104,27 +109,28 @@
       "card": {
         "kind": "dateline",
         "big": "October 1959",
-        "small": "Luna 3 Mission"
+        "small": "Luna 3 probe"
       }
     },
     {
-      "text": "Direct radio contact with Earth is completely blocked behind the lunar globe.",
+      "text": "Operating spacecraft on the far side requires relay satellites because the Moon blocks radio signals.",
       "emphasis": [
-        "completely blocked"
+        "relay satellites",
+        "blocks radio signals"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         9
       ],
-      "visual": "Artist concept of communication relay satellite communicating with lunar far side, 2019",
+      "visual": "Artist concept of Queqiao communication relay satellite orbiting the Moon, 2018",
       "subjects": [
-        "Queqiao"
+        "Queqiao relay satellite"
       ],
-      "year": 0,
+      "year": 2018,
       "queries": [
         "Queqiao relay satellite lunar far side",
-        "Moon communications relay"
+        "Moon communications relay satellite"
       ],
       "card": {
         "kind": "none",
@@ -133,12 +139,12 @@
       }
     },
     {
-      "text": "On January 3, 2019, China's Chang'e 4 mission achieved the first soft landing on this rugged terrain.",
+      "text": "On January 3, 2019, China's Chang'e 4 achieved the first soft landing on the far side.",
       "emphasis": [
         "January 3, 2019",
-        "Chang'e 4"
+        "first soft landing"
       ],
-      "sfx": "riser",
+      "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
         10,
@@ -156,37 +162,38 @@
       "card": {
         "kind": "dateline",
         "big": "January 3, 2019",
-        "small": "Chang'e 4 Landing"
+        "small": "Chang'e 4 touchdown"
       }
     },
     {
-      "text": "When Earth sees a full Moon, the far side is cast in complete darkness.",
+      "text": "Sunlight sweeps across the entire lunar surface in a repeating cycle of approximately 29.5 days.",
       "emphasis": [
-        "full Moon",
-        "complete darkness"
+        "repeating cycle",
+        "29.5 days"
       ],
-      "sfx": "none",
+      "sfx": "riser",
       "pause_after": 0.12,
       "claims": [
-        3
+        4
       ],
-      "visual": "Lunar near and far side illumination phases diagram by Goddard Space Flight Center",
+      "visual": "Diagram of lunar near and far side illumination phases by NASA Goddard, 2015",
       "subjects": [
+        "Lunar phase",
         "Moon"
       ],
       "year": 0,
       "queries": [
         "Moon far side phases diagram Goddard",
-        "Moon illumination phases animation NASA"
+        "Lunar Near and Far Side Phases NASA SVS"
       ],
       "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
+        "kind": "fact",
+        "big": "29.5 days",
+        "small": "Lunar day-night cycle"
       }
     },
     {
-      "text": "Yet during a new Moon, the far side is bathed in blazing daylight.",
+      "text": "During a new Moon, the far side is actually bathed in blazing daylight.",
       "emphasis": [
         "new Moon",
         "blazing daylight"
@@ -197,41 +204,42 @@
         1,
         4
       ],
-      "visual": "Lunar Reconnaissance Orbiter image of illuminated lunar far side craters, 2015",
+      "visual": "Lunar Reconnaissance Orbiter image of sunlit craters on the lunar far side, 2015",
       "subjects": [
+        "Lunar Reconnaissance Orbiter",
         "Moon"
       ],
       "year": 0,
       "queries": [
-        "Lunar Reconnaissance Orbiter Moon surface craters",
-        "Tsiolkovskiy crater Lunar Reconnaissance Orbiter"
+        "Tsiolkovskiy crater Lunar Reconnaissance Orbiter",
+        "Lunar Reconnaissance Orbiter Moon surface craters"
       ],
       "card": {
         "kind": "fact",
         "big": "New Moon",
-        "small": "Far side daylight"
+        "small": "Far side in daylight"
       }
     },
     {
-      "text": "Both halves cycle through sunlight equally, proving there is no permanent dark side of the Moon.",
+      "text": "Both sides share equal sun, proving that no side is permanently frozen in total darkness.",
       "emphasis": [
-        "sunlight equally",
-        "no permanent dark side"
+        "equal sun",
+        "permanently frozen in total darkness"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1,
-        4
+        1
       ],
-      "visual": "NASA animation of Moon orbiting Earth showing sunlight hitting both sides, 2018",
+      "visual": "NASA animation showing sunlight sweeping across both lunar hemispheres, 2018",
       "subjects": [
-        "Moon"
+        "Moon",
+        "Lunar phase"
       ],
       "year": 0,
       "queries": [
         "Moon orbit Earth sun illumination NASA",
-        "Moon phases simulation"
+        "Moon phases simulation Goddard"
       ],
       "card": {
         "kind": "none",
@@ -240,7 +248,7 @@
       }
     }
   ],
-  "hook_text": "",
+  "hook_text": "THE UNSEEN HEMISPHERE",
   "loop": true,
-  "better_than_last": "This episode applies a tight mystery structure with a contradiction hook that flows seamlessly into the first beat to maximize viewer retention."
+  "better_than_last": "Applied an interactive question hook that opens a concrete mystery gap and completed Beat 8 into a clean, complete sentence that loops seamlessly back to Beat 1 without dangling conjunctions."
 }

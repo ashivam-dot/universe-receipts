@@ -1,0 +1,182 @@
+id: ep042
+title: Earth Fills Just 0.12 of One Pixel
+series: Scale Breaker
+description: The true story behind the Pale Blue Dot reveals that the iconic sunbeam was actually an optical artifact inside
+  the camera.
+sources:
+- https://en.wikipedia.org/wiki/Pale_Blue_Dot
+- https://svs.gsfc.nasa.gov/13544
+- https://www.planetary.org/worlds/pale-blue-dot
+- https://www.scientificamerican.com/blog/observations/how-the-celebrated-pale-blue-dot-image-came-to-be/
+- https://www.bbc.com/news/science-environment-51491471
+hashtags:
+- '#space'
+- '#nasa'
+- '#voyager'
+tags:
+- Pale Blue Dot
+- Voyager 1
+- Carl Sagan
+- Earth
+- space photography
+- astronomy
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: Earth fills just 0.12 of a single pixel.
+  emphasis:
+  - 0.12 of a single pixel
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Pale_Blue_Dot_with_quote.png/1280px-Pale_Blue_Dot_with_quote.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pale Blue Dot with quote.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot_with_quote.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.75
+    focus_y: 0.54
+    card:
+      kind: fact
+      big: 0.12 PIXEL
+      small: Earth's size
+- text: In nineteen ninety, Voyager 1 looked back from approximately 4 billion miles away to snap a final portrait of home.
+  emphasis:
+  - 4 billion miles
+  - final portrait
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Voyager_probe_illustration.jpg/1920px-Voyager_probe_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager probe illustration.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_probe_illustration.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: FEBRUARY 1990
+      small: 4 billion miles away
+- text: Astronomer Carl Sagan pushed for the photo, but NASA resisted because a single pixel had no scientific value.
+  emphasis:
+  - Carl Sagan
+  - no scientific value
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/95/Sagan_large.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Sagan large.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Sagan_large.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.54
+    focus_y: 0.24
+    box:
+    - 0.44
+    - 0.14
+    - 0.64
+    - 0.34
+- text: The probe captured sixty frames of our solar system, including giants like Jupiter and tiny specks like our own.
+  emphasis:
+  - sixty frames
+  - Jupiter
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Solar_System_Group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Solar System Group.jpg
+      credit: NASA / Voyager 1 probe
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_System_Group.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 60 FRAMES
+      small: Family Portrait sequence
+- text: The most famous shot shows Earth suspended in a dramatic, celestial-looking beam of golden light.
+  emphasis:
+  - celestial-looking beam
+  - golden light
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/73/Pale_Blue_Dot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Pale Blue Dot.png
+      credit: Voyager 1
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot.png
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.73
+    focus_y: 0.55
+- text: That ray wasn't space magic; it was just sunlight bouncing inside the lens and glinting off the camera hardware.
+  emphasis:
+  - wasn't space magic
+  - camera hardware
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Voyager_Spacecraft_During_Vibration_Testing_-_GPN-2003-000008.jpg/1920px-Voyager_Spacecraft_During_Vibration_Testing_-_GPN-2003-000008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager Spacecraft During Vibration Testing - GPN-2003-000008.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_Spacecraft_During_Vibration_Testing_-_GPN-2003-000008.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: LENS ARTIFACT
+      small: Internal reflection
+- text: Engineers then powered the cameras down forever, leaving the probe to drift into the interstellar dark.
+  emphasis:
+  - powered the cameras down
+  - interstellar dark
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: CAMERAS OFF
+      small: Permanent shutdown
+    motion: zoom_in
+- text: It is our most distant perspective of home, where Earth fills just 0.12 of a single pixel.
+  emphasis:
+  - most distant perspective
+  - 0.12 of a single pixel
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.75
+    focus_y: 0.54

@@ -50,19 +50,24 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/a/a9/Saturn_Prior_to_Cassini_Probe%27s_Arrival_%282004-18-1545%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Cassini_Saturn_Orbit_Insertion.tif/lossy-page1-3840px-Cassini_Saturn_Orbit_Insertion.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Saturn Prior to Cassini Probe's Arrival (2004-18-1545).jpg
-      credit: NASA, ESA and E. Karkoschka (University of Arizona)
+      title: Cassini Saturn Orbit Insertion.tif
+      credit: NASA/JPL
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Saturn_Prior_to_Cassini_Probe%27s_Arrival_(2004-18-1545).jpg
+      url: https://commons.wikimedia.org/wiki/File:Cassini_Saturn_Orbit_Insertion.tif
     fallbacks:
     - card
     - color
-    motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
+    motion: pan_left
+    focus_x: 0.48
+    focus_y: 0.45
+    box:
+    - 0.35
+    - 0.22
+    - 0.65
+    - 0.62
     card:
       kind: dateline
       big: July 2004
@@ -166,10 +171,10 @@ beats:
       kind: dateline
       big: Sept 15, 2017
       small: Saturn Impact
-- text: This was a calculated sacrifice to protect moons that might hold life from the three-billion-dollar spacecraft.
+- text: This deliberate sacrifice prevented planetary contamination, explaining why
   emphasis:
-  - calculated sacrifice
-  - might hold life
+  - deliberate sacrifice
+  - planetary contamination
   visual:
     reuse: 1
     motion: zoom_out

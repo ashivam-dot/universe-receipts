@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-10-04T17:11:45+05:30",
+  "updated_at": "2026-10-04T23:05:46+05:30",
   "day": 3,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M43B49E2V6437K76TDWZ0FTR",
+    "id": "ta-01M43ZQF7418672CSA1RR06N7R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-04T17:05:07+05:30",
-    "started_at_utc": "2026-10-04T11:35:07+00:00",
-    "seconds": 398
+    "started_at": "2026-10-04T23:05:07+05:30",
+    "started_at_utc": "2026-10-04T17:35:07+00:00",
+    "seconds": 39
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 1.5
     },
     {
       "name": "sync",
@@ -27,74 +27,32 @@
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep028 to 'Space Myths, Busted'",
+      "detail": "added ep036 to 'Mission Files'",
       "seconds": 1.9
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.2
+      "detail": "ep002 language en/None -> en; ep008 language en/None -> en",
+      "seconds": 0.9
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep028 at 6 h: ahead of the channel's earlier Shorts at this age: 1185 views against a median of 328 (3.6x)",
-      "seconds": 0.8
+      "detail": "no checkpoint due",
+      "seconds": 0.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep041 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep045 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep046 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
-      "seconds": 7.5
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "7 subscribers",
-      "seconds": 1.8
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Added a post-hook pacing hypothesis from ep009's diagnosis while tracking looping and debate endings toward rule promotion.",
-      "seconds": 21.1
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.3
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 120.8
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 74.0
-    },
-    {
-      "name": "weekly review",
-      "ok": true,
-      "detail": "week-01.md",
-      "seconds": 157.3
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-003.md",
-      "seconds": 0.4
+      "detail": "ep041 rejected (low scores: visuals); ep042 rejected (low scores: visuals; 2 frame problems); ep043 rejected (low scores: hook, visuals, loop); ep044 rejected (low scores: visuals; 2 frame problems); ep045 ready; ep046 ready; ep047 ready",
+      "seconds": 14.3
     },
     {
       "name": "buffer channel",
@@ -106,13 +64,13 @@
       "name": "preflight ep004",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep017",
       "ok": true,
-      "detail": "video downloads whole (19 MB in 0 s)",
-      "seconds": 0.7
+      "detail": "video still hosted",
+      "seconds": 0.4
     },
     {
       "name": "preflight ep032",
@@ -121,96 +79,79 @@
       "seconds": 0.2
     },
     {
-      "name": "preflight ep036",
+      "name": "preflight ep035",
       "ok": true,
-      "detail": "video still hosted",
+      "detail": "video downloads whole (18 MB in 1 s)",
+      "seconds": 0.8
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 2.0
+    },
+    {
+      "name": "schedule ep047",
+      "ok": true,
+      "detail": "2026-10-08T19:00:00-04:00",
+      "seconds": 0.8
+    },
+    {
+      "name": "schedule ep046",
+      "ok": true,
+      "detail": "2026-10-08T21:30:00-04:00",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep048",
+      "ok": true,
+      "detail": "Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep049",
+      "ok": true,
+      "detail": "Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep050",
+      "ok": true,
+      "detail": "Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep051",
+      "ok": true,
+      "detail": "Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down",
       "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.3
-    },
-    {
-      "name": "start ep041",
-      "ok": true,
-      "detail": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep042",
-      "ok": true,
-      "detail": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
       "seconds": 0.4
-    },
-    {
-      "name": "start ep043",
-      "ok": true,
-      "detail": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep044",
-      "ok": true,
-      "detail": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep045",
-      "ok": true,
-      "detail": "Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep046",
-      "ok": true,
-      "detail": "Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep047",
-      "ok": true,
-      "detail": "Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see",
-      "seconds": 0.7
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 0.3
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep041 stopped on Gemini's free quota; it resumes in a later run",
-    "ep045 stopped on Gemini's free quota; it resumes in a later run",
-    "ep046 stopped on Gemini's free quota; it resumes in a later run",
-    "ep047 stopped on Gemini's free quota; it resumes in a later run"
+    "Buffer is full (10 queued); 1 waiting"
   ],
   "inventory": {
-    "total": 9,
-    "in_buffer": 9,
-    "waiting": 0,
+    "total": 11,
+    "in_buffer": 10,
+    "waiting": 1,
     "target": 42,
     "making": [],
     "remote": [
-      "ep041",
-      "ep042",
-      "ep043",
-      "ep044",
-      "ep045",
-      "ep046",
-      "ep047"
+      "ep048",
+      "ep049",
+      "ep050",
+      "ep051"
     ]
   },
   "queue": [
-    {
-      "id": "ep036",
-      "title": "NASA's titanium probe to Venus",
-      "due_at": "2026-10-04T12:30:00-04:00"
-    },
     {
       "id": "ep004",
       "title": "Soviet Moon Photos on US Spy Film",
@@ -250,152 +191,184 @@
       "id": "ep040",
       "title": "The Day NASA Got a Ticket for Littering",
       "due_at": "2026-10-07T21:30:00-04:00"
-    }
-  ],
-  "waiting": [],
-  "made": [
-    {
-      "id": "ep041",
-      "outcome": "unfinished",
-      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep045",
-      "outcome": "unfinished",
-      "topic": "Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep046",
-      "outcome": "unfinished",
-      "topic": "Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
     },
     {
       "id": "ep047",
-      "outcome": "unfinished",
+      "title": "The Myth of the Moon's Dark Side",
+      "due_at": "2026-10-08T19:00:00-04:00"
+    },
+    {
+      "id": "ep046",
+      "title": "The Cosmic Flashes Found by Cold War Satellites",
+      "due_at": "2026-10-08T21:30:00-04:00"
+    }
+  ],
+  "waiting": [
+    {
+      "id": "ep045",
+      "title": "Why NASA Killed a $3B Spacecraft",
+      "series": "Mission Files",
+      "score": 20
+    }
+  ],
+  "made": [
+    {
+      "id": "ep041",
+      "outcome": "rejected",
+      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep042",
+      "outcome": "rejected",
+      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
+      "reason": "low scores: visuals; 2 frame problems"
+    },
+    {
+      "id": "ep043",
+      "outcome": "rejected",
+      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
+      "reason": "low scores: hook, visuals, loop"
+    },
+    {
+      "id": "ep044",
+      "outcome": "rejected",
+      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
+      "reason": "low scores: visuals; 2 frame problems"
+    },
+    {
+      "id": "ep045",
+      "outcome": "ready",
+      "topic": "Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life",
+      "title": "Why NASA Killed a $3B Spacecraft",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791114704/universereceipts/ep045-1d1e897a.mp4"
+    },
+    {
+      "id": "ep046",
+      "outcome": "ready",
+      "topic": "Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests",
+      "title": "The Cosmic Flashes Found by Cold War Satellites",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791114276/universereceipts/ep046-84e70eda.mp4"
+    },
+    {
+      "id": "ep047",
+      "outcome": "ready",
       "topic": "Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "The Myth of the Moon's Dark Side",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791114690/universereceipts/ep047-3f61f147.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep041",
-      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
-      "call_id": "fc-01M43BGGPB8KN5PT142C6PW45N"
+      "id": "ep048",
+      "topic": "Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014",
+      "call_id": "fc-01M43ZRS4E7AEF087HHDVZSATT"
     },
     {
-      "id": "ep042",
-      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
-      "call_id": "fc-01M43BGH3X93YYXDMQN0P7DRYD"
+      "id": "ep049",
+      "topic": "Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away",
+      "call_id": "fc-01M43ZRSM4EEH12A5QHVHSQKPG"
     },
     {
-      "id": "ep043",
-      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
-      "call_id": "fc-01M43BGHJ2FVRXJRW71NMSHTYX"
+      "id": "ep050",
+      "topic": "Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past",
+      "call_id": "fc-01M43ZRT25DC4AM6YYFHGSDRT7"
     },
     {
-      "id": "ep044",
-      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
-      "call_id": "fc-01M43BGHZWEJXXDYZ3A86EB41G"
-    },
-    {
-      "id": "ep045",
-      "topic": "Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life",
-      "call_id": "fc-01M43BGJDQW5TRNP46GZZVN3DC"
-    },
-    {
-      "id": "ep046",
-      "topic": "Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests",
-      "call_id": "fc-01M43BGJV3Q2JVQ5TR06C9H4AJ"
-    },
-    {
-      "id": "ep047",
-      "topic": "Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see",
-      "call_id": "fc-01M43BGKG30N059BWBGMSB7V6Q"
+      "id": "ep051",
+      "topic": "Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down",
+      "call_id": "fc-01M43ZRTFBQYJTHA7KC5MSTMMY"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep041",
-      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
-      "spawned_at": "2026-10-04T17:11:41+05:30"
+      "id": "ep048",
+      "topic": "Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014",
+      "spawned_at": "2026-10-04T23:05:43+05:30"
     },
     {
-      "id": "ep042",
-      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
-      "spawned_at": "2026-10-04T17:11:41+05:30"
+      "id": "ep049",
+      "topic": "Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away",
+      "spawned_at": "2026-10-04T23:05:44+05:30"
     },
     {
-      "id": "ep043",
-      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
-      "spawned_at": "2026-10-04T17:11:42+05:30"
+      "id": "ep050",
+      "topic": "Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past",
+      "spawned_at": "2026-10-04T23:05:44+05:30"
     },
     {
-      "id": "ep044",
-      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
-      "spawned_at": "2026-10-04T17:11:42+05:30"
-    },
+      "id": "ep051",
+      "topic": "Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down",
+      "spawned_at": "2026-10-04T23:05:45+05:30"
+    }
+  ],
+  "published": [
     {
-      "id": "ep045",
-      "topic": "Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life",
-      "spawned_at": "2026-10-04T17:11:43+05:30"
+      "id": "ep047",
+      "title": "The Myth of the Moon's Dark Side",
+      "due_at": "2026-10-08T19:00:00-04:00"
     },
     {
       "id": "ep046",
-      "topic": "Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests",
-      "spawned_at": "2026-10-04T17:11:43+05:30"
-    },
-    {
-      "id": "ep047",
-      "topic": "Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see",
-      "spawned_at": "2026-10-04T17:11:44+05:30"
+      "title": "The Cosmic Flashes Found by Cold War Satellites",
+      "due_at": "2026-10-08T21:30:00-04:00"
     }
   ],
-  "published": [],
-  "live": 6,
+  "live": 7,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 23,
+    "calls": 39,
     "by_model": {
-      "gemini-3.8-flash": 2,
-      "gemini-3.7-flash": 1,
-      "gemini-3.6-flash": 1,
-      "gemini-3.5-flash": 2,
-      "gemini-3.5-flash-lite": 15,
-      "gemini-3-flash-preview": 2
+      "gemini-3.8-flash": 7,
+      "gemini-3.5-flash": 5,
+      "gemini-3-flash-preview": 10,
+      "gemini-3.5-flash-lite": 7,
+      "gemini-3.7-flash": 5,
+      "gemini-3.6-flash": 5
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 4,
+    "modal": 17,
     "runner": 0
   },
   "daily_done": "2026-10-04",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 4.39,
+    "metered": 4.91,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 196,
+    "cloud": 192,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 23.61
+    "modal_credit_left": 23.09
   },
   "made_here": 0,
-  "open_topics": 65,
-  "parked_topics": 18
+  "open_topics": 61,
+  "parked_topics": 22
 }

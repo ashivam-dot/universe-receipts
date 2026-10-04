@@ -1,0 +1,163 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-04T17:13:50+05:30",
+      "check": {
+        "duration": 48.06,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Flickr via Openverse",
+          "designed card",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The voiceover is intriguing, but the baked-in title text '3 ASTRONAUTS, 1 DYING SHIP' completely contradicts the story.",
+        "clarity": "The narrative about Jim LeBlanc's chamber depressurization and survival is clean and easy to follow.",
+        "payoff": "The detail about saliva boiling on the tongue and skin elasticity debunking explosive decompression is a solid payoff.",
+        "visuals": "Reusing a static museum mannequin for a high-stakes emergency rescue in beat 7 feels lifeless.",
+        "loop": "Repeating 'your body does not explode' across the beat 8 to beat 1 boundary is clunky and repetitive."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The on-screen hook title reads '3 ASTRONAUTS, 1 DYING SHIP', which is completely off-topic for a story about one technician in a vacuum chamber."
+        },
+        {
+          "beat": 7,
+          "problem": "A museum display mannequin does not fit a frantic 25-second chamber rescue."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Human skin is remarkably elastic, keeping you completely intact whenever you find yourself"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-04T17:21:13+05:30",
+      "check": {
+        "duration": 48.76,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Flickr via Openverse",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The hook effectively targets a very common space myth.",
+        "clarity": "Narrative moves logically from the myth to a specific history.",
+        "payoff": "Details of physical reactions provide a strong factual surprise.",
+        "visuals": "Modern equipment usage for a 1960s story is inaccurate.",
+        "loop": "Grammatical bridge between the end and start is very smooth."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Visor reflection shows modern museum visitors."
+        },
+        {
+          "beat": 4,
+          "problem": "Features a modern training suit inconsistent with 1966."
+        },
+        {
+          "beat": 6,
+          "problem": "Modern EMU suit is historically inaccurate for this incident."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The focus on a real person's survival creates more narrative tension than recent technical facts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-04T17:22:55+05:30",
+      "check": {
+        "duration": 48.75,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Immediately subverts a very common movie trope with a punchy statement.",
+        "clarity": "The narrative follows the 1966 accident chronologically and logically.",
+        "payoff": "The detail about the boiling saliva is a visceral, memorable 'receipt'.",
+        "visuals": "Most frames are excellent, but beat 2 contains a glaring typo in the background text.",
+        "loop": "Perfectly seamless grammatical transition from the end of the script back to the start."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The large background text is cut off, showing 'BALLOO' instead of 'BALLOONS'."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The inclusion of the specific sensation of saliva boiling makes this much more visceral than the littering fine story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-04T17:22:55+05:30"
+}
