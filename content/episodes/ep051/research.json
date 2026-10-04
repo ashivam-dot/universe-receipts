@@ -1,0 +1,258 @@
+{
+  "viable": true,
+  "reason": "The sources provide over 15 consistent, highly surprising details about the $264 million mission's crash due to upside-down sensors and its subsequent scientific recovery.",
+  "story": "In 2001, NASA launched Genesis, a $264 million robotic probe designed to capture pristine pieces of the solar wind. It was the first mission since Apollo to return physical space samples. The plan was to catch the returning capsule in mid-air using a helicopter. But on September 8, 2004, the capsule plummeted from space and smashed into the Utah desert at 193 miles per hour, shattering its delicate sample wafers. An investigation revealed a mind-blowing engineering error: all four deceleration switches were designed and installed upside down, so the parachutes never received the signal to open. Amazingly, the disaster wasn't a total loss. Scientists meticulously picked through the wreckage and dirt, cleaned the shards, and successfully retrieved the solar wind. They discovered that the Sun's oxygen and nitrogen compositions differ dramatically from Earth's, rewriting our understanding of the early solar system's chemistry.",
+  "angle": "A $264 million NASA spacecraft crashed into the Utah desert at 193 mph because its gravity switches were designed upside down, yet scientists still saved the mission.",
+  "claims": [
+    {
+      "claim": "Genesis was a NASA robotic sample-return probe designed to collect solar wind particles.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "It was the first NASA mission to return physical samples from beyond the Moon.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Genesis launched in August 2001 and cost a total of $264 million.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft spent over two years orbiting the Earth-Sun L1 Lagrange point to collect the samples.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The solar wind particles were captured on ultra-thin wafers.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The recovery plan called for a helicopter to catch the capsule in mid-air using a five-meter hook.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "On September 8, 2004, the sample return capsule crashed into the Utah desert.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The capsule hit the ground at approximately 193 miles per hour because its parachutes failed to deploy.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The deceleration sensors (gravity switches) were designed upside down, preventing them from making electrical contact.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "All four gravity switches were installed backward because they followed the same flawed Lockheed Martin design.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The switches were designed to make electrical contact at 3 Gs of deceleration and break it to start the parachute sequence.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A pre-launch centrifuge test that would have detected the error was skipped by Lockheed Martin.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Stardust spacecraft used a similar parachute system and successfully landed in 2006 with correctly oriented switches.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Despite the crash shattering the wafers, scientists successfully recovered and analyzed some of the solar wind samples.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Analysis of the recovered samples showed that the Sun has a higher proportion of oxygen-16 than Earth and the Moon.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact velocity of the crash: S1 states about 86 m/s (310 km/h or 190 mph), S2 and S5 state 193 mph (311 km/h), and S5 also says 'nearly 200 mph'. The script should attribute this as 'around 193 miles per hour.'",
+    "Installation vs design flaw: S4 states they were installed 'correctly' according to the drawings but the drawings themselves were designed upside down. S3 and S5 broadly say they were 'installed backward'. The script should clarify that they were installed according to a flawed blueprint, which put them in backward relative to their functional direction."
+  ],
+  "visuals": [
+    {
+      "subject": "Genesis spacecraft launch",
+      "queries": [
+        "Delta II launch Genesis",
+        "Genesis spacecraft launch Cape Canaveral"
+      ]
+    },
+    {
+      "subject": "Artist concept of Genesis spacecraft in space",
+      "queries": [
+        "Genesis spacecraft NASA illustration",
+        "Genesis spacecraft space artist concept"
+      ]
+    },
+    {
+      "subject": "Solar wind collector arrays",
+      "queries": [
+        "Genesis spacecraft collector",
+        "Genesis solar wind wafers"
+      ]
+    },
+    {
+      "subject": "Genesis sample return capsule before flight",
+      "queries": [
+        "Genesis sample return capsule NASA",
+        "Genesis capsule clean room"
+      ]
+    },
+    {
+      "subject": "Helicopter mid-air retrieval rehearsal",
+      "queries": [
+        "Genesis helicopter recovery rehearsal",
+        "Genesis mid-air retrieval helicopter"
+      ]
+    },
+    {
+      "subject": "Genesis capsule crash site in Utah desert",
+      "queries": [
+        "Genesis crash site",
+        "Genesis capsule recovery Utah"
+      ]
+    },
+    {
+      "subject": "Recovery team securing the crashed Genesis capsule",
+      "queries": [
+        "Genesis capsule recovery team Utah",
+        "Genesis spacecraft crash recovery"
+      ]
+    },
+    {
+      "subject": "Shattered sample collector wafers in clean room",
+      "queries": [
+        "Genesis collector fragments",
+        "Genesis capsule disassembly NASA"
+      ]
+    },
+    {
+      "subject": "Stardust spacecraft",
+      "queries": [
+        "Stardust spacecraft model",
+        "Stardust sample return capsule"
+      ]
+    },
+    {
+      "subject": "The Sun",
+      "queries": [
+        "Sun SOHO",
+        "Sun Solar Dynamics Observatory"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Genesis_(spacecraft)",
+      "title": "Genesis (spacecraft)",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://solarsystem.nasa.gov/missions/genesis/in-depth/",
+      "title": "Genesis - NASA Science",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-8-2026",
+      "title": "On this day in space! Sept. 8, 2004: NASA's Genesis spacecraft crashed in the Utah desert, shattering its samples of solar wind particles from the sun",
+      "site": "space.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://web.archive.org/web/20041104050911/https://www.newscientist.com/news/news.jsp?id=ns99996541",
+      "title": "Article: Genesis crash linked to upside-down design",
+      "site": "newscientist.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.19fortyfive.com/2026/06/nasa-captured-pieces-of-the-sun-and-flew-them-back-to-earth-then-the-capsule-crashed-at-200-mph-because-a-part-was-installed-backward/",
+      "title": "NASA Captured Pieces Of The Sun And Flew Them Back To Earth. Then The Capsule Crashed At 200 MPH Because A Part Was Installed Backward",
+      "site": "19fortyfive.com"
+    }
+  ],
+  "topic": "Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down",
+  "series": "Mission Files"
+}

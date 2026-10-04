@@ -10,11 +10,11 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 47% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 71.1% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 117% | rising week over week |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 43% | 70%+; under 60% rarely takes off |
+| Average percentage viewed | `analytics.averageViewPercentage` | 56.9% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 105% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
-| Likes per 100 views | `likes` / `views` | 3.1 | 4+ |
+| Likes per 100 views | `likes` / `views` | 3.6 | 4+ |
 
 ## Rules we've proven
 
@@ -23,12 +23,12 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 
 - Put the strongest surprise or contradiction in the first 2 seconds (e.g., '80 million trees, zero craters') to maximize view velocity and early retention. Evidence: ep008, ep024.
 - Start the opening script line with a curiosity gap rather than a static statement or text overlay to improve initial retention and view velocity. Evidence: ep002, ep009.
+- Replace closed circular endings with an open-ended question or debate prompt in the final beat to drive audience comments. Evidence: ep013, ep024.
 
 ## Hypotheses to test (from research, not yet our data)
 
 - Cut each Short to 45-59 seconds to maximize reach potential.
 - Write a last line that flows straight into the first line to increase average percentage viewed.
-- Replace informational summaries with direct debate prompts or open-ended reaction hooks in the final beat to drive audience interaction.
 - Deliver the core narrative payoff or setup within the first 3 seconds immediately after the hook to prevent pacing drop-off.
 
 ## Scoreboard
@@ -38,10 +38,11 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep002 | Mission Files | statement, story | 103 | 47% | 43.0% | 89% | 0 | Static hook statement and slow pacing tanked avg_viewed (42.98% vs 71.1% median) and views despite a niche historical topic. |
-| ep008 | The Universe Is Terrifying | statement, story | 867 | 47% | 99.2% | 145% | 2 | Terrifying topic and bizarre mailing hook drove exceptional retention (99.19% avg_viewed), though lack of a seamless loop caused a late viewer drop. |
-| ep009 | Near Misses | statement, story | 222 | – | – | – | – | High-interest solar storm topic yielded strong likes (4.5% vs 3.08% median), but lagging post-hook pacing constrained overall view velocity. |
-| ep024 | Near Misses | contradiction, scale_ladder | 850 | – | – | – | – | Contradiction hook fueled top-tier view velocity (850 views), but an informational non-interactive loop dragged engagement down to 2.59% likes. |
+| ep002 | Mission Files | statement, story | 103 | 44% | 42.7% | 88% | 0 | Static statement hook and slow pacing caused low retention and engagement below channel medians. |
+| ep008 | The Universe Is Terrifying | statement, story | 868 | 47% | 89.9% | 136% | 5 | Intriguing physical black hole hook drove high initial retention and 89.9% view percentage, well above channel medians. |
+| ep009 | Near Misses | statement, story | 232 | 42% | 62.0% | 105% | 0 | Strong solar storm topic generated solid early traction, but delayed narrative payoff slowed post-hook pacing. |
+| ep013 | Scale Breaker | contradiction, story | 734 | – | – | – | – | Paradox hook drove high view velocity and likes, but a closed factual loop resulted in zero comments. |
+| ep024 | Near Misses | contradiction, scale_ladder | 892 | 42% | 51.8% | 105% | 1 | High-concept contradiction hook achieved strong reach, but passive historical resolution dragged down final engagement. |
 
 ## Log
 
@@ -55,3 +56,4 @@ contradiction.
 - 2026-10-04: Logged performance reviews for ep002, ep008, and ep009; keeping all existing hypotheses as no single effect has appeared in two shorts yet.
 - 2026-10-04: Promoted curiosity gaps and surprise hooks to rules after high-concept hooks in ep008 and ep024 outperformed static historical statements in ep002 and ep009.
 - 2026-10-04: Added a post-hook pacing hypothesis from ep009's diagnosis while tracking looping and debate endings toward rule promotion.
+- 2026-10-05: Promoted comment-prompt ending hypothesis to a rule after ep013 and ep024 showed zero comments from closed factual endings.

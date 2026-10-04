@@ -61,11 +61,11 @@ unexplained, not alien.
 
 - Boötes Void (1981): a hole in space holding just 60 galaxies where about 2,000 would be expected — dropped (ep039)
 - Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022 — done (ep008)
-- Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away — making (ep049)
+- Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away — done (ep049)
 - HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds
 - Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare — done (ep032)
 - Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — parked (ep018)
-- WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth
+- WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth — making (ep055)
 - Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all — parked (ep043)
 - Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece
 - Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty
@@ -79,8 +79,8 @@ unexplained, not alien.
 - TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star — parked (ep010)
 - Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance
-- Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014 — making (ep048)
-- Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe
+- Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014 — done (ep048)
+- Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe — making (ep054)
 - Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old — parked (ep038)
 - Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself — parked (ep042)
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — parked (ep006)
@@ -108,7 +108,7 @@ unexplained, not alien.
 - Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload
 - Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled
 - Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed
-- Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down — making (ep051)
+- Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down — done (ep051)
 
 ### Space Got Weird
 
@@ -116,7 +116,7 @@ unexplained, not alien.
 - Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain
 - Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy
 - Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — parked (ep022)
-- Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer
+- Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer — making (ep052)
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests — done (ep046)
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — parked (ep011)
 - Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings — parked (ep029)
@@ -132,7 +132,7 @@ unexplained, not alien.
 - Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged — done (ep009)
 - 99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029 — done (ep035)
 - 2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032
-- Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past — making (ep050)
+- Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past — done (ep050)
 - July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot
 - Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin
 - Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months
@@ -150,7 +150,7 @@ unexplained, not alien.
 - Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — dropped (ep021)
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth — parked (ep041)
 - Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds
-- Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day
+- Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day — making (ep053)
 - Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — parked (ep025)
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close — done (ep028)
 - Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — parked (ep005)

@@ -1,0 +1,168 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-04T23:12:52+05:30",
+      "check": {
+        "duration": 49.22,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'prove' heard as 'proved' after '1500 people orbits'",
+          "'striker' heard as 'stryker' after 'unrelated but the'",
+          "'(nothing)' heard as 'you' after 'a different rock'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Catchy irony in the premise.",
+        "clarity": "Logical chronological progression.",
+        "payoff": "Impact scale provides a strong climax.",
+        "visuals": "Beat 5 uses inaccurate nuclear test imagery.",
+        "loop": "Seamless circular transition."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows a nuclear mushroom cloud instead of a meteor airburst."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Duende",
+          "respelling": "doo en day"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides stronger narrative tension than the Cassini episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-04T23:15:26+05:30",
+      "check": {
+        "duration": 49.27,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'prove' heard as 'proved' after '1500 people orbits'",
+          "'striker' heard as 'stryker' after 'unrelated but the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The 'blindsided' hook creates immediate curiosity about how astronomers could miss a massive object.",
+        "clarity": "The script clearly distinguishes between the two unrelated asteroids and their paths.",
+        "payoff": "Comparing the blast to Hiroshima and citing the injury count makes the danger feel real and visceral.",
+        "visuals": "Uses accurate diagrams and historical photos, though beat 5's mushroom cloud is slightly misleading for an airburst.",
+        "loop": "The repetition of the first line at the end makes for a perfectly seamless transition back to the start."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows a ground-level mushroom cloud which contradicts the script's mention of a 30-kilometer high airburst"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Duende",
+          "respelling": "dwen day"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode achieves a superior loop compared to episode 46 by perfectly mirroring the hook's script and visual.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-04T23:17:27+05:30",
+      "check": {
+        "duration": 49.27,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'prove' heard as 'proved' after '1500 people orbits'",
+          "'striker' heard as 'stryker' after 'unrelated but the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "A perfect high-stakes hook that sets up a mystery and an immediate threat.",
+        "clarity": "Excellent distinction between the predicted asteroid and the surprise one.",
+        "payoff": "The scale of the explosion and the human toll provides a strong resolution to the 'blindside' setup.",
+        "visuals": "Most frames are excellent, though beat 5 relies on stock nuclear footage rather than the event itself.",
+        "loop": "The repetition of the first line at the end makes for a completely seamless replay."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows a literal atomic bomb mushroom cloud instead of the asteroid airburst or a simulation of it"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short uses authentic historical dashcam and trail footage to ground the high-stakes narrative more effectively than the abstract imagery in ep046.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

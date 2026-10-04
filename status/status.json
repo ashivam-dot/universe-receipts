@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-04T23:05:46+05:30",
-  "day": 3,
+  "updated_at": "2026-10-05T05:06:25+05:30",
+  "day": 4,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M43ZQF7418672CSA1RR06N7R",
+    "id": "ta-01M44MAN9JAG3RATWWS247PA5R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-04T23:05:07+05:30",
-    "started_at_utc": "2026-10-04T17:35:07+00:00",
-    "seconds": 39
+    "started_at": "2026-10-05T05:05:06+05:30",
+    "started_at_utc": "2026-10-04T23:35:06+00:00",
+    "seconds": 78
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 1.1
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "15 posts",
-      "seconds": 0.4
+      "detail": "17 posts",
+      "seconds": 0.9
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep036 to 'Mission Files'",
-      "seconds": 1.9
+      "detail": "added ep004 to 'Mission Files'",
+      "seconds": 1.8
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep002 language en/None -> en; ep008 language en/None -> en",
-      "seconds": 0.9
+      "detail": "every live Short is in English",
+      "seconds": 0.2
     },
     {
       "name": "on youtube",
@@ -45,32 +45,26 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 0.3
+      "detail": "ep013 at 24 h: ahead of the channel's earlier Shorts at this age: 732 views against a median of 450 (1.6x); ep036 at 6 h: ahead of the channel's earlier Shorts at this age: 971 views against a median of 468 (2.1x); learnings: Promoted comment-prompt ending hypothesis to a rule after ep013 and ep024 showed zero comments from closed factual endings.",
+      "seconds": 53.8
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep041 rejected (low scores: visuals); ep042 rejected (low scores: visuals; 2 frame problems); ep043 rejected (low scores: hook, visuals, loop); ep044 rejected (low scores: visuals; 2 frame problems); ep045 ready; ep046 ready; ep047 ready",
-      "seconds": 14.3
+      "detail": "ep048 ready; ep049 ready; ep050 ready; ep051 ready",
+      "seconds": 8.9
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
-    },
-    {
-      "name": "preflight ep004",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "preflight ep017",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep032",
@@ -81,49 +75,43 @@
     {
       "name": "preflight ep035",
       "ok": true,
-      "detail": "video downloads whole (18 MB in 1 s)",
-      "seconds": 0.8
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 1.1
     },
     {
-      "name": "schedule ep047",
+      "name": "schedule ep049",
       "ok": true,
-      "detail": "2026-10-08T19:00:00-04:00",
-      "seconds": 0.8
+      "detail": "2026-10-09T19:00:00-04:00",
+      "seconds": 0.7
     },
     {
-      "name": "schedule ep046",
+      "name": "start ep052",
       "ok": true,
-      "detail": "2026-10-08T21:30:00-04:00",
-      "seconds": 0.8
+      "detail": "Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer",
+      "seconds": 0.4
     },
     {
-      "name": "start ep048",
+      "name": "start ep053",
       "ok": true,
-      "detail": "Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014",
-      "seconds": 0.6
+      "detail": "Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day",
+      "seconds": 0.4
     },
     {
-      "name": "start ep049",
+      "name": "start ep054",
       "ok": true,
-      "detail": "Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away",
-      "seconds": 0.5
+      "detail": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
+      "seconds": 0.4
     },
     {
-      "name": "start ep050",
+      "name": "start ep055",
       "ok": true,
-      "detail": "Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep051",
-      "ok": true,
-      "detail": "Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down",
+      "detail": "WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth",
       "seconds": 0.4
     },
     {
@@ -136,27 +124,22 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 1 waiting"
+    "Buffer is full (10 queued); 4 waiting"
   ],
   "inventory": {
-    "total": 11,
+    "total": 14,
     "in_buffer": 10,
-    "waiting": 1,
+    "waiting": 4,
     "target": 42,
     "making": [],
     "remote": [
-      "ep048",
-      "ep049",
-      "ep050",
-      "ep051"
+      "ep052",
+      "ep053",
+      "ep054",
+      "ep055"
     ]
   },
   "queue": [
-    {
-      "id": "ep004",
-      "title": "Soviet Moon Photos on US Spy Film",
-      "due_at": "2026-10-04T19:00:00-04:00"
-    },
     {
       "id": "ep032",
       "title": "The Unseen Force Dragging the Milky Way",
@@ -201,6 +184,11 @@
       "id": "ep046",
       "title": "The Cosmic Flashes Found by Cold War Satellites",
       "due_at": "2026-10-08T21:30:00-04:00"
+    },
+    {
+      "id": "ep049",
+      "title": "The Dead Star That Can Erase Your Credit Cards",
+      "due_at": "2026-10-09T19:00:00-04:00"
     }
   ],
   "waiting": [
@@ -209,38 +197,74 @@
       "title": "Why NASA Killed a $3B Spacecraft",
       "series": "Mission Files",
       "score": 20
+    },
+    {
+      "id": "ep048",
+      "title": "The Colossal Cosmic Drain Pulling Our Galaxy",
+      "series": "Scale Breaker",
+      "score": 22
+    },
+    {
+      "id": "ep050",
+      "title": "The Day an Undetected Asteroid Blindsided Earth",
+      "series": "Near Misses",
+      "score": 24
+    },
+    {
+      "id": "ep051",
+      "title": "The NASA Mission That Fell from the Sky",
+      "series": "Mission Files",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep041",
-      "outcome": "rejected",
-      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep042",
-      "outcome": "rejected",
-      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
-      "reason": "low scores: visuals; 2 frame problems"
-    },
-    {
-      "id": "ep043",
-      "outcome": "rejected",
-      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
-      "reason": "low scores: hook, visuals, loop"
-    },
-    {
-      "id": "ep044",
-      "outcome": "rejected",
-      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
-      "reason": "low scores: visuals; 2 frame problems"
-    },
-    {
-      "id": "ep045",
+      "id": "ep048",
       "outcome": "ready",
-      "topic": "Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life",
-      "title": "Why NASA Killed a $3B Spacecraft",
+      "topic": "Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014",
+      "title": "The Colossal Cosmic Drain Pulling Our Galaxy",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791135773/universereceipts/ep048-b07bb6d8.mp4"
+    },
+    {
+      "id": "ep049",
+      "outcome": "ready",
+      "topic": "Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away",
+      "title": "The Dead Star That Can Erase Your Credit Cards",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791135985/universereceipts/ep049-f0de11ac.mp4"
+    },
+    {
+      "id": "ep050",
+      "outcome": "ready",
+      "topic": "Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past",
+      "title": "The Day an Undetected Asteroid Blindsided Earth",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791136050/universereceipts/ep050-e0c08107.mp4"
+    },
+    {
+      "id": "ep051",
+      "outcome": "ready",
+      "topic": "Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down",
+      "title": "The NASA Mission That Fell from the Sky",
       "scores": {
         "hook": 4,
         "clarity": 4,
@@ -248,127 +272,96 @@
         "visuals": 4,
         "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791114704/universereceipts/ep045-1d1e897a.mp4"
-    },
-    {
-      "id": "ep046",
-      "outcome": "ready",
-      "topic": "Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests",
-      "title": "The Cosmic Flashes Found by Cold War Satellites",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791114276/universereceipts/ep046-84e70eda.mp4"
-    },
-    {
-      "id": "ep047",
-      "outcome": "ready",
-      "topic": "Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see",
-      "title": "The Myth of the Moon's Dark Side",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791114690/universereceipts/ep047-3f61f147.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791135963/universereceipts/ep051-4f4e173b.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep048",
-      "topic": "Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014",
-      "call_id": "fc-01M43ZRS4E7AEF087HHDVZSATT"
+      "id": "ep052",
+      "topic": "Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer",
+      "call_id": "fc-01M44MD584XP84V5D4FQ9VFKCP"
     },
     {
-      "id": "ep049",
-      "topic": "Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away",
-      "call_id": "fc-01M43ZRSM4EEH12A5QHVHSQKPG"
+      "id": "ep053",
+      "topic": "Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day",
+      "call_id": "fc-01M44MD5KQRBCY3VFKBNM2ASTB"
     },
     {
-      "id": "ep050",
-      "topic": "Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past",
-      "call_id": "fc-01M43ZRT25DC4AM6YYFHGSDRT7"
+      "id": "ep054",
+      "topic": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
+      "call_id": "fc-01M44MD5Z1H8APH9HM60EW8B6Y"
     },
     {
-      "id": "ep051",
-      "topic": "Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down",
-      "call_id": "fc-01M43ZRTFBQYJTHA7KC5MSTMMY"
+      "id": "ep055",
+      "topic": "WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth",
+      "call_id": "fc-01M44MD6B527JH180VFVWA83Q2"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep048",
-      "topic": "Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014",
-      "spawned_at": "2026-10-04T23:05:43+05:30"
+      "id": "ep052",
+      "topic": "Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer",
+      "spawned_at": "2026-10-05T05:06:23+05:30"
     },
     {
-      "id": "ep049",
-      "topic": "Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away",
-      "spawned_at": "2026-10-04T23:05:44+05:30"
+      "id": "ep053",
+      "topic": "Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day",
+      "spawned_at": "2026-10-05T05:06:23+05:30"
     },
     {
-      "id": "ep050",
-      "topic": "Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past",
-      "spawned_at": "2026-10-04T23:05:44+05:30"
+      "id": "ep054",
+      "topic": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
+      "spawned_at": "2026-10-05T05:06:23+05:30"
     },
     {
-      "id": "ep051",
-      "topic": "Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down",
-      "spawned_at": "2026-10-04T23:05:45+05:30"
+      "id": "ep055",
+      "topic": "WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth",
+      "spawned_at": "2026-10-05T05:06:24+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep047",
-      "title": "The Myth of the Moon's Dark Side",
-      "due_at": "2026-10-08T19:00:00-04:00"
-    },
-    {
-      "id": "ep046",
-      "title": "The Cosmic Flashes Found by Cold War Satellites",
-      "due_at": "2026-10-08T21:30:00-04:00"
+      "id": "ep049",
+      "title": "The Dead Star That Can Erase Your Credit Cards",
+      "due_at": "2026-10-09T19:00:00-04:00"
     }
   ],
-  "live": 7,
+  "live": 8,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 39,
+    "calls": 29,
     "by_model": {
-      "gemini-3.8-flash": 7,
-      "gemini-3.5-flash": 5,
-      "gemini-3-flash-preview": 10,
-      "gemini-3.5-flash-lite": 7,
-      "gemini-3.7-flash": 5,
-      "gemini-3.6-flash": 5
+      "gemini-3.8-flash": 2,
+      "gemini-3.6-flash": 1,
+      "gemini-3.5-flash": 11,
+      "gemini-3.5-flash-lite": 4,
+      "gemini-3-flash-preview": 11
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
-    "modal": 17,
+    "modal": 9,
     "runner": 0
   },
   "daily_done": "2026-10-04",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 4.91,
+    "metered": 5.16,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 192,
+    "cloud": 190,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 23.09
+    "modal_credit_left": 22.84
   },
   "made_here": 0,
-  "open_topics": 61,
+  "open_topics": 57,
   "parked_topics": 22
 }
