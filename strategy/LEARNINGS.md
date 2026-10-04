@@ -14,7 +14,7 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 | Average percentage viewed | `analytics.averageViewPercentage` | 71.1% | 80%+ (loops can push it past 100%) |
 | Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 117% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
-| Likes per 100 views | `likes` / `views` | 3.0 | 4+ |
+| Likes per 100 views | `likes` / `views` | 3.1 | 4+ |
 
 ## Rules we've proven
 
@@ -29,6 +29,7 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Cut each Short to 45-59 seconds to maximize reach potential.
 - Write a last line that flows straight into the first line to increase average percentage viewed.
 - Replace informational summaries with direct debate prompts or open-ended reaction hooks in the final beat to drive audience interaction.
+- Deliver the core narrative payoff or setup within the first 3 seconds immediately after the hook to prevent pacing drop-off.
 
 ## Scoreboard
 
@@ -37,10 +38,10 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep002 | Mission Files | statement, story | 103 | 47% | 43.0% | 89% | 0 | Static hook and historical topic met engaged share median but failed to sustain pacing, leading to 43% avg viewed, well below the 71.1% median. |
-| ep008 | The Universe Is Terrifying | statement, story | 867 | 47% | 99.2% | 145% | 2 | Intriguing surprise hook drove exceptional early retention (144.6% at 10%), though lack of a loop caused a late-beat drop-off despite nearly beating the 100% avg viewed target. |
-| ep009 | Near Misses | statement, story | 215 | – | – | – | – | Topic curiosity was high, but slow narrative pacing after the hook caused a loss in view velocity compared to high-performing series like 'The Universe Is Terrifying'. |
-| ep024 | Near Misses | contradiction, scale_ladder | 829 | – | – | – | – | High-concept visual contradiction hook drove views 3.9x higher than the median, though dry pacing at the end resulted in likes (2.4) falling below the 2.99 median. |
+| ep002 | Mission Files | statement, story | 103 | 47% | 43.0% | 89% | 0 | Static hook statement and slow pacing tanked avg_viewed (42.98% vs 71.1% median) and views despite a niche historical topic. |
+| ep008 | The Universe Is Terrifying | statement, story | 867 | 47% | 99.2% | 145% | 2 | Terrifying topic and bizarre mailing hook drove exceptional retention (99.19% avg_viewed), though lack of a seamless loop caused a late viewer drop. |
+| ep009 | Near Misses | statement, story | 222 | – | – | – | – | High-interest solar storm topic yielded strong likes (4.5% vs 3.08% median), but lagging post-hook pacing constrained overall view velocity. |
+| ep024 | Near Misses | contradiction, scale_ladder | 850 | – | – | – | – | Contradiction hook fueled top-tier view velocity (850 views), but an informational non-interactive loop dragged engagement down to 2.59% likes. |
 
 ## Log
 
@@ -53,3 +54,4 @@ contradiction.
 - 2026-10-03: Logged 24h+ reviews for ep002 and ep008; retained all core script hypotheses as evidence remains under the two-Short rule threshold.
 - 2026-10-04: Logged performance reviews for ep002, ep008, and ep009; keeping all existing hypotheses as no single effect has appeared in two shorts yet.
 - 2026-10-04: Promoted curiosity gaps and surprise hooks to rules after high-concept hooks in ep008 and ep024 outperformed static historical statements in ep002 and ep009.
+- 2026-10-04: Added a post-hook pacing hypothesis from ep009's diagnosis while tracking looping and debate endings toward rule promotion.

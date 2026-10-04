@@ -31,6 +31,7 @@ unexplained, not alien.
 
 | Date | Story | Series |
 |---|---|---|
+| Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day | Mission Files |
 | Nov 12 | Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow | Mission Files |
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot | Mission Files |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
@@ -106,6 +107,8 @@ unexplained, not alien.
 - Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it
 - Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload
 - Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled
+- Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed
+- Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down
 
 ### Space Got Weird
 
@@ -153,3 +156,5 @@ unexplained, not alien.
 - Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — parked (ep005)
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop
 - Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes
+- Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun
+- Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground
