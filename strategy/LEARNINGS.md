@@ -24,12 +24,12 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Put the strongest surprise or contradiction in the first 2 seconds (e.g., '80 million trees, zero craters') to maximize view velocity and early retention. Evidence: ep008, ep024.
 - Start the opening script line with a curiosity gap rather than a static statement or text overlay to improve initial retention and view velocity. Evidence: ep002, ep009.
 - Replace closed circular endings with an open-ended question or debate prompt in the final beat to drive audience comments. Evidence: ep013, ep024, ep028.
+- Write a last line that flows straight into the first line to increase average percentage viewed and trigger rewatches. Evidence: ep008, ep028.
 
 ## Hypotheses to test (from research, not yet our data)
 
 - Cut each Short to 45-59 seconds to maximize reach potential.
 - Deliver the core narrative payoff or setup within the first 3 seconds immediately after the hook to prevent pacing drop-off (Evidence: ep009).
-- Write a last line that flows straight into the first line to increase average percentage viewed and trigger rewatches (Evidence: ep008, ep028).
 
 ## Scoreboard
 
@@ -38,12 +38,12 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep002 | Mission Files | statement, story | 103 | 44% | 42.7% | 88% | 0 | Passive hook and slow historical pacing tanked engaged share (30%) and retention (41%) far below medians. |
-| ep008 | The Universe Is Terrifying | statement, story | 862 | 47% | 89.9% | 136% | 5 | High-tension physical mystery hook drove a 103% average view duration, though the loop failed to trigger rewatches. |
-| ep009 | Near Misses | statement, story | 244 | 42% | 62.0% | 105% | 0 | Intriguing curiosity hook boosted likes per 100 views (4.3), but delayed setup details caused a pacing lag after 3 seconds. |
-| ep013 | Scale Breaker | contradiction, story | 800 | – | – | – | – | Paradoxical topic and hook drove high view velocity, yet a closed-loop script resulted in zero comments. |
-| ep024 | Near Misses | contradiction, scale_ladder | 946 | 42% | 51.8% | 105% | 1 | Visual contradiction hook captured views, but dry delivery and lack of a closing question stifled engagement metrics. |
-| ep028 | Space Myths, Busted | statement, mystery | 1246 | – | – | – | – | Myth-busting hook achieved record velocity (44.4 vph), but the lack of a rewatch loop limited total retention. |
+| ep002 | Mission Files | statement, story | 103 | 44% | 42.7% | 88% | 0 | Passive statement hook and slow pacing dragged average viewed (42.73%) and 10% retention (0.884) well below channel medians, yielding low engagement. |
+| ep008 | The Universe Is Terrifying | statement, story | 862 | 47% | 84.1% | 136% | 5 | Intriguing mystery hook and solid middle pacing drove exceptional retention at 10% (1.364) and average viewed (84.14%) far above medians, though weak loop phrasing hurt the ending. |
+| ep009 | Near Misses | statement, story | 246 | 42% | 62.0% | 105% | 0 | Historical storm topic earned above-median likes (4.5 per 100) and average viewed (61.95%), but post-hook pacing lag limited velocity. |
+| ep013 | Scale Breaker | contradiction, story | 867 | – | – | – | – | Paradox hook achieved strong view velocity and high likes (5.1 per 100), but closed circular ending resulted in zero comments. |
+| ep024 | Near Misses | contradiction, scale_ladder | 953 | 42% | 51.8% | 105% | 1 | Contradiction hook drove high early views, but passive factual pacing toward the end dropped average viewed (51.76%) and engagement below medians. |
+| ep028 | Space Myths, Busted | statement, mystery | 1250 | – | – | – | – | Mystery myth-busting hook captured channel-leading views and above-median likes (3.9 per 100), though a closed ending limited comment conversion. |
 
 ## Log
 
@@ -59,3 +59,4 @@ contradiction.
 - 2026-10-04: Added a post-hook pacing hypothesis from ep009's diagnosis while tracking looping and debate endings toward rule promotion.
 - 2026-10-05: Promoted comment-prompt ending hypothesis to a rule after ep013 and ep024 showed zero comments from closed factual endings.
 - 2026-10-05: Promoted open-ended endings to a rule after ep028 confirmed that high-velocity mystery hooks still fail to generate interaction without a prompt.
+- 2026-10-05: Promoted the seamless audio looping hypothesis to a rule based on evidence from ep008 and ep028 showing higher retention and rewatch potential.

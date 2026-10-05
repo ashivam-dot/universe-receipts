@@ -26,12 +26,15 @@ unexplained, not alien.
 | 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — parked (ep020) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
 | 2026-10-02 | Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon — parked (ep027) | The Universe Is Terrifying | NASA's Webb telescope recently released new findings on planet-shattering collisions, mirroring the historic clash of Earth and Theia. |
 | 2026-10-03 | DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus — done (ep036) | Mission Files | NASA recently highlighted extreme thermal testing on the probe's engineering model for its mission to Venus. |
+| 2026-10-05 | Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe — making (ep060) | Scale Breaker | October 5th is the anniversary of Edwin Hubble identifying the star that proved galaxies exist beyond our own. |
+| 2026-10-05 | Sombrero Galaxy (1781): a massive ring of stars that hides a violent history of galactic cannibalism — making (ep061) | The Universe Is Terrifying | Featured on NASA's APOD today with new evidence of tidal streams from its past mergers. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
 | Date | Story | Series |
 |---|---|---|
 | Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day | Mission Files |
+| Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury | Mission Files |
 | Nov 12 | Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow | Mission Files |
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot | Mission Files |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
@@ -73,6 +76,7 @@ unexplained, not alien.
 - 3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away — done (ep023)
 - Hypervelocity star (2005): stars being flung out of the Milky Way at millions of miles per hour, doomed to wander intergalactic space alone
 - Hanny's Voorwerp (2007): a galaxy-sized green structure that is actually a light "echo" from a quasar that died 100,000 years ago
+- Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished
 
 ### Scale Breaker
 
@@ -91,6 +95,7 @@ unexplained, not alien.
 - Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies
 - Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail
 - Lunar distance: every other planet in the solar system can fit in the gap between the Earth and the Moon with room to spare
+- Boomerang Nebula (1980): the coldest place in the natural universe, colder than the background glow of the Big Bang
 
 ### Mission Files
 
@@ -125,6 +130,7 @@ unexplained, not alien.
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009 — done (ep040)
 - SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars
 - 55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond
+- 16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet
 
 ### Near Misses
 
@@ -141,6 +147,7 @@ unexplained, not alien.
 - Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years
 - 4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed
 - 2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach
+- 4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange "ginger-root" shape
 
 ### Space Myths, Busted
 

@@ -1,0 +1,297 @@
+{
+  "viable": true,
+  "reason": "The sources robustly document the famous imperial-to-metric mismatch with multiple overlapping accounts from distinct publishers.",
+  "story": "In December 1998, NASA launched the $125 million Mars Climate Orbiter to study Martian weather. But on September 23, 1999, as the spacecraft began its orbital insertion, it vanished forever. An investigation revealed a tragicomic math error: Lockheed Martin's software calculated thruster impulse in US customary pound-force seconds, while NASA's navigation software expected metric newton-seconds. Since one pound-force equals 4.45 newtons, NASA underestimated the thrusters' force. Over the nine-month journey, these uncorrected trajectory errors quietly accumulated. Instead of skimming safely at 140 miles, the probe plunged to a lethal altitude of just 35 miles. It either disintegrated in the atmosphere or skipped off into deep space. Navigators had raised concerns, but their warnings were dismissed because they didn't fill out the proper paperwork. It remains space exploration's ultimate cautionary tale of being lost in translation.",
+  "angle": "NASA lost a $125 million Mars spacecraft because one engineering team used imperial units while another used metric, and warnings from navigators were dismissed because they did not fill out the correct paperwork.",
+  "claims": [
+    {
+      "claim": "The Mars Climate Orbiter was launched on December 11, 1998.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft was launched aboard a Delta II rocket.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Contact with the spacecraft was permanently lost on September 23, 1999, during its orbital insertion maneuver.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The primary cause of the mission failure was a unit mismatch where one software system produced results in US customary units (pound-force seconds) while another expected metric units (newton-seconds).",
+      "sources": [
+        "S1",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The unit error involved the calculation of the impulse produced by the spacecraft's thruster firings.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft's thrusters fired to desaturate and unload angular momentum from its reaction wheels.",
+      "sources": [
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "One pound-force is equal to approximately 4.45 newtons.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Because the navigation software interpreted pound-force seconds as newton-seconds, it modeled the thruster effects as only about 22 percent of their actual value, causing gradual trajectory errors to accumulate over the journey.",
+      "sources": [
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft was designed and built by contractor Lockheed Martin.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission was managed by NASA's Jet Propulsion Laboratory.",
+      "sources": [
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft's journey from Earth to Mars took approximately nine months.",
+      "sources": [
+        "S1",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The minimum altitude the spacecraft was believed to be capable of surviving during the orbital insertion was about 80 kilometers (50 miles).",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Post-failure calculations showed the spacecraft's actual trajectory took it to an altitude of only about 57 kilometers (35 miles) from the Martian surface.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft was either destroyed by the Martian atmosphere or skipped off it into heliocentric space.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Mars Climate Orbiter was developed under NASA's 'faster, better, cheaper' initiative.",
+      "sources": [
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "An independent review board concluded the Mars Surveyor '98 program was underfunded by at least 30%.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft weighed approximately 638 kilograms (1,407 pounds) at launch.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Navigators raised concerns about trajectory discrepancies before the encounter, but they were handled informally or dismissed because proper forms were not filled out.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "A fifth trajectory correction maneuver (TCM-5) was scheduled and discussed to potentially fix the trajectory but was never executed.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Mars Climate Orbiter was designed to serve as a communications relay for the Mars Polar Lander.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact cost of the spacecraft: S4 and S6 quote the spacecraft cost at around $125 million, whereas S1 lists a detailed breakdown totaling $327.6 million, and S3 states the combined failed missions cost $285 million. The script should clarify that development cost roughly $125 million, but total mission costs were higher.",
+    "The exact final fate of the spacecraft: S1, S6, and S7 state it was either destroyed in the atmosphere or entered heliocentric space. S7 notes NASA's current history describes it as having burned up. The script should present both possibilities."
+  ],
+  "visuals": [
+    {
+      "subject": "Mars Climate Orbiter artist's concept",
+      "queries": [
+        "Mars Climate Orbiter concept",
+        "Mars Climate Orbiter illustration"
+      ]
+    },
+    {
+      "subject": "Delta II rocket launch of Mars Climate Orbiter",
+      "queries": [
+        "Delta II Mars Climate Orbiter launch",
+        "Delta II liftoff Cape Canaveral"
+      ]
+    },
+    {
+      "subject": "Jet Propulsion Laboratory Von Karman Auditorium or Mission Control",
+      "queries": [
+        "JPL mission control room",
+        "Jet Propulsion Laboratory Von Karman"
+      ]
+    },
+    {
+      "subject": "Daniel Goldin, NASA Administrator",
+      "queries": [
+        "Daniel Goldin",
+        "Daniel S. Goldin NASA"
+      ]
+    },
+    {
+      "subject": "Mars Global Surveyor spacecraft illustration",
+      "queries": [
+        "Mars Global Surveyor illustration",
+        "Mars Global Surveyor artist concept"
+      ]
+    },
+    {
+      "subject": "Mars Polar Lander artist's concept",
+      "queries": [
+        "Mars Polar Lander illustration",
+        "Mars Polar Lander artist concept"
+      ]
+    },
+    {
+      "subject": "Diagram of Hohmann transfer orbit",
+      "queries": [
+        "Hohmann transfer orbit diagram",
+        "Hohmann transfer"
+      ]
+    },
+    {
+      "subject": "Mars atmosphere limb captured by spacecraft",
+      "queries": [
+        "Mars atmosphere limb",
+        "Martian atmosphere horizon"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter",
+      "title": "Mars Climate Orbiter",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.jpl.nasa.gov/news/mars-climate-orbiter-team-finds-likely-cause-of-loss/",
+      "title": "Mars Climate Orbiter Team Finds Likely Cause of Loss | NASA Jet Propulsion Laboratory (JPL)",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://web.archive.org/web/20131226075519/http://www.pbs.org/newshour/bb/science/jan-june00/nasa_4-14.html",
+      "title": "Online NewsHour: NASA in Question",
+      "site": "pbs.org"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.latimes.com/archives/la-xpm-1999-oct-01-mn-17288-story.html",
+      "title": "Mars Probe Lost Due to Simple Math Error",
+      "site": "latimes.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://web.archive.org/web/20121017131433/http://books.nap.edu/openbook.php?record_id=12285&page=1",
+      "title": "The Role of Small Missions in Planetary and Lunar Exploration",
+      "site": "nap.edu"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.19fortyfive.com/2026/09/mars-climate-orbiter-ran-on-pound-force-seconds-while-nasas-software-expected-newtons-and-over-nine-months-that-4-45-to-one-error-put-it-35-miles-above-mars-instead-of-85-so-on-23-september-1/",
+      "title": "Mars Climate Orbiter ran on pound-force seconds while NASA’s software expected newtons and over nine months that 4.45-to-one error put it 35 miles above Mars instead of 85 so on 23 September 1999 the $125 million spacecraft vanished and never called home",
+      "site": "19fortyfive.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.spacedaily.com/t-mars-climate-orbiter-pound-force-newton-seconds/",
+      "title": "NASA lost its Mars Climate Orbiter in 1999 not because of a rocket failure, but because Lockheed Martin software reported thruster impulse in pound-force-seconds while NASA navigation software expected newton-seconds — a unit mismatch that sent the spacecraft dangerously deep into the Martian atmosphere and doomed the mission.",
+      "site": "spacedaily.com"
+    }
+  ],
+  "topic": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
+  "series": "Mission Files"
+}
