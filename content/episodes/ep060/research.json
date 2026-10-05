@@ -1,0 +1,259 @@
+{
+  "viable": true,
+  "reason": "The sources provide 14 highly verified claims across multiple distinct websites, detailing the 1920 Great Debate, Henrietta Leavitt's Cepheid discovery, Edwin Hubble's 1923 detection of V1 in Andromeda, and how it shattered Harlow Shapley's view of a single-galaxy universe.",
+  "story": "In 1920, astronomers Harlow Shapley and Heber Curtis clashed in the Great Debate over the scale of the universe. Shapley claimed the Milky Way was the entire universe and that fuzzy spiral nebulae like Andromeda were inside its outskirts. Curtis countered that they were separate, distant \"island universes.\" In October 1923, Edwin Hubble used the 100-inch Hooker Telescope to photograph Andromeda. He spotted a blinking star, initially mistaking it for a common nova. But it was actually a Cepheid variable star, which he named V1. Using Henrietta Swan Leavitt's discovery that a Cepheid's pulse reveals its true brightness, Hubble calculated that V1 was roughly one million light-years away—far beyond the Milky Way. Upon receiving Hubble's letter, a devastated Shapley reportedly said, \"Here is the letter that destroyed my universe.\" This single star expanded our cosmos forever, proving the Milky Way is just one of billions of galaxies.",
+  "angle": "A single pulsing star, initially mistaken for a common explosion, proved the Milky Way wasn't the entire universe and shattered the world's leading astronomer's worldview.",
+  "claims": [
+    {
+      "claim": "In 1920, astronomers Harlow Shapley and Heber Curtis held a public debate over the size of the universe and the nature of spiral nebulae.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Harlow Shapley argued that the Milky Way was the entire universe and that spiral nebulae were small objects on its outskirts.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Heber Curtis argued that spiral nebulae were actually independent, distant galaxies, which he referred to as island universes.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Henrietta Swan Leavitt discovered that a Cepheid variable star's peak brightness is directly related to its pulsation period.",
+      "sources": [
+        "S2",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Comparing a Cepheid variable's apparent brightness to its intrinsic brightness allows astronomers to calculate its distance from Earth.",
+      "sources": [
+        "S2",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Edwin Hubble searched for these distance markers in Andromeda using the 100-inch Hooker Telescope at the Mount Wilson Observatory.",
+      "sources": [
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In October 1923, Edwin Hubble took photographic plates of Andromeda and spotted a changing star he initially mistook for a nova.",
+      "sources": [
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Hubble realized the star was actually a Cepheid variable, which became known as V1.",
+      "sources": [
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "By measuring V1, Hubble calculated that Andromeda was roughly one million light-years away, proving it was far outside the Milky Way.",
+      "sources": [
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Upon reading Hubble's letter and light curve of V1, Harlow Shapley reportedly told a colleague, \"Here is the letter that destroyed my universe.\"",
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Modern measurements place the Andromeda Galaxy farther away, at about two to two and a half million light-years from Earth.",
+      "sources": [
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Today, astronomers accept that the Milky Way is not the entire universe, but just one of billions of galaxies in existence.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "To honor this landmark observation, copies of Edwin Hubble's 1923 photographic plate of V1 were carried into space aboard NASA space shuttles.",
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The orbiting space telescope named after Edwin Hubble has been used by modern astronomers to study this same variable star, V1.",
+      "sources": [
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact date of Hubble's historic Andromeda plate: S6 says October 4, 1923, while S3 states the observing run began on the night of October 5 and lasted until the early hours of October 6, 1923. The script should generalize this to October 1923.",
+    "The year Henrietta Leavitt discovered the Cepheid variable relationship: S2 states 1908, while S6 states 1912. The script should avoid specifying the exact year or attribute it generally to the early 1900s.",
+    "The exact modern distance to the Andromeda Galaxy: S3 and S4 state it is 2 million light-years away, while S6 states it is about 2.5 million light-years away. The script should state it is between 2 and 2.5 million light-years away."
+  ],
+  "visuals": [
+    {
+      "subject": "Harlow Shapley",
+      "queries": [
+        "Harlow Shapley portrait",
+        "Harlow Shapley astronomer"
+      ]
+    },
+    {
+      "subject": "Heber Curtis",
+      "queries": [
+        "Heber Doust Curtis",
+        "Heber Curtis astronomer"
+      ]
+    },
+    {
+      "subject": "Edwin Hubble",
+      "queries": [
+        "Edwin Hubble portrait",
+        "Edwin Hubble",
+        "Edwin Hubble astronomer"
+      ]
+    },
+    {
+      "subject": "Hooker Telescope",
+      "queries": [
+        "100-inch Hooker telescope",
+        "Hooker telescope Mount Wilson",
+        "Mount Wilson Observatory 100-inch"
+      ]
+    },
+    {
+      "subject": "Andromeda Galaxy",
+      "queries": [
+        "Andromeda Galaxy M31",
+        "Andromeda Galaxy",
+        "Andromeda Nebula"
+      ]
+    },
+    {
+      "subject": "Henrietta Swan Leavitt",
+      "queries": [
+        "Henrietta Swan Leavitt portrait",
+        "Henrietta Swan Leavitt"
+      ]
+    },
+    {
+      "subject": "Space Shuttle Discovery deploying Hubble",
+      "queries": [
+        "STS-31 Hubble deployment",
+        "Hubble Space Telescope deployment",
+        "Discovery STS-31"
+      ]
+    },
+    {
+      "subject": "Hubble Space Telescope",
+      "queries": [
+        "Hubble Space Telescope in orbit",
+        "Hubble Space Telescope"
+      ]
+    },
+    {
+      "subject": "Edwin Hubble's V1 photographic plate",
+      "queries": [
+        "Hubble V1 plate",
+        "Hubble Andromeda plate",
+        "Hubble VAR plate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Great_Debate_(astronomy)",
+      "title": "Great Debate (astronomy)",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Edwin_Hubble",
+      "title": "Edwin Hubble",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-views-the-star-that-changed-the-universe/",
+      "title": "Hubble Views the Star that Changed the Universe - NASA Science",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S4",
+      "url": "https://supernova.eso.org/exhibition/images/opo1115a/?lang=en",
+      "title": "ESO Supernova",
+      "site": "eso.org"
+    },
+    {
+      "label": "S5",
+      "url": "https://esahubble.org/announcements/ann1110/",
+      "title": "The star that changed the Universe - Hubble Space Telescope observes Hubble’s Cepheid variable",
+      "site": "esahubble.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.astronomy.com/observing/how-edwin-hubble-unlocked-the-cosmos-this-week-in-astronomy-with-dave-eicher/",
+      "title": "How Edwin Hubble unlocked the universe: This Week in Astronomy with Dave Eicher",
+      "site": "astronomy.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.space.com/16095-famous-astronomers.html",
+      "title": "Famous Astronomers | List of Great Scientists in Astronomy",
+      "site": "space.com"
+    }
+  ],
+  "topic": "Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe",
+  "series": "Scale Breaker"
+}

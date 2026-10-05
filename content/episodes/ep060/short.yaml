@@ -1,0 +1,162 @@
+id: ep060
+title: The Star That Destroyed the Universe
+series: Scale Breaker
+description: In 1923, a single pulsing star in Andromeda proved that our galaxy was just a tiny part of a much larger cosmos.
+sources:
+- https://en.wikipedia.org/wiki/Edwin_Hubble
+- https://science.nasa.gov/missions/hubble/hubble-views-the-star-that-changed-the-universe/
+- https://www.astronomy.com/observing/how-edwin-hubble-unlocked-the-cosmos-this-week-in-astronomy-with-dave-eicher/
+- https://en.wikipedia.org/wiki/Great_Debate_(astronomy)
+- https://supernova.eso.org/exhibition/images/opo1115a/?lang=en
+- https://www.space.com/16095-famous-astronomers.html
+- https://esahubble.org/announcements/ann1110/
+hashtags:
+- '#space'
+- '#andromeda'
+- '#astronomy'
+tags:
+- Edwin Hubble
+- Andromeda Galaxy
+- Great Debate
+- Harlow Shapley
+- V1 star
+- Hooker Telescope
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: A single blinking star once destroyed the entire known universe.
+  emphasis:
+  - destroyed
+  - entire known universe
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Andromeda Galaxy (with h-alpha).jpg
+      credit: Adam Evans
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Andromeda_Galaxy_(with_h-alpha).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: In 1920, astronomer Harlow Shapley argued the Milky Way was the only galaxy in existence.
+  emphasis:
+  - only galaxy
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: '1920'
+      small: The Great Debate
+    motion: zoom_in
+- text: Heber Curtis countered that fuzzy spiral clouds were actually distant, independent island universes.
+  emphasis:
+  - island universes
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/0/01/Heber_Doust_Curtis_NBS_1918.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Heber Doust Curtis NBS 1918.jpg
+      credit: National Institute of Standards and Technology
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Heber_Doust_Curtis_NBS_1918.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+- text: In October 1923, Edwin Hubble used the 100-inch Hooker Telescope to photograph the Andromeda Nebula.
+  emphasis:
+  - Hooker Telescope
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/0/0b/Telescope_dome_on_Mt._Wilson%2C_Pasadena%2C_California_%2863805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Telescope dome on Mt. Wilson, Pasadena, California (63805).jpg
+      credit: Tichnor Brothers, Publisher
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Telescope_dome_on_Mt._Wilson,_Pasadena,_California_(63805).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.48
+    focus_y: 0.43
+    box:
+    - 0.28
+    - 0.13
+    - 0.68
+    - 0.73
+    card:
+      kind: dateline
+      big: October 1923
+      small: Mount Wilson Observatory
+- text: He spotted a changing star, V1, that proved Andromeda was roughly one million light-years away.
+  emphasis:
+  - roughly one million
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/51/Snapshots_of_the_star_that_changed_the_Universe_%28opo1115d%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Snapshots of the star that changed the Universe (opo1115d).jpg
+      credit: 'Illustration Credit: NASA, ESA and Z. Levay (STScI). Credit: NASA, ESA and the Hubble Heritage Team (STScI/AURA)'
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Snapshots_of_the_star_that_changed_the_Universe_(opo1115d).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.78
+    focus_y: 0.67
+    box:
+    - 0.58
+    - 0.35
+    - 0.98
+    - 0.98
+- text: That distance was far outside the Milky Way, instantly making the cosmos billions of times larger.
+  emphasis:
+  - billions of times larger
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Artist%E2%80%99s_impression_of_the_Milky_Way.jpg/3840px-Artist%E2%80%99s_impression_of_the_Milky_Way.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s impression of the Milky Way.jpg
+      credit: NASA/JPL-Caltech/ESO/R. Hurt
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_the_Milky_Way.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Shapley read Hubble's letter and told a colleague, "Here is the letter that destroyed my universe."
+  emphasis:
+  - destroyed my universe
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: quote
+      big: Here is the letter that destroyed my universe.
+      small: Harlow Shapley
+    motion: zoom_in
+- text: Everything we knew about our home changed because a single blinking star once destroyed the entire known universe.
+  emphasis:
+  - single blinking star
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: THE UNIVERSE DESTROYER

@@ -1,0 +1,104 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-05T17:14:26+05:30",
+      "check": {
+        "duration": 50.83,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Strong dramatic premise that grabs attention immediately.",
+        "clarity": "The narrative omits the undocking action mentioned in the hook.",
+        "payoff": "Fails to explain why undocking accelerated the spin.",
+        "visuals": "Beat 4 schematic is illegible on mobile screens.",
+        "loop": "Beat 8 repeats Beat 1 verbatim instead of bridging into it."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 5: 'Thinking the target caused the spin, they undocked, which made the lighter capsule spin even faster.'",
+        "Beat 8: 'They only survived because they realized why...'"
+      ],
+      "better_than_last": "Features immediate high-stakes human drama compared to the mechanical focus of episode 51.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-05T17:21:16+05:30",
+      "check": {
+        "duration": 48.43,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The counter-intuitive opening statement effectively captures interest.",
+        "clarity": "Logical progression makes the technical emergency easy to grasp.",
+        "payoff": "The resolution is informative but lacks a strong final impact.",
+        "visuals": "Historical imagery is well-selected and fits the 1960s aesthetic.",
+        "loop": "Closing thought leads cleanly back into the opening premise."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Static ground photo conflicts with the description of extreme rotational speed."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: They survived by using the reentry thrusters to stop the roll."
+      ],
+      "better_than_last": "This short provides a more focused character-driven tension than the broader scientific mystery of Tabby's Star.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

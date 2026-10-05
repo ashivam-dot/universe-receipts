@@ -1,98 +1,146 @@
 id: ep059
-title: Gravity in Space Is Stronger Than You Think
+title: Why Astronauts Never Escape Earth's Gravity
 series: Space Myths, Busted
-description: Discover why astronauts float in orbit even though Earth's gravity is still nearly 90 percent as strong at the
-  space station.
+description: Think astronauts in orbit are completely weightless? Discover why Earth's gravity is actually nearly 90 percent
+  as strong on the space station.
 sources:
 - https://en.wikipedia.org/wiki/Gravity_of_Earth
 - https://www.nasa.gov/centers-and-facilities/glenn/what-is-microgravity/
-- https://en.wikipedia.org/wiki/Weightlessness
 - https://www.space.com/23017-weightlessness.html
+- https://en.wikipedia.org/wiki/Weightlessness
 hashtags:
 - '#space'
-- '#nasa'
 - '#iss'
+- '#gravity'
 tags:
 - gravity
-- astronauts
-- international space station
+- space station
 - orbit
-- physics
-- microgravity
+- space science
+- astronauts
+- free fall
 voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: Astronauts floating in orbit are actually not beyond Earth's gravity.
+- text: Astronauts floating in orbit are still trapped by Earth's gravity.
   emphasis:
-  - not beyond Earth's gravity
+  - still trapped
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/3840px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/ISS_after_STS-119_in_March_2009_1.jpg/3840px-ISS_after_STS-119_in_March_2009_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: STS-134 International Space Station after undocking.jpg
+      title: ISS after STS-119 in March 2009 1.jpg
       credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg
+      url: https://commons.wikimedia.org/wiki/File:ISS_after_STS-119_in_March_2009_1.jpg
     fallbacks:
     - color
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: While many believe space is a complete zero gravity vacuum, the everyday reality is quite different.
+- text: In 1961, Soviet cosmonaut Gherman Titov reported the first case of space sickness.
   emphasis:
-  - zero gravity vacuum
+  - Gherman Titov
+  - first case
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/A_Horseshoe_Einstein_Ring_from_Hubble.JPG/960px-A_Horseshoe_Einstein_Ring_from_Hubble.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/4/4b/The_Soviet_Union_1961_CPA_2606_stamp_%28Second_Manned_Orbital_Space_Flight._Major_Titov_and_Vostok_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: A Horseshoe Einstein Ring from Hubble.JPG
-      credit: 'Lensshoe_hubble.jpg: ESA/Hubble & NASA
-
-        derivative work: Bulwersator (talk)'
+      title: The Soviet Union 1961 CPA 2606 stamp (Second Manned Orbital Space Flight. Major Titov and Vostok 2).jpg
+      credit: Post of the Soviet Union (I. L. Levin).
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:A_Horseshoe_Einstein_Ring_from_Hubble.JPG
+      url: https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1961_CPA_2606_stamp_(Second_Manned_Orbital_Space_Flight._Major_Titov_and_Vostok_2).jpg
     fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.23
+    focus_y: 0.6
+    box:
+    - 0.08
+    - 0.35
+    - 0.4
+    - 0.85
+- text: This sickness occurs even though space is actually not a gravity-free vacuum.
+  emphasis:
+  - not a gravity-free vacuum
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Solar_sys.jpg/1280px-Solar_sys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Solar sys.jpg
+      credit: Harman Smith and Laura Generosa (nee Berwin), graphic artists and contractors to NASA's Jet Propulsion Laboratory.
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_sys.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: At the altitude of the space station, Earth's gravity is nearly ninety percent as strong as on the ground.
+  emphasis:
+  - nearly ninety percent
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Earth_vs_Mars_gravity_at_elevation.webp/1280px-Earth_vs_Mars_gravity_at_elevation.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Earth vs Mars gravity at elevation.webp
+      credit: Wikideas1
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Earth_vs_Mars_gravity_at_elevation.webp
+    fallbacks:
+    - card
     - color
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: At the soaring altitude of the space station, Earth's gravitational field is still nearly 90 percent as strong as
-    on the ground.
+    card:
+      kind: fact
+      big: 90%
+      small: Gravity at ISS altitude
+- text: Normal gravity on Earth's surface pulls at approximately nine point eight meters per second squared.
   emphasis:
-  - nearly 90 percent
-  - as strong
-  sfx: riser
+  - nine point eight
+  sfx: pop
+  pause_after: 0.4
   visual:
     source: card
     card:
       kind: fact
-      big: 90 percent
-      small: Gravity at station altitude
+      big: 9.8 m/s²
+      small: Earth surface gravity
     motion: zoom_in
-- text: Human space travellers do not float because gravity has vanished entirely from their location.
+- text: In orbit, gravity is still highly active, but spacecraft are in constant free fall.
   emphasis:
-  - gravity has vanished
+  - constant free fall
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/NASA_astronaut_Nichole_Ayers_conducts_research_operations_inside_the_Life_Science_Glovebox_%28iss073e0118821%29.jpg/3840px-NASA_astronaut_Nichole_Ayers_conducts_research_operations_inside_the_Life_Science_Glovebox_%28iss073e0118821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Astronaut_Nichole_Ayers_poses_for_a_portrait_inside_the_seven_window_cupola_%28iss072e978930%29.jpg/1920px-Astronaut_Nichole_Ayers_poses_for_a_portrait_inside_the_seven_window_cupola_%28iss072e978930%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: NASA astronaut Nichole Ayers conducts research operations inside the Life Science Glovebox (iss073e0118821).jpg
+      title: Astronaut Nichole Ayers poses for a portrait inside the seven window cupola (iss072e978930).jpg
       credit: NASA Johnson Space Center
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:NASA_astronaut_Nichole_Ayers_conducts_research_operations_inside_the_Life_Science_Glovebox_(iss073e0118821).jpg
+      url: https://commons.wikimedia.org/wiki/File:Astronaut_Nichole_Ayers_poses_for_a_portrait_inside_the_seven_window_cupola_(iss072e978930).jpg
     fallbacks:
     - color
-    motion: pan_left
+    motion: pan_up
     focus_x: 0.5
-    focus_y: 0.5
-- text: Instead, they stay up because they are caught in a continuous state of perpetual free fall.
+    focus_y: 0.6
+    box:
+    - 0.3
+    - 0.4
+    - 0.7
+    - 0.9
+- text: High horizontal speed lets them continuously fall over the curving horizon of the Earth.
   emphasis:
-  - perpetual free fall
+  - curving horizon
   sfx: whoosh
   visual:
     source: url
@@ -108,32 +156,16 @@ beats:
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: Their immense horizontal speed continually carries them around the curving horizon of our home planet.
+    box:
+    - 0.15
+    - 0.1
+    - 0.85
+    - 0.8
+- text: And because they never stop falling around Earth, it feels like
   emphasis:
-  - immense horizontal speed
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Lucy_Earth_Gravity_Assist_2_Trajectory_Visualizations_%28SVS5429_-_lucy_ega2_pov-full_02400_print%29.jpg/960px-Lucy_Earth_Gravity_Assist_2_Trajectory_Visualizations_%28SVS5429_-_lucy_ega2_pov-full_02400_print%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Lucy Earth Gravity Assist 2 Trajectory Visualizations (SVS5429 - lucy ega2 pov-full 02400 print).jpg
-      credit: NASA's Scientific Visualization Studio - USRA/Kel Elkins, KBR Wyle Services, LLC/Dan Gallagher, SwRI/Katherine
-        Kretke
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Lucy_Earth_Gravity_Assist_2_Trajectory_Visualizations_(SVS5429_-_lucy_ega2_pov-full_02400_print).jpg
-    fallbacks:
-    - color
-    motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.5
-- text: That precise physics mechanism is why astronauts floating in orbit are actually not beyond Earth's gravity.
-  emphasis:
-  - not beyond Earth's gravity
-  sfx: pop
-  pause_after: 0.4
+  - never stop falling
   visual:
     reuse: 1
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-hook_text: 90 PERCENT GRAVITY IN ORBIT

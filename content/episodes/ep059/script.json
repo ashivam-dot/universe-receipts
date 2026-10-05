@@ -2,44 +2,45 @@
   "hooks": [
     {
       "style": "contradiction",
-      "text": "Astronauts floating in orbit are actually not beyond Earth's gravity."
+      "text": "Astronauts floating in orbit are still trapped by Earth's gravity."
     },
     {
       "style": "number",
-      "text": "Earth's gravity at the space station is nearly 90 percent strong."
+      "text": "Earth's gravity at the space station is nearly ninety percent strong."
     },
     {
-      "style": "statement",
-      "text": "Weightlessness in orbit is just a state of constant free fall."
+      "style": "question",
+      "text": "Why do astronauts float if Earth's gravity is still ninety percent strong?"
     }
   ],
   "hook_style": "contradiction",
   "structure": "myth_vs_fact",
-  "title": "Gravity in Space Is Stronger Than You Think",
-  "description": "Discover why astronauts float in orbit even though Earth's gravity is still nearly 90 percent as strong at the space station.",
+  "title": "Why Astronauts Never Escape Earth's Gravity",
+  "description": "Think astronauts in orbit are completely weightless? Discover why Earth's gravity is actually nearly 90 percent as strong on the space station.",
   "hashtags": [
     "#space",
-    "#nasa",
-    "#iss"
+    "#iss",
+    "#gravity"
   ],
   "tags": [
     "gravity",
-    "astronauts",
-    "international space station",
+    "space station",
     "orbit",
-    "physics",
-    "microgravity"
+    "space science",
+    "astronauts",
+    "free fall"
   ],
   "beats": [
     {
-      "text": "Astronauts floating in orbit are actually not beyond Earth's gravity.",
+      "text": "Astronauts floating in orbit are still trapped by Earth's gravity.",
       "emphasis": [
-        "not beyond Earth's gravity"
+        "still trapped"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1
+        1,
+        5
       ],
       "visual": "photograph of the International Space Station orbiting Earth, NASA, 2021",
       "subjects": [
@@ -57,23 +58,25 @@
       }
     },
     {
-      "text": "While many believe space is a complete zero gravity vacuum, the everyday reality is quite different.",
+      "text": "In 1961, Soviet cosmonaut Gherman Titov reported the first case of space sickness.",
       "emphasis": [
-        "zero gravity vacuum"
+        "Gherman Titov",
+        "first case"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
-        1
+        9
       ],
-      "visual": "diagram of Earth gravity and orbital altitude comparison",
+      "visual": "official portrait of Soviet Cosmonaut Gherman Titov in flight suit, 1961",
       "subjects": [
-        "Gravity"
+        "Gherman Titov",
+        "Vostok 2"
       ],
-      "year": 0,
+      "year": 1961,
       "queries": [
-        "Earth gravity variations model",
-        "gravity shell theorem diagram"
+        "Gherman Titov portrait",
+        "Vostok 2 Gherman Titov"
       ],
       "card": {
         "kind": "none",
@@ -82,49 +85,101 @@
       }
     },
     {
-      "text": "At the soaring altitude of the space station, Earth's gravitational field is still nearly 90 percent as strong as on the ground.",
+      "text": "This sickness occurs even though space is actually not a gravity-free vacuum.",
       "emphasis": [
-        "nearly 90 percent",
-        "as strong"
+        "not a gravity-free vacuum"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        1,
+        5
+      ],
+      "visual": "illustration of gravity field lines wrapping around the Earth",
+      "subjects": [
+        "Gravity"
+      ],
+      "year": 0,
+      "queries": [
+        "Earth gravity field illustration",
+        "gravity field diagram"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "At the altitude of the space station, Earth's gravity is nearly ninety percent as strong as on the ground.",
+      "emphasis": [
+        "nearly ninety percent"
       ],
       "sfx": "riser",
       "pause_after": 0.12,
       "claims": [
         1
       ],
-      "visual": "diagram of Earth gravity decrease with altitude",
+      "visual": "diagram comparing Earth gravity strength at sea level and orbital altitude",
       "subjects": [
         "Gravity"
       ],
       "year": 0,
       "queries": [
-        "Earth gravity decrease altitude",
-        "Potsdam Gravity Potato geoid"
+        "gravity altitude diagram",
+        "Earth gravity variations model"
       ],
       "card": {
         "kind": "fact",
-        "big": "90 percent",
-        "small": "Gravity at station altitude"
+        "big": "90%",
+        "small": "Gravity at ISS altitude"
       }
     },
     {
-      "text": "Human space travellers do not float because gravity has vanished entirely from their location.",
+      "text": "Normal gravity on Earth's surface pulls at approximately nine point eight meters per second squared.",
       "emphasis": [
-        "gravity has vanished"
+        "nine point eight"
+      ],
+      "sfx": "pop",
+      "pause_after": 0.4,
+      "claims": [
+        6
+      ],
+      "visual": "illustration of Earth with gravity equation and gravity potato model",
+      "subjects": [
+        "Gravity of Earth"
+      ],
+      "year": 0,
+      "queries": [
+        "Potsdam Gravity Potato geoid",
+        "Earth gravity map"
+      ],
+      "card": {
+        "kind": "fact",
+        "big": "9.8 m/s²",
+        "small": "Earth surface gravity"
+      }
+    },
+    {
+      "text": "In orbit, gravity is still highly active, but spacecraft are in constant free fall.",
+      "emphasis": [
+        "constant free fall"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        2
+        2,
+        5
       ],
-      "visual": "photograph of astronaut floating inside the International Space Station, NASA, 2018",
+      "visual": "photograph of NASA astronaut floating inside the International Space Station, 2018",
       "subjects": [
+        "International Space Station",
         "Astronaut"
       ],
       "year": 2018,
       "queries": [
         "astronaut floating inside ISS",
-        "microgravity astronaut activity"
+        "microgravity astronaut training"
       ],
       "card": {
         "kind": "none",
@@ -133,24 +188,24 @@
       }
     },
     {
-      "text": "Instead, they stay up because they are caught in a continuous state of perpetual free fall.",
+      "text": "High horizontal speed lets them continuously fall over the curving horizon of the Earth.",
       "emphasis": [
-        "perpetual free fall"
+        "curving horizon"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
-        2,
-        3
+        3,
+        4
       ],
-      "visual": "illustration of Newton cannonball orbital mechanics thought experiment",
+      "visual": "diagram showing Newton's cannonball orbital physics thought experiment",
       "subjects": [
         "Newton's cannonball"
       ],
       "year": 0,
       "queries": [
         "Newton cannonball thought experiment diagram",
-        "orbital free fall illustration"
+        "orbital mechanics free fall"
       ],
       "card": {
         "kind": "none",
@@ -159,41 +214,17 @@
       }
     },
     {
-      "text": "Their immense horizontal speed continually carries them around the curving horizon of our home planet.",
+      "text": "And because they never stop falling around Earth, it feels like",
       "emphasis": [
-        "immense horizontal speed"
+        "never stop falling"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        4
+        2,
+        3
       ],
-      "visual": "diagram of satellite orbit trajectory around Earth",
-      "subjects": [
-        "Satellite"
-      ],
-      "year": 0,
-      "queries": [
-        "satellite orbit trajectory Earth",
-        "orbital speed diagram"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "That precise physics mechanism is why astronauts floating in orbit are actually not beyond Earth's gravity.",
-      "emphasis": [
-        "not beyond Earth's gravity"
-      ],
-      "sfx": "pop",
-      "pause_after": 0.4,
-      "claims": [
-        1
-      ],
-      "visual": "photograph of Earth curvature from the International Space Station, NASA, 2020",
+      "visual": "photograph of the Earth's curving blue horizon from orbit, NASA, 2020",
       "subjects": [
         "Earth"
       ],
@@ -209,7 +240,7 @@
       }
     }
   ],
-  "hook_text": "90 PERCENT GRAVITY IN ORBIT",
+  "hook_text": "",
   "loop": true,
-  "better_than_last": "Expanded the middle beats to increase total spoken word count to 118 words, successfully meeting the 105-135 word requirement while preserving the seamless loop."
+  "better_than_last": "Implemented the reviewer's exact hook change in Beat 1 and the seamless loop phrasing in the final beat, while restructuring the middle to hit a precise 108 spoken words."
 }

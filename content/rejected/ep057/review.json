@@ -1,0 +1,169 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-05T17:16:20+05:30",
+      "check": {
+        "duration": 60.07,
+        "words": 129,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [
+          "duration 60.07 s is outside 35-58 s"
+        ],
+        "speech_differences": [
+          "'23rd' heard as '23' after 'space on september'",
+          "'that' heard as 'the' after 'paperwork was missing'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging premise highlighting a costly math error.",
+        "clarity": "Clearly explains the metric versus imperial unit mismatch.",
+        "payoff": "The bureaucratic twist provides an interesting climax.",
+        "visuals": "Uses outdated, chronologically incorrect Apollo-era control room visuals.",
+        "loop": "Seamlessly connects the closing paperwork mistake to the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Apollo-era control room image is historically inaccurate for 1999."
+        },
+        {
+          "beat": 8,
+          "problem": "Black and white photo of 1960s engineers does not match the late-1990s setting."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 2: Most assume it was rocket failure, but the bug was in the software.",
+        "Beat 5: Since one pound is four point four five newtons, the computer undercalculated force by nearly eighty percent.",
+        "Beat 8: Navigators noticed the drift, but managers ignored them due to missing paperwork.",
+        "Beat 9: That bureaucratic failure is why a hundred-million-dollar Mars orbiter vanished from a simple math mix-up.",
+        "The render ran 60.07 s; it must be 35-58 s."
+      ],
+      "better_than_last": "This script explains a complex technical failure more clearly than the crash in ep051.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-05T17:21:26+05:30",
+      "check": {
+        "duration": 54.67,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'math mix up'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "High stakes capture interest immediately.",
+        "clarity": "Unit errors are explained simply.",
+        "payoff": "Managerial failure adds good irony.",
+        "visuals": "Late-stage repetition limits impact.",
+        "loop": "Smoothly connects back to start."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Simplifies a complex technical error more effectively than the hardware failure in ep051.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-05T17:23:30+05:30",
+      "check": {
+        "duration": 54.67,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'math mix up'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening is clear but lacks an urgent or gripping emotional anchor.",
+        "clarity": "The technical unit mismatch is explained efficiently for a general audience.",
+        "payoff": "Revealing that managers ignored the navigators adds a strong narrative layer.",
+        "visuals": "Imagery is consistently relevant and accurate to the specific historical mission.",
+        "loop": "The closing phrase connects perfectly back to the beginning for a seamless replay."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The graphic displays 125M while the caption and audio state 100-million-dollar."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A 125-million-dollar NASA orbiter was destroyed by a simple unit mismatch.",
+        "Beat 9: That bureaucratic failure is why a 125-million-dollar Mars orbiter vanished from a simple unit mismatch."
+      ],
+      "better_than_last": "This episode provides a more structured technical explanation than the NASA desert crash story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook",
+  "rejected_at": "2026-10-05T17:23:30+05:30"
+}

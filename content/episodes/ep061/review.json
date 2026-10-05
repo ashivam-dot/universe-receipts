@@ -1,0 +1,53 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-05T17:21:07+05:30",
+      "check": {
+        "duration": 49.9,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The contrast between a peaceful 'cosmic hat' and two stuffed galaxies immediately grabs attention.",
+        "clarity": "The story transitions smoothly from basic facts to the physical stats, then to the cannibalism reveal.",
+        "payoff": "The explanation of galactic cannibalism perfectly resolves how two galaxies ended up inside one.",
+        "visuals": "Beat 4 incorrectly shows the Andromeda Galaxy instead of the Sombrero Galaxy.",
+        "loop": "The word 'mask' flows naturally back into 'A serene cosmic hat' with matching visuals."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The image shows the Andromeda Galaxy (M31) instead of the Sombrero Galaxy (M104)."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode has a much tighter and more seamless loop than episode 51, and a much more intriguing, direct hook than episode 52.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

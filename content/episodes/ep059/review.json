@@ -1,0 +1,60 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-05T17:14:02+05:30",
+      "check": {
+        "duration": 45.16,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'travellers' heard as 'travelers' after 'ground human space'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The opening statement is interesting but phrased passively.",
+        "clarity": "Concepts are introduced in a clear, logical sequence.",
+        "payoff": "The free-fall explanation is standard physics rather than a shocking twist.",
+        "visuals": "Several diagrams and astronomical images feel disconnected from the narration.",
+        "loop": "The transition back into the start feels mechanical and slightly repetitive."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Displays an Einstein ring gravitational lens rather than illustrating the concept of a vacuum or zero gravity."
+        },
+        {
+          "beat": 6,
+          "problem": "Shows a trajectory label for the Lucy mission which is distracting and off-topic."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Astronauts floating in orbit are still trapped by Earth's gravity.",
+        "Beat 7: And because they never stop falling around Earth, it feels like"
+      ],
+      "better_than_last": "It explains a fundamental physics misconception with clearer step-by-step logic than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -116,7 +116,7 @@
     {
       "text": "After completing the first United States space docking, a thruster short-circuited and stuck open.",
       "emphasis": [
-        "first United States space docking",
+        "space docking",
         "stuck open"
       ],
       "sfx": "none",
@@ -142,17 +142,18 @@
       }
     },
     {
-      "text": "The combined spacecraft entered an uncontrolled rotation reaching nearly one revolution per second.",
+      "text": "Thinking the target caused the spin, they undocked, which made the lighter capsule spin even faster.",
       "emphasis": [
-        "uncontrolled rotation",
-        "one revolution per second"
+        "lighter capsule",
+        "spin even faster"
       ],
-      "sfx": "riser",
+      "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        6
+        4,
+        5
       ],
-      "visual": "Gemini spacecraft capsule model or diagram, 1966",
+      "visual": "Gemini spacecraft capsule model, 1966",
       "subjects": [
         "Gemini 8"
       ],
@@ -168,15 +169,15 @@
       }
     },
     {
-      "text": "Threatened with blacking out, Armstrong shut down the orbital thrusters and fired the reentry control system.",
+      "text": "The uncontrolled rotation accelerated, reaching nearly one revolution per second and threatening a blackout.",
       "emphasis": [
-        "blacking out",
-        "reentry control system"
+        "one revolution per second",
+        "blackout"
       ],
-      "sfx": "none",
+      "sfx": "riser",
       "pause_after": 0.12,
       "claims": [
-        7
+        6
       ],
       "visual": "Astronauts Neil Armstrong and David Scott, 1966",
       "subjects": [
@@ -195,15 +196,17 @@
       }
     },
     {
-      "text": "That emergency maneuver used seventy-five percent of their emergency fuel to stabilize the ship.",
+      "text": "Using seventy-five percent of their emergency fuel, Armstrong stabilized the ship for immediate abort.",
       "emphasis": [
         "seventy-five percent",
-        "stabilize the ship"
+        "stabilized the ship"
       ],
       "sfx": "pop",
       "pause_after": 0.4,
       "claims": [
-        8
+        7,
+        8,
+        9
       ],
       "visual": "Gemini 8 capsule recovery in the water, 1966",
       "subjects": [
@@ -221,16 +224,15 @@
       }
     },
     {
-      "text": "Undocking to escape a violent spin made Armstrong's capsule spin faster.",
+      "text": "They survived by using the reentry thrusters to stop the roll.",
       "emphasis": [
-        "violent spin",
-        "spin faster"
+        "survived",
+        "stop the roll"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        4,
-        5
+        7
       ],
       "visual": "Gemini 8 mission insignia, 1966",
       "subjects": [
@@ -250,5 +252,5 @@
   ],
   "hook_text": "A STUCK THRUSTER IN ORBIT",
   "loop": true,
-  "better_than_last": "This episode applies a contradiction hook and myth_vs_fact structure with a seamless rewatch loop to maximize engaged share, while keeping the hook strictly under 12 words."
+  "better_than_last": "This revision incorporates the reviewer's exact feedback on Beat 8 regarding the reentry thrusters, maintaining high narrative tension and a seamless loop back to the hook."
 }

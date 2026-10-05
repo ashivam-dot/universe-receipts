@@ -68,7 +68,7 @@ unexplained, not alien.
 - HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds
 - Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare — done (ep032)
 - Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — parked (ep018)
-- WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth — making (ep055)
+- WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth — done (ep055)
 - Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all — parked (ep043)
 - Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece
 - Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty
@@ -84,7 +84,7 @@ unexplained, not alien.
 - Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014 — done (ep048)
-- Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe — making (ep054)
+- Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe — parked (ep054)
 - Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old — parked (ep038)
 - Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself — parked (ep042)
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — parked (ep006)
@@ -101,8 +101,8 @@ unexplained, not alien.
 
 - Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated — parked (ep034)
 - Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127
-- Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — making (ep057)
-- OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space
+- Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — parked (ep057)
+- OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space — making (ep062)
 - Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life — done (ep045)
 - New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it — parked (ep031)
@@ -130,7 +130,7 @@ unexplained, not alien.
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009 — done (ep040)
 - SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars
 - 55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond
-- 16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet
+- 16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet — making (ep064)
 
 ### Near Misses
 
@@ -144,7 +144,7 @@ unexplained, not alien.
 - Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months
 - 1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm — parked (ep044)
 - Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater — done (ep024)
-- Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years
+- Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years — making (ep063)
 - 4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed
 - 2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach
 - 4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange "ginger-root" shape
@@ -161,7 +161,7 @@ unexplained, not alien.
 - Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — parked (ep025)
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close — done (ep028)
 - Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — parked (ep005)
-- Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop
+- Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop — making (ep065)
 - Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes
 - Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun
 - Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground — making (ep059)

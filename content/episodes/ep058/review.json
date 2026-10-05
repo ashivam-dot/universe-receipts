@@ -1,0 +1,115 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-05T17:18:13+05:30",
+      "check": {
+        "duration": 51.57,
+        "words": 132,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'hoag' heard as 'hogue' after 'in 1950 arthur'",
+          "'serpens' heard as 'serpent is' after 'core in the'",
+          "'hoag' heard as 'hogue' after 'the serpens constellation'",
+          "'hoag' heard as 'hogue' after 'distant light but'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing concept of an impossible galaxy seen through another.",
+        "clarity": "Clear chronological flow of discovery and theories.",
+        "payoff": "The reveal of the hidden second galaxy is satisfying.",
+        "visuals": "The background galaxy is too small to resolve on a mobile screen.",
+        "loop": "The repeat of the opening line makes a seamless connection."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "The background ring galaxy is not zoomed in and remains invisible at phone size."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Serpens",
+          "respelling": "sir penz"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode features a perfectly seamless loop that improves on the transitions of previous episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-05T17:21:21+05:30",
+      "check": {
+        "duration": 51.62,
+        "words": 132,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'serpens' heard as 'serpents' after 'core in the'",
+          "'(nothing)' heard as 'you' after 'gap of another'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Visual hook captures attention immediately.",
+        "clarity": "Logical flow through theories and facts.",
+        "payoff": "Hidden galaxy reveal is a strong ending.",
+        "visuals": "Imagery consistently matches the subject matter.",
+        "loop": "Seamless transition between the end and start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "diagram contains too much small text for mobile"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Uses spatial cues more effectively than ep051 to highlight specific details.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

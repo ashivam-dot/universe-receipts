@@ -1,0 +1,151 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-05T17:15:43+05:30",
+      "check": {
+        "duration": 56.19,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'bursts using nasa'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening hook about an impossible cosmic structure grabs immediate interest.",
+        "clarity": "Logical flow tracing the mapping of bursts to cosmological principle conflicts.",
+        "payoff": "Nice balance of scientific skepticism and a fun Wikipedia naming trivia twist.",
+        "visuals": "Using the Wikipedia logo for a beat about scientific critics is mismatched.",
+        "loop": "Seamless grammatical transition back to the first line creates an excellent loop."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The Wikipedia logo image is unrelated to the discussion of scientific critics and statistical illusions."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It integrates a lighter, human-interest angle better than the pure technical focus of ep051.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-05T17:17:23+05:30",
+      "check": {
+        "duration": 56.19,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'bursts using nasa'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening hook with a clear and intriguing premise.",
+        "clarity": "The sudden jump to the Wikipedia naming trivia disrupts the scientific narrative.",
+        "payoff": "The trivia is neat, but the transition to scientific skepticism feels disjointed.",
+        "visuals": "Using a Wikipedia logo while discussing scientific skepticism is highly off-topic.",
+        "loop": "Seamless flow from the end back to the start of the video."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The frame repeats the Wikipedia logo from beat 6, which is irrelevant to critics and future telescopes."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Instead say 'But some astronomers argue this giant record-breaker might not even be real.'",
+        "Beat 7: Instead say 'They believe it could be a statistical illusion, leaving its existence to be proven by future telescopes.'"
+      ],
+      "better_than_last": "It sets up a much more seamless and effective loop than ep051.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-05T17:23:05+05:30",
+      "check": {
+        "duration": 53.37,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging premise about an impossible cosmic scale.",
+        "clarity": "Clear explanation of the discovery and data.",
+        "payoff": "Good twist regarding Wikipedia naming and doubts.",
+        "visuals": "Informative diagrams, though Wikipedia frame is plain.",
+        "loop": "Seamless phrase repetition back into the start."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Includes a unique human-interest twist with the Wikipedia naming detail.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-05T17:23:05+05:30"
+}
