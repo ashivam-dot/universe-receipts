@@ -96,7 +96,7 @@ unexplained, not alien.
 
 - Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated — parked (ep034)
 - Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127
-- Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons
+- Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — making (ep057)
 - OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space
 - Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life — done (ep045)
@@ -114,9 +114,9 @@ unexplained, not alien.
 
 - PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star
 - Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain
-- Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy
+- Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy — making (ep058)
 - Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — parked (ep022)
-- Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer — making (ep052)
+- Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer — done (ep052)
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests — done (ep046)
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — parked (ep011)
 - Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings — parked (ep029)
@@ -134,7 +134,7 @@ unexplained, not alien.
 - 2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032
 - Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past — done (ep050)
 - July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot
-- Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin
+- Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin — making (ep056)
 - Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months
 - 1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm — parked (ep044)
 - Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater — done (ep024)
@@ -157,4 +157,4 @@ unexplained, not alien.
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop
 - Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes
 - Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun
-- Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground
+- Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground — making (ep059)

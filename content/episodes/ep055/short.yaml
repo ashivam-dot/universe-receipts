@@ -1,0 +1,149 @@
+id: ep055
+title: The Death Star System Pointed at Earth
+series: The Universe Is Terrifying
+description: WR 104 is a pinwheel-shaped star system once feared to be pointed at Earth for a gamma-ray burst.
+sources:
+- https://en.wikipedia.org/wiki/WR_104
+- https://www.star-facts.com/wr-104/
+- https://keckobservatory.org/pinwheel/
+- https://web.archive.org/web/20170605032809/http://www.nature.com/news/2008/080306/full/news.2008.653.html
+- https://www.space.com/the-universe/stars/new-research-on-death-star-that-looks-like-a-cosmic-pinwheel-reduces-gamma-ray-burst-threat-to-earth
+- http://www.universetoday.com/23342/wr-104-wont-kill-us-after-all/
+- https://web.archive.org/web/20171221000429/http://science.time.com/2012/12/21/the-super-duper-planet-frying-exploding-star-thats-not-going-to-hurt-us-so-please-stop-worrying-about-it/
+hashtags:
+- '#space'
+- '#astronomy'
+- '#stars'
+tags:
+- WR 104
+- death star
+- gamma-ray burst
+- Wolf-Rayet star
+- pinwheel nebula
+- astronomy
+- space
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: A cosmic Death Star was once feared to be pointed at Earth.
+  emphasis:
+  - Death Star
+  - pointed at Earth
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/92/Wr104_sslkeck_big.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Wr104 sslkeck big.jpg
+      credit: Télescope Keck
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Wr104_sslkeck_big.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Death Star
+      small: WR 104 system
+- text: Deep in the constellation Sagittarius lies WR 104, located about eight thousand four hundred light-years from Earth.
+  emphasis:
+  - constellation Sagittarius
+  - eight thousand four hundred light-years
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: 8,400 Light-Years
+      small: Constellation Sagittarius
+    motion: zoom_in
+- text: At its heart, a massive Wolf-Rayet star and an OB companion orbit each other every eight months.
+  emphasis:
+  - Wolf-Rayet star
+  - every eight months
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/A_cosmic_couple.jpg/960px-A_cosmic_couple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: A cosmic couple.jpg
+      credit: 'ESA/Hubble & NASA; Acknowledgement: Judy Schmidt (geckzilla.com)'
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:A_cosmic_couple.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Their powerful stellar winds slam together, creating a spinning pinwheel nebula over two hundred astronomical units
+    wide.
+  emphasis:
+  - pinwheel nebula
+  - two hundred astronomical units
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 200 AU
+      small: Nebula diameter
+    motion: zoom_in
+- text: Early imaging suggested Earth was looking directly down the rotational axis, sparking panic over a lethal gamma-ray
+    burst.
+  emphasis:
+  - rotational axis
+  - lethal gamma-ray burst
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Gamma-rays_hitting_the_Earth%27s_atmosphere.tif/lossy-page1-1920px-Gamma-rays_hitting_the_Earth%27s_atmosphere.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Gamma-rays hitting the Earth's atmosphere.tif
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Gamma-rays_hitting_the_Earth%27s_atmosphere.tif
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Recent Keck Observatory research revealed that the actual stellar orbit is tilted thirty to forty degrees away from
+    us.
+  emphasis:
+  - Keck Observatory
+  - tilted thirty to forty degrees
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/2f/KeckObservatory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: KeckObservatory.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:KeckObservatory.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 30 to 40 Degrees
+      small: Orbital tilt
+- text: Earth is safely out of the firing line, proving why a cosmic Death Star was once feared to be pointed at Earth.
+  emphasis:
+  - safely out of the firing line
+  - pointed at Earth
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
