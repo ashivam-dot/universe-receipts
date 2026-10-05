@@ -10,11 +10,11 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 43% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 56.9% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 105% | rising week over week |
-| Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
-| Likes per 100 views | `likes` / `views` | 3.6 | 4+ |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 47% | 70%+; under 60% rarely takes off |
+| Average percentage viewed | `analytics.averageViewPercentage` | 63.7% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 112% | rising week over week |
+| Subscribers per 1,000 views | `subscribersGained` / `views` | 0.4 | 2+ |
+| Likes per 100 views | `likes` / `views` | 3.8 | 4+ |
 
 ## Rules we've proven
 
@@ -30,6 +30,7 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 
 - Cut each Short to 45-59 seconds to maximize reach potential.
 - Deliver the core narrative payoff or setup within the first 3 seconds immediately after the hook to prevent pacing drop-off. Evidence: ep009.
+- Avoid repeating exact hook phrases in the final beat and instead use a distinct concluding payoff or forward-looking question to prevent drops in likes and engagement. Evidence: ep028, ep036.
 
 ## Scoreboard
 
@@ -38,13 +39,14 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep002 | Mission Files | statement, story | 103 | 44% | 42.7% | 88% | 0 | Passive hook style and sluggish script pacing dropped average view percentage and engaged share below channel medians. |
-| ep008 | The Universe Is Terrifying | statement, story | 862 | 47% | 84.1% | 131% | 5 | Strong curiosity hook and solid middle beats drove high view duration, though a weak closing narrative caused late retention drop-off. |
-| ep009 | Near Misses | statement, story | 247 | 42% | 62.0% | 105% | 0 | Historical premise secured steady baseline traction, but narrative pacing lost momentum immediately following the opening hook. |
-| ep013 | Scale Breaker | contradiction, story | 922 | – | – | – | – | Paradox hook and clean loop drove channel-leading audience resonance and high views, but a closed-loop ending resulted in zero comments. |
-| ep024 | Near Misses | contradiction, scale_ladder | 953 | 42% | 51.8% | 105% | 1 | High-concept contradiction hook successfully grabbed attention and drove record views, but dry historical delivery reduced likes. |
-| ep028 | Space Myths, Busted | statement, mystery | 1250 | – | – | – | – | Mystery structure captured initial feed share for top-tier views, though the closing statement failed to drive high community interaction. |
-| ep036 | Mission Files | statement, story | 1013 | – | – | – | – | Vivid opening visual drove strong early distribution and high hourly views, while a repetitive ending beat held back overall likes. |
+| ep002 | Mission Files | statement, story | 103 | 47% | 39.1% | 85% | 0 | Passive statement hook failed to grab attention, resulting in weak engaged share (46.6%) and low average view percentage (39.14%). |
+| ep004 | Mission Files | statement, story | 1054 | – | – | – | – | Paradoxical hook drove strong early velocity (1,054 views), but closed-loop ending resulted in zero comments. |
+| ep008 | The Universe Is Terrifying | statement, story | 863 | 47% | 84.0% | 130% | 5 | Intriguing hook and strong middle beats achieved high average view percentage (84.01%), though the ending dropped off. |
+| ep009 | Near Misses | statement, story | 249 | 42% | 59.9% | 104% | 0 | Strong initial retention from early rewatches was offset by a steep mid-to-late pacing drop. |
+| ep013 | Scale Breaker | contradiction, story | 957 | 56% | 67.5% | 119% | 2 | Paradox hook and clean loop drove high audience resonance and views, but closed factual ending produced zero comments. |
+| ep024 | Near Misses | contradiction, scale_ladder | 954 | 46% | 53.7% | 104% | 1 | High-concept contradiction hook drove strong initial views, but passive history delivery hurt likes and comments. |
+| ep028 | Space Myths, Busted | statement, mystery | 1253 | 54% | 82.1% | 130% | 1 | Strong mystery hook captured top views (1,253), but the ending failed to drive robust comment interaction. |
+| ep036 | Mission Files | statement, story | 1016 | – | – | – | – | Vivid opening visual drove strong early views (1,016), but a repetitive ending beat hurt likes per 100 views. |
 
 ## Log
 
@@ -62,3 +64,4 @@ contradiction.
 - 2026-10-05: Promoted open-ended endings to a rule after ep028 confirmed that high-velocity mystery hooks still fail to generate interaction without a prompt.
 - 2026-10-05: Promoted the seamless audio looping hypothesis to a rule based on evidence from ep008 and ep028 showing higher retention and rewatch potential.
 - 2026-10-05: Updated playbook rules and hypotheses using review data from recent Shorts to refine scriptwriting focus.
+- 2026-10-06: Added a new hypothesis regarding avoiding repetitive hook phrases in final beats based on ep028 and ep036 reviews.

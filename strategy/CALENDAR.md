@@ -70,7 +70,7 @@ unexplained, not alien.
 - Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — parked (ep018)
 - WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth — done (ep055)
 - Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all — parked (ep043)
-- Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece
+- Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece — making (ep068)
 - Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty
 - R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot
 - 3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away — done (ep023)
@@ -81,7 +81,7 @@ unexplained, not alien.
 ### Scale Breaker
 
 - TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star — parked (ep010)
-- Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit
+- Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit — making (ep067)
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014 — done (ep048)
 - Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe — parked (ep054)
@@ -100,7 +100,7 @@ unexplained, not alien.
 ### Mission Files
 
 - Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated — parked (ep034)
-- Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127
+- Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127 — making (ep069)
 - Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — parked (ep057)
 - OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space — making (ep062)
 - Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour
@@ -129,8 +129,8 @@ unexplained, not alien.
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009 — done (ep040)
 - SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars
-- 55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond
-- 16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet — making (ep064)
+- 55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond — making (ep066)
+- 16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet — dropped (ep064)
 
 ### Near Misses
 

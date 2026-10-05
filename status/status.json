@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-05T23:11:59+05:30",
-  "day": 4,
+  "updated_at": "2026-10-06T05:07:04+05:30",
+  "day": 5,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M46J46QERCWQ2W1C802CP37R",
+    "id": "ta-01M476QC6B1V19WGAAXBKR7ZZR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-05T23:05:10+05:30",
-    "started_at_utc": "2026-10-05T17:35:10+00:00",
-    "seconds": 409
+    "started_at": "2026-10-06T05:05:10+05:30",
+    "started_at_utc": "2026-10-05T23:35:10+00:00",
+    "seconds": 114
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.4
+      "seconds": 2.1
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "19 posts",
-      "seconds": 0.8
+      "seconds": 1.8
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
+      "detail": "added ep017 to 'Mission Files'",
       "seconds": 2.1
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "on youtube",
@@ -45,38 +45,32 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep036 at 24 h: ahead of the channel's earlier Shorts at this age: 1013 views against a median of 710 (1.4x); learnings: Updated playbook rules and hypotheses using review data from recent Shorts to refine scriptwriting focus.",
-      "seconds": 341.8
+      "detail": "ep004 at 24 h: ahead of the channel's earlier Shorts at this age: 1054 views against a median of 732 (1.4x); ep009 at 72 h: shown: 249 views in 73 hours, 4.4 likes per 100 views; learnings: Added a new hypothesis regarding avoiding repetitive hook phrases in final beats based on ep028 and ep036 reviews.",
+      "seconds": 69.8
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep053 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep054 rejected (low scores: visuals); ep055 ready; ep056 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep057 rejected (low scores: hook); ep058 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5",
-      "seconds": 34.3
+      "detail": "ep062 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep063 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep064 rejected (research: only 4 claims have two different sites); ep065 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-",
+      "seconds": 13.1
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.5
-    },
-    {
-      "name": "preflight ep017",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.9
+      "seconds": 0.4
     },
     {
       "name": "preflight ep023",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.6
     },
     {
       "name": "preflight ep033",
       "ok": true,
-      "detail": "video downloads whole (17 MB in 1 s)",
-      "seconds": 1.1
+      "detail": "video still hosted",
+      "seconds": 0.7
     },
     {
       "name": "preflight ep035",
@@ -88,56 +82,58 @@
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 2.1
     },
     {
-      "name": "start ep062",
+      "name": "schedule ep050",
       "ok": true,
-      "detail": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
-      "seconds": 2.0
+      "detail": "2026-10-10T19:00:00-04:00",
+      "seconds": 1.2
     },
     {
-      "name": "start ep063",
+      "name": "start ep066",
       "ok": true,
-      "detail": "Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years",
-      "seconds": 1.8
+      "detail": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
+      "seconds": 1.7
     },
     {
-      "name": "start ep064",
+      "name": "start ep067",
       "ok": true,
-      "detail": "16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet",
-      "seconds": 0.9
+      "detail": "Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit",
+      "seconds": 1.6
     },
     {
-      "name": "start ep065",
+      "name": "start ep068",
       "ok": true,
-      "detail": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
-      "seconds": 1.8
+      "detail": "Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep069",
+      "ok": true,
+      "detail": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "seconds": 0.8
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.7
+      "seconds": 0.8
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep053 stopped on Gemini's free quota; it resumes in a later run",
-    "ep056 stopped on Gemini's free quota; it resumes in a later run",
-    "ep058 stopped on Gemini's free quota; it resumes in a later run",
-    "ep059 stopped on Gemini's free quota; it resumes in a later run",
-    "ep060 stopped on Gemini's free quota; it resumes in a later run",
-    "ep061 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 5 waiting",
+    "ep062 stopped on Gemini's free quota; it resumes in a later run",
+    "ep063 stopped on Gemini's free quota; it resumes in a later run",
+    "ep065 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 5 waiting"
+    "Buffer is full (10 queued); 4 waiting"
   ],
   "inventory": {
-    "total": 15,
+    "total": 14,
     "in_buffer": 10,
-    "waiting": 5,
+    "waiting": 4,
     "target": 42,
     "making": [
       "ep053",
@@ -145,21 +141,19 @@
       "ep058",
       "ep059",
       "ep060",
-      "ep061"
-    ],
-    "remote": [
+      "ep061",
       "ep062",
       "ep063",
-      "ep064",
       "ep065"
+    ],
+    "remote": [
+      "ep066",
+      "ep067",
+      "ep068",
+      "ep069"
     ]
   },
   "queue": [
-    {
-      "id": "ep017",
-      "title": "The Spacecraft That Launched First",
-      "due_at": "2026-10-05T19:00:00-04:00"
-    },
     {
       "id": "ep035",
       "title": "The Asteroid Passing Closer Than Our Satellites",
@@ -204,6 +198,11 @@
       "id": "ep052",
       "title": "The Cosmic Mystery of Tabby's Star",
       "due_at": "2026-10-09T21:30:00-04:00"
+    },
+    {
+      "id": "ep050",
+      "title": "The Day an Undetected Asteroid Blindsided Earth",
+      "due_at": "2026-10-10T19:00:00-04:00"
     }
   ],
   "waiting": [
@@ -220,12 +219,6 @@
       "score": 22
     },
     {
-      "id": "ep050",
-      "title": "The Day an Undetected Asteroid Blindsided Earth",
-      "series": "Near Misses",
-      "score": 24
-    },
-    {
       "id": "ep051",
       "title": "The NASA Mission That Fell from the Sky",
       "series": "Mission Files",
@@ -240,75 +233,31 @@
   ],
   "made": [
     {
-      "id": "ep053",
+      "id": "ep062",
       "outcome": "unfinished",
-      "topic": "Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day",
+      "topic": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep054",
+      "id": "ep063",
+      "outcome": "unfinished",
+      "topic": "Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep064",
       "outcome": "rejected",
-      "topic": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
-      "reason": "low scores: visuals"
+      "topic": "16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet",
+      "reason": "research: only 4 claims have two different sites"
     },
     {
-      "id": "ep055",
-      "outcome": "ready",
-      "topic": "WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth",
-      "title": "The Death Star System Pointed at Earth",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791200979/universereceipts/ep055-a3c0558d.mp4"
-    },
-    {
-      "id": "ep056",
+      "id": "ep065",
       "outcome": "unfinished",
-      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep057",
-      "outcome": "rejected",
-      "topic": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
-      "reason": "low scores: hook"
-    },
-    {
-      "id": "ep058",
-      "outcome": "unfinished",
-      "topic": "Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep059",
-      "outcome": "unfinished",
-      "topic": "Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep060",
-      "outcome": "unfinished",
-      "topic": "Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep061",
-      "outcome": "unfinished",
-      "topic": "Sombrero Galaxy (1781): a massive ring of stars that hides a violent history of galactic cannibalism",
+      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -316,62 +265,69 @@
   ],
   "spawned": [
     {
-      "id": "ep062",
-      "topic": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
-      "call_id": "fc-01M46JGRM37E07398WRBCSCGNX"
+      "id": "ep066",
+      "topic": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
+      "call_id": "fc-01M476TYPJHEP1ARBG4MX5YBV6"
     },
     {
-      "id": "ep063",
-      "topic": "Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years",
-      "call_id": "fc-01M46JGTDSCVH5W0S80KAEXSXZ"
+      "id": "ep067",
+      "topic": "Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit",
+      "call_id": "fc-01M476V07WWRY53TBGXM40HK9N"
     },
     {
-      "id": "ep064",
-      "topic": "16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet",
-      "call_id": "fc-01M46JGVAA7PWH6P7HB8BJQETP"
+      "id": "ep068",
+      "topic": "Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece",
+      "call_id": "fc-01M476V1T7MHJZRZG7QVNX8W5N"
     },
     {
-      "id": "ep065",
-      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
-      "call_id": "fc-01M46JGX3SJBK88DTQT5PQHDBP"
+      "id": "ep069",
+      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "call_id": "fc-01M476V2MHVD7MQ8DSNRJNTSYD"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep062",
-      "topic": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
-      "spawned_at": "2026-10-05T23:11:53+05:30"
+      "id": "ep066",
+      "topic": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
+      "spawned_at": "2026-10-06T05:06:58+05:30"
     },
     {
-      "id": "ep063",
-      "topic": "Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years",
-      "spawned_at": "2026-10-05T23:11:54+05:30"
+      "id": "ep067",
+      "topic": "Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit",
+      "spawned_at": "2026-10-06T05:06:59+05:30"
     },
     {
-      "id": "ep064",
-      "topic": "16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet",
-      "spawned_at": "2026-10-05T23:11:55+05:30"
+      "id": "ep068",
+      "topic": "Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece",
+      "spawned_at": "2026-10-06T05:07:01+05:30"
     },
     {
-      "id": "ep065",
-      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
-      "spawned_at": "2026-10-05T23:11:57+05:30"
+      "id": "ep069",
+      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "spawned_at": "2026-10-06T05:07:02+05:30"
     }
   ],
-  "published": [],
-  "live": 9,
+  "published": [
+    {
+      "id": "ep050",
+      "title": "The Day an Undetected Asteroid Blindsided Earth",
+      "due_at": "2026-10-10T19:00:00-04:00"
+    }
+  ],
+  "live": 10,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 40,
+    "calls": 20,
     "by_model": {
-      "gemini-3.6-flash": 2,
-      "gemini-3.5-flash-lite": 11,
-      "gemini-3.5-flash": 14,
-      "gemini-3-flash-preview": 11,
-      "gemini-3.8-flash": 2
+      "gemini-3.7-flash": 1,
+      "gemini-3.6-flash": 1,
+      "gemini-3.5-flash-lite": 17,
+      "gemini-3-flash-preview": 1
     },
     "out_of_quota": [
+      "gemini-3-flash-preview",
+      "gemini-3.5-flash",
       "gemini-3.6-flash",
       "gemini-3.7-flash",
       "gemini-3.8-flash",
@@ -379,24 +335,24 @@
     ]
   },
   "renders": {
-    "modal": 20,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-10-05",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 6.05,
+    "metered": 6.17,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 182,
+    "cloud": 181,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 21.95
+    "modal_credit_left": 21.83
   },
   "made_here": 0,
-  "open_topics": 54,
+  "open_topics": 50,
   "parked_topics": 24
 }
