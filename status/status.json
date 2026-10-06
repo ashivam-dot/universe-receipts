@@ -1,126 +1,241 @@
 {
-  "updated_at": "2026-10-06T11:08:07+05:30",
+  "updated_at": "2026-10-06T17:11:26+05:30",
   "day": 5,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M47VAHVDN1TAA7CQ820SPR1R",
+    "id": "ta-01M48FXQHERFRNESV78BZR7QBR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-06T11:05:06+05:30",
-    "started_at_utc": "2026-10-06T05:35:06+00:00",
-    "seconds": 181
+    "started_at": "2026-10-06T17:05:10+05:30",
+    "started_at_utc": "2026-10-06T11:35:10+00:00",
+    "seconds": 376
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 3.3
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "20 posts",
-      "seconds": 1.0
+      "detail": "21 posts",
+      "seconds": 0.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep035 to 'Near Misses'",
-      "seconds": 1.7
+      "detail": "nothing new",
+      "seconds": 2.0
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.1
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep017 at 6 h: level with the channel's earlier Shorts at this age: 901 views against a median of 774 (1.2x); ep024 at 72 h: ahead of the channel's earlier Shorts at this age: 955 views against a median of 249 (3.8x); ep032 at 24 h: ahead of the channel's earlier Shorts at this age: 1027 views against a median of 780 (1.3x); learnings: Updated learning log with latest short reviews, reinforcing current rules and maintaining hypotheses.",
-      "seconds": 155.7
+      "detail": "ep035 at 6 h: ahead of the channel's earlier Shorts at this age: 1184 views against a median of 838 (1.4x)",
+      "seconds": 1.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep066 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep067 rejected (research: fewer than two readable sources); ep068 rejected (research: only 0 claims have two different sites); ep069 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 8.1
+      "detail": "ep070 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep071 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep072 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
+      "seconds": 12.9
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "23 subscribers",
+      "seconds": 2.8
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Promoted the rule against verbatim hook repetition in endings after ep024 and ep036 both showed engagement and retention drops.",
+      "seconds": 24.2
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.6
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "2 added",
+      "seconds": 264.8
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 31.3
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-005.md",
+      "seconds": 0.6
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "preflight ep023",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.2
+    },
+    {
+      "name": "preflight ep030",
+      "ok": true,
+      "detail": "video downloads whole (17 MB in 1 s)",
+      "seconds": 0.8
     },
     {
       "name": "preflight ep033",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 0.8
     },
     {
-      "name": "schedule ep055",
+      "name": "start ep053",
       "ok": true,
-      "detail": "2026-10-10T21:30:00-04:00",
-      "seconds": 0.8
+      "detail": "Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day",
+      "seconds": 3.1
+    },
+    {
+      "name": "start ep056",
+      "ok": true,
+      "detail": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+      "seconds": 1.8
+    },
+    {
+      "name": "start ep058",
+      "ok": true,
+      "detail": "Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep059",
+      "ok": true,
+      "detail": "Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep060",
+      "ok": true,
+      "detail": "Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep061",
+      "ok": true,
+      "detail": "Sombrero Galaxy (1781): a massive ring of stars that hides a violent history of galactic cannibalism",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep062",
+      "ok": true,
+      "detail": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep063",
+      "ok": true,
+      "detail": "Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep065",
+      "ok": true,
+      "detail": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep066",
+      "ok": true,
+      "detail": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep069",
+      "ok": true,
+      "detail": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "seconds": 1.1
     },
     {
       "name": "start ep070",
       "ok": true,
       "detail": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
-      "seconds": 0.5
+      "seconds": 1.2
     },
     {
       "name": "start ep071",
       "ok": true,
       "detail": "Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty",
-      "seconds": 0.5
+      "seconds": 1.1
     },
     {
       "name": "start ep072",
       "ok": true,
       "detail": "July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot",
-      "seconds": 0.5
+      "seconds": 1.1
     },
     {
       "name": "start ep073",
       "ok": true,
       "detail": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
-      "seconds": 0.5
+      "seconds": 1.2
+    },
+    {
+      "name": "start ep074",
+      "ok": true,
+      "detail": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
+      "seconds": 1.1
+    },
+    {
+      "name": "start ep075",
+      "ok": true,
+      "detail": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "seconds": 1.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.5
+      "seconds": 0.8
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep066 stopped on Gemini's free quota; it resumes in a later run",
-    "ep069 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "ep070 stopped on Gemini's free quota; it resumes in a later run",
+    "ep071 stopped on Gemini's free quota; it resumes in a later run",
+    "ep072 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 3 waiting",
     "Buffer is full (10 queued); 3 waiting"
   ],
   "inventory": {
@@ -128,7 +243,8 @@
     "in_buffer": 10,
     "waiting": 3,
     "target": 42,
-    "making": [
+    "making": [],
+    "remote": [
       "ep053",
       "ep056",
       "ep058",
@@ -139,13 +255,13 @@
       "ep063",
       "ep065",
       "ep066",
-      "ep069"
-    ],
-    "remote": [
+      "ep069",
       "ep070",
       "ep071",
       "ep072",
-      "ep073"
+      "ep073",
+      "ep074",
+      "ep075"
     ]
   },
   "queue": [
@@ -222,121 +338,245 @@
   ],
   "made": [
     {
-      "id": "ep066",
+      "id": "ep070",
       "outcome": "unfinished",
-      "topic": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
+      "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep067",
-      "outcome": "rejected",
-      "topic": "Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit",
-      "reason": "research: fewer than two readable sources"
-    },
-    {
-      "id": "ep068",
-      "outcome": "rejected",
-      "topic": "Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
-      "id": "ep069",
+      "id": "ep071",
       "outcome": "unfinished",
-      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "topic": "Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep072",
+      "outcome": "unfinished",
+      "topic": "July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep073",
+      "outcome": "unfinished",
+      "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
+      "reason": "LookupError: unknown encoding: .utf8",
+      "quota": false,
       "overloaded": false
     }
   ],
   "spawned": [
     {
+      "id": "ep053",
+      "topic": "Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day",
+      "call_id": "fc-01M48G8WNW2SCHRJ189GDVHHQ7"
+    },
+    {
+      "id": "ep056",
+      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+      "call_id": "fc-01M48G8YCN85N143T2N2W6Q5KG"
+    },
+    {
+      "id": "ep058",
+      "topic": "Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy",
+      "call_id": "fc-01M48G8ZAFHDYAYY21AJQRDYJA"
+    },
+    {
+      "id": "ep059",
+      "topic": "Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground",
+      "call_id": "fc-01M48G9072YPH0DWR76MTSV974"
+    },
+    {
+      "id": "ep060",
+      "topic": "Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe",
+      "call_id": "fc-01M48G91TP8G35WSKSSSE09SEC"
+    },
+    {
+      "id": "ep061",
+      "topic": "Sombrero Galaxy (1781): a massive ring of stars that hides a violent history of galactic cannibalism",
+      "call_id": "fc-01M48G92NV9QKRAV3R99KRF0AW"
+    },
+    {
+      "id": "ep062",
+      "topic": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
+      "call_id": "fc-01M48G93JQM9CZZB517AGRSR58"
+    },
+    {
+      "id": "ep063",
+      "topic": "Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years",
+      "call_id": "fc-01M48G94FCG769NNZ6VMWNNYW6"
+    },
+    {
+      "id": "ep065",
+      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
+      "call_id": "fc-01M48G95EGG6TPF8JRZ0DAMK21"
+    },
+    {
+      "id": "ep066",
+      "topic": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
+      "call_id": "fc-01M48G96ZAPAZQF5C80YMVP00B"
+    },
+    {
+      "id": "ep069",
+      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "call_id": "fc-01M48G9814249HQAA89QZ0P85T"
+    },
+    {
       "id": "ep070",
       "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
-      "call_id": "fc-01M47VG5P99VGBGSHSX3KRD8VB"
+      "call_id": "fc-01M48G9967TVG9VEKRB9ST6E4T"
     },
     {
       "id": "ep071",
       "topic": "Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty",
-      "call_id": "fc-01M47VG665CGHMTEY7H79NXG1D"
+      "call_id": "fc-01M48G9AA4PQGA2K1KP54Y2RM0"
     },
     {
       "id": "ep072",
       "topic": "July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot",
-      "call_id": "fc-01M47VG6P8QT024C1P8PGR8RG6"
+      "call_id": "fc-01M48G9BBM5SWP72BARET5QYVW"
     },
     {
       "id": "ep073",
       "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
-      "call_id": "fc-01M47VG74NEDAJKQ19RCKPD232"
+      "call_id": "fc-01M48G9CFYNTAE8GSHHGYX9780"
+    },
+    {
+      "id": "ep074",
+      "topic": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
+      "call_id": "fc-01M48G9DM2E2Y7RPVJGZN5JDJ2"
+    },
+    {
+      "id": "ep075",
+      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "call_id": "fc-01M48G9EP3R855JZKPXF2MP03F"
     }
   ],
   "in_cloud": [
     {
+      "id": "ep053",
+      "topic": "Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day",
+      "spawned_at": "2026-10-06T17:11:06+05:30"
+    },
+    {
+      "id": "ep056",
+      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+      "spawned_at": "2026-10-06T17:11:08+05:30"
+    },
+    {
+      "id": "ep058",
+      "topic": "Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy",
+      "spawned_at": "2026-10-06T17:11:09+05:30"
+    },
+    {
+      "id": "ep059",
+      "topic": "Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground",
+      "spawned_at": "2026-10-06T17:11:10+05:30"
+    },
+    {
+      "id": "ep060",
+      "topic": "Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe",
+      "spawned_at": "2026-10-06T17:11:11+05:30"
+    },
+    {
+      "id": "ep061",
+      "topic": "Sombrero Galaxy (1781): a massive ring of stars that hides a violent history of galactic cannibalism",
+      "spawned_at": "2026-10-06T17:11:12+05:30"
+    },
+    {
+      "id": "ep062",
+      "topic": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
+      "spawned_at": "2026-10-06T17:11:13+05:30"
+    },
+    {
+      "id": "ep063",
+      "topic": "Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years",
+      "spawned_at": "2026-10-06T17:11:14+05:30"
+    },
+    {
+      "id": "ep065",
+      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
+      "spawned_at": "2026-10-06T17:11:15+05:30"
+    },
+    {
+      "id": "ep066",
+      "topic": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
+      "spawned_at": "2026-10-06T17:11:17+05:30"
+    },
+    {
+      "id": "ep069",
+      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "spawned_at": "2026-10-06T17:11:18+05:30"
+    },
+    {
       "id": "ep070",
       "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
-      "spawned_at": "2026-10-06T11:08:05+05:30"
+      "spawned_at": "2026-10-06T17:11:19+05:30"
     },
     {
       "id": "ep071",
       "topic": "Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty",
-      "spawned_at": "2026-10-06T11:08:05+05:30"
+      "spawned_at": "2026-10-06T17:11:20+05:30"
     },
     {
       "id": "ep072",
       "topic": "July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot",
-      "spawned_at": "2026-10-06T11:08:06+05:30"
+      "spawned_at": "2026-10-06T17:11:21+05:30"
     },
     {
       "id": "ep073",
       "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
-      "spawned_at": "2026-10-06T11:08:06+05:30"
-    }
-  ],
-  "published": [
+      "spawned_at": "2026-10-06T17:11:22+05:30"
+    },
     {
-      "id": "ep055",
-      "title": "The Death Star System Pointed at Earth",
-      "due_at": "2026-10-10T21:30:00-04:00"
+      "id": "ep074",
+      "topic": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
+      "spawned_at": "2026-10-06T17:11:24+05:30"
+    },
+    {
+      "id": "ep075",
+      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "spawned_at": "2026-10-06T17:11:25+05:30"
     }
   ],
+  "published": [],
   "live": 11,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 16,
+    "calls": 17,
     "by_model": {
+      "gemini-3.8-flash": 1,
       "gemini-3.5-flash": 4,
       "gemini-3.5-flash-lite": 9,
-      "gemini-3-flash-preview": 2,
-      "gemini-3.6-flash": 1
+      "gemini-3-flash-preview": 3
     },
-    "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-flash-latest"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 2,
+    "modal": 3,
     "runner": 0
   },
-  "daily_done": "2026-10-05",
+  "daily_done": "2026-10-06",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 6.63,
+    "metered": 6.78,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 178,
+    "cloud": 176,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 21.37
+    "modal_credit_left": 21.22
   },
   "made_here": 0,
-  "open_topics": 46,
+  "open_topics": 51,
   "parked_topics": 24
 }

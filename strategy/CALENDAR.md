@@ -28,6 +28,8 @@ unexplained, not alien.
 | 2026-10-03 | DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus — done (ep036) | Mission Files | NASA recently highlighted extreme thermal testing on the probe's engineering model for its mission to Venus. |
 | 2026-10-05 | Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe — making (ep060) | Scale Breaker | October 5th is the anniversary of Edwin Hubble identifying the star that proved galaxies exist beyond our own. |
 | 2026-10-05 | Sombrero Galaxy (1781): a massive ring of stars that hides a violent history of galactic cannibalism — making (ep061) | The Universe Is Terrifying | Featured on NASA's APOD today with new evidence of tidal streams from its past mergers. |
+| 2026-10-06 | White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems — making (ep074) | Space Got Weird | A new analysis of archival Hubble data points to the possibility of dead white dwarfs hosting second-generation planetary systems. |
+| 2026-10-06 | Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar — making (ep075) | Space Got Weird | NASA recently highlighted Madagascar's anorthosite deposits, which perfectly mimic the geological composition of the Moon's surface. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -35,6 +37,7 @@ unexplained, not alien.
 |---|---|---|
 | Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day | Mission Files |
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury | Mission Files |
+| Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar | Near Misses |
 | Nov 12 | Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow | Mission Files |
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot | Mission Files |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
@@ -77,6 +80,8 @@ unexplained, not alien.
 - Hypervelocity star (2005): stars being flung out of the Milky Way at millions of miles per hour, doomed to wander intergalactic space alone
 - Hanny's Voorwerp (2007): a galaxy-sized green structure that is actually a light "echo" from a quasar that died 100,000 years ago
 - Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished
+- OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy
+- False vacuum decay: a hypothetical cosmic catastrophe where a bubble of true vacuum could expand at the speed of light, rewriting the laws of physics and erasing our universe instantly
 
 ### Scale Breaker
 
@@ -131,6 +136,8 @@ unexplained, not alien.
 - SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars
 - 55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond — making (ep066)
 - 16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet — dropped (ep064)
+- Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit
+- Tennis racket theorem (1985): a physical law in zero gravity that causes any spinning asymmetrical object to spontaneously flip back and forth without outside force
 
 ### Near Misses
 
