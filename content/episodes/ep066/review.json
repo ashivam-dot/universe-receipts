@@ -1,0 +1,159 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-06T17:16:46+05:30",
+      "check": {
+        "duration": 50.9,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'cancri' heard as 'kankri' after 'in 2004 55'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Excellent hook that immediately grabs attention with the mind-bending concept of an 18-hour year.",
+        "clarity": "Very clear narrative arc tracing the planet's discovery, extreme conditions, and recent atmosphere detection.",
+        "payoff": "Great payoff with the James Webb discovery of a magma-sustained atmosphere, which resolves the extreme nature of the planet.",
+        "visuals": "Most visuals are stunning, but the frame for beat 5 shows cold, icy outer-system bodies instead of a hot carbon/diamond world.",
+        "loop": "The loop is perfect, ending with the 18-hour orbit and starting right back with the 18-hour year."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The frame shows a cold outer-system environment with icy asteroids and a comet, which contradicts the extreme heat of 55 Cancri e."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode establishes a much tighter narrative loop and stronger scientific payoff than the crash story of the Genesis mission in ep051.",
+      "judge": "gemini-3.5-flash",
+      "passed": true
+    },
+    {
+      "at": "2026-10-06T17:18:33+05:30",
+      "check": {
+        "duration": 50.9,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'cancri' heard as 'kankri' after 'in 2004 55'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "An 18-hour year is an immediate, mind-bending hook that makes viewers stop swiping.",
+        "clarity": "The story flows logically from basic characteristics to the diamond theory and the recent JWST atmosphere findings.",
+        "payoff": "The 2024 JWST atmosphere revelation serves as a great, scientifically updated payoff to the extreme environment setup.",
+        "visuals": "Excellent space renders, though the stock photo of an Earthly volcanic crater in beat 7 looks a bit out of place.",
+        "loop": "Seamlessly transitions from the 18-hour orbital period back into the hook's 18-hour year."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows a photo of an Earthly volcanic lava lake instead of an exoplanetary magma ocean render."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode has a much stronger, more cohesive narrative structure and a better-executed loop than Episode 051.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-06T17:20:06+05:30",
+      "check": {
+        "duration": 50.9,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.4,
+        "warnings": [],
+        "speech_differences": [
+          "'cancri' heard as 'kankri' after 'in 2004 55'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise that immediately grabs attention with an extreme fact.",
+        "clarity": "Logical progression from orbital statistics to the latest chemical discoveries.",
+        "payoff": "The transition to the 2024 discovery is interesting but lacks a dramatic punch.",
+        "visuals": "Dark renders and terrestrial volcano footage detract from the space-focused theme.",
+        "loop": "The repetition of the 18-hour timeframe creates a perfectly seamless transition."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The subject is too dark and difficult to distinguish at phone size."
+        },
+        {
+          "beat": 7,
+          "problem": "Uses terrestrial volcano footage which breaks the immersion of the space render."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: But in 2024, James Webb revealed a shock: a thick, volatile atmosphere on this hellscape."
+      ],
+      "better_than_last": "This Short provides a more timely scientific update compared to the older stories in the recent list.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "kept_round": 1
+}

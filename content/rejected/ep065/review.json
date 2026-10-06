@@ -1,0 +1,153 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-06T17:14:46+05:30",
+      "check": {
+        "duration": 40.53,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong counterintuitive hook that immediately challenges a common space misconception.",
+        "clarity": "Explains orbital mechanics and free fall in an exceptionally easy-to-follow sequence.",
+        "payoff": "The realization that astronauts are constantly falling is a satisfying scientific twist.",
+        "visuals": "Several key diagrams are either too academic or show the wrong spacecraft mission.",
+        "loop": "Perfect seamless connection from the final line back into the hook."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The graphic is an abstract geometry diagram rather than illustrating ISS gravity."
+        },
+        {
+          "beat": 5,
+          "problem": "The orbital visualization shows the NISAR satellite instead of the ISS."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It explains a complex physical concept with much better logical flow than the crash narrative in ep051.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-06T17:16:36+05:30",
+      "check": {
+        "duration": 40.53,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Debunks a common myth quickly, though could be punchier.",
+        "clarity": "Logical flow makes orbital physics easy to grasp.",
+        "payoff": "The explanation of free fall and curvature is satisfying.",
+        "visuals": "Clear diagrammatic text cards and relevant ISS imagery.",
+        "loop": "Awkward phrasing repetition at the boundary point."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Change Beat 7 to: \"Because everything falls together, there is no floor pushing back, proving that...\""
+      ],
+      "better_than_last": "Provides a clearer scientific explanation of weightlessness than the crash breakdown in ep051.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-06T17:21:12+05:30",
+      "check": {
+        "duration": 45.03,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Effective misconception hook for quick retention.",
+        "clarity": "Logical steps explain gravity versus weightlessness well.",
+        "payoff": "The orbital falling explanation is a satisfying resolution.",
+        "visuals": "Incorrect mission labels and terrestrial footage disrupt the theme.",
+        "loop": "The concluding phrase lacks a seamless grammatical lead-in."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows atmospheric skydiving instead of orbital environment."
+        },
+        {
+          "beat": 5,
+          "problem": "Visual incorrectly labels the spacecraft as NISAR instead of ISS."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Since everything falls at once, it only seems like"
+      ],
+      "better_than_last": "Provides a more intuitive physics explanation than the Tabby's Star mystery.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals, loop; 2 frame problems",
+  "rejected_at": "2026-10-06T17:21:12+05:30"
+}

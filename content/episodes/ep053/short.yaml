@@ -95,8 +95,13 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.5
+    focus_x: 0.38
     focus_y: 0.5
+    box:
+    - 0.07
+    - 0.15
+    - 0.93
+    - 0.84
 - text: The moment it plunges into our atmosphere and ignites, it becomes a fiery meteor.
   emphasis:
   - plunges into our atmosphere
@@ -183,10 +188,10 @@ beats:
       kind: fact
       big: LUNAR & MARTIAN
       small: ejected impact fragments
-- text: That constant rain of ancient space debris is why night skies stay filled with motion.
+- text: This endless cosmic shower is why every single day,
   emphasis:
-  - constant rain
-  - ancient space debris
+  - cosmic shower
+  - every single day
   visual:
     reuse: 1
     motion: zoom_out

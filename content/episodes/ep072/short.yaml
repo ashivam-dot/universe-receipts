@@ -1,8 +1,8 @@
 id: ep072
-title: The Solar Storm That Missed Earth by Nine Days
+title: The Solar Storm That Missed Earth
 series: Near Misses
-description: In July 2012, an ultra-fast Carrington-class solar superstorm crossed Earth's orbit, missing us by just nine
-  days and sparing our modern power grids.
+description: In July 2012, a solar superstorm traveling 2,000 kilometers per second missed Earth by just nine days, narrowly
+  avoiding a global catastrophe.
 sources:
 - https://en.wikipedia.org/wiki/July_2012_solar_storm
 - https://science.nasa.gov/science-research/planetary-science/23jul_superstorm/
@@ -17,11 +17,13 @@ hashtags:
 - '#nasa'
 tags:
 - solar storm
+- '2012'
 - near miss
 - carrington event
-- space weather
 - stereo-a
 - sun
+- space weather
+- pete riley
 voice:
   voice: af_heart
   speed: 1.05
@@ -49,20 +51,20 @@ beats:
     - 0.4
     - 0.45
     - 0.9
-- text: On July 23, 2012, the Sun launched a massive Carrington-class plasma eruption.
+- text: In July 2012, the Sun launched a massive eruption matching the strongest storm ever recorded.
   emphasis:
-  - massive Carrington-class
-  - plasma eruption
+  - massive eruption
+  - ever recorded
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/e/e6/CME_Cornucopia_%28May_11%2C_2012%29_%28hd_video%29_%287203919450%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/The_Sun_Sends_Two_CMEs_Toward_Mercury_%288681308268%29.jpg/960px-The_Sun_Sends_Two_CMEs_Toward_Mercury_%288681308268%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: CME Cornucopia (May 11, 2012) (hd video) (7203919450).jpg
+      title: The Sun Sends Two CMEs Toward Mercury (8681308268).jpg
       credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:CME_Cornucopia_(May_11,_2012)_(hd_video)_(7203919450).jpg
+      url: https://commons.wikimedia.org/wiki/File:The_Sun_Sends_Two_CMEs_Toward_Mercury_(8681308268).jpg
     fallbacks:
     - card
     - color
@@ -73,31 +75,43 @@ beats:
       kind: dateline
       big: July 2012
       small: The Sun Erupts
-- text: This blast traveled at over two thousand kilometers per second, four times faster than normal.
+- text: This blast traveled over two thousand kilometers per second, four times faster than a typical storm.
   emphasis:
-  - over two thousand
+  - two thousand
   - four times faster
   visual:
-    source: card
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Storms_From_the_Sun_%286819077978%29.jpg/1920px-Storms_From_the_Sun_%286819077978%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Storms From the Sun (6819077978).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Storms_From_the_Sun_(6819077978).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: fact
       big: 2,000 km/s
       small: Record Speed
-    motion: zoom_in
-- text: It achieved this record speed because an eruption four days earlier had cleared its cosmic path.
+- text: It achieved this record speed because another eruption four days earlier had cleared its cosmic path.
   emphasis:
   - record speed
   - cleared its cosmic path
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/4/41/The_Sun_Flares_with_Activity.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Coronal_Mass_Ejection_Headed_for_Earth%3F_%284860149819%29.jpg/960px-Coronal_Mass_Ejection_Headed_for_Earth%3F_%284860149819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: The Sun Flares with Activity.jpg
-      credit: NASA's Earth Observatory
-      license: CC BY 2.0
-      url: https://commons.wikimedia.org/wiki/File:The_Sun_Flares_with_Activity.jpg
+      title: Coronal Mass Ejection Headed for Earth? (4860149819).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Coronal_Mass_Ejection_Headed_for_Earth%3F_(4860149819).jpg
     fallbacks:
     - color
     motion: pan_left
@@ -115,54 +129,37 @@ beats:
       big: $2 Trillion
       small: Estimated Cost
     motion: zoom_in
-- text: Instead, NASA's STEREO-A spacecraft in deep space safely recorded the entire blow.
+- text: Instead, NASA's STEREO-A spacecraft took the hit and survived to show us what we missed.
   emphasis:
   - STEREO-A spacecraft
-  - safely recorded
+  - what we missed
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_two_STEREO_spacecrafts_sits_on_a_test_stand.jpg/1920px-The_two_STEREO_spacecrafts_sits_on_a_test_stand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Artist_rendering_of_STEREO-A_%28PIA18171%29.jpg/960px-Artist_rendering_of_STEREO-A_%28PIA18171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: The two STEREO spacecrafts sits on a test stand.jpg
-      credit: NASA/George Shelton
+      title: Artist rendering of STEREO-A (PIA18171).jpg
+      credit: NASA/GSFC
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:The_two_STEREO_spacecrafts_sits_on_a_test_stand.jpg
+      url: https://commons.wikimedia.org/wiki/File:Artist_rendering_of_STEREO-A_(PIA18171).jpg
     fallbacks:
     - color
-    motion: pan_up
+    motion: pan_left
     focus_x: 0.5
-    focus_y: 0.3
-    box:
-    - 0.2
-    - 0.1
-    - 0.8
-    - 0.5
-- text: Physicist Pete Riley calculated a twelve percent chance a similar disaster strikes Earth each decade.
+    focus_y: 0.5
+- text: Physicist Pete Riley calculated a twelve percent chance a similar storm strikes Earth every decade.
   emphasis:
-  - twelve percent chance
-  - each decade
+  - twelve percent
+  - every decade
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/The_Mauli_%26_Polyblank_photograph_of_Richard_C_Carrington.jpg/1920px-The_Mauli_%26_Polyblank_photograph_of_Richard_C_Carrington.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: The Mauli & Polyblank photograph of Richard C Carrington.jpg
-      credit: Halojones
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:The_Mauli_%26_Polyblank_photograph_of_Richard_C_Carrington.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_down
-    focus_x: 0.55
-    focus_y: 0.2
+    source: card
     card:
       kind: fact
       big: 12%
       small: Decadal Chance
+    motion: zoom_in
 - text: We survived only because the erupting region of the Sun was no longer pointed directly at us.
   emphasis:
   - no longer pointed

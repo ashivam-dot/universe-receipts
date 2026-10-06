@@ -1,0 +1,109 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-06T17:17:19+05:30",
+      "check": {
+        "duration": 49.3,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong hook about a near-miss catastrophe, though slightly generic.",
+        "clarity": "Chronological flow makes the event very easy to follow.",
+        "payoff": "The explanation of the Sun's rotation resolves the opening hook well.",
+        "visuals": "Contains incorrect dates, cleanroom photos, and the wrong physicist.",
+        "loop": "Seamless grammatical transition back to the beginning."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The scientific instrument display shows the wrong date of May 3, 2012."
+        },
+        {
+          "beat": 6,
+          "problem": "Shows spacecraft in a cleanroom on Earth instead of in deep space."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows historical figure Richard Carrington instead of modern physicist Pete Riley."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode has a much more logical chronological structure than ep051.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-06T17:19:48+05:30",
+      "check": {
+        "duration": 49.3,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong, high-stakes hook that immediately grabs attention.",
+        "clarity": "Chronological progression is easy to follow on first listen.",
+        "payoff": "The 12% decade risk statistic provides a solid, chilling realization.",
+        "visuals": "Beat 7 shows an 1800s observatory sketch, which is historically off-topic for a modern calculation.",
+        "loop": "The transition between the end of beat 8 and the start of beat 1 is slightly abrupt."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows a historical sketch of Redhill Observatory, which is off-topic for a modern calculation by physicist Pete Riley."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Change to 'We survived only because the erupting region of the Sun was no longer pointed directly at us, meaning that...'"
+      ],
+      "better_than_last": "This episode establishes a much faster, higher-stakes narrative hook than the Tabby's Star video.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

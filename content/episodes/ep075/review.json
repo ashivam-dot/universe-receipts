@@ -1,0 +1,64 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-06T17:19:31+05:30",
+      "check": {
+        "duration": 53.03,
+        "words": 124,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'believed' heard as 'believe' after 'lunar highlands scientists'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening paradox regarding the age of lunar rocks is compelling.",
+        "clarity": "The transition from the global magma theory to specific sample data is dense.",
+        "payoff": "The shift to the volcanic episodes theory provides a satisfying scientific resolution.",
+        "visuals": "The diagram in beat seven contains too much small text for mobile.",
+        "loop": "The ending mirrors the start perfectly for a seamless replay."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "the diagram is too text-heavy for phone screens"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "anorthosite",
+          "respelling": "uh nor thuh site"
+        }
+      ],
+      "rewrite": [
+        "Beat 2: Apollo missions found bright rocks called anorthosite that form the lunar highlands.",
+        "Beat 3: Experts thought these rocks floated to the surface of a global magma ocean.",
+        "Beat 7: Now scientists think the crust formed slowly through many volcanic eruptions."
+      ],
+      "better_than_last": "This short presents a more concrete geological contradiction than the speculative Tabby's Star episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -1,0 +1,98 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-06T17:14:44+05:30",
+      "check": {
+        "duration": 47.43,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'filled with motion'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The opening statistic is strong enough to capture initial viewer attention.",
+        "clarity": "Concepts move logically from space rock classification to atmospheric impact.",
+        "payoff": "The reveal about Martian and Lunar debris provides an interesting twist.",
+        "visuals": "Most frames look excellent, but Beat 3 uses an incorrect object.",
+        "loop": "The final phrase does not connect smoothly back into the first sentence."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows a large, km-sized asteroid rather than a tiny meteoroid fragment."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Change Beat 8 to: 'This endless cosmic shower is why every single day,'"
+      ],
+      "better_than_last": "This episode explains the distinct vocabulary of space debris more clearly than the technical narrative in ep051.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-06T17:16:58+05:30",
+      "check": {
+        "duration": 45.67,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The massive number of daily space rock impacts is highly engaging.",
+        "clarity": "Explains the scientific difference between meteoroids, meteors, and meteorites simply.",
+        "payoff": "Revealing that some meteorites are from Mars and the Moon is a great twist.",
+        "visuals": "The imagery is high-quality and directly represents the narration.",
+        "loop": "The loop connects the final setup seamlessly to the opening sentence."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode explains scientific terms more clearly than previous episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}
