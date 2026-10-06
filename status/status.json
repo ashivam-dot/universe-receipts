@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-06T05:07:04+05:30",
+  "updated_at": "2026-10-06T11:08:07+05:30",
   "day": 5,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M476QC6B1V19WGAAXBKR7ZZR",
+    "id": "ta-01M47VAHVDN1TAA7CQ820SPR1R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-06T05:05:10+05:30",
-    "started_at_utc": "2026-10-05T23:35:10+00:00",
-    "seconds": 114
+    "started_at": "2026-10-06T11:05:06+05:30",
+    "started_at_utc": "2026-10-06T05:35:06+00:00",
+    "seconds": 181
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
+      "seconds": 1.3
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "19 posts",
-      "seconds": 1.8
+      "detail": "20 posts",
+      "seconds": 1.0
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep017 to 'Mission Files'",
-      "seconds": 2.1
+      "detail": "added ep035 to 'Near Misses'",
+      "seconds": 1.7
     },
     {
       "name": "languages",
@@ -40,100 +40,93 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep004 at 24 h: ahead of the channel's earlier Shorts at this age: 1054 views against a median of 732 (1.4x); ep009 at 72 h: shown: 249 views in 73 hours, 4.4 likes per 100 views; learnings: Added a new hypothesis regarding avoiding repetitive hook phrases in final beats based on ep028 and ep036 reviews.",
-      "seconds": 69.8
+      "detail": "ep017 at 6 h: level with the channel's earlier Shorts at this age: 901 views against a median of 774 (1.2x); ep024 at 72 h: ahead of the channel's earlier Shorts at this age: 955 views against a median of 249 (3.8x); ep032 at 24 h: ahead of the channel's earlier Shorts at this age: 1027 views against a median of 780 (1.3x); learnings: Updated learning log with latest short reviews, reinforcing current rules and maintaining hypotheses.",
+      "seconds": 155.7
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep062 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep063 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep064 rejected (research: only 4 claims have two different sites); ep065 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-",
-      "seconds": 13.1
+      "detail": "ep066 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep067 rejected (research: fewer than two readable sources); ep068 rejected (research: only 0 claims have two different sites); ep069 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 8.1
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.4
+      "seconds": 0.1
     },
     {
       "name": "preflight ep023",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.3
     },
     {
       "name": "preflight ep033",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.4
     },
     {
-      "name": "preflight ep035",
+      "name": "publish",
       "ok": true,
-      "detail": "video still hosted",
+      "detail": "",
+      "seconds": 1.2
+    },
+    {
+      "name": "schedule ep055",
+      "ok": true,
+      "detail": "2026-10-10T21:30:00-04:00",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep070",
+      "ok": true,
+      "detail": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep071",
+      "ok": true,
+      "detail": "Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep072",
+      "ok": true,
+      "detail": "July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep073",
+      "ok": true,
+      "detail": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
       "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
-    },
-    {
-      "name": "schedule ep050",
-      "ok": true,
-      "detail": "2026-10-10T19:00:00-04:00",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep066",
-      "ok": true,
-      "detail": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
-      "seconds": 1.7
-    },
-    {
-      "name": "start ep067",
-      "ok": true,
-      "detail": "Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep068",
-      "ok": true,
-      "detail": "Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep069",
-      "ok": true,
-      "detail": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
-      "seconds": 0.8
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 0.8
+      "seconds": 0.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep062 stopped on Gemini's free quota; it resumes in a later run",
-    "ep063 stopped on Gemini's free quota; it resumes in a later run",
-    "ep065 stopped on Gemini's free quota; it resumes in a later run",
+    "ep066 stopped on Gemini's free quota; it resumes in a later run",
+    "ep069 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 4 waiting"
+    "Buffer is full (10 queued); 3 waiting"
   ],
   "inventory": {
-    "total": 14,
+    "total": 13,
     "in_buffer": 10,
-    "waiting": 4,
+    "waiting": 3,
     "target": 42,
     "making": [
       "ep053",
@@ -144,21 +137,18 @@
       "ep061",
       "ep062",
       "ep063",
-      "ep065"
+      "ep065",
+      "ep066",
+      "ep069"
     ],
     "remote": [
-      "ep066",
-      "ep067",
-      "ep068",
-      "ep069"
+      "ep070",
+      "ep071",
+      "ep072",
+      "ep073"
     ]
   },
   "queue": [
-    {
-      "id": "ep035",
-      "title": "The Asteroid Passing Closer Than Our Satellites",
-      "due_at": "2026-10-05T21:30:00-04:00"
-    },
     {
       "id": "ep023",
       "title": "The Quasar in Your Backyard Telescope",
@@ -203,6 +193,11 @@
       "id": "ep050",
       "title": "The Day an Undetected Asteroid Blindsided Earth",
       "due_at": "2026-10-10T19:00:00-04:00"
+    },
+    {
+      "id": "ep055",
+      "title": "The Death Star System Pointed at Earth",
+      "due_at": "2026-10-10T21:30:00-04:00"
     }
   ],
   "waiting": [
@@ -223,41 +218,33 @@
       "title": "The NASA Mission That Fell from the Sky",
       "series": "Mission Files",
       "score": 20
-    },
-    {
-      "id": "ep055",
-      "title": "The Death Star System Pointed at Earth",
-      "series": "The Universe Is Terrifying",
-      "score": 24
     }
   ],
   "made": [
     {
-      "id": "ep062",
+      "id": "ep066",
       "outcome": "unfinished",
-      "topic": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
+      "topic": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep063",
-      "outcome": "unfinished",
-      "topic": "Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep064",
+      "id": "ep067",
       "outcome": "rejected",
-      "topic": "16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet",
-      "reason": "research: only 4 claims have two different sites"
+      "topic": "Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit",
+      "reason": "research: fewer than two readable sources"
     },
     {
-      "id": "ep065",
+      "id": "ep068",
+      "outcome": "rejected",
+      "topic": "Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece",
+      "reason": "research: only 0 claims have two different sites"
+    },
+    {
+      "id": "ep069",
       "outcome": "unfinished",
-      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
+      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -265,94 +252,91 @@
   ],
   "spawned": [
     {
-      "id": "ep066",
-      "topic": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
-      "call_id": "fc-01M476TYPJHEP1ARBG4MX5YBV6"
+      "id": "ep070",
+      "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
+      "call_id": "fc-01M47VG5P99VGBGSHSX3KRD8VB"
     },
     {
-      "id": "ep067",
-      "topic": "Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit",
-      "call_id": "fc-01M476V07WWRY53TBGXM40HK9N"
+      "id": "ep071",
+      "topic": "Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty",
+      "call_id": "fc-01M47VG665CGHMTEY7H79NXG1D"
     },
     {
-      "id": "ep068",
-      "topic": "Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece",
-      "call_id": "fc-01M476V1T7MHJZRZG7QVNX8W5N"
+      "id": "ep072",
+      "topic": "July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot",
+      "call_id": "fc-01M47VG6P8QT024C1P8PGR8RG6"
     },
     {
-      "id": "ep069",
-      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
-      "call_id": "fc-01M476V2MHVD7MQ8DSNRJNTSYD"
+      "id": "ep073",
+      "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
+      "call_id": "fc-01M47VG74NEDAJKQ19RCKPD232"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep066",
-      "topic": "55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond",
-      "spawned_at": "2026-10-06T05:06:58+05:30"
+      "id": "ep070",
+      "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
+      "spawned_at": "2026-10-06T11:08:05+05:30"
     },
     {
-      "id": "ep067",
-      "topic": "Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit",
-      "spawned_at": "2026-10-06T05:06:59+05:30"
+      "id": "ep071",
+      "topic": "Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty",
+      "spawned_at": "2026-10-06T11:08:05+05:30"
     },
     {
-      "id": "ep068",
-      "topic": "Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece",
-      "spawned_at": "2026-10-06T05:07:01+05:30"
+      "id": "ep072",
+      "topic": "July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot",
+      "spawned_at": "2026-10-06T11:08:06+05:30"
     },
     {
-      "id": "ep069",
-      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
-      "spawned_at": "2026-10-06T05:07:02+05:30"
+      "id": "ep073",
+      "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
+      "spawned_at": "2026-10-06T11:08:06+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep050",
-      "title": "The Day an Undetected Asteroid Blindsided Earth",
-      "due_at": "2026-10-10T19:00:00-04:00"
+      "id": "ep055",
+      "title": "The Death Star System Pointed at Earth",
+      "due_at": "2026-10-10T21:30:00-04:00"
     }
   ],
-  "live": 10,
+  "live": 11,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 20,
+    "calls": 16,
     "by_model": {
-      "gemini-3.7-flash": 1,
-      "gemini-3.6-flash": 1,
-      "gemini-3.5-flash-lite": 17,
-      "gemini-3-flash-preview": 1
+      "gemini-3.5-flash": 4,
+      "gemini-3.5-flash-lite": 9,
+      "gemini-3-flash-preview": 2,
+      "gemini-3.6-flash": 1
     },
     "out_of_quota": [
       "gemini-3-flash-preview",
       "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash",
       "gemini-flash-latest"
     ]
   },
   "renders": {
-    "modal": 3,
+    "modal": 2,
     "runner": 0
   },
   "daily_done": "2026-10-05",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 6.17,
+    "metered": 6.63,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 181,
+    "cloud": 178,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 21.83
+    "modal_credit_left": 21.37
   },
   "made_here": 0,
-  "open_topics": 50,
+  "open_topics": 46,
   "parked_topics": 24
 }
