@@ -1,138 +1,141 @@
 {
-  "updated_at": "2026-10-07T05:07:13+05:30",
+  "updated_at": "2026-10-07T11:08:00+05:30",
   "day": 6,
-  "result": "ok",
+  "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M49S434PXC56P61HHACVDTER",
+    "id": "ta-01M4ADQ8J4YS636CRWRXBM6GER",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-07T05:05:11+05:30",
-    "started_at_utc": "2026-10-06T23:35:11+00:00",
-    "seconds": 123
+    "started_at": "2026-10-07T11:05:05+05:30",
+    "started_at_utc": "2026-10-07T05:35:05+00:00",
+    "seconds": 174
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.3
+      "seconds": 1.3
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "21 posts",
-      "seconds": 1.4
+      "detail": "22 posts",
+      "seconds": 0.7
     },
     {
       "name": "playlists",
-      "ok": true,
-      "detail": "added ep023 to 'The Universe Is Terrifying'",
-      "seconds": 2.3
+      "ok": false,
+      "detail": "",
+      "error": "HttpError: <HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">",
+      "seconds": 1.9
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "on youtube",
       "ok": true,
-      "detail": "every Short sent is public",
-      "seconds": 0.1
+      "detail": "ep023: YouTube has no video Wmi8yfklomY",
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep013 at 72 h: ahead of the channel's earlier Shorts at this age: 979 views against a median of 558 (1.8x); ep017 at 24 h: ahead of the channel's earlier Shorts at this age: 1132 views against a median of 829 (1.4x); learnings: Promoted the fast-paced final beat hypothesis to a rule using ep008 and ep009, and expanded evidence for ending rules using ep013 and ep017.",
-      "seconds": 76.3
+      "detail": "ep028 at 72 h: ahead of the channel's earlier Shorts at this age: 1260 views against a median of 867 (1.5x); ep035 at 24 h: ahead of the channel's earlier Shorts at this age: 1284 views against a median of 921 (1.4x); learnings: Today we maintained proven rules regarding hook placement and loop structure, while noting the negative impact of verbatim hook repetition on end retention and comments.",
+      "seconds": 147.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep073 unfinished (LookupError: unknown encoding: .utf8); ep076 rejected (research: only 6 claims have two different sites); ep077 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep078 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 14.1
+      "detail": "ep079 unfinished (RuntimeError: ep079 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 100): add at least 5 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 10, beat 2: 18, beat 3: 25, beat 4: 19, beat 5: 15, beat 6: 13.']); ep080 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep081 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flas",
+      "seconds": 8.5
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "preflight ep030",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
-    },
-    {
-      "name": "preflight ep033",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.3
     },
     {
       "name": "preflight ep040",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.5
+    },
+    {
+      "name": "preflight ep061",
+      "ok": true,
+      "detail": "video downloads whole (17 MB in 0 s)",
+      "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.6
+      "seconds": 1.3
     },
     {
-      "name": "schedule ep061",
+      "name": "schedule ep060",
       "ok": true,
-      "detail": "2026-10-07T12:30:00-04:00",
+      "detail": "2026-10-08T12:30:00-04:00",
       "seconds": 0.7
     },
     {
       "name": "start ep079",
       "ok": true,
       "detail": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
-      "seconds": 1.7
+      "seconds": 0.5
     },
     {
-      "name": "start ep080",
+      "name": "start ep083",
       "ok": true,
-      "detail": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
-      "seconds": 1.6
+      "detail": "PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star",
+      "seconds": 0.6
     },
     {
-      "name": "start ep081",
+      "name": "start ep084",
       "ok": true,
-      "detail": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
-      "seconds": 1.7
+      "detail": "Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it",
+      "seconds": 0.5
     },
     {
-      "name": "start ep082",
+      "name": "start ep085",
       "ok": true,
-      "detail": "Tennis racket theorem (1985): a physical law in zero gravity that causes any spinning asymmetrical object to spontaneously flip back and forth without outside force",
-      "seconds": 0.9
+      "detail": "R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot",
+      "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 0.6
     }
   ],
-  "errors": [],
+  "errors": [
+    "playlists: HttpError: <HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">"
+  ],
   "owner_action": [],
   "notes": [
-    "ep077 stopped on Gemini's free quota; it resumes in a later run",
-    "ep078 stopped on Gemini's free quota; it resumes in a later run",
+    "ep080 stopped on Gemini's free quota; it resumes in a later run",
+    "ep081 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 10 waiting"
+    "Buffer is full (10 queued); 9 waiting"
   ],
   "inventory": {
-    "total": 20,
+    "total": 19,
     "in_buffer": 10,
-    "waiting": 10,
+    "waiting": 9,
     "target": 42,
     "making": [
       "ep062",
@@ -141,21 +144,18 @@
       "ep074",
       "ep075",
       "ep077",
-      "ep078"
+      "ep078",
+      "ep080",
+      "ep081"
     ],
     "remote": [
       "ep079",
-      "ep080",
-      "ep081",
-      "ep082"
+      "ep083",
+      "ep084",
+      "ep085"
     ]
   },
   "queue": [
-    {
-      "id": "ep033",
-      "title": "The Cold War Treaty That Banned Nuclear Weapons in Space",
-      "due_at": "2026-10-06T21:30:00-04:00"
-    },
     {
       "id": "ep061",
       "title": "The Dark Secret of the Sombrero Galaxy",
@@ -170,6 +170,11 @@
       "id": "ep040",
       "title": "The Day NASA Got a Ticket for Littering",
       "due_at": "2026-10-07T21:30:00-04:00"
+    },
+    {
+      "id": "ep060",
+      "title": "The Star That Destroyed the Universe",
+      "due_at": "2026-10-08T12:30:00-04:00"
     },
     {
       "id": "ep047",
@@ -240,12 +245,6 @@
       "score": 20
     },
     {
-      "id": "ep060",
-      "title": "The Star That Destroyed the Universe",
-      "series": "Scale Breaker",
-      "score": 24
-    },
-    {
       "id": "ep063",
       "title": "The Star on a Collision Course With Our Solar System",
       "series": "Near Misses",
@@ -266,102 +265,107 @@
   ],
   "made": [
     {
-      "id": "ep073",
+      "id": "ep079",
       "outcome": "unfinished",
-      "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
-      "reason": "LookupError: unknown encoding: .utf8",
+      "topic": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
+      "reason": "RuntimeError: ep079 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 100): add at least 5 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 10, beat 2: 18, beat 3: 25, beat 4: 19, beat 5: 15, beat 6: 13.']",
       "quota": false,
       "overloaded": false
     },
     {
-      "id": "ep076",
+      "id": "ep080",
+      "outcome": "unfinished",
+      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep081",
+      "outcome": "unfinished",
+      "topic": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep082",
       "outcome": "rejected",
-      "topic": "Lunar distance: every other planet in the solar system can fit in the gap between the Earth and the Moon with room to spare",
-      "reason": "research: only 6 claims have two different sites"
-    },
-    {
-      "id": "ep077",
-      "outcome": "unfinished",
-      "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep078",
-      "outcome": "unfinished",
-      "topic": "False vacuum decay: a hypothetical cosmic catastrophe where a bubble of true vacuum could expand at the speed of light, rewriting the laws of physics and erasing our universe instantly",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "topic": "Tennis racket theorem (1985): a physical law in zero gravity that causes any spinning asymmetrical object to spontaneously flip back and forth without outside force",
+      "reason": "research: only 0 claims have two different sites"
     }
   ],
   "spawned": [
     {
       "id": "ep079",
       "topic": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
-      "call_id": "fc-01M49S7YH5QVH3YDWWGNM5XWTD"
+      "call_id": "fc-01M4ADWMS6EKJJH1ZEYVEXGQA5"
     },
     {
-      "id": "ep080",
-      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
-      "call_id": "fc-01M49S802QT4Q53HH4A9A0TVGC"
+      "id": "ep083",
+      "topic": "PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star",
+      "call_id": "fc-01M4ADWNAD9VGXDE9FG0EWXDY4"
     },
     {
-      "id": "ep081",
-      "topic": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
-      "call_id": "fc-01M49S81QEK0PEEZ5GQ3NWNRZY"
+      "id": "ep084",
+      "topic": "Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it",
+      "call_id": "fc-01M4ADWNSGJ9Z3W4DE9E83ZPNQ"
     },
     {
-      "id": "ep082",
-      "topic": "Tennis racket theorem (1985): a physical law in zero gravity that causes any spinning asymmetrical object to spontaneously flip back and forth without outside force",
-      "call_id": "fc-01M49S82M84HCA1AAYSWZKNWF0"
+      "id": "ep085",
+      "topic": "R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot",
+      "call_id": "fc-01M4ADWP7ZEE9A2JQMJQNPAM61"
     }
   ],
   "in_cloud": [
     {
       "id": "ep079",
       "topic": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
-      "spawned_at": "2026-10-07T05:07:07+05:30"
+      "spawned_at": "2026-10-07T11:07:57+05:30"
     },
     {
-      "id": "ep080",
-      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
-      "spawned_at": "2026-10-07T05:07:09+05:30"
+      "id": "ep083",
+      "topic": "PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star",
+      "spawned_at": "2026-10-07T11:07:57+05:30"
     },
     {
-      "id": "ep081",
-      "topic": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
-      "spawned_at": "2026-10-07T05:07:10+05:30"
+      "id": "ep084",
+      "topic": "Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it",
+      "spawned_at": "2026-10-07T11:07:58+05:30"
     },
     {
-      "id": "ep082",
-      "topic": "Tennis racket theorem (1985): a physical law in zero gravity that causes any spinning asymmetrical object to spontaneously flip back and forth without outside force",
-      "spawned_at": "2026-10-07T05:07:11+05:30"
+      "id": "ep085",
+      "topic": "R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot",
+      "spawned_at": "2026-10-07T11:07:58+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep061",
-      "title": "The Dark Secret of the Sombrero Galaxy",
-      "due_at": "2026-10-07T12:30:00-04:00"
+      "id": "ep060",
+      "title": "The Star That Destroyed the Universe",
+      "due_at": "2026-10-08T12:30:00-04:00"
     }
   ],
-  "live": 12,
+  "live": 13,
   "failed_posts": [],
-  "not_live": [],
+  "not_live": [
+    {
+      "id": "ep023",
+      "problem": "YouTube has no video Wmi8yfklomY"
+    }
+  ],
   "llm": {
-    "calls": 13,
+    "calls": 19,
     "by_model": {
-      "gemini-3.8-flash": 1,
+      "gemini-3-flash-preview": 3,
+      "gemini-3.5-flash-lite": 14,
       "gemini-3.7-flash": 1,
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 10
+      "gemini-3.5-flash": 1
     },
     "out_of_quota": [
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
+      "gemini-3-flash-preview",
+      "gemini-3.5-flash",
+      "gemini-flash-latest"
     ]
   },
   "renders": {
@@ -372,17 +376,17 @@
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 7.8,
+    "metered": 7.92,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 168,
+    "cloud": 167,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 20.2
+    "modal_credit_left": 20.08
   },
   "made_here": 0,
-  "open_topics": 44,
+  "open_topics": 41,
   "parked_topics": 28
 }

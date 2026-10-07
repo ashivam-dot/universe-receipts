@@ -1,0 +1,132 @@
+id: ep080
+title: The Tumbling Asteroid That Defies Gravity
+series: Near Misses
+description: Discover 4179 Toutatis, a ginger-root asteroid that tumbles chaotically through space.
+sources:
+- https://en.wikipedia.org/wiki/4179_Toutatis
+- https://echo.jpl.nasa.gov/asteroids/4179_Toutatis/toutatis.html~
+- http://space.com/scienceastronomy/toutatis_video_040929.html
+- https://historysnacks.io/event/dElc1aJK/the-asteroid-4179-toutatis-passed-within-four-lunar-distances-of-earth/
+- https://orbitalradar.com/asteroid/4179-toutatis
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3860288
+- http://www.planetary.org/blogs/emily-lakdawalla/2012/20120614-change-2-toutatis.html
+hashtags:
+- '#space'
+- '#nearmisses'
+- '#asteroid'
+tags:
+- Toutatis
+- asteroid
+- space
+- astronomy
+- Chang'e 2
+- near miss
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: On one asteroid, the sun rises and sets in completely random locations.
+  emphasis:
+  - random locations
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/4179_Toutatis.png/960px-4179_Toutatis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 4179 Toutatis.png
+      credit: Yun Jiang, Jianghui Ji, Jiangchuan Huang, Simone Marchi, Yuan Li & Wing-Huen Ip
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:4179_Toutatis.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Discovered on January 4, 1989, 4179 Toutatis is nearly five kilometers long.
+  emphasis:
+  - January 4, 1989
+  - five kilometers long
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: January 4, 1989
+      small: Caussols
+    motion: zoom_in
+- text: On September 29, 2004, this massive space rock passed within four lunar distances of our planet.
+  emphasis:
+  - four lunar distances
+  - our planet
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: September 29, 2004
+      small: Earth Approach
+    motion: zoom_in
+- text: Internet rumors at the time falsely claimed the asteroid carried a high chance of hitting Earth.
+  emphasis:
+  - Internet rumors
+  - high chance
+  sfx: riser
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/65/PioneerDeepSpaceStation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PioneerDeepSpaceStation.jpg
+      credit: Unknown NASA employee
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PioneerDeepSpaceStation.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.6
+    focus_y: 0.6
+    card:
+      kind: fact
+      big: False Rumors
+      small: Impact panic in 2004
+- text: Later observations by the Chinese probe Chang'e 2 revealed it is a ginger-root shaped contact binary.
+  emphasis:
+  - Chang'e 2
+  - contact binary
+  sfx: pop
+  visual:
+    reuse: 4
+    motion: zoom_in
+    focus_x: 0.6
+    focus_y: 0.6
+- text: Instead of a stable spin, Toutatis tumbles through space like a football after a botched pass.
+  emphasis:
+  - tumbles through space
+  - botched pass
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Asteroid_4179_Toutatis.faces_model.jpg/960px-Asteroid_4179_Toutatis.faces_model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Asteroid 4179 Toutatis.faces model.jpg
+      credit: Rendered by Eric DeJong and Shigeru Suzuki
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Asteroid_4179_Toutatis.faces_model.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This chaotic rotation explains precisely why on one asteroid, the sun rises and sets in completely random locations.
+  emphasis:
+  - chaotic rotation
+  - completely random locations
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: RANDOM SUNRISES

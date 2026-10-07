@@ -1,0 +1,320 @@
+{
+  "viable": true,
+  "reason": "The sources provide over 20 atomic claims with multi-site support regarding solar neutrino production, the solar neutrino problem, and the photon-neutrino travel time discrepancy.",
+  "story": "Sunlight feels instant, but it is an ancient relic. When fusion occurs in the Sun’s core, it releases energy as photons and neutrinos. For light, the journey to the surface is an epic 100,000-year obstacle course. Photons are constantly absorbed and re-emitted, bouncing between particles in a process called radiation diffusion. Neutrinos, however, are nearly massless ghost particles with no electric charge. They interact so weakly with matter that they fly through the Sun’s dense layers almost instantly, escaping the core right away. For decades, a Solar Neutrino Problem haunted scientists because we detected only a fraction of the neutrinos expected. We now know they simply change flavors mid-flight. By detecting these neutrinos today, the Borexino experiment proved the Sun’s core produces the same energy now as it did 100,000 years ago. Our star’s current brightness is actually a receipt from the distant past.",
+  "angle": "The light hitting your face today was actually produced 100,000 years ago, while neutrinos from that same moment arrived just eight minutes after escaping the Sun's core.",
+  "claims": [
+    {
+      "claim": "Solar neutrinos originate from nuclear fusion reactions occurring in the Sun's core.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Neutrinos are elementary particles that possess a neutral electric charge.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Neutrinos interact with matter only via gravity and the weak nuclear force.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Neutrinos can travel through the entire Earth without being absorbed due to their weak interaction with matter.",
+      "sources": [
+        "S2",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Light particles called photons bounce between particles as they travel from the Sun's core to the surface.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "It takes thousands of years for heat energy to move from the Sun's core to its surface.",
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The delay for light energy to escape the Sun is estimated at approximately 100,000 years.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Neutrinos escape the Sun's dense core right away because they rarely interact with other particles.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Approximately 99% of the Sun's energy is produced through the proton-proton chain reaction.",
+      "sources": [
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The proton-proton chain converts four protons into helium nuclei, energy, and neutrinos.",
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In the 1960s, the Homestake experiment found that the number of solar neutrinos detected was much lower than predicted.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The discrepancy between predicted and observed solar neutrinos was known as the solar neutrino problem.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Neutrinos exist in three distinct types or flavors: electron, muon, and tau.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Sun's fusion reactions primarily produce electron neutrinos.",
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Neutrinos can change from one flavor to another during flight, a process called neutrino oscillation.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The discovery of neutrino oscillation proved that neutrinos possess mass.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Neutrino detectors are built deep underground to avoid interference from cosmic rays.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Borexino detector identifies neutrinos by analyzing blue Cherenkov light produced in liquid scintillator.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Comparing neutrino flux to sunlight shows the Sun produces the same energy currently as it did 100,000 years ago.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Wolfgang Pauli first suggested the existence of the neutrino in 1930.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Raymond Davis Jr. and John Bahcall were the primary pioneers of solar neutrino research.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Nobel Prizes were awarded in 2002 and 2015 for research that solved the solar neutrino problem.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact travel time for radiation-diffusion is disputed; S5 estimates 10 million years, while S1 and S6 estimate 100,000 years. The script should use the 100,000-year figure supported by the Borexino experiment.",
+    "S2 notes the 2015 Nobel Prize committee incorrectly cited neutrino oscillations for the SNO experiment when the MSW effect was the cause; the script should attribute flavor change generally to oscillation."
+  ],
+  "visuals": [
+    {
+      "subject": "Illustration of the Sun's internal layers showing the core and radiation zone",
+      "queries": [
+        "Solar core internal structure diagram",
+        "Sun cross section illustration"
+      ]
+    },
+    {
+      "subject": "Diagram of the proton-proton nuclear fusion chain",
+      "queries": [
+        "Proton-proton chain reaction diagram",
+        "Solar nuclear fusion pp-chain"
+      ]
+    },
+    {
+      "subject": "The cavern and equipment of the Homestake Gold Mine neutrino experiment",
+      "queries": [
+        "Homestake Gold Mine underground lab",
+        "Ray Davis neutrino detector tank"
+      ]
+    },
+    {
+      "subject": "The interior of the Super-Kamiokande detector with photomultiplier tubes",
+      "queries": [
+        "Super-Kamiokande detector interior",
+        "Super-Kamiokande gold tubes"
+      ]
+    },
+    {
+      "subject": "The Sudbury Neutrino Observatory acrylic vessel during construction",
+      "queries": [
+        "Sudbury Neutrino Observatory SNO detector",
+        "SNO acrylic vessel structure"
+      ]
+    },
+    {
+      "subject": "Schematic illustration of the Borexino detector structure",
+      "queries": [
+        "Borexino detector experiment schematic",
+        "Borexino internal layers diagram"
+      ]
+    },
+    {
+      "subject": "Portrait of physicist Raymond Davis Jr.",
+      "queries": [
+        "Raymond Davis Jr physicist",
+        "Raymond Davis Jr portrait"
+      ]
+    },
+    {
+      "subject": "Portrait of astrophysicist John Bahcall",
+      "queries": [
+        "John Bahcall astrophysicist",
+        "John Bahcall portrait"
+      ]
+    },
+    {
+      "subject": "Historical portrait of Wolfgang Pauli",
+      "queries": [
+        "Wolfgang Pauli physicist 1945",
+        "Wolfgang Pauli portrait"
+      ]
+    },
+    {
+      "subject": "Illustration of neutrino flavor oscillation showing conversion between types",
+      "queries": [
+        "Neutrino oscillation flavors illustration",
+        "Neutrino flavor change diagram"
+      ]
+    },
+    {
+      "subject": "Photo of blue Cherenkov radiation light in a water tank",
+      "queries": [
+        "Cherenkov radiation blue light",
+        "Cherenkov effect water tank"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Solar_neutrino",
+      "title": "Solar neutrino",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Solar_neutrino_problem",
+      "title": "Solar neutrino problem",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.nature.com/articles/s41586-018-0624-y",
+      "title": "Comprehensive measurement of pp-chain solar neutrinos - Nature",
+      "site": "nature.com"
+    },
+    {
+      "label": "S4",
+      "url": "http://www.sns.ias.edu/~jnb/SNviewgraphs/snviewgraphs.html",
+      "title": "Solar Neutrino Viewgraphs",
+      "site": "ias.edu"
+    },
+    {
+      "label": "S5",
+      "url": "http://math.ucr.edu/home/baez/physics/ParticleAndNuclear/solar_neutrino.html",
+      "title": "The Solar Neutrino Problem",
+      "site": "ucr.edu"
+    },
+    {
+      "label": "S6",
+      "url": "https://neutrinos.fnal.gov/sources/solar-neutrinos/",
+      "title": "Solar neutrinos",
+      "site": "fnal.gov"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3417797",
+      "title": "Atmospheric neutrinos and discovery of neutrino oscillations",
+      "site": "nih.gov"
+    }
+  ],
+  "topic": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
+  "series": "Space Myths, Busted"
+}
