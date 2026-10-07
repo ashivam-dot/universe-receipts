@@ -1,0 +1,281 @@
+{
+  "viable": true,
+  "reason": "The sources provide over 15 distinct, double-verified claims including specific landing mechanics, the timeline of discovery, and harsh environmental data.",
+  "story": "In 1970, the Soviet Union’s Venera 7 set out to conquer the furnace of Venus. To survive the hellish environment, engineers built a thick titanium sphere designed to withstand pressures that had crushed every previous probe. On December 15, the landing went south. The parachute failed, causing the lander to slam into the night side of the planet at 37 miles per hour. Silence followed. Mission control assumed the probe had died on impact. It wasn't until weeks later that radio astronomer Oleg Rzhiga re-examined the recording tapes. Hidden beneath layers of static was a faint, 23-minute heartbeat of data. Venera 7 had bounced and landed on its side, pointing its antenna away from Earth, but it was still alive. It became the first human-made object to transmit data from the surface of another planet, confirming a lead-melting temperature of 475°C. It was a historic first that the world almost missed.",
+  "angle": "The first signal ever sent from the surface of another planet was so weak that scientists initially thought the probe had died, only discovering the data weeks later hidden in background noise.",
+  "claims": [
+    {
+      "claim": "Venera 7 launched on August 17, 1970.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission was the first to transmit data from the surface of another planet.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The lander reached the surface of Venus on December 15, 1970.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft was constructed with a titanium pressure shell to survive extreme conditions.",
+      "sources": [
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The probe was internally chilled before atmospheric entry to extend its survival time.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The parachute failed or tore during the final descent, leading to a faster-than-planned impact.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "Venera 7 struck the surface at a velocity of approximately 16.5 to 17 meters per second.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The probe landed on the night side of Venus.",
+      "sources": [
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft likely bounced and came to rest on its side upon landing.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The landing angle caused the antenna to be misaligned, making the radio signal extremely weak.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mission controllers initially believed the probe had gone silent and failed at the moment of impact.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Scientists discovered the surface data weeks later while reviewing and processing recorded radio tapes.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The lander successfully transmitted data from the surface for about 23 minutes.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The surface temperature was measured to be approximately 475 degrees Celsius.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The surface pressure was calculated to be approximately 90 times that of Earth's atmosphere.",
+      "sources": [
+        "S2",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Surface temperature: Source S6 claims 237-246°C, while S1, S4, S5, and S7 agree on ~475°C. A script should use 475°C as the consensus value.",
+    "Surface pressure: S6 claims 93 atmospheres, while others cite 90 atmospheres. A script should use 'approximately 90' or attribute the specific variation.",
+    "Parachute failure: S1 claims the reefing line melted as designed but failed later; S6 claims it was lost 10 meters above the surface; S5 says it tore and collapsed. A script should generally state the parachute failed shortly before impact."
+  ],
+  "visuals": [
+    {
+      "subject": "Diagram of the Venera 7 lander and interplanetary bus",
+      "queries": [
+        "Venera 7 spacecraft diagram",
+        "Venera 7 lander illustration"
+      ]
+    },
+    {
+      "subject": "Artist concept of the Venera probe on the Venusian surface",
+      "queries": [
+        "Venera lander Venus surface illustration",
+        "Venera 7 artist's concept"
+      ]
+    },
+    {
+      "subject": "The Molniya-M rocket used for the launch",
+      "queries": [
+        "Molniya-M rocket launch",
+        "Molniya rocket Baikonur"
+      ]
+    },
+    {
+      "subject": "Aerial view of the Baikonur Cosmodrome launch site",
+      "queries": [
+        "Baikonur Cosmodrome aerial",
+        "Baikonur launch pad"
+      ]
+    },
+    {
+      "subject": "The titanium pressure vessel during fabrication",
+      "queries": [
+        "Venera lander shell fabrication",
+        "Soviet spacecraft manufacturing"
+      ]
+    },
+    {
+      "subject": "Diagram of the Venusian atmosphere layers",
+      "queries": [
+        "Venus atmosphere diagram",
+        "Venus atmospheric structure"
+      ]
+    },
+    {
+      "subject": "Soviet radio astronomer Oleg Rzhiga or similar equipment",
+      "queries": [
+        "Soviet radio telescope RT-70",
+        "Oleg Rzhiga astronomer"
+      ]
+    },
+    {
+      "subject": "Artist concept of the probe falling through thick orange clouds",
+      "queries": [
+        "Venus atmosphere descent illustration",
+        "Venus clouds illustration"
+      ]
+    },
+    {
+      "subject": "Comparison of Earth and Venus as rocky planets",
+      "queries": [
+        "Earth and Venus size comparison",
+        "terrestrial planets comparison"
+      ]
+    },
+    {
+      "subject": "Illustration of the probe lying on its side in the dark",
+      "queries": [
+        "spacecraft landed on side illustration",
+        "Venera 7 surface position"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Venera_7",
+      "title": "Venera 7",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Venera_program",
+      "title": "Venera program",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "http://nssdc.gsfc.nasa.gov/planetary/chronology_venus.html",
+      "title": "Chronology of Venus Exploration",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.argo.net/in-1970-venera-7-survived-23-minutes-on-venus-in-475-degree-heat-and-crushing-90-atmosphere-pressure-sent-the-first-data-from-another-planets-surface-and-engineers-only-realized-weeks-late/",
+      "title": "In 1970, Venera 7 survived 23 minutes on Venus in 475-degree heat and crushing 90-atmosphere pressure, sent the first data from another planet’s surface, and engineers only realized weeks later that the faint signal had continued after landing while the probe’s titanium hardware may still be recognizable today",
+      "site": "argo.net"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.spacedaily.com/t-venera-7-faint-radio-data-first-planet-surface-transmission/",
+      "title": "In 1970, Venera 7 appeared to fall silent when it hit Venus, but engineers later found 23 minutes of faint radio data buried in the recording — the first transmission ever received from the surface of another planet",
+      "site": "spacedaily.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://russianspaceweb.com/venera7.html",
+      "title": "Venera-7",
+      "site": "russianspaceweb.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://historysnacks.io/event/jFbVqZRE/venera-7-a-soviet-spacecraft-is-launched-it-later-becomes-the-first-spacecraft/",
+      "title": "Venera 7, 1970: The First Voice from Venus",
+      "site": "historysnacks.io"
+    }
+  ],
+  "topic": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
+  "series": "Mission Files"
+}

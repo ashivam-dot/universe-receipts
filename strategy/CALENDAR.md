@@ -46,7 +46,7 @@ unexplained, not alien.
 | Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
 | Oct 7 | Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons — done (ep004) | Mission Files |
 | Oct 10 | Outer Space Treaty (1967): the law of space bans nuclear weapons in orbit and forbids any nation from claiming the Moon — done (ep033) | Space Got Weird |
-| Oct 15 | Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph | The Universe Is Terrifying |
+| Oct 15 | Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph — making (ep091) | The Universe Is Terrifying |
 | Oct 19 | 1I/ʻOumuamua (2017): the first known visitor from another star system sped up as it left, with no visible tail | Space Got Weird |
 | Oct 21 | Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet | Space Myths, Busted |
 | Oct 22 | Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus | Mission Files |
@@ -127,7 +127,7 @@ unexplained, not alien.
 ### Space Got Weird
 
 - PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star — dropped (ep083)
-- Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain
+- Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain — making (ep092)
 - Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy — done (ep058)
 - Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — parked (ep022)
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer — done (ep052)
@@ -148,7 +148,7 @@ unexplained, not alien.
 - Apollo 13 (1970): after the lunar module carried the crippled ship home, its builder Grumman jokingly sent the command module's maker an invoice for "towing" — dropped (ep007)
 - Carrington Event (1859): the biggest solar storm on record; some telegraph lines kept working with their batteries unplugged — done (ep009)
 - 99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029 — done (ep035)
-- 2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032
+- 2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032 — making (ep094)
 - Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past — done (ep050)
 - July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot — done (ep072)
 - Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin — parked (ep056)
@@ -176,5 +176,5 @@ unexplained, not alien.
 - Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes
 - Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun — parked (ep073)
 - Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground — done (ep059)
-- Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever
+- Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever — making (ep093)
 - Asteroid belt (1801): despite movie scenes of ships dodging giant rocks, the average distance between asteroids in the belt is about 600,000 miles — making (ep087)
