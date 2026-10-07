@@ -1,0 +1,139 @@
+id: ep079
+title: The Cosmic Colossus That Baffles Astronomers
+series: Scale Breaker
+description: Discover IC 1101, a supergiant galaxy so vast it would almost bridge the gap between the Milky Way and Andromeda.
+sources:
+- https://www.iac.es/en/outreach/news/iac-study-measures-exact-size-largest-known-galaxy
+- https://www.sciencealert.com/the-biggest-known-galaxy-is-1-7-million-light-years-and-we-cant-comprehend-the-scale
+- https://en.wikipedia.org/wiki/IC_1101
+- http://mathshistory.st-andrews.ac.uk/Extras/Herschel_William_discoveries.html
+- http://www.wikisky.org/starview?object=IC+1101
+hashtags:
+- '#space'
+- '#astronomy'
+- '#galaxies'
+tags:
+- IC 1101
+- supergiant galaxy
+- galaxy cluster
+- astronomy
+- universe
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: One supergiant galaxy almost bridges the Milky Way and Andromeda.
+  emphasis:
+  - supergiant galaxy
+  - almost bridges
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: supergiant galaxy
+      small: ''
+    motion: zoom_in
+- text: On June 19, 1790, astronomer William Herschel discovered this faint celestial smudge in the constellation Virgo.
+  emphasis:
+  - William Herschel
+  - June 19, 1790
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/William_Herschel01.jpg/1920px-William_Herschel01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: William Herschel01.jpg
+      credit: Lemuel Francis Abbott
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:William_Herschel01.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.35
+    box:
+    - 0.3
+    - 0.05
+    - 0.7
+    - 0.7
+    card:
+      kind: dateline
+      big: June 19, 1790
+      small: Constellation Virgo
+- text: Today, we know that smudge as IC 1101, anchored at the center of the Abell 2029 galaxy cluster.
+  emphasis:
+  - IC 1101
+  - Abell 2029
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b1/Color_cutout_hst_06228_03_wfpc2_f702w_f450w_pc_sci_IC_1101.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Color cutout hst 06228 03 wfpc2 f702w f450w pc sci IC 1101.jpg
+      credit: Hubble Space Telescope - Hubble Legacy Archive
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Color_cutout_hst_06228_03_wfpc2_f702w_f450w_pc_sci_IC_1101.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: IC 1101
+      small: Galaxy Cluster Center
+- text: Recent ultra-deep observations using the Isaac Newton Telescope revealed its measured main body spans 1.7 million
+    light-years.
+  emphasis:
+  - Isaac Newton Telescope
+  - 1.7 million light-years
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 1.7 Million
+      small: Light-Years Across
+    motion: zoom_in
+- text: Containing trillions of solar masses, this cosmic colossus grew into a monster by cannibalizing neighboring galaxies.
+  emphasis:
+  - cosmic colossus
+  - cannibalizing
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Interacting_Galaxies_Hubble.jpg/960px-Interacting_Galaxies_Hubble.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Interacting Galaxies Hubble.jpg
+      credit: NASA, ESA, A. Evans (University of Virginia, Charlottesville/NRAO/Stony Brook University), and the Hubble Heritage
+        Team (STScI/AURA)-ESA/Hubble Collaboration
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Interacting_Galaxies_Hubble.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Faint plume-like outer remnants show that it is still actively devouring nearby galactic debris today.
+  emphasis:
+  - actively devouring
+  - galactic debris
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 5
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That is why this supergiant galaxy is so massive it would almost bridge the Milky Way and Andromeda.
+  emphasis:
+  - supergiant galaxy
+  - almost bridge
+  visual:
+    reuse: 1
+    motion: zoom_out
+hook_text: A GALAXY SO VAST

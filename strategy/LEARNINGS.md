@@ -27,6 +27,7 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Write a last line that flows straight into the first line to increase average percentage viewed and trigger rewatches. Evidence: ep008, ep013, ep028.
 - Avoid repeating exact hook phrases verbatim in the final beat; replace them with a distinct concluding payoff, seamless cliffhanger, or forward-looking question to prevent steep retention and like drops. Evidence: ep017, ep024, ep036.
 - Condense mid-script setups into single punchy beats to keep the final beat under 3 seconds and sustain end retention above 1.0. Evidence: ep008, ep009.
+- Compress or eliminate complex technical explanations or scientific definitions in the final beats to prevent late retention drop-offs. Evidence: ep008, ep028.
 
 ## Hypotheses to test (from research, not yet our data)
 
@@ -42,17 +43,17 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep002 | Mission Files | statement, story | 105 | 47% | 39.1% | 85% | 0 | Used statement hook, resulted in lower engaged share and view percentage. |
-| ep004 | Mission Files | statement, story | 1056 | 57% | 53.8% | 110% | 3 | Strong paradoxical hook drove high views, but flat comments due to closed-loop ending. |
-| ep008 | The Universe Is Terrifying | statement, story | 866 | 47% | 83.8% | 130% | 5 | Strong hook drove exceptional early retention, but late drop-off occurred from stretching data explanation. |
-| ep009 | Near Misses | statement, story | 244 | 42% | 60.3% | 105% | 0 | Strong initial rewatches from hook, but mid-to-late pacing caused steep retention drop. |
-| ep013 | Scale Breaker | contradiction, story | 979 | 56% | 66.0% | 117% | 2 | Contradiction hook drove high discovery and likes, but late retention suffered from explanatory wrap-up. |
-| ep017 | Mission Files | contradiction, myth_vs_fact | 1138 | – | – | – | – | Naming paradox hook drove high velocity, but verbatim hook repetition ruined the loop and generated zero comments. |
-| ep024 | Near Misses | contradiction, scale_ladder | 955 | 46% | 53.7% | 104% | 1 | Contradiction hook engaged viewers instantly, but final beat repeating the hook verbatim caused retention collapse. |
-| ep028 | Space Myths, Busted | statement, mystery | 1260 | 54% | 81.5% | 129% | 5 | Effective statement hook drove high rewatching and subscribers, but technical explanation caused late drop-off. |
-| ep032 | The Universe Is Terrifying | statement, record | 1034 | 42% | 75.8% | 123% | 1 | Strong initial distribution and pacing, but moderate audience resonance on likes. |
-| ep035 | Near Misses | statement, myth_vs_fact | 1284 | – | – | – | – | High-impact urgency hook captured initial interest, but slightly subdued viewer interaction. |
-| ep036 | Mission Files | statement, story | 1029 | 60% | 64.2% | 119% | 1 | Vivid opening visual drove strong early distribution, but repetition of hook phrase in final beat lowered likes. |
+| ep002 | Mission Files | statement, story | 105 | 47% | 39.1% | 85% | 0 | Static statement hook and slow pacing failed on all metrics; visuals couldn't salvage retention. |
+| ep004 | Mission Files | statement, story | 1056 | 57% | 53.8% | 110% | 3 | Paradox hook drove high views and likes, but closed ending killed comments. |
+| ep008 | The Universe Is Terrifying | statement, story | 866 | 47% | 83.8% | 130% | 5 | Exceptional hook and topic kept retention and loops high, but slow ending dragged late pacing. |
+| ep009 | Near Misses | statement, story | 244 | 42% | 60.3% | 105% | 0 | Intriguing historical hook started strong, but slow mid-script pacing caused late drop-off. |
+| ep013 | Scale Breaker | contradiction, story | 979 | 56% | 66.0% | 117% | 2 | Great contradiction hook and scale topic boosted likes, but weak ending ruined loop potential. |
+| ep017 | Mission Files | contradiction, myth_vs_fact | 1183 | – | – | – | – | Strong naming paradox hook drove views, but a verbatim ending loop restricted comment engagement. |
+| ep024 | Near Misses | contradiction, scale_ladder | 955 | 46% | 53.7% | 104% | 1 | Powerful contradiction hook boosted early reach, but verbatim hook repetition at end killed loop retention. |
+| ep028 | Space Myths, Busted | statement, mystery | 1261 | 54% | 81.5% | 129% | 5 | Excellent mystery hook drove strong loops, but technical precession explanation slowed pacing near the end. |
+| ep032 | The Universe Is Terrifying | statement, record | 1034 | 42% | 75.8% | 123% | 1 | Terrifying cosmic topic secured high views, though slow middle-beat pacing slightly lowered engagement. |
+| ep035 | Near Misses | statement, myth_vs_fact | 1295 | – | – | – | – | Urgent hazard hook drove strong initial views, but lack of a creative loop muted engagement. |
+| ep036 | Mission Files | statement, story | 1030 | 60% | 64.2% | 119% | 1 | Vivid visual hook engaged viewers early, but verbatim phrase repetition at the end flattened likes. |
 
 ## Log
 
@@ -75,3 +76,4 @@ contradiction.
 - 2026-10-06: Promoted the rule against verbatim hook repetition in endings after ep024 and ep036 both showed engagement and retention drops.
 - 2026-10-07: Promoted the fast-paced final beat hypothesis to a rule using ep008 and ep009, and expanded evidence for ending rules using ep013 and ep017.
 - 2026-10-07: Today we maintained proven rules regarding hook placement and loop structure, while noting the negative impact of verbatim hook repetition on end retention and comments.
+- 2026-10-07: Promoted technical explanation compression to a rule after ep008 and ep028 both showed late retention drop-offs due to scientific over-explanation.

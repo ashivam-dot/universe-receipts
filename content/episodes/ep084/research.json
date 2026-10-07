@@ -1,0 +1,286 @@
+{
+  "viable": true,
+  "reason": "The dramatic triple-landing and survival of Philae provides 18 robustly cross-referenced claims from the provided sources, even though the comet's smell is only mentioned in one source.",
+  "story": "In November 2014, the European Space Agency's Rosetta mission made history when its lander, Philae, touched down on comet 67P/Churyumov-Gerasimenko after a ten-year journey. But the landing went wildly off-script. Philae's anchoring harpoons and gas thruster both failed to fire. Instead of staying put, the lander bounced off the surface, soaring nearly a kilometer high into the comet's ultra-low gravity. It drifted in space for almost two hours before touching down a second and then a third time. Philae finally wedged itself in a dark, rocky crevice, tilted at thirty degrees. Stuck in deep shadows, the lander received only ninety minutes of sunlight per day instead of the planned seven hours. Despite the desperate situation and a dying battery, Philae successfully transmitted scientific data from all ten of its instruments before slipping into hibernation.",
+  "angle": "When the Philae lander reached Comet 67P, its anchors failed, causing it to bounce a kilometer high and drift for nearly two hours before finally landing wedged in a dark cliff shadow.",
+  "claims": [
+    {
+      "claim": "The Rosetta mission traveled for over ten years to reach comet 67P/Churyumov-Gerasimenko.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Philae was a robotic lander sent by the European Space Agency.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Philae attempted the first-ever soft landing on a comet nucleus on November 12, 2014.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Both the anchoring harpoons and the downward-pushing gas thruster failed to fire during touchdown.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Due to the anchor failures, Philae bounced twice and touched down three times in total.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The lander's first contact with the comet occurred at approximately 15:33 or 15:34 UTC.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "Philae rebounded at a speed of 38 centimeters per second after the first impact.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The lander's first bounce sent it soaring to an altitude of approximately one kilometer.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The first bounce lasted nearly two hours before the next touchdown.",
+      "sources": [
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Signals from the spacecraft took over 28 minutes to reach Earth.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Philae finally came to rest wedged in the shadow of a cliff or rocky wall.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The final landing spot left the spacecraft tilted at an angle of approximately 30 degrees.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Due to the shadow, Philae received only about 1.5 hours of sunlight per comet day.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Despite the power crisis, Philae returned scientific data from all ten of its onboard instruments before hibernating.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Philae's body was rotated 35 degrees before power was lost to try to catch more sunlight.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Philae was undamaged by the multiple bounces and landings.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The German Aerospace Center (DLR) managed and operated the lander.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The European Space Operations Centre is located in Darmstadt, Germany.",
+      "sources": [
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact time of first touchdown varies slightly between 15:33 and 15:34 UTC; the script should use 'around 15:33 or 15:34 UTC'.",
+    "The exact battery lifetime varies between 57 hours of actual operation and 60 to 64 hours of design limit; the script should say 'nearly 60 hours'.",
+    "The initial reports of the landing mentioned only one or two touchdowns, but the consensus is three; the script should stick to three landings.",
+    "The detailed smell of the comet is only mentioned in S6; the script must leave this claim out to satisfy the strict two-source constraint."
+  ],
+  "visuals": [
+    {
+      "subject": "Rosetta spacecraft launch on Ariane 5 rocket",
+      "queries": [
+        "Ariane 5 Rosetta",
+        "Rosetta launch Ariane 5"
+      ]
+    },
+    {
+      "subject": "Comet 67P/Churyumov-Gerasimenko as photographed by Rosetta",
+      "queries": [
+        "67P Churyumov-Gerasimenko Rosetta",
+        "Comet 67P Rosetta spacecraft"
+      ]
+    },
+    {
+      "subject": "Rosetta mission patch",
+      "queries": [
+        "Rosetta mission patch",
+        "ESA Rosetta patch"
+      ]
+    },
+    {
+      "subject": "European Space Operations Centre control room in Darmstadt",
+      "queries": [
+        "ESOC control room Darmstadt",
+        "European Space Operations Centre control room"
+      ]
+    },
+    {
+      "subject": "Philae lander model",
+      "queries": [
+        "Philae lander model",
+        "Philae lander replica"
+      ]
+    },
+    {
+      "subject": "ROLIS descent camera image of Comet 67P surface",
+      "queries": [
+        "ROLIS descent comet 67P",
+        "Philae descent ROLIS"
+      ]
+    },
+    {
+      "subject": "CIVA camera panoramic image of the comet surface",
+      "queries": [
+        "Philae CIVA panoramic",
+        "CIVA comet surface"
+      ]
+    },
+    {
+      "subject": "Artist concept of Philae lander landing on the comet (illustration)",
+      "queries": [
+        "Philae landing illustration",
+        "Philae comet landing artist concept"
+      ]
+    },
+    {
+      "subject": "DLR Lander Control Center in Cologne",
+      "queries": [
+        "DLR Cologne control center",
+        "German Aerospace Center Cologne"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Philae_(spacecraft)",
+      "title": "Philae (spacecraft)",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.jpl.nasa.gov/news/rosetta-to-chase-a-comet",
+      "title": "Rosetta: To Chase a Comet | NASA Jet Propulsion Laboratory (JPL)",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://web.archive.org/web/20231018072901/https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Three_touchdowns_for_Rosetta_s_lander",
+      "title": "Three touchdowns for Rosetta’s lander",
+      "site": "esa.int"
+    },
+    {
+      "label": "S4",
+      "url": "https://web.archive.org/web/20240222151546/https://skyandtelescope.org/astronomy-news/philae-lander-success-11152014/",
+      "title": "Philae Wins Race to Return Comet Findings",
+      "site": "skyandtelescope.org"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.planetary.org/articles/11120821-philae-has-landed",
+      "title": "PHILAE HAS LANDED! [UPDATED]",
+      "site": "planetary.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.space.com/27607-comet-has-awful-stench-rosetta-spacecraft.html",
+      "title": "Comet Emits Cosmic Stench, Rosetta Spacecraft Reveals",
+      "site": "space.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://web.archive.org/web/20230930102707/https://www.newscientist.com/article/dn26547-problems-hit-philae-after-historic-first-comet-landing/",
+      "title": "Problems hit Philae after historic first comet landing",
+      "site": "newscientist.com"
+    }
+  ],
+  "topic": "Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it",
+  "series": "Mission Files"
+}

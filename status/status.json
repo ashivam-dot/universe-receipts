@@ -1,35 +1,34 @@
 {
-  "updated_at": "2026-10-07T11:08:00+05:30",
+  "updated_at": "2026-10-07T17:19:09+05:30",
   "day": 6,
-  "result": "degraded",
+  "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4ADQ8J4YS636CRWRXBM6GER",
+    "id": "ta-01M4B2AHKKTWE0N62QWM5QRHKR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-07T11:05:05+05:30",
-    "started_at_utc": "2026-10-07T05:35:05+00:00",
-    "seconds": 174
+    "started_at": "2026-10-07T17:05:11+05:30",
+    "started_at_utc": "2026-10-07T11:35:11+00:00",
+    "seconds": 838
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 2.1
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "22 posts",
-      "seconds": 0.7
+      "detail": "23 posts",
+      "seconds": 0.5
     },
     {
       "name": "playlists",
-      "ok": false,
-      "detail": "",
-      "error": "HttpError: <HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">",
-      "seconds": 1.9
+      "ok": true,
+      "detail": "added ep033 to 'Space Got Weird'",
+      "seconds": 3.2
     },
     {
       "name": "languages",
@@ -41,95 +40,190 @@
       "name": "on youtube",
       "ok": true,
       "detail": "ep023: YouTube has no video Wmi8yfklomY",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep028 at 72 h: ahead of the channel's earlier Shorts at this age: 1260 views against a median of 867 (1.5x); ep035 at 24 h: ahead of the channel's earlier Shorts at this age: 1284 views against a median of 921 (1.4x); learnings: Today we maintained proven rules regarding hook placement and loop structure, while noting the negative impact of verbatim hook repetition on end retention and comments.",
-      "seconds": 147.9
+      "detail": "ep033 at 6 h: behind the channel's earlier Shorts at this age: 657 views against a median of 901 (0.7x)",
+      "seconds": 1.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep079 unfinished (RuntimeError: ep079 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 100): add at least 5 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 10, beat 2: 18, beat 3: 25, beat 4: 19, beat 5: 15, beat 6: 13.']); ep080 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep081 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flas",
-      "seconds": 8.5
+      "detail": "ep079 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep083 rejected (research: only 0 claims have two different sites); ep084 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep085 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-",
+      "seconds": 12.5
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "24 subscribers",
+      "seconds": 2.9
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Promoted technical explanation compression to a rule after ep008 and ep028 both showed late retention drop-offs due to scientific over-explanation.",
+      "seconds": 736.6
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.5
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "1 added",
+      "seconds": 12.7
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 38.9
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-006.md",
+      "seconds": 0.5
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "preflight ep030",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.7
     },
     {
       "name": "preflight ep040",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.6
+    },
+    {
+      "name": "preflight ep047",
+      "ok": true,
+      "detail": "video downloads whole (16 MB in 1 s)",
+      "seconds": 1.0
+    },
+    {
+      "name": "preflight ep060",
+      "ok": true,
+      "detail": "video downloads whole (18 MB in 1 s)",
+      "seconds": 0.9
     },
     {
       "name": "preflight ep061",
       "ok": true,
-      "detail": "video downloads whole (17 MB in 0 s)",
+      "detail": "video still hosted",
       "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 0.7
     },
     {
-      "name": "schedule ep060",
+      "name": "start ep062",
       "ok": true,
-      "detail": "2026-10-08T12:30:00-04:00",
-      "seconds": 0.7
+      "detail": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
+      "seconds": 1.7
+    },
+    {
+      "name": "start ep069",
+      "ok": true,
+      "detail": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "seconds": 1.5
+    },
+    {
+      "name": "start ep072",
+      "ok": true,
+      "detail": "July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot",
+      "seconds": 1.7
+    },
+    {
+      "name": "start ep074",
+      "ok": true,
+      "detail": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep075",
+      "ok": true,
+      "detail": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep077",
+      "ok": true,
+      "detail": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep078",
+      "ok": true,
+      "detail": "False vacuum decay: a hypothetical cosmic catastrophe where a bubble of true vacuum could expand at the speed of light, rewriting the laws of physics and erasing our universe instantly",
+      "seconds": 0.9
     },
     {
       "name": "start ep079",
       "ok": true,
       "detail": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
-      "seconds": 0.5
+      "seconds": 1.1
     },
     {
-      "name": "start ep083",
+      "name": "start ep080",
       "ok": true,
-      "detail": "PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star",
-      "seconds": 0.6
+      "detail": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep081",
+      "ok": true,
+      "detail": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
+      "seconds": 0.9
     },
     {
       "name": "start ep084",
       "ok": true,
       "detail": "Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it",
-      "seconds": 0.5
+      "seconds": 0.9
     },
     {
       "name": "start ep085",
       "ok": true,
       "detail": "R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot",
-      "seconds": 0.5
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep086",
+      "ok": true,
+      "detail": "SN 1181 (1181): a zombie star that survived its own supernova and now screams through space at 16,000 kilometers per second",
+      "seconds": 0.9
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.6
+      "seconds": 0.7
     }
   ],
-  "errors": [
-    "playlists: HttpError: <HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">"
-  ],
+  "errors": [],
   "owner_action": [],
   "notes": [
-    "ep080 stopped on Gemini's free quota; it resumes in a later run",
-    "ep081 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "ep079 stopped on Gemini's free quota; it resumes in a later run",
+    "ep084 stopped on Gemini's free quota; it resumes in a later run",
+    "ep085 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 9 waiting",
     "Buffer is full (10 queued); 9 waiting"
   ],
   "inventory": {
@@ -137,7 +231,8 @@
     "in_buffer": 10,
     "waiting": 9,
     "target": 42,
-    "making": [
+    "making": [],
+    "remote": [
       "ep062",
       "ep069",
       "ep072",
@@ -145,14 +240,12 @@
       "ep075",
       "ep077",
       "ep078",
-      "ep080",
-      "ep081"
-    ],
-    "remote": [
       "ep079",
-      "ep083",
+      "ep080",
+      "ep081",
       "ep084",
-      "ep085"
+      "ep085",
+      "ep086"
     ]
   },
   "queue": [
@@ -268,84 +361,168 @@
       "id": "ep079",
       "outcome": "unfinished",
       "topic": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
-      "reason": "RuntimeError: ep079 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 100): add at least 5 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 10, beat 2: 18, beat 3: 25, beat 4: 19, beat 5: 15, beat 6: 13.']",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep080",
-      "outcome": "unfinished",
-      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep081",
-      "outcome": "unfinished",
-      "topic": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep082",
+      "id": "ep083",
       "outcome": "rejected",
-      "topic": "Tennis racket theorem (1985): a physical law in zero gravity that causes any spinning asymmetrical object to spontaneously flip back and forth without outside force",
+      "topic": "PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star",
       "reason": "research: only 0 claims have two different sites"
+    },
+    {
+      "id": "ep084",
+      "outcome": "unfinished",
+      "topic": "Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep085",
+      "outcome": "unfinished",
+      "topic": "R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep079",
-      "topic": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
-      "call_id": "fc-01M4ADWMS6EKJJH1ZEYVEXGQA5"
+      "id": "ep062",
+      "topic": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
+      "call_id": "fc-01M4B33WT2Z8MCHS6RJCJ71EM2"
     },
     {
-      "id": "ep083",
-      "topic": "PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star",
-      "call_id": "fc-01M4ADWNAD9VGXDE9FG0EWXDY4"
+      "id": "ep069",
+      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "call_id": "fc-01M4B33Y8XSJT47RKK2G3F5NGS"
+    },
+    {
+      "id": "ep072",
+      "topic": "July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot",
+      "call_id": "fc-01M4B33ZXCPCH1W92CXFN4ZX06"
+    },
+    {
+      "id": "ep074",
+      "topic": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
+      "call_id": "fc-01M4B340SPSQNZKNR4C4KCPBVA"
+    },
+    {
+      "id": "ep075",
+      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "call_id": "fc-01M4B341NNZNQ63GQMCHQ7F3BC"
+    },
+    {
+      "id": "ep077",
+      "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
+      "call_id": "fc-01M4B342KFR8FJTF1TT91W8C4Y"
+    },
+    {
+      "id": "ep078",
+      "topic": "False vacuum decay: a hypothetical cosmic catastrophe where a bubble of true vacuum could expand at the speed of light, rewriting the laws of physics and erasing our universe instantly",
+      "call_id": "fc-01M4B343GS6QWY8SFMX0YR594B"
+    },
+    {
+      "id": "ep079",
+      "topic": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
+      "call_id": "fc-01M4B344JGNRADF29QP608SY1Y"
+    },
+    {
+      "id": "ep080",
+      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
+      "call_id": "fc-01M4B3464GY83RB4K1KDGSXHK2"
+    },
+    {
+      "id": "ep081",
+      "topic": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
+      "call_id": "fc-01M4B347070RSVQFVZ98KFT8PV"
     },
     {
       "id": "ep084",
       "topic": "Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it",
-      "call_id": "fc-01M4ADWNSGJ9Z3W4DE9E83ZPNQ"
+      "call_id": "fc-01M4B347X1THYQNEFYX7R5RFSR"
     },
     {
       "id": "ep085",
       "topic": "R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot",
-      "call_id": "fc-01M4ADWP7ZEE9A2JQMJQNPAM61"
+      "call_id": "fc-01M4B348V0D7856NJGDN399Q3X"
+    },
+    {
+      "id": "ep086",
+      "topic": "SN 1181 (1181): a zombie star that survived its own supernova and now screams through space at 16,000 kilometers per second",
+      "call_id": "fc-01M4B349QJA72W2B89WTG0HPHK"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep079",
-      "topic": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
-      "spawned_at": "2026-10-07T11:07:57+05:30"
+      "id": "ep062",
+      "topic": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
+      "spawned_at": "2026-10-07T17:18:54+05:30"
     },
     {
-      "id": "ep083",
-      "topic": "PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star",
-      "spawned_at": "2026-10-07T11:07:57+05:30"
+      "id": "ep069",
+      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "spawned_at": "2026-10-07T17:18:56+05:30"
+    },
+    {
+      "id": "ep072",
+      "topic": "July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot",
+      "spawned_at": "2026-10-07T17:18:57+05:30"
+    },
+    {
+      "id": "ep074",
+      "topic": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
+      "spawned_at": "2026-10-07T17:18:58+05:30"
+    },
+    {
+      "id": "ep075",
+      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "spawned_at": "2026-10-07T17:18:59+05:30"
+    },
+    {
+      "id": "ep077",
+      "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
+      "spawned_at": "2026-10-07T17:19:00+05:30"
+    },
+    {
+      "id": "ep078",
+      "topic": "False vacuum decay: a hypothetical cosmic catastrophe where a bubble of true vacuum could expand at the speed of light, rewriting the laws of physics and erasing our universe instantly",
+      "spawned_at": "2026-10-07T17:19:01+05:30"
+    },
+    {
+      "id": "ep079",
+      "topic": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
+      "spawned_at": "2026-10-07T17:19:02+05:30"
+    },
+    {
+      "id": "ep080",
+      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
+      "spawned_at": "2026-10-07T17:19:04+05:30"
+    },
+    {
+      "id": "ep081",
+      "topic": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
+      "spawned_at": "2026-10-07T17:19:05+05:30"
     },
     {
       "id": "ep084",
       "topic": "Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it",
-      "spawned_at": "2026-10-07T11:07:58+05:30"
+      "spawned_at": "2026-10-07T17:19:06+05:30"
     },
     {
       "id": "ep085",
       "topic": "R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot",
-      "spawned_at": "2026-10-07T11:07:58+05:30"
-    }
-  ],
-  "published": [
+      "spawned_at": "2026-10-07T17:19:07+05:30"
+    },
     {
-      "id": "ep060",
-      "title": "The Star That Destroyed the Universe",
-      "due_at": "2026-10-08T12:30:00-04:00"
+      "id": "ep086",
+      "topic": "SN 1181 (1181): a zombie star that survived its own supernova and now screams through space at 16,000 kilometers per second",
+      "spawned_at": "2026-10-07T17:19:08+05:30"
     }
   ],
+  "published": [],
   "live": 13,
   "failed_posts": [],
   "not_live": [
@@ -355,38 +532,35 @@
     }
   ],
   "llm": {
-    "calls": 19,
+    "calls": 18,
     "by_model": {
-      "gemini-3-flash-preview": 3,
-      "gemini-3.5-flash-lite": 14,
-      "gemini-3.7-flash": 1,
-      "gemini-3.5-flash": 1
+      "gemini-3.5-flash": 5,
+      "gemini-3.5-flash-lite": 9,
+      "gemini-3.1-flash-lite": 2,
+      "gemini-3.8-flash": 1,
+      "gemini-3-flash-preview": 1
     },
-    "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-flash-latest"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 2,
+    "modal": 3,
     "runner": 0
   },
-  "daily_done": "2026-10-06",
+  "daily_done": "2026-10-07",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 7.92,
+    "metered": 8.05,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 167,
+    "cloud": 166,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 20.08
+    "modal_credit_left": 19.95
   },
   "made_here": 0,
-  "open_topics": 41,
+  "open_topics": 46,
   "parked_topics": 28
 }
