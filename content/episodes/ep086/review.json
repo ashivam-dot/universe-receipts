@@ -1,0 +1,64 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-07T17:35:28+05:30",
+      "check": {
+        "duration": 57.03,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'6713' heard as '+6713' after 'remnant iras 500'",
+          "'this' heard as 'the' after 'the trick behind'",
+          "'iax' heard as 'the 9th' after 'a partial type'",
+          "'wd j' heard as 'wdj 0' after 'the surviving star'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging 'zombie' star concept creates an immediate narrative hook.",
+        "clarity": "Narrative successfully bridges historical observations with modern astrophysical discoveries.",
+        "payoff": "The white dwarf merger explanation provides a satisfying conclusion.",
+        "visuals": "Frame seven mistakenly features Supernova 2012Z instead of SN 1181.",
+        "loop": "Strong conceptual connection between surviving doom and being a zombie."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Depicts Supernova 2012Z in NGC 1309 rather than the correct object."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Iax",
+          "respelling": "one ay ex"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a more compelling historical mystery and resolution than the recent planetary facts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

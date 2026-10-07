@@ -103,7 +103,58 @@
       "better_than_last": "This episode establishes a much faster, higher-stakes narrative hook than the Tabby's Star video.",
       "judge": "gemini-3.5-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-07T17:26:28+05:30",
+      "check": {
+        "duration": 50.1,
+        "words": 123,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'stereo a' heard as 'stereoas' after 'instead nasa is'",
+          "'(nothing)' heard as 'you' after 'directly at us'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong high-stakes premise grabs attention immediately.",
+        "clarity": "Clear sequential breakdown of the 2012 event and stakes.",
+        "payoff": "Effective payoff revealing the narrow miss and future risk.",
+        "visuals": "Accurate solar observatory imagery and clean data cards.",
+        "loop": "Closing sentence leads smoothly back into the opening hook."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "STEREO-A",
+          "respelling": "stereo ay"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Balances a dramatic historical near-miss with quantifiable ongoing risk more compellingly than ep071.",
+      "judge": "gemini-3.7-flash",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

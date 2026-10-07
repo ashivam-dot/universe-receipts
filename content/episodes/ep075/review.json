@@ -58,6 +58,73 @@
       "better_than_last": "This short presents a more concrete geological contradiction than the speculative Tabby's Star episode.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-07T17:30:17+05:30",
+      "check": {
+        "duration": 44.17,
+        "words": 106,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'during the moon'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening paradox.",
+        "clarity": "Technical concepts are well-explained.",
+        "payoff": "The resolution lacks a dramatic punch.",
+        "visuals": "Includes incorrect planet in beat six.",
+        "loop": "Smooth transition back to start."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows Earth and its magnetosphere instead of the Moon."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "anorthosite",
+          "respelling": "an or tho site"
+        },
+        {
+          "beat": 4,
+          "word": "plagioclase",
+          "respelling": "pla jee o klays"
+        },
+        {
+          "beat": 6,
+          "word": "Moon’s",
+          "respelling": "moonz"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: This implies the Moon was volcanically active much later than ever imagined."
+      ],
+      "better_than_last": "It presents a more concrete geological mystery than the galactic collision episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
     }
   ],
   "best_round": 1

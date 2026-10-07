@@ -1,0 +1,167 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-07T17:27:47+05:30",
+      "check": {
+        "duration": 45.7,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Sets up an engaging premise immediately with strong contrast.",
+        "clarity": "Explains photon scattering and neutrino escape in simple terms.",
+        "payoff": "Effectively resolves how neutrino detection verifies the Sun's core output.",
+        "visuals": "Multiple beats rely on duplicate frames and text-heavy schematics.",
+        "loop": "The final sentence transitions smoothly back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "the same picture as another beat"
+        },
+        {
+          "beat": 4,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 5,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Presents a clearer particle comparison to illustrate solar timescales.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-07T17:30:54+05:30",
+      "check": {
+        "duration": 45.7,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening line sets up an engaging contrast between instant light and its actual ancient age.",
+        "clarity": "The comparison between trapped photons and free-escaping neutrinos is logical and easy to follow.",
+        "payoff": "The final connection to solar energy consistency is scientifically interesting but lacks a dramatic pop.",
+        "visuals": "Several frames rely on text-heavy academic diagrams rather than engaging animations or space imagery.",
+        "loop": "The transition from the final line back to the first line is smooth and carries the narrative forward."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The frame displays a chart of solar evolution stages over billions of years, which does not depict photons in an obstacle course."
+        },
+        {
+          "beat": 4,
+          "problem": "The frame displays a text-heavy physics table written in Dutch, which is difficult to read at phone size."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Detecting these ghost particles proves the Sun is still active deep within.",
+        "Beat 7: Meaning the sunlight hitting your skin today is an ancient relic..."
+      ],
+      "better_than_last": "This episode has a clearer structural flow and a stronger narrative focus than the galactic crash topic.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-07T17:36:56+05:30",
+      "check": {
+        "duration": 49.77,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Contrast between instant light and 100,000 years is engaging.",
+        "clarity": "Transitions clearly from fusion to the surface journey.",
+        "payoff": "The ending restates the hook rather than offering a new twist.",
+        "visuals": "Heavy reliance on text-dense scientific diagrams and scans.",
+        "loop": "The relic phrasing connects seamlessly back to the start."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Diagram is text-heavy and hard to read on mobile."
+        },
+        {
+          "beat": 5,
+          "problem": "Archival image is mostly illegible text."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: These neutrinos are the only proof the Sun didn't actually shut down 100,000 years ago."
+      ],
+      "better_than_last": "Provides a more cohesive narrative structure than the probabilistic focus of episode 071.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals; 2 frame problems",
+  "rejected_at": "2026-10-07T17:36:56+05:30"
+}

@@ -1,8 +1,7 @@
 id: ep078
-title: The Bubble That Could Erase Our Universe
+title: The Bubble That Could Erase the Universe
 series: The Universe Is Terrifying
-description: Explore false vacuum decay, a hypothetical cosmic catastrophe where a true vacuum bubble could instantly rewrite
-  physics.
+description: Discover false vacuum decay, a cosmic catastrophe that could rewrite the laws of physics at the speed of light.
 sources:
 - https://en.wikipedia.org/wiki/False_vacuum
 - https://www.scientificamerican.com/article/quantum-simulation-shows-how-universe-destroying-bubbles-could-grow/
@@ -17,12 +16,11 @@ hashtags:
 - '#physics'
 tags:
 - false vacuum decay
-- quantum mechanics
-- Higgs boson
-- cosmology
-- CERN
+- quantum computing
 - physics
+- cosmos
 - universe
+- sidney coleman
 voice:
   voice: af_heart
   speed: 1.05
@@ -50,18 +48,17 @@ beats:
       kind: fact
       big: ZERO WARNING
       small: Sudden cosmic erasure
-- text: This terrifying possibility stems from false vacuum decay, a metastable state where local stability could suddenly
-    collapse.
+- text: It's called false vacuum decay, where a sudden shift in cosmic energy destroys space itself.
   emphasis:
   - false vacuum decay
-  - metastable state
+  - destroys space itself
   sfx: whoosh
   visual:
     reuse: 1
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-- text: The theoretical framework for this catastrophic process was established by Sidney Coleman in 1977.
+- text: Physicist Sidney Coleman established the mathematical framework for this catastrophic process in 1977.
   emphasis:
   - Sidney Coleman
   - '1977'
@@ -70,94 +67,86 @@ beats:
     card:
       kind: dateline
       big: '1977'
-      small: Sidney Coleman's framework
+      small: Theoretical framework established
     motion: zoom_in
-- text: Standard Model calculations place the electroweak vacuum in this fragile, metastable region.
+- text: Calculations show our entire universe exists in this fragile, temporary state.
   emphasis:
-  - Standard Model
-  - metastable region
+  - entire universe
+  - fragile
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/CERN_Collider%2C_France-Switzerland_%28ASTER%29.jpg/960px-CERN_Collider%2C_France-Switzerland_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/CERN_OpenDays_%40_LHC_02.jpg/1920px-CERN_OpenDays_%40_LHC_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: CERN Collider, France-Switzerland (ASTER).jpg
-      credit: NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:CERN_Collider,_France-Switzerland_(ASTER).jpg
+      title: CERN OpenDays @ LHC 02.jpg
+      credit: SimonWaldherr
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:CERN_OpenDays_@_LHC_02.jpg
     fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Fortunately, this collapse is estimated to not happen for trillions of years.
+  emphasis:
+  - trillions of years
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/5f/HubbleDeepField.800px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: HubbleDeepField.800px.jpg
+      credit: Robert Williams (NASA, ESA, STScI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:HubbleDeepField.800px.jpg
+    fallbacks:
+    - card
     - color
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: Calculations of the Standard Model vacuum lifetime estimate it exceeds 10 to the 65 to 10 to the 100 years.
-  emphasis:
-  - vacuum lifetime
-  - 10 to the 65
-  sfx: riser
-  pause_after: 0.4
-  visual:
-    source: card
     card:
       kind: fact
       big: 10^65 YEARS
-      small: Estimated vacuum lifetime
-    motion: zoom_in
-- text: Yet researchers recently simulated these universe-destroying bubbles using a 5,564-qubit quantum annealer from D-Wave.
+      small: Minimum estimated lifetime
+- text: Yet, researchers recently simulated these destructive bubbles using a quantum computer.
   emphasis:
-  - 5,564-qubit
-  - quantum annealer
-  sfx: whoosh
+  - simulated
+  - quantum computer
+  sfx: riser
+  pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/DWave_128chip.jpg/1280px-DWave_128chip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/1/1c/Quantum_Computing%3B_Ion_Trapping_%285941055642%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: DWave 128chip.jpg
-      credit: D-Wave Systems, Inc.
-      license: CC BY 3.0
-      url: https://commons.wikimedia.org/wiki/File:DWave_128chip.jpg
+      title: Quantum Computing; Ion Trapping (5941055642).jpg
+      credit: National Institute of Standards and Technology
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Quantum_Computing;_Ion_Trapping_(5941055642).jpg
     fallbacks:
-    - card
     - color
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-    card:
-      kind: fact
-      big: 5,564 QUBITS
-      small: Quantum annealer simulation
-- text: Published in Nature Physics in 2025, these findings prove a bubble of true vacuum could expand at the speed of light.
+- text: Using a 5,564-qubit D-Wave processor, they found a true vacuum bubble expands at the speed of light.
   emphasis:
-  - Nature Physics
   - speed of light
   sfx: pop
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Hole_punch_clouds_over_the_Bahamas_%2816109909541%29.jpg/1920px-Hole_punch_clouds_over_the_Bahamas_%2816109909541%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Hole punch clouds over the Bahamas (16109909541).jpg
-      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Hole_punch_clouds_over_the_Bahamas_(16109909541).jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    source: card
     card:
-      kind: dateline
-      big: '2025'
-      small: Nature Physics publication
-- text: Because a bubble of true vacuum could expand at light speed, our universe could vanish in an instant with zero warning.
+      kind: fact
+      big: LIGHT SPEED
+      small: Expansion velocity
+    motion: zoom_in
+- text: These findings, published in Nature Physics in 2025, prove a cosmic erasure would strike with zero warning.
   emphasis:
-  - light speed
-  - vanish in an instant
+  - cosmic erasure
+  - zero warning
   visual:
     reuse: 1
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-hook_text: A UNIVERSE-ERASING BUBBLE
+hook_text: ZERO WARNING ERASE

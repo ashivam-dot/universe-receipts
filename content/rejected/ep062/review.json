@@ -1,0 +1,159 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-06T17:16:56+05:30",
+      "check": {
+        "duration": 45.83,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "'rex' heard as 'rx' after '2020 the osiris'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening line is highly intriguing and immediately grabs attention.",
+        "clarity": "The sequence of events is easy to follow with a clear chronological narrative.",
+        "payoff": "The resolution of returning a record-breaking sample size is satisfying.",
+        "visuals": "Most frames look excellent, but one beat shows Earth-based cleanroom footage during a deep-space event.",
+        "loop": "The final sentence flows perfectly back into the hook for a seamless replay."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows Earth-based curation lab glovebox instead of the spacecraft in deep space."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode has a much stronger and more cohesive narrative flow than episode 51.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-06T17:19:14+05:30",
+      "check": {
+        "duration": 45.83,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "'rex' heard as 'rx' after '2020 the osiris'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong irony in the too successful premise stops the swipe.",
+        "clarity": "Narrative sequence from collection to emergency stowing is logical.",
+        "payoff": "The record-breaking result is satisfying but lacks a major twist.",
+        "visuals": "Detailed mechanical shots effectively illustrate the specific hardware failure.",
+        "loop": "Seamlessly connects the threat of loss back to the hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Despite the leak, they recovered double the original mission goal.",
+        "Beat 8: The massive haul nearly resulted in a total mission failure."
+      ],
+      "better_than_last": "Features more dynamic spacecraft imagery than the landing footage in the desert mission short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-07T17:27:54+05:30",
+      "check": {
+        "duration": 48.43,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'rex' heard as 'rx' after 'nasa is osiris'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening hook that introduces immediate conflict about a successful yet jammed sample.",
+        "clarity": "Narrative flows logically from touchdown to the overflowing sample and successful stowage.",
+        "payoff": "Reveals the final recovered weight and the near-miss nature of the mission success.",
+        "visuals": "Includes actual space mission imagery, but contains a major error in the control room footage.",
+        "loop": "Last line connects cleanly back to the opening statement for a smooth repeat."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows Demo-2 astronauts Doug Hurley and Bob Behnken instead of OSIRIS-REx mission controllers."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "OSIRIS-REx",
+          "respelling": "oh sy ris recks"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode matches the strong pacing of ep066 by utilizing a compelling accidental-overachievement narrative.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-07T17:27:54+05:30"
+}

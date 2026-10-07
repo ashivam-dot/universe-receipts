@@ -28,7 +28,7 @@ unexplained, not alien.
 | 2026-10-03 | DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus — done (ep036) | Mission Files | NASA recently highlighted extreme thermal testing on the probe's engineering model for its mission to Venus. |
 | 2026-10-05 | Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe — done (ep060) | Scale Breaker | October 5th is the anniversary of Edwin Hubble identifying the star that proved galaxies exist beyond our own. |
 | 2026-10-05 | Sombrero Galaxy (1781): a massive ring of stars that hides a violent history of galactic cannibalism — done (ep061) | The Universe Is Terrifying | Featured on NASA's APOD today with new evidence of tidal streams from its past mergers. |
-| 2026-10-06 | White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems — making (ep074) | Space Got Weird | A new analysis of archival Hubble data points to the possibility of dead white dwarfs hosting second-generation planetary systems. |
+| 2026-10-06 | White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems — parked (ep074) | Space Got Weird | A new analysis of archival Hubble data points to the possibility of dead white dwarfs hosting second-generation planetary systems. |
 | 2026-10-06 | Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar — making (ep075) | Space Got Weird | NASA recently highlighted Madagascar's anorthosite deposits, which perfectly mimic the geological composition of the Moon's surface. |
 | 2026-10-07 | SN 1181 (1181): a zombie star that survived its own supernova and now screams through space at 16,000 kilometers per second — making (ep086) | Space Got Weird | A spectacular new image of its remnant, Pa 30, was featured as NASA's Astronomy Picture of the Day on October 7, 2026. |
 
@@ -99,7 +99,7 @@ unexplained, not alien.
 - Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza — done (ep030)
 - Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there — parked (ep026)
 - IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it — making (ep079)
-- Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies
+- Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies — making (ep089)
 - Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail
 - Lunar distance: every other planet in the solar system can fit in the gap between the Earth and the Moon with room to spare — dropped (ep076)
 - Boomerang Nebula (1980): the coldest place in the natural universe, colder than the background glow of the Big Bang
@@ -109,18 +109,18 @@ unexplained, not alien.
 ### Mission Files
 
 - Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated — parked (ep034)
-- Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127 — making (ep069)
+- Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127 — parked (ep069)
 - Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — parked (ep057)
-- OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space — making (ep062)
-- Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour — making (ep077)
+- OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space — parked (ep062)
+- Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour — parked (ep077)
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life — done (ep045)
 - New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it — parked (ep031)
 - Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum — dropped (ep016)
 - James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew — dropped (ep015)
 - Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune — done (ep017)
-- Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it — making (ep084)
+- Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it — done (ep084)
 - Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload
-- Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled
+- Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled — making (ep090)
 - Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed
 - Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down — done (ep051)
 
@@ -150,15 +150,15 @@ unexplained, not alien.
 - 99942 Apophis (2004): once given a 2.7 percent chance of hitting Earth, it will pass closer than some satellites in 2029 — done (ep035)
 - 2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032
 - Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past — done (ep050)
-- July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot — making (ep072)
+- July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot — done (ep072)
 - Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin — parked (ep056)
 - Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months
 - 1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm — parked (ep044)
 - Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater — done (ep024)
 - Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years — done (ep063)
-- 4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed
+- 4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed — making (ep088)
 - 2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach
-- 4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange "ginger-root" shape — making (ep080)
+- 4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange "ginger-root" shape — parked (ep080)
 
 ### Space Myths, Busted
 
@@ -167,7 +167,7 @@ unexplained, not alien.
 - Season: Earth is closest to the Sun in early January, so distance isn't what makes summer — dropped (ep037)
 - Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — dropped (ep021)
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth — parked (ep041)
-- Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds — making (ep081)
+- Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds — parked (ep081)
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day — done (ep053)
 - Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — parked (ep025)
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close — done (ep028)
@@ -177,4 +177,4 @@ unexplained, not alien.
 - Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun — parked (ep073)
 - Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground — done (ep059)
 - Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever
-- Asteroid belt (1801): despite movie scenes of ships dodging giant rocks, the average distance between asteroids in the belt is about 600,000 miles
+- Asteroid belt (1801): despite movie scenes of ships dodging giant rocks, the average distance between asteroids in the belt is about 600,000 miles — making (ep087)

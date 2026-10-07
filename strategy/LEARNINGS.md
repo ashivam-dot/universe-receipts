@@ -27,13 +27,13 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Write a last line that flows straight into the first line to increase average percentage viewed and trigger rewatches. Evidence: ep008, ep013, ep028.
 - Avoid repeating exact hook phrases verbatim in the final beat; replace them with a distinct concluding payoff, seamless cliffhanger, or forward-looking question to prevent steep retention and like drops. Evidence: ep017, ep024, ep036.
 - Condense mid-script setups into single punchy beats to keep the final beat under 3 seconds and sustain end retention above 1.0. Evidence: ep008, ep009.
-- Compress or eliminate complex technical explanations or scientific definitions in the final beats to prevent late retention drop-offs. Evidence: ep008, ep028.
+- Compress or eliminate complex technical explanations or scientific definitions in the final beats to prevent late retention drop-off. Evidence: ep008, ep028.
 
 ## Hypotheses to test (from research, not yet our data)
 
 - Cut each Short to 45-59 seconds to maximize reach potential.
 - Deliver the core narrative payoff or setup within the first 3 seconds immediately after the hook to prevent pacing drop-off. Evidence: ep009.
-- Accelerate middle-beat reveals on cosmic scale topics to maintain audience engagement through the midpoint. Evidence: ep032.
+- Accelerate middle-beat reveals on cosmic scale topics to maintain audience engagement through the midpoint. Evidence: ep032, ep036.
 - Avoid passive statement hooks in favor of high-tension mysteries to prevent early viewer drop-off. Evidence: ep002.
 
 ## Scoreboard
@@ -43,17 +43,17 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep002 | Mission Files | statement, story | 105 | 47% | 39.1% | 85% | 0 | Static statement hook and slow pacing failed on all metrics; visuals couldn't salvage retention. |
-| ep004 | Mission Files | statement, story | 1056 | 57% | 53.8% | 110% | 3 | Paradox hook drove high views and likes, but closed ending killed comments. |
-| ep008 | The Universe Is Terrifying | statement, story | 866 | 47% | 83.8% | 130% | 5 | Exceptional hook and topic kept retention and loops high, but slow ending dragged late pacing. |
-| ep009 | Near Misses | statement, story | 244 | 42% | 60.3% | 105% | 0 | Intriguing historical hook started strong, but slow mid-script pacing caused late drop-off. |
-| ep013 | Scale Breaker | contradiction, story | 979 | 56% | 66.0% | 117% | 2 | Great contradiction hook and scale topic boosted likes, but weak ending ruined loop potential. |
-| ep017 | Mission Files | contradiction, myth_vs_fact | 1183 | – | – | – | – | Strong naming paradox hook drove views, but a verbatim ending loop restricted comment engagement. |
-| ep024 | Near Misses | contradiction, scale_ladder | 955 | 46% | 53.7% | 104% | 1 | Powerful contradiction hook boosted early reach, but verbatim hook repetition at end killed loop retention. |
-| ep028 | Space Myths, Busted | statement, mystery | 1261 | 54% | 81.5% | 129% | 5 | Excellent mystery hook drove strong loops, but technical precession explanation slowed pacing near the end. |
-| ep032 | The Universe Is Terrifying | statement, record | 1034 | 42% | 75.8% | 123% | 1 | Terrifying cosmic topic secured high views, though slow middle-beat pacing slightly lowered engagement. |
-| ep035 | Near Misses | statement, myth_vs_fact | 1295 | – | – | – | – | Urgent hazard hook drove strong initial views, but lack of a creative loop muted engagement. |
-| ep036 | Mission Files | statement, story | 1030 | 60% | 64.2% | 119% | 1 | Vivid visual hook engaged viewers early, but verbatim phrase repetition at the end flattened likes. |
+| ep002 | Mission Files | statement, story | 105 | 47% | 39.1% | 85% | 0 | Statement hook and slow narrative led to below-median engagement and completion rates. |
+| ep004 | Mission Files | statement, story | 1056 | 57% | 53.8% | 110% | 3 | Paradox hook drove high velocity, but a closed-loop summary ending resulted in zero comments. |
+| ep008 | The Universe Is Terrifying | statement, story | 866 | 47% | 83.8% | 130% | 5 | Strong data transmission hook drove high retention, but stretched closing beats caused late drop-off. |
+| ep009 | Near Misses | statement, story | 244 | 43% | 60.3% | 105% | 0 | Initial hook drove strong rewatches, but mid-to-late pacing lost viewers. |
+| ep013 | Scale Breaker | contradiction, story | 980 | 56% | 66.0% | 117% | 2 | Contradiction hook achieved high feed share and likes, but an explanatory wrap-up hurt final retention. |
+| ep017 | Mission Files | contradiction, myth_vs_fact | 1189 | – | – | – | – | Naming paradox drove high pace, but verbatim loop repetition and lack of a debate prompt hurt engagement. |
+| ep024 | Near Misses | contradiction, scale_ladder | 955 | 46% | 53.7% | 104% | 1 | Contradiction hook drove high views, but repeating the hook verbatim at the end collapsed retention. |
+| ep028 | Space Myths, Busted | statement, mystery | 1263 | 54% | 81.5% | 129% | 5 | Statement hook drove high views and subscriptions, but technical wobble explanations caused late drop-off. |
+| ep032 | The Universe Is Terrifying | statement, record | 1034 | 42% | 75.8% | 123% | 1 | Statement hook and pacing maintained strong initial distribution and reach. |
+| ep035 | Near Misses | statement, myth_vs_fact | 1303 | – | – | – | – | Urgency hook style captured initial interest and outperformed baseline views. |
+| ep036 | Mission Files | statement, story | 1030 | 60% | 64.2% | 119% | 1 | Hook successfully retained initial viewers, but steep mid-video drop-off hurt overall performance. |
 
 ## Log
 
@@ -77,3 +77,4 @@ contradiction.
 - 2026-10-07: Promoted the fast-paced final beat hypothesis to a rule using ep008 and ep009, and expanded evidence for ending rules using ep013 and ep017.
 - 2026-10-07: Today we maintained proven rules regarding hook placement and loop structure, while noting the negative impact of verbatim hook repetition on end retention and comments.
 - 2026-10-07: Promoted technical explanation compression to a rule after ep008 and ep028 both showed late retention drop-offs due to scientific over-explanation.
+- 2026-10-07: Updated learning log with latest 11 short reviews, maintaining existing proven rules and refining pacing hypotheses based on mid-video drop-offs.

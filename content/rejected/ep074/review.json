@@ -1,0 +1,184 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-06T17:21:06+05:30",
+      "check": {
+        "duration": 59.6,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 59.6 s is outside 35-58 s"
+        ],
+        "speech_differences": [
+          "'209 832' heard as '2 9 +832' after 'white dwarf hs'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The paradox of dead stars building worlds is a solid conceptual hook.",
+        "clarity": "Effectively translates a complex astrophysical study into a digestible narrative.",
+        "payoff": "The reveal of a second-generation planet raining metals provides a strong resolution.",
+        "visuals": "The use of a corporate office building and incorrect star classification is jarring.",
+        "loop": "The transition from building new ones back to the hook is highly seamless."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The frame shows a corporate office and fountains instead of astronomical content."
+        },
+        {
+          "beat": 7,
+          "problem": "Depicts a large yellow main-sequence star rather than a small white dwarf."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "HS 0209+0832",
+          "respelling": "aitch ess zero two zero nine plus zero eight three two"
+        },
+        {
+          "beat": 5,
+          "word": "niobium",
+          "respelling": "nye oh bee um"
+        }
+      ],
+      "rewrite": [
+        "Beat 3: But in 1999, Hubble spotted mystery chemical signatures around a distant white dwarf.",
+        "Beat 4: Recently, researcher Jamie Williams used new data to solve this cosmic cold case.",
+        "Beat 8: This cosmic recycling shows why dead stars are actually building new worlds."
+      ],
+      "better_than_last": "This episode frames the scientific discovery as a compelling cold case, which is more engaging than the direct facts in ep051.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-07T17:28:54+05:30",
+      "check": {
+        "duration": 52.92,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong premise contrasting stellar destruction with creation.",
+        "clarity": "Logical chronological narrative following the research discovery.",
+        "payoff": "Effective reveal showing atmospheric stripping and metal recycling.",
+        "visuals": "Includes an off-topic campus shot and dense graphic text.",
+        "loop": "Final phrase incorrectly references stars instead of worlds."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Off-topic terrestrial building image."
+        },
+        {
+          "beat": 5,
+          "problem": "Mostly unreadable text graphic."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Change to 'This cosmic recycling reveals why we question if...'"
+      ],
+      "better_than_last": "Provides a tighter evidence-driven story arc than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-07T17:36:05+05:30",
+      "check": {
+        "duration": 58.39,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [
+          "duration 58.39 s is outside 35-58 s"
+        ],
+        "speech_differences": [
+          "'832' heard as '+832' after 'dwarf hs 209'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The contrast between destruction and creation is a compelling narrative hook.",
+        "clarity": "The progression from archival data to modern discovery is logically sound.",
+        "payoff": "The concept of an atmosphere 'raining' back onto its star is a strong finish.",
+        "visuals": "Imagery is high-quality and scientifically relevant across most beats.",
+        "loop": "Phrasing creates a smooth transition back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Showing an Earth-based building is off-topic for the channel's space aesthetic."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 4: Recently, Warwick researchers reexamined that Hubble data using an updated database."
+      ],
+      "better_than_last": "This entry uses specific chemical data to provide a stronger 'receipt' than the probabilities in ep071.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "duration 58.39 s is outside 35-58 s",
+  "rejected_at": "2026-10-07T17:36:05+05:30"
+}

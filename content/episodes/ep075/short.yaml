@@ -1,8 +1,8 @@
 id: ep075
 title: The Moon Rock That Broke Lunar History
 series: Space Got Weird
-description: Apollo astronauts returned with bright lunar rocks that challenged everything we thought we knew about the Moon's
-  ancient magma ocean.
+description: Apollo 16 returned with bright lunar rocks that challenged everything we thought we knew about the Moon's ancient
+  magma ocean.
 sources:
 - https://en.wikipedia.org/wiki/Anorthosite
 - https://science.nasa.gov/earth/earth-observatory/moon-like-madagascar/
@@ -42,7 +42,7 @@ beats:
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: Apollo missions found bright rocks called anorthosite that form the lunar highlands.
+- text: In 1972, Apollo 16 astronauts returned stunningly bright stones called anorthosite from the lunar highlands.
   emphasis:
   - anorthosite
   - lunar highlands
@@ -59,32 +59,27 @@ beats:
     fallbacks:
     - color
     motion: zoom_in
-    focus_x: 0.62
-    focus_y: 0.35
-    box:
-    - 0.55
-    - 0.25
-    - 0.7
-    - 0.55
-- text: Experts thought these rocks floated to the surface of a global magma ocean.
+    focus_x: 0.65
+    focus_y: 0.45
+- text: For decades, experts believed these rocks floated like icebergs atop a primordial magma ocean.
   emphasis:
   - magma ocean
   - floated
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/PIA01478_Interior_of_Callisto.jpg/1920px-PIA01478_Interior_of_Callisto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/1920px-NASA-Apollo8-Dec24-Earthrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: PIA01478 Interior of Callisto.jpg
-      credit: NASA/JPL-Caltech
+      title: NASA-Apollo8-Dec24-Earthrise.jpg
+      credit: NASA/Bill Anders
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PIA01478_Interior_of_Callisto.jpg
+      url: https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg
     fallbacks:
     - color
-    motion: pan_right
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: This coarse-grained rock is 90 percent plagioclase feldspar, which is less dense than liquid magma.
+- text: This coarse-grained crust is 90 percent plagioclase feldspar, a mineral that is less dense than liquid magma.
   emphasis:
   - 90 percent
   - plagioclase feldspar
@@ -101,70 +96,37 @@ beats:
     - color
     motion: pan_left
     focus_x: 0.5
-    focus_y: 0.5
-    box:
-    - 0.3
-    - 0.2
-    - 0.7
-    - 0.75
-- text: But in 2011, researchers dated lunar Sample 60025 to only 4.36 billion years old.
+    focus_y: 0.6
+- text: But in 2011, researchers used precise chemical dating on lunar Sample 60025 and found it was only 4.36 billion years
+    old.
   emphasis:
   - Sample 60025
-  - 4.36 billion years
+  - 4.36 billion
   sfx: riser
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/LUNAR_SAMPLES_-_NARA_-_17470453.jpg/3840px-LUNAR_SAMPLES_-_NARA_-_17470453.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: LUNAR SAMPLES - NARA - 17470453.jpg
-      credit: Martin Brown
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:LUNAR_SAMPLES_-_NARA_-_17470453.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-    box:
-    - 0.3
-    - 0.3
-    - 0.65
-    - 0.75
+    source: card
     card:
       kind: dateline
       big: '2011'
-      small: Sample 60025 Re-dated
-- text: This age is far too young for a crust formed during the Moon’s birth.
+      small: Sample 60025 Dated
+    motion: zoom_in
+- text: This age is over 100 million years too young for a crust formed at the Moon's birth.
   emphasis:
   - too young
-  - Moon’s birth
+  - Moon's birth
   sfx: pop
   pause_after: 0.4
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_Moon-_Lunar_Prospecting_With_Chandra_%282003-moon_-_moon_illustration%29.tiff/lossy-page1-3840px-The_Moon-_Lunar_Prospecting_With_Chandra_%282003-moon_-_moon_illustration%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: The Moon- Lunar Prospecting With Chandra (2003-moon - moon illustration).tiff
-      credit: 'Optical: Robert Gendler; X-ray: NASA/CXC/SAO/J.Drake et al.'
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:The_Moon-_Lunar_Prospecting_With_Chandra_(2003-moon_-_moon_illustration).tiff
-    fallbacks:
-    - card
-    - color
-    motion: pan_left
-    focus_x: 0.75
-    focus_y: 0.45
+    source: card
     card:
       kind: fact
       big: 4.36 Billion
       small: Years Old
-- text: Now scientists think the crust formed slowly through many volcanic eruptions.
+    motion: zoom_in
+- text: This discovery suggests the Moon was volcanically active much later than scientists ever imagined.
   emphasis:
-  - volcanic eruptions
-  - formed slowly
+  - volcanically active
+  - later
   sfx: whoosh
   visual:
     source: url
@@ -180,10 +142,10 @@ beats:
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: New theories are rewriting lunar history to explain why the Moon's brightest rocks are too young to exist.
+- text: Geologists are now forced to rewrite the entire ancient history of our closest neighbor.
   emphasis:
-  - rewriting lunar history
-  - too young to exist
+  - rewrite
+  - closest neighbor
   visual:
     reuse: 1
     motion: zoom_in

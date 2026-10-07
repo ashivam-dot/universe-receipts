@@ -1,0 +1,59 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-07T17:34:06+05:30",
+      "check": {
+        "duration": 59.13,
+        "words": 129,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 59.13 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of instant, un-warned cosmic erasure is highly engaging.",
+        "clarity": "Terms like 'metastable state' and 'electroweak vacuum' are too academic for a general audience.",
+        "payoff": "The reveal that scientists simulated this disaster on a quantum computer is a strong twist.",
+        "visuals": "Most frames look great, but the satellite weather image in beat 7 feels disconnected.",
+        "loop": "Perfect word-for-word transition back to the start of the video."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The satellite image of clouds is off-topic and does not represent a speed-of-light vacuum bubble expansion."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 2: It's called false vacuum decay, where a sudden shift in cosmic energy destroys space itself.",
+        "Beat 4: Calculations show our entire universe exists in this fragile, temporary state.",
+        "Beat 5: Fortunately, this collapse is estimated to not happen for trillions of years.",
+        "Beat 6: Yet, researchers recently simulated these destructive bubbles using a quantum computer."
+      ],
+      "better_than_last": "This episode delivers a more immediate and mind-bending threat level than the galactic crash topic in ep071.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

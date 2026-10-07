@@ -1,0 +1,166 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-06T17:17:18+05:30",
+      "check": {
+        "duration": 55.66,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'regio' heard as 'rigio' after 'down near phoebe'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The survival duration contrast creates an immediate interest.",
+        "clarity": "The timeline of the Venus landing is easy to follow.",
+        "payoff": "The lens cap revelation serves as a satisfying ironic twist.",
+        "visuals": "Reusing the global map for a drilling beat is ineffective.",
+        "loop": "The conclusion transitions smoothly back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Map does not visually support the specific drilling activity."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more engaging human-interest angle than recent mission summaries.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-06T17:19:23+05:30",
+      "check": {
+        "duration": 55.66,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'regio' heard as 'rigio' after 'down near phoebe'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Effective contrast between design life and survival.",
+        "clarity": "Logical timeline that is easy to follow.",
+        "payoff": "Debunking the alien claim provides a solid twist.",
+        "visuals": "Global map is repetitive and fails to show drilling.",
+        "loop": "Thematic connection is good but grammar is disjointed."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Global map does not visually represent the drilling action mentioned."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Venera",
+          "respelling": "veh nair ah"
+        },
+        {
+          "beat": 3,
+          "word": "regio",
+          "respelling": "ree jee oh"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: Soviet engineers celebrated this machine, which was much more than just..."
+      ],
+      "better_than_last": "Offers a grounded historical mystery with a clearer debunking element than recent speculative shorts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-07T17:27:07+05:30",
+      "check": {
+        "duration": 49.92,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Good survival hook, though slightly slow to build tension.",
+        "clarity": "Logical chronological flow from landing to the photo debate.",
+        "payoff": "The resolution of the scorpion controversy lands well.",
+        "visuals": "Authentic archive imagery, but Beat 5 shows monochrome instead of orange.",
+        "loop": "Seamless flow from the end back to the start."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Frame is black-and-white despite the script describing a 'jagged orange landscape'."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode features a stronger narrative hook and mystery than the recent planet factoids.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-07T17:27:07+05:30"
+}

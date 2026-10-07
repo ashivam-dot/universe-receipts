@@ -1,0 +1,186 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-07T17:31:48+05:30",
+      "check": {
+        "duration": 53.63,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'dimorphos' heard as 'dimorphose' after 'its target was'",
+          "'didymos' heard as 'didimos' after 'meters wide neither'",
+          "'dimorphos' heard as 'dimorphose' after 'neither didymos nor'",
+          "'moonlet' heard as 'moonlit' after 'it struck the'",
+          "'dimorphos is' heard as 'demorphos' after 'kinetic collision shortened'",
+          "'didymos' heard as 'dedemos' after 'is orbit around'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing hook that captures immediate interest, though could be punchier.",
+        "clarity": "Delivers a clear and logical explanation of the mission's objective and results.",
+        "payoff": "The 32-minute reduction in orbit provides a satisfying, concrete resolution.",
+        "visuals": "Several frames feature text-heavy diagrams and graphs that are hard to read on a mobile screen.",
+        "loop": "Seamlessly transitions from the concluding sentence back to the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Reuses the same diagram from beat 3."
+        },
+        {
+          "beat": 7,
+          "problem": "The scientific graph has text that is too small and illegible on mobile devices."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Unlike the recent theoretical cosmic scenarios, this episode centers on a tangible, successful human-led space mission.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-07T17:33:38+05:30",
+      "check": {
+        "duration": 53.63,
+        "words": 112,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'didymos' heard as 'didimos' after 'meters wide neither'",
+          "'moonlet' heard as 'moonlit' after 'it struck the'",
+          "'dimorphos is' heard as 'demorphos' after 'kinetic collision shortened'",
+          "'didymos' heard as 'dedemos' after 'is orbit around'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The direct opening efficiently captures interest.",
+        "clarity": "Logical progression makes mission details easy to follow.",
+        "payoff": "Specific data on orbit reduction provides a strong conclusion.",
+        "visuals": "Beat 4 uses irrelevant telescope imagery instead of asteroids.",
+        "loop": "The concluding phrase flows seamlessly into the start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows the Hubble telescope which is the wrong object."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Dimorphos's",
+          "respelling": "dye mor fosses"
+        },
+        {
+          "beat": 7,
+          "word": "Didymos",
+          "respelling": "did ih moss"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a more definitive outcome than the probabilistic galactic crash episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-07T17:37:13+05:30",
+      "check": {
+        "duration": 53.88,
+        "words": 112,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'dimorphos' heard as 'dimorphose' after 'its target was'",
+          "'didymos' heard as 'didimos' after 'meters wide neither'",
+          "'dimorphos' heard as 'dimorphose' after 'neither didymos nor'",
+          "'moonlet' heard as 'moonlit' after 'it struck the'",
+          "'is' heard as '(nothing)' after 'collision shortened dimorphos'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The premise of intentional space collisions is immediately engaging.",
+        "clarity": "The mission sequence is explained in a clear, chronological order.",
+        "payoff": "The specific 32-minute orbital change provides a solid conclusion.",
+        "visuals": "Several beats feature spacecraft unrelated to the asteroid targets.",
+        "loop": "The repetition of the first line creates a seamless transition."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows the Hubble Space Telescope instead of the Didymos system."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows the James Webb Space Telescope rather than collision evidence."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This entry uses a more concrete, measurable success metric than the galactic collision video.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-07T17:37:13+05:30"
+}
