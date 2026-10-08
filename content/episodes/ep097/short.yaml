@@ -65,7 +65,7 @@ beats:
       kind: fact
       big: 29,000 Light-Years
       small: Distance from Earth
-- text: Sergey Koposov and a team of researchers used Gaia spacecraft data to trace its direct path.
+- text: Sergey [Koposov](/kˈOpˈʌsˈɑf/) and a team of researchers used Gaia spacecraft data to trace its direct path.
   emphasis:
   - Gaia spacecraft
   visual:
@@ -107,24 +107,12 @@ beats:
   emphasis:
   - break free
   visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/c/c6/Longevity_Escape_Velocity.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Longevity Escape Velocity.png
-      credit: w:User:Zedatik
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Longevity_Escape_Velocity.png
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    source: card
     card:
       kind: fact
       big: Triple Speed
       small: Breaking Free
+    motion: zoom_in
 - text: It was kicked out of the galactic center approximately five million years ago.
   emphasis:
   - galactic center

@@ -101,25 +101,13 @@ beats:
   - swept past
   sfx: whoosh
   visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/d/d1/Hubble_Finds_Carbon_Dioxide_on_an_Extrasolar_Planet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Hubble Finds Carbon Dioxide on an Extrasolar Planet.jpg
-      credit: ESA, NASA, M. Kornmesser (ESA/Hubble), and STScI
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Hubble_Finds_Carbon_Dioxide_on_an_Extrasolar_Planet.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.5
+    source: card
     card:
       kind: fact
       big: 9 DAYS LATER
       small: Discovered After Flyby
-- text: Designated 4581 Asclepius, it missed us by 425,000 miles, roughly twice the distance to the Moon.
+    motion: zoom_in
+- text: Designated 4581 [Asclepius](/æzklˈipˈiˌʌs/), it missed us by 425,000 miles, roughly twice the distance to the Moon.
   emphasis:
   - 4581 Asclepius
   - 425,000 miles

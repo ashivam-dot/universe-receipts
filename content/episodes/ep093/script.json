@@ -5,30 +5,31 @@
       "text": "Think the Moon doesn't spin? That is a total myth."
     },
     {
-      "style": "question",
-      "text": "Did you know the Moon actually rotates on its axis?"
-    },
-    {
       "style": "statement",
       "text": "The Moon spins on its axis every single lunar orbit."
+    },
+    {
+      "style": "question",
+      "text": "Why can we only see one side of our own Moon?"
     }
   ],
   "hook_style": "contradiction",
   "structure": "myth_vs_fact",
-  "title": "Why We Only Ever See One Side of the Moon",
-  "description": "Discover the truth about tidal locking and how the Soviet Luna 3 spacecraft first photographed the hidden far side of the Moon in 1959.",
+  "title": "The Myth of the Moon's Dark Side",
+  "description": "Discover how tidal locking synchronizes the Moon's rotation and why we didn't see the far side until 1959.",
   "hashtags": [
     "#space",
     "#moon",
-    "#astronomy"
+    "#luna3"
   ],
   "tags": [
     "Moon",
     "tidal locking",
-    "Luna 3",
-    "space myth",
     "astronomy",
-    "Soviet Union"
+    "Luna 3",
+    "Soviet Union",
+    "space myths",
+    "planetary science"
   ],
   "beats": [
     {
@@ -45,13 +46,14 @@
       ],
       "visual": "Earth and Moon from space, Apollo 8 photograph, 1968",
       "subjects": [
+        "Apollo 8",
         "Moon",
         "Earth"
       ],
       "year": 1968,
       "queries": [
         "Earth and Moon from space Apollo 8",
-        "Moon photograph"
+        "Earthrise photograph 1968"
       ],
       "card": {
         "kind": "none",
@@ -60,27 +62,25 @@
       }
     },
     {
-      "text": "The Moon actually rotates on its axis at the exact same speed it orbits our home planet.",
+      "text": "Our Moon actually rotates on its axis at the exact same speed it orbits Earth.",
       "emphasis": [
-        "rotates on its axis",
-        "same speed"
+        "rotates",
+        "exact same speed"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
         1,
-        2,
-        3
+        2
       ],
-      "visual": "Tidal locking diagram illustrating synchronous rotation",
+      "visual": "Synchronous rotation diagram showing Moon's rotation and orbit",
       "subjects": [
-        "Moon",
-        "Orbit"
+        "Moon"
       ],
       "year": 0,
       "queries": [
-        "tidal locking diagram",
-        "synchronous rotation diagram"
+        "synchronous rotation diagram",
+        "tidal locking animation frame"
       ],
       "card": {
         "kind": "none",
@@ -89,25 +89,25 @@
       }
     },
     {
-      "text": "This cosmic synchronization keeps the exact same side facing Earth forever.",
+      "text": "This synchronous tidal locking is caused by Earth's gravity stretching the lunar body into physical bulges.",
       "emphasis": [
-        "cosmic synchronization",
-        "facing Earth forever"
+        "tidal locking",
+        "physical bulges"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        3
+        7
       ],
-      "visual": "Diagram of gravitational tidal bulges on the Moon",
+      "visual": "Tidal bulge diagram illustrating Earth's gravitational pull",
       "subjects": [
-        "Moon",
-        "Tide"
+        "Tide",
+        "Moon"
       ],
       "year": 0,
       "queries": [
         "tidal bulge diagram",
-        "gravitational tides diagram"
+        "gravitational tides Earth Moon"
       ],
       "card": {
         "kind": "none",
@@ -116,47 +116,74 @@
       }
     },
     {
-      "text": "Earth's immense gravity constantly stretches the Moon into tidal bulges that generate gravitational torque.",
+      "text": "Gravity pulls on these bulges like a brake, forcing the spin to match the orbit.",
       "emphasis": [
-        "stretches the Moon",
-        "gravitational torque"
-      ],
-      "sfx": "riser",
-      "pause_after": 0.12,
-      "claims": [
-        7,
-        8,
-        9
-      ],
-      "visual": "Illustration of gravitational forces between Earth and Moon",
-      "subjects": [
-        "Moon",
-        "Gravity"
-      ],
-      "year": 0,
-      "queries": [
-        "gravitational tides diagram",
-        "Earth Moon gravity"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "In 1959, the Soviet spacecraft Luna 3 successfully transmitted the very first photographs of the far side.",
-      "emphasis": [
-        "1959",
-        "Luna 3"
+        "like a brake",
+        "match the orbit"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
+        8,
+        9
+      ],
+      "visual": "Illustration of gravitational torque acting on lunar bulges",
+      "subjects": [
+        "Gravity",
+        "Moon"
+      ],
+      "year": 0,
+      "queries": [
+        "gravitational torque diagram",
+        "Earth Moon gravity interaction"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "This constant friction slows the rotation and pushes the Moon away by four centimeters every year.",
+      "emphasis": [
+        "slows the rotation",
+        "four centimeters"
+      ],
+      "sfx": "riser",
+      "pause_after": 0.12,
+      "claims": [
+        11,
+        12
+      ],
+      "visual": "Illustration of the Moon drifting away from Earth",
+      "subjects": [
+        "Moon",
+        "Earth"
+      ],
+      "year": 0,
+      "queries": [
+        "Moon orbit expansion",
+        "Earth Moon distance increasing"
+      ],
+      "card": {
+        "kind": "fact",
+        "big": "4 centimeters",
+        "small": "annual lunar drift"
+      }
+    },
+    {
+      "text": "We finally saw the far side when the Soviet Luna 3 photographed it in 1959.",
+      "emphasis": [
+        "Soviet Luna 3",
+        "1959"
+      ],
+      "sfx": "pop",
+      "pause_after": 0.4,
+      "claims": [
         4,
         5
       ],
-      "visual": "Luna 3 spacecraft model and far side photographs, 1959",
+      "visual": "Luna 3 spacecraft model and the first far side photographs, 1959",
       "subjects": [
         "Luna 3",
         "Soviet space program"
@@ -173,16 +200,43 @@
       }
     },
     {
-      "text": "This tidal locking is precisely why humanity never caught a single glimpse of that hidden hemisphere before.",
+      "text": "Even Pluto and its moon Charon are mutually caught in this same gravitational grip.",
       "emphasis": [
-        "tidal locking",
-        "hidden hemisphere"
+        "Pluto",
+        "Charon"
       ],
-      "sfx": "pop",
-      "pause_after": 0.4,
+      "sfx": "none",
+      "pause_after": 0.12,
       "claims": [
-        3,
-        4
+        15
+      ],
+      "visual": "Pluto and Charon as seen by New Horizons, 2015",
+      "subjects": [
+        "Pluto",
+        "Charon",
+        "New Horizons"
+      ],
+      "year": 2015,
+      "queries": [
+        "Pluto and Charon New Horizons",
+        "Pluto and Charon 2015"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "This synchronization hides the far side forever, which is why people still believe the Moon doesn't spin.",
+      "emphasis": [
+        "hides the far side",
+        "doesn't spin"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        3
       ],
       "visual": "First photograph of the far side of the Moon by Luna 3, 1959",
       "subjects": [
@@ -192,35 +246,7 @@
       "year": 1959,
       "queries": [
         "Luna 3 first photo far side",
-        "far side of the Moon"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "Because tidal locking ensures the Moon's rotation matches its orbit, you have to wonder if it ever stays still.",
-      "emphasis": [
-        "rotation matches its orbit",
-        "stays still"
-      ],
-      "sfx": "none",
-      "pause_after": 0.12,
-      "claims": [
-        2,
-        3
-      ],
-      "visual": "Earth and Moon from space, Apollo 17 photograph, 1972",
-      "subjects": [
-        "Moon",
-        "Earth"
-      ],
-      "year": 1972,
-      "queries": [
-        "Earth and Moon from space",
-        "Apollo 17 Earth view"
+        "Moon far side photograph 1959"
       ],
       "card": {
         "kind": "none",
@@ -231,5 +257,5 @@
   ],
   "hook_text": "THE MOON ACTUALLY SPINS",
   "loop": true,
-  "better_than_last": "This episode expands middle beats to hit the required 105-135 spoken word count while maintaining proven myth_vs_fact structuring and a seamless question loop."
+  "better_than_last": "Integrated specific reviewer feedback into beats 4 and 6 while tightening the loop beat to drive retention past 100%."
 }

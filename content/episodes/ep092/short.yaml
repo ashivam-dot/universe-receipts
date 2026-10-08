@@ -62,10 +62,10 @@ beats:
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: In 1961, astronomer Antoni Przybylski analyzed a star three hundred fifty-six light-years away.
+- text: In 1961, astronomer Antoni Przybylski analyzed a star 356 light-years away.
   emphasis:
   - Antoni Przybylski
-  - three hundred fifty-six
+  - 356 light-years
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Antoni_Przybylski_SLNSW_FL16054294.jpg/1920px-Antoni_Przybylski_SLNSW_FL16054294.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -79,13 +79,8 @@ beats:
     - card
     - color
     motion: zoom_out
-    focus_x: 0.47
-    focus_y: 0.25
-    box:
-    - 0.3
-    - 0.05
-    - 0.65
-    - 0.45
+    focus_x: 0.5
+    focus_y: 0.4
     card:
       kind: dateline
       big: '1961'
@@ -98,28 +93,22 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Rare_earth_elements._Lanthanides._Magnetic_properties.png/1280px-Rare_earth_elements._Lanthanides._Magnetic_properties.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Lantanoidat_karjalakse.png/1280px-Lantanoidat_karjalakse.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Rare earth elements. Lanthanides. Magnetic properties.png
-      credit: Чукічев Дмитро Віталійович
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:Rare_earth_elements._Lanthanides._Magnetic_properties.png
+      title: Lantanoidat karjalakse.png
+      credit: Fembriha
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Lantanoidat_karjalakse.png
     fallbacks:
     - color
     motion: pan_left
-    focus_x: 0.75
-    focus_y: 0.32
-    box:
-    - 0.55
-    - 0.1
-    - 0.95
-    - 0.55
-- text: Weirder still, early reports identified promethium, a radioactive element with a half-life of only seventeen point
-    seven years.
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Weirder still, early reports identified promethium, a radioactive element with a half-life of only 17.7 years.
   emphasis:
   - promethium
-  - seventeen point seven years
+  - 17.7 years
   sfx: riser
   visual:
     source: url
@@ -146,23 +135,24 @@ beats:
   - decayed away
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Astronomical_image_of_the_sky_taken_from_Palmerston_North.png/3840px-Astronomical_image_of_the_sky_taken_from_Palmerston_North.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://www.artic.edu/iiif/2/0d28a51b-a777-7b82-7364-ccd29e2a8813/full/1686,/0/default.jpg
     credit:
-      source: Wikimedia Commons
-      title: Astronomical image of the sky taken from Palmerston North.png
-      credit: Nathan Jones
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Astronomical_image_of_the_sky_taken_from_Palmerston_North.png
+      source: Art Institute of Chicago (CC0)
+      title: Eight Point Star Tile with a Phoenix
+      credit: 'Iran
+
+        Probably Kashan'
+      license: CC0
+      url: https://www.artic.edu/artworks/92287
     fallbacks:
     - color
-    motion: pan_left
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-- text: While physicists hypothesized exotic nuclear decay, 2023 analyses contested the finding due to severe spectral line
-    crowding.
+- text: While some blame alien nuclear waste, others believe crowded stellar light lines simply mimic this impossible signal.
   emphasis:
-  - exotic nuclear decay
-  - contested
+  - alien nuclear waste
+  - mimic this impossible
   sfx: pop
   pause_after: 0.4
   visual:
@@ -177,17 +167,12 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.55
-    focus_y: 0.55
-    box:
-    - 0.35
-    - 0.25
-    - 0.75
-    - 0.75
-- text: Yet, the longest-lived of these elements decay away in just seventeen point seven years.
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But if this radioactive waste is real, it must be constantly replenished on this bizarre star.
   emphasis:
-  - decay away
-  - seventeen point seven
+  - radioactive waste
+  - constantly replenished
   visual:
     reuse: 1
     motion: zoom_in

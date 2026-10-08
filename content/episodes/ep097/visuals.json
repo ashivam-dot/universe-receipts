@@ -238,66 +238,16 @@
     "motion": "zoom_in"
   },
   {
-    "source": "url",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Longevity_Escape_Velocity.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "credit": {
-      "source": "Wikimedia Commons",
-      "title": "Longevity Escape Velocity.png",
-      "credit": "w:User:Zedatik",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Longevity_Escape_Velocity.png"
-    },
-    "fallbacks": [
-      "card",
-      "color"
-    ],
-    "motion": "pan_right",
-    "focus_x": 0.5,
-    "focus_y": 0.5,
+    "source": "card",
     "card": {
       "kind": "fact",
       "big": "Triple Speed",
       "small": "Breaking Free"
     },
-    "_choice": {
-      "key": "commons:File:Longevity Escape Velocity.png",
-      "origin": "commons",
-      "file": "File:Longevity Escape Velocity.png",
-      "title": "Longevity Escape Velocity.png",
-      "width": 640,
-      "height": 400,
-      "license": "Public domain",
-      "license_url": null,
-      "artist": "w:User:Zedatik",
-      "date": "",
-      "year": null,
-      "page": "https://commons.wikimedia.org/wiki/File:Longevity_Escape_Velocity.png",
-      "route": "search",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Longevity_Escape_Velocity.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "historical": 0.001,
-      "match": 0.0
-    },
-    "_fit": "close",
-    "_alternates": [
-      {
-        "key": "commons:File:Exoplanet Escape velocity-Radius Scatter.png",
-        "origin": "commons",
-        "file": "File:Exoplanet Escape velocity-Radius Scatter.png",
-        "title": "Exoplanet Escape velocity-Radius Scatter.png",
-        "width": 1440,
-        "height": 960,
-        "license": "Public domain",
-        "license_url": null,
-        "artist": "http://adsabs.harvard.edu/abs/2014PASP..126..827H",
-        "date": "",
-        "year": null,
-        "page": "https://commons.wikimedia.org/wiki/File:Exoplanet_Escape_velocity-Radius_Scatter.png",
-        "route": "search",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Exoplanet_Escape_velocity-Radius_Scatter.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "historical": 0.0,
-        "match": 0.372,
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Exoplanet_Escape_velocity-Radius_Scatter.png/500px-Exoplanet_Escape_velocity-Radius_Scatter.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      }
+    "motion": "zoom_in",
+    "_rejected": [
+      "commons:File:Exoplanet Escape velocity-Radius Scatter.png",
+      "commons:File:Longevity Escape Velocity.png"
     ]
   },
   {

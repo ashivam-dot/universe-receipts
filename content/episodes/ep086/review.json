@@ -58,7 +58,120 @@
       "better_than_last": "Provides a more compelling historical mystery and resolution than the recent planetary facts.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-08T17:15:06+05:30",
+      "check": {
+        "duration": 57.36,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'6713' heard as '+6713' after 'remnant iras 500'",
+          "'this' heard as 'the' after 'the trick behind'",
+          "'iax' heard as 'one ix' after 'a partial type'",
+          "'wd j' heard as 'wdj 0' after 'the surviving star'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing hook concept that captures attention immediately.",
+        "clarity": "Logical flow of information, making it easy to comprehend.",
+        "payoff": "Satisfying ending that connects well back to the initial premise.",
+        "visuals": "Generally relevant and appealing imagery throughout.",
+        "loop": "Smooth audio transition makes the replay feel natural."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The constellation chart is text-heavy and hard to read on mobile."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Iax",
+          "respelling": "one ay ex"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "The narrative has a much stronger hook and a more satisfying resolution than ep071.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-08T17:17:18+05:30",
+      "check": {
+        "duration": 57.36,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'6713' heard as '+6713' after 'remnant iras 500'",
+          "'this' heard as 'the' after 'the trick behind'",
+          "'iax' heard as 'one ix' after 'a partial type'",
+          "'wd j' heard as 'wdj 0' after 'the surviving star'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening statement that defines the mystery immediately.",
+        "clarity": "Logical progression from historical event to modern evidence.",
+        "payoff": "Explaining the partial supernova provides a satisfying conclusion.",
+        "visuals": "Imagery is consistently relevant and high quality.",
+        "loop": "Seamless transition between the final and first sentences."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Iax",
+          "respelling": "one ay ex"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This script effectively uses historical 12th-century records to enhance the credibility of the modern scientific discovery.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

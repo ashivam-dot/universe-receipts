@@ -1,7 +1,7 @@
 id: ep096
-title: The Truth About the First Strike in Space
+title: The Space Mutiny That Never Happened
 series: Mission Files
-description: Discover how an accidental radio error during Skylab 4 was sensationalized as the first strike in space.
+description: The real story behind the Skylab 4 strike and the accidental radio error that fooled the world.
 sources:
 - https://en.wikipedia.org/wiki/Skylab_4
 - https://www.nasa.gov/history/the-real-story-of-the-skylab-4-strike-in-space/
@@ -11,75 +11,165 @@ sources:
 - https://www.bbc.com/news/stories-56346001
 hashtags:
 - '#space'
-- '#nasa'
 - '#skylab'
+- '#nasa'
 tags:
 - Skylab 4
-- Gerald Carr
-- Edward Gibson
-- William Pogue
-- space station
+- NASA
 - mission control
+- Gerald Carr
+- space station
+- mutiny
 voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: Astronauts never staged a strike in space.
+- text: The most famous labor strike in history didn't even happen on Earth.
   emphasis:
-  - never staged a strike
-  - in space
+  - labor strike
+  - didn't even happen
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Za%C5%82oga_Skylaba_SL_4.jpg/1920px-Za%C5%82oga_Skylaba_SL_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Skylab4_crew.jpg/3840px-Skylab4_crew.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Załoga Skylaba SL 4.jpg
+      title: Skylab4 crew.jpg
       credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Za%C5%82oga_Skylaba_SL_4.jpg
+      url: https://commons.wikimedia.org/wiki/File:Skylab4_crew.jpg
     fallbacks:
     - color
-    motion: pan_down
+    motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: In November 1973, NASA launched Skylab 4, which was the final crewed mission to America's first space station.
+- text: In November 1973, NASA launched three rookie astronauts to America's first space station, Skylab.
   emphasis:
   - November 1973
-  - final crewed mission
+  - first space station
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Saturn_IB_Launch.jpg/1920px-Saturn_IB_Launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Skylab_4_mission_launch.jpg/1920px-Skylab_4_mission_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Saturn IB Launch.jpg
+      title: Skylab 4 mission launch.jpg
       credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Saturn_IB_Launch.jpg
+      url: https://commons.wikimedia.org/wiki/File:Skylab_4_mission_launch.jpg
     fallbacks:
     - card
     - color
-    motion: zoom_in
+    motion: pan_up
     focus_x: 0.5
     focus_y: 0.4
+    box:
+    - 0.4
+    - 0.1
+    - 0.6
+    - 0.6
     card:
       kind: dateline
       big: November 1973
       small: Skylab 4 Launch
-- text: The crew of Gerald Carr, Edward Gibson, and William Pogue were all space rookies facing an intense eighty-four-day
-    schedule.
+- text: Gerald Carr, Edward Gibson, and William Pogue soon struggled under an incredibly micromanaged eighty-four-day schedule.
   emphasis:
-  - space rookies
-  - eighty-four-day schedule
+  - struggled
+  - micromanaged
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Skylab_3_Close-Up_-_GPN-2000-001711.jpg/3840px-Skylab_3_Close-Up_-_GPN-2000-001711.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Artist%27s_concept_of_Skylab_space_station_cluster_in_Earth%27s_orbit_%28S71-52192%29.jpg/3840px-Artist%27s_concept_of_Skylab_space_station_cluster_in_Earth%27s_orbit_%28S71-52192%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Skylab 3 Close-Up - GPN-2000-001711.jpg
+      title: Artist's concept of Skylab space station cluster in Earth's orbit (S71-52192).jpg
+      credit: NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist%27s_concept_of_Skylab_space_station_cluster_in_Earth%27s_orbit_(S71-52192).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: When the astronauts tried to hide an early case of space sickness, NASA’s chief astronaut Alan Shepard issued a stern
+    reprimand.
+  emphasis:
+  - space sickness
+  - stern reprimand
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/6d/Alan_Shepard_during_Apollo_14_suiting_up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Alan Shepard during Apollo 14 suiting up.jpg
       credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Skylab_3_Close-Up_-_GPN-2000-001711.jpg
+      url: https://commons.wikimedia.org/wiki/File:Alan_Shepard_during_Apollo_14_suiting_up.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.3
+    - 0.1
+    - 0.7
+    - 0.9
+- text: Exhausted and overworked, the crew suffered an accidental radio error that caused them to miss a scheduled daily briefing.
+  emphasis:
+  - accidental radio error
+  - miss a scheduled
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Skylab4_-_February_1974_astronaut_Edward_Gibson.jpg/3840px-Skylab4_-_February_1974_astronaut_Edward_Gibson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Skylab4 - February 1974 astronaut Edward Gibson.jpg
+      credit: NASA - taken by Astronaut Gerald P. Carr, Skylab 4 commander
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Skylab4_-_February_1974_astronaut_Edward_Gibson.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 90 Minutes
+      small: Radio Silence
+- text: This ninety-minute radio gap was immediately sensationalized by the media as a deliberate and unprecedented mutiny
+    in orbit.
+  emphasis:
+  - sensationalized
+  - mutiny in orbit
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/30/The_Apollo_Telescope_Mount_%28ATM%29%2C_designed_and_developed_by_the_Marshall_Space_Flight_Center%2C_was_one_of_four_major_components_comprising_the_Skylab_%281973-1979%29_%287022294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: The Apollo Telescope Mount (ATM), designed and developed by the Marshall Space Flight Center, was one of four
+        major components comprising the Skylab (1973-1979) (7022294).jpg
+      credit: NASA Marshall Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Apollo_Telescope_Mount_(ATM),_designed_and_developed_by_the_Marshall_Space_Flight_Center,_was_one_of_four_major_components_comprising_the_Skylab_(1973-1979)_(7022294).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: After the schedule was lightened, the crew became more productive than ever, yet none of them ever flew in space again.
+  emphasis:
+  - more productive
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Skylab4-Patch.png/960px-Skylab4-Patch.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Skylab4-Patch.png
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Skylab4-Patch.png
     fallbacks:
     - card
     - color
@@ -88,85 +178,15 @@ beats:
     focus_y: 0.5
     card:
       kind: fact
-      big: 84 Days
-      small: Mission Duration
-- text: As crushing workloads heavily fatigued the men, an accidental radio error caused them to miss a scheduled daily briefing.
+      big: Last Flight
+      small: None Flew Again
+- text: Which means that history's most famous...
   emphasis:
-  - heavily fatigued
-  - accidental radio error
-  sfx: riser
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Carr_i_Pogue..jpg/1920px-Carr_i_Pogue..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Carr i Pogue..jpg
-      credit: NASA
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Carr_i_Pogue..jpg
-    fallbacks:
-    - color
-    motion: pan_up
-    focus_x: 0.5
-    focus_y: 0.5
-- text: That oversight resulted in a ninety-minute communications gap with ground control.
-  emphasis:
-  - ninety-minute
-  - communications gap
-  sfx: whoosh
-  visual:
-    source: card
-    card:
-      kind: fact
-      big: 90 Minutes
-      small: Communications Gap
-    motion: zoom_in
-- text: The media sensationalized this brief accident as a deliberate strike in orbit.
-  emphasis:
-  - sensationalized
-  - deliberate strike
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Command_Module%2C_Skylab_4_-_DPLA_-_b739724b85f4fdc48c01357d82a87239_%28page_2%29.jpg/1280px-Command_Module%2C_Skylab_4_-_DPLA_-_b739724b85f4fdc48c01357d82a87239_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Command Module, Skylab 4 - DPLA - b739724b85f4fdc48c01357d82a87239 (page 2).jpg
-      credit: Edward G. Gibson, Gerald P. Carr, North American Rockwell, William Reid Pogue
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:Command_Module,_Skylab_4_-_DPLA_-_b739724b85f4fdc48c01357d82a87239_(page_2).jpg
-    fallbacks:
-    - color
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
-- text: A radio conference soon resolved the scheduling tensions and lightened the workload.
-  emphasis:
-  - resolved
-  - lightened the workload
-  sfx: whoosh
-  pause_after: 0.4
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Skylab3-Patch.png/1920px-Skylab3-Patch.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Skylab3-Patch.png
-      credit: NASA
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Skylab3-Patch.png
-    fallbacks:
-    - color
-    motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Yet despite the rumors, real astronauts never staged a strike in space.
-  emphasis:
-  - never staged
-  - a strike in space
+  - Which means that
   sfx: pop
   visual:
     reuse: 1
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-hook_text: THE FIRST STRIKE
+hook_text: MYTH OF THE SPACE STRIKE

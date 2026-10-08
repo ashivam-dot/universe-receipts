@@ -12,7 +12,7 @@ sources:
 hashtags:
 - '#space'
 - '#venera'
-- '#nasa'
+- '#venus'
 tags:
 - Venera 7
 - Venus
@@ -28,7 +28,6 @@ beats:
   emphasis:
   - fell silent
   - spoke
-  sfx: whoosh
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/1972_CPA_4166.jpg/960px-1972_CPA_4166.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -48,22 +47,34 @@ beats:
     - 0.45
     - 0.62
     - 0.95
-- text: On December 15, 1970, the Soviet Union reached the dark night side of Venus.
+- text: On December 15, 1970, the Soviet Union's Venera 7 reached the dark night side of Venus.
   emphasis:
   - December 15, 1970
   - night side
+  sfx: whoosh
   visual:
-    source: card
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/24/097_101_surface_date_2016_07_12_04_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: 097 101 surface date 2016 07 12 04 05.jpg
+      credit: Meli thev
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:097_101_surface_date_2016_07_12_04_05.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.4
+    focus_y: 0.5
     card:
       kind: dateline
       big: December 15, 1970
-      small: Venus Landing
-    motion: zoom_in
-- text: Engineers built Venera 7 inside a thick titanium pressure shell to survive the extreme heat.
+      small: Venus Night Side
+- text: Engineers built the lander with a titanium pressure shell and chilled its interior to survive the extreme environment.
   emphasis:
   - titanium pressure shell
-  - survive the extreme heat
-  sfx: whoosh
+  - survive
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Cut-away_model_of_a_Soviet_Venera_12_lander.jpg/1280px-Cut-away_model_of_a_Soviet_Venera_12_lander.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -77,35 +88,35 @@ beats:
     - color
     motion: pan_down
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.55
     box:
-    - 0.35
-    - 0.4
-    - 0.65
-    - 0.7
-- text: During descent, the parachute failed, causing the heavy spacecraft to slam into the ground.
+    - 0.25
+    - 0.42
+    - 0.75
+    - 0.75
+- text: During descent, the parachute failed, causing the probe to strike the surface at seventeen meters per second.
   emphasis:
   - parachute failed
-  - slam
+  - seventeen meters per second
   sfx: riser
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/5/59/Space_probe_Venera_on_the_venus_surface_%28artist_recreation%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Artistic_impression_of_the_Venusian_surface_and_atmosphere.jpg/3840px-Artistic_impression_of_the_Venusian_surface_and_atmosphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Space probe Venera on the venus surface (artist recreation).jpg
-      credit: wewewegrafikbaydeh (Reimund Bertrams)
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:Space_probe_Venera_on_the_venus_surface_(artist_recreation).jpg
+      title: Artistic impression of the Venusian surface and atmosphere.jpg
+      credit: ESO/M. Kornmesser/L. Calçada
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artistic_impression_of_the_Venusian_surface_and_atmosphere.jpg
     fallbacks:
     - color
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: Mission control assumed the probe died instantly after landing on its side.
+- text: Mission controllers initially believed the spacecraft died instantly when it fell completely silent on impact.
   emphasis:
   - died instantly
-  - on its side
+  - silent on impact
   sfx: pop
   pause_after: 0.4
   visual:
@@ -125,17 +136,18 @@ beats:
     focus_y: 0.6
     box:
     - 0.15
-    - 0.55
+    - 0.38
     - 0.85
-    - 0.95
+    - 0.92
     card:
       kind: fact
-      big: Landed on Side
-      small: Mission control assumed total failure
-- text: Weeks later, scientists found a faint twenty-three minute signal hidden beneath static on recorded tapes.
+      big: Silent Impact
+      small: Presumed lost on the surface
+- text: Weeks later, scientists reviewing recorded radio tapes discovered a faint, twenty-three minute signal hidden beneath
+    the static.
   emphasis:
   - twenty-three minute signal
-  - hidden beneath static
+  - hidden beneath
   sfx: whoosh
   visual:
     source: url
@@ -151,39 +163,45 @@ beats:
     - card
     - color
     motion: pan_up
-    focus_x: 0.5
+    focus_x: 0.25
     focus_y: 0.5
     card:
       kind: fact
       big: 23 Minutes
       small: Hidden signal on tapes
-- text: The data confirmed a lead-melting surface temperature of four hundred seventy-five degrees Celsius.
+- text: The transmissions confirmed a crushing pressure ninety times that of Earth and a temperature of four hundred seventy-five
+    degrees Celsius.
   emphasis:
-  - four hundred seventy-five degrees Celsius
-  - lead-melting
+  - ninety times
+  - four hundred seventy-five degrees
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Venus_from_Pioneer_Venus_in_1979.jpg/960px-Venus_from_Pioneer_Venus_in_1979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/5/59/Space_probe_Venera_on_the_venus_surface_%28artist_recreation%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Venus from Pioneer Venus in 1979.jpg
-      credit: NASA
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Venus_from_Pioneer_Venus_in_1979.jpg
+      title: Space probe Venera on the venus surface (artist recreation).jpg
+      credit: wewewegrafikbaydeh (Reimund Bertrams)
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Space_probe_Venera_on_the_venus_surface_(artist_recreation).jpg
     fallbacks:
     - card
     - color
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.8
+    box:
+    - 0.38
+    - 0.72
+    - 0.52
+    - 0.92
     card:
       kind: fact
-      big: "475\0C"
-      small: Venus surface temperature
-- text: Hidden data revealed a crashed space probe talking from Venus.
+      big: 475 Degrees
+      small: Celsius surface temperature
+- text: Those faint tapes proved history was made because a crashed space probe fell silent, yet spoke from Venus weeks later.
   emphasis:
-  - Hidden data
-  - talking from Venus
+  - Those faint tapes
+  - history was made
   visual:
     reuse: 1
     motion: zoom_out

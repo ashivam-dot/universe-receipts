@@ -1,0 +1,67 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-08T17:16:29+05:30",
+      "check": {
+        "duration": 55.33,
+        "words": 120,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'przybylski' heard as 'p arzybilski' after '1961 astronomer antoni'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Decent hook that introduces an intriguing cosmic mystery, though a bit slow to build tension.",
+        "clarity": "The script uses technical concepts like spectral line crowding that confuse general viewers.",
+        "payoff": "The conclusion contradicts itself by debunking the premise and then immediately reinforcing it.",
+        "visuals": "Several frames use academic diagrams and dark maps that are illegible on phone screens.",
+        "loop": "The final line does not lead naturally or grammatically into the start of the first line."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The academic chemistry diagram is cluttered and contains too much unreadable text."
+        },
+        {
+          "beat": 6,
+          "problem": "The constellation chart is too dark and the red labels are illegible."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Przybylski",
+          "respelling": "psh ih bil skee"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: While some blame alien nuclear waste, others believe crowded stellar light lines simply mimic this impossible signal.",
+        "Beat 8: But if this radioactive waste is real, it must be constantly replenished on"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -1,0 +1,100 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-08T17:13:08+05:30",
+      "check": {
+        "duration": 47.19,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "'dodge' heard as 'dodged' after 'spacecraft never'",
+          "'giuseppe piazzi' heard as 'g u c peisey' after 'one 1801 astronomer'",
+          "'(nothing)' heard as 'space' after 'between these space'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong myth-busting statement immediately subverts sci-fi expectations.",
+        "clarity": "Concepts move logically from historical discovery to spatial reality.",
+        "payoff": "The one-in-a-billion statistic effectively validates the initial claim.",
+        "visuals": "Several static diagrams and historical portraits feel slow for the format.",
+        "loop": "Beat 7 repeats beat 1 verbatim for a seamless replay transition."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Giuseppe Piazzi",
+          "respelling": "joo zep pay pee aht see"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a clearer historical progression before delivering the modern scientific reality.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-08T17:16:02+05:30",
+      "check": {
+        "duration": 47.37,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.4,
+        "warnings": [],
+        "speech_differences": [
+          "'dodge' heard as 'dodged' after 'spacecraft never'",
+          "'cruise' heard as 'cruises' after 'desert spacecraft safely'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strongly debunks a popular movie myth in the first two seconds.",
+        "clarity": "Easy to follow historical context leading to modern space facts.",
+        "payoff": "The 600,000-mile separation provides a solid, mind-bending contrast to sci-fi.",
+        "visuals": "Clear, on-topic astronomical charts and spacecraft illustrations used throughout.",
+        "loop": "Seamlessly transitions from the final probability stat back to the hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This short has a cleaner narrative flow and simpler mathematical visualization than ep072.",
+      "judge": "gemini-3.5-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

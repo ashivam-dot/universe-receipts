@@ -1,25 +1,26 @@
 id: ep093
-title: Why We Only Ever See One Side of the Moon
+title: The Myth of the Moon's Dark Side
 series: Space Myths, Busted
-description: Discover the truth about tidal locking and how the Soviet Luna 3 spacecraft first photographed the hidden far
-  side of the Moon in 1959.
+description: Discover how tidal locking synchronizes the Moon's rotation and why we didn't see the far side until 1959.
 sources:
 - https://en.wikipedia.org/wiki/Tidal_locking
 - https://science.nasa.gov/moon/tidal-locking/
 - https://www.astronomy.com/science/why-does-the-same-side-of-the-moon-always-face-earth/
 - https://www.lunarprobe.com/guides/tidal-locking/
 - http://www.universetoday.com/128350/will-earth-lock-moon/
+- https://www.planetary.org/articles/1017-rapidly-rotating-regular-satellites-and-tides
 hashtags:
 - '#space'
 - '#moon'
-- '#astronomy'
+- '#luna3'
 tags:
 - Moon
 - tidal locking
-- Luna 3
-- space myth
 - astronomy
+- Luna 3
 - Soviet Union
+- space myths
+- planetary science
 voice:
   voice: af_heart
   speed: 1.05
@@ -42,20 +43,32 @@ beats:
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: The Moon actually rotates on its axis at the exact same speed it orbits our home planet.
+- text: Our Moon actually rotates on its axis at the exact same speed it orbits Earth.
   emphasis:
-  - rotates on its axis
-  - same speed
+  - rotates
+  - exact same speed
   sfx: whoosh
   visual:
-    reuse: 1
-    motion: zoom_in
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Moon_phases_fr.jpg/1920px-Moon_phases_fr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Moon phases fr.jpg
+      credit: 'Original work : Orion 8
+
+
+        French translation : Charlestpt'
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Moon_phases_fr.jpg
+    fallbacks:
+    - color
+    motion: pan_left
     focus_x: 0.5
-    focus_y: 0.5
-- text: This cosmic synchronization keeps the exact same side facing Earth forever.
+    focus_y: 0.3
+- text: This synchronous tidal locking is caused by Earth's gravity stretching the lunar body into physical bulges.
   emphasis:
-  - cosmic synchronization
-  - facing Earth forever
+  - tidal locking
+  - physical bulges
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/7/71/Tidal_bulge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -70,31 +83,43 @@ beats:
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: Earth's immense gravity constantly stretches the Moon into tidal bulges that generate gravitational torque.
+- text: Gravity pulls on these bulges like a brake, forcing the spin to match the orbit.
   emphasis:
-  - stretches the Moon
-  - gravitational torque
-  sfx: riser
+  - like a brake
+  - match the orbit
+  sfx: whoosh
   visual:
     source: url
-    url: https://iiif.wellcomecollection.org/image/V0025022/full/!1920,1920/0/default.jpg
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Naiad-Thalassa_73-69_orbital_resonance.jpg/960px-Naiad-Thalassa_73-69_orbital_resonance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
-      source: Wellcome Collection
-      title: 'Astronomy: eclipses (top), and the Moon''s passage around the Earth. Coloured engraving by J. Emslie, 1851,
-        after himself'
-      credit: Wellcome Collection
+      source: Wikimedia Commons
+      title: Naiad-Thalassa 73-69 orbital resonance.jpg
+      credit: NASA / JPL-Caltech
       license: Public domain
-      url: https://wellcomecollection.org/works/dmzeqfcb
+      url: https://commons.wikimedia.org/wiki/File:Naiad-Thalassa_73-69_orbital_resonance.jpg
     fallbacks:
     - color
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: In 1959, the Soviet spacecraft Luna 3 successfully transmitted the very first photographs of the far side.
+- text: This constant friction slows the rotation and pushes the Moon away by four centimeters every year.
   emphasis:
+  - slows the rotation
+  - four centimeters
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 4 centimeters
+      small: annual lunar drift
+    motion: zoom_in
+- text: We finally saw the far side when the Soviet Luna 3 photographed it in 1959.
+  emphasis:
+  - Soviet Luna 3
   - '1959'
-  - Luna 3
-  sfx: whoosh
+  sfx: pop
+  pause_after: 0.4
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/8/86/Luna-3_%28Memorial_Museum_of_Astronautics%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -107,37 +132,35 @@ beats:
     fallbacks:
     - card
     - color
-    motion: pan_right
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: dateline
       big: '1959'
       small: Luna 3 Mission
-- text: This tidal locking is precisely why humanity never caught a single glimpse of that hidden hemisphere before.
+- text: Even Pluto and its moon Charon are mutually caught in this same gravitational grip.
   emphasis:
-  - tidal locking
-  - hidden hemisphere
-  sfx: pop
-  pause_after: 0.4
+  - Pluto
+  - Charon
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Moon_PIA00304.jpg/1280px-Moon_PIA00304.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/2/23/Pluto-Charon-v2-10-1-15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Moon PIA00304.jpg
-      credit: NASA
+      title: Pluto-Charon-v2-10-1-15.jpg
+      credit: NASA / Johns Hopkins University Applied Physics Laboratory / Southwest Research Institute
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Moon_PIA00304.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pluto-Charon-v2-10-1-15.jpg
     fallbacks:
     - color
-    motion: zoom_in
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: Because tidal locking ensures the Moon's rotation matches its orbit, you have to wonder if it ever stays still.
+- text: This synchronization hides the far side forever, which is why people still believe the Moon doesn't spin.
   emphasis:
-  - rotation matches its orbit
-  - stays still
+  - hides the far side
+  - doesn't spin
   visual:
     reuse: 1
     motion: zoom_in

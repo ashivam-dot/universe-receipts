@@ -1,0 +1,154 @@
+id: ep085
+title: The Star That Chokes on Its Own Soot
+series: The Universe Is Terrifying
+description: R Coronae Borealis is a rare reverse nova that periodically vanishes as it smothers itself in clouds of carbon
+  dust.
+sources:
+- https://en.wikipedia.org/wiki/R_Coronae_Borealis
+- https://www.nature.com/nature-index/topics/l4/dynamics-of-r-coronae-borealis-stars
+- https://lweb.cfa.harvard.edu/sdu/rcorbor.html
+- http://www.aavso.org/vsots_rcrb
+- http://www.daviddarling.info/encyclopedia/R/R_Coronae_Borealis_star.html
+- https://en.wikipedia.org/wiki/R_Coronae_Borealis_variable
+hashtags:
+- '#space'
+- '#astronomy'
+- '#supergiant'
+tags:
+- R Coronae Borealis
+- variable star
+- space facts
+- astronomy
+- cosmic dust
+- Edward Pigott
+- reverse nova
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: A giant star in our galaxy regularly chokes on its own soot.
+  emphasis:
+  - chokes
+  - soot
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: chokes
+      small: ''
+    motion: zoom_in
+- text: Discovered in 1795, the supergiant R Coronae Borealis usually shines bright enough for the naked eye.
+  emphasis:
+  - supergiant
+  - naked eye
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/8a/Corona_Borealis_%28crb%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Corona Borealis (crb).jpg
+      credit: IAU and Sky & Telescope
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Corona_Borealis_(crb).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.2
+    - 0.65
+    - 0.6
+    card:
+      kind: dateline
+      big: '1795'
+      small: Edward Pigott
+- text: But without warning, this "reverse nova" can plummet to nearly one-millionth of its normal brightness.
+  emphasis:
+  - reverse nova
+  - one-millionth
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 9 Magnitudes
+      small: Drop in brightness
+    motion: zoom_in
+- text: It doesn't explode outward like a typical star; instead, it suddenly vanishes from view for months.
+  emphasis:
+  - vanishes
+  - months
+  sfx: whoosh
+  visual:
+    reuse: 2
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers found the star is actually smothering itself in a massive cloud of carbon dust.
+  emphasis:
+  - smothering
+  - carbon dust
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/1c/Porous_chondriteIDP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Porous chondriteIDP.jpg
+      credit: The original uploader was Amara at English Wikipedia.
+      license: CC BY 1.0
+      url: https://commons.wikimedia.org/wiki/File:Porous_chondriteIDP.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Intense shockwaves force carbon gas to condense into thick, dark soot that blocks all visible light.
+  emphasis:
+  - shockwaves
+  - dark soot
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Hubble_Peers_into_the_Storm_%2829563971405%29.jpg/3840px-Hubble_Peers_into_the_Storm_%2829563971405%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble Peers into the Storm (29563971405).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Hubble_Peers_into_the_Storm_(29563971405).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: While it disappears from our eyes, infrared telescopes can see right through the cosmic smog.
+  emphasis:
+  - infrared
+  - smog
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/The_dark_cloud_B68_at_different_wavelengths_%28eso9934b%29.tiff/lossy-page1-1920px-The_dark_cloud_B68_at_different_wavelengths_%28eso9934b%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The dark cloud B68 at different wavelengths (eso9934b).tiff
+      credit: ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_dark_cloud_B68_at_different_wavelengths_(eso9934b).tiff
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Radiation pressure eventually clears the exhaust, revealing why this giant star regularly chokes on its own soot.
+  emphasis:
+  - Radiation pressure
+  - chokes
+  visual:
+    reuse: 1
+    motion: zoom_out
+hook_text: THE REVERSE NOVA

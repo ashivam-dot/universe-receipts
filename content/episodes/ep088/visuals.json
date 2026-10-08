@@ -230,47 +230,16 @@
     ]
   },
   {
-    "source": "url",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Hubble_Finds_Carbon_Dioxide_on_an_Extrasolar_Planet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "credit": {
-      "source": "Wikimedia Commons",
-      "title": "Hubble Finds Carbon Dioxide on an Extrasolar Planet.jpg",
-      "credit": "ESA, NASA, M. Kornmesser (ESA/Hubble), and STScI",
-      "license": "CC BY 4.0",
-      "url": "https://commons.wikimedia.org/wiki/File:Hubble_Finds_Carbon_Dioxide_on_an_Extrasolar_Planet.jpg"
-    },
-    "fallbacks": [
-      "card",
-      "color"
-    ],
-    "motion": "pan_left",
-    "focus_x": 0.5,
-    "focus_y": 0.5,
+    "source": "card",
     "card": {
       "kind": "fact",
       "big": "9 DAYS LATER",
       "small": "Discovered After Flyby"
     },
-    "_choice": {
-      "key": "commons:File:Hubble Finds Carbon Dioxide on an Extrasolar Planet.jpg",
-      "origin": "commons",
-      "file": "File:Hubble Finds Carbon Dioxide on an Extrasolar Planet.jpg",
-      "title": "Hubble Finds Carbon Dioxide on an Extrasolar Planet.jpg",
-      "width": 3273,
-      "height": 2304,
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0",
-      "artist": "ESA, NASA, M. Kornmesser (ESA/Hubble), and STScI",
-      "date": "12.09.2008",
-      "year": 2008,
-      "page": "https://commons.wikimedia.org/wiki/File:Hubble_Finds_Carbon_Dioxide_on_an_Extrasolar_Planet.jpg",
-      "route": "search",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Hubble_Finds_Carbon_Dioxide_on_an_Extrasolar_Planet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "historical": 0.0,
-      "match": 0.022
-    },
-    "_fit": "close",
-    "_alternates": []
+    "motion": "zoom_in",
+    "_rejected": [
+      "commons:File:Hubble Finds Carbon Dioxide on an Extrasolar Planet.jpg"
+    ]
   },
   {
     "source": "url",

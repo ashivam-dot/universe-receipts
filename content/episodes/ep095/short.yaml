@@ -66,20 +66,19 @@ beats:
       kind: fact
       big: 1 Kelvin
       small: Temperature of the nebula
-- text: While the afterglow of the Big Bang warms most of space to two point seven Kelvin, the nebula plunges to minus two
-    hundred seventy-two degrees Celsius.
+- text: While the Big Bang's afterglow is three Kelvin, this nebula is a freezing one Kelvin.
   emphasis:
-  - two point seven Kelvin
-  - minus two hundred seventy-two degrees Celsius
+  - three Kelvin
+  - freezing one Kelvin
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/0/04/Cosmic_Microwave_Background_%28CMB%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/WMAP_2012.png/3840px-WMAP_2012.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Cosmic Microwave Background (CMB).jpeg
-      credit: ESA and the Planck Collaboration
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Cosmic_Microwave_Background_(CMB).jpeg
+      title: WMAP 2012.png
+      credit: NASA / WMAP Science Team
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:WMAP_2012.png
     fallbacks:
     - color
     motion: pan_right
@@ -121,8 +120,8 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.49
+    focus_y: 0.52
 - text: A dying central star is shedding mass up to one hundred times faster than similar stars.
   emphasis:
   - dying central star
@@ -167,12 +166,13 @@ beats:
       kind: fact
       big: 500,000 km/h
       small: Gas expansion speed
-- text: That violent expansion cools the cosmic refrigerator far below the background glow of the Big Bang.
+- text: That rapid expansion drops temperatures below cosmic microwave radiation, explaining why.
   emphasis:
-  - violent expansion
-  - cosmic refrigerator
+  - rapid expansion
+  - explaining why
   visual:
     reuse: 1
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
+hook_text: COLDEST KNOWN PLACE

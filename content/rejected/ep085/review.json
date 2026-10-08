@@ -1,0 +1,163 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-07T17:27:04+05:30",
+      "check": {
+        "duration": 50.87,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'coronae' heard as 'coroni' after 'the supergiant r'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of a star choking on its own soot is an excellent, attention-grabbing hook.",
+        "clarity": "The explanation of the reverse nova mechanism is simple and easy to follow on one listen.",
+        "payoff": "The resolution explaining how soot forms and clears provides a very satisfying payoff.",
+        "visuals": "Several frames depict unrelated astronomical objects instead of R Coronae Borealis.",
+        "loop": "The seamless transition from the final line to the first creates an effective replay loop."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Shows the 2019 dimming of Betelgeuse instead of the subject star R Coronae Borealis."
+        },
+        {
+          "beat": 6,
+          "problem": "Uses a JWST image of the Carina Nebula, which is unrelated to this star."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows Barnard 68, a completely different dark nebula, rather than R Coronae Borealis."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It introduces a more mysterious and lesser-known stellar phenomenon compared to the galactic collision in episode 71.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-08T17:13:31+05:30",
+      "check": {
+        "duration": 50.87,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'coronae' heard as 'coroni' after 'the supergiant r'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "An intriguing concept that immediately captures attention.",
+        "clarity": "Easy to follow with a logical flow explaining the process.",
+        "payoff": "The explanation of carbon dust and infrared view is satisfying.",
+        "visuals": "The terrestrial park image in beat 1 is highly off-topic.",
+        "loop": "Seamless transition from the final line back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Shows a dark city park street instead of a star or space."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The loop transition is more natural and seamless than in previous episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-08T17:15:22+05:30",
+      "check": {
+        "duration": 50.87,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'coronae' heard as 'coroni' after 'the supergiant r'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of a star choking on soot is highly intriguing and immediate.",
+        "clarity": "The explanation of soot formation and clearing is simple and logical.",
+        "payoff": "The explanation of infrared penetration and clearing provides a solid resolution.",
+        "visuals": "Several generic assets are used, such as Barnard 68 for the infrared example.",
+        "loop": "Perfectly matches the start of the script for a continuous cycle."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows Barnard 68, a completely different dark nebula, instead of R Coronae Borealis."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It features a far more seamless loop and cohesive narrative flow than ep072.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-08T17:15:22+05:30"
+}

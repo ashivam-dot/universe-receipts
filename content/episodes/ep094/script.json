@@ -16,7 +16,7 @@
   "hook_style": "contradiction",
   "structure": "myth_vs_fact",
   "title": "The Asteroid That Sparked a 3.1 Percent Impact Scare",
-  "description": "Discover how asteroid 2024 YR4 became the most threatening space rock ever measured by impact probability before being ruled out.",
+  "description": "How asteroid 2024 YR4 became the most threatening space rock ever measured before refined data cleared the threat.",
   "hashtags": [
     "#space",
     "#asteroids",
@@ -25,7 +25,7 @@
   "tags": [
     "asteroid 2024 YR4",
     "Torino scale",
-    "James Webb Space Telescope",
+    "radar astronomy",
     "impact probability",
     "near Earth objects",
     "space threat"
@@ -61,7 +61,7 @@
       "text": "On December 27, 2024, the ATLAS telescope in Chile spotted asteroid 2024 YR4 sneaking past a solar blind spot.",
       "emphasis": [
         "December 27, 2024",
-        "ATLAS telescope"
+        "solar blind spot"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
@@ -87,13 +87,13 @@
       }
     },
     {
-      "text": "The city-killer reached Level 3 on the Torino Scale, the highest impact probability ever recorded for its size.",
+      "text": "This city-killer reached Level 3 on the Torino Scale, the highest impact hazard ever measured for its size.",
       "emphasis": [
         "Level 3",
         "Torino Scale"
       ],
-      "sfx": "riser",
-      "pause_after": 0.4,
+      "sfx": "none",
+      "pause_after": 0.12,
       "claims": [
         5,
         6
@@ -116,8 +116,8 @@
     {
       "text": "Roughly 53 to 67 meters wide, it packed the explosive punch of 8 megatons of TNT.",
       "emphasis": [
-        "53 to 67 meters",
-        "8 megatons"
+        "8 megatons",
+        "53 to 67 meters"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
@@ -141,10 +141,10 @@
       }
     },
     {
-      "text": "Its potential impact corridor stretched across parts of South America, India, and Nigeria.",
+      "text": "A potential impact corridor stretched across Nigeria and South America, threatening millions for several weeks.",
       "emphasis": [
         "impact corridor",
-        "South America"
+        "threatening millions"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -167,62 +167,64 @@
       }
     },
     {
-      "text": "Then, James Webb Space Telescope observations ruled out Earth, leaving a 4 percent chance of hitting the Moon.",
+      "text": "Many feared a December 22, 2032 collision with an energy equivalent to 500 Hiroshima bombs.",
       "emphasis": [
-        "James Webb Space Telescope",
-        "4 percent chance"
+        "December 22, 2032",
+        "Hiroshima bombs"
       ],
-      "sfx": "whoosh",
+      "sfx": "riser",
       "pause_after": 0.12,
+      "claims": [
+        7,
+        10
+      ],
+      "visual": "Hiroshima atomic bomb energy comparison, 2020",
+      "subjects": [
+        "Atomic bombings of Hiroshima and Nagasaki"
+      ],
+      "year": 2032,
+      "queries": [
+        "Hiroshima mushroom cloud",
+        "Little Boy atomic bomb replica"
+      ],
+      "card": {
+        "kind": "dateline",
+        "big": "December 22, 2032",
+        "small": "Calculated Impact"
+      }
+    },
+    {
+      "text": "Refined ground-based observatory and radar data cleared Earth, shifted the danger briefly to the Moon, and finally cleared both.",
+      "emphasis": [
+        "radar data",
+        "cleared Earth"
+      ],
+      "sfx": "pop",
+      "pause_after": 0.4,
       "claims": [
         12,
         13
       ],
-      "visual": "James Webb Space Telescope in space, 2022",
+      "visual": "ground-based radio telescope dish tracking in desert, 2023",
       "subjects": [
-        "James Webb Space Telescope"
+        "Radar astronomy",
+        "Observatory"
       ],
-      "year": 2025,
+      "year": 2026,
       "queries": [
-        "James Webb Space Telescope artist's concept",
-        "JWST telescope mirror"
+        "radio telescope dish observatory",
+        "radar astronomy telescope facility"
       ],
       "card": {
         "kind": "fact",
         "big": "4%",
-        "small": "Moon impact chance"
+        "small": "Moon Impact Chance"
       }
     },
     {
-      "text": "Refined 2026 data finally cleared the asteroid entirely, ending the most threatening impact scare in history.",
+      "text": "Now, astronomers only remember the panic when a new asteroid held a terrifying 3.1 percent chance of hitting Earth.",
       "emphasis": [
-        "2026 data",
-        "cleared the asteroid"
-      ],
-      "sfx": "pop",
-      "pause_after": 0.12,
-      "claims": [
-        13
-      ],
-      "visual": "the Moon surface Mare Humorum, 2020",
-      "subjects": [
-        "Moon"
-      ],
-      "year": 2026,
-      "queries": [
-        "Moon surface Mare Humorum",
-        "lunar craters high resolution"
-      ],
-      "card": {
-        "kind": "dateline",
-        "big": "2026",
-        "small": "Threat Cleared"
-      }
-    },
-    {
-      "text": "That is how a new space rock briefly held a terrifying 3.1 percent chance of hitting Earth.",
-      "emphasis": [
-        "new space rock",
+        "remember the panic",
         "3.1 percent chance"
       ],
       "sfx": "none",
@@ -230,14 +232,15 @@
       "claims": [
         4
       ],
-      "visual": "artist's concept of an asteroid hitting the Moon, 2025",
+      "visual": "artist's concept of an asteroid impact flash on the Moon, 2025",
       "subjects": [
-        "2024 YR4"
+        "Moon",
+        "Impact event"
       ],
       "year": 2026,
       "queries": [
-        "asteroid impact moon artist's concept",
-        "lunar impact flash illustration"
+        "lunar impact flash illustration",
+        "asteroid hitting moon artist's concept"
       ],
       "card": {
         "kind": "none",
@@ -248,5 +251,5 @@
   ],
   "hook_text": "3.1% IMPACT CHANCE",
   "loop": true,
-  "better_than_last": "This episode applies a concise myth-vs-fact structure with precise Torino scale statistics, a shortened 11-word hook fitting the strict length limit, and a seamless loop echoing the exact hook image."
+  "better_than_last": "This version uses ground-based observatory imagery in beat 7, removes unnecessary phrasing to reduce runtime under 58 seconds, and maintains a flawless loop."
 }

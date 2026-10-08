@@ -1,8 +1,7 @@
 id: ep094
 title: The Asteroid That Sparked a 3.1 Percent Impact Scare
 series: Near Misses
-description: Discover how asteroid 2024 YR4 became the most threatening space rock ever measured by impact probability before
-  being ruled out.
+description: How asteroid 2024 YR4 became the most threatening space rock ever measured before refined data cleared the threat.
 sources:
 - https://en.wikipedia.org/wiki/2024_YR4
 - https://www.scientificamerican.com/article/city-killer-asteroids-earth-impact-risk-rises-to-highest-ever-recorded/
@@ -18,7 +17,7 @@ hashtags:
 tags:
 - asteroid 2024 YR4
 - Torino scale
-- James Webb Space Telescope
+- radar astronomy
 - impact probability
 - near Earth objects
 - space threat
@@ -52,7 +51,7 @@ beats:
 - text: On December 27, 2024, the ATLAS telescope in Chile spotted asteroid 2024 YR4 sneaking past a solar blind spot.
   emphasis:
   - December 27, 2024
-  - ATLAS telescope
+  - solar blind spot
   sfx: whoosh
   visual:
     source: card
@@ -61,12 +60,10 @@ beats:
       big: December 27, 2024
       small: ATLAS Telescope, Chile
     motion: zoom_in
-- text: The city-killer reached Level 3 on the Torino Scale, the highest impact probability ever recorded for its size.
+- text: This city-killer reached Level 3 on the Torino Scale, the highest impact hazard ever measured for its size.
   emphasis:
   - Level 3
   - Torino Scale
-  sfx: riser
-  pause_after: 0.4
   visual:
     source: card
     card:
@@ -76,8 +73,8 @@ beats:
     motion: zoom_in
 - text: Roughly 53 to 67 meters wide, it packed the explosive punch of 8 megatons of TNT.
   emphasis:
-  - 53 to 67 meters
   - 8 megatons
+  - 53 to 67 meters
   sfx: whoosh
   visual:
     source: url
@@ -98,53 +95,70 @@ beats:
       kind: fact
       big: 8 Megatons
       small: Explosive energy
-- text: Its potential impact corridor stretched across parts of South America, India, and Nigeria.
+- text: A potential impact corridor stretched across Nigeria and South America, threatening millions for several weeks.
   emphasis:
   - impact corridor
-  - South America
-  visual:
-    reuse: 4
-    motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Then, James Webb Space Telescope observations ruled out Earth, leaving a 4 percent chance of hitting the Moon.
-  emphasis:
-  - James Webb Space Telescope
-  - 4 percent chance
-  sfx: whoosh
+  - threatening millions
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/2024_YR4_JWST_NIRCam_F150W_2025-03-08.png/960px-2024_YR4_JWST_NIRCam_F150W_2025-03-08.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Blue_Marble_2002.png/3840px-Blue_Marble_2002.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: 2024 YR4 JWST NIRCam F150W 2025-03-08.png
-      credit: A. S. Rivkin et al./NASA/ESA
+      title: Blue Marble 2002.png
+      credit: 'NASA’s Terra satellite for the MODIS imageries, combined by Meow. Credit: NASA Goddard Space Flight Center
+        Image by Reto Stöckli (land surface, shallow water, clouds). Enhancements by Robert Simmon (o'
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:2024_YR4_JWST_NIRCam_F150W_2025-03-08.png
+      url: https://commons.wikimedia.org/wiki/File:Blue_Marble_2002.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.5
+    box:
+    - 0.2
+    - 0.2
+    - 0.8
+    - 0.8
+- text: Many feared a December 22, 2032 collision with an energy equivalent to 500 Hiroshima bombs.
+  emphasis:
+  - December 22, 2032
+  - Hiroshima bombs
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Atomic_bombing_of_Japan.jpg/3840px-Atomic_bombing_of_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Atomic bombing of Japan.jpg
+      credit: George R. Caron / Charles Levy
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Atomic_bombing_of_Japan.jpg
     fallbacks:
     - card
     - color
     motion: pan_left
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.4
     card:
-      kind: fact
-      big: 4%
-      small: Moon impact chance
-- text: Refined 2026 data finally cleared the asteroid entirely, ending the most threatening impact scare in history.
+      kind: dateline
+      big: December 22, 2032
+      small: Calculated Impact
+- text: Refined ground-based observatory and radar data cleared Earth, shifted the danger briefly to the Moon, and finally
+    cleared both.
   emphasis:
-  - 2026 data
-  - cleared the asteroid
+  - radar data
+  - cleared Earth
   sfx: pop
+  pause_after: 0.4
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/1/11/Moon_LSETM_%2835970428073%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d4/Vitino%2C_RT-70_deep_space_radio_telescope_%28planetary_radar%29%2C_Antenna%2C_Crimea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Moon LSETM (35970428073).jpg
-      credit: Giuseppe Donatiello
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:Moon_LSETM_(35970428073).jpg
+      title: Vitino, RT-70 deep space radio telescope (planetary radar), Antenna, Crimea.jpg
+      credit: Vyacheslav Argenberg
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Vitino,_RT-70_deep_space_radio_telescope_(planetary_radar),_Antenna,_Crimea.jpg
     fallbacks:
     - card
     - color
@@ -152,12 +166,12 @@ beats:
     focus_x: 0.5
     focus_y: 0.5
     card:
-      kind: dateline
-      big: '2026'
-      small: Threat Cleared
-- text: That is how a new space rock briefly held a terrifying 3.1 percent chance of hitting Earth.
+      kind: fact
+      big: 4%
+      small: Moon Impact Chance
+- text: Now, astronomers only remember the panic when a new asteroid held a terrifying 3.1 percent chance of hitting Earth.
   emphasis:
-  - new space rock
+  - remember the panic
   - 3.1 percent chance
   visual:
     reuse: 1

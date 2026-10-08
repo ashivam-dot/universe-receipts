@@ -1,0 +1,94 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-08T17:12:42+05:30",
+      "check": {
+        "duration": 44.4,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Common myth angle grabs mild interest but lacks urgency.",
+        "clarity": "Explains tidal locking mechanics simply and step-by-step.",
+        "payoff": "Luna 3 historical fact provides mild payoff without a strong twist.",
+        "visuals": "Diagrams and museum craft are relevant but visually dry.",
+        "loop": "Closing sentence ends awkwardly and does not bridge into the opener smoothly."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Tidal locking hides the far side, which is why people still..."
+      ],
+      "better_than_last": "Directly debunks a widespread lunar misconception faster than ep071 setup.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-08T17:19:00+05:30",
+      "check": {
+        "duration": 47.03,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'probe luna' heard as 'pro bluna' after 'until the soviet'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The myth-busting approach is effective for immediate viewer engagement.",
+        "clarity": "Technical terms like braking torque are too dense for a quick watch.",
+        "payoff": "The Luna 3 fact is a good receipt but feels a bit low-energy.",
+        "visuals": "The mix of diagrams and historical images keeps the pacing tight.",
+        "loop": "The script circles back to the initial misconception with logical flow."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 4: Gravity pulls on these bulges like a brake, forcing the spin to match the orbit.",
+        "Beat 6: We finally saw the far side when the Soviet Luna 3 photographed it in 1959."
+      ],
+      "better_than_last": "It addresses a common lunar misconception more directly than the recent galactic crash video.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

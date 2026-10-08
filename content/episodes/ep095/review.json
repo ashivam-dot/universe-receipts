@@ -1,0 +1,102 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-08T17:14:16+05:30",
+      "check": {
+        "duration": 54.27,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'scarrott' heard as 'scarot' after 'taylor and mike'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong counterintuitive premise catches attention immediately.",
+        "clarity": "Information flows logically with clear temperature comparisons.",
+        "payoff": "The cooling mechanism is neat but lacks a dramatic narrative punchline.",
+        "visuals": "Hubble shot displays the spacecraft rather than the nebula image mentioned.",
+        "loop": "Reiterating the Big Bang at the end makes the transition slightly awkward."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows the Hubble spacecraft rather than the nebula photograph referenced."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: That rapid expansion drops temperatures below cosmic microwave radiation, explaining why..."
+      ],
+      "better_than_last": "Explains a complex thermodynamic mechanism in deep space more clearly and concisely.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-08T17:19:16+05:30",
+      "check": {
+        "duration": 52.86,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'scarrott' heard as 'scarot' after 'taylor and mike'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening comparison that grabs attention.",
+        "clarity": "Switching between Kelvin and Celsius units adds confusion.",
+        "payoff": "The adiabatic cooling explanation provides a good answer.",
+        "visuals": "Consistent, high-quality astronomical and technical imagery.",
+        "loop": "Sentence structure bridges the end and start well."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 3: While the Big Bang's afterglow is three Kelvin, this nebula is a freezing one Kelvin."
+      ],
+      "better_than_last": "Offers a deeper scientific explanation than the solar storm episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

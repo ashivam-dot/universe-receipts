@@ -2,7 +2,7 @@
   "hooks": [
     {
       "style": "contradiction",
-      "text": "Astronauts never staged a strike in space."
+      "text": "The most famous labor strike in history didn't even happen on Earth."
     },
     {
       "style": "statement",
@@ -15,27 +15,27 @@
   ],
   "hook_style": "contradiction",
   "structure": "story",
-  "title": "The Truth About the First Strike in Space",
-  "description": "Discover how an accidental radio error during Skylab 4 was sensationalized as the first strike in space.",
+  "title": "The Space Mutiny That Never Happened",
+  "description": "The real story behind the Skylab 4 strike and the accidental radio error that fooled the world.",
   "hashtags": [
     "#space",
-    "#nasa",
-    "#skylab"
+    "#skylab",
+    "#nasa"
   ],
   "tags": [
     "Skylab 4",
+    "NASA",
+    "mission control",
     "Gerald Carr",
-    "Edward Gibson",
-    "William Pogue",
     "space station",
-    "mission control"
+    "mutiny"
   ],
   "beats": [
     {
-      "text": "Astronauts never staged a strike in space.",
+      "text": "The most famous labor strike in history didn't even happen on Earth.",
       "emphasis": [
-        "never staged a strike",
-        "in space"
+        "labor strike",
+        "didn't even happen"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -61,10 +61,10 @@
       }
     },
     {
-      "text": "In November 1973, NASA launched Skylab 4, which was the final crewed mission to America's first space station.",
+      "text": "In November 1973, NASA launched three rookie astronauts to America's first space station, Skylab.",
       "emphasis": [
         "November 1973",
-        "final crewed mission"
+        "first space station"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
@@ -73,7 +73,7 @@
         2,
         5
       ],
-      "visual": "Saturn IB rocket launching Skylab 4 from Kennedy Space Center, 1973",
+      "visual": "photograph of the launch of Skylab 4 on a Saturn IB rocket, 1973",
       "subjects": [
         "Skylab 4",
         "Saturn IB"
@@ -90,20 +90,19 @@
       }
     },
     {
-      "text": "The crew of Gerald Carr, Edward Gibson, and William Pogue were all space rookies facing an intense eighty-four-day schedule.",
+      "text": "Gerald Carr, Edward Gibson, and William Pogue soon struggled under an incredibly micromanaged eighty-four-day schedule.",
       "emphasis": [
-        "space rookies",
-        "eighty-four-day schedule"
+        "struggled",
+        "micromanaged"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         3,
         4,
-        5,
         10
       ],
-      "visual": "Skylab space station in Earth orbit photographed from Skylab 4, 1973",
+      "visual": "photograph of the Skylab space station in Earth orbit, 1973",
       "subjects": [
         "Skylab",
         "Skylab 4"
@@ -114,16 +113,45 @@
         "Skylab space station"
       ],
       "card": {
-        "kind": "fact",
-        "big": "84 Days",
-        "small": "Mission Duration"
+        "kind": "none",
+        "big": "",
+        "small": ""
       }
     },
     {
-      "text": "As crushing workloads heavily fatigued the men, an accidental radio error caused them to miss a scheduled daily briefing.",
+      "text": "When the astronauts tried to hide an early case of space sickness, NASA’s chief astronaut Alan Shepard issued a stern reprimand.",
       "emphasis": [
-        "heavily fatigued",
-        "accidental radio error"
+        "space sickness",
+        "stern reprimand"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        7,
+        8,
+        9
+      ],
+      "visual": "photograph of Alan Shepard in his Apollo 14 spacesuit, 1971",
+      "subjects": [
+        "Alan Shepard",
+        "Apollo 14"
+      ],
+      "year": 1973,
+      "queries": [
+        "Alan Shepard portrait",
+        "Alan Shepard Apollo 14"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "Exhausted and overworked, the crew suffered an accidental radio error that caused them to miss a scheduled daily briefing.",
+      "emphasis": [
+        "accidental radio error",
+        "miss a scheduled"
       ],
       "sfx": "riser",
       "pause_after": 0.12,
@@ -131,7 +159,7 @@
         10,
         11
       ],
-      "visual": "Edward Gibson conducting a spacewalk outside the Skylab space station, 1973",
+      "visual": "photograph of Edward Gibson conducting a spacewalk outside Skylab, 1973",
       "subjects": [
         "Edward Gibson",
         "Skylab 4"
@@ -142,23 +170,24 @@
         "Skylab 4 EVA"
       ],
       "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
+        "kind": "fact",
+        "big": "90 Minutes",
+        "small": "Radio Silence"
       }
     },
     {
-      "text": "That oversight resulted in a ninety-minute communications gap with ground control.",
+      "text": "This ninety-minute radio gap was immediately sensationalized by the media as a deliberate and unprecedented mutiny in orbit.",
       "emphasis": [
-        "ninety-minute",
-        "communications gap"
+        "sensationalized",
+        "mutiny in orbit"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
-        11
+        12,
+        13
       ],
-      "visual": "Apollo Telescope Mount solar observatory on Skylab, 1973",
+      "visual": "photograph of the Apollo Telescope Mount solar observatory on Skylab, 1973",
       "subjects": [
         "Skylab",
         "Apollo Telescope Mount"
@@ -169,51 +198,24 @@
         "Skylab ATM"
       ],
       "card": {
-        "kind": "fact",
-        "big": "90 Minutes",
-        "small": "Communications Gap"
-      }
-    },
-    {
-      "text": "The media sensationalized this brief accident as a deliberate strike in orbit.",
-      "emphasis": [
-        "sensationalized",
-        "deliberate strike"
-      ],
-      "sfx": "none",
-      "pause_after": 0.12,
-      "claims": [
-        12,
-        13
-      ],
-      "visual": "Skylab 4 command module capsule on display, 1974",
-      "subjects": [
-        "Skylab 4"
-      ],
-      "year": 1974,
-      "queries": [
-        "Skylab 4 command module",
-        "Skylab 4 capsule"
-      ],
-      "card": {
         "kind": "none",
         "big": "",
         "small": ""
       }
     },
     {
-      "text": "A radio conference soon resolved the scheduling tensions and lightened the workload.",
+      "text": "After the schedule was lightened, the crew became more productive than ever, yet none of them ever flew in space again.",
       "emphasis": [
-        "resolved",
-        "lightened the workload"
+        "more productive"
       ],
-      "sfx": "whoosh",
-      "pause_after": 0.4,
+      "sfx": "none",
+      "pause_after": 0.12,
       "claims": [
         14,
-        15
+        15,
+        16
       ],
-      "visual": "Official Skylab 4 mission patch, 1973",
+      "visual": "photograph of the official Skylab 4 mission patch, 1973",
       "subjects": [
         "Skylab 4"
       ],
@@ -223,16 +225,15 @@
         "Skylab 3 patch"
       ],
       "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
+        "kind": "fact",
+        "big": "Last Flight",
+        "small": "None Flew Again"
       }
     },
     {
-      "text": "Yet despite the rumors, real astronauts never staged a strike in space.",
+      "text": "Which means that history's most famous...",
       "emphasis": [
-        "never staged",
-        "a strike in space"
+        "Which means that"
       ],
       "sfx": "pop",
       "pause_after": 0.12,
@@ -240,7 +241,7 @@
         12,
         13
       ],
-      "visual": "Comet Kohoutek photographed from Skylab 4, 1973",
+      "visual": "photograph of Comet Kohoutek from the Skylab space station, 1973",
       "subjects": [
         "Comet Kohoutek",
         "Skylab 4"
@@ -257,7 +258,7 @@
       }
     }
   ],
-  "hook_text": "THE FIRST STRIKE",
+  "hook_text": "MYTH OF THE SPACE STRIKE",
   "loop": true,
-  "better_than_last": "This episode expands the middle beat slightly to meet the minimum spoken word count while maintaining seamless loop integration and high-tension contradiction."
+  "better_than_last": "Satisfied the reviewer's specific requests for Beat 1 and Beat 8, while expanding middle beats with detail from claims to hit the 105-135 word count target."
 }
