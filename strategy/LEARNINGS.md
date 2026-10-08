@@ -45,19 +45,19 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| 2rz-F-WZsXA | ? | –, story | 86 | – | – | – | – | – |
-| ep002 | Mission Files | statement, story | 105 | 47% | 39.1% | 85% | 0 | – |
-| ep004 | Mission Files | statement, story | 1059 | 57% | 53.4% | 110% | 3 | – |
-| ep008 | The Universe Is Terrifying | statement, story | 866 | 47% | 83.6% | 130% | 5 | Strong 'mailing' hook but technical drag in closing beats hurt rewatch potential. |
-| ep009 | Near Misses | statement, story | 244 | 43% | 60.2% | 105% | 0 | Engaging battery-free hook; mid-video setup pacing was too slow, causing steep drop-off. |
-| ep013 | Scale Breaker | contradiction, story | 978 | 55% | 70.5% | 123% | 2 | Peak contradiction hook drove discovery; explanatory wrap-up killed the loop potential. |
-| ep017 | Mission Files | contradiction, myth_vs_fact | 1216 | 51% | 68.9% | 119% | 5 | Paradox hook drove high velocity; verbatim loop repetition and lack of prompts zeroed comments. |
-| ep024 | Near Misses | contradiction, scale_ladder | 956 | 46% | 53.5% | 104% | 1 | Vivid tree-count hook worked; verbatim end-repeat caused dramatic retention collapse. |
-| ep028 | Space Myths, Busted | statement, mystery | 1271 | 54% | 81.0% | 129% | 5 | Myth-busting hook drove high intent; technical definitions mid-video caused significant audience loss. |
-| ep032 | The Universe Is Terrifying | statement, record | 1035 | 42% | 80.0% | 127% | 1 | Urgency 'monster' hook peaked retention; seamless loop worked but lacked engagement prompt. |
-| ep033 | Space Got Weird | statement, story | 691 | – | – | – | – | Strong 'ownership' hook; passive closing statement failed to convert views to likes/comments. |
-| ep035 | Near Misses | statement, myth_vs_fact | 1304 | 52% | 90.0% | 134% | 1 | High-urgency 'Level 4' hook drove top-tier velocity; engagement remains below target without prompts. |
-| ep036 | Mission Files | statement, story | 1030 | 60% | 63.7% | 118% | 1 | Titanium ball hook captured viewers; mid-video pacing needs compression to sustain engagement. |
+| 2rz-F-WZsXA | ? | –, story | 91 | – | – | – | – | Insufficient data with only 91 views and null metrics prevents evaluation of hook, pacing, or loop performance. |
+| ep002 | Mission Files | statement, story | 105 | 47% | 39.1% | 85% | 0 | Passive statement hook and slow story pacing caused low early retention and poor engagement across all medians. |
+| ep004 | Mission Files | statement, story | 1059 | 57% | 53.4% | 110% | 3 | Strong spy film hook and topic drove solid engaged share, but slower mid-to-late pacing limited rewatch potential. |
+| ep008 | The Universe Is Terrifying | statement, story | 866 | 47% | 83.6% | 130% | 5 | Exceptional mailing-drives hook maintained strong early retention, but late-stage technical explanations degraded the final loop. |
+| ep009 | Near Misses | statement, story | 244 | 43% | 60.2% | 105% | 0 | Strong initial hook interest was undercut by a complex, slow-paced mid-script setup that hurt final retention. |
+| ep013 | Scale Breaker | contradiction, story | 978 | 55% | 70.5% | 123% | 2 | Great tallest mountain hook and loop potential drove strong performance, though late explanation beats caused minor drop-off. |
+| ep017 | Mission Files | contradiction, myth_vs_fact | 1225 | 51% | 68.9% | 119% | 5 | Intriguing naming paradox hook drove strong views, but a verbatim hook repeat at the end killed comments and looping. |
+| ep024 | Near Misses | contradiction, scale_ladder | 956 | 46% | 53.5% | 104% | 1 | Excellent Tunguska trees hook drove high initial views, but a verbatim hook repetition at the end collapsed final retention. |
+| ep028 | Space Myths, Busted | statement, mystery | 1271 | 54% | 81.0% | 129% | 5 | North Star myth hook drove superb retention and subscriber growth, but a late technical wobble explanation hurt loop efficiency. |
+| ep032 | The Universe Is Terrifying | statement, record | 1038 | 42% | 80.0% | 127% | 1 | High-urgency cosmic monster hook and excellent loop pacing drove high rewatches, though a lack of discussion prompts lowered engagement. |
+| ep033 | Space Got Weird | statement, story | 698 | – | – | – | – | Strong opening statement hook successfully captured initial interest, but a flat closing treaty statement yielded zero comments. |
+| ep035 | Near Misses | statement, myth_vs_fact | 1305 | 52% | 90.0% | 134% | 1 | High-impact Level 4 Hazard hook drove outstanding retention and views, though the final beat lacked an interactive prompt. |
+| ep036 | Mission Files | statement, story | 1030 | 60% | 63.7% | 118% | 1 | Striking titanium beach ball hook secured high distribution, but steep pacing drop-offs in middle beats hurt overall average viewed. |
 
 ## Log
 
@@ -84,3 +84,4 @@ contradiction.
 - 2026-10-07: Updated learning log with latest 11 short reviews, maintaining existing proven rules and refining pacing hypotheses based on mid-video drop-offs.
 - 2026-10-08: Promoted two pacing hypotheses to rules using evidence from ep004, ep009, ep032, and ep036, and introduced an urgency hook hypothesis based on ep035.
 - 2026-10-08: Promoted urgency hooks and early-beat pacing to rules; channel medians show rising retention but stagnant comment conversion.
+- 2026-10-08: Updated learning log with performance reviews for ep008 through ep036 to refine hook, pacing, and looping rules.

@@ -31,6 +31,8 @@ unexplained, not alien.
 | 2026-10-06 | White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems — parked (ep074) | Space Got Weird | A new analysis of archival Hubble data points to the possibility of dead white dwarfs hosting second-generation planetary systems. |
 | 2026-10-06 | Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar — making (ep075) | Space Got Weird | NASA recently highlighted Madagascar's anorthosite deposits, which perfectly mimic the geological composition of the Moon's surface. |
 | 2026-10-07 | SN 1181 (1181): a zombie star that survived its own supernova and now screams through space at 16,000 kilometers per second — making (ep086) | Space Got Weird | A spectacular new image of its remnant, Pa 30, was featured as NASA's Astronomy Picture of the Day on October 7, 2026. |
+| 2026-10-08 | Aeolis Mons (2012): a Martian mountain taller than Mount Rainier that a robotic rover has been slowly climbing for over a decade — making (ep099) | Scale Breaker | NASA's Curiosity rover recently reached a major elevation milestone on the mountain, capturing new panoramas of its wind-carved cliffs. |
+| 2026-10-08 | Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo — making (ep100) | Mission Files | NASA recently released newly annotated lunar navigation training photos prepared by the Artemis II crew. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -42,6 +44,7 @@ unexplained, not alien.
 | Nov 9 | Apollo 4 (1967): the first launch of the Saturn V rocket was so loud its shockwaves shook buildings and shattered windows miles away | Scale Breaker |
 | Nov 12 | Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow | Mission Files |
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot | Mission Files |
+| Nov 28 | Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations | Mission Files |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
 | Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
 | Oct 7 | Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons — done (ep004) | Mission Files |
@@ -142,6 +145,8 @@ unexplained, not alien.
 - 16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet — dropped (ep064)
 - Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit — making (ep098)
 - Tennis racket theorem (1985): a physical law in zero gravity that causes any spinning asymmetrical object to spontaneously flip back and forth without outside force — dropped (ep082)
+- Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together
+- WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star
 
 ### Near Misses
 
@@ -159,6 +164,7 @@ unexplained, not alien.
 - 4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed — making (ep088)
 - 2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach
 - 4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange "ginger-root" shape — parked (ep080)
+- 1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space
 
 ### Space Myths, Busted
 
@@ -178,3 +184,4 @@ unexplained, not alien.
 - Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground — done (ep059)
 - Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever — making (ep093)
 - Asteroid belt (1801): despite movie scenes of ships dodging giant rocks, the average distance between asteroids in the belt is about 600,000 miles — making (ep087)
+- Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks
