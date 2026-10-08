@@ -103,7 +103,7 @@ unexplained, not alien.
 - Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there — parked (ep026)
 - IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it — done (ep079)
 - Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies — making (ep089)
-- Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail
+- Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail — making (ep105)
 - Lunar distance: every other planet in the solar system can fit in the gap between the Earth and the Moon with room to spare — dropped (ep076)
 - Boomerang Nebula (1980): the coldest place in the natural universe, colder than the background glow of the Big Bang — making (ep095)
 - El Gordo (galaxy cluster) (2012): a colossal collision of two galaxy clusters that weighs about three quadrillion times more than our Sun
@@ -124,7 +124,7 @@ unexplained, not alien.
 - Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it — done (ep084)
 - Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload — making (ep096)
 - Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled — making (ep090)
-- Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed
+- Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed — making (ep106)
 - Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down — done (ep051)
 
 ### Space Got Weird
@@ -157,7 +157,7 @@ unexplained, not alien.
 - Chelyabinsk meteor (2013): nobody saw it coming, on the same day astronomers were watching a different asteroid fly past — done (ep050)
 - July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot — done (ep072)
 - Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin — parked (ep056)
-- Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months
+- Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months — making (ep108)
 - 1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm — parked (ep044)
 - Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater — done (ep024)
 - Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years — done (ep063)
@@ -179,7 +179,7 @@ unexplained, not alien.
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close — done (ep028)
 - Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — parked (ep005)
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop — parked (ep065)
-- Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes
+- Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes — making (ep107)
 - Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun — parked (ep073)
 - Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground — done (ep059)
 - Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever — making (ep093)

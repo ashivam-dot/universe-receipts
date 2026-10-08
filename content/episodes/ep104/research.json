@@ -1,0 +1,225 @@
+{
+  "viable": true,
+  "reason": "The sources provide sufficient details to support a surprising short with multiple multi-sourced claims.",
+  "story": "Discovered in 2008, the exoplanet WASP-12b is a hot Jupiter orbiting its parent star every 1.1 days at a distance of about 2 million miles. Because it is so close, extreme tidal forces have warped the planet into an egg shape and heated its dayside to temperatures reaching thousands of degrees. This intense heat breaks apart molecules and allows the planet to absorb at least 94 percent of the starlight hitting it, making it as pitch black as fresh asphalt. Meanwhile, its atmosphere has ballooned to nearly three times the radius of Jupiter, spilling material directly onto the host star. Astronomers have observed that this doomed world is being consumed alive, with its decaying orbit leaving it only a few million years left before it is completely destroyed.",
+  "angle": "A pitch-black, light-eating exoplanet is being actively eaten alive by its parent star and has only a few million years left to live.",
+  "claims": [
+    {
+      "claim": "WASP-12b was discovered in 2008.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "WASP-12b is classified as a hot Jupiter.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The planet takes approximately 1.1 Earth days to complete one orbit around its star.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "WASP-12b is located about 2 million miles away from its star.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The planet reflects just 6 percent or less of the starlight hitting it, making it as dark as fresh asphalt.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "WASP-12b is tidally locked, maintaining a permanent dayside and nightside.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The powerful gravitational pull of the parent star has distorted WASP-12b into an egg shape.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Dayside temperatures reach extreme levels, described around 4,600 to 4,700 degrees Fahrenheit.",
+      "sources": [
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "The planet's atmosphere has ballooned to nearly three times Jupiter's radius.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Material from the planet's super-heated atmosphere is spilling onto the star.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "WASP-12b is estimated to have only a few million years left before it is completely destroyed.",
+      "sources": [
+        "S1",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The planet is located approximately 1,400 light-years from Earth.",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Exact distance estimates vary slightly across sources, with some stating 1,400 light-years and others mentioning 600 or 870 light-years; scripts should use the most widely supported figures or a general descriptor.",
+    "Exact day-side temperature estimates range between 4,000 and 4,700 degrees Fahrenheit depending on the study; scripts should use a general range."
+  ],
+  "visuals": [
+    {
+      "subject": "Hubble Space Telescope in orbit",
+      "queries": [
+        "Hubble Space Telescope in space",
+        "HST spacecraft model"
+      ]
+    },
+    {
+      "subject": "Illustration of a hot Jupiter exoplanet near its star",
+      "queries": [
+        "Hot Jupiter artist concept",
+        "Exoplanet transit illustration"
+      ]
+    },
+    {
+      "subject": "NASA artist concept of WASP-12b",
+      "queries": [
+        "WASP-12b exoplanet illustration",
+        "WASP-12b NASA art"
+      ]
+    },
+    {
+      "subject": "Diagram of stellar tidal disruption and Roche lobe overflow",
+      "queries": [
+        "Roche lobe overflow diagram",
+        "Tidal distortion star planet"
+      ]
+    },
+    {
+      "subject": "Illustration of a tidally locked exoplanet with day and night sides",
+      "queries": [
+        "Tidally locked planet illustration",
+        "Exoplanet phase simulation"
+      ]
+    },
+    {
+      "subject": "Space Telescope Imaging Spectrograph instrument",
+      "queries": [
+        "STIS instrument Hubble",
+        "Cosmic Origins Spectrograph Hubble"
+      ]
+    },
+    {
+      "subject": "Artist concept of a star consuming a planet",
+      "queries": [
+        "Star consuming planet illustration",
+        "Doomed exoplanet art"
+      ]
+    },
+    {
+      "subject": "Infrared view of space from Spitzer Space Telescope",
+      "queries": [
+        "Spitzer Space Telescope illustration",
+        "Spitzer spacecraft model"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/WASP-12b",
+      "title": "WASP-12b",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-captures-blistering-pitch-black-planet/",
+      "title": "NASA's Hubble Captures Blistering Pitch-Black Planet - NASA Science",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.scientificamerican.com/article/astronomers-discover-pitch-black-exoplanet/",
+      "title": "Astronomers Discover Pitch-Black Exoplanet",
+      "site": "scientificamerican.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.astronomy.com/science/hubble-finds-a-star-eating-a-planet/",
+      "title": "Hubble finds a star eating a planet | Astronomy.com",
+      "site": "astronomy.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://web.archive.org/web/20240404210231/https://www.nbcnews.com/id/wbna27222097",
+      "title": "Astronomers find hottest planet ever discovered",
+      "site": "nbcnews.com"
+    },
+    {
+      "label": "S6",
+      "url": "http://wasp-planets.net/wasp-planets/",
+      "title": "WASP Planets",
+      "site": "wasp-planets.net"
+    },
+    {
+      "label": "S7",
+      "url": "https://arxiv.org/abs/1911.09131",
+      "title": "The Orbit of WASP-12b is Decaying",
+      "site": "arxiv.org"
+    }
+  ],
+  "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
+  "series": "Space Got Weird"
+}

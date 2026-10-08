@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-08T23:12:03+05:30",
-  "day": 7,
+  "updated_at": "2026-10-09T05:18:14+05:30",
+  "day": 8,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4E9AD1Q96HTKCTW4KB5VA3R",
+    "id": "ta-01M4EXXJNT205S0S8Q3X32DVVR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-08T23:05:11+05:30",
-    "started_at_utc": "2026-10-08T17:35:11+00:00",
-    "seconds": 412
+    "started_at": "2026-10-09T05:05:18+05:30",
+    "started_at_utc": "2026-10-08T23:35:18+00:00",
+    "seconds": 776
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 3.8
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "26 posts",
-      "seconds": 0.8
+      "detail": "27 posts",
+      "seconds": 2.5
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep060 to 'Scale Breaker'",
-      "seconds": 2.9
+      "detail": "added ep047 to 'Space Myths, Busted'",
+      "seconds": 5.4
     },
     {
       "name": "languages",
@@ -40,115 +40,107 @@
       "name": "on youtube",
       "ok": true,
       "detail": "ep023: YouTube has no video Wmi8yfklomY",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep061 at 24 h: behind the channel's earlier Shorts at this age: 201 views against a median of 921 (0.2x); learnings: Promoted the active-mystery hook hypothesis to a rule after ep061's passive opening failed where ep002 previously struggled.",
-      "seconds": 307.7
+      "detail": "ep017 at 72 h: ahead of the channel's earlier Shorts at this age: 1249 views against a median of 979 (1.3x); ep030 at 24 h: ahead of the channel's earlier Shorts at this age: 1081 views against a median of 829 (1.3x); ep060 at 6 h: level with the channel's earlier Shorts at this age: 708 views against a median of 774 (0.9x); learnings: Reviewed recent Shorts and updated rules for pacing and hook structures to address late-video retention drops.",
+      "seconds": 709.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep075 rejected (low scores: payoff, loop); ep078 ready; ep079 ready; ep085 rejected (low scores: visuals); ep086 ready; ep087 ready; ep088 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep089 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep090 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gem",
-      "seconds": 69.0
+      "detail": "ep101 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep102 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep103 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
+      "seconds": 22.6
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "preflight ep046",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
-    },
-    {
-      "name": "preflight ep047",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 1.3
     },
     {
       "name": "preflight ep049",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.9
     },
     {
       "name": "preflight ep052",
       "ok": true,
-      "detail": "video downloads whole (17 MB in 0 s)",
-      "seconds": 0.7
+      "detail": "video still hosted",
+      "seconds": 0.9
+    },
+    {
+      "name": "preflight ep086",
+      "ok": true,
+      "detail": "video downloads whole (16 MB in 2 s)",
+      "seconds": 2.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.5
+      "seconds": 3.5
     },
     {
-      "name": "schedule ep086",
+      "name": "schedule ep045",
       "ok": true,
-      "detail": "2026-10-09T12:30:00-04:00",
-      "seconds": 1.4
+      "detail": "2026-10-12T21:30:00-04:00",
+      "seconds": 1.9
     },
     {
-      "name": "start ep101",
+      "name": "start ep105",
       "ok": true,
-      "detail": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
+      "detail": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
+      "seconds": 3.8
+    },
+    {
+      "name": "start ep106",
+      "ok": true,
+      "detail": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
+      "seconds": 1.5
+    },
+    {
+      "name": "start ep107",
+      "ok": true,
+      "detail": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
+      "seconds": 1.5
+    },
+    {
+      "name": "start ep108",
+      "ok": true,
+      "detail": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
+      "seconds": 3.7
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
       "seconds": 1.1
-    },
-    {
-      "name": "start ep102",
-      "ok": true,
-      "detail": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep103",
-      "ok": true,
-      "detail": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep104",
-      "ok": true,
-      "detail": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
-      "seconds": 1.0
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 1.4
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep088 stopped on Gemini's free quota; it resumes in a later run",
-    "ep089 stopped on Gemini's free quota; it resumes in a later run",
-    "ep090 stopped on Gemini's free quota; it resumes in a later run",
-    "ep091 stopped on Gemini's free quota; it resumes in a later run",
-    "ep092 stopped on Gemini's free quota; it resumes in a later run",
-    "ep093 stopped on Gemini's free quota; it resumes in a later run",
-    "ep094 stopped on Gemini's free quota; it resumes in a later run",
-    "ep095 stopped on Gemini's free quota; it resumes in a later run",
-    "ep096 stopped on Gemini's free quota; it resumes in a later run",
-    "ep098 stopped on Gemini's free quota; it resumes in a later run",
-    "ep099 stopped on Gemini's free quota; it resumes in a later run",
-    "ep100 stopped on Gemini's free quota; it resumes in a later run",
+    "ep101 stopped on Gemini's free quota; it resumes in a later run",
+    "ep102 stopped on Gemini's free quota; it resumes in a later run",
+    "ep103 stopped on Gemini's free quota; it resumes in a later run",
+    "ep104 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 12 waiting"
+    "Buffer is full (10 queued); 11 waiting"
   ],
   "inventory": {
-    "total": 22,
+    "total": 21,
     "in_buffer": 10,
-    "waiting": 12,
+    "waiting": 11,
     "target": 42,
     "making": [
       "ep088",
@@ -162,21 +154,20 @@
       "ep096",
       "ep098",
       "ep099",
-      "ep100"
-    ],
-    "remote": [
+      "ep100",
       "ep101",
       "ep102",
       "ep103",
       "ep104"
+    ],
+    "remote": [
+      "ep105",
+      "ep106",
+      "ep107",
+      "ep108"
     ]
   },
   "queue": [
-    {
-      "id": "ep047",
-      "title": "The Myth of the Moon's Dark Side",
-      "due_at": "2026-10-08T19:00:00-04:00"
-    },
     {
       "id": "ep046",
       "title": "The Cosmic Flashes Found by Cold War Satellites",
@@ -221,15 +212,14 @@
       "id": "ep048",
       "title": "The Colossal Cosmic Drain Pulling Our Galaxy",
       "due_at": "2026-10-12T19:00:00-04:00"
-    }
-  ],
-  "waiting": [
+    },
     {
       "id": "ep045",
       "title": "Why NASA Killed a $3B Spacecraft",
-      "series": "Mission Files",
-      "score": 20
-    },
+      "due_at": "2026-10-12T21:30:00-04:00"
+    }
+  ],
+  "waiting": [
     {
       "id": "ep051",
       "title": "The NASA Mission That Fell from the Sky",
@@ -299,179 +289,33 @@
   ],
   "made": [
     {
-      "id": "ep075",
-      "outcome": "rejected",
-      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
-      "reason": "low scores: payoff, loop"
-    },
-    {
-      "id": "ep078",
-      "outcome": "ready",
-      "topic": "False vacuum decay: a hypothetical cosmic catastrophe where a bubble of true vacuum could expand at the speed of light, rewriting the laws of physics and erasing our universe instantly",
-      "title": "The Bubble That Could Erase the Universe",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791459806/universereceipts/ep078-61eaeeed.mp4"
-    },
-    {
-      "id": "ep079",
-      "outcome": "ready",
-      "topic": "IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it",
-      "title": "The Cosmic Colossus That Baffles Astronomers",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791460052/universereceipts/ep079-5c326d21.mp4"
-    },
-    {
-      "id": "ep085",
-      "outcome": "rejected",
-      "topic": "R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep086",
-      "outcome": "ready",
-      "topic": "SN 1181 (1181): a zombie star that survived its own supernova and now screams through space at 16,000 kilometers per second",
-      "title": "The Star That Survived Its Own Supernova",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791460039/universereceipts/ep086-e31fe4d7.mp4"
-    },
-    {
-      "id": "ep087",
-      "outcome": "ready",
-      "topic": "Asteroid belt (1801): despite movie scenes of ships dodging giant rocks, the average distance between asteroids in the belt is about 600,000 miles",
-      "title": "The Lonely Reality of the Asteroid Belt",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791459963/universereceipts/ep087-e39bf677.mp4"
-    },
-    {
-      "id": "ep088",
+      "id": "ep101",
       "outcome": "unfinished",
-      "topic": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
+      "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep089",
+      "id": "ep102",
       "outcome": "unfinished",
-      "topic": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
+      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep090",
+      "id": "ep103",
       "outcome": "unfinished",
-      "topic": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
+      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep091",
+      "id": "ep104",
       "outcome": "unfinished",
-      "topic": "Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep092",
-      "outcome": "unfinished",
-      "topic": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep093",
-      "outcome": "unfinished",
-      "topic": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep094",
-      "outcome": "unfinished",
-      "topic": "2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep095",
-      "outcome": "unfinished",
-      "topic": "Boomerang Nebula (1980): the coldest place in the natural universe, colder than the background glow of the Big Bang",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep096",
-      "outcome": "unfinished",
-      "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep097",
-      "outcome": "ready",
-      "topic": "Hypervelocity star (2005): stars being flung out of the Milky Way at millions of miles per hour, doomed to wander intergalactic space alone",
-      "title": "The Star Escaping Our Galaxy at 4 Million MPH",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791460087/universereceipts/ep097-28e5a14c.mp4"
-    },
-    {
-      "id": "ep098",
-      "outcome": "unfinished",
-      "topic": "Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep099",
-      "outcome": "unfinished",
-      "topic": "Aeolis Mons (2012): a Martian mountain taller than Mount Rainier that a robotic rover has been slowly climbing for over a decade",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep100",
-      "outcome": "unfinished",
-      "topic": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
+      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -479,56 +323,56 @@
   ],
   "spawned": [
     {
-      "id": "ep101",
-      "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
-      "call_id": "fc-01M4E9Q22JV28YHECKT792N2WW"
+      "id": "ep105",
+      "topic": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
+      "call_id": "fc-01M4EYNF2CZ70HH1GGBADQ6A80"
     },
     {
-      "id": "ep102",
-      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
-      "call_id": "fc-01M4E9Q2YTK08Z935CA39S13MC"
+      "id": "ep106",
+      "topic": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
+      "call_id": "fc-01M4EYNGHYTY9CP44B1ERQ7C0V"
     },
     {
-      "id": "ep103",
-      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
-      "call_id": "fc-01M4E9Q3W05R5DQBBMY4A6A6RW"
+      "id": "ep107",
+      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
+      "call_id": "fc-01M4EYNJ1VFDB5SPJ73S8XKK35"
     },
     {
-      "id": "ep104",
-      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
-      "call_id": "fc-01M4E9Q4WG7WABE16YJYN362KB"
+      "id": "ep108",
+      "topic": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
+      "call_id": "fc-01M4EYNNMF3BZ61BDHW4PN9KEG"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep101",
-      "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
-      "spawned_at": "2026-10-08T23:11:57+05:30"
+      "id": "ep105",
+      "topic": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
+      "spawned_at": "2026-10-09T05:18:05+05:30"
     },
     {
-      "id": "ep102",
-      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
-      "spawned_at": "2026-10-08T23:11:58+05:30"
+      "id": "ep106",
+      "topic": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
+      "spawned_at": "2026-10-09T05:18:07+05:30"
     },
     {
-      "id": "ep103",
-      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
-      "spawned_at": "2026-10-08T23:11:59+05:30"
+      "id": "ep107",
+      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
+      "spawned_at": "2026-10-09T05:18:08+05:30"
     },
     {
-      "id": "ep104",
-      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
-      "spawned_at": "2026-10-08T23:12:00+05:30"
+      "id": "ep108",
+      "topic": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
+      "spawned_at": "2026-10-09T05:18:12+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep086",
-      "title": "The Star That Survived Its Own Supernova",
-      "due_at": "2026-10-09T12:30:00-04:00"
+      "id": "ep045",
+      "title": "Why NASA Killed a $3B Spacecraft",
+      "due_at": "2026-10-12T21:30:00-04:00"
     }
   ],
-  "live": 17,
+  "live": 18,
   "failed_posts": [],
   "not_live": [
     {
@@ -537,39 +381,42 @@
     }
   ],
   "llm": {
-    "calls": 82,
+    "calls": 20,
     "by_model": {
-      "gemini-3.5-flash": 25,
-      "gemini-3-flash-preview": 20,
-      "gemini-3.8-flash": 5,
-      "gemini-3.7-flash": 6,
-      "gemini-3.5-flash-lite": 26
+      "gemini-3.5-flash": 3,
+      "gemini-3-flash-preview": 3,
+      "gemini-3.5-flash-lite": 11,
+      "gemini-3.6-flash": 1,
+      "gemini-3.1-flash-lite": 2
     },
     "out_of_quota": [
+      "gemini-3-flash-preview",
       "gemini-3.5-flash",
+      "gemini-3.6-flash",
       "gemini-3.7-flash",
-      "gemini-3.8-flash"
+      "gemini-3.8-flash",
+      "gemini-flash-latest"
     ]
   },
   "renders": {
-    "modal": 41,
+    "modal": 4,
     "runner": 0
   },
   "daily_done": "2026-10-08",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 10.57,
+    "metered": 10.75,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 145,
+    "cloud": 143,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 17.43
+    "modal_credit_left": 17.25
   },
   "made_here": 0,
-  "open_topics": 35,
+  "open_topics": 31,
   "parked_topics": 36
 }

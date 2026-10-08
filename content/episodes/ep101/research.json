@@ -1,0 +1,256 @@
+{
+  "viable": true,
+  "reason": "The sources provide over 10 cross-verified claims detailing Halley's Comet science, historical panic, and spacecraft discoveries.",
+  "story": "In 1910, humanity panicked over Halley's Comet. Spectroscopic analysis revealed cyanogen—a toxic gas—in the comet's tail. Despite astronomers reassuring the public that the gas posed no danger, sensationalized media reports triggered widespread terror. People caulked windows, bought gas masks, and purchased quack 'anti-comet pills' made of sugar and quinine. Author Mark Twain, born during the comet's 1835 visit, famously predicted he would go out with it, dying right as it passed perihelion. Centuries earlier, people viewed Halley as a terrifying omen of death, like King Harold in 1066 before losing at Hastings. But modern space probes like ESA's Giotto proved Halley is simply a dark, peanut-shaped ball of ancient ice, dust, and rock. Reflecting just four percent of light, this famous traveler is blacker than coal, orbiting backwards through our solar system every 75 to 79 years until its expected return in 2061.",
+  "angle": "In 1910, fear that Halley's Comet would poison Earth's atmosphere with cyanogen gas drove terrified people to buy gas masks and quack 'anti-comet pills'.",
+  "claims": [
+    {
+      "claim": "Halley's Comet is a short-period comet that completes an orbit in under 200 years, typically varying between 74 and 79 years.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Edmond Halley applied Isaac Newton's laws of gravity to comet orbital data to predict that Halley's Comet would return in 1758.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Halley's predicted 1758 return was first observed on December 25, 1758, by German amateur astronomer Johann Georg Palitzsch.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In 1577, Tycho Brahe used parallax measurements to demonstrate that comets lie beyond the Moon, disproving Aristotle's theory that comets were atmospheric phenomena.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Halley's Comet orbits the Sun in a retrograde direction, moving opposite to the orbital direction of the planets.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Halley's Comet is the parent body for two annual meteor showers: the Eta Aquariids in May and the Orionids in October.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Halley's Comet has been documented in historical records since at least 240 BC, including early observations recorded in ancient Chinese chronicles.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "During its 1066 appearance, Halley's Comet was interpreted as an omen before the Battle of Hastings and was embroidered onto the Bayeux Tapestry.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In 1910, the detection of toxic cyanogen gas in a comet tail caused public fear, leading people to buy gas masks and quack anti-comet pills.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Writer Mark Twain was born in 1835 during a Halley's Comet appearance, predicted he would die upon its return, and passed away in April 1910 around its perihelion.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "The European Space Agency's Giotto probe made a close flyby of Halley's Comet in 1986, capturing images of its nucleus.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Halley's nucleus is pitch black, reflecting only about 4 percent of sunlight (an albedo of 0.04), making it blacker than coal.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Halley's nucleus is an irregularly shaped body, often described as avocado- or peanut-shaped, measuring roughly 15 kilometers in length.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Ejected gases from Halley's nucleus consist predominantly of roughly 80 percent water vapor and 10 to 17 percent carbon monoxide.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Following its 1986 passage, Halley's Comet will next return to the inner solar system in 2061 or 2062.",
+      "sources": [
+        "S1",
+        "S4",
+        "S6"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "disputed": [
+    "Whether Earth actually passed through Halley's comet tail in 1910: Wikipedia [S1] notes Earth passed through the tail on May 19, 1910, while Astronomy.com [S5] states later calculations showed the tail missed Earth by at least 400,000 km. Scripts should attribute or leave out exact contact.",
+    "Mark Twain's exact death date relative to Halley's 1910 passage: Wikipedia [S1] gives April 21, 1910 (the day after perihelion), whereas Smithsonian Libraries [S7] gives April 20, 1910 (one day after brushing Earth). Scripts should simply state he died in April 1910 as the comet passed.",
+    "Halley's next perihelion return year: Wikipedia [S1] and Universe Today [S6] state 2061, while ESO [S4] gives 2062. Scripts should state 2061 or around 2061.",
+    "Excommunication legend of 1456: Later stories claimed Pope Callixtus III excommunicated the comet, but Wikipedia [S1] clarifies this was an 18th-century embellishment. Leave out or label as myth."
+  ],
+  "visuals": [
+    {
+      "subject": "Halley's Comet nucleus photographed by Giotto",
+      "queries": [
+        "Giotto comet Halley nucleus",
+        "Halley nucleus ESA Giotto"
+      ]
+    },
+    {
+      "subject": "Giotto spacecraft",
+      "queries": [
+        "ESA Giotto spacecraft model",
+        "Giotto probe comet Halley"
+      ]
+    },
+    {
+      "subject": "Bayeux Tapestry depicting Halley's Comet in 1066",
+      "queries": [
+        "Bayeux Tapestry comet Halley",
+        "Bayeux Tapestry Isti Mirant Stella"
+      ]
+    },
+    {
+      "subject": "Edmond Halley portrait",
+      "queries": [
+        "Edmond Halley portrait Godfrey Kneller",
+        "Edmond Halley painting"
+      ]
+    },
+    {
+      "subject": "Mark Twain portrait",
+      "queries": [
+        "Mark Twain portrait 1907",
+        "Mark Twain photo 1909"
+      ]
+    },
+    {
+      "subject": "Very Large Telescope at Paranal Observatory",
+      "queries": [
+        "Very Large Telescope Paranal night",
+        "ESO Very Large Telescope aerial"
+      ]
+    },
+    {
+      "subject": "Johann Georg Palitzsch",
+      "queries": [
+        "Johann Georg Palitzsch portrait",
+        "Johann Georg Palitzsch engraving"
+      ]
+    },
+    {
+      "subject": "Illustration of Tycho Brahe observing the Great Comet of 1577",
+      "queries": [
+        "Tycho Brahe comet 1577 illustration",
+        "Tycho Brahe quadrant observation illustration"
+      ]
+    },
+    {
+      "subject": "Giotto di Bondone Arena Chapel fresco showing Star of Bethlehem",
+      "queries": [
+        "Giotto Adoration of the Magi Arena Chapel",
+        "Giotto Scrovegni Chapel comet"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
+      "title": "Halley's Comet",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://web.archive.org/web/20150427033624/http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=1P;orb=0;cov=0;log=0;cad=1",
+      "title": "JPL Small-Body Database Browser",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "http://sci.esa.int/science-e/www/object/index.cfm?fobjectid=31878",
+      "title": "Halley - Giotto - Science Portal",
+      "site": "esa.int"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.eso.org/public/news/eso0328/",
+      "title": "New Image of Comet Halley in the Cold - VLT Observes Famous Traveller at Record Distance",
+      "site": "eso.org"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.astronomy.com/science/halleys-comet-covid-19-and-the-history-of-miracle-anti-comet-remedies/",
+      "title": "Halley's Comet, Covid-19, and the history of 'miracle' anti-comet remedies",
+      "site": "astronomy.com"
+    },
+    {
+      "label": "S6",
+      "url": "http://www.universetoday.com/48991/halleys-comet/",
+      "title": "What is Halley's Comet?",
+      "site": "universetoday.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://web.archive.org/web/20100611141141/http://smithsonianlibraries.si.edu/smithsonianlibraries/2009/11/mark-twains-birthday.html",
+      "title": "Smithsonian Libraries",
+      "site": "si.edu"
+    }
+  ],
+  "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
+  "series": "Space Myths, Busted"
+}
