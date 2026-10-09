@@ -1,0 +1,162 @@
+id: ep111
+title: The Megastructure That Breaks Physics
+series: Scale Breaker
+description: Astronomers discovered a galaxy crescent so large that gravity shouldn't have had time to build it.
+sources:
+- https://en.wikipedia.org/wiki/Giant_Arc
+- https://www.bbc.com/future/article/20230302-the-giant-arcs-that-may-dwarf-everything-in-the-cosmos
+- https://www.theguardian.com/science/2024/jan/11/newly-discovered-cosmic-megastructure-challenges-theories-of-the-universe
+- https://www.sci.news/astronomy/giant-arc-09768.html
+hashtags:
+- '#space'
+- '#astronomy'
+- '#cosmology'
+tags:
+- Giant Arc
+- Alexia Lopez
+- galaxies
+- Big Bang
+- Sloan Digital Sky Survey
+- megastructure
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: A structure three billion light-years long should not exist.
+  emphasis:
+  - three billion
+  - not exist
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/SDSS2020.png/1280px-SDSS2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: SDSS2020.png
+      credit: Sloan Digital Sky Survey
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:SDSS2020.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: In 2021, student Alexia Lopez was mapping distant light in the constellation Boötes.
+  emphasis:
+  - Alexia Lopez
+  - Boötes
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f3/Johann_Bayer_-_Bootes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Johann Bayer - Bootes.jpg
+      credit: Johann Bayer
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Johann_Bayer_-_Bootes.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '2021'
+      small: Boötes
+- text: She analyzed magnesium two absorption lines, using ultra-bright quasars as giant lamps to illuminate hidden matter.
+  emphasis:
+  - magnesium two
+  - giant lamps
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/21/QuasarStarburst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: QuasarStarburst.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:QuasarStarburst.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Using the Sloan Digital Sky Survey, Lopez found a colossal crescent of galaxies stretching 3.3 billion light-years
+    across.
+  emphasis:
+  - 3.3 billion
+  - crescent
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/3b/Region_around_the_cluster_MACS_J0717_5%2B3745_%28geminiann04007b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Region around the cluster MACS J0717 5+3745 (geminiann04007b).jpg
+      credit: International Gemini Observatory/NOIRLab/NSF/AURA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Region_around_the_cluster_MACS_J0717_5%2B3745_(geminiann04007b).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 3.3 Billion LY
+      small: The Giant Arc
+- text: This Giant Arc is so massive it spans one-fifteenth the radius of the entire observable universe.
+  emphasis:
+  - one-fifteenth
+  - observable universe
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 1/15th
+      small: Observable Universe
+    motion: zoom_in
+- text: Standard cosmology says gravity cannot form structures larger than 1.2 billion light-years.
+  emphasis:
+  - gravity cannot
+  - 1.2 billion
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 1.2 Billion LY
+      small: Theoretical Limit
+    motion: zoom_in
+- text: There simply hasn't been enough time since the Big Bang for something this big to clump together.
+  emphasis:
+  - Big Bang
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/6f/CMB_Timeline300_no_WMAP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: CMB Timeline300 no WMAP.jpg
+      credit: NASA/WMAP Science Team
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:CMB_Timeline300_no_WMAP.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This gargantuan galaxy cluster suggests that our basic understanding of the universe is actually broken.
+  emphasis:
+  - actually broken
+  - basic understanding
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: BREAKING THE LIMIT
