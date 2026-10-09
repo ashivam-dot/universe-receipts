@@ -1,0 +1,154 @@
+id: ep117
+title: The Galaxy With a Missing Heart
+series: The Universe Is Terrifying
+description: Astronomers expected one of the largest supermassive black holes in the universe to be lurking inside galaxy
+  A2261-BCG, but they found an empty cosmic ghost town.
+sources:
+- https://www.space.com/abell-2261-supermassive-black-hole-missing
+- https://chandra.harvard.edu/blog/node/777
+- https://www.sciencealert.com/somehow-a-colossal-supermassive-black-hole-is-missing-in-action
+- https://www.zmescience.com/science/supermassive-black-hole-missing-90423432/
+- https://science.nasa.gov/missions/hubble/monster-galaxy-may-have-been-stirred-up-by-black-hole-mischief/
+- https://esahubble.org/news/heic1216/
+- https://en.wikipedia.org/wiki/Abell_2261
+hashtags:
+- '#space'
+- '#blackhole'
+- '#nasa'
+tags:
+- abell 2261
+- a2261-bcg
+- missing black hole
+- gravitational waves
+- chandra
+- hubble
+- astronomy
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: One of the universe's largest black holes has mysteriously vanished.
+  emphasis:
+  - mysteriously vanished
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Lonely_Black_Hole_Relic_Shines_Light_on_Young_Universe_%28gemini1603b%29.tiff/lossy-page1-960px-Lonely_Black_Hole_Relic_Shines_Light_on_Young_Universe_%28gemini1603b%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Lonely Black Hole Relic Shines Light on Young Universe (gemini1603b).tiff
+      credit: 'Simulation Credit: NASA, ESA, and D. Coe, J. Anderson, and R. van der Marel (Space Telescope Science Institute)
+        Acknowledgment for Omega Centauri Image: NASA, ESA, and the Hubble SM4 ERO Team Science '
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Lonely_Black_Hole_Relic_Shines_Light_on_Young_Universe_(gemini1603b).tiff
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: At the center of galaxy A2261-BCG, astronomers expected a monster up to 100 billion times the mass of our Sun.
+  emphasis:
+  - 100 billion times
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/36/Galaxy_Cluster_Abell_2261.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Galaxy Cluster Abell 2261.jpg
+      credit: NASA, HST
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Galaxy_Cluster_Abell_2261.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.47
+    focus_y: 0.41
+    card:
+      kind: fact
+      big: 100 BILLION
+      small: solar masses expected
+- text: Instead, Hubble observations showed a bloated core measuring 10,000 light-years across with no concentrated peak of
+    starlight.
+  emphasis:
+  - bloated core
+  - no concentrated peak
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 10,000
+      small: light-year bloated core
+    motion: zoom_in
+- text: Deep Chandra X-ray searches from 1999 and 2004 detected no signs of superheated material falling into a central black
+    hole.
+  emphasis:
+  - no signs
+  - falling into
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: 1999 - 2004
+      small: Chandra X-ray searches
+    motion: zoom_in
+- text: In 2018, a team led by Kayhan Gultekin of the University of Michigan tried again but also failed to find anything.
+  emphasis:
+  - failed to find
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/AngellHall2010.JPG/3840px-AngellHall2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AngellHall2010.JPG
+      credit: AndrewHorne
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:AngellHall2010.JPG
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '2018'
+      small: Michigan deep search
+- text: The leading theory is that asymmetric gravitational waves from a giant cosmic merger kicked the black hole completely
+    out of the galaxy.
+  emphasis:
+  - gravitational waves
+  - completely out
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/12/When_Black_Holes_Collide.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: When Black Holes Collide.jpg
+      credit: NASA Blueshift
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:When_Black_Holes_Collide.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: GRAVITY WAVES
+      small: asymmetric recoil theory
+- text: Today, astronomers are still searching deep space to find this invisible, runaway giant.
+  emphasis:
+  - searching deep space
+  - runaway giant
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: 100 BILLION SUNS MISSING

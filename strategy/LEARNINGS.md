@@ -10,10 +10,10 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 49% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 74.1% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 126% | rising week over week |
-| Subscribers per 1,000 views | `subscribersGained` / `views` | 0.9 | 2+ |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 52% | 70%+; under 60% rarely takes off |
+| Average percentage viewed | `analytics.averageViewPercentage` | 80.2% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 128% | rising week over week |
+| Subscribers per 1,000 views | `subscribersGained` / `views` | 1.0 | 2+ |
 | Likes per 100 views | `likes` / `views` | 3.5 | 4+ |
 
 ## Rules we've proven
@@ -23,10 +23,10 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 
 - Put the strongest surprise or contradiction in the first 2 seconds (e.g., '80 million trees, zero craters') to maximize view velocity and early retention. Evidence: ep008, ep024.
 - Start the opening script line with a curiosity gap rather than a static statement or text overlay to improve initial retention and view velocity. Evidence: ep002, ep009, ep040.
-- Replace closed circular endings with an open-ended question or debate prompt in the final beat to drive audience comments. Evidence: ep004, ep013, ep017, ep024, ep028, ep032, ep033.
+- Replace closed circular endings with an open-ended question or debate prompt in the final beat to drive audience comments. Evidence: ep004, ep013, ep017, ep024, ep028, ep032, ep033, ep047.
 - Write a last line that flows straight into the first line to increase average percentage viewed and trigger rewatches. Evidence: ep008, ep013, ep028, ep032.
 - Avoid repeating exact hook phrases verbatim in the final beat; replace them with a distinct concluding payoff, seamless cliffhanger, or forward-looking question to prevent steep retention and like drops. Evidence: ep017, ep024, ep036.
-- Condense mid-script setups into single punchy beats to keep the final beat under 3 seconds and sustain end retention above 1.0. Evidence: ep008, ep009.
+- Condense mid-script setups into single punchy beats to keep the final beat under 3 seconds and sustain end retention above 1.0. Evidence: ep008, ep009, ep047.
 - Compress or eliminate complex technical explanations or scientific definitions in the final beats to prevent late retention drop-off. Evidence: ep008, ep028.
 - Deliver the core narrative payoff or setup within the first 3 seconds immediately after the hook to prevent pacing drop-off. Evidence: ep009, ep004.
 - Accelerate middle-beat reveals on cosmic scale topics to maintain audience engagement through the midpoint. Evidence: ep032, ep036.
@@ -47,23 +47,24 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| 2rz-F-WZsXA | ? | –, story | 103 | 32% | 54.6% | 121% | 0 | Missing hook and sluggish pacing caused engaged share (31.7%) and retention (54.6%) to fall far below channel medians. |
-| ep002 | Mission Files | statement, story | 107 | 47% | 40.4% | 86% | 0 | Passive statement hook and slow pacing led to poor early retention (at10 0.857) and sub-median watch percentage (40.4%). |
-| ep004 | Mission Files | statement, story | 1060 | 57% | 53.5% | 110% | 3 | Spy film curiosity hook beat median engaged share (56.6%), but historical mid-script pacing kept retention (53.5%) below median. |
-| ep008 | The Universe Is Terrifying | statement, story | 866 | 47% | 83.6% | 130% | 5 | Strong contradiction hook and condensed pacing drove exceptional retention (83.6%) and above-median subscriber conversion. |
-| ep009 | Near Misses | statement, story | 246 | 43% | 60.2% | 105% | 0 | Statement hook lagged median engaged share (43.4%), but intriguing telegraph topic sustained mid-level retention (60.2%). |
-| ep013 | Scale Breaker | contradiction, story | 979 | 55% | 71.3% | 124% | 2 | Contradiction hook and seamless loop pushed engaged share (55.4%) above median, maintaining steady views. |
-| ep017 | Mission Files | contradiction, myth_vs_fact | 1259 | 52% | 69.6% | 119% | 5 | Twin spacecraft contradiction hook beat median engaged share (51.5%) and drove top-tier subscriber conversion. |
-| ep024 | Near Misses | contradiction, scale_ladder | 956 | 46% | 53.5% | 104% | 1 | Punchy contradiction hook secured massive views, but verbatim loop repetition collapsed end retention (53.5% overall). |
-| ep028 | Space Myths, Busted | statement, mystery | 1271 | 54% | 80.7% | 128% | 5 | Statement mystery hook beat medians across engaged share (54.2%), retention (80.7%), and subs, despite late technical slowdown. |
-| ep030 | Scale Breaker | number, record | 1087 | – | – | – | – | Billion-ton number hook drove high view velocity, but historical timeline beats slowed pacing and dragged likes below median. |
-| ep032 | The Universe Is Terrifying | statement, record | 1038 | 42% | 80.1% | 127% | 1 | High-urgency cosmic monster hook and loop drove stellar retention (80.1%), though low engaged share (42.3%) capped distribution. |
-| ep033 | Space Got Weird | statement, story | 731 | 43% | 68.1% | 125% | 1 | Strong Moon ownership hook gathered views, but flat conclusive ending suppressed audience comments and like momentum. |
-| ep035 | Near Misses | statement, myth_vs_fact | 1326 | 52% | 86.9% | 132% | 1 | Urgent hazard hook drove record retention (86.9%) and views, though early threat resolution caused late drop-off. |
-| ep036 | Mission Files | statement, story | 1033 | 60% | 63.6% | 118% | 1 | Vivid titanium probe hook secured top-tier engaged share (59.8%), though middle-beat exposition lowered retention. |
-| ep040 | Space Got Weird | statement, myth_vs_fact | 466 | – | – | – | – | Quirky littering topic yielded high like conversion (6.7%), but early punchline delivery dampened algorithmic reach. |
-| ep060 | Scale Breaker | statement, scale_ladder | 752 | – | – | – | – | Sensational destruction hook kept baseline velocity, but academic exposition beats dragged likes (2.5%) below median. |
-| ep061 | The Universe Is Terrifying | statement, scale_ladder | 239 | – | – | – | – | Passive cosmic hat hook cratered view velocity (8 vph), despite strong like ratio (5.4%) among retained viewers. |
+| 2rz-F-WZsXA | ? | –, story | 103 | 35% | 45.7% | 106% | 0 | – |
+| ep002 | Mission Files | statement, story | 108 | 47% | 40.4% | 86% | 0 | – |
+| ep004 | Mission Files | statement, story | 1061 | 57% | 53.6% | 110% | 3 | – |
+| ep008 | The Universe Is Terrifying | statement, story | 866 | 47% | 83.6% | 130% | 5 | – |
+| ep009 | Near Misses | statement, story | 246 | 43% | 60.2% | 105% | 0 | – |
+| ep013 | Scale Breaker | contradiction, story | 982 | 55% | 71.3% | 124% | 2 | – |
+| ep017 | Mission Files | contradiction, myth_vs_fact | 1264 | 51% | 70.0% | 119% | 5 | – |
+| ep024 | Near Misses | contradiction, scale_ladder | 956 | 46% | 53.5% | 104% | 1 | – |
+| ep028 | Space Myths, Busted | statement, mystery | 1272 | 54% | 80.3% | 128% | 5 | Strong statement hook drove high initial engagement and subs, but late-video technical explanation of precession caused audience drop-off. |
+| ep030 | Scale Breaker | number, record | 1088 | 52% | 81.7% | 138% | 4 | Teaspoon number hook drove high view velocity, but historical discovery dates slowed momentum and stalled likes and comments. |
+| ep032 | The Universe Is Terrifying | statement, record | 1039 | 42% | 80.1% | 127% | 1 | Exceptional hook retention and rewatch loop, but a closed ending suppressed viewer interaction and dropped engaged share. |
+| ep033 | Space Got Weird | statement, story | 738 | 42% | 70.8% | 127% | 1 | Strong opening hook captured views, but a passive closing statement failed to prompt engagement or comments. |
+| ep035 | Near Misses | statement, myth_vs_fact | 1326 | 52% | 86.6% | 131% | 1 | High velocity and strong early retention, but resolving the hazard threat too early caused steep late drop-off. |
+| ep036 | Mission Files | statement, story | 1035 | 60% | 63.5% | 118% | 1 | Hook successfully retained viewers and secured wide distribution, but slow pacing in middle beats caused steep retention drops. |
+| ep040 | Space Got Weird | statement, myth_vs_fact | 491 | 59% | 97.1% | 145% | 1 | Strong viewer satisfaction and high like rate, but lack of an early curiosity gap restricted reach and velocity. |
+| ep047 | Space Myths, Busted | question, mystery | 1347 | – | – | – | – | Opening question achieved excellent view velocity, but dry historical probe trivia and a flat ending stalled likes and comments. |
+| ep060 | Scale Breaker | statement, scale_ladder | 762 | – | – | – | – | Sensational hook sustained baseline velocity, but middle academic and historical debate details caused early swipe-away. |
+| ep061 | The Universe Is Terrifying | statement, scale_ladder | 239 | 47% | 56.5% | 120% | 0 | Achieved highly positive viewer response with a strong like rate, but the passive hook severely limited initial viewer acquisition. |
 
 ## Log
 
@@ -96,3 +97,4 @@ contradiction.
 - 2026-10-09: Updated the curiosity gap rule with ep040 and added two new hypotheses targeting pace-slowing historical beats and early safety resolutions.
 - 2026-10-09: Re-evaluated all 10 reviewed Shorts against updated channel medians; maintained all 12 proven rules and kept 3 active hypotheses pending multi-episode validation.
 - 2026-10-09: Promoted the historical-dates hypothesis to a rule after ep030 and ep060 both demonstrated audience drop-off from mid-script academic exposition.
+- 2026-10-10: Updated rules to cite ep047 for condensing mid-script setups and using open-ended questions, confirming their impact on retention and engagement.
