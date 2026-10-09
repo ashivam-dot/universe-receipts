@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-09T17:09:22+05:30",
+  "updated_at": "2026-10-09T23:07:51+05:30",
   "day": 8,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4G73YVP5A74ZHPDBE5SDY4R",
+    "id": "ta-01M4GVQ5C57E26JJ03KQ2C3Q1R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-09T17:05:10+05:30",
-    "started_at_utc": "2026-10-09T11:35:10+00:00",
-    "seconds": 251
+    "started_at": "2026-10-09T23:05:11+05:30",
+    "started_at_utc": "2026-10-09T17:35:11+00:00",
+    "seconds": 160
   },
   "stages": [
     {
@@ -22,19 +22,19 @@
       "name": "sync",
       "ok": true,
       "detail": "29 posts",
-      "seconds": 0.3
+      "seconds": 0.9
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 1.9
+      "detail": "added ep086 to 'Space Got Weird'",
+      "seconds": 2.3
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -45,50 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep046 at 6 h: behind the channel's earlier Shorts at this age: 348 views against a median of 774 (0.4x)",
-      "seconds": 1.4
+      "detail": "ep060 at 24 h: level with the channel's earlier Shorts at this age: 750 views against a median of 829 (0.9x); learnings: Promoted the historical-dates hypothesis to a rule after ep030 and ep060 both demonstrated audience drop-off from mid-script academic exposition.",
+      "seconds": 78.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep109 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep110 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep111 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
-      "seconds": 9.4
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "36 subscribers",
-      "seconds": 5.0
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Re-evaluated all 10 reviewed Shorts against updated channel medians; maintained all 12 proven rules and kept 3 active hypotheses pending multi-episode validation.",
-      "seconds": 88.3
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 33.8
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 71.7
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-008.md",
-      "seconds": 1.3
+      "detail": "ep088 rejected (low scores: visuals; 2 frame problems); ep089 rejected (low scores: visuals); ep090 rejected (low scores: visuals); ep091 rejected (low scores: visuals); ep092 rejected (low scores: visuals); ep093 rejected (low scores: visuals; 3 frame problems); ep094 rejected (duration 60.33 s is outside 35-58 s); ep095 ready; ep096 rejected (low scores: visuals); ep098 rejected (low scores: visuals); ep099 ready; ep100 rejected (low scores: loop; 2 frame problems); ep101 rejected (low scores: visuals); ep102 rejected (low scores: visuals, loop; 2 frame problems); ep103 rejected (low scores:",
+      "seconds": 52.8
     },
     {
       "name": "buffer channel",
@@ -100,246 +64,88 @@
       "name": "preflight ep049",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep050",
       "ok": true,
-      "detail": "video downloads whole (16 MB in 0 s)",
-      "seconds": 0.6
+      "detail": "video still hosted",
+      "seconds": 0.5
     },
     {
       "name": "preflight ep052",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
-    },
-    {
-      "name": "preflight ep086",
-      "ok": true,
-      "detail": "video still hosted",
       "seconds": 0.2
     },
     {
-      "name": "publish",
+      "name": "preflight ep055",
       "ok": true,
-      "detail": "",
-      "seconds": 1.1
-    },
-    {
-      "name": "start ep088",
-      "ok": true,
-      "detail": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep089",
-      "ok": true,
-      "detail": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep090",
-      "ok": true,
-      "detail": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep091",
-      "ok": true,
-      "detail": "Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep092",
-      "ok": true,
-      "detail": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep093",
-      "ok": true,
-      "detail": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep094",
-      "ok": true,
-      "detail": "2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep095",
-      "ok": true,
-      "detail": "Boomerang Nebula (1980): the coldest place in the natural universe, colder than the background glow of the Big Bang",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep096",
-      "ok": true,
-      "detail": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep098",
-      "ok": true,
-      "detail": "Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep099",
-      "ok": true,
-      "detail": "Aeolis Mons (2012): a Martian mountain taller than Mount Rainier that a robotic rover has been slowly climbing for over a decade",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep100",
-      "ok": true,
-      "detail": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep101",
-      "ok": true,
-      "detail": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep102",
-      "ok": true,
-      "detail": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
-      "seconds": 0.8
-    },
-    {
-      "name": "start ep103",
-      "ok": true,
-      "detail": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
-      "seconds": 0.8
-    },
-    {
-      "name": "start ep104",
-      "ok": true,
-      "detail": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep105",
-      "ok": true,
-      "detail": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep106",
-      "ok": true,
-      "detail": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep107",
-      "ok": true,
-      "detail": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep108",
-      "ok": true,
-      "detail": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep109",
-      "ok": true,
-      "detail": "Hanny's Voorwerp (2007): a galaxy-sized green structure that is actually a light \"echo\" from a quasar that died 100,000 years ago",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep110",
-      "ok": true,
-      "detail": "Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep111",
-      "ok": true,
-      "detail": "Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep112",
-      "ok": true,
-      "detail": "2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep113",
-      "ok": true,
-      "detail": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep114",
-      "ok": true,
-      "detail": "Fast radio burst (2007): millisecond flashes of deep-space energy that release as much power as the Sun radiates across entire days",
-      "seconds": 2.8
+      "detail": "video downloads whole (13 MB in 0 s)",
+      "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 1.7
+    },
+    {
+      "name": "schedule ep114",
+      "ok": true,
+      "detail": "2026-10-10T12:30:00-04:00",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep115",
+      "ok": true,
+      "detail": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep116",
+      "ok": true,
+      "detail": "Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep117",
+      "ok": true,
+      "detail": "Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep118",
+      "ok": true,
+      "detail": "Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together",
+      "seconds": 0.6
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 0.9
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep109 stopped on Gemini's free quota; it resumes in a later run",
-    "ep110 stopped on Gemini's free quota; it resumes in a later run",
-    "ep111 stopped on Gemini's free quota; it resumes in a later run",
-    "ep112 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 10 waiting",
-    "Buffer is full (10 queued); 10 waiting"
+    "Buffer is full (10 queued); 18 waiting"
   ],
   "inventory": {
-    "total": 20,
+    "total": 28,
     "in_buffer": 10,
-    "waiting": 10,
+    "waiting": 18,
     "target": 42,
     "making": [],
     "remote": [
-      "ep088",
-      "ep089",
-      "ep090",
-      "ep091",
-      "ep092",
-      "ep093",
-      "ep094",
-      "ep095",
-      "ep096",
-      "ep098",
-      "ep099",
-      "ep100",
-      "ep101",
-      "ep102",
-      "ep103",
-      "ep104",
-      "ep105",
-      "ep106",
-      "ep107",
-      "ep108",
-      "ep109",
-      "ep110",
-      "ep111",
-      "ep112",
-      "ep113",
-      "ep114"
+      "ep115",
+      "ep116",
+      "ep117",
+      "ep118"
     ]
   },
   "queue": [
-    {
-      "id": "ep086",
-      "title": "The Star That Survived Its Own Supernova",
-      "due_at": "2026-10-09T12:30:00-04:00"
-    },
     {
       "id": "ep049",
       "title": "The Dead Star That Can Erase Your Credit Cards",
@@ -349,6 +155,11 @@
       "id": "ep052",
       "title": "The Cosmic Mystery of Tabby's Star",
       "due_at": "2026-10-09T21:30:00-04:00"
+    },
+    {
+      "id": "ep114",
+      "title": "The Cosmic Signal Stronger Than the Sun",
+      "due_at": "2026-10-10T12:30:00-04:00"
     },
     {
       "id": "ep050",
@@ -442,312 +253,342 @@
       "score": 20
     },
     {
+      "id": "ep095",
+      "title": "The Coldest Place in the Natural Universe",
+      "series": "Scale Breaker",
+      "score": 20
+    },
+    {
       "id": "ep097",
       "title": "The Star Escaping Our Galaxy at 4 Million MPH",
       "series": "The Universe Is Terrifying",
       "score": 20
+    },
+    {
+      "id": "ep099",
+      "title": "The Martian Mountain Taller Than Mount Everest",
+      "series": "Scale Breaker",
+      "score": 20
+    },
+    {
+      "id": "ep105",
+      "title": "The Storm That Bit Its Own Tail",
+      "series": "Scale Breaker",
+      "score": 25
+    },
+    {
+      "id": "ep106",
+      "title": "The Missing Hyphen That Wasn't a Hyphen",
+      "series": "Mission Files",
+      "score": 20
+    },
+    {
+      "id": "ep109",
+      "title": "The Galaxy-Sized Cosmic Ghost",
+      "series": "The Universe Is Terrifying",
+      "score": 20
+    },
+    {
+      "id": "ep110",
+      "title": "The Lost Space Forest NASA Forgot Existed",
+      "series": "Space Got Weird",
+      "score": 24
+    },
+    {
+      "id": "ep111",
+      "title": "The Megastructure That Breaks Physics",
+      "series": "Scale Breaker",
+      "score": 24
+    },
+    {
+      "id": "ep112",
+      "title": "The Asteroid That Hid in Plain Sight",
+      "series": "Near Misses",
+      "score": 23
     }
   ],
   "made": [
     {
+      "id": "ep088",
+      "outcome": "rejected",
+      "topic": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
+      "reason": "low scores: visuals; 2 frame problems"
+    },
+    {
+      "id": "ep089",
+      "outcome": "rejected",
+      "topic": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep090",
+      "outcome": "rejected",
+      "topic": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep091",
+      "outcome": "rejected",
+      "topic": "Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep092",
+      "outcome": "rejected",
+      "topic": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep093",
+      "outcome": "rejected",
+      "topic": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
+      "reason": "low scores: visuals; 3 frame problems"
+    },
+    {
+      "id": "ep094",
+      "outcome": "rejected",
+      "topic": "2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032",
+      "reason": "duration 60.33 s is outside 35-58 s"
+    },
+    {
+      "id": "ep095",
+      "outcome": "ready",
+      "topic": "Boomerang Nebula (1980): the coldest place in the natural universe, colder than the background glow of the Big Bang",
+      "title": "The Coldest Place in the Natural Universe",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791546117/universereceipts/ep095-f7403e15.mp4"
+    },
+    {
+      "id": "ep096",
+      "outcome": "rejected",
+      "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep098",
+      "outcome": "rejected",
+      "topic": "Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep099",
+      "outcome": "ready",
+      "topic": "Aeolis Mons (2012): a Martian mountain taller than Mount Rainier that a robotic rover has been slowly climbing for over a decade",
+      "title": "The Martian Mountain Taller Than Mount Everest",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791546438/universereceipts/ep099-23b24da4.mp4"
+    },
+    {
+      "id": "ep100",
+      "outcome": "rejected",
+      "topic": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
+      "reason": "low scores: loop; 2 frame problems"
+    },
+    {
+      "id": "ep101",
+      "outcome": "rejected",
+      "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep102",
+      "outcome": "rejected",
+      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
+      "reason": "low scores: visuals, loop; 2 frame problems"
+    },
+    {
+      "id": "ep103",
+      "outcome": "rejected",
+      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
+      "reason": "low scores: visuals; 2 frame problems"
+    },
+    {
+      "id": "ep104",
+      "outcome": "rejected",
+      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
+      "reason": "low scores: visuals; 3 frame problems"
+    },
+    {
+      "id": "ep105",
+      "outcome": "ready",
+      "topic": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
+      "title": "The Storm That Bit Its Own Tail",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791546372/universereceipts/ep105-2cba5bbf.mp4"
+    },
+    {
+      "id": "ep106",
+      "outcome": "ready",
+      "topic": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
+      "title": "The Missing Hyphen That Wasn't a Hyphen",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791546372/universereceipts/ep106-de78f6a0.mp4"
+    },
+    {
+      "id": "ep107",
+      "outcome": "rejected",
+      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep108",
+      "outcome": "rejected",
+      "topic": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
+      "reason": "low scores: hook, payoff, visuals, loop"
+    },
+    {
       "id": "ep109",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Hanny's Voorwerp (2007): a galaxy-sized green structure that is actually a light \"echo\" from a quasar that died 100,000 years ago",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "The Galaxy-Sized Cosmic Ghost",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791546446/universereceipts/ep109-5df09d54.mp4"
     },
     {
       "id": "ep110",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "The Lost Space Forest NASA Forgot Existed",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791546490/universereceipts/ep110-35a3cb04.mp4"
     },
     {
       "id": "ep111",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "The Megastructure That Breaks Physics",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791546515/universereceipts/ep111-c23c75cc.mp4"
     },
     {
       "id": "ep112",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "The Asteroid That Hid in Plain Sight",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791546691/universereceipts/ep112-40e27bba.mp4"
+    },
+    {
+      "id": "ep113",
+      "outcome": "rejected",
+      "topic": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep114",
+      "outcome": "ready",
+      "topic": "Fast radio burst (2007): millisecond flashes of deep-space energy that release as much power as the Sun radiates across entire days",
+      "title": "The Cosmic Signal Stronger Than the Sun",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791546652/universereceipts/ep114-ca54c8f2.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep088",
-      "topic": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
-      "call_id": "fc-01M4G7B6SQWAXEFTA73KAC3DEJ"
+      "id": "ep115",
+      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "call_id": "fc-01M4GVW58KF2N4KCH1JNDYPENE"
     },
     {
-      "id": "ep089",
-      "topic": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
-      "call_id": "fc-01M4G7B7DY14KKVH5YMQTVKES7"
+      "id": "ep116",
+      "topic": "Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere",
+      "call_id": "fc-01M4GVW5TDZMS08Z9WE1VK4QTP"
     },
     {
-      "id": "ep090",
-      "topic": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
-      "call_id": "fc-01M4G7B7ZW0RFX0PRBEQ13TTS7"
+      "id": "ep117",
+      "topic": "Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished",
+      "call_id": "fc-01M4GVW6D705444VKENG97VT7V"
     },
     {
-      "id": "ep091",
-      "topic": "Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph",
-      "call_id": "fc-01M4G7B8KFFHFAMY2FPAMYNKCT"
-    },
-    {
-      "id": "ep092",
-      "topic": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
-      "call_id": "fc-01M4G7B98376D487B8W5XHV2N4"
-    },
-    {
-      "id": "ep093",
-      "topic": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
-      "call_id": "fc-01M4G7B9SZ6XSBK0ZGAAR6RV45"
-    },
-    {
-      "id": "ep094",
-      "topic": "2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032",
-      "call_id": "fc-01M4G7BAE0Y2AFAJMXZ4C46GFR"
-    },
-    {
-      "id": "ep095",
-      "topic": "Boomerang Nebula (1980): the coldest place in the natural universe, colder than the background glow of the Big Bang",
-      "call_id": "fc-01M4G7BB1ZFH3VM5AHJ42XDYVF"
-    },
-    {
-      "id": "ep096",
-      "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "call_id": "fc-01M4G7BBPK4YJAVEYFKXHXNMJ8"
-    },
-    {
-      "id": "ep098",
-      "topic": "Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit",
-      "call_id": "fc-01M4G7BC8T58DYTM81H95SAGBM"
-    },
-    {
-      "id": "ep099",
-      "topic": "Aeolis Mons (2012): a Martian mountain taller than Mount Rainier that a robotic rover has been slowly climbing for over a decade",
-      "call_id": "fc-01M4G7BCVF04MNZR98WBT4FTEV"
-    },
-    {
-      "id": "ep100",
-      "topic": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
-      "call_id": "fc-01M4G7BDG61HFHXPWZ6JX8TMP7"
-    },
-    {
-      "id": "ep101",
-      "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
-      "call_id": "fc-01M4G7BE36C7QZAE078711EAY6"
-    },
-    {
-      "id": "ep102",
-      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
-      "call_id": "fc-01M4G7BETYBJRG939A9462K7J2"
-    },
-    {
-      "id": "ep103",
-      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
-      "call_id": "fc-01M4G7BFKV79CRVSC33KMRJ2YM"
-    },
-    {
-      "id": "ep104",
-      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
-      "call_id": "fc-01M4G7BG85P1EAS8SQPCQZVF0K"
-    },
-    {
-      "id": "ep105",
-      "topic": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
-      "call_id": "fc-01M4G7BGV631Q8ZAC7513CBA8D"
-    },
-    {
-      "id": "ep106",
-      "topic": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
-      "call_id": "fc-01M4G7BHDF117DEEMCXCC3K7X3"
-    },
-    {
-      "id": "ep107",
-      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
-      "call_id": "fc-01M4G7BJ12XP99E79C3A5X2QV7"
-    },
-    {
-      "id": "ep108",
-      "topic": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
-      "call_id": "fc-01M4G7BJN4HSN0TT7QHGDG7E5R"
-    },
-    {
-      "id": "ep109",
-      "topic": "Hanny's Voorwerp (2007): a galaxy-sized green structure that is actually a light \"echo\" from a quasar that died 100,000 years ago",
-      "call_id": "fc-01M4G7BK8EVD3FFV7WP7SA4TQK"
-    },
-    {
-      "id": "ep110",
-      "topic": "Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one",
-      "call_id": "fc-01M4G7BKT6GWS25K1BHFYVMXM4"
-    },
-    {
-      "id": "ep111",
-      "topic": "Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology",
-      "call_id": "fc-01M4G7BME4N71DDC6QVMR3DVB6"
-    },
-    {
-      "id": "ep112",
-      "topic": "2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach",
-      "call_id": "fc-01M4G7BN1APN2QX460RJCVH6PD"
-    },
-    {
-      "id": "ep113",
-      "topic": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
-      "call_id": "fc-01M4G7BNNPM60NBM1V6B532487"
-    },
-    {
-      "id": "ep114",
-      "topic": "Fast radio burst (2007): millisecond flashes of deep-space energy that release as much power as the Sun radiates across entire days",
-      "call_id": "fc-01M4G7BRE5VS5WER4KV65ATK04"
+      "id": "ep118",
+      "topic": "Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together",
+      "call_id": "fc-01M4GVW6ZNHYXZH1EF12QMMG15"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep088",
-      "topic": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
-      "spawned_at": "2026-10-09T17:09:00+05:30"
+      "id": "ep115",
+      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "spawned_at": "2026-10-09T23:07:47+05:30"
     },
     {
-      "id": "ep089",
-      "topic": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
-      "spawned_at": "2026-10-09T17:09:01+05:30"
+      "id": "ep116",
+      "topic": "Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere",
+      "spawned_at": "2026-10-09T23:07:48+05:30"
     },
     {
-      "id": "ep090",
-      "topic": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
-      "spawned_at": "2026-10-09T17:09:02+05:30"
+      "id": "ep117",
+      "topic": "Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished",
+      "spawned_at": "2026-10-09T23:07:49+05:30"
     },
     {
-      "id": "ep091",
-      "topic": "Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph",
-      "spawned_at": "2026-10-09T17:09:02+05:30"
-    },
-    {
-      "id": "ep092",
-      "topic": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
-      "spawned_at": "2026-10-09T17:09:03+05:30"
-    },
-    {
-      "id": "ep093",
-      "topic": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
-      "spawned_at": "2026-10-09T17:09:03+05:30"
-    },
-    {
-      "id": "ep094",
-      "topic": "2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032",
-      "spawned_at": "2026-10-09T17:09:04+05:30"
-    },
-    {
-      "id": "ep095",
-      "topic": "Boomerang Nebula (1980): the coldest place in the natural universe, colder than the background glow of the Big Bang",
-      "spawned_at": "2026-10-09T17:09:05+05:30"
-    },
-    {
-      "id": "ep096",
-      "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "spawned_at": "2026-10-09T17:09:05+05:30"
-    },
-    {
-      "id": "ep098",
-      "topic": "Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit",
-      "spawned_at": "2026-10-09T17:09:06+05:30"
-    },
-    {
-      "id": "ep099",
-      "topic": "Aeolis Mons (2012): a Martian mountain taller than Mount Rainier that a robotic rover has been slowly climbing for over a decade",
-      "spawned_at": "2026-10-09T17:09:07+05:30"
-    },
-    {
-      "id": "ep100",
-      "topic": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
-      "spawned_at": "2026-10-09T17:09:07+05:30"
-    },
-    {
-      "id": "ep101",
-      "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
-      "spawned_at": "2026-10-09T17:09:08+05:30"
-    },
-    {
-      "id": "ep102",
-      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
-      "spawned_at": "2026-10-09T17:09:09+05:30"
-    },
-    {
-      "id": "ep103",
-      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
-      "spawned_at": "2026-10-09T17:09:09+05:30"
-    },
-    {
-      "id": "ep104",
-      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
-      "spawned_at": "2026-10-09T17:09:10+05:30"
-    },
-    {
-      "id": "ep105",
-      "topic": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
-      "spawned_at": "2026-10-09T17:09:11+05:30"
-    },
-    {
-      "id": "ep106",
-      "topic": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
-      "spawned_at": "2026-10-09T17:09:11+05:30"
-    },
-    {
-      "id": "ep107",
-      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
-      "spawned_at": "2026-10-09T17:09:12+05:30"
-    },
-    {
-      "id": "ep108",
-      "topic": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
-      "spawned_at": "2026-10-09T17:09:12+05:30"
-    },
-    {
-      "id": "ep109",
-      "topic": "Hanny's Voorwerp (2007): a galaxy-sized green structure that is actually a light \"echo\" from a quasar that died 100,000 years ago",
-      "spawned_at": "2026-10-09T17:09:13+05:30"
-    },
-    {
-      "id": "ep110",
-      "topic": "Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one",
-      "spawned_at": "2026-10-09T17:09:14+05:30"
-    },
-    {
-      "id": "ep111",
-      "topic": "Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology",
-      "spawned_at": "2026-10-09T17:09:14+05:30"
-    },
-    {
-      "id": "ep112",
-      "topic": "2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach",
-      "spawned_at": "2026-10-09T17:09:15+05:30"
-    },
-    {
-      "id": "ep113",
-      "topic": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
-      "spawned_at": "2026-10-09T17:09:16+05:30"
-    },
-    {
-      "id": "ep114",
-      "topic": "Fast radio burst (2007): millisecond flashes of deep-space energy that release as much power as the Sun radiates across entire days",
-      "spawned_at": "2026-10-09T17:09:18+05:30"
+      "id": "ep118",
+      "topic": "Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together",
+      "spawned_at": "2026-10-09T23:07:49+05:30"
     }
   ],
-  "published": [],
-  "live": 19,
+  "published": [
+    {
+      "id": "ep114",
+      "title": "The Cosmic Signal Stronger Than the Sun",
+      "due_at": "2026-10-10T12:30:00-04:00"
+    }
+  ],
+  "live": 20,
   "failed_posts": [],
   "not_live": [
     {
@@ -756,35 +597,38 @@
     }
   ],
   "llm": {
-    "calls": 19,
+    "calls": 77,
     "by_model": {
-      "gemini-3.7-flash": 3,
-      "gemini-3.6-flash": 1,
-      "gemini-3.5-flash": 5,
-      "gemini-3-flash-preview": 4,
+      "gemini-3.8-flash": 10,
+      "gemini-3.7-flash": 7,
+      "gemini-3.6-flash": 10,
+      "gemini-3.5-flash": 30,
+      "gemini-3-flash-preview": 14,
       "gemini-3.5-flash-lite": 6
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
-    "modal": 4,
+    "modal": 53,
     "runner": 0
   },
   "daily_done": "2026-10-09",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 11.26,
+    "metered": 12.79,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 139,
+    "cloud": 126,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 16.74
+    "modal_credit_left": 15.21
   },
   "made_here": 0,
-  "open_topics": 32,
-  "parked_topics": 36
+  "open_topics": 28,
+  "parked_topics": 53
 }

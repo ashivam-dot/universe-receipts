@@ -1,0 +1,101 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:14:15+05:30",
+      "check": {
+        "duration": 49.65,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'aeolis' heard as 'e l e is' after 'everest this is'",
+          "'is' heard as '(nothing)' after 'rising inside mars'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "An immediate, compelling hook with an active, relatable comparison to start the narrative.",
+        "clarity": "Very easy to follow, transitioning cleanly from scale comparisons to scientific discoveries.",
+        "payoff": "The discovery of organic chemicals inside the Martian mountain provides a strong scientific payoff.",
+        "visuals": "Excellent, highly accurate imagery from NASA's Mars missions and clean geographic comparisons.",
+        "loop": "The transition from the final word back to the start is grammatically and contextually smooth."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Aeolis",
+          "respelling": "ay oh liss"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode features highly accurate, actual planetary exploration imagery and a beautifully composed comparison to terrestrial mountains that elevates its visual appeal over previous episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:17:15+05:30",
+      "check": {
+        "duration": 49.76,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'aeolis' heard as 'eiolis' after 'everest this is'",
+          "'is' heard as '(nothing)' after 'rising inside mars'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong hook comparing a robot's climb to Mount Everest.",
+        "clarity": "Logical progression from mountain scale to rover mission.",
+        "payoff": "Satisfying reveal of organic discoveries on Mars.",
+        "visuals": "Excellent, clear images of Mars and comparison peaks.",
+        "loop": "Perfect verbal loop repeating the climbing robot concept."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode provides a stronger sense of active exploration compared to the static scale of the asteroid belt.",
+      "judge": "gemini-3.5-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 1
+}

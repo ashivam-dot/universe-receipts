@@ -1,0 +1,174 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:12:21+05:30",
+      "check": {
+        "duration": 53.0,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'bootes' heard as 'boodes' after 'in the constellation'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening line immediately establishes an impossible scale and piqued curiosity.",
+        "clarity": "Explains how the structure was mapped and why it violates theoretical limits in plain steps.",
+        "payoff": "Directly links the size anomaly to the timeline of cosmic evolution and standard cosmology limits.",
+        "visuals": "Clear scientific diagrams and relevant constellation maps, though presented inside framed boxes.",
+        "loop": "The final word connects reasonably well back to why such a structure should not exist."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The title card omits the specific figure '1.2' stated in the audio, showing only 'BILLION LY'."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Boötes",
+          "respelling": "boh oh teez"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "It tackles a profound cosmological crisis that challenges standard physics rather than focusing on an isolated stellar oddity.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:14:57+05:30",
+      "check": {
+        "duration": 53.2,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'bootes' heard as 'bo otis' after 'in the constellation'",
+          "'ultra bright' heard as 'ultraprite' after 'absorption lines using'",
+          "'115th' heard as 'one 15th' after 'massive it spans'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening line sets up an engaging mystery about an impossible structure immediately.",
+        "clarity": "Terms like magnesium-two absorption lines are overly academic for a general audience on first listen.",
+        "payoff": "Explaining why the structure defies the age of the universe delivers a solid resolution.",
+        "visuals": "Scientific data plots in beats 4 and 6 are too detailed and hard to read on a mobile screen.",
+        "loop": "Ends on the idea of our understanding being broken, which flows smoothly back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The scientific plot contains dense, tiny text that is unreadable at phone size."
+        },
+        {
+          "beat": 6,
+          "problem": "Reuses the dense, unreadable scientific plot from beat 4."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "ultra-bright",
+          "respelling": "ul tra brite"
+        }
+      ],
+      "rewrite": [
+        "Beat 3: She used the light from ultra-bright quasars like giant flashlights to map out hidden matter in deep space."
+      ],
+      "better_than_last": "This episode introduces a grander, cosmological-scale mystery than the localized stellar events in previous episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:18:34+05:30",
+      "check": {
+        "duration": 51.2,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'bootes' heard as 'boaodes' after 'in the constellation'",
+          "'115th' heard as 'one 15th' after 'massive it spans'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The immediate claim that a massive structure shouldn't exist is a perfect narrative hook.",
+        "clarity": "The script does an excellent job of walking the viewer from discovery to the scientific problem.",
+        "payoff": "The revelation that this discovery challenges the foundations of cosmology is a strong finish.",
+        "visuals": "Every frame is a high-quality scientific visualization or a clean, purposeful title card.",
+        "loop": "The final sentence ends with a perfect setup for the hook's opening statement."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Boötes",
+          "respelling": "bo oh teez"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode uses more effective data visualization and title cards to explain scale than the star-focused stories in ep097 and ep086.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

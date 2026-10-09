@@ -1,0 +1,172 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:13:56+05:30",
+      "check": {
+        "duration": 51.23,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "An intriguing, high-stakes opening hook that instantly grabs viewer attention.",
+        "clarity": "Logical flow with one clear, easily understood concept per beat.",
+        "payoff": "Satisfying ending that connects the planet's extreme state to its ultimate demise.",
+        "visuals": "Includes some dry academic diagrams and incorrect astronomical phenomena.",
+        "loop": "Seamlessly transitions the final line back into the starting hook."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The academic potential well diagram is too dry and difficult to interpret on mobile."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows an incorrect depiction of a black hole with rocky debris instead of a gas giant losing its atmosphere."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The loop transition is significantly more natural and seamless than in recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:16:02+05:30",
+      "check": {
+        "duration": 51.23,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Immediate, evocative, and high-stakes hook that stops the scroll.",
+        "clarity": "Logical, step-by-step presentation of the planet's extreme conditions.",
+        "payoff": "The explanation of how it is eaten alive is solid, though mostly repeating the hook's premise.",
+        "visuals": "Ruined by a dry German physics diagram in beat 4 and baked-in text overlays on the NASA artwork.",
+        "loop": "Perfect grammatical connection that flows seamlessly back into the first line."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The artwork contains a large, distracting NASA credit watermark at the bottom."
+        },
+        {
+          "beat": 4,
+          "problem": "Shows a dry, technical physics diagram in German instead of illustrating the egg-shaped planet."
+        },
+        {
+          "beat": 8,
+          "problem": "Shows a generic image of the Hubble Space Telescope instead of visualizing the planet's eventual destruction."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode has a much stronger and more cohesive narrative flow with a truly seamless loop compared to ep097.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:19:06+05:30",
+      "check": {
+        "duration": 51.23,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Engaging and dramatic metaphor that sets a clear stakes-driven narrative.",
+        "clarity": "The story flows logically from discovery to characteristics to ultimate fate.",
+        "payoff": "The countdown to destruction provides a satisfying conclusion to the 'eaten alive' premise.",
+        "visuals": "Multiple frames show telescopes or technical diagrams instead of the striking planet described.",
+        "loop": "The concluding line mirrors the opening line perfectly for a seamless transition."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows a technical diagram in German about Earth-Moon tides rather than the egg-shaped planet."
+        },
+        {
+          "beat": 5,
+          "problem": "Shows a telescope instead of a visual representing the extreme heat mentioned."
+        },
+        {
+          "beat": 8,
+          "problem": "Shows a telescope instead of illustrating the doomed world's destruction."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The 'eaten alive' framing creates a more visceral emotional hook than the recent factual survival stories.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 3 frame problems",
+  "rejected_at": "2026-10-09T17:19:06+05:30"
+}

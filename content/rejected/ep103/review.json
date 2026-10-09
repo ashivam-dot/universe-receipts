@@ -1,0 +1,167 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:12:19+05:30",
+      "check": {
+        "duration": 55.1,
+        "words": 129,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong curiosity hook, though a bit standard.",
+        "clarity": "Microlensing explanation is delivered smoothly.",
+        "payoff": "Ending trails off with speed stats rather than a punchy revelation.",
+        "visuals": "Multiple technical diagrams are difficult to parse on mobile.",
+        "loop": "Beat 8 duplicates beat 1 verbatim rather than creating an audio bridge."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The key number 20,000 is missing from the title card."
+        },
+        {
+          "beat": 4,
+          "problem": "Displays the wrong object infographic (OGLE-2005-BLG-169 exoplanet) with unreadable small text."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: All of which proves that right now,"
+      ],
+      "better_than_last": "It explains a complex detection method like gravitational microlensing more concisely than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:17:40+05:30",
+      "check": {
+        "duration": 51.82,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The concept of an 'invisible rogue' object is a strong curiosity gap.",
+        "clarity": "Excellent step-by-step explanation of the microlensing detection process.",
+        "payoff": "Revealing the specific mass and high velocity provides a solid conclusion.",
+        "visuals": "The use of an accretion disk for an isolated black hole is factually inconsistent with the script.",
+        "loop": "The phrasing creates a seamless transition from the conclusion back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The frame shows a black hole with an accretion disk and jet, which is the wrong object for an 'invisible' isolated black hole."
+        },
+        {
+          "beat": 4,
+          "problem": "The frame is a diagram containing too much text to be legible on a phone screen."
+        },
+        {
+          "beat": 6,
+          "problem": "The diagram is mostly text and fine lines that will appear blurry or cluttered at phone size."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode provides a much clearer scientific explanation of how the discovery was made compared to the more narrative-focused 'Zombie Star' short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:20:05+05:30",
+      "check": {
+        "duration": 51.82,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The concept of an invisible, rogue black hole is an immediate and effective attention-grabber.",
+        "clarity": "Excellent breakdown of the detection process from ground surveys to Hubble verification.",
+        "payoff": "Provides satisfyingly specific details on the mass and speed of this newly confirmed object.",
+        "visuals": "The visuals are clear but several beats show the wrong type of black hole system.",
+        "loop": "The sentence structure creates a perfect, infinite loop between the proof and the subject."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The image shows a black hole with a companion star and accretion disk, which contradicts the 'completely alone' script."
+        },
+        {
+          "beat": 6,
+          "problem": "Shows a binary black hole merger instead of the single isolated black hole described in the script."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short uses a helpful diagram in beat 4 to explain the complex concept of microlensing much more clearly than the abstract visuals in previous episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-09T17:20:05+05:30"
+}

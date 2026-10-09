@@ -1,0 +1,163 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:11:48+05:30",
+      "check": {
+        "duration": 53.09,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'goble' heard as 'gobble' after 'teacher named joan'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "iNaturalist",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "A bizarre and intriguing premise that immediately stops the scroll.",
+        "clarity": "A crystal-clear chronological narrative that is effortless to follow on one listen.",
+        "payoff": "The revelation of NASA's institutional amnesia sparked by a schoolteacher delivers a delightful payoff.",
+        "visuals": "Beat 8 is mostly text and displays an unrelated military personnel roster rather than space archives.",
+        "loop": "Flows cleanly from the ongoing search for living monuments back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "mostly text and displays an unrelated military roster rather than Apollo archival records"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It tells an engaging, ground-level human mystery rather than relying entirely on abstract deep-space astrophysics.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:15:02+05:30",
+      "check": {
+        "duration": 53.09,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'goble' heard as 'gobble' after 'teacher named joan'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "iNaturalist",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The mystery of NASA losing an entire forest of space trees is a highly engaging scroll-stopper.",
+        "clarity": "The narrative flows perfectly chronologically from Apollo 14 to the modern-day search.",
+        "payoff": "The revelation that NASA scientists didn't even know the program existed provides a great punchline.",
+        "visuals": "Several frames use incorrect or unrelated imagery that degrades historical accuracy.",
+        "loop": "Seamlessly transitions from finding the forgotten monuments back to NASA forgetting them."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The frame shows Fort Valley Experimental Forest in Arizona, but Apollo 14 seeds were grown at nurseries in Mississippi and California."
+        },
+        {
+          "beat": 8,
+          "problem": "The archive photo is a military personnel roster with ranks like PFC and SGT instead of a NASA database of Moon Trees."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "Goble",
+          "respelling": "go bull"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode has a much stronger narrative arc and mystery element compared to the straightforward scientific explanation in the supernova or asteroid belt videos.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:18:07+05:30",
+      "check": {
+        "duration": 53.27,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "iNaturalist",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong hook that immediately introduces a weird, forgotten space mystery.",
+        "clarity": "The narrative flows perfectly chronologically and is very easy to follow.",
+        "payoff": "Great payoff with NASA being completely oblivious to their own program until a teacher emailed them.",
+        "visuals": "Most frames are excellent, but beat 3 uses the spacecraft image which doesn't fit the Earth-based Forest Service story.",
+        "loop": "The transition from 'living monuments' to 'NASA completely forgot' is perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The spacecraft orbiting the Moon doesn't fit the mention of an Earth vacuum chamber accident and the US Forest Service."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode has a much stronger narrative arc and mystery element compared to the recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

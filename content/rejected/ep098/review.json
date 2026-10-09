@@ -1,0 +1,174 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-08T17:19:35+05:30",
+      "check": {
+        "duration": 53.4,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'bakes the planet'",
+          "'s' heard as 'is' after 'but the planet'",
+          "'(nothing)' heard as 'you' after 'the constellation leo'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The burning ice paradox is a strong, immediate draw.",
+        "clarity": "The explanation of pressure vs temperature is easy to follow.",
+        "payoff": "The addition of the hydrogen tail provides a good secondary twist.",
+        "visuals": "Beat three incorrectly displays our solar system instead of Gliese 436.",
+        "loop": "The repetition of the constellation location creates a perfect circular narrative."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Displays Earth, Mars, and the Sun instead of the Gliese 436 system."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Gliese",
+          "respelling": "glee zuh"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "The narrative loop is more seamless than in episode 071.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:13:12+05:30",
+      "check": {
+        "duration": 53.43,
+        "words": 128,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'bakes the planet'",
+          "'s' heard as 'is' after 'but the planet'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong oxymoron in burning ice grabs interest quickly.",
+        "clarity": "Concepts are sequential and easy to follow.",
+        "payoff": "The bleeding hydrogen tail offers an unexpected twist.",
+        "visuals": "Several shots rely on dry charts and wrong orbital diagrams.",
+        "loop": "Repeating constellation Leo at the boundary creates an awkward stutter."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows the Solar System and a Kuiper belt orbit instead of Gliese 436 b."
+        },
+        {
+          "beat": 6,
+          "problem": "Unreadable academic phase diagram chart on mobile."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: Change to 'It remains an enduring mystery of extreme physics,' to flow smoothly into beat 1."
+      ],
+      "better_than_last": "It introduces a stronger physical paradox with hot ice than the straightforward flight paths in recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:19:14+05:30",
+      "check": {
+        "duration": 52.03,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'bakes the planet'",
+          "'s' heard as 'is' after 'but the planet'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The 'burning ice' paradox is a classic, high-retention space hook.",
+        "clarity": "The explanation of gravity overcoming heat is presented very logically.",
+        "payoff": "The revelation of the massive hydrogen tail provides a satisfying scale-based twist.",
+        "visuals": "Beat 6 uses a dense scientific graph that is illegible on mobile devices.",
+        "loop": "Ends on the 'mystery' of the physics which flows naturally back into the location."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Mostly text; the scientific graph is too detailed and cluttered for a phone screen."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script handles the complex 'hot ice' concept with much better clarity than the abstract physics in recent episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-09T17:19:14+05:30"
+}

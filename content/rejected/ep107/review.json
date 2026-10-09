@@ -1,0 +1,165 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:12:45+05:30",
+      "check": {
+        "duration": 54.33,
+        "words": 130,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'surprisingly the sun'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Grabs immediate attention by challenging a universal fact learned in childhood.",
+        "clarity": "Explains light spectrum physics and atmospheric scattering in simple, logical steps.",
+        "payoff": "Delivers a great reveal by showing how the green peak emission and blue light scattering shape our perception.",
+        "visuals": "Beat 3 shows a yellow Sun image despite describing a white disk, and Beat 4 uses a German-labeled technical chart.",
+        "loop": "The narration and identical start/end frame create an effortless visual and auditory loop."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows a false-color yellow image of the Sun instead of the white Sun described in the script."
+        },
+        {
+          "beat": 4,
+          "problem": "Graph text is small, hard to read on mobile, and labeled in German."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It delivers a clearer scientific explanation with a seamless visual loop than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:14:38+05:30",
+      "check": {
+        "duration": 54.33,
+        "words": 130,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'surprisingly the sun'",
+          "'(nothing)' heard as 'you' after 'star is golden'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Relatable childhood premise effectively grabs attention in the first two seconds.",
+        "clarity": "Concepts are presented cleanly with a simple one-idea-per-beat flow.",
+        "payoff": "Connecting the blue sky to the Sun's appearance gives a satisfying answer.",
+        "visuals": "Several frames fail to accurately portray the spoken narrative content.",
+        "loop": "The final line seamlessly leads back to the initial hook topic."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Displays an off-topic drawing of a crab rather than a child's drawing of the Sun."
+        },
+        {
+          "beat": 3,
+          "problem": "Shows a false-color ultraviolet solar image rather than a white sun disk in space."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a stronger personal connection by debunking a common everyday perception.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:16:58+05:30",
+      "check": {
+        "duration": 54.33,
+        "words": 130,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'surprisingly the sun'",
+          "'(nothing)' heard as 'you' after 'star is golden'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening hook that immediately challenges a universal childhood assumption.",
+        "clarity": "The scientific breakdown of white light and atmospheric scattering is easy to follow.",
+        "payoff": "The explanation cleanly ties the blue sky to the Sun's false yellow color.",
+        "visuals": "Most frames look highly professional, but Beat 3 features a major historical mismatch.",
+        "loop": "The transition from the golden star belief back to drawing colors flows seamlessly."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The frame shows an Apollo Command/Service Module instead of the International Space Station mentioned in the script."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script is more effective than recent ones because it explains an everyday phenomenon that viewers can immediately relate to.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-09T17:16:58+05:30"
+}

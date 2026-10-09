@@ -1,0 +1,193 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:12:59+05:30",
+      "check": {
+        "duration": 52.23,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'2019 ok' heard as '20190 k' after 'in july 2019'",
+          "'pan starrs' heard as 'panestiarrs' after 'survey telescopes like'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Strong dramatic premise, but claiming it hid 'until just before impact' is inaccurate since it never hit.",
+        "clarity": "Saying 'until just before impact' in beat 1 directly contradicts beat 3 stating it missed Earth by 45,000 miles.",
+        "payoff": "The explanation that it dodged automated detection by moving directly toward Earth is a satisfying scientific payoff.",
+        "visuals": "Beat 4 displays a busy technical moon phase chart dominated by unreadable text.",
+        "loop": "Beat 9 ends with 'how a city-killer asteroid hid in plain sight', clumsily repeating beat 1 verbatim instead of looping naturally."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "Pan-STARRS",
+          "respelling": "pan stars"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: Change to 'A city-killer asteroid hid in plain sight before missing our planet.'",
+        "Beat 9: Change to 'This Apollo-class rock won't return for 200 years, but it proved how easily...'"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:19:08+05:30",
+      "check": {
+        "duration": 52.06,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'2019 ok' heard as '20190 k' after 'in july 2019'",
+          "'pan starrs' heard as 'panestiarrs' after 'survey telescopes like'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Exciting and suspenseful hook that immediately catches attention with 'city-killer' and 'hid in plain sight'.",
+        "clarity": "The explanation of why it was missed—heading straight toward us so it appeared stationary—is beautifully clear.",
+        "payoff": "The revelation of how an asteroid 'hides' by moving directly toward us is an excellent, mind-bending payoff.",
+        "visuals": "High quality visuals, though the professional observatory shown in beat 8 doesn't match the amateur setup of the discoverers, but it serves the narrative.",
+        "loop": "The transition from 'sneak up on us' back to 'A city-killer asteroid' creates a solid, coherent loop."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "Pan-STARRS",
+          "respelling": "pan stars"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short features a much stronger, more suspenseful hook and a highly satisfying, mind-bending payoff compared to the recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": true
+    },
+    {
+      "at": "2026-10-09T17:21:30+05:30",
+      "check": {
+        "duration": 51.5,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'2019 ok' heard as '20190 k' after 'in july 2019'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong opening that immediately establishes high stakes and a mystery.",
+        "clarity": "Logically connects the speed, size, and detection failure in a simple way.",
+        "payoff": "The scientific explanation for why it was missed is a great mind-bending reveal.",
+        "visuals": "Beat 4 is nearly invisible on mobile and Beat 8 shows the wrong type of observatory.",
+        "loop": "Seamless transition from the sneaking up conclusion back to the city-killer hook."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The subject (Earth and Moon distance) is too small and dark to be seen on a phone screen."
+        },
+        {
+          "beat": 8,
+          "problem": "Off-topic; shows a professional multi-dome observatory for a discovery made by amateur astronomers."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "OK",
+          "respelling": "oh kay"
+        },
+        {
+          "beat": 8,
+          "word": "Jacques",
+          "respelling": "zhahks"
+        },
+        {
+          "beat": 8,
+          "word": "Pimentel",
+          "respelling": "pee men tell"
+        },
+        {
+          "beat": 8,
+          "word": "Ribeiro",
+          "respelling": "ree bay ro"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "It explains the physics behind a stealth approach much more effectively than the general asteroid belt facts in episode 087.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "kept_round": 2
+}

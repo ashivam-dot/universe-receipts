@@ -76,24 +76,10 @@ beats:
   - successfully grew
   - vacuum chamber
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Fort_Valley_Experimental_Forest_sign.jpg/1920px-Fort_Valley_Experimental_Forest_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Fort Valley Experimental Forest sign.jpg
-      credit: Forest Service Photography
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Fort_Valley_Experimental_Forest_sign.jpg
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.47
-    focus_y: 0.55
-    box:
-    - 0.3
-    - 0.4
-    - 0.65
-    - 0.75
+    reuse: 2
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.45
 - text: Around 1976, these saplings were planted worldwide to celebrate the American bicentennial.
   emphasis:
   - planted worldwide
@@ -129,7 +115,7 @@ beats:
     - 0.45
     - 0.9
     - 0.75
-- text: In 1996, a third-grade teacher named Joan Goble found one at an Indiana camp.
+- text: In 1996, a third-grade teacher named Joan [Goble](/ɡˌObˈʊl/) found one at an Indiana camp.
   emphasis:
   - Joan Goble
   - Indiana camp
@@ -180,16 +166,17 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Reel_309-53%2C_1953_-_DPLA_-_2f11047e08a5c707e5667621bd9b9d1b_%28page_1084%29.jpg/1920px-Reel_309-53%2C_1953_-_DPLA_-_2f11047e08a5c707e5667621bd9b9d1b_%28page_1084%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/National_Archives._Washington%2C_D.C.%2C_Nov._22._After_leaving_the_humidifying_chamber%2C_the_documents_are_brought_to_the_special_ironers_to_take_all_remaining_wrinkles_out_LCCN2016876649.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Reel 309-53, 1953 - DPLA - 2f11047e08a5c707e5667621bd9b9d1b (page 1084).jpg
-      credit: Department of Defense. Department of the Navy. U.S. Marine Corps. 9/18/1947
+      title: National Archives. Washington, D.C., Nov. 22. After leaving the humidifying chamber, the documents are brought
+        to the special ironers to take all remaining wrinkles out LCCN2016876649.jpg
+      credit: Harris & Ewing, photographer
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Reel_309-53,_1953_-_DPLA_-_2f11047e08a5c707e5667621bd9b9d1b_(page_1084).jpg
+      url: https://commons.wikimedia.org/wiki/File:National_Archives._Washington,_D.C.,_Nov._22._After_leaving_the_humidifying_chamber,_the_documents_are_brought_to_the_special_ironers_to_take_all_remaining_wrinkles_out_LCCN2016876649.jpg
     fallbacks:
     - color
-    motion: zoom_in
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
 - text: A public search continues to locate these forgotten living monuments.

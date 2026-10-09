@@ -1,0 +1,173 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:18:07+05:30",
+      "check": {
+        "duration": 54.93,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'stickney' heard as 'stichny' after 'fragile face is'",
+          "'stickney' heard as 'stigny' after 'boulders blasted from'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong hook that immediately sets high stakes and interest.",
+        "clarity": "Logical flow explaining Phobos's size, structure, and survival.",
+        "payoff": "Great twist showing Mars will eventually finish what the impact started.",
+        "visuals": "Includes the wrong asteroid in beat 3 and watermarked footage in beat 7.",
+        "loop": "Seamless transition from tidal destruction back to the initial impact."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows asteroid Gaspra instead of the Martian moon Phobos."
+        },
+        {
+          "beat": 7,
+          "problem": "Features overlay text annotations and a visible copyright watermark."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode has a much smoother narrative loop compared to episode 097.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:20:02+05:30",
+      "check": {
+        "duration": 54.93,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'is' heard as '(nothing)' after 'sponge under phobos'",
+          "'stickney' heard as 'stigny' after 'boulders blasted from'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Numerical contrast effectively establishes immediate stakes.",
+        "clarity": "The narrative follows a logical, step-by-step progression.",
+        "payoff": "The sponge analogy provides a satisfying mechanical explanation.",
+        "visuals": "Imagery is generally strong, but one frame is low-quality.",
+        "loop": "Grammatical flow into the start is seamless and natural."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Image is a different asteroid and very low resolution."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "Phobos",
+          "respelling": "foe boes"
+        },
+        {
+          "beat": 3,
+          "word": "Stickney",
+          "respelling": "stik nee"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This short utilizes specific diameter ratios to build tension more effectively than recent episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:22:49+05:30",
+      "check": {
+        "duration": 55.03,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'is' heard as '(nothing)' after 'sponge under phobos'",
+          "'stickney' heard as 'stigny' after 'boulders blasted from'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Sets stakes and scale immediately for viewers.",
+        "clarity": "Sequences size comparisons and theories effectively.",
+        "payoff": "Geological explanation for surface features is satisfying.",
+        "visuals": "Shot five depicts a spacecraft rather than an impact.",
+        "loop": "Transitions seamlessly from future destruction to past impact."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows a spacecraft instead of the impact/debris described"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Explains internal composition better than the asteroid belt episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-09T17:22:49+05:30"
+}

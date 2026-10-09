@@ -1,0 +1,179 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-08T17:20:09+05:30",
+      "check": {
+        "duration": 52.75,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'call' heard as 'called' after 'missing this close'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The 'city killer' opening is a strong, attention-grabbing prompt for general audiences.",
+        "clarity": "The timeline from discovery to orbital calculation is logically sequenced and easy to digest.",
+        "payoff": "The 600-megaton comparison effectively highlights the magnitude of the narrowly avoided disaster.",
+        "visuals": "Several frames feel generic or represent different astronomical phenomena than those described.",
+        "loop": "The transition from 'sneak past us' back to 'slipped right past' creates a smooth cycle."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows a planet near a star rather than an asteroid passing Earth."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "Asclepius",
+          "respelling": "as klee pee us"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "The specific energy calculations provide a more visceral sense of danger than the previous solar storm episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:12:53+05:30",
+      "check": {
+        "duration": 52.93,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'asclepius' heard as 'as cleps' after 'planet designated 4581'",
+          "'call' heard as 'called' after 'missing this close'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong statement about an undetected city killer grabs attention quickly.",
+        "clarity": "Logical narrative progression with easy to follow timeline and facts.",
+        "payoff": "The 600-megaton potential impact provides a solid conclusion.",
+        "visuals": "Images are legible, but beat 3 displays the wrong asteroid orbit.",
+        "loop": "Last line connects smoothly into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Diagram shows orbit for asteroid 2001 SG286 instead of 4581 Asclepius."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "Asclepius",
+          "respelling": "ass klee pee us"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Offers stronger suspense and real-world stakes than ep087.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:15:07+05:30",
+      "check": {
+        "duration": 52.93,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'asclepius' heard as 'as cle ps' after 'planet designated 4581'",
+          "'call' heard as 'called' after 'missing this close'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise that instantly engages viewers.",
+        "clarity": "Logical chronological narrative that is easy to follow.",
+        "payoff": "Effective wrap-up detailing the impact on modern planetary defense.",
+        "visuals": "Clear visual presentation hampered by two text and diagram inaccuracies.",
+        "loop": "Seamlessly transitions back into the starting hook."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Orbit graphic displays the wrong asteroid label (2020 SL1)."
+        },
+        {
+          "beat": 4,
+          "problem": "Title card text '9 DAYS LATER' contradicts the spoken line 'Nine days earlier'."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "Asclepius",
+          "respelling": "as klee pee us"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short generates stronger real-world tension by focusing on a true historical near-miss event.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-09T17:15:07+05:30"
+}

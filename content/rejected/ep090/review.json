@@ -1,0 +1,162 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-08T17:15:21+05:30",
+      "check": {
+        "duration": 45.26,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": 3.0,
+        "warnings": [
+          "true peak 3.0 dBFS is above -1"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong opening contrast creates instant curiosity.",
+        "clarity": "Logical chronological progression that is easy to follow.",
+        "payoff": "Satisfying payoff with the delayed signal discovery.",
+        "visuals": "Multiple beats show later Venera lander designs instead of Venera 7.",
+        "loop": "Awkward repetition of the opening words instead of a seamless sentence flow."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "shows a later Venera lander design instead of Venera 7"
+        },
+        {
+          "beat": 5,
+          "problem": "displays a museum replica of a later Venera mission rather than Venera 7"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: 'Those faint tapes proved that'"
+      ],
+      "better_than_last": "Features a clearer narrative arc and resolution than ep071.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-08T17:19:23+05:30",
+      "check": {
+        "duration": 55.8,
+        "words": 130,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong contradiction between silence and speaking captures immediate attention.",
+        "clarity": "Logical chronological order makes the complex mission history easy to grasp.",
+        "payoff": "The discovery of the 23-minute signal successfully resolves the initial mystery.",
+        "visuals": "Beat 4 uses abstract chemical diagrams which distract from the landing narrative.",
+        "loop": "The final sentence ends the story rather than leading back to the start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Visual shows abstract molecular models and lightning instead of the descending probe."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Those faint tapes proved history was made by..."
+      ],
+      "better_than_last": "This episode offers a more cohesive character-driven narrative than the solar storm short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:13:11+05:30",
+      "check": {
+        "duration": 57.39,
+        "words": 135,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'crashed' heard as 'crash' after 'a'",
+          "'crashed' heard as 'crash' after 'made because a'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging hook about a silent probe transmitting from Venus later.",
+        "clarity": "Easy to follow linear story of Venera 7's mission.",
+        "payoff": "Good reveal of signal recovered from static weeks later.",
+        "visuals": "Beat 4 visual shows molecular diagrams rather than descent.",
+        "loop": "Smooth audio and visual loop returning to initial frame."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "shows molecular diagrams instead of probe descent"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Stronger narrative suspense and story arc than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-09T17:13:11+05:30"
+}

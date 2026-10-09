@@ -1,0 +1,182 @@
+id: ep107
+title: Why the Sun Isn't Actually Yellow
+series: Space Myths, Busted
+description: The Sun appears yellow from Earth, but it is actually blindingly white. Discover how our atmosphere steals blue
+  light to create this cosmic illusion.
+sources:
+- https://en.wikipedia.org/wiki/Sun
+- https://www.spacedaily.com/d-the-sun-might-look-yellow-but-seen-from-space-without-an-atmosphere-filtering-its-light-the-sun-is-actually-white-and-the-yellow-color-we-see-from-earth-is-the-result-of-our-atmosphere-scatteri/
+- https://scienceblog.com/the-sun-might-look-yellow-but-seen-from-space-without-an-atmosphere-filtering-its-light-the-sun-is-actually-white-and-the-yellow-color-we-see-from-earth-is-the-result-of-our-atmosphere-sca/
+- https://nibble-app.com/blog/is-the-sun-yellow-or-white
+- http://math.ucr.edu/home/baez/physics/General/BlueSky/blue_sky.html
+- https://en.wikipedia.org/wiki/Rayleigh_scattering
+hashtags:
+- '#space'
+- '#astronomy'
+- '#sun'
+tags:
+- sun
+- rayleigh scattering
+- space facts
+- atmosphere
+- white sun
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: We have been drawing the Sun the wrong color our entire lives.
+  emphasis:
+  - wrong color
+  - entire lives
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/ISS-47_Earth_Sunset_From_the_International_Space_Station.jpg/3840px-ISS-47_Earth_Sunset_From_the_International_Space_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ISS-47 Earth Sunset From the International Space Station.jpg
+      credit: NASA/Jeff Williams
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ISS-47_Earth_Sunset_From_the_International_Space_Station.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: For generations, children's drawings and even professional astronomers have classified our star as a yellow dwarf.
+  emphasis:
+  - yellow dwarf
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Vincent_van_Gogh_-_Olive_Trees_with_Yellow_Sky_and_Sun.jpg/960px-Vincent_van_Gogh_-_Olive_Trees_with_Yellow_Sky_and_Sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Vincent van Gogh - Olive Trees with Yellow Sky and Sun.jpg
+      credit: Vincent van Gogh
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Olive_Trees_with_Yellow_Sky_and_Sun.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Yellow Dwarf
+      small: Historical classification
+- text: But astronauts aboard the International Space Station observe a brilliant, blindingly white disk set against black
+    space.
+  emphasis:
+  - blindingly white disk
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/AS14-66-9344_-_Apollo_14_-_Apollo_14_Mission_image_-_The_Apollo_Command_and_Service_Modules_%28CSM%29_are_photographed_against_a_black_sky_background_from_the_Lunar_Module_%28LM%29_above_the_Moon._-_NARA_-_16697786.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS14-66-9344 - Apollo 14 - Apollo 14 Mission image - The Apollo Command and Service Modules (CSM) are photographed
+        against a black sky background from the Lunar Module (LM) above the Moon. - NARA - 16697786.jpg
+      credit: Unknown authorUnknown author or not provided
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS14-66-9344_-_Apollo_14_-_Apollo_14_Mission_image_-_The_Apollo_Command_and_Service_Modules_(CSM)_are_photographed_against_a_black_sky_background_from_the_Lunar_Module_(LM)_above_the_Moon._-_NARA_-_16697786.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Surprisingly, the Sun’s actual peak emission is in the green portion of the visible spectrum.
+  emphasis:
+  - green portion
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Celoria_-_Atlante_Astronomico%2C_1890_%28page_XXXVII_-_fig_2%29.jpg/1920px-Celoria_-_Atlante_Astronomico%2C_1890_%28page_XXXVII_-_fig_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Celoria - Atlante Astronomico, 1890 (page XXXVII - fig 2).jpg
+      credit: Giovanni Celoria
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Celoria_-_Atlante_Astronomico,_1890_(page_XXXVII_-_fig_2).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 500 nm
+      small: Peak solar wavelength
+- text: Human eyes perceive this broad mixture of wavelengths as white because it stimulates all our color receptors simultaneously.
+  emphasis:
+  - perceive
+  - all our color receptors
+  visual:
+    source: url
+    url: https://live.staticflickr.com/7397/9543521907_9dfa97de4d_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: Untitled
+      credit: Han Cheng Yeh
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/26719227@N00/9543521907
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This yellow star we see from Earth is actually an atmospheric illusion called Rayleigh scattering.
+  emphasis:
+  - atmospheric illusion
+  - Rayleigh scattering
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Baron_Rayleigh%2C_PB00682.jpg/1280px-Baron_Rayleigh%2C_PB00682.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Baron Rayleigh, PB00682.jpg
+      credit: Walker (artist) (graphic artist)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Baron_Rayleigh,_PB00682.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Rayleigh Scattering
+      small: Atmospheric illusion
+- text: Nitrogen and oxygen molecules deflect blue light away, leaving the remaining direct sunlight appearing yellow to our
+    eyes.
+  emphasis:
+  - deflect blue light
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/ISS066-E-25494_-_View_of_Earth.jpg/3840px-ISS066-E-25494_-_View_of_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ISS066-E-25494 - View of Earth.jpg
+      credit: Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ISS066-E-25494_-_View_of_Earth.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This stolen blue light paints our sky, while the leftover rays make us believe our white star is golden.
+  emphasis:
+  - stolen blue light
+  - white star is golden
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: OUR WHITE SUN

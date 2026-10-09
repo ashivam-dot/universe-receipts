@@ -1,0 +1,169 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:13:40+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong, evocative hook that grabs attention immediately.",
+        "clarity": "Clear chronological breakdown that is effortless to follow on one listen.",
+        "payoff": "Satisfying reveal of how the atmosphere permanently altered the rock's mass and trajectory.",
+        "visuals": "Multiple visual issues including a rotated diagram, a jet fighter, and an off-topic tilt diagram.",
+        "loop": "The final line seamlessly leads back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The diagram is rotated 90 degrees counter-clockwise."
+        },
+        {
+          "beat": 5,
+          "problem": "Shows a military jet fighter instead of a meteoroid."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows an Earth axial tilt diagram instead of an asteroid orbital tilt or atmospheric skipping trajectory."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The story structure creates a more immediate audio loop into the hook than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:19:25+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Highly engaging hook that immediately introduces a unique celestial event.",
+        "clarity": "Information is delivered sequentially and is very easy to comprehend.",
+        "payoff": "Satisfying ending detailing the meteor's altered mass and trajectory.",
+        "visuals": "Most frames are clear, but some diagrams are off-topic or in French.",
+        "loop": "Seamless verbal connection makes the loop highly effective."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The diagram shows military fighter jets, which is off-topic."
+        },
+        {
+          "beat": 7,
+          "problem": "The orbital diagram contains labels in French rather than English."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more compelling and focused historical narrative compared to previous episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:21:55+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'thank you for watching' after 'never seen again'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The premise is strong and quickly establishes the central conflict.",
+        "clarity": "Technical details are presented in a logical, step-by-step sequence.",
+        "payoff": "Scientific consequences like mass loss provide a satisfying ending.",
+        "visuals": "Assets occasionally contradict the script or use non-English text.",
+        "loop": "The final sentence does not transition smoothly into the start."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Visual depicts a night scene despite the script calling it a daylight event."
+        },
+        {
+          "beat": 7,
+          "problem": "Diagram text is in Italian, making it difficult for English viewers."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Now orbiting the sun once more, it remains..."
+      ],
+      "better_than_last": "This episode provides a much more relatable sense of scale than previous galactic stories.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals, loop; 2 frame problems",
+  "rejected_at": "2026-10-09T17:21:55+05:30"
+}

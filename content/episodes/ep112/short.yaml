@@ -26,24 +26,29 @@ voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: A city-killer asteroid hid in plain sight until just before impact.
+- text: A city-killer asteroid hid in plain sight before missing our planet.
   emphasis:
   - city-killer asteroid
   - plain sight
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/c/c0/Asteroidsscale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/5/51/PIA21259_-_Celestial_Object_2016_WF9%2C_a_NEOWISE_Discovery_%28Artist_Concept%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Asteroidsscale.jpg
-      credit: NASA/JPL-Caltech/JAXA/ESA
+      title: PIA21259 - Celestial Object 2016 WF9, a NEOWISE Discovery (Artist Concept).jpg
+      credit: NASA/JPL-Caltech
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Asteroidsscale.jpg
+      url: https://commons.wikimedia.org/wiki/File:PIA21259_-_Celestial_Object_2016_WF9,_a_NEOWISE_Discovery_(Artist_Concept).jpg
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.38
+    focus_y: 0.48
+    box:
+    - 0.24
+    - 0.23
+    - 0.52
+    - 0.73
 - text: In July 2019, 2019 OK screamed past us at nearly 55,000 miles per hour.
   emphasis:
   - 2019 OK
@@ -73,13 +78,13 @@ beats:
   - distance to the Moon
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Moon_Phase_and_Libration%2C_2026_%28SVS5587_-_fancy%29.jpg/1280px-Moon_Phase_and_Libration%2C_2026_%28SVS5587_-_fancy%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Moon_Phase_and_Libration%2C_2026_South_Up_%28SVS5588_-_distance%29.jpg/1280px-Moon_Phase_and_Libration%2C_2026_South_Up_%28SVS5588_-_distance%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Moon Phase and Libration, 2026 (SVS5587 - fancy).jpg
+      title: Moon Phase and Libration, 2026 South Up (SVS5588 - distance).jpg
       credit: NASA's Scientific Visualization Studio - USRA/Ernie Wright, NASA/GSFC/Noah Petro, eMITS/James Tralie
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Moon_Phase_and_Libration,_2026_(SVS5587_-_fancy).jpg
+      url: https://commons.wikimedia.org/wiki/File:Moon_Phase_and_Libration,_2026_South_Up_(SVS5588_-_distance).jpg
     fallbacks:
     - color
     motion: pan_left
@@ -171,14 +176,14 @@ beats:
       kind: fact
       big: SONEAR
       small: Brazil
-- text: This Apollo-class rock won't return for 200 years, but it proved how a city-killer asteroid hid in plain sight.
+- text: This Apollo-class rock won't return for 200 years, but it proved how easily a giant asteroid can sneak up on us.
   emphasis:
   - 200 years
-  - hid in plain sight
+  - sneak up on us
   sfx: whoosh
   visual:
     reuse: 1
     motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.38
+    focus_y: 0.48
 hook_text: CITY-KILLER NEAR MISS

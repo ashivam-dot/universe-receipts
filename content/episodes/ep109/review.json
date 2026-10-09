@@ -1,0 +1,51 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:17:26+05:30",
+      "check": {
+        "duration": 55.66,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'hanny' heard as 'hanni' after 'by dutch schoolteacher'",
+          "'leo minor' heard as 'leominer' after 'years away in'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong premise regarding a mysterious glowing cloud.",
+        "clarity": "Sequencing of discovery and science is clear.",
+        "payoff": "The quasar reveal resolves the hook well.",
+        "visuals": "Relevant images and diagrams clarify the science.",
+        "loop": "Effective narrative bridge back to the beginning."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Uses technical diagrams effectively to simplify a complex light-echo concept.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 1
+}

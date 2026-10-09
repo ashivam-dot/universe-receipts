@@ -1,0 +1,169 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-08T17:12:10+05:30",
+      "check": {
+        "duration": 50.5,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'exaelectronvolts' heard as 'exalectron volts' after 'proton packed 320'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The comparison of a single particle to a thrown baseball immediately arrests attention.",
+        "clarity": "Concepts and scale comparisons progress in an accessible sequence.",
+        "payoff": "The discovery of empty space at the point of origin provides a strong mystery.",
+        "visuals": "Beat 2 is mostly text and Beat 6 displays an irrelevant CMB map.",
+        "loop": "The final sentence repeats the hook verbatim instead of bridging back into it smoothly."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 6,
+          "problem": "off-topic cosmic microwave background map"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "exaelectronvolts",
+          "respelling": "ex uh ee lek tron volts"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: These cosmic voids keep firing mysteries just like this:"
+      ],
+      "better_than_last": "It presents a more compelling unsolved cosmic mystery than the recent solar storm and galactic collision shorts.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:12:07+05:30",
+      "check": {
+        "duration": 45.77,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after '1991 the fly'",
+          "'exaelectronvolts' heard as 'xa electron volts' after 'it packed 320'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The baseball analogy creates an immediate, effective hook.",
+        "clarity": "Narrative moves logically from detection to cosmic mystery.",
+        "payoff": "The void origin delivers an intriguing scientific twist.",
+        "visuals": "Relevant science graphics, though beat 6 shows crowded galaxies instead of empty space.",
+        "loop": "Phrasing connects smoothly into the opening beat."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows a crowded field of galaxies instead of empty space"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Delivers a more compelling physical analogy in the hook than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:14:04+05:30",
+      "check": {
+        "duration": 45.77,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after '1991 the fly'",
+          "'exaelectronvolts' heard as 'xa electron volts' after 'it packed 320'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The baseball analogy makes an abstract particle immediately relatable.",
+        "clarity": "Concepts build logically with simple numbers and clear focus.",
+        "payoff": "The origin tracing to empty voids delivers a satisfying mystery.",
+        "visuals": "Visuals match the narrative, but beat 2 is an unlisted text slide.",
+        "loop": "Seamless transition from the closing cliffhanger into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The baseball metaphor grounds the scale far better than raw speeds or sizes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-09T17:14:04+05:30"
+}

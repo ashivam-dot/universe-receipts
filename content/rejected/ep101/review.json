@@ -1,0 +1,155 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:12:41+05:30",
+      "check": {
+        "duration": 54.83,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'panicked' heard as 'panic'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong historical absurdity grabs interest immediately.",
+        "clarity": "Logical chronological progression and clear explanations.",
+        "payoff": "The twist revealing a harmless, coal-dark dirty snowball lands well.",
+        "visuals": "Reusing the probe diagram for the nucleus description weakens visual interest.",
+        "loop": "Seamless grammatical transition back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows the spacecraft diagram instead of the dark comet nucleus."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Features an engaging human-interest historical panic rather than standard astronomical statistics.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:16:16+05:30",
+      "check": {
+        "duration": 54.83,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'panicked' heard as 'panic'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "A highly engaging and bizarre historical hook that immediately grabs the viewer's interest.",
+        "clarity": "The narrative flows logically from historical panic to scientific clarification without confusion.",
+        "payoff": "The revelation that the terrifying toxin was just a harmless, dusty ice ball is a satisfying twist.",
+        "visuals": "The repetitive use of the probe drawing in beat seven fails to illustrate the dark comet nucleus.",
+        "loop": "The transition loops seamlessly, connecting the end of the script directly back to the beginning."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The frame repeats the space probe drawing instead of showing the dark comet nucleus described."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode leverages a compelling historical human-interest angle that is more relatable than the purely scientific concepts of recent videos.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:19:04+05:30",
+      "check": {
+        "duration": 54.83,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'panicked' heard as 'panic'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing historical hook that immediately captures attention.",
+        "clarity": "Very clear explanation of the scientific panic and subsequent letdown.",
+        "payoff": "Nice contrast between the historical terror and the harmless reality.",
+        "visuals": "Beat 7 incorrectly reuse the spacecraft diagram instead of showing the dark nucleus.",
+        "loop": "Seamless connection of the ending line back into the hook."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows a technical diagram of a spacecraft instead of the dark comet nucleus described."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode uses a unique historical panic angle which is more human and engaging than the dry facts of recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-09T17:19:04+05:30"
+}

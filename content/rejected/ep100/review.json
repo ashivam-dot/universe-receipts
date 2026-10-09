@@ -1,0 +1,174 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T17:14:38+05:30",
+      "check": {
+        "duration": 52.89,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'ii' heard as 'the 2nd' after 'humans ever artemis'",
+          "'s' heard as 'is' after 'ii is nasa'",
+          "'reid wiseman' heard as 'reed weissman' after 'orbit but commander'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial claim about human spaceflight distance.",
+        "clarity": "Straightforward timeline of the mission plan.",
+        "payoff": "Reveals the Apollo 13 record comparison cleanly.",
+        "visuals": "Beat 5 diagram text is small and hard to read on phone screen.",
+        "loop": "Ending phrasing connects naturally to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Diagram contains small unreadable text labels."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Clearer real-world mission timeline than previous episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:17:27+05:30",
+      "check": {
+        "duration": 52.9,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'ii' heard as 'the 2nd' after 'humans ever artemis'",
+          "'s' heard as 'is' after 'ii is nasa'",
+          "'reid wiseman' heard as 'reed weissman' after 'orbit but commander'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Strong hook that immediately introduces a historic space mission.",
+        "clarity": "Clear, easy-to-follow explanation of the mission's phases and goals.",
+        "payoff": "Shattering Apollo 13's record is a fantastic and historically significant payoff.",
+        "visuals": "Outstanding, high-quality images of the crew, hardware, and space views.",
+        "loop": "The last sentence repeats the first sentence almost word-for-word, creating an awkward replay."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: And in 2026, NASA will launch these..."
+      ],
+      "better_than_last": "This Short features much stronger visual assets and a more compelling historical comparison than recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:19:56+05:30",
+      "check": {
+        "duration": 51.16,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'ii' heard as 'the 2nd' after 'humans ever artemis'",
+          "'s' heard as 'is' after 'ii is nasa'",
+          "'reid wiseman' heard as 'reed weissman' after 'orbit but commander'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong opening highlights a major human record.",
+        "clarity": "Logical mission progression from Earth to Moon.",
+        "payoff": "Apollo 13 comparison provides historical weight.",
+        "visuals": "Quality renders align with mission specifics.",
+        "loop": "The closing phrase is somewhat clunky for looping."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "AI-generated crew image shows distorted facial features."
+        },
+        {
+          "beat": 5,
+          "problem": "Captions significantly obscure the spacecraft subject."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Wiseman",
+          "respelling": "wyze man"
+        }
+      ],
+      "rewrite": [
+        "Beat 5: Powered by a European Service Module, the Orion spacecraft will reach between 44,000 and 46,000 miles.",
+        "Beat 9: And soon, NASA will launch these."
+      ],
+      "better_than_last": "Provides a more engaging historical comparison than ep087.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: loop; 2 frame problems",
+  "rejected_at": "2026-10-09T17:19:56+05:30"
+}

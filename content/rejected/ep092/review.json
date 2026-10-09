@@ -1,0 +1,176 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-08T17:16:29+05:30",
+      "check": {
+        "duration": 55.33,
+        "words": 120,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'przybylski' heard as 'p arzybilski' after '1961 astronomer antoni'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Decent hook that introduces an intriguing cosmic mystery, though a bit slow to build tension.",
+        "clarity": "The script uses technical concepts like spectral line crowding that confuse general viewers.",
+        "payoff": "The conclusion contradicts itself by debunking the premise and then immediately reinforcing it.",
+        "visuals": "Several frames use academic diagrams and dark maps that are illegible on phone screens.",
+        "loop": "The final line does not lead naturally or grammatically into the start of the first line."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The academic chemistry diagram is cluttered and contains too much unreadable text."
+        },
+        {
+          "beat": 6,
+          "problem": "The constellation chart is too dark and the red labels are illegible."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Przybylski",
+          "respelling": "psh ih bil skee"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: While some blame alien nuclear waste, others believe crowded stellar light lines simply mimic this impossible signal.",
+        "Beat 8: But if this radioactive waste is real, it must be constantly replenished on"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:14:47+05:30",
+      "check": {
+        "duration": 53.93,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": 3.2,
+        "warnings": [
+          "true peak 3.2 dBFS is above -1"
+        ],
+        "speech_differences": [
+          "'przybylski' heard as 'p arzybilski' after '1961 astronomer antoni'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong mystery established immediately with the radioactive element premise.",
+        "clarity": "Logical progression from standard star chemistry to the anomaly.",
+        "payoff": "Offers intriguing theories, from alien waste to spectral mimicry.",
+        "visuals": "Generally appropriate historical slides, but beat 6 is completely off-topic.",
+        "loop": "Seamless transition from the final word back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows a decorative ceramic tile instead of a star or radioactive decay."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script presents a more compelling mystery with multiple competing theories than recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T17:17:30+05:30",
+      "check": {
+        "duration": 53.93,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'przybylski' heard as 'p arzybilski' after '1961 astronomer antoni'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The radioactive angle is strong but the initial line is slightly clinical.",
+        "clarity": "The progression from standard star composition to the anomaly is logical.",
+        "payoff": "The mention of alien waste provides a satisfyingly weird possible explanation.",
+        "visuals": "Most frames are relevant, though one contains prominent non-English text.",
+        "loop": "The transition from the final descriptor back to the subject is perfect."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The periodic table used contains text in a foreign language."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Przybylski",
+          "respelling": "pshi bill skee"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode explains a complex chemical paradox more clearly than the physics in the black hole short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-09T17:17:30+05:30"
+}
