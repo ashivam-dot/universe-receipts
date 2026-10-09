@@ -1,0 +1,116 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T05:30:48+05:30",
+      "check": {
+        "duration": 51.43,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'station is' heard as 'stations' after 'to cut their'",
+          "'tsibliyev' heard as 'tzibliev' after 'wrong commander vasily'",
+          "'spektr' heard as 'specter' after 'into mir is'",
+          "'spektr' heard as 'spectre' after 'crew sealed off'",
+          "'station is' heard as 'stations' after 'must cut their'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Rawpixel via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "High stakes premise immediately captures attention.",
+        "clarity": "Historical timeline is easy to follow.",
+        "payoff": "Resolves the hook with intense technical details.",
+        "visuals": "Beat seven's casual image breaks the tension.",
+        "loop": "Text matches the start for a seamless cycle."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "off-topic image showing an astronaut eating snacks during a critical emergency"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-09T05:33:30+05:30",
+      "check": {
+        "duration": 51.43,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'station is' heard as 'stations' after 'to cut their'",
+          "'tsibliyev' heard as 'tzibliev' after 'wrong commander vasily'",
+          "'spektr' heard as 'specter' after 'into mir is'",
+          "'spektr' heard as 'spectre' after 'crew sealed off'",
+          "'station is' heard as 'stations' after 'must cut their'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Rawpixel via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The premise is strong but reveals the story's resolution immediately.",
+        "clarity": "The linear timeline makes complex orbital events easy to follow.",
+        "payoff": "The survival method is revealed in the hook, removing suspense.",
+        "visuals": "Beat 7 uses a static portrait that fails to illustrate the crisis.",
+        "loop": "The final sentence flows naturally back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Static headshot of an astronaut does not depict the emergency cable cutting."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: In 1997, the Mir space station was nearly destroyed by its own cargo ship.",
+        "Beat 9: This harrowing near-miss proved that to survive a collision..."
+      ],
+      "better_than_last": "This episode provides more specific historical dates and names than the asteroid belt video.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

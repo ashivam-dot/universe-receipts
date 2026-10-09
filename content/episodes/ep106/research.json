@@ -1,0 +1,305 @@
+{
+  "viable": true,
+  "reason": "The sources corroborate over a dozen atomic facts across seven distinct sites detailing Mariner 1's launch failure, the missing overbar bug, and Mariner 2's subsequent success.",
+  "story": "On July 22, 1962, NASA launched Mariner 1 toward Venus aboard an Atlas-Agena rocket, aiming for humanity's first planetary flyby. Less than five minutes into the flight, the rocket began fishtailing erratically. Heading dangerously toward Atlantic shipping lanes, it was blown apart by the range safety officer at 293 seconds, just six seconds before booster separation. The culprit became legendary when Arthur C. Clarke dubbed it the most expensive hyphen in history. But it was not actually a hyphen. Transcribers copying handwritten flight equations into computer code had omitted a single mathematical overbar above the letter R. That overbar instructed the ground computer to smooth out noisy radar data. When an onboard beacon briefly glitched, the guidance software mistook minor jitter for extreme velocity changes, sending violent corrections that wrecked the flight. Fortunately, NASA launched identical twin Mariner 2 five weeks later with corrected code, making history at Venus.",
+  "angle": "NASA's first planetary mission was blown out of the sky because a transcriber forgot to draw a single horizontal bar over the letter R in handwritten guidance math.",
+  "claims": [
+    {
+      "claim": "Mariner 1 was designed to conduct the first American planetary flyby of Venus.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mariner 1 launched from Cape Canaveral on an Atlas-Agena rocket on July 22, 1962.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "During ascent, the rocket began veering off course toward Atlantic shipping lanes.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A range safety officer sent a destruct command, blowing the rocket apart in flight.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The self-destruct order was issued approximately 293 seconds after liftoff, less than five minutes into the flight.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The destruct command was sent roughly six seconds before the Agena upper stage was scheduled to separate, after which destruction would no longer be possible.",
+      "sources": [
+        "S1",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Popular press accounts and Arthur C. Clarke famously dubbed the missing symbol the most expensive hyphen in history.",
+      "sources": [
+        "S1",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The missing symbol was not a hyphen, but a mathematical overbar written above the letter R.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The overbar functioned as a smoothing operator instructing the computer to average tracking data over time instead of reacting to raw radar readings.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Without the smoothing bar, the guidance software treated minor signal noise as wild velocity fluctuations and issued erroneous steering corrections.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The failure was a compound fault requiring both the software omission and an in-flight hardware radar tracking failure to trigger.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The identical flawed guidance code had previously flown on Ranger lunar missions without failing because the hardware tracking beacon had not glitched.",
+      "sources": [
+        "S1",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mariner 1 carried scientific instruments to probe Venus's atmosphere and magnetic field, but did not carry a visual camera.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The loss of Mariner 1 represented an 18.5 million dollar setback for NASA in 1962 dollars.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA launched the identical backup probe Mariner 2 about five weeks later on August 27, 1962.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mariner 2 successfully flew past Venus on December 14, 1962, becoming the first spacecraft to fly by another planet and transmit data.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Hyphen vs. Overbar: Popular media and Arthur C. Clarke claimed a missing hyphen caused the explosion, but technical investigations proved it was a missing mathematical overbar over the letter R denoting a smoothed value; scripts should present the hyphen label as a popular misnomer.",
+    "Destruct timing: S2 states T+294.5 seconds, while S3, S5, S6, and S7 state 293 seconds; scripts should round to approximately 293 seconds or under five minutes.",
+    "Necessity of destruction: Program director Jack James believed destroying the rocket was unnecessary because it would have fallen harmlessly in the open ocean; scripts should attribute this claim specifically to James."
+  ],
+  "visuals": [
+    {
+      "subject": "Mariner 1 undergoing pre-launch assembly at the Jet Propulsion Laboratory",
+      "queries": [
+        "Mariner 1 spacecraft assembly JPL",
+        "Mariner 1 clean room 1962"
+      ]
+    },
+    {
+      "subject": "Mariner 1 Atlas-Agena rocket on Cape Canaveral Launch Complex 12",
+      "queries": [
+        "Mariner 1 Atlas-Agena launch",
+        "Launch Complex 12 Atlas Agena"
+      ]
+    },
+    {
+      "subject": "Technical diagram showing the layout of the Mariner R spacecraft and instruments",
+      "queries": [
+        "Mariner 1 spacecraft diagram",
+        "Mariner R spacecraft diagram"
+      ]
+    },
+    {
+      "subject": "Mariner 2 spacecraft flight model with solar panels deployed",
+      "queries": [
+        "Mariner 2 spacecraft model",
+        "Mariner 2 spacecraft artist concept"
+      ]
+    },
+    {
+      "subject": "Atlas-Agena rocket launch carrying Mariner 2 from Cape Canaveral",
+      "queries": [
+        "Mariner 2 launch Cape Canaveral",
+        "Mariner 2 Atlas Agena liftoff"
+      ]
+    },
+    {
+      "subject": "Vintage IBM 7090 or Burroughs mainframe computers used for spaceflight tracking",
+      "queries": [
+        "Burroughs guidance computer Cape Canaveral",
+        "Atlas guidance computer 1960s"
+      ]
+    },
+    {
+      "subject": "Ultraviolet telescopic photograph of Venus cloud canopy",
+      "queries": [
+        "Venus planet ultraviolet Mariner 10",
+        "Venus atmosphere Pioneer Venus"
+      ]
+    },
+    {
+      "subject": "Early Ranger lunar spacecraft upon which Mariner 1's airframe was based",
+      "queries": [
+        "Ranger 1 spacecraft JPL",
+        "Ranger spacecraft lunar probe"
+      ]
+    },
+    {
+      "subject": "Carl Sagan reviewing Mariner planetary mission hardware at JPL",
+      "queries": [
+        "Carl Sagan Mariner model JPL",
+        "Carl Sagan 1960s NASA"
+      ]
+    },
+    {
+      "subject": "Cape Canaveral Atlantic Missile Range tracking radar dish",
+      "queries": [
+        "Cape Canaveral radar antenna 1960s",
+        "Atlantic Missile Range tracking antenna"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Mariner_1",
+      "title": "Mariner 1",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://science.nasa.gov/mission/mariner-1/",
+      "title": "Mariner 1 - NASA Science",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.space.com/18746-mariner-2.html",
+      "title": "Mariner 2: First Spacecraft to Another Planet",
+      "site": "space.com"
+    },
+    {
+      "label": "S4",
+      "url": "http://catless.ncl.ac.uk/Risks/8.75.html#subj1",
+      "title": "The RISKS Digest, Volume 8 Issue 75",
+      "site": "ncl.ac.uk"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.spacedaily.com/sd-in-july-1962-a-nasa-engineer-transcribing-the-mariner-1-guidance-code-missed-a-single-overbar-above-the-letter-r-and-293-seconds-after-launch-the-rocket-veered-off-course-over-the-atlantic-and-had/",
+      "title": "In July 1962, a NASA engineer transcribing the Mariner 1 guidance code missed a single overbar above the letter R, and 293 seconds after launch the rocket veered off course over the Atlantic and had to be destroyed — a hyphen-shaped error that Arthur C. Clarke later called the most expensive missing punctuation mark in history",
+      "site": "spacedaily.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://terradaily.com/td-in-1962-a-single-missing-hyphen-in-the-guidance-code-of-mariner-1-sent-the-venus-bound-probe-veering-off-course-293-seconds-after-launch-forcing-range-safety-to-destroy-a-18-5-million-spacecraft-ov/",
+      "title": "In 1962, a single missing hyphen in the guidance code of Mariner 1 sent the Venus-bound probe veering off course 293 seconds after launch, forcing range safety to destroy a $18.5 million spacecraft over a punctuation mark.",
+      "site": "terradaily.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://scienceblog.com/sb-in-1962-a-single-missing-hyphen-in-the-guidance-code-of-mariner-1-sent-the-venus-probe-veering-off-course-seconds-after-launch-and-range-safety-destroyed-a-80-million-spacecraft-that-arthur-c-clark/",
+      "title": "In 1962, a missing overbar in Mariner 1’s guidance code helped send America’s Venus probe off course, forcing range safety to destroy an $18.5 million spacecraft in under five minutes",
+      "site": "scienceblog.com"
+    }
+  ],
+  "topic": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
+  "series": "Mission Files"
+}

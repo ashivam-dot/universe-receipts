@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-09T05:18:14+05:30",
+  "updated_at": "2026-10-09T11:07:48+05:30",
   "day": 8,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4EXXJNT205S0S8Q3X32DVVR",
+    "id": "ta-01M4FJGPVH3ZDW1G3RMSRS6KRR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-09T05:05:18+05:30",
-    "started_at_utc": "2026-10-08T23:35:18+00:00",
-    "seconds": 776
+    "started_at": "2026-10-09T11:05:06+05:30",
+    "started_at_utc": "2026-10-09T05:35:06+00:00",
+    "seconds": 162
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.8
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "27 posts",
-      "seconds": 2.5
+      "detail": "28 posts",
+      "seconds": 0.8
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep047 to 'Space Myths, Busted'",
-      "seconds": 5.4
+      "detail": "added ep046 to 'Space Got Weird'",
+      "seconds": 1.9
     },
     {
       "name": "languages",
@@ -45,102 +45,96 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep017 at 72 h: ahead of the channel's earlier Shorts at this age: 1249 views against a median of 979 (1.3x); ep030 at 24 h: ahead of the channel's earlier Shorts at this age: 1081 views against a median of 829 (1.3x); ep060 at 6 h: level with the channel's earlier Shorts at this age: 708 views against a median of 774 (0.9x); learnings: Reviewed recent Shorts and updated rules for pacing and hook structures to address late-video retention drops.",
-      "seconds": 709.2
+      "detail": "ep035 at 72 h: ahead of the channel's earlier Shorts at this age: 1324 views against a median of 1004 (1.3x); ep040 at 24 h: behind the channel's earlier Shorts at this age: 425 views against a median of 921 (0.5x); ep047 at 6 h: ahead of the channel's earlier Shorts at this age: 1273 views against a median of 741 (1.7x); learnings: Updated the curiosity gap rule with ep040 and added two new hypotheses targeting pace-slowing historical beats and early safety resolutions.",
+      "seconds": 130.8
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep101 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep102 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep103 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
-      "seconds": 22.6
+      "detail": "ep105 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep106 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep107 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
+      "seconds": 9.4
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.4
-    },
-    {
-      "name": "preflight ep046",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 1.3
+      "seconds": 0.1
     },
     {
       "name": "preflight ep049",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.9
+      "seconds": 0.5
     },
     {
       "name": "preflight ep052",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.9
+      "seconds": 0.3
     },
     {
       "name": "preflight ep086",
       "ok": true,
-      "detail": "video downloads whole (16 MB in 2 s)",
-      "seconds": 2.6
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 3.5
+      "seconds": 1.4
     },
     {
-      "name": "schedule ep045",
+      "name": "schedule ep079",
       "ok": true,
-      "detail": "2026-10-12T21:30:00-04:00",
-      "seconds": 1.9
+      "detail": "2026-10-13T19:00:00-04:00",
+      "seconds": 0.7
     },
     {
-      "name": "start ep105",
+      "name": "start ep109",
       "ok": true,
-      "detail": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
-      "seconds": 3.8
+      "detail": "Hanny's Voorwerp (2007): a galaxy-sized green structure that is actually a light \"echo\" from a quasar that died 100,000 years ago",
+      "seconds": 0.6
     },
     {
-      "name": "start ep106",
+      "name": "start ep110",
       "ok": true,
-      "detail": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
-      "seconds": 1.5
+      "detail": "Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one",
+      "seconds": 0.6
     },
     {
-      "name": "start ep107",
+      "name": "start ep111",
       "ok": true,
-      "detail": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
-      "seconds": 1.5
+      "detail": "Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology",
+      "seconds": 0.6
     },
     {
-      "name": "start ep108",
+      "name": "start ep112",
       "ok": true,
-      "detail": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
-      "seconds": 3.7
+      "detail": "2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach",
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 0.7
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep101 stopped on Gemini's free quota; it resumes in a later run",
-    "ep102 stopped on Gemini's free quota; it resumes in a later run",
-    "ep103 stopped on Gemini's free quota; it resumes in a later run",
-    "ep104 stopped on Gemini's free quota; it resumes in a later run",
+    "ep105 stopped on Gemini's free quota; it resumes in a later run",
+    "ep106 stopped on Gemini's free quota; it resumes in a later run",
+    "ep107 stopped on Gemini's free quota; it resumes in a later run",
+    "ep108 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 11 waiting"
+    "Buffer is full (10 queued); 10 waiting"
   ],
   "inventory": {
-    "total": 21,
+    "total": 20,
     "in_buffer": 10,
-    "waiting": 11,
+    "waiting": 10,
     "target": 42,
     "making": [
       "ep088",
@@ -158,21 +152,20 @@
       "ep101",
       "ep102",
       "ep103",
-      "ep104"
-    ],
-    "remote": [
+      "ep104",
       "ep105",
       "ep106",
       "ep107",
       "ep108"
+    ],
+    "remote": [
+      "ep109",
+      "ep110",
+      "ep111",
+      "ep112"
     ]
   },
   "queue": [
-    {
-      "id": "ep046",
-      "title": "The Cosmic Flashes Found by Cold War Satellites",
-      "due_at": "2026-10-08T21:30:00-04:00"
-    },
     {
       "id": "ep086",
       "title": "The Star That Survived Its Own Supernova",
@@ -217,6 +210,11 @@
       "id": "ep045",
       "title": "Why NASA Killed a $3B Spacecraft",
       "due_at": "2026-10-12T21:30:00-04:00"
+    },
+    {
+      "id": "ep079",
+      "title": "The Cosmic Colossus That Baffles Astronomers",
+      "due_at": "2026-10-13T19:00:00-04:00"
     }
   ],
   "waiting": [
@@ -269,12 +267,6 @@
       "score": 20
     },
     {
-      "id": "ep079",
-      "title": "The Cosmic Colossus That Baffles Astronomers",
-      "series": "Scale Breaker",
-      "score": 24
-    },
-    {
       "id": "ep087",
       "title": "The Lonely Reality of the Asteroid Belt",
       "series": "Space Myths, Busted",
@@ -289,33 +281,33 @@
   ],
   "made": [
     {
-      "id": "ep101",
+      "id": "ep105",
       "outcome": "unfinished",
-      "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
+      "topic": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep102",
+      "id": "ep106",
       "outcome": "unfinished",
-      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
+      "topic": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep103",
+      "id": "ep107",
       "outcome": "unfinished",
-      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
+      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep104",
+      "id": "ep108",
       "outcome": "unfinished",
-      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
+      "topic": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -323,56 +315,56 @@
   ],
   "spawned": [
     {
-      "id": "ep105",
-      "topic": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
-      "call_id": "fc-01M4EYNF2CZ70HH1GGBADQ6A80"
+      "id": "ep109",
+      "topic": "Hanny's Voorwerp (2007): a galaxy-sized green structure that is actually a light \"echo\" from a quasar that died 100,000 years ago",
+      "call_id": "fc-01M4FJNQA82K83TH31NKS1N2TJ"
     },
     {
-      "id": "ep106",
-      "topic": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
-      "call_id": "fc-01M4EYNGHYTY9CP44B1ERQ7C0V"
+      "id": "ep110",
+      "topic": "Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one",
+      "call_id": "fc-01M4FJNQW5KNTC575FE14DH3V1"
     },
     {
-      "id": "ep107",
-      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
-      "call_id": "fc-01M4EYNJ1VFDB5SPJ73S8XKK35"
+      "id": "ep111",
+      "topic": "Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology",
+      "call_id": "fc-01M4FJNREVCHGFZ71FEJ6SGNZC"
     },
     {
-      "id": "ep108",
-      "topic": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
-      "call_id": "fc-01M4EYNNMF3BZ61BDHW4PN9KEG"
+      "id": "ep112",
+      "topic": "2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach",
+      "call_id": "fc-01M4FJNS0EM9JVJTYHJBKH0483"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep105",
-      "topic": "Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail",
-      "spawned_at": "2026-10-09T05:18:05+05:30"
+      "id": "ep109",
+      "topic": "Hanny's Voorwerp (2007): a galaxy-sized green structure that is actually a light \"echo\" from a quasar that died 100,000 years ago",
+      "spawned_at": "2026-10-09T11:07:45+05:30"
     },
     {
-      "id": "ep106",
-      "topic": "Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed",
-      "spawned_at": "2026-10-09T05:18:07+05:30"
+      "id": "ep110",
+      "topic": "Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one",
+      "spawned_at": "2026-10-09T11:07:45+05:30"
     },
     {
-      "id": "ep107",
-      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
-      "spawned_at": "2026-10-09T05:18:08+05:30"
+      "id": "ep111",
+      "topic": "Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology",
+      "spawned_at": "2026-10-09T11:07:46+05:30"
     },
     {
-      "id": "ep108",
-      "topic": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
-      "spawned_at": "2026-10-09T05:18:12+05:30"
+      "id": "ep112",
+      "topic": "2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach",
+      "spawned_at": "2026-10-09T11:07:47+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep045",
-      "title": "Why NASA Killed a $3B Spacecraft",
-      "due_at": "2026-10-12T21:30:00-04:00"
+      "id": "ep079",
+      "title": "The Cosmic Colossus That Baffles Astronomers",
+      "due_at": "2026-10-13T19:00:00-04:00"
     }
   ],
-  "live": 18,
+  "live": 19,
   "failed_posts": [],
   "not_live": [
     {
@@ -381,42 +373,38 @@
     }
   ],
   "llm": {
-    "calls": 20,
+    "calls": 32,
     "by_model": {
-      "gemini-3.5-flash": 3,
-      "gemini-3-flash-preview": 3,
+      "gemini-3.6-flash": 4,
+      "gemini-3.5-flash": 7,
+      "gemini-3.8-flash": 1,
+      "gemini-3.7-flash": 3,
       "gemini-3.5-flash-lite": 11,
-      "gemini-3.6-flash": 1,
-      "gemini-3.1-flash-lite": 2
+      "gemini-3-flash-preview": 6
     },
     "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest"
+      "gemini-3.6-flash"
     ]
   },
   "renders": {
-    "modal": 4,
+    "modal": 8,
     "runner": 0
   },
   "daily_done": "2026-10-08",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 10.75,
+    "metered": 11.09,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 143,
+    "cloud": 141,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 17.25
+    "modal_credit_left": 16.92
   },
   "made_here": 0,
-  "open_topics": 31,
+  "open_topics": 27,
   "parked_topics": 36
 }

@@ -1,0 +1,183 @@
+id: ep106
+title: The Missing Hyphen That Wasn't a Hyphen
+series: Mission Files
+description: NASA's Mariner 1 destroyed itself in 1962, but popular history got the coding glitch wrong.
+sources:
+- https://en.wikipedia.org/wiki/Mariner_1
+- https://www.spacedaily.com/sd-in-july-1962-a-nasa-engineer-transcribing-the-mariner-1-guidance-code-missed-a-single-overbar-above-the-letter-r-and-293-seconds-after-launch-the-rocket-veered-off-course-over-the-atlantic-and-had/
+- https://scienceblog.com/sb-in-1962-a-single-missing-hyphen-in-the-guidance-code-of-mariner-1-sent-the-venus-probe-veering-off-course-seconds-after-launch-and-range-safety-destroyed-a-80-million-spacecraft-that-arthur-c-clark/
+- https://science.nasa.gov/mission/mariner-1/
+- http://catless.ncl.ac.uk/Risks/8.75.html#subj1
+- https://terradaily.com/td-in-1962-a-single-missing-hyphen-in-the-guidance-code-of-mariner-1-sent-the-venus-bound-probe-veering-off-course-293-seconds-after-launch-forcing-range-safety-to-destroy-a-18-5-million-spacecraft-ov/
+- https://www.space.com/18746-mariner-2.html
+hashtags:
+- '#space'
+- '#mariner1'
+- '#nasa'
+tags:
+- mariner 1
+- nasa
+- space history
+- mariner 2
+- venus
+- coding error
+- astronomy
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: A missing hyphen did not actually destroy NASA's first interplanetary rocket.
+  emphasis:
+  - did not
+  - missing hyphen
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Mariner_2_illustration.jpg/960px-Mariner_2_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mariner 2 illustration.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mariner_2_illustration.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: On July 22, 1962, Mariner 1 launched toward Venus aboard an Atlas-Agena rocket.
+  emphasis:
+  - Mariner 1
+  - July 22, 1962
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Atlas_Agena_with_Mariner_1.jpg/1920px-Atlas_Agena_with_Mariner_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Atlas Agena with Mariner 1.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Atlas_Agena_with_Mariner_1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.52
+    focus_y: 0.45
+    box:
+    - 0.45
+    - 0.08
+    - 0.58
+    - 0.65
+    card:
+      kind: dateline
+      big: July 22, 1962
+      small: Cape Canaveral
+- text: At 293 seconds, wild steering corrections forced a safety officer to detonate the spacecraft.
+  emphasis:
+  - 293 seconds
+  - detonate
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 293 seconds
+      small: time to destruction
+    motion: zoom_in
+- text: Author Arthur C. Clarke and press accounts famously blamed a missing hyphen in guidance code.
+  emphasis:
+  - Arthur C. Clarke
+  - missing hyphen
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b9/NASAComputerRoom7090.NARA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: NASAComputerRoom7090.NARA.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASAComputerRoom7090.NARA.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.77
+    focus_y: 0.65
+    card:
+      kind: quote
+      big: most expensive hyphen in history
+      small: Arthur C. Clarke
+- text: In reality, programmers omitted a single mathematical overbar above the letter R in guidance equations.
+  emphasis:
+  - mathematical overbar
+  - letter R
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: R-bar
+      small: missing overbar symbol
+    motion: zoom_in
+- text: Without that smoothing bar, the computer treated minor radar noise as violent velocity fluctuations.
+  emphasis:
+  - smoothing bar
+  - radar noise
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Woomera_1964_0%281%29.jpg/1280px-Woomera_1964_0%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Woomera 1964 0(1).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Woomera_1964_0(1).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.1
+    - 0.05
+    - 0.9
+    - 0.8
+- text: That exact code had flown safely on lunar missions, but an in-flight hardware failure triggered the flaw.
+  emphasis:
+  - hardware failure
+  - flown safely
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b6/Ranger_1_hangar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Ranger 1 hangar.jpg
+      credit: NSSDC Master Catalog Display
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ranger_1_hangar.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.25
+    - 0.0
+    - 0.85
+    - 1.0
+- text: Five weeks later Mariner 2 reached Venus, proving space history's most famous typo was not a hyphen.
+  emphasis:
+  - Mariner 2
+  - not a hyphen
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: 1962 VENUS MISSION DISASTER

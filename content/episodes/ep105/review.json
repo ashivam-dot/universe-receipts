@@ -1,0 +1,66 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T05:33:19+05:30",
+      "check": {
+        "duration": 57.17,
+        "words": 129,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'encircling' heard as 'and circling' after 'to lack planet'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong hook that instantly grabs attention with a planet-wrapping storm.",
+        "clarity": "Easy to follow progression from historic storms to the 2010 event.",
+        "payoff": "The main climax of the storm hitting its own tail occurs too early.",
+        "visuals": "Several terrestrial frames break the space theme and immersion.",
+        "loop": "Smooth grammatical transition back into the opening frame."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows Jupiter's Great Red Spot instead of Saturn's Great White Spot."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows an Earth-based building and clouds instead of Saturn."
+        },
+        {
+          "beat": 8,
+          "problem": "Shows Earth-based telescopes instead of space imagery."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: These massive chemical remnants linger in the upper atmosphere for centuries.",
+        "Beat 9: Leaving permanent scars until Saturn unleashes its next planetary monster."
+      ],
+      "better_than_last": "This script features a much stronger, more active central metaphor than the static facts in the Asteroid Belt episode.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

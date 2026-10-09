@@ -1,0 +1,54 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-09T05:39:03+05:30",
+      "check": {
+        "duration": 54.17,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'and' heard as 'in' after 'arthur c clarke'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Effectively debunks a popular space myth immediately.",
+        "clarity": "Logical sequence from the legend to technical reality.",
+        "payoff": "The overbar reveal provides a satisfying correction.",
+        "visuals": "The explosion imagery does not match the flight timeline.",
+        "loop": "The final sentence flows perfectly into the first."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Image shows a ground-level event while detonation occurred at altitude."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script offers a tighter narrative arc than the asteroid belt episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

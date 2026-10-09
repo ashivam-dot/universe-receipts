@@ -1,0 +1,300 @@
+{
+  "viable": true,
+  "reason": "The sources provide 18 well-supported, dramatic claims across multiple sites detailing the 1997 Mir fire and cargo ship collision.",
+  "story": "In 1997, Russia's Mir space station survived two near-fatal disasters in just four months. First, on February 24, an oxygen canister burst into flames, spewing molten metal and filling Kvant-1 with thick smoke. The crew donned gas masks to survive the 14-minute fire. Then, on June 25, a cost-saving manual docking test went horribly wrong. Commander Vasily Tsibliyev lost control of the heavy Progress M-34 cargo ship, which slammed into the Spektr module. The collision bent a solar panel and punctured the hull. As air hissed out, the crew desperately cut power and air cables, sealing off Spektr to save the station. Plunged into a dark, freezing spin and cut off from Moscow, the crew worked by torchlight. Although they survived, the physical and mental stress left Tsibliyev with heart issues, cementing this as one of space history’s most harrowing survivals.",
+  "angle": "To survive a cargo ship crashing into their space station, astronauts had to cut their own power cables and permanently seal off a punctured module, plunging them into a freezing, tumbling darkness.",
+  "claims": [
+    {
+      "claim": "On February 24, 1997, an oxygen canister caught fire inside Mir's Kvant-1 module.",
+      "sources": [
+        "S1",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The fire in the Kvant-1 module burned for 14 minutes.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "During the fire, the crew members had to wear respirators or gas masks to breathe.",
+      "sources": [
+        "S1",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Progress M-34 launched from Baikonur on April 6, 1997.",
+      "sources": [
+        "S2",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Progress M-34 docked with Mir on April 8, 1997.",
+      "sources": [
+        "S2",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The cargo ship's collision occurred during a manual docking test of the Progress cargo vessel.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The collision occurred on June 25, 1997.",
+      "sources": [
+        "S2",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Commander Vasily Tsibliyev was manually controlling the Progress cargo vessel when it collided.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Progress vessel crashed directly into Mir's Spektr module.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The collision damaged one of Spektr's solar panels.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The crash punctured Mir's hull, causing an air leak.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "To save the station, the crew sealed off the Spektr module by disconnecting and cutting its power and air cables.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The collision caused a serious power loss, leaving the station at half power.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The impact sent Mir into a slow spin or uncontrolled tumble.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Progress M-34 was eventually sent to burn up during reentry over the Pacific Ocean.",
+      "sources": [
+        "S2",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Commander Tsibliyev suffered heart arrhythmia or pains due to the extreme stress.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "During the collision crisis, the crew on board consisted of Vasily Tsibliyev, Aleksandr Lazutkin, and Michael Foale.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In April 1997, Mir suffered a leaking cooling system that spilled ethylene glycol.",
+      "sources": [
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "S3 claims the collision happened on May 25, 1997, while S2, S4, S5, and S6 place it on June 25, 1997; the script should use the June date.",
+    "S1 states the smoke remained thick for 45 minutes after the fire was extinguished, while S7 states the crew wore gas masks for two and a half hours; the script should avoid a specific smoke duration or attribute both accounts.",
+    "S4 states the fire almost caused the crew to abandon the station, which is not mentioned in S1 or S7; the script should attribute this directly to astronaut Jerry Linenger."
+  ],
+  "visuals": [
+    {
+      "subject": "Mir space station in orbit",
+      "queries": [
+        "Mir space station",
+        "Mir in orbit",
+        "Mir space station STS-91"
+      ]
+    },
+    {
+      "subject": "Damaged Spektr module showing crumpled solar array",
+      "queries": [
+        "Mir Spektr damage",
+        "Spektr solar panel",
+        "Spektr damaged"
+      ]
+    },
+    {
+      "subject": "Progress cargo spacecraft",
+      "queries": [
+        "Progress spacecraft",
+        "Progress cargo ship"
+      ]
+    },
+    {
+      "subject": "Soyuz TM-25 spacecraft",
+      "queries": [
+        "Soyuz spacecraft",
+        "Soyuz TM"
+      ]
+    },
+    {
+      "subject": "Cosmonaut Vasily Tsibliyev",
+      "queries": [
+        "Vasily Tsibliyev",
+        "Tsibliyev"
+      ]
+    },
+    {
+      "subject": "Cosmonaut Aleksandr Lazutkin",
+      "queries": [
+        "Aleksandr Lazutkin",
+        "Lazutkin"
+      ]
+    },
+    {
+      "subject": "Astronaut Michael Foale",
+      "queries": [
+        "Michael Foale",
+        "C. Michael Foale"
+      ]
+    },
+    {
+      "subject": "Astronaut Jerry Linenger",
+      "queries": [
+        "Jerry Linenger",
+        "Jerry M. Linenger"
+      ]
+    },
+    {
+      "subject": "Space Shuttle Atlantis docking with Mir",
+      "queries": [
+        "Space Shuttle Atlantis Mir",
+        "STS-84 Mir"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Mir_EO-23",
+      "title": "Mir EO-23",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Progress_M-34",
+      "title": "Progress M-34",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.space.com/entertainment/space-movies-shows/we-talk-with-astronaut-michael-foale-about-the-1997-space-station-mir-crisis-he-took-all-the-blame-of-the-collision-on-his-shoulders",
+      "title": "'He took all the blame of the collision on his shoulders.' Astronaut Michael Foale explains how a 1997 spaceship crash at Space Station Mir unfolded",
+      "site": "space.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.madsci.org/dtm/mir.html",
+      "title": "The Russian Space Station MIR",
+      "site": "madsci.org"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.thetraveler.org/michael-foale-mir-and-the-day-space-nearly-turned-tragic/",
+      "title": "Michael Foale, Mir and the Day Space Nearly Turned Tragic",
+      "site": "thetraveler.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.cnn.com/TECH/9706/25/mir.collision.4p/index.html",
+      "title": "Mir at half power after collision",
+      "site": "cnn.com"
+    },
+    {
+      "label": "S7",
+      "url": "http://spacefacts.de/mir/english/mir-23.htm",
+      "title": "Mir: Expedition 23 (EO-23)",
+      "site": "spacefacts.de"
+    }
+  ],
+  "topic": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
+  "series": "Near Misses"
+}
