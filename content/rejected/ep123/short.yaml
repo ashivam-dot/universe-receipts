@@ -1,0 +1,146 @@
+id: ep123
+title: The President's Martian Rock
+series: Space Got Weird
+description: Discover how a four-pound meteorite found in Antarctica sparked a global debate and a presidential address about
+  life on Mars.
+sources:
+- https://en.wikipedia.org/wiki/Allan_Hills_84001
+- https://web.archive.org/web/20200416194540/https://www2.jpl.nasa.gov/snc/clinton.html
+- https://www.scientificamerican.com/article/the-rise-and-fall-of-nanobacteria/
+- https://en.wikipedia.org/wiki/Martian_meteorite
+hashtags:
+- '#space'
+- '#mars'
+- '#nasa'
+tags:
+- Mars
+- meteorite
+- Antarctica
+- Bill Clinton
+- NASA
+- astrobiology
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: A four-pound rock from Mars prompted an address by President Bill Clinton.
+  emphasis:
+  - rock from Mars
+  - Bill Clinton
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/40/President_Bill_Clinton_delivering_the_State_of_the_Union_Address_in_1999.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: President Bill Clinton delivering the State of the Union Address in 1999.jpg
+      credit: The Clinton White House
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:President_Bill_Clinton_delivering_the_State_of_the_Union_Address_in_1999.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.25
+    focus_y: 0.5
+    box:
+    - 0.05
+    - 0.2
+    - 0.5
+    - 0.95
+- text: In December 1984, an American expedition searching the Allan Hills of Antarctica collected the unusual stone as their
+    team's very first find.
+  emphasis:
+  - December 1984
+  - Allan Hills
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/ALH84001_%28S85-39565%29.jpg/3840px-ALH84001_%28S85-39565%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ALH84001 (S85-39565).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ALH84001_(S85-39565).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.03
+    - 0.16
+    - 0.9
+    - 0.74
+    card:
+      kind: dateline
+      big: December 1984
+      small: Allan Hills, Antarctica
+- text: A violent asteroid impact had blasted this ancient crust directly off the Martian surface around sixteen million years
+    ago.
+  emphasis:
+  - asteroid impact
+  - sixteen million years ago
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b1/White_dwarf_star_system_GD_61.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: White dwarf star system GD 61.jpg
+      credit: NASA, ESA, M.A. Garlick (space-art.co.uk), University of Warwick, and University of Cambridge.
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:White_dwarf_star_system_GD_61.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.3
+    - 0.1
+    - 0.9
+    - 0.9
+- text: After drifting through the solar system, the wandering meteorite crashed into the Antarctic ice sheet approximately
+    thirteen thousand years ago.
+  emphasis:
+  - solar system
+  - thirteen thousand years ago
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 13,000 years
+      small: Time on Earth
+    motion: zoom_in
+- text: In 1996, NASA scientists led by David McKay announced the rock might contain fossilized life, triggering a televised
+    presidential address.
+  emphasis:
+  - David McKay
+  - fossilized life
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/ALH84001_structures.jpg/1920px-ALH84001_structures.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ALH84001 structures.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ALH84001_structures.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.4
+- text: Scientists later proved these shapes were just unusual geology, yet history still remembers that presidential address.
+  emphasis:
+  - unusual geology
+  - presidential address
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.25
+    focus_y: 0.5

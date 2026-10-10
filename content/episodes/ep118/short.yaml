@@ -1,8 +1,7 @@
 id: ep118
 title: The Moon That Was Smashed to Pieces
 series: Space Got Weird
-description: Explore the mystery of Miranda, a moon of Uranus with the solar system's deepest canyons and a surface that defies
-  logic.
+description: Discover Miranda, the patchwork moon of Uranus featuring a cliff twelve miles deep.
 sources:
 - https://science.nasa.gov/uranus/moons/miranda/
 - https://www.space.com/27334-uranus-frankenstein-moon-miranda.html
@@ -14,7 +13,7 @@ sources:
 hashtags:
 - '#space'
 - '#nasa'
-- '#uranus'
+- '#miranda'
 tags:
 - miranda
 - moon
@@ -23,6 +22,7 @@ tags:
 - astronomy
 - geology
 - verona rupes
+- space got weird
 voice:
   voice: af_heart
   speed: 1.05
@@ -68,18 +68,18 @@ beats:
       kind: dateline
       big: '1986'
       small: Voyager 2
-- text: Instead, they found a 'Frankenstein' world of mismatched geological blocks and a massive V-shaped scar.
+- text: Instead, they found a patchwork 'Frankenstein' world with a massive V-shaped scar.
   emphasis:
   - V-shaped scar
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Miranda_elsinorinverness.jpg/1280px-Miranda_elsinorinverness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Miranda_as_seen_by_Voyager_2_-_GPN-2003-000005_%28cropped%29.jpg/3840px-Miranda_as_seen_by_Voyager_2_-_GPN-2003-000005_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Miranda elsinorinverness.jpg
-      credit: NASA/JPL
+      title: Miranda as seen by Voyager 2 - GPN-2003-000005 (cropped).jpg
+      credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Miranda_elsinorinverness.jpg
+      url: https://commons.wikimedia.org/wiki/File:Miranda_as_seen_by_Voyager_2_-_GPN-2003-000005_(cropped).jpg
     fallbacks:
     - color
     motion: zoom_out
@@ -115,31 +115,31 @@ beats:
       kind: fact
       big: 12 miles
       small: Cliff depth
-- text: That is twelve times deeper than the Grand Canyon, on a world barely the size of Texas.
+- text: That is twelve times deeper than the Grand Canyon, on a world the size of Texas.
   emphasis:
   - twelve times
   - size of Texas
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Rain_over_Grand_Canyon.jpg/3840px-Rain_over_Grand_Canyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/GrandCanyon.NASA.2014.jpg/1280px-GrandCanyon.NASA.2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Rain over Grand Canyon.jpg
-      credit: Romain Guy from San Francisco, USA
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:Rain_over_Grand_Canyon.jpg
+      title: GrandCanyon.NASA.2014.jpg
+      credit: Astronaut photograph ISS039-E-5258; taken by the Expedition 39 crew of the International Space Station;
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:GrandCanyon.NASA.2014.jpg
     fallbacks:
     - card
     - color
     motion: pan_right
     focus_x: 0.5
-    focus_y: 0.6
+    focus_y: 0.5
     card:
       kind: fact
       big: 12 times
       small: Grand Canyon depth
-- text: One leading theory suggests this chaotic moon was shattered by impacts multiple times before reassembling.
+- text: One leading theory suggests the moon was shattered by impacts multiple times before reassembling into a chaotic pile.
   emphasis:
   - shattered
   - reassembling
@@ -156,8 +156,8 @@ beats:
     fallbacks:
     - color
     motion: zoom_in
-    focus_x: 0.63
-    focus_y: 0.44
+    focus_x: 0.5
+    focus_y: 0.5
 - text: Alternatively, extreme tidal heating from Uranus might have churned the moon's icy interior into these bizarre shapes.
   emphasis:
   - tidal heating
@@ -180,15 +180,16 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.5
+    focus_x: 0.65
     focus_y: 0.5
-- text: Since we have only photographed its southern half, the rest of the jigsaw puzzle remains a mystery.
+- text: With only the southern half ever photographed, nobody knows why.
   emphasis:
   - southern half
-  - mystery
+  - nobody knows why
   sfx: whoosh
   visual:
     reuse: 1
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
+hook_text: A SHATTERED WORLD

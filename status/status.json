@@ -1,94 +1,58 @@
 {
-  "updated_at": "2026-10-10T17:10:57+05:30",
+  "updated_at": "2026-10-10T23:07:27+05:30",
   "day": 9,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4JSGKQ1EGZKGN5FT7CQQWXR",
+    "id": "ta-01M4KE3TB70071NEPPG6XVK7AR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-10T17:05:11+05:30",
-    "started_at_utc": "2026-10-10T11:35:11+00:00",
-    "seconds": 346
+    "started_at": "2026-10-10T23:05:12+05:30",
+    "started_at_utc": "2026-10-10T17:35:12+00:00",
+    "seconds": 136
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
+      "seconds": 2.2
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "32 posts",
-      "seconds": 0.6
+      "seconds": 1.6
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 1.8
+      "detail": "added ep114 to 'Scale Breaker'",
+      "seconds": 2.2
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep040 language en/None -> en",
-      "seconds": 0.6
+      "detail": "every live Short is in English",
+      "seconds": 0.1
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep052 at 6 h: level with the channel's earlier Shorts at this age: 659 views against a median of 682 (1.0x)",
-      "seconds": 1.4
+      "detail": "ep061 at 72 h: behind the channel's earlier Shorts at this age: 242 views against a median of 1004 (0.2x); ep086 at 24 h: behind the channel's earlier Shorts at this age: 367 views against a median of 790 (0.5x); learnings: Updated active mystery and catalog trivia elimination rules with new evidence from ep061 and ep086 reviews.",
+      "seconds": 68.8
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep123 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 4.2
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "43 subscribers",
-      "seconds": 6.4
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Updated learning log with 10 new Short reviews, integrating ongoing performance patterns and refining constraints.",
-      "seconds": 275.2
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.7
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "1 added",
-      "seconds": 11.1
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "4 added",
-      "seconds": 14.7
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-009.md",
-      "seconds": 1.1
+      "detail": "ep115 rejected (low scores: visuals); ep116 ready; ep117 ready; ep118 ready; ep119 ready; ep120 ready; ep121 rejected (low scores: visuals); ep122 rejected (low scores: visuals; 2 frame problems); ep123 rejected (low scores: loop); ep124 rejected (research: The topic focuses on galaxy cluster MACS J0454.1-0300, which appears solely in [S4]; without a second independent site mentioning the cluster, it is impossible to produce 10 verified claims about it.)",
+      "seconds": 31.2
     },
     {
       "name": "buffer channel",
@@ -100,137 +64,94 @@
       "name": "preflight ep050",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.5
     },
     {
       "name": "preflight ep055",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.4
     },
     {
       "name": "preflight ep066",
-      "ok": true,
-      "detail": "video downloads whole (19 MB in 1 s)",
-      "seconds": 0.8
-    },
-    {
-      "name": "preflight ep099",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.6
-    },
-    {
-      "name": "preflight ep114",
       "ok": true,
       "detail": "video still hosted",
       "seconds": 0.5
     },
     {
-      "name": "publish",
+      "name": "preflight ep084",
       "ok": true,
-      "detail": "",
-      "seconds": 1.0
+      "detail": "video downloads whole (16 MB in 0 s)",
+      "seconds": 0.6
     },
     {
-      "name": "start ep115",
+      "name": "preflight ep099",
       "ok": true,
-      "detail": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep116",
-      "ok": true,
-      "detail": "Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep117",
-      "ok": true,
-      "detail": "Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished",
-      "seconds": 1.5
-    },
-    {
-      "name": "start ep118",
-      "ok": true,
-      "detail": "Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together",
-      "seconds": 1.5
-    },
-    {
-      "name": "start ep119",
-      "ok": true,
-      "detail": "2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep120",
-      "ok": true,
-      "detail": "El Gordo (galaxy cluster) (2012): a colossal collision of two galaxy clusters that weighs about three quadrillion times more than our Sun",
-      "seconds": 1.5
-    },
-    {
-      "name": "start ep121",
-      "ok": true,
-      "detail": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep122",
-      "ok": true,
-      "detail": "HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep123",
-      "ok": true,
-      "detail": "SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep124",
-      "ok": true,
-      "detail": "Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors",
-      "seconds": 0.9
+      "detail": "video still hosted",
+      "seconds": 0.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
+      "seconds": 2.1
+    },
+    {
+      "name": "schedule ep105",
+      "ok": true,
+      "detail": "2026-10-14T19:00:00-04:00",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep125",
+      "ok": true,
+      "detail": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
       "seconds": 0.9
+    },
+    {
+      "name": "start ep126",
+      "ok": true,
+      "detail": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
+      "seconds": 1.1
+    },
+    {
+      "name": "start ep127",
+      "ok": true,
+      "detail": "Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds",
+      "seconds": 1.1
+    },
+    {
+      "name": "start ep128",
+      "ok": true,
+      "detail": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
+      "seconds": 1.0
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.1
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep123 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 16 waiting",
-    "Buffer is full (10 queued); 16 waiting"
+    "Buffer is full (10 queued); 20 waiting"
   ],
   "inventory": {
-    "total": 26,
+    "total": 30,
     "in_buffer": 10,
-    "waiting": 16,
+    "waiting": 20,
     "target": 42,
     "making": [],
     "remote": [
-      "ep115",
-      "ep116",
-      "ep117",
-      "ep118",
-      "ep119",
-      "ep120",
-      "ep121",
-      "ep122",
-      "ep123",
-      "ep124"
+      "ep125",
+      "ep126",
+      "ep127",
+      "ep128"
     ]
   },
   "queue": [
-    {
-      "id": "ep114",
-      "title": "The Cosmic Signal Stronger Than the Sun",
-      "due_at": "2026-10-10T12:30:00-04:00"
-    },
     {
       "id": "ep050",
       "title": "The Day an Undetected Asteroid Blindsided Earth",
@@ -275,6 +196,11 @@
       "id": "ep110",
       "title": "The Lost Space Forest NASA Forgot Existed",
       "due_at": "2026-10-13T21:30:00-04:00"
+    },
+    {
+      "id": "ep105",
+      "title": "The Storm That Bit Its Own Tail",
+      "due_at": "2026-10-14T19:00:00-04:00"
     }
   ],
   "waiting": [
@@ -345,12 +271,6 @@
       "score": 20
     },
     {
-      "id": "ep105",
-      "title": "The Storm That Bit Its Own Tail",
-      "series": "Scale Breaker",
-      "score": 25
-    },
-    {
       "id": "ep106",
       "title": "The Missing Hyphen That Wasn't a Hyphen",
       "series": "Mission Files",
@@ -373,153 +293,227 @@
       "title": "The Asteroid That Hid in Plain Sight",
       "series": "Near Misses",
       "score": 23
+    },
+    {
+      "id": "ep116",
+      "title": "The Scrap-Metal Probe That Conquered Venus",
+      "series": "Mission Files",
+      "score": 20
+    },
+    {
+      "id": "ep117",
+      "title": "The Galaxy With a Missing Heart",
+      "series": "The Universe Is Terrifying",
+      "score": 20
+    },
+    {
+      "id": "ep118",
+      "title": "The Moon That Was Smashed to Pieces",
+      "series": "Space Got Weird",
+      "score": 23
+    },
+    {
+      "id": "ep119",
+      "title": "The City-Killer Hiding in the Sun",
+      "series": "Near Misses",
+      "score": 20
+    },
+    {
+      "id": "ep120",
+      "title": "The Cosmic Giant Tearing Itself Apart",
+      "series": "Scale Breaker",
+      "score": 20
     }
   ],
   "made": [
     {
+      "id": "ep115",
+      "outcome": "rejected",
+      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep116",
+      "outcome": "ready",
+      "topic": "Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere",
+      "title": "The Scrap-Metal Probe That Conquered Venus",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791632779/universereceipts/ep116-a54f2402.mp4"
+    },
+    {
+      "id": "ep117",
+      "outcome": "ready",
+      "topic": "Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished",
+      "title": "The Galaxy With a Missing Heart",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791632795/universereceipts/ep117-64e98701.mp4"
+    },
+    {
+      "id": "ep118",
+      "outcome": "ready",
+      "topic": "Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together",
+      "title": "The Moon That Was Smashed to Pieces",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791633659/universereceipts/ep118-cca12a30.mp4"
+    },
+    {
+      "id": "ep119",
+      "outcome": "ready",
+      "topic": "2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later",
+      "title": "The City-Killer Hiding in the Sun",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791632753/universereceipts/ep119-f4f49ef6.mp4"
+    },
+    {
+      "id": "ep120",
+      "outcome": "ready",
+      "topic": "El Gordo (galaxy cluster) (2012): a colossal collision of two galaxy clusters that weighs about three quadrillion times more than our Sun",
+      "title": "The Cosmic Giant Tearing Itself Apart",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791633018/universereceipts/ep120-e480247c.mp4"
+    },
+    {
+      "id": "ep121",
+      "outcome": "rejected",
+      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep122",
+      "outcome": "rejected",
+      "topic": "HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds",
+      "reason": "low scores: visuals; 2 frame problems"
+    },
+    {
       "id": "ep123",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "reason": "low scores: loop"
+    },
+    {
+      "id": "ep124",
+      "outcome": "rejected",
+      "topic": "Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors",
+      "reason": "research: The topic focuses on galaxy cluster MACS J0454.1-0300, which appears solely in [S4]; without a second independent site mentioning the cluster, it is impossible to produce 10 verified claims about it."
     }
   ],
   "spawned": [
     {
-      "id": "ep115",
-      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
-      "call_id": "fc-01M4JSV3W85JV2Z81DYF9WNSSK"
+      "id": "ep125",
+      "topic": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
+      "call_id": "fc-01M4KE838ZAZB0775ARZFHJSXS"
     },
     {
-      "id": "ep116",
-      "topic": "Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere",
-      "call_id": "fc-01M4JSV4SGAPJBFB6CF9VSPCWF"
+      "id": "ep126",
+      "topic": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
+      "call_id": "fc-01M4KE84ANN3ZXRVSJ5917ET5F"
     },
     {
-      "id": "ep117",
-      "topic": "Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished",
-      "call_id": "fc-01M4JSV67FSRT2MX59D2PZ5WZQ"
+      "id": "ep127",
+      "topic": "Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds",
+      "call_id": "fc-01M4KE85D4QHYW558MEQQVBZF0"
     },
     {
-      "id": "ep118",
-      "topic": "Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together",
-      "call_id": "fc-01M4JSV7MVSKZTZ8S9WVVQ77PK"
-    },
-    {
-      "id": "ep119",
-      "topic": "2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later",
-      "call_id": "fc-01M4JSV8HYHN022F4DE57EK231"
-    },
-    {
-      "id": "ep120",
-      "topic": "El Gordo (galaxy cluster) (2012): a colossal collision of two galaxy clusters that weighs about three quadrillion times more than our Sun",
-      "call_id": "fc-01M4JSV9ZEKAARF5XXCB07P6D7"
-    },
-    {
-      "id": "ep121",
-      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "call_id": "fc-01M4JSVAVD7MDWGBNNQDE5MJME"
-    },
-    {
-      "id": "ep122",
-      "topic": "HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds",
-      "call_id": "fc-01M4JSVBTQ7ZNP6MTX2VR90VGN"
-    },
-    {
-      "id": "ep123",
-      "topic": "SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars",
-      "call_id": "fc-01M4JSVCQ54YNSD484TNSFMB3G"
-    },
-    {
-      "id": "ep124",
-      "topic": "Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors",
-      "call_id": "fc-01M4JSVDHVAQ158DQNRWB51VGW"
+      "id": "ep128",
+      "topic": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
+      "call_id": "fc-01M4KE86C5GXB90B8FZ7YPTXE3"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep115",
-      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
-      "spawned_at": "2026-10-10T17:10:45+05:30"
+      "id": "ep125",
+      "topic": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
+      "spawned_at": "2026-10-10T23:07:22+05:30"
     },
     {
-      "id": "ep116",
-      "topic": "Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere",
-      "spawned_at": "2026-10-10T17:10:46+05:30"
+      "id": "ep126",
+      "topic": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
+      "spawned_at": "2026-10-10T23:07:23+05:30"
     },
     {
-      "id": "ep117",
-      "topic": "Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished",
-      "spawned_at": "2026-10-10T17:10:47+05:30"
+      "id": "ep127",
+      "topic": "Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds",
+      "spawned_at": "2026-10-10T23:07:24+05:30"
     },
     {
-      "id": "ep118",
-      "topic": "Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together",
-      "spawned_at": "2026-10-10T17:10:49+05:30"
-    },
-    {
-      "id": "ep119",
-      "topic": "2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later",
-      "spawned_at": "2026-10-10T17:10:50+05:30"
-    },
-    {
-      "id": "ep120",
-      "topic": "El Gordo (galaxy cluster) (2012): a colossal collision of two galaxy clusters that weighs about three quadrillion times more than our Sun",
-      "spawned_at": "2026-10-10T17:10:51+05:30"
-    },
-    {
-      "id": "ep121",
-      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "spawned_at": "2026-10-10T17:10:52+05:30"
-    },
-    {
-      "id": "ep122",
-      "topic": "HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds",
-      "spawned_at": "2026-10-10T17:10:53+05:30"
-    },
-    {
-      "id": "ep123",
-      "topic": "SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars",
-      "spawned_at": "2026-10-10T17:10:54+05:30"
-    },
-    {
-      "id": "ep124",
-      "topic": "Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors",
-      "spawned_at": "2026-10-10T17:10:55+05:30"
+      "id": "ep128",
+      "topic": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
+      "spawned_at": "2026-10-10T23:07:25+05:30"
     }
   ],
-  "published": [],
-  "live": 22,
+  "published": [
+    {
+      "id": "ep105",
+      "title": "The Storm That Bit Its Own Tail",
+      "due_at": "2026-10-14T19:00:00-04:00"
+    }
+  ],
+  "live": 23,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 8,
+    "calls": 39,
     "by_model": {
-      "gemini-3.5-flash-lite": 7,
-      "gemini-3-flash-preview": 1
+      "gemini-3.8-flash": 8,
+      "gemini-3.6-flash": 6,
+      "gemini-3.7-flash": 9,
+      "gemini-3-flash-preview": 9,
+      "gemini-3.5-flash-lite": 7
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
-    "modal": 1,
+    "modal": 18,
     "runner": 0
   },
   "daily_done": "2026-10-10",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 13.23,
+    "metered": 13.79,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 123,
+    "cloud": 118,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 14.77
+    "modal_credit_left": 14.21
   },
   "made_here": 0,
-  "open_topics": 27,
-  "parked_topics": 53
+  "open_topics": 23,
+  "parked_topics": 57
 }

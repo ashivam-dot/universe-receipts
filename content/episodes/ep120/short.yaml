@@ -107,8 +107,13 @@ beats:
     - card
     - color
     motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.45
+    focus_y: 0.55
+    box:
+    - 0.3
+    - 0.35
+    - 0.68
+    - 0.75
     card:
       kind: fact
       big: EL GORDO
@@ -119,19 +124,24 @@ beats:
   - millions of kilometers
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Galaxy_Cluster_Collision_%28heic0709c%29.jpg/960px-Galaxy_Cluster_Collision_%28heic0709c%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Galaxy_Cluster_%27El_Gordo%27_with_Mass_Map.jpg/3840px-Galaxy_Cluster_%27El_Gordo%27_with_Mass_Map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Galaxy Cluster Collision (heic0709c).jpg
-      credit: NASA, ESA, M.J. Jee and A. Feild (STScI)
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Galaxy_Cluster_Collision_(heic0709c).jpg
+      title: Galaxy Cluster 'El Gordo' with Mass Map.jpg
+      credit: NASA Hubble
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Galaxy_Cluster_%27El_Gordo%27_with_Mass_Map.jpg
     fallbacks:
     - card
     - color
-    motion: pan_down
-    focus_x: 0.5
-    focus_y: 0.5
+    motion: pan_right
+    focus_x: 0.48
+    focus_y: 0.55
+    box:
+    - 0.15
+    - 0.35
+    - 0.82
+    - 0.75
     card:
       kind: fact
       big: MILLIONS OF KM/H
@@ -153,8 +163,13 @@ beats:
     fallbacks:
     - color
     motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.52
+    focus_y: 0.52
+    box:
+    - 0.25
+    - 0.25
+    - 0.8
+    - 0.8
 - text: Its massive weight warps spacetime, creating a magnifying glass that bends light from background galaxies.
   emphasis:
   - warps spacetime
@@ -176,10 +191,10 @@ beats:
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: Instead of a single giant, we find that the heaviest distant clusters are actually catastrophic collisions.
+- text: And the most extreme example of these collisions remains.
   emphasis:
-  - Instead of
-  - catastrophic collisions
+  - extreme example
+  - remains
   sfx: whoosh
   visual:
     reuse: 1

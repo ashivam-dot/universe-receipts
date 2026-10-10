@@ -35,7 +35,7 @@ unexplained, not alien.
 | 2026-10-08 | Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo — parked (ep100) | Mission Files | NASA recently released newly annotated lunar navigation training photos prepared by the Artemis II crew. |
 | 2026-10-09 | Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble — parked (ep113) | The Universe Is Terrifying | Featured as NASA's Astronomy Picture of the Day this week and in the spotlight ahead of NASA's briefing on the Martian Moons eXploration mission. |
 | 2026-10-09 | Fast radio burst (2007): millisecond flashes of deep-space energy that release as much power as the Sun radiates across entire days — done (ep114) | Scale Breaker | NASA announced that the James Webb Space Telescope just measured the distance to the farthest fast radio burst ever detected. |
-| 2026-10-10 | Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors — making (ep124) | The Universe Is Terrifying | NASA just released a stunning new James Webb Space Telescope image of this cluster. |
+| 2026-10-10 | Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors — dropped (ep124) | The Universe Is Terrifying | NASA just released a stunning new James Webb Space Telescope image of this cluster. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -77,7 +77,7 @@ unexplained, not alien.
 - Boötes Void (1981): a hole in space holding just 60 galaxies where about 2,000 would be expected — dropped (ep039)
 - Sagittarius A* (1974): the black hole at the center of our galaxy weighs about four million Suns, and we photographed it in 2022 — done (ep008)
 - Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away — done (ep049)
-- HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds — making (ep122)
+- HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds — parked (ep122)
 - Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare — done (ep032)
 - Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — parked (ep018)
 - WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth — done (ep055)
@@ -88,10 +88,10 @@ unexplained, not alien.
 - 3C 273 (1963): the first identified quasar, it is 4 trillion times brighter than the Sun but 2.4 billion light-years away — done (ep023)
 - Hypervelocity star (2005): stars being flung out of the Milky Way at millions of miles per hour, doomed to wander intergalactic space alone — done (ep097)
 - Hanny's Voorwerp (2007): a galaxy-sized green structure that is actually a light "echo" from a quasar that died 100,000 years ago — done (ep109)
-- Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished — making (ep117)
+- Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished — done (ep117)
 - OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy — parked (ep103)
 - False vacuum decay: a hypothetical cosmic catastrophe where a bubble of true vacuum could expand at the speed of light, rewriting the laws of physics and erasing our universe instantly — done (ep078)
-- V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets
+- V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets — making (ep126)
 
 ### Scale Breaker
 
@@ -111,9 +111,9 @@ unexplained, not alien.
 - Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail — done (ep105)
 - Lunar distance: every other planet in the solar system can fit in the gap between the Earth and the Moon with room to spare — dropped (ep076)
 - Boomerang Nebula (1980): the coldest place in the natural universe, colder than the background glow of the Big Bang — done (ep095)
-- El Gordo (galaxy cluster) (2012): a colossal collision of two galaxy clusters that weighs about three quadrillion times more than our Sun — making (ep120)
+- El Gordo (galaxy cluster) (2012): a colossal collision of two galaxy clusters that weighs about three quadrillion times more than our Sun — done (ep120)
 - Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology — done (ep111)
-- Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years
+- Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years — making (ep128)
 
 ### Mission Files
 
@@ -132,9 +132,9 @@ unexplained, not alien.
 - Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled — parked (ep090)
 - Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed — done (ep106)
 - Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down — done (ep051)
-- Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life — making (ep121)
-- Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere — making (ep116)
-- Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions
+- Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life — parked (ep121)
+- Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere — done (ep116)
+- Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions — making (ep125)
 
 ### Space Got Weird
 
@@ -149,14 +149,14 @@ unexplained, not alien.
 - Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — parked (ep014)
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one — done (ep110)
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009 — done (ep040)
-- SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars — making (ep123)
+- SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars — parked (ep123)
 - 55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond — done (ep066)
 - 16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet — dropped (ep064)
 - Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit — parked (ep098)
 - Tennis racket theorem (1985): a physical law in zero gravity that causes any spinning asymmetrical object to spontaneously flip back and forth without outside force — dropped (ep082)
-- Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together — making (ep118)
+- Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together — done (ep118)
 - WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star — parked (ep104)
-- Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds
+- Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds — making (ep127)
 
 ### Near Misses
 
@@ -175,7 +175,7 @@ unexplained, not alien.
 - 2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach — done (ep112)
 - 4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange "ginger-root" shape — parked (ep080)
 - 1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space — parked (ep102)
-- 2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later — making (ep119)
+- 2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later — done (ep119)
 
 ### Space Myths, Busted
 
@@ -196,4 +196,4 @@ unexplained, not alien.
 - Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever — parked (ep093)
 - Asteroid belt (1801): despite movie scenes of ships dodging giant rocks, the average distance between asteroids in the belt is about 600,000 miles — done (ep087)
 - Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks — parked (ep101)
-- Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards — making (ep115)
+- Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards — parked (ep115)

@@ -49,7 +49,108 @@
       "better_than_last": "Specific naming of the cluster makes it more memorable than the subject of ep114.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-10T17:15:12+05:30",
+      "check": {
+        "duration": 52.15,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'its' heard as 'it is' after 'unseen dark matter'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong premise and scale, though pacing is slightly measured.",
+        "clarity": "Straightforward progression explaining the collision mechanics.",
+        "payoff": "The collision reveal lands decently but lacks dramatic punch.",
+        "visuals": "Several frames contain heavy text or incorrect cluster assets.",
+        "loop": "The concluding statement does not flow seamlessly into the opener."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Visible URL watermark and catalog text overlay"
+        },
+        {
+          "beat": 5,
+          "problem": "Graphic contains small text unreadable on mobile screens"
+        },
+        {
+          "beat": 6,
+          "problem": "Shows the Bullet Cluster rather than El Gordo"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: And the most extreme example of these collisions remains"
+      ],
+      "better_than_last": "Establishes cosmic physical scale more tangibly than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-10T17:20:17+05:30",
+      "check": {
+        "duration": 48.87,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging premise with strong text overlay that quickly grabs attention.",
+        "clarity": "Easy to follow step-by-step explanation of the cluster collision.",
+        "payoff": "The dark matter gas separation provides a satisfying reveal.",
+        "visuals": "High quality astronomical imagery matching each script beat well.",
+        "loop": "Ending sentence transitions smoothly back into the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It offers a more compelling visual payoff by demonstrating how dark matter separates from hot gas during cluster collisions.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

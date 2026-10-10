@@ -1,0 +1,141 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-10T17:13:37+05:30",
+      "check": {
+        "duration": 51.17,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'allan' heard as 'allen' after 'hunters exploring the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing premise but lacks an immediate dramatic punch to stop scrolling.",
+        "clarity": "Narrative unfolds logically across the timeline.",
+        "payoff": "The biological debate resolution is interesting but lacks a strong twist.",
+        "visuals": "Visuals support the script adequately without standing out.",
+        "loop": "Transitions back to the opening line with minor friction."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A four-pound rock from Mars prompted an address by President Bill Clinton.",
+        "Beat 6: Researchers ultimately rejected biological origins, yet history still remembers when..."
+      ],
+      "better_than_last": "It anchors its scientific mystery to a well-known historical press event better than ep114.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-10T17:26:41+05:30",
+      "check": {
+        "duration": 53.89,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'allan' heard as 'allen' after 'expedition searching the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The mention of a President and Martian fossils is immediately engaging.",
+        "clarity": "The chronological timeline from Mars to Earth is simple to track.",
+        "payoff": "The revelation that the fossils were rejected feels slightly underwhelming.",
+        "visuals": "Uses accurate scientific and historical imagery to anchor the story.",
+        "loop": "The final sentence bridges perfectly back to the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Scientists later proved these shapes were just unusual geology, yet history still remembers that presidential address."
+      ],
+      "better_than_last": "The historical context of a presidential speech provides a more relatable hook than the abstract physics of the cosmic signal.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-10T17:31:06+05:30",
+      "check": {
+        "duration": 50.79,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'allan' heard as 'allen' after 'expedition searching the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Connects space science to global leadership effectively.",
+        "clarity": "Sequential storytelling ensures the timeline is easy to follow.",
+        "payoff": "The scientific resolution provides a grounded and satisfying end.",
+        "visuals": "Imagery accurately represents the specific meteorite and historical context.",
+        "loop": "Ending phrasing feels repetitive when transitioning back to the start."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Scientists later proved these shapes were just unusual geology, though the sensation started with..."
+      ],
+      "better_than_last": "Grounds astronomical discovery in familiar political history better than previous abstract topics.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: loop",
+  "rejected_at": "2026-10-10T17:31:06+05:30"
+}

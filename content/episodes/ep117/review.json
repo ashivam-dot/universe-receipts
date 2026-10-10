@@ -1,0 +1,50 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-10T17:16:35+05:30",
+      "check": {
+        "duration": 55.9,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.4,
+        "warnings": [],
+        "speech_differences": [
+          "'chandra' heard as 'chundra' after 'of starlight deep'",
+          "'kayhan gultekin' heard as 'keihin goltakin' after 'team led by'",
+          "'kicked' heard as 'kick' after 'giant cosmic merger'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing opening hook about a missing giant black hole grabs attention immediately.",
+        "clarity": "Explains the search history and science clearly step-by-step.",
+        "payoff": "Delivers a solid theoretical conclusion explaining gravitational wave recoil.",
+        "visuals": "Clear space graphics and title cards complement the narrative well.",
+        "loop": "Connects smoothly from the runaway giant back to the initial missing hole."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Clearer single-topic narrative structure compared to recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 1
+}

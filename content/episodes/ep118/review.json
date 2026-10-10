@@ -1,0 +1,178 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-10T17:16:03+05:30",
+      "check": {
+        "duration": 51.47,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'shaped scar miranda'",
+          "'rupes' heard as 'ropes' after 'surface features verona'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Opening concept is intriguing but visual hook is relatively static.",
+        "clarity": "Information is structured logically and easy to follow.",
+        "payoff": "The dual theories are interesting but conclude without high impact.",
+        "visuals": "Diagram in beat seven is cluttered and unreadable on small screens.",
+        "loop": "Phrase echoes the hook idea but does not flow seamlessly into beat one."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The diagram is dense with small text that is unreadable at mobile scale."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Rupes",
+          "respelling": "roo peez"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: With only the southern half ever photographed, nobody knows why"
+      ],
+      "better_than_last": "Features clearer comparative scale comparisons than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-10T17:28:09+05:30",
+      "check": {
+        "duration": 48.33,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'shaped scar miranda'",
+          "'rupes' heard as 'roops' after 'surface features verona'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The jigsaw puzzle analogy combined with the unique image is a perfect scroll-stopper.",
+        "clarity": "Logical flow from discovery to specific geological features to scientific theories.",
+        "payoff": "The revelation that we've only seen half of this bizarre world is a solid ending note.",
+        "visuals": "The authentic Voyager 2 imagery is great, though the diagram in beat 7 is a bit cluttered.",
+        "loop": "The transition from 'nobody knows why' back to the visual description is seamless."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "the diagram contains too much small text that is unreadable at phone size"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Rupes",
+          "respelling": "roo peez"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short uses excellent relatable scale comparisons like Texas and the Grand Canyon to make the astronomical data feel tangible.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    },
+    {
+      "at": "2026-10-10T17:30:58+05:30",
+      "check": {
+        "duration": 48.5,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'shaped scar miranda'",
+          "'rupes' heard as 'rupees' after 'surface features verona'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The jigsaw puzzle analogy is visually supported and engaging.",
+        "clarity": "Logical progression from discovery to specific geological features.",
+        "payoff": "The cliff height is impressive, though the ending feels abrupt.",
+        "visuals": "High-quality images that match the descriptive geological terms used.",
+        "loop": "The final statement does not grammatically connect to the start."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Diagram depicts the Jovian system with Jupiter in the background instead of Uranus."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Rupes",
+          "respelling": "roo peez"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: Change to 'Since we have only photographed the southern half, it remains a mystery why...'"
+      ],
+      "better_than_last": "This episode uses more effective Earth-based scale comparisons than the lunar cell phone analogy in ep114.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "kept_round": 2
+}
