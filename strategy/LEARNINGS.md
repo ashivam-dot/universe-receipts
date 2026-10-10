@@ -56,16 +56,16 @@ contradiction.
 | ep017 | Mission Files | contradiction, myth_vs_fact | 1266 | 51% | 70.0% | 119% | 5 | – |
 | ep024 | Near Misses | contradiction, scale_ladder | 956 | 46% | 53.5% | 104% | 1 | – |
 | ep028 | Space Myths, Busted | statement, mystery | 1272 | 54% | 80.3% | 128% | 5 | – |
-| ep030 | Scale Breaker | number, record | 1089 | 52% | 81.7% | 138% | 4 | Strong number hook drove above-median retention at 10% (1.382) and view velocity, but historical discovery beats slowed mid-pacing and suppressed likes (3.12%). |
-| ep032 | The Universe Is Terrifying | statement, record | 1041 | 42% | 80.1% | 127% | 1 | Urgent cosmic monster hook and seamless loop sustained retention and rewatches, but below-median engaged share (42.2%) suffered from a flat closing beat lacking comment prompts. |
-| ep033 | Space Got Weird | statement, story | 741 | 42% | 70.8% | 127% | 1 | Dry Cold War treaty topic and abstract hook hurt feed opt-in and engaged share (42.2%), though core narrative pacing held viewers who stayed. |
-| ep035 | Near Misses | statement, myth_vs_fact | 1327 | 52% | 86.6% | 131% | 1 | High-urgency asteroid hook drove top view velocity and strong early retention (1.311 at 10%), but resolving the threat prematurely in beat 4 collapsed late retention. |
-| ep036 | Mission Files | statement, story | 1036 | 60% | 63.5% | 118% | 1 | Vivid titanium probe hook drove high engaged share (59.9%), but sluggish pacing across beats 2 and 3 led to mid-video drop-off and below-median average view percentage (63.5%). |
-| ep040 | Space Got Weird | statement, myth_vs_fact | 500 | 59% | 97.1% | 145% | 1 | Quirky space station topic and crisp narrative pacing achieved 97.1% average percentage viewed and 6.2% likes, but spoiling the fine punchline in the opening beat limited reach. |
-| ep046 | Space Got Weird | contradiction, mystery | 413 | – | – | – | – | Nuclear-to-cosmic contrast drove high like conversion (6.1%), but front-loading dry historical satellite dates in beat 2 hindered pacing velocity and total views. |
-| ep047 | Space Myths, Busted | question, mystery | 1367 | – | – | – | – | Myth-busting question hook drove channel-leading velocity (54.9 views/hour), but historical probe trivia in the middle beats and a closed ending depressed likes (2.7%) and comments. |
-| ep060 | Scale Breaker | statement, scale_ladder | 763 | – | – | – | – | Sensational universe-destroying star hook maintained baseline view velocity, but academic debate roll calls in beats 2 and 3 dragged pacing, engagement, and likes (2.5%). |
-| ep061 | The Universe Is Terrifying | statement, scale_ladder | 241 | 47% | 56.5% | 120% | 0 | Passive sombrero hat hook lacked tension and fell below median engaged share (47.2%), though the galaxy reveal generated solid likes (5.4%) among viewers who stayed. |
+| ep030 | Scale Breaker | number, record | 1093 | 52% | 81.7% | 138% | 4 | Historical discovery beats slowed momentum and failed to convert views compared to the scale breaker premise. |
+| ep032 | The Universe Is Terrifying | statement, record | 1041 | 42% | 80.1% | 127% | 1 | Strong retention and loops drove rewatches, but engaged share dropped due to a closed ending. |
+| ep033 | Space Got Weird | statement, story | 746 | 42% | 70.8% | 127% | 1 | Dry institutional hook text and abstract opening beat weakened initial viewer opt-in. |
+| ep035 | Near Misses | statement, myth_vs_fact | 1327 | 52% | 86.6% | 131% | 1 | Audience drop-off occurred toward the end because the hazard threat was deflated early. |
+| ep036 | Mission Files | statement, story | 1036 | 60% | 63.5% | 118% | 1 | Steep mid-video drop-off occurred due to loose pacing in the second and third beats. |
+| ep040 | Space Got Weird | statement, myth_vs_fact | 500 | 59% | 97.1% | 145% | 1 | Early punchline statement in the hook reduced overall reach velocity despite strong satisfaction. |
+| ep046 | Space Got Weird | contradiction, mystery | 430 | – | – | – | – | Front-loading dry historical context immediately after the opening line caused low pacing velocity. |
+| ep047 | Space Myths, Busted | question, mystery | 1376 | – | – | – | – | An informational detour in mid-script beats stalled audience engagement and comments. |
+| ep060 | Scale Breaker | statement, scale_ladder | 765 | – | – | – | – | Middle beats bogged down in academic exposition and historical name-dropping rather than delivering on the hook. |
+| ep061 | The Universe Is Terrifying | statement, scale_ladder | 242 | 47% | 56.5% | 120% | 0 | Passive hook failed to pull in the initial audience and resulted in very low view velocity. |
 
 ## Log
 
@@ -100,3 +100,4 @@ contradiction.
 - 2026-10-09: Promoted the historical-dates hypothesis to a rule after ep030 and ep060 both demonstrated audience drop-off from mid-script academic exposition.
 - 2026-10-10: Updated rules to cite ep047 for condensing mid-script setups and using open-ended questions, confirming their impact on retention and engagement.
 - 2026-10-10: Expanded evidence for active hook tension (ep033) and eliminating historical exposition (ep046) across 10 reviewed Shorts while retaining active hypotheses pending further corroborating data.
+- 2026-10-10: Updated learning log with 10 new Short reviews, integrating ongoing performance patterns and refining constraints.

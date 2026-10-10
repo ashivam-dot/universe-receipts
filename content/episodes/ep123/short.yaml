@@ -1,0 +1,129 @@
+id: ep123
+title: The President's Martian Rock
+series: Space Got Weird
+description: Discover how a four-pound meteorite found in Antarctica sparked a global debate and a presidential address about
+  life on Mars.
+sources:
+- https://en.wikipedia.org/wiki/Allan_Hills_84001
+- https://web.archive.org/web/20200416194540/https://www2.jpl.nasa.gov/snc/clinton.html
+- https://www.scientificamerican.com/article/the-rise-and-fall-of-nanobacteria/
+- https://en.wikipedia.org/wiki/Martian_meteorite
+hashtags:
+- '#space'
+- '#mars'
+- '#meteorite'
+tags:
+- Mars
+- meteorite
+- Antarctica
+- astrobiology
+- Bill Clinton
+- science history
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: President Bill Clinton went on television to announce a rock from Mars.
+  emphasis:
+  - President Bill Clinton
+  - rock from Mars
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/WHPO-P00080_-_DPLA_-_5e17986b8be2cb45d5c8da877f26e91d_%28page_25%29.jpg/3840px-WHPO-P00080_-_DPLA_-_5e17986b8be2cb45d5c8da877f26e91d_%28page_25%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: WHPO-P00080 - DPLA - 5e17986b8be2cb45d5c8da877f26e91d (page 25).jpg
+      credit: 'President (1993-2001 : Clinton). White House Photograph Office. 1/20/1993-1/20/2001'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:WHPO-P00080_-_DPLA_-_5e17986b8be2cb45d5c8da877f26e91d_(page_25).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.4
+    focus_y: 0.45
+    box:
+    - 0.28
+    - 0.32
+    - 0.48
+    - 0.65
+- text: In December 1984, meteorite hunters exploring the Allan Hills region of Antarctica discovered an unusual four-pound
+    specimen.
+  emphasis:
+  - December 1984
+  - Allan Hills
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: December 1984
+      small: Allan Hills, Antarctica
+    motion: zoom_in
+- text: A colossal asteroid impact had blasted this ancient stone off the Martian surface around sixteen million years ago.
+  emphasis:
+  - asteroid impact
+  - sixteen million years ago
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b1/White_dwarf_star_system_GD_61.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: White dwarf star system GD 61.jpg
+      credit: NASA, ESA, M.A. Garlick (space-art.co.uk), University of Warwick, and University of Cambridge.
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:White_dwarf_star_system_GD_61.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: After drifting through the freezing vacuum of the solar system, the meteorite finally landed on Earth approximately
+    thirteen thousand years ago.
+  emphasis:
+  - solar system
+  - thirteen thousand years ago
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 13,000 years
+      small: Time on Earth
+    motion: zoom_in
+- text: In 1996, NASA scientists announced the specimen contained microscopic structures measuring twenty to one hundred nanometers
+    in diameter.
+  emphasis:
+  - NASA scientists
+  - microscopic structures
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/ALH84001_structures.jpg/1920px-ALH84001_structures.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ALH84001 structures.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ALH84001_structures.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 20-100 nm
+      small: Structure diameter
+- text: Though most researchers eventually rejected a biological origin, this remarkable Martian rock inspired that historic
+    television address by the President.
+  emphasis:
+  - rejected a biological origin
+  - historic television address
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.4
+    focus_y: 0.45

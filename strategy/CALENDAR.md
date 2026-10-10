@@ -35,6 +35,7 @@ unexplained, not alien.
 | 2026-10-08 | Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo — parked (ep100) | Mission Files | NASA recently released newly annotated lunar navigation training photos prepared by the Artemis II crew. |
 | 2026-10-09 | Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble — parked (ep113) | The Universe Is Terrifying | Featured as NASA's Astronomy Picture of the Day this week and in the spotlight ahead of NASA's briefing on the Martian Moons eXploration mission. |
 | 2026-10-09 | Fast radio burst (2007): millisecond flashes of deep-space energy that release as much power as the Sun radiates across entire days — done (ep114) | Scale Breaker | NASA announced that the James Webb Space Telescope just measured the distance to the farthest fast radio burst ever detected. |
+| 2026-10-10 | Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors — making (ep124) | The Universe Is Terrifying | NASA just released a stunning new James Webb Space Telescope image of this cluster. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -90,6 +91,7 @@ unexplained, not alien.
 - Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished — making (ep117)
 - OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy — parked (ep103)
 - False vacuum decay: a hypothetical cosmic catastrophe where a bubble of true vacuum could expand at the speed of light, rewriting the laws of physics and erasing our universe instantly — done (ep078)
+- V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets
 
 ### Scale Breaker
 
@@ -111,6 +113,7 @@ unexplained, not alien.
 - Boomerang Nebula (1980): the coldest place in the natural universe, colder than the background glow of the Big Bang — done (ep095)
 - El Gordo (galaxy cluster) (2012): a colossal collision of two galaxy clusters that weighs about three quadrillion times more than our Sun — making (ep120)
 - Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology — done (ep111)
+- Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years
 
 ### Mission Files
 
@@ -131,6 +134,7 @@ unexplained, not alien.
 - Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down — done (ep051)
 - Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life — making (ep121)
 - Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere — making (ep116)
+- Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions
 
 ### Space Got Weird
 
@@ -152,6 +156,7 @@ unexplained, not alien.
 - Tennis racket theorem (1985): a physical law in zero gravity that causes any spinning asymmetrical object to spontaneously flip back and forth without outside force — dropped (ep082)
 - Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together — making (ep118)
 - WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star — parked (ep104)
+- Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds
 
 ### Near Misses
 
