@@ -1,0 +1,263 @@
+{
+  "viable": true,
+  "reason": "The sources provide multi-site verification across Wikipedia, the Smithsonian, Stanford, and Penn State for 16 specific technical and historical claims.",
+  "story": "In 1958, American physicists Ted Taylor and Freeman Dyson led Project Orion at General Atomics, designing a massive interplanetary spacecraft propelled by atomic bombs. Conceived by Stanisław Ulam and funded by ARPA, the spacecraft operated by dropping nuclear explosives behind a giant steel pusher plate and detonating them at a rhythm of one bomb per second. While each blast would subject the plate to tens of thousands of g's, heavy shock absorbers were engineered to cushion the ride down to a gentle few g's for human passengers. To keep the steel pusher plate from eroding away under recurring nuclear fireballs, researchers discovered an elegant fix: spraying a thin layer of oil across the plate between explosions prevented ablation entirely. Despite achieving promising scale-model tests, the project was canceled in 1964 following the 1963 Partial Test Ban Treaty, which outlawed nuclear explosions in the atmosphere and outer space.",
+  "angle": "In the late 1950s, the US government engineered a crewed spaceship driven by detonating a rapid-fire barrage of atomic bombs—one every second—cushioned by giant shock absorbers and shielded from vaporizing by a thin spray of motor oil.",
+  "claims": [
+    {
+      "claim": "Stanisław Ulam conceived the foundational concept of nuclear pulse propulsion using external nuclear detonations to drive a spacecraft.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Project Orion was formally established in 1958 at General Atomics to investigate nuclear pulse rocket viability.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "ARPA sponsored and funded the initial Project Orion study with General Dynamics beginning in 1958.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Physicists Ted Taylor and Freeman Dyson led the Project Orion design team at General Atomics.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft was designed to be propelled by ejecting and detonating nuclear explosives behind a heavy pusher plate.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The nuclear pulse units were designed as shaped charges to direct explosive plasma toward the pusher plate.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The standard propulsion cycle operated at a cadence of roughly one nuclear detonation per second.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The pusher plate was designed as a steel disk with a thickness that varied across its radius to manage bending stresses.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Spraying a film of oil onto the pusher plate between nuclear detonations was designed to prevent surface ablation.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Shock absorbers behind the pusher plate were designed to reduce extreme accelerations to a few g's in the crew compartment.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Water-cooled springs behind the pusher plate were evaluated as a shock absorption solution.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The crew cabin required dedicated radiation shielding to protect astronauts from nuclear blast radiation.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "An analyzed Orion spacecraft reference design delivered an estimated specific impulse of approximately 2,000 seconds.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Project Orion was canceled in 1964 largely as a consequence of the 1963 Partial Nuclear Test Ban Treaty.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "General Dynamics donated a wooden model of the Orion spacecraft to the Smithsonian in 1979, which is displayed at the Steven F. Udvar-Hazy Center.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Researchers at Pennsylvania State University developed advanced antimatter-catalyzed propulsion concepts named Project ICAN and Project AIMStar.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Official project shutdown year differs between sources (1964 in S1 and S3 versus 1965 in S2); script should attribute: 'canceled in 1964, with work winding down into 1965'.",
+    "Pusher plate shock absorber and spalling mitigation designs varied between water-cooled springs, multi-stage gas pistons, and magnetic shielding; script should treat water-cooled springs as 'one early engineering solution investigated'.",
+    "The claim that a nuclear containment test plate during Operation Plumbbob was launched into space at six times escape velocity is treated by physicists as a theoretical lower-bound calculation rather than confirmed fact, with calculations indicating it likely vaporized; script should attribute: 'according to a famous calculation'."
+  ],
+  "visuals": [
+    {
+      "subject": "Project Orion spacecraft wooden display model on exhibit at the National Air and Space Museum",
+      "queries": [
+        "Project Orion model Udvar-Hazy",
+        "Project Orion spacecraft model Smithsonian"
+      ]
+    },
+    {
+      "subject": "Mathematician Stanisław Ulam, originator of nuclear pulse propulsion",
+      "queries": [
+        "Stanislaw Ulam Los Alamos portrait",
+        "Stanislaw Ulam badge photo"
+      ]
+    },
+    {
+      "subject": "Physicist Freeman Dyson during his work in theoretical physics",
+      "queries": [
+        "Freeman Dyson portrait 1960s",
+        "Freeman Dyson Institute for Advanced Study"
+      ]
+    },
+    {
+      "subject": "Physicist Theodore Taylor, leader of Project Orion at General Atomics",
+      "queries": [
+        "Theodore Taylor physicist",
+        "Ted Taylor General Atomics"
+      ]
+    },
+    {
+      "subject": "Project Orion Hot Rod chemical explosive test vehicle in flight at Point Loma",
+      "queries": [
+        "Project Orion Putt Putt model test",
+        "Project Orion Hot Rod 1959"
+      ]
+    },
+    {
+      "subject": "Diagram of Project Orion vehicle architecture including pusher plate and shock absorbers (illustration)",
+      "queries": [
+        "Project Orion spacecraft diagram",
+        "Project Orion nuclear pulse propulsion diagram"
+      ]
+    },
+    {
+      "subject": "Artist concept of Project Orion interplanetary spacecraft (illustration)",
+      "queries": [
+        "Project Orion Mars vehicle concept",
+        "Project Orion battleship concept"
+      ]
+    },
+    {
+      "subject": "Operation Ivy Mike atmospheric thermonuclear detonation fireball and cloud",
+      "queries": [
+        "Ivy Mike atmospheric nuclear test mushroom cloud",
+        "Operation Ivy Mike detonation 1952"
+      ]
+    },
+    {
+      "subject": "Signing of the Partial Nuclear Test Ban Treaty in Moscow in 1963",
+      "queries": [
+        "Partial Nuclear Test Ban Treaty signing 1963",
+        "Dean Rusk signing Test Ban Treaty Moscow"
+      ]
+    },
+    {
+      "subject": "Penn State ICAN-II antimatter-catalyzed microfission Mars spacecraft design (illustration)",
+      "queries": [
+        "ICAN-II spacecraft concept Penn State",
+        "Antimatter catalyzed microfission spacecraft"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)",
+      "title": "Project Orion (nuclear propulsion)",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Nuclear_pulse_propulsion",
+      "title": "Nuclear pulse propulsion",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://web.archive.org/web/20230803165748/https://airandspace.si.edu/collection-objects/model-spacecraft-orion-nuclear-pulse/nasm_A19790892000",
+      "title": "Model, Spacecraft, Orion Nuclear Pulse",
+      "site": "si.edu"
+    },
+    {
+      "label": "S4",
+      "url": "https://web.archive.org/web/20130814143121/http://www.lepp.cornell.edu/~seb/celestia/orion/index.html",
+      "title": "Project Orion",
+      "site": "cornell.edu"
+    },
+    {
+      "label": "S5",
+      "url": "https://web.archive.org/web/20121101033843/http://www.engr.psu.edu/antimatter/introduction2.html",
+      "title": "Antimatter Space Propulsion at Penn State University (LEPS)",
+      "site": "psu.edu"
+    },
+    {
+      "label": "S6",
+      "url": "http://large.stanford.edu/courses/2010/ph240/stetler2/",
+      "title": "Project Orion",
+      "site": "stanford.edu"
+    },
+    {
+      "label": "S7",
+      "url": "http://www.phyast.pitt.edu/~blc/book/chapter8.html",
+      "title": "UNDERSTANDING RISK",
+      "site": "pitt.edu"
+    }
+  ],
+  "topic": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
+  "series": "Mission Files"
+}

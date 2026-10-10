@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-10T23:07:27+05:30",
-  "day": 9,
+  "updated_at": "2026-10-11T05:06:46+05:30",
+  "day": 10,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4KE3TB70071NEPPG6XVK7AR",
+    "id": "ta-01M4M2Q04PRRYC8F8V58WN0WRR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-10T23:05:12+05:30",
-    "started_at_utc": "2026-10-10T17:35:12+00:00",
-    "seconds": 136
+    "started_at": "2026-10-11T05:05:10+05:30",
+    "started_at_utc": "2026-10-10T23:35:10+00:00",
+    "seconds": 96
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.2
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "32 posts",
-      "seconds": 1.6
+      "detail": "33 posts",
+      "seconds": 2.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep114 to 'Scale Breaker'",
+      "detail": "added ep050 to 'Near Misses'",
       "seconds": 2.2
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "on youtube",
@@ -45,32 +45,26 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep061 at 72 h: behind the channel's earlier Shorts at this age: 242 views against a median of 1004 (0.2x); ep086 at 24 h: behind the channel's earlier Shorts at this age: 367 views against a median of 790 (0.5x); learnings: Updated active mystery and catalog trivia elimination rules with new evidence from ep061 and ep086 reviews.",
-      "seconds": 68.8
+      "detail": "ep030 at 72 h: level with the channel's earlier Shorts at this age: 1095 views against a median of 979 (1.1x); ep049 at 24 h: behind the channel's earlier Shorts at this age: 585 views against a median of 750 (0.8x); ep114 at 6 h: behind the channel's earlier Shorts at this age: 153 views against a median of 659 (0.2x); learnings: Logged 10 short diagnoses and added ep049 evidence to historical dates pacing rule.",
+      "seconds": 60.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep115 rejected (low scores: visuals); ep116 ready; ep117 ready; ep118 ready; ep119 ready; ep120 ready; ep121 rejected (low scores: visuals); ep122 rejected (low scores: visuals; 2 frame problems); ep123 rejected (low scores: loop); ep124 rejected (research: The topic focuses on galaxy cluster MACS J0454.1-0300, which appears solely in [S4]; without a second independent site mentioning the cluster, it is impossible to produce 10 verified claims about it.)",
-      "seconds": 31.2
+      "detail": "ep125 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep126 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep127 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
+      "seconds": 9.4
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
-    },
-    {
-      "name": "preflight ep050",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.1
     },
     {
       "name": "preflight ep055",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "preflight ep066",
@@ -81,82 +75,59 @@
     {
       "name": "preflight ep084",
       "ok": true,
-      "detail": "video downloads whole (16 MB in 0 s)",
-      "seconds": 0.6
+      "detail": "video still hosted",
+      "seconds": 0.4
     },
     {
       "name": "preflight ep099",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
+      "seconds": 1.9
     },
     {
-      "name": "schedule ep105",
+      "name": "schedule ep112",
       "ok": true,
-      "detail": "2026-10-14T19:00:00-04:00",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep125",
-      "ok": true,
-      "detail": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep126",
-      "ok": true,
-      "detail": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
-      "seconds": 1.1
-    },
-    {
-      "name": "start ep127",
-      "ok": true,
-      "detail": "Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds",
-      "seconds": 1.1
-    },
-    {
-      "name": "start ep128",
-      "ok": true,
-      "detail": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
+      "detail": "2026-10-14T21:30:00-04:00",
       "seconds": 1.0
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 1.0
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 20 waiting"
+    "ep125 stopped on Gemini's free quota; it resumes in a later run",
+    "ep126 stopped on Gemini's free quota; it resumes in a later run",
+    "ep127 stopped on Gemini's free quota; it resumes in a later run",
+    "ep128 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "room for 0 of the 4 Shorts wanted: Modal's credit covers 116, this run's share of the Actions minutes 0",
+    "Buffer is full (10 queued); 19 waiting"
   ],
   "inventory": {
-    "total": 30,
+    "total": 29,
     "in_buffer": 10,
-    "waiting": 20,
+    "waiting": 19,
     "target": 42,
-    "making": [],
-    "remote": [
+    "making": [
       "ep125",
       "ep126",
       "ep127",
       "ep128"
-    ]
+    ],
+    "remote": []
   },
   "queue": [
-    {
-      "id": "ep050",
-      "title": "The Day an Undetected Asteroid Blindsided Earth",
-      "due_at": "2026-10-10T19:00:00-04:00"
-    },
     {
       "id": "ep055",
       "title": "The Death Star System Pointed at Earth",
@@ -201,6 +172,11 @@
       "id": "ep105",
       "title": "The Storm That Bit Its Own Tail",
       "due_at": "2026-10-14T19:00:00-04:00"
+    },
+    {
+      "id": "ep112",
+      "title": "The Asteroid That Hid in Plain Sight",
+      "due_at": "2026-10-14T21:30:00-04:00"
     }
   ],
   "waiting": [
@@ -289,12 +265,6 @@
       "score": 24
     },
     {
-      "id": "ep112",
-      "title": "The Asteroid That Hid in Plain Sight",
-      "series": "Near Misses",
-      "score": 23
-    },
-    {
       "id": "ep116",
       "title": "The Scrap-Metal Probe That Conquered Venus",
       "series": "Mission Files",
@@ -327,168 +297,59 @@
   ],
   "made": [
     {
-      "id": "ep115",
-      "outcome": "rejected",
-      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep116",
-      "outcome": "ready",
-      "topic": "Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere",
-      "title": "The Scrap-Metal Probe That Conquered Venus",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791632779/universereceipts/ep116-a54f2402.mp4"
-    },
-    {
-      "id": "ep117",
-      "outcome": "ready",
-      "topic": "Abell 2261 (2012): a galaxy whose central supermassive black hole—one of the largest ever found—has mysteriously vanished",
-      "title": "The Galaxy With a Missing Heart",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791632795/universereceipts/ep117-64e98701.mp4"
-    },
-    {
-      "id": "ep118",
-      "outcome": "ready",
-      "topic": "Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together",
-      "title": "The Moon That Was Smashed to Pieces",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791633659/universereceipts/ep118-cca12a30.mp4"
-    },
-    {
-      "id": "ep119",
-      "outcome": "ready",
-      "topic": "2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later",
-      "title": "The City-Killer Hiding in the Sun",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791632753/universereceipts/ep119-f4f49ef6.mp4"
-    },
-    {
-      "id": "ep120",
-      "outcome": "ready",
-      "topic": "El Gordo (galaxy cluster) (2012): a colossal collision of two galaxy clusters that weighs about three quadrillion times more than our Sun",
-      "title": "The Cosmic Giant Tearing Itself Apart",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791633018/universereceipts/ep120-e480247c.mp4"
-    },
-    {
-      "id": "ep121",
-      "outcome": "rejected",
-      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep122",
-      "outcome": "rejected",
-      "topic": "HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds",
-      "reason": "low scores: visuals; 2 frame problems"
-    },
-    {
-      "id": "ep123",
-      "outcome": "rejected",
-      "topic": "SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars",
-      "reason": "low scores: loop"
-    },
-    {
-      "id": "ep124",
-      "outcome": "rejected",
-      "topic": "Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors",
-      "reason": "research: The topic focuses on galaxy cluster MACS J0454.1-0300, which appears solely in [S4]; without a second independent site mentioning the cluster, it is impossible to produce 10 verified claims about it."
-    }
-  ],
-  "spawned": [
-    {
       "id": "ep125",
+      "outcome": "unfinished",
       "topic": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
-      "call_id": "fc-01M4KE838ZAZB0775ARZFHJSXS"
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
       "id": "ep126",
+      "outcome": "unfinished",
       "topic": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
-      "call_id": "fc-01M4KE84ANN3ZXRVSJ5917ET5F"
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
       "id": "ep127",
+      "outcome": "unfinished",
       "topic": "Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds",
-      "call_id": "fc-01M4KE85D4QHYW558MEQQVBZF0"
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
       "id": "ep128",
+      "outcome": "unfinished",
       "topic": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
-      "call_id": "fc-01M4KE86C5GXB90B8FZ7YPTXE3"
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
-  "in_cloud": [
-    {
-      "id": "ep125",
-      "topic": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
-      "spawned_at": "2026-10-10T23:07:22+05:30"
-    },
-    {
-      "id": "ep126",
-      "topic": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
-      "spawned_at": "2026-10-10T23:07:23+05:30"
-    },
-    {
-      "id": "ep127",
-      "topic": "Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds",
-      "spawned_at": "2026-10-10T23:07:24+05:30"
-    },
-    {
-      "id": "ep128",
-      "topic": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
-      "spawned_at": "2026-10-10T23:07:25+05:30"
-    }
-  ],
+  "spawned": [],
+  "in_cloud": [],
   "published": [
     {
-      "id": "ep105",
-      "title": "The Storm That Bit Its Own Tail",
-      "due_at": "2026-10-14T19:00:00-04:00"
+      "id": "ep112",
+      "title": "The Asteroid That Hid in Plain Sight",
+      "due_at": "2026-10-14T21:30:00-04:00"
     }
   ],
-  "live": 23,
+  "live": 24,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 39,
+    "calls": 21,
     "by_model": {
-      "gemini-3.8-flash": 8,
-      "gemini-3.6-flash": 6,
-      "gemini-3.7-flash": 9,
-      "gemini-3-flash-preview": 9,
-      "gemini-3.5-flash-lite": 7
+      "gemini-3.8-flash": 4,
+      "gemini-3.7-flash": 4,
+      "gemini-3.6-flash": 2,
+      "gemini-3.5-flash-lite": 9,
+      "gemini-3-flash-preview": 1,
+      "gemini-flash-latest": 1
     },
     "out_of_quota": [
       "gemini-3.7-flash",
@@ -496,22 +357,22 @@
     ]
   },
   "renders": {
-    "modal": 18,
+    "modal": 5,
     "runner": 0
   },
   "daily_done": "2026-10-10",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 13.79,
+    "metered": 13.99,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 118,
+    "cloud": 116,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 14.21
+    "modal_credit_left": 14.01
   },
   "made_here": 0,
   "open_topics": 23,

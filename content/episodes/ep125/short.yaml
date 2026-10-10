@@ -1,0 +1,174 @@
+id: ep125
+title: The Cold War Rocket Powered by Atomic Bombs
+series: Mission Files
+description: In 1958, Project Orion engineered a crewed interplanetary spacecraft driven by a rapid-fire sequence of atomic
+  bomb detonations.
+sources:
+- https://en.wikipedia.org/wiki/Project_Orion_(nuclear_propulsion)
+- https://web.archive.org/web/20230803165748/https://airandspace.si.edu/collection-objects/model-spacecraft-orion-nuclear-pulse/nasm_A19790892000
+- http://large.stanford.edu/courses/2010/ph240/stetler2/
+hashtags:
+- '#space'
+- '#projectorion'
+- '#nasa'
+tags:
+- project orion
+- nuclear propulsion
+- freeman dyson
+- ted taylor
+- space exploration
+- cold war
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: Engineers designed a spaceship propelled by one nuclear bomb every second.
+  emphasis:
+  - nuclear bomb
+  - every second
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/61/NASA-project-orion-artist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: NASA-project-orion-artist.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA-project-orion-artist.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: In 1958, physicists Ted Taylor and Freeman Dyson led Project Orion at General Atomics.
+  emphasis:
+  - Ted Taylor
+  - Freeman Dyson
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/0/0e/Freeman_Dyson_at_Harvard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Freeman Dyson at Harvard.jpg
+      credit: Lumidek at English Wikipedia
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Freeman_Dyson_at_Harvard.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '1958'
+      small: General Atomics
+- text: Their analyzed design delivered an estimated specific impulse of approximately 2,000 seconds.
+  emphasis:
+  - estimated specific impulse
+  - 2,000 seconds
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/ProjectOrionConfiguration.png/960px-ProjectOrionConfiguration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ProjectOrionConfiguration.png
+      credit: Uploaded by Georgewilliamherbert 10:59, 10 January 2007 (UTC)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ProjectOrionConfiguration.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 2,000 SECONDS
+      small: Estimated specific impulse
+- text: Shaped nuclear charges blasted hot plasma directly against a heavy steel pusher plate.
+  emphasis:
+  - shaped nuclear charges
+  - pusher plate
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Project-Orion_propulsion-module_section.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Project-Orion propulsion-module section.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Project-Orion_propulsion-module_section.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Giant shock absorbers reduced extreme blast accelerations to just a few g's for the crew compartment.
+  emphasis:
+  - shock absorbers
+  - few g's
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Project_Orion_Model.jpg/960px-Project_Orion_Model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Project Orion Model.jpg
+      credit: Air Force Research Laboratory
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Project_Orion_Model.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: A FEW G'S
+      small: Crew compartment acceleration
+- text: To keep atomic fireballs from vaporizing the plate, researchers discovered an unexpected fix.
+  emphasis:
+  - vaporizing
+  - unexpected fix
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/3e/Ivy_Mike_%28Eniwetok-Atoll_-_31._Oktober_1952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Ivy Mike (Eniwetok-Atoll - 31. Oktober 1952).jpg
+      credit: Unknown authorUnknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ivy_Mike_(Eniwetok-Atoll_-_31._Oktober_1952).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Spraying a thin film of oil between detonations prevented surface ablation entirely.
+  emphasis:
+  - film of oil
+  - prevented surface ablation
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: THIN FILM OF OIL
+      small: Prevented plate ablation
+    motion: zoom_in
+- text: The 1963 Test Ban Treaty canceled the program in 1964, ending the dream before a single launch.
+  emphasis:
+  - Test Ban Treaty
+  - canceled
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: 1 ATOMIC BOMB PER SECOND
