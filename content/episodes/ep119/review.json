@@ -1,0 +1,55 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-10T05:13:37+05:30",
+      "check": {
+        "duration": 53.53,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise that creates immediate situational stakes.",
+        "clarity": "Logical flow from the specific event to technical causes.",
+        "payoff": "The conclusion is informative but lacks a surprising emotional punch.",
+        "visuals": "High quality imagery, though one beat uses an incorrect mission.",
+        "loop": "The final warning transitions smoothly back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Diagram labels the DSCOVR mission instead of the mentioned NEOMIR mission."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Replace DSCOVR diagram with NEOMIR mission concept visualization.",
+        "Beat 8: 'Unless we monitor the Sun, more city-killers stay hidden because...'"
+      ],
+      "better_than_last": "This Short provides a clearer causal link between a specific event and future spacecraft missions.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

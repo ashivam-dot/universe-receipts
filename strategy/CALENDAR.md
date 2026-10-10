@@ -145,7 +145,7 @@ unexplained, not alien.
 - Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — parked (ep014)
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one — done (ep110)
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009 — done (ep040)
-- SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars
+- SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars — making (ep123)
 - 55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond — done (ep066)
 - 16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet — dropped (ep064)
 - Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit — parked (ep098)
