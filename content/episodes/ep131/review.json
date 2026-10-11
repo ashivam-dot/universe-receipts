@@ -1,0 +1,112 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-11T23:15:51+05:30",
+      "check": {
+        "duration": 48.19,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'cast visible shadows'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The shadow concept is a compelling entry point.",
+        "clarity": "Scale progression is easy to follow.",
+        "payoff": "Scale reveal provides a memorable conclusion.",
+        "visuals": "Beat 7 incorrectly reuses Orion imagery for the Tarantula nebula.",
+        "loop": "Seamless narrative and visual transition back to the start."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Reuses Orion Nebula image while discussing the Tarantula Nebula."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more compelling hypothetical 'what-if' than recent observational shorts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T23:17:51+05:30",
+      "check": {
+        "duration": 48.19,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'cast visible shadows'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The shadow fact is interesting but lacks immediate visual tension.",
+        "clarity": "Logical flow from Orion to the Tarantula nebula is well-paced.",
+        "payoff": "The final shadow reveal is slightly redundant after the hook.",
+        "visuals": "Nebula shots are high quality and match the narrative.",
+        "loop": "Last line connects well back to the cosmic nursery concept."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows standard Orion Nebula rather than representing the Tarantula's massive scale."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Magellanic",
+          "respelling": "maj el an ic"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: Imagine a cosmic object distant enough to make our night sky change forever.",
+        "Beat 8: Its extreme luminosity would turn midnight into a world of visible shadows."
+      ],
+      "better_than_last": "Provides a more relatable size comparison than the technical galaxy interactions in episode 127.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

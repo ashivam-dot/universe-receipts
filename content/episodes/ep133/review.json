@@ -1,0 +1,107 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-11T23:14:32+05:30",
+      "check": {
+        "duration": 50.06,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'earths' heard as 'earth' after 'to swallow 2'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong Earth-scale comparison immediately grabs attention.",
+        "clarity": "Logical flow from planetary scale to physics.",
+        "payoff": "Laboratory reveal is informative but lacks dramatic impact.",
+        "visuals": "Cassini imagery is excellent; the diagram in beat seven is jarring.",
+        "loop": "Seamless transition from physical laws back to the storm imagery."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Technical diagram is visually dull and resembles a low-quality textbook scan."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: This isn't magic—scientists recreated the exact shape in simple water tanks using basic physics.",
+        "Beat 8: It proves nature's laws can carve perfect straight lines across an entire planet."
+      ],
+      "better_than_last": "Features more direct planetary photography from Cassini than the recent conceptual episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T23:18:25+05:30",
+      "check": {
+        "duration": 47.77,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'earths' heard as 'earth' after 'to swallow 2'",
+          "'s' heard as 'is' after 'longer than earth'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The scale of 'swallowing two Earths' combined with the geometric mystery is a top-tier hook.",
+        "clarity": "The script flows logically from the discovery to scale, then mechanism and proof.",
+        "payoff": "Proving that a planet-sized mystery can be solved in a simple water tank is a great ending.",
+        "visuals": "Excellent use of historical and color-enhanced NASA imagery to show change over time.",
+        "loop": "Ends on a complete thought that transitions naturally back to the introduction of the storm."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The frame is a dry scientific diagram that is hard to read at phone size and doesn't visually convey the 'water tank' experiment mentioned."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short uses the color-shift comparison in beat 6 to show actual evidence of change over time, which is more visually convincing than the static images in the supersonic impostor episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

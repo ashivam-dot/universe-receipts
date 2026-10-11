@@ -1,0 +1,192 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-11T23:15:15+05:30",
+      "check": {
+        "duration": 52.7,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'halley is' heard as 'halis' after 'sent giotto into'",
+          "'giotto' heard as 'jotto' after 'after 32 minutes'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "High-speed stats capture attention immediately.",
+        "clarity": "Logical flow of mission events.",
+        "payoff": "Survival confirms mission success.",
+        "visuals": "Significant historical inaccuracies in footage.",
+        "loop": "Ending lacks a grammatical bridge to the start."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Wrong mission; shows modern Artemis and NASA imagery."
+        },
+        {
+          "beat": 8,
+          "problem": "Wrong images; displays ground observations from 1991."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Halley's",
+          "respelling": "hal leez"
+        },
+        {
+          "beat": 2,
+          "word": "Giotto",
+          "respelling": "gee ot toe"
+        }
+      ],
+      "rewrite": [
+        "Beat 9: No mission was as daring as when"
+      ],
+      "better_than_last": "Maintains tighter narrative focus than episode 127.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T23:19:58+05:30",
+      "check": {
+        "duration": 52.26,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.5,
+        "warnings": [],
+        "speech_differences": [
+          "'giotto' heard as 'jotto' after 'space agency sent'",
+          "'halley s' heard as 'haliz' after 'giotto to intercept'",
+          "'s' heard as 'is' after 'impact knocked giotto'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The high-velocity survival premise is engaging.",
+        "clarity": "The mission timeline is easy to follow.",
+        "payoff": "The blackout recovery is a strong conclusion.",
+        "visuals": "Beat 7 features an off-topic speaker.",
+        "loop": "Thematic repetition creates a clean restart."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Off-topic; shows a person at a podium instead of the spacecraft or thrusters."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Halley’s",
+          "respelling": "hal ees"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short integrates historical mission documentation and diagrams better than previous episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T23:22:30+05:30",
+      "check": {
+        "duration": 52.3,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'to intercept halley'",
+          "'s' heard as 'is' after 'impact knocked giotto'",
+          "'(nothing)' heard as 'you' after 'survived the impossible'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening with immediate high stakes.",
+        "clarity": "Technical details are explained clearly.",
+        "payoff": "Tension builds well to the visual recovery.",
+        "visuals": "Imagery accurately supports the technical narrative.",
+        "loop": "Transitions smoothly back to the opening statement."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Giotto",
+          "respelling": "jot toh"
+        },
+        {
+          "beat": 6,
+          "word": "Giotto’s",
+          "respelling": "jot tohz"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Effectively balances technical shield specifications with a tense, high-stakes mission recovery narrative.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "failed the quality gate",
+  "rejected_at": "2026-10-11T23:22:30+05:30"
+}
