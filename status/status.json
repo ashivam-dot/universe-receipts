@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-11T05:06:46+05:30",
+  "updated_at": "2026-10-11T11:06:37+05:30",
   "day": 10,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4M2Q04PRRYC8F8V58WN0WRR",
+    "id": "ta-01M4MQA4YWWPFG2MAF4DCWM3BR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-11T05:05:10+05:30",
-    "started_at_utc": "2026-10-10T23:35:10+00:00",
-    "seconds": 96
+    "started_at": "2026-10-11T11:05:11+05:30",
+    "started_at_utc": "2026-10-11T05:35:11+00:00",
+    "seconds": 86
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.7
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "33 posts",
-      "seconds": 2.3
+      "detail": "34 posts",
+      "seconds": 1.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep050 to 'Near Misses'",
-      "seconds": 2.2
+      "detail": "added ep055 to 'The Universe Is Terrifying'",
+      "seconds": 2.6
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.2
+      "detail": "ep046 language en/None -> en; ep047 language en/None -> en; ep060 language en/None -> en; ep086 language en/None -> en",
+      "seconds": 1.8
     },
     {
       "name": "on youtube",
@@ -45,79 +45,69 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep030 at 72 h: level with the channel's earlier Shorts at this age: 1095 views against a median of 979 (1.1x); ep049 at 24 h: behind the channel's earlier Shorts at this age: 585 views against a median of 750 (0.8x); ep114 at 6 h: behind the channel's earlier Shorts at this age: 153 views against a median of 659 (0.2x); learnings: Logged 10 short diagnoses and added ep049 evidence to historical dates pacing rule.",
-      "seconds": 60.1
+      "detail": "ep040 at 72 h: behind the channel's earlier Shorts at this age: 503 views against a median of 1004 (0.5x); ep050 at 6 h: ahead of the channel's earlier Shorts at this age: 1043 views against a median of 658 (1.6x); ep052 at 24 h: level with the channel's earlier Shorts at this age: 726 views against a median of 741 (1.0x); learnings: Added ep052 as evidence to the open-ended debate rule and tested hazard delay hypothesis on ep035.",
+      "seconds": 57.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep125 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep126 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep127 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
-      "seconds": 9.4
+      "detail": "nothing in the cloud",
+      "seconds": 1.6
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
-    },
-    {
-      "name": "preflight ep055",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.4
     },
     {
       "name": "preflight ep066",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.6
     },
     {
       "name": "preflight ep084",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "preflight ep099",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.9
+      "seconds": 2.0
     },
     {
-      "name": "schedule ep112",
+      "name": "schedule ep111",
       "ok": true,
-      "detail": "2026-10-14T21:30:00-04:00",
+      "detail": "2026-10-15T19:00:00-04:00",
       "seconds": 1.0
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.0
+      "seconds": 1.1
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep125 stopped on Gemini's free quota; it resumes in a later run",
-    "ep126 stopped on Gemini's free quota; it resumes in a later run",
-    "ep127 stopped on Gemini's free quota; it resumes in a later run",
-    "ep128 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "room for 0 of the 4 Shorts wanted: Modal's credit covers 116, this run's share of the Actions minutes 0",
-    "Buffer is full (10 queued); 19 waiting"
+    "Buffer is full (10 queued); 18 waiting"
   ],
   "inventory": {
-    "total": 29,
+    "total": 28,
     "in_buffer": 10,
-    "waiting": 19,
+    "waiting": 18,
     "target": 42,
     "making": [
       "ep125",
@@ -128,11 +118,6 @@
     "remote": []
   },
   "queue": [
-    {
-      "id": "ep055",
-      "title": "The Death Star System Pointed at Earth",
-      "due_at": "2026-10-10T21:30:00-04:00"
-    },
     {
       "id": "ep099",
       "title": "The Martian Mountain Taller Than Mount Everest",
@@ -177,6 +162,11 @@
       "id": "ep112",
       "title": "The Asteroid That Hid in Plain Sight",
       "due_at": "2026-10-14T21:30:00-04:00"
+    },
+    {
+      "id": "ep111",
+      "title": "The Megastructure That Breaks Physics",
+      "due_at": "2026-10-15T19:00:00-04:00"
     }
   ],
   "waiting": [
@@ -259,12 +249,6 @@
       "score": 20
     },
     {
-      "id": "ep111",
-      "title": "The Megastructure That Breaks Physics",
-      "series": "Scale Breaker",
-      "score": 24
-    },
-    {
       "id": "ep116",
       "title": "The Scrap-Metal Probe That Conquered Venus",
       "series": "Mission Files",
@@ -295,61 +279,25 @@
       "score": 20
     }
   ],
-  "made": [
-    {
-      "id": "ep125",
-      "outcome": "unfinished",
-      "topic": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep126",
-      "outcome": "unfinished",
-      "topic": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep127",
-      "outcome": "unfinished",
-      "topic": "Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep128",
-      "outcome": "unfinished",
-      "topic": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
   "published": [
     {
-      "id": "ep112",
-      "title": "The Asteroid That Hid in Plain Sight",
-      "due_at": "2026-10-14T21:30:00-04:00"
+      "id": "ep111",
+      "title": "The Megastructure That Breaks Physics",
+      "due_at": "2026-10-15T19:00:00-04:00"
     }
   ],
-  "live": 24,
+  "live": 25,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 21,
+    "calls": 3,
     "by_model": {
-      "gemini-3.8-flash": 4,
-      "gemini-3.7-flash": 4,
-      "gemini-3.6-flash": 2,
-      "gemini-3.5-flash-lite": 9,
-      "gemini-3-flash-preview": 1,
-      "gemini-flash-latest": 1
+      "gemini-3.8-flash": 1,
+      "gemini-3.7-flash": 1,
+      "gemini-3.6-flash": 1
     },
     "out_of_quota": [
       "gemini-3.7-flash",
@@ -357,14 +305,14 @@
     ]
   },
   "renders": {
-    "modal": 5,
+    "modal": 0,
     "runner": 0
   },
   "daily_done": "2026-10-10",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 13.99,
+    "metered": 13.98,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -372,7 +320,7 @@
     "cloud": 116,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 14.01
+    "modal_credit_left": 14.02
   },
   "made_here": 0,
   "open_topics": 23,
