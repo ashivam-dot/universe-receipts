@@ -1,0 +1,169 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-11T17:23:16+05:30",
+      "check": {
+        "duration": 49.37,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'impostor' heard as 'imposter' after 'with a supersonic'",
+          "'stephan' heard as 'steffen' after '1877 by edouard'",
+          "'impostor' heard as 'imposter' after 'with a supersonic'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing premise that sparks curiosity about the galactic impostor.",
+        "clarity": "Conflates the foreground interloper with the second colliding galaxy.",
+        "payoff": "Movie trivia pivots away from the high-stakes cosmic collision.",
+        "visuals": "Clear astronomical imagery paired nicely with relevant graphics.",
+        "loop": "Repeating the opening sentence verbatim breaks natural flow."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Stephan",
+          "respelling": "stay fahn"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: Instead of the movie reference, refocus on the collision: 'That colossal crash proves the true quintet is still taking shape,'",
+        "Beat 8: 'Where' to loop directly into Beat 1."
+      ],
+      "better_than_last": "Features stronger thematic variety by weaving together observational history and collision dynamics.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T17:34:37+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'impostor' heard as 'imposter' after 'with a supersonic'",
+          "'stephan' heard as 'steffen' after '1877 by edouard'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise about a cosmic impostor grabs interest immediately.",
+        "clarity": "Clear explanation distinguishing the foreground galaxy from the true colliding intruder.",
+        "payoff": "The revelation of a second supersonic intruder creating a shockwave delivers a solid resolution.",
+        "visuals": "Includes clear deep-space images, but contains text-heavy star maps and pixelated close-ups.",
+        "loop": "The final word seamlessly leads back into the opening sentence grammatically and visually."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Star chart graphic is mostly text and hard to read on mobile screens."
+        },
+        {
+          "beat": 4,
+          "problem": "Diagram contains small text labels that are illegible at phone size."
+        },
+        {
+          "beat": 6,
+          "problem": "Extreme close-up shot is visibly blurry and pixelated."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The narrative twist offers a stronger payoff than ep119.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T17:37:10+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'impostor' heard as 'imposter' after 'with a supersonic'",
+          "'stephan' heard as 'steffen' after '1877 by edouard'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Text overlay and the 'impostor' premise create immediate intrigue.",
+        "clarity": "Successfully distinguishes between the foreground galaxy and the colliding one.",
+        "payoff": "The Milky Way-sized shock wave provides a satisfying cosmic scale.",
+        "visuals": "High-quality JWST imagery with clear distance labels supports the narrative.",
+        "loop": "The trailing preposition flows grammatically into the opening beat."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Stephan",
+          "respelling": "steh fawn"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Utilizes superior visual annotations to clarify complex spatial relationships compared to episode 120.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

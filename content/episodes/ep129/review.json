@@ -1,0 +1,101 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-11T17:26:36+05:30",
+      "check": {
+        "duration": 60.99,
+        "words": 131,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 60.99 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The counter-intuitive concept of pointing a space telescope down into Earth grabs attention instantly.",
+        "clarity": "The explanation of using the Earth as a cosmic filter for neutrinos is easy to grasp.",
+        "payoff": "Detecting a blazar nearly four billion light-years away directly validates the bizarre premise.",
+        "visuals": "Diagrams and title cards are legible and clean, though heavily reliant on graphic cards.",
+        "loop": "The final beat connects smoothly back into the opening statement about building a downward telescope."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 3: Hot-water drills melted holes 2,500 meters deep, freezing 5,000 optical sensors into the ice.",
+        "Beat 4: Completed in 2010, the array captures neutrinos travelling in straight lines across the cosmos.",
+        "Beat 5: Atmospheric cosmic rays swamp neutrino signals by roughly one million to one.",
+        "Beat 7: The detector tracks upward-traveling particles from neutrinos that passed entirely through Earth.",
+        "The render ran 60.99 s; it must be 35-58 s."
+      ],
+      "better_than_last": "It delivers a much stronger conceptual paradox in its hook than episode 120.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T17:35:03+05:30",
+      "check": {
+        "duration": 54.23,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'through our planet'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of an observatory looking straight down through our own planet instantly stops the scroll.",
+        "clarity": "Each beat cleanly explains one step of the engineering and physics without jargon overload.",
+        "payoff": "Explaining that Earth is used as a filter to block surface noise delivers a clever, satisfying resolution.",
+        "visuals": "The South Pole auroras and array schematics are crisp, though multiple repeated frames keep it from a top score.",
+        "loop": "Beat 9 connects conceptually back to the opening line, though the phrasing is slightly repetitive back-to-back."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It explains an unintuitive counter-concept—using the solid planet as an astronomical filter—with sharper logical clarity than ep120.",
+      "judge": "gemini-3.7-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

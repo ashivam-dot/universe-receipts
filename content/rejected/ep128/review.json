@@ -1,0 +1,147 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-11T17:22:29+05:30",
+      "check": {
+        "duration": 48.79,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing premise about speed, but visually understated start.",
+        "clarity": "Clear and logical progression from motion to exoplanets.",
+        "payoff": "Recent discovery pays off the false alarms, but delivery is mild.",
+        "visuals": "Severely disrupted by an irrelevant museum ceramic tile.",
+        "loop": "Loops back decently to the opening line about sprinting stars."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Off-topic ceramic star tile instead of astronomical imagery."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: 'One neighboring star sprints across our sky faster than any other.'",
+        "Beat 8: 'Those worlds are locked into a sprint leaving every other star behind.'"
+      ],
+      "better_than_last": "Integrates newer discoveries from 2024 and 2025 than the previous entries.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T17:27:23+05:30",
+      "check": {
+        "duration": 48.3,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Sets up the fast-moving concept adequately but lacks immediate drama.",
+        "clarity": "Easy to follow narrative on a single topic.",
+        "payoff": "Resolves the planet hunting setup with recent real discoveries.",
+        "visuals": "Relevant space renders and diagrams keep the viewer oriented.",
+        "loop": "Connects back to the first line's theme of a fast star."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: One neighboring star is sprinting across our sky faster than any other object.",
+        "Beat 8: Those worlds are locked into a high-speed sprint with a..."
+      ],
+      "better_than_last": "Clearer historical focus on false planet detections than recent entries.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T17:38:45+05:30",
+      "check": {
+        "duration": 51.89,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The premise creates immediate intrigue about the fastest star.",
+        "clarity": "Concepts and timeline unfold in an orderly, digestible way.",
+        "payoff": "The discovery of actual planets provides a decent conclusion.",
+        "visuals": "Relevant imagery throughout, though some frames are static.",
+        "loop": "The final sentence leads back toward the opening idea clumsily."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: And orbiting right alongside those worlds..."
+      ],
+      "better_than_last": "It weaves historical context into modern discoveries more smoothly than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals, loop",
+  "rejected_at": "2026-10-11T17:38:45+05:30"
+}

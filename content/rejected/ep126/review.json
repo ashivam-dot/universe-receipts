@@ -1,0 +1,188 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-10T23:21:46+05:30",
+      "check": {
+        "duration": 56.53,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'ginga' heard as 'jenga' after '1956 japan is'",
+          "'jets' heard as 'jet' after 'terrifyingly relativistic plasma'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong comparative metric hooks viewers quickly.",
+        "clarity": "Narrative sequence is clear and easy to follow.",
+        "payoff": "Rapid jet shifting delivers a satisfying conclusion.",
+        "visuals": "Several astronomical assets represent incorrect deep space objects.",
+        "loop": "Awakening transition connects smoothly back to the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 4,
+          "problem": "wrong object, depicts Kepler supernova remnant instead of V404 Cygni"
+        },
+        {
+          "beat": 7,
+          "problem": "wrong object, depicts Centaurus A galaxy rather than a microquasar"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Ginga",
+          "respelling": "geen gah"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "It establishes a clearer, more immediate scale comparison in the hook than episode 120.",
+      "judge": "gemini-flash-latest",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T17:23:14+05:30",
+      "check": {
+        "duration": 56.77,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'ginga' heard as 'jenga' after '1956 japan is'",
+          "'jets' heard as 'jet' after 'terrifyingly relativistic plasma'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The initial brightness metric effectively halts scrolling.",
+        "clarity": "Presents astronomical mechanisms in an orderly sequence.",
+        "payoff": "The rapid jet precession provides a satisfying explanation.",
+        "visuals": "Several frames feature irrelevant objects and labeled diagrams.",
+        "loop": "Connects the closing awakening to the opening flare reasonably well."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows unrelated galaxy clusters instead of V404 Cygni or the satellite."
+        },
+        {
+          "beat": 7,
+          "problem": "Uses an extragalactic jet diagram cluttered with explanatory text."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Ginga",
+          "respelling": "geen gah"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Introduces a more dramatic timeline of recurring events than episode 120.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-11T17:29:41+05:30",
+      "check": {
+        "duration": 56.77,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'ginga' heard as 'jenga' after '1956 japan is'",
+          "'jets' heard as 'jet' after 'terrifyingly relativistic plasma'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong comparison grabbing immediate attention.",
+        "clarity": "Clear timeline and accessible explanation.",
+        "payoff": "Satisfying reveal of space-time warping.",
+        "visuals": "Includes an incorrect astronomical object in beat 7.",
+        "loop": "Smooth thematic connection back to start."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Displays image of HH 30 instead of V404 Cygni."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Ginga",
+          "respelling": "ghin gah"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Clearer chronological narrative structure than episode 120.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-11T17:29:41+05:30"
+}

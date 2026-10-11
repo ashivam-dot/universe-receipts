@@ -1,0 +1,151 @@
+id: ep129
+title: The Deep-Space Telescope Pointed Into Earth
+series: Space Got Weird
+description: Beneath the South Pole, the IceCube observatory turns a cubic kilometer of ice into a telescope that looks straight
+  down through our planet.
+sources:
+- https://en.wikipedia.org/wiki/IceCube_Neutrino_Observatory
+- https://gcn.nasa.gov/missions/icecube
+- https://newscenter.lbl.gov/2010/12/17/completing-icecube/
+- https://web.archive.org/web/20090514013325/http://blogs.nature.com/news/blog/2009/05/aps_2009_the_muon_shadow_of_th.html
+- https://www.space.com/icecube-neutrinos-south-pole-cosmic-messengers
+- https://www.theguardian.com/science/2018/jul/12/neutrino-that-struck-antarctica-traced-to-galaxy-37bn-light-years-away
+hashtags:
+- '#space'
+- '#astronomy'
+- '#physics'
+tags:
+- IceCube
+- South Pole
+- neutrino
+- Antarctica
+- observatory
+- astronomy
+- physics
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: Astronomers built a massive deep-space telescope pointed straight down through Earth.
+  emphasis:
+  - massive deep-space telescope
+  - straight down
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Amundsen-Scott_marsstation_ray_h_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Amundsen-Scott marsstation ray h edit.jpg
+      credit: Photo by Chris Danals, National Science Foundation
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Amundsen-Scott_marsstation_ray_h_edit.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.55
+- text: Beneath the South Pole, researchers turned a cubic kilometer of ice into the IceCube observatory.
+  emphasis:
+  - cubic kilometer of ice
+  - IceCube observatory
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Icecube-architecture-diagram2009.PNG/960px-Icecube-architecture-diagram2009.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Icecube-architecture-diagram2009.PNG
+      credit: Nasa-verve
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Icecube-architecture-diagram2009.PNG
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Hot-water drills melted holes 2,500 meters deep, freezing 5,000 optical sensors into the ice.
+  emphasis:
+  - 2,500 meters deep
+  - 5,000 optical sensors
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 2,500 meters
+      small: sensor string depth
+    motion: zoom_in
+- text: Completed in 2010, the array captures neutrinos traveling in straight lines across the cosmos.
+  emphasis:
+  - Completed in 2010
+  - straight lines
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/The_ICL_at_Night.jpg/3840px-The_ICL_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The ICL at Night.jpg
+      credit: John Hardin
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_ICL_at_Night.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.7
+    card:
+      kind: dateline
+      big: '2010'
+      small: array completed
+- text: Atmospheric cosmic rays swamp neutrino signals by roughly one million to one.
+  emphasis:
+  - swamp neutrino signals
+  - one million to one
+  visual:
+    reuse: 4
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.7
+- text: To block that noise, IceCube uses the solid Earth as a physical shield.
+  emphasis:
+  - solid Earth
+  - physical shield
+  visual:
+    reuse: 2
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The detector tracks upward-traveling particles from neutrinos that passed entirely through Earth.
+  emphasis:
+  - upward-traveling particles
+  - entirely through Earth
+  sfx: riser
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.55
+- text: In September 2017, it pinpointed a neutrino from a blazar 3.7 billion light-years away.
+  emphasis:
+  - September 2017
+  - 3.7 billion light-years
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: September 2017
+      small: 3.7 billion light-years away
+    motion: zoom_in
+- text: To look into deep space, scientists had to aim straight through our planet.
+  emphasis:
+  - deep space
+  - straight through our planet
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.55
+hook_text: LOOKING THROUGH THE PLANET

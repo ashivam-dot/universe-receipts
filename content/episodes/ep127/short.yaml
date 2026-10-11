@@ -1,8 +1,8 @@
 id: ep127
-title: The Supersonic Interloper in Stephan's Quintet
+title: The Supersonic Impostor in Stephan's Quintet
 series: Space Got Weird
-description: Discover the shocking truth behind Stephan's Quintet, where a foreground galaxy crashes through the group at
-  supersonic speeds.
+description: Stephan's Quintet looks like a peaceful cosmic family, but one galaxy is actually an interloper plowing through
+  at supersonic speeds.
 sources:
 - https://en.wikipedia.org/wiki/Stephan%27s_Quintet
 - https://www.constellation-guide.com/stephans-quintet/
@@ -19,13 +19,14 @@ tags:
 - astronomy
 - Pegasus
 - JWST
+- cosmic collision
 voice:
   voice: af_heart
   speed: 1.05
 beats:
 - text: Four interacting galaxies share the sky with a supersonic impostor.
   emphasis:
-  - four interacting galaxies
+  - Four interacting galaxies
   - supersonic impostor
   visual:
     source: url
@@ -41,10 +42,10 @@ beats:
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: Discovered in 1877 by Édouard Stephan, this group in Pegasus looks like a tight squad.
+- text: Discovered in 1877 by Édouard Stephan, the group in the constellation Pegasus appears to be a tight cluster of five.
   emphasis:
   - Édouard Stephan
-  - Pegasus
+  - constellation Pegasus
   sfx: whoosh
   visual:
     source: url
@@ -65,7 +66,7 @@ beats:
       kind: dateline
       big: '1877'
       small: Pegasus
-- text: Modern telescopes revealed that the brightest member, NGC 7320, is actually a foreground interloper.
+- text: However, modern measurements revealed that its brightest member, NGC 7320, is merely a foreground interloper.
   emphasis:
   - NGC 7320
   - foreground interloper
@@ -89,56 +90,71 @@ beats:
       kind: fact
       big: NGC 7320
       small: Foreground Interloper
-- text: It sits just thirty-nine million light-years away, while the other four are parked much further out.
+- text: It sits only thirty-nine million light-years from Earth, while the other four galaxies are parked 210 to 340 million
+    light-years away.
   emphasis:
   - thirty-nine million light-years
-  - further out
+  - 210 to 340 million
   visual:
-    source: card
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Compass_and_Scale_Image_of_Stephan%27s_Quintet_%282009-25-2583%29.jpg/1920px-Compass_and_Scale_Image_of_Stephan%27s_Quintet_%282009-25-2583%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Compass and Scale Image of Stephan's Quintet (2009-25-2583).jpg
+      credit: NASA, ESA, and the Hubble SM4 ERO Team
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Compass_and_Scale_Image_of_Stephan%27s_Quintet_(2009-25-2583).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: fact
       big: 39 Million
       small: Light-Years Away
-    motion: zoom_in
-- text: Another intruder named NGC 7318B is currently plowing straight into the group.
+- text: Even wilder, another intruder named NGC 7318B is currently falling into the center at supersonic speeds of several
+    million kilometers per hour.
   emphasis:
   - NGC 7318B
-  - plowing straight into
+  - supersonic speeds
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/NGC_7318.jpg/1280px-NGC_7318.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b1/NGC_7318_taken_by_James_Webb_Space_Telescope_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: NGC 7318.jpg
-      credit: NASA, ESA, and the Hubble SM4 ERO Team
+      title: NGC 7318 taken by James Webb Space Telescope (cropped).png
+      credit: "Image: \n\nNational Aeronautics and Space Administration  (a U.S. federal government agency; https://www.nasa.gov/)\n\
+        European space agency (https://www.esa.int/), Canadian Space Agency (https://www.asc-c"
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:NGC_7318.jpg
+      url: https://commons.wikimedia.org/wiki/File:NGC_7318_taken_by_James_Webb_Space_Telescope_(cropped).png
     fallbacks:
     - card
     - color
     motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.45
+    focus_y: 0.55
     card:
       kind: fact
       big: NGC 7318B
-      small: Active Collision
-- text: This supersonic impact generates a colossal shock wave bigger than the entire Milky Way.
+      small: Supersonic Collision
+- text: This violent impact generates an immense cosmic shock wave bigger than the entire Milky Way.
   emphasis:
-  - supersonic impact
-  - bigger than the entire Milky Way
+  - immense cosmic shock wave
+  - Milky Way
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Chandra_X-ray-Optical_Image_with_Scale_Bar_%282003-stephan-more-6%29.tiff/lossy-page1-1920px-Chandra_X-ray-Optical_Image_with_Scale_Bar_%282003-stephan-more-6%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/X-ray-Optical_Mosaic_of_Stephan%27s_Quintet%2C_Unlabeled_%282003-stephan-more-3%29.tiff/lossy-page1-1920px-X-ray-Optical_Mosaic_of_Stephan%27s_Quintet%2C_Unlabeled_%282003-stephan-more-3%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Chandra X-ray-Optical Image with Scale Bar (2003-stephan-more-6).tiff
-      credit: 'Credit: X-ray: NASA/CXC/INAF-Brera/G.Trinchieri et al.; Optical: Pal.Obs. DSS'
+      title: X-ray-Optical Mosaic of Stephan's Quintet, Unlabeled (2003-stephan-more-3).tiff
+      credit: '(Credit: X-ray: NASA/CXC/INAF-Brera/G.Trinchieri et al. Optical: Pal.Obs. DSS)'
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Chandra_X-ray-Optical_Image_with_Scale_Bar_(2003-stephan-more-6).tiff
+      url: https://commons.wikimedia.org/wiki/File:X-ray-Optical_Mosaic_of_Stephan%27s_Quintet,_Unlabeled_(2003-stephan-more-3).tiff
     fallbacks:
     - card
     - color
@@ -147,38 +163,32 @@ beats:
     focus_y: 0.5
     card:
       kind: fact
-      big: Milky Way
-      small: Larger Than Shockwave
-- text: Even Hollywood used the group to represent glowing angels in the holiday classic It's a Wonderful Life.
+      big: Shock Wave
+      small: Larger Than Milky Way
+- text: That colossal crash proves the true quintet is still taking shape,
   emphasis:
-  - It's a Wonderful Life
-  - glowing angels
-  sfx: whoosh
+  - colossal crash
+  - taking shape
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/2/26/George_Bailey_character.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Stephan%E2%80%99s_Quintet_%28NIRCam_%2B_MIRI_Imaging%29_%28weic2208a%29.tiff/lossy-page1-3840px-Stephan%E2%80%99s_Quintet_%28NIRCam_%2B_MIRI_Imaging%29_%28weic2208a%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: George Bailey character.jpg
-      credit: Joseph Walker, Joseph Biroc
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:George_Bailey_character.jpg
+      title: Stephan’s Quintet (NIRCam + MIRI Imaging) (weic2208a).tiff
+      credit: NASA, ESA, CSA, and STScI
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Stephan%E2%80%99s_Quintet_(NIRCam_%2B_MIRI_Imaging)_(weic2208a).tiff
     fallbacks:
-    - card
     - color
-    motion: pan_down
+    motion: zoom_out
     focus_x: 0.5
-    focus_y: 0.5
-    card:
-      kind: dateline
-      big: '1946'
-      small: It's a Wonderful Life
-- text: Four interacting galaxies share the sky with a supersonic impostor.
+    focus_y: 0.45
+- text: Where
   emphasis:
-  - four interacting galaxies
-  - supersonic impostor
+  - Where
   visual:
     reuse: 1
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
+hook_text: SUPERSONIC GALAXY CRASH

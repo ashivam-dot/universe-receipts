@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-11T17:19:13+05:30",
+  "updated_at": "2026-10-11T23:07:47+05:30",
   "day": 10,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4NBXAZ2CEVEZB7QXB0WPX3R",
+    "id": "ta-01M4P0GH8BS7BZHS7PMWF63DVR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-11T17:05:17+05:30",
-    "started_at_utc": "2026-10-11T11:35:17+00:00",
-    "seconds": 836
+    "started_at": "2026-10-11T23:05:12+05:30",
+    "started_at_utc": "2026-10-11T17:35:12+00:00",
+    "seconds": 155
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.0
+      "seconds": 1.5
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "35 posts",
-      "seconds": 1.3
+      "seconds": 1.1
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 3.2
+      "detail": "added ep099 to 'Scale Breaker'",
+      "seconds": 3.1
     },
     {
       "name": "languages",
@@ -45,156 +45,107 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep055 at 6 h: behind the channel's earlier Shorts at this age: 388 views against a median of 659 (0.6x)",
-      "seconds": 2.8
+      "detail": "ep060 at 72 h: behind the channel's earlier Shorts at this age: 776 views against a median of 979 (0.8x); ep114 at 24 h: behind the channel's earlier Shorts at this age: 191 views against a median of 732 (0.3x); learnings: Cited ep114 under the anti-exposition rule after its archival discoverer backstory in beat 2 collapsed velocity to 7.6 views per hour, and logged ep060 concluding wrap-up hypothesis.",
+      "seconds": 99.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "nothing in the cloud",
-      "seconds": 1.9
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "48 subscribers",
-      "seconds": 13.0
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Updated rule evidence with reviews for ep040 and ep086, added a hypothesis on eliminating early beat restatements from ep052, and reaffirmed hazard resolution retention testing.",
-      "seconds": 290.9
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "1 added",
-      "seconds": 300.4
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 173.7
-    },
-    {
-      "name": "weekly review",
-      "ok": true,
-      "detail": "week-02.md",
-      "seconds": 9.5
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-010.md",
-      "seconds": 1.2
+      "detail": "ep125 ready; ep126 rejected (low scores: visuals); ep127 ready; ep128 rejected (low scores: payoff, visuals, loop); ep129 ready",
+      "seconds": 12.8
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.4
+      "seconds": 0.2
+    },
+    {
+      "name": "preflight ep045",
+      "ok": true,
+      "detail": "video downloads whole (16 MB in 1 s)",
+      "seconds": 0.9
     },
     {
       "name": "preflight ep048",
       "ok": true,
-      "detail": "video downloads whole (17 MB in 2 s)",
-      "seconds": 2.5
+      "detail": "video still hosted",
+      "seconds": 0.4
     },
     {
       "name": "preflight ep066",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.9
+      "seconds": 0.3
     },
     {
       "name": "preflight ep084",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.9
-    },
-    {
-      "name": "preflight ep099",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 1.3
+      "seconds": 0.3
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 2.0
     },
     {
-      "name": "start ep125",
+      "name": "schedule ep129",
       "ok": true,
-      "detail": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
-      "seconds": 3.7
+      "detail": "2026-10-12T12:30:00-04:00",
+      "seconds": 0.8
     },
     {
-      "name": "start ep126",
+      "name": "start ep130",
       "ok": true,
-      "detail": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
-      "seconds": 3.3
-    },
-    {
-      "name": "start ep127",
-      "ok": true,
-      "detail": "Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep128",
-      "ok": true,
-      "detail": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
+      "detail": "Swift J1644+57 (2011): a dormant supermassive black hole ripped a star apart and fired a relativistic jet of X-rays directly at Earth",
       "seconds": 1.5
     },
     {
-      "name": "start ep129",
+      "name": "start ep131",
       "ok": true,
-      "detail": "IceCube Neutrino Observatory (2010): a telescope made of a cubic kilometer of Antarctic ice that looks straight down through Earth",
-      "seconds": 3.1
+      "detail": "Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night",
+      "seconds": 1.2
+    },
+    {
+      "name": "start ep132",
+      "ok": true,
+      "detail": "Giotto (spacecraft) (1986): a probe survived a battering of 150,000 mph comet dust to capture the first close-up images of Halley's nucleus",
+      "seconds": 1.1
+    },
+    {
+      "name": "start ep133",
+      "ok": true,
+      "detail": "Saturn's hexagon (1981): a bizarre six-sided jet stream spinning at Saturn's north pole that is wide enough to swallow two whole Earths",
+      "seconds": 1.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 1.2
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 18 waiting",
-    "Buffer is full (10 queued); 18 waiting"
+    "Buffer is full (10 queued); 20 waiting"
   ],
   "inventory": {
-    "total": 28,
+    "total": 30,
     "in_buffer": 10,
-    "waiting": 18,
+    "waiting": 20,
     "target": 42,
     "making": [],
     "remote": [
-      "ep125",
-      "ep126",
-      "ep127",
-      "ep128",
-      "ep129"
+      "ep130",
+      "ep131",
+      "ep132",
+      "ep133"
     ]
   },
   "queue": [
-    {
-      "id": "ep099",
-      "title": "The Martian Mountain Taller Than Mount Everest",
-      "due_at": "2026-10-11T12:30:00-04:00"
-    },
     {
       "id": "ep066",
       "title": "The Extreme 18-Hour World of 55 Cancri e",
@@ -204,6 +155,11 @@
       "id": "ep084",
       "title": "The Comet Landing That Bounced a Kilometer High",
       "due_at": "2026-10-11T21:30:00-04:00"
+    },
+    {
+      "id": "ep129",
+      "title": "The Deep-Space Telescope Pointed Into Earth",
+      "due_at": "2026-10-12T12:30:00-04:00"
     },
     {
       "id": "ep048",
@@ -349,93 +305,164 @@
       "title": "The Cosmic Giant Tearing Itself Apart",
       "series": "Scale Breaker",
       "score": 20
-    }
-  ],
-  "made": [],
-  "spawned": [
-    {
-      "id": "ep125",
-      "topic": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
-      "call_id": "fc-01M4NCPYW13AHY46REHGYRNAEB"
     },
     {
-      "id": "ep126",
-      "topic": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
-      "call_id": "fc-01M4NCQ22G9B1YDVCBVE7RS6RW"
+      "id": "ep125",
+      "title": "The Cold War Rocket Powered by Atomic Bombs",
+      "series": "Mission Files",
+      "score": 22
     },
     {
       "id": "ep127",
+      "title": "The Supersonic Impostor in Stephan's Quintet",
+      "series": "Space Got Weird",
+      "score": 20
+    }
+  ],
+  "made": [
+    {
+      "id": "ep125",
+      "outcome": "ready",
+      "topic": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
+      "title": "The Cold War Rocket Powered by Atomic Bombs",
+      "scores": {
+        "hook": 5,
+        "clarity": 4,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791719522/universereceipts/ep125-5bdfd1f8.mp4"
+    },
+    {
+      "id": "ep126",
+      "outcome": "rejected",
+      "topic": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep127",
+      "outcome": "ready",
       "topic": "Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds",
-      "call_id": "fc-01M4NCQ3KWGBYE4D3P194JX2V3"
+      "title": "The Supersonic Impostor in Stephan's Quintet",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791720431/universereceipts/ep127-65728e6e.mp4"
     },
     {
       "id": "ep128",
+      "outcome": "rejected",
       "topic": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
-      "call_id": "fc-01M4NCQ53WNM6T7VG7CXFEEMEZ"
+      "reason": "low scores: payoff, visuals, loop"
     },
     {
       "id": "ep129",
+      "outcome": "ready",
       "topic": "IceCube Neutrino Observatory (2010): a telescope made of a cubic kilometer of Antarctic ice that looks straight down through Earth",
-      "call_id": "fc-01M4NCQ84DX8HARWY7DACM6W2K"
+      "title": "The Deep-Space Telescope Pointed Into Earth",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791720305/universereceipts/ep129-c064051d.mp4"
+    }
+  ],
+  "spawned": [
+    {
+      "id": "ep130",
+      "topic": "Swift J1644+57 (2011): a dormant supermassive black hole ripped a star apart and fired a relativistic jet of X-rays directly at Earth",
+      "call_id": "fc-01M4P0NCS45DMFZ0TZ63ECEBRM"
+    },
+    {
+      "id": "ep131",
+      "topic": "Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night",
+      "call_id": "fc-01M4P0NDXNSSHCHKK4TKK1S3KS"
+    },
+    {
+      "id": "ep132",
+      "topic": "Giotto (spacecraft) (1986): a probe survived a battering of 150,000 mph comet dust to capture the first close-up images of Halley's nucleus",
+      "call_id": "fc-01M4P0NF1FVNZC41QQ38E97ZAP"
+    },
+    {
+      "id": "ep133",
+      "topic": "Saturn's hexagon (1981): a bizarre six-sided jet stream spinning at Saturn's north pole that is wide enough to swallow two whole Earths",
+      "call_id": "fc-01M4P0NG7YW0TV3QHHBNJVHRRA"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep125",
-      "topic": "Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions",
-      "spawned_at": "2026-10-11T17:19:01+05:30"
+      "id": "ep130",
+      "topic": "Swift J1644+57 (2011): a dormant supermassive black hole ripped a star apart and fired a relativistic jet of X-rays directly at Earth",
+      "spawned_at": "2026-10-11T23:07:41+05:30"
     },
     {
-      "id": "ep126",
-      "topic": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
-      "spawned_at": "2026-10-11T17:19:04+05:30"
+      "id": "ep131",
+      "topic": "Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night",
+      "spawned_at": "2026-10-11T23:07:42+05:30"
     },
     {
-      "id": "ep127",
-      "topic": "Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds",
-      "spawned_at": "2026-10-11T17:19:05+05:30"
+      "id": "ep132",
+      "topic": "Giotto (spacecraft) (1986): a probe survived a battering of 150,000 mph comet dust to capture the first close-up images of Halley's nucleus",
+      "spawned_at": "2026-10-11T23:07:43+05:30"
     },
     {
-      "id": "ep128",
-      "topic": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
-      "spawned_at": "2026-10-11T17:19:07+05:30"
-    },
-    {
-      "id": "ep129",
-      "topic": "IceCube Neutrino Observatory (2010): a telescope made of a cubic kilometer of Antarctic ice that looks straight down through Earth",
-      "spawned_at": "2026-10-11T17:19:10+05:30"
+      "id": "ep133",
+      "topic": "Saturn's hexagon (1981): a bizarre six-sided jet stream spinning at Saturn's north pole that is wide enough to swallow two whole Earths",
+      "spawned_at": "2026-10-11T23:07:44+05:30"
     }
   ],
-  "published": [],
-  "live": 25,
+  "published": [
+    {
+      "id": "ep129",
+      "title": "The Deep-Space Telescope Pointed Into Earth",
+      "due_at": "2026-10-12T12:30:00-04:00"
+    }
+  ],
+  "live": 26,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 4,
+    "calls": 30,
     "by_model": {
-      "gemini-3.8-flash": 4
+      "gemini-3.8-flash": 8,
+      "gemini-3.7-flash": 10,
+      "gemini-3.5-flash": 2,
+      "gemini-3.5-flash-lite": 4,
+      "gemini-3-flash-preview": 2,
+      "gemini-3.6-flash": 3,
+      "gemini-flash-latest": 1
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
-    "modal": 0,
+    "modal": 11,
     "runner": 0
   },
   "daily_done": "2026-10-11",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 14.0,
+    "metered": 14.4,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 116,
+    "cloud": 113,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 14.0
+    "modal_credit_left": 13.6
   },
   "made_here": 0,
-  "open_topics": 28,
-  "parked_topics": 57
+  "open_topics": 24,
+  "parked_topics": 59
 }
