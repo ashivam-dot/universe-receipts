@@ -37,6 +37,8 @@ unexplained, not alien.
 | 2026-10-09 | Fast radio burst (2007): millisecond flashes of deep-space energy that release as much power as the Sun radiates across entire days — done (ep114) | Scale Breaker | NASA announced that the James Webb Space Telescope just measured the distance to the farthest fast radio burst ever detected. |
 | 2026-10-10 | Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors — dropped (ep124) | The Universe Is Terrifying | NASA just released a stunning new James Webb Space Telescope image of this cluster. |
 | 2026-10-11 | IceCube Neutrino Observatory (2010): a telescope made of a cubic kilometer of Antarctic ice that looks straight down through Earth — done (ep129) | Space Got Weird | Featured on NASA's Astronomy Picture of the Day on October 11. |
+| 2026-10-12 | Ganymede (moon) (1996): bigger than Mercury and the only moon in the solar system that generates its own magnetic field — making (ep135) | Scale Breaker | Highlighted in NASA's Astronomy Picture of the Day featuring Jupiter and its Galilean moons. |
+| 2026-10-12 | Io (moon) (1979): tidal forces squeeze this world so violently that hundreds of volcanoes shoot sulfur plumes hundreds of miles into space — making (ep136) | The Universe Is Terrifying | Featured in NASA's Astronomy Picture of the Day showcasing Jupiter and its moons. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -51,6 +53,7 @@ unexplained, not alien.
 | Nov 13 | 2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station | Near Misses |
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot | Mission Files |
 | Nov 28 | Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations | Mission Files |
+| Nov 28 | PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1 | Space Got Weird |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
 | Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
 | Oct 7 | Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons — done (ep004) | Mission Files |
@@ -95,6 +98,7 @@ unexplained, not alien.
 - False vacuum decay: a hypothetical cosmic catastrophe where a bubble of true vacuum could expand at the speed of light, rewriting the laws of physics and erasing our universe instantly — done (ep078)
 - V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets — parked (ep126)
 - Swift J1644+57 (2011): a dormant supermassive black hole ripped a star apart and fired a relativistic jet of X-rays directly at Earth — done (ep130)
+- ASASSN-15lh (2015): a cosmic explosion that shone twenty times brighter than our entire galaxy combined, blasting out more energy than the Sun will in its lifetime
 
 ### Scale Breaker
 
@@ -118,6 +122,7 @@ unexplained, not alien.
 - Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology — done (ep111)
 - Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years — parked (ep128)
 - Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night — making (ep131)
+- Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way
 
 ### Mission Files
 
@@ -163,6 +168,7 @@ unexplained, not alien.
 - WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star — parked (ep104)
 - Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds — done (ep127)
 - Saturn's hexagon (1981): a bizarre six-sided jet stream spinning at Saturn's north pole that is wide enough to swallow two whole Earths — making (ep133)
+- Iapetus (moon) (1671): a bizarre world shaped like a walnut, with a 12-mile-high equatorial ridge and one hemisphere ten times darker than the other
 
 ### Near Misses
 
@@ -182,6 +188,7 @@ unexplained, not alien.
 - 4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange "ginger-root" shape — parked (ep080)
 - 1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space — parked (ep102)
 - 2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later — done (ep119)
+- Voskhod 2 (1965): the first spacewalker was trapped outside his ship when his suit ballooned stiff, forcing him to bleed off vital oxygen to squeeze back inside
 
 ### Space Myths, Busted
 
