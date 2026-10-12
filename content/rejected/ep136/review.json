@@ -1,0 +1,169 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-12T17:16:44+05:30",
+      "check": {
+        "duration": 53.65,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'at' heard as '(nothing)' after 'miles into space'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong physical hook with clear text overlay for immediate engagement.",
+        "clarity": "Logical flow from tidal forces to volcanic results is easy to follow.",
+        "payoff": "Connecting sulfur plumes to Jupiter's aurora provides a satisfying surprise.",
+        "visuals": "Scientific diagrams in beats 4 and 5 are too cluttered for mobile.",
+        "loop": "The final sentence transitions seamlessly into the start of the video."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Mostly text and small labels unreadable on phone screens."
+        },
+        {
+          "beat": 5,
+          "problem": "Cluttered layout with small text that is difficult to see."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more linear causal narrative than the complex setup in episode 127.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-12T17:18:44+05:30",
+      "check": {
+        "duration": 53.65,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'at' heard as '(nothing)' after 'miles into space'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The visual of a solid moon stretching like putty is a strong hook.",
+        "clarity": "Effectively sequences orbital mechanics and volcanic results in a logical flow.",
+        "payoff": "The aurora detail is a unique fact but lacks a strong narrative punch.",
+        "visuals": "Technical labels and watermarks distract from the subject in several key shots.",
+        "loop": "Seamlessly returns to the gravitational cause mentioned at the beginning."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The frame is a composite with distracting, small scientific labels."
+        },
+        {
+          "beat": 5,
+          "problem": "The side-by-side comparison uses tiny text that is hard to read on mobile."
+        },
+        {
+          "beat": 6,
+          "problem": "The image contains large watermarks and technical metadata at the bottom."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: These escaping ions power a massive electric circuit, burning a permanent glowing footprint into Jupiter's aurora."
+      ],
+      "better_than_last": "This episode provides a more specific link between internal moon activity and external planetary effects than the Stephan's Quintet short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-12T17:27:14+05:30",
+      "check": {
+        "duration": 57.57,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'never stops squeezing'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening fact creates immediate intrigue.",
+        "clarity": "Explains complex tidal heating in simple terms.",
+        "payoff": "Auroral footprint payoff feels slightly secondary to the main volcanic hook.",
+        "visuals": "Beat 7 visually diverges with an archival person photo rather than space phenomena.",
+        "loop": "Transitions smoothly back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows a portrait of a person instead of Jupiter or Io."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Frame the repaving of the surface as the primary climax to directly fulfill the hook."
+      ],
+      "better_than_last": "Explains the physical cause-and-effect loop more directly than recent entries.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-10-12T17:27:14+05:30"
+}

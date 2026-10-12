@@ -100,8 +100,59 @@
       "rewrite": [],
       "better_than_last": "This Short uses the color-shift comparison in beat 6 to show actual evidence of change over time, which is more visually convincing than the static images in the supersonic impostor episode.",
       "judge": "gemini-3-flash-preview",
+      "passed": true
+    },
+    {
+      "at": "2026-10-12T17:10:14+05:30",
+      "check": {
+        "duration": 47.77,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'earths' heard as 'earth is' after 'to swallow 2'",
+          "'s' heard as 'is' after 'longer than earth'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The immense scale comparison and visual of Saturn's hexagonal storm immediately stop the scroll.",
+        "clarity": "Delivers one clear, fascinating measurement and fact per beat without overwhelming jargon.",
+        "payoff": "Explaining the bizarre alien shape with laboratory fluid dynamics provides a satisfying scientific answer.",
+        "visuals": "Most Cassini and Voyager imagery looks stunning, but beat 7 drops into a dry, mostly-text textbook diagram.",
+        "loop": "Revisits the opening theme of planetary geometry well, though the sentence ends on a full stop rather than flowing seamlessly into beat 1."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "mostly text and shows an irrelevant pipe flow diagram instead of the water tank polygon experiment"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
       "passed": false
     }
   ],
-  "best_round": 2
+  "best_round": 2,
+  "kept_round": 2
 }
