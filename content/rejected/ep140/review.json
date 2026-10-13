@@ -1,0 +1,180 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-13T17:19:30+05:30",
+      "check": {
+        "duration": 55.7,
+        "words": 131,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'iapetus' heard as 'ipetis' after 'domenico cassini tracked'",
+          "'iapetus' heard as 'ipetis' after 'cassini deduced that'",
+          "'iapetus' heard as 'epetis' after 'coal black because'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging opening line that creates immediate curiosity.",
+        "clarity": "Clear chronological progression from historical discovery to modern facts.",
+        "payoff": "Neat revelation explaining both the dark face and the walnut shape.",
+        "visuals": "Beat 3 contains dense, unreadable map text on mobile.",
+        "loop": "Closing question smoothly transitions back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Maintains a tighter narrative arc around a single mystery compared to recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-13T17:22:23+05:30",
+      "check": {
+        "duration": 55.7,
+        "words": 131,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'iapetus' heard as 'ipetis' after 'domenico cassini tracked'",
+          "'iapetus' heard as 'ipetis' after 'cassini deduced that'",
+          "'iapetus' heard as 'ipadis' after 'coal black because'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The concept of a moon vanishing and reappearing based on its orbital position is an immediate curiosity gap.",
+        "clarity": "Moves smoothly from the 1671 observation to the modern explanation of thermal runaway.",
+        "payoff": "Connecting the 'vanishing' to the 'walnut' shape provides a satisfying resolution to the mystery.",
+        "visuals": "Uses high-quality, relevant Cassini spacecraft imagery that clearly distinguishes the two faces of the moon.",
+        "loop": "The final question ends on the exact premise of the opening line, creating a perfect circular narrative."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Iapetus",
+          "respelling": "eye ap eh tuss"
+        },
+        {
+          "beat": 3,
+          "word": "Iapetus",
+          "respelling": "eye ap eh tuss"
+        },
+        {
+          "beat": 5,
+          "word": "Iapetus",
+          "respelling": "eye ap eh tuss"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short has a more compelling narrative hook than ep133 by framing the science as a 300-year-old mystery.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-13T17:24:41+05:30",
+      "check": {
+        "duration": 56.5,
+        "words": 131,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'domenico' heard as 'domnico' after '1671 astronomer giovanni'",
+          "'iapetus' heard as 'iaptus' after 'coal black because'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The mystery of a moon vanishing creates immediate curiosity.",
+        "clarity": "Thermal runaway concepts are slightly dense for the fast pacing.",
+        "payoff": "The walnut comparison is solid but the conclusion feels abrupt.",
+        "visuals": "Excellent use of authentic Cassini mission photography and close-ups.",
+        "loop": "The transition from the final question back to the hook is smooth."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Domenico",
+          "respelling": "doe men ee ko"
+        },
+        {
+          "beat": 5,
+          "word": "Iapetus",
+          "respelling": "eye ap eh tus"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: This massive mountain wall and bulge give the moon the distinct shape of a walnut.",
+        "Beat 8: How would you explain a world that seems to vanish depending on its position?"
+      ],
+      "better_than_last": "This script utilizes a historical narrative perspective which is more engaging than the purely observational focus of episode 133.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: clarity, payoff",
+  "rejected_at": "2026-10-13T17:24:41+05:30"
+}

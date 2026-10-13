@@ -1,0 +1,98 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-13T17:19:51+05:30",
+      "check": {
+        "duration": 52.69,
+        "words": 129,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'2' heard as 'the 2nd' after 'soviet mission voskhod'",
+          "'belyayev' heard as 'belyaev' after 'and commander pavel'",
+          "'s' heard as 'is' after 'his joints leonov'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong survival premise that captures interest immediately.",
+        "clarity": "Logical and straightforward chronological flow.",
+        "payoff": "The survival resolution is satisfying, though the wilderness ending distracts slightly.",
+        "visuals": "Sufficient historical imagery, though stamps appear somewhat static.",
+        "loop": "Thematic connection works, but the sentence transition is not seamless."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: 'His suit had become a pressurized trap, showing why'"
+      ],
+      "better_than_last": "This Short provides higher personal survival drama and immediate human stakes than the recent planetary and astrophysics episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-13T17:25:06+05:30",
+      "check": {
+        "duration": 50.93,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'2' heard as 'the 2nd' after 'soviet mission voskhod'",
+          "'belyayev' heard as 'belyaev' after 'and commander pavel'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Starting with the extreme sacrifice of 'bleeding oxygen' creates immediate and compelling tension.",
+        "clarity": "The story follows a perfect chronological arc from the mission start to the harrowing survival in the woods.",
+        "payoff": "The double payoff of the suit solution and the predator-filled landing in the Urals is very satisfying.",
+        "visuals": "Strong historical documentation throughout, though the airlock in beat 5 is a bit visually dark for small screens.",
+        "loop": "The transition is grammatically perfect, making the end of the sentence flow naturally back into the hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short provides a more intense human-centric survival narrative than the recent episodes which focused primarily on astronomical phenomena.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

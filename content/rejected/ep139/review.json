@@ -1,0 +1,174 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-13T17:22:30+05:30",
+      "check": {
+        "duration": 50.13,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'shone' heard as 'shown' after 'an explosion'",
+          "'chile' heard as 'chilly' after 'telescopes located in'",
+          "'asassn' heard as 'assassin' after 'in chile discovered'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong comparative statement catches viewer attention immediately.",
+        "clarity": "Logical flow and easy-to-follow astronomical facts.",
+        "payoff": "The ending framing as an unresolved debate lacks a definitive punch.",
+        "visuals": "Clear space imagery, but Beat 6 reuses magnetar art for the black hole text.",
+        "loop": "Seamless grammatical transition back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows a magnetar visual when referring to a supermassive black hole."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: The event radiated more total energy than our Sun will emit in its entire lifetime.",
+        "Beat 7: That mystery is why an explosion shone twenty times brighter than our entire Milky Way galaxy."
+      ],
+      "better_than_last": "It sets up a broader scale of cosmic energy output early on compared to ep130.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-13T17:29:28+05:30",
+      "check": {
+        "duration": 51.75,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'shone' heard as 'shown' after 'an explosion'",
+          "'asassn' heard as 'assassin' after 'of light named'",
+          "'(nothing)' heard as 'and' after 'completely lacked hydrogen'",
+          "'kerr' heard as 'care' after 'magnetar or a'",
+          "'shone' heard as 'shown' after 'why an explosion'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The opening statement instantly conveys staggering cosmic scale that stops scrolling.",
+        "clarity": "The progression from discovery to luminosity, host galaxy context, and theoretical models is clean and easy to follow.",
+        "payoff": "Contrasting a magnetar against a tidal disruption event explains the extreme energy well, though an unresolved debate is slightly less punchy than a definitive twist.",
+        "visuals": "Visuals and title cards are well-aligned with each beat's narration, clear, and striking.",
+        "loop": "Repeating the exact sentence from beat 1 at the end makes the transition back to the start sound like an accidental repetition rather than a continuous loop."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Kerr",
+          "respelling": "kur"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: 'That ongoing debate still leaves astronomers trying to explain why'"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-13T17:37:50+05:30",
+      "check": {
+        "duration": 54.7,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'shone' heard as 'shown' after 'an explosion'",
+          "'asassn' heard as 'assassin' after 'of light named'",
+          "'(nothing)' heard as 'and' after 'completely lacked hydrogen'",
+          "'kerr' heard as 'care' after 'magnetar or a'",
+          "'shone' heard as 'shown' after 'why an explosion'",
+          "'than' heard as 'in' after '20 times brighter'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Comparing the blast's power to twenty entire galaxies is an instantly arresting scale comparison.",
+        "clarity": "The mystery is laid out cleanly with one focused observation per beat.",
+        "payoff": "The twist that the record supernova might actually be a spinning black hole ripping a star apart pays off well.",
+        "visuals": "Crisp space renders and legible, well-designed title cards illustrate the scale effectively.",
+        "loop": "Repeating beat 1's full line inside beat 8 makes the transition feel like an echo rather than a seamless sentence."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Kerr",
+          "respelling": "cur"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: \"That ongoing debate still leaves astronomers trying to explain how\""
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: loop",
+  "rejected_at": "2026-10-13T17:37:50+05:30"
+}

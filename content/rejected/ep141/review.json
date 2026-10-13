@@ -1,0 +1,162 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-13T17:25:59+05:30",
+      "check": {
+        "duration": 51.83,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'1500000000' heard as '900000000 600000000' after 'structure formed between'",
+          "'biology' heard as '(nothing)' after '1500000000 years ago'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The giant arachnid metaphor is a strong curiosity gap that visually delivers immediately.",
+        "clarity": "The narrator skipped the word 'Biology' in Beat 8, which makes the concluding sentence confusing.",
+        "payoff": "The explanation of how erosion revealed the impact's shockwaves is a satisfying scientific reveal.",
+        "visuals": "Beats 6 and 7 use incorrect imagery (citrine crystals and a lunar crater) that misrepresents the geological facts.",
+        "loop": "The script loops perfectly from a conceptual standpoint, mirroring the opening 'giant arachnid' line."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The image shows decorative crystal clusters rather than the sandstone and quartzite ridges described."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows a generic lunar crater rather than a satellite view of the terrestrial Spider Impact Structure."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Say 'Biology carved nothing here' instead of 'carved nothing here' to fix the skipped subject."
+      ],
+      "better_than_last": "The hook is more punchy and evocative than the wordier opening of the Saturn geometry episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-13T17:34:45+05:30",
+      "check": {
+        "duration": 48.87,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The eerie satellite view and cosmic spider premise immediately stop the scroll.",
+        "clarity": "The progression from mystery to shatter-cone discovery and geological explanation is easy to follow.",
+        "payoff": "Explaining the spider legs as erosion-resistant quartzite ridges from an ancient impact delivers a satisfying explanation.",
+        "visuals": "Multiple shots are inaccurate, including a 19th-century town street and a photo labeled Serpent Mound in Ohio.",
+        "loop": "The final sentence leads back into the hook smoothly, though repeating arachnid back-to-back feels slightly heavy."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "shows a 19th-century street with horse carts, which is off-topic for 1950s geological research"
+        },
+        {
+          "beat": 7,
+          "problem": "shows the Serpent Mound impact structure in Ohio instead of Australia's Spider crater"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-13T17:40:12+05:30",
+      "check": {
+        "duration": 48.87,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The visual of a spider-shaped landform seen from space grabs curiosity immediately.",
+        "clarity": "Logical and smooth progression from the mystery feature to shatter cones and the crater's origin.",
+        "payoff": "Explaining the spider legs as resilient quartzite ridges after a collision provides a satisfying answer.",
+        "visuals": "Beat 2 mistakenly displays South Africa's Boer War Siege of Kimberley instead of Australia's Kimberley region.",
+        "loop": "The phrasing transitions smoothly from 'giant arachnid' at the close into beat 1."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Wrong subject: shows historical tents from the Boer War Siege of Kimberley in South Africa rather than the Australian outback."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-13T17:40:12+05:30"
+}
