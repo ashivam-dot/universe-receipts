@@ -1,151 +1,153 @@
 {
-  "updated_at": "2026-10-13T23:20:34+05:30",
-  "day": 12,
+  "updated_at": "2026-10-14T05:11:55+05:30",
+  "day": 13,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4V59YDE7PN23Z9YJBGWS5YR",
+    "id": "ta-01M4VSX3KHGWCQ1971NC8CA1JR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-13T23:05:19+05:30",
-    "started_at_utc": "2026-10-13T17:35:19+00:00",
-    "seconds": 915
+    "started_at": "2026-10-14T05:05:09+05:30",
+    "started_at_utc": "2026-10-13T23:35:09+00:00",
+    "seconds": 405
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 4.7
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "41 posts",
-      "seconds": 4.6
+      "seconds": 1.0
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 3.2
+      "detail": "added ep079 to 'Scale Breaker'",
+      "seconds": 2.9
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep114 at 72 h: behind the channel's earlier Shorts at this age: 295 views against a median of 867 (0.3x); ep129 at 24 h: behind the channel's earlier Shorts at this age: 190 views against a median of 732 (0.3x); learnings: Today's log updates the rules to include high-tension hooks for scroll-stopping and restricts technical terminology to maintain mid-script pacing based on consistent performance data.",
-      "seconds": 830.1
+      "detail": "ep048 at 24 h: ahead of the channel's earlier Shorts at this age: 1020 views against a median of 729 (1.4x); ep050 at 72 h: ahead of the channel's earlier Shorts at this age: 1135 views against a median of 844 (1.3x); learnings: Reviewed performance of 10 Shorts, identifying a recurring failure in comment conversion and rewatch loops despite high hook retention.",
+      "seconds": 362.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep137 ready; ep138 rejected (low scores: payoff, visuals; 3 frame problems); ep139 rejected (low scores: loop); ep140 rejected (low scores: clarity, payoff); ep141 rejected (low scores: visuals)",
-      "seconds": 30.2
+      "detail": "ep142 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep143 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep144 rejected (research: only 1 claims have two different sites); ep145 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-",
+      "seconds": 9.7
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 1.3
-    },
-    {
-      "name": "preflight ep079",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 2.0
+      "seconds": 0.1
     },
     {
       "name": "preflight ep105",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.5
+      "seconds": 0.3
     },
     {
       "name": "preflight ep110",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.5
+      "seconds": 0.3
     },
     {
       "name": "preflight ep112",
       "ok": true,
-      "detail": "video downloads whole (18 MB in 2 s)",
-      "seconds": 2.8
+      "detail": "video still hosted",
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.9
+      "seconds": 2.1
     },
     {
-      "name": "start ep142",
+      "name": "schedule ep137",
       "ok": true,
-      "detail": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "seconds": 3.9
+      "detail": "2026-10-18T19:00:00-04:00",
+      "seconds": 1.0
     },
     {
-      "name": "start ep143",
+      "name": "start ep146",
       "ok": true,
-      "detail": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
-      "seconds": 3.8
+      "detail": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
+      "seconds": 0.8
     },
     {
-      "name": "start ep144",
+      "name": "start ep147",
       "ok": true,
-      "detail": "Tidal disruption event (1975): when a star wanders too close to a supermassive black hole, gravitational forces shred it into a blinding stream of stellar debris",
-      "seconds": 1.6
+      "detail": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
+      "seconds": 0.6
     },
     {
-      "name": "start ep145",
+      "name": "start ep148",
       "ok": true,
-      "detail": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
-      "seconds": 3.8
+      "detail": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep149",
+      "ok": true,
+      "detail": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 1.1
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 18 waiting",
-    "Buffer is full (10 queued); 18 waiting"
+    "ep142 stopped on Gemini's free quota; it resumes in a later run",
+    "ep143 stopped on Gemini's free quota; it resumes in a later run",
+    "ep145 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "Buffer is full (10 queued); 17 waiting"
   ],
   "inventory": {
-    "total": 28,
+    "total": 27,
     "in_buffer": 10,
-    "waiting": 18,
+    "waiting": 17,
     "target": 42,
-    "making": [],
-    "remote": [
+    "making": [
       "ep142",
       "ep143",
-      "ep144",
       "ep145"
+    ],
+    "remote": [
+      "ep146",
+      "ep147",
+      "ep148",
+      "ep149"
     ]
   },
   "queue": [
-    {
-      "id": "ep079",
-      "title": "The Cosmic Colossus That Baffles Astronomers",
-      "due_at": "2026-10-13T19:00:00-04:00"
-    },
     {
       "id": "ep110",
       "title": "The Lost Space Forest NASA Forgot Existed",
@@ -190,6 +192,11 @@
       "id": "ep051",
       "title": "The NASA Mission That Fell from the Sky",
       "due_at": "2026-10-17T21:30:00-04:00"
+    },
+    {
+      "id": "ep137",
+      "title": "The Spacewalker Trapped Outside His Ship",
+      "due_at": "2026-10-18T19:00:00-04:00"
     }
   ],
   "waiting": [
@@ -294,140 +301,129 @@
       "title": "The Supersonic Impostor in Stephan's Quintet",
       "series": "Space Got Weird",
       "score": 20
-    },
-    {
-      "id": "ep137",
-      "title": "The Spacewalker Trapped Outside His Ship",
-      "series": "Near Misses",
-      "score": 23
     }
   ],
   "made": [
     {
-      "id": "ep137",
-      "outcome": "ready",
-      "topic": "Voskhod 2 (1965): the first spacewalker was trapped outside his ship when his suit ballooned stiff, forcing him to bleed off vital oxygen to squeeze back inside",
-      "title": "The Spacewalker Trapped Outside His Ship",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791892507/universereceipts/ep137-39ec3ff6.mp4"
+      "id": "ep142",
+      "outcome": "unfinished",
+      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep138",
-      "outcome": "rejected",
-      "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "reason": "low scores: payoff, visuals; 3 frame problems"
+      "id": "ep143",
+      "outcome": "unfinished",
+      "topic": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep139",
+      "id": "ep144",
       "outcome": "rejected",
-      "topic": "ASASSN-15lh (2015): a cosmic explosion that shone twenty times brighter than our entire galaxy combined, blasting out more energy than the Sun will in its lifetime",
-      "reason": "low scores: loop"
+      "topic": "Tidal disruption event (1975): when a star wanders too close to a supermassive black hole, gravitational forces shred it into a blinding stream of stellar debris",
+      "reason": "research: only 1 claims have two different sites"
     },
     {
-      "id": "ep140",
-      "outcome": "rejected",
-      "topic": "Iapetus (moon) (1671): a bizarre world shaped like a walnut, with a 12-mile-high equatorial ridge and one hemisphere ten times darker than the other",
-      "reason": "low scores: clarity, payoff"
-    },
-    {
-      "id": "ep141",
-      "outcome": "rejected",
-      "topic": "Spider crater (1977): a bizarre impact scar in the Australian outback whose spider-like legs were carved by shockwaves from a cosmic collision",
-      "reason": "low scores: visuals"
+      "id": "ep145",
+      "outcome": "unfinished",
+      "topic": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep142",
-      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "call_id": "fc-01M4V661MHY5C0SSZFP900142C"
+      "id": "ep146",
+      "topic": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
+      "call_id": "fc-01M4VT9KWQ3T7A09SXA40TWMZV"
     },
     {
-      "id": "ep143",
-      "topic": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
-      "call_id": "fc-01M4V665B3W0A0SW9WG69H14YZ"
+      "id": "ep147",
+      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
+      "call_id": "fc-01M4VT9MGGF7YAHJJ0FSTSRBJJ"
     },
     {
-      "id": "ep144",
-      "topic": "Tidal disruption event (1975): when a star wanders too close to a supermassive black hole, gravitational forces shred it into a blinding stream of stellar debris",
-      "call_id": "fc-01M4V666XYPYRZH7QP61C95427"
+      "id": "ep148",
+      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "call_id": "fc-01M4VT9N2BJ1V8GR876QWKY1H1"
     },
     {
-      "id": "ep145",
-      "topic": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
-      "call_id": "fc-01M4V66AMSY7XXYQ4XMNBGHN4X"
+      "id": "ep149",
+      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "call_id": "fc-01M4VT9NM27FFSMHKMV9Z0H9RJ"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep142",
-      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "spawned_at": "2026-10-13T23:20:22+05:30"
+      "id": "ep146",
+      "topic": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
+      "spawned_at": "2026-10-14T05:11:50+05:30"
     },
     {
-      "id": "ep143",
-      "topic": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
-      "spawned_at": "2026-10-13T23:20:25+05:30"
+      "id": "ep147",
+      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
+      "spawned_at": "2026-10-14T05:11:51+05:30"
     },
     {
-      "id": "ep144",
-      "topic": "Tidal disruption event (1975): when a star wanders too close to a supermassive black hole, gravitational forces shred it into a blinding stream of stellar debris",
-      "spawned_at": "2026-10-13T23:20:27+05:30"
+      "id": "ep148",
+      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "spawned_at": "2026-10-14T05:11:51+05:30"
     },
     {
-      "id": "ep145",
-      "topic": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
-      "spawned_at": "2026-10-13T23:20:31+05:30"
+      "id": "ep149",
+      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "spawned_at": "2026-10-14T05:11:52+05:30"
     }
   ],
-  "published": [],
-  "live": 31,
+  "published": [
+    {
+      "id": "ep137",
+      "title": "The Spacewalker Trapped Outside His Ship",
+      "due_at": "2026-10-18T19:00:00-04:00"
+    }
+  ],
+  "live": 32,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 30,
+    "calls": 21,
     "by_model": {
-      "gemini-3.8-flash": 3,
-      "gemini-3-flash-preview": 13,
-      "gemini-3.1-flash-lite": 1,
-      "gemini-3.7-flash": 3,
-      "gemini-3.5-flash-lite": 8,
-      "gemini-3.6-flash": 1,
-      "gemini-3.5-flash": 1
+      "gemini-3.8-flash": 1,
+      "gemini-3-flash-preview": 4,
+      "gemini-flash-lite-latest": 4,
+      "gemini-3.1-flash-lite": 4,
+      "gemini-3.5-flash-lite": 5,
+      "ovh:Qwen3.5-397B-A17B": 2,
+      "gemma-4-31b-it": 1
     },
     "out_of_quota": [
-      "gemini-3-flash-preview",
       "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest"
+      "gemini-3.8-flash"
     ]
   },
   "renders": {
-    "modal": 13,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-10-13",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 15.92,
+    "metered": 16.13,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 100,
+    "cloud": 98,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 12.08
+    "modal_credit_left": 11.86
   },
   "made_here": 0,
-  "open_topics": 25,
-  "parked_topics": 67
+  "open_topics": 24,
+  "parked_topics": 64
 }
