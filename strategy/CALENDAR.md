@@ -22,7 +22,7 @@ unexplained, not alien.
 
 | Added | Story | Series | Why |
 |---|---|---|---|
-| 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — parked (ep019) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
+| 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — making (ep158) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
 | 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — parked (ep020) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
 | 2026-10-02 | Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon — parked (ep027) | The Universe Is Terrifying | NASA's Webb telescope recently released new findings on planet-shattering collisions, mirroring the historic clash of Earth and Theia. |
 | 2026-10-03 | DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus — done (ep036) | Mission Files | NASA recently highlighted extreme thermal testing on the probe's engineering model for its mission to Venus. |
@@ -64,7 +64,7 @@ unexplained, not alien.
 | Oct 15 | Oh-My-God particle (1991): one subatomic particle hit Earth's atmosphere with the energy of a baseball thrown at about 63 mph — parked (ep091) | The Universe Is Terrifying |
 | Oct 19 | 1I/ʻOumuamua (2017): the first known visitor from another star system sped up as it left, with no visible tail — parked (ep134) | Space Got Weird |
 | Oct 21 | Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet — done (ep146) | Space Myths, Busted |
-| Oct 22 | Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus | Mission Files |
+| Oct 22 | Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus — making (ep155) | Mission Files |
 | Oct 24 | V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up | Mission Files |
 | Oct 29 | STS-95 (1998): John Glenn went back to space at 77, 36 years after his first orbit | Mission Files |
 | Oct 31 | 2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween | Near Misses |
@@ -87,7 +87,7 @@ unexplained, not alien.
 - Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away — done (ep049)
 - HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds — parked (ep122)
 - Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare — done (ep032)
-- Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — parked (ep018)
+- Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — making (ep157)
 - WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth — done (ep055)
 - Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all — parked (ep043)
 - Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece — dropped (ep068)
@@ -166,7 +166,7 @@ unexplained, not alien.
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests — done (ep046)
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — dropped (ep147)
 - Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings — parked (ep029)
-- Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — parked (ep014)
+- Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — making (ep156)
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one — done (ep110)
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009 — done (ep040)
 - SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars — parked (ep123)
