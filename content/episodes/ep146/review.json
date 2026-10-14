@@ -1,0 +1,177 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-14T17:14:53+05:30",
+      "check": {
+        "duration": 48.0,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'eta aquariids' heard as 'ato aquariads' after '2nd shower the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong immediacy and curiosity gap by challenging the common belief about Halley's return.",
+        "clarity": "Explains how cometary debris creates meteor showers clearly and logically.",
+        "payoff": "Connecting tonight's shooting stars directly to Halley's dust provides a satisfying realization.",
+        "visuals": "Beat 5 drops viewer immersion by switching to a graphic that is mostly text.",
+        "loop": "Beat 8 connects smoothly into beat 1 both logically and grammatically."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Eta Aquariids",
+          "respelling": "ay tuh uh kwair ee idz"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides immediate real-world utility and viewing urgency for tonight rather than recounting purely distant or historical events.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-14T17:21:03+05:30",
+      "check": {
+        "duration": 48.22,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'eta aquariids' heard as 'iteliquary ides' after '2nd shower the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong curiosity gap that immediately contradicts common knowledge with timely urgency.",
+        "clarity": "Explains the orbital mechanics and debris trail cleanly with one idea per beat.",
+        "payoff": "Connecting tonight's shooting stars to Halley's Comet delivers a solid, satisfying reveal.",
+        "visuals": "Gorgeous astrophotography throughout, though the spacecraft impact plate in beat 5 feels out of place.",
+        "loop": "Ending on tonight's debris flows seamlessly back into not needing to wait until 2061."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows a spacecraft impact ding log instead of atmospheric entry"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Eta Aquariids",
+          "respelling": "ay tuh uh kwair ee idz"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "It provides immediate real-world actionability by connecting an astronomical concept to something viewers can walk outside and see tonight.",
+      "judge": "gemini-3.7-flash",
+      "passed": true
+    },
+    {
+      "at": "2026-10-14T17:23:15+05:30",
+      "check": {
+        "duration": 48.22,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'eta aquariids' heard as 'ita aquari ides' after '2nd shower the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strongly subverts expectations regarding the comet's famous timeline.",
+        "clarity": "The transition from orbital debris to meteor shower is logically sound.",
+        "payoff": "Connecting the debris to the current sky is good but lacks a shocking twist.",
+        "visuals": "Images are scientifically accurate and generally sharp for mobile screens.",
+        "loop": "The sentence structure flows perfectly into the start of the next cycle."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "High image noise makes the central subject difficult to identify."
+        },
+        {
+          "beat": 3,
+          "problem": "Archival quality is noticeably lower than the surrounding modern shots."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Aquariids",
+          "respelling": "ah kwar ee idz"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: Halley's ghost is literally burning up in our atmosphere tonight."
+      ],
+      "better_than_last": "Provides a more urgent and relatable connection to the viewer's current environment than the Saturn episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "kept_round": 2
+}

@@ -1,0 +1,144 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-14T17:16:15+05:30",
+      "check": {
+        "duration": 48.87,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong statement challenging common assumptions about Betelgeuse.",
+        "clarity": "Logical narrative progression from star size to runaway velocity.",
+        "payoff": "Bow shock reveal is interesting, but ending on safety dilutes the punchline.",
+        "visuals": "Clear, relevant astronomy graphics that illustrate the core facts.",
+        "loop": "Final line ends abruptly and does not seamlessly connect to beat 1."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Few realize Orion's brightest shoulder is actually fleeing across deep space, proving"
+      ],
+      "better_than_last": "Provides better contextual diagrams for stellar scale compared to recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-14T17:21:39+05:30",
+      "check": {
+        "duration": 48.43,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong subversion of common knowledge about Betelgeuse.",
+        "clarity": "Logical progression from star size to runaway velocity.",
+        "payoff": "Bow shock reveal reframes the star as dynamic.",
+        "visuals": "Informative imagery, though Herschel labels are small on mobile.",
+        "loop": "Sentence connects naturally back into the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides direct infrared observational evidence for the star's high-speed motion through space.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-14T17:24:46+05:30",
+      "check": {
+        "duration": 48.43,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'betelgeuse' heard as 'beetlejuice'",
+          "'betelgeuse' heard as 'beetlejuice' after 'orion is belt'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strongly subverts expectations about a widely known star in under two seconds.",
+        "clarity": "Logical narrative progression with one clean concept per beat.",
+        "payoff": "Satisfying reveal connecting its runaway momentum to harmlessness.",
+        "visuals": "Informative astronomy assets, though beat 6 contains small diagram labels.",
+        "loop": "Seamless grammatical transition straight back into beat 1."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "mostly text and small scientific diagram annotations hard to read on mobile"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Features a clearer physical explanation of stellar motion and bow shock structure than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-14T17:24:46+05:30"
+}

@@ -1,22 +1,22 @@
 {
   "hooks": [
     {
-      "style": "contradiction",
-      "text": "Earth would keep orbiting if the Sun became a black hole."
-    },
-    {
       "style": "statement",
-      "text": "Black holes do not act as cosmic vacuum cleaners from afar."
+      "text": "Most people assume a stellar collapse creates an instant cosmic vacuum cleaner."
     },
     {
-      "style": "number",
-      "text": "From far away, a black hole matches any body of equal mass."
+      "style": "contradiction",
+      "text": "If the Sun became a black hole, Earth would keep orbiting normally."
+    },
+    {
+      "style": "question",
+      "text": "Would a black hole replacement swallow the entire solar system?"
     }
   ],
-  "hook_style": "contradiction",
+  "hook_style": "statement",
   "structure": "myth_vs_fact",
-  "title": "What If the Sun Became a Black Hole?",
-  "description": "Discover what would actually happen to Earth if the Sun turned into a black hole of the exact same mass.",
+  "title": "The Black Hole Vacuum Cleaner Myth",
+  "description": "Discover what would actually happen if our Sun became a black hole. It turns out gravity doesn't work like a vacuum cleaner.",
   "hashtags": [
     "#space",
     "#blackhole",
@@ -25,57 +25,30 @@
   "tags": [
     "black hole",
     "Sun",
-    "Earth orbit",
+    "Earth",
     "gravity",
-    "astronomy",
-    "science myths"
+    "myth",
+    "NASA",
+    "astronomy"
   ],
   "beats": [
-    {
-      "text": "Earth would keep orbiting if the Sun became a black hole.",
-      "emphasis": [
-        "keep orbiting",
-        "black hole"
-      ],
-      "sfx": "none",
-      "pause_after": 0.12,
-      "claims": [
-        2,
-        3
-      ],
-      "visual": "NASA illustration of the Sun and Earth in orbit",
-      "subjects": [
-        "Sun",
-        "Earth"
-      ],
-      "year": 0,
-      "queries": [
-        "Earth orbit around Sun illustration NASA",
-        "Solar system planets diagram"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
     {
       "text": "Most people assume a stellar collapse creates an instant cosmic vacuum cleaner.",
       "emphasis": [
         "stellar collapse",
-        "cosmic vacuum cleaner"
+        "vacuum cleaner"
       ],
-      "sfx": "whoosh",
+      "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         3,
         6
       ],
-      "visual": "Hubble Space Telescope image of a star-forming region or supernova remnant",
+      "visual": "Hubble Space Telescope image of a supernova remnant, 2005",
       "subjects": [
         "Supernova"
       ],
-      "year": 0,
+      "year": 2005,
       "queries": [
         "Crab Nebula Hubble mosaic",
         "Supernova remnant Hubble image"
@@ -87,17 +60,17 @@
       }
     },
     {
-      "text": "A black hole is an astronomical body so compact that its gravity prevents anything, including light, from escaping.",
+      "text": "A black hole is indeed so dense that not even light can escape its gravitational grip.",
       "emphasis": [
-        "so compact",
-        "prevents anything"
+        "so dense",
+        "light can escape"
       ],
-      "sfx": "none",
+      "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
         4
       ],
-      "visual": "Artist's illustration of a black hole with an accretion disk",
+      "visual": "artist concept of a black hole with an accretion disk",
       "subjects": [
         "Black hole"
       ],
@@ -109,20 +82,21 @@
       "card": {
         "kind": "fact",
         "big": "NO ESCAPE",
-        "small": "Event horizon boundary"
+        "small": "Light cannot escape"
       }
     },
     {
-      "text": "The boundary of no escape around a black hole is called the event horizon.",
+      "text": "The boundary of no escape is the event horizon, but its reach is surprisingly limited.",
       "emphasis": [
-        "event horizon"
+        "event horizon",
+        "surprisingly limited"
       ],
-      "sfx": "whoosh",
+      "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         5
       ],
-      "visual": "Event Horizon Telescope image of M87* black hole shadow",
+      "visual": "Event Horizon Telescope image of the M87 black hole, 2019",
       "subjects": [
         "Messier 87"
       ],
@@ -138,20 +112,19 @@
       }
     },
     {
-      "text": "Yet from far away, the external gravitational field of a black hole is identical to that of any other body of the same mass.",
+      "text": "From a distance, the gravitational field of a black hole is identical to any other body of the same mass.",
       "emphasis": [
         "gravitational field",
         "identical"
       ],
-      "sfx": "riser",
-      "pause_after": 0.4,
+      "sfx": "whoosh",
+      "pause_after": 0.12,
       "claims": [
         1
       ],
-      "visual": "Diagram of spacetime curvature and gravity wells",
+      "visual": "diagram of spacetime curvature around a massive body",
       "subjects": [
-        "Gravitation",
-        "Spacetime"
+        "General relativity"
       ],
       "year": 0,
       "queries": [
@@ -160,30 +133,57 @@
       ],
       "card": {
         "kind": "fact",
-        "big": "SAME MASS",
-        "small": "Identical gravity field"
+        "big": "IDENTICAL GRAVITY",
+        "small": "Determined by mass"
       }
     },
     {
-      "text": "Our solar system would get much colder because the black hole emits no visible sunlight, but the planets would stay in their orbits.",
+      "text": "If you replaced the Sun with a black hole of equal mass, the physics of gravity wouldn't change.",
       "emphasis": [
-        "much colder",
-        "stay in their orbits"
+        "physics of gravity",
+        "wouldn't change"
       ],
-      "sfx": "pop",
+      "sfx": "riser",
       "pause_after": 0.12,
       "claims": [
         2
       ],
-      "visual": "Artist's concept of a binary star system containing a black hole",
+      "visual": "NASA illustration of Earth orbiting the Sun",
       "subjects": [
-        "Binary star",
-        "Black hole"
+        "Sun",
+        "Earth"
       ],
       "year": 0,
       "queries": [
-        "Cygnus X-1 binary system artist concept",
-        "Stellar mass black hole illustration NASA"
+        "Earth orbit around Sun illustration NASA",
+        "Solar system planets diagram"
+      ],
+      "card": {
+        "kind": "fact",
+        "big": "ONE SOLAR MASS",
+        "small": "Mass remains constant"
+      }
+    },
+    {
+      "text": "While the solar system would grow dark and freezing, the actual path of our planet wouldn't move an inch.",
+      "emphasis": [
+        "dark and freezing",
+        "wouldn't move an inch"
+      ],
+      "sfx": "pop",
+      "pause_after": 0.4,
+      "claims": [
+        1,
+        2
+      ],
+      "visual": "artist concept of a frozen Earth in a dark solar system",
+      "subjects": [
+        "Earth"
+      ],
+      "year": 0,
+      "queries": [
+        "Frozen Earth in space artist concept",
+        "Dark Earth illustration"
       ],
       "card": {
         "kind": "none",
@@ -192,24 +192,24 @@
       }
     },
     {
-      "text": "Earth would keep orbiting normally.",
+      "text": "Our planets would stay in their current orbits instead of getting sucked inside.",
       "emphasis": [
-        "keep orbiting normally"
+        "stay in their current orbits",
+        "getting sucked inside"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         2
       ],
-      "visual": "NASA illustration of the Sun and Earth in orbit",
+      "visual": "NASA diagram of the solar system planets in their familiar paths",
       "subjects": [
-        "Earth",
-        "Sun"
+        "Orbit"
       ],
       "year": 0,
       "queries": [
-        "Earth orbit around Sun illustration NASA",
-        "Solar system planets diagram"
+        "Solar system planets diagram",
+        "Planetary orbits illustration"
       ],
       "card": {
         "kind": "none",
@@ -220,5 +220,5 @@
   ],
   "hook_text": "SUN TURNS TO BLACK HOLE",
   "loop": true,
-  "better_than_last": "This episode applies the proven rule to place the strongest surprise or contradiction in the first 2 seconds, while keeping the spoken hook under twelve words."
+  "better_than_last": "This episode applies the proven rule to deliver the core narrative setup immediately after the hook and structures the reveal around physical gravitational mechanics."
 }

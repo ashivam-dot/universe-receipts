@@ -1,0 +1,108 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-14T17:13:19+05:30",
+      "check": {
+        "duration": 40.53,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Gives away the core answer in the opening sentence, dampening curiosity.",
+        "clarity": "Concepts are presented simply with a logical progression across beats.",
+        "payoff": "The ending repeats the opening reveal rather than providing a new twist.",
+        "visuals": "Frame 6 inaccurately depicts an accreting binary star system.",
+        "loop": "Repeating the phrase verbatim creates an awkward, repetitive transition."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Depicts a binary companion star being stripped rather than our solar system."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Most people assume a stellar collapse creates an instant cosmic vacuum cleaner.",
+        "Beat 2: But if the Sun became a black hole, Earth would keep orbiting.",
+        "Beat 7: Even with no visible sunlight, our planets stay in place because"
+      ],
+      "better_than_last": "Provides a clearer conceptual explanation of gravitational fields than recent technical shorts.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-14T17:25:31+05:30",
+      "check": {
+        "duration": 42.29,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong conceptual premise but the initial nebula visual is generic.",
+        "clarity": "Logical progression makes the physics of mass and gravity accessible.",
+        "payoff": "Informative conclusion that resolves the prompt but lacks high drama.",
+        "visuals": "Imagery for beats 1 and 6 is misleading or contradicts the script.",
+        "loop": "Seamless audio transition that links the conclusion back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Visual shows a supernova remnant rather than the Sun or a black hole."
+        },
+        {
+          "beat": 6,
+          "problem": "Shows matter being sucked in, which contradicts the narration's point."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: If the Sun became a black hole, you would expect an instant cosmic vacuum cleaner.",
+        "Beat 7: Our planets would stay in their current orbits instead of getting sucked inside."
+      ],
+      "better_than_last": "Provides a more technical explanation of gravitational mass than the Saturn geometry episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

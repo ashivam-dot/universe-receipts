@@ -1,31 +1,32 @@
 id: ep142
-title: The Martian canyon that crosses an entire planet
+title: The Martian canyon that spans a continent
 series: Scale Breaker
-description: Discover Valles Marineris, the solar system's largest canyon system that would stretch across the entire continental
-  United States.
+description: Discover Valles Marineris, a Martian canyon so massive it makes the Grand Canyon look like a tiny crack.
 sources:
 - https://en.wikipedia.org/wiki/Valles_Marineris
 - https://space.sciencearray.com/how-mars-ripped-open-valles-marineris-tectonic-forces
 - https://web.archive.org/web/20190427160116/http://www.avcr.cz/en/media/news-archive/Recent-volcanic-activity-and-hydrothermal-minerals-on-Mars/
-- https://www.seti.org/press-release/giant-volcano-discovered-mars
 - http://themis.mars.asu.edu/node/5470
+- https://www.seti.org/press-release/giant-volcano-discovered-mars
 hashtags:
 - '#space'
 - '#mars'
-- '#astronomy'
+- '#nasa'
 tags:
 - Valles Marineris
-- Mars canyon
-- Tharsis bulge
-- solar system canyons
+- Mars
+- Mariner 9
+- Grand Canyon
+- astronomy
+- geology
 voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: A massive canyon system on Mars stretches nearly four thousand kilometers long.
+- text: This Martian canyon stretches from New York to Los Angeles.
   emphasis:
-  - canyon system on Mars
-  - four thousand kilometers long
+  - Martian canyon
+  - New York to Los Angeles
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Valles_Marineris_NASA_World_Wind_map_Mars.jpg/960px-Valles_Marineris_NASA_World_Wind_map_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -45,10 +46,10 @@ beats:
       kind: fact
       big: 4,000 km
       small: Canyon length
-- text: The historic Mariner 9 mission first revealed this breathtaking Martian scar in nineteen seventy-one.
+- text: In nineteen seventy-one, the Mariner 9 orbiter discovered this massive scar slashed across the Martian equator.
   emphasis:
-  - Mariner 9 mission
-  - nineteen seventy-one
+  - Mariner 9
+  - Martian equator
   sfx: whoosh
   visual:
     source: url
@@ -68,28 +69,34 @@ beats:
     card:
       kind: dateline
       big: '1971'
-      small: Mariner 9 mission
-- text: Its total length is directly comparable to the distance from New York City to Los Angeles.
+      small: Mariner 9 Discovery
+- text: Spanning four thousand kilometers, it makes the Grand Canyon look like a crack.
   emphasis:
-  - New York City
-  - Los Angeles
+  - four thousand kilometers
+  - Grand Canyon
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/USGS-Mars-MC-17-PhoenicisRegion-mola.png/1920px-USGS-Mars-MC-17-PhoenicisRegion-mola.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/GrandCanyon.NASA.2014.jpg/1280px-GrandCanyon.NASA.2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: USGS-Mars-MC-17-PhoenicisRegion-mola.png
-      credit: USGS (United States Geological Survey)
+      title: GrandCanyon.NASA.2014.jpg
+      credit: Astronaut photograph ISS039-E-5258; taken by the Expedition 39 crew of the International Space Station;
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:USGS-Mars-MC-17-PhoenicisRegion-mola.png
+      url: https://commons.wikimedia.org/wiki/File:GrandCanyon.NASA.2014.jpg
     fallbacks:
+    - card
     - color
     motion: pan_right
-    focus_x: 0.65
+    focus_x: 0.5
     focus_y: 0.5
-- text: The colossal trench plunges up to eleven kilometers deep in certain prominent regions.
+    card:
+      kind: fact
+      big: 4,000 km
+      small: Across Mars
+- text: This system plunges eleven kilometers deep, four times the depth of any gorge on Earth.
   emphasis:
   - eleven kilometers deep
+  - four times the depth
   sfx: riser
   visual:
     source: url
@@ -109,81 +116,71 @@ beats:
     card:
       kind: fact
       big: 11 km
-      small: Max depth
-- text: Ancient volcanic activity from the Tharsis bulge stressed the planetary crust until it cracked open.
+      small: Maximum depth
+- text: It didn't form from a slow river, but from the planet literally tearing itself apart three billion years ago.
   emphasis:
-  - Tharsis bulge
-  - cracked open
-  sfx: whoosh
+  - tearing itself apart
+  - three billion years ago
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/8/85/Noctis_Labyrinthus_Zoom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Noctis_Labyrinthus_based_on_day_THEMIS.png/3840px-Noctis_Labyrinthus_based_on_day_THEMIS.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Noctis Labyrinthus Zoom.jpg
-      credit: NASA/JPL/USGS
+      title: Noctis Labyrinthus based on day THEMIS.png
+      credit: NASA, modified by Chmee2
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Noctis_Labyrinthus_Zoom.jpg
+      url: https://commons.wikimedia.org/wiki/File:Noctis_Labyrinthus_based_on_day_THEMIS.png
     fallbacks:
     - color
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: Colossal gravitational landslides then widened the scar, sending debris rushing over a hundred kilometers across.
+- text: The immense weight of the Tharsis volcanic bulge cracked the crust, and colossal landslides widened the jagged gap.
   emphasis:
-  - gravitational landslides
-  - over a hundred kilometers
+  - Tharsis volcanic bulge
+  - landslides
+  sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/ESP_012018_1750_%2823804865246%29.jpg/3840px-ESP_012018_1750_%2823804865246%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/3/3c/Tharsis_Bulge_Cross-Sections_-2_%284081335424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: ESP 012018 1750 (23804865246).jpg
-      credit: UAHiRISE (NASA)
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:ESP_012018_1750_(23804865246).jpg
+      title: Tharsis Bulge Cross-Sections -2 (4081335424).jpg
+      credit: Lunar and Planetary Institute from Houston, TX, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Tharsis_Bulge_Cross-Sections_-2_(4081335424).jpg
     fallbacks:
-    - card
     - color
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-    card:
-      kind: fact
-      big: 100 km
-      small: Landslide debris span
-- text: Hydrated sulfate minerals like jarosite hide inside this remarkable solar system record breaker.
+- text: Preserved minerals prove that ancient, rushing water once helped carve this giant.
   emphasis:
-  - jarosite
-  - record breaker
+  - Preserved minerals
+  - rushing water
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Coprates_Chasma_based_on_THEMIS_Day_IR.png/3840px-Coprates_Chasma_based_on_THEMIS_Day_IR.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Layered_Deposits_in_Southwest_Candor_Chasma_-_Mars_Reconnaissance_Orbiter_%2850525238001%29.png/3840px-Layered_Deposits_in_Southwest_Candor_Chasma_-_Mars_Reconnaissance_Orbiter_%2850525238001%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Coprates Chasma based on THEMIS Day IR.png
-      credit: NASA, modified by Chmee2
+      title: Layered Deposits in Southwest Candor Chasma - Mars Reconnaissance Orbiter (50525238001).png
+      credit: Justin Cowart
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Coprates_Chasma_based_on_THEMIS_Day_IR.png
+      url: https://commons.wikimedia.org/wiki/File:Layered_Deposits_in_Southwest_Candor_Chasma_-_Mars_Reconnaissance_Orbiter_(50525238001).png
     fallbacks:
     - color
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-    box:
-    - 0.05
-    - 0.25
-    - 0.95
-    - 0.75
-- text: That is how a massive canyon system on Mars stretches nearly four thousand kilometers long.
+- text: These cataclysms are exactly why
   emphasis:
-  - canyon system on Mars
-  - four thousand kilometers long
+  - cataclysms
+  - exactly why
   visual:
     reuse: 1
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-hook_text: 4,000 KM CANYON ON MARS
+hook_text: ACROSS A CONTINENT

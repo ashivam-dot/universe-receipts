@@ -1,0 +1,157 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-14T17:14:15+05:30",
+      "check": {
+        "duration": 52.73,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'bok' heard as 'bock' after 'ophiuchus this dense'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "A killer 1-in-a-trillion statistic immediately draws attention to the stark dark void.",
+        "clarity": "Transitions cleanly from history and location to temperature and star formation.",
+        "payoff": "Revealing that an apparently dead void is a pulsating cosmic womb delivers a solid twist.",
+        "visuals": "Beat 4 duplicates the exact photo used in Beat 1, making the visual progression feel repetitive.",
+        "loop": "Ending on cosmic dust leads smoothly into the photon absorption of Beat 1."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "same picture as beat 1"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The quantitative survival statistic in the opening creates a tighter, more immediate visual mystery than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-14T17:18:17+05:30",
+      "check": {
+        "duration": 52.73,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'bok' heard as 'bock' after 'ophiuchus this dense'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing photon statistic grabs attention quickly.",
+        "clarity": "Logical flow explaining the cloud's nature and behavior.",
+        "payoff": "Star birth transition is neat but lacks punch.",
+        "visuals": "Relevant deep sky imagery, though title card lacks data.",
+        "loop": "Ending phrasing does not seamlessly circle to beat 1."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The title card omits the actual number 400, showing only units."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Replace with 'It looks like a hole in reality, but it is actually a dense nursery where...'"
+      ],
+      "better_than_last": "Presents a clearer physical sense of density and scale than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-14T17:24:50+05:30",
+      "check": {
+        "duration": 51.39,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'bok' heard as 'bock' after 'ophiuchus this dense'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Numerical opening hooks viewers quickly.",
+        "clarity": "Logical progression from history to science.",
+        "payoff": "Star birth twist is appropriate.",
+        "visuals": "Professional assets with slight inconsistency.",
+        "loop": "Sentence structure facilitates a clean reset."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Visual shows a filamentary complex rather than the isolated globule."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: This starless nursery is vibrating like Jell-O, preparing to collapse into a new star.",
+        "Beat 7: It looks like a hole in reality, but it’s actually a cradle where"
+      ],
+      "better_than_last": "Utilizes a more compelling statistical hook to anchor interest.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: hook, clarity, payoff, visuals, loop",
+  "rejected_at": "2026-10-14T17:24:50+05:30"
+}

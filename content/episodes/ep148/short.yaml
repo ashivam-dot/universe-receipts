@@ -1,12 +1,14 @@
 id: ep148
-title: Voyager 1's Deep Space Survival
+title: The Probe That Refuses to Die
 series: Scale Breaker
-description: How Voyager 1 outlived its five-year design to become humanity's most distant emissary in interstellar space.
+description: How Voyager 1 outlived its five-year design to become humanity's most distant messenger on a computer with just
+  68 kilobytes of memory.
 sources:
 - https://web.archive.org/web/20221210180431/http://www.nasa.gov/centers/goddard/news/topstory/2003/1105voyager_facts.html
 - https://web.archive.org/web/20131104221550/http://www.smithsonianmag.com/science-nature/Timothy-Ferris-on-Voyagers-Never-Ending-Journey.html
 - https://en.wikipedia.org/wiki/Voyager_1
 - https://www.universetoday.com/104717/its-official-voyager-1-is-now-in-interstellar-space/
+- https://www.space.com/38967-voyager-1-fires-backup-thrusters-after-37-years.html
 - https://www.scientificamerican.com/article/nasas-voyager-1-spacecraft-down-to-just-two-working-science-instruments/
 hashtags:
 - '#space'
@@ -14,18 +16,90 @@ hashtags:
 - '#voyager'
 tags:
 - Voyager 1
-- interstellar space
-- space probe
 - NASA
 - Scale Breaker
+- interstellar space
+- space exploration
+- astronomy
 voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: It was only built to last five years.
+- text: Voyager 1 was only built to last five years.
   emphasis:
-  - built to last
+  - only built
   - five years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/NASA%E2%80%99s_Voyager_Probe_Speeds_Through_Space_%28Artist%E2%80%99s_Concept%29_%28PIA26353%29.tiff/lossy-page1-1280px-NASA%E2%80%99s_Voyager_Probe_Speeds_Through_Space_%28Artist%E2%80%99s_Concept%29_%28PIA26353%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA’s Voyager Probe Speeds Through Space (Artist’s Concept) (PIA26353).tiff
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_Voyager_Probe_Speeds_Through_Space_(Artist%E2%80%99s_Concept)_(PIA26353).tiff
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.5
+    box:
+    - 0.2
+    - 0.2
+    - 0.8
+    - 0.9
+- text: Launched on September 5, 1977, the probe was designed for a short tour of the planets.
+  emphasis:
+  - September 5, 1977
+  - short tour
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Titan_3E_with_Voyager_1.jpg/1920px-Titan_3E_with_Voyager_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Titan 3E with Voyager 1.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Titan_3E_with_Voyager_1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.47
+    focus_y: 0.3
+    box:
+    - 0.4
+    - 0.1
+    - 0.55
+    - 0.45
+    card:
+      kind: dateline
+      big: September 5, 1977
+      small: Launch Day
+- text: Voyager 1 found active volcanoes on Io and strange spokes in Saturn’s rings.
+  emphasis:
+  - active volcanoes
+  - strange spokes
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e3/Vulcanic_Explosion_on_Io.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Vulcanic Explosion on Io.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Vulcanic_Explosion_on_Io.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.34
+    focus_y: 0.32
+- text: Instead of shutting down, the spacecraft reached interstellar space in 2012 and kept going.
+  emphasis:
+  - interstellar space
+  - kept going
+  sfx: whoosh
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/2/29/Voyager_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -37,93 +111,76 @@ beats:
       url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg
     fallbacks:
     - color
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Launched on September 5, 1977, the legendary metal probe quickly became the most distant human-made object from Earth.
-  emphasis:
-  - September 5, 1977
-  - most distant human-made object
-  sfx: whoosh
-  visual:
-    source: card
-    card:
-      kind: dateline
-      big: September 5, 1977
-      small: Launch of Voyager 1
     motion: zoom_in
-- text: Voyager 1 discovered active volcanoes on Jupiter's moon Io and revealed astonishingly complex structures across Saturn's
-    rings.
+    focus_x: 0.38
+    focus_y: 0.42
+    box:
+    - 0.13
+    - 0.15
+    - 0.82
+    - 0.77
+- text: Now 15 billion miles away, signals take over 23 hours to travel back to Earth.
   emphasis:
-  - active volcanoes
-  - complex structures
-  sfx: whoosh
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg/1280px-PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: PIA01081-Color Mosaic and Active Volcanic Plumes on Io.jpg
-      credit: NASA's Galileo spacecraft
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg
-    fallbacks:
-    - color
-    motion: pan_down
-    focus_x: 0.5
-    focus_y: 0.5
-- text: The durable spacecraft officially entered interstellar space in August 2012, while blazing along at 38,000 miles per
-    hour.
-  emphasis:
-  - interstellar space
-  - 38,000 miles per hour
+  - 15 billion miles
+  - 23 hours
   sfx: riser
-  pause_after: 0.4
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/5/54/PIA12375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Goldstone%E2%80%99s_70-Meter_Antenna_Under_the_Stars_%28PIA26716%29.png/1920px-Goldstone%E2%80%99s_70-Meter_Antenna_Under_the_Stars_%28PIA26716%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: PIA12375.jpg
-      credit: NASA/JPL/JHUAPL
+      title: Goldstone’s 70-Meter Antenna Under the Stars (PIA26716).png
+      credit: NASA Jet Propulsion Laboratory / NASA/JPL-Caltech
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PIA12375.jpg
+      url: https://commons.wikimedia.org/wiki/File:Goldstone%E2%80%99s_70-Meter_Antenna_Under_the_Stars_(PIA26716).png
     fallbacks:
     - card
     - color
-    motion: pan_left
+    motion: pan_down
     focus_x: 0.5
-    focus_y: 0.5
-    card:
-      kind: fact
-      big: 38,000 mph
-      small: Current speed in the void
-- text: Now pushing past 15 billion miles away, harried human engineers are shutting down its remaining scientific instruments
-    one by one.
-  emphasis:
-  - 15 billion miles
-  - shutting down
-  visual:
-    source: card
+    focus_y: 0.6
+    box:
+    - 0.15
+    - 0.4
+    - 0.85
+    - 0.9
     card:
       kind: fact
       big: 15 Billion Miles
       small: Distance from Earth
-    motion: zoom_in
-- text: As of 2026, only two fragile science instruments remain fully operational as it sails through the frozen cosmic void.
+- text: By 2026, it will finally go dark as its last two instruments fail.
   emphasis:
-  - two fragile science instruments
-  - frozen cosmic void
+  - finally go dark
+  - instruments fail
   sfx: pop
+  pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Voyager_Program_-_High-gain_antenna_diagram.png/960px-Voyager_Program_-_High-gain_antenna_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Voyager_with_descriptions.png/1920px-Voyager_with_descriptions.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Voyager Program - High-gain antenna diagram.png
-      credit: NASA/JPL
+      title: Voyager with descriptions.png
+      credit: 'Photographer: N/A'
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Voyager_Program_-_High-gain_antenna_diagram.png
+      url: https://commons.wikimedia.org/wiki/File:Voyager_with_descriptions.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Engineers manage this distance using computers with a total memory of only 68 kilobytes.
+  emphasis:
+  - total memory
+  - 68 kilobytes
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/The_Sounds_of_Earth_-_GPN-2000-001976.jpg/1920px-The_Sounds_of_Earth_-_GPN-2000-001976.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Sounds of Earth - GPN-2000-001976.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_-_GPN-2000-001976.jpg
     fallbacks:
     - card
     - color
@@ -132,15 +189,15 @@ beats:
     focus_y: 0.5
     card:
       kind: fact
-      big: 2 Instruments
-      small: Active tools remaining
-- text: It was only built to last five years.
+      big: 68 KB
+      small: Total Memory
+- text: It remains an immortal messenger that continues to defy its original design.
   emphasis:
-  - built to last
-  - five years
+  - immortal messenger
+  - defy
   visual:
     reuse: 1
-    motion: zoom_in
-    focus_x: 0.5
+    motion: zoom_out
+    focus_x: 0.45
     focus_y: 0.5
 hook_text: BUILT FOR 5 YEARS

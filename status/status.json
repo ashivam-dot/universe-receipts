@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-14T17:09:47+05:30",
+  "updated_at": "2026-10-14T23:09:46+05:30",
   "day": 13,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4X33F9GANR72KPYCVF7M2XR",
+    "id": "ta-01M4XQPNHMMRCH9KYV6MXHYEXR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-14T17:05:08+05:30",
-    "started_at_utc": "2026-10-14T11:35:08+00:00",
+    "started_at": "2026-10-14T23:05:08+05:30",
+    "started_at_utc": "2026-10-14T17:35:08+00:00",
     "seconds": 279
   },
   "stages": [
@@ -16,13 +16,13 @@
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 2.0
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "43 posts",
-      "seconds": 0.5
+      "seconds": 1.1
     },
     {
       "name": "playlists",
@@ -45,50 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep110 at 6 h: ahead of the channel's earlier Shorts at this age: 1124 views against a median of 659 (1.7x)",
-      "seconds": 1.5
+      "detail": "ep099 at 72 h: ahead of the channel's earlier Shorts at this age: 1026 views against a median of 844 (1.2x); learnings: Added new evidence to existing rules based on recent reviews and maintained current hypotheses.",
+      "seconds": 221.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep150 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 4.2
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "62 subscribers",
-      "seconds": 8.7
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Consolidated evidence for curiosity-gap hooks and reinforced the ban on technical catalog IDs and discovery dates to protect mid-video pacing.",
-      "seconds": 153.6
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.2
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 66.6
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 14.4
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-013.md",
-      "seconds": 1.9
+      "detail": "ep142 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep143 rejected (low scores: payoff); ep145 rejected (low scores: hook, clarity, payoff, visuals, loop); ep146 ready; ep147 rejected (low scores: visuals); ep148 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep149 unfinished (OutOfQuota: no model in ('g",
+      "seconds": 24.9
     },
     {
       "name": "buffer channel",
@@ -105,98 +69,83 @@
     {
       "name": "preflight ep111",
       "ok": true,
-      "detail": "video downloads whole (15 MB in 0 s)",
-      "seconds": 0.5
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "preflight ep112",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.4
+    },
+    {
+      "name": "preflight ep118",
+      "ok": true,
+      "detail": "video downloads whole (15 MB in 0 s)",
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 1.1
     },
     {
-      "name": "start ep142",
+      "name": "start ep151",
       "ok": true,
-      "detail": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
+      "detail": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
       "seconds": 0.7
     },
     {
-      "name": "start ep143",
+      "name": "start ep152",
       "ok": true,
-      "detail": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
+      "detail": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
       "seconds": 0.7
     },
     {
-      "name": "start ep145",
+      "name": "start ep153",
       "ok": true,
-      "detail": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep146",
-      "ok": true,
-      "detail": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
+      "detail": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
       "seconds": 0.6
     },
     {
-      "name": "start ep147",
+      "name": "start ep154",
       "ok": true,
-      "detail": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep148",
-      "ok": true,
-      "detail": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep149",
-      "ok": true,
-      "detail": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep150",
-      "ok": true,
-      "detail": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
+      "detail": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
       "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 1.1
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep150 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 16 waiting",
-    "Buffer is full (10 queued); 16 waiting"
+    "ep142 stopped on Gemini's free quota; it resumes in a later run",
+    "ep148 stopped on Gemini's free quota; it resumes in a later run",
+    "ep149 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 17 waiting",
+    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "Buffer is full (10 queued); 17 waiting"
   ],
   "inventory": {
-    "total": 26,
+    "total": 27,
     "in_buffer": 10,
-    "waiting": 16,
+    "waiting": 17,
     "target": 42,
-    "making": [],
-    "remote": [
+    "making": [
       "ep142",
-      "ep143",
-      "ep145",
-      "ep146",
-      "ep147",
       "ep148",
-      "ep149",
-      "ep150"
+      "ep149"
+    ],
+    "remote": [
+      "ep151",
+      "ep152",
+      "ep153",
+      "ep154"
     ]
   },
   "queue": [
@@ -347,100 +296,120 @@
       "title": "The Supersonic Impostor in Stephan's Quintet",
       "series": "Space Got Weird",
       "score": 20
+    },
+    {
+      "id": "ep146",
+      "title": "Halley's Comet Is Burning Above You TONIGHT",
+      "series": "Space Myths, Busted",
+      "score": 23
     }
   ],
   "made": [
     {
-      "id": "ep150",
+      "id": "ep142",
       "outcome": "unfinished",
-      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
+      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
+    },
+    {
+      "id": "ep143",
+      "outcome": "rejected",
+      "topic": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
+      "reason": "low scores: payoff"
+    },
+    {
+      "id": "ep145",
+      "outcome": "rejected",
+      "topic": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
+      "reason": "low scores: hook, clarity, payoff, visuals, loop"
+    },
+    {
+      "id": "ep146",
+      "outcome": "ready",
+      "topic": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
+      "title": "Halley's Comet Is Burning Above You TONIGHT",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1791978795/universereceipts/ep146-6bc4d236.mp4"
+    },
+    {
+      "id": "ep147",
+      "outcome": "rejected",
+      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep148",
+      "outcome": "unfinished",
+      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep149",
+      "outcome": "unfinished",
+      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep150",
+      "outcome": "rejected",
+      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
+      "reason": "low scores: visuals; 2 frame problems"
     }
   ],
   "spawned": [
     {
-      "id": "ep142",
-      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "call_id": "fc-01M4X3BZ868RWZ0FFREWB853H2"
+      "id": "ep151",
+      "topic": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
+      "call_id": "fc-01M4XQZ7QFQZY7AJ8KPEYJHYW5"
     },
     {
-      "id": "ep143",
-      "topic": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
-      "call_id": "fc-01M4X3BZZ86ZT339HJP1K587SY"
+      "id": "ep152",
+      "topic": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
+      "call_id": "fc-01M4XQZ8C9KC6RPQYKFH27FC21"
     },
     {
-      "id": "ep145",
-      "topic": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
-      "call_id": "fc-01M4X3C0M4GVY0SEPNMJKSYMBF"
+      "id": "ep153",
+      "topic": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
+      "call_id": "fc-01M4XQZ903W33M2V344HWG3M77"
     },
     {
-      "id": "ep146",
-      "topic": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
-      "call_id": "fc-01M4X3C16PQVKKZVMP7KAWEVQ3"
-    },
-    {
-      "id": "ep147",
-      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "call_id": "fc-01M4X3C1VPFZYFKB2H7DW26X4Y"
-    },
-    {
-      "id": "ep148",
-      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "call_id": "fc-01M4X3C2HQ5QK06T48P2FJ6K2T"
-    },
-    {
-      "id": "ep149",
-      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "call_id": "fc-01M4X3C3501VHGNWWQ5EEFHDMD"
-    },
-    {
-      "id": "ep150",
-      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
-      "call_id": "fc-01M4X3C3S44N24JGPTH7D11MS2"
+      "id": "ep154",
+      "topic": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
+      "call_id": "fc-01M4XQZ9JHJHXZYT9DJSN3H0HG"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep142",
-      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "spawned_at": "2026-10-14T17:09:39+05:30"
+      "id": "ep151",
+      "topic": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
+      "spawned_at": "2026-10-14T23:09:41+05:30"
     },
     {
-      "id": "ep143",
-      "topic": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
-      "spawned_at": "2026-10-14T17:09:39+05:30"
+      "id": "ep152",
+      "topic": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
+      "spawned_at": "2026-10-14T23:09:42+05:30"
     },
     {
-      "id": "ep145",
-      "topic": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
-      "spawned_at": "2026-10-14T17:09:40+05:30"
+      "id": "ep153",
+      "topic": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
+      "spawned_at": "2026-10-14T23:09:43+05:30"
     },
     {
-      "id": "ep146",
-      "topic": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
-      "spawned_at": "2026-10-14T17:09:41+05:30"
-    },
-    {
-      "id": "ep147",
-      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "spawned_at": "2026-10-14T17:09:41+05:30"
-    },
-    {
-      "id": "ep148",
-      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "spawned_at": "2026-10-14T17:09:42+05:30"
-    },
-    {
-      "id": "ep149",
-      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "spawned_at": "2026-10-14T17:09:43+05:30"
-    },
-    {
-      "id": "ep150",
-      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
-      "spawned_at": "2026-10-14T17:09:43+05:30"
+      "id": "ep154",
+      "topic": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
+      "spawned_at": "2026-10-14T23:09:43+05:30"
     }
   ],
   "published": [],
@@ -448,33 +417,42 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 11,
+    "calls": 49,
     "by_model": {
-      "gemini-3-flash-preview": 3,
-      "gemini-3.5-flash-lite": 5,
-      "gemini-3.8-flash": 3
+      "gemini-3-flash-preview": 15,
+      "gemini-3.5-flash-lite": 9,
+      "gemini-3.8-flash": 7,
+      "gemini-3.5-flash": 3,
+      "gemini-3.6-flash": 1,
+      "gemini-3.7-flash": 10,
+      "gemini-3.1-flash-lite": 3,
+      "gemini-flash-latest": 1
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.7-flash",
+      "gemini-flash-latest"
+    ]
   },
   "renders": {
-    "modal": 2,
+    "modal": 23,
     "runner": 0
   },
   "daily_done": "2026-10-14",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 16.39,
+    "metered": 17.08,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 96,
+    "cloud": 91,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 11.61
+    "modal_credit_left": 10.92
   },
   "made_here": 0,
-  "open_topics": 29,
-  "parked_topics": 63
+  "open_topics": 25,
+  "parked_topics": 65
 }

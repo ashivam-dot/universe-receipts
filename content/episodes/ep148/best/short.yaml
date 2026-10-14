@@ -1,0 +1,146 @@
+id: ep148
+title: Voyager 1's Deep Space Survival
+series: Scale Breaker
+description: How Voyager 1 outlived its five-year design to become humanity's most distant emissary in interstellar space.
+sources:
+- https://web.archive.org/web/20221210180431/http://www.nasa.gov/centers/goddard/news/topstory/2003/1105voyager_facts.html
+- https://web.archive.org/web/20131104221550/http://www.smithsonianmag.com/science-nature/Timothy-Ferris-on-Voyagers-Never-Ending-Journey.html
+- https://en.wikipedia.org/wiki/Voyager_1
+- https://www.universetoday.com/104717/its-official-voyager-1-is-now-in-interstellar-space/
+- https://www.scientificamerican.com/article/nasas-voyager-1-spacecraft-down-to-just-two-working-science-instruments/
+hashtags:
+- '#space'
+- '#nasa'
+- '#voyager'
+tags:
+- Voyager 1
+- interstellar space
+- space probe
+- NASA
+- Scale Breaker
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: It was only built to last five years.
+  emphasis:
+  - built to last
+  - five years
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/29/Voyager_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager spacecraft.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Launched on September 5, 1977, the legendary metal probe quickly became the most distant human-made object from Earth.
+  emphasis:
+  - September 5, 1977
+  - most distant human-made object
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: September 5, 1977
+      small: Launch of Voyager 1
+    motion: zoom_in
+- text: Voyager 1 discovered active volcanoes on Jupiter's moon Io and revealed astonishingly complex structures across Saturn's
+    rings.
+  emphasis:
+  - active volcanoes
+  - complex structures
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg/1280px-PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA01081-Color Mosaic and Active Volcanic Plumes on Io.jpg
+      credit: NASA's Galileo spacecraft
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The durable spacecraft officially entered interstellar space in August 2012, while blazing along at 38,000 miles per
+    hour.
+  emphasis:
+  - interstellar space
+  - 38,000 miles per hour
+  sfx: riser
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/54/PIA12375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA12375.jpg
+      credit: NASA/JPL/JHUAPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA12375.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 38,000 mph
+      small: Current speed in the void
+- text: Now pushing past 15 billion miles away, harried human engineers are shutting down its remaining scientific instruments
+    one by one.
+  emphasis:
+  - 15 billion miles
+  - shutting down
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 15 Billion Miles
+      small: Distance from Earth
+    motion: zoom_in
+- text: As of 2026, only two fragile science instruments remain fully operational as it sails through the frozen cosmic void.
+  emphasis:
+  - two fragile science instruments
+  - frozen cosmic void
+  sfx: pop
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Voyager_Program_-_High-gain_antenna_diagram.png/960px-Voyager_Program_-_High-gain_antenna_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager Program - High-gain antenna diagram.png
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_Program_-_High-gain_antenna_diagram.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 2 Instruments
+      small: Active tools remaining
+- text: And to think, when this probe launched back in 1977,
+  emphasis:
+  - launched back
+  - '1977'
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: BUILT FOR 5 YEARS

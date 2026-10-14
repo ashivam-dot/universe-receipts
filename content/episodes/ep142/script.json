@@ -2,43 +2,46 @@
   "hooks": [
     {
       "style": "statement",
-      "text": "A massive canyon system on Mars stretches nearly four thousand kilometers long."
+      "text": "This Martian canyon stretches from New York to Los Angeles."
     },
     {
       "style": "contradiction",
-      "text": "The solar system's largest canyon is not located on Earth."
+      "text": "The solar system's largest canyon was not carved by a river."
     },
     {
       "style": "number",
-      "text": "Mars hides an enormous scar that plunges up to eleven kilometers deep."
+      "text": "Mars hides an enormous scar that plunges eleven kilometers deep."
     }
   ],
   "hook_style": "statement",
   "structure": "mystery",
-  "title": "The Martian canyon that crosses an entire planet",
-  "description": "Discover Valles Marineris, the solar system's largest canyon system that would stretch across the entire continental United States.",
+  "title": "The Martian canyon that spans a continent",
+  "description": "Discover Valles Marineris, a Martian canyon so massive it makes the Grand Canyon look like a tiny crack.",
   "hashtags": [
     "#space",
     "#mars",
-    "#astronomy"
+    "#nasa"
   ],
   "tags": [
     "Valles Marineris",
-    "Mars canyon",
-    "Tharsis bulge",
-    "solar system canyons"
+    "Mars",
+    "Mariner 9",
+    "Grand Canyon",
+    "astronomy",
+    "geology"
   ],
   "beats": [
     {
-      "text": "A massive canyon system on Mars stretches nearly four thousand kilometers long.",
+      "text": "This Martian canyon stretches from New York to Los Angeles.",
       "emphasis": [
-        "canyon system on Mars",
-        "four thousand kilometers long"
+        "Martian canyon",
+        "New York to Los Angeles"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1
+        1,
+        3
       ],
       "visual": "Valles Marineris global topography map by MOLA, 2001",
       "subjects": [
@@ -48,7 +51,7 @@
       "year": 1971,
       "queries": [
         "Valles Marineris global map MOLA",
-        "Mars Valles Marineris topography Viking"
+        "Mars Valles Marineris Viking mosaic"
       ],
       "card": {
         "kind": "fact",
@@ -57,10 +60,10 @@
       }
     },
     {
-      "text": "The historic Mariner 9 mission first revealed this breathtaking Martian scar in nineteen seventy-one.",
+      "text": "In nineteen seventy-one, the Mariner 9 orbiter discovered this massive scar slashed across the Martian equator.",
       "emphasis": [
-        "Mariner 9 mission",
-        "nineteen seventy-one"
+        "Mariner 9",
+        "Martian equator"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
@@ -74,88 +77,91 @@
       ],
       "year": 1971,
       "queries": [
-        "Mariner 9 spacecraft model",
-        "Mariner 9 Mars probe"
+        "Mariner 9 spacecraft",
+        "Mariner 9 Mars orbiter"
       ],
       "card": {
         "kind": "dateline",
         "big": "1971",
-        "small": "Mariner 9 mission"
+        "small": "Mariner 9 Discovery"
       }
     },
     {
-      "text": "Its total length is directly comparable to the distance from New York City to Los Angeles.",
+      "text": "Spanning four thousand kilometers, it makes the Grand Canyon look like a crack.",
       "emphasis": [
-        "New York City",
-        "Los Angeles"
+        "four thousand kilometers",
+        "Grand Canyon"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        3
+        1,
+        4
       ],
-      "visual": "Tharsis bulge Mars MOLA global relief, 2003",
+      "visual": "Comparison image of Valles Marineris and Grand Canyon at same scale",
       "subjects": [
-        "Tharsis",
-        "Mars"
+        "Valles Marineris",
+        "Grand Canyon"
       ],
       "year": 0,
       "queries": [
-        "Tharsis bulge Mars MOLA",
-        "Olympus Mons Mars globe"
+        "Valles Marineris vs Grand Canyon size comparison",
+        "Valles Marineris Mars Express"
       ],
       "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
+        "kind": "fact",
+        "big": "4,000 km",
+        "small": "Across Mars"
       }
     },
     {
-      "text": "The colossal trench plunges up to eleven kilometers deep in certain prominent regions.",
+      "text": "This system plunges eleven kilometers deep, four times the depth of any gorge on Earth.",
       "emphasis": [
-        "eleven kilometers deep"
+        "eleven kilometers deep",
+        "four times the depth"
       ],
       "sfx": "riser",
       "pause_after": 0.12,
       "claims": [
+        2,
         11
       ],
-      "visual": "Melas Chasma interior mosaic by Mars Express HRSC, 2008",
+      "visual": "Melas Chasma interior perspective view by Mars Express HRSC, 2008",
       "subjects": [
         "Melas Chasma",
         "Mars Express"
       ],
       "year": 0,
       "queries": [
-        "Melas Chasma Mars Express HRSC",
-        "Melas Chasma THEMIS mosaic"
+        "Melas Chasma perspective view Mars Express",
+        "Coprates Chasma depth Mars"
       ],
       "card": {
         "kind": "fact",
         "big": "11 km",
-        "small": "Max depth"
+        "small": "Maximum depth"
       }
     },
     {
-      "text": "Ancient volcanic activity from the Tharsis bulge stressed the planetary crust until it cracked open.",
+      "text": "It didn't form from a slow river, but from the planet literally tearing itself apart three billion years ago.",
       "emphasis": [
-        "Tharsis bulge",
-        "cracked open"
+        "tearing itself apart",
+        "three billion years ago"
       ],
-      "sfx": "whoosh",
+      "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         5
       ],
-      "visual": "Noctis Labyrinthus fractured terrain by HiRISE, 2010",
+      "visual": "Noctis Labyrinthus fractured terrain by Mars Reconnaissance Orbiter HiRISE, 2010",
       "subjects": [
         "Noctis Labyrinthus",
-        "Tharsis"
+        "Mars"
       ],
       "year": 0,
       "queries": [
-        "Noctis Labyrinthus Mars CTX",
-        "Noctis Labyrinthus HiRISE"
+        "Noctis Labyrinthus HiRISE",
+        "Mars Tharsis bulge tectonic"
       ],
       "card": {
         "kind": "none",
@@ -164,18 +170,45 @@
       }
     },
     {
-      "text": "Colossal gravitational landslides then widened the scar, sending debris rushing over a hundred kilometers across.",
+      "text": "The immense weight of the Tharsis volcanic bulge cracked the crust, and colossal landslides widened the jagged gap.",
       "emphasis": [
-        "gravitational landslides",
-        "over a hundred kilometers"
+        "Tharsis volcanic bulge",
+        "landslides"
       ],
-      "sfx": "none",
+      "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
-        6,
-        7
+        5,
+        6
       ],
-      "visual": "Candor Chasma layered deposits by HiRISE, 2007",
+      "visual": "Global view of Tharsis volcanic province and Valles Marineris, Viking, 1980",
+      "subjects": [
+        "Tharsis",
+        "Olympus Mons"
+      ],
+      "year": 0,
+      "queries": [
+        "Tharsis region Mars global",
+        "Valles Marineris landslides MOLA"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "Preserved minerals prove that ancient, rushing water once helped carve this giant.",
+      "emphasis": [
+        "Preserved minerals",
+        "rushing water"
+      ],
+      "sfx": "pop",
+      "pause_after": 0.4,
+      "claims": [
+        8
+      ],
+      "visual": "Candor Chasma layered deposits close-up by HiRISE, 2007",
       "subjects": [
         "Candor Chasma",
         "Mars Reconnaissance Orbiter"
@@ -183,35 +216,7 @@
       "year": 0,
       "queries": [
         "Candor Chasma layered deposits HiRISE",
-        "Mars Global Surveyor MOC Candor Chasma"
-      ],
-      "card": {
-        "kind": "fact",
-        "big": "100 km",
-        "small": "Landslide debris span"
-      }
-    },
-    {
-      "text": "Hydrated sulfate minerals like jarosite hide inside this remarkable solar system record breaker.",
-      "emphasis": [
-        "jarosite",
-        "record breaker"
-      ],
-      "sfx": "pop",
-      "pause_after": 0.4,
-      "claims": [
-        4,
-        8
-      ],
-      "visual": "Coprates Chasma volcanic cones by MRO, 2012",
-      "subjects": [
-        "Coprates Chasma",
-        "Mars Reconnaissance Orbiter"
-      ],
-      "year": 0,
-      "queries": [
-        "Coprates Chasma volcanic cones MRO",
-        "Coprates Chasma Mars Express HRSC"
+        "hydrated minerals Mars canyon"
       ],
       "card": {
         "kind": "none",
@@ -220,25 +225,27 @@
       }
     },
     {
-      "text": "That is how a massive canyon system on Mars stretches nearly four thousand kilometers long.",
+      "text": "These cataclysms are exactly why",
       "emphasis": [
-        "canyon system on Mars",
-        "four thousand kilometers long"
+        "cataclysms",
+        "exactly why"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1
+        1,
+        3,
+        5
       ],
-      "visual": "Mars global view showing Valles Marineris by Viking, 1980",
+      "visual": "Viking 1 global view of Mars showing Valles Marineris, 1980",
       "subjects": [
         "Valles Marineris",
-        "Viking program"
+        "Viking 1"
       ],
       "year": 1980,
       "queries": [
-        "Valles Marineris global map MOLA",
-        "Mars Valles Marineris topography Viking"
+        "Valles Marineris global view Viking",
+        "Mars full globe Valles Marineris"
       ],
       "card": {
         "kind": "none",
@@ -247,7 +254,7 @@
       }
     }
   ],
-  "hook_text": "4,000 KM CANYON ON MARS",
+  "hook_text": "ACROSS A CONTINENT",
   "loop": true,
-  "better_than_last": "Expanded middle beats slightly with descriptive modifiers to hit exactly 110 spoken words while preserving the seamless cyclical loop and pacing."
+  "better_than_last": "Shortened the hook to 10 words to comply with the 12-word limit while maintaining the continental comparison requested by the reviewer."
 }
