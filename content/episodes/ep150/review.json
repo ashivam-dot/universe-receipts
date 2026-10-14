@@ -1,0 +1,67 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-14T11:23:25+05:30",
+      "check": {
+        "duration": 58.22,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [
+          "duration 58.22 s is outside 35-58 s"
+        ],
+        "speech_differences": [
+          "'catalogued' heard as 'cataloged' after 'astronomers'",
+          "'lyman alpha' heard as 'liminalpha' after 'is an enormous'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Solid premise but opening delivery is slightly dry.",
+        "clarity": "Logical progression of facts makes it easy to follow.",
+        "payoff": "Scaling reveal provides a satisfying conclusion.",
+        "visuals": "Renders are high-quality, but beat 6 shows the wrong object.",
+        "loop": "Seamless transition back to the opening narration."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Chart shows Quasar PKS 0405-123, which is a different object."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "lyman-alpha",
+          "respelling": "lie mun al fah"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: \"Astronomers first saw a faint violet speck, calling it an ordinary star.\"",
+        "Beat 6: \"Initial measurements found 66 billion solar masses, later revised to 40.7 billion Suns.\"",
+        "Beat 8: \"No monster in the cosmos has ever hidden behind such a quiet disguise.\""
+      ],
+      "better_than_last": "The use of explicit title cards for distance and mass improves clarity over previous entries.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
