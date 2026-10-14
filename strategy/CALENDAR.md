@@ -106,7 +106,7 @@ unexplained, not alien.
 
 ### Scale Breaker
 
-- TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star — parked (ep010)
+- TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star — making (ep150)
 - Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit — dropped (ep067)
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance — parked (ep070)
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014 — done (ep048)

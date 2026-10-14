@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-14T05:11:55+05:30",
+  "updated_at": "2026-10-14T11:10:06+05:30",
   "day": 13,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4VSX3KHGWCQ1971NC8CA1JR",
+    "id": "ta-01M4WEGBE8C2ZJ9ZVN5F7DMAKR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-14T05:05:09+05:30",
-    "started_at_utc": "2026-10-13T23:35:09+00:00",
-    "seconds": 405
+    "started_at": "2026-10-14T11:05:10+05:30",
+    "started_at_utc": "2026-10-14T05:35:10+00:00",
+    "seconds": 296
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 2.1
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "41 posts",
-      "seconds": 1.0
+      "detail": "42 posts",
+      "seconds": 1.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep079 to 'Scale Breaker'",
-      "seconds": 2.9
+      "detail": "added ep110 to 'Space Got Weird'",
+      "seconds": 2.6
     },
     {
       "name": "languages",
@@ -45,114 +45,88 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep048 at 24 h: ahead of the channel's earlier Shorts at this age: 1020 views against a median of 729 (1.4x); ep050 at 72 h: ahead of the channel's earlier Shorts at this age: 1135 views against a median of 844 (1.3x); learnings: Reviewed performance of 10 Shorts, identifying a recurring failure in comment conversion and rewatch loops despite high hook retention.",
-      "seconds": 362.2
+      "detail": "ep045 at 24 h: ahead of the channel's earlier Shorts at this age: 1060 views against a median of 732 (1.4x); ep055 at 72 h: behind the channel's earlier Shorts at this age: 479 views against a median of 867 (0.6x); ep079 at 6 h: behind the channel's earlier Shorts at this age: 228 views against a median of 684 (0.3x); learnings: Updated rule citations for interactive prompts and pacing based on reviews for episodes ep052 through ep129.",
+      "seconds": 251.7
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep142 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep143 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep144 rejected (research: only 1 claims have two different sites); ep145 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-",
-      "seconds": 9.7
+      "detail": "ep146 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep147 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep148 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
+      "seconds": 12.9
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "preflight ep105",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
-    },
-    {
-      "name": "preflight ep110",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.6
     },
     {
       "name": "preflight ep112",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 2.1
-    },
-    {
-      "name": "schedule ep137",
-      "ok": true,
-      "detail": "2026-10-18T19:00:00-04:00",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep146",
-      "ok": true,
-      "detail": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
-      "seconds": 0.8
-    },
-    {
-      "name": "start ep147",
-      "ok": true,
-      "detail": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep148",
-      "ok": true,
-      "detail": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep149",
-      "ok": true,
-      "detail": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
       "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
+      "seconds": 2.8
+    },
+    {
+      "name": "schedule ep053",
+      "ok": true,
+      "detail": "2026-10-18T21:30:00-04:00",
+      "seconds": 1.4
+    },
+    {
+      "name": "start ep150",
+      "ok": true,
+      "detail": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
       "seconds": 1.1
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.3
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep142 stopped on Gemini's free quota; it resumes in a later run",
-    "ep143 stopped on Gemini's free quota; it resumes in a later run",
-    "ep145 stopped on Gemini's free quota; it resumes in a later run",
+    "ep146 stopped on Gemini's free quota; it resumes in a later run",
+    "ep147 stopped on Gemini's free quota; it resumes in a later run",
+    "ep148 stopped on Gemini's free quota; it resumes in a later run",
+    "ep149 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 17 waiting"
+    "room for 1 of the 4 Shorts wanted: Modal's credit covers 97, this run's share of the Actions minutes 0",
+    "Buffer is full (10 queued); 16 waiting"
   ],
   "inventory": {
-    "total": 27,
+    "total": 26,
     "in_buffer": 10,
-    "waiting": 17,
+    "waiting": 16,
     "target": 42,
     "making": [
       "ep142",
       "ep143",
-      "ep145"
-    ],
-    "remote": [
+      "ep145",
       "ep146",
       "ep147",
       "ep148",
       "ep149"
+    ],
+    "remote": [
+      "ep150"
     ]
   },
   "queue": [
-    {
-      "id": "ep110",
-      "title": "The Lost Space Forest NASA Forgot Existed",
-      "due_at": "2026-10-13T21:30:00-04:00"
-    },
     {
       "id": "ep105",
       "title": "The Storm That Bit Its Own Tail",
@@ -197,15 +171,14 @@
       "id": "ep137",
       "title": "The Spacewalker Trapped Outside His Ship",
       "due_at": "2026-10-18T19:00:00-04:00"
-    }
-  ],
-  "waiting": [
+    },
     {
       "id": "ep053",
       "title": "The 25 Million Daily Space Rocks Hitting Earth",
-      "series": "Space Myths, Busted",
-      "score": 20
-    },
+      "due_at": "2026-10-18T21:30:00-04:00"
+    }
+  ],
+  "waiting": [
     {
       "id": "ep058",
       "title": "The Impossible Ring Inside Hoag's Object",
@@ -305,31 +278,33 @@
   ],
   "made": [
     {
-      "id": "ep142",
+      "id": "ep146",
       "outcome": "unfinished",
-      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
+      "topic": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep143",
+      "id": "ep147",
       "outcome": "unfinished",
-      "topic": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
+      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep144",
-      "outcome": "rejected",
-      "topic": "Tidal disruption event (1975): when a star wanders too close to a supermassive black hole, gravitational forces shred it into a blinding stream of stellar debris",
-      "reason": "research: only 1 claims have two different sites"
+      "id": "ep148",
+      "outcome": "unfinished",
+      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep145",
+      "id": "ep149",
       "outcome": "unfinished",
-      "topic": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
+      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -337,93 +312,62 @@
   ],
   "spawned": [
     {
-      "id": "ep146",
-      "topic": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
-      "call_id": "fc-01M4VT9KWQ3T7A09SXA40TWMZV"
-    },
-    {
-      "id": "ep147",
-      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "call_id": "fc-01M4VT9MGGF7YAHJJ0FSTSRBJJ"
-    },
-    {
-      "id": "ep148",
-      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "call_id": "fc-01M4VT9N2BJ1V8GR876QWKY1H1"
-    },
-    {
-      "id": "ep149",
-      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "call_id": "fc-01M4VT9NM27FFSMHKMV9Z0H9RJ"
+      "id": "ep150",
+      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
+      "call_id": "fc-01M4WESGVSFWK87PAD5YRGTVVP"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep146",
-      "topic": "Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet",
-      "spawned_at": "2026-10-14T05:11:50+05:30"
-    },
-    {
-      "id": "ep147",
-      "topic": "Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide",
-      "spawned_at": "2026-10-14T05:11:51+05:30"
-    },
-    {
-      "id": "ep148",
-      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "spawned_at": "2026-10-14T05:11:51+05:30"
-    },
-    {
-      "id": "ep149",
-      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "spawned_at": "2026-10-14T05:11:52+05:30"
+      "id": "ep150",
+      "topic": "TON 618: a black hole estimated at roughly 40.7 billion Suns, first catalogued in 1957 as a faint blue star",
+      "spawned_at": "2026-10-14T11:10:03+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep137",
-      "title": "The Spacewalker Trapped Outside His Ship",
-      "due_at": "2026-10-18T19:00:00-04:00"
+      "id": "ep053",
+      "title": "The 25 Million Daily Space Rocks Hitting Earth",
+      "due_at": "2026-10-18T21:30:00-04:00"
     }
   ],
-  "live": 32,
+  "live": 33,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 21,
+    "calls": 24,
     "by_model": {
-      "gemini-3.8-flash": 1,
+      "gemini-3.7-flash": 4,
       "gemini-3-flash-preview": 4,
-      "gemini-flash-lite-latest": 4,
-      "gemini-3.1-flash-lite": 4,
-      "gemini-3.5-flash-lite": 5,
-      "ovh:Qwen3.5-397B-A17B": 2,
-      "gemma-4-31b-it": 1
+      "gemini-3.5-flash-lite": 14,
+      "gemini-3.8-flash": 2
     },
     "out_of_quota": [
       "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
       "gemini-3.8-flash"
     ]
   },
   "renders": {
-    "modal": 3,
+    "modal": 4,
     "runner": 0
   },
   "daily_done": "2026-10-13",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 16.13,
+    "metered": 16.28,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 98,
+    "cloud": 97,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 11.86
+    "modal_credit_left": 11.72
   },
   "made_here": 0,
   "open_topics": 24,
-  "parked_topics": 64
+  "parked_topics": 63
 }
