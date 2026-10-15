@@ -1,0 +1,159 @@
+id: ep156
+title: The Radioactive Clock Hiding on Voyager
+series: Space Got Weird
+description: The Voyager Golden Record carries a hidden atomic clock made of uranium-238 to tell aliens how old it is.
+sources:
+- https://en.wikipedia.org/wiki/Voyager_Golden_Record
+- https://science.nasa.gov/mission/voyager/golden-record-cover/
+- https://en.wikipedia.org/wiki/Contents_of_the_Voyager_Golden_Record
+- https://www.space.com/39549-voyager-golden-record-reprint-wins-grammy.html
+- https://web.archive.org/web/20130827203334/http://www.smithsonianmag.com/science-nature/What-Is-on-Voyagers-Golden-Record.html
+- https://www.npr.org/2010/02/12/123534818/carl-sagan-and-ann-druyans-ultimate-mix-tape
+hashtags:
+- '#space'
+- '#voyager'
+- '#nasa'
+tags:
+- Voyager
+- Golden Record
+- uranium
+- NASA
+- spacecraft
+- time capsule
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: A secret radioactive clock is bolted to the side of Voyager.
+  emphasis:
+  - secret radioactive clock
+  - Voyager
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/29/Voyager_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager spacecraft.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Uranium-238
+      small: Radioactive Clock
+- text: In 1977, two robotic spacecraft launched into the great void carrying golden phonograph records designed to tell Earth's
+    complete story to the stars.
+  emphasis:
+  - '1977'
+  - golden phonograph records
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg/1920px-The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Sounds of Earth Record Cover - GPN-2000-001978.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '1977'
+      small: Launch of Voyager 1 and 2
+- text: Inside are spoken greetings in 55 different human languages, whale songs, and human brainwaves recorded during a deeply
+    emotional moment of falling in love.
+  emphasis:
+  - 55 different human languages
+  - falling in love
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ann_Druyan_1.jpg/960px-Ann_Druyan_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ann Druyan 1.jpg
+      credit: Bob Lee
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Ann_Druyan_1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.55
+    focus_y: 0.4
+    card:
+      kind: fact
+      big: 55 Languages
+      small: Greetings on the record
+- text: But the protective aluminum cover itself holds an ultra-pure sample of heavy uranium-238.
+  emphasis:
+  - protective aluminum cover
+  - uranium-238
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/45/Uranium_%28Element_-_92%29_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Uranium (Element - 92) 1.jpg
+      credit: James St. John
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Uranium_(Element_-_92)_1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Uranium-238
+      small: Electroplated on cover
+- text: Because this exact isotope decays with a half-life of approximately 4.5 billion years, any finder can calculate the
+    exact time since launch.
+  emphasis:
+  - half-life
+  - 4.5 billion years
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f0/OSC_Astro_07_03_Decay_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: OSC Astro 07 03 Decay (1).jpg
+      credit: Andrew Fraknoi, David Morrison, and Sidney Wolff. © 1999-2018, Rice University. Except where otherwise noted,
+        content created on this site is licensed under a Creative Commons Attribution 4.0 License.
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:OSC_Astro_07_03_Decay_(1).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 4.5 Billion Years
+      small: Uranium half-life
+- text: That brilliant atomic clock is built right into the side of Voyager.
+  emphasis:
+  - atomic clock
+  - side of Voyager
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.45
+    focus_y: 0.5
+hook_text: SECRET ATOMIC CLOCK ON VOYAGER

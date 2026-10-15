@@ -22,8 +22,8 @@ unexplained, not alien.
 
 | Added | Story | Series | Why |
 |---|---|---|---|
-| 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — making (ep158) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
-| 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — parked (ep020) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
+| 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — dropped (ep158) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
+| 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — making (ep160) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
 | 2026-10-02 | Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon — parked (ep027) | The Universe Is Terrifying | NASA's Webb telescope recently released new findings on planet-shattering collisions, mirroring the historic clash of Earth and Theia. |
 | 2026-10-03 | DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus — done (ep036) | Mission Files | NASA recently highlighted extreme thermal testing on the probe's engineering model for its mission to Venus. |
 | 2026-10-05 | Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe — done (ep060) | Scale Breaker | October 5th is the anniversary of Edwin Hubble identifying the star that proved galaxies exist beyond our own. |
@@ -87,7 +87,7 @@ unexplained, not alien.
 - Magnetar (1979): a dead star whose magnetic field would be lethal from 1,000 kilometers away — done (ep049)
 - HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds — parked (ep122)
 - Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare — done (ep032)
-- Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — making (ep157)
+- Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — dropped (ep157)
 - WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth — done (ep055)
 - Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all — parked (ep043)
 - Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece — dropped (ep068)
@@ -202,7 +202,7 @@ unexplained, not alien.
 
 ### Space Myths, Busted
 
-- Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit — parked (ep012)
+- Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit — making (ep159)
 - Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see — done (ep047)
 - Season: Earth is closest to the Sun in early January, so distance isn't what makes summer — dropped (ep037)
 - Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — dropped (ep021)

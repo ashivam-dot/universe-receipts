@@ -1,140 +1,121 @@
 {
-  "updated_at": "2026-10-15T05:08:26+05:30",
+  "updated_at": "2026-10-15T11:07:06+05:30",
   "day": 14,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4YC9WKP0BQW0D45GBV2492R",
+    "id": "ta-01M4Z0X3QKN8XHVTST7YTZ3TYR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-15T05:05:13+05:30",
-    "started_at_utc": "2026-10-14T23:35:13+00:00",
-    "seconds": 193
+    "started_at": "2026-10-15T11:05:09+05:30",
+    "started_at_utc": "2026-10-15T05:35:09+00:00",
+    "seconds": 117
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.5
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "43 posts",
-      "seconds": 4.3
+      "detail": "44 posts",
+      "seconds": 1.5
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep105 to 'Scale Breaker'",
-      "seconds": 5.2
+      "detail": "added ep112 to 'Near Misses'",
+      "seconds": 1.9
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep050 language en/None -> en; ep066 language en/None -> en",
-      "seconds": 2.6
+      "detail": "ep045 language en/None -> en; ep048 language en/None -> en; ep084 language en/None -> en; ep129 language en/None -> en",
+      "seconds": 1.5
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 1.1
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep066 at 72 h: ahead of the channel's earlier Shorts at this age: 1207 views against a median of 867 (1.4x); ep079 at 24 h: behind the channel's earlier Shorts at this age: 275 views against a median of 741 (0.4x); learnings: Updated evidence citations for looping (ep099) and anti-exposition rules (ep079) while holding existing hypotheses pending multi-short confirmation.",
-      "seconds": 113.4
+      "detail": "ep084 at 72 h: behind the channel's earlier Shorts at this age: 455 views against a median of 911 (0.5x); ep105 at 6 h: behind the channel's earlier Shorts at this age: 459 views against a median of 684 (0.7x); ep110 at 24 h: ahead of the channel's earlier Shorts at this age: 1169 views against a median of 732 (1.6x); learnings: Today we added a new hypothesis based on ep110 and ep066 requiring interactive community prompts instead of informational wrap-ups to drive comments and likes.",
+      "seconds": 82.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep151 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep152 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep153 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
-      "seconds": 16.9
+      "detail": "ep155 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep156 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep157 rejected (research: only 0 claims have two different sites); ep158 rejected (research: only 1 claims have two different sites)",
+      "seconds": 10.8
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 1.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep111",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 2.8
-    },
-    {
-      "name": "preflight ep112",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 2.5
+      "seconds": 0.5
     },
     {
       "name": "preflight ep118",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 2.6
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 5.5
-    },
-    {
-      "name": "schedule ep146",
-      "ok": true,
-      "detail": "2026-10-21T19:00:00-04:00",
-      "seconds": 3.2
-    },
-    {
-      "name": "start ep155",
-      "ok": true,
-      "detail": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
-      "seconds": 2.0
-    },
-    {
-      "name": "start ep156",
-      "ok": true,
-      "detail": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep157",
-      "ok": true,
-      "detail": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
-      "seconds": 0.8
-    },
-    {
-      "name": "start ep158",
-      "ok": true,
-      "detail": "Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces",
-      "seconds": 0.8
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
       "seconds": 2.1
+    },
+    {
+      "name": "schedule ep058",
+      "ok": true,
+      "detail": "2026-10-19T19:00:00-04:00",
+      "seconds": 1.1
+    },
+    {
+      "name": "start ep159",
+      "ok": true,
+      "detail": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep160",
+      "ok": true,
+      "detail": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
+      "seconds": 1.1
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.1
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep151 stopped on Gemini's free quota; it resumes in a later run",
-    "ep152 stopped on Gemini's free quota; it resumes in a later run",
-    "ep153 stopped on Gemini's free quota; it resumes in a later run",
-    "ep154 stopped on Gemini's free quota; it resumes in a later run",
+    "ep155 stopped on Gemini's free quota; it resumes in a later run",
+    "ep156 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 16 waiting"
+    "room for 2 of the 4 Shorts wanted: Modal's credit covers 89, this run's share of the Actions minutes 0",
+    "Buffer is full (10 queued); 15 waiting"
   ],
   "inventory": {
-    "total": 26,
+    "total": 25,
     "in_buffer": 10,
-    "waiting": 16,
+    "waiting": 15,
     "target": 42,
     "making": [
       "ep142",
@@ -143,21 +124,16 @@
       "ep151",
       "ep152",
       "ep153",
-      "ep154"
+      "ep154",
+      "ep155",
+      "ep156"
     ],
     "remote": [
-      "ep155",
-      "ep156",
-      "ep157",
-      "ep158"
+      "ep159",
+      "ep160"
     ]
   },
   "queue": [
-    {
-      "id": "ep112",
-      "title": "The Asteroid That Hid in Plain Sight",
-      "due_at": "2026-10-14T21:30:00-04:00"
-    },
     {
       "id": "ep111",
       "title": "The Megastructure That Breaks Physics",
@@ -199,18 +175,17 @@
       "due_at": "2026-10-18T21:30:00-04:00"
     },
     {
+      "id": "ep058",
+      "title": "The Impossible Ring Inside Hoag's Object",
+      "due_at": "2026-10-19T19:00:00-04:00"
+    },
+    {
       "id": "ep146",
       "title": "Halley's Comet Is Burning Above You TONIGHT",
       "due_at": "2026-10-21T19:00:00-04:00"
     }
   ],
   "waiting": [
-    {
-      "id": "ep058",
-      "title": "The Impossible Ring Inside Hoag's Object",
-      "series": "Space Got Weird",
-      "score": 20
-    },
     {
       "id": "ep059",
       "title": "Why Astronauts Never Escape Earth's Gravity",
@@ -304,112 +279,94 @@
   ],
   "made": [
     {
-      "id": "ep151",
+      "id": "ep155",
       "outcome": "unfinished",
-      "topic": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
+      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep152",
+      "id": "ep156",
       "outcome": "unfinished",
-      "topic": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
+      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep153",
-      "outcome": "unfinished",
-      "topic": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep157",
+      "outcome": "rejected",
+      "topic": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
+      "reason": "research: only 0 claims have two different sites"
     },
     {
-      "id": "ep154",
-      "outcome": "unfinished",
-      "topic": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep158",
+      "outcome": "rejected",
+      "topic": "Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces",
+      "reason": "research: only 1 claims have two different sites"
     }
   ],
   "spawned": [
     {
-      "id": "ep155",
-      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
-      "call_id": "fc-01M4YCFXEKKE86M2ST18C3JJ0G"
+      "id": "ep159",
+      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
+      "call_id": "fc-01M4Z10R44EBKTTTKS8M0ZAVPB"
     },
     {
-      "id": "ep156",
-      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "call_id": "fc-01M4YCFYBWVQDKX0DQ8HH11R6P"
-    },
-    {
-      "id": "ep157",
-      "topic": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
-      "call_id": "fc-01M4YCFZ683BW0270F86CRT3XW"
-    },
-    {
-      "id": "ep158",
-      "topic": "Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces",
-      "call_id": "fc-01M4YCG001CFGA3P3NMDMA71TT"
+      "id": "ep160",
+      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
+      "call_id": "fc-01M4Z10S7GN5NVXEQRG15W62G3"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep155",
-      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
-      "spawned_at": "2026-10-15T05:08:20+05:30"
+      "id": "ep159",
+      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
+      "spawned_at": "2026-10-15T11:07:03+05:30"
     },
     {
-      "id": "ep156",
-      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "spawned_at": "2026-10-15T05:08:21+05:30"
-    },
-    {
-      "id": "ep157",
-      "topic": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
-      "spawned_at": "2026-10-15T05:08:21+05:30"
-    },
-    {
-      "id": "ep158",
-      "topic": "Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces",
-      "spawned_at": "2026-10-15T05:08:22+05:30"
+      "id": "ep160",
+      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
+      "spawned_at": "2026-10-15T11:07:04+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep146",
-      "title": "Halley's Comet Is Burning Above You TONIGHT",
-      "due_at": "2026-10-21T19:00:00-04:00"
+      "id": "ep058",
+      "title": "The Impossible Ring Inside Hoag's Object",
+      "due_at": "2026-10-19T19:00:00-04:00"
     }
   ],
-  "live": 34,
+  "live": 35,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 24,
+    "calls": 15,
     "by_model": {
-      "gemini-3.8-flash": 2,
-      "gemini-3.7-flash": 1,
-      "gemini-3.5-flash-lite": 21
+      "gemini-3.8-flash": 1,
+      "gemini-3-flash-preview": 2,
+      "gemini-3.5-flash-lite": 10,
+      "gemini-3.7-flash": 2
     },
     "out_of_quota": [
-      "gemini-3.8-flash"
+      "gemini-3-flash-preview",
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash",
+      "gemini-flash-latest"
     ]
   },
   "renders": {
-    "modal": 4,
+    "modal": 2,
     "runner": 0
   },
   "daily_done": "2026-10-14",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 17.22,
+    "metered": 17.31,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -417,9 +374,9 @@
     "cloud": 89,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 10.78
+    "modal_credit_left": 10.69
   },
   "made_here": 0,
   "open_topics": 24,
-  "parked_topics": 62
+  "parked_topics": 60
 }
