@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-15T23:09:05+05:30",
-  "day": 14,
+  "updated_at": "2026-10-16T05:09:20+05:30",
+  "day": 15,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M50A54KDVKEKRRPHWYXDC5NR",
+    "id": "ta-01M50YPK0Y7ZSD3530CWWGGDER",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-15T23:06:07+05:30",
-    "started_at_utc": "2026-10-15T17:36:07+00:00",
-    "seconds": 178
+    "started_at": "2026-10-16T05:05:09+05:30",
+    "started_at_utc": "2026-10-15T23:35:09+00:00",
+    "seconds": 251
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 1.7
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "45 posts",
-      "seconds": 0.8
+      "seconds": 1.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 2.0
+      "detail": "added ep111 to 'Scale Breaker'",
+      "seconds": 2.4
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.3
+      "detail": "ep079 language en/None -> en",
+      "seconds": 0.6
     },
     {
       "name": "on youtube",
@@ -45,14 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep129 at 72 h: behind the channel's earlier Shorts at this age: 363 views against a median of 867 (0.4x); learnings: Promoted specific hooks and search-prompt endings to rules after ep066, ep110, and ep129 showed high initial retention and low engagement respectively.",
-      "seconds": 106.5
+      "detail": "ep048 at 72 h: ahead of the channel's earlier Shorts at this age: 1035 views against a median of 844 (1.2x); ep105 at 24 h: level with the channel's earlier Shorts at this age: 662 views against a median of 741 (0.9x); learnings: Updated proven rule evidence by citing ep105 for comment debate endings and ep129 for seamless rewatch loops based on recent diagnoses.",
+      "seconds": 207.8
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep142 rejected (low scores: clarity, payoff, visuals); ep148 rejected (low scores: hook, visuals); ep149 rejected (low scores: visuals); ep151 rejected (low scores: hook, visuals); ep152 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep153 rejected (low scores: hook, payoff, visuals, loop; true peak 0.3 dBFS is above -1; 2 frame problems); ep154 rejected (low scores: visuals); ep155 unfinished (RuntimeError: Gemini gemini-3.8-flash 400: User locatio",
-      "seconds": 39.4
+      "detail": "ep155 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep161 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep162 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
+      "seconds": 11.4
     },
     {
       "name": "buffer channel",
@@ -61,58 +61,58 @@
       "seconds": 0.2
     },
     {
-      "name": "preflight ep111",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.5
-    },
-    {
       "name": "preflight ep118",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "name": "preflight ep125",
       "ok": true,
-      "detail": "video downloads whole (17 MB in 0 s)",
-      "seconds": 0.7
+      "detail": "video still hosted",
+      "seconds": 0.4
     },
     {
       "name": "preflight ep130",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 3.3
     },
     {
-      "name": "start ep155",
+      "name": "schedule ep063",
       "ok": true,
-      "detail": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
-      "seconds": 1.0
+      "detail": "2026-10-19T21:30:00-04:00",
+      "seconds": 0.8
     },
     {
-      "name": "start ep161",
+      "name": "start ep164",
       "ok": true,
-      "detail": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
-      "seconds": 1.4
+      "detail": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
+      "seconds": 0.7
     },
     {
-      "name": "start ep162",
+      "name": "start ep165",
       "ok": true,
-      "detail": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
-      "seconds": 0.9
+      "detail": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
+      "seconds": 0.6
     },
     {
-      "name": "start ep163",
+      "name": "start ep166",
       "ok": true,
-      "detail": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
-      "seconds": 1.1
+      "detail": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep167",
+      "ok": true,
+      "detail": "Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon",
+      "seconds": 0.6
     },
     {
       "name": "publish",
@@ -124,32 +124,33 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep152 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 17 waiting",
+    "ep155 stopped on Gemini's free quota; it resumes in a later run",
+    "ep161 stopped on Gemini's free quota; it resumes in a later run",
+    "ep162 stopped on Gemini's free quota; it resumes in a later run",
+    "ep163 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 17 waiting"
+    "Buffer is full (10 queued); 16 waiting"
   ],
   "inventory": {
-    "total": 27,
+    "total": 26,
     "in_buffer": 10,
-    "waiting": 17,
+    "waiting": 16,
     "target": 42,
     "making": [
-      "ep152"
-    ],
-    "remote": [
+      "ep152",
       "ep155",
       "ep161",
       "ep162",
       "ep163"
+    ],
+    "remote": [
+      "ep164",
+      "ep165",
+      "ep166",
+      "ep167"
     ]
   },
   "queue": [
-    {
-      "id": "ep111",
-      "title": "The Megastructure That Breaks Physics",
-      "due_at": "2026-10-15T19:00:00-04:00"
-    },
     {
       "id": "ep118",
       "title": "The Moon That Was Smashed to Pieces",
@@ -191,6 +192,11 @@
       "due_at": "2026-10-19T19:00:00-04:00"
     },
     {
+      "id": "ep063",
+      "title": "The Star on a Collision Course With Our Solar System",
+      "due_at": "2026-10-19T21:30:00-04:00"
+    },
+    {
       "id": "ep146",
       "title": "Halley's Comet Is Burning Above You TONIGHT",
       "due_at": "2026-10-21T19:00:00-04:00"
@@ -201,12 +207,6 @@
       "id": "ep059",
       "title": "Why Astronauts Never Escape Earth's Gravity",
       "series": "Space Myths, Busted",
-      "score": 20
-    },
-    {
-      "id": "ep063",
-      "title": "The Star on a Collision Course With Our Solar System",
-      "series": "Near Misses",
       "score": 20
     },
     {
@@ -302,174 +302,124 @@
   ],
   "made": [
     {
-      "id": "ep142",
-      "outcome": "rejected",
-      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "reason": "low scores: clarity, payoff, visuals"
-    },
-    {
-      "id": "ep148",
-      "outcome": "rejected",
-      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "reason": "low scores: hook, visuals"
-    },
-    {
-      "id": "ep149",
-      "outcome": "rejected",
-      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep151",
-      "outcome": "rejected",
-      "topic": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
-      "reason": "low scores: hook, visuals"
-    },
-    {
-      "id": "ep152",
+      "id": "ep155",
       "outcome": "unfinished",
-      "topic": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
+      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep153",
-      "outcome": "rejected",
-      "topic": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
-      "reason": "low scores: hook, payoff, visuals, loop; true peak 0.3 dBFS is above -1; 2 frame problems"
-    },
-    {
-      "id": "ep154",
-      "outcome": "rejected",
-      "topic": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep155",
+      "id": "ep161",
       "outcome": "unfinished",
-      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
-      "reason": "RuntimeError: Gemini gemini-3.8-flash 400: User location is not supported for the API use.",
-      "quota": false,
+      "topic": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep156",
-      "outcome": "ready",
-      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "title": "The Radioactive Clock Bolted to Voyager",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792065504/universereceipts/ep156-92aaa513.mp4"
+      "id": "ep162",
+      "outcome": "unfinished",
+      "topic": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep159",
-      "outcome": "ready",
-      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "title": "Why the Great Wall of China Is INVISIBLE from Space",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792065006/universereceipts/ep159-4900dbe5.mp4"
-    },
-    {
-      "id": "ep160",
-      "outcome": "rejected",
-      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "reason": "low scores: clarity"
+      "id": "ep163",
+      "outcome": "unfinished",
+      "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep155",
-      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
-      "call_id": "fc-01M50AAN776BNS1DKB03XZ51GX"
+      "id": "ep164",
+      "topic": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
+      "call_id": "fc-01M50YYAMB83138NBA25Y88HYR"
     },
     {
-      "id": "ep161",
-      "topic": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
-      "call_id": "fc-01M50AAPKMG59RZJH1VSD8SV4N"
+      "id": "ep165",
+      "topic": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
+      "call_id": "fc-01M50YYB6NEAZDZT8VRCAEGJS0"
     },
     {
-      "id": "ep162",
-      "topic": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
-      "call_id": "fc-01M50AAQE8DWPSHQKQ325XM3PG"
+      "id": "ep166",
+      "topic": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
+      "call_id": "fc-01M50YYBQXTB0RD3NQBX7JFE0T"
     },
     {
-      "id": "ep163",
-      "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
-      "call_id": "fc-01M50AARGWPMASJPGJGXWTCKYE"
+      "id": "ep167",
+      "topic": "Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon",
+      "call_id": "fc-01M50YYCA4MZGCAR4HJ9JA39WD"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep155",
-      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
-      "spawned_at": "2026-10-15T23:08:59+05:30"
+      "id": "ep164",
+      "topic": "Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should",
+      "spawned_at": "2026-10-16T05:09:15+05:30"
     },
     {
-      "id": "ep161",
-      "topic": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
-      "spawned_at": "2026-10-15T23:09:00+05:30"
+      "id": "ep165",
+      "topic": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
+      "spawned_at": "2026-10-16T05:09:16+05:30"
     },
     {
-      "id": "ep162",
-      "topic": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
-      "spawned_at": "2026-10-15T23:09:01+05:30"
+      "id": "ep166",
+      "topic": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
+      "spawned_at": "2026-10-16T05:09:16+05:30"
     },
     {
-      "id": "ep163",
-      "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
-      "spawned_at": "2026-10-15T23:09:02+05:30"
+      "id": "ep167",
+      "topic": "Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon",
+      "spawned_at": "2026-10-16T05:09:17+05:30"
     }
   ],
-  "published": [],
-  "live": 35,
+  "published": [
+    {
+      "id": "ep063",
+      "title": "The Star on a Collision Course With Our Solar System",
+      "due_at": "2026-10-19T21:30:00-04:00"
+    }
+  ],
+  "live": 36,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 39,
+    "calls": 21,
     "by_model": {
-      "gemini-3-flash-preview": 20,
-      "gemini-3.7-flash": 6,
-      "gemini-3.8-flash": 2,
-      "gemini-3.5-flash-lite": 6,
-      "gemini-3.6-flash": 3,
-      "gemini-flash-latest": 2
+      "gemini-3.8-flash": 1,
+      "gemini-3.7-flash": 2,
+      "gemini-3.5-flash-lite": 9,
+      "gemini-3.1-flash-lite": 8,
+      "gemini-3.5-flash": 1
     },
     "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash"
+      "gemini-3.8-flash"
     ]
   },
   "renders": {
-    "modal": 23,
+    "modal": 4,
     "runner": 0
   },
   "daily_done": "2026-10-15",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 18.12,
+    "metered": 18.28,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 82,
+    "cloud": 80,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 9.88
+    "modal_credit_left": 9.72
   },
   "made_here": 0,
   "open_topics": 26,
-  "parked_topics": 64
+  "parked_topics": 60
 }

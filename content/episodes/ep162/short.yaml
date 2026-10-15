@@ -1,0 +1,162 @@
+id: ep162
+title: The Shuttle That Survived Seven Hundred Missing Tiles
+series: Near Misses
+description: Discover how Space Shuttle Atlantis survived a catastrophic tile loss during a classified 1988 mission.
+sources:
+- https://en.wikipedia.org/wiki/STS-27
+- https://www.americaspace.com/2012/01/30/into-the-black-nasas-secret-shuttle-missions-part-two/
+- https://lowearth.app/mission/sts-27
+- https://www.worldspaceflight.com/america/shuttles/sts-27.php
+- https://web.archive.org/web/20170303211110/http://www.spaceflightnow.com/shuttle/sts119/090327sts27/
+- http://spacefacts.de/mission/english/sts-27.htm
+hashtags:
+- '#space'
+- '#nasa'
+- '#spacecraft'
+tags:
+- STS-27
+- Space Shuttle Atlantis
+- thermal tiles
+- space history
+- reentry
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: Space Shuttle Atlantis lost over seven hundred thermal tiles during flight.
+  emphasis:
+  - seven hundred thermal tiles
+  - during flight
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d3/Atlantis_taking_off_on_STS-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Atlantis taking off on STS-27.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Atlantis_taking_off_on_STS-27.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.52
+    focus_y: 0.38
+    card:
+      kind: fact
+      big: 700 TILES
+      small: Lost on ascent
+- text: On December 2, 1988, ablative insulating material from the right solid rocket booster struck the orbiter.
+  emphasis:
+  - December 2, 1988
+  - solid rocket booster
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: DECEMBER 2, 1988
+      small: Kennedy Space Center
+    motion: zoom_in
+- text: Eighty-five seconds into ascent, severe debris tore into the ship's vulnerable belly.
+  emphasis:
+  - Eighty-five seconds
+  - vulnerable belly
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/28/Thermal_protection_system_inspections_from_ISS_-_Shuttle_bottom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Thermal protection system inspections from ISS - Shuttle bottom.jpg
+      credit: Nasa
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Thermal_protection_system_inspections_from_ISS_-_Shuttle_bottom.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.3
+    box:
+    - 0.2
+    - 0.0
+    - 0.8
+    - 0.8
+    card:
+      kind: fact
+      big: 85 SECONDS
+      small: Into ascent
+- text: Using the Canadarm, the crew inspected the heavy damage and grainy images were sent to Mission Control.
+  emphasis:
+  - Canadarm
+  - Mission Control
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Wake_Shield_Facility_on_STS-60_%28STS060-74-054%29.jpg/1920px-Wake_Shield_Facility_on_STS-60_%28STS060-74-054%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Wake Shield Facility on STS-60 (STS060-74-054).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Wake_Shield_Facility_on_STS-60_(STS060-74-054).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Engineers dismissed the footage as mere lights and shadows, leaving commander Robert Hoot Gibson convinced they would
+    die.
+  emphasis:
+  - lights and shadows
+  - Robert Hoot Gibson
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/STS-27_crew_poses_for_inflight_portrait_on_forward_flight_deck_with_football.jpg/3840px-STS-27_crew_poses_for_inflight_portrait_on_forward_flight_deck_with_football.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS-27 crew poses for inflight portrait on forward flight deck with football.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-27_crew_poses_for_inflight_portrait_on_forward_flight_deck_with_football.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Atlantis survived fiery reentry because a missing tile sat squarely over a thick aluminum antenna plate.
+  emphasis:
+  - survived fiery reentry
+  - aluminum antenna plate
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Sts-27_Landing.jpg/3840px-Sts-27_Landing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Sts-27 Landing.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Sts-27_Landing.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.55
+    focus_y: 0.55
+    card:
+      kind: fact
+      big: STEEL PLATE
+      small: Prevented burnout
+- text: Over seven hundred thermal tiles were missing when Space Shuttle Atlantis finally returned to Earth.
+  emphasis:
+  - seven hundred thermal tiles
+  - returned to Earth
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.52
+    focus_y: 0.38
+hook_text: 700 TILES MISSING IN SPACE

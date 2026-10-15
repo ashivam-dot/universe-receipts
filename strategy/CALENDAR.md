@@ -24,7 +24,7 @@ unexplained, not alien.
 |---|---|---|---|
 | 2026-10-01 | Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces — dropped (ep158) | Space Myths, Busted | Trending on Wikipedia with over 32,000 views in the last day. |
 | 2026-10-01 | NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others — dropped (ep160) | Space Got Weird | Featured as NASA's Astronomy Picture of the Day on September 30. |
-| 2026-10-02 | Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon — parked (ep027) | The Universe Is Terrifying | NASA's Webb telescope recently released new findings on planet-shattering collisions, mirroring the historic clash of Earth and Theia. |
+| 2026-10-02 | Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon — making (ep167) | The Universe Is Terrifying | NASA's Webb telescope recently released new findings on planet-shattering collisions, mirroring the historic clash of Earth and Theia. |
 | 2026-10-03 | DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus — done (ep036) | Mission Files | NASA recently highlighted extreme thermal testing on the probe's engineering model for its mission to Venus. |
 | 2026-10-05 | Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe — done (ep060) | Scale Breaker | October 5th is the anniversary of Edwin Hubble identifying the star that proved galaxies exist beyond our own. |
 | 2026-10-05 | Sombrero Galaxy (1781): a massive ring of stars that hides a violent history of galactic cannibalism — done (ep061) | The Universe Is Terrifying | Featured on NASA's APOD today with new evidence of tidal streams from its past mergers. |
@@ -120,7 +120,7 @@ unexplained, not alien.
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — dropped (ep148)
 - Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away — done (ep013)
 - Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza — done (ep030)
-- Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there — parked (ep026)
+- Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there — making (ep166)
 - IC 1101 (1790): a galaxy six million light-years wide that could fit 50 Milky Ways inside it — done (ep079)
 - Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies — parked (ep089)
 - Great White Spot (1876): a periodic storm on Saturn so massive it wraps around the entire planet until it hits its own tail — done (ep105)
@@ -164,7 +164,7 @@ unexplained, not alien.
 - PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star — dropped (ep083)
 - Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain — parked (ep092)
 - Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy — done (ep058)
-- Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — parked (ep022)
+- Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — making (ep164)
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer — done (ep052)
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests — done (ep046)
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — dropped (ep147)
@@ -213,7 +213,7 @@ unexplained, not alien.
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth — parked (ep041)
 - Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds — parked (ep081)
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day — done (ep053)
-- Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — parked (ep025)
+- Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — making (ep165)
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close — done (ep028)
 - Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — dropped (ep149)
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop — parked (ep065)
