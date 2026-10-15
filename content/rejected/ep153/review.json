@@ -1,0 +1,197 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-15T17:12:47+05:30",
+      "check": {
+        "duration": 51.79,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'subrahmanyan chandrasekhar' heard as 'subramanyan chandrasekar' after 'fearless journal editor'",
+          "'published' heard as 'publish' after 'overruled them and'",
+          "'called' heard as 'call' after 'per hour reviewers'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 1
+      },
+      "notes": {
+        "hook": "The peer-rejection angle creates immediate intrigue, though mentioning the solar wind would make it sharper.",
+        "clarity": "The historical sequence is easy to follow, but it strangely never mentions the actual name 'solar wind'.",
+        "payoff": "Luna 1's rapid vindication of Parker provides a satisfying payoff to the scientific rejection.",
+        "visuals": "Beat 3 is an unrelated starfield plate rather than Parker's paper, the Sun, or the journal.",
+        "loop": "Beat 7 repeats Beat 1 word-for-word, creating an awkward double read upon looping instead of a seamless bridge."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "off-topic starfield plate instead of Parker, his solar wind paper, or The Astrophysical Journal"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: 'Yet before spacecraft proved this phenomenon was real,'"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-15T17:23:06+05:30",
+      "check": {
+        "duration": 57.07,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'theorized the sun'",
+          "'subrahmanyan' heard as 'subramanian' after 'recommended rejection editor'",
+          "'probe luna' heard as 'probluna' after 'within months soviet'",
+          "'s' heard as 'is' after 'followed by nasa'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong paradoxical start using scientific skepticism.",
+        "clarity": "Chronological flow from theory to proof is logical.",
+        "payoff": "Mission validation provides a satisfying conclusion.",
+        "visuals": "Historical imagery provides good context.",
+        "loop": "Conceptual link to the opening is solid."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Subject is a comet while text discusses the interplanetary vacuum."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "Subrahmanyan",
+          "respelling": "sub rah mahn yan"
+        },
+        {
+          "beat": 6,
+          "word": "Chandrasekhar",
+          "respelling": "chun drah shay kar"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Integrates historical personality and scientific conflict more effectively than recent entries.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-15T17:25:30+05:30",
+      "check": {
+        "duration": 57.53,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": 0.3,
+        "warnings": [
+          "true peak 0.3 dBFS is above -1"
+        ],
+        "speech_differences": [
+          "'s' heard as 'is' after 'theorized the sun'",
+          "'subrahmanyan chandrasekhar' heard as 'subramanian chandrashikhar' after 'recommended rejection editor'",
+          "'probe luna' heard as 'probluna' after 'within months soviet'",
+          "'s' heard as 'is' after 'followed by nasa'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "The opening is factual but lacks a punchy, immediate hook for strangers.",
+        "clarity": "The script follows a very logical path from theory to proof.",
+        "payoff": "The historical validation by probes is a solid, if predictable, resolution.",
+        "visuals": "Several archival images feel generic and do not illustrate the specific text.",
+        "loop": "The ending does not lead into the beginning with any grammatical or narrative flow."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "off-topic museum display"
+        },
+        {
+          "beat": 6,
+          "problem": "blurry and indistinct"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "Subrahmanyan",
+          "respelling": "sub rah mun yun"
+        },
+        {
+          "beat": 6,
+          "word": "Chandrasekhar",
+          "respelling": "chun druh shay kar"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: The solar wind was once dismissed as absolute nonsense.",
+        "Beat 9: This reality is now settled science, despite how..."
+      ],
+      "better_than_last": "This episode provides a clearer chronological narrative of discovery than the Saturn geometry short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, visuals, loop; true peak 0.3 dBFS is above -1; 2 frame problems",
+  "rejected_at": "2026-10-15T17:25:30+05:30"
+}

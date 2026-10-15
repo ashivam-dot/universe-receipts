@@ -1,0 +1,107 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-15T17:12:28+05:30",
+      "check": {
+        "duration": 50.0,
+        "words": 108,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'shone' heard as 'shown' after 'a comet once'",
+          "'10th' heard as '10' after 'west on august'",
+          "'25th' heard as '25' after 'star by february'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing concept of daytime visibility grabs attention instantly.",
+        "clarity": "Chronological narrative is straightforward to follow.",
+        "payoff": "Breakup into four fragments offers a decent closing reveal.",
+        "visuals": "Beat 6 displays the incorrect comet.",
+        "loop": "Seamless transition back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Displays Comet 73P/Schwassmann-Wachmann 3 instead of Comet West."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode presents a clear timeline of Comet West's breakup and daytime visibility.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-15T17:14:24+05:30",
+      "check": {
+        "duration": 50.0,
+        "words": 108,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'shone' heard as 'shown' after 'a comet once'",
+          "'10th' heard as '10' after 'west on august'",
+          "'25th' heard as '25' after 'star by february'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong intrigue about observing a comet during broad daylight.",
+        "clarity": "Logical chronological storyline that is easy to digest.",
+        "payoff": "The nucleus splitting into four pieces provides a decent reveal.",
+        "visuals": "Beat 4 includes an empty frame with almost no visible details.",
+        "loop": "Transitions reasonably well back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The second frame is mostly blank dark sky with no visible comet subject."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Change to 'This unprecedented display proves that a single comet can...' to seamless link back to Beat 1."
+      ],
+      "better_than_last": "This Short incorporates actual processed astronomical imaging of the shattered nucleus in beat 6.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

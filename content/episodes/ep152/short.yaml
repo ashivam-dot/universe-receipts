@@ -1,8 +1,7 @@
 id: ep152
-title: The Comet Seen in Broad Daylight
+title: The Comet That Outshone the Sun
 series: The Universe Is Terrifying
-description: Discover Comet West, the dazzling 1976 sungrazer that split into four pieces and shone bright enough to be studied
-  in broad daylight.
+description: In 1976, Comet West became so bright it was visible at high noon before the Sun’s gravity tore it apart.
 sources:
 - https://en.wikipedia.org/wiki/C/1975_V1_(West)
 - https://www.eso.org/public/images/c-west-1976-ps/
@@ -12,21 +11,21 @@ sources:
 - https://studyguides.com/study-methods/overview/cmmsa1bg4i2cb01aar4lwtlfa
 hashtags:
 - '#space'
-- '#comet'
 - '#astronomy'
+- '#nasa'
 tags:
 - Comet West
-- sungrazer
 - astronomy
 - comets
 - solar system
+- NASA
+- ESO
 voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: A comet once shone so brightly astronomers studied it in broad daylight.
+- text: Shine so brightly that astronomers study it in broad daylight.
   emphasis:
-  - shone so brightly
   - broad daylight
   visual:
     source: url
@@ -40,78 +39,52 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.75
-    focus_y: 0.65
-    box:
-    - 0.55
-    - 0.35
-    - 0.95
-    - 0.9
-- text: Discovered photographically by astronomer Richard M. West on August tenth, 1975, the magnificent sungrazer plummeted
-    toward our star.
+    focus_x: 0.8
+    focus_y: 0.8
+- text: On August tenth, 1975, astronomer Richard M. West discovered the icy visitor plunging toward the Sun.
   emphasis:
   - Richard M. West
-  - sungrazer
+  - plunging
   sfx: whoosh
   visual:
-    source: card
-    card:
-      kind: dateline
-      big: August 10, 1975
-      small: European Southern Observatory
-    motion: zoom_in
-- text: By February twenty-fifth, 1976, the cosmic visitor raced within exactly thirty million kilometers of the Sun.
-  emphasis:
-  - thirty million kilometers
-  - February twenty-fifth
-  visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/b/bc/Guide_leaflet_%281901%29_%2814765710404%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/The_ESO_1-metre_Schmidt_telescope_%28lasilla-construction%29.jpg/3840px-The_ESO_1-metre_Schmidt_telescope_%28lasilla-construction%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Guide leaflet (1901) (14765710404).jpg
-      credit: Internet Archive Book Images
-      license: No restrictions
-      url: https://commons.wikimedia.org/wiki/File:Guide_leaflet_(1901)_(14765710404).jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-    card:
-      kind: fact
-      big: 30 million km
-      small: Closest approach to the Sun
-- text: Intense solar heating pushed its peak apparent magnitude to minus three, easily rivaling Venus.
-  emphasis:
-  - minus three
-  - rivaling Venus
-  sfx: riser
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/C2020F3_%28NEOWISE%29_from_Estonia_2.jpg/3840px-C2020F3_%28NEOWISE%29_from_Estonia_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: C2020F3 (NEOWISE) from Estonia 2.jpg
-      credit: Taavi Niittee
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:C2020F3_(NEOWISE)_from_Estonia_2.jpg
+      title: The ESO 1-metre Schmidt telescope (lasilla-construction).jpg
+      credit: ESO/F. Middelburg
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_ESO_1-metre_Schmidt_telescope_(lasilla-construction).jpg
     fallbacks:
     - card
     - color
     motion: pan_left
-    focus_x: 0.3
+    focus_x: 0.25
     focus_y: 0.3
+    box:
+    - 0.12
+    - 0.18
+    - 0.38
+    - 0.42
+    card:
+      kind: dateline
+      big: August 10, 1975
+      small: European Southern Observatory
+- text: In February 1976, the comet reached perihelion, racing within thirty million kilometers of the solar surface.
+  emphasis:
+  - thirty million kilometers
+  - perihelion
+  visual:
+    source: card
     card:
       kind: fact
-      big: -3 Magnitude
-      small: Peak brightness rivaling Venus
-- text: Observers watched in absolute amazement from February twenty-fifth to twenty-seventh as the dazzling object was clearly
-    viewed under a full sun.
+      big: 30 million km
+      small: Distance to Sun
+    motion: zoom_in
+- text: Solar heat and forward scattering pushed its brightness to magnitude minus three, making it as bright as Venus.
   emphasis:
-  - full sun
-  - Observers watched
+  - minus three
+  - Venus
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/C-west-mar1976-ps.jpg/1920px-C-west-mar1976-ps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -124,18 +97,35 @@ beats:
     fallbacks:
     - card
     - color
-    motion: pan_down
+    motion: pan_up
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.84
     card:
-      kind: dateline
-      big: February 25-27
-      small: Daylight visibility
-- text: Brutal tidal forces soon shattered the wandering ice block into four distinct pieces out in space.
+      kind: fact
+      big: Magnitude -3
+      small: Brightness of Venus
+- text: From February twenty-fifth to the twenty-seventh, observers tracked the dazzling object in the middle of the day.
   emphasis:
-  - shattered
-  - four distinct pieces
-  sfx: whoosh
+  - middle of the day
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Comet_West_1975n.jpg/1280px-Comet_West_1975n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Comet West 1975n.jpg
+      credit: coniferconifer
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Comet_West_1975n.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.68
+    focus_y: 0.83
+- text: But the sun's gravity was a hammer, shattering the comet's nucleus into four distinct, glowing fragments.
+  emphasis:
+  - shattering
+  - four distinct
+  sfx: riser
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Hubble_Provides_Spectacular_Detail_of_a_Comet%27s_Breakup_%282006-18-1902%29.jpg/1920px-Hubble_Provides_Spectacular_Detail_of_a_Comet%27s_Breakup_%282006-18-1902%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -149,17 +139,34 @@ beats:
     fallbacks:
     - color
     motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
-- text: This daytime record proves comets can brilliantly outshine the daytime sky.
+    focus_x: 0.48
+    focus_y: 0.48
+- text: This broken traveler will now spend hundreds of thousands of years drifting through the darkness of deep space.
   emphasis:
-  - daytime record
-  - outshine the daytime sky
+  - hundreds of thousands
+  - darkness
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Rubin_Oort_Cloud_and_Kuiper_Belt_Illustration_%28rubin-Oort-Cloud-and-Kuiper-Belt%29.tiff/lossy-page1-960px-Rubin_Oort_Cloud_and_Kuiper_Belt_Illustration_%28rubin-Oort-Cloud-and-Kuiper-Belt%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Rubin Oort Cloud and Kuiper Belt Illustration (rubin-Oort-Cloud-and-Kuiper-Belt).tiff
+      credit: RubinObs/NOIRLab/SLAC/NSF/DOE/AURA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Rubin_Oort_Cloud_and_Kuiper_Belt_Illustration_(rubin-Oort-Cloud-and-Kuiper-Belt).tiff
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.44
+- text: This unprecedented display proves that a single comet can
+  emphasis:
+  - unprecedented display
   sfx: pop
   pause_after: 0.4
   visual:
     reuse: 1
     motion: zoom_out
-    focus_x: 0.75
-    focus_y: 0.65
-hook_text: SEEN IN DAYLIGHT
+    focus_x: 0.8
+    focus_y: 0.8
+hook_text: SEEN AT NOON

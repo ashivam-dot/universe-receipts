@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-10-15T17:08:41+05:30",
+  "updated_at": "2026-10-15T23:09:05+05:30",
   "day": 14,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4ZNGA5R6A072VYPT90GS0RR",
+    "id": "ta-01M50A54KDVKEKRRPHWYXDC5NR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-15T17:05:15+05:30",
-    "started_at_utc": "2026-10-15T11:35:15+00:00",
-    "seconds": 206
+    "started_at": "2026-10-15T23:06:07+05:30",
+    "started_at_utc": "2026-10-15T17:36:07+00:00",
+    "seconds": 178
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 2.0
     },
     {
       "name": "sync",
@@ -28,67 +28,31 @@
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.2
+      "seconds": 2.0
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep112 at 6 h: behind the channel's earlier Shorts at this age: 350 views against a median of 659 (0.5x)",
-      "seconds": 1.6
+      "detail": "ep129 at 72 h: behind the channel's earlier Shorts at this age: 363 views against a median of 867 (0.4x); learnings: Promoted specific hooks and search-prompt endings to rules after ep066, ep110, and ep129 showed high initial retention and low engagement respectively.",
+      "seconds": 106.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep159 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep160 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 7.4
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "67 subscribers",
-      "seconds": 15.1
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Updated rolling medians from recent uploads and added ep110 evidence to the open-ended ending rule.",
-      "seconds": 41.2
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 42.5
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 63.2
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-014.md",
-      "seconds": 1.4
+      "detail": "ep142 rejected (low scores: clarity, payoff, visuals); ep148 rejected (low scores: hook, visuals); ep149 rejected (low scores: visuals); ep151 rejected (low scores: hook, visuals); ep152 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep153 rejected (low scores: hook, payoff, visuals, loop; true peak 0.3 dBFS is above -1; 2 frame problems); ep154 rejected (low scores: visuals); ep155 unfinished (RuntimeError: Gemini gemini-3.8-flash 400: User locatio",
+      "seconds": 39.4
     },
     {
       "name": "buffer channel",
@@ -106,61 +70,25 @@
       "name": "preflight ep118",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.6
+    },
+    {
+      "name": "preflight ep125",
+      "ok": true,
+      "detail": "video downloads whole (17 MB in 0 s)",
+      "seconds": 0.7
     },
     {
       "name": "preflight ep130",
       "ok": true,
-      "detail": "video downloads whole (16 MB in 1 s)",
-      "seconds": 0.8
+      "detail": "video still hosted",
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
-    },
-    {
-      "name": "start ep142",
-      "ok": true,
-      "detail": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "seconds": 1.4
-    },
-    {
-      "name": "start ep148",
-      "ok": true,
-      "detail": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "seconds": 1.3
-    },
-    {
-      "name": "start ep149",
-      "ok": true,
-      "detail": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep151",
-      "ok": true,
-      "detail": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
-      "seconds": 1.3
-    },
-    {
-      "name": "start ep152",
-      "ok": true,
-      "detail": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep153",
-      "ok": true,
-      "detail": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep154",
-      "ok": true,
-      "detail": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
-      "seconds": 1.3
+      "seconds": 1.1
     },
     {
       "name": "start ep155",
@@ -169,56 +97,51 @@
       "seconds": 1.0
     },
     {
-      "name": "start ep156",
+      "name": "start ep161",
       "ok": true,
-      "detail": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
+      "detail": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
+      "seconds": 1.4
+    },
+    {
+      "name": "start ep162",
+      "ok": true,
+      "detail": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
       "seconds": 0.9
     },
     {
-      "name": "start ep159",
+      "name": "start ep163",
       "ok": true,
-      "detail": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep160",
-      "ok": true,
-      "detail": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "seconds": 0.9
+      "detail": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
+      "seconds": 1.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 1.1
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep159 stopped on Gemini's free quota; it resumes in a later run",
-    "ep160 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 15 waiting",
-    "Buffer is full (10 queued); 15 waiting"
+    "ep152 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 17 waiting",
+    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "Buffer is full (10 queued); 17 waiting"
   ],
   "inventory": {
-    "total": 25,
+    "total": 27,
     "in_buffer": 10,
-    "waiting": 15,
+    "waiting": 17,
     "target": 42,
-    "making": [],
+    "making": [
+      "ep152"
+    ],
     "remote": [
-      "ep142",
-      "ep148",
-      "ep149",
-      "ep151",
-      "ep152",
-      "ep153",
-      "ep154",
       "ep155",
-      "ep156",
-      "ep159",
-      "ep160"
+      "ep161",
+      "ep162",
+      "ep163"
     ]
   },
   "queue": [
@@ -363,138 +286,150 @@
       "title": "The Supersonic Impostor in Stephan's Quintet",
       "series": "Space Got Weird",
       "score": 20
+    },
+    {
+      "id": "ep156",
+      "title": "The Radioactive Clock Bolted to Voyager",
+      "series": "Space Got Weird",
+      "score": 20
+    },
+    {
+      "id": "ep159",
+      "title": "Why the Great Wall of China Is INVISIBLE from Space",
+      "series": "Space Myths, Busted",
+      "score": 24
     }
   ],
   "made": [
     {
-      "id": "ep159",
+      "id": "ep142",
+      "outcome": "rejected",
+      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
+      "reason": "low scores: clarity, payoff, visuals"
+    },
+    {
+      "id": "ep148",
+      "outcome": "rejected",
+      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "reason": "low scores: hook, visuals"
+    },
+    {
+      "id": "ep149",
+      "outcome": "rejected",
+      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep151",
+      "outcome": "rejected",
+      "topic": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
+      "reason": "low scores: hook, visuals"
+    },
+    {
+      "id": "ep152",
       "outcome": "unfinished",
-      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
+      "topic": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep160",
+      "id": "ep153",
+      "outcome": "rejected",
+      "topic": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
+      "reason": "low scores: hook, payoff, visuals, loop; true peak 0.3 dBFS is above -1; 2 frame problems"
+    },
+    {
+      "id": "ep154",
+      "outcome": "rejected",
+      "topic": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep155",
       "outcome": "unfinished",
-      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
+      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
+      "reason": "RuntimeError: Gemini gemini-3.8-flash 400: User location is not supported for the API use.",
+      "quota": false,
       "overloaded": false
+    },
+    {
+      "id": "ep156",
+      "outcome": "ready",
+      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
+      "title": "The Radioactive Clock Bolted to Voyager",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792065504/universereceipts/ep156-92aaa513.mp4"
+    },
+    {
+      "id": "ep159",
+      "outcome": "ready",
+      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
+      "title": "Why the Great Wall of China Is INVISIBLE from Space",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792065006/universereceipts/ep159-4900dbe5.mp4"
+    },
+    {
+      "id": "ep160",
+      "outcome": "rejected",
+      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
+      "reason": "low scores: clarity"
     }
   ],
   "spawned": [
     {
-      "id": "ep142",
-      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "call_id": "fc-01M4ZNPGB18DK6RD54VMQPEZ4E"
-    },
-    {
-      "id": "ep148",
-      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "call_id": "fc-01M4ZNPHK7Z77YDSRD40AG7EEM"
-    },
-    {
-      "id": "ep149",
-      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "call_id": "fc-01M4ZNPJGFJFXZBMN09ZVXHJYW"
-    },
-    {
-      "id": "ep151",
-      "topic": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
-      "call_id": "fc-01M4ZNPKSG9NT7VZYM38RHQX1S"
-    },
-    {
-      "id": "ep152",
-      "topic": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
-      "call_id": "fc-01M4ZNPMNKCZG04VZNFC3XCJ4P"
-    },
-    {
-      "id": "ep153",
-      "topic": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
-      "call_id": "fc-01M4ZNPNJRN1R9Q0CNMWEGYBZC"
-    },
-    {
-      "id": "ep154",
-      "topic": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
-      "call_id": "fc-01M4ZNPPTQVE8N325VM6208T4R"
-    },
-    {
       "id": "ep155",
       "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
-      "call_id": "fc-01M4ZNPQRA1V1HPWCN14GS96V1"
+      "call_id": "fc-01M50AAN776BNS1DKB03XZ51GX"
     },
     {
-      "id": "ep156",
-      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "call_id": "fc-01M4ZNPRMEWSPQMK7M8HJXZCVH"
+      "id": "ep161",
+      "topic": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
+      "call_id": "fc-01M50AAPKMG59RZJH1VSD8SV4N"
     },
     {
-      "id": "ep159",
-      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "call_id": "fc-01M4ZNPSJMC3WED5X36XV171E6"
+      "id": "ep162",
+      "topic": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
+      "call_id": "fc-01M50AAQE8DWPSHQKQ325XM3PG"
     },
     {
-      "id": "ep160",
-      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "call_id": "fc-01M4ZNPTESRXW2CEB0E4ZABJQ9"
+      "id": "ep163",
+      "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
+      "call_id": "fc-01M50AARGWPMASJPGJGXWTCKYE"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep142",
-      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "spawned_at": "2026-10-15T17:08:27+05:30"
-    },
-    {
-      "id": "ep148",
-      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
-      "spawned_at": "2026-10-15T17:08:28+05:30"
-    },
-    {
-      "id": "ep149",
-      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
-      "spawned_at": "2026-10-15T17:08:29+05:30"
-    },
-    {
-      "id": "ep151",
-      "topic": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
-      "spawned_at": "2026-10-15T17:08:31+05:30"
-    },
-    {
-      "id": "ep152",
-      "topic": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
-      "spawned_at": "2026-10-15T17:08:32+05:30"
-    },
-    {
-      "id": "ep153",
-      "topic": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
-      "spawned_at": "2026-10-15T17:08:32+05:30"
-    },
-    {
-      "id": "ep154",
-      "topic": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
-      "spawned_at": "2026-10-15T17:08:34+05:30"
-    },
-    {
       "id": "ep155",
       "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
-      "spawned_at": "2026-10-15T17:08:35+05:30"
+      "spawned_at": "2026-10-15T23:08:59+05:30"
     },
     {
-      "id": "ep156",
-      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
-      "spawned_at": "2026-10-15T17:08:36+05:30"
+      "id": "ep161",
+      "topic": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
+      "spawned_at": "2026-10-15T23:09:00+05:30"
     },
     {
-      "id": "ep159",
-      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "spawned_at": "2026-10-15T17:08:37+05:30"
+      "id": "ep162",
+      "topic": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
+      "spawned_at": "2026-10-15T23:09:01+05:30"
     },
     {
-      "id": "ep160",
-      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "spawned_at": "2026-10-15T17:08:37+05:30"
+      "id": "ep163",
+      "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
+      "spawned_at": "2026-10-15T23:09:02+05:30"
     }
   ],
   "published": [],
@@ -502,34 +437,39 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 14,
+    "calls": 39,
     "by_model": {
-      "gemini-3.8-flash": 5,
-      "gemini-3.7-flash": 3,
-      "gemini-3.5-flash-lite": 3,
-      "gemini-3-flash-preview": 3
+      "gemini-3-flash-preview": 20,
+      "gemini-3.7-flash": 6,
+      "gemini-3.8-flash": 2,
+      "gemini-3.5-flash-lite": 6,
+      "gemini-3.6-flash": 3,
+      "gemini-flash-latest": 2
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash"
+    ]
   },
   "renders": {
-    "modal": 4,
+    "modal": 23,
     "runner": 0
   },
   "daily_done": "2026-10-15",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 17.46,
+    "metered": 18.12,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 87,
+    "cloud": 82,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 10.54
+    "modal_credit_left": 9.88
   },
   "made_here": 0,
-  "open_topics": 29,
-  "parked_topics": 60
+  "open_topics": 26,
+  "parked_topics": 64
 }

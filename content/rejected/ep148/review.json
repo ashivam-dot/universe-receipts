@@ -1,0 +1,170 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-14T17:15:26+05:30",
+      "check": {
+        "duration": 50.23,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.4,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'passing' after '2012 while blazing'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "The contrast between a five-year mission and interstellar survival hooks interest, though it feels somewhat familiar.",
+        "clarity": "The narrative follows a clean, single-threaded chronological path from 1977 to deep space.",
+        "payoff": "The poignant reality of engineers shutting down instruments one by one effectively pays off the opening premise.",
+        "visuals": "The title card on beat 5 is missing the number 15, displaying only 'BILLION MILES'.",
+        "loop": "Beat 7 repeats beat 1 verbatim, creating an awkward back-to-back repetition upon looping."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The title card is missing the number 15, displaying only 'BILLION MILES'."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: 'And to think, when this probe launched back in 1977,'"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-14T17:24:03+05:30",
+      "check": {
+        "duration": 51.72,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'and' heard as '(nothing)' after 'frozen cosmic void'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "longevity contrast provides a solid entry point.",
+        "clarity": "chronological sequence is easy to follow.",
+        "payoff": "ends on a poignant note but needs a sharper twist.",
+        "visuals": "diagrams in middle beats are dry and text-heavy.",
+        "loop": "grammatically links the ending to the opening perfectly."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "diagram is cluttered and difficult to parse on mobile."
+        },
+        {
+          "beat": 6,
+          "problem": "shows antenna schematics rather than science instruments mentioned."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "beat 3: Voyager 1 found volcanoes on Io and strange spokes in Saturn’s rings.",
+        "beat 6: By 2026, it will finally go dark as its last two instruments fail."
+      ],
+      "better_than_last": "The narrative flow here is more cohesive than the technical focus of ep133.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-15T17:12:58+05:30",
+      "check": {
+        "duration": 45.87,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'spokes in saturn'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening statement is factual but lacks visual tension to stop a fast swipe.",
+        "clarity": "The chronological progression from launch to interstellar space is very easy to follow.",
+        "payoff": "The contrast between 1970s hardware and the vast distance reached is satisfying.",
+        "visuals": "Beat 7 incorrectly uses the Golden Record to illustrate computer memory systems.",
+        "loop": "The final mention of design constraints flows naturally back into the five-year hook."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The Golden Record is analog storage, not the 68KB computer memory mentioned."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Saturn’s",
+          "respelling": "sa turns"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: Voyager 1 is now 15 billion miles away, yet it was only built to last five years."
+      ],
+      "better_than_last": "This Short creates a more engaging narrative arc regarding survival compared to the Saturn storm facts in episode 133.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: hook, visuals",
+  "rejected_at": "2026-10-15T17:12:58+05:30"
+}

@@ -1,39 +1,39 @@
 {
   "hooks": [
     {
+      "style": "statement",
+      "text": "Shine so brightly that astronomers study it in broad daylight."
+    },
+    {
       "style": "contradiction",
       "text": "A comet once shone so brightly it was studied in broad daylight."
     },
     {
-      "style": "statement",
-      "text": "Comet West plunged within thirty million kilometers of the Sun in 1976."
-    },
-    {
       "style": "number",
-      "text": "Comet West reached a peak apparent magnitude of minus three."
+      "text": "In 1976, one comet reached a peak brightness of magnitude minus three."
     }
   ],
-  "hook_style": "contradiction",
+  "hook_style": "statement",
   "structure": "record",
-  "title": "The Comet Seen in Broad Daylight",
-  "description": "Discover Comet West, the dazzling 1976 sungrazer that split into four pieces and shone bright enough to be studied in broad daylight.",
+  "title": "The Comet That Outshone the Sun",
+  "description": "In 1976, Comet West became so bright it was visible at high noon before the Sun’s gravity tore it apart.",
   "hashtags": [
     "#space",
-    "#comet",
-    "#astronomy"
+    "#astronomy",
+    "#nasa"
   ],
   "tags": [
     "Comet West",
-    "sungrazer",
     "astronomy",
     "comets",
-    "solar system"
+    "solar system",
+    "NASA",
+    "ESO"
   ],
   "beats": [
     {
-      "text": "A comet once shone so brightly astronomers studied it in broad daylight.",
+      "text": "Shine so brightly that astronomers study it in broad daylight.",
       "emphasis": [
-        "shone so brightly",
         "broad daylight"
       ],
       "sfx": "none",
@@ -48,7 +48,7 @@
       "year": 1976,
       "queries": [
         "Comet West 1976 ESO",
-        "C 1975 V1 West"
+        "C/1975 V1 West"
       ],
       "card": {
         "kind": "none",
@@ -57,10 +57,10 @@
       }
     },
     {
-      "text": "Discovered photographically by astronomer Richard M. West on August tenth, 1975, the magnificent sungrazer plummeted toward our star.",
+      "text": "On August tenth, 1975, astronomer Richard M. West discovered the icy visitor plunging toward the Sun.",
       "emphasis": [
         "Richard M. West",
-        "sungrazer"
+        "plunging"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
@@ -70,13 +70,12 @@
       ],
       "visual": "European Southern Observatory La Silla Schmidt telescope, 1975",
       "subjects": [
-        "La Silla Observatory",
-        "Richard M. West"
+        "La Silla Observatory"
       ],
       "year": 1975,
       "queries": [
-        "La Silla Observatory telescope",
-        "ESO La Silla Schmidt telescope"
+        "ESO La Silla Schmidt telescope",
+        "La Silla Observatory telescope"
       ],
       "card": {
         "kind": "dateline",
@@ -85,10 +84,10 @@
       }
     },
     {
-      "text": "By February twenty-fifth, 1976, the cosmic visitor raced within exactly thirty million kilometers of the Sun.",
+      "text": "In February 1976, the comet reached perihelion, racing within thirty million kilometers of the solar surface.",
       "emphasis": [
         "thirty million kilometers",
-        "February twenty-fifth"
+        "perihelion"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -96,59 +95,58 @@
         3,
         11
       ],
-      "visual": "Diagram of a comet orbit showing perihelion and trajectory",
+      "visual": "Diagram of a comet orbit showing perihelion and trajectory near the Sun",
       "subjects": [
         "Perihelion"
       ],
       "year": 1976,
       "queries": [
         "Comet orbit diagram perihelion",
-        "Long period comet orbit illustration"
+        "Long period comet orbit"
       ],
       "card": {
         "kind": "fact",
         "big": "30 million km",
-        "small": "Closest approach to the Sun"
+        "small": "Distance to Sun"
       }
     },
     {
-      "text": "Intense solar heating pushed its peak apparent magnitude to minus three, easily rivaling Venus.",
+      "text": "Solar heat and forward scattering pushed its brightness to magnitude minus three, making it as bright as Venus.",
       "emphasis": [
         "minus three",
-        "rivaling Venus"
+        "Venus"
       ],
-      "sfx": "riser",
+      "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         4
       ],
-      "visual": "Artist concept illustration of a long period comet nucleus fragmenting",
+      "visual": "Artist concept illustration of a long period comet nucleus approaching the Sun",
       "subjects": [
         "Comet"
       ],
       "year": 1976,
       "queries": [
-        "Comet nucleus breakup artist concept",
-        "Sungrazer comet illustration NASA"
+        "Comet nucleus artist concept",
+        "Sungrazer comet illustration"
       ],
       "card": {
         "kind": "fact",
-        "big": "-3 Magnitude",
-        "small": "Peak brightness rivaling Venus"
+        "big": "Magnitude -3",
+        "small": "Brightness of Venus"
       }
     },
     {
-      "text": "Observers watched in absolute amazement from February twenty-fifth to twenty-seventh as the dazzling object was clearly viewed under a full sun.",
+      "text": "From February twenty-fifth to the twenty-seventh, observers tracked the dazzling object in the middle of the day.",
       "emphasis": [
-        "full sun",
-        "Observers watched"
+        "middle of the day"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         5
       ],
-      "visual": "Telescope image of Comet West bright head and tail in daylight",
+      "visual": "Telescope image of Comet West seen in the bright daytime sky",
       "subjects": [
         "Comet West"
       ],
@@ -158,18 +156,18 @@
         "Comet West observation"
       ],
       "card": {
-        "kind": "dateline",
-        "big": "February 25-27",
-        "small": "Daylight visibility"
+        "kind": "none",
+        "big": "",
+        "small": ""
       }
     },
     {
-      "text": "Brutal tidal forces soon shattered the wandering ice block into four distinct pieces out in space.",
+      "text": "But the sun's gravity was a hammer, shattering the comet's nucleus into four distinct, glowing fragments.",
       "emphasis": [
-        "shattered",
-        "four distinct pieces"
+        "shattering",
+        "four distinct"
       ],
-      "sfx": "whoosh",
+      "sfx": "riser",
       "pause_after": 0.12,
       "claims": [
         6
@@ -180,8 +178,8 @@
       ],
       "year": 1976,
       "queries": [
-        "Comet fragmentation illustration",
-        "Comet nucleus breakup"
+        "Comet nucleus breakup",
+        "Comet fragmentation illustration"
       ],
       "card": {
         "kind": "none",
@@ -190,17 +188,43 @@
       }
     },
     {
-      "text": "This daytime record proves comets can brilliantly outshine the daytime sky.",
+      "text": "This broken traveler will now spend hundreds of thousands of years drifting through the darkness of deep space.",
       "emphasis": [
-        "daytime record",
-        "outshine the daytime sky"
+        "hundreds of thousands",
+        "darkness"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        7
+      ],
+      "visual": "Illustration of a comet trajectory moving away toward the Oort Cloud",
+      "subjects": [
+        "Oort cloud",
+        "Orbit"
+      ],
+      "year": 0,
+      "queries": [
+        "Comet trajectory Oort Cloud",
+        "Deep space comet"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "This unprecedented display proves that a single comet can",
+      "emphasis": [
+        "unprecedented display"
       ],
       "sfx": "pop",
       "pause_after": 0.4,
       "claims": [
         5
       ],
-      "visual": "Telescope image of Comet West showing its massive dust tail",
+      "visual": "Telescope image of Comet West showing its massive dust tail stretching through the sky",
       "subjects": [
         "Comet West"
       ],
@@ -216,7 +240,7 @@
       }
     }
   ],
-  "hook_text": "SEEN IN DAYLIGHT",
+  "hook_text": "SEEN AT NOON",
   "loop": true,
-  "better_than_last": "This episode applies proven record-structure pacing and an abrupt punchline conclusion while strictly meeting the target word count range of 105 to 135 words."
+  "better_than_last": "I updated the hook and loop to use the reviewer's specific wording for a seamless grammatical transition while maintaining the word count within the target range."
 }

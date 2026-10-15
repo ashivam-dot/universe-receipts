@@ -1,0 +1,151 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-15T17:11:29+05:30",
+      "check": {
+        "duration": 46.59,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong curiosity gap established quickly.",
+        "clarity": "Concepts progress logically and simply.",
+        "payoff": "Decay explanation resolves premise adequately.",
+        "visuals": "Several assets look like stock element collections.",
+        "loop": "Last line repeats the first rather than bridging into it."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Displays generic mineral sample vials rather than the Voyager record cover."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: By measuring that radioactive decay, any finder can read"
+      ],
+      "better_than_last": "Explains a technical dating mechanism with cleaner narrative focus than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-15T17:26:11+05:30",
+      "check": {
+        "duration": 55.5,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'ann druyan' heard as 'andruin' after '55 languages and'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong intrigue regarding a secret component.",
+        "clarity": "Successfully explains complex dating using radioactive isotopes.",
+        "payoff": "The uranium revelation effectively answers the hook.",
+        "visuals": "Strong use of archival and descriptive imagery.",
+        "loop": "Phrasing allows for a continuous viewing experience."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Druyan's",
+          "respelling": "drew yanz"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a more cohesive narrative arc than the geometry-focused episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    },
+    {
+      "at": "2026-10-15T17:28:23+05:30",
+      "check": {
+        "duration": 55.65,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'druyan is' heard as 'drew yance' after 'languages and ann'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing mention of a secret component creates immediate mystery.",
+        "clarity": "Logical progression from the records' contents to their dating mechanism.",
+        "payoff": "The explanation of uranium-238 decay effectively resolves the hook's premise.",
+        "visuals": "Archival photos and specimens are highly relevant and high quality.",
+        "loop": "The final sentence ends the thought without connecting back to the hook."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Druyan's",
+          "respelling": "drew ann's"
+        }
+      ],
+      "rewrite": [
+        "Beat 6: By measuring that radioactive decay, any finder can tell the time on..."
+      ],
+      "better_than_last": "This script offers a more compelling historical narrative than the Saturn geometry short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "kept_round": 2
+}

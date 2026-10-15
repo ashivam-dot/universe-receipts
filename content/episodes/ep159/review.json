@@ -49,8 +49,126 @@
       "rewrite": [],
       "better_than_last": "This episode uses more rigorous optical science, specifically the one-arcminute resolving limit, compared to the narrative focus of recent episodes.",
       "judge": "gemini-3-flash-preview",
+      "passed": true
+    },
+    {
+      "at": "2026-10-15T17:14:40+05:30",
+      "check": {
+        "duration": 51.77,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'leroy chiao' heard as 'lirei chao' after 'at all astronaut'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Challenges a pervasive space myth in the first sentence.",
+        "clarity": "Uses landmark comparisons like the Pyramids to establish scale.",
+        "payoff": "Historical context is informative but lacks a surprising emotional punch.",
+        "visuals": "Imagery is high-quality and directly supports the technical narrative.",
+        "loop": "The orbital theme connects seamlessly back to the starting hook."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 8,
+          "word": "Leroy",
+          "respelling": "lee roy"
+        }
+      ],
+      "rewrite": [
+        "Beat 9: That 1754 legend is just a myth; orbital reality proved far different."
+      ],
+      "better_than_last": "Provides a more relatable scientific debunking than the Saturn geometry episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-15T17:20:05+05:30",
+      "check": {
+        "duration": 56.9,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'leroy chiao' heard as 'liri chayo slashed turned art yubar shua letter 261 esh letter 251 esh yubar slash' after 'at all astronaut'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Directly debunking a global myth creates an immediate reason to watch.",
+        "clarity": "Simple scale comparisons ensure the scientific constraints are easy to follow.",
+        "payoff": "The explanation is informative but lacks a strong emotional or visual twist.",
+        "visuals": "Distracting phonetic text overlays in beat eight detract from the imagery.",
+        "loop": "The closing statement requires a clearer setup to link back to the beginning."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "Caption is obscured by nonsensical phonetic IPA symbols."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 8,
+          "word": "Leroy",
+          "respelling": "lee roy"
+        },
+        {
+          "beat": 8,
+          "word": "Chiao",
+          "respelling": "chow"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: Astronaut Leroy Chiao photographed sections through a telephoto lens, but his eyes saw nothing.",
+        "Beat 9: A 1754 legend claimed it was visible from the Moon, but in reality..."
+      ],
+      "better_than_last": "Provides a more quantifiable scientific explanation for a common myth than recent episodes.",
+      "judge": "gemini-3-flash-preview",
       "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 1,
+  "kept_round": 1
 }

@@ -1,0 +1,172 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-15T17:10:59+05:30",
+      "check": {
+        "duration": 48.85,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'16th' heard as '16' after 'launched on october'",
+          "'disc' heard as 'disk' after 'carries an actual'",
+          "'dinkinesh' heard as 'dinkinish' after 'main belt asteroid'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Opening statement lacks urgency or a dramatic mystery to stop scrolling.",
+        "clarity": "Straightforward timeline and concepts that are easy to follow.",
+        "payoff": "Dinkinesh contact binary discovery is neat but feels slightly anticlimactic.",
+        "visuals": "Relevant assets, though the orbital diagram is somewhat dim.",
+        "loop": "Final phrase flows cleanly back into the opening sentence."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Change to 'NASA is racing across deep space to hunt down eight separate asteroids.'",
+        "Beat 6: Change to 'Cameras revealed its moon was actually two asteroids fused together.'"
+      ],
+      "better_than_last": "Integrates recent real mission findings better than ep133.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-15T17:16:58+05:30",
+      "check": {
+        "duration": 56.87,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'disc' heard as 'disk' after 'actually carries a'",
+          "'dinkinesh' heard as 'dinkinish' after 'past the asteroid'",
+          "'past' heard as 'passed' after 'after another flyby'",
+          "'donaldjohanson' heard as 'donald johansson' after 'flyby past asteroid'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The script clearly establishes a high-stakes mission and a specific numeric goal immediately.",
+        "clarity": "The complex multi-target mission is explained logically with excellent pacing.",
+        "payoff": "The reveal of the fused contact binary asteroids provides a satisfying mid-point twist.",
+        "visuals": "Beat 7 uses an iconic image of the Kuiper Belt object Arrokoth to represent Donaldjohanson.",
+        "loop": "The transition from the completion of the trek back to the start of the hunt is functional."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The frame incorrectly shows Arrokoth, a Kuiper Belt object, instead of asteroid Donaldjohanson."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "Dinkinesh",
+          "respelling": "din kin esh"
+        },
+        {
+          "beat": 7,
+          "word": "Donaldjohanson",
+          "respelling": "don ald joe han son"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short manages a twelve-year timeline more effectively than the Saturn geometry episode handled its complex spatial scales.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-15T17:19:48+05:30",
+      "check": {
+        "duration": 57.27,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'disc' heard as 'disk' after 'actually carries a'",
+          "'past' heard as 'passed' after 'after another flyby'",
+          "'donaldjohanson' heard as 'donald johansson' after 'flyby past asteroid'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Informative opening lacks a strong curiosity gap.",
+        "clarity": "Mission timeline is simple for general audiences to follow.",
+        "payoff": "Fused moon reveal provides a solid discovery payoff.",
+        "visuals": "Shot seven repeats previous discovery imagery instead of the new target.",
+        "loop": "Final sentence transitions smoothly back to the opening."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows the contact binary moon from beat five instead of the asteroid mentioned in the text."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: NASA is spending nearly a billion dollars to hunt eight separate asteroids."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, visuals",
+  "rejected_at": "2026-10-15T17:19:48+05:30"
+}
