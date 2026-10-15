@@ -1,0 +1,56 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-15T11:17:59+05:30",
+      "check": {
+        "duration": 51.87,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'leroy chiao' heard as 'lire chayo' after 'at all astronaut'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Instantly debunks a globally famous myth, making it a very strong scroll-stopper.",
+        "clarity": "The comparison between the Dam and the Wall provides a perfect sense of scale.",
+        "payoff": "Explaining the optical 'arcminute' limit provides a satisfying scientific reason for the invisibility.",
+        "visuals": "Every frame is perfectly on-topic, including the specific astronaut and the Three Gorges Dam.",
+        "loop": "The transition from 'orbital reality' back to the opening statement is grammatically and conceptually smooth."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 8,
+          "word": "Chiao",
+          "respelling": "chow"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode uses more rigorous optical science, specifically the one-arcminute resolving limit, compared to the narrative focus of recent episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

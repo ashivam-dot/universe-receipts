@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-15T11:07:06+05:30",
+  "updated_at": "2026-10-15T17:08:41+05:30",
   "day": 14,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M4Z0X3QKN8XHVTST7YTZ3TYR",
+    "id": "ta-01M4ZNGA5R6A072VYPT90GS0RR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-15T11:05:09+05:30",
-    "started_at_utc": "2026-10-15T05:35:09+00:00",
-    "seconds": 117
+    "started_at": "2026-10-15T17:05:15+05:30",
+    "started_at_utc": "2026-10-15T11:35:15+00:00",
+    "seconds": 206
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.7
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "44 posts",
-      "seconds": 1.5
+      "detail": "45 posts",
+      "seconds": 0.8
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep112 to 'Near Misses'",
-      "seconds": 1.9
+      "detail": "nothing new",
+      "seconds": 2.2
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep045 language en/None -> en; ep048 language en/None -> en; ep084 language en/None -> en; ep129 language en/None -> en",
-      "seconds": 1.5
+      "detail": "every live Short is in English",
+      "seconds": 0.2
     },
     {
       "name": "on youtube",
@@ -45,14 +45,50 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep084 at 72 h: behind the channel's earlier Shorts at this age: 455 views against a median of 911 (0.5x); ep105 at 6 h: behind the channel's earlier Shorts at this age: 459 views against a median of 684 (0.7x); ep110 at 24 h: ahead of the channel's earlier Shorts at this age: 1169 views against a median of 732 (1.6x); learnings: Today we added a new hypothesis based on ep110 and ep066 requiring interactive community prompts instead of informational wrap-ups to drive comments and likes.",
-      "seconds": 82.1
+      "detail": "ep112 at 6 h: behind the channel's earlier Shorts at this age: 350 views against a median of 659 (0.5x)",
+      "seconds": 1.6
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep155 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep156 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep157 rejected (research: only 0 claims have two different sites); ep158 rejected (research: only 1 claims have two different sites)",
-      "seconds": 10.8
+      "detail": "ep159 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep160 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 7.4
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "67 subscribers",
+      "seconds": 15.1
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Updated rolling medians from recent uploads and added ep110 evidence to the open-ended ending rule.",
+      "seconds": 41.2
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 1.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 42.5
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 63.2
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-014.md",
+      "seconds": 1.4
     },
     {
       "name": "buffer channel",
@@ -70,19 +106,73 @@
       "name": "preflight ep118",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.5
+    },
+    {
+      "name": "preflight ep130",
+      "ok": true,
+      "detail": "video downloads whole (16 MB in 1 s)",
+      "seconds": 0.8
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
+      "seconds": 1.4
     },
     {
-      "name": "schedule ep058",
+      "name": "start ep142",
       "ok": true,
-      "detail": "2026-10-19T19:00:00-04:00",
-      "seconds": 1.1
+      "detail": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
+      "seconds": 1.4
+    },
+    {
+      "name": "start ep148",
+      "ok": true,
+      "detail": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep149",
+      "ok": true,
+      "detail": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep151",
+      "ok": true,
+      "detail": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep152",
+      "ok": true,
+      "detail": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep153",
+      "ok": true,
+      "detail": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep154",
+      "ok": true,
+      "detail": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep155",
+      "ok": true,
+      "detail": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep156",
+      "ok": true,
+      "detail": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
+      "seconds": 0.9
     },
     {
       "name": "start ep159",
@@ -94,22 +184,21 @@
       "name": "start ep160",
       "ok": true,
       "detail": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "seconds": 1.1
+      "seconds": 0.9
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 1.3
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep155 stopped on Gemini's free quota; it resumes in a later run",
-    "ep156 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "room for 2 of the 4 Shorts wanted: Modal's credit covers 89, this run's share of the Actions minutes 0",
+    "ep159 stopped on Gemini's free quota; it resumes in a later run",
+    "ep160 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 15 waiting",
     "Buffer is full (10 queued); 15 waiting"
   ],
   "inventory": {
@@ -117,7 +206,8 @@
     "in_buffer": 10,
     "waiting": 15,
     "target": 42,
-    "making": [
+    "making": [],
+    "remote": [
       "ep142",
       "ep148",
       "ep149",
@@ -126,9 +216,7 @@
       "ep153",
       "ep154",
       "ep155",
-      "ep156"
-    ],
-    "remote": [
+      "ep156",
       "ep159",
       "ep160"
     ]
@@ -279,104 +367,169 @@
   ],
   "made": [
     {
-      "id": "ep155",
+      "id": "ep159",
       "outcome": "unfinished",
-      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
+      "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep156",
+      "id": "ep160",
       "outcome": "unfinished",
-      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
+      "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
-    },
-    {
-      "id": "ep157",
-      "outcome": "rejected",
-      "topic": "Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
-      "id": "ep158",
-      "outcome": "rejected",
-      "topic": "Space Shuttle Challenger disaster (1986): it didn't actually explode, it was torn apart by aerodynamic forces",
-      "reason": "research: only 1 claims have two different sites"
     }
   ],
   "spawned": [
     {
+      "id": "ep142",
+      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
+      "call_id": "fc-01M4ZNPGB18DK6RD54VMQPEZ4E"
+    },
+    {
+      "id": "ep148",
+      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "call_id": "fc-01M4ZNPHK7Z77YDSRD40AG7EEM"
+    },
+    {
+      "id": "ep149",
+      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "call_id": "fc-01M4ZNPJGFJFXZBMN09ZVXHJYW"
+    },
+    {
+      "id": "ep151",
+      "topic": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
+      "call_id": "fc-01M4ZNPKSG9NT7VZYM38RHQX1S"
+    },
+    {
+      "id": "ep152",
+      "topic": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
+      "call_id": "fc-01M4ZNPMNKCZG04VZNFC3XCJ4P"
+    },
+    {
+      "id": "ep153",
+      "topic": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
+      "call_id": "fc-01M4ZNPNJRN1R9Q0CNMWEGYBZC"
+    },
+    {
+      "id": "ep154",
+      "topic": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
+      "call_id": "fc-01M4ZNPPTQVE8N325VM6208T4R"
+    },
+    {
+      "id": "ep155",
+      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
+      "call_id": "fc-01M4ZNPQRA1V1HPWCN14GS96V1"
+    },
+    {
+      "id": "ep156",
+      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
+      "call_id": "fc-01M4ZNPRMEWSPQMK7M8HJXZCVH"
+    },
+    {
       "id": "ep159",
       "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "call_id": "fc-01M4Z10R44EBKTTTKS8M0ZAVPB"
+      "call_id": "fc-01M4ZNPSJMC3WED5X36XV171E6"
     },
     {
       "id": "ep160",
       "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "call_id": "fc-01M4Z10S7GN5NVXEQRG15W62G3"
+      "call_id": "fc-01M4ZNPTESRXW2CEB0E4ZABJQ9"
     }
   ],
   "in_cloud": [
     {
+      "id": "ep142",
+      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
+      "spawned_at": "2026-10-15T17:08:27+05:30"
+    },
+    {
+      "id": "ep148",
+      "topic": "Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes",
+      "spawned_at": "2026-10-15T17:08:28+05:30"
+    },
+    {
+      "id": "ep149",
+      "topic": "Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before",
+      "spawned_at": "2026-10-15T17:08:29+05:30"
+    },
+    {
+      "id": "ep151",
+      "topic": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
+      "spawned_at": "2026-10-15T17:08:31+05:30"
+    },
+    {
+      "id": "ep152",
+      "topic": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
+      "spawned_at": "2026-10-15T17:08:32+05:30"
+    },
+    {
+      "id": "ep153",
+      "topic": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
+      "spawned_at": "2026-10-15T17:08:32+05:30"
+    },
+    {
+      "id": "ep154",
+      "topic": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
+      "spawned_at": "2026-10-15T17:08:34+05:30"
+    },
+    {
+      "id": "ep155",
+      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
+      "spawned_at": "2026-10-15T17:08:35+05:30"
+    },
+    {
+      "id": "ep156",
+      "topic": "Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is",
+      "spawned_at": "2026-10-15T17:08:36+05:30"
+    },
+    {
       "id": "ep159",
       "topic": "Great Wall of China: you can't see it from the Moon with the naked eye, and astronauts struggle to spot it even from orbit",
-      "spawned_at": "2026-10-15T11:07:03+05:30"
+      "spawned_at": "2026-10-15T17:08:37+05:30"
     },
     {
       "id": "ep160",
       "topic": "NGC 772 (1785): a spiral galaxy with a single, lopsided arm twice as long as the others",
-      "spawned_at": "2026-10-15T11:07:04+05:30"
+      "spawned_at": "2026-10-15T17:08:37+05:30"
     }
   ],
-  "published": [
-    {
-      "id": "ep058",
-      "title": "The Impossible Ring Inside Hoag's Object",
-      "due_at": "2026-10-19T19:00:00-04:00"
-    }
-  ],
+  "published": [],
   "live": 35,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 15,
+    "calls": 14,
     "by_model": {
-      "gemini-3.8-flash": 1,
-      "gemini-3-flash-preview": 2,
-      "gemini-3.5-flash-lite": 10,
-      "gemini-3.7-flash": 2
+      "gemini-3.8-flash": 5,
+      "gemini-3.7-flash": 3,
+      "gemini-3.5-flash-lite": 3,
+      "gemini-3-flash-preview": 3
     },
-    "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 2,
+    "modal": 4,
     "runner": 0
   },
-  "daily_done": "2026-10-14",
+  "daily_done": "2026-10-15",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 17.31,
+    "metered": 17.46,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 89,
+    "cloud": 87,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 10.69
+    "modal_credit_left": 10.54
   },
   "made_here": 0,
-  "open_topics": 24,
+  "open_topics": 29,
   "parked_topics": 60
 }

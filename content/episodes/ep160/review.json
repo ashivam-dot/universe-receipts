@@ -1,0 +1,65 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-15T11:17:39+05:30",
+      "check": {
+        "duration": 57.69,
+        "words": 117,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'bullied' heard as 'bullet' after 'tiny dwarf galaxy'",
+          "'(nothing)' heard as 'you' after 'from an underdog'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong underdog narrative creates immediate interest.",
+        "clarity": "Logical progression from our galaxy to the subject.",
+        "payoff": "The rare double supernova fact is a satisfying conclusion.",
+        "visuals": "Relevant images, though some technical UI elements are present.",
+        "loop": "Thematic connection between 'underdog' and 'bullied' is seamless."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "cluttered star map with excessive text labels"
+        },
+        {
+          "beat": 7,
+          "problem": "displays a blue technical crosshair over the subject"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "bullied",
+          "respelling": "bully ed"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "The narrative conflict between the dwarf and giant galaxy is more engaging than the purely descriptive nature of ep133.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
