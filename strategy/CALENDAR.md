@@ -164,7 +164,7 @@ unexplained, not alien.
 - PSR B1257+12 (1992): the first planets ever confirmed outside our solar system orbit a dead star — dropped (ep083)
 - Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain — parked (ep092)
 - Hoag's Object (1950): look through the gap in this rare ring galaxy and you can see another, more distant ring galaxy — done (ep058)
-- Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — making (ep164)
+- Wow! signal (1977): it lasted the full 72 seconds the telescope could watch one spot, exactly as a signal from deep space should — dropped (ep164)
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer — done (ep052)
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests — done (ep046)
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — dropped (ep147)
@@ -225,4 +225,4 @@ unexplained, not alien.
 - Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks — parked (ep101)
 - Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards — parked (ep115)
 - Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer — parked (ep154)
-- Vulcan (hypothetical planet) (1859): astronomers spent half a century hunting a phantom world inside Mercury's orbit before Einstein proved space itself was warping
+- Vulcan (hypothetical planet) (1859): astronomers spent half a century hunting a phantom world inside Mercury's orbit before Einstein proved space itself was warping — making (ep168)
