@@ -1,0 +1,52 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-16T17:14:10+05:30",
+      "check": {
+        "duration": 51.13,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.5,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'moons including earth'",
+          "'s' heard as 'is' after 'orbital neighborhood pluto'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong curiosity hook highlighting an unfinished orbit.",
+        "clarity": "Clean chronological progression that is easy to understand.",
+        "payoff": "Solid landing on the distant completion year.",
+        "visuals": "Accurate archival images and clear planetary graphics.",
+        "loop": "Phrasing ends abruptly rather than flowing into the first line."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Replace with 'Pluto will finally finish that journey in the year 2178, because...'"
+      ],
+      "better_than_last": "Features stronger historical archival imagery tied directly to the narrative beats.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

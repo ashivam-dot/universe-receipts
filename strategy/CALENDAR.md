@@ -107,9 +107,9 @@ unexplained, not alien.
 - ASASSN-15lh (2015): a cosmic explosion that shone twenty times brighter than our entire galaxy combined, blasting out more energy than the Sun will in its lifetime — parked (ep139)
 - Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe — parked (ep145)
 - Tidal disruption event (1975): when a star wanders too close to a supermassive black hole, gravitational forces shred it into a blinding stream of stellar debris — dropped (ep144)
-- Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight — making (ep152)
+- Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight — parked (ep152)
 - Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing — making (ep163)
-- GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away
+- GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away — making (ep171)
 
 ### Scale Breaker
 
@@ -206,7 +206,7 @@ unexplained, not alien.
 - 2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later — done (ep119)
 - Voskhod 2 (1965): the first spacewalker was trapped outside his ship when his suit ballooned stiff, forcing him to bleed off vital oxygen to squeeze back inside — done (ep137)
 - STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate — making (ep162)
-- STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean
+- STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean — making (ep170)
 
 ### Space Myths, Busted
 
@@ -230,5 +230,5 @@ unexplained, not alien.
 - Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards — parked (ep115)
 - Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer — parked (ep154)
 - Vulcan (hypothetical planet) (1859): astronomers spent half a century hunting a phantom world inside Mercury's orbit before Einstein proved space itself was warping — making (ep168)
-- Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately
-- Van Allen radiation belt (1958): critics claimed Apollo astronauts would be fried passing through them, but their high-speed trajectory meant they received less radiation than a standard CT scan
+- Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately — making (ep173)
+- Van Allen radiation belt (1958): critics claimed Apollo astronauts would be fried passing through them, but their high-speed trajectory meant they received less radiation than a standard CT scan — making (ep172)

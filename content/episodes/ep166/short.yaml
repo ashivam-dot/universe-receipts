@@ -1,7 +1,8 @@
 id: ep166
 title: The 74,000 Year Trip to the Nearest Star
 series: Scale Breaker
-description: Even at 38,000 miles per hour, our fastest spacecraft would take seventy-four millennia to reach Proxima Centauri.
+description: Even traveling at 17 kilometers per second, our fastest interstellar probe would take tens of thousands of years
+  to reach Proxima Centauri.
 sources:
 - https://en.wikipedia.org/wiki/Proxima_Centauri
 - http://www.space.com/33837-earth-like-planet-proxima-centauri-numbers.html
@@ -110,28 +111,28 @@ beats:
       big: 11.2 days
       small: one orbit for Proxima b
     motion: zoom_in
-- text: There is even a second candidate planet orbiting much further into the cold.
+- text: There is even a candidate second world, Proxima Centauri c, orbiting much further out.
   emphasis:
-  - candidate planet
-  - the cold
+  - candidate second world
+  - further out
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Artist%E2%80%99s_impression_of_super-Earth_orbiting_Barnard%E2%80%99s_Star_%28eso1837b%29.tiff/lossy-page1-3840px-Artist%E2%80%99s_impression_of_super-Earth_orbiting_Barnard%E2%80%99s_Star_%28eso1837b%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Artist%27s_impression_-_exoplanet_Proxima_Centauri_b.tif/lossy-page1-1280px-Artist%27s_impression_-_exoplanet_Proxima_Centauri_b.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Artist’s impression of super-Earth orbiting Barnard’s Star (eso1837b).tiff
-      credit: ESO/M. Kornmesser
+      title: Artist's impression - exoplanet Proxima Centauri b.tif
+      credit: ESO
       license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_super-Earth_orbiting_Barnard%E2%80%99s_Star_(eso1837b).tiff
+      url: https://commons.wikimedia.org/wiki/File:Artist%27s_impression_-_exoplanet_Proxima_Centauri_b.tif
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.65
-    focus_y: 0.35
-- text: Since 1977, Voyager 1 has been racing into the void at 17 kilometers per second.
+    focus_x: 0.5
+    focus_y: 0.5
+- text: To explore beyond our Sun, NASA sent Voyager 1 past Jupiter and Saturn carrying the Golden Record.
   emphasis:
-  - 17 kilometers per second
-  - '1977'
+  - Voyager 1
+  - Golden Record
   sfx: whoosh
   visual:
     source: url
@@ -147,63 +148,46 @@ beats:
     - color
     motion: zoom_in
     focus_x: 0.5
-    focus_y: 0.4
+    focus_y: 0.5
     card:
       kind: dateline
       big: September 1977
       small: Voyager 1 launch
-- text: But even at that blistering speed, our fastest probe is essentially standing still.
+- text: Yet human technology cannot shrink the terrifying vastness of interstellar space.
   emphasis:
-  - blistering speed
-  - standing still
+  - terrifying vastness
+  - interstellar space
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Voyager_2_Heliopause.jpg/1920px-Voyager_2_Heliopause.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/a/ac/PIA17036_Voyager_the_Explorer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Voyager 2 Heliopause.jpg
-      credit: 'NASA/Goddard Space Flight Center Conceptual Image Lab
-
-        Animator
-
-        Walt Feimer (HTSI)
-
-        Scientist
-
-
-        Eric Christian (NASA/HQ)'
+      title: PIA17036 Voyager the Explorer.jpg
+      credit: NASA/JPL-Caltech
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Voyager_2_Heliopause.jpg
+      url: https://commons.wikimedia.org/wiki/File:PIA17036_Voyager_the_Explorer.jpg
     fallbacks:
     - color
-    motion: zoom_out
+    motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: The scale of the cosmos makes a human lifetime feel like a heartbeat.
+- text: Even traveling seventeen kilometers per second since 1977,
   emphasis:
-  - scale of the cosmos
-  - heartbeat
-  sfx: pop
-  pause_after: 0.4
+  - seventeen kilometers per second
+  - '1977'
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Comparison_of_the_TRAPPIST-1_system_with_the_inner_Solar_System_and_the_Galilean_Moons_of_Jupiter.jpg/1920px-Comparison_of_the_TRAPPIST-1_system_with_the_inner_Solar_System_and_the_Galilean_Moons_of_Jupiter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Comparison of the TRAPPIST-1 system with the inner Solar System and the Galilean Moons of Jupiter.jpg
-      credit: ESO/O. Furtak
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Comparison_of_the_TRAPPIST-1_system_with_the_inner_Solar_System_and_the_Galilean_Moons_of_Jupiter.jpg
-    fallbacks:
-    - color
-    motion: pan_up
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Bridging the four light-year gap to our neighbors remains a staggering challenge.
+    source: card
+    card:
+      kind: fact
+      big: 17 km/s
+      small: Voyager 1 cruising speed
+    motion: zoom_in
+- text: crossing four light-years to reach our nearest planet means
   emphasis:
-  - staggering challenge
-  - four light-year gap
+  - four light-years
+  - nearest planet
+  sfx: pop
   visual:
     reuse: 1
     motion: zoom_in

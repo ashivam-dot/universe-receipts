@@ -58,7 +58,62 @@
       "better_than_last": "This episode has a much stronger narrative arc and personal stakes with Einstein's reaction compared to the more static radioactive clock story.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-16T17:16:24+05:30",
+      "check": {
+        "duration": 57.09,
+        "words": 124,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'urbain le verrier' heard as 'urban laverrier' after 'years in 1859'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong mystery premise combined with an evocative diagram of the 'phantom' planet.",
+        "clarity": "The narrative arc from the discovery of the anomaly to the 'ghost' sightings to the Einsteinian fix is very clear.",
+        "payoff": "The revelation that the hunt was caused by space-time warping rather than a physical object is a satisfying twist.",
+        "visuals": "Most frames are excellent, but the climax visual depicts the wrong celestial body.",
+        "loop": "The transition from 'chasing a ghost' back to the 'phantom planet' hook is perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "the wrong object; script mentions the Sun's mass warping spacetime but the visual shows the Earth and a satellite"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Urbain Le Verrier",
+          "respelling": "ur ban luh veh ree ay"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short manages a more compelling narrative 'whodunnit' mystery than the radioactive clock in ep156.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 2
 }

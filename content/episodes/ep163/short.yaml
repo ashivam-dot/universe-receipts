@@ -10,6 +10,7 @@ sources:
 - https://chandra.harvard.edu/photo/2003/b1957/
 - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10119022
 - https://www.daviddarling.info/encyclopedia/B/Black_Widow_Pulsar.html
+- https://arxiv.org/abs/2210.16295
 hashtags:
 - '#space'
 - '#pulsar'
@@ -73,17 +74,17 @@ beats:
   - 9.2 hours
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Main_dwarf_collage_lg_landscape.png/1280px-Main_dwarf_collage_lg_landscape.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Millisecond_Pulsar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Main dwarf collage lg landscape.png
-      credit: Dana Berry
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Main_dwarf_collage_lg_landscape.png
+      title: Millisecond Pulsar.jpg
+      credit: B. Saxton, NRAO/AUI/NSF
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Millisecond_Pulsar.jpg
     fallbacks:
     - card
     - color
-    motion: pan_right
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
     card:
@@ -116,39 +117,39 @@ beats:
   sfx: riser
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/5/5a/Celebrating_Chandra_%28illustrations-montage-index-Celebrating_Chandra_-_300dpi%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/B1957_comp.tif/lossy-page1-1920px-B1957_comp.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Celebrating Chandra (illustrations-montage-index-Celebrating Chandra - 300dpi).jpg
-      credit: NASA/SAO
+      title: B1957 comp.tif
+      credit: 'X-ray: NASA/CXC/ASTRON/B.Stappers et al.; Optical: AAO/J.Bland-Hawthorn & H.Jones'
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Celebrating_Chandra_(illustrations-montage-index-Celebrating_Chandra_-_300dpi).jpg
+      url: https://commons.wikimedia.org/wiki/File:B1957_comp.tif
     fallbacks:
     - color
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: Fermi data updated its mass to 1.8 solar masses, finally proving the star is a cold cosmic cannibal.
+- text: Fermi data confirms this 1.8 solar mass beast grew by consuming its partner's material.
   emphasis:
-  - 1.8 solar masses
-  - cosmic cannibal
+  - 1.8 solar mass
+  - consuming its partner
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Fermi_in_rocket_fairing%2C_labelled.jpg/1920px-Fermi_in_rocket_fairing%2C_labelled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Fermi in rocket fairing, labelled.jpg
-      credit: NASA/Jim Grossmann
+      title: Fermi Gamma-ray Space Telescope spacecraft model.png
+      credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Fermi_in_rocket_fairing,_labelled.jpg
+      url: https://commons.wikimedia.org/wiki/File:Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png
     fallbacks:
     - card
     - color
     motion: pan_left
     focus_x: 0.5
-    focus_y: 0.4
+    focus_y: 0.5
     card:
       kind: fact
       big: 1.8 solar masses

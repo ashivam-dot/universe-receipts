@@ -90,7 +90,7 @@ beats:
       kind: fact
       big: 76 Years
       small: As a Planet
-- text: But this icy world is actually smaller than seven solar system moons, including Earth’s Moon.
+- text: But this icy world is actually smaller than seven solar system moons, including Earth's Moon.
   emphasis:
   - smaller
   - seven solar system moons
@@ -98,16 +98,16 @@ beats:
   pause_after: 0.4
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/5/52/Pluto_compared.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Pluto_compared2.jpg/1280px-Pluto_compared2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Pluto compared.jpg
+      title: Pluto compared2.jpg
       credit: Unknown author
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Pluto_compared.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pluto_compared2.jpg
     fallbacks:
     - color
-    motion: zoom_in
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
 - text: The International Astronomical Union demoted it in 2006 for failing to clear its orbital neighborhood.
@@ -134,18 +134,31 @@ beats:
       kind: dateline
       big: August 2006
       small: IAU Reclassification
-- text: Pluto’s path is so extreme that between 1979 and 1999, it was closer to the Sun than Neptune.
+- text: Pluto's path is so extreme that between 1979 and 1999, it was closer to the Sun than Neptune.
   emphasis:
   - closer to the Sun
   - Neptune
   sfx: whoosh
   visual:
-    source: card
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Uranus%2C_Neptune%2C_and_their_moons_%282MASS%29_-_cropped.jpg/960px-Uranus%2C_Neptune%2C_and_their_moons_%282MASS%29_-_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Uranus, Neptune, and their moons (2MASS) - cropped.jpg
+      credit: Two Micron All Sky Survey (2MASS), a joint project of the University of Massachusetts and the Infrared Processing
+        and Analysis Center/California Institute of Technology, funded by the National Aeronau
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Uranus,_Neptune,_and_their_moons_(2MASS)_-_cropped.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.4
+    focus_y: 0.2
     card:
       kind: fact
       big: 1979-1999
       small: Inside Neptune's Orbit
-    motion: zoom_in
 - text: A single trip around the Sun takes this world roughly 248 Earth years.
   emphasis:
   - 248 Earth years
@@ -168,9 +181,9 @@ beats:
       kind: fact
       big: 248 Years
       small: One Orbital Period
-- text: Pluto will finally complete its very first orbit since discovery in the year 2178.
+- text: Pluto will finally finish that journey in the year 2178.
   emphasis:
-  - discovery
+  - journey
   - year 2178
   visual:
     reuse: 1

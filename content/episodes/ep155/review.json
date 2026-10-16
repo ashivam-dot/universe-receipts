@@ -1,0 +1,62 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-16T17:16:25+05:30",
+      "check": {
+        "duration": 49.83,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'existed on venus'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strongly subverts expectations about Venusian darkness immediately.",
+        "clarity": "Logical progression from scientific prediction to mission results.",
+        "payoff": "Solid confirmation of the hook though lacking a major twist.",
+        "visuals": "Informative archival material but some frames lack impact.",
+        "loop": "Seamless grammatical transition between the final and first beats."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a map instead of the lander mentioned in the caption."
+        },
+        {
+          "beat": 5,
+          "problem": "Stamp artwork obscures the specific rock details described."
+        },
+        {
+          "beat": 7,
+          "problem": "Reuses the stamp image from beat 5."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more cohesive chronological narrative than the Voyager episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -1,0 +1,59 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-16T17:16:39+05:30",
+      "check": {
+        "duration": 50.8,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'20' heard as '+20' after 'psr b 1957'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening concept effectively captures attention with a strong visual hook.",
+        "clarity": "Narrative structure is logical and transitions between ideas are smooth.",
+        "payoff": "The conclusion provides confirmation rather than a truly surprising twist.",
+        "visuals": "Stock collages in middle beats are cluttered and lack specific relevance.",
+        "loop": "Excellent grammatical phrasing creates a perfectly seamless transition back to the start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Generic star graphic does not accurately represent a pulsar binary system."
+        },
+        {
+          "beat": 5,
+          "problem": "Off-topic image collage includes distracting 'Celebrating Chandra' text overlay."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Fermi data confirms this 1.8 solar mass beast grew by consuming its partner's material."
+      ],
+      "better_than_last": "This Short provides significantly more precise technical data than the Great Wall episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

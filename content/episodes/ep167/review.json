@@ -1,0 +1,59 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-16T17:13:40+05:30",
+      "check": {
+        "duration": 46.62,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong curiosity trigger about alien material inside Earth.",
+        "clarity": "Narrative moves logically from collision to discovery.",
+        "payoff": "Reveals the mystery blobs early, reducing the ending twist.",
+        "visuals": "French planet diagram is illegible at mobile size.",
+        "loop": "Last beat smoothly reconnects to the opening concept."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Diagram text is French and too small to read on a phone."
+        },
+        {
+          "beat": 7,
+          "problem": "Reused diagram remains illegible and difficult to parse on mobile."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: The Moon was born in hours, but part of its maker never left.",
+        "Beat 7: Two continent-sized blobs inside Earth are the ancient relics of Theia."
+      ],
+      "better_than_last": "Delivers a more cohesive seamless narrative loop back to the hook.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
