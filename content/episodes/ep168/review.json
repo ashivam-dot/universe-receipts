@@ -1,0 +1,64 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-16T11:11:58+05:30",
+      "check": {
+        "duration": 58.9,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 58.9 s is outside 35-58 s"
+        ],
+        "speech_differences": [
+          "'urbain le verrier' heard as 'urban laverrier' after 'in 1859 mathematician'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The 'phantom planet' hook is strong and mysterious, though the first sentence is slightly dense.",
+        "clarity": "The script does an excellent job of explaining how math predicted a planet that didn't exist.",
+        "payoff": "Einstein's physical reaction to the math matching the orbit is a great emotional payoff.",
+        "visuals": "High quality historical assets, but beat 7 shows Earth instead of the Sun and Mercury.",
+        "loop": "The loop is perfectly executed, transitioning from 'chasing a ghost' back to the 'phantom planet'."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "wrong object; shows Earth and a satellite on a spacetime grid instead of the Sun and Mercury"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Urbain Le Verrier",
+          "respelling": "ur behn luh vair ree ay"
+        }
+      ],
+      "rewrite": [
+        "Beat 2: In 1859, Urbain Le Verrier noticed Mercury straying from its path by 43 arcseconds per century."
+      ],
+      "better_than_last": "This episode has a much stronger narrative arc and personal stakes with Einstein's reaction compared to the more static radioactive clock story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
