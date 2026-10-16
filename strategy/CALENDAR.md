@@ -68,7 +68,7 @@ unexplained, not alien.
 | Oct 19 | 1I/ʻOumuamua (2017): the first known visitor from another star system sped up as it left, with no visible tail — parked (ep134) | Space Got Weird |
 | Oct 21 | Orionids: the shooting stars peaking tonight are crumbs shed by Halley's Comet — done (ep146) | Space Myths, Busted |
 | Oct 22 | Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus — making (ep155) | Mission Files |
-| Oct 24 | V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up | Mission Files |
+| Oct 24 | V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up — making (ep174) | Mission Files |
 | Oct 29 | STS-95 (1998): John Glenn went back to space at 77, 36 years after his first orbit | Mission Files |
 | Oct 31 | 2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween | Near Misses |
 | Nov 2 | Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day | Mission Files |
@@ -118,7 +118,7 @@ unexplained, not alien.
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance — parked (ep070)
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014 — done (ep048)
 - Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe — parked (ep054)
-- Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old — parked (ep038)
+- Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old — making (ep175)
 - Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself — parked (ep042)
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — dropped (ep148)
 - Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away — done (ep013)
@@ -171,7 +171,7 @@ unexplained, not alien.
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer — done (ep052)
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests — done (ep046)
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — dropped (ep147)
-- Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings — parked (ep029)
+- Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings — making (ep176)
 - Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — done (ep156)
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one — done (ep110)
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009 — done (ep040)
