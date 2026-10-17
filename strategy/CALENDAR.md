@@ -118,7 +118,7 @@ unexplained, not alien.
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance — parked (ep070)
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014 — done (ep048)
 - Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe — parked (ep054)
-- Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old — making (ep175)
+- Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old — done (ep175)
 - Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself — parked (ep042)
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — dropped (ep148)
 - Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away — done (ep013)
@@ -140,13 +140,13 @@ unexplained, not alien.
 
 ### Mission Files
 
-- Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated — parked (ep034)
+- Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated — making (ep178)
 - Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127 — parked (ep069)
 - Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — parked (ep057)
 - OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space — parked (ep062)
 - Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour — parked (ep077)
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life — done (ep045)
-- New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it — parked (ep031)
+- New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it — making (ep177)
 - Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum — dropped (ep016)
 - James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew — dropped (ep015)
 - Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune — done (ep017)
@@ -171,7 +171,7 @@ unexplained, not alien.
 - Tabby's Star (2015): a star that dimmed by up to 22 percent sparked talk of alien megastructures; dust was the answer — done (ep052)
 - Gamma-ray burst (1967): the brightest explosions in the universe were found by satellites watching for secret nuclear tests — done (ep046)
 - Betelgeuse: a runaway star flung from its birthplace near Orion's Belt, plowing through space at 30 km/s with a bow shock over four light-years wide — dropped (ep147)
-- Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings — making (ep176)
+- Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings — done (ep176)
 - Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — done (ep156)
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one — done (ep110)
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009 — done (ep040)

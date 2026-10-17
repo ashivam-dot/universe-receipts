@@ -1,139 +1,130 @@
 {
-  "updated_at": "2026-10-17T05:07:53+05:30",
+  "updated_at": "2026-10-17T11:08:13+05:30",
   "day": 16,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M53H3AT54YQGAKCY407J7A8R",
+    "id": "ta-01M545PEDGMMRGXAC3JM0K3VVR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-17T05:05:09+05:30",
-    "started_at_utc": "2026-10-16T23:35:09+00:00",
-    "seconds": 163
+    "started_at": "2026-10-17T11:05:17+05:30",
+    "started_at_utc": "2026-10-17T05:35:17+00:00",
+    "seconds": 176
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 4.1
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "47 posts",
-      "seconds": 1.1
+      "detail": "48 posts",
+      "seconds": 3.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep130 to 'The Universe Is Terrifying'",
-      "seconds": 2.7
+      "detail": "added ep125 to 'Mission Files'",
+      "seconds": 3.9
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep079 at 72 h: behind the channel's earlier Shorts at this age: 353 views against a median of 911 (0.4x); ep111 at 24 h: ahead of the channel's earlier Shorts at this age: 1169 views against a median of 729 (1.6x); learnings: Promoted hypothesis on cutting middle-beat proper names and instrument details to a rule based on ep111 and ep112, and added a hypothesis against conclusion giveaway phrases from ep079.",
-      "seconds": 123.4
+      "detail": "ep110 at 72 h: ahead of the channel's earlier Shorts at this age: 1190 views against a median of 867 (1.4x); ep118 at 24 h: ahead of the channel's earlier Shorts at this age: 927 views against a median of 732 (1.3x); ep130 at 6 h: behind the channel's earlier Shorts at this age: 350 views against a median of 684 (0.5x); learnings: Updated looping and engagement rules after a batch of 10 reviews revealed that definitive summary endings are killing the viral loop and comment sections.",
+      "seconds": 104.7
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep170 unfinished (LookupError: unknown encoding: .utf8); ep171 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep172 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep173 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-prev",
-      "seconds": 9.6
+      "detail": "ep170 unfinished (LookupError: unknown encoding: .utf8); ep174 unfinished (LookupError: unknown encoding: .utf8); ep175 ready; ep176 ready",
+      "seconds": 24.6
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
+      "seconds": 0.4
     },
     {
       "name": "preflight ep051",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
-    },
-    {
-      "name": "preflight ep125",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.9
     },
     {
       "name": "preflight ep133",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.8
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 3.4
+      "seconds": 4.7
     },
     {
-      "name": "schedule ep072",
+      "name": "schedule ep175",
       "ok": true,
-      "detail": "2026-10-20T21:30:00-04:00",
-      "seconds": 0.9
+      "detail": "2026-10-17T12:30:00-04:00",
+      "seconds": 1.9
     },
     {
       "name": "start ep170",
       "ok": true,
       "detail": "STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean",
-      "seconds": 0.7
+      "seconds": 3.7
     },
     {
       "name": "start ep174",
       "ok": true,
       "detail": "V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up",
-      "seconds": 0.7
+      "seconds": 3.8
     },
     {
-      "name": "start ep175",
+      "name": "start ep177",
       "ok": true,
-      "detail": "Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old",
-      "seconds": 0.7
+      "detail": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
+      "seconds": 1.6
     },
     {
-      "name": "start ep176",
+      "name": "start ep178",
       "ok": true,
-      "detail": "Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings",
-      "seconds": 0.7
+      "detail": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
+      "seconds": 1.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.0
+      "seconds": 1.3
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep171 stopped on Gemini's free quota; it resumes in a later run",
-    "ep172 stopped on Gemini's free quota; it resumes in a later run",
-    "ep173 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 14 waiting"
+    "Buffer is full (10 queued); 15 waiting"
   ],
   "inventory": {
-    "total": 24,
+    "total": 25,
     "in_buffer": 10,
-    "waiting": 14,
+    "waiting": 15,
     "target": 42,
     "making": [
       "ep155",
@@ -152,15 +143,15 @@
     "remote": [
       "ep170",
       "ep174",
-      "ep175",
-      "ep176"
+      "ep177",
+      "ep178"
     ]
   },
   "queue": [
     {
-      "id": "ep125",
-      "title": "The Cold War Rocket Powered by Atomic Bombs",
-      "due_at": "2026-10-16T21:30:00-04:00"
+      "id": "ep175",
+      "title": "The 93-Billion-Light-Year Paradox",
+      "due_at": "2026-10-17T12:30:00-04:00"
     },
     {
       "id": "ep133",
@@ -292,6 +283,12 @@
       "title": "Why the Great Wall of China Is INVISIBLE from Space",
       "series": "Space Myths, Busted",
       "score": 24
+    },
+    {
+      "id": "ep176",
+      "title": "The Moon That Builds Saturn's Rings",
+      "series": "Space Got Weird",
+      "score": 20
     }
   ],
   "made": [
@@ -304,116 +301,132 @@
       "overloaded": false
     },
     {
-      "id": "ep171",
+      "id": "ep174",
       "outcome": "unfinished",
-      "topic": "GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
+      "topic": "V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up",
+      "reason": "LookupError: unknown encoding: .utf8",
+      "quota": false,
       "overloaded": false
     },
     {
-      "id": "ep172",
-      "outcome": "unfinished",
-      "topic": "Van Allen radiation belt (1958): critics claimed Apollo astronauts would be fried passing through them, but their high-speed trajectory meant they received less radiation than a standard CT scan",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep175",
+      "outcome": "ready",
+      "topic": "Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old",
+      "title": "The 93-Billion-Light-Year Paradox",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792194277/universereceipts/ep175-2a09ac4d.mp4"
     },
     {
-      "id": "ep173",
-      "outcome": "unfinished",
-      "topic": "Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep176",
+      "outcome": "ready",
+      "topic": "Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings",
+      "title": "The Moon That Builds Saturn's Rings",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792194205/universereceipts/ep176-cc6292c6.mp4"
     }
   ],
   "spawned": [
     {
       "id": "ep170",
       "topic": "STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean",
-      "call_id": "fc-01M53H8C8MZKV48EPJ9W864F32"
+      "call_id": "fc-01M545W0ZQ30NHKQJ6XFJ87ZS0"
     },
     {
       "id": "ep174",
       "topic": "V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up",
-      "call_id": "fc-01M53H8CZFCY20T1JJ8TR19KM1"
+      "call_id": "fc-01M545W4N499H872C9KC843FD9"
     },
     {
-      "id": "ep175",
-      "topic": "Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old",
-      "call_id": "fc-01M53H8DPAAKW6CV9KGMFEQD8M"
+      "id": "ep177",
+      "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
+      "call_id": "fc-01M545W67MNN9YM3XQF1A4Y57W"
     },
     {
-      "id": "ep176",
-      "topic": "Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings",
-      "call_id": "fc-01M53H8EBJBEZHNSZ5ENMANXJZ"
+      "id": "ep178",
+      "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
+      "call_id": "fc-01M545W7P7Q2PE6TCMZRFE5XM4"
     }
   ],
   "in_cloud": [
     {
       "id": "ep170",
       "topic": "STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean",
-      "spawned_at": "2026-10-17T05:07:48+05:30"
+      "spawned_at": "2026-10-17T11:08:03+05:30"
     },
     {
       "id": "ep174",
       "topic": "V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up",
-      "spawned_at": "2026-10-17T05:07:48+05:30"
+      "spawned_at": "2026-10-17T11:08:07+05:30"
     },
     {
-      "id": "ep175",
-      "topic": "Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old",
-      "spawned_at": "2026-10-17T05:07:49+05:30"
+      "id": "ep177",
+      "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
+      "spawned_at": "2026-10-17T11:08:08+05:30"
     },
     {
-      "id": "ep176",
-      "topic": "Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings",
-      "spawned_at": "2026-10-17T05:07:50+05:30"
+      "id": "ep178",
+      "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
+      "spawned_at": "2026-10-17T11:08:10+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep072",
-      "title": "The Solar Storm That Missed Earth",
-      "due_at": "2026-10-20T21:30:00-04:00"
+      "id": "ep175",
+      "title": "The 93-Billion-Light-Year Paradox",
+      "due_at": "2026-10-17T12:30:00-04:00"
     }
   ],
-  "live": 38,
+  "live": 39,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 16,
+    "calls": 13,
     "by_model": {
-      "gemini-3.8-flash": 1,
-      "gemini-3.7-flash": 2,
-      "gemini-3.5-flash-lite": 8,
-      "gemini-3.6-flash": 1,
-      "gemini-flash-lite-latest": 4
+      "gemini-3.8-flash": 3,
+      "gemini-3.7-flash": 3,
+      "gemini-3-flash-preview": 3,
+      "gemini-3.5-flash-lite": 2,
+      "gemini-flash-latest": 1,
+      "gemini-3.6-flash": 1
     },
     "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
       "gemini-3.8-flash"
     ]
   },
   "renders": {
-    "modal": 3,
+    "modal": 2,
     "runner": 0
   },
   "daily_done": "2026-10-16",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 19.07,
+    "metered": 19.15,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 74,
+    "cloud": 73,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 8.93
+    "modal_credit_left": 8.85
   },
   "made_here": 0,
   "open_topics": 25,
-  "parked_topics": 59
+  "parked_topics": 57
 }
