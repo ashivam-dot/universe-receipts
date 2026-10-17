@@ -1,0 +1,114 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-17T23:19:46+05:30",
+      "check": {
+        "duration": 56.9,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'wasp 76 b' heard as 'waspby' after 'pisces gas giant'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong initial premise about metal rain should engage most viewers.",
+        "clarity": "Logical sequence from dayside evaporation to nightside condensation.",
+        "payoff": "The telescope evidence provides a solid scientific resolution.",
+        "visuals": "Imagery is relevant but some frames feel slightly generic.",
+        "loop": "The transition is functional but lacks a perfect phonetic bridge."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Star chart contains small text that is difficult to read on mobile."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "WASP-76b",
+          "respelling": "wasp seventy six bee"
+        }
+      ],
+      "rewrite": [
+        "beat 8: Researchers found that as the nightside cools, it condenses this vapor into torrential showers of"
+      ],
+      "better_than_last": "Offers a more atmospheric and visceral narrative than the recent probe facts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T23:23:30+05:30",
+      "check": {
+        "duration": 52.19,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'76' heard as '(nothing)' after 'gas giant wasp'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The concept of iron gas provides an immediate, intriguing hook.",
+        "clarity": "The sequence logically connects temperature to the rain cycle.",
+        "payoff": "The ending repeats the hook's premise without a final twist.",
+        "visuals": "Cinematic renders of the exoplanet are striking and consistent.",
+        "loop": "Ends on a vague phrase that doesn't bridge to the start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The second frame is mostly empty black space with the subject cropped out."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: Change to 'These metallic winds confirmed a cycle that never ends on this world:'"
+      ],
+      "better_than_last": "The visual consistency is more professional than the varied art styles seen in episode 175.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

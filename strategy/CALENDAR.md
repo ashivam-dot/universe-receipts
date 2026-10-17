@@ -94,7 +94,7 @@ unexplained, not alien.
 - Great Attractor: an unseen mass pulling our galaxy and thousands of others toward it, hidden behind the Milky Way's glare — done (ep032)
 - Kessler syndrome (1978): one collision in orbit could start a chain reaction of debris that closes some orbits for generations — dropped (ep157)
 - WR 104: a pinwheel-shaped star system that could end in a gamma-ray burst, once feared to be pointed at Earth — done (ep055)
-- Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all — parked (ep043)
+- Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all — making (ep187)
 - Spaghettification: a small black hole would stretch you like a noodle, but falling into a giant one you might cross the edge in one piece — dropped (ep068)
 - Andromeda–Milky Way collision (2025): a new study found the famous galactic crash is closer to a coin flip than a certainty — done (ep071)
 - R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot — parked (ep085)
@@ -112,7 +112,7 @@ unexplained, not alien.
 - Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight — parked (ep152)
 - Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing — parked (ep163)
 - GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away — parked (ep171)
-- SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years — making (ep181)
+- SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years — done (ep181)
 
 ### Scale Breaker
 
@@ -122,7 +122,7 @@ unexplained, not alien.
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014 — done (ep048)
 - Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe — parked (ep054)
 - Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old — done (ep175)
-- Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself — parked (ep042)
+- Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself — making (ep186)
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — dropped (ep148)
 - Olympus Mons (1971): standing near its summit you wouldn't know you were on a mountain; its slope runs past a horizon just 3 kilometers away — done (ep013)
 - Neutron star (1967): a teaspoon of it would weigh about 900 times as much as the Great Pyramid of Giza — done (ep030)
@@ -140,7 +140,7 @@ unexplained, not alien.
 - Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon — parked (ep142)
 - Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour — parked (ep153)
 - Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour — done (ep161)
-- R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely — making (ep182)
+- R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely — dropped (ep182)
 
 ### Mission Files
 
@@ -201,7 +201,7 @@ unexplained, not alien.
 - July 2012 solar storm (2012): a Carrington-class blast crossed Earth's orbit about nine days after Earth had passed that spot — done (ep072)
 - Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin — parked (ep056)
 - Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months — parked (ep108)
-- 1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm — parked (ep044)
+- 1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm — making (ep184)
 - Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater — done (ep024)
 - Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years — done (ep063)
 - 4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed — parked (ep088)
@@ -220,7 +220,7 @@ unexplained, not alien.
 - Far side of the Moon: there's no dark side of the Moon; the far side gets as much sunlight as the side we see — done (ep047)
 - Season: Earth is closest to the Sun in early January, so distance isn't what makes summer — dropped (ep037)
 - Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — dropped (ep021)
-- Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth — parked (ep041)
+- Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth — making (ep185)
 - Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds — parked (ep081)
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day — done (ep053)
 - Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — done (ep165)

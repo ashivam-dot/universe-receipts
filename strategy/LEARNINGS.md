@@ -10,11 +10,11 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 50% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 79.8% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 129% | rising week over week |
-| Subscribers per 1,000 views | `subscribersGained` / `views` | 1.4 | 2+ |
-| Likes per 100 views | `likes` / `views` | 4.1 | 4+ |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 51% | 70%+; under 60% rarely takes off |
+| Average percentage viewed | `analytics.averageViewPercentage` | 77.5% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 126% | rising week over week |
+| Subscribers per 1,000 views | `subscribersGained` / `views` | 1.0 | 2+ |
+| Likes per 100 views | `likes` / `views` | 3.9 | 4+ |
 
 ## Rules we've proven
 
@@ -46,6 +46,7 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Delay the safety resolution or anti-climax in hazard or near-miss scripts until the absolute final beat to sustain retention throughout the mid-to-late section.
 - Replace detached opening statements with character-driven or first-person narrative friction to improve 5% retention.
 - Avoid giveaway conclusion signals (such as 'That is why', 'In the end', or 'So') in final beats to prevent viewer drop-off before the loop or payoff completes.
+- Use immediate physical threat or high-stakes action phrases in hook text rather than abstract distances or dates to maximize swipe-through.
 
 ## Scoreboard
 
@@ -69,28 +70,29 @@ contradiction.
 | ep035 | Near Misses | statement, myth_vs_fact | 1330 | 52% | 86.5% | 131% | 1 | – |
 | ep036 | Mission Files | statement, story | 1038 | 60% | 63.5% | 118% | 1 | – |
 | ep040 | Space Got Weird | statement, myth_vs_fact | 488 | 57% | 60.2% | 106% | 1 | – |
-| ep045 | Mission Files | contradiction, mystery | 1087 | 51% | 78.1% | 128% | 5 | – |
+| ep045 | Mission Files | contradiction, mystery | 1087 | 51% | 78.0% | 128% | 5 | – |
 | ep046 | Space Got Weird | contradiction, mystery | 468 | 58% | 68.8% | 110% | 4 | – |
 | ep047 | Space Myths, Busted | question, mystery | 1451 | 53% | 55.5% | 112% | 2 | – |
-| ep048 | Scale Breaker | statement, scale_ladder | 1052 | 53% | 76.6% | 136% | 1 | – |
+| ep048 | Scale Breaker | statement, scale_ladder | 1052 | 53% | 77.4% | 136% | 1 | – |
 | ep049 | The Universe Is Terrifying | statement, scale_ladder | 699 | 49% | 65.4% | 125% | 2 | – |
 | ep050 | Near Misses | contradiction, scale_ladder | 1134 | 53% | 62.8% | 111% | 2 | – |
 | ep052 | Space Got Weird | statement, story | 826 | 55% | 64.3% | 120% | 4 | – |
 | ep055 | The Universe Is Terrifying | contradiction, story | 482 | 52% | 51.9% | 106% | 2 | – |
 | ep060 | Scale Breaker | statement, scale_ladder | 783 | 37% | 69.0% | 117% | 1 | – |
 | ep061 | The Universe Is Terrifying | statement, scale_ladder | 245 | 47% | 85.0% | 145% | 0 | – |
-| ep066 | Space Got Weird | statement, story | 1397 | 48% | 77.2% | – | 4 | – |
-| ep079 | Scale Breaker | contradiction, story | 353 | 46% | 74.4% | 123% | 0 | – |
-| ep084 | Mission Files | contradiction, story | 462 | 48% | 96.7% | 149% | 1 | Strong contradiction hook drove high retention, but verbatim summary ending collapsed late rewatches and comments. |
-| ep086 | Space Got Weird | statement, record | 524 | 47% | 138.3% | 178% | 3 | Surviving-star hook and replayable payoff drove massive rewatches, though catalog jargon depressed initial swipe-away. |
-| ep099 | Scale Breaker | statement, scale_ladder | 1028 | 51% | 70.6% | 124% | 1 | Robot scale-ladder hook sustained mid-video watch time, but a factual summary ending prevented loops and viewer comments. |
-| ep105 | Scale Breaker | statement, myth_vs_fact | 868 | 51% | 157.8% | 214% | 4 | Massive scale hook and visual pacing yielded huge average view percentage, but passive ending depressed likes. |
-| ep110 | Space Got Weird | statement, story | 1190 | 57% | 77.1% | 121% | 2 | Strong topic carried midpoint watch time, but passive hook phrasing and unlooped ending bled late retention. |
-| ep111 | Scale Breaker | number, story | 1176 | – | – | – | – | Impossible megastructure hook drove rapid velocity and discussion, but biographical exposition slowed middle pacing. |
-| ep112 | Near Misses | statement, story | 885 | 50% | 63.1% | 111% | 1 | Urgent hazard hook boosted reach, but administrative names and lack of discussion prompts hurt likes and comments. |
-| ep114 | Scale Breaker | statement, scale_ladder | 297 | 50% | 73.8% | 126% | 0 | Effective hook held early viewers, but low initial swipe share and an unlooped ending capped distribution. |
-| ep118 | Space Got Weird | statement, mystery | 1057 | – | – | – | – | Distinct puzzle-moon visual hook drove views, but an anticlimactic ending without a punchline hurt like conversion. |
-| ep129 | Space Got Weird | statement, story | 363 | 57% | 82.5% | 132% | 1 | Telescope hook and middle pacing drove high engagement and likes, but a definitive ending halted rewatch loops. |
+| ep066 | Space Got Weird | statement, story | 1397 | 49% | 81.9% | 134% | 4 | – |
+| ep079 | Scale Breaker | contradiction, story | 353 | 47% | 81.8% | 130% | 0 | – |
+| ep084 | Mission Files | contradiction, story | 462 | 48% | 96.8% | 149% | 1 | – |
+| ep086 | Space Got Weird | statement, record | 524 | 47% | 137.6% | 177% | 3 | Strong visual hook and rewatchability; technical terms in middle beats limited engaged share. |
+| ep099 | Scale Breaker | statement, scale_ladder | 1028 | 51% | 70.6% | 124% | 1 | Great early interest; summary ending prevented the loop, killing viral momentum. |
+| ep105 | Scale Breaker | statement, myth_vs_fact | 870 | 50% | 157.2% | 211% | 4 | Highest early retention and massive replay value; descriptive ending failed to spark comments. |
+| ep110 | Space Got Weird | statement, story | 1192 | 56% | 77.5% | 121% | 2 | Solid mid-storytelling; passive hook and weak completion rate led to low distribution. |
+| ep111 | Scale Breaker | number, story | 1182 | 52% | 99.6% | 147% | 1 | High velocity paradox hook; biographical filler in middle beats dragged down likes. |
+| ep112 | Near Misses | statement, story | 888 | 51% | 65.0% | 112% | 1 | Urgency in hook drove reach; administrative name-dropping slowed momentum and engagement. |
+| ep114 | Scale Breaker | statement, scale_ladder | 297 | 50% | 73.8% | 126% | 0 | Excellent initial hook hold; passive conclusion killed looping potential and late retention. |
+| ep118 | Space Got Weird | statement, mystery | 1060 | 55% | 68.2% | 116% | 0 | Strong visual hook; anticlimactic ending caused significant drop in audience satisfaction/likes. |
+| ep129 | Space Got Weird | statement, story | 364 | 57% | 82.6% | 132% | 1 | Top-tier engaged share and hook hold; definitive ending prevented the necessary rewatch loop. |
+| ep130 | The Universe Is Terrifying | statement, scale_ladder | 823 | – | – | – | – | High velocity due to high-stakes hook; abstract text and repetitive beats limited top-tier reach. |
 
 ## Log
 
@@ -153,3 +155,4 @@ contradiction.
 - 2026-10-17: Promoted hypothesis on cutting middle-beat proper names and instrument details to a rule based on ep111 and ep112, and added a hypothesis against conclusion giveaway phrases from ep079.
 - 2026-10-17: Updated looping and engagement rules after a batch of 10 reviews revealed that definitive summary endings are killing the viral loop and comment sections.
 - 2026-10-17: Maintained proven rule catalog and active hypotheses while auditing recent performance across ep084-ep129 against channel medians.
+- 2026-10-18: Analyzed performance for ep086 through ep130, updating evidence for technical simplification, loop endings, and active hooks.

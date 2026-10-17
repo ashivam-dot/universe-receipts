@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-17T23:06:30+05:30",
-  "day": 16,
+  "updated_at": "2026-10-18T05:08:46+05:30",
+  "day": 17,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M55EWST6267EQKGX08TJP1FR",
+    "id": "ta-01M563G0KDFH5GSVXNKR6K2WXR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-17T23:05:08+05:30",
-    "started_at_utc": "2026-10-17T17:35:08+00:00",
-    "seconds": 82
+    "started_at": "2026-10-18T05:05:18+05:30",
+    "started_at_utc": "2026-10-17T23:35:18+00:00",
+    "seconds": 208
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.6
+      "seconds": 4.7
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "49 posts",
-      "seconds": 1.0
+      "detail": "50 posts",
+      "seconds": 5.5
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep175 to 'Scale Breaker'",
-      "seconds": 2.7
+      "detail": "added ep133 to 'Space Got Weird'",
+      "seconds": 4.1
     },
     {
       "name": "languages",
@@ -45,86 +45,87 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 1.1
+      "detail": "ep105 at 72 h: level with the channel's earlier Shorts at this age: 870 views against a median of 911 (1.0x); ep130 at 24 h: level with the channel's earlier Shorts at this age: 823 views against a median of 741 (1.1x); ep175 at 6 h: ahead of the channel's earlier Shorts at this age: 1383 views against a median of 658 (2.1x); learnings: Analyzed performance for ep086 through ep130, updating evidence for technical simplification, loop endings, and active hooks.",
+      "seconds": 127.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep155 rejected (low scores: visuals); ep161 ready; ep162 ready; ep163 rejected (low scores: payoff, visuals; 2 frame problems); ep165 ready; ep166 rejected (low scores: hook, payoff, visuals); ep167 ready; ep168 ready; ep169 rejected (low scores: visuals; 2 frame problems); ep171 rejected (low scores: visuals); ep172 ready; ep173 rejected (low scores: visuals; 2 frame problems); ep174 ready; ep177 ready; ep178 rejected (low scores: visuals); ep179 rejected (low scores: visuals; 2 frame problems); ep180 rejected (research: The key near-miss elements of the landing—including the 1201 and 1202 co",
-      "seconds": 45.9
+      "detail": "ep181 ready; ep182 rejected (research: only 0 claims have two different sites); ep183 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 17.9
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.7
     },
     {
       "name": "preflight ep051",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 1.1
     },
     {
       "name": "preflight ep053",
       "ok": true,
-      "detail": "video downloads whole (17 MB in 0 s)",
-      "seconds": 0.7
-    },
-    {
-      "name": "preflight ep133",
-      "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 1.1
     },
     {
       "name": "preflight ep137",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 1.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
+      "seconds": 5.8
+    },
+    {
+      "name": "schedule ep159",
+      "ok": true,
+      "detail": "2026-10-18T12:30:00-04:00",
+      "seconds": 2.7
+    },
+    {
+      "name": "start ep184",
+      "ok": true,
+      "detail": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
+      "seconds": 8.2
+    },
+    {
+      "name": "start ep185",
+      "ok": true,
+      "detail": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
+      "seconds": 3.7
+    },
+    {
+      "name": "start ep186",
+      "ok": true,
+      "detail": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
+      "seconds": 1.5
+    },
+    {
+      "name": "start ep187",
+      "ok": true,
+      "detail": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
       "seconds": 3.8
     },
     {
-      "name": "schedule ep174",
-      "ok": true,
-      "detail": "2026-10-24T19:00:00-04:00",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep181",
-      "ok": true,
-      "detail": "SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years",
-      "seconds": 1.3
-    },
-    {
-      "name": "start ep182",
-      "ok": true,
-      "detail": "R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep183",
-      "ok": true,
-      "detail": "WASP-76b (2020): an ultra-hot world where extreme temperatures vaporize iron on the dayside, driving winds that make it rain liquid iron droplets at night",
-      "seconds": 1.3
-    },
-    {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 2.6
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "room for 3 of the 4 Shorts wanted: Modal's credit covers 65, this run's share of the Actions minutes 0",
+    "ep183 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer is full (10 queued); 22 waiting"
   ],
   "inventory": {
@@ -132,23 +133,26 @@
     "in_buffer": 10,
     "waiting": 22,
     "target": 42,
-    "making": [],
-    "remote": [
-      "ep181",
-      "ep182",
+    "making": [
       "ep183"
+    ],
+    "remote": [
+      "ep184",
+      "ep185",
+      "ep186",
+      "ep187"
     ]
   },
   "queue": [
     {
-      "id": "ep133",
-      "title": "Nature's 20,000-Mile GEOMETRY on Saturn",
-      "due_at": "2026-10-17T19:00:00-04:00"
-    },
-    {
       "id": "ep051",
       "title": "The NASA Mission That Fell from the Sky",
       "due_at": "2026-10-17T21:30:00-04:00"
+    },
+    {
+      "id": "ep159",
+      "title": "Why the Great Wall of China Is INVISIBLE from Space",
+      "due_at": "2026-10-18T12:30:00-04:00"
     },
     {
       "id": "ep137",
@@ -271,12 +275,6 @@
       "score": 20
     },
     {
-      "id": "ep159",
-      "title": "Why the Great Wall of China Is INVISIBLE from Space",
-      "series": "Space Myths, Busted",
-      "score": 24
-    },
-    {
       "id": "ep161",
       "title": "The Fastest Craft Ever Built Plunges Into the Sun",
       "series": "Scale Breaker",
@@ -323,134 +321,20 @@
       "title": "The Fastest Probe Ever Launched Carried a Stamp",
       "series": "Mission Files",
       "score": 23
+    },
+    {
+      "id": "ep181",
+      "title": "The Dead Star That Warped Earth",
+      "series": "The Universe Is Terrifying",
+      "score": 22
     }
   ],
   "made": [
     {
-      "id": "ep155",
-      "outcome": "rejected",
-      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep161",
+      "id": "ep181",
       "outcome": "ready",
-      "topic": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
-      "title": "The Fastest Craft Ever Built Plunges Into the Sun",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792237290/universereceipts/ep161-32799e0a.mp4"
-    },
-    {
-      "id": "ep162",
-      "outcome": "ready",
-      "topic": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
-      "title": "The Shuttle That Survived Seven Hundred Missing Tiles",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792237388/universereceipts/ep162-7ed874f4.mp4"
-    },
-    {
-      "id": "ep163",
-      "outcome": "rejected",
-      "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
-      "reason": "low scores: payoff, visuals; 2 frame problems"
-    },
-    {
-      "id": "ep165",
-      "outcome": "ready",
-      "topic": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
-      "title": "Why Pluto Never Finished Its Orbit",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792237367/universereceipts/ep165-2c099223.mp4"
-    },
-    {
-      "id": "ep166",
-      "outcome": "rejected",
-      "topic": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
-      "reason": "low scores: hook, payoff, visuals"
-    },
-    {
-      "id": "ep167",
-      "outcome": "ready",
-      "topic": "Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon",
-      "title": "The Alien World Buried Inside Earth",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792237375/universereceipts/ep167-6badc0d9.mp4"
-    },
-    {
-      "id": "ep168",
-      "outcome": "ready",
-      "topic": "Vulcan (hypothetical planet) (1859): astronomers spent half a century hunting a phantom world inside Mercury's orbit before Einstein proved space itself was warping",
-      "title": "The 50-Year Hunt for a Phantom Planet",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792237251/universereceipts/ep168-e795f9b5.mp4"
-    },
-    {
-      "id": "ep169",
-      "outcome": "rejected",
-      "topic": "Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space",
-      "reason": "low scores: visuals; 2 frame problems"
-    },
-    {
-      "id": "ep171",
-      "outcome": "rejected",
-      "topic": "GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep172",
-      "outcome": "ready",
-      "topic": "Van Allen radiation belt (1958): critics claimed Apollo astronauts would be fried passing through them, but their high-speed trajectory meant they received less radiation than a standard CT scan",
-      "title": "Why the Van Allen Belts Didn't Fry Apollo Astronauts",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792237541/universereceipts/ep172-2a104aff.mp4"
-    },
-    {
-      "id": "ep173",
-      "outcome": "rejected",
-      "topic": "Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately",
-      "reason": "low scores: visuals; 2 frame problems"
-    },
-    {
-      "id": "ep174",
-      "outcome": "ready",
-      "topic": "V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up",
-      "title": "The Weapon That Photographed Earth from Space",
+      "topic": "SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years",
+      "title": "The Dead Star That Warped Earth",
       "scores": {
         "hook": 5,
         "clarity": 5,
@@ -458,116 +342,112 @@
         "visuals": 4,
         "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792237449/universereceipts/ep174-46816ca3.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792259474/universereceipts/ep181-186d70ed.mp4"
     },
     {
-      "id": "ep177",
-      "outcome": "ready",
-      "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
-      "title": "The Fastest Probe Ever Launched Carried a Stamp",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792237286/universereceipts/ep177-cd917920.mp4"
-    },
-    {
-      "id": "ep178",
+      "id": "ep182",
       "outcome": "rejected",
-      "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
-      "reason": "low scores: visuals"
+      "topic": "R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely",
+      "reason": "research: only 0 claims have two different sites"
     },
     {
-      "id": "ep179",
-      "outcome": "rejected",
-      "topic": "Phobos (moon) (1877): Mars is slowly dragging its largest moon to its doom, where tidal forces will eventually tear it into a planetary ring",
-      "reason": "low scores: visuals; 2 frame problems"
-    },
-    {
-      "id": "ep180",
-      "outcome": "rejected",
-      "topic": "Apollo 11 (1969): computer overloads and a boulder-strewn landing zone forced astronauts to fly manually, touching down on the Moon with under 30 seconds of fuel left",
-      "reason": "research: The key near-miss elements of the landing—including the 1201 and 1202 computer alarms, the boulder field near West crater, Armstrong taking manual control, and landing with under 30 seconds of fuel remaining—appear only in Wikipedia (S1) and are absent from all other provided sources."
+      "id": "ep183",
+      "outcome": "unfinished",
+      "topic": "WASP-76b (2020): an ultra-hot world where extreme temperatures vaporize iron on the dayside, driving winds that make it rain liquid iron droplets at night",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep181",
-      "topic": "SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years",
-      "call_id": "fc-01M55EZBF859TPW06HJYYG660G"
+      "id": "ep184",
+      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
+      "call_id": "fc-01M563PF40TMDJ4KH6Z5SDFY8R"
     },
     {
-      "id": "ep182",
-      "topic": "R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely",
-      "call_id": "fc-01M55EZCP2J90VPFN0K7279FJE"
+      "id": "ep185",
+      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
+      "call_id": "fc-01M563PJRN13VR81AWMP2JEM2G"
     },
     {
-      "id": "ep183",
-      "topic": "WASP-76b (2020): an ultra-hot world where extreme temperatures vaporize iron on the dayside, driving winds that make it rain liquid iron droplets at night",
-      "call_id": "fc-01M55EZDX4C2E6S96MSJ39JFQB"
+      "id": "ep186",
+      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
+      "call_id": "fc-01M563PM8PB1ZH6KB1ZA19RDSC"
+    },
+    {
+      "id": "ep187",
+      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
+      "call_id": "fc-01M563PQYEFSCTZTH0K2CGYGE7"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep181",
-      "topic": "SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years",
-      "spawned_at": "2026-10-17T23:06:24+05:30"
+      "id": "ep184",
+      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
+      "spawned_at": "2026-10-18T05:08:33+05:30"
     },
     {
-      "id": "ep182",
-      "topic": "R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely",
-      "spawned_at": "2026-10-17T23:06:25+05:30"
+      "id": "ep185",
+      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
+      "spawned_at": "2026-10-18T05:08:36+05:30"
     },
     {
-      "id": "ep183",
-      "topic": "WASP-76b (2020): an ultra-hot world where extreme temperatures vaporize iron on the dayside, driving winds that make it rain liquid iron droplets at night",
-      "spawned_at": "2026-10-17T23:06:26+05:30"
+      "id": "ep186",
+      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
+      "spawned_at": "2026-10-18T05:08:38+05:30"
+    },
+    {
+      "id": "ep187",
+      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
+      "spawned_at": "2026-10-18T05:08:42+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep174",
-      "title": "The Weapon That Photographed Earth from Space",
-      "due_at": "2026-10-24T19:00:00-04:00"
+      "id": "ep159",
+      "title": "Why the Great Wall of China Is INVISIBLE from Space",
+      "due_at": "2026-10-18T12:30:00-04:00"
     }
   ],
-  "live": 40,
+  "live": 41,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 60,
+    "calls": 29,
     "by_model": {
-      "gemini-3.7-flash": 17,
-      "gemini-3.8-flash": 15,
-      "gemini-3.6-flash": 14,
-      "gemini-3.5-flash-lite": 7,
-      "gemini-3-flash-preview": 6,
-      "gemini-3.5-flash": 1
+      "gemini-3.8-flash": 5,
+      "gemini-3.7-flash": 3,
+      "gemini-3-flash-preview": 12,
+      "gemini-3.6-flash": 1,
+      "gemini-3.5-flash-lite": 8
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
-    "modal": 32,
+    "modal": 6,
     "runner": 0
   },
   "daily_done": "2026-10-17",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 20.2,
+    "metered": 20.4,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 65,
+    "cloud": 63,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 7.8
+    "modal_credit_left": 7.6
   },
   "made_here": 0,
   "open_topics": 26,
-  "parked_topics": 64
+  "parked_topics": 60
 }

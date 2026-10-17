@@ -1,0 +1,156 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-17T23:15:28+05:30",
+      "check": {
+        "duration": 61.36,
+        "words": 132,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [
+          "duration 61.36 s is outside 35-58 s"
+        ],
+        "speech_differences": [
+          "'and' heard as '(nothing)' after 'the ozone layer'",
+          "'shuddered' heard as 'shuttered' after 'our planet still'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong size-to-distance contrast immediately grabs attention.",
+        "clarity": "Logical progression from energy scale to atmospheric impact.",
+        "payoff": "The lethal proximity reveal provides a satisfying, terrifying conclusion.",
+        "visuals": "Repetitive Moon imagery and cluttered text cards degrade quality.",
+        "loop": "Last line leads perfectly back to the opening hook's context."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Both frames show the same moon asset, making the sequence feel static."
+        },
+        {
+          "beat": 7,
+          "problem": "Text card is visually cluttered and uses inconsistent font sizing."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 2: The magnetar SGR eighteen-oh-six-twenty has a magnetic field of one thousand trillion gauss.",
+        "Beat 4: In a tenth of a second, the rupture released more energy than the Sun does in 150,000 years.",
+        "Beat 5: Traveling 50,000 light-years, the burst momentarily matched the full Moon's brightness in gamma rays.",
+        "Beat 7: If this erupted within ten light-years, it would have caused mass extinction.",
+        "The render ran 61.36 s; it must be 35-58 s."
+      ],
+      "better_than_last": "This episode provides a more visceral, life-threatening stakes reveal than the conceptual paradoxes of ep 175.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T23:19:50+05:30",
+      "check": {
+        "duration": 51.83,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening contrast between the tiny star and the scale of atmospheric impact.",
+        "clarity": "Concepts are well-sequenced and technical terms are introduced with proper context.",
+        "payoff": "The extinction zone comparison effectively raises the stakes for the viewer.",
+        "visuals": "Imagery is scientifically accurate and aids in understanding the magnetar's power.",
+        "loop": "The final line connects seamlessly to the hook's subject and tone."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The subtitle text below the main heading is too small for mobile viewing."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script creates a higher sense of cosmic peril than recent historical or orbital facts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T23:21:13+05:30",
+      "check": {
+        "duration": 51.83,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The contrast between a 12-mile-wide object and its global impact is an excellent high-stakes opening.",
+        "clarity": "The narrative flows logically from the nature of the star to the specific event and its consequences.",
+        "payoff": "The comparison to the Sun's energy and the potential for mass extinction provides a satisfying sense of scale.",
+        "visuals": "The visuals are high quality and scientifically representative, though the repeat in beat 7 is slightly noticeable.",
+        "loop": "The phrase 'world above us' transitions naturally back into 'atmosphere' in the first beat."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode uses more relatable benchmarks for scale, such as the Sun's energy over time, compared to the more abstract concepts in the 93-Billion-Light-Year Paradox.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}
