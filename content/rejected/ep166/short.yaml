@@ -1,0 +1,187 @@
+id: ep166
+title: The 74,000 Year Trip to the Nearest Star
+series: Scale Breaker
+description: Even traveling at 17 kilometers per second, our fastest interstellar probe would take tens of thousands of years
+  to reach Proxima Centauri.
+sources:
+- https://en.wikipedia.org/wiki/Proxima_Centauri
+- http://www.space.com/33837-earth-like-planet-proxima-centauri-numbers.html
+- https://www.scientificamerican.com/article/a-second-planet-may-orbit-earths-nearest-neighboring-star/
+- https://en.wikipedia.org/wiki/Voyager_1
+- https://web.archive.org/web/20221210180431/http://www.nasa.gov/centers/goddard/news/topstory/2003/1105voyager_facts.html
+- https://exoplanetarchive.ipac.caltech.edu/overview/GJ-551
+hashtags:
+- '#space'
+- '#voyager1'
+- '#proximacentauri'
+tags:
+- astronomy
+- voyager 1
+- proxima centauri
+- interstellar travel
+- nasa
+- exoplanets
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: Voyager 1 would need 74,000 years to reach our nearest neighboring star.
+  emphasis:
+  - Voyager 1
+  - 74,000 years
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/29/Voyager_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager spacecraft.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.42
+    focus_y: 0.45
+    card:
+      kind: fact
+      big: 74,000 years
+      small: to reach the nearest star
+- text: We often imagine Proxima Centauri is right next door at just 4.2 light-years away.
+  emphasis:
+  - Proxima Centauri
+  - 4.2 light-years
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/95/New_shot_of_Proxima_Centauri%2C_our_nearest_neighbour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: New shot of Proxima Centauri, our nearest neighbour.jpg
+      credit: ESA/Hubble & NASA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:New_shot_of_Proxima_Centauri,_our_nearest_neighbour.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.35
+    - 0.65
+    - 0.65
+    card:
+      kind: fact
+      big: 4.2 light-years
+      small: distance to Proxima
+- text: This red dwarf hides a roughly Earth-sized world orbiting within its habitable zone.
+  emphasis:
+  - Earth-sized world
+  - habitable zone
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg/1280px-Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s impression of Proxima Centauri b shown hypothetically as an arid rocky super-earth.jpg
+      credit: ESO/M. Kornmesser
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.65
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.15
+    - 0.95
+    - 0.85
+- text: Proxima Centauri b completes its year in 11.2 days, making it a tempting destination.
+  emphasis:
+  - 11.2 days
+  - tempting destination
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 11.2 days
+      small: one orbit for Proxima b
+    motion: zoom_in
+- text: There is even a candidate second world, Proxima Centauri c, orbiting much further out.
+  emphasis:
+  - candidate second world
+  - further out
+  visual:
+    reuse: 3
+    motion: zoom_out
+    focus_x: 0.65
+    focus_y: 0.5
+- text: To explore beyond our Sun, NASA sent Voyager 1 past Jupiter and Saturn carrying the Golden Record.
+  emphasis:
+  - Voyager 1
+  - Golden Record
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Titan_3E_with_Voyager_1.jpg/1920px-Titan_3E_with_Voyager_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Titan 3E with Voyager 1.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Titan_3E_with_Voyager_1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: September 1977
+      small: Voyager 1 launch
+- text: Yet human technology cannot shrink the terrifying vastness of interstellar space.
+  emphasis:
+  - terrifying vastness
+  - interstellar space
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/ac/PIA17036_Voyager_the_Explorer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA17036 Voyager the Explorer.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA17036_Voyager_the_Explorer.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Even traveling seventeen kilometers per second since 1977,
+  emphasis:
+  - seventeen kilometers per second
+  - '1977'
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 17 km/s
+      small: Voyager 1 cruising speed
+    motion: zoom_in
+- text: crossing four light-years to reach our nearest neighboring star means
+  emphasis:
+  - four light-years
+  - neighboring star
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.42
+    focus_y: 0.45
+hook_text: 74,000 YEAR COMMUTE

@@ -143,35 +143,35 @@ beats:
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: Dosimeter readings confirmed their total exposure was surprisingly low, comparable to a standard medical CT scan.
+- text: Dosimeter readings revealed total radiation exposure was surprisingly low, equaling a single CT scan.
   emphasis:
   - surprisingly low
-  - medical CT scan
+  - single CT scan
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/7/72/NASA-SDO_-_solar_flare_November_5%2C_2013%2C_X3%2C3_class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e1/Saturn_Apollo_Program_%288903695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: NASA-SDO - solar flare November 5, 2013, X3,3 class.jpg
-      credit: Zarateman
+      title: Saturn Apollo Program (8903695).jpg
+      credit: NASA Marshall Space Flight Center
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:NASA-SDO_-_solar_flare_November_5,_2013,_X3,3_class.jpg
+      url: https://commons.wikimedia.org/wiki/File:Saturn_Apollo_Program_(8903695).jpg
     fallbacks:
     - card
     - color
     motion: pan_right
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.52
     card:
       kind: fact
       big: CT scan
       small: Equivalent radiation dose
-- text: Their fast passage proved critics wrong and showed how fast crews outran the lethal radiation belts.
+- text: This thirty-minute sprint kept the crew safe, despite how
   emphasis:
-  - fast passage
-  - critics wrong
+  - thirty-minute sprint
+  - safe
   visual:
     reuse: 1
     motion: zoom_out

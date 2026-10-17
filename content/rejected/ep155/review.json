@@ -1,0 +1,169 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-16T17:16:25+05:30",
+      "check": {
+        "duration": 49.83,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'existed on venus'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strongly subverts expectations about Venusian darkness immediately.",
+        "clarity": "Logical progression from scientific prediction to mission results.",
+        "payoff": "Solid confirmation of the hook though lacking a major twist.",
+        "visuals": "Informative archival material but some frames lack impact.",
+        "loop": "Seamless grammatical transition between the final and first beats."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a map instead of the lander mentioned in the caption."
+        },
+        {
+          "beat": 5,
+          "problem": "Stamp artwork obscures the specific rock details described."
+        },
+        {
+          "beat": 7,
+          "problem": "Reuses the stamp image from beat 5."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more cohesive chronological narrative than the Voyager episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:11:15+05:30",
+      "check": {
+        "duration": 49.83,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "An intriguing opening statement that immediately counters common assumptions about Venus.",
+        "clarity": "Logical, chronological narrative that remains effortless to follow throughout.",
+        "payoff": "Nicely contrasts the anticipated pitch-black wasteland with the surprising reality of surface daylight.",
+        "visuals": "Multiple beats feature imagery from entirely different missions and probe generations.",
+        "loop": "Reiterates the central daylight motif so replaying the video flows naturally."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows a color panorama from Venera 13 or 14 instead of Venera 9"
+        },
+        {
+          "beat": 6,
+          "problem": "shows an early-generation Venera capsule instead of the Venera 9 lander"
+        },
+        {
+          "beat": 7,
+          "problem": "shows a 1961 Venera 1 stamp instead of the 1975 Venera 9 orbiter"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It sets up an explicit scientific expectation in beat 3 and directly overturns it with observational evidence better than ep176.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:12:49+05:30",
+      "check": {
+        "duration": 49.83,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'existed on venus'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The counterintuitive claim of reading-level daylight on Venus immediately hooks the viewer.",
+        "clarity": "The story flows in clear, chronological beats with crisp historical context.",
+        "payoff": "Learning that the lander survived the hellish atmosphere and only stopped communicating due to orbital geometry is a great payoff.",
+        "visuals": "Beat 7 uses a 1968 stamp showing Kosmos docking instead of the Venera 9 orbiter.",
+        "loop": "The final clause connects into the opening line smoothly and logically."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows a 1968 stamp commemorating the Kosmos-186 and Kosmos-188 docking, which is the wrong mission and spacecraft."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The transition between the closing sentence and the opening hook creates the smoothest seamless audio loop yet.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-17T17:12:49+05:30"
+}

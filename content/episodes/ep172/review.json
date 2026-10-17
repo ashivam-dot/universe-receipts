@@ -1,0 +1,97 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-17T17:11:28+05:30",
+      "check": {
+        "duration": 55.17,
+        "words": 124,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Addresses a famous Moon landing myth immediately.",
+        "clarity": "Straightforward explanation of trajectory and exposure time.",
+        "payoff": "The medical CT scan comparison offers a neat resolution.",
+        "visuals": "Mostly relevant archival imagery, though beat 7 is mismatched.",
+        "loop": "Repetitive phrasing creates a slightly rough restart."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "off-topic image of a solar flare"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Dosimeter readings revealed total radiation exposure was surprisingly low, equaling a single CT scan.",
+        "Beat 8: This thirty-minute sprint kept the crew safe, despite how"
+      ],
+      "better_than_last": "Directly debunks a widespread historical myth more effectively than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:15:39+05:30",
+      "check": {
+        "duration": 51.8,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Tackles a famous lunar conspiracy theory head-on with punchy, high-stakes framing.",
+        "clarity": "Explains the science, trajectory strategy, and real radiation dosage in simple, easy-to-follow beats.",
+        "payoff": "Comparing the journey's radiation dose to a single routine CT scan puts the debunking into clear perspective.",
+        "visuals": "Crisp archival imagery and diagrams, though beats 5 and 7 repeat very similar crew portraits.",
+        "loop": "Loops seamlessly into beat 1 both grammatically and narratively."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Tackles and debunks a persistent space conspiracy theory using an intuitive everyday comparison and an impeccably smooth sentence loop.",
+      "judge": "gemini-3.7-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

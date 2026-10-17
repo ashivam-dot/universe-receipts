@@ -113,6 +113,56 @@
       "better_than_last": "This Short manages a more compelling narrative 'whodunnit' mystery than the radioactive clock in ep156.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-17T17:10:49+05:30",
+      "check": {
+        "duration": 57.23,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'urbain le verrier' heard as 'urban loveiriye' after 'years in 1859'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The mystery of a 50-year phantom planet hunt immediately engages the viewer.",
+        "clarity": "The chronological narrative is clean and easy to follow.",
+        "payoff": "The spacetime twist provides a satisfying historical resolution.",
+        "visuals": "Archival charts, astronomical imagery, and portraits align well with the narration.",
+        "loop": "Phrasing loops smoothly from chasing a ghost back to the opening line."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Urbain Le Verrier",
+          "respelling": "oor ban luh vair yay"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Delivers a more cohesive historical narrative arc with a cleaner thematic loop.",
+      "judge": "gemini-3.8-flash",
+      "passed": true
     }
   ],
   "best_round": 2

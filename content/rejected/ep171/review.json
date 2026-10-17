@@ -1,0 +1,166 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-17T17:11:30+05:30",
+      "check": {
+        "duration": 51.02,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'sagitta' heard as 'sajida' after 'within the constellation'",
+          "'by' heard as '(nothing)' after 'previous space records'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing cosmic claim that grabs attention quickly.",
+        "clarity": "Logical and easy-to-follow chronological explanation.",
+        "payoff": "Atmospheric ionization payoff feels somewhat understated.",
+        "visuals": "Features James Webb instead of gamma-ray observatories and dark frames.",
+        "loop": "Final sentence does not flow naturally back into the hook."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows the James Webb Space Telescope rather than a gamma-ray space telescope"
+        },
+        {
+          "beat": 6,
+          "problem": "Image is extremely dark and indistinct at phone screen size"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Sagitta",
+          "respelling": "suh jit uh"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: Change to 'All of this planetary disturbance came from' to flow directly into Beat 1."
+      ],
+      "better_than_last": "Covers a more recent real-time observational discovery than ep176.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:16:31+05:30",
+      "check": {
+        "duration": 53.9,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'by' heard as '(nothing)' after 'previous space records'",
+          "'all' heard as '(nothing)' after 'longwave radio communications'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong, immediate physical claim hooks viewers quickly.",
+        "clarity": "Simple structure following event details to atmospheric impacts.",
+        "payoff": "Clear connection showing how a distant blast blinded satellites and affected Earth.",
+        "visuals": "Beat 6 displays incorrect data from 2019 instead of 2022.",
+        "loop": "Sentence setup transitions naturally back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Graphic shows data dated 2019-10-07 instead of the October 2022 event."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Clearer thematic narrative connecting a specific cosmic event directly to its physical impact on Earth.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:18:19+05:30",
+      "check": {
+        "duration": 53.9,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'by' heard as '(nothing)' after 'previous space records'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing line about a distant physical impact on Earth.",
+        "clarity": "Direct, single-concept beats keep narrative straightforward.",
+        "payoff": "Telescope blinding and atmospheric disturbance deliver a solid reveal.",
+        "visuals": "Images are relevant, though star map text is small for phones.",
+        "loop": "Seamless transition back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Constellation map labels are small and difficult to read on mobile screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Features a more immediate real-world connection than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-17T17:18:19+05:30"
+}

@@ -1,0 +1,168 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-17T17:22:30+05:30",
+      "check": {
+        "duration": 51.5,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Directly tackles a famous myth, engaging immediate interest.",
+        "clarity": "Logical sequence explaining pencil hazards and pen development.",
+        "payoff": "Resolves the myth well, though the conclusion is somewhat predictable.",
+        "visuals": "Multiple historical images are incorrect or completely off-topic.",
+        "loop": "Audio bridges directly into the opening line for a smooth repeat."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "off-topic historical visual of 17th-century Puritans"
+        },
+        {
+          "beat": 5,
+          "problem": "wrong person shown in historic portrait instead of Paul C. Fisher"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Both agencies adopted the exact same private invention, proving NASA never spent millions developing a space pen."
+      ],
+      "better_than_last": "Provides a sharper, more concise narrative pace than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:27:53+05:30",
+      "check": {
+        "duration": 61.27,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [
+          "duration 61.27 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong subversion of a popular urban legend.",
+        "clarity": "Logical flow from pencil hazards to private solution.",
+        "payoff": "Effectively explains the origin of the million dollar figure.",
+        "visuals": "Beat 7 shows a generic plastic pen instead of an AG7.",
+        "loop": "Narrative closure matches the opening statement perfectly."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The frame shows a modern promotional plastic pen instead of the pressurized AG7 space pen."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 2: In 1965, NASA paid over four thousand dollars for thirty-four mechanical pencils.",
+        "Beat 8: NASA bought four hundred for under three dollars each; the Soviets did too.",
+        "Beat 9: This shared invention proves NASA never spent millions developing a space pen.",
+        "The render ran 61.27 s; it must be 35-58 s."
+      ],
+      "better_than_last": "Superior use of a widely-held myth to engage the viewer before providing a technical explanation.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:32:38+05:30",
+      "check": {
+        "duration": 49.83,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Addresses a popular historical myth immediately to engage viewers.",
+        "clarity": "Narrative flows logically from historical costs to safety hazards.",
+        "payoff": "Successfully debunks two myths regarding NASA and Soviet equipment.",
+        "visuals": "Repeated frames fail to show the specific inventor or pen.",
+        "loop": "Last line transitions perfectly into the start of the video."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "shows fire damage instead of the inventor or investment mentioned."
+        },
+        {
+          "beat": 7,
+          "problem": "repeats the electronics frame instead of showing the actual pen."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script utilizes a more effective circular structure than the Saturn Rings episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-17T17:32:38+05:30"
+}

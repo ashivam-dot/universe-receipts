@@ -1,0 +1,171 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-16T17:16:39+05:30",
+      "check": {
+        "duration": 50.8,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'20' heard as '+20' after 'psr b 1957'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening concept effectively captures attention with a strong visual hook.",
+        "clarity": "Narrative structure is logical and transitions between ideas are smooth.",
+        "payoff": "The conclusion provides confirmation rather than a truly surprising twist.",
+        "visuals": "Stock collages in middle beats are cluttered and lack specific relevance.",
+        "loop": "Excellent grammatical phrasing creates a perfectly seamless transition back to the start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Generic star graphic does not accurately represent a pulsar binary system."
+        },
+        {
+          "beat": 5,
+          "problem": "Off-topic image collage includes distracting 'Celebrating Chandra' text overlay."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Fermi data confirms this 1.8 solar mass beast grew by consuming its partner's material."
+      ],
+      "better_than_last": "This Short provides significantly more precise technical data than the Great Wall episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:10:34+05:30",
+      "check": {
+        "duration": 49.8,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'20' heard as '+20' after 'psr b 1957'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong cannibalistic concept grabs interest quickly.",
+        "clarity": "Logical flow explaining the pulsar and companion dynamics.",
+        "payoff": "Ends on technical mass stats rather than a strong emotional punchline.",
+        "visuals": "Several diagrams are cluttered or low-resolution for mobile.",
+        "loop": "Repeats beat one entirely instead of looping seamlessly into it."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Multi-panel scientific diagram is unreadable on mobile screens."
+        },
+        {
+          "beat": 5,
+          "problem": "Image is blurry and indistinct."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: This destructive system earned the nickname black widow, proving that"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:16:56+05:30",
+      "check": {
+        "duration": 53.53,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'20' heard as '+20' after 'psr b 1957'",
+          "'(nothing)' heard as 'you' after 'killing its mate'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong premise that captures interest immediately.",
+        "clarity": "Logical narrative that is simple to follow.",
+        "payoff": "The black widow reveal is neat but predictable.",
+        "visuals": "Multiple beats use crowded diagrams unsuited for phone screens.",
+        "loop": "Ends seamlessly back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Complex composite diagram with small text that is difficult to view on mobile."
+        },
+        {
+          "beat": 5,
+          "problem": "Grid of small thumbnail images that is cluttered on phone screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Change to 'This black widow system leaves its partner completely vaporized, living up to its name.'"
+      ],
+      "better_than_last": "Provides a clearer narrative arc centered around a single compelling star system.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals; 2 frame problems",
+  "rejected_at": "2026-10-17T17:16:56+05:30"
+}

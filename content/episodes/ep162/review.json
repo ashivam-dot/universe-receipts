@@ -40,7 +40,94 @@
       "better_than_last": "This episode features stronger narrative tension and a clearer central mystery than recent entries.",
       "judge": "gemini-3.6-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-17T17:11:18+05:30",
+      "check": {
+        "duration": 46.49,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The immediate mention of 700 missing tiles creates instant life-or-death stakes.",
+        "clarity": "The story follows an immaculate, easy-to-follow chronological sequence from launch to landing.",
+        "payoff": "The reveal of the thick antenna plate saving the crew from disaster provides an incredible resolution.",
+        "visuals": "Historic imagery and crew photos fit nicely, though beat 4 features a Spacehab payload bay from a later mission.",
+        "loop": "Beat 7 connects back to beat 1 conceptually, though repeating 'over seven hundred thermal tiles' feels slightly repetitive."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Wrong mission: shows a Spacehab module in the payload bay, which did not fly until years after STS-27."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It builds far stronger human drama and suspense toward its climax than ep176.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:13:08+05:30",
+      "check": {
+        "duration": 46.49,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong dramatic premise grabs viewer attention immediately.",
+        "clarity": "Logical sequence of historical events is easy to follow.",
+        "payoff": "The antenna plate secret provides a satisfying resolution.",
+        "visuals": "Historical archive footage aligns directly with the narrative.",
+        "loop": "Closing sentence connects seamlessly back into the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode uses tense real-world archival drama more effectively than recent science-focused entries.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 2
 }

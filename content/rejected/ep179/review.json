@@ -1,0 +1,145 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-17T17:16:04+05:30",
+      "check": {
+        "duration": 48.89,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong opening premise grabs immediate interest.",
+        "clarity": "Logical breakdown of orbital decay and tidal destruction.",
+        "payoff": "The eventual ring formation provides a neat conceptual resolution.",
+        "visuals": "Multiple similar Phobos angles and back-to-back title cards lack variety.",
+        "loop": "Last line repeats the setup instead of seamlessly flowing into beat 1."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Change to 'Which is why today, '"
+      ],
+      "better_than_last": "Explains a focused mechanical process more directly than recent paradox episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:18:32+05:30",
+      "check": {
+        "duration": 46.37,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening claim immediately grabs attention.",
+        "clarity": "Logical step-by-step breakdown of Phobos's inward spiral.",
+        "payoff": "Future ring formation delivers a neat concluding twist.",
+        "visuals": "Accurate imagery, though back-to-back graphic cards drag visually.",
+        "loop": "Phrase transitions seamlessly back into the opening sentence."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Maintains tighter narrative focus around a single celestial body than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:20:20+05:30",
+      "check": {
+        "duration": 46.37,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise that captures interest immediately.",
+        "clarity": "Logical breakdown of orbit decay and structural breakdown.",
+        "payoff": "Satisfying reveal of the future planetary ring.",
+        "visuals": "Multiple beats reuse nearly identical Phobos imagery.",
+        "loop": "Ends seamlessly back into the start of the first sentence."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Nearly identical picture of Phobos as beat 1."
+        },
+        {
+          "beat": 5,
+          "problem": "Same picture of Phobos used in beat 1."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Clearer visual evidence and stronger loop setup than ep176.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-17T17:20:20+05:30"
+}

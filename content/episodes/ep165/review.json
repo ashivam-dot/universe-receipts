@@ -46,7 +46,104 @@
       "better_than_last": "Features stronger historical archival imagery tied directly to the narrative beats.",
       "judge": "gemini-3.8-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-17T17:10:14+05:30",
+      "check": {
+        "duration": 49.5,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The counterintuitive fact that Pluto hasn't completed an orbit since 1930 immediately grabs attention.",
+        "clarity": "Chronological progression from discovery to demotion and orbital physics is effortless to follow.",
+        "payoff": "The reveal of 2178 as the completion date lands well and resolves the premise established in beat 1.",
+        "visuals": "Strong archival imagery throughout, though beat 6 shows Uranus and Neptune rather than Pluto.",
+        "loop": "The concluding timeline connects back to the opening statement naturally, though the repeated noun creates a slight pause."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The image highlights Uranus and Neptune and their moons, missing Pluto and its crossing orbit entirely."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It anchors each narrative stage in authentic historical documentation, including Tombaugh's photo, the original blink plates, and the IAU vote.",
+      "judge": "gemini-3.8-flash",
+      "passed": true
+    },
+    {
+      "at": "2026-10-17T17:12:46+05:30",
+      "check": {
+        "duration": 49.5,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Engaging historical premise that stops swiping quickly.",
+        "clarity": "Straightforward timeline and simple concept per beat.",
+        "payoff": "Predictable conclusion about the year 2178 completion.",
+        "visuals": "Relevant visuals overall, though beat 2 misrepresents the tool.",
+        "loop": "Acceptable transition, though the sentence structure feels slightly abrupt."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows Tombaugh with a Newtonian telescope rather than a blink comparator."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: End with 'Meaning until the year 2178...' to lead directly into Beat 1."
+      ],
+      "better_than_last": "Stronger central narrative focus than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 2,
+  "kept_round": 2
 }

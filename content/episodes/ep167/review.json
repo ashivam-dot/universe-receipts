@@ -53,7 +53,101 @@
       "better_than_last": "Delivers a more cohesive seamless narrative loop back to the hook.",
       "judge": "gemini-3.7-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-17T17:11:06+05:30",
+      "check": {
+        "duration": 43.6,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.4,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening line paired with the bold title card immediately creates intrigue about what is inside Earth.",
+        "clarity": "The progression from impact theory to modern mantle discoveries is cleanly structured and easy to digest.",
+        "payoff": "Connecting the collision to the mysterious continent-sized structures beneath our feet delivers a satisfying twist.",
+        "visuals": "Multiple repeated assets and using an external debris ring graphic to represent subterranean mantle blobs weaken the presentation.",
+        "loop": "The concluding thought ties neatly back to the opening statement, though repeating 'never left' creates minor phrasing overlap."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows an external orbit debris disc around Earth, which contradicts the narration about continent-sized blobs deep inside Earth."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It connects cosmic collisions directly to real structures deep beneath our feet on Earth, delivering higher personal stakes than ep176.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:12:55+05:30",
+      "check": {
+        "duration": 43.6,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The text overlay and opening line immediately create an irresistible mystery about our own planet.",
+        "clarity": "The progression from the collision theory to the discovery deep inside Earth unfolds with total clarity.",
+        "payoff": "Revealing that massive remnants of a destroyed proto-planet reside right beneath our continents delivers an incredible surprise.",
+        "visuals": "Renderings and title cards are bold, though beat 7 suffers from reusing an outer-space debris graphic for internal mantle structures.",
+        "loop": "The transition works conceptually, though repeating the phrase 'never left' in consecutive sentences slightly softens the loop."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "shows an orbiting debris ring in space rather than the continent-sized structures buried inside Earth"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It delivers a much stronger sense of personal scale and awe than recent episodes by placing the remnants of an alien world directly beneath our feet.",
+      "judge": "gemini-3.8-flash",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

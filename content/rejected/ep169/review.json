@@ -1,0 +1,176 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-17T17:11:53+05:30",
+      "check": {
+        "duration": 47.69,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'deimos' heard as 'dimus' after 'observatory hall discovered'",
+          "'s' heard as 'is' after 'overcomes the moon'",
+          "'deimos' heard as 'dimas' after 'spiraling toward mars'",
+          "'deimos' heard as 'dimas' after 'into space on'",
+          "'(nothing)' heard as 'you' after 'reach escape velocity'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong athletic premise hooks viewers immediately.",
+        "clarity": "Clean progression from historical discovery to escape physics.",
+        "payoff": "Satisfying connection between running speed and cosmic escape.",
+        "visuals": "Surface rover imagery does not represent Deimos.",
+        "loop": "Final sentence circles smoothly back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows a Mars rover on the Martian surface instead of Deimos."
+        },
+        {
+          "beat": 6,
+          "problem": "Mars rover image does not match the discussion of running on Deimos."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Grounds abstract orbital mechanics in an intuitive, relatable human action.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:13:29+05:30",
+      "check": {
+        "duration": 47.69,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'deimos' heard as 'dimus' after 'observatory hall discovered'",
+          "'s' heard as 'is' after 'overcomes the moon'",
+          "'deimos' heard as 'dimas' after 'spiraling toward mars'",
+          "'deimos' heard as 'dimas' after 'into space on'",
+          "'(nothing)' heard as 'you' after 'reach escape velocity'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong premise grabs attention immediately.",
+        "clarity": "Backstory about the discovery interrupts the core physics explanation.",
+        "payoff": "The sister moon factoid weakens the closing momentum.",
+        "visuals": "Framing feels repetitive and the subject appears very small.",
+        "loop": "Final sentence duplicates wording rather than smoothly linking."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: You leave the twelve-kilometer moon entirely, drifting away into space.",
+        "Beat 8: Because overcoming its gravity requires just thirteen miles per hour."
+      ],
+      "better_than_last": "Features a more immediately graspable physical comparison than ep176.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-17T17:16:51+05:30",
+      "check": {
+        "duration": 47.06,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'deimos' heard as 'dimas' after 'days hall discovered'",
+          "'minuscule' heard as 'miniscule' after 'because of its'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong intriguing hook about running into space.",
+        "clarity": "Simple narrative structure tracking the discovery and physics.",
+        "payoff": "Satisfying resolution connecting human running speed to escape velocity.",
+        "visuals": "Inaccurate visual assets used in beats 5 and 6 showing Mars rover and Earth.",
+        "loop": "Seamless audio and visual connection back to beat 1."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows a rover on the Martian surface instead of Deimos."
+        },
+        {
+          "beat": 6,
+          "problem": "Shows a rocket orbiting Earth rather than Mars or Deimos."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Deimos",
+          "respelling": "day moss"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Features a smoother visual transition into the starting frame than episode 176.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-17T17:16:51+05:30"
+}

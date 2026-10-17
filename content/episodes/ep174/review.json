@@ -54,7 +54,113 @@
       "better_than_last": "Offers a stronger historical narrative structure than recent astronomy episodes.",
       "judge": "gemini-3.5-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-17T17:12:17+05:30",
+      "check": {
+        "duration": 56.0,
+        "words": 124,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'a repurposed missile'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Calling the source of Earth's first space photo a weapon immediately grabs attention.",
+        "clarity": "The narrative follows a clean chronological progression that is effortless to understand.",
+        "payoff": "The survival of the film cassette after a catastrophic impact delivers a satisfying conclusion.",
+        "visuals": "Excellent use of authentic archival hardware and photographs, though beat 7 clashes with its voiceover.",
+        "loop": "The concluding thought on a repurposed missile cycles naturally back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The high-altitude horizon mosaic does not fit the narration describing the rocket crashing into the desert."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It grounds each narrative beat with remarkable authentic artifacts, from the battered camera casing to the original balloon gondola.",
+      "judge": "gemini-3.7-flash",
+      "passed": true
+    },
+    {
+      "at": "2026-10-17T17:14:08+05:30",
+      "check": {
+        "duration": 56.0,
+        "words": 124,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'holliday' heard as 'holiday' after 'new mexico clyde'",
+          "'(nothing)' heard as 'you' after 'a repurposed missile'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing hook effectively pairs weapons history with space exploration.",
+        "clarity": "Clear chronological narrative that is simple to follow.",
+        "payoff": "The survival of the camera film provides a strong resolution.",
+        "visuals": "Historical photos work well, though some graphics contain mismatched dates.",
+        "loop": "Ending statement transitions seamlessly back into the opening beat."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Image displays a 1948 date which conflicts with the 1946 narrative date."
+        },
+        {
+          "beat": 7,
+          "problem": "Graphic shows a photo mosaic chart rather than illustrating the rocket crash."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Strong historical framing and archival imagery create a compelling documentary feel.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 2,
+  "kept_round": 2
 }
