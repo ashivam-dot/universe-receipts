@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-17T11:08:13+05:30",
+  "updated_at": "2026-10-17T17:08:58+05:30",
   "day": 16,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M545PEDGMMRGXAC3JM0K3VVR",
+    "id": "ta-01M54T9NVC2HY2N690C6Z4VJ0R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-17T11:05:17+05:30",
-    "started_at_utc": "2026-10-17T05:35:17+00:00",
-    "seconds": 176
+    "started_at": "2026-10-17T17:05:11+05:30",
+    "started_at_utc": "2026-10-17T11:35:11+00:00",
+    "seconds": 227
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 4.1
+      "seconds": 6.1
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "48 posts",
-      "seconds": 3.3
+      "detail": "49 posts",
+      "seconds": 0.8
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep125 to 'Mission Files'",
-      "seconds": 3.9
+      "detail": "nothing new",
+      "seconds": 2.2
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.3
+      "detail": "ep105 language en/None -> en; ep112 language en/None -> en",
+      "seconds": 1.1
     },
     {
       "name": "on youtube",
@@ -45,56 +45,164 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep110 at 72 h: ahead of the channel's earlier Shorts at this age: 1190 views against a median of 867 (1.4x); ep118 at 24 h: ahead of the channel's earlier Shorts at this age: 927 views against a median of 732 (1.3x); ep130 at 6 h: behind the channel's earlier Shorts at this age: 350 views against a median of 684 (0.5x); learnings: Updated looping and engagement rules after a batch of 10 reviews revealed that definitive summary endings are killing the viral loop and comment sections.",
-      "seconds": 104.7
+      "detail": "ep125 at 6 h: behind the channel's earlier Shorts at this age: 309 views against a median of 659 (0.5x)",
+      "seconds": 1.7
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep170 unfinished (LookupError: unknown encoding: .utf8); ep174 unfinished (LookupError: unknown encoding: .utf8); ep175 ready; ep176 ready",
-      "seconds": 24.6
+      "detail": "ep170 unfinished (LookupError: unknown encoding: .utf8); ep174 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep177 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep178 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-prev",
+      "seconds": 12.9
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "71 subscribers",
+      "seconds": 13.1
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Maintained proven rule catalog and active hypotheses while auditing recent performance across ep084-ep129 against channel medians.",
+      "seconds": 38.2
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 1.1
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "1 added",
+      "seconds": 25.5
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 73.3
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-016.md",
+      "seconds": 1.5
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep051",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.9
+      "seconds": 0.5
     },
     {
       "name": "preflight ep133",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.8
+      "seconds": 0.5
+    },
+    {
+      "name": "preflight ep137",
+      "ok": true,
+      "detail": "video downloads whole (16 MB in 0 s)",
+      "seconds": 0.7
+    },
+    {
+      "name": "preflight ep175",
+      "ok": true,
+      "detail": "video downloads whole (23 MB in 1 s)",
+      "seconds": 1.0
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 4.7
+      "seconds": 1.2
     },
     {
-      "name": "schedule ep175",
+      "name": "start ep155",
       "ok": true,
-      "detail": "2026-10-17T12:30:00-04:00",
-      "seconds": 1.9
+      "detail": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
+      "seconds": 1.6
     },
     {
-      "name": "start ep170",
+      "name": "start ep161",
       "ok": true,
-      "detail": "STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean",
-      "seconds": 3.7
+      "detail": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep162",
+      "ok": true,
+      "detail": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep163",
+      "ok": true,
+      "detail": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep165",
+      "ok": true,
+      "detail": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep166",
+      "ok": true,
+      "detail": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep167",
+      "ok": true,
+      "detail": "Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep168",
+      "ok": true,
+      "detail": "Vulcan (hypothetical planet) (1859): astronomers spent half a century hunting a phantom world inside Mercury's orbit before Einstein proved space itself was warping",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep169",
+      "ok": true,
+      "detail": "Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep171",
+      "ok": true,
+      "detail": "GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep172",
+      "ok": true,
+      "detail": "Van Allen radiation belt (1958): critics claimed Apollo astronauts would be fried passing through them, but their high-speed trajectory meant they received less radiation than a standard CT scan",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep173",
+      "ok": true,
+      "detail": "Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately",
+      "seconds": 1.6
     },
     {
       "name": "start ep174",
       "ok": true,
       "detail": "V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up",
-      "seconds": 3.8
+      "seconds": 1.5
     },
     {
       "name": "start ep177",
@@ -106,7 +214,19 @@
       "name": "start ep178",
       "ok": true,
       "detail": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
-      "seconds": 1.5
+      "seconds": 1.2
+    },
+    {
+      "name": "start ep179",
+      "ok": true,
+      "detail": "Phobos (moon) (1877): Mars is slowly dragging its largest moon to its doom, where tidal forces will eventually tear it into a planetary ring",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep180",
+      "ok": true,
+      "detail": "Apollo 11 (1969): computer overloads and a boulder-strewn landing zone forced astronauts to fly manually, touching down on the Moon with under 30 seconds of fuel left",
+      "seconds": 1.7
     },
     {
       "name": "publish",
@@ -118,7 +238,10 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "ep174 stopped on Gemini's free quota; it resumes in a later run",
+    "ep177 stopped on Gemini's free quota; it resumes in a later run",
+    "ep178 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 15 waiting",
     "Buffer is full (10 queued); 15 waiting"
   ],
   "inventory": {
@@ -126,7 +249,8 @@
     "in_buffer": 10,
     "waiting": 15,
     "target": 42,
-    "making": [
+    "making": [],
+    "remote": [
       "ep155",
       "ep161",
       "ep162",
@@ -138,13 +262,12 @@
       "ep169",
       "ep171",
       "ep172",
-      "ep173"
-    ],
-    "remote": [
-      "ep170",
+      "ep173",
       "ep174",
       "ep177",
-      "ep178"
+      "ep178",
+      "ep179",
+      "ep180"
     ]
   },
   "queue": [
@@ -304,129 +427,236 @@
       "id": "ep174",
       "outcome": "unfinished",
       "topic": "V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up",
-      "reason": "LookupError: unknown encoding: .utf8",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep175",
-      "outcome": "ready",
-      "topic": "Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old",
-      "title": "The 93-Billion-Light-Year Paradox",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792194277/universereceipts/ep175-2a09ac4d.mp4"
+      "id": "ep177",
+      "outcome": "unfinished",
+      "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep176",
-      "outcome": "ready",
-      "topic": "Enceladus (2005): the most reflective body in the Solar System, and its water jets supply most of the material in one of Saturn's rings",
-      "title": "The Moon That Builds Saturn's Rings",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792194205/universereceipts/ep176-cc6292c6.mp4"
+      "id": "ep178",
+      "outcome": "unfinished",
+      "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep170",
-      "topic": "STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean",
-      "call_id": "fc-01M545W0ZQ30NHKQJ6XFJ87ZS0"
+      "id": "ep155",
+      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
+      "call_id": "fc-01M54TG0EY0XQ30K2D4NARWY9P"
+    },
+    {
+      "id": "ep161",
+      "topic": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
+      "call_id": "fc-01M54TG2011YB2X77YW2PS29H4"
+    },
+    {
+      "id": "ep162",
+      "topic": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
+      "call_id": "fc-01M54TG3HB3Y25CN18M8KJ0MCG"
+    },
+    {
+      "id": "ep163",
+      "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
+      "call_id": "fc-01M54TG522Q1VJT25YM99MDJC1"
+    },
+    {
+      "id": "ep165",
+      "topic": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
+      "call_id": "fc-01M54TG6KYWZGFE0589DNE15JC"
+    },
+    {
+      "id": "ep166",
+      "topic": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
+      "call_id": "fc-01M54TG8573G2WBK8Y9CDG35A2"
+    },
+    {
+      "id": "ep167",
+      "topic": "Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon",
+      "call_id": "fc-01M54TG9NHGCWHJFVJRPCVSTZS"
+    },
+    {
+      "id": "ep168",
+      "topic": "Vulcan (hypothetical planet) (1859): astronomers spent half a century hunting a phantom world inside Mercury's orbit before Einstein proved space itself was warping",
+      "call_id": "fc-01M54TGB6NCBH2QQA8R3N24MPP"
+    },
+    {
+      "id": "ep169",
+      "topic": "Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space",
+      "call_id": "fc-01M54TGCQRCP45B2PDHWGT804E"
+    },
+    {
+      "id": "ep171",
+      "topic": "GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away",
+      "call_id": "fc-01M54TGE8RDJBNGF9VFMTAMM3X"
+    },
+    {
+      "id": "ep172",
+      "topic": "Van Allen radiation belt (1958): critics claimed Apollo astronauts would be fried passing through them, but their high-speed trajectory meant they received less radiation than a standard CT scan",
+      "call_id": "fc-01M54TGFVYXZYW95N09Y0S354Y"
+    },
+    {
+      "id": "ep173",
+      "topic": "Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately",
+      "call_id": "fc-01M54TGHCQV9G2M6P0HSAHPGGV"
     },
     {
       "id": "ep174",
       "topic": "V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up",
-      "call_id": "fc-01M545W4N499H872C9KC843FD9"
+      "call_id": "fc-01M54TGJW8AP4EW4CHN7EFDJ57"
     },
     {
       "id": "ep177",
       "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
-      "call_id": "fc-01M545W67MNN9YM3XQF1A4Y57W"
+      "call_id": "fc-01M54TGMEVEJ1CFTGT1TC3ZACB"
     },
     {
       "id": "ep178",
       "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
-      "call_id": "fc-01M545W7P7Q2PE6TCMZRFE5XM4"
+      "call_id": "fc-01M54TGNM03Y7Y1SRVQY9WAS0B"
+    },
+    {
+      "id": "ep179",
+      "topic": "Phobos (moon) (1877): Mars is slowly dragging its largest moon to its doom, where tidal forces will eventually tear it into a planetary ring",
+      "call_id": "fc-01M54TGQ68PPP002WSG6WT3F3C"
+    },
+    {
+      "id": "ep180",
+      "topic": "Apollo 11 (1969): computer overloads and a boulder-strewn landing zone forced astronauts to fly manually, touching down on the Moon with under 30 seconds of fuel left",
+      "call_id": "fc-01M54TGRTQM00PPV15MQN0716T"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep170",
-      "topic": "STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean",
-      "spawned_at": "2026-10-17T11:08:03+05:30"
+      "id": "ep155",
+      "topic": "Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus",
+      "spawned_at": "2026-10-17T17:08:29+05:30"
+    },
+    {
+      "id": "ep161",
+      "topic": "Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour",
+      "spawned_at": "2026-10-17T17:08:31+05:30"
+    },
+    {
+      "id": "ep162",
+      "topic": "STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate",
+      "spawned_at": "2026-10-17T17:08:32+05:30"
+    },
+    {
+      "id": "ep163",
+      "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
+      "spawned_at": "2026-10-17T17:08:34+05:30"
+    },
+    {
+      "id": "ep165",
+      "topic": "Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178",
+      "spawned_at": "2026-10-17T17:08:36+05:30"
+    },
+    {
+      "id": "ep166",
+      "topic": "Proxima Centauri (1915): the nearest star to the Sun, yet Voyager 1 would need 73,775 years to get there",
+      "spawned_at": "2026-10-17T17:08:37+05:30"
+    },
+    {
+      "id": "ep167",
+      "topic": "Theia (planet) (1975): a Mars-sized world that vaporized the infant Earth to form the Moon",
+      "spawned_at": "2026-10-17T17:08:39+05:30"
+    },
+    {
+      "id": "ep168",
+      "topic": "Vulcan (hypothetical planet) (1859): astronomers spent half a century hunting a phantom world inside Mercury's orbit before Einstein proved space itself was warping",
+      "spawned_at": "2026-10-17T17:08:40+05:30"
+    },
+    {
+      "id": "ep169",
+      "topic": "Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space",
+      "spawned_at": "2026-10-17T17:08:42+05:30"
+    },
+    {
+      "id": "ep171",
+      "topic": "GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away",
+      "spawned_at": "2026-10-17T17:08:43+05:30"
+    },
+    {
+      "id": "ep172",
+      "topic": "Van Allen radiation belt (1958): critics claimed Apollo astronauts would be fried passing through them, but their high-speed trajectory meant they received less radiation than a standard CT scan",
+      "spawned_at": "2026-10-17T17:08:45+05:30"
+    },
+    {
+      "id": "ep173",
+      "topic": "Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately",
+      "spawned_at": "2026-10-17T17:08:47+05:30"
     },
     {
       "id": "ep174",
       "topic": "V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up",
-      "spawned_at": "2026-10-17T11:08:07+05:30"
+      "spawned_at": "2026-10-17T17:08:48+05:30"
     },
     {
       "id": "ep177",
       "topic": "New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it",
-      "spawned_at": "2026-10-17T11:08:08+05:30"
+      "spawned_at": "2026-10-17T17:08:50+05:30"
     },
     {
       "id": "ep178",
       "topic": "Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated",
-      "spawned_at": "2026-10-17T11:08:10+05:30"
-    }
-  ],
-  "published": [
+      "spawned_at": "2026-10-17T17:08:51+05:30"
+    },
     {
-      "id": "ep175",
-      "title": "The 93-Billion-Light-Year Paradox",
-      "due_at": "2026-10-17T12:30:00-04:00"
+      "id": "ep179",
+      "topic": "Phobos (moon) (1877): Mars is slowly dragging its largest moon to its doom, where tidal forces will eventually tear it into a planetary ring",
+      "spawned_at": "2026-10-17T17:08:53+05:30"
+    },
+    {
+      "id": "ep180",
+      "topic": "Apollo 11 (1969): computer overloads and a boulder-strewn landing zone forced astronauts to fly manually, touching down on the Moon with under 30 seconds of fuel left",
+      "spawned_at": "2026-10-17T17:08:54+05:30"
     }
   ],
+  "published": [],
   "live": 39,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 13,
+    "calls": 21,
     "by_model": {
-      "gemini-3.8-flash": 3,
+      "gemini-3.8-flash": 7,
       "gemini-3.7-flash": 3,
+      "gemini-3.5-flash-lite": 6,
+      "gemini-3.5-flash": 1,
       "gemini-3-flash-preview": 3,
-      "gemini-3.5-flash-lite": 2,
-      "gemini-flash-latest": 1,
       "gemini-3.6-flash": 1
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 2,
+    "modal": 6,
     "runner": 0
   },
-  "daily_done": "2026-10-16",
+  "daily_done": "2026-10-17",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 19.15,
+    "metered": 19.33,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 73,
+    "cloud": 72,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 8.85
+    "modal_credit_left": 8.67
   },
   "made_here": 0,
-  "open_topics": 25,
-  "parked_topics": 57
+  "open_topics": 29,
+  "parked_topics": 58
 }
