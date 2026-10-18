@@ -1,0 +1,177 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-18T23:16:18+05:30",
+      "check": {
+        "duration": 51.05,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'kraken' heard as 'crockon' after 'polar seas like'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial hook that immediately piques human interest.",
+        "clarity": "Logical chain of concepts is simple to digest in one pass.",
+        "payoff": "Physics explanation delivers satisfactorily on the opening claim.",
+        "visuals": "Multiple beats rely on plain atmosphere graphics and map text.",
+        "loop": "Closing sentence leads naturally back into the opening premise."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Contains significant overlaid map text and diagrams."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Kraken",
+          "respelling": "krah ken"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short grounds its scientific concept in an engaging, human-centric scenario compared to more abstract recent topics.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T23:18:57+05:30",
+      "check": {
+        "duration": 51.2,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'kraken' heard as 'crochen' after 'polar seas like'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The premise of human-powered flight is immediately gripping.",
+        "clarity": "Technical concepts are introduced in a logical, accessible sequence.",
+        "payoff": "Clearly connects low gravity and air density to the flight claim.",
+        "visuals": "The repeated atmospheric image fails to illustrate the specific action in beat 7.",
+        "loop": "The conclusion feels final rather than leading back to the start."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows generic haze instead of illustrating wings or muscle-powered flight."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Kraken",
+          "respelling": "krak ken"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: No other world makes it so easy to take flight, because..."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T23:23:37+05:30",
+      "check": {
+        "duration": 55.23,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'christiaan' heard as 'christiane' after 'is moon titan'",
+          "'kraken' heard as 'crockon' after 'river valleys into'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Immediate, compelling premise captures attention.",
+        "clarity": "Logical progression from environmental data to flight physics.",
+        "payoff": "Scientific explanation effectively validates the hook.",
+        "visuals": "Uses authentic mission imagery throughout.",
+        "loop": "Seamless transition from conclusion to start."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Christiaan",
+          "respelling": "kris tee ahn"
+        },
+        {
+          "beat": 4,
+          "word": "Kraken",
+          "respelling": "krah ken"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Stronger narrative focus on a single concept compared to previous episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "failed the quality gate",
+  "rejected_at": "2026-10-18T23:23:37+05:30"
+}

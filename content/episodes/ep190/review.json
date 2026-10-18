@@ -1,0 +1,99 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-18T23:13:47+05:30",
+      "check": {
+        "duration": 62.69,
+        "words": 130,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 62.69 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Clear premise, but image of aerogel frame is somewhat static for an opener.",
+        "clarity": "Easy to follow chronological story of the sample return mission.",
+        "payoff": "Interstellar grain finding is a neat twist, though delivered softly.",
+        "visuals": "Imagery is high quality and directly aligned with script topics.",
+        "loop": "Closing question flows decently into the opening sentence."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 2: Launched in 1999, Stardust traveled three billion miles over seven years.",
+        "Beat 6: In Houston, the dust revealed various organic compounds.",
+        "Beat 7: The Stardust at home project let the public search for tracks.",
+        "Beat 9: A volunteer found that interstellar grain, but how was it saved?",
+        "The render ran 62.69 s; it must be 35-58 s."
+      ],
+      "better_than_last": "Provides a clearer step-by-step technical explanation than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T23:18:38+05:30",
+      "check": {
+        "duration": 54.2,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong opening with a unique visual of the aerogel 'tennis racket' and a clear mission statement.",
+        "clarity": "Excellent chronological flow from launch to recovery and eventual discovery.",
+        "payoff": "The twist that citizen scientists found interstellar dust is satisfying, though less 'mind-bending' than some previous episodes.",
+        "visuals": "The images are historically accurate and clear, though beat 5 shows a museum exhibit instead of the desert landing.",
+        "loop": "The question at the end perfectly sets up the explanation in the first beat."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short provides a much tighter chronological narrative than ep 188 while maintaining high visual accuracy.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

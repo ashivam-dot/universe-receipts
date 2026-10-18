@@ -115,7 +115,7 @@ unexplained, not alien.
 - Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing — parked (ep163)
 - GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away — parked (ep171)
 - SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years — done (ep181)
-- Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum — making (ep191)
+- Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum — done (ep191)
 
 ### Scale Breaker
 
@@ -123,7 +123,7 @@ unexplained, not alien.
 - Stephenson 2 DFK 1 (1990): a star so big that, put where the Sun is, it would swallow Saturn's orbit — dropped (ep067)
 - UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance — parked (ep070)
 - Laniakea Supercluster (2014): our galaxy turned out to be one of about 100,000 in a supercluster only mapped in 2014 — done (ep048)
-- Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe — parked (ep054)
+- Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe — making (ep193)
 - Observable universe: 93 billion light-years across, though the universe is only 13.8 billion years old — done (ep175)
 - Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself — done (ep186)
 - Voyager 1 (1977): to work around a failed memory chip in 2024, engineers deleted its old Jupiter code, because its total memory is only 68 kilobytes — dropped (ep148)
@@ -144,13 +144,13 @@ unexplained, not alien.
 - Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour — parked (ep153)
 - Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour — done (ep161)
 - R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely — dropped (ep182)
-- VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip — making (ep192)
+- VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip — parked (ep192)
 
 ### Mission Files
 
 - Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated — dropped (ep178)
 - Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127 — parked (ep069)
-- Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — parked (ep057)
+- Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — making (ep194)
 - OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space — parked (ep062)
 - Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour — parked (ep077)
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life — done (ep045)
@@ -169,7 +169,7 @@ unexplained, not alien.
 - Giotto (spacecraft) (1986): a probe survived a battering of 150,000 mph comet dust to capture the first close-up images of Halley's nucleus — parked (ep132)
 - Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater — parked (ep143)
 - Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms — parked (ep151)
-- Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth — making (ep190)
+- Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth — done (ep190)
 
 ### Space Got Weird
 
@@ -195,7 +195,7 @@ unexplained, not alien.
 - Saturn's hexagon (1981): a bizarre six-sided jet stream spinning at Saturn's north pole that is wide enough to swallow two whole Earths — done (ep133)
 - Iapetus (moon) (1671): a bizarre world shaped like a walnut, with a 12-mile-high equatorial ridge and one hemisphere ten times darker than the other — parked (ep140)
 - WASP-76b (2020): an ultra-hot world where extreme temperatures vaporize iron on the dayside, driving winds that make it rain liquid iron droplets at night — parked (ep183)
-- Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly — making (ep189)
+- Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly — parked (ep189)
 
 ### Near Misses
 

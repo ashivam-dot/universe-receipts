@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-18T23:07:08+05:30",
-  "day": 17,
+  "updated_at": "2026-10-19T05:08:42+05:30",
+  "day": 18,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5819H5D9S84XQT2DXY1BQVR",
+    "id": "ta-01M58NWQ4WN8VXXHS5WC0S3H9R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-18T23:05:09+05:30",
-    "started_at_utc": "2026-10-18T17:35:09+00:00",
-    "seconds": 119
+    "started_at": "2026-10-19T05:05:08+05:30",
+    "started_at_utc": "2026-10-18T23:35:08+00:00",
+    "seconds": 214
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.2
+      "seconds": 1.2
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "52 posts",
-      "seconds": 1.3
+      "detail": "53 posts",
+      "seconds": 1.4
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep159 to 'Space Myths, Busted'",
-      "seconds": 2.1
+      "detail": "added ep137 to 'Near Misses'; added ep188 to 'Scale Breaker'",
+      "seconds": 2.8
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "on youtube",
@@ -45,97 +45,86 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep175 at 24 h: ahead of the channel's earlier Shorts at this age: 1435 views against a median of 741 (1.9x); learnings: Added ep175 evidence to ending question rules and logged a new hypothesis against rapid numerical stacking.",
-      "seconds": 64.4
+      "detail": "ep111 at 72 h: ahead of the channel's earlier Shorts at this age: 1189 views against a median of 880 (1.4x); ep133 at 24 h: ahead of the channel's earlier Shorts at this age: 1208 views against a median of 750 (1.6x); ep159 at 6 h: ahead of the channel's earlier Shorts at this age: 1012 views against a median of 708 (1.4x); learnings: Updated performance reasons for ep133 and ep175, and added ep133 as supporting evidence for open-ended concluding beats.",
+      "seconds": 180.4
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep183 rejected (low scores: payoff, visuals; 2 frame problems); ep184 ready; ep185 ready; ep186 ready; ep187 rejected (low scores: visuals); ep188 ready",
-      "seconds": 18.1
+      "detail": "ep189 rejected; ep190 ready; ep191 ready; ep192 rejected",
+      "seconds": 8.4
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "preflight ep053",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.8
+      "seconds": 0.3
     },
     {
       "name": "preflight ep058",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.2
     },
     {
       "name": "preflight ep063",
       "ok": true,
-      "detail": "video downloads whole (14 MB in 1 s)",
-      "seconds": 0.8
-    },
-    {
-      "name": "preflight ep137",
-      "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.3
     },
     {
       "name": "preflight ep167",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 4.6
+      "seconds": 4.0
     },
     {
-      "name": "schedule ep188",
+      "name": "schedule ep184",
       "ok": true,
-      "detail": "2026-10-18T16:30:00-04:00",
-      "seconds": 2.1
+      "detail": "2026-10-20T12:30:00-04:00",
+      "seconds": 1.2
     },
     {
-      "name": "start ep189",
+      "name": "schedule ep186",
       "ok": true,
-      "detail": "Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly",
-      "seconds": 1.4
-    },
-    {
-      "name": "start ep190",
-      "ok": true,
-      "detail": "Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth",
-      "seconds": 0.8
-    },
-    {
-      "name": "start ep191",
-      "ok": true,
-      "detail": "Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum",
-      "seconds": 1.1
-    },
-    {
-      "name": "start ep192",
-      "ok": true,
-      "detail": "VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip",
+      "detail": "2026-10-21T12:30:00-04:00",
       "seconds": 1.0
     },
     {
+      "name": "start ep193",
+      "ok": true,
+      "detail": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep194",
+      "ok": true,
+      "detail": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
+      "seconds": 0.5
+    },
+    {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 0.8
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
+    "room for 2 of the 4 Shorts wanted: Modal's credit covers 55, this run's share of the Actions minutes 0",
     "Buffer is full (10 queued); 24 waiting"
   ],
   "inventory": {
@@ -145,23 +134,11 @@
     "target": 42,
     "making": [],
     "remote": [
-      "ep189",
-      "ep190",
-      "ep191",
-      "ep192"
+      "ep193",
+      "ep194"
     ]
   },
   "queue": [
-    {
-      "id": "ep188",
-      "title": "Are the Pillars of Creation Already Gone?",
-      "due_at": "2026-10-18T16:30:00-04:00"
-    },
-    {
-      "id": "ep137",
-      "title": "The Spacewalker Trapped Outside His Ship",
-      "due_at": "2026-10-18T19:00:00-04:00"
-    },
     {
       "id": "ep053",
       "title": "The 25 Million Daily Space Rocks Hitting Earth",
@@ -183,6 +160,11 @@
       "due_at": "2026-10-19T21:30:00-04:00"
     },
     {
+      "id": "ep184",
+      "title": "The Nuclear Alarm Caused by Sunlight on Clouds",
+      "due_at": "2026-10-20T12:30:00-04:00"
+    },
+    {
       "id": "ep071",
       "title": "The 50/50 Chance of a Galactic Crash",
       "due_at": "2026-10-20T19:00:00-04:00"
@@ -191,6 +173,11 @@
       "id": "ep072",
       "title": "The Solar Storm That Missed Earth",
       "due_at": "2026-10-20T21:30:00-04:00"
+    },
+    {
+      "id": "ep186",
+      "title": "The Accidental Glare in the Pale Blue Dot",
+      "due_at": "2026-10-21T12:30:00-04:00"
     },
     {
       "id": "ep146",
@@ -331,177 +318,134 @@
       "score": 22
     },
     {
-      "id": "ep184",
-      "title": "The Nuclear Alarm Caused by Sunlight on Clouds",
-      "series": "Near Misses",
-      "score": 24
-    },
-    {
       "id": "ep185",
       "title": "Why Space Will NEVER Make You Explode",
       "series": "Space Myths, Busted",
       "score": 22
     },
     {
-      "id": "ep186",
-      "title": "The Accidental Glare in the Pale Blue Dot",
-      "series": "Scale Breaker",
-      "score": 24
+      "id": "ep190",
+      "title": "How NASA Trapped Speeding Comet Dust",
+      "series": "Mission Files",
+      "score": 23
+    },
+    {
+      "id": "ep191",
+      "title": "How Dead Stars Forged the Universe's Gold",
+      "series": "The Universe Is Terrifying",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep183",
+      "id": "ep189",
       "outcome": "rejected",
-      "topic": "WASP-76b (2020): an ultra-hot world where extreme temperatures vaporize iron on the dayside, driving winds that make it rain liquid iron droplets at night",
-      "reason": "low scores: payoff, visuals; 2 frame problems"
+      "topic": "Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly",
+      "reason": ""
     },
     {
-      "id": "ep184",
+      "id": "ep190",
       "outcome": "ready",
-      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
-      "title": "The Nuclear Alarm Caused by Sunlight on Clouds",
+      "topic": "Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth",
+      "title": "How NASA Trapped Speeding Comet Dust",
       "scores": {
         "hook": 5,
         "clarity": 5,
-        "payoff": 5,
+        "payoff": 4,
         "visuals": 4,
         "loop": 5
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792324123/universereceipts/ep184-65b6e28f.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792345719/universereceipts/ep190-970f5f88.mp4"
     },
     {
-      "id": "ep185",
+      "id": "ep191",
       "outcome": "ready",
-      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
-      "title": "Why Space Will NEVER Make You Explode",
+      "topic": "Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum",
+      "title": "How Dead Stars Forged the Universe's Gold",
       "scores": {
         "hook": 4,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792324605/universereceipts/ep185-3da4ce94.mp4"
-    },
-    {
-      "id": "ep186",
-      "outcome": "ready",
-      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
-      "title": "The Accidental Glare in the Pale Blue Dot",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792324144/universereceipts/ep186-87bf600e.mp4"
-    },
-    {
-      "id": "ep187",
-      "outcome": "rejected",
-      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep188",
-      "outcome": "ready",
-      "topic": "Pillars of Creation (1995): towering columns of cosmic gas so colossal that the tiny finger-like protrusions at their tips are larger than our entire solar system",
-      "title": "Are the Pillars of Creation Already Gone?",
-      "scores": {
-        "hook": 5,
         "clarity": 4,
         "payoff": 4,
-        "visuals": 5,
+        "visuals": 4,
         "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792324616/universereceipts/ep188-86b5fe43.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792345424/universereceipts/ep191-07396107.mp4"
+    },
+    {
+      "id": "ep192",
+      "outcome": "rejected",
+      "topic": "VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip",
+      "reason": ""
     }
   ],
   "spawned": [
     {
-      "id": "ep189",
-      "topic": "Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly",
-      "call_id": "fc-01M581D8EHPJ5HRKX1WEWQ8EDF"
+      "id": "ep193",
+      "topic": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
+      "call_id": "fc-01M58P3CSPG6VBDWH1R9RX5WB8"
     },
     {
-      "id": "ep190",
-      "topic": "Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth",
-      "call_id": "fc-01M581D98VAWJ9N46FE30YTFQJ"
-    },
-    {
-      "id": "ep191",
-      "topic": "Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum",
-      "call_id": "fc-01M581DACCPAGVTQ43Y9YN03MB"
-    },
-    {
-      "id": "ep192",
-      "topic": "VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip",
-      "call_id": "fc-01M581DBAHKVNZ60CGW916W2HN"
+      "id": "ep194",
+      "topic": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
+      "call_id": "fc-01M58P3D963P78JQRG7XCDYHR0"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep189",
-      "topic": "Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly",
-      "spawned_at": "2026-10-18T23:07:03+05:30"
+      "id": "ep193",
+      "topic": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
+      "spawned_at": "2026-10-19T05:08:39+05:30"
     },
     {
-      "id": "ep190",
-      "topic": "Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth",
-      "spawned_at": "2026-10-18T23:07:03+05:30"
-    },
-    {
-      "id": "ep191",
-      "topic": "Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum",
-      "spawned_at": "2026-10-18T23:07:04+05:30"
-    },
-    {
-      "id": "ep192",
-      "topic": "VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip",
-      "spawned_at": "2026-10-18T23:07:05+05:30"
+      "id": "ep194",
+      "topic": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
+      "spawned_at": "2026-10-19T05:08:40+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep188",
-      "title": "Are the Pillars of Creation Already Gone?",
-      "due_at": "2026-10-18T16:30:00-04:00"
+      "id": "ep184",
+      "title": "The Nuclear Alarm Caused by Sunlight on Clouds",
+      "due_at": "2026-10-20T12:30:00-04:00"
+    },
+    {
+      "id": "ep186",
+      "title": "The Accidental Glare in the Pale Blue Dot",
+      "due_at": "2026-10-21T12:30:00-04:00"
     }
   ],
-  "live": 43,
+  "live": 45,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 35,
+    "calls": 40,
     "by_model": {
-      "gemini-3.8-flash": 13,
-      "gemini-3.7-flash": 12,
-      "gemini-3.6-flash": 5,
-      "gemini-3.5-flash-lite": 5
+      "gemini-3.8-flash": 7,
+      "gemini-3.7-flash": 7,
+      "gemini-3.5-flash": 5,
+      "gemini-3.5-flash-lite": 8,
+      "gemini-3-flash-preview": 7,
+      "gemini-3.6-flash": 6
     },
-    "out_of_quota": [
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 14,
+    "modal": 9,
     "runner": 0
   },
   "daily_done": "2026-10-18",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 21.04,
+    "metered": 21.34,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 58,
+    "cloud": 55,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 6.96
+    "modal_credit_left": 6.66
   },
   "made_here": 0,
   "open_topics": 27,

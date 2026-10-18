@@ -1,0 +1,177 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-18T23:15:35+05:30",
+      "check": {
+        "duration": 51.47,
+        "words": 127,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'canis' heard as 'cannys' after 'red hypergiant vy'",
+          "'shone' heard as 'shown' after 'behemoth that once'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong premise and text overlay grab viewer attention.",
+        "clarity": "Simple explanation of star scale and light obstruction.",
+        "payoff": "Resolves the fading mystery well, though somewhat expected.",
+        "visuals": "Inaccurate telescope image and source text on size chart.",
+        "loop": "Smooth verbal bridge links final phrase back to start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Contains visible text from source diagram"
+        },
+        {
+          "beat": 5,
+          "problem": "Shows Earth telescopes instead of space gas plumes"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Delivers a more focused mystery and clear scale comparison than ep188.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T23:19:48+05:30",
+      "check": {
+        "duration": 50.67,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'canis' heard as 'canny is' after 'red hypergiant vy'",
+          "'1420' heard as 'one 420' after 'system its radius'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong erased premise captures attention immediately.",
+        "clarity": "Narrative flows well from historical sightings to physical mechanics.",
+        "payoff": "Direct collapse theory delivers a high-stakes scientific twist.",
+        "visuals": "Inaccurate; beat 5 uses Betelgeuse data instead of the subject.",
+        "loop": "Seamless transition using the monster motif to restart."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows Betelgeuse 2019 dimming data/graphics instead of VY Canis Majoris."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows a binary system with an accretion disk instead of a single star collapsing."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Canis",
+          "respelling": "kay niss"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This entry provides a tighter chronological narrative than the Pillars of Creation short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T23:22:19+05:30",
+      "check": {
+        "duration": 50.82,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'1420' heard as 'one 420' after 'system its radius'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of a star 'choking' and erasing itself is an immediate, high-stakes curiosity builder.",
+        "clarity": "The sequence from historical observation to scale, then to the physical mechanism of dust creation, is very easy to follow.",
+        "payoff": "The revelation that it might collapse directly into a black hole without a supernova is a great 'mind-bending' twist.",
+        "visuals": "The imagery is scientifically accurate, though the comparison chart in beat 4 is a bit cluttered for a vertical screen.",
+        "loop": "Ending on 'monster' and restarting with 'visible star' is a smooth transition, even if not a perfect sentence bridge."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Canis",
+          "respelling": "kay niss"
+        },
+        {
+          "beat": 4,
+          "word": "1,420",
+          "respelling": "one thousand four hundred twenty"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short provides a clearer mechanical explanation for its central mystery than the 'Pillars of Creation' episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "failed the quality gate",
+  "rejected_at": "2026-10-18T23:22:19+05:30"
+}
