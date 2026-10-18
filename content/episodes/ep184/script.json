@@ -1,22 +1,22 @@
 {
   "hooks": [
     {
-      "style": "contradiction",
-      "text": "Soviet orbital satellites once confirmed an incoming nuclear strike with highest reliability."
-    },
-    {
       "style": "statement",
-      "text": "A satellite once mistook high-altitude clouds for incoming American nuclear missiles."
+      "text": "In 1983, Soviet satellites reported an incoming American nuclear strike."
     },
     {
       "style": "question",
       "text": "Why did glinting sunlight on clouds almost trigger World War Three?"
+    },
+    {
+      "style": "contradiction",
+      "text": "A Soviet warning system confirmed an incoming attack that never existed."
     }
   ],
-  "hook_style": "contradiction",
+  "hook_style": "statement",
   "structure": "myth_vs_fact",
-  "title": "The 25-Minute Countdown That Almost Ended the World",
-  "description": "In September 1983, a Soviet early-warning satellite detected incoming American nuclear missiles. Duty officer Stanislav Petrov had minutes to decide whether to trigger World War Three.",
+  "title": "The Nuclear Alarm Caused by Sunlight on Clouds",
+  "description": "In September 1983, a Soviet early-warning satellite detected incoming American nuclear missiles. Duty officer Stanislav Petrov realized the computer alert was a massive false alarm.",
   "hashtags": [
     "#space",
     "#coldwar",
@@ -32,18 +32,17 @@
   ],
   "beats": [
     {
-      "text": "Soviet orbital satellites once confirmed an incoming nuclear strike with highest reliability.",
+      "text": "In 1983, Soviet satellites reported an incoming American nuclear strike.",
       "emphasis": [
-        "incoming nuclear strike",
-        "highest reliability"
+        "incoming American",
+        "nuclear strike"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1,
-        4
+        1
       ],
-      "visual": "illustration of Soviet Oko nuclear early-warning satellite orbiting Earth, 1983",
+      "visual": "illustration of Soviet Oko nuclear early-warning satellite in Earth orbit, 1983",
       "subjects": [
         "Oko (satellite)",
         "Soviet Air Defence Forces"
@@ -60,10 +59,10 @@
       }
     },
     {
-      "text": "On September 26, 1983, early-warning screens alerted duty officer Stanislav Petrov to five American missiles.",
+      "text": "On September 26, early-warning screens alerted duty officer Stanislav Petrov to five missiles.",
       "emphasis": [
         "Stanislav Petrov",
-        "five American missiles"
+        "five missiles"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
@@ -88,10 +87,9 @@
       }
     },
     {
-      "text": "With impact minutes away, computers insisted an attack was underway.",
+      "text": "With impact minutes away, automated military computers registered the threat at highest reliability.",
       "emphasis": [
-        "impact minutes away",
-        "attack was underway"
+        "highest reliability"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -99,7 +97,7 @@
         4,
         12
       ],
-      "visual": "photograph of an American Minuteman intercontinental ballistic missile launching from an underground silo",
+      "visual": "photograph of an American Minuteman ballistic missile launching from an underground silo",
       "subjects": [
         "LGM-30 Minuteman",
         "Intercontinental ballistic missile"
@@ -116,7 +114,7 @@
       }
     },
     {
-      "text": "Yet Petrov suspected a real American strike would be an overwhelming barrage, not five isolated launches.",
+      "text": "Yet Petrov reasoned a real first strike would be an overwhelming barrage, not five isolated launches.",
       "emphasis": [
         "overwhelming barrage"
       ],
@@ -133,7 +131,7 @@
       "year": 1983,
       "queries": [
         "Stanislav Petrov bunker",
-        "Stanislav Petrov"
+        "Stanislav Petrov desk"
       ],
       "card": {
         "kind": "none",
@@ -142,10 +140,10 @@
       }
     },
     {
-      "text": "Ground radar showed clear skies, confirming his suspicion.",
+      "text": "Ground radar showed clear skies over the horizon, confirming his suspicion.",
       "emphasis": [
-        "Ground radar",
-        "clear skies"
+        "clear skies",
+        "over the horizon"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -169,7 +167,7 @@
       }
     },
     {
-      "text": "Petrov decided against reporting an attack, alerting headquarters instead that the system had malfunctioned.",
+      "text": "Petrov decided against reporting an attack, notifying headquarters instead that the system had malfunctioned.",
       "emphasis": [
         "system had malfunctioned"
       ],
@@ -178,7 +176,7 @@
       "claims": [
         6
       ],
-      "visual": "portrait photograph of Stanislav Petrov in front of military monitors",
+      "visual": "portrait photograph of Stanislav Petrov in front of military command monitors",
       "subjects": [
         "Stanislav Petrov"
       ],
@@ -194,9 +192,9 @@
       }
     },
     {
-      "text": "Investigations revealed satellites encountered a rare solar alignment.",
+      "text": "Investigations later revealed the satellite had encountered a rare orbital alignment with the Sun.",
       "emphasis": [
-        "rare solar alignment"
+        "rare orbital alignment"
       ],
       "sfx": "pop",
       "pause_after": 0.4,
@@ -220,10 +218,10 @@
       }
     },
     {
-      "text": "Blinded by the glare, the sensors mistook sunlight reflecting off high-altitude clouds for missile launches.",
+      "text": "Sensors mistook bright reflection off high-altitude clouds for rocket flames.",
       "emphasis": [
-        "reflecting off high-altitude clouds",
-        "missile launches"
+        "high-altitude clouds",
+        "rocket flames"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -247,16 +245,15 @@
       }
     },
     {
-      "text": "Glinting sunlight bouncing off clouds had triggered humanity's closest nuclear false alarm.",
+      "text": "Cloud-reflected sunlight nearly started World War Three.",
       "emphasis": [
-        "closest nuclear false alarm"
+        "World War Three"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         1,
-        9,
-        12
+        9
       ],
       "visual": "portrait photograph of Stanislav Petrov in later years holding an award",
       "subjects": [
@@ -277,5 +274,5 @@
   ],
   "hook_text": "25 MINUTES TO IMPACT",
   "loop": true,
-  "better_than_last": "Delays the hazard resolution until the final beats and establishes an immediate high-stakes contradiction hook to maximize viewer retention."
+  "better_than_last": "Applied reviewer edits for exact beat 1 and beat 9 lines to ensure seamless looping and clear stakes."
 }

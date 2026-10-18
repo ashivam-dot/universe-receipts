@@ -1,0 +1,168 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-18T17:13:28+05:30",
+      "check": {
+        "duration": 52.7,
+        "words": 118,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'ebullism' heard as 'ebalism' after 'through radiation instead'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Debunks a common cinematic myth immediately.",
+        "clarity": "Medical facts follow a coherent sequence.",
+        "payoff": "The survival resolution is interesting but lacks a sharp twist.",
+        "visuals": "Several archive stills are completely off-topic.",
+        "loop": "Final phrase does not connect smoothly back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Mythological etching is off-topic for ebullism."
+        },
+        {
+          "beat": 7,
+          "problem": "Ancient mosaic mask is off-topic for LeBlanc's incident."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "ebullism",
+          "respelling": "eh buh liz um"
+        }
+      ],
+      "rewrite": [
+        "Beat 9: You have ninety seconds before hypoxia takes you, which is why"
+      ],
+      "better_than_last": "Tackles a relatable human biology scenario instead of distant astrophysics.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T17:19:12+05:30",
+      "check": {
+        "duration": 51.5,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'ebullism' heard as 'ebalism' after 'through radiation instead'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strongly challenges a ubiquitous sci-fi movie trope in the opening line.",
+        "clarity": "Explains the physiological processes clearly with one focused concept per beat.",
+        "payoff": "The real-world account of Jim LeBlanc surviving with boiling saliva delivers a great payoff.",
+        "visuals": "Beat 8 shows an unrelated modern satellite payload rather than a human spacesuit test facility.",
+        "loop": "Ending on 'which is why' creates an illogical causal link connecting hypoxia to explosion prevention."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "wrong object or mission; shows a modern satellite being prepared in a vacuum chamber rather than human spacesuit testing"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "ebullism",
+          "respelling": "eb yoo liz um"
+        }
+      ],
+      "rewrite": [
+        "Beat 9: You have ninety seconds before hypoxia takes you, but your skin ensures that"
+      ],
+      "better_than_last": "It anchors a popular space myth in a gripping, true human survival incident rather than abstract astronomical data.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T17:26:42+05:30",
+      "check": {
+        "duration": 53.58,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Directly tackles a ubiquitous movie misconception that immediately sparks curiosity.",
+        "clarity": "Explains the physics and physiological consequences step-by-step with zero confusing jargon.",
+        "payoff": "The Jim LeBlanc incident delivers a striking, visceral payoff that proves the premise true.",
+        "visuals": "Historic vacuum chamber photos and physiological diagrams illustrate the science effectively.",
+        "loop": "Transitions cleanly from surviving intact back into the opening premise about space exposure."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It anchors a popular science myth in a harrowing real-life survival story with a memorable sensory detail.",
+      "judge": "gemini-3.7-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

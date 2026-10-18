@@ -1,0 +1,104 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-18T17:20:33+05:30",
+      "check": {
+        "duration": 61.23,
+        "words": 130,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [
+          "duration 61.23 s is outside 35-58 s"
+        ],
+        "speech_differences": [
+          "'stephen' heard as 'steven' after 'years ago astronomer'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Stating the height of the pillar is mildly interesting but lacks the urgency or mystery needed to stop a swipe.",
+        "clarity": "The scientific concepts are explained well, though naming specific acronyms and astronomers slows the pace.",
+        "payoff": "The realization that we are looking at light from structures that might already be destroyed is a solid cosmic twist.",
+        "visuals": "Multiple beats use small bordered insets over dark backgrounds, and beat 3 features prominent archival label text.",
+        "loop": "The final line about waiting 1,000 years ends abruptly and does not flow naturally back into the opening stat."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "mostly text and archival metadata covering the bottom third of the image"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: The four-light-year Pillars of Creation may have already been completely destroyed.",
+        "Beat 2: Hubble captured these towers in 1995, revealing embryonic stars forming inside dense hydrogen pockets called EGGs.",
+        "Beat 6: Spitzer observations suggest a supernova shockwave wiped out the pillars 6,000 years ago.",
+        "Beat 8: Because the nebula sits 7,000 light-years away, telescopes must wait 1,000 years to see if we are still watching...",
+        "The render ran 61.23 s; it must be 35-58 s."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T17:26:54+05:30",
+      "check": {
+        "duration": 51.79,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The threat of an iconic deep-space monument already being destroyed immediately grabs attention.",
+        "clarity": "The physics of star birth and the 7,000-year light travel time are explained clearly step by step.",
+        "payoff": "The realization that we are looking at a ghost structure whose fate is already sealed 6,000 years ago is satisfying.",
+        "visuals": "Spectacular collection of multi-wavelength telescope imagery from Hubble, Spitzer, and Webb.",
+        "loop": "The final mention of waiting 1,000 years transitions smoothly back into the opening claim of destruction."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It leverages instantly recognizable, jaw-dropping multi-observatory imagery across Hubble, Spitzer, and Webb to anchor every stage of the story.",
+      "judge": "gemini-3.7-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

@@ -1,0 +1,143 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-18T17:13:13+05:30",
+      "check": {
+        "duration": 50.03,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The concept of starless worlds grabs attention immediately, though opening with billions conflicts slightly with the title and graphic.",
+        "clarity": "Concepts unfold sequentially with clear logic, making gravitational microlensing easy for a general audience to grasp.",
+        "payoff": "The six-to-one ratio of rogue worlds to star-bound planets provides a satisfying, mind-bending conclusion.",
+        "visuals": "Striking planet visuals throughout, though beat 4 relies on a text-heavy diagram.",
+        "loop": "Beat 7 repeats Beat 1 almost word-for-word, producing an awkward echo rather than a seamless loop."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Diagram is cluttered with small text and illustrates a brown dwarf system rather than a rogue planet."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Which is why across the vast galaxy,"
+      ],
+      "better_than_last": "It explains an observational astrophysics technique more clearly and accessibly than the technical mechanisms in recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T17:20:18+05:30",
+      "check": {
+        "duration": 48.69,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong curiosity hook that immediately stops scrolling.",
+        "clarity": "Straightforward progression with one clear idea per beat.",
+        "payoff": "The six-to-one ratio provides an effective twist.",
+        "visuals": "Beat 4 infographic has fine text that is difficult to parse on mobile.",
+        "loop": "Clean grammatical flow back into the opening sentence."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Maintains a stronger thematic focus on cosmic scale throughout than ep176.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T17:21:38+05:30",
+      "check": {
+        "duration": 48.69,
+        "words": 106,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong cosmic hook immediately challenges common assumptions.",
+        "clarity": "Complex microlensing concept is conveyed in simple, digestible steps.",
+        "payoff": "The six-to-one abundance ratio provides a satisfying concluding twist.",
+        "visuals": "Beat four diagram contains unreadable text at mobile dimensions.",
+        "loop": "Phrasing transitions smoothly back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It establishes a far more vast and eerie sense of cosmic scale than ep176.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-18T17:21:38+05:30"
+}

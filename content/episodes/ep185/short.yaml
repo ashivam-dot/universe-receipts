@@ -73,21 +73,10 @@ beats:
   sfx: pop
   pause_after: 0.4
   visual:
-    source: url
-    url: https://www.artic.edu/iiif/2/e82b61d4-1d5b-a15d-4d2e-ff9caca3fb51/full/1686,/0/default.jpg
-    credit:
-      source: Art Institute of Chicago (CC0)
-      title: The Fall of the Giants
-      credit: 'Salvator Rosa
-
-        Italian, 1615-1673'
-      license: CC0
-      url: https://www.artic.edu/artworks/16
-    fallbacks:
-    - color
-    motion: pan_up
-    focus_x: 0.5
-    focus_y: 0.5
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.53
+    focus_y: 0.55
 - text: Worse, your lungs reverse function, actively stripping oxygen right out of your blood.
   emphasis:
   - reverse function
@@ -143,53 +132,37 @@ beats:
   sfx: pop
   pause_after: 0.4
   visual:
-    source: url
-    url: https://www.artic.edu/iiif/2/ac383837-c925-af46-0833-f7ac8595a68d/full/1686,/0/default.jpg
-    credit:
-      source: Art Institute of Chicago (CC0)
-      title: Face
-      credit: 'Artist unknown (Teotihuacan)
-
-        Teotihuacan, Vallery of Mexico, Mexico'
-      license: CC0
-      url: https://www.artic.edu/artworks/212967
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
+    reuse: 6
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-    card:
-      kind: fact
-      big: 15 SECONDS
-      small: Consciousness remaining
 - text: Crews repressurized the room within thirty seconds, leaving him without any permanent damage.
   emphasis:
   - thirty seconds
   - without any permanent damage
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/8/86/NPP_Runs_the_Gauntlet_of_Environmental_Testing_%28GSFC_20171208_Archive_e001819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/S98_15754.jpg/1920px-S98_15754.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: NPP Runs the Gauntlet of Environmental Testing (GSFC 20171208 Archive e001819).jpg
-      credit: NASA Goddard Space Flight Center
+      title: S98 15754.jpg
+      credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:NPP_Runs_the_Gauntlet_of_Environmental_Testing_(GSFC_20171208_Archive_e001819).jpg
+      url: https://commons.wikimedia.org/wiki/File:S98_15754.jpg
     fallbacks:
     - card
     - color
-    motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.5
+    motion: zoom_out
+    focus_x: 0.55
+    focus_y: 0.45
     card:
       kind: fact
       big: 30 SECONDS
       small: Rapid repressurization
-- text: You have roughly ninety seconds before hypoxia kills you, not a cinematic blast.
+- text: You have ninety seconds before hypoxia turns fatal, but your skin keeps you entirely intact.
   emphasis:
   - ninety seconds
-  - cinematic blast
+  - entirely intact
   visual:
     reuse: 1
     motion: zoom_out

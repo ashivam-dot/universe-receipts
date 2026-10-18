@@ -58,7 +58,108 @@
       "better_than_last": "It establishes immediate high-stakes historical drama faster than recent episodes.",
       "judge": "gemini-3.5-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-18T17:13:28+05:30",
+      "check": {
+        "duration": 56.9,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Phrasing is slightly passive, reducing immediate grab.",
+        "clarity": "Story flow is simple and easy to digest.",
+        "payoff": "Cloud reflection reveal provides a good twist.",
+        "visuals": "Imagery fits well, though beat 7 is diagrammatic.",
+        "loop": "Connects back to the start with decent flow."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: In 1983, Soviet satellites reported an incoming American nuclear strike.",
+        "Beat 9: Cloud-reflected sunlight nearly started World War Three."
+      ],
+      "better_than_last": "Delivers a more cohesive narrative tension than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T17:18:42+05:30",
+      "check": {
+        "duration": 54.87,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'3' heard as 'the 3rd' after 'started world war'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "High historical tension and on-screen countdown grab attention immediately.",
+        "clarity": "Logical sequence from threat detection to human reasoning and scientific explanation.",
+        "payoff": "Revealing that cloud-reflected sunlight almost triggered nuclear war delivers a great surprise.",
+        "visuals": "Strong imagery overall, though beat 2 depicts a memorial stone plaque rather than Petrov on duty.",
+        "loop": "The final mention of World War Three leads naturally back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a Polish memorial headstone plaque, which is mostly text and visually disconnects from Petrov on duty in 1983."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It builds dramatic real-world historical tension far more effectively before delivering its scientific cause.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

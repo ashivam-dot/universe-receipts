@@ -1,8 +1,8 @@
 id: ep184
-title: The 25-Minute Countdown That Almost Ended the World
+title: The Nuclear Alarm Caused by Sunlight on Clouds
 series: Near Misses
 description: In September 1983, a Soviet early-warning satellite detected incoming American nuclear missiles. Duty officer
-  Stanislav Petrov had minutes to decide whether to trigger World War Three.
+  Stanislav Petrov realized the computer alert was a massive false alarm.
 sources:
 - https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident
 - https://en.wikipedia.org/wiki/Stanislav_Petrov
@@ -26,9 +26,60 @@ voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: Soviet orbital satellites once confirmed an incoming nuclear strike with highest reliability.
+- text: In 1983, Soviet satellites reported an incoming American nuclear strike.
   emphasis:
-  - incoming nuclear strike
+  - incoming American
+  - nuclear strike
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Pershing_II_PC022206C.png/1920px-Pershing_II_PC022206C.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pershing II PC022206C.png
+      credit: United States Army
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pershing_II_PC022206C.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.33
+    focus_y: 0.34
+    box:
+    - 0.25
+    - 0.02
+    - 0.42
+    - 0.65
+- text: On September 26, early-warning screens alerted duty officer Stanislav Petrov to five missiles.
+  emphasis:
+  - Stanislav Petrov
+  - five missiles
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/2023_Warszawa_Ogr%C3%B3d_Sprawiedliwych%2C_Stanis%C5%82aw_Jewgrafowicz_Pietrow.jpg/3840px-2023_Warszawa_Ogr%C3%B3d_Sprawiedliwych%2C_Stanis%C5%82aw_Jewgrafowicz_Pietrow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 2023 Warszawa Ogród Sprawiedliwych, Stanisław Jewgrafowicz Pietrow.jpg
+      credit: Cybularny
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:2023_Warszawa_Ogr%C3%B3d_Sprawiedliwych,_Stanis%C5%82aw_Jewgrafowicz_Pietrow.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.18
+    - 0.07
+    - 0.81
+    - 0.9
+    card:
+      kind: dateline
+      big: September 1983
+      small: Serpukhov-15 bunker
+- text: With impact minutes away, automated military computers registered the threat at highest reliability.
+  emphasis:
   - highest reliability
   visual:
     source: url
@@ -40,80 +91,62 @@ beats:
       license: Public domain
       url: https://commons.wikimedia.org/wiki/File:Minuteman_III_launch_(4333697).jpg
     fallbacks:
+    - card
     - color
     motion: zoom_out
     focus_x: 0.48
-    focus_y: 0.62
+    focus_y: 0.64
     box:
-    - 0.15
-    - 0.35
-    - 0.75
-    - 0.9
-- text: On September 26, 1983, early-warning screens alerted duty officer Stanislav Petrov to five American missiles.
-  emphasis:
-  - Stanislav Petrov
-  - five American missiles
-  sfx: whoosh
-  visual:
-    source: card
-    card:
-      kind: dateline
-      big: September 1983
-      small: Serpukhov-15 bunker
-    motion: zoom_in
-- text: With impact minutes away, computers insisted an attack was underway.
-  emphasis:
-  - impact minutes away
-  - attack was underway
-  visual:
-    source: card
+    - 0.23
+    - 0.36
+    - 0.74
+    - 0.91
     card:
       kind: fact
       big: 20 to 25 min
       small: estimated flight time
-    motion: zoom_in
-- text: Yet Petrov suspected a real American strike would be an overwhelming barrage, not five isolated launches.
+- text: Yet Petrov reasoned a real first strike would be an overwhelming barrage, not five isolated launches.
   emphasis:
   - overwhelming barrage
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Minuteman_III_in_silo_1989.jpg/1280px-Minuteman_III_in_silo_1989.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Pershing_II_-_4th_test_launch.jpeg/1920px-Pershing_II_-_4th_test_launch.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Minuteman III in silo 1989.jpg
-      credit: Unknown author
+      title: Pershing II - 4th test launch.jpeg
+      credit: DoD
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Minuteman_III_in_silo_1989.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pershing_II_-_4th_test_launch.jpeg
     fallbacks:
     - color
-    motion: pan_up
-    focus_x: 0.62
-    focus_y: 0.45
+    motion: zoom_in
+    focus_x: 0.55
+    focus_y: 0.3
     box:
-    - 0.38
-    - 0.03
-    - 0.87
-    - 0.78
-- text: Ground radar showed clear skies, confirming his suspicion.
+    - 0.49
+    - 0.09
+    - 0.61
+    - 0.52
+- text: Ground radar showed clear skies over the horizon, confirming his suspicion.
   emphasis:
-  - Ground radar
   - clear skies
+  - over the horizon
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/ROTHR_USNavy_b.png/1280px-ROTHR_USNavy_b.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/DUGA_Radar_Array_near_Chernobyl%2C_Ukraine_2014.jpg/3840px-DUGA_Radar_Array_near_Chernobyl%2C_Ukraine_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: ROTHR USNavy b.png
-      credit: US Navy
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:ROTHR_USNavy_b.png
+      title: DUGA Radar Array near Chernobyl, Ukraine 2014.jpg
+      credit: Ingmar Runge
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:DUGA_Radar_Array_near_Chernobyl,_Ukraine_2014.jpg
     fallbacks:
     - color
     motion: pan_right
     focus_x: 0.5
-    focus_y: 0.5
-- text: Petrov decided against reporting an attack, alerting headquarters instead that the system had malfunctioned.
+    focus_y: 0.45
+- text: Petrov decided against reporting an attack, notifying headquarters instead that the system had malfunctioned.
   emphasis:
   - system had malfunctioned
   sfx: riser
@@ -121,10 +154,10 @@ beats:
     reuse: 5
     motion: zoom_in
     focus_x: 0.5
-    focus_y: 0.5
-- text: Investigations revealed satellites encountered a rare solar alignment.
+    focus_y: 0.45
+- text: Investigations later revealed the satellite had encountered a rare orbital alignment with the Sun.
   emphasis:
-  - rare solar alignment
+  - rare orbital alignment
   sfx: pop
   pause_after: 0.4
   visual:
@@ -141,10 +174,10 @@ beats:
     motion: pan_down
     focus_x: 0.5
     focus_y: 0.5
-- text: Blinded by the glare, the sensors mistook sunlight reflecting off high-altitude clouds for missile launches.
+- text: Sensors mistook bright reflection off high-altitude clouds for rocket flames.
   emphasis:
-  - reflecting off high-altitude clouds
-  - missile launches
+  - high-altitude clouds
+  - rocket flames
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/ISS031-E-121142_-_View_of_Earth.jpg/3840px-ISS031-E-121142_-_View_of_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -159,17 +192,17 @@ beats:
     - color
     motion: pan_left
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.35
     card:
       kind: fact
       big: Cloud glint
       small: mistaken for rocket fire
-- text: Glinting sunlight bouncing off clouds had triggered humanity's closest nuclear false alarm.
+- text: Cloud-reflected sunlight nearly started World War Three.
   emphasis:
-  - closest nuclear false alarm
+  - World War Three
   visual:
     reuse: 1
     motion: zoom_in
-    focus_x: 0.48
-    focus_y: 0.62
+    focus_x: 0.33
+    focus_y: 0.34
 hook_text: 25 MINUTES TO IMPACT
