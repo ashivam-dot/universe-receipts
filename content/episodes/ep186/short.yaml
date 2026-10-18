@@ -1,0 +1,184 @@
+id: ep186
+title: The Accidental Glare in the Pale Blue Dot
+series: Scale Breaker
+description: Carl Sagan called Earth a mote of dust in a sunbeam, but that iconic ray was actually camera glare.
+sources:
+- https://en.wikipedia.org/wiki/Pale_Blue_Dot
+- https://svs.gsfc.nasa.gov/13544
+- https://www.planetary.org/worlds/pale-blue-dot
+- https://www.npr.org/templates/story/story.php?storyId=123614938
+- https://www.scientificamerican.com/blog/observations/how-the-celebrated-pale-blue-dot-image-came-to-be/
+- http://www.space.com/1280-earthly-view-mars.html
+- https://www.bbc.com/news/science-environment-51491471
+hashtags:
+- '#space'
+- '#voyager'
+- '#palebluedot'
+tags:
+- pale blue dot
+- voyager 1
+- carl sagan
+- space photography
+- astronomy
+- nasa
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: That famous beam of light cradling Earth was just camera glare.
+  emphasis:
+  - camera glare
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Pale_Blue_Dot_from_Voyager_1_-_PIA23645.tiff/lossy-page1-3840px-Pale_Blue_Dot_from_Voyager_1_-_PIA23645.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pale Blue Dot from Voyager 1 - PIA23645.tiff
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot_from_Voyager_1_-_PIA23645.tiff
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.76
+    focus_y: 0.55
+    card:
+      kind: fact
+      big: CAMERA GLARE
+      small: Pale Blue Dot
+- text: In 1990, NASA's Voyager 1 looked back across roughly 4 billion miles to photograph home.
+  emphasis:
+  - 4 billion miles
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d2/Voyager.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: February 1990
+      small: Voyager 1
+- text: Astronomer Carl Sagan fought for years to take it, despite officials fearing the Sun would destroy the optics.
+  emphasis:
+  - Carl Sagan
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Planetary_society.jpg/1280px-Planetary_society.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Planetary society.jpg
+      credit: credit NASA JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Planetary_society.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.42
+    focus_y: 0.45
+    box:
+    - 0.3
+    - 0.35
+    - 0.53
+    - 0.65
+- text: NASA Administrator Richard Truly approved the 60-frame sequence, and the probe fired its cameras one final time before
+    shutting them down forever.
+  emphasis:
+  - shutting them down forever
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Family_portrait_%28Voyager_1%29.png/3840px-Family_portrait_%28Voyager_1%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Family portrait (Voyager 1).png
+      credit: NASA, Voyager 1
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Family_portrait_(Voyager_1).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 60 Frames
+      small: Final family portrait
+- text: Most people see a poetic sunbeam miraculously illuminating our lonely blue world.
+  emphasis:
+  - poetic sunbeam
+  visual:
+    reuse: 4
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: In reality, that dramatic ray was merely sunlight bouncing off the spacecraft's own camera sunshade.
+  emphasis:
+  - camera sunshade
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d8/Voyager_spacecraft_structure.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager spacecraft structure.png
+      credit: 'Voyager_spacecraft_structure.jpg: NASA
+
+        derivative work: Mirecki (talk)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_structure.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.15
+    box:
+    - 0.42
+    - 0.02
+    - 0.6
+    - 0.2
+- text: Even more humbling, our entire planet does not even fill a dot, taking up only 0.12 of a single pixel.
+  emphasis:
+  - 0.12 of a single pixel
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/71/PaleBlueDot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PaleBlueDot.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PaleBlueDot.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.56
+    focus_y: 0.4
+    card:
+      kind: fact
+      big: 0.12 Pixel
+      small: Earth's apparent size
+- text: All of human history was captured as a fraction of a pixel inside an accidental reflection.
+  emphasis:
+  - accidental reflection
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.76
+    focus_y: 0.55
+hook_text: 4 BILLION MILES AWAY

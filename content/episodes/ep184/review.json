@@ -1,0 +1,64 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-18T05:17:06+05:30",
+      "check": {
+        "duration": 64.79,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [
+          "duration 64.79 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong dramatic premise grabs attention within the first two seconds.",
+        "clarity": "Logical chronological structure makes the complex story easy to follow.",
+        "payoff": "Satisfying twist explaining how sunlight caused the nuclear alarm.",
+        "visuals": "Images are clear, but static grave photos drag pacing down.",
+        "loop": "Audio transitions okay, but total video duration exceeds the limit."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a modern grave monument in Polish rather than historical context."
+        },
+        {
+          "beat": 6,
+          "problem": "Uses the exact same unframed picture as beat 5 without reframing."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Soviet satellites once confirmed an incoming nuclear strike.",
+        "Beat 3: With impact minutes away, computers insisted an attack was underway.",
+        "Beat 5: Ground radar showed clear skies, confirming his suspicion.",
+        "Beat 7: Investigations revealed satellites encountered a rare solar alignment."
+      ],
+      "better_than_last": "It establishes immediate high-stakes historical drama faster than recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

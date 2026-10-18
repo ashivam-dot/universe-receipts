@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-18T05:08:46+05:30",
+  "updated_at": "2026-10-18T11:06:40+05:30",
   "day": 17,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M563G0KDFH5GSVXNKR6K2WXR",
+    "id": "ta-01M56R35EX0G6TA1GT3WPENB5R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-18T05:05:18+05:30",
-    "started_at_utc": "2026-10-17T23:35:18+00:00",
-    "seconds": 208
+    "started_at": "2026-10-18T11:05:07+05:30",
+    "started_at_utc": "2026-10-18T05:35:07+00:00",
+    "seconds": 93
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 4.7
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "50 posts",
-      "seconds": 5.5
+      "detail": "51 posts",
+      "seconds": 1.2
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep133 to 'Space Got Weird'",
-      "seconds": 4.1
+      "detail": "added ep051 to 'Mission Files'",
+      "seconds": 2.5
     },
     {
       "name": "languages",
@@ -45,110 +45,84 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep105 at 72 h: level with the channel's earlier Shorts at this age: 870 views against a median of 911 (1.0x); ep130 at 24 h: level with the channel's earlier Shorts at this age: 823 views against a median of 741 (1.1x); ep175 at 6 h: ahead of the channel's earlier Shorts at this age: 1383 views against a median of 658 (2.1x); learnings: Analyzed performance for ep086 through ep130, updating evidence for technical simplification, loop endings, and active hooks.",
-      "seconds": 127.3
+      "detail": "ep112 at 72 h: level with the channel's earlier Shorts at this age: 889 views against a median of 870 (1.0x); ep125 at 24 h: behind the channel's earlier Shorts at this age: 450 views against a median of 750 (0.6x); ep133 at 6 h: ahead of the channel's earlier Shorts at this age: 1041 views against a median of 659 (1.6x); learnings: Added ep125 as evidence to the rule against technical jargon in scripts after dry rocket metrics reduced viewer likes to 2.0 per 100.",
+      "seconds": 58.6
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep181 ready; ep182 rejected (research: only 0 claims have two different sites); ep183 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 17.9
+      "detail": "ep184 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep185 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep186 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
+      "seconds": 9.5
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.7
-    },
-    {
-      "name": "preflight ep051",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 1.1
+      "seconds": 0.1
     },
     {
       "name": "preflight ep053",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.1
+      "seconds": 0.5
     },
     {
       "name": "preflight ep137",
       "ok": true,
       "detail": "video still hosted",
+      "seconds": 0.2
+    },
+    {
+      "name": "preflight ep159",
+      "ok": true,
+      "detail": "video downloads whole (22 MB in 0 s)",
+      "seconds": 0.5
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 3.6
+    },
+    {
+      "name": "schedule ep167",
+      "ok": true,
+      "detail": "2026-10-19T12:30:00-04:00",
+      "seconds": 1.2
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
       "seconds": 1.1
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 5.8
-    },
-    {
-      "name": "schedule ep159",
-      "ok": true,
-      "detail": "2026-10-18T12:30:00-04:00",
-      "seconds": 2.7
-    },
-    {
-      "name": "start ep184",
-      "ok": true,
-      "detail": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
-      "seconds": 8.2
-    },
-    {
-      "name": "start ep185",
-      "ok": true,
-      "detail": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
-      "seconds": 3.7
-    },
-    {
-      "name": "start ep186",
-      "ok": true,
-      "detail": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
-      "seconds": 1.5
-    },
-    {
-      "name": "start ep187",
-      "ok": true,
-      "detail": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
-      "seconds": 3.8
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 2.6
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep183 stopped on Gemini's free quota; it resumes in a later run",
+    "ep184 stopped on Gemini's free quota; it resumes in a later run",
+    "ep185 stopped on Gemini's free quota; it resumes in a later run",
+    "ep186 stopped on Gemini's free quota; it resumes in a later run",
+    "ep187 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 22 waiting"
+    "room for 0 of the 4 Shorts wanted: Modal's credit covers 61, this run's share of the Actions minutes 0",
+    "Buffer is full (10 queued); 21 waiting"
   ],
   "inventory": {
-    "total": 32,
+    "total": 31,
     "in_buffer": 10,
-    "waiting": 22,
+    "waiting": 21,
     "target": 42,
     "making": [
-      "ep183"
-    ],
-    "remote": [
+      "ep183",
       "ep184",
       "ep185",
       "ep186",
       "ep187"
-    ]
+    ],
+    "remote": []
   },
   "queue": [
-    {
-      "id": "ep051",
-      "title": "The NASA Mission That Fell from the Sky",
-      "due_at": "2026-10-17T21:30:00-04:00"
-    },
     {
       "id": "ep159",
       "title": "Why the Great Wall of China Is INVISIBLE from Space",
@@ -163,6 +137,11 @@
       "id": "ep053",
       "title": "The 25 Million Daily Space Rocks Hitting Earth",
       "due_at": "2026-10-18T21:30:00-04:00"
+    },
+    {
+      "id": "ep167",
+      "title": "The Alien World Buried Inside Earth",
+      "due_at": "2026-10-19T12:30:00-04:00"
     },
     {
       "id": "ep058",
@@ -293,12 +272,6 @@
       "score": 21
     },
     {
-      "id": "ep167",
-      "title": "The Alien World Buried Inside Earth",
-      "series": "The Universe Is Terrifying",
-      "score": 23
-    },
-    {
       "id": "ep168",
       "title": "The 50-Year Hunt for a Phantom Planet",
       "series": "Space Myths, Busted",
@@ -331,121 +304,83 @@
   ],
   "made": [
     {
-      "id": "ep181",
-      "outcome": "ready",
-      "topic": "SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years",
-      "title": "The Dead Star That Warped Earth",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792259474/universereceipts/ep181-186d70ed.mp4"
-    },
-    {
-      "id": "ep182",
-      "outcome": "rejected",
-      "topic": "R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
-      "id": "ep183",
+      "id": "ep184",
       "outcome": "unfinished",
-      "topic": "WASP-76b (2020): an ultra-hot world where extreme temperatures vaporize iron on the dayside, driving winds that make it rain liquid iron droplets at night",
+      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep185",
+      "outcome": "unfinished",
+      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep186",
+      "outcome": "unfinished",
+      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep187",
+      "outcome": "unfinished",
+      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     }
   ],
-  "spawned": [
-    {
-      "id": "ep184",
-      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
-      "call_id": "fc-01M563PF40TMDJ4KH6Z5SDFY8R"
-    },
-    {
-      "id": "ep185",
-      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
-      "call_id": "fc-01M563PJRN13VR81AWMP2JEM2G"
-    },
-    {
-      "id": "ep186",
-      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
-      "call_id": "fc-01M563PM8PB1ZH6KB1ZA19RDSC"
-    },
-    {
-      "id": "ep187",
-      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
-      "call_id": "fc-01M563PQYEFSCTZTH0K2CGYGE7"
-    }
-  ],
-  "in_cloud": [
-    {
-      "id": "ep184",
-      "topic": "1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm",
-      "spawned_at": "2026-10-18T05:08:33+05:30"
-    },
-    {
-      "id": "ep185",
-      "topic": "Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth",
-      "spawned_at": "2026-10-18T05:08:36+05:30"
-    },
-    {
-      "id": "ep186",
-      "topic": "Pale Blue Dot (1990): Earth fills just 0.12 of one pixel, and the beam of light it sits in is sunlight glinting off the camera itself",
-      "spawned_at": "2026-10-18T05:08:38+05:30"
-    },
-    {
-      "id": "ep187",
-      "topic": "Rogue planet (2011): billions of planets may drift through the Milky Way in total darkness, with no star at all",
-      "spawned_at": "2026-10-18T05:08:42+05:30"
-    }
-  ],
+  "spawned": [],
+  "in_cloud": [],
   "published": [
     {
-      "id": "ep159",
-      "title": "Why the Great Wall of China Is INVISIBLE from Space",
-      "due_at": "2026-10-18T12:30:00-04:00"
+      "id": "ep167",
+      "title": "The Alien World Buried Inside Earth",
+      "due_at": "2026-10-19T12:30:00-04:00"
     }
   ],
-  "live": 41,
+  "live": 42,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 29,
+    "calls": 26,
     "by_model": {
-      "gemini-3.8-flash": 5,
-      "gemini-3.7-flash": 3,
-      "gemini-3-flash-preview": 12,
+      "gemini-3.8-flash": 3,
+      "gemini-3.7-flash": 5,
       "gemini-3.6-flash": 1,
-      "gemini-3.5-flash-lite": 8
+      "gemini-3.5-flash-lite": 13,
+      "gemini-3.5-flash": 1,
+      "gemini-3-flash-preview": 2,
+      "gemini-flash-latest": 1
     },
     "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
       "gemini-3.7-flash",
       "gemini-3.8-flash"
     ]
   },
   "renders": {
-    "modal": 6,
+    "modal": 5,
     "runner": 0
   },
   "daily_done": "2026-10-17",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 20.4,
+    "metered": 20.58,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 63,
+    "cloud": 61,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 7.6
+    "modal_credit_left": 7.42
   },
   "made_here": 0,
   "open_topics": 26,
