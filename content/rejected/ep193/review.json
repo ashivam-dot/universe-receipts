@@ -135,7 +135,65 @@
       "better_than_last": "This short handles cosmic scale more effectively than the gold star episode.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-19T17:10:20+05:30",
+      "check": {
+        "duration": 48.62,
+        "words": 106,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'jon hakkila' heard as 'john hakila' after 'distant constellations astronomer'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong opening scale paradox that grabs curiosity quickly.",
+        "clarity": "Cosmological principle concept is slightly abstract without extra setup.",
+        "payoff": "Statistical illusion angle lands decently but lacks full punch.",
+        "visuals": "Includes an irrelevant spacecraft and illegible scientific plots.",
+        "loop": "Closing sentence does not flow smoothly into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "shows the Kepler space telescope instead of gamma-ray observatories like Swift or Fermi"
+        },
+        {
+          "beat": 7,
+          "problem": "dense academic diagram with unreadable text and graphs on mobile"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: change to 'Yet cosmologists still cannot explain why' so it connects directly to Beat 1."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: clarity, payoff, visuals, loop; 2 frame problems",
+  "rejected_at": "2026-10-19T17:10:20+05:30"
 }

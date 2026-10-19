@@ -1,12 +1,12 @@
 id: ep194
-title: The Unit Mismatch That Lost a Mars Probe
+title: The Math Error That Lost a Mars Orbiter
 series: Mission Files
-description: How a simple software mix-up between pound-force and newtons doomed the Mars Climate Orbiter in 1999.
+description: In 1999, NASA lost the Mars Climate Orbiter after software mixed up imperial and metric units.
 sources:
-- https://www.latimes.com/archives/la-xpm-1999-oct-01-mn-17288-story.html
+- https://en.wikipedia.org/wiki/Mars_Climate_Orbiter
 - https://www.19fortyfive.com/2026/09/mars-climate-orbiter-ran-on-pound-force-seconds-while-nasas-software-expected-newtons-and-over-nine-months-that-4-45-to-one-error-put-it-35-miles-above-mars-instead-of-85-so-on-23-september-1/
 - https://spacedaily.com/m-in-1999-nasa-lost-a-125-million-mars-spacecraft-because-of-a-metric-versus-imperial-mix-up-the-kind-of-conversion-mistake-most-of-us-have-made-only-this-one-ended-with-a-probe-disappearin/
-- https://en.wikipedia.org/wiki/Mars_Climate_Orbiter
+- https://www.latimes.com/archives/la-xpm-1999-oct-01-mn-17288-story.html
 - https://www.jpl.nasa.gov/news/mars-climate-orbiter-team-finds-likely-cause-of-loss/
 - https://web.archive.org/web/20131226075519/http://www.pbs.org/newshour/bb/science/jan-june00/nasa_4-14.html
 hashtags:
@@ -15,73 +15,69 @@ hashtags:
 - '#mars'
 tags:
 - Mars Climate Orbiter
+- NASA
 - Lockheed Martin
 - JPL
-- spacecraft failure
+- space exploration
 - unit conversion
-- space missions
 voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: A 125-million-dollar orbiter vanished because of a simple unit error.
+- text: A 125-million-dollar NASA orbiter vanished behind Mars without a trace.
   emphasis:
-  - unit error
+  - vanished behind Mars
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Mars_Climate_Orbiter_2.jpg/1920px-Mars_Climate_Orbiter_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/7/75/Mars_Climate_Orbiter_-_artist_depiction_-_climate-orbiter-browse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Mars Climate Orbiter 2.jpg
-      credit: NASA/JPL/Corby Waste
+      title: Mars Climate Orbiter - artist depiction - climate-orbiter-browse.jpg
+      credit: NASA/JPL
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Mars_Climate_Orbiter_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Mars_Climate_Orbiter_-_artist_depiction_-_climate-orbiter-browse.jpg
     fallbacks:
     - card
     - color
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
+    motion: pan_right
+    focus_x: 0.56
+    focus_y: 0.44
+    box:
+    - 0.36
+    - 0.05
+    - 0.76
+    - 0.84
     card:
       kind: fact
       big: $125 MILLION
       small: Orbiter cost
-- text: Launched in 1998, the probe spent nine months traveling to Mars.
+- text: In September 1999, the spacecraft fired its engine to enter orbit after a nine-month voyage.
   emphasis:
-  - nine months
+  - September 1999
+  - nine-month voyage
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Delta_II_7425_carrying_Mars_Climate_Orbiter_%28KSC-98PC-1837%29.jpg/1280px-Delta_II_7425_carrying_Mars_Climate_Orbiter_%28KSC-98PC-1837%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f5/Mars_Climate_Orbiter_-_interplanetary_trajectory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Delta II 7425 carrying Mars Climate Orbiter (KSC-98PC-1837).jpg
-      credit: NASA/KSC
+      title: Mars Climate Orbiter - interplanetary trajectory.png
+      credit: NASA/JPL
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Delta_II_7425_carrying_Mars_Climate_Orbiter_(KSC-98PC-1837).jpg
+      url: https://commons.wikimedia.org/wiki/File:Mars_Climate_Orbiter_-_interplanetary_trajectory.png
     fallbacks:
     - card
     - color
-    motion: pan_up
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: dateline
-      big: '1998'
-      small: Launch
-- text: In September 1999, the probe reached its destination and prepared to enter orbit.
-  emphasis:
-  - September 1999
-  visual:
-    source: card
-    card:
-      kind: dateline
       big: SEPTEMBER 1999
-      small: Mars Arrival
-    motion: zoom_in
-- text: But instead of sliding into a safe path, the spacecraft went silent and never called home.
+      small: Arrival at Mars
+- text: It slipped behind the red planet as planned, but its radio signal never returned.
   emphasis:
-  - went silent
+  - never returned
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Deep-space-op.jpg/1280px-Deep-space-op.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -95,41 +91,10 @@ beats:
     - color
     motion: zoom_out
     focus_x: 0.5
-    focus_y: 0.5
-- text: Investigators found a lethal software conflict between NASA and the builder, Lockheed Martin.
-  emphasis:
-  - Lockheed Martin
-  sfx: whoosh
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lockheed_Martin_Office%2C_Colorado_Springs_%2854557169938%29.jpg/3840px-Lockheed_Martin_Office%2C_Colorado_Springs_%2854557169938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Lockheed Martin Office, Colorado Springs (54557169938).jpg
-      credit: Lumen Wilde
-      license: CC BY 2.0
-      url: https://commons.wikimedia.org/wiki/File:Lockheed_Martin_Office,_Colorado_Springs_(54557169938).jpg
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: One team used metric newtons while the other used imperial pounds, a four point four five times difference.
-  emphasis:
-  - four point four five
-  sfx: riser
-  visual:
-    source: card
-    card:
-      kind: fact
-      big: 4.45x
-      small: Unit difference
-    motion: zoom_in
-- text: This math error steered the probe into the Martian atmosphere at an altitude of just fifty-seven kilometers.
+    focus_y: 0.55
+- text: Tracking data revealed the probe had plunged to an altitude of just fifty-seven kilometers.
   emphasis:
   - fifty-seven kilometers
-  sfx: pop
-  pause_after: 0.4
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Mars_Climate_Orbiter_-_mishap_diagram.png/960px-Mars_Climate_Orbiter_-_mishap_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -142,40 +107,111 @@ beats:
     fallbacks:
     - card
     - color
-    motion: pan_right
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
       big: 57 KM
       small: Actual altitude
-- text: Dropping below 80 kilometers destroyed the orbiter; that was the survival limit.
+- text: Its minimum survival altitude was 80 kilometers, leaving the probe incinerated in the atmosphere.
   emphasis:
-  - survival limit
+  - 80 kilometers
+  sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Impactor_Debris_Scattered_Within_Mars%E2%80%99_Mantle_%28Artist%E2%80%99s_Concept%29_%28PIA26636%29.tiff/lossy-page1-3840px-Impactor_Debris_Scattered_Within_Mars%E2%80%99_Mantle_%28Artist%E2%80%99s_Concept%29_%28PIA26636%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://live.staticflickr.com/4822/45991611011_7e64a895cf_b.jpg
     credit:
-      source: Wikimedia Commons
-      title: Impactor Debris Scattered Within Mars’ Mantle (Artist’s Concept) (PIA26636).tiff
-      credit: NASA/JPL-Caltech
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Impactor_Debris_Scattered_Within_Mars%E2%80%99_Mantle_(Artist%E2%80%99s_Concept)_(PIA26636).tiff
+      source: Flickr via Openverse
+      title: Mars - Over Gale Crater
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/53460575@N03/45991611011
     fallbacks:
     - card
     - color
-    motion: zoom_in
+    motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
       big: 80 KM
-      small: Survival Limit
-- text: A simple unit error meant a 125-million-dollar orbiter vanished.
+      small: Survival limit
+- text: Investigators traced the catastrophe to thruster software shared between two distant teams.
   emphasis:
-  - orbiter vanished
+  - thruster software
   visual:
-    reuse: 1
-    motion: zoom_in
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/63/Mars_Climate_Orbiter_-_spacecraft_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mars Climate Orbiter - spacecraft diagram.png
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Climate_Orbiter_-_spacecraft_diagram.png
+    fallbacks:
+    - color
+    motion: pan_up
     focus_x: 0.5
     focus_y: 0.5
+- text: Lockheed Martin in Colorado calculated thruster impulse using imperial pound-force seconds.
+  emphasis:
+  - pound-force seconds
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lockheed_Martin_Office%2C_Colorado_Springs_%2854557169938%29.jpg/3840px-Lockheed_Martin_Office%2C_Colorado_Springs_%2854557169938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Lockheed Martin Office, Colorado Springs (54557169938).jpg
+      credit: Lumen Wilde
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Lockheed_Martin_Office,_Colorado_Springs_(54557169938).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.51
+    focus_y: 0.3
+    box:
+    - 0.19
+    - 0.2
+    - 0.83
+    - 0.36
+    card:
+      kind: fact
+      big: POUND-FORCE
+      small: Lockheed software
+- text: NASA navigators in California expected metric newtons, a difference of four point four five times.
+  emphasis:
+  - four point four five times
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Mission_Control-_Floor_Level_%2849386802568%29.png/1920px-Mission_Control-_Floor_Level_%2849386802568%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mission Control- Floor Level (49386802568).png
+      credit: NASAJPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mission_Control-_Floor_Level_(49386802568).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 4.45x
+      small: Unit difference
+- text: Two engineering teams forgot to convert basic units before sending their craft into the dark.
+  emphasis:
+  - forgot to convert
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.56
+    focus_y: 0.44
+hook_text: LOST BEHIND MARS

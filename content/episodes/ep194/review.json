@@ -53,7 +53,102 @@
       "better_than_last": "This script explains a technical failure more clearly than the complex stellar chemistry of episode 191.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-19T17:10:37+05:30",
+      "check": {
+        "duration": 53.53,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong financial hook, though it spoils the premise immediately.",
+        "clarity": "Logical sequence explaining the technical discrepancy clearly.",
+        "payoff": "The unit conversion difference provides an adequate conclusion.",
+        "visuals": "Historical imagery fits well, but beat 8 is unrelated.",
+        "loop": "Beat 9 restates the opening sentence rather than linking smoothly."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "The image shows a burning star with asteroid debris instead of Mars atmospheric entry."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: That fatal descent happened all because"
+      ],
+      "better_than_last": "Features authentic mission control and launch archival imagery directly tied to the historical event.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-19T17:15:53+05:30",
+      "check": {
+        "duration": 57.37,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'into the dark'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "A 125-million-dollar loss combined with an instant disappearance immediately stops the feed.",
+        "clarity": "The sequence from orbital insertion failure to the specific software discrepancy is effortless to follow.",
+        "payoff": "The reveal of an elementary metric-to-imperial math blunder costing an interplanetary mission lands hard.",
+        "visuals": "Crisp mix of real mission control archival photography, spacecraft diagrams, and trajectory plots.",
+        "loop": "Connects thematically back into beat 1, though it reads as two distinct sentences rather than an unbroken thought."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The narrative twist of a multimillion-dollar disaster caused by simple unit confusion delivers a more satisfying punchline than ep191's gold synthesis explanation.",
+      "judge": "gemini-3.8-flash",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

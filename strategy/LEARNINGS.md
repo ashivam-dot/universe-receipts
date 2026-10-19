@@ -11,10 +11,10 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
 | Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 52% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 78.0% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 128% | rising week over week |
-| Subscribers per 1,000 views | `subscribersGained` / `views` | 0.9 | 2+ |
-| Likes per 100 views | `likes` / `views` | 3.4 | 4+ |
+| Average percentage viewed | `analytics.averageViewPercentage` | 78.6% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 129% | rising week over week |
+| Subscribers per 1,000 views | `subscribersGained` / `views` | 0.4 | 2+ |
+| Likes per 100 views | `likes` / `views` | 3.1 | 4+ |
 
 ## Rules we've proven
 
@@ -24,21 +24,21 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Put the strongest surprise or contradiction in the first 2 seconds to maximize view velocity and early retention. Evidence: ep008, ep024, ep084.
 - Start the opening script line with a curiosity gap rather than a static statement or text overlay to improve initial retention. Evidence: ep002, ep009, ep040, ep129.
 - Replace closed circular endings with an open-ended question, debate prompt, or provocative paradox in the final beat to drive audience comments. Evidence: ep004, ep013, ep017, ep024, ep028, ep032, ep033, ep047, ep050, ep052, ep055, ep060, ep066, ep086, ep099, ep105, ep110, ep111, ep112, ep118, ep133, ep175.
-- Write a last line that flows straight into the first line to increase average percentage viewed and trigger rewatches. Evidence: ep008, ep013, ep028, ep032, ep047, ep086, ep099, ep114, ep129.
+- Write a last line that flows straight into the first line to increase average percentage viewed and trigger rewatches. Evidence: ep008, ep013, ep028, ep032, ep047, ep086, ep099, ep111, ep112, ep114, ep129.
 - Avoid repeating exact hook phrases verbatim in the final beat; replace them with a distinct concluding payoff, seamless cliffhanger, or forward-looking question to prevent steep retention and like drops. Evidence: ep017, ep024, ep036, ep052, ep055, ep084.
 - Condense mid-script setups into single punchy beats to keep the final beat under 3 seconds and sustain end retention above 1.0. Evidence: ep008, ep009, ep047, ep084.
-- Compress or eliminate complex technical explanations, scientific definitions, or catalog designations in all beats to prevent retention drop-off. Evidence: ep008, ep028, ep086, ep112, ep125.
+- Compress or eliminate complex technical explanations, scientific definitions, or catalog designations in all beats to prevent retention drop-off. Evidence: ep008, ep028, ep086, ep112, ep125, ep159.
 - Deliver the core narrative payoff or setup within the first 3 seconds immediately after the hook to prevent pacing drop-off. Evidence: ep004, ep009, ep061, ep084, ep114.
 - Accelerate middle-beat reveals on cosmic scale topics to maintain audience engagement through the midpoint. Evidence: ep032, ep036.
 - Use high-urgency hook phrases to boost immediate view velocity and distribution. Evidence: ep032, ep035, ep112.
 - Tighten pacing in the second and third beats to prevent early-retention drop-offs. Evidence: ep009, ep036.
 - Avoid passive statement hooks in favor of high-tension, active mysteries or direct questions to prevent early viewer drop-off. Evidence: ep002, ep033, ep040, ep061, ep086, ep110, ep129, ep130.
-- Replace historical discovery dates, timeline beats, catalog designations, and academic debates with immediate physical scale comparisons or active narrative tension. Evidence: ep030, ep046, ep049, ep060, ep061, ep079, ep086, ep114.
+- Replace historical discovery dates, timeline beats, catalog designations, and academic debates with immediate physical scale comparisons or active narrative tension. Evidence: ep030, ep046, ep049, ep060, ep061, ep079, ep086, ep114, ep159.
 - Eliminate redundant concept or numerical restatements between the hook and subsequent beats to sustain narrative velocity. Evidence: ep049, ep052, ep084, ep130.
 - Cut generic concluding wrap-up statements in favor of an abrupt punchline quote, seamless loop, or challenge to prevent late-retention drift. Evidence: ep046, ep047, ep060, ep084, ep099, ep114, ep129.
 - Replace cosmic tropes with specific observational details in the hook to improve scroll-stop rates. Evidence: ep066, ep118, ep129.
 - Replace informational or summary endings with direct community-search prompts, action questions, or scale comparisons to generate comments and lift likes. Evidence: ep066, ep105, ep110, ep118, ep133, ep175.
-- Replace administrative proper names, researcher biographies, and instrument lists in middle beats with immediate anomaly reveals or countdown timeframes to maintain narrative tension and pacing. Evidence: ep111, ep112.
+- Replace administrative proper names, researcher biographies, and instrument lists in middle beats with immediate anomaly reveals or countdown timeframes to maintain narrative tension and pacing. Evidence: ep111, ep112, ep125.
 - Avoid giveaway conclusion signals (such as 'That is why', 'In the end', or 'So') in final beats to prevent viewer drop-off before the loop or payoff completes. Evidence: ep111, ep118, ep129.
 - Use immediate physical threat or high-stakes action phrases in hook text rather than abstract distances or dates to maximize swipe-through. Evidence: ep112, ep130, ep133.
 - Avoid stacking multiple rapid numerical figures or dates across consecutive middle beats to prevent cognitive fatigue and protect like conversion. Evidence: ep125, ep175.
@@ -78,7 +78,7 @@ contradiction.
 | ep048 | Scale Breaker | statement, scale_ladder | 1052 | 53% | 77.2% | 136% | 1 | – |
 | ep049 | The Universe Is Terrifying | statement, scale_ladder | 699 | 49% | 65.4% | 125% | 2 | – |
 | ep050 | Near Misses | contradiction, scale_ladder | 1134 | 53% | 62.8% | 111% | 2 | – |
-| ep051 | Mission Files | statement, scale_ladder | 1219 | – | – | – | – | – |
+| ep051 | Mission Files | statement, scale_ladder | 1220 | – | – | – | – | – |
 | ep052 | Space Got Weird | statement, story | 826 | 55% | 64.3% | 120% | 4 | – |
 | ep055 | The Universe Is Terrifying | contradiction, story | 482 | 52% | 51.9% | 106% | 2 | – |
 | ep060 | Scale Breaker | statement, scale_ladder | 783 | 37% | 69.0% | 117% | 1 | – |
@@ -89,16 +89,17 @@ contradiction.
 | ep086 | Space Got Weird | statement, record | 524 | 47% | 137.6% | 177% | 3 | – |
 | ep099 | Scale Breaker | statement, scale_ladder | 1028 | 51% | 70.6% | 124% | 1 | – |
 | ep105 | Scale Breaker | statement, myth_vs_fact | 873 | 50% | 158.8% | 212% | 4 | – |
-| ep110 | Space Got Weird | statement, story | 1193 | 56% | 77.4% | 121% | 2 | Passive label hook depressed swipe-through and early retention, but strong mid-story pacing maintained 77.4% average viewed before an abrupt conclusion halved end completion. |
-| ep111 | Scale Breaker | number, story | 1194 | 52% | 98.4% | 145% | 1 | Intriguing physics-breaking hook drove strong early retention (at10 1.454) and 98.4% average viewed, though a hard-stop final beat prevented a rewatch loop. |
-| ep112 | Near Misses | statement, story | 894 | 53% | 62.6% | 111% | 1 | High-urgency asteroid hook secured strong feed pick-up, but middle-beat researcher name-drops and a flat ending dragged completion to 33.8% and likes to 2.9%. |
-| ep114 | Scale Breaker | statement, scale_ladder | 297 | 50% | 73.8% | 126% | 0 | Hook beat held viewers well at 5%, but weak engaged share (49.5%) and a passive summary ending stalled distribution and eliminated looping momentum. |
-| ep118 | Space Got Weird | statement, mystery | 1090 | 54% | 70.7% | 118% | 0 | Strong visual puzzle hook powered 1,090 views, but an unresolved anticlimactic ending caused steep abandonment (47.3% at end) and low like conversion (2.7%). |
-| ep125 | Mission Files | statement, record | 1002 | 52% | 199.4% | 250% | 1 | Sensational nuclear propulsion concept drove massive looping (199.4% average viewed), but dense technical metrics in beat 3 collapsed likes to 2.0 per 100. |
-| ep129 | Space Got Weird | statement, story | 364 | 57% | 82.6% | 132% | 1 | Curiosity hook and strong mid-pacing delivered 6.1 likes per 100 and 57% engaged share, but a definitive final sentence prevented a rewatch loop. |
-| ep130 | The Universe Is Terrifying | statement, scale_ladder | 1028 | 50% | 78.6% | 129% | 2 | Immediate physical hazard drove brisk velocity and comments, but abstract hook text and revealing the threat in beat 1 reduced mid-script tension. |
-| ep133 | Space Got Weird | statement, scale_ladder | 1222 | – | – | – | – | Earth-scale visual comparison fueled strong view velocity (49.2 views/hr), but resolving the mystery cleanly without a debate prompt capped likes at 3.2%. |
-| ep175 | Scale Breaker | contradiction, mystery | 1490 | – | – | – | – | Age-versus-size paradox hook drove record view velocity (57.2 views/hr), but consecutive rapid-fire numbers fatigued viewers, yielding only 2.4 likes per 100. |
+| ep110 | Space Got Weird | statement, story | 1193 | 56% | 77.4% | 121% | 2 | – |
+| ep111 | Scale Breaker | number, story | 1194 | 52% | 98.4% | 146% | 1 | Strong mystery hook and mid-pacing; visuals sustained retention, but a hard-stop ending prevented looping. |
+| ep112 | Near Misses | statement, story | 894 | 53% | 62.6% | 111% | 1 | Standard topic reach; pacing collapsed late due to researcher names and jargon; loop failed on definitive ending. |
+| ep114 | Scale Breaker | statement, scale_ladder | 297 | 50% | 73.8% | 126% | 0 | Effective curiosity hook but abstract text caused high swipes; pacing dropped late; loop failed to bridge back. |
+| ep118 | Space Got Weird | statement, mystery | 1093 | 54% | 70.7% | 118% | 0 | Strong visual analogy in hook; pacing good until an unresolved, dead-end conclusion killed likes and looping. |
+| ep125 | Mission Files | statement, record | 1006 | 52% | 199.4% | 250% | 1 | High-concept topic; pacing was bogged down by technical metrics; visuals and loop were too flat for likes. |
+| ep129 | Space Got Weird | statement, story | 364 | 57% | 82.6% | 132% | 1 | Excellent hook and visual premise; pacing was tight, but the loop failed because the conclusion was too definitive. |
+| ep130 | The Universe Is Terrifying | statement, scale_ladder | 1028 | 50% | 78.6% | 129% | 2 | Topic tension was high; pacing hurt by repetitive reveals; hook text was too abstract compared to the threat. |
+| ep133 | Space Got Weird | statement, scale_ladder | 1234 | – | – | – | – | Scale-based hook drove strong views and pacing; loop failed because the mystery was resolved too cleanly. |
+| ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | – | – | – | – | Popular topic drove reach; pacing suffered from technical jargon and a historical focus, tanking the like ratio. |
+| ep175 | Scale Breaker | contradiction, mystery | 1498 | – | – | – | – | Top-tier contradiction hook; pacing was fatigued by rapid-fire numbers; loop lacked a punchy viewer prompt. |
 
 ## Log
 
@@ -168,3 +169,4 @@ contradiction.
 - 2026-10-19: Updated performance reasons for ep133 and ep175, and added ep133 as supporting evidence for open-ended concluding beats.
 - 2026-10-19: Promoted three rules regarding conclusion signals, high-stakes hook phrasing, and numerical stacking after reviewing 10 new high-volume Shorts.
 - 2026-10-19: Audited ep110 through ep175 against channel medians, reaffirming that rapid numerical density and flat wrap-ups suppress engagement even on viral-velocity topics.
+- 2026-10-19: Integrated data from 10 new reviews to strengthen rules on seamless looping, jargon elimination, and high-stakes hook framing.
