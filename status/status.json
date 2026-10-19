@@ -1,115 +1,172 @@
 {
-  "updated_at": "2026-10-19T11:08:14+05:30",
+  "updated_at": "2026-10-19T17:07:44+05:30",
   "day": 18,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M59AFX46M5RWN0M6MCA6NSMR",
+    "id": "ta-01M59Z32CQYXN9414GNANHEAXR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-19T11:05:26+05:30",
-    "started_at_utc": "2026-10-19T05:35:26+00:00",
-    "seconds": 167
+    "started_at": "2026-10-19T17:05:07+05:30",
+    "started_at_utc": "2026-10-19T11:35:07+00:00",
+    "seconds": 157
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.4
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "55 posts",
-      "seconds": 4.4
+      "detail": "56 posts",
+      "seconds": 0.6
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep053 to 'Space Myths, Busted'",
-      "seconds": 4.1
+      "detail": "nothing new",
+      "seconds": 2.0
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep051 at 24 h: ahead of the channel's earlier Shorts at this age: 1215 views against a median of 786 (1.5x); ep118 at 72 h: ahead of the channel's earlier Shorts at this age: 1087 views against a median of 889 (1.2x); ep137 at 6 h: level with the channel's earlier Shorts at this age: 601 views against a median of 714 (0.8x); ep188 at 6 h: ahead of the channel's earlier Shorts at this age: 885 views against a median of 708 (1.2x); learnings: Promoted three rules regarding conclusion signals, high-stakes hook phrasing, and numerical stacking after reviewing 10 new high-volume Shorts.",
-      "seconds": 111.3
+      "detail": "ep053 at 6 h: ahead of the channel's earlier Shorts at this age: 1044 views against a median of 714 (1.5x)",
+      "seconds": 1.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep193 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep194 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 15.6
+      "detail": "nothing in the cloud",
+      "seconds": 1.7
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "79 subscribers",
+      "seconds": 12.6
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Audited ep110 through ep175 against channel medians, reaffirming that rapid numerical density and flat wrap-ups suppress engagement even on viral-velocity topics.",
+      "seconds": 48.7
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.8
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 10.9
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 58.7
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-018.md",
+      "seconds": 1.1
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep058",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.2
+      "seconds": 0.2
     },
     {
       "name": "preflight ep063",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.9
+      "seconds": 0.4
+    },
+    {
+      "name": "preflight ep071",
+      "ok": true,
+      "detail": "video downloads whole (18 MB in 1 s)",
+      "seconds": 1.0
     },
     {
       "name": "preflight ep167",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep184",
       "ok": true,
-      "detail": "video downloads whole (21 MB in 3 s)",
-      "seconds": 3.0
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 4.8
+      "seconds": 0.8
     },
     {
-      "name": "schedule ep172",
+      "name": "start ep193",
       "ok": true,
-      "detail": "2026-10-21T21:30:00-04:00",
-      "seconds": 1.8
+      "detail": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
+      "seconds": 0.7
+    },
+    {
+      "name": "start ep194",
+      "ok": true,
+      "detail": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep195",
+      "ok": true,
+      "detail": "10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep196",
+      "ok": true,
+      "detail": "Big Bang (1927): it was not a giant explosion bursting into empty space, but the rapid expansion of space itself everywhere at once",
+      "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 0.9
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep193 stopped on Gemini's free quota; it resumes in a later run",
-    "ep194 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "room for 0 of the 4 Shorts wanted: Modal's credit covers 53, this run's share of the Actions minutes 0",
+    "Buffer is full (10 queued); 23 waiting",
     "Buffer is full (10 queued); 23 waiting"
   ],
   "inventory": {
@@ -117,11 +174,13 @@
     "in_buffer": 10,
     "waiting": 23,
     "target": 42,
-    "making": [
+    "making": [],
+    "remote": [
       "ep193",
-      "ep194"
-    ],
-    "remote": []
+      "ep194",
+      "ep195",
+      "ep196"
+    ]
   },
   "queue": [
     {
@@ -315,56 +374,67 @@
       "score": 20
     }
   ],
-  "made": [
+  "made": [],
+  "spawned": [
     {
       "id": "ep193",
-      "outcome": "unfinished",
       "topic": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "call_id": "fc-01M59Z7YKCSKQ17CENAPG6MZ1E"
     },
     {
       "id": "ep194",
-      "outcome": "unfinished",
       "topic": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    }
-  ],
-  "spawned": [],
-  "in_cloud": [],
-  "published": [
+      "call_id": "fc-01M59Z7Z3TFFRXBZTEC9GQWJZQ"
+    },
     {
-      "id": "ep172",
-      "title": "Why the Van Allen Belts Didn't Fry Apollo Astronauts",
-      "due_at": "2026-10-21T21:30:00-04:00"
+      "id": "ep195",
+      "topic": "10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds",
+      "call_id": "fc-01M59Z7ZM2BWHBWJ14ZJ79A4TM"
+    },
+    {
+      "id": "ep196",
+      "topic": "Big Bang (1927): it was not a giant explosion bursting into empty space, but the rapid expansion of space itself everywhere at once",
+      "call_id": "fc-01M59Z804TK642VVGBH4S29HJW"
     }
   ],
+  "in_cloud": [
+    {
+      "id": "ep193",
+      "topic": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
+      "spawned_at": "2026-10-19T17:07:40+05:30"
+    },
+    {
+      "id": "ep194",
+      "topic": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
+      "spawned_at": "2026-10-19T17:07:41+05:30"
+    },
+    {
+      "id": "ep195",
+      "topic": "10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds",
+      "spawned_at": "2026-10-19T17:07:41+05:30"
+    },
+    {
+      "id": "ep196",
+      "topic": "Big Bang (1927): it was not a giant explosion bursting into empty space, but the rapid expansion of space itself everywhere at once",
+      "spawned_at": "2026-10-19T17:07:42+05:30"
+    }
+  ],
+  "published": [],
   "live": 46,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 25,
+    "calls": 3,
     "by_model": {
-      "gemini-3.8-flash": 1,
-      "gemini-3.7-flash": 1,
-      "gemini-3-flash-preview": 8,
-      "gemini-3.5-flash-lite": 15
+      "gemini-3.8-flash": 3
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 5,
+    "modal": 0,
     "runner": 0
   },
-  "daily_done": "2026-10-18",
+  "daily_done": "2026-10-19",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
@@ -379,6 +449,6 @@
     "modal_credit_left": 6.47
   },
   "made_here": 0,
-  "open_topics": 27,
+  "open_topics": 30,
   "parked_topics": 61
 }
