@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-19T23:08:33+05:30",
-  "day": 18,
+  "updated_at": "2026-10-20T05:07:58+05:30",
+  "day": 19,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5AKP7Z5T1PF95A5YDNWPQ0R",
+    "id": "ta-01M5B89DK9XQTKDXEP5K4V4FPR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-19T23:05:08+05:30",
-    "started_at_utc": "2026-10-19T17:35:08+00:00",
-    "seconds": 205
+    "started_at": "2026-10-20T05:05:12+05:30",
+    "started_at_utc": "2026-10-19T23:35:12+00:00",
+    "seconds": 166
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.2
+      "seconds": 2.4
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "56 posts",
-      "seconds": 1.3
+      "detail": "57 posts",
+      "seconds": 2.0
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep167 to 'The Universe Is Terrifying'",
-      "seconds": 2.2
+      "detail": "added ep058 to 'Space Got Weird'",
+      "seconds": 3.1
     },
     {
       "name": "languages",
@@ -40,37 +40,31 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep159 at 24 h: ahead of the channel's earlier Shorts at this age: 1220 views against a median of 823 (1.5x); learnings: Integrated data from 10 new reviews to strengthen rules on seamless looping, jargon elimination, and high-stakes hook framing.",
-      "seconds": 167.8
+      "detail": "ep130 at 72 h: level with the channel's earlier Shorts at this age: 1032 views against a median of 922 (1.1x); ep137 at 24 h: level with the channel's earlier Shorts at this age: 946 views against a median of 826 (1.1x); ep167 at 6 h: not shown yet: 4 views in 7 hours (no source data yet). YouTube hasn't tested it in the Shorts feed, so this says nothing about the script; ep188 at 24 h: level with the channel's earlier Shorts at this age: 948 views against a median of 829 (1.1x); learnings: Updated rules and evidence based on review diagnostics for ep114 through ep188, focusing on technical si",
+      "seconds": 112.8
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep193 rejected (low scores: clarity, payoff, visuals, loop; 2 frame problems); ep194 ready; ep195 ready; ep196 rejected (low scores: visuals)",
-      "seconds": 11.4
+      "detail": "ep197 ready; ep198 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 9.3
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
-    },
-    {
-      "name": "preflight ep058",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "name": "preflight ep063",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.5
     },
     {
       "name": "preflight ep071",
@@ -81,50 +75,58 @@
     {
       "name": "preflight ep072",
       "ok": true,
-      "detail": "video downloads whole (13 MB in 0 s)",
-      "seconds": 0.4
+      "detail": "video still hosted",
+      "seconds": 0.6
     },
     {
       "name": "preflight ep184",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.9
+      "seconds": 5.9
     },
     {
-      "name": "schedule ep195",
+      "name": "schedule ep197",
       "ok": true,
-      "detail": "2026-10-22T12:30:00-04:00",
-      "seconds": 0.9
+      "detail": "2026-10-22T19:00:00-04:00",
+      "seconds": 2.6
     },
     {
-      "name": "start ep197",
+      "name": "start ep199",
       "ok": true,
-      "detail": "Mercury (planet) (1965): radar observations shattered the long-held belief that it permanently keeps one face to the Sun, proving it actually rotates three times for every two orbits",
-      "seconds": 0.6
+      "detail": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+      "seconds": 1.7
     },
     {
-      "name": "start ep198",
+      "name": "start ep200",
       "ok": true,
-      "detail": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
-      "seconds": 0.6
+      "detail": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
+      "seconds": 1.7
+    },
+    {
+      "name": "start ep201",
+      "ok": true,
+      "detail": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
+      "seconds": 1.0
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.9
+      "seconds": 1.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "room for 2 of the 4 Shorts wanted: Modal's credit covers 51, this run's share of the Actions minutes 0",
+    "ep198 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "room for 3 of the 4 Shorts wanted: Modal's credit covers 49, this run's share of the Actions minutes 0",
     "Buffer is full (10 queued); 24 waiting"
   ],
   "inventory": {
@@ -132,18 +134,16 @@
     "in_buffer": 10,
     "waiting": 24,
     "target": 42,
-    "making": [],
-    "remote": [
-      "ep197",
+    "making": [
       "ep198"
+    ],
+    "remote": [
+      "ep199",
+      "ep200",
+      "ep201"
     ]
   },
   "queue": [
-    {
-      "id": "ep058",
-      "title": "The Impossible Ring Inside Hoag's Object",
-      "due_at": "2026-10-19T19:00:00-04:00"
-    },
     {
       "id": "ep063",
       "title": "The Star on a Collision Course With Our Solar System",
@@ -183,6 +183,11 @@
       "id": "ep195",
       "title": "The 155-Mile Asteroid with Its Own Rings",
       "due_at": "2026-10-22T12:30:00-04:00"
+    },
+    {
+      "id": "ep197",
+      "title": "The Planet Where One Day Lasts Two Years",
+      "due_at": "2026-10-22T19:00:00-04:00"
     },
     {
       "id": "ep174",
@@ -338,110 +343,110 @@
   ],
   "made": [
     {
-      "id": "ep193",
-      "outcome": "rejected",
-      "topic": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
-      "reason": "low scores: clarity, payoff, visuals, loop; 2 frame problems"
-    },
-    {
-      "id": "ep194",
+      "id": "ep197",
       "outcome": "ready",
-      "topic": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
-      "title": "The Math Error That Lost a Mars Orbiter",
+      "topic": "Mercury (planet) (1965): radar observations shattered the long-held belief that it permanently keeps one face to the Sun, proving it actually rotates three times for every two orbits",
+      "title": "The Planet Where One Day Lasts Two Years",
       "scores": {
         "hook": 5,
         "clarity": 5,
         "payoff": 5,
         "visuals": 5,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792410354/universereceipts/ep194-fe0d0287.mp4"
-    },
-    {
-      "id": "ep195",
-      "outcome": "ready",
-      "topic": "10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds",
-      "title": "The 155-Mile Asteroid with Its Own Rings",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
         "loop": 5
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792410649/universereceipts/ep195-6958a37d.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792432855/universereceipts/ep197-b0f36c1f.mp4"
     },
     {
-      "id": "ep196",
-      "outcome": "rejected",
-      "topic": "Big Bang (1927): it was not a giant explosion bursting into empty space, but the rapid expansion of space itself everywhere at once",
-      "reason": "low scores: visuals"
+      "id": "ep198",
+      "outcome": "unfinished",
+      "topic": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep197",
-      "topic": "Mercury (planet) (1965): radar observations shattered the long-held belief that it permanently keeps one face to the Sun, proving it actually rotates three times for every two orbits",
-      "call_id": "fc-01M5AKWMPPHE0YTMT6P92QHJSG"
+      "id": "ep199",
+      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+      "call_id": "fc-01M5B8EMZ9RXDJMW6MB6B1FV5Z"
     },
     {
-      "id": "ep198",
-      "topic": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
-      "call_id": "fc-01M5AKWN8RM6VNQ4M5RY1T3NNA"
+      "id": "ep200",
+      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
+      "call_id": "fc-01M5B8EPN6725C0AJN70D9698X"
+    },
+    {
+      "id": "ep201",
+      "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
+      "call_id": "fc-01M5B8EQK0PWKXXTRTT4FJDTPS"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep197",
-      "topic": "Mercury (planet) (1965): radar observations shattered the long-held belief that it permanently keeps one face to the Sun, proving it actually rotates three times for every two orbits",
-      "spawned_at": "2026-10-19T23:08:30+05:30"
+      "id": "ep199",
+      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+      "spawned_at": "2026-10-20T05:07:51+05:30"
     },
     {
-      "id": "ep198",
-      "topic": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
-      "spawned_at": "2026-10-19T23:08:30+05:30"
+      "id": "ep200",
+      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
+      "spawned_at": "2026-10-20T05:07:53+05:30"
+    },
+    {
+      "id": "ep201",
+      "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
+      "spawned_at": "2026-10-20T05:07:54+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep195",
-      "title": "The 155-Mile Asteroid with Its Own Rings",
-      "due_at": "2026-10-22T12:30:00-04:00"
+      "id": "ep197",
+      "title": "The Planet Where One Day Lasts Two Years",
+      "due_at": "2026-10-22T19:00:00-04:00"
     }
   ],
-  "live": 47,
+  "live": 48,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 22,
+    "calls": 23,
     "by_model": {
+      "gemini-3.8-flash": 2,
+      "gemini-3.7-flash": 4,
       "gemini-3.5-flash": 1,
-      "gemini-3-flash-preview": 1,
-      "gemini-3.8-flash": 14,
-      "gemini-3.5-flash-lite": 3,
-      "gemini-3.7-flash": 3
+      "gemini-3.5-flash-lite": 9,
+      "gemini-3.6-flash": 1,
+      "gemini-3-flash-preview": 6
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3-flash-preview",
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash",
+      "gemini-flash-latest"
+    ]
   },
   "renders": {
-    "modal": 9,
+    "modal": 6,
     "runner": 0
   },
   "daily_done": "2026-10-19",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 21.82,
+    "metered": 22.07,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 51,
+    "cloud": 49,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 6.18
+    "modal_credit_left": 5.93
   },
   "made_here": 0,
   "open_topics": 28,
-  "parked_topics": 62
+  "parked_topics": 59
 }

@@ -1,0 +1,119 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-19T23:33:43+05:30",
+      "check": {
+        "duration": 50.43,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The scale of the jet is an effective attention-grabber.",
+        "clarity": "Heavy use of designations and numbers may overwhelm.",
+        "payoff": "The black hole source is a predictable conclusion.",
+        "visuals": "Uses high-quality, relevant scientific captures of the subject.",
+        "loop": "Phrasing creates a seamless verbal cycle for the viewer."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Messier",
+          "respelling": "mess ee ay"
+        },
+        {
+          "beat": 3,
+          "word": "Heber",
+          "respelling": "hee ber"
+        }
+      ],
+      "rewrite": [
+        "Beat 2: Messier 87 is a massive galaxy with trillions of stars.",
+        "Beat 4: The jet creates a trick, appearing to move faster than light.",
+        "Beat 5: It is powered by a black hole 6.5 billion times heavier than our sun."
+      ],
+      "better_than_last": "This Short utilizes more iconic and recognizable space imagery than the recent asteroid and gold episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-19T23:37:59+05:30",
+      "check": {
+        "duration": 52.5,
+        "words": 124,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The concept of a 5,000-light-year energy beam is an immediate and powerful thumb-stopper.",
+        "clarity": "The script flows logically from the historical discovery to the explanation of the relativistic jet.",
+        "payoff": "Connecting the jet to the iconic 2019 black hole photo provides a great sense of scale and recognition.",
+        "visuals": "The Hubble and EHT images are striking, though the diagram is used twice in a row.",
+        "loop": "The concluding line feeds perfectly back into the opening description of the energy beam."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "same picture as beat 5"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Messier",
+          "respelling": "mess ee ay"
+        },
+        {
+          "beat": 4,
+          "word": "Heber",
+          "respelling": "hee ber"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "The payoff is more impactful than ep195 by connecting a distant phenomenon to a globally recognized and historically significant image.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

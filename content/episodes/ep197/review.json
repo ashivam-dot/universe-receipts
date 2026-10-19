@@ -1,0 +1,159 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-19T23:19:46+05:30",
+      "check": {
+        "duration": 53.52,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'proposed' heard as 'propose' after 'specialist giuseppe colombo'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong counterintuitive premise that grabs attention immediately.",
+        "clarity": "Explains complex orbital mechanics in accessible steps.",
+        "payoff": "Satisfying mathematical resolution to the initial day-year paradox.",
+        "visuals": "Relevant space imagery, though beat 6 quadrant grid feels repetitive.",
+        "loop": "Final phrasing transitions smoothly back into the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a clearer step-by-step breakdown of a complex orbital mechanics paradox than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-19T23:24:26+05:30",
+      "check": {
+        "duration": 53.52,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'proposed' heard as 'propose' after 'specialist giuseppe colombo'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The day-longer-than-a-year paradox is a top-tier space hook that demands an explanation.",
+        "clarity": "The transition from the old belief of tidal locking to the 3:2 resonance discovery is handled perfectly.",
+        "payoff": "The final calculation explaining why a solar day is 176 days (2 years) delivers on the hook's promise.",
+        "visuals": "Excellent use of MESSENGER mission imagery and historical Arecibo footage to ground the narrative.",
+        "loop": "The final sentence ends exactly where the first sentence begins, creating a flawless infinite cycle."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "proposed",
+          "respelling": "pro pozd"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode features a much more seamless loop and a stronger paradoxical hook than the recent asteroid and dead star shorts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    },
+    {
+      "at": "2026-10-19T23:30:53+05:30",
+      "check": {
+        "duration": 53.57,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'proposed' heard as 'pro pos' after 'specialist giuseppe colombo'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging temporal contrast starts the narrative well.",
+        "clarity": "Clear transition from historical error to radar discovery.",
+        "payoff": "Closing math justifies the initial claim effectively.",
+        "visuals": "Relevant imagery though some frames are static.",
+        "loop": "The ending phrase bridges perfectly back to start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Small text on polar map is unreadable on mobile."
+        },
+        {
+          "beat": 7,
+          "problem": "Generic crater image lacks specific orbital context."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "proposed",
+          "respelling": "pro pozd"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a more intuitive explanation of planetary physics than the math focus of episode 194.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "kept_round": 2
+}

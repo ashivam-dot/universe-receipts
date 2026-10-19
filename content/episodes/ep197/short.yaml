@@ -1,0 +1,188 @@
+id: ep197
+title: The Planet Where One Day Lasts Two Years
+series: Space Myths, Busted
+description: For nearly a century, astronomers believed Mercury permanently kept one face to the Sun. Radar observations proved
+  it actually rotates three times for every two orbits.
+sources:
+- https://en.wikipedia.org/wiki/Mercury_(planet)
+- http://nssdc.gsfc.nasa.gov/planetary/ice/ice_mercury.html
+- http://sci.esa.int/bepicolombo/56015-missions-to-mercury/
+- https://www.planetary.org/blogs/emily-lakdawalla/2008/0703_MESSENGER_Scientists_Astonished_to.html
+- https://news.cornell.edu/stories/2007/05/cu-astronomer-finds-mercury-has-molten-core
+hashtags:
+- '#space'
+- '#mercury'
+- '#astronomy'
+tags:
+- mercury
+- astronomy
+- planetary science
+- space myths
+- radar
+- giuseppe colombo
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: A single day on Mercury outlasts two of its entire years.
+  emphasis:
+  - Mercury
+  - two of its entire years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/False_Color_View_of_Mercury_%288497942353%29.png/1280px-False_Color_View_of_Mercury_%288497942353%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: False Color View of Mercury (8497942353).png
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:False_Color_View_of_Mercury_(8497942353).png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers long believed the planet was tidally locked, matching an 88-day orbit with an 88-day spin.
+  emphasis:
+  - tidally locked
+  - 88-day orbit
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Mercury_-_MESSENGER_%2830012322436%29.png/1280px-Mercury_-_MESSENGER_%2830012322436%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mercury - MESSENGER (30012322436).png
+      credit: Justin Cowart
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mercury_-_MESSENGER_(30012322436).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.65
+    focus_y: 0.55
+    card:
+      kind: fact
+      big: 88 DAYS
+      small: orbital period
+- text: Under that permanent lock, one roasted hemisphere reached extreme temperatures exceeding 700 Kelvin.
+  emphasis:
+  - exceeding 700 Kelvin
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/NASA%27s_MESSENGER_Finds_New_Evidence_for_Water_Ice_at_Mercury%27s_Poles_%288230852190%29.jpg/3840px-NASA%27s_MESSENGER_Finds_New_Evidence_for_Water_Ice_at_Mercury%27s_Poles_%288230852190%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA's MESSENGER Finds New Evidence for Water Ice at Mercury's Poles (8230852190).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA%27s_MESSENGER_Finds_New_Evidence_for_Water_Ice_at_Mercury%27s_Poles_(8230852190).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.75
+    focus_y: 0.5
+    box:
+    - 0.5
+    - 0.0
+    - 1.0
+    - 1.0
+    card:
+      kind: fact
+      big: 700 K
+      small: extreme surface heat
+- text: In 1965, scientists bounced radar beams off Mercury to measure its actual spin rate from Earth.
+  emphasis:
+  - radar beams
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Arecibo_Observatory_Black_and_White.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Arecibo Observatory Black and White.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Arecibo_Observatory_Black_and_White.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.48
+    focus_y: 0.35
+    box:
+    - 0.1
+    - 0.05
+    - 0.85
+    - 0.5
+    card:
+      kind: dateline
+      big: '1965'
+      small: Earth radar observations
+- text: Italian celestial mechanics specialist Giuseppe Colombo proposed the planet actually rotates once every 59 Earth days.
+  emphasis:
+  - Giuseppe Colombo
+  - 59 Earth days
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 59 DAYS
+      small: rotation period
+    motion: zoom_in
+- text: Mercury is not locked 1-to-1, but instead rotates three times for every two orbits around the Sun.
+  emphasis:
+  - three times
+  - two orbits
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Unmasking_the_Secrets_of_Mercury.jpg/1920px-Unmasking_the_Secrets_of_Mercury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Unmasking the Secrets of Mercury.jpg
+      credit: NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Unmasking_the_Secrets_of_Mercury.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Because orbital motion combines with that spin, a single solar day lasts approximately 176 Earth days.
+  emphasis:
+  - 176 Earth days
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/be/MESSENGER_mosaic_of_the_Caloris_basin.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: MESSENGER mosaic of the Caloris basin.png
+      credit: NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:MESSENGER_mosaic_of_the_Caloris_basin.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 176 DAYS
+      small: sunrise to sunrise
+- text: Every morning there takes two full planetary years to arrive.
+  emphasis:
+  - two full planetary years
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: TWO YEARS IN ONE DAY
