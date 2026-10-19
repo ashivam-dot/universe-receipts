@@ -1,149 +1,129 @@
 {
-  "updated_at": "2026-10-19T05:08:42+05:30",
+  "updated_at": "2026-10-19T11:08:14+05:30",
   "day": 18,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M58NWQ4WN8VXXHS5WC0S3H9R",
+    "id": "ta-01M59AFX46M5RWN0M6MCA6NSMR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-19T05:05:08+05:30",
-    "started_at_utc": "2026-10-18T23:35:08+00:00",
-    "seconds": 214
+    "started_at": "2026-10-19T11:05:26+05:30",
+    "started_at_utc": "2026-10-19T05:35:26+00:00",
+    "seconds": 167
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 3.4
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "53 posts",
-      "seconds": 1.4
+      "detail": "55 posts",
+      "seconds": 4.4
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep137 to 'Near Misses'; added ep188 to 'Scale Breaker'",
-      "seconds": 2.8
+      "detail": "added ep053 to 'Space Myths, Busted'",
+      "seconds": 4.1
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep111 at 72 h: ahead of the channel's earlier Shorts at this age: 1189 views against a median of 880 (1.4x); ep133 at 24 h: ahead of the channel's earlier Shorts at this age: 1208 views against a median of 750 (1.6x); ep159 at 6 h: ahead of the channel's earlier Shorts at this age: 1012 views against a median of 708 (1.4x); learnings: Updated performance reasons for ep133 and ep175, and added ep133 as supporting evidence for open-ended concluding beats.",
-      "seconds": 180.4
+      "detail": "ep051 at 24 h: ahead of the channel's earlier Shorts at this age: 1215 views against a median of 786 (1.5x); ep118 at 72 h: ahead of the channel's earlier Shorts at this age: 1087 views against a median of 889 (1.2x); ep137 at 6 h: level with the channel's earlier Shorts at this age: 601 views against a median of 714 (0.8x); ep188 at 6 h: ahead of the channel's earlier Shorts at this age: 885 views against a median of 708 (1.2x); learnings: Promoted three rules regarding conclusion signals, high-stakes hook phrasing, and numerical stacking after reviewing 10 new high-volume Shorts.",
+      "seconds": 111.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep189 rejected; ep190 ready; ep191 ready; ep192 rejected",
-      "seconds": 8.4
+      "detail": "ep193 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep194 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 15.6
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
-    },
-    {
-      "name": "preflight ep053",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "preflight ep058",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 1.2
     },
     {
       "name": "preflight ep063",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.9
     },
     {
       "name": "preflight ep167",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 1.4
+    },
+    {
+      "name": "preflight ep184",
+      "ok": true,
+      "detail": "video downloads whole (21 MB in 3 s)",
+      "seconds": 3.0
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 4.0
+      "seconds": 4.8
     },
     {
-      "name": "schedule ep184",
+      "name": "schedule ep172",
       "ok": true,
-      "detail": "2026-10-20T12:30:00-04:00",
-      "seconds": 1.2
-    },
-    {
-      "name": "schedule ep186",
-      "ok": true,
-      "detail": "2026-10-21T12:30:00-04:00",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep193",
-      "ok": true,
-      "detail": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep194",
-      "ok": true,
-      "detail": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
-      "seconds": 0.5
+      "detail": "2026-10-21T21:30:00-04:00",
+      "seconds": 1.8
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.8
+      "seconds": 1.4
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "room for 2 of the 4 Shorts wanted: Modal's credit covers 55, this run's share of the Actions minutes 0",
-    "Buffer is full (10 queued); 24 waiting"
+    "ep193 stopped on Gemini's free quota; it resumes in a later run",
+    "ep194 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "room for 0 of the 4 Shorts wanted: Modal's credit covers 53, this run's share of the Actions minutes 0",
+    "Buffer is full (10 queued); 23 waiting"
   ],
   "inventory": {
-    "total": 34,
+    "total": 33,
     "in_buffer": 10,
-    "waiting": 24,
+    "waiting": 23,
     "target": 42,
-    "making": [],
-    "remote": [
+    "making": [
       "ep193",
       "ep194"
-    ]
+    ],
+    "remote": []
   },
   "queue": [
-    {
-      "id": "ep053",
-      "title": "The 25 Million Daily Space Rocks Hitting Earth",
-      "due_at": "2026-10-18T21:30:00-04:00"
-    },
     {
       "id": "ep167",
       "title": "The Alien World Buried Inside Earth",
@@ -183,6 +163,11 @@
       "id": "ep146",
       "title": "Halley's Comet Is Burning Above You TONIGHT",
       "due_at": "2026-10-21T19:00:00-04:00"
+    },
+    {
+      "id": "ep172",
+      "title": "Why the Van Allen Belts Didn't Fry Apollo Astronauts",
+      "due_at": "2026-10-21T21:30:00-04:00"
     },
     {
       "id": "ep174",
@@ -294,12 +279,6 @@
       "score": 20
     },
     {
-      "id": "ep172",
-      "title": "Why the Van Allen Belts Didn't Fry Apollo Astronauts",
-      "series": "Space Myths, Busted",
-      "score": 23
-    },
-    {
       "id": "ep176",
       "title": "The Moon That Builds Saturn's Rings",
       "series": "Space Got Weird",
@@ -338,114 +317,66 @@
   ],
   "made": [
     {
-      "id": "ep189",
-      "outcome": "rejected",
-      "topic": "Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly",
-      "reason": ""
-    },
-    {
-      "id": "ep190",
-      "outcome": "ready",
-      "topic": "Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth",
-      "title": "How NASA Trapped Speeding Comet Dust",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792345719/universereceipts/ep190-970f5f88.mp4"
-    },
-    {
-      "id": "ep191",
-      "outcome": "ready",
-      "topic": "Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum",
-      "title": "How Dead Stars Forged the Universe's Gold",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792345424/universereceipts/ep191-07396107.mp4"
-    },
-    {
-      "id": "ep192",
-      "outcome": "rejected",
-      "topic": "VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip",
-      "reason": ""
-    }
-  ],
-  "spawned": [
-    {
       "id": "ep193",
+      "outcome": "unfinished",
       "topic": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
-      "call_id": "fc-01M58P3CSPG6VBDWH1R9RX5WB8"
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
       "id": "ep194",
+      "outcome": "unfinished",
       "topic": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
-      "call_id": "fc-01M58P3D963P78JQRG7XCDYHR0"
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
-  "in_cloud": [
-    {
-      "id": "ep193",
-      "topic": "Hercules–Corona Borealis Great Wall (2013): a structure about 10 billion light-years long, possibly too big for our models of the universe",
-      "spawned_at": "2026-10-19T05:08:39+05:30"
-    },
-    {
-      "id": "ep194",
-      "topic": "Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons",
-      "spawned_at": "2026-10-19T05:08:40+05:30"
-    }
-  ],
+  "spawned": [],
+  "in_cloud": [],
   "published": [
     {
-      "id": "ep184",
-      "title": "The Nuclear Alarm Caused by Sunlight on Clouds",
-      "due_at": "2026-10-20T12:30:00-04:00"
-    },
-    {
-      "id": "ep186",
-      "title": "The Accidental Glare in the Pale Blue Dot",
-      "due_at": "2026-10-21T12:30:00-04:00"
+      "id": "ep172",
+      "title": "Why the Van Allen Belts Didn't Fry Apollo Astronauts",
+      "due_at": "2026-10-21T21:30:00-04:00"
     }
   ],
-  "live": 45,
+  "live": 46,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 40,
+    "calls": 25,
     "by_model": {
-      "gemini-3.8-flash": 7,
-      "gemini-3.7-flash": 7,
-      "gemini-3.5-flash": 5,
-      "gemini-3.5-flash-lite": 8,
-      "gemini-3-flash-preview": 7,
-      "gemini-3.6-flash": 6
+      "gemini-3.8-flash": 1,
+      "gemini-3.7-flash": 1,
+      "gemini-3-flash-preview": 8,
+      "gemini-3.5-flash-lite": 15
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
-    "modal": 9,
+    "modal": 5,
     "runner": 0
   },
   "daily_done": "2026-10-18",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 21.34,
+    "metered": 21.53,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 55,
+    "cloud": 53,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 6.66
+    "modal_credit_left": 6.47
   },
   "made_here": 0,
   "open_topics": 27,

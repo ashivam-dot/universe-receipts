@@ -1,0 +1,206 @@
+id: ep194
+title: The Unit Mismatch That Cost NASA 125 Million
+series: Mission Files
+description: How a simple software mix-up between pound-force and newtons doomed the Mars Climate Orbiter in 1999.
+sources:
+- https://www.latimes.com/archives/la-xpm-1999-oct-01-mn-17288-story.html
+- https://www.19fortyfive.com/2026/09/mars-climate-orbiter-ran-on-pound-force-seconds-while-nasas-software-expected-newtons-and-over-nine-months-that-4-45-to-one-error-put-it-35-miles-above-mars-instead-of-85-so-on-23-september-1/
+- https://spacedaily.com/m-in-1999-nasa-lost-a-125-million-mars-spacecraft-because-of-a-metric-versus-imperial-mix-up-the-kind-of-conversion-mistake-most-of-us-have-made-only-this-one-ended-with-a-probe-disappearin/
+- https://en.wikipedia.org/wiki/Mars_Climate_Orbiter
+- https://www.jpl.nasa.gov/news/mars-climate-orbiter-team-finds-likely-cause-of-loss/
+- https://web.archive.org/web/20131226075519/http://www.pbs.org/newshour/bb/science/jan-june00/nasa_4-14.html
+hashtags:
+- '#space'
+- '#nasa'
+- '#mars'
+tags:
+- Mars Climate Orbiter
+- Lockheed Martin
+- JPL
+- spacecraft failure
+- unit conversion
+- space missions
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: A one-hundred-twenty-five-million-dollar orbiter vanished because engineers forgot to convert units.
+  emphasis:
+  - convert units
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Mars_Climate_Orbiter_2.jpg/1920px-Mars_Climate_Orbiter_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars Climate Orbiter 2.jpg
+      credit: NASA/JPL/Corby Waste
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Climate_Orbiter_2.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: $125 MILLION
+      small: Orbiter cost
+- text: After a nine-month journey, the Mars Climate Orbiter prepared for orbital insertion in September 1999.
+  emphasis:
+  - nine-month journey
+  - September 1999
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Mars_Polar_Lander_-_interplanetary_trajectory.png/1280px-Mars_Polar_Lander_-_interplanetary_trajectory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars Polar Lander - interplanetary trajectory.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Polar_Lander_-_interplanetary_trajectory.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: SEPTEMBER 1999
+      small: Mars Arrival
+- text: Communication with the probe was permanently lost as navigators searched for answers.
+  emphasis:
+  - permanently lost
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Deep-space-op.jpg/1280px-Deep-space-op.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Deep-space-op.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Deep-space-op.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: An investigation revealed builder Lockheed Martin supplied impulse data in pound-force seconds.
+  emphasis:
+  - Lockheed Martin
+  - pound-force seconds
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lockheed_Martin_Office%2C_Colorado_Springs_%2854557169938%29.jpg/3840px-Lockheed_Martin_Office%2C_Colorado_Springs_%2854557169938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Lockheed Martin Office, Colorado Springs (54557169938).jpg
+      credit: Lumen Wilde
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Lockheed_Martin_Office,_Colorado_Springs_(54557169938).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Meanwhile, NASA's navigation software in California expected all incoming metrics in newton-seconds.
+  emphasis:
+  - newton-seconds
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Spacecraft_Assembly_Room_%40_JPL_%2819322114182%29.jpg/3840px-Spacecraft_Assembly_Room_%40_JPL_%2819322114182%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Spacecraft Assembly Room @ JPL (19322114182).jpg
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Spacecraft_Assembly_Room_@_JPL_(19322114182).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: One pound-force is equal to four point four five newtons, multiplying small thruster forces into a fatal error.
+  emphasis:
+  - four point four five newtons
+  - fatal error
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Juno_Main_Engine_Firing.jpg/1280px-Juno_Main_Engine_Firing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Juno Main Engine Firing.jpg
+      credit: 'Produced By: JPL , Image Credit: NASA/JPL-Caltech'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Juno_Main_Engine_Firing.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: '4.45'
+      small: Newtons per pound-force
+- text: This mismatch plunged the spacecraft down to an altitude of only fifty-seven kilometers.
+  emphasis:
+  - fifty-seven kilometers
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Mars_Climate_Orbiter_-_mishap_diagram.png/960px-Mars_Climate_Orbiter_-_mishap_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars Climate Orbiter - mishap diagram.png
+      credit: Xession
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Mars_Climate_Orbiter_-_mishap_diagram.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 57 KM
+      small: Actual insertion altitude
+- text: Surpassing eighty kilometers was the minimum survival altitude before the orbiter was destroyed.
+  emphasis:
+  - eighty kilometers
+  - destroyed
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Mars-polar-lander_front.jpg/1920px-Mars-polar-lander_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars-polar-lander front.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars-polar-lander_front.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 80 KM
+      small: Minimum survival altitude
+- text: Engineers forgot simple unit conversions, meaning a one-hundred-twenty-five-million-dollar orbiter vanished.
+  emphasis:
+  - unit conversions
+  - orbiter vanished
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: A 125 MILLION DOLLAR MATH MISTAKE

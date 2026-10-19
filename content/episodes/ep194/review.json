@@ -1,0 +1,59 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-19T05:18:58+05:30",
+      "check": {
+        "duration": 60.92,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 60.92 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "High financial stakes create an immediate reason to watch.",
+        "clarity": "Explains the technical software conflict in very simple terms.",
+        "payoff": "The specific math behind the failure is a satisfying reveal.",
+        "visuals": "Images are mostly relevant but include the wrong mission.",
+        "loop": "The phrasing creates a perfectly seamless transition back to start."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "Shows the Mars Polar Lander instead of the Mars Climate Orbiter."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A 125-million-dollar orbiter vanished because of a simple unit error.",
+        "Beat 8: Dropping below 80 kilometers destroyed the orbiter; that was the survival limit.",
+        "Beat 9: A simple unit error meant a 125-million-dollar orbiter vanished."
+      ],
+      "better_than_last": "This script explains a technical failure more clearly than the complex stellar chemistry of episode 191.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -1,0 +1,141 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-19T05:18:16+05:30",
+      "check": {
+        "duration": 54.9,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'jon hakkila' heard as 'john hakila' after 'astronomers istvan horvath'",
+          "'zsolt bagoly' heard as 'zolt bagali' after 'jon hakkila and'",
+          "'jon hakkila' heard as 'john hakila' after 'on large scales'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Gripping scale-based opening.",
+        "clarity": "Narrative logic is easy to follow.",
+        "payoff": "Scientific caveats weaken the final impact.",
+        "visuals": "Relevant astronomical charts provide good context.",
+        "loop": "Seamlessly bridges the anomaly to the start."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "contains cluttered data plots with illegible text labels"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "István",
+          "respelling": "eesht vahn"
+        },
+        {
+          "beat": 2,
+          "word": "Horváth",
+          "respelling": "hor vaht"
+        },
+        {
+          "beat": 2,
+          "word": "Zsolt",
+          "respelling": "zholt"
+        },
+        {
+          "beat": 2,
+          "word": "Bagoly",
+          "respelling": "bah goy"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: If real, this structure shatters our most fundamental cosmic laws."
+      ],
+      "better_than_last": "Provides a more compelling sense of cosmic scale than episode 191.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-19T05:22:34+05:30",
+      "check": {
+        "duration": 49.82,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'jon hakkila' heard as 'john hakila' after 'and hercules astronomer'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Sets a high-stakes premise using a specific, massive scale.",
+        "clarity": "The narrative flows logically from discovery to theoretical conflict.",
+        "payoff": "The skeptical counter-point is scientific but lacks a dramatic punch.",
+        "visuals": "Several frames utilize dense charts that are illegible on mobile.",
+        "loop": "The final statement transitions perfectly into the opening hook line."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Frame is dominated by large text on a dark background."
+        },
+        {
+          "beat": 6,
+          "problem": "Scientific diagram contains tiny text and lines unreadable on phones."
+        },
+        {
+          "beat": 8,
+          "problem": "Multi-panel figure is too cluttered and small for vertical viewing."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A structure ten billion light-years long shouldn't exist.",
+        "Beat 8: Some researchers suspect this wall is just a statistical illusion.",
+        "Beat 9: Until we know for sure, the cosmos holds a giant secret."
+      ],
+      "better_than_last": "This short handles cosmic scale more effectively than the gold star episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
