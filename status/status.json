@@ -1,58 +1,95 @@
 {
-  "updated_at": "2026-10-20T11:07:28+05:30",
+  "updated_at": "2026-10-20T17:19:27+05:30",
   "day": 19,
-  "result": "ok",
+  "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M5BWWKABXVP9KZ07SR3M4ASR",
+    "id": "ta-01M5CHFT091FRAVR24X76NQW9R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-20T11:05:10+05:30",
-    "started_at_utc": "2026-10-20T05:35:10+00:00",
-    "seconds": 138
+    "started_at": "2026-10-20T17:05:09+05:30",
+    "started_at_utc": "2026-10-20T11:35:09+00:00",
+    "seconds": 858
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
+      "seconds": 1.2
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "58 posts",
-      "seconds": 1.8
+      "detail": "59 posts",
+      "seconds": 0.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep063 to 'Near Misses'",
-      "seconds": 2.4
+      "detail": "nothing new",
+      "seconds": 2.3
     },
     {
       "name": "languages",
-      "ok": true,
-      "detail": "ep051 language en/None -> en; ep130 language en/None -> en; ep159 language en/None -> en",
-      "seconds": 1.8
+      "ok": false,
+      "detail": "",
+      "error": "HttpError: <HttpError 503 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet&alt=json returned \"The service is currently unavailable.\". Details: \"[{'message': 'The service is currently unavailable.', 'domain': 'global', 'reason': 'backendError'}]\">",
+      "seconds": 30.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep053 at 24 h: ahead of the channel's earlier Shorts at this age: 1092 views against a median of 878 (1.2x); ep058 at 6 h: level with the channel's earlier Shorts at this age: 757 views against a median of 714 (1.1x); ep125 at 72 h: level with the channel's earlier Shorts at this age: 1011 views against a median of 955 (1.1x); learnings: Reviewed 10 recent Shorts (ep114-ep188); added hypothesis on eliminating post-climax subplots and reinforced rules against dense jargon and non-looping summary endings.",
-      "seconds": 89.2
+      "detail": "ep063 at 6 h: ahead of the channel's earlier Shorts at this age: 980 views against a median of 719 (1.4x)",
+      "seconds": 1.6
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep199 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep200 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep201 ready",
-      "seconds": 17.2
+      "detail": "nothing in the cloud",
+      "seconds": 2.2
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "86 subscribers",
+      "seconds": 16.1
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Reviewed 10 recent Shorts against channel medians, reinforcing existing rules around high-stakes hooks, jargon removal, and seamless looping without creating new rules.",
+      "seconds": 717.8
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 1.1
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 22.5
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 36.1
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-019.md",
+      "seconds": 1.7
     },
     {
       "name": "buffer channel",
@@ -64,52 +101,75 @@
       "name": "preflight ep071",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.3
     },
     {
       "name": "preflight ep072",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.6
+    },
+    {
+      "name": "preflight ep146",
+      "ok": true,
+      "detail": "video downloads whole (19 MB in 1 s)",
+      "seconds": 0.8
     },
     {
       "name": "preflight ep184",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.2
     },
     {
       "name": "preflight ep186",
       "ok": true,
-      "detail": "video downloads whole (14 MB in 0 s)",
+      "detail": "video still hosted",
+      "seconds": 0.3
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.2
+    },
+    {
+      "name": "start ep198",
+      "ok": true,
+      "detail": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep199",
+      "ok": true,
+      "detail": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+      "seconds": 0.7
+    },
+    {
+      "name": "start ep200",
+      "ok": true,
+      "detail": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
       "seconds": 0.6
     },
     {
-      "name": "publish",
+      "name": "start ep202",
       "ok": true,
-      "detail": "",
-      "seconds": 4.4
-    },
-    {
-      "name": "schedule ep201",
-      "ok": true,
-      "detail": "2026-10-22T21:30:00-04:00",
-      "seconds": 1.5
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
+      "detail": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
       "seconds": 1.3
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.2
     }
   ],
-  "errors": [],
+  "errors": [
+    "languages: HttpError: <HttpError 503 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet&alt=json returned \"The service is currently unavailable.\". Details: \"[{'message': 'The service is currently unavailable.', 'domain': 'global', 'reason': 'backendError'}]\">"
+  ],
   "owner_action": [],
   "notes": [
-    "ep199 stopped on Gemini's free quota; it resumes in a later run",
-    "ep200 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "room for 0 of the 4 Shorts wanted: Modal's credit covers 48, this run's share of the Actions minutes 0",
+    "Buffer is full (10 queued); 24 waiting",
     "Buffer is full (10 queued); 24 waiting"
   ],
   "inventory": {
@@ -117,12 +177,13 @@
     "in_buffer": 10,
     "waiting": 24,
     "target": 42,
-    "making": [
+    "making": [],
+    "remote": [
       "ep198",
       "ep199",
-      "ep200"
-    ],
-    "remote": []
+      "ep200",
+      "ep202"
+    ]
   },
   "queue": [
     {
@@ -322,75 +383,71 @@
       "score": 24
     }
   ],
-  "made": [
+  "made": [],
+  "spawned": [
+    {
+      "id": "ep198",
+      "topic": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
+      "call_id": "fc-01M5CJA1EKQ723YJNNPWN2B29G"
+    },
     {
       "id": "ep199",
-      "outcome": "unfinished",
       "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "call_id": "fc-01M5CJA24JDE3XJ9C89C9WA0TT"
     },
     {
       "id": "ep200",
-      "outcome": "unfinished",
       "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "call_id": "fc-01M5CJA2R72ZV08Y0PVMRZ0E8G"
     },
     {
-      "id": "ep201",
-      "outcome": "ready",
-      "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
-      "title": "The Largest Star in the Universe Just Shrank",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792453640/universereceipts/ep201-703756aa.mp4"
+      "id": "ep202",
+      "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
+      "call_id": "fc-01M5CJA40P6KN8TE12Q100SZNE"
     }
   ],
-  "spawned": [],
-  "in_cloud": [],
-  "published": [
+  "in_cloud": [
     {
-      "id": "ep201",
-      "title": "The Largest Star in the Universe Just Shrank",
-      "due_at": "2026-10-22T21:30:00-04:00"
+      "id": "ep198",
+      "topic": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
+      "spawned_at": "2026-10-20T17:19:21+05:30"
+    },
+    {
+      "id": "ep199",
+      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+      "spawned_at": "2026-10-20T17:19:21+05:30"
+    },
+    {
+      "id": "ep200",
+      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
+      "spawned_at": "2026-10-20T17:19:22+05:30"
+    },
+    {
+      "id": "ep202",
+      "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
+      "spawned_at": "2026-10-20T17:19:23+05:30"
     }
   ],
+  "published": [],
   "live": 49,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 22,
+    "calls": 3,
     "by_model": {
-      "gemini-3.8-flash": 5,
-      "gemini-3.6-flash": 5,
-      "gemini-3.5-flash-lite": 5,
-      "gemini-3.7-flash": 2,
-      "gemini-3-flash-preview": 2,
-      "gemini-3.5-flash": 2,
-      "gemini-flash-latest": 1
+      "gemini-3.5-flash": 3
     },
-    "out_of_quota": [
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 5,
+    "modal": 0,
     "runner": 0
   },
-  "daily_done": "2026-10-19",
+  "daily_done": "2026-10-20",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 22.2,
+    "metered": 22.22,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -398,9 +455,9 @@
     "cloud": 48,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 5.8
+    "modal_credit_left": 5.78
   },
   "made_here": 0,
-  "open_topics": 28,
+  "open_topics": 32,
   "parked_topics": 59
 }
