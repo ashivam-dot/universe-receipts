@@ -1,0 +1,99 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-20T05:14:07+05:30",
+      "check": {
+        "duration": 50.37,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong counter-intuitive claim effectively grabs immediate attention.",
+        "clarity": "Logical structure explains complex physics simply in sequential steps.",
+        "payoff": "Satisfying resolution explaining orbital mechanics as continuous free fall.",
+        "visuals": "Beat 4 relies on a text-heavy, dry textbook physics diagram.",
+        "loop": "Ending phrasing flows smoothly back into the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "mostly text and schematic physics diagram"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Delivers a clearer scientific breakdown of a common misconception than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-20T05:15:51+05:30",
+      "check": {
+        "duration": 50.37,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The opening fact about ninety percent gravity is a powerful pattern interrupt for the 'zero-g' myth.",
+        "clarity": "The script does an excellent job of distinguishing between gravity and the sensation of weight via contact forces.",
+        "payoff": "The conclusion successfully redefines weightlessness as a state of motion rather than a lack of force.",
+        "visuals": "Most of the space footage is high quality, but the diagram in beat 4 looks like a low-effort textbook scan.",
+        "loop": "The transition from the 'unending fall' back to the pull of gravity is conceptually and grammatically seamless."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The frame is a cluttered textbook diagram that includes a meta-description of the image itself."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short provides a much tighter logical explanation of a scientific concept than the trivia presented in episode 195.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

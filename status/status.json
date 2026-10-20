@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-20T05:07:58+05:30",
+  "updated_at": "2026-10-20T11:07:28+05:30",
   "day": 19,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5B89DK9XQTKDXEP5K4V4FPR",
+    "id": "ta-01M5BWWKABXVP9KZ07SR3M4ASR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-20T05:05:12+05:30",
-    "started_at_utc": "2026-10-19T23:35:12+00:00",
-    "seconds": 166
+    "started_at": "2026-10-20T11:05:10+05:30",
+    "started_at_utc": "2026-10-20T05:35:10+00:00",
+    "seconds": 138
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.4
+      "seconds": 1.8
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "57 posts",
-      "seconds": 2.0
+      "detail": "58 posts",
+      "seconds": 1.8
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep058 to 'Space Got Weird'",
-      "seconds": 3.1
+      "detail": "added ep063 to 'Near Misses'",
+      "seconds": 2.4
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.2
+      "detail": "ep051 language en/None -> en; ep130 language en/None -> en; ep159 language en/None -> en",
+      "seconds": 1.8
     },
     {
       "name": "on youtube",
@@ -45,88 +45,71 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep130 at 72 h: level with the channel's earlier Shorts at this age: 1032 views against a median of 922 (1.1x); ep137 at 24 h: level with the channel's earlier Shorts at this age: 946 views against a median of 826 (1.1x); ep167 at 6 h: not shown yet: 4 views in 7 hours (no source data yet). YouTube hasn't tested it in the Shorts feed, so this says nothing about the script; ep188 at 24 h: level with the channel's earlier Shorts at this age: 948 views against a median of 829 (1.1x); learnings: Updated rules and evidence based on review diagnostics for ep114 through ep188, focusing on technical si",
-      "seconds": 112.8
+      "detail": "ep053 at 24 h: ahead of the channel's earlier Shorts at this age: 1092 views against a median of 878 (1.2x); ep058 at 6 h: level with the channel's earlier Shorts at this age: 757 views against a median of 714 (1.1x); ep125 at 72 h: level with the channel's earlier Shorts at this age: 1011 views against a median of 955 (1.1x); learnings: Reviewed 10 recent Shorts (ep114-ep188); added hypothesis on eliminating post-climax subplots and reinforced rules against dense jargon and non-looping summary endings.",
+      "seconds": 89.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep197 ready; ep198 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 9.3
+      "detail": "ep199 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep200 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep201 ready",
+      "seconds": 17.2
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.4
-    },
-    {
-      "name": "preflight ep063",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.2
     },
     {
       "name": "preflight ep071",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.6
     },
     {
       "name": "preflight ep072",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.5
     },
     {
       "name": "preflight ep184",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.5
+    },
+    {
+      "name": "preflight ep186",
+      "ok": true,
+      "detail": "video downloads whole (14 MB in 0 s)",
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 5.9
+      "seconds": 4.4
     },
     {
-      "name": "schedule ep197",
+      "name": "schedule ep201",
       "ok": true,
-      "detail": "2026-10-22T19:00:00-04:00",
-      "seconds": 2.6
-    },
-    {
-      "name": "start ep199",
-      "ok": true,
-      "detail": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
-      "seconds": 1.7
-    },
-    {
-      "name": "start ep200",
-      "ok": true,
-      "detail": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
-      "seconds": 1.7
-    },
-    {
-      "name": "start ep201",
-      "ok": true,
-      "detail": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
-      "seconds": 1.0
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
+      "detail": "2026-10-22T21:30:00-04:00",
       "seconds": 1.5
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.3
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep198 stopped on Gemini's free quota; it resumes in a later run",
+    "ep199 stopped on Gemini's free quota; it resumes in a later run",
+    "ep200 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "room for 3 of the 4 Shorts wanted: Modal's credit covers 49, this run's share of the Actions minutes 0",
+    "room for 0 of the 4 Shorts wanted: Modal's credit covers 48, this run's share of the Actions minutes 0",
     "Buffer is full (10 queued); 24 waiting"
   ],
   "inventory": {
@@ -135,20 +118,13 @@
     "waiting": 24,
     "target": 42,
     "making": [
-      "ep198"
-    ],
-    "remote": [
+      "ep198",
       "ep199",
-      "ep200",
-      "ep201"
-    ]
+      "ep200"
+    ],
+    "remote": []
   },
   "queue": [
-    {
-      "id": "ep063",
-      "title": "The Star on a Collision Course With Our Solar System",
-      "due_at": "2026-10-19T21:30:00-04:00"
-    },
     {
       "id": "ep184",
       "title": "The Nuclear Alarm Caused by Sunlight on Clouds",
@@ -188,6 +164,11 @@
       "id": "ep197",
       "title": "The Planet Where One Day Lasts Two Years",
       "due_at": "2026-10-22T19:00:00-04:00"
+    },
+    {
+      "id": "ep201",
+      "title": "The Largest Star in the Universe Just Shrank",
+      "due_at": "2026-10-22T21:30:00-04:00"
     },
     {
       "id": "ep174",
@@ -343,10 +324,26 @@
   ],
   "made": [
     {
-      "id": "ep197",
+      "id": "ep199",
+      "outcome": "unfinished",
+      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep200",
+      "outcome": "unfinished",
+      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep201",
       "outcome": "ready",
-      "topic": "Mercury (planet) (1965): radar observations shattered the long-held belief that it permanently keeps one face to the Sun, proving it actually rotates three times for every two orbits",
-      "title": "The Planet Where One Day Lasts Two Years",
+      "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
+      "title": "The Largest Star in the Universe Just Shrank",
       "scores": {
         "hook": 5,
         "clarity": 5,
@@ -354,97 +351,54 @@
         "visuals": 5,
         "loop": 5
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792432855/universereceipts/ep197-b0f36c1f.mp4"
-    },
-    {
-      "id": "ep198",
-      "outcome": "unfinished",
-      "topic": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792453640/universereceipts/ep201-703756aa.mp4"
     }
   ],
-  "spawned": [
-    {
-      "id": "ep199",
-      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
-      "call_id": "fc-01M5B8EMZ9RXDJMW6MB6B1FV5Z"
-    },
-    {
-      "id": "ep200",
-      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
-      "call_id": "fc-01M5B8EPN6725C0AJN70D9698X"
-    },
-    {
-      "id": "ep201",
-      "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
-      "call_id": "fc-01M5B8EQK0PWKXXTRTT4FJDTPS"
-    }
-  ],
-  "in_cloud": [
-    {
-      "id": "ep199",
-      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
-      "spawned_at": "2026-10-20T05:07:51+05:30"
-    },
-    {
-      "id": "ep200",
-      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
-      "spawned_at": "2026-10-20T05:07:53+05:30"
-    },
-    {
-      "id": "ep201",
-      "topic": "UY Scuti (1860): crowned the biggest known star, then it shrank when astronomers remeasured its distance",
-      "spawned_at": "2026-10-20T05:07:54+05:30"
-    }
-  ],
+  "spawned": [],
+  "in_cloud": [],
   "published": [
     {
-      "id": "ep197",
-      "title": "The Planet Where One Day Lasts Two Years",
-      "due_at": "2026-10-22T19:00:00-04:00"
+      "id": "ep201",
+      "title": "The Largest Star in the Universe Just Shrank",
+      "due_at": "2026-10-22T21:30:00-04:00"
     }
   ],
-  "live": 48,
+  "live": 49,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 23,
+    "calls": 22,
     "by_model": {
-      "gemini-3.8-flash": 2,
-      "gemini-3.7-flash": 4,
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 9,
-      "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 6
+      "gemini-3.8-flash": 5,
+      "gemini-3.6-flash": 5,
+      "gemini-3.5-flash-lite": 5,
+      "gemini-3.7-flash": 2,
+      "gemini-3-flash-preview": 2,
+      "gemini-3.5-flash": 2,
+      "gemini-flash-latest": 1
     },
     "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
       "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest"
+      "gemini-3.8-flash"
     ]
   },
   "renders": {
-    "modal": 6,
+    "modal": 5,
     "runner": 0
   },
   "daily_done": "2026-10-19",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 22.07,
+    "metered": 22.2,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 49,
+    "cloud": 48,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 5.93
+    "modal_credit_left": 5.8
   },
   "made_here": 0,
   "open_topics": 28,

@@ -1,0 +1,287 @@
+{
+  "viable": true,
+  "reason": "The sources provide richly detailed, multi-site verified accounts of the near-fatal Gemini 8 stuck thruster incident and recovery.",
+  "story": "On March 16, 1966, Neil Armstrong and David Scott launched aboard Gemini 8 to perform history's first orbital docking with an Agena target vehicle. Minutes after achieving a smooth docking, their combined spacecraft began an uncontrollable roll. Suspecting the Agena's thrusters, Armstrong undocked. Without the target vehicle's mass, the Gemini capsule spun even faster, nearing one full revolution per second and threatening to knock both astronauts unconscious. With instruments blurring and ground communications cut off, Armstrong acted decisively. He shut down the primary attitude thrusters and fired the nose-mounted reentry control thrusters, finally halting the lethal tumble. However, arresting the roll consumed three-quarters of their reentry maneuvering fuel. Gemini flight rules mandated an immediate mission abort whenever reentry thrusters were fired. Armstrong and Scott splashed down in the western Pacific Ocean just ten hours after launch, where they suffered seasickness alongside Air Force pararescuers before being retrieved by the destroyer USS Leonard F. Mason.",
+  "angle": "When Neil Armstrong undocked to escape a spinning spacecraft, his capsule violently accelerated to nearly a full revolution every second, nearly causing the crew to black out and die.",
+  "claims": [
+    {
+      "claim": "Gemini 8 was crewed by command pilot Neil Armstrong and pilot David Scott.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Gemini 8 was the sixth crewed spaceflight of NASA's Gemini program.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Gemini 8 launched into space on March 16, 1966, propelled by a Titan II rocket.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Gemini 8 achieved the world's first docking of two spacecraft in orbit when it docked with an Agena target vehicle.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A planned extravehicular activity spacewalk by David Scott had to be cancelled due to an in-flight emergency.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "About 27 minutes after docking, the joined spacecraft began an unexpected and uncontrollable roll.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The emergency occurred while the astronauts were out of radio communication range with ground controllers.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Believing the Agena was malfunctioning, the astronauts undocked from it, which caused the Gemini capsule to spin even faster.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spin rate accelerated to near or exceeding one revolution per second, threatening to cause the astronauts to lose consciousness.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "To regain control, Armstrong shut off the Orbit Attitude and Maneuvering System and fired the nose Reentry Control System thrusters.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Stopping the tumble consumed approximately 75 percent of the spacecraft's reentry control fuel.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Gemini safety rules dictated that firing the Reentry Control System for any reason required an immediate mission abort and landing.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The runaway spin was caused by Orbit Attitude and Maneuvering System thruster number 8, which short-circuited and stuck open.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Gemini 8 executed an emergency reentry and splashed down in the western Pacific Ocean.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Three U.S. Air Force pararescuers parachuted from a C-54 aircraft and attached a flotation collar to the capsule.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The astronauts and their spacecraft were hoisted aboard the Navy destroyer USS Leonard F. Mason approximately three hours after splashdown.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Neil Armstrong, David Scott, and the three pararescuers all suffered from seasickness while awaiting ship recovery.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "After recovery, fellow astronaut Walter Schirra met Armstrong and Scott at the port of Naha, Okinawa.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Launch time: S1 gives the Titan II launch time as 10:41 a.m. EST, whereas S2 and S4 place it at 11:41 a.m. EST. A script should omit the specific launch minute or simply state the date.",
+    "Landing location coordinates: S1 states the splashdown was 800 km east of Okinawa, S2 states 800 km west of Okinawa, and S4 states 600 miles east of Okinawa. A script should generalize the location as the western Pacific Ocean.",
+    "Physical thruster inspection: S1 quotes flight director Chris Kraft stating engineers disassembled the thruster system after recovery, whereas S4 notes the adapter module housing the thrusters was jettisoned before reentry and could not be examined directly. A script should attribute physical hardware inspection claims to Kraft's memoir or focus strictly on the telemetry findings.",
+    "Sleep duration on the recovery ship: S1 states the astronauts slept for nine hours aboard the USS Leonard F. Mason, while S6 reports eight hours. A script should leave out the exact number of hours."
+  ],
+  "visuals": [
+    {
+      "subject": "Launch of Gemini 8 on Titan II rocket",
+      "queries": [
+        "Gemini 8 launch Titan II",
+        "Gemini VIII liftoff Cape Canaveral"
+      ]
+    },
+    {
+      "subject": "Gemini Agena Target Vehicle in orbit seen from Gemini 8",
+      "queries": [
+        "Gemini Agena Target Vehicle orbit Gemini 8",
+        "Gemini VIII Agena target vehicle"
+      ]
+    },
+    {
+      "subject": "Gemini 8 docking nose-to-nose with Agena",
+      "queries": [
+        "Gemini 8 Agena docking",
+        "Gemini VIII docking maneuver"
+      ]
+    },
+    {
+      "subject": "Gemini 8 official crew portrait of Armstrong and Scott",
+      "queries": [
+        "Gemini 8 crew portrait Neil Armstrong David Scott",
+        "Gemini VIII astronauts Armstrong Scott"
+      ]
+    },
+    {
+      "subject": "Gemini 8 official mission patch",
+      "queries": [
+        "Gemini 8 mission insignia patch",
+        "Gemini VIII insignia"
+      ]
+    },
+    {
+      "subject": "Gemini capsule instrument panel and flight controls",
+      "queries": [
+        "Gemini spacecraft cockpit instrument panel",
+        "Gemini capsule interior controls"
+      ]
+    },
+    {
+      "subject": "Gemini 8 capsule in water with flotation collar and pararescuers",
+      "queries": [
+        "Gemini 8 splashdown flotation collar",
+        "Gemini VIII water recovery pararescuers"
+      ]
+    },
+    {
+      "subject": "Astronauts Armstrong and Scott on the deck of USS Leonard F. Mason",
+      "queries": [
+        "Gemini 8 crew stands on deck of recovery vessel S66-18603",
+        "USS Leonard F Mason Gemini 8 astronauts"
+      ]
+    },
+    {
+      "subject": "Gemini 8 spacecraft being hoisted aboard recovery ship",
+      "queries": [
+        "Gemini 8 spacecraft recovery USS Leonard F Mason",
+        "Gemini VIII capsule hoisted aboard ship"
+      ]
+    },
+    {
+      "subject": "Armstrong and Scott arriving in Naha, Okinawa",
+      "queries": [
+        "Gemini 8 astronauts arrive Naha Okinawa",
+        "Neil Armstrong David Scott Walter Schirra Okinawa"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Gemini_8",
+      "title": "Gemini 8",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.nasa.gov/mission/gemini-viii/",
+      "title": "Gemini VIII - NASA",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "http://www.space.com/adastra/adastra_joewalker_061127.html",
+      "title": "Higher & Faster: Memorial Fund Established for X-15 pilot Joseph A. Walker",
+      "site": "space.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://airandspace.si.edu/stories/editorial/spinning-out-control-gemini-viii",
+      "title": "Spinning Out of Control: Gemini VIII’s Near-Disaster",
+      "site": "si.edu"
+    },
+    {
+      "label": "S5",
+      "url": "https://web.archive.org/web/20110727151042/http://www.nasaimages.org/luna/servlet/detail/nasaNAS~7~7~32671~136538:Gemini-8-crew-stands-on-deck-of-rec",
+      "title": "Gemini 8 crew stands on deck of recovery vessel",
+      "site": "nasaimages.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://web.archive.org/web/20161220215913/http://www.stripes.com/news/astronauts-arrive-on-okinawa-1.28085",
+      "title": "Astronauts arrive on Okinawa",
+      "site": "stripes.com"
+    }
+  ],
+  "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+  "series": "Near Misses"
+}
