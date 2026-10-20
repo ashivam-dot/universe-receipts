@@ -93,7 +93,52 @@
       "better_than_last": "This Short provides a much tighter logical explanation of a scientific concept than the trivia presented in episode 195.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-20T17:25:09+05:30",
+      "check": {
+        "duration": 50.37,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong counter-intuitive premise catches attention quickly.",
+        "clarity": "Physics explanation is direct and easy to follow.",
+        "payoff": "Newtonian orbital free-fall clearly resolves the puzzle.",
+        "visuals": "Relevant space footage, though beat 4 diagram is dry.",
+        "loop": "Concept connects smoothly back into the opening claim."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It tackles a widespread physical misconception more directly than the recent planetary fact videos.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
     }
   ],
-  "best_round": 2
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-20T17:25:09+05:30"
 }

@@ -113,7 +113,58 @@
       "better_than_last": "The payoff is more impactful than ep195 by connecting a distant phenomenon to a globally recognized and historically significant image.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-20T17:24:47+05:30",
+      "check": {
+        "duration": 52.6,
+        "words": 124,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'messier' heard as 'messii' after 'years across space'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong scale premise and visual grab attention quickly.",
+        "clarity": "Concepts unfold sequentially with clear astronomical scale comparisons.",
+        "payoff": "Connecting the jet to the iconic 2019 black hole photo delivers good closure.",
+        "visuals": "Imagery accurately represents M87 observations and data across wavelengths.",
+        "loop": "Closing sentence structure rolls smoothly into the opening statement."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Messier",
+          "respelling": "mess ee ay"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Ties a historic 1918 discovery directly into modern breakthrough imaging better than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": true
     }
   ],
-  "best_round": 2
+  "best_round": 3
 }

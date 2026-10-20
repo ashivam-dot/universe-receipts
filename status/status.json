@@ -1,41 +1,40 @@
 {
-  "updated_at": "2026-10-20T17:19:27+05:30",
+  "updated_at": "2026-10-20T23:10:40+05:30",
   "day": 19,
-  "result": "degraded",
+  "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5CHFT091FRAVR24X76NQW9R",
+    "id": "ta-01M5D62YSRNYJQPY1GHMMKVSNR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-20T17:05:09+05:30",
-    "started_at_utc": "2026-10-20T11:35:09+00:00",
-    "seconds": 858
+    "started_at": "2026-10-20T23:05:08+05:30",
+    "started_at_utc": "2026-10-20T17:35:08+00:00",
+    "seconds": 332
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 1.5
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "59 posts",
-      "seconds": 0.7
+      "seconds": 1.4
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 2.3
+      "detail": "added ep184 to 'Near Misses'",
+      "seconds": 3.3
     },
     {
       "name": "languages",
-      "ok": false,
-      "detail": "",
-      "error": "HttpError: <HttpError 503 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet&alt=json returned \"The service is currently unavailable.\". Details: \"[{'message': 'The service is currently unavailable.', 'domain': 'global', 'reason': 'backendError'}]\">",
-      "seconds": 30.3
+      "ok": true,
+      "detail": "ep118 language en/None -> en",
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -46,50 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep063 at 6 h: ahead of the channel's earlier Shorts at this age: 980 views against a median of 719 (1.4x)",
-      "seconds": 1.6
+      "detail": "ep167 at 24 h: not shown yet: 8 views in 25 hours (no source data yet). YouTube hasn't tested it in the Shorts feed, so this says nothing about the script; ep175 at 72 h: ahead of the channel's earlier Shorts at this age: 1636 views against a median of 967 (1.7x); learnings: Integrated 10 new reviews, promoted rules for resolution timing and subplot elimination, and updated medians.",
+      "seconds": 276.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "nothing in the cloud",
-      "seconds": 2.2
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "86 subscribers",
-      "seconds": 16.1
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Reviewed 10 recent Shorts against channel medians, reinforcing existing rules around high-stakes hooks, jargon removal, and seamless looping without creating new rules.",
-      "seconds": 717.8
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.1
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 22.5
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 36.1
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-019.md",
-      "seconds": 1.7
+      "detail": "ep198 ready; ep199 rejected (low scores: hook, payoff, loop); ep200 rejected (low scores: visuals); ep202 rejected (low scores: visuals; 3 frame problems)",
+      "seconds": 13.8
     },
     {
       "name": "buffer channel",
@@ -101,7 +64,7 @@
       "name": "preflight ep071",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "preflight ep072",
@@ -112,64 +75,62 @@
     {
       "name": "preflight ep146",
       "ok": true,
-      "detail": "video downloads whole (19 MB in 1 s)",
-      "seconds": 0.8
+      "detail": "video still hosted",
+      "seconds": 0.4
     },
     {
-      "name": "preflight ep184",
+      "name": "preflight ep172",
       "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.2
+      "detail": "video downloads whole (20 MB in 0 s)",
+      "seconds": 0.3
     },
     {
       "name": "preflight ep186",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
+      "seconds": 4.9
+    },
+    {
+      "name": "schedule ep181",
+      "ok": true,
+      "detail": "2026-10-23T12:30:00-04:00",
       "seconds": 1.2
     },
     {
-      "name": "start ep198",
+      "name": "start ep203",
       "ok": true,
-      "detail": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep199",
-      "ok": true,
-      "detail": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
+      "detail": "2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed",
       "seconds": 0.7
     },
     {
-      "name": "start ep200",
+      "name": "start ep204",
       "ok": true,
-      "detail": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
+      "detail": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
       "seconds": 0.6
     },
     {
-      "name": "start ep202",
+      "name": "start ep205",
       "ok": true,
-      "detail": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "seconds": 1.3
+      "detail": "Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C",
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 1.5
     }
   ],
-  "errors": [
-    "languages: HttpError: <HttpError 503 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=snippet&alt=json returned \"The service is currently unavailable.\". Details: \"[{'message': 'The service is currently unavailable.', 'domain': 'global', 'reason': 'backendError'}]\">"
-  ],
+  "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 24 waiting",
+    "room for 3 of the 4 Shorts wanted: Modal's credit covers 45, this run's share of the Actions minutes 0",
     "Buffer is full (10 queued); 24 waiting"
   ],
   "inventory": {
@@ -179,18 +140,12 @@
     "target": 42,
     "making": [],
     "remote": [
-      "ep198",
-      "ep199",
-      "ep200",
-      "ep202"
+      "ep203",
+      "ep204",
+      "ep205"
     ]
   },
   "queue": [
-    {
-      "id": "ep184",
-      "title": "The Nuclear Alarm Caused by Sunlight on Clouds",
-      "due_at": "2026-10-20T12:30:00-04:00"
-    },
     {
       "id": "ep071",
       "title": "The 50/50 Chance of a Galactic Crash",
@@ -230,6 +185,11 @@
       "id": "ep201",
       "title": "The Largest Star in the Universe Just Shrank",
       "due_at": "2026-10-22T21:30:00-04:00"
+    },
+    {
+      "id": "ep181",
+      "title": "The Dead Star That Warped Earth",
+      "due_at": "2026-10-23T12:30:00-04:00"
     },
     {
       "id": "ep174",
@@ -353,12 +313,6 @@
       "score": 23
     },
     {
-      "id": "ep181",
-      "title": "The Dead Star That Warped Earth",
-      "series": "The Universe Is Terrifying",
-      "score": 22
-    },
-    {
       "id": "ep185",
       "title": "Why Space Will NEVER Make You Explode",
       "series": "Space Myths, Busted",
@@ -381,83 +335,125 @@
       "title": "The Math Error That Lost a Mars Orbiter",
       "series": "Mission Files",
       "score": 24
-    }
-  ],
-  "made": [],
-  "spawned": [
+    },
     {
       "id": "ep198",
+      "title": "The 5,000-Light-Year Ray From a Black Hole",
+      "series": "Scale Breaker",
+      "score": 20
+    }
+  ],
+  "made": [
+    {
+      "id": "ep198",
+      "outcome": "ready",
       "topic": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
-      "call_id": "fc-01M5CJA1EKQ723YJNNPWN2B29G"
+      "title": "The 5,000-Light-Year Ray From a Black Hole",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792497288/universereceipts/ep198-d621ef0f.mp4"
     },
     {
       "id": "ep199",
+      "outcome": "rejected",
       "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
-      "call_id": "fc-01M5CJA24JDE3XJ9C89C9WA0TT"
+      "reason": "low scores: hook, payoff, loop"
     },
     {
       "id": "ep200",
+      "outcome": "rejected",
       "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
-      "call_id": "fc-01M5CJA2R72ZV08Y0PVMRZ0E8G"
+      "reason": "low scores: visuals"
     },
     {
       "id": "ep202",
+      "outcome": "rejected",
       "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "call_id": "fc-01M5CJA40P6KN8TE12Q100SZNE"
+      "reason": "low scores: visuals; 3 frame problems"
+    }
+  ],
+  "spawned": [
+    {
+      "id": "ep203",
+      "topic": "2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed",
+      "call_id": "fc-01M5D6D59RR84D9V8C54B34NZ7"
+    },
+    {
+      "id": "ep204",
+      "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
+      "call_id": "fc-01M5D6D5XWPK8067NY1NACCPRE"
+    },
+    {
+      "id": "ep205",
+      "topic": "Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C",
+      "call_id": "fc-01M5D6D6HMVG2WQ361FEKPXGJG"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep198",
-      "topic": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
-      "spawned_at": "2026-10-20T17:19:21+05:30"
+      "id": "ep203",
+      "topic": "2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed",
+      "spawned_at": "2026-10-20T23:10:34+05:30"
     },
     {
-      "id": "ep199",
-      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
-      "spawned_at": "2026-10-20T17:19:21+05:30"
+      "id": "ep204",
+      "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
+      "spawned_at": "2026-10-20T23:10:35+05:30"
     },
     {
-      "id": "ep200",
-      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
-      "spawned_at": "2026-10-20T17:19:22+05:30"
-    },
-    {
-      "id": "ep202",
-      "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "spawned_at": "2026-10-20T17:19:23+05:30"
+      "id": "ep205",
+      "topic": "Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C",
+      "spawned_at": "2026-10-20T23:10:36+05:30"
     }
   ],
-  "published": [],
-  "live": 49,
+  "published": [
+    {
+      "id": "ep181",
+      "title": "The Dead Star That Warped Earth",
+      "due_at": "2026-10-23T12:30:00-04:00"
+    }
+  ],
+  "live": 50,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 3,
+    "calls": 17,
     "by_model": {
-      "gemini-3.5-flash": 3
+      "gemini-3.5-flash": 2,
+      "gemini-3-flash-preview": 5,
+      "gemini-3.7-flash": 3,
+      "gemini-3.6-flash": 2,
+      "gemini-3.5-flash-lite": 2,
+      "gemini-3.8-flash": 3
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.7-flash"
+    ]
   },
   "renders": {
-    "modal": 0,
+    "modal": 8,
     "runner": 0
   },
   "daily_done": "2026-10-20",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 22.22,
+    "metered": 22.49,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 48,
+    "cloud": 45,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 5.78
+    "modal_credit_left": 5.51
   },
   "made_here": 0,
-  "open_topics": 32,
-  "parked_topics": 59
+  "open_topics": 29,
+  "parked_topics": 60
 }

@@ -1,0 +1,181 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-20T17:23:46+05:30",
+      "check": {
+        "duration": 56.18,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "'joined' heard as 'joint' after 'thruster threw the'",
+          "'roll' heard as 'role' after 'into an uncontrollable'",
+          "'agena' heard as 'agna' after 'range without the'",
+          "'made' heard as 'may' after 'a spinning spacecraft'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise about a counterintuitive space emergency.",
+        "clarity": "Clear chronological progression of the Gemini 8 incident.",
+        "payoff": "Satisfying resolution showing how solving one crisis forced an abort.",
+        "visuals": "Naval recovery images appear during orbital sequence beats.",
+        "loop": "Repeats opening premise seamlessly for an easy rewatch."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows naval deck recovery during orbital thruster maneuver."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Agena",
+          "respelling": "uh jee nuh"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a compelling historical tension arc using real mission footage.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-20T17:26:00+05:30",
+      "check": {
+        "duration": 56.23,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'joined' heard as 'joint' after 'thruster threw the'",
+          "'roll' heard as 'role' after 'into an uncontrollable'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong paradoxical premise that catches attention quickly.",
+        "clarity": "Logical timeline of events is straightforward to follow.",
+        "payoff": "The resolution is historical fact but lacks a major surprising twist.",
+        "visuals": "Historical imagery effectively represents the key mission events.",
+        "loop": "The final statement transitions back into the hook somewhat abruptly."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Generic horizon view does not visually portray the capsule spinning or accelerating."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Reframe the final line to emphasize how the emergency splashdown stemmed directly from the undocking crisis to improve loop flow."
+      ],
+      "better_than_last": "Features clearer archival mission visual assets compared to recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-20T17:31:01+05:30",
+      "check": {
+        "duration": 51.07,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'joined' heard as 'joint' after 'thruster threw the'",
+          "'roll' heard as 'role' after 'into an uncontrollable'",
+          "'agena' heard as 'agna' after 'range without the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Technical phrasing may delay viewer engagement.",
+        "clarity": "Sequential storytelling provides clear historical context.",
+        "payoff": "Ending summary provides resolution but lacks a final surprise.",
+        "visuals": "Relevant historical imagery maintains viewer interest.",
+        "loop": "Connection is logical but lacks a seamless grammatical bridge."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "joined",
+          "respelling": "joynd"
+        },
+        {
+          "beat": 6,
+          "word": "Agena",
+          "respelling": "uh gee nuh"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: Neil Armstrong's first spaceflight nearly turned fatal when his capsule spun wildly out of control.",
+        "Beat 6: Spinning once every second, the astronauts were seconds away from disaster.",
+        "Beat 8: The crew survived the emergency landing, which only happened because..."
+      ],
+      "better_than_last": "This episode offers a more compelling human narrative than the stellar physics of episode 201.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, loop",
+  "rejected_at": "2026-10-20T17:31:01+05:30"
+}

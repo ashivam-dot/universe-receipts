@@ -68,27 +68,41 @@ beats:
   - first orbital docking
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/3/38/Gemini_VIII_Mission_Image_-_Agena_%28S66-25782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Gemini_8_docking.jpg/3840px-Gemini_8_docking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Gemini VIII Mission Image - Agena (S66-25782).jpg
-      credit: NASA Johnson Space Center
+      title: Gemini 8 docking.jpg
+      credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Gemini_VIII_Mission_Image_-_Agena_(S66-25782).jpg
+      url: https://commons.wikimedia.org/wiki/File:Gemini_8_docking.jpg
     fallbacks:
     - color
     motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.46
+    focus_y: 0.46
+    box:
+    - 0.27
+    - 0.38
+    - 0.72
+    - 0.94
 - text: Minutes later, a short-circuited thruster threw the joined spacecraft into an uncontrollable roll.
   emphasis:
   - uncontrollable roll
   sfx: whoosh
   visual:
-    reuse: 3
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/S66-25779.jpg/1920px-S66-25779.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: S66-25779.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:S66-25779.jpg
+    fallbacks:
+    - color
     motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.32
+    focus_y: 0.6
 - text: Believing the target vehicle was malfunctioning, the crew undocked while out of radio range.
   emphasis:
   - undocked
@@ -114,70 +128,38 @@ beats:
   pause_after: 0.4
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/9/90/GEMINI-TITAN_%28GT%29-8_-_%28EARTH_SKY%29%28EARTH%27S_LIMB%29_-_OUTER_SPACE_%28S66-25771%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/8/81/KSC-66C-1850_Gemini_8_Astronaut_Neil_Armstrong_is_aided_by_Suit_Technician_Jim_Garrepy%2C_during_preparations_for_today%E2%80%99s_Gemini_8_Mission_%28jrs%29_%28104-KSC-66C-1850%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: GEMINI-TITAN (GT)-8 - (EARTH SKY)(EARTH'S LIMB) - OUTER SPACE (S66-25771).jpg
-      credit: NASA Johnson Space Center
+      title: KSC-66C-1850 Gemini 8 Astronaut Neil Armstrong is aided by Suit Technician Jim Garrepy, during preparations for
+        today’s Gemini 8 Mission (jrs) (104-KSC-66C-1850).jpg
+      credit: NASA Kennedy Space Center
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:GEMINI-TITAN_(GT)-8_-_(EARTH_SKY)(EARTH%27S_LIMB)_-_OUTER_SPACE_(S66-25771).jpg
+      url: https://commons.wikimedia.org/wiki/File:KSC-66C-1850_Gemini_8_Astronaut_Neil_Armstrong_is_aided_by_Suit_Technician_Jim_Garrepy,_during_preparations_for_today%E2%80%99s_Gemini_8_Mission_(jrs)_(104-KSC-66C-1850).jpg
     fallbacks:
     - color
     motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.48
+    focus_y: 0.45
 - text: Armstrong fired the reentry thrusters to halt the tumble, consuming seventy-five percent of their maneuvering fuel.
   emphasis:
   - seventy-five percent
   sfx: whoosh
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/S66-26037_%2825537748480%29.jpg/3840px-S66-26037_%2825537748480%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: S66-26037 (25537748480).jpg
-      credit: National Museum of the U.S. Navy
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:S66-26037_(25537748480).jpg
-    fallbacks:
-    - card
-    - color
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
+    source: card
     card:
       kind: fact
       big: 75%
       small: Reentry Fuel Consumed
-- text: Safety rules forced an emergency splashdown in the western Pacific Ocean.
+    motion: zoom_in
+- text: That emergency splashdown in the Pacific was the price of surviving a runaway tumble.
   emphasis:
-  - western Pacific Ocean
+  - emergency splashdown
   sfx: pop
   pause_after: 0.4
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/S66-18613_%2825211820883%29.jpg/3840px-S66-18613_%2825211820883%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: S66-18613 (25211820883).jpg
-      credit: National Museum of the U.S. Navy
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:S66-18613_(25211820883).jpg
-    fallbacks:
-    - card
-    - color
-    motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
-    card:
-      kind: dateline
-      big: Pacific Ocean
-      small: Emergency Splashdown
-- text: Undocking to escape a spinning spacecraft made Gemini 8 spin even faster.
-  emphasis:
-  - spin even faster
   visual:
     reuse: 1
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
+hook_text: UNCONTROLLABLE SPIN IN ORBIT

@@ -1,0 +1,168 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-20T17:42:18+05:30",
+      "check": {
+        "duration": 52.47,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The concept of designing a planetary probe for oceans on Venus is intriguing and grabs attention.",
+        "clarity": "The mission objectives, extreme atmospheric findings, and eventual fate unfold clearly and logically.",
+        "payoff": "The twist that it was obliterated mid-air by extreme heat and pressure instead of reaching an ocean lands well.",
+        "visuals": "Beat 8 incorrectly shows an American Mariner spacecraft, and Beat 6 features an unhelpful portrait sketch.",
+        "loop": "Ending on 'oceans of Venus' cycles seamlessly back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows an obscure newspaper portrait sketch instead of the Jodrell Bank radio telescope or Venusian atmospheric data."
+        },
+        {
+          "beat": 8,
+          "problem": "Shows a NASA Mariner spacecraft rather than the Soviet Venera probe."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-20T17:46:58+05:30",
+      "check": {
+        "duration": 52.47,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The prospect of a probe hunting for oceans on Venus is intriguing enough to halt swiping.",
+        "clarity": "The narrative flows logically from expectations to real-time atmospheric discoveries.",
+        "payoff": "The revelation that a probe built to swim was crushed mid-air by extreme heat and pressure lands brilliantly.",
+        "visuals": "Several frames derail the video: beat 6 features an unrelated antique orrery, and beat 8 displays a text-heavy Mariner document.",
+        "loop": "The concept loops back cleanly, although repeating 'oceans of Venus' back-to-back is slightly awkward."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "off-topic; shows an antique mechanical orrery instead of Jodrell Bank Observatory or atmospheric sensors"
+        },
+        {
+          "beat": 8,
+          "problem": "mostly text and the wrong mission; displays a commemorative certificate for NASA's Mariner V"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The historical irony of over-engineering a planetary boat only for it to be crushed mid-air in a furnace delivers a stronger narrative punch than the recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-20T17:49:23+05:30",
+      "check": {
+        "duration": 52.47,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The notion of a spacecraft built to land in Venusian oceans immediately grabs attention.",
+        "clarity": "The narrative flows logically from expectations to the harsh reality revealed during atmospheric entry.",
+        "payoff": "The revelation that the probe was crushed high above a furnace world completely subverts the ocean premise.",
+        "visuals": "Several visual missteps derail the historical setting, including an American Mariner probe and modern electronics.",
+        "loop": "The final phrase connects back to the opening theme, though repeating 'oceans of Venus' verbatim feels slightly clumsy."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "shows an off-topic modern electronics workbench with a laptop rather than 1967 Jodrell Bank Observatory"
+        },
+        {
+          "beat": 7,
+          "problem": "the same picture as beat 3"
+        },
+        {
+          "beat": 8,
+          "problem": "shows an American Mariner spacecraft instead of the Soviet Venera probe"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It builds great dramatic irony around historical misconceptions of planetary science compared to recent pure-fact episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 3 frame problems",
+  "rejected_at": "2026-10-20T17:49:23+05:30"
+}
