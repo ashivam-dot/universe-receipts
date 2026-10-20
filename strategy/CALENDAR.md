@@ -28,7 +28,7 @@ unexplained, not alien.
 | 2026-10-03 | DAVINCI (2021): a titanium sphere built to survive a 900-degree plunge through the toxic atmosphere of Venus — done (ep036) | Mission Files | NASA recently highlighted extreme thermal testing on the probe's engineering model for its mission to Venus. |
 | 2026-10-05 | Andromeda Galaxy (1923): a single star proved the Milky Way wasn't the entire universe — done (ep060) | Scale Breaker | October 5th is the anniversary of Edwin Hubble identifying the star that proved galaxies exist beyond our own. |
 | 2026-10-05 | Sombrero Galaxy (1781): a massive ring of stars that hides a violent history of galactic cannibalism — done (ep061) | The Universe Is Terrifying | Featured on NASA's APOD today with new evidence of tidal streams from its past mergers. |
-| 2026-10-06 | White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems — parked (ep074) | Space Got Weird | A new analysis of archival Hubble data points to the possibility of dead white dwarfs hosting second-generation planetary systems. |
+| 2026-10-06 | White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems — making (ep209) | Space Got Weird | A new analysis of archival Hubble data points to the possibility of dead white dwarfs hosting second-generation planetary systems. |
 | 2026-10-06 | Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar — parked (ep075) | Space Got Weird | NASA recently highlighted Madagascar's anorthosite deposits, which perfectly mimic the geological composition of the Moon's surface. |
 | 2026-10-07 | SN 1181 (1181): a zombie star that survived its own supernova and now screams through space at 16,000 kilometers per second — done (ep086) | Space Got Weird | A spectacular new image of its remnant, Pa 30, was featured as NASA's Astronomy Picture of the Day on October 7, 2026. |
 | 2026-10-08 | Aeolis Mons (2012): a Martian mountain taller than Mount Rainier that a robotic rover has been slowly climbing for over a decade — done (ep099) | Scale Breaker | NASA's Curiosity rover recently reached a major elevation milestone on the mountain, capturing new panoramas of its wind-carved cliffs. |
@@ -156,7 +156,7 @@ unexplained, not alien.
 - Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127 — parked (ep069)
 - Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — done (ep194)
 - OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space — parked (ep062)
-- Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour — parked (ep077)
+- Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour — making (ep206)
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life — done (ep045)
 - New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it — done (ep177)
 - Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum — dropped (ep016)
@@ -219,7 +219,7 @@ unexplained, not alien.
 - Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years — done (ep063)
 - 4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed — parked (ep088)
 - 2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach — done (ep112)
-- 4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange "ginger-root" shape — parked (ep080)
+- 4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange "ginger-root" shape — making (ep208)
 - 1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space — parked (ep102)
 - 2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later — done (ep119)
 - Voskhod 2 (1965): the first spacewalker was trapped outside his ship when his suit ballooned stiff, forcing him to bleed off vital oxygen to squeeze back inside — done (ep137)
@@ -242,7 +242,7 @@ unexplained, not alien.
 - Black hole: if the Sun became a black hole of the same mass, Earth would keep orbiting just as before — dropped (ep149)
 - Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop — dropped (ep200)
 - Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes — parked (ep107)
-- Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun — parked (ep073)
+- Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun — making (ep207)
 - Micro-g environment (1961): astronauts are not beyond Earth's gravity, which is still about 90 percent as strong on the space station as on the ground — done (ep059)
 - Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever — parked (ep093)
 - Asteroid belt (1801): despite movie scenes of ships dodging giant rocks, the average distance between asteroids in the belt is about 600,000 miles — done (ep087)

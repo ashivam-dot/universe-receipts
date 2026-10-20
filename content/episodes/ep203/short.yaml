@@ -1,0 +1,120 @@
+id: ep203
+title: The Asteroid That Snuck Past Earth
+series: Near Misses
+description: An SUV-sized asteroid passed just 1,830 miles above Earth in 2020, and astronomers were completely blind to it.
+sources:
+- https://en.wikipedia.org/wiki/2020_QG
+- https://www.nasa.gov/solar-system/tiny-asteroid-buzzes-by-earth-the-closest-flyby-on-record/
+- https://www.caltech.edu/about/news/ztf-finds-closest-known-asteroid-fly-earth
+- https://www.scientificamerican.com/article/asteroid-makes-the-closest-earth-flyby-a-space-rock-has-ever-survived/
+- https://www.space.com/asteroid-ciose-earth-flyby-orbit-change-2020-qg.html
+- https://www.cbsnews.com/news/asteroid-2020qg-closest-fly-by-earth-on-record-nasa-astronomers/
+- https://www.minorplanetcenter.net/db_search/show_object?object_id=2020+QG
+hashtags:
+- '#space'
+- '#nearmiss'
+- '#asteroid'
+tags:
+- 2020 QG
+- asteroid
+- astronomy
+- Palomar Observatory
+- ZTF
+- space science
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: An asteroid zipped 1,830 miles above Earth, yet nobody saw it coming.
+  emphasis:
+  - 1,830 miles
+  - nobody saw it coming
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/PIA24038-Asteroid2020QG-20200816.jpg/1280px-PIA24038-Asteroid2020QG-20200816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA24038-Asteroid2020QG-20200816.jpg
+      credit: ZTF/Caltech Optical Observatories (funded by NASA and the National Science Foundation-NSF)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA24038-Asteroid2020QG-20200816.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.39
+    - 0.39
+    - 0.61
+    - 0.61
+- text: In August 2020, this SUV-sized space rock approached from the hidden, blinding direction of the bright Sun.
+  emphasis:
+  - SUV-sized
+  - blinding direction
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: August 2020
+      small: Inner Solar System
+    motion: zoom_in
+- text: Traveling at a blistering 27,600 miles per hour, it remained entirely invisible to all our ground-based observatories.
+  emphasis:
+  - 27,600 miles per hour
+  - entirely invisible
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 27,600 mph
+      small: Asteroid velocity
+    motion: zoom_in
+- text: Earth's massive gravity then violently bent the trajectory of this rock by roughly 45 degrees of arc.
+  emphasis:
+  - violently bent
+  - 45 degrees
+  sfx: riser
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The Zwicky Transient Facility finally spotted the tiny object six hours after its closest, most terrifying approach.
+  emphasis:
+  - Zwicky Transient Facility
+  - six hours
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 6 hours later
+      small: Discovery delay
+    motion: zoom_in
+- text: This event remains the absolute closest non-impacting asteroid flyby ever recorded by our modern global science.
+  emphasis:
+  - closest non-impacting
+  - flyby
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 1,830 miles
+      small: Closest flyby record
+    motion: zoom_in
+- text: The massive blind spot created by the Sun is why we never saw that asteroid.
+  emphasis:
+  - massive blind spot
+  - never saw
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: A BLIND SPOT IN SPACE

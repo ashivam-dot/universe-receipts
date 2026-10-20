@@ -1,0 +1,74 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-20T23:21:03+05:30",
+      "check": {
+        "duration": 47.62,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'in' heard as 'and' after 'fizzing like sodium'",
+          "'geminid' heard as 'gemini' after 'phaethon to the'",
+          "'dives' heard as 'divies' after 'and mars it'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The sodium analogy creates a strong, immediate mental image.",
+        "clarity": "Concepts are sequenced logically for a first-time listener.",
+        "payoff": "Concluding on an unsolved mystery feels less satisfying than a discovery.",
+        "visuals": "Reliance on technical charts reduces the overall cinematic quality.",
+        "loop": "Linguistic connection back to the subject matter is seamless."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Small text in the orbit diagram is illegible on mobile."
+        },
+        {
+          "beat": 6,
+          "problem": "Scientific data image lacks sufficient contrast and looks like noise."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Geminid",
+          "respelling": "gem in id"
+        },
+        {
+          "beat": 5,
+          "word": "dives",
+          "respelling": "dyves"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: This implies another unknown process is generating the massive debris cloud."
+      ],
+      "better_than_last": "Uses more relatable physical analogies than the abstract energy beam described in episode 198.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

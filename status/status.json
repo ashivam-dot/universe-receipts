@@ -1,70 +1,64 @@
 {
-  "updated_at": "2026-10-20T23:10:40+05:30",
-  "day": 19,
+  "updated_at": "2026-10-21T05:07:36+05:30",
+  "day": 20,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5D62YSRNYJQPY1GHMMKVSNR",
+    "id": "ta-01M5DTP4T2VAEY4TTHDG2ZXP9R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-20T23:05:08+05:30",
-    "started_at_utc": "2026-10-20T17:35:08+00:00",
-    "seconds": 332
+    "started_at": "2026-10-21T05:05:12+05:30",
+    "started_at_utc": "2026-10-20T23:35:12+00:00",
+    "seconds": 144
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 2.2
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "59 posts",
-      "seconds": 1.4
+      "detail": "60 posts",
+      "seconds": 2.6
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep184 to 'Near Misses'",
-      "seconds": 3.3
+      "detail": "added ep071 to 'The Universe Is Terrifying'",
+      "seconds": 3.1
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep118 language en/None -> en",
-      "seconds": 0.5
+      "detail": "every live Short is in English",
+      "seconds": 0.2
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep167 at 24 h: not shown yet: 8 views in 25 hours (no source data yet). YouTube hasn't tested it in the Shorts feed, so this says nothing about the script; ep175 at 72 h: ahead of the channel's earlier Shorts at this age: 1636 views against a median of 967 (1.7x); learnings: Integrated 10 new reviews, promoted rules for resolution timing and subplot elimination, and updated medians.",
-      "seconds": 276.3
+      "detail": "ep058 at 24 h: level with the channel's earlier Shorts at this age: 1014 views against a median of 878 (1.2x); ep133 at 72 h: ahead of the channel's earlier Shorts at this age: 1295 views against a median of 979 (1.3x); ep184 at 6 h: behind the channel's earlier Shorts at this age: 310 views against a median of 738 (0.4x); learnings: Logged daily performance reviews for ten Shorts, confirming ongoing drop-off issues from weak loop structures and dense jargon.",
+      "seconds": 88.6
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep198 ready; ep199 rejected (low scores: hook, payoff, loop); ep200 rejected (low scores: visuals); ep202 rejected (low scores: visuals; 3 frame problems)",
-      "seconds": 13.8
+      "detail": "ep203 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep204 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep205 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 13.4
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
       "seconds": 0.2
-    },
-    {
-      "name": "preflight ep071",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.4
     },
     {
       "name": "preflight ep072",
@@ -81,8 +75,8 @@
     {
       "name": "preflight ep172",
       "ok": true,
-      "detail": "video downloads whole (20 MB in 0 s)",
-      "seconds": 0.3
+      "detail": "video still hosted",
+      "seconds": 0.6
     },
     {
       "name": "preflight ep186",
@@ -94,63 +88,72 @@
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 4.9
+      "seconds": 4.6
     },
     {
-      "name": "schedule ep181",
+      "name": "schedule ep185",
       "ok": true,
-      "detail": "2026-10-23T12:30:00-04:00",
+      "detail": "2026-10-23T19:00:00-04:00",
+      "seconds": 1.5
+    },
+    {
+      "name": "start ep206",
+      "ok": true,
+      "detail": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep207",
+      "ok": true,
+      "detail": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep208",
+      "ok": true,
+      "detail": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
+      "seconds": 1.7
+    },
+    {
+      "name": "start ep209",
+      "ok": true,
+      "detail": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
       "seconds": 1.2
-    },
-    {
-      "name": "start ep203",
-      "ok": true,
-      "detail": "2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep204",
-      "ok": true,
-      "detail": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep205",
-      "ok": true,
-      "detail": "Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C",
-      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 1.3
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "room for 3 of the 4 Shorts wanted: Modal's credit covers 45, this run's share of the Actions minutes 0",
-    "Buffer is full (10 queued); 24 waiting"
+    "ep203 stopped on Gemini's free quota; it resumes in a later run",
+    "ep204 stopped on Gemini's free quota; it resumes in a later run",
+    "ep205 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "Buffer is full (10 queued); 23 waiting"
   ],
   "inventory": {
-    "total": 34,
+    "total": 33,
     "in_buffer": 10,
-    "waiting": 24,
+    "waiting": 23,
     "target": 42,
-    "making": [],
-    "remote": [
+    "making": [
       "ep203",
       "ep204",
       "ep205"
+    ],
+    "remote": [
+      "ep206",
+      "ep207",
+      "ep208",
+      "ep209"
     ]
   },
   "queue": [
-    {
-      "id": "ep071",
-      "title": "The 50/50 Chance of a Galactic Crash",
-      "due_at": "2026-10-20T19:00:00-04:00"
-    },
     {
       "id": "ep072",
       "title": "The Solar Storm That Missed Earth",
@@ -190,6 +193,11 @@
       "id": "ep181",
       "title": "The Dead Star That Warped Earth",
       "due_at": "2026-10-23T12:30:00-04:00"
+    },
+    {
+      "id": "ep185",
+      "title": "Why Space Will NEVER Make You Explode",
+      "due_at": "2026-10-23T19:00:00-04:00"
     },
     {
       "id": "ep174",
@@ -313,12 +321,6 @@
       "score": 23
     },
     {
-      "id": "ep185",
-      "title": "Why Space Will NEVER Make You Explode",
-      "series": "Space Myths, Busted",
-      "score": 22
-    },
-    {
       "id": "ep190",
       "title": "How NASA Trapped Speeding Comet Dust",
       "series": "Mission Files",
@@ -345,115 +347,120 @@
   ],
   "made": [
     {
-      "id": "ep198",
-      "outcome": "ready",
-      "topic": "Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space",
-      "title": "The 5,000-Light-Year Ray From a Black Hole",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792497288/universereceipts/ep198-d621ef0f.mp4"
+      "id": "ep203",
+      "outcome": "unfinished",
+      "topic": "2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep199",
-      "outcome": "rejected",
-      "topic": "Gemini 8 (1966): Neil Armstrong's first spaceflight nearly killed him when a stuck thruster sent the capsule into a violent spin",
-      "reason": "low scores: hook, payoff, loop"
+      "id": "ep204",
+      "outcome": "unfinished",
+      "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep200",
-      "outcome": "rejected",
-      "topic": "Weightlessness: astronauts don't float because gravity is gone; they're falling around Earth nonstop",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep202",
-      "outcome": "rejected",
-      "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "reason": "low scores: visuals; 3 frame problems"
+      "id": "ep205",
+      "outcome": "unfinished",
+      "topic": "Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep203",
-      "topic": "2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed",
-      "call_id": "fc-01M5D6D59RR84D9V8C54B34NZ7"
+      "id": "ep206",
+      "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
+      "call_id": "fc-01M5DTTMXS90ZY7ZTTNZ9K3T0G"
     },
     {
-      "id": "ep204",
-      "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
-      "call_id": "fc-01M5D6D5XWPK8067NY1NACCPRE"
+      "id": "ep207",
+      "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
+      "call_id": "fc-01M5DTTPGEM00MVHZ748BGQGCC"
     },
     {
-      "id": "ep205",
-      "topic": "Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C",
-      "call_id": "fc-01M5D6D6HMVG2WQ361FEKPXGJG"
+      "id": "ep208",
+      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
+      "call_id": "fc-01M5DTTR5R3VH8DKERYZ251NY6"
+    },
+    {
+      "id": "ep209",
+      "topic": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
+      "call_id": "fc-01M5DTTSACV0E1G2ERPP4TZ5W7"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep203",
-      "topic": "2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed",
-      "spawned_at": "2026-10-20T23:10:34+05:30"
+      "id": "ep206",
+      "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
+      "spawned_at": "2026-10-21T05:07:28+05:30"
     },
     {
-      "id": "ep204",
-      "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
-      "spawned_at": "2026-10-20T23:10:35+05:30"
+      "id": "ep207",
+      "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
+      "spawned_at": "2026-10-21T05:07:29+05:30"
     },
     {
-      "id": "ep205",
-      "topic": "Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C",
-      "spawned_at": "2026-10-20T23:10:36+05:30"
+      "id": "ep208",
+      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
+      "spawned_at": "2026-10-21T05:07:31+05:30"
+    },
+    {
+      "id": "ep209",
+      "topic": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
+      "spawned_at": "2026-10-21T05:07:32+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep181",
-      "title": "The Dead Star That Warped Earth",
-      "due_at": "2026-10-23T12:30:00-04:00"
+      "id": "ep185",
+      "title": "Why Space Will NEVER Make You Explode",
+      "due_at": "2026-10-23T19:00:00-04:00"
     }
   ],
-  "live": 50,
+  "live": 51,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 17,
+    "calls": 21,
     "by_model": {
-      "gemini-3.5-flash": 2,
-      "gemini-3-flash-preview": 5,
-      "gemini-3.7-flash": 3,
-      "gemini-3.6-flash": 2,
-      "gemini-3.5-flash-lite": 2,
-      "gemini-3.8-flash": 3
+      "gemini-3.8-flash": 2,
+      "gemini-3-flash-preview": 6,
+      "gemini-3.5-flash-lite": 6,
+      "gemini-3.1-flash-lite": 7
     },
     "out_of_quota": [
-      "gemini-3.7-flash"
+      "gemini-3-flash-preview",
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash",
+      "gemini-flash-latest"
     ]
   },
   "renders": {
-    "modal": 8,
+    "modal": 4,
     "runner": 0
   },
   "daily_done": "2026-10-20",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 22.49,
+    "metered": 22.66,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 45,
+    "cloud": 44,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 5.51
+    "modal_credit_left": 5.34
   },
   "made_here": 0,
   "open_topics": 29,
-  "parked_topics": 60
+  "parked_topics": 56
 }

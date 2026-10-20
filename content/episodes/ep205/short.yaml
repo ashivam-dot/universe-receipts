@@ -1,0 +1,178 @@
+id: ep205
+title: The Black Hole That Sings a B-flat
+series: Scale Breaker
+description: A supermassive black hole in the Perseus Cluster emits a sound wave 57 octaves below middle C, carrying the energy
+  of 100 million supernovae.
+sources:
+- https://en.wikipedia.org/wiki/Perseus_Cluster
+- https://www.nasa.gov/universe/new-nasa-black-hole-sonifications-with-a-remix/
+- https://chandra.si.edu/sound/perseus.html
+- https://chandra.harvard.edu/press/03_releases/press_090903.html
+- https://www.physlink.com/News/091003ParseusSoundWaves.cfm
+- https://arxiv.org/abs/astro-ph/0306036
+- http://www.space.com/scienceastronomy/blackhole_note_030909.html
+hashtags:
+- '#space'
+- '#blackhole'
+- '#nasa'
+tags:
+- Perseus Cluster
+- black hole
+- sound
+- astronomy
+- Chandra
+- NGC 1275
+- B-flat
+- science
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: Space is a silent vacuum, except for one massive cosmic singer.
+  emphasis:
+  - silent vacuum
+  - cosmic singer
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: silent vacuum
+      small: ''
+    motion: zoom_in
+- text: Most people assume sound cannot travel through the total emptiness of space.
+  emphasis:
+  - emptiness of space
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e5/Abell_426_with_8_inch_RC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Abell 426 with 8 inch RC.jpg
+      credit: Brainandforce
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Abell_426_with_8_inch_RC.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But the Perseus Cluster, 250 million light-years away, is filled with hot gas.
+  emphasis:
+  - Perseus Cluster
+  - hot gas
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Perseus_A-_Chandra_Catches_Cannibal_Galaxy_in_the_Act_%282000-perseus_-_asmooth%29.tiff/lossy-page1-1920px-Perseus_A-_Chandra_Catches_Cannibal_Galaxy_in_the_Act_%282000-perseus_-_asmooth%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Perseus A- Chandra Catches Cannibal Galaxy in the Act (2000-perseus - asmooth).tiff
+      credit: NASA/IoA/A.Fabian et al.
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Perseus_A-_Chandra_Catches_Cannibal_Galaxy_in_the_Act_(2000-perseus_-_asmooth).tiff
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 250 million
+      small: light-years away
+- text: In 2002, NASA’s Chandra X-ray Observatory detected real pressure waves rippling through that gas.
+  emphasis:
+  - pressure waves
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Chandra_X-ray_Image_of_Perseus_A_%282008-perseus-more-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Chandra X-ray Image of Perseus A (2008-perseus-more-1).jpg
+      credit: '(Credit: NASA/CXC/IoA/A.Fabian et al)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Chandra_X-ray_Image_of_Perseus_A_(2008-perseus-more-1).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '2002'
+      small: Chandra X-ray Observatory
+- text: A supermassive black hole in galaxy NGC 1275 is blowing plasma bubbles, creating a cosmic hum.
+  emphasis:
+  - plasma bubbles
+  - cosmic hum
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Perseus_A-_A_Monster_Galaxy_at_the_Heart_of_Perseus_Cluster_%282008-perseus_-_1680%29.jpg/1280px-Perseus_A-_A_Monster_Galaxy_at_the_Heart_of_Perseus_Cluster_%282008-perseus_-_1680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Perseus A- A Monster Galaxy at the Heart of Perseus Cluster (2008-perseus - 1680).jpg
+      credit: 'X-ray: NASA/CXC/IoA/A.Fabian et al.; Radio: NRAO/VLA/G. Taylor; Optical: NASA/ESA/Hubble Heritage (STScI/AURA)
+        & Univ. of Cambridge/IoA/A. Fabian'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Perseus_A-_A_Monster_Galaxy_at_the_Heart_of_Perseus_Cluster_(2008-perseus_-_1680).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers at Cambridge University found this hum is a B-flat note 57 octaves below middle C.
+  emphasis:
+  - B-flat
+  - 57 octaves
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 57 octaves
+      small: below middle C
+    motion: zoom_in
+- text: A single oscillation of this deep sound wave takes nearly ten million years to complete.
+  emphasis:
+  - ten million years
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 5
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This sound carries the energy of 100 million supernovae, keeping the cluster too hot to form stars.
+  emphasis:
+  - 100 million supernovae
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Illustration_of_Active_Galactic_Nucleus_%282007-agns_-_accretiondisk_torus%29.tiff/lossy-page1-1920px-Illustration_of_Active_Galactic_Nucleus_%282007-agns_-_accretiondisk_torus%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Illustration of Active Galactic Nucleus (2007-agns - accretiondisk torus).tiff
+      credit: NASA/CXC/Ohio State Univ./J.Eastman et al
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Illustration_of_Active_Galactic_Nucleus_(2007-agns_-_accretiondisk_torus).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 100 million
+      small: supernovae
+- text: It is a deep, eternal vibration proving that space is a silent vacuum.
+  emphasis:
+  - eternal vibration
+  visual:
+    reuse: 1
+    motion: zoom_out
+hook_text: THE COSMIC SINGER
