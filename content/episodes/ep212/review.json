@@ -1,0 +1,63 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-21T11:27:04+05:30",
+      "check": {
+        "duration": 57.97,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong technical hook that sets high stakes immediately.",
+        "clarity": "Narrative sequence is logical and easy to comprehend.",
+        "payoff": "The lens cap resolution provides a classic space irony.",
+        "visuals": "Radar imagery is inaccurately used for surface panoramas.",
+        "loop": "Numerical connection creates a smooth thematic cycle."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows radar-mapped mountain instead of drilling mechanism"
+        },
+        {
+          "beat": 6,
+          "problem": "shows black and white radar map despite mention of color panoramas"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Venera",
+          "respelling": "veh nair uh"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode provides a more concrete historical narrative compared to the abstract scale of the black hole ray.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

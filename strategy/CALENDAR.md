@@ -65,6 +65,7 @@ unexplained, not alien.
 | Nov 28 | Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations | Mission Files |
 | Nov 28 | PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1 | Space Got Weird |
 | Dec 2 | Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries | Space Got Weird |
+| Dec 2 | Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever | Mission Files |
 | Dec 07 | Apollo 17 (1972): the final crewed flight to the Moon, whose astronauts snapped the iconic whole-Earth Blue Marble photograph | Mission Files |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
 | Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
@@ -118,6 +119,7 @@ unexplained, not alien.
 - GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away — parked (ep171)
 - SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years — done (ep181)
 - Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum — done (ep191)
+- Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light
 
 ### Scale Breaker
 
@@ -149,6 +151,7 @@ unexplained, not alien.
 - VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip — parked (ep192)
 - Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space — done (ep198)
 - Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C — making (ep205)
+- Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year
 
 ### Mission Files
 
@@ -235,7 +238,7 @@ unexplained, not alien.
 - Season: Earth is closest to the Sun in early January, so distance isn't what makes summer — dropped (ep037)
 - Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — dropped (ep021)
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth — done (ep185)
-- Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds — making (ep211)
+- Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds — dropped (ep211)
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day — done (ep053)
 - Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — done (ep165)
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close — done (ep028)
@@ -254,3 +257,5 @@ unexplained, not alien.
 - Van Allen radiation belt (1958): critics claimed Apollo astronauts would be fried passing through them, but their high-speed trajectory meant they received less radiation than a standard CT scan — done (ep172)
 - Big Bang (1927): it was not a giant explosion bursting into empty space, but the rapid expansion of space itself everywhere at once — parked (ep196)
 - Mercury (planet) (1965): radar observations shattered the long-held belief that it permanently keeps one face to the Sun, proving it actually rotates three times for every two orbits — done (ep197)
+- Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side
+- Escape velocity (1859): you do not need to reach 25,000 miles per hour to escape Earth's gravity; any speed will work as long as you have continuous thrust

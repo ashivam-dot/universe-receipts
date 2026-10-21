@@ -1,0 +1,170 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-21T11:18:52+05:30",
+      "check": {
+        "duration": 55.33,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'borexino' heard as 'boraxino' after 'both signals the'",
+          "'(nothing)' heard as 'thank you so much for watching' after 'an ancient relic'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Clear time contrast sparks instant curiosity.",
+        "clarity": "Easy to follow mechanism of photon delay.",
+        "payoff": "Nice connection between ancient energy and current measurements.",
+        "visuals": "Diagrams in beats 3 and 4 feature text that is too small for mobile screens.",
+        "loop": "Seamless semantic and visual connection back to start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 4,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "Borexino",
+          "respelling": "bo rex ee no"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a clearer concept contrast compared to Episode 198.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-21T11:20:54+05:30",
+      "check": {
+        "duration": 55.53,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'borexino' heard as 'bohr exeno' after 'both signals the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The opening contrast between 2 seconds and 100,000 years is a compelling attention-grabber.",
+        "clarity": "Excellent breakdown of how different particles navigate the solar interior.",
+        "payoff": "The connection to the Ice Age provides a great 'mind-bending' moment for the viewer.",
+        "visuals": "Beats 3 and 4 reuse a fusion diagram that fails to illustrate the specific concepts of particle escape or scattering.",
+        "loop": "The line 'ancient relic' transitions perfectly back into the start of the script."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows the nuclear fusion process instead of neutrinos escaping through the solar interior."
+        },
+        {
+          "beat": 4,
+          "problem": "Shows the nuclear fusion process instead of the scattering 'maze' described in the text."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode explains complex solar physics with much better narrative clarity than the black hole ray in episode 198.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-21T11:22:35+05:30",
+      "check": {
+        "duration": 55.53,
+        "words": 126,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'borexino' heard as 'bohr exino' after 'both signals the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Contrast between seconds and millennia creates immediate curiosity.",
+        "clarity": "Successfully explains particle interactions using simple concepts.",
+        "payoff": "Scientific evidence from Borexino effectively solidifies the main premise.",
+        "visuals": "Technical diagrams and clear text overlays aid viewer comprehension.",
+        "loop": "Ending on ancient relic creates a slight jump back to birth."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "Borexino",
+          "respelling": "bore ex ee no"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: While neutrinos deliver live updates, the light on your face is an ancient relic, because..."
+      ],
+      "better_than_last": "Uses a more relatable sensory hook than the abstract stellar shrinkage in ep201.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: loop",
+  "rejected_at": "2026-10-21T11:22:35+05:30"
+}
