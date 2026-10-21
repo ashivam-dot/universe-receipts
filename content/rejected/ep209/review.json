@@ -1,0 +1,149 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-21T17:13:20+05:30",
+      "check": {
+        "duration": 52.09,
+        "words": 123,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "A dead star building a new world out of its own ashes instantly arrests the viewer's attention.",
+        "clarity": "The progression from an unresolved 1999 spectral mystery to discovering a second-generation planet is easy to follow.",
+        "payoff": "Connecting the 25-year-old mystery element directly to an exotic survivor planet delivers a satisfying reveal.",
+        "visuals": "Beat 4 mistakenly displays a political photo-op of Rishi Sunak rather than astronomers or science visuals.",
+        "loop": "Reclaiming the ashes of its past life circles cleanly right back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows politician Rishi Sunak visiting a workshop instead of astronomers or space data."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-21T17:16:22+05:30",
+      "check": {
+        "duration": 52.09,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The concept of a dead star rebuilding from its own ashes is an immediate attention-grabber.",
+        "clarity": "The narrative successfully bridges the 25-year gap between discovery and identification.",
+        "payoff": "The revelation of a 'second-generation' world born from a destroyed system is a high-quality twist.",
+        "visuals": "Beat 4 is a major error, showing former UK Prime Minister Rishi Sunak in a factory instead of astronomers.",
+        "loop": "The transition from 'ashes of its past life' back to 'dead star... own ashes' is perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The frame shows former UK Prime Minister Rishi Sunak in a factory, which is off-topic and unrelated to University of Warwick astronomy researchers."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The thematic looping of the 'ashes' metaphor is more sophisticated than the literal loops used in the recent top-performing episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-21T17:17:52+05:30",
+      "check": {
+        "duration": 52.09,
+        "words": 123,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong imagery of stellar recycling captures attention.",
+        "clarity": "The mystery-to-resolution arc is easy to follow.",
+        "payoff": "Successfully explains the 'ashes' metaphor through science.",
+        "visuals": "Beat 6 star type contradicts the white dwarf script.",
+        "loop": "Natural verbal transition creates a seamless cycle."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows a large yellow star instead of a cooling white dwarf."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Develops a stronger sense of narrative mystery than the black hole ray episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-21T17:17:52+05:30"
+}

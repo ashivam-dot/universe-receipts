@@ -1,5 +1,5 @@
 id: ep210
-title: The Asteroid Sample That Was Too Big to Hold
+title: The Asteroid Sample That Was Too Big
 series: Mission Files
 description: OSIRIS-REx grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted into space.
 sources:
@@ -15,11 +15,11 @@ hashtags:
 - '#asteroid'
 tags:
 - OSIRIS-REx
-- asteroid Bennu
-- space exploration
-- sample return
-- astronomy
+- Bennu
 - NASA
+- asteroid
+- space exploration
+- science
 voice:
   voice: af_heart
   speed: 1.05
@@ -27,7 +27,7 @@ beats:
 - text: A spacecraft grabbed so much asteroid it couldn't close its lid.
   emphasis:
   - so much asteroid
-  - couldn't close its lid
+  - close its lid
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/OSIRIS-REx_Artist%E2%80%99s_conception.png/1920px-OSIRIS-REx_Artist%E2%80%99s_conception.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -42,76 +42,107 @@ beats:
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: On October 20, 2020, NASA touched down on the carbon-rich near-Earth asteroid Bennu.
+- text: 'In 2020, NASA cameras captured a terrifying sight: the mission’s prehistoric sample was escaping into space.'
   emphasis:
-  - October 20, 2020
-  - asteroid Bennu
+  - prehistoric sample
+  - escaping into space
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bird-like_boulder_on_Bennu_%28ann19053a%29.jpg/1920px-Bird-like_boulder_on_Bennu_%28ann19053a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Significant_Mission_Milestones_in_OSIRIS-REx_Journey_to_Bennu_and_Back_%28SVS14724_-_OREX_LANDING_5x3HYPERWALL_00031_print%29.jpg/960px-Significant_Mission_Milestones_in_OSIRIS-REx_Journey_to_Bennu_and_Back_%28SVS14724_-_OREX_LANDING_5x3HYPERWALL_00031_print%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Bird-like boulder on Bennu (ann19053a).jpg
-      credit: NASA/Goddard/University of Arizona
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Bird-like_boulder_on_Bennu_(ann19053a).jpg
+      title: Significant Mission Milestones in OSIRIS-REx Journey to Bennu and Back (SVS14724 - OREX LANDING 5x3HYPERWALL
+        00031 print).jpg
+      credit: NASA's Scientific Visualization Studio - eMITS/Emme Watkins, ADNET Systems, Inc./Aaron E. Lepsch, NASA/GSFC/Rani
+        Gran, eMITS/Jonathan North
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Significant_Mission_Milestones_in_OSIRIS-REx_Journey_to_Bennu_and_Back_(SVS14724_-_OREX_LANDING_5x3HYPERWALL_00031_print).jpg
     fallbacks:
     - card
     - color
-    motion: zoom_in
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: dateline
-      big: October 20, 2020
-      small: Asteroid Bennu
-- text: The probe used a burst of nitrogen gas to blow surface dust directly into the sampler head.
+      big: October 2020
+      small: OSIRIS-REx Mission
+- text: To understand the leak, we must look at the collection attempt on asteroid Bennu.
   emphasis:
-  - burst of nitrogen gas
-  - sampler head
+  - collection attempt
+  - asteroid Bennu
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/OSIRIS-REx_Touch-And-Go_Sample_Acquisition_Mechanism_%28Schematic%29.png/1920px-OSIRIS-REx_Touch-And-Go_Sample_Acquisition_Mechanism_%28Schematic%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Bennu_global_mosaic_reduced_size.png/1920px-Bennu_global_mosaic_reduced_size.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: OSIRIS-REx Touch-And-Go Sample Acquisition Mechanism (Schematic).png
-      credit: National Aeronautics and Space Administration (NASA) / University of Arizona
+      title: Bennu global mosaic reduced size.png
+      credit: NASA/Goddard/University of Arizona
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:OSIRIS-REx_Touch-And-Go_Sample_Acquisition_Mechanism_(Schematic).png
+      url: https://commons.wikimedia.org/wiki/File:Bennu_global_mosaic_reduced_size.png
     fallbacks:
     - color
-    motion: pan_down
+    motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: Large rocks immediately jammed the mylar seal flap wide open.
+- text: OSIRIS-REx used a burst of nitrogen gas to stir up surface rocks for collection.
   emphasis:
-  - Large rocks
-  - jammed the mylar seal
-  sfx: riser
-  pause_after: 0.4
+  - nitrogen gas
+  - surface rocks
+  sfx: whoosh
   visual:
-    source: card
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Artist%27s_concept_of_the_OSIRIS-REx_sample_collector.jpg/960px-Artist%27s_concept_of_the_OSIRIS-REx_sample_collector.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist's concept of the OSIRIS-REx sample collector.jpg
+      credit: NASA Goddard Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist%27s_concept_of_the_OSIRIS-REx_sample_collector.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.7
+    focus_y: 0.4
+    box:
+    - 0.4
+    - 0.0
+    - 1.0
+    - 1.0
+- text: But the collector worked too well, pulling in large pebbles that jammed the seal wide open.
+  emphasis:
+  - large pebbles
+  - seal wide open
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c6/OSIRIS-REx_TAGSAM_head_pre-stow.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: OSIRIS-REx TAGSAM head pre-stow.png
+      credit: NASA/Goddard/University of Arizona/Lockheed Martin
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:OSIRIS-REx_TAGSAM_head_pre-stow.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.6
+    focus_y: 0.2
+    box:
+    - 0.35
+    - 0.05
+    - 0.8
+    - 0.35
     card:
       kind: fact
       big: Mylar Seal
-      small: Jammed open by rocks
-    motion: zoom_in
-- text: Onboard cameras watched in horror as precious flakes of the asteroid drifted into the vacuum of space.
-  emphasis:
-  - onboard cameras
-  - drifted into the vacuum
-  sfx: whoosh
-  visual:
-    reuse: 3
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Fearing a total loss, mission control rushed to stow the container days early.
+      small: Jammed open
+- text: Fearing a total loss, engineers scrapped mass measurements and rushed to lock the sample away.
   emphasis:
   - total loss
-  - stow the container
-  sfx: whoosh
+  - lock the sample
+  sfx: riser
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Mission_Control_center_of_NASA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -126,9 +157,9 @@ beats:
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-- text: When the capsule finally landed in Utah in 2023, scientists recovered 121.6 grams of material.
+- text: When the capsule landed in Utah in 2023, the team recovered 121.6 grams of material.
   emphasis:
-  - Utah
+  - Utah in 2023
   - 121.6 grams
   sfx: pop
   pause_after: 0.4
@@ -145,20 +176,26 @@ beats:
     - card
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.61
+    focus_y: 0.67
+    box:
+    - 0.49
+    - 0.54
+    - 0.73
+    - 0.78
     card:
-      kind: dateline
-      big: September 24, 2023
-      small: Utah Desert
-- text: That accidental excess held the essential chemical building blocks of life, proving a spacecraft grabbed so much asteroid.
+      kind: fact
+      big: 121.6 Grams
+      small: Bennu asteroid sample
+- text: This accidental bounty held the building blocks of life, which is why the spacecraft grabbed so much asteroid.
   emphasis:
   - building blocks of life
   - grabbed so much asteroid
   sfx: pop
+  pause_after: 0.4
   visual:
     reuse: 1
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-hook_text: TOO MUCH ASTEROID TO HOLD
+hook_text: TOO MUCH TO HOLD

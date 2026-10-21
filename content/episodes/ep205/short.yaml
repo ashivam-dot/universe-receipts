@@ -80,7 +80,7 @@ beats:
       kind: fact
       big: 250 million
       small: light-years away
-- text: In 2002, NASA’s Chandra X-ray Observatory detected real pressure waves rippling through that gas.
+- text: In 2002, NASA's Chandra X-ray Observatory detected real pressure waves rippling through that gas.
   emphasis:
   - pressure waves
   sfx: whoosh
@@ -110,17 +110,16 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Perseus_A-_A_Monster_Galaxy_at_the_Heart_of_Perseus_Cluster_%282008-perseus_-_1680%29.jpg/1280px-Perseus_A-_A_Monster_Galaxy_at_the_Heart_of_Perseus_Cluster_%282008-perseus_-_1680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/d/db/Chandra_Image_of_Perseus_Cluster_with_Overlay_of_Low_Pressure_Region_%282005-perseus-more-1_-_perseus_pressure%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Perseus A- A Monster Galaxy at the Heart of Perseus Cluster (2008-perseus - 1680).jpg
-      credit: 'X-ray: NASA/CXC/IoA/A.Fabian et al.; Radio: NRAO/VLA/G. Taylor; Optical: NASA/ESA/Hubble Heritage (STScI/AURA)
-        & Univ. of Cambridge/IoA/A. Fabian'
+      title: Chandra Image of Perseus Cluster with Overlay of Low Pressure Region (2005-perseus-more-1 - perseus pressure).jpg
+      credit: '(Credit: NASA/CXC/IoA/J.Sanders et al.)'
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Perseus_A-_A_Monster_Galaxy_at_the_Heart_of_Perseus_Cluster_(2008-perseus_-_1680).jpg
+      url: https://commons.wikimedia.org/wiki/File:Chandra_Image_of_Perseus_Cluster_with_Overlay_of_Low_Pressure_Region_(2005-perseus-more-1_-_perseus_pressure).jpg
     fallbacks:
     - color
-    motion: pan_right
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
 - text: Astronomers at Cambridge University found this hum is a B-flat note 57 octaves below middle C.
@@ -141,10 +140,19 @@ beats:
   sfx: pop
   pause_after: 0.4
   visual:
-    reuse: 5
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/1e/Artist%E2%80%99s_Illustration_of_Multi-Messenger_Event_%28noirlab2421a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s Illustration of Multi-Messenger Event (noirlab2421a).jpg
+      credit: Rubin Observatory/NOIRLab/NSF/AURA/P. Marenfeld
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_Illustration_of_Multi-Messenger_Event_(noirlab2421a).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.4
+    focus_y: 0.3
 - text: This sound carries the energy of 100 million supernovae, keeping the cluster too hot to form stars.
   emphasis:
   - 100 million supernovae
@@ -169,7 +177,7 @@ beats:
       kind: fact
       big: 100 million
       small: supernovae
-- text: It is a deep, eternal vibration proving that space is a silent vacuum.
+- text: It is a deep, eternal vibration, yet most still believe the universe is silent.
   emphasis:
   - eternal vibration
   visual:

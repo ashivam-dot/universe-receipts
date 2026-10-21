@@ -1,0 +1,184 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-21T11:27:04+05:30",
+      "check": {
+        "duration": 57.97,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong technical hook that sets high stakes immediately.",
+        "clarity": "Narrative sequence is logical and easy to comprehend.",
+        "payoff": "The lens cap resolution provides a classic space irony.",
+        "visuals": "Radar imagery is inaccurately used for surface panoramas.",
+        "loop": "Numerical connection creates a smooth thematic cycle."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows radar-mapped mountain instead of drilling mechanism"
+        },
+        {
+          "beat": 6,
+          "problem": "shows black and white radar map despite mention of color panoramas"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Venera",
+          "respelling": "veh nair uh"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode provides a more concrete historical narrative compared to the abstract scale of the black hole ray.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-21T17:16:23+05:30",
+      "check": {
+        "duration": 58.13,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 58.13 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong technical hook with high stakes.",
+        "clarity": "Logical chronological mission flow.",
+        "payoff": "The lens cap reveal is a satisfying historical twist.",
+        "visuals": "Imagery in beat 6 is a global map rather than the panorama mentioned.",
+        "loop": "Smooth transition back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Displays a global planetary map instead of the specific surface panorama described."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Venera",
+          "respelling": "vuh nair uh"
+        }
+      ],
+      "rewrite": [
+        "Beat 2: In 1982, Venera 13 plunged into 89 atmospheres of crushing pressure.",
+        "Beat 9: Mission control expected only 32 minutes of survival.",
+        "The render ran 58.13 s; it must be 35-58 s."
+      ],
+      "better_than_last": "The concrete historical payoff is more engaging than the energy beam description in episode 198.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-21T17:20:35+05:30",
+      "check": {
+        "duration": 52.02,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'venera' heard as 'vaynera' after 'sentence in 1982'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The technical stats provide interest but the verbal delivery is standard.",
+        "clarity": "Facts are well-sequenced and easy to follow in a single viewing.",
+        "payoff": "The irony of the camera lens cap provides a strong narrative resolution.",
+        "visuals": "Most frames are highly relevant, though one uses later mission data.",
+        "loop": "The final sentence does not lead grammatically into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "This radar map is from a later mission and doesn't match the lander perspective."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Venera",
+          "respelling": "vuh nair uh"
+        }
+      ],
+      "rewrite": [
+        "Beat 9: Especially since mission control expected only 32 minutes for this..."
+      ],
+      "better_than_last": "The specific historical irony of the lens cap makes this more memorable than the black hole episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: loop",
+  "rejected_at": "2026-10-21T17:20:35+05:30"
+}

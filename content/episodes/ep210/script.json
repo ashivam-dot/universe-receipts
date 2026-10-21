@@ -15,7 +15,7 @@
   ],
   "hook_style": "contradiction",
   "structure": "mystery",
-  "title": "The Asteroid Sample That Was Too Big to Hold",
+  "title": "The Asteroid Sample That Was Too Big",
   "description": "OSIRIS-REx grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted into space.",
   "hashtags": [
     "#space",
@@ -24,18 +24,18 @@
   ],
   "tags": [
     "OSIRIS-REx",
-    "asteroid Bennu",
+    "Bennu",
+    "NASA",
+    "asteroid",
     "space exploration",
-    "sample return",
-    "astronomy",
-    "NASA"
+    "science"
   ],
   "beats": [
     {
       "text": "A spacecraft grabbed so much asteroid it couldn't close its lid.",
       "emphasis": [
         "so much asteroid",
-        "couldn't close its lid"
+        "close its lid"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -51,7 +51,7 @@
       "year": 2020,
       "queries": [
         "OSIRIS-REx spacecraft artist concept",
-        "OSIRIS-REx TAGSAM head rocks jammed"
+        "Bennu asteroid mosaic"
       ],
       "card": {
         "kind": "none",
@@ -60,90 +60,10 @@
       }
     },
     {
-      "text": "On October 20, 2020, NASA touched down on the carbon-rich near-Earth asteroid Bennu.",
+      "text": "In 2020, NASA cameras captured a terrifying sight: the mission’s prehistoric sample was escaping into space.",
       "emphasis": [
-        "October 20, 2020",
-        "asteroid Bennu"
-      ],
-      "sfx": "whoosh",
-      "pause_after": 0.12,
-      "claims": [
-        2,
-        5
-      ],
-      "visual": "high-resolution photograph of Nightingale crater on asteroid Bennu, NASA, 2020",
-      "subjects": [
-        "Bennu",
-        "NASA"
-      ],
-      "year": 2020,
-      "queries": [
-        "Asteroid Bennu full view",
-        "Nightingale crater Bennu surface"
-      ],
-      "card": {
-        "kind": "dateline",
-        "big": "October 20, 2020",
-        "small": "Asteroid Bennu"
-      }
-    },
-    {
-      "text": "The probe used a burst of nitrogen gas to blow surface dust directly into the sampler head.",
-      "emphasis": [
-        "burst of nitrogen gas",
-        "sampler head"
-      ],
-      "sfx": "none",
-      "pause_after": 0.12,
-      "claims": [
-        6
-      ],
-      "visual": "diagram of OSIRIS-REx TAGSAM instrument mechanism, NASA, 2020",
-      "subjects": [
-        "OSIRIS-REx"
-      ],
-      "year": 2020,
-      "queries": [
-        "OSIRIS-REx TAGSAM head",
-        "Touch-and-Go Sample Acquisition Mechanism"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "Large rocks immediately jammed the mylar seal flap wide open.",
-      "emphasis": [
-        "Large rocks",
-        "jammed the mylar seal"
-      ],
-      "sfx": "riser",
-      "pause_after": 0.4,
-      "claims": [
-        7
-      ],
-      "visual": "close-up photograph of OSIRIS-REx sampler head showing rocks jammed in flap, NASA, 2020",
-      "subjects": [
-        "OSIRIS-REx"
-      ],
-      "year": 2020,
-      "queries": [
-        "OSIRIS-REx sample leaking",
-        "TAGSAM head rocks jammed"
-      ],
-      "card": {
-        "kind": "fact",
-        "big": "Mylar Seal",
-        "small": "Jammed open by rocks"
-      }
-    },
-    {
-      "text": "Onboard cameras watched in horror as precious flakes of the asteroid drifted into the vacuum of space.",
-      "emphasis": [
-        "onboard cameras",
-        "drifted into the vacuum"
+        "prehistoric sample",
+        "escaping into space"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
@@ -158,7 +78,34 @@
       "year": 2020,
       "queries": [
         "OSIRIS-REx sample escaping space",
-        "Bennu asteroid regolith particles"
+        "NASA video frame"
+      ],
+      "card": {
+        "kind": "dateline",
+        "big": "October 2020",
+        "small": "OSIRIS-REx Mission"
+      }
+    },
+    {
+      "text": "To understand the leak, we must look at the collection attempt on asteroid Bennu.",
+      "emphasis": [
+        "collection attempt",
+        "asteroid Bennu"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        2,
+        5
+      ],
+      "visual": "high-resolution photograph of Nightingale crater on asteroid Bennu, NASA, 2020",
+      "subjects": [
+        "Bennu"
+      ],
+      "year": 2020,
+      "queries": [
+        "Bennu Nightingale sample site",
+        "asteroid surface"
       ],
       "card": {
         "kind": "none",
@@ -167,14 +114,67 @@
       }
     },
     {
-      "text": "Fearing a total loss, mission control rushed to stow the container days early.",
+      "text": "OSIRIS-REx used a burst of nitrogen gas to stir up surface rocks for collection.",
       "emphasis": [
-        "total loss",
-        "stow the container"
+        "nitrogen gas",
+        "surface rocks"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
+        6
+      ],
+      "visual": "diagram of OSIRIS-REx TAGSAM instrument mechanism, NASA, 2020",
+      "subjects": [
+        "OSIRIS-REx"
+      ],
+      "year": 2020,
+      "queries": [
+        "OSIRIS-REx TAGSAM instrument diagram",
+        "Touch-and-Go Sample Acquisition Mechanism"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "But the collector worked too well, pulling in large pebbles that jammed the seal wide open.",
+      "emphasis": [
+        "large pebbles",
+        "seal wide open"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        7
+      ],
+      "visual": "close-up photograph of OSIRIS-REx sampler head showing rocks jammed in flap, NASA, 2020",
+      "subjects": [
+        "OSIRIS-REx"
+      ],
+      "year": 2020,
+      "queries": [
+        "OSIRIS-REx TAGSAM head rocks jammed",
+        "Bennu asteroid regolith particles"
+      ],
+      "card": {
+        "kind": "fact",
+        "big": "Mylar Seal",
+        "small": "Jammed open"
+      }
+    },
+    {
+      "text": "Fearing a total loss, engineers scrapped mass measurements and rushed to lock the sample away.",
+      "emphasis": [
+        "total loss",
+        "lock the sample"
+      ],
+      "sfx": "riser",
+      "pause_after": 0.12,
+      "claims": [
+        9,
         10
       ],
       "visual": "NASA mission control center during OSIRIS-REx sample stowage, 2020",
@@ -194,9 +194,9 @@
       }
     },
     {
-      "text": "When the capsule finally landed in Utah in 2023, scientists recovered 121.6 grams of material.",
+      "text": "When the capsule landed in Utah in 2023, the team recovered 121.6 grams of material.",
       "emphasis": [
-        "Utah",
+        "Utah in 2023",
         "121.6 grams"
       ],
       "sfx": "pop",
@@ -216,28 +216,26 @@
         "OSIRIS-REx sample capsule desert"
       ],
       "card": {
-        "kind": "dateline",
-        "big": "September 24, 2023",
-        "small": "Utah Desert"
+        "kind": "fact",
+        "big": "121.6 Grams",
+        "small": "Bennu asteroid sample"
       }
     },
     {
-      "text": "That accidental excess held the essential chemical building blocks of life, proving a spacecraft grabbed so much asteroid.",
+      "text": "This accidental bounty held the building blocks of life, which is why the spacecraft grabbed so much asteroid.",
       "emphasis": [
         "building blocks of life",
         "grabbed so much asteroid"
       ],
       "sfx": "pop",
-      "pause_after": 0.12,
+      "pause_after": 0.4,
       "claims": [
-        13,
         14,
         15
       ],
       "visual": "microscopic photograph of pristine asteroid Bennu sample grains, NASA, 2023",
       "subjects": [
-        "Bennu",
-        "OSIRIS-REx"
+        "Bennu"
       ],
       "year": 2023,
       "queries": [
@@ -251,7 +249,7 @@
       }
     }
   ],
-  "hook_text": "TOO MUCH ASTEROID TO HOLD",
+  "hook_text": "TOO MUCH TO HOLD",
   "loop": true,
-  "better_than_last": "This episode applies the rule of holding the central anomaly revelation immediately after the contradiction hook and ends with a grammatical loop to force rewatches."
+  "better_than_last": "This episode applies the proven rule of linking the final payoff text directly to the hook to drive rewatches while strictly following reviewer guidance on beat 8."
 }

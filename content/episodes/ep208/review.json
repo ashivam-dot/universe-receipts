@@ -121,7 +121,63 @@
       "better_than_last": "Provides a more distinct and memorable visual comparison than the black hole beam in episode 198.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-21T17:13:57+05:30",
+      "check": {
+        "duration": 50.07,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'toutatis' heard as 'tautates' after '2004 the asteroid'",
+          "'toutatis' heard as 'tautates' after 'its true face'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Describing a five-kilometer object as a tumbling mountain is a high-stakes, visual hook.",
+        "clarity": "The distance is well-explained using lunar distances as a relatable benchmark.",
+        "payoff": "The explanation of its bizarre non-uniform rotation is a great mind-bending payoff.",
+        "visuals": "Most frames are excellent, but beat 6 uses scientific figures with tiny, hard-to-read text.",
+        "loop": "The transition from the safety of the mountain back to its approach is seamless."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The image is a scientific figure containing small text labels and scale bars that are hard to read at phone size."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Toutatis",
+          "respelling": "too tah tiss"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This short handles the scale and proximity of a near-Earth object much more tangibly than the abstract energy beam in episode 198.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }
