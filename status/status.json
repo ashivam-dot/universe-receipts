@@ -1,58 +1,58 @@
 {
-  "updated_at": "2026-10-21T05:07:36+05:30",
+  "updated_at": "2026-10-21T11:09:20+05:30",
   "day": 20,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5DTP4T2VAEY4TTHDG2ZXP9R",
+    "id": "ta-01M5EF9AXW87XJK24K7FK678TR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-21T05:05:12+05:30",
-    "started_at_utc": "2026-10-20T23:35:12+00:00",
-    "seconds": 144
+    "started_at": "2026-10-21T11:05:09+05:30",
+    "started_at_utc": "2026-10-21T05:35:09+00:00",
+    "seconds": 251
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.2
+      "seconds": 1.1
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "60 posts",
-      "seconds": 2.6
+      "detail": "61 posts",
+      "seconds": 1.1
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep071 to 'The Universe Is Terrifying'",
-      "seconds": 3.1
+      "detail": "added ep072 to 'Near Misses'",
+      "seconds": 2.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep058 at 24 h: level with the channel's earlier Shorts at this age: 1014 views against a median of 878 (1.2x); ep133 at 72 h: ahead of the channel's earlier Shorts at this age: 1295 views against a median of 979 (1.3x); ep184 at 6 h: behind the channel's earlier Shorts at this age: 310 views against a median of 738 (0.4x); learnings: Logged daily performance reviews for ten Shorts, confirming ongoing drop-off issues from weak loop structures and dense jargon.",
-      "seconds": 88.6
+      "detail": "ep051 at 72 h: ahead of the channel's earlier Shorts at this age: 1245 views against a median of 995 (1.3x); ep063 at 24 h: level with the channel's earlier Shorts at this age: 1010 views against a median of 927 (1.1x); ep071 at 6 h: level with the channel's earlier Shorts at this age: 603 views against a median of 719 (0.8x); learnings: Promoted two looping and climax-timing hypotheses to rules and added a new logic-challenge hook hypothesis after ten Shorts showed consistent drop-offs on definitive endings and technical jargon.",
+      "seconds": 216.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep203 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep204 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep205 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 13.4
+      "detail": "ep206 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep207 unfinished (LookupError: unknown encoding: .utf8); ep208 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep209 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-prev",
+      "seconds": 10.0
     },
     {
       "name": "buffer channel",
@@ -61,104 +61,102 @@
       "seconds": 0.2
     },
     {
-      "name": "preflight ep072",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.6
-    },
-    {
       "name": "preflight ep146",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep172",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.3
     },
     {
       "name": "preflight ep186",
       "ok": true,
       "detail": "video still hosted",
+      "seconds": 0.1
+    },
+    {
+      "name": "preflight ep195",
+      "ok": true,
+      "detail": "video downloads whole (16 MB in 0 s)",
       "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 4.6
+      "seconds": 3.2
     },
     {
-      "name": "schedule ep185",
+      "name": "schedule ep165",
       "ok": true,
-      "detail": "2026-10-23T19:00:00-04:00",
-      "seconds": 1.5
-    },
-    {
-      "name": "start ep206",
-      "ok": true,
-      "detail": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
-      "seconds": 1.6
+      "detail": "2026-10-23T21:30:00-04:00",
+      "seconds": 1.1
     },
     {
       "name": "start ep207",
       "ok": true,
       "detail": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
-      "seconds": 1.6
+      "seconds": 0.5
     },
     {
-      "name": "start ep208",
+      "name": "start ep210",
       "ok": true,
-      "detail": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
-      "seconds": 1.7
+      "detail": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
+      "seconds": 0.5
     },
     {
-      "name": "start ep209",
+      "name": "start ep211",
       "ok": true,
-      "detail": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
-      "seconds": 1.2
+      "detail": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep212",
+      "ok": true,
+      "detail": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 0.9
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep203 stopped on Gemini's free quota; it resumes in a later run",
-    "ep204 stopped on Gemini's free quota; it resumes in a later run",
-    "ep205 stopped on Gemini's free quota; it resumes in a later run",
+    "ep206 stopped on Gemini's free quota; it resumes in a later run",
+    "ep208 stopped on Gemini's free quota; it resumes in a later run",
+    "ep209 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 23 waiting"
+    "Buffer is full (10 queued); 22 waiting"
   ],
   "inventory": {
-    "total": 33,
+    "total": 32,
     "in_buffer": 10,
-    "waiting": 23,
+    "waiting": 22,
     "target": 42,
     "making": [
       "ep203",
       "ep204",
-      "ep205"
-    ],
-    "remote": [
+      "ep205",
       "ep206",
-      "ep207",
       "ep208",
       "ep209"
+    ],
+    "remote": [
+      "ep207",
+      "ep210",
+      "ep211",
+      "ep212"
     ]
   },
   "queue": [
-    {
-      "id": "ep072",
-      "title": "The Solar Storm That Missed Earth",
-      "due_at": "2026-10-20T21:30:00-04:00"
-    },
     {
       "id": "ep186",
       "title": "The Accidental Glare in the Pale Blue Dot",
@@ -198,6 +196,11 @@
       "id": "ep185",
       "title": "Why Space Will NEVER Make You Explode",
       "due_at": "2026-10-23T19:00:00-04:00"
+    },
+    {
+      "id": "ep165",
+      "title": "Why Pluto Never Finished Its Orbit",
+      "due_at": "2026-10-23T21:30:00-04:00"
     },
     {
       "id": "ep174",
@@ -297,12 +300,6 @@
       "score": 20
     },
     {
-      "id": "ep165",
-      "title": "Why Pluto Never Finished Its Orbit",
-      "series": "Space Myths, Busted",
-      "score": 21
-    },
-    {
       "id": "ep168",
       "title": "The 50-Year Hunt for a Phantom Planet",
       "series": "Space Myths, Busted",
@@ -347,25 +344,33 @@
   ],
   "made": [
     {
-      "id": "ep203",
+      "id": "ep206",
       "outcome": "unfinished",
-      "topic": "2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed",
+      "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep204",
+      "id": "ep207",
       "outcome": "unfinished",
-      "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
+      "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
+      "reason": "LookupError: unknown encoding: .utf8",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep208",
+      "outcome": "unfinished",
+      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep205",
+      "id": "ep209",
       "outcome": "unfinished",
-      "topic": "Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C",
+      "topic": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -373,94 +378,92 @@
   ],
   "spawned": [
     {
-      "id": "ep206",
-      "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
-      "call_id": "fc-01M5DTTMXS90ZY7ZTTNZ9K3T0G"
-    },
-    {
       "id": "ep207",
       "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
-      "call_id": "fc-01M5DTTPGEM00MVHZ748BGQGCC"
+      "call_id": "fc-01M5EFH48080Y367H7Q41TFH9Q"
     },
     {
-      "id": "ep208",
-      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
-      "call_id": "fc-01M5DTTR5R3VH8DKERYZ251NY6"
+      "id": "ep210",
+      "topic": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
+      "call_id": "fc-01M5EFH4RBVX7H08RXHV1B4M5G"
     },
     {
-      "id": "ep209",
-      "topic": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
-      "call_id": "fc-01M5DTTSACV0E1G2ERPP4TZ5W7"
+      "id": "ep211",
+      "topic": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
+      "call_id": "fc-01M5EFH59DW4AHK0ZFNZ34P1ZC"
+    },
+    {
+      "id": "ep212",
+      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "call_id": "fc-01M5EFH5QYYHEMDX9JG70HF9YF"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep206",
-      "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
-      "spawned_at": "2026-10-21T05:07:28+05:30"
-    },
-    {
       "id": "ep207",
       "topic": "Comet tail (1531): comet tails do not trail behind them as they travel, but always point directly away from the Sun",
-      "spawned_at": "2026-10-21T05:07:29+05:30"
+      "spawned_at": "2026-10-21T11:09:16+05:30"
     },
     {
-      "id": "ep208",
-      "topic": "4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange \"ginger-root\" shape",
-      "spawned_at": "2026-10-21T05:07:31+05:30"
+      "id": "ep210",
+      "topic": "OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space",
+      "spawned_at": "2026-10-21T11:09:16+05:30"
     },
     {
-      "id": "ep209",
-      "topic": "White dwarf (2024): archival Hubble data suggests these dead stellar remnants can spawn a second generation of planets from the ruins of their destroyed solar systems",
-      "spawned_at": "2026-10-21T05:07:32+05:30"
+      "id": "ep211",
+      "topic": "Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds",
+      "spawned_at": "2026-10-21T11:09:17+05:30"
+    },
+    {
+      "id": "ep212",
+      "topic": "Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127",
+      "spawned_at": "2026-10-21T11:09:17+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep185",
-      "title": "Why Space Will NEVER Make You Explode",
-      "due_at": "2026-10-23T19:00:00-04:00"
+      "id": "ep165",
+      "title": "Why Pluto Never Finished Its Orbit",
+      "due_at": "2026-10-23T21:30:00-04:00"
     }
   ],
-  "live": 51,
+  "live": 52,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 21,
+    "calls": 24,
     "by_model": {
-      "gemini-3.8-flash": 2,
-      "gemini-3-flash-preview": 6,
-      "gemini-3.5-flash-lite": 6,
-      "gemini-3.1-flash-lite": 7
+      "gemini-3.8-flash": 4,
+      "gemini-3-flash-preview": 5,
+      "gemini-3.5-flash-lite": 12,
+      "gemini-3.7-flash": 2,
+      "gemini-3.6-flash": 1
     },
     "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
       "gemini-3.6-flash",
       "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest"
+      "gemini-3.8-flash"
     ]
   },
   "renders": {
-    "modal": 4,
+    "modal": 5,
     "runner": 0
   },
   "daily_done": "2026-10-20",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 22.66,
+    "metered": 22.84,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 44,
+    "cloud": 43,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 5.34
+    "modal_credit_left": 5.17
   },
   "made_here": 0,
   "open_topics": 29,
-  "parked_topics": 56
+  "parked_topics": 53
 }

@@ -153,9 +153,9 @@ unexplained, not alien.
 ### Mission Files
 
 - Soyuz 11 (1971): the only people ever to die in space, killed when a valve opened as their capsule separated — dropped (ep178)
-- Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127 — parked (ep069)
+- Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127 — making (ep212)
 - Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — done (ep194)
-- OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space — parked (ep062)
+- OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space — making (ep210)
 - Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour — making (ep206)
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life — done (ep045)
 - New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it — done (ep177)
@@ -235,7 +235,7 @@ unexplained, not alien.
 - Season: Earth is closest to the Sun in early January, so distance isn't what makes summer — dropped (ep037)
 - Venus: it's hotter than Mercury, though it's nearly twice as far from the Sun — dropped (ep021)
 - Uncontrolled decompression: a body exposed to the vacuum of space doesn't explode; that's a persistent movie myth — done (ep185)
-- Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds — parked (ep081)
+- Sun: sunlight's energy spent 10,000 to 170,000 years escaping the core; neutrinos from the same reactions reach the surface in 2.3 seconds — making (ep211)
 - Meteoroid: shooting stars aren't stars at all; an estimated 25 million meteoroids and bits of debris hit Earth's atmosphere each day — done (ep053)
 - Pluto (2006): it hasn't finished a single orbit since its discovery in 1930, and won't until 2178 — done (ep165)
 - Polaris: the North Star isn't the brightest star in the sky, and it isn't even close — done (ep028)

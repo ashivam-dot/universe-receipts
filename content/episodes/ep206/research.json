@@ -1,0 +1,219 @@
+{
+  "viable": true,
+  "reason": "The sources provide enough factual material for a 45-second true space story with at least 12 double-sourced claims.",
+  "story": "In a historic first for planetary defense, NASA deliberately crashed a spacecraft into an asteroid. Launched in November 2021, the Double Asteroid Redirection Test, or DART, targeted Dimorphos, a small 525-foot-wide moonlet orbiting a larger asteroid named Didymos, located about seven million miles from Earth. Traveling at roughly 14,000 miles per hour, the box-shaped spacecraft used an autonomous navigation system to guide itself directly into the asteroid on September 26, 2022. The impact was captured by an accompanying Italian CubeSat called LICIACube, as well as the James Webb and Hubble space telescopes. Scientists originally hoped the collision would shorten the moonlet's nearly twelve-hour orbit by about 73 seconds. Instead, the kinetic impact shortened Dimorphos's orbit by 32 minutes. Because debris was blasted into space like a rocket engine, the recoil dramatically amplified the push, proving humanity can successfully nudge threatening space rocks.",
+  "angle": "NASA deliberately crashed a spacecraft into an asteroid to test planetary defense, and it punched the rock so hard it shortened the asteroid's orbit by 32 minutes—far exceeding expectations.",
+  "claims": [
+    {
+      "claim": "The DART spacecraft launched on November 24, 2021.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "DART collided with the asteroid Dimorphos on September 26, 2022.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Dimorphos is a moonlet of the asteroid Didymos.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Dimorphos is about 525 to 530 feet wide.",
+      "sources": [
+        "S1",
+        "S2",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft impacted the asteroid at roughly 14,000 miles per hour.",
+      "sources": [
+        "S1",
+        "S2",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The collision took place about 7 million miles from Earth.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The impact shortened Dimorphos's orbit by 32 minutes.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The pre-defined success threshold was a change of just over one minute, or 73 seconds.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "LICIACube, a CubeSat provided by the Italian Space Agency, photographed the impact event.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Both the James Webb Space Telescope and the Hubble Space Telescope observed the impact.",
+      "sources": [
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "DART used an onboard autonomous navigation system called SMART Nav during its final approach.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft was managed by the Johns Hopkins University Applied Physics Laboratory for NASA.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact impact time is stated slightly differently across sources as either 23:14 UTC, 7:14 p.m. EDT, or 01:14 CEST, which scripts should reconcile by referencing the date and general evening time without getting bogged down in conflicting timezone shorthand."
+  ],
+  "visuals": [
+    {
+      "subject": "DART spacecraft artist's concept",
+      "queries": [
+        "Double Asteroid Redirection Test spacecraft illustration",
+        "NASA DART spacecraft model"
+      ]
+    },
+    {
+      "subject": "Didymos and Dimorphos asteroid system diagram",
+      "queries": [
+        "Didymos system diagram",
+        "Binary asteroid system illustration"
+      ]
+    },
+    {
+      "subject": "SpaceX Falcon 9 rocket launch",
+      "queries": [
+        "Falcon 9 launch Vandenberg",
+        "SpaceX Falcon 9 liftoff"
+      ]
+    },
+    {
+      "subject": "DRACO camera final pre-impact image of Dimorphos",
+      "queries": [
+        "Dimorphos surface DART camera",
+        "DART last image before impact"
+      ]
+    },
+    {
+      "subject": "LICIACube snapshot of the ejecta plume",
+      "queries": [
+        "LICIACube asteroid ejecta plume",
+        "Light Italian CubeSat for Imaging of Asteroids image"
+      ]
+    },
+    {
+      "subject": "Hubble Space Telescope view of the impact",
+      "queries": [
+        "Hubble Space Telescope DART impact",
+        "Hubble Wide Field Camera 3 Dimorphos"
+      ]
+    },
+    {
+      "subject": "James Webb Space Telescope view of the impact",
+      "queries": [
+        "James Webb Space Telescope NIRCam DART",
+        "JWST asteroid impact plume"
+      ]
+    },
+    {
+      "subject": "ESA Hera mission artist's concept",
+      "queries": [
+        "ESA Hera spacecraft illustration",
+        "Hera mission Didymos arrival concept"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Double_Asteroid_Redirection_Test",
+      "title": "Double Asteroid Redirection Test",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.nasa.gov/news-release/nasas-dart-mission-hits-asteroid-in-first-ever-planetary-defense-test/",
+      "title": "NASA’s DART Mission Hits Asteroid in First-Ever Planetary Defense Test - NASA",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://web.archive.org/web/20150607004851/http://www.esa.int/Our_Activities/Space_Engineering_Technology/NEO/Asteroid_Impact_Deflection_Assessment_AIDA_study",
+      "title": "Asteroid Impact & Deflection Assessment (AIDA) study",
+      "site": "esa.int"
+    },
+    {
+      "label": "S4",
+      "url": "https://esawebb.org/news/weic2215/",
+      "title": "Webb and Hubble Capture Detailed Views of DART Impact - First Time Webb, Hubble Make Simultaneous Observations of the Same Target",
+      "site": "esawebb.org"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.space.com/dart-asteroid-impact-crash-what-time",
+      "title": "DART asteroid crash: What time will NASA probe hit Dimorphos on Sept. 26?",
+      "site": "space.com"
+    },
+    {
+      "label": "S6",
+      "url": "http://dart.jhuapl.edu/Mission/index.php",
+      "title": "Mission Overview",
+      "site": "jhuapl.edu"
+    },
+    {
+      "label": "S7",
+      "url": "https://theconversation.com/nasa-successfully-shifted-an-asteroids-orbit-dart-spacecraft-crashed-into-and-moved-dimorphos-192317",
+      "title": "NASA successfully shifted an asteroid’s orbit – DART spacecraft crashed into and moved Dimorphos",
+      "site": "theconversation.com"
+    }
+  ],
+  "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
+  "series": "Mission Files"
+}

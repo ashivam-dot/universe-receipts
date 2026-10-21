@@ -1,0 +1,127 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-21T05:14:59+05:30",
+      "check": {
+        "duration": 51.43,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "'toutatis' heard as 'tautates' after '2004 the asteroid'",
+          "'toutatis' heard as 'tautates' after 'its true face'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging concept that immediately halts swiping.",
+        "clarity": "Easy to follow with one core topic per beat.",
+        "payoff": "Slightly weak ending twist, though informative.",
+        "visuals": "Clear, relevant imagery supporting the narrative well.",
+        "loop": "Smooth audio flow back to the start line."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Toutatis",
+          "respelling": "too tah tis"
+        },
+        {
+          "beat": 6,
+          "word": "Toutatis",
+          "respelling": "too tah tis"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: 'Calculations prove Earth is safe for six centuries from this chaotic mountain.'"
+      ],
+      "better_than_last": "Provides clearer historical context and precise radar imagery than ep198.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-21T05:20:05+05:30",
+      "check": {
+        "duration": 50.1,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'toutatis' heard as 'tautates' after '2004 the asteroid'",
+          "'toutatis' heard as 'tautates' after 'its true face'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong imagery of a tumbling mountain provides immediate interest.",
+        "clarity": "Contradictory size figures between the hook and body cause confusion.",
+        "payoff": "The ginger root analogy provides a unique and memorable conclusion.",
+        "visuals": "Effective use of authentic radar imagery and clean title cards.",
+        "loop": "The final phrase bridges perfectly into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The text overlay says 5 kilometers but the audio says four."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Toutatis",
+          "respelling": "too tah tiss"
+        },
+        {
+          "beat": 6,
+          "word": "Toutatis",
+          "respelling": "too tah tiss"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: A five-kilometer mountain swept past Earth while tumbling out of control.",
+        "Beat 4: Measuring roughly five kilometers in length, it was the closest flyby of its size this century."
+      ],
+      "better_than_last": "Provides a more distinct and memorable visual comparison than the black hole beam in episode 198.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
