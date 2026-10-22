@@ -1,0 +1,178 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-21T17:16:01+05:30",
+      "check": {
+        "duration": 53.47,
+        "words": 117,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'moonlet' heard as 'moonlit' after 'dimorphos a small'",
+          "'didymos' heard as 'to dimmose' after 'small moonlet orbiting'",
+          "'moonlet' heard as 'moonlit' after 'would shorten the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Direct statement of the event but lacks immediate tension or mystery.",
+        "clarity": "Mission timeline and specific orbit changes are explained logically.",
+        "payoff": "The massive gap between predicted and actual orbit shift is surprising.",
+        "visuals": "Includes an unrelated red flare and an unreadable technical chart.",
+        "loop": "Phrasing transitions seamlessly back to the start of the sentence."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Image is a red star/flare; DART imagery was black and white asteroid surface."
+        },
+        {
+          "beat": 6,
+          "problem": "Technical chart is too dense with small text for a mobile screen."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Didymos",
+          "respelling": "did ee moes"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: We shortened an asteroid's orbit by over thirty minutes just by crashing into it."
+      ],
+      "better_than_last": "This episode provides a much stronger numerical surprise than the black hole short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-21T17:23:40+05:30",
+      "check": {
+        "duration": 51.86,
+        "words": 128,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'moonlet' heard as 'moonlit' after 'into dimorphos a'",
+          "'(nothing)' heard as 'you' after 'crashing into it'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Bold text overlay and clear action statement capture interest fast.",
+        "clarity": "Straightforward timeline with single ideas per beat makes it easy to follow.",
+        "payoff": "Ejecta recoil acting as a rocket engine offers a satisfying explanation.",
+        "visuals": "Several beats feature text-dense diagrams that are difficult to view on mobile.",
+        "loop": "Final phrasing connects smoothly back to the starting sentence."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Text and lines in diagram are too small to read on phone"
+        },
+        {
+          "beat": 7,
+          "problem": "Mostly text graph that is unreadable at phone size"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It presents a clearer chain of cause and effect behind the central event.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-22T17:17:37+05:30",
+      "check": {
+        "duration": 51.86,
+        "words": 128,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'moonlet' heard as 'moonlit' after 'into dimorphos a'",
+          "'(nothing)' heard as 'you' after 'crashing into it'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Clear setup with an immediate impressive claim.",
+        "clarity": "Easy to follow progression from collision to result.",
+        "payoff": "Debris recoil acting as a rocket engine provides a satisfying twist.",
+        "visuals": "Multiple frames contain dense charts that are hard to read on mobile.",
+        "loop": "Ending connects smoothly back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Dense timeline chart with small text that is difficult to read on mobile."
+        },
+        {
+          "beat": 6,
+          "problem": "Multi-panel grid with tiny labels that are hard to parse at phone size."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Explains the physical mechanism behind the surprise result more clearly than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-22T17:17:37+05:30"
+}

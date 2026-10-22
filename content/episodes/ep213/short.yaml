@@ -1,8 +1,8 @@
 id: ep213
-title: The First Black Hole Ever Found Is Shooting Dancing Jets
+title: The First Black Hole Shoots Dancing Jets
 series: The Universe Is Terrifying
-description: Discover how Cygnus X-1, the first confirmed black hole, strips its companion star and fires superheated plasma
-  jets across space.
+description: Cygnus X-1 was the first black hole confirmed by science, and it is currently tearing a blue supergiant apart
+  at half light speed.
 sources:
 - https://en.wikipedia.org/wiki/Cygnus_X-1
 - https://imagine.gsfc.nasa.gov/features/yba/CygX1_mass/cygX1_more.html
@@ -14,13 +14,13 @@ sources:
 hashtags:
 - '#space'
 - '#blackhole'
-- '#cygnusx1'
+- '#nasa'
 tags:
-- black hole
 - Cygnus X-1
+- black hole
 - astronomy
-- space facts
-- supergiant
+- astrophysics
+- blue supergiant
 - plasma jets
 voice:
   voice: af_heart
@@ -49,43 +49,134 @@ beats:
     - 0.2
     - 0.85
     - 0.9
-- text: Discovered in 1964 during a sounding rocket flight, Cygnus X-1 sits roughly 7,000 light-years away.
+- text: Discovered in 1964 during a sounding rocket flight, Cygnus X-1 sits 7,000 light-years away.
   emphasis:
   - '1964'
   - 7,000 light-years
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Aerobee_02.jpg/1280px-Aerobee_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Aerobee_Launch_%28KPNO-RocketAerobeeKp310June231965-CC%29.jpg/1920px-Aerobee_Launch_%28KPNO-RocketAerobeeKp310June231965-CC%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Aerobee 02.jpg
-      credit: USAF
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Aerobee_02.jpg
+      title: Aerobee Launch (KPNO-RocketAerobeeKp310June231965-CC).jpg
+      credit: NOIRLab/AURA/NSF
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Aerobee_Launch_(KPNO-RocketAerobeeKp310June231965-CC).jpg
     fallbacks:
     - card
     - color
     motion: pan_up
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.2
+    box:
+    - 0.45
+    - 0.05
+    - 0.55
+    - 0.35
     card:
       kind: dateline
       big: '1964'
       small: Constellation Cygnus
-- text: The system features a black hole with a mass of about 21 suns orbiting a star named HDE 226868.
+- text: This heavyweight is locked in a tight celestial tango with a massive blue supergiant star.
   emphasis:
-  - 21 suns
-  - HDE 226868
+  - celestial tango
+  - blue supergiant star
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Cygnus_%28cyg%29.jpg/1920px-Cygnus_%28cyg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Binary_system_Cygnus_X-1.jpg/1280px-Binary_system_Cygnus_X-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Cygnus (cyg).jpg
-      credit: IAU and Sky & Telescope
+      title: Binary system Cygnus X-1.jpg
+      credit: NASA / Honeywell Max-Q Digital Group / Dana Berry
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Binary_system_Cygnus_X-1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 21 Suns
+      small: Black hole mass
+- text: They orbit every 5.6 days at just one-fifth the distance between the Earth and sun.
+  emphasis:
+  - 5.6 days
+  - one-fifth
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b2/Heliocentric_orbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Heliocentric orbit.jpg
+      credit: Talifero
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Heliocentric_orbit.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 5.6 Days
+      small: Orbital period
+- text: The black hole continuously rips material from its companion, forming a disk that blazes in X-rays.
+  emphasis:
+  - rips material
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Explosion_de_colores.jpg/1920px-Explosion_de_colores.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Explosion de colores.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Explosion_de_colores.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But the record-breaking surprise is the twin plasma jets blasting from the center.
+  emphasis:
+  - plasma jets
+  - blasting
+  sfx: whoosh
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Artist%E2%80%99s_Impression_of_a_Black_Hole_Environment_%28eso1907m%29.tiff/lossy-page1-1280px-Artist%E2%80%99s_Impression_of_a_Black_Hole_Environment_%28eso1907m%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s Impression of a Black Hole Environment (eso1907m).tiff
+      credit: Nicolle R. Fuller/NSF
       license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Cygnus_(cyg).jpg
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_Impression_of_a_Black_Hole_Environment_(eso1907m).tiff
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: These blazing jets shine with the energy of 10,000 suns while visibly dancing across space.
+  emphasis:
+  - 10,000 suns
+  - dancing across space
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/High-energy_jet_in_NGC_3862_%28eso9206a%29.jpg/1920px-High-energy_jet_in_NGC_3862_%28eso9206a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: High-energy jet in NGC 3862 (eso9206a).jpg
+      credit: P. Crane ([../../../../../../ European Southern Observatory]) and NASA/ESA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:High-energy_jet_in_NGC_3862_(eso9206a).jpg
     fallbacks:
     - card
     - color
@@ -94,99 +185,12 @@ beats:
     focus_y: 0.5
     card:
       kind: fact
-      big: 21 Suns
-      small: Black hole mass
-- text: Both objects complete a tight orbit every 5.6 days at a distance of just one-fifth the Earth-Sun gap.
-  emphasis:
-  - every 5.6 days
-  - one-fifth
-  visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Black_hole_jet_diagram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Black hole jet diagram.jpg
-      credit: NASA
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Black_hole_jet_diagram.jpg
-    fallbacks:
-    - card
-    - color
-    motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
-    card:
-      kind: fact
-      big: 5.6 Days
-      small: Orbital period
-- text: As material streams inward, it forms a superheated accretion disk that blazes brightly in X-rays.
-  emphasis:
-  - accretion disk
-  - X-rays
-  sfx: riser
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Chandra_X-ray_Observatory_spacecraft_model.png/960px-Chandra_X-ray_Observatory_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Chandra X-ray Observatory spacecraft model.png
-      credit: NASA
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Chandra_X-ray_Observatory_spacecraft_model.png
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Yet the most mind-bending record is its twin plasma jets racing outward at immense speeds.
-  emphasis:
-  - plasma jets
-  - immense speeds
-  sfx: whoosh
-  pause_after: 0.4
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Jets_Spout_Far_Closer_to_Black_Hole_Than_Thought%2C_Scientists_Say_%282004-ss433%29.tiff/lossy-page1-1920px-Jets_Spout_Far_Closer_to_Black_Hole_Than_Thought%2C_Scientists_Say_%282004-ss433%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Jets Spout Far Closer to Black Hole Than Thought, Scientists Say (2004-ss433).tiff
-      credit: 'Credit: NASA/CXC/M.Weiss) JPEG (97 kb), Tiff (24.7 MB), PS (4.8 MB)'
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Jets_Spout_Far_Closer_to_Black_Hole_Than_Thought,_Scientists_Say_(2004-ss433).tiff
-    fallbacks:
-    - color
-    motion: pan_up
-    focus_x: 0.5
-    focus_y: 0.5
-- text: These blazing jets shine with the energy of 10,000 suns while visibly swaying like dancing beams.
-  emphasis:
-  - 10,000 suns
-  - dancing beams
-  sfx: pop
-  pause_after: 0.4
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Hubble_2009_close-up.jpg/3840px-Hubble_2009_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Hubble 2009 close-up.jpg
-      credit: NASA
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Hubble_2009_close-up.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-    card:
-      kind: fact
       big: 10,000 Suns
       small: Jet energy output
-- text: The first confirmed black hole shoots jets at half light speed.
+- text: Stellar winds from the supergiant make these beams visibly wobble as they race away.
   emphasis:
-  - first confirmed black hole
-  - half light speed
+  - visibly wobble
+  - race away
   sfx: pop
   visual:
     reuse: 1

@@ -6,7 +6,7 @@
     },
     {
       "style": "statement",
-      "text": "Any speed will work to escape Earth if you keep thrusting."
+      "text": "Any speed will work to leave Earth if you keep thrusting."
     },
     {
       "style": "number",
@@ -15,19 +15,20 @@
   ],
   "hook_style": "contradiction",
   "structure": "record",
-  "title": "The Earth Escape Velocity Myth",
-  "description": "Discover why you do not need 25,000 miles per hour to escape Earth's gravity.",
+  "title": "The Escape Velocity Myth",
+  "description": "Discover why the famous 25,000 miles per hour speed limit is only true if you stop your engines.",
   "hashtags": [
     "#space",
-    "#escapevelocity",
+    "#physics",
     "#nasa"
   ],
   "tags": [
     "escape velocity",
     "gravity",
-    "rockets",
-    "physics",
-    "space myths"
+    "rocketry",
+    "astrophysics",
+    "space myths",
+    "Isaac Newton"
   ],
   "beats": [
     {
@@ -41,40 +42,40 @@
       "claims": [
         1
       ],
-      "visual": "Earth seen from Apollo 17, 1972",
+      "visual": "Apollo 17 photograph of Earth from space, 1972",
       "subjects": [
         "Earth"
       ],
       "year": 1972,
       "queries": [
         "Earth from space Apollo 17",
-        "Planet Earth high resolution NASA"
+        "Blue Marble Earth NASA"
       ],
       "card": {
         "kind": "fact",
         "big": "25,000 mph",
-        "small": "Surface escape speed"
+        "small": "Commonly cited limit"
       }
     },
     {
-      "text": "That terrifying speed limit is actually just a mathematical shortcut for a single unpowered ballistic burst.",
+      "text": "That massive speed is only required if you use a single unpowered launch boost.",
       "emphasis": [
-        "terrifying speed limit",
-        "unpowered ballistic burst"
+        "massive speed",
+        "unpowered launch boost"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
         2
       ],
-      "visual": "Escape velocity orbit diagram illustration",
+      "visual": "diagram of escape velocity trajectories from a planet",
       "subjects": [
         "Escape velocity"
       ],
       "year": 0,
       "queries": [
-        "Escape velocity orbit diagram illustration",
-        "Hyperbolic trajectory orbital mechanics diagram"
+        "escape velocity diagram illustration",
+        "orbital mechanics hyperbolic trajectory"
       ],
       "card": {
         "kind": "none",
@@ -85,7 +86,6 @@
     {
       "text": "If you fire a projectile and let gravity do all the work, you genuinely need 11.2 kilometers per second.",
       "emphasis": [
-        "let gravity do all the work",
         "11.2 kilometers per second"
       ],
       "sfx": "none",
@@ -94,119 +94,145 @@
         1,
         2
       ],
-      "visual": "Saturn V liftoff Apollo mission, 1969",
+      "visual": "Saturn V rocket liftoff during Apollo mission, 1969",
       "subjects": [
         "Saturn V",
         "Apollo program"
       ],
       "year": 1969,
       "queries": [
-        "Saturn V liftoff Apollo mission",
-        "Space Shuttle launch liftoff NASA"
+        "Saturn V liftoff NASA",
+        "Apollo 11 launch high resolution"
       ],
       "card": {
         "kind": "fact",
         "big": "11.2 km/s",
-        "small": "Unpowered launch requirement"
+        "small": "Unpowered ballistic speed"
       }
     },
     {
-      "text": "But spacecraft are not simple cannonballs.",
+      "text": "But modern rockets are not unpowered cannonballs designed for a single blast.",
       "emphasis": [
-        "not simple cannonballs"
-      ],
-      "sfx": "pop",
-      "pause_after": 0.4,
-      "claims": [
-        4
-      ],
-      "visual": "Space Shuttle launch liftoff NASA",
-      "subjects": [
-        "Space Shuttle"
-      ],
-      "year": 0,
-      "queries": [
-        "Space Shuttle launch liftoff NASA",
-        "Rocket launch continuous thrust"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "By keeping their powerful engines burning, they can climb slowly at a leisurely walking pace and still slip away completely.",
-      "emphasis": [
-        "engines burning",
-        "slip away completely"
-      ],
-      "sfx": "riser",
-      "pause_after": 0.12,
-      "claims": [
-        4
-      ],
-      "visual": "International Space Station flyaround NASA, 2011",
-      "subjects": [
-        "International Space Station"
-      ],
-      "year": 2011,
-      "queries": [
-        "International Space Station flyaround NASA",
-        "ISS solar arrays orbital sunrise"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "Escape velocity is not a strict speed limit you must break, but merely an underlying energy bill.",
-      "emphasis": [
-        "not a strict speed limit",
-        "underlying energy bill"
-      ],
-      "sfx": "pop",
-      "pause_after": 0.4,
-      "claims": [
-        4,
-        6
-      ],
-      "visual": "Escape velocity orbit diagram illustration",
-      "subjects": [
-        "Escape velocity"
-      ],
-      "year": 0,
-      "queries": [
-        "Escape velocity orbit diagram illustration",
-        "Orbital mechanics diagram"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "Thanks to continuous thrust provided by onboard propellants, you never have to pay that massive bill all at once.",
-      "emphasis": [
-        "continuous thrust",
-        "all at once"
+        "modern rockets",
+        "cannonballs"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         4
       ],
-      "visual": "Voyager spacecraft model artist concept NASA, 1977",
+      "visual": "Space Shuttle liftoff from Kennedy Space Center, 1981",
+      "subjects": [
+        "Space Shuttle"
+      ],
+      "year": 1981,
+      "queries": [
+        "Space Shuttle launch NASA",
+        "Space Shuttle liftoff exhaust plume"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "By keeping their engines burning, they can climb at a leisurely walking pace and still slip away completely.",
+      "emphasis": [
+        "walking pace",
+        "slip away"
+      ],
+      "sfx": "riser",
+      "pause_after": 0.12,
+      "claims": [
+        4
+      ],
+      "visual": "International Space Station solar arrays with orbital sunrise, 2011",
+      "subjects": [
+        "International Space Station"
+      ],
+      "year": 2011,
+      "queries": [
+        "ISS orbital sunrise NASA",
+        "ISS solar arrays Earth limb"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "Escape velocity is simply the total energy cost needed to leave Earth for good.",
+      "emphasis": [
+        "energy cost",
+        "leave Earth"
+      ],
+      "sfx": "pop",
+      "pause_after": 0.4,
+      "claims": [
+        6
+      ],
+      "visual": "artist concept of a gravity well as a warped grid",
+      "subjects": [
+        "Gravity well"
+      ],
+      "year": 0,
+      "queries": [
+        "gravity well illustration warped space",
+        "Newtonian gravity grid diagram"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "Thanks to continuous thrust, you do not have to pay that steep gravity bill all at once.",
+      "emphasis": [
+        "continuous thrust",
+        "gravity bill"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        4
+      ],
+      "visual": "Voyager spacecraft artist concept in deep space, 1977",
       "subjects": [
         "Voyager program"
       ],
       "year": 1977,
       "queries": [
-        "Voyager spacecraft model artist concept NASA",
-        "Voyager probe in space illustration"
+        "Voyager spacecraft artist concept NASA",
+        "Voyager probe in interstellar space"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "This is why you do not need 25,000 miles per hour to escape Earth.",
+      "emphasis": [
+        "why you do not need"
+      ],
+      "sfx": "pop",
+      "pause_after": 0.4,
+      "claims": [
+        1,
+        4
+      ],
+      "visual": "Apollo 17 photograph of Earth from space, 1972",
+      "subjects": [
+        "Earth"
+      ],
+      "year": 1972,
+      "queries": [
+        "Earth from space Apollo 17",
+        "Planet Earth high resolution NASA"
       ],
       "card": {
         "kind": "none",
@@ -215,7 +241,7 @@
       }
     }
   ],
-  "hook_text": "25,000 MPH IS A MYTH",
+  "hook_text": "THE 25,000 MPH MYTH",
   "loop": true,
-  "better_than_last": "This episode expands the total spoken word count to 118 words to meet length requirements while maintaining record-structure pacing and a direct contradiction hook."
+  "better_than_last": "I integrated the reviewer's specific technical corrections regarding unpowered boosts and energy costs while ensuring the script hit the 119-word target for better retention pacing."
 }

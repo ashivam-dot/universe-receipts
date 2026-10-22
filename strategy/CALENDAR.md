@@ -50,7 +50,7 @@ unexplained, not alien.
 
 | Date | Story | Series |
 |---|---|---|
-| Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day — making (ep217) | Mission Files |
+| Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day — parked (ep217) | Mission Files |
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury | Mission Files |
 | Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar | Near Misses |
 | Nov 9 | Apollo 4 (1967): the first launch of the Saturn V rocket was so loud its shockwaves shook buildings and shattered windows miles away | Scale Breaker |
@@ -123,7 +123,7 @@ unexplained, not alien.
 - SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years — done (ep181)
 - Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum — done (ep191)
 - Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light — making (ep213)
-- Vela Pulsar (1968): a dead star spinning 11 times a second that shoots a violent jet of superheated plasma through space while glitching its spin rate
+- Vela Pulsar (1968): a dead star spinning 11 times a second that shoots a violent jet of superheated plasma through space while glitching its spin rate — making (ep226)
 
 ### Scale Breaker
 
@@ -155,8 +155,8 @@ unexplained, not alien.
 - VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip — parked (ep192)
 - Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space — done (ep198)
 - Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C — done (ep205)
-- Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year — making (ep214)
-- Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns
+- Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year — done (ep214)
+- Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns — making (ep224)
 
 ### Mission Files
 
@@ -164,7 +164,7 @@ unexplained, not alien.
 - Venera 13 (1982): a lander built to last 32 minutes on Venus kept working for 127 — dropped (ep212)
 - Mars Climate Orbiter (1999): lost at Mars because one team's software used pound-force and another's used newtons — done (ep194)
 - OSIRIS-REx (2020): it grabbed so much of asteroid Bennu that rocks jammed its lid open and pieces drifted off into space — done (ep210)
-- Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour — making (ep206)
+- Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour — dropped (ep206)
 - Cassini–Huygens (2017): the mission ended by diving into Saturn on purpose, to protect moons that might hold life — done (ep045)
 - New Horizons (2015): the probe that flew past Pluto carries some of the ashes of the man who discovered it — done (ep177)
 - Hubble Space Telescope (1990): a backup mirror polished the traditional way by Kodak never flew; it's on display at the National Air and Space Museum — dropped (ep016)
@@ -211,7 +211,7 @@ unexplained, not alien.
 - Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly — parked (ep189)
 - 10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds — done (ep195)
 - 3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids — parked (ep204)
-- PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond
+- PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — making (ep225)
 
 ### Near Misses
 
@@ -236,7 +236,7 @@ unexplained, not alien.
 - STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean — parked (ep170)
 - Apollo 11 (1969): computer overloads and a boulder-strewn landing zone forced astronauts to fly manually, touching down on the Moon with under 30 seconds of fuel left — dropped (ep180)
 - 2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed — done (ep203)
-- 2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach
+- 2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach — making (ep223)
 
 ### Space Myths, Busted
 

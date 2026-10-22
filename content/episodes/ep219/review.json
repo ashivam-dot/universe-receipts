@@ -1,0 +1,58 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-22T17:22:18+05:30",
+      "check": {
+        "duration": 52.56,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'analogues' heard as 'analogs' after 'for larger rock'",
+          "'(nothing)' heard as 'you' after 'our night sky'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing opening hook linking Madagascar directly to the Moon.",
+        "clarity": "Easy to follow main concept, though slightly dense with geology terms.",
+        "payoff": "Good reveal connecting Earth formations to lunar composition.",
+        "visuals": "Clear imagery overall, though beat 7 relies on a text-heavy diagram.",
+        "loop": "Smooth audio transition returning seamlessly to the first beat."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 3: Over four billion years ago, light minerals floated on a magma ocean to form the Moon's crust.",
+        "Beat 7: Formed 600 million years ago, this massive dome survived ancient continental collisions."
+      ],
+      "better_than_last": "It grounds its astronomical concept with stronger direct visual proof from orbit than recent shorts.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

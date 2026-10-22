@@ -1,0 +1,62 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-22T17:20:02+05:30",
+      "check": {
+        "duration": 44.03,
+        "words": 108,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Direct myth-busting statement grabs immediate attention.",
+        "clarity": "Physics concepts like energy bills are slightly abstract for quick viewing.",
+        "payoff": "Explaining the walking pace concept offers a good turn, though the ending feels soft.",
+        "visuals": "Diagrams and space station footage do not clearly demonstrate continuous thrust.",
+        "loop": "Ending phrase connects cleanly back into the opening myth claim."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "technical diagram with small, unreadable text on phone screens"
+        },
+        {
+          "beat": 5,
+          "problem": "shows orbiting ISS rather than a craft actively escaping Earth"
+        },
+        {
+          "beat": 6,
+          "problem": "abstract geometric diagram with tiny text labels"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 2: That high speed is only required if you use a single unpowered launch boost.",
+        "Beat 6: Escape velocity is simply the total energy cost needed to leave Earth."
+      ],
+      "better_than_last": "Tackles a fundamental physics misconception more directly than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
