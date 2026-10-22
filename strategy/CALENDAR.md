@@ -43,6 +43,8 @@ unexplained, not alien.
 | 2026-10-16 | Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space — parked (ep169) | Space Got Weird | NASA highlighted its collaboration on JAXA's upcoming MMX mission targeting Mars' moons. |
 | 2026-10-17 | Phobos (moon) (1877): Mars is slowly dragging its largest moon to its doom, where tidal forces will eventually tear it into a planetary ring — parked (ep179) | The Universe Is Terrifying | NASA announced its partnership and science instruments for JAXA's upcoming MMX mission to explore Mars' moons. |
 | 2026-10-18 | Pillars of Creation (1995): towering columns of cosmic gas so colossal that the tiny finger-like protrusions at their tips are larger than our entire solar system — done (ep188) | Scale Breaker | Featured as NASA's Astronomy Picture of the Day with a new cosmic sonification. |
+| 2026-10-22 | Jet Propulsion Laboratory (1936): founded by self-taught experimenters dubbed the 'Suicide Squad' after dangerous rocket explosions got them banned from campus — making (ep221) | Mission Files | NASA JPL is marking 90 years since its founders conducted their first rocket propulsion experiments in October 1936. |
+| 2026-10-22 | Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts' — making (ep222) | The Universe Is Terrifying | Featured in a recent NASA APOD highlighting the surrounding Ghost of Cassiopeia nebulae. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -66,6 +68,7 @@ unexplained, not alien.
 | Nov 28 | PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1 | Space Got Weird |
 | Dec 2 | Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries | Space Got Weird |
 | Dec 2 | Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever | Mission Files |
+| Dec 6 | Hayabusa2 (2020): on this day, the spacecraft successfully returned pristine capsule samples from asteroid Ryugu back to Earth | Mission Files |
 | Dec 07 | Apollo 17 (1972): the final crewed flight to the Moon, whose astronauts snapped the iconic whole-Earth Blue Marble photograph | Mission Files |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
 | Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
@@ -120,6 +123,7 @@ unexplained, not alien.
 - SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years — done (ep181)
 - Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum — done (ep191)
 - Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light — making (ep213)
+- Vela Pulsar (1968): a dead star spinning 11 times a second that shoots a violent jet of superheated plasma through space while glitching its spin rate
 
 ### Scale Breaker
 
@@ -152,6 +156,7 @@ unexplained, not alien.
 - Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space — done (ep198)
 - Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C — done (ep205)
 - Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year — making (ep214)
+- Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns
 
 ### Mission Files
 
@@ -206,6 +211,7 @@ unexplained, not alien.
 - Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly — parked (ep189)
 - 10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds — done (ep195)
 - 3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids — parked (ep204)
+- PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond
 
 ### Near Misses
 
@@ -230,6 +236,7 @@ unexplained, not alien.
 - STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean — parked (ep170)
 - Apollo 11 (1969): computer overloads and a boulder-strewn landing zone forced astronauts to fly manually, touching down on the Moon with under 30 seconds of fuel left — dropped (ep180)
 - 2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed — done (ep203)
+- 2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach
 
 ### Space Myths, Busted
 

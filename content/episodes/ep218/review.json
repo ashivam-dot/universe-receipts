@@ -1,0 +1,51 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-22T11:14:22+05:30",
+      "check": {
+        "duration": 51.6,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'chute' heard as 'shoot' after 'when a drag'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Leverages public curiosity about Glenn's age and mission purpose.",
+        "clarity": "Efficiently connects the mission's public image to its scientific reality.",
+        "payoff": "Conclusion is informative but lacks a punchy, unexpected revelation.",
+        "visuals": "Accurate mission stills provide strong context for the historical narrative.",
+        "loop": "Successfully circles back to the starting hook via the skepticism theme."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: 'His body proved spaceflight mimics aging, transforming a media stunt into vital medical data.'"
+      ],
+      "better_than_last": "Connects space science to human aging more effectively than the singing black hole story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

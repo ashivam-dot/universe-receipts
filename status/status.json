@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-22T11:07:53+05:30",
+  "updated_at": "2026-10-22T17:12:14+05:30",
   "day": 21,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5H1P14D5TN0NT6CVTBHDHYR",
+    "id": "ta-01M5HP97H1GSKBVSS3X4HYZBZR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-22T11:05:07+05:30",
-    "started_at_utc": "2026-10-22T05:35:07+00:00",
-    "seconds": 166
+    "started_at": "2026-10-22T17:05:17+05:30",
+    "started_at_utc": "2026-10-22T11:35:17+00:00",
+    "seconds": 417
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 4.2
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "64 posts",
-      "seconds": 1.3
+      "detail": "65 posts",
+      "seconds": 2.2
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep172 to 'Space Myths, Busted'",
-      "seconds": 3.5
+      "detail": "nothing new",
+      "seconds": 3.8
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep175 language en/None -> en; ep188 language en/None -> en",
-      "seconds": 1.0
+      "detail": "ep053 language en/None -> en; ep063 language en/None -> en; ep125 language en/None -> en; ep133 language en/None -> en; ep137 language en/None -> en; ep167 language en/None -> en",
+      "seconds": 6.6
     },
     {
       "name": "on youtube",
@@ -45,77 +45,165 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep053 at 72 h: level with the channel's earlier Shorts at this age: 1106 views against a median of 1018 (1.1x); ep072 at 24 h: behind the channel's earlier Shorts at this age: 711 views against a median of 922 (0.8x); ep146 at 6 h: ahead of the channel's earlier Shorts at this age: 893 views against a median of 684 (1.3x); learnings: Reviewed 10 Shorts (ep118–ep188); maintained existing rule set and added new testing hypotheses from latest video evaluations.",
-      "seconds": 126.6
+      "detail": "ep172 at 6 h: level with the channel's earlier Shorts at this age: 682 views against a median of 708 (1.0x)",
+      "seconds": 3.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep217 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep218 unfinished (RuntimeError: ep218 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 96): add at least 9 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 12, beat 2: 18, beat 3: 18, beat 4: 21, beat 5: 20, beat 6: 7.']); ep219 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash'",
-      "seconds": 10.1
+      "detail": "ep218 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 7.0
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "94 subscribers",
+      "seconds": 46.5
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Logged diagnostic reviews for ep118-ep188, maintained proven rules, and added a hypothesis to test replacing optical jargon with relatable analogies based on ep159.",
+      "seconds": 150.1
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 1.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "2 added",
+      "seconds": 82.0
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 22.2
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-021.md",
+      "seconds": 1.3
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.8
     },
     {
       "name": "preflight ep181",
       "ok": true,
-      "detail": "video downloads whole (17 MB in 0 s)",
-      "seconds": 0.5
+      "detail": "video still hosted",
+      "seconds": 1.2
+    },
+    {
+      "name": "preflight ep185",
+      "ok": true,
+      "detail": "video downloads whole (17 MB in 2 s)",
+      "seconds": 2.2
     },
     {
       "name": "preflight ep195",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.7
     },
     {
       "name": "preflight ep197",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.8
     },
     {
       "name": "preflight ep201",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.9
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep206",
+      "ok": true,
+      "detail": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
       "seconds": 3.3
     },
     {
-      "name": "schedule ep210",
+      "name": "start ep213",
       "ok": true,
-      "detail": "2026-10-25T12:30:00-04:00",
-      "seconds": 1.0
+      "detail": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
+      "seconds": 2.4
+    },
+    {
+      "name": "start ep214",
+      "ok": true,
+      "detail": "Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year",
+      "seconds": 8.0
+    },
+    {
+      "name": "start ep215",
+      "ok": true,
+      "detail": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
+      "seconds": 7.1
+    },
+    {
+      "name": "start ep216",
+      "ok": true,
+      "detail": "Escape velocity (1859): you do not need to reach 25,000 miles per hour to escape Earth's gravity; any speed will work as long as you have continuous thrust",
+      "seconds": 7.1
+    },
+    {
+      "name": "start ep217",
+      "ok": true,
+      "detail": "951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day",
+      "seconds": 7.0
     },
     {
       "name": "start ep218",
       "ok": true,
       "detail": "STS-95 (1998): John Glenn went back to space at 77, 36 years after his first orbit",
-      "seconds": 0.6
+      "seconds": 7.2
+    },
+    {
+      "name": "start ep219",
+      "ok": true,
+      "detail": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "seconds": 6.8
+    },
+    {
+      "name": "start ep221",
+      "ok": true,
+      "detail": "Jet Propulsion Laboratory (1936): founded by self-taught experimenters dubbed the 'Suicide Squad' after dangerous rocket explosions got them banned from campus",
+      "seconds": 7.0
+    },
+    {
+      "name": "start ep222",
+      "ok": true,
+      "detail": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
+      "seconds": 7.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.0
+      "seconds": 1.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep217 stopped on Gemini's free quota; it resumes in a later run",
-    "ep219 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "room for 1 of the 4 Shorts wanted: Modal's credit covers 31, this run's share of the Actions minutes 0",
+    "ep218 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 23 waiting",
     "Buffer is full (10 queued); 23 waiting"
   ],
   "inventory": {
@@ -123,17 +211,18 @@
     "in_buffer": 10,
     "waiting": 23,
     "target": 42,
-    "making": [
+    "making": [],
+    "remote": [
       "ep206",
       "ep213",
       "ep214",
       "ep215",
       "ep216",
       "ep217",
-      "ep219"
-    ],
-    "remote": [
-      "ep218"
+      "ep218",
+      "ep219",
+      "ep221",
+      "ep222"
     ]
   },
   "queue": [
@@ -330,93 +419,152 @@
   ],
   "made": [
     {
-      "id": "ep217",
-      "outcome": "unfinished",
-      "topic": "951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
       "id": "ep218",
       "outcome": "unfinished",
       "topic": "STS-95 (1998): John Glenn went back to space at 77, 36 years after his first orbit",
-      "reason": "RuntimeError: ep218 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 96): add at least 9 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 12, beat 2: 18, beat 3: 18, beat 4: 21, beat 5: 20, beat 6: 7.']",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep219",
-      "outcome": "unfinished",
-      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
-    },
-    {
-      "id": "ep220",
-      "outcome": "rejected",
-      "topic": "R Coronae Borealis (1783): a star that acts like a reverse variable star, regularly fading to near invisibility as it chokes on its own soot",
-      "reason": "research: only 0 claims have two different sites"
     }
   ],
   "spawned": [
     {
+      "id": "ep206",
+      "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
+      "call_id": "fc-01M5HPMHNERRV9MC36YP2HS1A6"
+    },
+    {
+      "id": "ep213",
+      "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
+      "call_id": "fc-01M5HPMKZCB244M7RN409P8C5Y"
+    },
+    {
+      "id": "ep214",
+      "topic": "Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year",
+      "call_id": "fc-01M5HPMVSFYE9NKBP7SYMRZ1KK"
+    },
+    {
+      "id": "ep215",
+      "topic": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
+      "call_id": "fc-01M5HPN2PRFW1FKHVCDFFEG45B"
+    },
+    {
+      "id": "ep216",
+      "topic": "Escape velocity (1859): you do not need to reach 25,000 miles per hour to escape Earth's gravity; any speed will work as long as you have continuous thrust",
+      "call_id": "fc-01M5HPN9NZ8KY8NCQMAYACKPNT"
+    },
+    {
+      "id": "ep217",
+      "topic": "951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day",
+      "call_id": "fc-01M5HPNGGFVPSQ1HQ8QD9AS05N"
+    },
+    {
       "id": "ep218",
       "topic": "STS-95 (1998): John Glenn went back to space at 77, 36 years after his first orbit",
-      "call_id": "fc-01M5H1V7JH7TKT8T5F805K53CA"
+      "call_id": "fc-01M5HPNQJR6BF30SWZN074DADS"
+    },
+    {
+      "id": "ep219",
+      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "call_id": "fc-01M5HPNY6S45980HX4D4AHZ8SD"
+    },
+    {
+      "id": "ep221",
+      "topic": "Jet Propulsion Laboratory (1936): founded by self-taught experimenters dubbed the 'Suicide Squad' after dangerous rocket explosions got them banned from campus",
+      "call_id": "fc-01M5HPP51VK90K1QB97XKH9TMF"
+    },
+    {
+      "id": "ep222",
+      "topic": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
+      "call_id": "fc-01M5HPPBY8C2YB6SPDKHV529YZ"
     }
   ],
   "in_cloud": [
     {
+      "id": "ep206",
+      "topic": "Double Asteroid Redirection Test (2022): we crashed a spacecraft into an asteroid on purpose and shortened its orbit by about half an hour",
+      "spawned_at": "2026-10-22T17:11:11+05:30"
+    },
+    {
+      "id": "ep213",
+      "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
+      "spawned_at": "2026-10-22T17:11:14+05:30"
+    },
+    {
+      "id": "ep214",
+      "topic": "Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year",
+      "spawned_at": "2026-10-22T17:11:22+05:30"
+    },
+    {
+      "id": "ep215",
+      "topic": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
+      "spawned_at": "2026-10-22T17:11:29+05:30"
+    },
+    {
+      "id": "ep216",
+      "topic": "Escape velocity (1859): you do not need to reach 25,000 miles per hour to escape Earth's gravity; any speed will work as long as you have continuous thrust",
+      "spawned_at": "2026-10-22T17:11:36+05:30"
+    },
+    {
+      "id": "ep217",
+      "topic": "951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day",
+      "spawned_at": "2026-10-22T17:11:43+05:30"
+    },
+    {
       "id": "ep218",
       "topic": "STS-95 (1998): John Glenn went back to space at 77, 36 years after his first orbit",
-      "spawned_at": "2026-10-22T11:07:50+05:30"
-    }
-  ],
-  "published": [
+      "spawned_at": "2026-10-22T17:11:50+05:30"
+    },
     {
-      "id": "ep210",
-      "title": "The Asteroid Sample That Was Too Big",
-      "due_at": "2026-10-25T12:30:00-04:00"
+      "id": "ep219",
+      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "spawned_at": "2026-10-22T17:11:57+05:30"
+    },
+    {
+      "id": "ep221",
+      "topic": "Jet Propulsion Laboratory (1936): founded by self-taught experimenters dubbed the 'Suicide Squad' after dangerous rocket explosions got them banned from campus",
+      "spawned_at": "2026-10-22T17:12:04+05:30"
+    },
+    {
+      "id": "ep222",
+      "topic": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
+      "spawned_at": "2026-10-22T17:12:11+05:30"
     }
   ],
+  "published": [],
   "live": 55,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 20,
+    "calls": 10,
     "by_model": {
-      "gemini-3.8-flash": 4,
+      "gemini-3.8-flash": 1,
       "gemini-3.6-flash": 2,
       "gemini-3.7-flash": 1,
-      "gemini-3-flash-preview": 5,
-      "gemini-3.5-flash-lite": 8
+      "gemini-3-flash-preview": 3,
+      "gemini-3.5-flash-lite": 3
     },
-    "out_of_quota": [
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 4,
+    "modal": 2,
     "runner": 0
   },
-  "daily_done": "2026-10-21",
+  "daily_done": "2026-10-22",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 24.19,
+    "metered": 24.28,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 31,
+    "cloud": 30,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 3.81
+    "modal_credit_left": 3.72
   },
   "made_here": 0,
-  "open_topics": 28,
+  "open_topics": 33,
   "parked_topics": 52
 }
