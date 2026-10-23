@@ -1,7 +1,7 @@
 id: ep224
 title: The Black Hole That Births Stars Instead of Killing Them
 series: Scale Breaker
-description: The Phoenix Cluster breaks astrophysics rules by creating stars rapidly.
+description: The Phoenix Cluster breaks the rules of astrophysics by creating stars faster than almost anywhere else.
 sources:
 - https://science.nasa.gov/asset/hubble/phoenix-cluster/
 - https://chandra.harvard.edu/photo/2015/phoenix/
@@ -12,17 +12,17 @@ sources:
 - https://www.astronomy.com/science/jwst-phoenix-cluster-conundrum/
 hashtags:
 - '#space'
-- '#phoenixcluster'
 - '#blackhole'
+- '#phoenixcluster'
 tags:
 - phoenix cluster
-- black hole
-- star formation
+- galaxy cluster
 - nasa
 - chandra
 - hubble
+- james webb space telescope
 - astronomy
-- space facts
+- star formation
 voice:
   voice: af_heart
   speed: 1.05
@@ -43,41 +43,67 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.52
+    focus_x: 0.5
     focus_y: 0.5
     box:
-    - 0.3
     - 0.2
-    - 0.7
-    - 0.8
-- text: Discovered in 2010, the Phoenix Cluster lies in the southern constellation of Phoenix.
+    - 0.1
+    - 0.9
+    - 0.9
+- text: Most supermassive black holes act as thermostats, heating gas to prevent star formation.
   emphasis:
-  - '2010'
-  - Phoenix Cluster
+  - thermostats
+  - prevent
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Amundsen%E2%80%93Scott_South_Pole_Station_07.jpg/1920px-Amundsen%E2%80%93Scott_South_Pole_Station_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Galaxy_cluster_IDCS_J1426.jpg/1280px-Galaxy_cluster_IDCS_J1426.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Amundsen–Scott South Pole Station 07.jpg
-      credit: Christopher Michel
+      title: Galaxy cluster IDCS J1426.jpg
+      credit: NASA, ESA, and M. Brodwin (University of Missouri)
       license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Amundsen%E2%80%93Scott_South_Pole_Station_07.jpg
+      url: https://commons.wikimedia.org/wiki/File:Galaxy_cluster_IDCS_J1426.jpg
     fallbacks:
     - card
     - color
-    motion: pan_left
-    focus_x: 0.48
-    focus_y: 0.45
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Thermostats
+      small: heating gas
+- text: But the Phoenix Cluster, discovered in 2010, is a rule-breaking monster in the southern sky.
+  emphasis:
+  - Phoenix Cluster
+  - rule-breaking
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/South_Pole_Telescope_%28Pano3-2017Aug14-South-Pole-360-DrMichalik-CC3%29.jpg/3840px-South_Pole_Telescope_%28Pano3-2017Aug14-South-Pole-360-DrMichalik-CC3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: South Pole Telescope (Pano3-2017Aug14-South-Pole-360-DrMichalik-CC3).jpg
+      credit: NOIRLab/NSF/AURA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:South_Pole_Telescope_(Pano3-2017Aug14-South-Pole-360-DrMichalik-CC3).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: dateline
       big: '2010'
       small: Phoenix Cluster
-- text: The cluster creates new stars at a rate of more than seven hundred per year.
+- text: It generates more than seven hundred stars every year, shattering X-ray and star-birth records.
   emphasis:
   - seven hundred
-  - per year
+  - records
+  sfx: pop
+  pause_after: 0.4
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/3/3a/SPT-CLJ2344%E2%80%934243_%28Phoenix_Cluster%29_Chandra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -90,127 +116,101 @@ beats:
     fallbacks:
     - card
     - color
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
-    card:
-      kind: fact
-      big: 700 stars
-      small: per year
-- text: In comparison, the Milky Way forms roughly one or two stars per year.
-  emphasis:
-  - one or two
-  - per year
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Milky_Way_Anatomy_%28SVS14935%29.jpg/3840px-Milky_Way_Anatomy_%28SVS14935%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Milky Way Anatomy (SVS14935).jpg
-      credit: NASA's Scientific Visualization Studio - eMITS/Scott Wiessinger, eMITS/Adriana Manrique Gutierrez, eMITS/Ashley
-        Balzer
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Milky_Way_Anatomy_(SVS14935).jpg
-    fallbacks:
-    - color
-    motion: pan_left
-    focus_x: 0.3
-    focus_y: 0.5
-    box:
-    - 0.05
-    - 0.05
-    - 0.55
-    - 0.95
-- text: NASA's Chandra X-ray Observatory detected giant holes in the surrounding hot gas.
-  emphasis:
-  - giant holes
-  - hot gas
-  sfx: whoosh
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/1st_Anniversary_Montage_%28illustrations-montage-index-1st_Anniversary_Montage_-_text%29.tiff/lossy-page1-1280px-1st_Anniversary_Montage_%28illustrations-montage-index-1st_Anniversary_Montage_-_text%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: 1st Anniversary Montage (illustrations-montage-index-1st Anniversary Montage - text).tiff
-      credit: NASA/SAO
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:1st_Anniversary_Montage_(illustrations-montage-index-1st_Anniversary_Montage_-_text).tiff
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
-    focus_x: 0.35
-    focus_y: 0.5
-    card:
-      kind: fact
-      big: Giant holes
-      small: Chandra data
-- text: Hubble revealed filaments of cooler gas where new stars form.
-  emphasis:
-  - filaments
-  - stars form
-  sfx: whoosh
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/The_Hubble_eXtreme_Deep_Field_%28eso1633c%29.tiff/lossy-page1-1920px-The_Hubble_eXtreme_Deep_Field_%28eso1633c%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: The Hubble eXtreme Deep Field (eso1633c).tiff
-      credit: NASA, ESA, G. Illingworth, D. Magee, and P. Oesch (University of California, Santa Cruz), R. Bouwens (Leiden
-        University), and the HUDF09 Team
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:The_Hubble_eXtreme_Deep_Field_(eso1633c).tiff
-    fallbacks:
-    - card
-    - color
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
-      big: Cooler gas
-      small: Hubble view
-- text: Its ten billion solar mass black hole fails to act as a normal thermostat.
+      big: 700 Stars
+      small: per year
+- text: Our Milky Way forms only one or two stars in that same time.
+  emphasis:
+  - one or two
+  - Milky Way
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/ESO_-_Milky_Way.jpg/3840px-ESO_-_Milky_Way.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ESO - Milky Way.jpg
+      credit: ESO/S. Brunier
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:ESO_-_Milky_Way.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Chandra and Hubble found cavities and filaments, while Webb spotted the gas cooling between them.
+  emphasis:
+  - cavities
+  - cooling
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Artist_concept_of_JWST_%2850489833002_107cb9e661_o%29.jpg/1920px-Artist_concept_of_JWST_%2850489833002_107cb9e661_o%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist concept of JWST (50489833002 107cb9e661 o).jpg
+      credit: Adriana Manrique Gutierrez, NASA Animator
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist_concept_of_JWST_(50489833002_107cb9e661_o).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Despite weighing ten billion Suns, this black hole fails to heat nearby gas, allowing stars to form.
   emphasis:
   - ten billion
   - fails
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Phoenix_Cluster_center%2C_artist%27s_depiction.jpg/960px-Phoenix_Cluster_center%2C_artist%27s_depiction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Black_hole_%28NASA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Phoenix Cluster center, artist's depiction.jpg
-      credit: Bill Saxton (NRAO/AUI/NSF)
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Phoenix_Cluster_center,_artist%27s_depiction.jpg
+      title: Black hole (NASA).jpg
+      credit: NASA/D. Berry
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Black_hole_(NASA).jpg
     fallbacks:
     - card
     - color
-    motion: pan_down
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
-      big: 10 billion
-      small: Solar masses
-- text: This growth spurt cannot last longer than a hundred million years.
+      big: 10 Billion
+      small: solar masses
+- text: This frantic growth spurt is unsustainable and will likely end within a hundred million years.
   emphasis:
-  - hundred million years
+  - unsustainable
+  - hundred million
   sfx: pop
   pause_after: 0.4
   visual:
-    reuse: 7
-    motion: zoom_in
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Hubble_Sees_%27Comet_Galaxy%27_Being_Ripped_Apart_By_Galaxy_Cluster_%282007-12-2077%29.tiff/lossy-page1-1920px-Hubble_Sees_%27Comet_Galaxy%27_Being_Ripped_Apart_By_Galaxy_Cluster_%282007-12-2077%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble Sees 'Comet Galaxy' Being Ripped Apart By Galaxy Cluster (2007-12-2077).tiff
+      credit: NASA, ESA, and J. -P. Kneib (Laboratorie d'Astrophysique de Marseille)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_Sees_%27Comet_Galaxy%27_Being_Ripped_Apart_By_Galaxy_Cluster_(2007-12-2077).tiff
+    fallbacks:
+    - color
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: That is why black holes usually kill stars, but this one births them.
+- text: This makes the Phoenix Cluster a rare exception, as black holes usually kill stars.
   emphasis:
-  - kill stars
-  - births them
+  - rare exception
+  - usually
   visual:
     reuse: 1
     motion: zoom_out
-    focus_x: 0.52
+    focus_x: 0.5
     focus_y: 0.5
-hook_text: KILLER BLACK HOLE BIRTHS STARS
+hook_text: KILLER BLACK HOLES BIRTH STARS

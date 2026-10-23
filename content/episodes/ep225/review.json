@@ -1,0 +1,58 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-23T17:15:10+05:30",
+      "check": {
+        "duration": 46.6,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong diamond planet concept halts scrolling immediately.",
+        "clarity": "Logically structured and easy to follow in one listen.",
+        "payoff": "Stellar core stripping explains the opening claim well.",
+        "visuals": "Multiple beats use irrelevant Solar System comparison graphics.",
+        "loop": "Final sentence comes to a full stop instead of chaining."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows Solar System planets instead of the pulsar system."
+        },
+        {
+          "beat": 6,
+          "problem": "Diagram shows a red giant engulfing planets rather than an orbit inside the Sun."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: That stolen core is twenty times denser than Jupiter, compressed into crystalline carbon, which means—"
+      ],
+      "better_than_last": "Provides a clearer causal explanation of its astronomical oddity than ep214.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

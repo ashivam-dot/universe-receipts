@@ -1,0 +1,77 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-23T17:14:02+05:30",
+      "check": {
+        "duration": 55.57,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'przybylski' heard as 'p arzybilski' after 'away in centaurus'",
+          "'antoni przybylski' heard as 'and tony p arzybilski' after 'in 1961 astronomer'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong intriguing premise about decaying elements grabs attention quickly.",
+        "clarity": "Technical concepts like actinides and spectral line overlaps feel dense.",
+        "payoff": "Debunking the alien nuclear waste theory mid-script weakens the payoff.",
+        "visuals": "Multiple static technical graphs are difficult to read on mobile screens.",
+        "loop": "Final frame and line connect smoothly back into the opening beat."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Extreme close-up frame crops the subject's face unnaturally."
+        },
+        {
+          "beat": 5,
+          "problem": "Periodic table image is text-heavy and unreadable on small screens."
+        },
+        {
+          "beat": 6,
+          "problem": "Technical signal flux graph is mostly illegible text and axis lines."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Przybylski's",
+          "respelling": "pruh bil skees"
+        },
+        {
+          "beat": 4,
+          "word": "Przybylski",
+          "respelling": "pruh bil skee"
+        }
+      ],
+      "rewrite": [
+        "Beat 6: That sparked wild theories of alien civilizations dumping radioactive waste inside.",
+        "Beat 7: But overlapping light patterns likely explain away the radioactive elements."
+      ],
+      "better_than_last": "Presents an intriguing stellar anomaly focus that sets it apart from standard scale comparisons.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -1,7 +1,8 @@
 id: ep228
-title: The Deep Space Flight That Broke Apollo 13's Record
+title: The Mission Breaking Apollo 13’s Distance Record
 series: Mission Files
-description: NASA's Artemis II mission carried four astronauts 252,756 miles into space, shattering Apollo 13's historic record.
+description: NASA's Artemis II mission will send four astronauts 252,756 miles from Earth, breaking a record held for over
+  fifty years.
 sources:
 - https://en.wikipedia.org/wiki/Artemis_II
 - https://www.nasa.gov/humans-in-space/artemis/
@@ -12,7 +13,7 @@ sources:
 - https://www.astronomy.com/space-exploration/how-artemis-2s-easter-message-echoes-apollo-history/
 hashtags:
 - '#space'
-- '#artemis'
+- '#artemisii'
 - '#nasa'
 tags:
 - artemis
@@ -25,10 +26,10 @@ voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: Four astronauts flew 252,756 miles from Earth to break a historic record.
+- text: Four astronauts will fly 252,756 miles to break Apollo 13's record.
   emphasis:
   - 252,756 miles
-  - historic record
+  - Apollo 13's record
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Orion_LunarFLyby_4k_%28656314676363%29.jpg/3840px-Orion_LunarFLyby_4k_%28656314676363%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -47,53 +48,54 @@ beats:
     card:
       kind: fact
       big: 252,756 MILES
-      small: farthest human deep space flight
-- text: Launching in April 2026 aboard NASA's Space Launch System, Artemis II surpassed Apollo 13's deep-space distance.
+      small: distance from Earth
+- text: Slated for 2026 aboard NASA's Space Launch System, Artemis II will push farther into deep space than humans have ever
+    traveled.
   emphasis:
-  - April 2026
   - Space Launch System
+  - Artemis II
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Artemis_II_Launch_%28NHQ20260401_admin_0032%29.jpg/1920px-Artemis_II_Launch_%28NHQ20260401_admin_0032%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Artemis_I_Prelaunch_%28NHQ202208280005%29.jpg/1920px-Artemis_I_Prelaunch_%28NHQ202208280005%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Artemis II Launch (NHQ20260401 admin 0032).jpg
-      credit: NASA Kennedy Space Center / NASA/John Kraus
+      title: Artemis I Prelaunch (NHQ202208280005).jpg
+      credit: Bill Ingalls
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Artemis_II_Launch_(NHQ20260401_admin_0032).jpg
+      url: https://commons.wikimedia.org/wiki/File:Artemis_I_Prelaunch_(NHQ202208280005).jpg
     fallbacks:
     - card
     - color
     motion: pan_up
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.4
     card:
       kind: dateline
       big: APRIL 2026
       small: Kennedy Space Center, Florida
-- text: Flying inside the Orion capsule Integrity, the crew traveled on a lunar free-return trajectory without landing.
+- text: Commander Reid Wiseman and pilot Victor Glover will guide the Orion spacecraft Integrity on this ten-day flight.
   emphasis:
-  - Integrity
-  - free-return trajectory
+  - Reid Wiseman
+  - Victor Glover
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Artemis_1_-_Orion_and_ESM_approach_Moon.jpg/3840px-Artemis_1_-_Orion_and_ESM_approach_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Artemis_2_Crew_Portrait_%28cropped%29.jpg/1920px-Artemis_2_Crew_Portrait_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Artemis 1 - Orion and ESM approach Moon.jpg
-      credit: National Aeronautics and Space Administration (NASA)
+      title: Artemis 2 Crew Portrait (cropped).jpg
+      credit: Josh Valcarcel
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Artemis_1_-_Orion_and_ESM_approach_Moon.jpg
+      url: https://commons.wikimedia.org/wiki/File:Artemis_2_Crew_Portrait_(cropped).jpg
     fallbacks:
     - color
-    motion: pan_right
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: ESA's European Service Module propelled the ten-day test flight to validate critical spacecraft systems.
+- text: ESA's European Service Module provides the power to loop the crew around the lunar far side.
   emphasis:
   - European Service Module
-  - ten-day test flight
+  - lunar far side
   sfx: whoosh
   visual:
     source: url
@@ -109,42 +111,53 @@ beats:
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: Commander Reid Wiseman and pilot Victor Glover even completed manual proximity maneuvers using their rocket's upper
-    stage.
-  emphasis:
-  - Reid Wiseman
-  - Victor Glover
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Artemis_II_Launch_Crew_Walkout_%28NHQ20260401_admin_0005%29.jpg/3840px-Artemis_II_Launch_Crew_Walkout_%28NHQ20260401_admin_0005%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Artemis II Launch Crew Walkout (NHQ20260401 admin 0005).jpg
-      credit: NASA Kennedy Space Center / NASA/John Kraus
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Artemis_II_Launch_Crew_Walkout_(NHQ20260401_admin_0005).jpg
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Mission specialists Christina Koch and Jeremy Hansen flew as the first woman and non-American beyond low Earth orbit
-    since 1972.
+- text: Christina Koch and Jeremy Hansen join Victor Glover as the first woman, non-American, and Black astronaut to fly around
+    the Moon.
   emphasis:
   - Christina Koch
   - Jeremy Hansen
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Artemis_II_Crew_Poster_%28cropped%29.png/1920px-Artemis_II_Crew_Poster_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artemis II Crew Poster (cropped).png
+      credit: NASA Headquarters / NASA/Daniel O'Neal
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artemis_II_Crew_Poster_(cropped).png
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: While Apollo 13 reached its record during a crisis, Artemis II will reach it as a planned trial run.
+  emphasis:
+  - crisis
+  - planned trial run
   sfx: riser
   visual:
-    source: card
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/7d/Saturn_Apollo_Program_%287010516%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Saturn Apollo Program (7010516).jpg
+      credit: NASA Marshall Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Saturn_Apollo_Program_(7010516).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: fact
-      big: SINCE 1972
-      small: first crewed lunar flight
-    motion: zoom_in
-- text: After a Pacific Ocean splashdown off San Diego, their flight proved how far people can venture into the cosmic unknown.
+      big: APOLLO 13
+      small: emergency distance record
+- text: After splashing down in the Pacific, this flight will reset the record for the farthest humans have ever traveled.
   emphasis:
-  - Pacific Ocean
-  - splashdown
+  - Pacific
+  - farthest humans
   sfx: pop
   pause_after: 0.4
   visual:
@@ -152,4 +165,4 @@ beats:
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-hook_text: FARTHEST HUMAN FLIGHT
+hook_text: BREAKING APOLLO'S RECORD

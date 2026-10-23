@@ -1,7 +1,7 @@
 id: ep231
-title: Why the Moon Hides its Far Side
+title: The Moon Is Not Frozen in Space
 series: Space Myths, Busted
-description: The Moon isn't frozen; Earth's gravity braked its rotation to match its orbit perfectly through tidal locking.
+description: The Moon isn't stationary; Earth's gravity braked its rotation until its day matched its orbital period.
 sources:
 - https://en.wikipedia.org/wiki/Tidal_locking
 - https://scienceinsights.org/is-the-moon-tidally-locked-the-science-explained/
@@ -17,33 +17,38 @@ tags:
 - tidal locking
 - moon rotation
 - gravity
-- earth
-- lunar science
+- lunar orbit
 - space myths
+- astronomy facts
 voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: The Moon is actually spinning on its axis right now.
+- text: The Moon is not frozen; it is actively spinning right now.
   emphasis:
-  - axis right now
+  - actively spinning
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/d/df/Full_moon_partially_obscured_by_atmosphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/A_VLT_Unit_Telescope_and_the_Moon_%28eso-paranal-15%29.jpg/3840px-A_VLT_Unit_Telescope_and_the_Moon_%28eso-paranal-15%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Full moon partially obscured by atmosphere.jpg
-      credit: NASA
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Full_moon_partially_obscured_by_atmosphere.jpg
+      title: A VLT Unit Telescope and the Moon (eso-paranal-15).jpg
+      credit: ESO/G.Hüdepohl (atacamaphoto.com)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:A_VLT_Unit_Telescope_and_the_Moon_(eso-paranal-15).jpg
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.51
-- text: Many believe it stays still because we only ever see one face.
+    focus_x: 0.76
+    focus_y: 0.64
+    box:
+    - 0.61
+    - 0.46
+    - 0.91
+    - 0.82
+- text: Because we always see the same face, many people assume it never rotates.
   emphasis:
-  - one face
+  - same face
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/NASA_Goddard_Photo_and_Video_-_First_Quarter_%28by%29.jpg/1920px-NASA_Goddard_Photo_and_Video_-_First_Quarter_%28by%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -58,45 +63,50 @@ beats:
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-- text: If it didn't rotate, we would see the lunar far side every single month.
+- text: But to hide its far side, the Moon rotates once every twenty-seven point three days.
   emphasis:
-  - far side
+  - twenty-seven point three days
   sfx: whoosh
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Far_side_of_the_Moon_close_up_for_Lunar_Crater_Radio_Telescope.png/1920px-Far_side_of_the_Moon_close_up_for_Lunar_Crater_Radio_Telescope.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/0/09/Earth-moon-ecliptic.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Far side of the Moon close up for Lunar Crater Radio Telescope.png
-      credit: Wikideas1
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:Far_side_of_the_Moon_close_up_for_Lunar_Crater_Radio_Telescope.png
+      title: Earth-moon-ecliptic.png
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Earth-moon-ecliptic.png
     fallbacks:
+    - card
     - color
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: Instead, Earth’s gravity has spent billions of years braking the Moon’s spin.
+    card:
+      kind: fact
+      big: 27.3 days
+      small: Rotation period
+- text: Early in solar system history, it spun much faster before Earth's gravity grabbed hold.
   emphasis:
-  - braking
+  - spun much faster
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Moon_apsidal_precession.png/1280px-Moon_apsidal_precession.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c0/Giant_impact.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Moon apsidal precession.png
-      credit: Rfassbind
+      title: Giant impact.jpg
+      credit: H.Seldon
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Moon_apsidal_precession.png
+      url: https://commons.wikimedia.org/wiki/File:Giant_impact.jpg
     fallbacks:
     - color
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-- text: This invisible grip created solid tidal bulges, using friction to slow the rotation.
+- text: Tidal friction created massive rock bulges, slowing its spin over millions of years.
   emphasis:
-  - tidal bulges
+  - rock bulges
   sfx: riser
   visual:
     source: url
@@ -112,41 +122,31 @@ beats:
     motion: pan_down
     focus_x: 0.5
     focus_y: 0.5
-- text: Now, the Moon completes one rotation in about twenty-seven point three days to match its orbit.
+- text: That orbital brake is so powerful it even lengthens Earth's day by two milliseconds per century.
   emphasis:
-  - orbit
+  - two milliseconds
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Once_in_a_Super_Blue_Moon_%28LROC1309%29.jpg/960px-Once_in_a_Super_Blue_Moon_%28LROC1309%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/AS08-16-2593_remastered.jpg/3840px-AS08-16-2593_remastered.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Once in a Super Blue Moon (LROC1309).jpg
-      credit: NASA/GSFC/Arizona State University
+      title: AS08-16-2593 remastered.jpg
+      credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Once_in_a_Super_Blue_Moon_(LROC1309).jpg
+      url: https://commons.wikimedia.org/wiki/File:AS08-16-2593_remastered.jpg
     fallbacks:
     - card
     - color
-    motion: pan_left
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
-      big: 27.3 days
-      small: Rotation period
-- text: This cosmic anchor is so powerful it even slows Earth’s day by two milliseconds every century.
-  emphasis:
-  - two milliseconds
-  visual:
-    source: card
-    card:
-      kind: fact
       big: 2 milliseconds
       small: Day lengthening
-    motion: zoom_in
-- text: Our planet is losing this tug-of-war as the Moon spirals away by four centimeters every year.
+- text: Meanwhile, that transferred energy pushes the Moon roughly four centimeters further away each year.
   emphasis:
   - four centimeters
   sfx: whoosh
@@ -164,22 +164,39 @@ beats:
     - color
     motion: zoom_out
     focus_x: 0.5
-    focus_y: 0.4
+    focus_y: 0.45
     box:
-    - 0.38
-    - 0.3
+    - 0.36
+    - 0.32
     - 0.62
     - 0.5
     card:
       kind: fact
       big: 4 centimeters
       small: Annual recession
-- text: It is a perpetual, balanced cycle that explains why our neighbor is turning.
+- text: Every large moon in our solar system is locked in this same gravitational dance.
   emphasis:
-  - turning
+  - every large moon
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/68/Moons_of_the_Solar_System.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Moons of the Solar System.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Moons_of_the_Solar_System.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This gravitational deadlock permanently hides a world that never stops turning.
+  emphasis:
+  - never stops turning
   sfx: pop
   visual:
     reuse: 1
     motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.51
+    focus_x: 0.76
+    focus_y: 0.64

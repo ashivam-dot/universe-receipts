@@ -52,7 +52,59 @@
       "better_than_last": "It grounds its astronomical concept with stronger direct visual proof from orbit than recent shorts.",
       "judge": "gemini-3.6-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-23T17:15:48+05:30",
+      "check": {
+        "duration": 51.09,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'analogues' heard as 'analogs' after 'for larger rock'",
+          "'(nothing)' heard as 'you' after 'is blinding face'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong curiosity gap linking the Moon to Madagascar quickly.",
+        "clarity": "Concepts progress logically from lunar geology to Earth analogs.",
+        "payoff": "The reveal of the massive dome delivers on the opening premise.",
+        "visuals": "Several frames are distant or feature unreadable academic charts.",
+        "loop": "Phrasing wraps smoothly back into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Academic journal diagram contains tiny, illegible text that fails on mobile screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Replace the complex continental collision map with a close-up photo or 3D terrain view of the Madagascar formation."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 2
 }

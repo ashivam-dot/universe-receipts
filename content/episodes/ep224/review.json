@@ -1,0 +1,114 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-23T17:13:28+05:30",
+      "check": {
+        "duration": 43.47,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'a' heard as '(nothing)' after 'last longer than'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong contrasting premise effectively halts swiping early.",
+        "clarity": "Logical sequence and clear comparisons make the concept easy to digest.",
+        "payoff": "Satisfying explanation of the black hole's unusual thermostat behavior.",
+        "visuals": "Several shots rely on text-heavy diagrams unsuited for small screens.",
+        "loop": "Closing sentence leads directly back into the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 4,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 5,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Presents a clearer contrast between star formation rates than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-23T17:15:31+05:30",
+      "check": {
+        "duration": 43.47,
+        "words": 111,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The paradox of a star-birthing black hole is highly engaging.",
+        "clarity": "Effective use of star-per-year comparisons for context.",
+        "payoff": "Technical explanation of the thermostat failure is clear but lacks impact.",
+        "visuals": "Images are relevant and high quality, though beat six is generic.",
+        "loop": "Directly repeating the hook sentence ensures a seamless transition."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The frame shows a generic star field rather than gas filaments."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: This black hole fails to heat nearby gas, allowing stars to form.",
+        "Beat 9: This makes the Phoenix Cluster a rare exception, as..."
+      ],
+      "better_than_last": "Provides a more relatable scale comparison than the energy facts in episode 214.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

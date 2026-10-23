@@ -1,0 +1,61 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-23T17:15:48+05:30",
+      "check": {
+        "duration": 47.6,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'month instead earth'",
+          "'braking' heard as 'breaking' after '1000000000s of years'",
+          "'s' heard as 'is' after 'braking the moon'",
+          "'s' heard as 'is' after 'even slows earth'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Counter-intuitive premise, but a bit understated for swiping viewers.",
+        "clarity": "Logical breakdown of tidal locking across beats.",
+        "payoff": "The laser ranging fact lands well, though lacks a dramatic punch.",
+        "visuals": "Diagrams are functional, but beat 5 is overly technical and dry.",
+        "loop": "Connects reasonably well to the first beat, though phrasing is awkward."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "blurry and confusing technical chart that does not clearly illustrate tidal bulges"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: The Moon is not frozen in place; it is actively spinning right now.",
+        "Beat 9: This gravitational deadlock is why you never realize that..."
+      ],
+      "better_than_last": "It connects theoretical orbital mechanics directly to physical hardware left on the lunar surface.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

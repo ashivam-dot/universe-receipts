@@ -2,21 +2,21 @@
   "hooks": [
     {
       "style": "statement",
-      "text": "The Moon is actually spinning on its axis right now."
+      "text": "The Moon is not frozen; it is actively spinning right now."
     },
     {
-      "style": "number",
-      "text": "You have never seen forty-one percent of the Moon’s surface."
+      "style": "question",
+      "text": "Why do we never see the far side of the Moon?"
     },
     {
       "style": "contradiction",
-      "text": "The Moon hides its far side despite spinning at ten miles per hour."
+      "text": "The Moon hides its far side despite spinning on its axis."
     }
   ],
   "hook_style": "statement",
   "structure": "scale_ladder",
-  "title": "Why the Moon Hides its Far Side",
-  "description": "The Moon isn't frozen; Earth's gravity braked its rotation to match its orbit perfectly through tidal locking.",
+  "title": "The Moon Is Not Frozen in Space",
+  "description": "The Moon isn't stationary; Earth's gravity braked its rotation until its day matched its orbital period.",
   "hashtags": [
     "#space",
     "#moon",
@@ -26,15 +26,15 @@
     "tidal locking",
     "moon rotation",
     "gravity",
-    "earth",
-    "lunar science",
-    "space myths"
+    "lunar orbit",
+    "space myths",
+    "astronomy facts"
   ],
   "beats": [
     {
-      "text": "The Moon is actually spinning on its axis right now.",
+      "text": "The Moon is not frozen; it is actively spinning right now.",
       "emphasis": [
-        "axis right now"
+        "actively spinning"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -48,7 +48,7 @@
       "year": 0,
       "queries": [
         "Full Moon Lick Observatory",
-        "Moon photograph 1960s"
+        "Moon photograph 1968"
       ],
       "card": {
         "kind": "none",
@@ -57,23 +57,23 @@
       }
     },
     {
-      "text": "Many believe it stays still because we only ever see one face.",
+      "text": "Because we always see the same face, many people assume it never rotates.",
       "emphasis": [
-        "one face"
+        "same face"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         2
       ],
-      "visual": "LRO mosaic of the lunar near side showing familiar craters, 2011",
+      "visual": "LRO mosaic of the lunar near side, 2011",
       "subjects": [
         "Moon"
       ],
       "year": 2011,
       "queries": [
         "LRO near side mosaic",
-        "Moon near side"
+        "Moon near side view"
       ],
       "card": {
         "kind": "none",
@@ -82,101 +82,25 @@
       }
     },
     {
-      "text": "If it didn't rotate, we would see the lunar far side every single month.",
+      "text": "But to hide its far side, the Moon rotates once every twenty-seven point three days.",
       "emphasis": [
-        "far side"
+        "twenty-seven point three days"
       ],
       "sfx": "whoosh",
       "pause_after": 0.4,
       "claims": [
-        3
+        1,
+        2
       ],
-      "visual": "LRO mosaic of the lunar far side showing heavily cratered terrain, 2011",
-      "subjects": [
-        "Far side of the Moon"
-      ],
-      "year": 2011,
-      "queries": [
-        "Moon far side LRO",
-        "lunar far side mosaic"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "Instead, Earth’s gravity has spent billions of years braking the Moon’s spin.",
-      "emphasis": [
-        "braking"
-      ],
-      "sfx": "none",
-      "pause_after": 0.12,
-      "claims": [
-        5,
-        6
-      ],
-      "visual": "Scientific diagram showing Earth's gravitational pull on the Moon",
-      "subjects": [
-        "Tidal locking"
-      ],
-      "year": 0,
-      "queries": [
-        "Tidal locking diagram Earth Moon",
-        "Earth gravity Moon torque"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "This invisible grip created solid tidal bulges, using friction to slow the rotation.",
-      "emphasis": [
-        "tidal bulges"
-      ],
-      "sfx": "riser",
-      "pause_after": 0.12,
-      "claims": [
-        4,
-        5
-      ],
-      "visual": "Exaggerated diagram of lunar tidal bulges caused by gravity",
-      "subjects": [
-        "Tidal bulge"
-      ],
-      "year": 0,
-      "queries": [
-        "lunar tidal bulge diagram",
-        "gravitational torque moon"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "Now, the Moon completes one rotation in about twenty-seven point three days to match its orbit.",
-      "emphasis": [
-        "orbit"
-      ],
-      "sfx": "pop",
-      "pause_after": 0.4,
-      "claims": [
-        1
-      ],
-      "visual": "LRO animation of lunar libration showing the rocking motion over one orbit",
+      "visual": "LRO animation of lunar libration showing rotation over an orbit, 2013",
       "subjects": [
         "Moon",
         "Orbit of the Moon"
       ],
       "year": 2013,
       "queries": [
-        "Lunar libration animation",
-        "Moon rotation animation"
+        "Lunar libration animation LRO",
+        "Moon rotation model"
       ],
       "card": {
         "kind": "fact",
@@ -185,24 +109,78 @@
       }
     },
     {
-      "text": "This cosmic anchor is so powerful it even slows Earth’s day by two milliseconds every century.",
+      "text": "Early in solar system history, it spun much faster before Earth's gravity grabbed hold.",
       "emphasis": [
-        "two milliseconds"
+        "spun much faster"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        9,
-        10
+        6
       ],
-      "visual": "Diagram of Earth's ocean tides and frictional braking effect",
+      "visual": "Artist illustration of the early molten Earth and young Moon, 2015",
       "subjects": [
-        "Earth"
+        "Giant-impact hypothesis",
+        "Moon"
       ],
       "year": 0,
       "queries": [
-        "Ocean tidal bulge diagram",
-        "Earth rotation slowing diagram"
+        "Young Earth and Moon early solar system",
+        "Early Moon illustration"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "Tidal friction created massive rock bulges, slowing its spin over millions of years.",
+      "emphasis": [
+        "rock bulges"
+      ],
+      "sfx": "riser",
+      "pause_after": 0.12,
+      "claims": [
+        4,
+        5
+      ],
+      "visual": "Diagram showing gravitational tidal bulges and frictional torque on the Moon",
+      "subjects": [
+        "Tidal locking",
+        "Tidal bulge"
+      ],
+      "year": 0,
+      "queries": [
+        "Tidal locking diagram Earth Moon",
+        "Gravitational tidal bulge diagram"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "That orbital brake is so powerful it even lengthens Earth's day by two milliseconds per century.",
+      "emphasis": [
+        "two milliseconds"
+      ],
+      "sfx": "pop",
+      "pause_after": 0.4,
+      "claims": [
+        9,
+        10
+      ],
+      "visual": "Diagram of ocean tidal bulges and Earth's rotational braking",
+      "subjects": [
+        "Earth",
+        "Tidal friction"
+      ],
+      "year": 0,
+      "queries": [
+        "Earth rotational braking diagram",
+        "Ocean tidal bulge diagram"
       ],
       "card": {
         "kind": "fact",
@@ -211,7 +189,7 @@
       }
     },
     {
-      "text": "Our planet is losing this tug-of-war as the Moon spirals away by four centimeters every year.",
+      "text": "Meanwhile, that transferred energy pushes the Moon roughly four centimeters further away each year.",
       "emphasis": [
         "four centimeters"
       ],
@@ -221,7 +199,7 @@
         7,
         8
       ],
-      "visual": "Photograph of the Apollo 11 Laser Ranging Retroreflector on the Moon, 1969",
+      "visual": "Photograph of Apollo 11 Laser Ranging Retroreflector on the Moon, 1969",
       "subjects": [
         "Lunar Laser Ranging experiment",
         "Apollo 11"
@@ -229,7 +207,7 @@
       "year": 1969,
       "queries": [
         "Apollo 11 Laser Ranging Retroreflector",
-        "lunar laser ranging"
+        "Lunar laser ranging experiment"
       ],
       "card": {
         "kind": "fact",
@@ -238,24 +216,49 @@
       }
     },
     {
-      "text": "It is a perpetual, balanced cycle that explains why our neighbor is turning.",
+      "text": "Every large moon in our solar system is locked in this same gravitational dance.",
       "emphasis": [
-        "turning"
+        "every large moon"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        11
+      ],
+      "visual": "Montage of round moons in the solar system, 2020",
+      "subjects": [
+        "List of natural satellites"
+      ],
+      "year": 2020,
+      "queries": [
+        "Moons of the solar system montage",
+        "Solar system round moons"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "This gravitational deadlock permanently hides a world that never stops turning.",
+      "emphasis": [
+        "never stops turning"
       ],
       "sfx": "pop",
       "pause_after": 0.12,
       "claims": [
         1
       ],
-      "visual": "DSCOVR EPIC camera view of the Earth and Moon together in space, 2015",
+      "visual": "DSCOVR EPIC photograph of Earth and Moon in deep space, 2015",
       "subjects": [
         "Earth",
         "Moon"
       ],
       "year": 2015,
       "queries": [
-        "Earth and Moon DSCOVR EPIC",
-        "Earth Moon deep space"
+        "DSCOVR EPIC Earth Moon view",
+        "Earth Moon deep space photograph"
       ],
       "card": {
         "kind": "none",
@@ -266,5 +269,5 @@
   ],
   "hook_text": "",
   "loop": true,
-  "better_than_last": "Applied rule 23 by structuring the final beat as a complete sentence that leads back to the hook's specific subject while avoiding a repetitive verbatim word match."
+  "better_than_last": "Applied rule 23 and reviewer notes by making beat 1 a direct, high-impact claim and ending beat 9 with a complete sentence that seamlessly loops back to beat 1."
 }

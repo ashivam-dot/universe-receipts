@@ -1,0 +1,170 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-22T17:21:26+05:30",
+      "check": {
+        "duration": 53.2,
+        "words": 120,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'hde' heard as 'hda' after 'a star named'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing concept, though lacks an immediate high-stakes punch.",
+        "clarity": "Easy to follow step-by-step description of the binary system.",
+        "payoff": "Concludes on standard jet facts without a distinct conceptual twist.",
+        "visuals": "Several frames rely on text-heavy charts and unrelated satellite b-roll.",
+        "loop": "Repeating the opening sentence verbatim prevents a true seamless cycle."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "mostly text chart rather than an engaging celestial visual"
+        },
+        {
+          "beat": 4,
+          "problem": "diagram labeled for extragalactic jets rather than Cygnus X-1"
+        },
+        {
+          "beat": 7,
+          "problem": "shows the Hubble Space Telescope instead of black hole plasma jets"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "HDE",
+          "respelling": "aitch dee ee"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: These blazing jets shine with the energy of 10,000 suns while visibly dancing across space.",
+        "Beat 8: This cosmic engine never stops because..."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-23T17:15:12+05:30",
+      "check": {
+        "duration": 47.9,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "A bold, intriguing opening fact about the first known black hole instantly hooks the viewer.",
+        "clarity": "Logically structured progression from historical discovery to orbital dynamics and jet mechanics.",
+        "payoff": "Explaining how stellar winds cause the jets to dance nicely resolves the title and hook mystery.",
+        "visuals": "Strong space art and historical footage early on, but beat 7 turns into an unreadable, pixelated blur.",
+        "loop": "The trailing thought of beams racing away flows naturally back into the jet speed stated in beat 1."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "blurry and severely pixelated"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It connects historical real-world rocketry directly to the astrophysics of the system better than the purely theoretical framing in ep214.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-23T17:17:29+05:30",
+      "check": {
+        "duration": 47.9,
+        "words": 113,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Strongly identifies a famous historical first in astronomy.",
+        "clarity": "Logical sequence from discovery to specific physics.",
+        "payoff": "The dancing jet detail is interesting but lacks impact.",
+        "visuals": "Beat 7 shows a distant galaxy cluster, not a local binary.",
+        "loop": "Sentence fragment at the end disrupts the replay flow."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Wrong object; shows a distant galaxy field/JWST deep field instead of a stellar-mass black hole system."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Stellar winds from the supergiant make these beams wobble as they race away from..."
+      ],
+      "better_than_last": "Provides deeper historical context and binary mechanics than the brief energy comparison in episode 214.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals, loop",
+  "rejected_at": "2026-10-23T17:17:29+05:30"
+}

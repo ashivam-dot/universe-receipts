@@ -1,0 +1,176 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-22T17:26:49+05:30",
+      "check": {
+        "duration": 57.55,
+        "words": 124,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "'cassiopeiae' heard as 'cassiope' after 'years away gamma'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Active imagery of star destruction captures attention quickly.",
+        "clarity": "Concepts follow a logical path from observation to solution.",
+        "payoff": "Successfully resolves the long-standing X-ray mystery with a twist.",
+        "visuals": "High-quality visuals, but beat 3 features inaccurate disk types.",
+        "loop": "Seamlessly transitions the ending back to the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows ALMA protoplanetary disks instead of a stellar decretion disk."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Cassiopeiae",
+          "respelling": "cass ee oh pee ee"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Creates a more compelling narrative by structuring the scientific data as a mystery.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-23T17:14:43+05:30",
+      "check": {
+        "duration": 57.73,
+        "words": 124,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'cassiopeiae' heard as 'cassiope' after 'years away gamma'",
+          "'(nothing)' heard as 'you' after 'an unraveling giant'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong physical premise grabs attention immediately.",
+        "clarity": "Logical narrative progression that is easy to follow.",
+        "payoff": "The white dwarf reveal neatly resolves the opening mystery.",
+        "visuals": "Several shots use boxed borders and beat 5 is overly pixelated.",
+        "loop": "The final phrase connects smoothly into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "blurry"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Cassiopeiae",
+          "respelling": "kass ee oh pee ay"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "It builds a stronger narrative mystery around an observational puzzle than ep214.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-23T17:19:49+05:30",
+      "check": {
+        "duration": 57.73,
+        "words": 124,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'cassiopeiae' heard as 'cassiope' after 'years away gamma'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong premise and immediate scale grab attention quickly.",
+        "clarity": "Narrative flows logically from astronomical context to resolution.",
+        "payoff": "The white dwarf revelation effectively answers the opening tension.",
+        "visuals": "Several shots use boxed insets and generic or unrelated ring imagery.",
+        "loop": "Last line loops smoothly back into the opening description."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "blurry"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Cassiopeiae",
+          "respelling": "kass ee oh pee eye"
+        }
+      ],
+      "rewrite": [
+        "Beat 5: replace the unrelated ring visual with an authentic X-ray visualization of Gamma Cassiopeiae."
+      ],
+      "better_than_last": "It resolves a long-standing astronomical mystery more cohesively than episode 214.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-23T17:19:49+05:30"
+}

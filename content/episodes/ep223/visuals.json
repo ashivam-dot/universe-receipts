@@ -13,8 +13,14 @@
       "color"
     ],
     "motion": "pan_right",
-    "focus_x": 0.43,
-    "focus_y": 0.52,
+    "focus_x": 0.35,
+    "focus_y": 0.45,
+    "box": [
+      0.22,
+      0.22,
+      0.52,
+      0.72
+    ],
     "_choice": {
       "key": "commons:File:PIA21259 - Celestial Object 2016 WF9, a NEOWISE Discovery (Artist Concept).jpg",
       "origin": "commons",
@@ -33,29 +39,9 @@
       "historical": 0.0,
       "match": 0.972
     },
-    "_fit": "scene",
-    "_shows": "Artist concept of an asteroid in deep space",
-    "_alternates": [
-      {
-        "key": "commons:File:White dwarf star system GD 61.jpg",
-        "origin": "commons",
-        "file": "File:White dwarf star system GD 61.jpg",
-        "title": "White dwarf star system GD 61.jpg",
-        "width": 2847,
-        "height": 2013,
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "artist": "NASA, ESA, M.A. Garlick (space-art.co.uk), University of Warwick, and University of Cambridge.",
-        "date": "2013-10-11 10:53:59",
-        "year": 2013,
-        "page": "https://commons.wikimedia.org/wiki/File:White_dwarf_star_system_GD_61.jpg",
-        "route": "depicts",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/b/b1/White_dwarf_star_system_GD_61.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "historical": 0.003,
-        "match": 0.609,
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/White_dwarf_star_system_GD_61.jpg/500px-White_dwarf_star_system_GD_61.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      }
-    ]
+    "_fit": "exact",
+    "_shows": "Artist concept of an asteroid in space",
+    "_alternates": []
   },
   {
     "source": "card",
@@ -76,47 +62,10 @@
     "motion": "zoom_in"
   },
   {
-    "source": "url",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Sentry_box_Evzone_Parliament_Athens_Greece.jpg/1920px-Sentry_box_Evzone_Parliament_Athens_Greece.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": {
-      "source": "Wikimedia Commons",
-      "title": "Sentry box Evzone Parliament Athens Greece.jpg",
-      "credit": "Jebulon",
-      "license": "CC0",
-      "url": "https://commons.wikimedia.org/wiki/File:Sentry_box_Evzone_Parliament_Athens_Greece.jpg"
-    },
-    "fallbacks": [
-      "card",
-      "color"
-    ],
-    "motion": "pan_up",
+    "reuse": 1,
+    "motion": "zoom_out",
     "focus_x": 0.35,
-    "focus_y": 0.55,
-    "card": {
-      "kind": "fact",
-      "big": "2026",
-      "small": "Potential impact date"
-    },
-    "_choice": {
-      "key": "commons:File:Sentry box Evzone Parliament Athens Greece.jpg",
-      "origin": "commons",
-      "file": "File:Sentry box Evzone Parliament Athens Greece.jpg",
-      "title": "Sentry box Evzone Parliament Athens Greece.jpg",
-      "width": 3056,
-      "height": 4402,
-      "license": "CC0",
-      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "artist": "Jebulon",
-      "date": "2015-05-18",
-      "year": 2015,
-      "page": "https://commons.wikimedia.org/wiki/File:Sentry_box_Evzone_Parliament_Athens_Greece.jpg",
-      "route": "search",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sentry_box_Evzone_Parliament_Athens_Greece.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "historical": 0.007,
-      "match": 0.0
-    },
-    "_fit": "close",
-    "_alternates": []
+    "focus_y": 0.45
   },
   {
     "source": "url",
@@ -132,8 +81,8 @@
       "color"
     ],
     "motion": "pan_right",
-    "focus_x": 0.52,
-    "focus_y": 0.5,
+    "focus_x": 0.55,
+    "focus_y": 0.48,
     "_choice": {
       "key": "commons:File:Goldstone DSN antenna.jpg",
       "origin": "commons",
@@ -156,23 +105,42 @@
     "_shows": "Goldstone deep space antenna dish at sunset",
     "_alternates": [
       {
-        "key": "commons:File:210' Dish Antenna at Goldstone Ca - used in tracking Pioneer spacecraft (ARC-1972-A72-1280).jpg",
+        "key": "commons:File:PioneerDeepSpaceStation2.jpg",
         "origin": "commons",
-        "file": "File:210' Dish Antenna at Goldstone Ca - used in tracking Pioneer spacecraft (ARC-1972-A72-1280).jpg",
-        "title": "210' Dish Antenna at Goldstone Ca - used in tracking Pioneer spacecraft (ARC-1972-A72-1280).jpg",
-        "width": 2048,
-        "height": 3072,
+        "file": "File:PioneerDeepSpaceStation2.jpg",
+        "title": "PioneerDeepSpaceStation2.jpg",
+        "width": 539,
+        "height": 645,
+        "license": "Public domain",
+        "license_url": null,
+        "artist": "unknown NASA employee",
+        "date": "Unknown date",
+        "year": null,
+        "page": "https://commons.wikimedia.org/wiki/File:PioneerDeepSpaceStation2.jpg",
+        "route": "depicts",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/0/0d/PioneerDeepSpaceStation2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "historical": 0.0,
+        "match": 0.99,
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/PioneerDeepSpaceStation2.jpg/500px-PioneerDeepSpaceStation2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "key": "commons:File:Deep Space Antenna 210' at Goldstone, CA (JPL ref- P-116594AC) (ARC-1972-A72-2699).jpg",
+        "origin": "commons",
+        "file": "File:Deep Space Antenna 210' at Goldstone, CA (JPL ref- P-116594AC) (ARC-1972-A72-2699).jpg",
+        "title": "Deep Space Antenna 210' at Goldstone, CA (JPL ref- P-116594AC) (ARC-1972-A72-2699).jpg",
+        "width": 1944,
+        "height": 2474,
         "license": "Public domain",
         "license_url": null,
         "artist": "NASA Ames Research Center / JPL",
-        "date": "Taken on 26 January 1972",
+        "date": "Taken on 1 April 1972",
         "year": 1972,
-        "page": "https://commons.wikimedia.org/wiki/File:210%27_Dish_Antenna_at_Goldstone_Ca_-_used_in_tracking_Pioneer_spacecraft_(ARC-1972-A72-1280).jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Deep_Space_Antenna_210%27_at_Goldstone,_CA_(JPL_ref-_P-116594AC)_(ARC-1972-A72-2699).jpg",
         "route": "category",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/7/77/210%27_Dish_Antenna_at_Goldstone_Ca_-_used_in_tracking_Pioneer_spacecraft_%28ARC-1972-A72-1280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "historical": 0.044,
-        "match": 0.988,
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/210%27_Dish_Antenna_at_Goldstone_Ca_-_used_in_tracking_Pioneer_spacecraft_%28ARC-1972-A72-1280%29.jpg/500px-210%27_Dish_Antenna_at_Goldstone_Ca_-_used_in_tracking_Pioneer_spacecraft_%28ARC-1972-A72-1280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Deep_Space_Antenna_210%27_at_Goldstone%2C_CA_%28JPL_ref-_P-116594AC%29_%28ARC-1972-A72-2699%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "historical": 0.0,
+        "match": 0.982,
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Deep_Space_Antenna_210%27_at_Goldstone%2C_CA_%28JPL_ref-_P-116594AC%29_%28ARC-1972-A72-2699%29.jpg/500px-Deep_Space_Antenna_210%27_at_Goldstone%2C_CA_%28JPL_ref-_P-116594AC%29_%28ARC-1972-A72-2699%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       }
     ]
   },
@@ -217,7 +185,7 @@
       "match": 0.99
     },
     "_fit": "scene",
-    "_shows": "True-color photograph of Earth and the Moon from space",
+    "_shows": "True color photograph of Earth and the Moon",
     "_alternates": [
       {
         "key": "commons:File:Earth & Moon by Mariner 10.jpg",
@@ -255,7 +223,7 @@
     ],
     "motion": "pan_down",
     "focus_x": 0.45,
-    "focus_y": 0.55,
+    "focus_y": 0.5,
     "_choice": {
       "key": "commons:File:Young astronomy enthusiast looking at the moon through the SkyWatcher telescope.jpg",
       "origin": "commons",
@@ -274,8 +242,8 @@
       "historical": 0.0,
       "match": 0.936
     },
-    "_fit": "exact",
-    "_shows": "Amateur astronomer observing the night sky through a telescope",
+    "_fit": "scene",
+    "_shows": "Amateur astronomer observing the night sky with a telescope",
     "_alternates": [
       {
         "key": "commons:File:Young Astronomers pointing at the sky for astronomical observations.jpg",
@@ -295,13 +263,32 @@
         "historical": 0.0,
         "match": 0.965,
         "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Young_Astronomers_pointing_at_the_sky_for_astronomical_observations.jpg/500px-Young_Astronomers_pointing_at_the_sky_for_astronomical_observations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "key": "commons:File:Total lunar eclipse observed from Prishtina Observatory 14.jpg",
+        "origin": "commons",
+        "file": "File:Total lunar eclipse observed from Prishtina Observatory 14.jpg",
+        "title": "Total lunar eclipse observed from Prishtina Observatory 14.jpg",
+        "width": 7008,
+        "height": 4672,
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "REDONCE",
+        "date": "2025-09-07 21:07:08",
+        "year": 2025,
+        "page": "https://commons.wikimedia.org/wiki/File:Total_lunar_eclipse_observed_from_Prishtina_Observatory_14.jpg",
+        "route": "depicts",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Total_lunar_eclipse_observed_from_Prishtina_Observatory_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "historical": 0.0,
+        "match": 0.901,
+        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Total_lunar_eclipse_observed_from_Prishtina_Observatory_14.jpg/500px-Total_lunar_eclipse_observed_from_Prishtina_Observatory_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       }
     ]
   },
   {
     "reuse": 1,
     "motion": "zoom_out",
-    "focus_x": 0.43,
-    "focus_y": 0.52
+    "focus_x": 0.35,
+    "focus_y": 0.45
   }
 ]

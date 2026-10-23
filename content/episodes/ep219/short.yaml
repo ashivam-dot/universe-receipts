@@ -149,19 +149,24 @@ beats:
   pause_after: 0.4
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/3/3c/Paleoglobe_BLANK_1040_mya.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/3/30/Moon-Like_Madagascar_%281447308%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Paleoglobe BLANK 1040 mya.png
-      credit: Tankey6
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Paleoglobe_BLANK_1040_mya.png
+      title: Moon-Like Madagascar (1447308).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Moon-Like_Madagascar_(1447308).jpg
     fallbacks:
     - card
     - color
-    motion: pan_right
-    focus_x: 0.5
+    motion: zoom_out
+    focus_x: 0.55
     focus_y: 0.5
+    box:
+    - 0.38
+    - 0.33
+    - 0.72
+    - 0.68
     card:
       kind: fact
       big: 600 MILLION

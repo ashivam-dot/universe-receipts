@@ -1,7 +1,7 @@
 id: ep223
-title: The asteroid that snuck inside the Moon
+title: The Asteroid That Snuck Inside the Moon
 series: Near Misses
-description: Discover how a city-bus-sized asteroid named 2023 DZ2 was found just days before passing closer than the Moon.
+description: Discover how a city-bus-sized asteroid named 2023 DZ2 was found just weeks before passing closer than the Moon.
 sources:
 - https://en.wikipedia.org/wiki/2023_DZ2
 - https://www.bbc.com/news/science-environment-65061818
@@ -25,10 +25,10 @@ voice:
   voice: af_heart
   speed: 1.05
 beats:
-- text: A city-bus-sized asteroid snuck halfway inside our Moon's protective orbit without warning.
+- text: A city-bus-sized asteroid snuck halfway inside our Moon's protective orbit.
   emphasis:
   - city-bus-sized
-  - halfway inside
+  - protective orbit
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/5/51/PIA21259_-_Celestial_Object_2016_WF9%2C_a_NEOWISE_Discovery_%28Artist_Concept%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -41,12 +41,17 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.43
-    focus_y: 0.52
-- text: In February 2023, astronomers using a Canary Islands telescope spotted the unexpected cosmic visitor.
+    focus_x: 0.35
+    focus_y: 0.45
+    box:
+    - 0.22
+    - 0.22
+    - 0.52
+    - 0.72
+- text: In February 2023, astronomers at the Canary Islands telescope spotted the unexpected visitor.
   emphasis:
   - February 2023
-  - Canary Islands telescope
+  - Canary Islands
   sfx: whoosh
   visual:
     source: card
@@ -55,9 +60,10 @@ beats:
       big: February 2023
       small: La Palma, Canary Islands
     motion: zoom_in
-- text: Detailed measurements revealed the rocky visitor was between forty and ninety meters across.
+- text: Initial estimates showed a rock forty to ninety meters across, orbiting the Sun every three years.
   emphasis:
-  - forty and ninety meters
+  - forty to ninety meters
+  - every three years
   visual:
     source: card
     card:
@@ -65,33 +71,20 @@ beats:
       big: 40-90m
       small: Asteroid diameter
     motion: zoom_in
-- text: Worse still, early math briefly listed it as a virtual impactor for March 2026.
+- text: Worse yet, orbital calculations briefly flagged the object as a virtual impactor for March 2026.
   emphasis:
   - virtual impactor
   - March 2026
   sfx: riser
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Sentry_box_Evzone_Parliament_Athens_Greece.jpg/1920px-Sentry_box_Evzone_Parliament_Athens_Greece.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Sentry box Evzone Parliament Athens Greece.jpg
-      credit: Jebulon
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:Sentry_box_Evzone_Parliament_Athens_Greece.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_up
+    reuse: 1
+    motion: zoom_out
     focus_x: 0.35
-    focus_y: 0.55
-    card:
-      kind: fact
-      big: '2026'
-      small: Potential impact date
-- text: Further tracking thankfully ruled out the collision, dropping the rock from the risk table completely.
+    focus_y: 0.45
+- text: Alarm spread until further radar tracking completely ruled out any risk, removing it from threat lists.
   emphasis:
-  - ruled out the collision
+  - ruled out any risk
+  - threat lists
   sfx: whoosh
   visual:
     source: url
@@ -105,9 +98,9 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.52
-    focus_y: 0.5
-- text: On March 25, the asteroid roared past at a distance of one hundred seventy-five thousand kilometers.
+    focus_x: 0.55
+    focus_y: 0.48
+- text: On March 25, the fast-rotating space rock zoomed safely past at one hundred seventy-five thousand kilometers.
   emphasis:
   - March 25
   - one hundred seventy-five thousand kilometers
@@ -130,10 +123,10 @@ beats:
       kind: fact
       big: 175,000 km
       small: Flyby distance
-- text: Amateur stargazers easily spotted the fast cosmic visitor using small backyard telescopes.
+- text: Its extreme proximity allowed stargazers worldwide to track the object with small binoculars.
   emphasis:
-  - Amateur stargazers
-  - small backyard telescopes
+  - stargazers worldwide
+  - small binoculars
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Young_astronomy_enthusiast_looking_at_the_moon_through_the_SkyWatcher_telescope.jpg/1920px-Young_astronomy_enthusiast_looking_at_the_moon_through_the_SkyWatcher_telescope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -147,16 +140,16 @@ beats:
     - color
     motion: pan_down
     focus_x: 0.45
-    focus_y: 0.55
-- text: A city-bus-sized asteroid snuck halfway inside our Moon's protective orbit.
+    focus_y: 0.5
+- text: Giving backyard telescopes a front-row view of the moment
   emphasis:
-  - city-bus-sized
-  - halfway inside
+  - front-row view
+  - moment
   sfx: pop
   pause_after: 0.4
   visual:
     reuse: 1
     motion: zoom_out
-    focus_x: 0.43
-    focus_y: 0.52
+    focus_x: 0.35
+    focus_y: 0.45
 hook_text: PASSED INSIDE THE MOON

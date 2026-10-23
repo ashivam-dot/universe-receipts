@@ -28,19 +28,12 @@ beats:
   - dead star
   - heartbeat
   visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/b/b3/GRB_050709-_35-Year-Old_Cosmic_Mystery_Solved_in_a_Flash_%282005-grb050709_-_grb050709%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: GRB 050709- 35-Year-Old Cosmic Mystery Solved in a Flash (2005-grb050709 - grb050709).jpg
-      credit: 'X-ray: NASA/CXC/Caltech/D.Fox et al.; Illustration: NASA/D.Berry'
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:GRB_050709-_35-Year-Old_Cosmic_Mystery_Solved_in_a_Flash_(2005-grb050709_-_grb050709).jpg
-    fallbacks:
-    - color
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
+    source: card
+    card:
+      kind: fact
+      big: dead star
+      small: ''
+    motion: zoom_in
 - text: This is the Vela Pulsar, formed in a massive supernova about ten thousand years ago.
   emphasis:
   - supernova
@@ -178,7 +171,5 @@ beats:
   - cosmic glitch
   visual:
     reuse: 1
-    motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
+    motion: zoom_out
 hook_text: A SKIPPED HEARTBEAT

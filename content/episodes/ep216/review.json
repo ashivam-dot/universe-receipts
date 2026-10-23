@@ -56,7 +56,101 @@
       "better_than_last": "Tackles a fundamental physics misconception more directly than recent episodes.",
       "judge": "gemini-3.6-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-23T17:13:25+05:30",
+      "check": {
+        "duration": 45.4,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Immediately challenges a widely accepted space misconception to hold attention.",
+        "clarity": "Explains complex physics clearly using simple analogies like walking speed.",
+        "payoff": "Reframes escape velocity as an overall energy requirement rather than a speed barrier.",
+        "visuals": "Diagrams contain too much text and static orbital shots slow down momentum.",
+        "loop": "Final phrase connects directly back into the opening statement effortlessly."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It handles a counterintuitive theoretical concept with clearer, more accessible analogies than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-23T17:15:21+05:30",
+      "check": {
+        "duration": 45.4,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Directly challenges a fundamental scientific 'fact' that most people think they know.",
+        "clarity": "The distinction between a projectile and a continuous-thrust vehicle is explained perfectly.",
+        "payoff": "The 'walking pace' comparison provides a fantastic 'mind-blown' moment for the viewer.",
+        "visuals": "High quality imagery, though the ISS in beat 5 isn't actually escaping Earth's gravity.",
+        "loop": "The repetition of the core claim makes the transition back to the start seamless."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows the International Space Station which is locked in orbit, not escaping Earth as described"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode uses a much more relatable 'walking pace' analogy to explain physics compared to the abstract energy scales in episode 214.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }
