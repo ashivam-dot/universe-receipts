@@ -83,7 +83,7 @@ unexplained, not alien.
 | Oct 22 | Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus — parked (ep155) | Mission Files |
 | Oct 24 | V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up — done (ep174) | Mission Files |
 | Oct 29 | STS-95 (1998): John Glenn went back to space at 77, 36 years after his first orbit — parked (ep218) | Mission Files |
-| Oct 31 | 2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween | Near Misses |
+| Oct 31 | 2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween — making (ep241) | Near Misses |
 | Nov 2 | Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day | Mission Files |
 | Nov 3 | Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002 | Mission Files |
 | Nov 9 | Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos | Space Myths, Busted |
@@ -161,7 +161,7 @@ unexplained, not alien.
 - Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C — done (ep205)
 - Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year — done (ep214)
 - Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns — making (ep224)
-- Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos
+- Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos — making (ep243)
 
 ### Mission Files
 
@@ -180,7 +180,7 @@ unexplained, not alien.
 - Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled — making (ep234)
 - Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed — done (ep106)
 - Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down — done (ep051)
-- Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life — parked (ep121)
+- Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life — making (ep242)
 - Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere — done (ep116)
 - Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions — done (ep125)
 - Giotto (spacecraft) (1986): a probe survived a battering of 150,000 mph comet dust to capture the first close-up images of Halley's nucleus — parked (ep132)
