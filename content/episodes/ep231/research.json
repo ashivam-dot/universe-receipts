@@ -1,0 +1,281 @@
+{
+  "viable": true,
+  "reason": "The provided sources corroborate over 15 factual claims about tidal locking mechanics, lunar rotation, libration, orbital recession, and planetary analogs across multiple independent sites.",
+  "story": "Many people assume the Moon does not spin because it always presents the exact same face to Earth. But the Moon does rotate—it just spins at the exact rate it takes to orbit our planet, about twenty-seven days. Billions of years ago, the young Moon rotated much faster. Earth's immense gravitational pull created solid tidal bulges across the lunar body. Because the Moon was spinning rapidly, internal friction delayed the bulges from settling, pulling them out of alignment. Earth's gravity exerted torque on these displaced bulges, braking the Moon's spin until its day matched its orbital month perfectly. As rotational energy dissipated, angular momentum pushed the Moon outward. Today, lunar laser ranging shows the Moon is still spiraling away by about four centimeters annually, while braking Earth's rotation by roughly two milliseconds per century. Tidal locking isn't a frozen stop—it is a perpetual, finely balanced orbital brake.",
+  "angle": "The Moon isn't frozen in space—it actually spins on its axis, but Earth's gravitational grip braked its rotation to match its orbital period so perfectly that its far side remained hidden until 1959.",
+  "claims": [
+    {
+      "claim": "The Moon rotates on its own axis, completing one rotation in the same period it takes to orbit Earth (about 27.3 days).",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Because the Moon's rotation is synchronized with its orbit, the same hemisphere continuously faces Earth.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "If the Moon did not rotate relative to distant stars, observers on Earth would see all sides of it over the course of an orbit.",
+      "sources": [
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Earth's gravitational gradient creates tidal bulges that slightly distort the Moon's physical shape.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Internal friction from the repeated flexing of rock dissipates mechanical energy into heat, applying a torque that slows rotation.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Moon was spinning faster shortly after its formation before tidal despinning slowed its rotation.",
+      "sources": [
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "As the Moon lost rotational angular momentum, energy transferred into its orbit, causing the Moon to drift further from Earth.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Lunar laser ranging measurements show the Moon is currently receding from Earth at a rate of approximately 4 centimeters (about 1.5 inches) per year.",
+      "sources": [
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Tidal interactions between Earth and the Moon are also gradually slowing Earth's rotation rate.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Earth's day lengthens by approximately 2 to 2.3 milliseconds per century as a result of tidal braking.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "All nineteen known moons in the Solar System large enough to be round are tidally locked to their host planets.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Pluto and Charon are mutually tidally locked, each keeping the exact same face turned toward the other.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Due to orbital libration and parallax caused by an eccentric orbit, observers on Earth can see about 59 percent of the Moon's surface over time.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The lunar far side is not permanently dark; it experiences regular daytime and nighttime as the Moon orbits the Sun.",
+      "sources": [
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mercury is locked in a 3:2 spin-orbit resonance rather than synchronous 1:1 rotation, rotating three times for every two orbits around the Sun.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The exoplanet Tau Boötis b has tidally locked its host star Tau Boötis to synchronize with the planet's tight 3.3-day orbit.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Initial length of Earth's day: S1 estimates that early in Earth's history a day was about 6 hours, while S6 states it may have been as short as 4 hours. The script should mention that early Earth days were only a few hours long without specifying a disputed exact number.",
+    "Tidal locking timescale: S2 and S6 state large moons lock within hundreds of thousands of orbits, whereas S1 and S3 highlight that tidal dissipation parameters have uncertainties of orders of magnitude (factors of 10 to 1,000). The script should state that locking occurred early in the Moon's history rather than claiming an exact numerical timescale."
+  ],
+  "visuals": [
+    {
+      "subject": "Full near side disk of Earth's Moon",
+      "queries": [
+        "Full Moon photograph Lick Observatory",
+        "Lunar near side mosaic LRO"
+      ]
+    },
+    {
+      "subject": "Full far side disk of Earth's Moon",
+      "queries": [
+        "Moon far side LRO mosaic",
+        "Luna 3 far side of the Moon"
+      ]
+    },
+    {
+      "subject": "Lunar libration showing the rocking motion over an orbit",
+      "queries": [
+        "Lunar libration animation LRO",
+        "Moon libration diagram"
+      ]
+    },
+    {
+      "subject": "Diagram illustrating gravitational tidal bulges and tidal locking torque",
+      "queries": [
+        "Tidal bulge diagram gravitational torque",
+        "Tidal locking diagram Earth Moon"
+      ]
+    },
+    {
+      "subject": "Pluto and Charon system showing mutual tidal locking",
+      "queries": [
+        "Pluto Charon New Horizons true color",
+        "Pluto Charon mutual orbit diagram"
+      ]
+    },
+    {
+      "subject": "Apollo Lunar Laser Ranging Retroreflector deployed on the lunar surface",
+      "queries": [
+        "Apollo 11 Laser Ranging Retroreflector",
+        "Lunar Laser Ranging experiment Apollo 14"
+      ]
+    },
+    {
+      "subject": "Planet Mercury full globe showing 3:2 resonance world",
+      "queries": [
+        "Mercury MESSENGER global mosaic",
+        "Mercury planet false color MESSENGER"
+      ]
+    },
+    {
+      "subject": "Artist concept of hot Jupiter exoplanet Tau Boötis b locking its host star",
+      "queries": [
+        "Tau Bootis b artist concept",
+        "Hot Jupiter exoplanet artist impression"
+      ]
+    },
+    {
+      "subject": "Earth and Moon viewed together in deep space",
+      "queries": [
+        "Earth and Moon from DSCOVR EPIC",
+        "Galileo Earth Moon flyby"
+      ]
+    },
+    {
+      "subject": "Diagram of Earth's oceanic tidal bulges and frictional braking",
+      "queries": [
+        "Ocean tidal bulge diagram",
+        "Tidal friction Earth Moon diagram"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Tidal_locking",
+      "title": "Tidal locking",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://science.nasa.gov/moon/tidal-locking/",
+      "title": "Tidal Locking - NASA Science",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.planetary.org/articles/1017-rapidly-rotating-regular-satellites-and-tides",
+      "title": "Rapidly Rotating Regular Satellites and Tides",
+      "site": "planetary.org"
+    },
+    {
+      "label": "S4",
+      "url": "http://www.space.com/scienceastronomy/050523_star_tide.html",
+      "title": "Role Reversal: Planet Controls a Star",
+      "site": "space.com"
+    },
+    {
+      "label": "S5",
+      "url": "http://www.universetoday.com/128350/will-earth-lock-moon/",
+      "title": "When Will Earth Lock to the Moon?",
+      "site": "universetoday.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://scienceinsights.org/is-the-moon-tidally-locked-the-science-explained/",
+      "title": "Is the Moon Tidally Locked? The Science Explained",
+      "site": "scienceinsights.org"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.earth-site.co.uk/Education/tidal-locking-moon-rotation/",
+      "title": "Tidal Locking: Why the Moon Rotates but Shows One Face - Earth Site Education",
+      "site": "earth-site.co.uk"
+    }
+  ],
+  "topic": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
+  "series": "Space Myths, Busted"
+}
