@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-23T05:09:35+05:30",
+  "updated_at": "2026-10-23T11:11:11+05:30",
   "day": 22,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5JZFJP5CHHBBX6DCQ0JBY1R",
+    "id": "ta-01M5KM2RXBNR2W7ZX1BJ309TZR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-23T05:05:08+05:30",
-    "started_at_utc": "2026-10-22T23:35:08+00:00",
-    "seconds": 267
+    "started_at": "2026-10-23T11:05:09+05:30",
+    "started_at_utc": "2026-10-23T05:35:09+00:00",
+    "seconds": 362
   },
   "stages": [
     {
@@ -21,14 +21,14 @@
     {
       "name": "sync",
       "ok": true,
-      "detail": "66 posts",
-      "seconds": 1.4
+      "detail": "67 posts",
+      "seconds": 1.1
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep197 to 'Space Myths, Busted'",
-      "seconds": 2.8
+      "detail": "added ep201 to 'Scale Breaker'",
+      "seconds": 3.1
     },
     {
       "name": "languages",
@@ -40,19 +40,19 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 1.4
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep058 at 72 h: level with the channel's earlier Shorts at this age: 1050 views against a median of 1018 (1.0x); ep146 at 24 h: ahead of the channel's earlier Shorts at this age: 1167 views against a median of 873 (1.3x); ep195 at 6 h: behind the channel's earlier Shorts at this age: 307 views against a median of 695 (0.4x); learnings: Analyzed performance reviews for ep129 through ep188 to update episode diagnoses and refine rules on hook urgency, mid-script jargon, and seamless rewatch transitions.",
-      "seconds": 203.1
+      "detail": "ep063 at 72 h: level with the channel's earlier Shorts at this age: 1029 views against a median of 1020 (1.0x); ep172 at 24 h: level with the channel's earlier Shorts at this age: 791 views against a median of 917 (0.9x); ep197 at 6 h: ahead of the channel's earlier Shorts at this age: 947 views against a median of 682 (1.4x); learnings: Cited ep172 as corroborating evidence for complete concluding beats and eliminating mid-script premise restatements.",
+      "seconds": 315.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep223 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep224 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep225 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
-      "seconds": 23.4
+      "detail": "ep227 rejected (research: Only Wikipedia (S1) mentions the 1910 toxic cyanogen tail scare, comet pills, and gas masks, meaning the core topic lacks the required two independent sites to corroborate at least 10 claims.); ep228 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep229 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free",
+      "seconds": 10.6
     },
     {
       "name": "buffer channel",
@@ -64,7 +64,7 @@
       "name": "preflight ep165",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "preflight ep181",
@@ -76,71 +76,70 @@
       "name": "preflight ep185",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
-      "name": "preflight ep201",
+      "name": "preflight ep208",
       "ok": true,
-      "detail": "video still hosted",
+      "detail": "video downloads whole (15 MB in 0 s)",
       "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 4.6
+      "seconds": 4.5
     },
     {
-      "name": "schedule ep194",
+      "name": "schedule ep059",
       "ok": true,
-      "detail": "2026-10-25T21:30:00-04:00",
-      "seconds": 1.3
+      "detail": "2026-10-26T12:30:00-04:00",
+      "seconds": 1.0
     },
     {
-      "name": "start ep227",
+      "name": "start ep231",
       "ok": true,
-      "detail": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
+      "detail": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
       "seconds": 0.7
     },
     {
-      "name": "start ep228",
+      "name": "start ep232",
       "ok": true,
-      "detail": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
-      "seconds": 0.7
+      "detail": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
+      "seconds": 0.6
     },
     {
-      "name": "start ep229",
+      "name": "start ep233",
       "ok": true,
-      "detail": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
-      "seconds": 0.7
+      "detail": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
+      "seconds": 0.6
     },
     {
-      "name": "start ep230",
+      "name": "start ep234",
       "ok": true,
-      "detail": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
+      "detail": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
       "seconds": 0.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep223 stopped on Gemini's free quota; it resumes in a later run",
-    "ep224 stopped on Gemini's free quota; it resumes in a later run",
-    "ep225 stopped on Gemini's free quota; it resumes in a later run",
-    "ep226 stopped on Gemini's free quota; it resumes in a later run",
+    "ep228 stopped on Gemini's free quota; it resumes in a later run",
+    "ep229 stopped on Gemini's free quota; it resumes in a later run",
+    "ep230 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 22 waiting"
+    "Buffer is full (10 queued); 21 waiting"
   ],
   "inventory": {
-    "total": 32,
+    "total": 31,
     "in_buffer": 10,
-    "waiting": 22,
+    "waiting": 21,
     "target": 42,
     "making": [
       "ep213",
@@ -153,21 +152,19 @@
       "ep223",
       "ep224",
       "ep225",
-      "ep226"
-    ],
-    "remote": [
-      "ep227",
+      "ep226",
       "ep228",
       "ep229",
       "ep230"
+    ],
+    "remote": [
+      "ep231",
+      "ep232",
+      "ep233",
+      "ep234"
     ]
   },
   "queue": [
-    {
-      "id": "ep201",
-      "title": "The Largest Star in the Universe Just Shrank",
-      "due_at": "2026-10-22T21:30:00-04:00"
-    },
     {
       "id": "ep181",
       "title": "The Dead Star That Warped Earth",
@@ -212,15 +209,14 @@
       "id": "ep194",
       "title": "The Math Error That Lost a Mars Orbiter",
       "due_at": "2026-10-25T21:30:00-04:00"
-    }
-  ],
-  "waiting": [
+    },
     {
       "id": "ep059",
       "title": "Why Astronauts Never Escape Earth's Gravity",
-      "series": "Space Myths, Busted",
-      "score": 20
-    },
+      "due_at": "2026-10-26T12:30:00-04:00"
+    }
+  ],
+  "waiting": [
     {
       "id": "ep078",
       "title": "The Bubble That Could Erase the Universe",
@@ -350,33 +346,31 @@
   ],
   "made": [
     {
-      "id": "ep223",
+      "id": "ep227",
+      "outcome": "rejected",
+      "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
+      "reason": "research: Only Wikipedia (S1) mentions the 1910 toxic cyanogen tail scare, comet pills, and gas masks, meaning the core topic lacks the required two independent sites to corroborate at least 10 claims."
+    },
+    {
+      "id": "ep228",
       "outcome": "unfinished",
-      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
+      "topic": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep224",
+      "id": "ep229",
       "outcome": "unfinished",
-      "topic": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
+      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep225",
+      "id": "ep230",
       "outcome": "unfinished",
-      "topic": "PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep226",
-      "outcome": "unfinished",
-      "topic": "Vela Pulsar (1968): a dead star spinning 11 times a second that shoots a violent jet of superheated plasma through space while glitching its spin rate",
+      "topic": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -384,92 +378,87 @@
   ],
   "spawned": [
     {
-      "id": "ep227",
-      "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
-      "call_id": "fc-01M5JZQSM1ERG07CEXGTDFBPGX"
+      "id": "ep231",
+      "topic": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
+      "call_id": "fc-01M5KMDWK424XAHSW34RYK2XRS"
     },
     {
-      "id": "ep228",
-      "topic": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
-      "call_id": "fc-01M5JZQT9P0NJVK9AW8WKXY3BJ"
+      "id": "ep232",
+      "topic": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
+      "call_id": "fc-01M5KMDX74JSYXZ2STX5C6MRN7"
     },
     {
-      "id": "ep229",
-      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
-      "call_id": "fc-01M5JZQTZCHYD6GQ07JTT7V55X"
+      "id": "ep233",
+      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
+      "call_id": "fc-01M5KMDXV50XCRQ9Q889D5YVN0"
     },
     {
-      "id": "ep230",
-      "topic": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
-      "call_id": "fc-01M5JZQVKYXSJ83WV01FRG4BJ7"
+      "id": "ep234",
+      "topic": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
+      "call_id": "fc-01M5KMDYGYBPR216B2BJCNVPZG"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep227",
-      "topic": "Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks",
-      "spawned_at": "2026-10-23T05:09:29+05:30"
+      "id": "ep231",
+      "topic": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
+      "spawned_at": "2026-10-23T11:11:05+05:30"
     },
     {
-      "id": "ep228",
-      "topic": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
-      "spawned_at": "2026-10-23T05:09:30+05:30"
+      "id": "ep232",
+      "topic": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
+      "spawned_at": "2026-10-23T11:11:05+05:30"
     },
     {
-      "id": "ep229",
-      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
-      "spawned_at": "2026-10-23T05:09:31+05:30"
+      "id": "ep233",
+      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
+      "spawned_at": "2026-10-23T11:11:06+05:30"
     },
     {
-      "id": "ep230",
-      "topic": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
-      "spawned_at": "2026-10-23T05:09:31+05:30"
+      "id": "ep234",
+      "topic": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
+      "spawned_at": "2026-10-23T11:11:07+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep194",
-      "title": "The Math Error That Lost a Mars Orbiter",
-      "due_at": "2026-10-25T21:30:00-04:00"
+      "id": "ep059",
+      "title": "Why Astronauts Never Escape Earth's Gravity",
+      "due_at": "2026-10-26T12:30:00-04:00"
     }
   ],
-  "live": 57,
+  "live": 58,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 29,
+    "calls": 21,
     "by_model": {
-      "gemini-3.8-flash": 2,
-      "gemini-3.6-flash": 2,
-      "gemini-3.5-flash-lite": 17,
-      "gemini-flash-lite-latest": 5,
-      "ovh:Qwen3.5-397B-A17B": 1,
-      "gemini-3-flash-preview": 2
+      "gemini-3.8-flash": 6,
+      "gemini-3.5-flash-lite": 13,
+      "gemini-3.5-flash": 1,
+      "gemini-3.6-flash": 1
     },
-    "out_of_quota": [
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 5,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-10-22",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 24.93,
+    "metered": 25.05,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 25,
+    "cloud": 24,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 3.07
+    "modal_credit_left": 2.95
   },
   "made_here": 0,
   "open_topics": 29,
-  "parked_topics": 49
+  "parked_topics": 45
 }
