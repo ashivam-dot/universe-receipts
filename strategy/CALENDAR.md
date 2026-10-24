@@ -33,7 +33,7 @@ unexplained, not alien.
 | 2026-10-07 | SN 1181 (1181): a zombie star that survived its own supernova and now screams through space at 16,000 kilometers per second — done (ep086) | Space Got Weird | A spectacular new image of its remnant, Pa 30, was featured as NASA's Astronomy Picture of the Day on October 7, 2026. |
 | 2026-10-08 | Aeolis Mons (2012): a Martian mountain taller than Mount Rainier that a robotic rover has been slowly climbing for over a decade — done (ep099) | Scale Breaker | NASA's Curiosity rover recently reached a major elevation milestone on the mountain, capturing new panoramas of its wind-carved cliffs. |
 | 2026-10-08 | Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo — making (ep228) | Mission Files | NASA recently released newly annotated lunar navigation training photos prepared by the Artemis II crew. |
-| 2026-10-09 | Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble — parked (ep113) | The Universe Is Terrifying | Featured as NASA's Astronomy Picture of the Day this week and in the spotlight ahead of NASA's briefing on the Martian Moons eXploration mission. |
+| 2026-10-09 | Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble — making (ep246) | The Universe Is Terrifying | Featured as NASA's Astronomy Picture of the Day this week and in the spotlight ahead of NASA's briefing on the Martian Moons eXploration mission. |
 | 2026-10-09 | Fast radio burst (2007): millisecond flashes of deep-space energy that release as much power as the Sun radiates across entire days — done (ep114) | Scale Breaker | NASA announced that the James Webb Space Telescope just measured the distance to the farthest fast radio burst ever detected. |
 | 2026-10-10 | Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors — dropped (ep124) | The Universe Is Terrifying | NASA just released a stunning new James Webb Space Telescope image of this cluster. |
 | 2026-10-11 | IceCube Neutrino Observatory (2010): a telescope made of a cubic kilometer of Antarctic ice that looks straight down through Earth — done (ep129) | Space Got Weird | Featured on NASA's Astronomy Picture of the Day on October 11. |
@@ -161,7 +161,7 @@ unexplained, not alien.
 - Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C — done (ep205)
 - Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year — done (ep214)
 - Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns — making (ep224)
-- Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos — making (ep243)
+- Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos — dropped (ep243)
 
 ### Mission Files
 
@@ -208,7 +208,7 @@ unexplained, not alien.
 - Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit — parked (ep098)
 - Tennis racket theorem (1985): a physical law in zero gravity that causes any spinning asymmetrical object to spontaneously flip back and forth without outside force — dropped (ep082)
 - Miranda (moon) (1986): a moon of Uranus that looks like it was shattered into pieces and hastily glued back together — done (ep118)
-- WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star — parked (ep104)
+- WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star — making (ep245)
 - Stephan's Quintet (1877): a visual galaxy group where one interloper is actually much closer, plowing through the others at supersonic speeds — done (ep127)
 - Saturn's hexagon (1981): a bizarre six-sided jet stream spinning at Saturn's north pole that is wide enough to swallow two whole Earths — done (ep133)
 - Iapetus (moon) (1671): a bizarre world shaped like a walnut, with a 12-mile-high equatorial ridge and one hemisphere ten times darker than the other — parked (ep140)
@@ -263,7 +263,7 @@ unexplained, not alien.
 - Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever — making (ep231)
 - Asteroid belt (1801): despite movie scenes of ships dodging giant rocks, the average distance between asteroids in the belt is about 600,000 miles — done (ep087)
 - Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks — dropped (ep227)
-- Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards — parked (ep115)
+- Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards — making (ep244)
 - Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer — parked (ep154)
 - Vulcan (hypothetical planet) (1859): astronomers spent half a century hunting a phantom world inside Mercury's orbit before Einstein proved space itself was warping — done (ep168)
 - Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately — parked (ep173)

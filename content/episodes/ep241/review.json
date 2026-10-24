@@ -1,0 +1,60 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-24T05:19:10+05:30",
+      "check": {
+        "duration": 49.37,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The skull asteroid is a strong seasonal hook.",
+        "clarity": "Sequencing from discovery to identification is logical.",
+        "payoff": "The comet explanation justifies the unique shape.",
+        "visuals": "Beats 6 and 8 use images of the wrong asteroid.",
+        "loop": "The final line connects seamlessly to the start."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The image is dated August, whereas the event was in October."
+        },
+        {
+          "beat": 8,
+          "problem": "The frame explicitly labels the object as asteroid 2011 AG5."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Change to 'Astronomers discovered it was a dead comet, not an asteroid.'",
+        "Beat 8: Change to 'This 2,000-foot corpse reflects light like dark asphalt.'"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

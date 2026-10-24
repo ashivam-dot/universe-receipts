@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-24T05:13:23+05:30",
+  "updated_at": "2026-10-24T11:09:15+05:30",
   "day": 23,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5NHWAT6PF514YV9V0HFC8ER",
+    "id": "ta-01M5P6FGYPHK4YSK57Y9MWCG6R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-24T05:05:09+05:30",
-    "started_at_utc": "2026-10-23T23:35:09+00:00",
-    "seconds": 494
+    "started_at": "2026-10-24T11:05:11+05:30",
+    "started_at_utc": "2026-10-24T05:35:11+00:00",
+    "seconds": 244
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 1.5
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "69 posts",
+      "detail": "71 posts",
       "seconds": 1.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep185 to 'Space Myths, Busted'; added ep221 to 'Mission Files'",
-      "seconds": 3.0
+      "detail": "added ep165 to 'Space Myths, Busted'",
+      "seconds": 2.8
     },
     {
       "name": "languages",
@@ -40,43 +40,37 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep071 at 72 h: level with the channel's earlier Shorts at this age: 1010 views against a median of 1020 (1.0x); ep181 at 6 h: behind the channel's earlier Shorts at this age: 305 views against a median of 708 (0.4x); ep197 at 24 h: level with the channel's earlier Shorts at this age: 984 views against a median of 829 (1.2x); learnings: Added ep197 as supporting evidence to the rule eliminating researcher biographies and proper names in middle beats after academic attribution stalled velocity.",
-      "seconds": 450.3
+      "detail": "ep072 at 72 h: level with the channel's earlier Shorts at this age: 879 views against a median of 1018 (0.9x); ep185 at 6 h: behind the channel's earlier Shorts at this age: 507 views against a median of 695 (0.7x); ep201 at 24 h: level with the channel's earlier Shorts at this age: 982 views against a median of 873 (1.1x); ep221 at 6 h: behind the channel's earlier Shorts at this age: 341 views against a median of 682 (0.5x); learnings: Promoted interactive closing prompts and paradoxical hazard hooks to rules; updated existing rules with evidence from 10 new reviews.",
+      "seconds": 195.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep237 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep238 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep239 unfinished (RuntimeError: ep239 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 103): add at least 2 words, aiming for about 120, by lengthening or trimming the m",
-      "seconds": 14.4
+      "detail": "ep239 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep241 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep242 unfinished (RuntimeError: ep242 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 97): add at least 8 words, aiming for about 120, by lengthening or trimming the mi",
+      "seconds": 12.5
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
-    },
-    {
-      "name": "preflight ep165",
-      "ok": true,
-      "detail": "video still hosted",
       "seconds": 0.2
     },
     {
       "name": "preflight ep174",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "preflight ep203",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "preflight ep208",
@@ -85,67 +79,66 @@
       "seconds": 0.2
     },
     {
+      "name": "preflight ep210",
+      "ok": true,
+      "detail": "video downloads whole (16 MB in 0 s)",
+      "seconds": 0.5
+    },
+    {
       "name": "publish",
       "ok": true,
       "detail": "",
       "seconds": 4.6
     },
     {
-      "name": "schedule ep177",
+      "name": "schedule ep190",
       "ok": true,
-      "detail": "2026-10-26T19:00:00-04:00",
-      "seconds": 1.3
-    },
-    {
-      "name": "schedule ep216",
-      "ok": true,
-      "detail": "2026-10-26T21:30:00-04:00",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep239",
-      "ok": true,
-      "detail": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep241",
-      "ok": true,
-      "detail": "2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween",
-      "seconds": 0.5
+      "detail": "2026-10-27T12:30:00-04:00",
+      "seconds": 1.0
     },
     {
       "name": "start ep242",
       "ok": true,
       "detail": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "seconds": 0.5
+      "seconds": 0.7
     },
     {
-      "name": "start ep243",
+      "name": "start ep244",
       "ok": true,
-      "detail": "Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos",
-      "seconds": 0.5
+      "detail": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "seconds": 0.7
+    },
+    {
+      "name": "start ep245",
+      "ok": true,
+      "detail": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep246",
+      "ok": true,
+      "detail": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.0
+      "seconds": 1.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep237 stopped on Gemini's free quota; it resumes in a later run",
-    "ep238 stopped on Gemini's free quota; it resumes in a later run",
-    "ep240 stopped on Gemini's free quota; it resumes in a later run",
+    "ep239 stopped on Gemini's free quota; it resumes in a later run",
+    "ep241 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 21 waiting"
+    "Buffer is full (10 queued); 20 waiting"
   ],
   "inventory": {
-    "total": 31,
+    "total": 30,
     "in_buffer": 10,
-    "waiting": 21,
+    "waiting": 20,
     "target": 42,
     "making": [
       "ep215",
@@ -163,21 +156,18 @@
       "ep236",
       "ep237",
       "ep238",
-      "ep240"
+      "ep239",
+      "ep240",
+      "ep241"
     ],
     "remote": [
-      "ep239",
-      "ep241",
       "ep242",
-      "ep243"
+      "ep244",
+      "ep245",
+      "ep246"
     ]
   },
   "queue": [
-    {
-      "id": "ep165",
-      "title": "Why Pluto Never Finished Its Orbit",
-      "due_at": "2026-10-23T21:30:00-04:00"
-    },
     {
       "id": "ep208",
       "title": "The Tumbling Mountain That Buzzed Earth",
@@ -222,6 +212,11 @@
       "id": "ep216",
       "title": "The Escape Velocity Myth",
       "due_at": "2026-10-26T21:30:00-04:00"
+    },
+    {
+      "id": "ep190",
+      "title": "How NASA Trapped Speeding Comet Dust",
+      "due_at": "2026-10-27T12:30:00-04:00"
     }
   ],
   "waiting": [
@@ -322,12 +317,6 @@
       "score": 20
     },
     {
-      "id": "ep190",
-      "title": "How NASA Trapped Speeding Comet Dust",
-      "series": "Mission Files",
-      "score": 23
-    },
-    {
       "id": "ep191",
       "title": "How Dead Stars Forged the Universe's Gold",
       "series": "The Universe Is Terrifying",
@@ -354,105 +343,105 @@
   ],
   "made": [
     {
-      "id": "ep237",
-      "outcome": "unfinished",
-      "topic": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep238",
-      "outcome": "unfinished",
-      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
       "id": "ep239",
       "outcome": "unfinished",
       "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "reason": "RuntimeError: ep239 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 103): add at least 2 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 12, beat 2: 23, beat 3: 16, beat 4: 11, beat 5: 13, beat 6: 14, beat 7: 14.']",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep241",
+      "outcome": "unfinished",
+      "topic": "2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep242",
+      "outcome": "unfinished",
+      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
+      "reason": "RuntimeError: ep242 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 97): add at least 8 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 10, beat 2: 14, beat 3: 15, beat 4: 15, beat 5: 15, beat 6: 15, beat 7: 13.']",
       "quota": false,
       "overloaded": false
     },
     {
-      "id": "ep240",
-      "outcome": "unfinished",
-      "topic": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep243",
+      "outcome": "rejected",
+      "topic": "Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos",
+      "reason": "research: only 0 claims have two different sites"
     }
   ],
   "spawned": [
     {
-      "id": "ep239",
-      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "call_id": "fc-01M5NJBH13D7QN8AKM1QYZR8E8"
-    },
-    {
-      "id": "ep241",
-      "topic": "2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween",
-      "call_id": "fc-01M5NJBHGP00DGHA6X5XQSXJYY"
-    },
-    {
       "id": "ep242",
       "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "call_id": "fc-01M5NJBHZF2BQKK0NCF4BCECH7"
+      "call_id": "fc-01M5P6Q1TY7H3TEVC8EQWQ54MJ"
     },
     {
-      "id": "ep243",
-      "topic": "Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos",
-      "call_id": "fc-01M5NJBJE7ZAT006ZT76ES5P51"
+      "id": "ep244",
+      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "call_id": "fc-01M5P6Q2FTTZM31BDHSCS4TDHM"
+    },
+    {
+      "id": "ep245",
+      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
+      "call_id": "fc-01M5P6Q341KVNHHW5YPJ6N8B9B"
+    },
+    {
+      "id": "ep246",
+      "topic": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
+      "call_id": "fc-01M5P6Q3R4K092C12H5D2N7N49"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep239",
-      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "spawned_at": "2026-10-24T05:13:19+05:30"
-    },
-    {
-      "id": "ep241",
-      "topic": "2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween",
-      "spawned_at": "2026-10-24T05:13:20+05:30"
-    },
-    {
       "id": "ep242",
       "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "spawned_at": "2026-10-24T05:13:20+05:30"
+      "spawned_at": "2026-10-24T11:09:08+05:30"
     },
     {
-      "id": "ep243",
-      "topic": "Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos",
-      "spawned_at": "2026-10-24T05:13:21+05:30"
+      "id": "ep244",
+      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "spawned_at": "2026-10-24T11:09:09+05:30"
+    },
+    {
+      "id": "ep245",
+      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
+      "spawned_at": "2026-10-24T11:09:10+05:30"
+    },
+    {
+      "id": "ep246",
+      "topic": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
+      "spawned_at": "2026-10-24T11:09:10+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep177",
-      "title": "The Fastest Probe Ever Launched Carried a Stamp",
-      "due_at": "2026-10-26T19:00:00-04:00"
-    },
-    {
-      "id": "ep216",
-      "title": "The Escape Velocity Myth",
-      "due_at": "2026-10-26T21:30:00-04:00"
+      "id": "ep190",
+      "title": "How NASA Trapped Speeding Comet Dust",
+      "due_at": "2026-10-27T12:30:00-04:00"
     }
   ],
-  "live": 61,
+  "live": 62,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 23,
+    "calls": 20,
     "by_model": {
-      "gemini-3.8-flash": 3,
-      "gemini-3.5-flash-lite": 18,
-      "gemini-3-flash-preview": 2
+      "gemini-3.8-flash": 2,
+      "gemini-3-flash-preview": 6,
+      "gemini-3.5-flash": 1,
+      "gemini-3.5-flash-lite": 10,
+      "gemini-3.6-flash": 1
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
     "modal": 3,
@@ -462,17 +451,17 @@
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 26.3,
+    "metered": 26.42,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 14,
+    "cloud": 13,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 1.7
+    "modal_credit_left": 1.58
   },
   "made_here": 0,
   "open_topics": 29,
-  "parked_topics": 46
+  "parked_topics": 43
 }
