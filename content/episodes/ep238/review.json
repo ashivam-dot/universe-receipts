@@ -1,0 +1,62 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-24T23:11:21+05:30",
+      "check": {
+        "duration": 49.0,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'meta' heard as 'met' after 'and police calls'",
+          "'sync their' heard as 'sink there' after 'together coral species'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Direct opening premise, but lacks strong dramatic tension.",
+        "clarity": "Easy to follow progression of debunking arguments.",
+        "payoff": "Concludes rationally without delivering a strong surprising twist.",
+        "visuals": "Multiple beats rely on dense, illegible paper diagrams.",
+        "loop": "Closing phrasing connects smoothly back to the start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Contains small, unreadable text in a foreign language."
+        },
+        {
+          "beat": 6,
+          "problem": "Overcrowded with small diagram text unsuited for mobile."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Say 'Does a full moon really trigger human madness?'",
+        "Beat 8: Say 'Yet despite zero scientific proof, the ancient myth survives.'"
+      ],
+      "better_than_last": "It grounds its core claim in relatable real-world statistics.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

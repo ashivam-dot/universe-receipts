@@ -183,7 +183,7 @@ unexplained, not alien.
 - Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune — done (ep017)
 - Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it — done (ep084)
 - Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload — parked (ep096)
-- Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled — making (ep234)
+- Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled — done (ep234)
 - Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed — done (ep106)
 - Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down — done (ep051)
 - Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life — making (ep242)

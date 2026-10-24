@@ -82,92 +82,27 @@
     "_alternates": []
   },
   {
-    "source": "url",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "credit": {
-      "source": "Wikimedia Commons",
-      "title": "Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png",
-      "credit": "NASA/JPL",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png"
-    },
-    "fallbacks": [
-      "card",
-      "color"
-    ],
-    "motion": "pan_right",
+    "reuse": 2,
+    "motion": "zoom_in",
     "focus_x": 0.5,
     "focus_y": 0.5,
-    "card": {
-      "kind": "dateline",
-      "big": "March 22, 1989",
-      "small": "Orbital Crossing"
-    },
-    "_choice": {
-      "key": "commons:File:Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png",
-      "origin": "commons",
-      "file": "File:Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png",
-      "title": "Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png",
-      "width": 850,
-      "height": 451,
-      "license": "Public domain",
-      "license_url": null,
-      "artist": "NASA/JPL",
-      "date": "2014-03-05 22:09:52",
-      "year": 2014,
-      "page": "https://commons.wikimedia.org/wiki/File:Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png",
-      "route": "search",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "historical": 0.0,
-      "match": 0.26
-    },
-    "_fit": "exact",
-    "_shows": "Orbital diagram of an asteroid crossing Earth's path",
-    "_alternates": []
+    "_rejected": [
+      "commons:File:Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png",
+      "commons:File:Gene and Carolyn Shoemaker.jpg"
+    ]
   },
   {
-    "source": "url",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Gene_and_Carolyn_Shoemaker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "credit": {
-      "source": "Wikimedia Commons",
-      "title": "Gene and Carolyn Shoemaker.jpg",
-      "credit": "Unknown authorUnknown author",
-      "license": "Public domain",
-      "url": "https://commons.wikimedia.org/wiki/File:Gene_and_Carolyn_Shoemaker.jpg"
-    },
-    "fallbacks": [
-      "card",
-      "color"
-    ],
-    "motion": "pan_up",
-    "focus_x": 0.5,
-    "focus_y": 0.7,
+    "source": "card",
     "card": {
       "kind": "fact",
       "big": "9 Days Later",
       "small": "Discovery delay"
     },
-    "_choice": {
-      "key": "commons:File:Gene and Carolyn Shoemaker.jpg",
-      "origin": "commons",
-      "file": "File:Gene and Carolyn Shoemaker.jpg",
-      "title": "Gene and Carolyn Shoemaker.jpg",
-      "width": 717,
-      "height": 933,
-      "license": "Public domain",
-      "license_url": null,
-      "artist": "Unknown authorUnknown author",
-      "date": "1994",
-      "year": 1994,
-      "page": "https://commons.wikimedia.org/wiki/File:Gene_and_Carolyn_Shoemaker.jpg",
-      "route": "depicts",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Gene_and_Carolyn_Shoemaker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "historical": 0.008,
-      "match": 0.974
-    },
-    "_fit": "close",
-    "_shows": "Astronomers Gene and Carolyn Shoemaker with a telescope",
-    "_alternates": []
+    "motion": "zoom_in",
+    "_rejected": [
+      "commons:File:Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png",
+      "commons:File:Gene and Carolyn Shoemaker.jpg"
+    ]
   },
   {
     "source": "card",

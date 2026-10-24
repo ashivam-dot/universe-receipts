@@ -1,0 +1,50 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-24T23:14:08+05:30",
+      "check": {
+        "duration": 55.43,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "A classified military mirror outperforming Hubble creates an immediate, intriguing hook.",
+        "clarity": "Referring to an August 2026 launch in the past tense as having already 'carried' the payload is confusing.",
+        "payoff": "The 100x survey area comparison against Hubble delivers a satisfying scientific payoff.",
+        "visuals": "Great mix of clean-room hardware photos and telescope comparison graphics that remain clear on mobile.",
+        "loop": "Repeating 'a classified military mirror' at both the end of beat 8 and start of beat 1 creates an awkward verbal pile-up."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 5: 'On August 30, 2026, a SpaceX Falcon Heavy will carry this former spy tool to a point 1.5 million kilometers from Earth.'",
+        "Beat 8: 'This allows the observatory to hunt for thousands of exoplanets, all because...'"
+      ],
+      "better_than_last": "Explains the surprising connection between reconnaissance satellite tech and deep-space astrophysics better than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

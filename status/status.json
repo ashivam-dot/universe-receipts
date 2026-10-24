@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-24T23:09:18+05:30",
-  "day": 23,
+  "updated_at": "2026-10-25T05:09:33+05:30",
+  "day": 24,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5QFNXSBZSER08J6TGJ4GRAR",
+    "id": "ta-01M5R492GG8MVS11BZBCETK7HR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-24T23:05:15+05:30",
-    "started_at_utc": "2026-10-24T17:35:15+00:00",
-    "seconds": 243
+    "started_at": "2026-10-25T05:05:11+05:30",
+    "started_at_utc": "2026-10-24T23:35:11+00:00",
+    "seconds": 262
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.7
+      "seconds": 1.7
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "72 posts",
-      "seconds": 2.2
+      "detail": "73 posts",
+      "seconds": 1.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep208 to 'Near Misses'",
-      "seconds": 3.9
+      "detail": "added ep174 to 'Mission Files'",
+      "seconds": 2.9
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -45,110 +45,98 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep181 at 24 h: behind the channel's earlier Shorts at this age: 546 views against a median of 917 (0.6x); ep186 at 72 h: level with the channel's earlier Shorts at this age: 865 views against a median of 1016 (0.9x); learnings: Consolidated rules on mid-script academic attribution and technical analogies using evidence from ep159, ep186, and ep197.",
-      "seconds": 156.4
+      "detail": "ep146 at 72 h: ahead of the channel's earlier Shorts at this age: 1218 views against a median of 1014 (1.2x); ep185 at 24 h: behind the channel's earlier Shorts at this age: 660 views against a median of 873 (0.8x); ep208 at 6 h: behind the channel's earlier Shorts at this age: 13 views against a median of 682 (0.0x); ep221 at 24 h: behind the channel's earlier Shorts at this age: 400 views against a median of 829 (0.5x); learnings: Reviewed 10 Shorts, updating evidence for Rule 19 (ep072) and Rule 28 (ep185) regarding high-stakes hook text and comment-prompting endings.",
+      "seconds": 208.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep215 rejected (low scores: visuals); ep219 ready; ep223 rejected (low scores: payoff, visuals, loop; 2 frame problems); ep224 rejected (low scores: visuals); ep225 ready; ep228 rejected (low scores: payoff, loop); ep229 rejected (low scores: payoff, visuals, loop; 2 frame problems); ep230 rejected (low scores: clarity, payoff, visuals, loop; 3 frame problems); ep231 rejected (low scores: visuals); ep232 rejected (low scores: payoff, visuals; duration 58.87 s is outside 35-58 s); ep233 rejected (low scores: visuals; 2 frame problems)",
-      "seconds": 38.2
+      "detail": "ep234 ready; ep236 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep237 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep238 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota ",
+      "seconds": 15.6
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.5
-    },
-    {
-      "name": "preflight ep174",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.2
     },
     {
       "name": "preflight ep194",
       "ok": true,
-      "detail": "video downloads whole (17 MB in 1 s)",
-      "seconds": 1.6
+      "detail": "video still hosted",
+      "seconds": 0.3
     },
     {
       "name": "preflight ep203",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.8
+      "seconds": 0.3
     },
     {
       "name": "preflight ep210",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.9
+      "seconds": 0.4
     },
     {
       "name": "preflight ep214",
       "ok": true,
       "detail": "video still hosted",
+      "seconds": 0.4
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 4.5
+    },
+    {
+      "name": "schedule ep078",
+      "ok": true,
+      "detail": "2026-10-27T21:30:00-04:00",
+      "seconds": 1.1
+    },
+    {
+      "name": "start ep241",
+      "ok": true,
+      "detail": "2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep242",
+      "ok": true,
+      "detail": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
+      "seconds": 0.7
+    },
+    {
+      "name": "start ep244",
+      "ok": true,
+      "detail": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "seconds": 0.7
+    },
+    {
+      "name": "start ep245",
+      "ok": true,
+      "detail": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
       "seconds": 0.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 4.3
-    },
-    {
-      "name": "schedule ep225",
-      "ok": true,
-      "detail": "2026-10-27T19:00:00-04:00",
-      "seconds": 1.7
-    },
-    {
-      "name": "start ep234",
-      "ok": true,
-      "detail": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
-      "seconds": 2.1
-    },
-    {
-      "name": "start ep236",
-      "ok": true,
-      "detail": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
-      "seconds": 2.1
-    },
-    {
-      "name": "start ep237",
-      "ok": true,
-      "detail": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
-      "seconds": 2.1
-    },
-    {
-      "name": "start ep238",
-      "ok": true,
-      "detail": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "seconds": 1.9
-    },
-    {
-      "name": "start ep239",
-      "ok": true,
-      "detail": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "seconds": 1.8
-    },
-    {
-      "name": "start ep240",
-      "ok": true,
-      "detail": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
-      "seconds": 1.6
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 1.2
+      "seconds": 1.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "room for 6 of the 12 Shorts wanted: Modal's credit covers 6, this run's share of the Actions minutes 0",
+    "ep236 stopped on Gemini's free quota; it resumes in a later run",
+    "ep237 stopped on Gemini's free quota; it resumes in a later run",
+    "ep238 stopped on Gemini's free quota; it resumes in a later run",
+    "ep239 stopped on Gemini's free quota; it resumes in a later run",
+    "ep240 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "room for 4 of the 6 Shorts wanted: Modal's credit covers 4, this run's share of the Actions minutes 0",
     "Buffer is full (10 queued); 21 waiting"
   ],
   "inventory": {
@@ -157,26 +145,20 @@
     "waiting": 21,
     "target": 42,
     "making": [
-      "ep241",
-      "ep242",
-      "ep244",
-      "ep245"
-    ],
-    "remote": [
-      "ep234",
       "ep236",
       "ep237",
       "ep238",
       "ep239",
       "ep240"
+    ],
+    "remote": [
+      "ep241",
+      "ep242",
+      "ep244",
+      "ep245"
     ]
   },
   "queue": [
-    {
-      "id": "ep174",
-      "title": "The Weapon That Photographed Earth from Space",
-      "due_at": "2026-10-24T19:00:00-04:00"
-    },
     {
       "id": "ep203",
       "title": "The Asteroid That Snuck Past Earth",
@@ -221,15 +203,14 @@
       "id": "ep225",
       "title": "The Planet Made of Diamond",
       "due_at": "2026-10-27T19:00:00-04:00"
-    }
-  ],
-  "waiting": [
+    },
     {
       "id": "ep078",
       "title": "The Bubble That Could Erase the Universe",
-      "series": "The Universe Is Terrifying",
-      "score": 20
-    },
+      "due_at": "2026-10-27T21:30:00-04:00"
+    }
+  ],
+  "waiting": [
     {
       "id": "ep087",
       "title": "The Lonely Reality of the Asteroid Belt",
@@ -349,20 +330,20 @@
       "title": "Why a dead star just SKIPPED a beat",
       "series": "The Universe Is Terrifying",
       "score": 20
+    },
+    {
+      "id": "ep234",
+      "title": "The Soviet Lander That Whispered From Venus",
+      "series": "Mission Files",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep215",
-      "outcome": "rejected",
-      "topic": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep219",
+      "id": "ep234",
       "outcome": "ready",
-      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
-      "title": "The Moon Rock Hiding in Madagascar",
+      "topic": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
+      "title": "The Soviet Lander That Whispered From Venus",
       "scores": {
         "hook": 4,
         "clarity": 4,
@@ -370,179 +351,134 @@
         "visuals": 4,
         "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792842613/universereceipts/ep219-ca7fde34.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792863737/universereceipts/ep234-23fd9bc5.mp4"
     },
     {
-      "id": "ep223",
-      "outcome": "rejected",
-      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
-      "reason": "low scores: payoff, visuals, loop; 2 frame problems"
+      "id": "ep236",
+      "outcome": "unfinished",
+      "topic": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep224",
-      "outcome": "rejected",
-      "topic": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
-      "reason": "low scores: visuals"
+      "id": "ep237",
+      "outcome": "unfinished",
+      "topic": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep225",
-      "outcome": "ready",
-      "topic": "PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond",
-      "title": "The Planet Made of Diamond",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792842600/universereceipts/ep225-977e260a.mp4"
+      "id": "ep238",
+      "outcome": "unfinished",
+      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep228",
-      "outcome": "rejected",
-      "topic": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
-      "reason": "low scores: payoff, loop"
+      "id": "ep239",
+      "outcome": "unfinished",
+      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep229",
-      "outcome": "rejected",
-      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
-      "reason": "low scores: payoff, visuals, loop; 2 frame problems"
-    },
-    {
-      "id": "ep230",
-      "outcome": "rejected",
-      "topic": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
-      "reason": "low scores: clarity, payoff, visuals, loop; 3 frame problems"
-    },
-    {
-      "id": "ep231",
-      "outcome": "rejected",
-      "topic": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep232",
-      "outcome": "rejected",
-      "topic": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
-      "reason": "low scores: payoff, visuals; duration 58.87 s is outside 35-58 s"
-    },
-    {
-      "id": "ep233",
-      "outcome": "rejected",
-      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
-      "reason": "low scores: visuals; 2 frame problems"
+      "id": "ep240",
+      "outcome": "unfinished",
+      "topic": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep234",
-      "topic": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
-      "call_id": "fc-01M5QFXA6XRP44D36S23HB6WM2"
+      "id": "ep241",
+      "topic": "2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween",
+      "call_id": "fc-01M5R4H4YXDJYXE8VWMM4D4DED"
     },
     {
-      "id": "ep236",
-      "topic": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
-      "call_id": "fc-01M5QFXC90GXM623JSKSNJ0YF7"
+      "id": "ep242",
+      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
+      "call_id": "fc-01M5R4H5NDNX3CPB2BCFS42D2Q"
     },
     {
-      "id": "ep237",
-      "topic": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
-      "call_id": "fc-01M5QFXEBDRE9K7ENE7MR4FMVH"
+      "id": "ep244",
+      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "call_id": "fc-01M5R4H6C01XMD2GPXE82ZEESE"
     },
     {
-      "id": "ep238",
-      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "call_id": "fc-01M5QFXG5ZFFMTY2H3ANE8KHSA"
-    },
-    {
-      "id": "ep239",
-      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "call_id": "fc-01M5QFXHZJQFA1V6STBC1NDTA7"
-    },
-    {
-      "id": "ep240",
-      "topic": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
-      "call_id": "fc-01M5QFXKGJFP2KJ0SSAGEFZVD2"
+      "id": "ep245",
+      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
+      "call_id": "fc-01M5R4H7181C2ZFC9ZAHRW32CS"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep234",
-      "topic": "Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled",
-      "spawned_at": "2026-10-24T23:09:05+05:30"
+      "id": "ep241",
+      "topic": "2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween",
+      "spawned_at": "2026-10-25T05:09:27+05:30"
     },
     {
-      "id": "ep236",
-      "topic": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
-      "spawned_at": "2026-10-24T23:09:07+05:30"
+      "id": "ep242",
+      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
+      "spawned_at": "2026-10-25T05:09:27+05:30"
     },
     {
-      "id": "ep237",
-      "topic": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
-      "spawned_at": "2026-10-24T23:09:09+05:30"
+      "id": "ep244",
+      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "spawned_at": "2026-10-25T05:09:28+05:30"
     },
     {
-      "id": "ep238",
-      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "spawned_at": "2026-10-24T23:09:11+05:30"
-    },
-    {
-      "id": "ep239",
-      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "spawned_at": "2026-10-24T23:09:13+05:30"
-    },
-    {
-      "id": "ep240",
-      "topic": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
-      "spawned_at": "2026-10-24T23:09:15+05:30"
+      "id": "ep245",
+      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
+      "spawned_at": "2026-10-25T05:09:29+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep225",
-      "title": "The Planet Made of Diamond",
-      "due_at": "2026-10-27T19:00:00-04:00"
+      "id": "ep078",
+      "title": "The Bubble That Could Erase the Universe",
+      "due_at": "2026-10-27T21:30:00-04:00"
     }
   ],
-  "live": 63,
+  "live": 64,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 47,
+    "calls": 19,
     "by_model": {
-      "gemini-3.8-flash": 6,
-      "gemini-3-flash-preview": 19,
-      "gemini-3.5-flash-lite": 7,
-      "gemini-3.6-flash": 12,
+      "gemini-3.8-flash": 2,
       "gemini-3.7-flash": 2,
-      "gemini-3.5-flash": 1
+      "gemini-3.6-flash": 2,
+      "gemini-3-flash-preview": 6,
+      "gemini-3.5-flash-lite": 7
     },
     "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
       "gemini-3.7-flash",
       "gemini-3.8-flash"
     ]
   },
   "renders": {
-    "modal": 20,
+    "modal": 10,
     "runner": 0
   },
   "daily_done": "2026-10-24",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 27.17,
+    "metered": 27.48,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 6,
+    "cloud": 4,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 0.83
+    "modal_credit_left": 0.52
   },
   "made_here": 0,
   "open_topics": 36,

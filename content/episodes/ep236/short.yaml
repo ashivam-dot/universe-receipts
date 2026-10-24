@@ -1,7 +1,7 @@
 id: ep236
 title: The Spy Mirror Hunting for Alien Worlds
 series: Scale Breaker
-description: NASA adapted a donated spy satellite mirror to create the Nancy Grace Roman Space Telescope, which sees 100 times
+description: NASA adapted a surplus spy satellite mirror to create the Nancy Grace Roman Space Telescope, which sees 100 times
   more sky than Hubble.
 sources:
 - https://en.wikipedia.org/wiki/Nancy_Grace_Roman_Space_Telescope
@@ -29,7 +29,7 @@ voice:
 beats:
 - text: A classified military mirror is about to outscan the Hubble telescope.
   emphasis:
-  - classified military mirror
+  - military mirror
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/1/1f/Nancy_Grace_Roman_Space_Telescope_%282020-35-4665%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -55,19 +55,24 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/7/75/National_Reconnaissance_Office%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/4/4b/Underwater_Ice_Station_Zebra%2C_16_-_Flickr_-_The_Central_Intelligence_Agency.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: National Reconnaissance Office, 2013.jpg
-      credit: Trevor Paglen
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:National_Reconnaissance_Office,_2013.jpg
+      title: Underwater Ice Station Zebra, 16 - Flickr - The Central Intelligence Agency.jpg
+      credit: The Central Intelligence Agency
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Underwater_Ice_Station_Zebra,_16_-_Flickr_-_The_Central_Intelligence_Agency.jpg
     fallbacks:
+    - card
     - color
-    motion: pan_left
-    focus_x: 0.3
-    focus_y: 0.4
-- text: NASA's first chief of astronomy, Nancy Grace Roman, inspired the team to use this hardware.
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 2.4-meter
+      small: mirror hardware
+- text: NASA's first chief of astronomy, Nancy Grace Roman, inspired the agency to repurpose one for a new mission.
   emphasis:
   - Nancy Grace Roman
   visual:
@@ -82,112 +87,95 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.35
-    focus_y: 0.3
+    focus_x: 0.45
+    focus_y: 0.45
     box:
     - 0.15
     - 0.05
-    - 0.6
-    - 0.5
-- text: Engineers adapted the reconnaissance optics into a massive flagship observatory for the 2020s.
+    - 0.85
+    - 0.95
+- text: Engineers adapted this reconnaissance hardware into a flagship observatory to solve the mysteries of dark energy.
   emphasis:
   - flagship observatory
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Roman_Primary_Mirror_Completed_at_L3Harris_%28SVS14461_-_Primary%29.jpg/1280px-Roman_Primary_Mirror_Completed_at_L3Harris_%28SVS14461_-_Primary%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Optical_Telescope_Assembly_for_the_Roman_Space_Telescope.jpg/1920px-Optical_Telescope_Assembly_for_the_Roman_Space_Telescope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Roman Primary Mirror Completed at L3Harris (SVS14461 - Primary).jpg
-      credit: NASA's Scientific Visualization Studio - Jonathan North, Scott Wiessinger
+      title: Optical Telescope Assembly for the Roman Space Telescope.jpg
+      credit: NASA/Chris Gunn
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Roman_Primary_Mirror_Completed_at_L3Harris_(SVS14461_-_Primary).jpg
+      url: https://commons.wikimedia.org/wiki/File:Optical_Telescope_Assembly_for_the_Roman_Space_Telescope.jpg
     fallbacks:
     - card
     - color
     motion: zoom_in
-    focus_x: 0.65
-    focus_y: 0.35
-    box:
-    - 0.4
-    - 0.1
-    - 0.9
-    - 0.6
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: fact
       big: Top Priority
       small: 2020s mission
-- text: On August 30, 2026, a SpaceX Falcon Heavy carried this former spy tool to a point 1.5 million kilometers from Earth.
+- text: On August 30, 2026, a SpaceX Falcon Heavy will carry this former spy tool to a point 1.5 million kilometers from Earth.
   emphasis:
   - 1.5 million kilometers
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/NASA%27s_Nancy_Grace_Roman_Space_Telescope_Launch_%28KSC-20260830-PH-SPX01_0006%29.jpg/1920px-NASA%27s_Nancy_Grace_Roman_Space_Telescope_Launch_%28KSC-20260830-PH-SPX01_0006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/NASA%27s_SpaceX_Europa_Clipper_Launch_%28KSC-20241014-PH-AJN01_0022%29_%28cropped%29.jpg/1920px-NASA%27s_SpaceX_Europa_Clipper_Launch_%28KSC-20241014-PH-AJN01_0022%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: NASA's Nancy Grace Roman Space Telescope Launch (KSC-20260830-PH-SPX01 0006).jpg
-      credit: SpaceX
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:NASA%27s_Nancy_Grace_Roman_Space_Telescope_Launch_(KSC-20260830-PH-SPX01_0006).jpg
+      title: NASA's SpaceX Europa Clipper Launch (KSC-20241014-PH-AJN01 0022) (cropped).jpg
+      credit: NASA Kennedy Space Center / NASA/Amber Jean Notvest
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA%27s_SpaceX_Europa_Clipper_Launch_(KSC-20241014-PH-AJN01_0022)_(cropped).jpg
     fallbacks:
+    - card
     - color
-    motion: pan_down
+    motion: zoom_out
     focus_x: 0.5
-    focus_y: 0.3
-    box:
-    - 0.4
-    - 0.1
-    - 0.6
-    - 0.6
+    focus_y: 0.4
+    card:
+      kind: dateline
+      big: August 2026
+      small: Falcon Heavy launch
 - text: The Nancy Grace Roman Space Telescope matches Hubble's resolution but captures an area 100 times larger.
   emphasis:
   - 100 times larger
   sfx: whoosh
   pause_after: 0.4
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Roman_phatSIM_clean_smaller.jpg/3840px-Roman_phatSIM_clean_smaller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Roman phatSIM clean smaller.jpg
-      credit: 'NASA''s Goddard Space Flight Center
-
-        Producer Scott Wiessinger (KBRwyle) [Lead]
-
-
-        Narrator Scott Wiessinger (KBRwyle)'
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Roman_phatSIM_clean_smaller.jpg
-    fallbacks:
-    - color
-    motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.45
-- text: It will scan more of the sky in five years than Hubble did in over thirty.
+    source: card
+    card:
+      kind: fact
+      big: 100 Times
+      small: wider field of view
+    motion: zoom_in
+- text: It is expected to scan more of the sky in five years than Hubble did in over thirty.
   emphasis:
   - five years
   sfx: pop
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Hubble-ultra-deep-field-20091208-WFC3-IR-full.jpg/1920px-Hubble-ultra-deep-field-20091208-WFC3-IR-full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Roman_Ultra_Deep_Field_Annotated_%282021-003%29.tif/lossy-page1-1280px-Roman_Ultra_Deep_Field_Annotated_%282021-003%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Hubble-ultra-deep-field-20091208-WFC3-IR-full.jpg
-      credit: NASA
+      title: Roman Ultra Deep Field Annotated (2021-003).tif
+      credit: 'IMAGE: NASA, ESA, Anton M. Koekemoer (STScI) ACKNOWLEDGMENT: DSS'
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Hubble-ultra-deep-field-20091208-WFC3-IR-full.jpg
+      url: https://commons.wikimedia.org/wiki/File:Roman_Ultra_Deep_Field_Annotated_(2021-003).tif
     fallbacks:
     - color
-    motion: zoom_out
+    motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: This allows the observatory to hunt for thousands of exoplanets using a classified military mirror.
+- text: That incredible survey power stems entirely from recycling top-secret military hardware.
   emphasis:
-  - classified military mirror
+  - military hardware
   sfx: pop
   visual:
     reuse: 1
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.4
-hook_text: SPY TECH IN DEEP SPACE
+hook_text: SPY GLASS FOR GALAXIES

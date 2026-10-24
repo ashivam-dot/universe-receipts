@@ -10,11 +10,11 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 51% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 69.5% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 127% | rising week over week |
-| Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
-| Likes per 100 views | `likes` / `views` | 3.2 | 4+ |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 54% | 70%+; under 60% rarely takes off |
+| Average percentage viewed | `analytics.averageViewPercentage` | 63.9% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 117% | rising week over week |
+| Subscribers per 1,000 views | `subscribersGained` / `views` | 1.1 | 2+ |
+| Likes per 100 views | `likes` / `views` | 3.6 | 4+ |
 
 ## Rules we've proven
 
@@ -39,7 +39,7 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Replace cosmic tropes with specific observational details in the hook to improve scroll-stop rates. Evidence: ep066, ep118, ep129.
 - Replace administrative proper names, researcher biographies, and instrument lists in middle beats with immediate anomaly reveals or countdown timeframes to maintain narrative tension and pacing. Evidence: ep111, ep112, ep125, ep186, ep188, ep197.
 - Avoid giveaway conclusion signals in final beats to prevent viewer drop-off before the loop or payoff completes. Evidence: ep111, ep118, ep129.
-- Use immediate physical threat or high-stakes action phrases in hook text rather than abstract distances or dates to maximize swipe-through. Evidence: ep112, ep130, ep133, ep181, ep184.
+- Use immediate physical threat or high-stakes action phrases in hook text rather than abstract distances or dates to maximize swipe-through. Evidence: ep072, ep112, ep130, ep133, ep181, ep184.
 - Avoid stacking multiple rapid numerical figures or dates across consecutive middle beats to prevent cognitive fatigue and protect like conversion. Evidence: ep125, ep175.
 - Delay the safety resolution or anti-climax in hazard scripts until the absolute final beat to sustain mid-to-late retention. Evidence: ep130, ep133, ep137, ep159.
 - Eliminate secondary aftermath subplots, historical footnotes, or unrelated survival outcomes following the main climax to preserve rewatch velocity. Evidence: ep137, ep159.
@@ -48,7 +48,7 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Ensure the final beat provides a complete concluding sentence rather than cutting off mid-thought to preserve like conversion and rewatch value. Evidence: ep137, ep172.
 - Replace technical scientific measurements and optical jargon with relatable physical scale analogies to prevent midpoint retention drop-offs. Evidence: ep159, ep188.
 - Replace static statement hooks with logic-defying challenges or 'nature isn't supposed to' framing to improve scroll-stop rates. Evidence: ep133, ep195.
-- Replace purely descriptive closing lines with an active viewer prompt or observational challenge in the final beat to drive comments and engagement. Evidence: ep146, ep201.
+- Replace purely descriptive closing lines with an active viewer prompt or observational challenge in the final beat to drive comments and engagement. Evidence: ep146, ep185, ep201.
 - Start high-stakes hazard hooks with a direct chronological countdown or a stark paradox rather than a historical or static statement. Evidence: ep184, ep195.
 
 ## Hypotheses to test (from research, not yet our data)
@@ -62,54 +62,55 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 One row per live Short once it has 24+ hours of data. Hook style is statement, question, number, or
 contradiction.
 
-| Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
+| Short | Series | Hook style | Observed 24-30h views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep030 | Scale Breaker | number, record | 1114 | 52% | 80.6% | 137% | 4 | – |
-| ep040 | Space Got Weird | statement, myth_vs_fact | 488 | 57% | 60.2% | 106% | 1 | – |
-| ep045 | Mission Files | contradiction, mystery | 1091 | 51% | 78.0% | 128% | 5 | – |
-| ep046 | Space Got Weird | contradiction, mystery | 468 | 58% | 68.8% | 110% | 4 | – |
-| ep047 | Space Myths, Busted | question, mystery | 1455 | 53% | 55.5% | 112% | 2 | – |
-| ep048 | Scale Breaker | statement, scale_ladder | 1053 | 53% | 77.2% | 136% | 1 | – |
-| ep049 | The Universe Is Terrifying | statement, scale_ladder | 699 | 49% | 65.4% | 125% | 2 | – |
-| ep050 | Near Misses | contradiction, scale_ladder | 1134 | 53% | 62.8% | 111% | 2 | – |
-| ep051 | Mission Files | statement, scale_ladder | 1247 | 69% | 53.6% | 112% | 0 | – |
-| ep052 | Space Got Weird | statement, story | 828 | 55% | 64.5% | 120% | 4 | – |
-| ep053 | Space Myths, Busted | statement, story | 1106 | 49% | 57.8% | 113% | 2 | – |
-| ep055 | The Universe Is Terrifying | contradiction, story | 482 | 52% | 51.9% | 106% | 2 | – |
-| ep058 | Space Got Weird | statement, myth_vs_fact | 1054 | 52% | 107.7% | 160% | 3 | – |
-| ep060 | Scale Breaker | statement, scale_ladder | 784 | 37% | 69.0% | 117% | 1 | – |
-| ep061 | The Universe Is Terrifying | statement, scale_ladder | 245 | 47% | 85.0% | 145% | 0 | – |
-| ep063 | Near Misses | contradiction, mystery | 1032 | 51% | 72.0% | 115% | 4 | – |
-| ep066 | Space Got Weird | statement, story | 1400 | 49% | 81.9% | 134% | 4 | – |
-| ep071 | The Universe Is Terrifying | statement, record | 1015 | 49% | 94.8% | 145% | 1 | – |
-| ep072 | Near Misses | statement, record | 879 | 49% | 190.7% | 250% | 1 | – |
-| ep079 | Scale Breaker | contradiction, story | 354 | 46% | 81.8% | 130% | 0 | – |
-| ep084 | Mission Files | contradiction, story | 462 | 48% | 96.8% | 149% | 1 | – |
-| ep086 | Space Got Weird | statement, record | 524 | 47% | 137.2% | 177% | 3 | – |
-| ep099 | Scale Breaker | statement, scale_ladder | 1029 | 51% | 70.6% | 124% | 1 | – |
-| ep105 | Scale Breaker | statement, myth_vs_fact | 873 | 50% | 158.6% | 212% | 4 | – |
-| ep110 | Space Got Weird | statement, story | 1243 | 56% | 76.8% | 120% | 2 | – |
-| ep111 | Scale Breaker | number, story | 1203 | 52% | 98.0% | 145% | 1 | – |
-| ep112 | Near Misses | statement, story | 895 | 53% | 62.2% | 111% | 1 | – |
-| ep114 | Scale Breaker | statement, scale_ladder | 297 | 50% | 73.8% | 126% | 0 | – |
-| ep118 | Space Got Weird | statement, mystery | 1115 | 54% | 69.6% | 118% | 0 | – |
-| ep125 | Mission Files | statement, record | 1013 | 56% | 109.2% | 159% | 3 | – |
-| ep129 | Space Got Weird | statement, story | 364 | 57% | 82.6% | 132% | 1 | – |
-| ep130 | The Universe Is Terrifying | statement, scale_ladder | 1069 | 53% | 60.6% | 113% | 2 | – |
-| ep133 | Space Got Weird | statement, scale_ladder | 1321 | 48% | 59.5% | 117% | 3 | – |
-| ep137 | Near Misses | statement, story | 1022 | 54% | 96.9% | 150% | 0 | – |
-| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1217 | 54% | 62.6% | 111% | 1 | – |
-| ep159 | Space Myths, Busted | statement, scale_ladder | 1260 | 57% | 61.0% | 100% | 0 | Hook myth-bust worked; pacing killed by 'one-arcminute' jargon; visuals okay; no loop/engagement prompt. |
-| ep167 | The Universe Is Terrifying | statement, myth_vs_fact | 11 | 36% | 69.5% | – | 0 | – |
-| ep172 | Space Myths, Busted | contradiction, scale_ladder | 1001 | 53% | 64.0% | 116% | 1 | Hook conflict worked; pacing stalled by mid-script repetition; visuals standard; loop failed on ungrammatical cutoff. |
-| ep175 | Scale Breaker | contradiction, mystery | 1694 | 48% | 84.8% | 134% | 2 | Hook paradox worked; pacing sagged during technical explanation; visuals okay; loop missing despite good setup. |
-| ep181 | The Universe Is Terrifying | statement, scale_ladder | 529 | – | – | – | – | Hook too abstract/distant; topic resonance high; visuals standard; pacing needs immediate threat to catch feed. |
-| ep184 | Near Misses | statement, myth_vs_fact | 707 | 54% | 66.0% | 110% | 0 | Hook too slow/historical; topic high stakes; pacing lost to procedural radar details; visuals fine. |
-| ep186 | Scale Breaker | contradiction, myth_vs_fact | 865 | 56% | 69.5% | 127% | 1 | Hook contradiction worked; pacing hit a wall with NASA administrator names; visuals okay; loop failed. |
-| ep188 | Scale Breaker | contradiction, record | 1019 | 50% | 80.3% | 128% | 0 | Hook scale worked; pacing killed by mid-script physics debate; visuals standard; loop missing. |
-| ep195 | Space Got Weird | statement, scale_ladder | 707 | – | – | – | – | Hook too descriptive; topic liked by viewers; pacing lacked early tension for high view velocity. |
-| ep197 | Space Myths, Busted | contradiction, scale_ladder | 1048 | – | – | – | – | Hook contradiction fast; pacing stalled on academic attribution (Giuseppe Colombo); visuals okay; loop failed. |
-| ep201 | Scale Breaker | statement, myth_vs_fact | 1029 | – | – | – | – | Hook scale worked; topic felt too clinical/factual; pacing fine; loop missing a direct engagement prompt. |
+| ep030 | Scale Breaker | number, record | 1081 | 52% | 80.6% | 137% | 4 | – |
+| ep040 | Space Got Weird | statement, myth_vs_fact | 425 | 57% | 60.2% | 106% | 1 | – |
+| ep060 | Scale Breaker | statement, scale_ladder | 750 | 37% | 69.0% | 117% | 1 | – |
+| ep047 | Space Myths, Busted | question, mystery | 1347 | 53% | 55.5% | 112% | 2 | – |
+| ep046 | Space Got Weird | contradiction, mystery | 413 | 58% | 68.8% | 110% | 4 | – |
+| ep086 | Space Got Weird | statement, record | 367 | 47% | 137.2% | 177% | 3 | – |
+| ep049 | The Universe Is Terrifying | statement, scale_ladder | 585 | 49% | 65.4% | 125% | 2 | – |
+| ep052 | Space Got Weird | statement, story | 726 | 55% | 64.5% | 120% | 4 | – |
+| ep114 | Scale Breaker | statement, scale_ladder | 191 | 50% | 73.8% | 126% | 0 | – |
+| ep050 | Near Misses | contradiction, scale_ladder | 1122 | 53% | 62.8% | 111% | 2 | – |
+| ep055 | The Universe Is Terrifying | contradiction, story | 451 | 52% | 51.9% | 106% | 2 | – |
+| ep099 | Scale Breaker | statement, scale_ladder | 962 | 51% | 70.6% | 124% | 1 | – |
+| ep066 | Space Got Weird | statement, story | 1096 | 49% | 81.9% | 134% | 4 | – |
+| ep084 | Mission Files | contradiction, story | 350 | 48% | 96.8% | 149% | 1 | – |
+| ep129 | Space Got Weird | statement, story | 190 | 57% | 82.6% | 132% | 1 | – |
+| ep048 | Scale Breaker | statement, scale_ladder | 1020 | 53% | 77.2% | 136% | 1 | – |
+| ep045 | Mission Files | contradiction, mystery | 1060 | 51% | 78.0% | 128% | 5 | – |
+| ep079 | Scale Breaker | contradiction, story | 275 | 46% | 81.8% | 130% | 0 | – |
+| ep110 | Space Got Weird | statement, story | 1169 | 56% | 76.7% | 120% | 2 | – |
+| ep105 | Scale Breaker | statement, myth_vs_fact | 662 | 50% | 158.6% | 212% | 4 | – |
+| ep112 | Near Misses | statement, story | 581 | 53% | 62.2% | 111% | 1 | – |
+| ep111 | Scale Breaker | number, story | 1169 | 52% | 98.0% | 145% | 1 | – |
+| ep118 | Space Got Weird | statement, mystery | 927 | 54% | 69.6% | 118% | 0 | – |
+| ep130 | The Universe Is Terrifying | statement, scale_ladder | 823 | 53% | 60.6% | 113% | 2 | – |
+| ep125 | Mission Files | statement, record | 450 | 56% | 109.2% | 159% | 3 | – |
+| ep175 | Scale Breaker | contradiction, mystery | 1435 | 48% | 84.8% | 134% | 2 | – |
+| ep133 | Space Got Weird | statement, scale_ladder | 1208 | 48% | 59.6% | 117% | 3 | – |
+| ep051 | Mission Files | statement, scale_ladder | 1215 | 69% | 53.6% | 112% | 0 | – |
+| ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | 57% | 61.0% | 100% | 0 | – |
+| ep188 | Scale Breaker | contradiction, record | 948 | 50% | 80.3% | 128% | 0 | – |
+| ep137 | Near Misses | statement, story | 946 | 54% | 96.9% | 150% | 0 | – |
+| ep053 | Space Myths, Busted | statement, story | 1092 | 49% | 57.8% | 113% | 2 | – |
+| ep167 | The Universe Is Terrifying | statement, myth_vs_fact | 8 | 36% | 69.5% | – | 0 | – |
+| ep058 | Space Got Weird | statement, myth_vs_fact | 1014 | 52% | 106.6% | 158% | 3 | – |
+| ep063 | Near Misses | contradiction, mystery | 1010 | 51% | 72.1% | 115% | 4 | – |
+| ep184 | Near Misses | statement, myth_vs_fact | 487 | 54% | 66.8% | 110% | 0 | – |
+| ep071 | The Universe Is Terrifying | statement, record | 917 | 49% | 93.7% | 144% | 1 | – |
+| ep072 | Near Misses | statement, record | 711 | 50% | 175.4% | – | 1 | Abstract hook text reduced engaged share, but strong solar storm topic and seamless loop yielded highest rewatch retention on the channel. |
+| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 58% | 64.7% | 119% | 1 | Strong contradiction hook and high like rate offset mid-script administrative slowdown and weak loop. |
+| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.4% | 110% | 1 | Timely comet topic and high search reach drove views, but weak hook tension and clunky ending killed late retention. |
+| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 63.8% | 114% | 1 | High-stakes Apollo hook maintained view velocity, but mid-script premise repetition and an ungrammatical trailing ending hurt loop performance. |
+| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 61.0% | 118% | 1 | Descriptive hook dragged down distribution velocity, though the intriguing asteroid ring topic earned high like conversion among viewers who stayed. |
+| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.9% | 116% | 1 | Contradiction hook drove solid view velocity, but academic name-dropping in middle beats hurt viewer interaction and likes. |
+| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 55% | 105.7% | 153% | 2 | Scale Breaker title and star shrinkage hook pulled strong feed views, but definitive ending failed to drive comment engagement. |
+| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | – | – | – | – | Abstract visual hook text slowed early reach, but high-stakes magnetar topic generated high like conversion. |
+| ep221 | Mission Files | contradiction, story | 400 | – | – | – | – | Slow hook setup choked initial distribution, though historical Suicide Squad narrative drove strong like conversion once watched. |
+| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | – | – | – | – | Debunking myth topic achieved high likes, but passive hook and neat informational ending hindered comments and view velocity. |
 
 ## Log
 
@@ -200,3 +201,4 @@ contradiction.
 - 2026-10-24: Promoted interactive closing prompts and paradoxical hazard hooks to rules; updated existing rules with evidence from 10 new reviews.
 - 2026-10-24: Evaluated ten recent Shorts against recomputed medians, reaffirming established rules on contradiction hooks and conversational endings while preserving three unproven hypotheses.
 - 2026-10-24: Consolidated rules on mid-script academic attribution and technical analogies using evidence from ep159, ep186, and ep197.
+- 2026-10-25: Reviewed 10 Shorts, updating evidence for Rule 19 (ep072) and Rule 28 (ep185) regarding high-stakes hook text and comment-prompting endings.

@@ -130,18 +130,18 @@ beats:
     focus_y: 0.5
 - text: In 2017, as the world passed before a distant star, starlight blinked twice unexpectedly.
   emphasis:
-  - '2017'
+  - starlight
   - blinked twice
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/0/0d/Light_curve_of_binary_star_Kepler-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Occultation_d%27une_%C3%A9toile_par_%C3%89ris_le_6_novembre_2010.tiff/lossless-page1-960px-Occultation_d%27une_%C3%A9toile_par_%C3%89ris_le_6_novembre_2010.tiff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Light curve of binary star Kepler-16.jpg
-      credit: NASA
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Light_curve_of_binary_star_Kepler-16.jpg
+      title: Occultation d'une étoile par Éris le 6 novembre 2010.tiff
+      credit: ESO/L. Calçada
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Occultation_d%27une_%C3%A9toile_par_%C3%89ris_le_6_novembre_2010.tiff
     fallbacks:
     - card
     - color
@@ -171,21 +171,21 @@ beats:
     - card
     - color
     motion: pan_right
-    focus_x: 0.53
-    focus_y: 0.38
+    focus_x: 0.5
+    focus_y: 0.4
     box:
-    - 0.44
-    - 0.23
-    - 0.61
-    - 0.58
+    - 0.3
+    - 0.1
+    - 0.7
+    - 0.8
     card:
       kind: fact
       big: 70 KM WIDE
       small: Ring System Discovered
-- text: Designated Haumea, an ancient cosmic collision created a world that defies normal physics.
+- text: Known as Haumea, this collision created the frozen world.
   emphasis:
   - Haumea
-  - defies normal physics
+  - frozen world
   visual:
     reuse: 1
     motion: zoom_out

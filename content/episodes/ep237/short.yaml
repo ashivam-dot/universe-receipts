@@ -69,24 +69,10 @@ beats:
   - 4581 Asclepius
   sfx: riser
   visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png
-      credit: NASA/JPL
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
+    reuse: 2
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-    card:
-      kind: dateline
-      big: March 22, 1989
-      small: Orbital Crossing
 - text: Astronomers Henry Holt and Norman Thomas only discovered the asteroid nine days after it had already swept past.
   emphasis:
   - Henry Holt
@@ -94,24 +80,12 @@ beats:
   sfx: pop
   pause_after: 0.4
   visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/f/ff/Gene_and_Carolyn_Shoemaker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Gene and Carolyn Shoemaker.jpg
-      credit: Unknown authorUnknown author
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Gene_and_Carolyn_Shoemaker.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_up
-    focus_x: 0.5
-    focus_y: 0.7
+    source: card
     card:
       kind: fact
       big: 9 Days Later
       small: Discovery delay
+    motion: zoom_in
 - text: The massive object swept past us at a distance of roughly 684,000 kilometers.
   emphasis:
   - 684,000 kilometers
