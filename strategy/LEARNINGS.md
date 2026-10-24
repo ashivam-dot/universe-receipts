@@ -10,11 +10,11 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 53% | 70%+; under 60% rarely takes off |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 51% | 70%+; under 60% rarely takes off |
 | Average percentage viewed | `analytics.averageViewPercentage` | 69.5% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 122% | rising week over week |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 127% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
-| Likes per 100 views | `likes` / `views` | 2.6 | 4+ |
+| Likes per 100 views | `likes` / `views` | 3.2 | 4+ |
 
 ## Rules we've proven
 
@@ -39,7 +39,7 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Replace cosmic tropes with specific observational details in the hook to improve scroll-stop rates. Evidence: ep066, ep118, ep129.
 - Replace administrative proper names, researcher biographies, and instrument lists in middle beats with immediate anomaly reveals or countdown timeframes to maintain narrative tension and pacing. Evidence: ep111, ep112, ep125, ep186, ep188, ep197.
 - Avoid giveaway conclusion signals in final beats to prevent viewer drop-off before the loop or payoff completes. Evidence: ep111, ep118, ep129.
-- Use immediate physical threat or high-stakes action phrases in hook text rather than abstract distances or dates to maximize swipe-through. Evidence: ep112, ep130, ep133, ep184.
+- Use immediate physical threat or high-stakes action phrases in hook text rather than abstract distances or dates to maximize swipe-through. Evidence: ep112, ep130, ep133, ep181, ep184.
 - Avoid stacking multiple rapid numerical figures or dates across consecutive middle beats to prevent cognitive fatigue and protect like conversion. Evidence: ep125, ep175.
 - Delay the safety resolution or anti-climax in hazard scripts until the absolute final beat to sustain mid-to-late retention. Evidence: ep130, ep133, ep137, ep159.
 - Eliminate secondary aftermath subplots, historical footnotes, or unrelated survival outcomes following the main climax to preserve rewatch velocity. Evidence: ep137, ep159.
@@ -64,7 +64,6 @@ contradiction.
 
 | Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| 2rz-F-WZsXA | ? | –, story | 109 | 35% | 48.1% | 103% | 0 | – |
 | ep030 | Scale Breaker | number, record | 1114 | 52% | 80.6% | 137% | 4 | – |
 | ep040 | Space Got Weird | statement, myth_vs_fact | 488 | 57% | 60.2% | 106% | 1 | – |
 | ep045 | Mission Files | contradiction, mystery | 1091 | 51% | 78.0% | 128% | 5 | – |
@@ -99,17 +98,18 @@ contradiction.
 | ep130 | The Universe Is Terrifying | statement, scale_ladder | 1069 | 53% | 60.6% | 113% | 2 | – |
 | ep133 | Space Got Weird | statement, scale_ladder | 1321 | 48% | 59.5% | 117% | 3 | – |
 | ep137 | Near Misses | statement, story | 1022 | 54% | 96.9% | 150% | 0 | – |
-| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1214 | 54% | 62.6% | 111% | 1 | Urgent contradiction hook drove above-median engaged share and view velocity, but a descriptive, passive closing beat flattened comments and held view duration below median. |
-| ep159 | Space Myths, Busted | statement, scale_ladder | 1257 | 57% | 61.0% | 100% | 0 | Strong myth-busting hook produced above-median engaged share, but technical optical jargon in middle beats caused steep retention drops and severely depressed likes. |
+| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1217 | 54% | 62.6% | 111% | 1 | – |
+| ep159 | Space Myths, Busted | statement, scale_ladder | 1260 | 57% | 61.0% | 100% | 0 | Hook myth-bust worked; pacing killed by 'one-arcminute' jargon; visuals okay; no loop/engagement prompt. |
 | ep167 | The Universe Is Terrifying | statement, myth_vs_fact | 11 | 36% | 69.5% | – | 0 | – |
-| ep172 | Space Myths, Busted | contradiction, scale_ladder | 999 | 53% | 64.0% | 116% | 1 | High-stakes conflict hook held median engaged share, but redundant mid-script premise recaps and an incomplete final sentence hurt average percentage viewed. |
-| ep175 | Scale Breaker | contradiction, mystery | 1694 | 48% | 84.8% | 134% | 2 | Paradox hook and massive scale topic delivered well-above-median view percentage and early retention, though lack of an interactive ending kept like conversion below median. |
-| ep184 | Near Misses | statement, myth_vs_fact | 708 | 54% | 66.0% | 110% | 0 | Historical context opening slowed initial view velocity and early retention, but high-stakes nuclear tension yielded well-above-median likes once viewers stayed. |
-| ep186 | Scale Breaker | contradiction, myth_vs_fact | 865 | 56% | 69.5% | 127% | 1 | Iconic visual hook drove above-median engaged share and likes, though administrative back-and-forth in middle beats slightly dragged distribution pacing. |
-| ep188 | Scale Breaker | contradiction, record | 1019 | 50% | 80.3% | 128% | 0 | Striking visual topic and high-stakes hook sustained above-median view percentage and early retention, while complex mid-script scientific debate kept likes near median. |
-| ep195 | Space Got Weird | statement, scale_ladder | 668 | – | – | – | – | Intriguing anomaly topic drove high like conversion, but a descriptive statement hook lacked urgent contradiction, subduing initial view velocity. |
-| ep197 | Space Myths, Busted | contradiction, scale_ladder | 985 | – | – | – | – | Contradiction hook achieved solid initial velocity, but academic name-drops in middle beats and a non-interactive conclusion kept like conversion at median. |
-| ep201 | Scale Breaker | statement, myth_vs_fact | 1023 | – | – | – | – | Strong Scale Breaker premise powered high view velocity, but clinical debunking tone and a definitive closing beat yielded below-median likes and zero comments. |
+| ep172 | Space Myths, Busted | contradiction, scale_ladder | 1001 | 53% | 64.0% | 116% | 1 | Hook conflict worked; pacing stalled by mid-script repetition; visuals standard; loop failed on ungrammatical cutoff. |
+| ep175 | Scale Breaker | contradiction, mystery | 1694 | 48% | 84.8% | 134% | 2 | Hook paradox worked; pacing sagged during technical explanation; visuals okay; loop missing despite good setup. |
+| ep181 | The Universe Is Terrifying | statement, scale_ladder | 529 | – | – | – | – | Hook too abstract/distant; topic resonance high; visuals standard; pacing needs immediate threat to catch feed. |
+| ep184 | Near Misses | statement, myth_vs_fact | 707 | 54% | 66.0% | 110% | 0 | Hook too slow/historical; topic high stakes; pacing lost to procedural radar details; visuals fine. |
+| ep186 | Scale Breaker | contradiction, myth_vs_fact | 865 | 56% | 69.5% | 127% | 1 | Hook contradiction worked; pacing hit a wall with NASA administrator names; visuals okay; loop failed. |
+| ep188 | Scale Breaker | contradiction, record | 1019 | 50% | 80.3% | 128% | 0 | Hook scale worked; pacing killed by mid-script physics debate; visuals standard; loop missing. |
+| ep195 | Space Got Weird | statement, scale_ladder | 707 | – | – | – | – | Hook too descriptive; topic liked by viewers; pacing lacked early tension for high view velocity. |
+| ep197 | Space Myths, Busted | contradiction, scale_ladder | 1048 | – | – | – | – | Hook contradiction fast; pacing stalled on academic attribution (Giuseppe Colombo); visuals okay; loop failed. |
+| ep201 | Scale Breaker | statement, myth_vs_fact | 1029 | – | – | – | – | Hook scale worked; topic felt too clinical/factual; pacing fine; loop missing a direct engagement prompt. |
 
 ## Log
 
@@ -199,3 +199,4 @@ contradiction.
 - 2026-10-24: Added ep197 as supporting evidence to the rule eliminating researcher biographies and proper names in middle beats after academic attribution stalled velocity.
 - 2026-10-24: Promoted interactive closing prompts and paradoxical hazard hooks to rules; updated existing rules with evidence from 10 new reviews.
 - 2026-10-24: Evaluated ten recent Shorts against recomputed medians, reaffirming established rules on contradiction hooks and conversational endings while preserving three unproven hypotheses.
+- 2026-10-24: Consolidated rules on mid-script academic attribution and technical analogies using evidence from ep159, ep186, and ep197.

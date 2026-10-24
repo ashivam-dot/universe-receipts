@@ -104,7 +104,52 @@
       "better_than_last": "",
       "judge": "gemini-3.8-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-24T17:20:11+05:30",
+      "check": {
+        "duration": 51.09,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'analogues' heard as 'analogs' after 'for larger rock'",
+          "'(nothing)' heard as 'you' after 'is blinding face'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening line that immediately grabs viewer attention.",
+        "clarity": "Clear linear explanation of lunar crust formation and Earth analogs.",
+        "payoff": "Satisfying reveal showing the massive satellite view of the formation.",
+        "visuals": "Consistently relevant geological and space imagery.",
+        "loop": "Seamless audio transition matching the opening statement."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides clearer visual alignment between the script narrative and satellite imagery than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
     }
   ],
-  "best_round": 2
+  "best_round": 3
 }

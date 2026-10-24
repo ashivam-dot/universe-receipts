@@ -1,0 +1,172 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-23T17:16:02+05:30",
+      "check": {
+        "duration": 57.68,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'ii' heard as 'the 2nd' after 'launch system artemis'",
+          "'reid wiseman' heard as 'reed weissman' after 'spacecraft systems commander'",
+          "'splashdown' heard as 'splashed down' after 'a pacific ocean'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Opening fact is interesting but frames a future mission in the past tense.",
+        "clarity": "Confusing mix of future launch dates and past-tense accomplishments.",
+        "payoff": "Lacks a sharp final revelation beyond standard mission milestones.",
+        "visuals": "Technical diagram on beat 4 contains illegible small text.",
+        "loop": "Closing sentence does not roll cleanly into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "mostly text and illegible labels at phone size"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "II",
+          "respelling": "two"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: Four astronauts will soon fly 252,756 miles from Earth to break Apollo 13's historic record.",
+        "Beat 2: Slated for 2026 aboard NASA's Space Launch System, Artemis II will push farther into deep space than humans have ever traveled.",
+        "Beat 7: After splashing down in the Pacific, this flight will reset the record for the farthest humans have ever traveled."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:20:13+05:30",
+      "check": {
+        "duration": 53.56,
+        "words": 124,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'ii' heard as 'the 2nd' after 'launch system artemis'",
+          "'reid wiseman' heard as 'reed weisman' after 'ever traveled commander'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Opening with specific mileage is clear but lacks immediate tension.",
+        "clarity": "Information flows logically with one concept per beat.",
+        "payoff": "Comparing an emergency record to a planned mission offers a mild contrast.",
+        "visuals": "Graphics are clear, though beat 4 relies on a text-heavy diagram.",
+        "loop": "The ending phrase transitions smoothly back into beat 1."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Graphic contains small text labels."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Change to 'Four astronauts are about to beat Apollo 13's deep space record.'",
+        "Beat 6: Change to 'Apollo 13 set its record during a fatal crisis, but Artemis II will do it by design.'"
+      ],
+      "better_than_last": "It presents a clearer historical contrast than ep226.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:25:27+05:30",
+      "check": {
+        "duration": 52.07,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'april 2026 nasa'",
+          "'reid wiseman' heard as 'reed weisman' after 'will join commander'",
+          "'ii' heard as 'the 2nd' after 'crisis but artemis'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Strong historical comparison immediately clarifies the stakes.",
+        "clarity": "Logical progression from mission goal to crew specifics.",
+        "payoff": "The explanation of the record's origin provides context.",
+        "visuals": "Imagery is high quality and relevant to the script.",
+        "loop": "The final sentence ends abruptly without a smooth transition."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Frame is mostly text and delivery dates, hard to read on mobile."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: This splashdown will prove humanity is finally ready, starting with these..."
+      ],
+      "better_than_last": "Provides a more compelling historical contrast than the dead star mystery in ep226.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, loop",
+  "rejected_at": "2026-10-24T17:25:27+05:30"
+}

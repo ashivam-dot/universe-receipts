@@ -1,0 +1,197 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-24T17:16:46+05:30",
+      "check": {
+        "duration": 58.1,
+        "words": 127,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [
+          "duration 58.1 s is outside 35-58 s"
+        ],
+        "speech_differences": [
+          "'eridanus' heard as 'eridinous' after 'years across the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening line effectively grabs attention with cosmic stakes.",
+        "clarity": "Core concept is clear, but technical details on dark energy expansion add confusion.",
+        "payoff": "The mismatch with standard physics models offers a satisfying cosmic mystery.",
+        "visuals": "Inappropriate visuals like historical pottery disrupt the astronomical topic.",
+        "loop": "Seamless transition from the closing line back into the opening premise."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "off-topic historical river manuscript illustration instead of cosmic deep space map"
+        },
+        {
+          "beat": 6,
+          "problem": "off-topic image of ancient ceramic pottery instead of thermal background radiation map"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 4: When light enters the void, dark energy accelerates space's expansion.",
+        "Beat 6: This leaves a region significantly colder than the universe's background temperature.",
+        "The render ran 58.1 s; it must be 35-58 s."
+      ],
+      "better_than_last": "Presents a more intriguing central mystery than episode 226.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:21:15+05:30",
+      "check": {
+        "duration": 52.39,
+        "words": 115,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'eridanus' heard as 'aridness' after 'years across the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of energy theft is a strong, high-stakes opening for a science short.",
+        "clarity": "Effectively sequences the relationship between expansion and photon cooling.",
+        "payoff": "Ends on scientific uncertainty which feels less punchy than a definitive revelation.",
+        "visuals": "The scientific diagrams are accurate but frequently cluttered with baked-in source text.",
+        "loop": "The final adverb creates a smooth grammatical bridge back to the subject."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The frame contains prominent baked-in source text and identifying labels."
+        },
+        {
+          "beat": 7,
+          "problem": "A generic observatory exterior does not effectively illustrate the concept of complex calculations."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "eridanus",
+          "respelling": "eh rid uh nus"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: But standard math shows this void only explains a fraction of the cold.",
+        "Beat 8: Current physics cannot explain why this void drains cosmic energy so aggressively."
+      ],
+      "better_than_last": "The narrative arc regarding energy loss is more cohesive than the technical sequence in episode 226.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:24:21+05:30",
+      "check": {
+        "duration": 49.66,
+        "words": 112,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'eridanus' heard as 'eridinous' after 'years across the'",
+          "'(nothing)' heard as 'you' after 'energy so aggressively'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong scale appeal but the stealing energy trope is familiar.",
+        "clarity": "Dark energy interaction with light particles is slightly over-explained.",
+        "payoff": "The mathematical discrepancy is a good twist but lacks punch.",
+        "visuals": "Several frames rely on text-heavy maps that fail on mobile.",
+        "loop": "Functional transition that needs a better verbal bridge to start."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Star chart is cluttered with small text unreadable on phone screens."
+        },
+        {
+          "beat": 6,
+          "problem": "A/B comparison labels are too small and the maps lack detail."
+        },
+        {
+          "beat": 7,
+          "problem": "Generic observatory image fails to visualize the mathematical concept mentioned."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Eridanus",
+          "respelling": "eh rid uh nus"
+        }
+      ],
+      "rewrite": [
+        "Beat 5: Passing light loses energy as it climbs out, cooling down.",
+        "Beat 7: Yet, math shows this void only causes a tiny fraction of the chill.",
+        "Beat 8: Science can't explain what else is hollowing out this..."
+      ],
+      "better_than_last": "It presents a much grander sense of cosmic scale than the pulsar episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: clarity, payoff, visuals, loop; 3 frame problems",
+  "rejected_at": "2026-10-24T17:24:21+05:30"
+}

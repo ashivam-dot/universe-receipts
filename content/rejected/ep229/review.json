@@ -1,0 +1,197 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-23T17:15:44+05:30",
+      "check": {
+        "duration": 46.72,
+        "words": 105,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong curiosity hook, though it gives away the entire core twist immediately.",
+        "clarity": "Linear chronological sequence that is very easy to follow.",
+        "payoff": "The ending simply repeats the premise established in beat 1 without a fresh punchline.",
+        "visuals": "Several visual assets are mismatched or depict unrelated celestial objects.",
+        "loop": "Phrasing transitions smoothly from the final clause back into the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "mostly text comparison chart featuring unrelated impactors"
+        },
+        {
+          "beat": 4,
+          "problem": "landscape photo lacking the mentioned fireball or camera capture"
+        },
+        {
+          "beat": 6,
+          "problem": "shows the wrong object orbit labeled 2001 SG286"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Replace with 'In 1972, a blinding fireball streaked across the daytime sky, but never hit the ground.'",
+        "Beat 6: Replace with 'Instead of crashing, the meteoroid merely grazed the atmosphere and rebounded back into interplanetary space.'"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:22:01+05:30",
+      "check": {
+        "duration": 47.97,
+        "words": 110,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'ceplecha' heard as 'seplicha' after 'czech astronomer zdenek'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "The concept of a fireball skipping off Earth is immediately intriguing.",
+        "clarity": "Beat 8 nonsensically claims the meteoroid never hit ground because people watched it.",
+        "payoff": "The fascinating orbital deflection climax is undermined by the confusing final line.",
+        "visuals": "Features an elementary German clip-art diagram, cluttered textbook labels, and the wrong asteroid.",
+        "loop": "Beat 8 ends on a bizarre non sequitur that fails to flow back into beat 1."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Crude German-language diagram with foreign labels rather than a compelling visual."
+        },
+        {
+          "beat": 6,
+          "problem": "Cluttered atmospheric diagram covered in tiny, illegible text labels."
+        },
+        {
+          "beat": 7,
+          "problem": "Displays the orbit of an unrelated asteroid, 2427 Kobzar, with illegible text."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Ceplecha",
+          "respelling": "tsep lek ha"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: Not a single solid fragment reached the ground after skipping off the atmosphere and escaping into space."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:26:46+05:30",
+      "check": {
+        "duration": 46.49,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'ceplecha' heard as 'seplecha' after 'space astronomer zdenek'",
+          "'(nothing)' heard as 'you' after 'escaping into space'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong start with a specific year and a clear, unusual premise.",
+        "clarity": "Narrative flows logically from typical meteor behavior to this unique event.",
+        "payoff": "The orbit change is a good fact but lacks a dramatic punch.",
+        "visuals": "Major error using an impact crater for an object that never crashed.",
+        "loop": "The transition is grammatically clunky and doesn't feel like a continuous thought."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Shows Meteor Crater, an impact site, contradicting the 'skipped off' story."
+        },
+        {
+          "beat": 2,
+          "problem": "Same impact crater image as beat 1, reinforcing the wrong context."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "zdenek",
+          "respelling": "zden yek"
+        },
+        {
+          "beat": 7,
+          "word": "ceplecha",
+          "respelling": "chep leh kah"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: Change to 'No solid fragment ever reached the ground, before this...' to better bridge the loop."
+      ],
+      "better_than_last": "This Short provides a more distinct historical timeframe and geographic setting than episode 226.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals, loop; 2 frame problems",
+  "rejected_at": "2026-10-24T17:26:46+05:30"
+}

@@ -1,0 +1,170 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-23T17:15:48+05:30",
+      "check": {
+        "duration": 47.6,
+        "words": 122,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'month instead earth'",
+          "'braking' heard as 'breaking' after '1000000000s of years'",
+          "'s' heard as 'is' after 'braking the moon'",
+          "'s' heard as 'is' after 'even slows earth'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Counter-intuitive premise, but a bit understated for swiping viewers.",
+        "clarity": "Logical breakdown of tidal locking across beats.",
+        "payoff": "The laser ranging fact lands well, though lacks a dramatic punch.",
+        "visuals": "Diagrams are functional, but beat 5 is overly technical and dry.",
+        "loop": "Connects reasonably well to the first beat, though phrasing is awkward."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "blurry and confusing technical chart that does not clearly illustrate tidal bulges"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: The Moon is not frozen in place; it is actively spinning right now.",
+        "Beat 9: This gravitational deadlock is why you never realize that..."
+      ],
+      "better_than_last": "It connects theoretical orbital mechanics directly to physical hardware left on the lunar surface.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:19:39+05:30",
+      "check": {
+        "duration": 49.5,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'brake' heard as 'break' after 'years that orbital'",
+          "'this' heard as 'the' after 'is locked in'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Contrarian hook effectively challenges a widespread assumption.",
+        "clarity": "Logical breakdown of tidal locking is simple to follow.",
+        "payoff": "Connecting orbital friction to Earth's slowing days provides a neat twist.",
+        "visuals": "Abstract technical diagrams in beats 3 and 5 fail mobile viewability.",
+        "loop": "Final line connects smoothly back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "blurry and mostly text diagram that is unreadable on mobile"
+        },
+        {
+          "beat": 5,
+          "problem": "unclear technical chart dominated by text and abstract lines"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It tackles a more relatable everyday misconception than the niche physics in ep226.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:22:35+05:30",
+      "check": {
+        "duration": 49.5,
+        "words": 121,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'brake' heard as 'break' after 'years that orbital'",
+          "'this' heard as 'the' after 'is locked in'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strongly counters a common misconception about the Moon's movement immediately.",
+        "clarity": "Explains the mechanics of synchronous rotation and its consequences in very simple terms.",
+        "payoff": "The revelation that this 'spin' is actually slowing Earth and pushing the Moon away is a great escalation.",
+        "visuals": "Most frames are excellent, but beat 5 is a major error showing a nautical map.",
+        "loop": "The final phrase 'never stops turning' leads perfectly into 'The Moon is not frozen'."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "off-topic; shows an old map of the Indian Ocean and Bengal instead of tidal rock bulges"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The loop is significantly more seamless than episode 221, and it handles the explanation of a complex orbital mechanic better than episode 216.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-24T17:22:35+05:30"
+}

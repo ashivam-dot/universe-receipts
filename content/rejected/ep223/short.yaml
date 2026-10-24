@@ -1,0 +1,173 @@
+id: ep223
+title: The Asteroid That Snuck Inside the Moon
+series: Near Misses
+description: Discover how a city-bus-sized asteroid named 2023 DZ2 was found just weeks before passing closer than the Moon.
+sources:
+- https://en.wikipedia.org/wiki/2023_DZ2
+- https://www.bbc.com/news/science-environment-65061818
+- https://www.wionews.com/science/asteroid-big-enough-to-devastate-a-city-passes-between-earth-and-moon-575781
+- https://earthsky.org/space/200-ft-asteroid-2023-dz2-will-pass-by-earth-closer-than-the-moon/
+- https://echo.jpl.nasa.gov/asteroids/2023DZ2/2023DZ2.2023.goldstone.planning.html
+- https://www.ing.iac.es/PR/press/2023DZ2.html
+hashtags:
+- '#space'
+- '#asteroid'
+- '#nasa'
+tags:
+- asteroid 2023 DZ2
+- near Earth object
+- astronomy
+- space rock
+- planetary defense
+- Sentry risk table
+voice:
+  voice: af_heart
+  speed: 1.05
+beats:
+- text: A city-bus-sized asteroid snuck halfway inside our Moon's protective orbit.
+  emphasis:
+  - city-bus-sized
+  - protective orbit
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/51/PIA21259_-_Celestial_Object_2016_WF9%2C_a_NEOWISE_Discovery_%28Artist_Concept%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA21259 - Celestial Object 2016 WF9, a NEOWISE Discovery (Artist Concept).jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA21259_-_Celestial_Object_2016_WF9,_a_NEOWISE_Discovery_(Artist_Concept).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.38
+    focus_y: 0.45
+    box:
+    - 0.24
+    - 0.23
+    - 0.51
+    - 0.69
+- text: In February 2023, astronomers at a Canary Islands observatory spotted an unexpected visitor heading toward Earth.
+  emphasis:
+  - February 2023
+  - Canary Islands
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/27/Ing_telescopes_sunset_la_palma_july_2001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Ing telescopes sunset la palma july 2001.jpg
+      credit: Bob Tubbs
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ing_telescopes_sunset_la_palma_july_2001.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: February 2023
+      small: La Palma, Canary Islands
+- text: Initial estimates showed a rock forty to ninety meters across, orbiting the Sun every three years.
+  emphasis:
+  - forty to ninety meters
+  - every three years
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 40-90m
+      small: Asteroid diameter
+    motion: zoom_in
+- text: Worse yet, orbital calculations briefly flagged the object as a virtual impactor for March 2026.
+  emphasis:
+  - virtual impactor
+  - March 2026
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/2001_SG286_orbit.jpg/1280px-2001_SG286_orbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 2001 SG286 orbit.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:2001_SG286_orbit.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: '2026'
+      small: Potential impact date
+- text: Alarm spread until further radar tracking completely ruled out any impact, removing it from threat lists.
+  emphasis:
+  - ruled out any impact
+  - threat lists
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Goldstone_DSN_antenna.jpg/1280px-Goldstone_DSN_antenna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Goldstone DSN antenna.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Goldstone_DSN_antenna.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.56
+    focus_y: 0.4
+    box:
+    - 0.33
+    - 0.05
+    - 0.79
+    - 0.75
+- text: On March 25, the fast-rotating space rock zoomed past at one hundred seventy-five thousand kilometers.
+  emphasis:
+  - March 25
+  - one hundred seventy-five thousand kilometers
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 175,000 km
+      small: Flyby distance
+    motion: zoom_in
+- text: It missed Earth by just half the Moon's distance, merely weeks after humans first noticed it.
+  emphasis:
+  - half the Moon's distance
+  - first noticed it
+  visual:
+    source: url
+    url: https://live.staticflickr.com/65535/51708994661_fe17d7f64c_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: DART — Earth's first planetary defense mission
+      credit: jurvetson
+      license: Public domain
+      url: https://www.flickr.com/photos/44124348109@N01/51708994661
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers were relieved that nothing struck before this close flyby.
+  emphasis:
+  - astronomers were relieved
+  - close flyby
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.38
+    focus_y: 0.45
+hook_text: PASSED INSIDE THE MOON

@@ -1,0 +1,165 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-23T17:14:33+05:30",
+      "check": {
+        "duration": 50.6,
+        "words": 106,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'prowling our galaxy'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Strong, atmospheric opening line that grabs attention immediately.",
+        "clarity": "Technical jargon like 'astrometric deflection' hinders instant casual understanding.",
+        "payoff": "Solid facts about the kick velocity, though lacking a true surprise punch.",
+        "visuals": "Multiple beats rely on dense, illegible scientific diagrams unsuited for vertical video.",
+        "loop": "Beat 8 duplicates beat 1 directly, making the replay repeat the exact same sentence twice."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "mostly text and hard to read at phone size"
+        },
+        {
+          "beat": 6,
+          "problem": "mostly text and cluttered infographic"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 3: \"Astronomers spotted it when its intense gravity magnified and bent a distant star's light.\"",
+        "Beat 4: \"Hubble tracked the shifting starlight over six years to pinpoint the invisible traveler.\"",
+        "Beat 8: \"Leaving us to wonder how many more are out there, because\""
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:17:30+05:30",
+      "check": {
+        "duration": 51.47,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'them remain unseen'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong intriguing premise grabs attention immediately.",
+        "clarity": "Explains gravitational microlensing step-by-step clearly.",
+        "payoff": "Supernova kick velocity offers a satisfying ending reveal.",
+        "visuals": "Diagram on beat 3 is text-heavy and small for mobile.",
+        "loop": "Last line transitions seamlessly into the first beat."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "mostly text and hard to read on a phone screen"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a clearer step-by-step observational breakdown than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:19:57+05:30",
+      "check": {
+        "duration": 51.47,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong immediate mystery.",
+        "clarity": "Fact progression is logical.",
+        "payoff": "Resolution validates the hook.",
+        "visuals": "Technical diagrams lack mobile clarity.",
+        "loop": "Perfectly seamless transition."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Diagram text is too small."
+        },
+        {
+          "beat": 6,
+          "problem": "Star grid is too busy."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The narrative loop is more polished than ep221.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-24T17:19:57+05:30"
+}

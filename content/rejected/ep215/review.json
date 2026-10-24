@@ -1,0 +1,157 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-23T17:14:58+05:30",
+      "check": {
+        "duration": 46.0,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 2,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Familiar misconception that lacks strong emotional hook.",
+        "clarity": "Concepts are straightforward and easy to follow.",
+        "payoff": "Standard textbook astronomy fact lacks a dramatic twist.",
+        "visuals": "Images are relevant and clear but visually static.",
+        "loop": "Directly repeats beat one instead of creating a flowing transition."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A persistent myth claims Earth blocks the Sun to change the Moon's shape.",
+        "Beat 7: Outside of rare eclipses occurring twice a year,"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:18:24+05:30",
+      "check": {
+        "duration": 47.22,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'not seeing earth'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Passive, academic phrasing fails to grab immediate attention or challenge the viewer.",
+        "clarity": "Dedicating twelve seconds to Scottish Mesolithic pit calendars distracts from the core orbital mechanics.",
+        "payoff": "Explaining basic lunar phases feels like elementary school science rather than a mind-bending astronomical revelation.",
+        "visuals": "Two consecutive full-screen title cards stall visual momentum, followed by confusing and archaic diagrams.",
+        "loop": "The final sentence stops dead and does not connect syntactically or tonally back to the first line."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Contains an off-topic visible light spectrum bar overlaid on the orbital diagram."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: 'Earth's shadow almost never touches the Moon.'",
+        "Beat 2: 'For 10,000 years since Warren Field in Scotland, humans tracked this cycle while misunderstanding it.'",
+        "Beat 3: 'That ancient pit calendar recorded the phases, but Earth was never blocking the Sun.'",
+        "Beat 8: 'Yet despite millennia of human record-keeping, millions still believe that...'"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-24T17:24:33+05:30",
+      "check": {
+        "duration": 50.67,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'site' heard as 'sight' after 'misunderstanding it this'",
+          "'(nothing)' heard as 'you' after 'touches the moon'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong counter-intuitive statement immediately challenges viewer assumptions.",
+        "clarity": "Logical progression from historical tracking to scientific correction.",
+        "payoff": "Good contrast between the ancient calendar and modern ignorance.",
+        "visuals": "Diagrams are helpful but one frame has a subject-audio mismatch.",
+        "loop": "Seamless transition back to the start of the sentence."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The close-up focuses on the Earth label while the narration describes the Moon."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The historical Scottish calendar context provides a more grounded narrative than the abstract concepts in recent physics shorts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-24T17:24:33+05:30"
+}
