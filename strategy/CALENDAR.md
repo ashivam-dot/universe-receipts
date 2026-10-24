@@ -33,7 +33,7 @@ unexplained, not alien.
 | 2026-10-07 | SN 1181 (1181): a zombie star that survived its own supernova and now screams through space at 16,000 kilometers per second — done (ep086) | Space Got Weird | A spectacular new image of its remnant, Pa 30, was featured as NASA's Astronomy Picture of the Day on October 7, 2026. |
 | 2026-10-08 | Aeolis Mons (2012): a Martian mountain taller than Mount Rainier that a robotic rover has been slowly climbing for over a decade — done (ep099) | Scale Breaker | NASA's Curiosity rover recently reached a major elevation milestone on the mountain, capturing new panoramas of its wind-carved cliffs. |
 | 2026-10-08 | Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo — making (ep228) | Mission Files | NASA recently released newly annotated lunar navigation training photos prepared by the Artemis II crew. |
-| 2026-10-09 | Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble — making (ep246) | The Universe Is Terrifying | Featured as NASA's Astronomy Picture of the Day this week and in the spotlight ahead of NASA's briefing on the Martian Moons eXploration mission. |
+| 2026-10-09 | Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble — dropped (ep246) | The Universe Is Terrifying | Featured as NASA's Astronomy Picture of the Day this week and in the spotlight ahead of NASA's briefing on the Martian Moons eXploration mission. |
 | 2026-10-09 | Fast radio burst (2007): millisecond flashes of deep-space energy that release as much power as the Sun radiates across entire days — done (ep114) | Scale Breaker | NASA announced that the James Webb Space Telescope just measured the distance to the farthest fast radio burst ever detected. |
 | 2026-10-10 | Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors — dropped (ep124) | The Universe Is Terrifying | NASA just released a stunning new James Webb Space Telescope image of this cluster. |
 | 2026-10-11 | IceCube Neutrino Observatory (2010): a telescope made of a cubic kilometer of Antarctic ice that looks straight down through Earth — done (ep129) | Space Got Weird | Featured on NASA's Astronomy Picture of the Day on October 11. |
@@ -47,6 +47,8 @@ unexplained, not alien.
 | 2026-10-22 | Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts' — parked (ep222) | The Universe Is Terrifying | Featured in a recent NASA APOD highlighting the surrounding Ghost of Cassiopeia nebulae. |
 | 2026-10-23 | Green star (astronomy) (1837): why true green stars are physically impossible for human eyes to see — dropped (ep235) | Space Got Weird | NASA featured the first apparent green white dwarf on Astronomy Picture of the Day. |
 | 2026-10-23 | Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble — making (ep236) | Scale Breaker | NASA highlighted new Hubble gravitational lens observations paving the way for the mission. |
+| 2026-10-24 | Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions | Mission Files | NASA announced the conclusion of Swift's landmark 20-year science mission due to atmospheric drag. |
+| 2026-10-24 | Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up | Mission Files | Featured on NASA's Astronomy Picture of the Day with its historic selfie alongside comet 67P. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -65,6 +67,7 @@ unexplained, not alien.
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot | Mission Files |
 | Nov 15 | Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules | Near Misses |
 | Nov 17 | Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay | Space Got Weird |
+| Nov 20 | Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title | Space Got Weird |
 | Nov 27 | Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed | Mission Files |
 | Nov 28 | Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations | Mission Files |
 | Nov 28 | PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1 | Space Got Weird |
@@ -128,6 +131,8 @@ unexplained, not alien.
 - Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light — parked (ep213)
 - Vela Pulsar (1968): a dead star spinning 11 times a second that shoots a violent jet of superheated plasma through space while glitching its spin rate — done (ep226)
 - Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body — making (ep240)
+- GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye
+- Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died
 
 ### Scale Breaker
 
@@ -162,6 +167,7 @@ unexplained, not alien.
 - Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year — done (ep214)
 - Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns — making (ep224)
 - Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos — dropped (ep243)
+- Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it
 
 ### Mission Files
 
@@ -243,6 +249,7 @@ unexplained, not alien.
 - Apollo 11 (1969): computer overloads and a boulder-strewn landing zone forced astronauts to fly manually, touching down on the Moon with under 30 seconds of fuel left — dropped (ep180)
 - 2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed — done (ep203)
 - 2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach — making (ep223)
+- STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew
 
 ### Space Myths, Busted
 

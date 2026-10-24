@@ -1,0 +1,57 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-24T11:18:22+05:30",
+      "check": {
+        "duration": 56.67,
+        "words": 120,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'one touched down' heard as 'won touchdown' after '2 1966 surveyor'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Interesting premise, but opening sentence feels slightly passive.",
+        "clarity": "Narrative flows logically through historical probe discoveries.",
+        "payoff": "Levitating charged dust provides a satisfying answer to the opening myth.",
+        "visuals": "Beat 7 uses an academic chart with small text unsuited for mobile screens.",
+        "loop": "Final sentence connects smoothly back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "mostly text and dense chart axis labels"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Early space scientists feared the Moon was covered in a deep, swallowing dust ocean."
+      ],
+      "better_than_last": "It delivers a more coherent linear historical narrative than episode 226.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -1,58 +1,94 @@
 {
-  "updated_at": "2026-10-24T11:09:15+05:30",
+  "updated_at": "2026-10-24T17:14:16+05:30",
   "day": 23,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5P6FGYPHK4YSK57Y9MWCG6R",
+    "id": "ta-01M5PV2P817EQB7ZDXQJ4ZN0GR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-24T11:05:11+05:30",
-    "started_at_utc": "2026-10-24T05:35:11+00:00",
-    "seconds": 244
+    "started_at": "2026-10-24T17:05:11+05:30",
+    "started_at_utc": "2026-10-24T11:35:11+00:00",
+    "seconds": 545
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 1.7
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "71 posts",
+      "detail": "72 posts",
       "seconds": 1.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep165 to 'Space Myths, Busted'",
-      "seconds": 2.8
+      "detail": "nothing new",
+      "seconds": 2.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep072 at 72 h: level with the channel's earlier Shorts at this age: 879 views against a median of 1018 (0.9x); ep185 at 6 h: behind the channel's earlier Shorts at this age: 507 views against a median of 695 (0.7x); ep201 at 24 h: level with the channel's earlier Shorts at this age: 982 views against a median of 873 (1.1x); ep221 at 6 h: behind the channel's earlier Shorts at this age: 341 views against a median of 682 (0.5x); learnings: Promoted interactive closing prompts and paradoxical hazard hooks to rules; updated existing rules with evidence from 10 new reviews.",
-      "seconds": 195.1
+      "detail": "ep165 at 6 h: ahead of the channel's earlier Shorts at this age: 1354 views against a median of 670 (2.0x)",
+      "seconds": 2.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep239 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep241 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep242 unfinished (RuntimeError: ep242 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 97): add at least 8 words, aiming for about 120, by lengthening or trimming the mi",
-      "seconds": 12.5
+      "detail": "ep242 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep244 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep245 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ",
+      "seconds": 14.1
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "104 subscribers",
+      "seconds": 16.7
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Evaluated ten recent Shorts against recomputed medians, reaffirming established rules on contradiction hooks and conversational endings while preserving three unproven hypotheses.",
+      "seconds": 130.9
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 1.5
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "2 added",
+      "seconds": 76.9
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 247.7
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-023.md",
+      "seconds": 2.2
     },
     {
       "name": "buffer channel",
@@ -64,75 +100,119 @@
       "name": "preflight ep174",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.7
     },
     {
       "name": "preflight ep203",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.5
     },
     {
       "name": "preflight ep208",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.5
     },
     {
       "name": "preflight ep210",
       "ok": true,
-      "detail": "video downloads whole (16 MB in 0 s)",
+      "detail": "video still hosted",
       "seconds": 0.5
     },
     {
-      "name": "publish",
+      "name": "preflight ep214",
       "ok": true,
-      "detail": "",
-      "seconds": 4.6
-    },
-    {
-      "name": "schedule ep190",
-      "ok": true,
-      "detail": "2026-10-27T12:30:00-04:00",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep242",
-      "ok": true,
-      "detail": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
+      "detail": "video downloads whole (16 MB in 1 s)",
       "seconds": 0.7
-    },
-    {
-      "name": "start ep244",
-      "ok": true,
-      "detail": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
-      "seconds": 0.7
-    },
-    {
-      "name": "start ep245",
-      "ok": true,
-      "detail": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep246",
-      "ok": true,
-      "detail": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
-      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 1.9
+    },
+    {
+      "name": "start ep215",
+      "ok": true,
+      "detail": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
+      "seconds": 1.7
+    },
+    {
+      "name": "start ep219",
+      "ok": true,
+      "detail": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep223",
+      "ok": true,
+      "detail": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep224",
+      "ok": true,
+      "detail": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
+      "seconds": 1.7
+    },
+    {
+      "name": "start ep225",
+      "ok": true,
+      "detail": "PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep228",
+      "ok": true,
+      "detail": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep229",
+      "ok": true,
+      "detail": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep230",
+      "ok": true,
+      "detail": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
+      "seconds": 1.7
+    },
+    {
+      "name": "start ep231",
+      "ok": true,
+      "detail": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep232",
+      "ok": true,
+      "detail": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep233",
+      "ok": true,
+      "detail": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
+      "seconds": 1.6
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.9
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep239 stopped on Gemini's free quota; it resumes in a later run",
-    "ep241 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "ep242 stopped on Gemini's free quota; it resumes in a later run",
+    "ep244 stopped on Gemini's free quota; it resumes in a later run",
+    "ep245 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 20 waiting",
+    "room for 11 of the 23 Shorts wanted: Modal's credit covers 11, this run's share of the Actions minutes 0",
     "Buffer is full (10 queued); 20 waiting"
   ],
   "inventory": {
@@ -141,6 +221,18 @@
     "waiting": 20,
     "target": 42,
     "making": [
+      "ep234",
+      "ep236",
+      "ep237",
+      "ep238",
+      "ep239",
+      "ep240",
+      "ep241",
+      "ep242",
+      "ep244",
+      "ep245"
+    ],
+    "remote": [
       "ep215",
       "ep219",
       "ep223",
@@ -151,20 +243,7 @@
       "ep230",
       "ep231",
       "ep232",
-      "ep233",
-      "ep234",
-      "ep236",
-      "ep237",
-      "ep238",
-      "ep239",
-      "ep240",
-      "ep241"
-    ],
-    "remote": [
-      "ep242",
-      "ep244",
-      "ep245",
-      "ep246"
+      "ep233"
     ]
   },
   "queue": [
@@ -343,125 +422,184 @@
   ],
   "made": [
     {
-      "id": "ep239",
-      "outcome": "unfinished",
-      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep241",
-      "outcome": "unfinished",
-      "topic": "2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
       "id": "ep242",
       "outcome": "unfinished",
       "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "reason": "RuntimeError: ep242 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 97): add at least 8 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 10, beat 2: 14, beat 3: 15, beat 4: 15, beat 5: 15, beat 6: 15, beat 7: 13.']",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep243",
+      "id": "ep244",
+      "outcome": "unfinished",
+      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep245",
+      "outcome": "unfinished",
+      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep246",
       "outcome": "rejected",
-      "topic": "Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos",
+      "topic": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
       "reason": "research: only 0 claims have two different sites"
     }
   ],
   "spawned": [
     {
-      "id": "ep242",
-      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "call_id": "fc-01M5P6Q1TY7H3TEVC8EQWQ54MJ"
+      "id": "ep215",
+      "topic": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
+      "call_id": "fc-01M5PVJZE5XW7ZHKK75MNVEYAS"
     },
     {
-      "id": "ep244",
-      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
-      "call_id": "fc-01M5P6Q2FTTZM31BDHSCS4TDHM"
+      "id": "ep219",
+      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "call_id": "fc-01M5PVK10JGZZM448N7JZ5Q3HC"
     },
     {
-      "id": "ep245",
-      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
-      "call_id": "fc-01M5P6Q341KVNHHW5YPJ6N8B9B"
+      "id": "ep223",
+      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
+      "call_id": "fc-01M5PVK2JMKNBJ6P2XH3EGSG4Q"
     },
     {
-      "id": "ep246",
-      "topic": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
-      "call_id": "fc-01M5P6Q3R4K092C12H5D2N7N49"
+      "id": "ep224",
+      "topic": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
+      "call_id": "fc-01M5PVK48J9DTRPQJNM8FPDGCQ"
+    },
+    {
+      "id": "ep225",
+      "topic": "PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond",
+      "call_id": "fc-01M5PVK5TVZWCJHBEBC764D560"
+    },
+    {
+      "id": "ep228",
+      "topic": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
+      "call_id": "fc-01M5PVK7C9MGAXMXR6DYK6E9TT"
+    },
+    {
+      "id": "ep229",
+      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
+      "call_id": "fc-01M5PVK8ZR4ZWBD521F47GYNF1"
+    },
+    {
+      "id": "ep230",
+      "topic": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
+      "call_id": "fc-01M5PVKAPBCEK5GWVYE16DS2Q6"
+    },
+    {
+      "id": "ep231",
+      "topic": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
+      "call_id": "fc-01M5PVKC8B35BQ7CWABQVG5NGP"
+    },
+    {
+      "id": "ep232",
+      "topic": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
+      "call_id": "fc-01M5PVKDSCYQ5C3HCN623AW6WK"
+    },
+    {
+      "id": "ep233",
+      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
+      "call_id": "fc-01M5PVKFCDG654D8XBWPWNMVE9"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep242",
-      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "spawned_at": "2026-10-24T11:09:08+05:30"
+      "id": "ep215",
+      "topic": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
+      "spawned_at": "2026-10-24T17:13:55+05:30"
     },
     {
-      "id": "ep244",
-      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
-      "spawned_at": "2026-10-24T11:09:09+05:30"
+      "id": "ep219",
+      "topic": "Anorthosite (1969): the rare, bright rock that covers the lunar highlands and baffled scientists is found in massive, moon-like deposits in Madagascar",
+      "spawned_at": "2026-10-24T17:13:57+05:30"
     },
     {
-      "id": "ep245",
-      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
-      "spawned_at": "2026-10-24T11:09:10+05:30"
+      "id": "ep223",
+      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
+      "spawned_at": "2026-10-24T17:13:58+05:30"
     },
     {
-      "id": "ep246",
-      "topic": "Stickney (crater) (1973): an impact scar so colossal it nearly blasted the Martian moon Phobos into rubble",
-      "spawned_at": "2026-10-24T11:09:10+05:30"
+      "id": "ep224",
+      "topic": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
+      "spawned_at": "2026-10-24T17:14:00+05:30"
+    },
+    {
+      "id": "ep225",
+      "topic": "PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond",
+      "spawned_at": "2026-10-24T17:14:01+05:30"
+    },
+    {
+      "id": "ep228",
+      "topic": "Artemis II (2026): the first crewed lunar mission in over half a century, which will send humans farther into deep space than any flight since Apollo",
+      "spawned_at": "2026-10-24T17:14:03+05:30"
+    },
+    {
+      "id": "ep229",
+      "topic": "1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space",
+      "spawned_at": "2026-10-24T17:14:05+05:30"
+    },
+    {
+      "id": "ep230",
+      "topic": "Eridanus Supervoid (2004): a region of space spanning a billion light-years that contains almost no matter and no galaxies",
+      "spawned_at": "2026-10-24T17:14:06+05:30"
+    },
+    {
+      "id": "ep231",
+      "topic": "Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever",
+      "spawned_at": "2026-10-24T17:14:08+05:30"
+    },
+    {
+      "id": "ep232",
+      "topic": "Przybylski's Star (1961): a star whose light seems to show short-lived elements astronomers still can't fully explain",
+      "spawned_at": "2026-10-24T17:14:10+05:30"
+    },
+    {
+      "id": "ep233",
+      "topic": "OGLE-2011-BLG-0462 (2022): the first confirmed rogue stellar-mass black hole detected wandering completely alone and invisible through our galaxy",
+      "spawned_at": "2026-10-24T17:14:11+05:30"
     }
   ],
-  "published": [
-    {
-      "id": "ep190",
-      "title": "How NASA Trapped Speeding Comet Dust",
-      "due_at": "2026-10-27T12:30:00-04:00"
-    }
-  ],
+  "published": [],
   "live": 62,
   "failed_posts": [],
   "not_live": [],
   "llm": {
     "calls": 20,
     "by_model": {
-      "gemini-3.8-flash": 2,
-      "gemini-3-flash-preview": 6,
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 10,
-      "gemini-3.6-flash": 1
+      "gemini-3.8-flash": 8,
+      "gemini-3-flash-preview": 3,
+      "gemini-3.5-flash-lite": 7,
+      "gemini-3.6-flash": 1,
+      "gemini-3.5-flash": 1
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 3,
+    "modal": 4,
     "runner": 0
   },
-  "daily_done": "2026-10-23",
+  "daily_done": "2026-10-24",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 26.42,
+    "metered": 26.59,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 13,
+    "cloud": 11,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 1.58
+    "modal_credit_left": 1.41
   },
   "made_here": 0,
-  "open_topics": 29,
+  "open_topics": 36,
   "parked_topics": 43
 }
