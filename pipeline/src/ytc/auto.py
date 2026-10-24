@@ -1272,10 +1272,30 @@ def review_shorts(run: Run) -> list[str]:
     return done
 
 
+def _publication_time(e: dict) -> float:
+    """Publication order is independent of production/episode ID order."""
+    record = e.get("record") or {}
+    value = record.get("sent_at") or record.get("due_at")
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp() if value else float("-inf")
+    except (TypeError, ValueError):
+        return float("-inf")
+
+
+def _early_reach(folder: Path) -> dict | None:
+    """Keep an observed 24-30h checkpoint separate from lifetime Analytics."""
+    numbers = _json(folder / "performance.json", {}).get("24", {}).get("numbers", {})
+    hours, views = numbers.get("hours"), numbers.get("views")
+    if (isinstance(hours, (int, float)) and 24 <= hours <= 30
+            and isinstance(views, (int, float)) and views >= 0):
+        return {"hours": hours, "views": views}
+    return None
+
+
 def _reviews(eps: list[dict], count: int = 10) -> list[dict]:
     """The latest diagnosis of each of the newest reviewed Shorts, for the learning log."""
     out = []
-    for e in sorted(eps, key=lambda e: e["id"]):
+    for e in sorted(eps, key=_publication_time):
         perf = _json(e["folder"] / "performance.json", {})
         if latest := [perf[c] for c in sorted(perf, key=int) if perf[c].get("diagnosis")]:
             out.append({"short": e["id"], "title": e["title"], "verdict": latest[-1]["verdict"], **latest[-1]["diagnosis"]})
@@ -1309,13 +1329,15 @@ def _video_rows(analytics: dict, eps: list[dict]) -> list[dict]:
         rows.append({
             "short": e["id"] if e else video["id"], "series": (e or {}).get("series") or "?",
             "hook_style": f"{script.get('hook_style', '–')}, {script.get('structure', 'story')}", "title": video["title"],
-            "views": video["views"],
+            "published": published.isoformat(),
+            "views": video["views"],  # lifetime count; denominator for lifetime Analytics rates only
+            "early_reach": _early_reach(e["folder"]) if e else None,
             "likes": video["likes"], "comments": video["comments"], "hours": round((now - published).total_seconds() / 3600),
             "engaged_share": a.get("engaged_share"), "avg_viewed": a.get("averageViewPercentage"),
             "at10": at10["watching"] if at10 else None, "subs": a.get("subscribersGained"),
             "hook": (yaml.safe_load((e["folder"] / "short.yaml").read_text(encoding="utf-8"))["beats"][0]["text"] if e else ""),
         })
-    return sorted(rows, key=lambda r: r["short"])
+    return sorted(rows, key=lambda r: datetime.fromisoformat(r["published"]).timestamp())
 
 
 def _median(values) -> float | None:
@@ -1350,15 +1372,20 @@ def update_learnings(run: Run, analytics: dict) -> dict:
     sister = _sister_rules()
     text = LEARNINGS.read_text(encoding="utf-8")
     recent = rows[-10:]
-    medians = {"engaged_share": _median(r["engaged_share"] for r in recent), "avg_viewed": _median(r["avg_viewed"] for r in recent),
+    medians = {"early_views": _median(r["early_reach"]["views"] for r in recent if r.get("early_reach")),
+               "engaged_share": _median(r["engaged_share"] for r in recent), "avg_viewed": _median(r["avg_viewed"] for r in recent),
                "at10": _median(r["at10"] for r in recent),
-               "subs_per_1000": _median((r["subs"] or 0) * 1000 / r["views"] for r in recent if r["views"]),
+               "subs_per_1000": _median(r["subs"] * 1000 / r["views"] for r in recent
+                                        if r["views"] and isinstance(r["subs"], (int, float))),
                "likes_per_100": _median(r["likes"] * 100 / r["views"] for r in recent if r["views"])}
     answer = llm.generate(
         "You keep the learning log of Universe Receipts, a Shorts channel of true, sourced space and astronomy "
         "stories and facts. From the numbers "
         "below, explain each Short's result in a few words (hook, topic, pacing, visuals, loop), judged against the "
-        "channel medians. Promote a hypothesis to a rule only when 2 or more Shorts show the same effect, and cite "
+        "channel medians. views, likes and Analytics are lifetime/current observations. For reach comparisons use "
+        "only early_reach (observed 24-30h counts), retain its actual hours and compare similar ages. Missing "
+        "early_reach or Analytics is unknown, never zero; do not infer retention from views. Describe associations, "
+        "not causes, and account for publication date and slot. Promote a hypothesis to a rule only when 2 or more Shorts show the same effect, and cite "
         "them; drop hypotheses the data contradicts; keep the rest. Rules and hypotheses must be concrete enough "
         "for a scriptwriter to apply. log: one line on what changed today and why. summary: 2 sentences on what the "
         "numbers say for tomorrow's scripts.\n\nCurrent file:\n" + text.split("## Scoreboard")[0]
@@ -1379,10 +1406,10 @@ def update_learnings(run: Run, analytics: dict) -> dict:
         return "–" if v is None else f"{v:.1f}%"
 
     board = [
-        "| Short | Series | Hook style | Views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |",
+        "| Short | Series | Hook style | Observed 24-30h views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |",
         "|---|---|---|---|---|---|---|---|---|",
     ] + [
-        f"| {r['short']} | {r['series']} | {r['hook_style']} | {r['views']} | {pct(r['engaged_share'])} | {share(r['avg_viewed'])} | "
+        f"| {r['short']} | {r['series']} | {r['hook_style']} | {r['early_reach']['views'] if r.get('early_reach') else '–'} | {pct(r['engaged_share'])} | {share(r['avg_viewed'])} | "
         f"{pct(r['at10'])} | {r['subs'] if r['subs'] is not None else '–'} | {reasons.get(r['short'], '–')} |"
         for r in rows
     ]
