@@ -45,6 +45,12 @@ BREAKOUT_RATIO = 3.0
 BREAKOUT_HOURS = 48
 BREAKOUT_MIN_VIEWS = 1000
 BREAKOUT_VIEWS = 100_000
+# A smaller step for a channel whose median is about 1,000 views, where 3x has never happened: a Short at
+# RISING_RATIO times its peers and RISING_MIN_VIEWS, measured at least RISING_MIN_HOURS in (so a fast first hour
+# isn't mistaken for demand), is "rising" and gets one follow-up instead of FOLLOW_UPS.
+RISING_RATIO = 1.5
+RISING_MIN_VIEWS = 1300
+RISING_MIN_HOURS = 18
 MIN_PEERS = 5
 
 
@@ -230,9 +236,14 @@ def breakouts(snapshots: list[dict], done: set[str] | frozenset = frozenset()) -
         median = statistics.median(peers)
         ratio = seen["views"] / median if median else float("inf")
         if (ratio >= BREAKOUT_RATIO and seen["views"] >= BREAKOUT_MIN_VIEWS) or seen["views"] >= BREAKOUT_VIEWS:
-            found.append({"video": video, "title": seen["title"], "views": seen["views"], "median": median,
-                          "ratio": round(ratio, 1) if ratio != float("inf") else None, "hours": seen["hours"]})
-    return sorted(found, key=lambda b: -(b["ratio"] or 1e9))
+            tier = "breakout"
+        elif ratio >= RISING_RATIO and seen["views"] >= RISING_MIN_VIEWS and seen["hours"] >= RISING_MIN_HOURS:
+            tier = "rising"
+        else:
+            continue
+        found.append({"video": video, "title": seen["title"], "views": seen["views"], "median": median,
+                      "ratio": round(ratio, 1) if ratio != float("inf") else None, "hours": seen["hours"], "tier": tier})
+    return sorted(found, key=lambda b: (b["tier"] != "breakout", -(b["ratio"] or 1e9)))
 
 
 FOLLOW_SCHEMA = {

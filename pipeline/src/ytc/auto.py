@@ -359,9 +359,46 @@ def urgent(topics: list[dict], today: date) -> list[dict]:
                   key=lambda t: t["date"])
 
 
+# The Day 21 decision (strategy/PLAN-100.md): the TOP_SERIES series with the best median observed 24-30 h views
+# get TOP_SHARE of the backlog between them; the rest share what's left, so a weaker series keeps being re-tested
+# and can climb back. A series needs SERIES_MEASURED measured Shorts in the last SERIES_WINDOW to be ranked, and
+# the shares cover the last SHARE_WINDOW Shorts made.
+TOP_SERIES, TOP_SHARE, SERIES_MEASURED, SERIES_WINDOW, SHARE_WINDOW = 3, 0.7, 4, 45, 30
+
+
+def series_reach(rows: list[dict]) -> dict[str, float]:
+    """Median observed 24-30 h views per series over its last SERIES_WINDOW measured Shorts, for the ranked ones."""
+    measured = [r for r in rows if r.get("early_reach") and r["series"] in SERIES][-SERIES_WINDOW:]
+    views: dict[str, list[float]] = {}
+    for r in measured:
+        views.setdefault(r["series"], []).append(r["early_reach"]["views"])
+    return {s: statistics.median(v) for s, v in views.items() if len(v) >= SERIES_MEASURED}
+
+
+def series_shares(reach: dict[str, float]) -> dict[str, float] | None:
+    """Each series' target share of the backlog, or None (plain rotation) until TOP_SERIES + 1 series are ranked."""
+    if len(reach) <= TOP_SERIES:
+        return None
+    top = sorted(reach, key=lambda s: -reach[s])[:TOP_SERIES]
+    rest = [s for s in SERIES if s not in top]
+    return {s: TOP_SHARE / len(top) if s in top else (1 - TOP_SHARE) / len(rest) for s in SERIES}
+
+
+def _series_shares() -> dict[str, float] | None:
+    latest = max(ANALYTICS.glob("*.json"), default=None)
+    if not latest:
+        return None
+    try:
+        return series_shares(series_reach(_video_rows(_json(latest, {}), episodes())))
+    except Exception as err:  # topic choice must never stop production: rotate evenly instead
+        log.warning("couldn't rank the series (%s); rotating them evenly", err)
+        return None
+
+
 def choose_topics(count: int, eps: list[dict]) -> list[dict]:
     """Fresh timely topics first, then anniversaries within a week, then the backlog (with timely topics past
-    TIMELY_DAYS), rotating series and taking each series' most widely known topic first."""
+    TIMELY_DAYS), each series getting its share (series_shares) or, before there are numbers, rotating series;
+    within a series its most widely known topic goes first."""
     today = _now().date()
     open_topics = [t for t in calendar_topics(today) if _available(t, today)]
     fresh = urgent(open_topics, today)
@@ -371,13 +408,24 @@ def choose_topics(count: int, eps: list[dict]) -> list[dict]:
     recent = [e["series"] for e in sorted(eps, key=lambda e: e["id"], reverse=True) if e["series"]]
     backlog = [t for t in open_topics if t["kind"] == "backlog" or (t["kind"] == "timely" and t not in fresh)]
     readers = demand(backlog) if len(chosen) < count and backlog else {}
+    shares = _series_shares() if len(chosen) < count and backlog else None
     while len(chosen) < count and backlog:
         used = [t["series"] for t in reversed(chosen)] + recent
+        last = used[0] if used else None
         # The series used longest ago (or never) goes next.
         def staleness(t):
             return used.index(t["series"]) if t["series"] in used else len(used) + 1
-        best = max(backlog, key=lambda t: (staleness(t) if t["series"] != (used[0] if used else None) else -1,
-                                           readers.get(t["topic"], 0)))
+
+        def owed(t):
+            window = used[:SHARE_WINDOW]
+            return shares.get(t["series"], 0) - (window.count(t["series"]) / len(window) if window else 0)
+
+        if shares:
+            best = max(backlog, key=lambda t: (t["series"] != last, round(owed(t), 3), staleness(t),
+                                               readers.get(t["topic"], 0)))
+        else:
+            best = max(backlog, key=lambda t: (staleness(t) if t["series"] != last else -1,
+                                               readers.get(t["topic"], 0)))
         chosen.append(best)
         backlog.remove(best)
     return chosen
@@ -572,23 +620,36 @@ def breakout_topics(run: Run, state: dict) -> list[str]:
     by_video = _by_video(eps)
     today = _now().date().isoformat()
     lines = []
-    for hit in growth.breakouts(snapshots, set(done))[:2]:
+    # A rising Short that goes on to break out is looked at again, for the rest of a breakout's follow-ups.
+    hits = growth.breakouts(snapshots, {v for v, d in done.items() if d.get("tier") != "rising"})
+    upgraded = [h for h in hits if h["tier"] == "breakout"][:2]
+    # Breakouts first; at most one rising Short a run, so follow-ups never crowd out the series' own topics.
+    hits = upgraded + [h for h in hits if h["tier"] == "rising" and h["video"] not in done][:1]
+    for hit in hits:
         e = by_video.get(hit["video"])
         if not e or e["series"] not in SERIES:
             done[hit["video"]] = {"on": today, "short": None, "added": 0}
+            continue
+        rising = hit["tier"] == "rising"
+        wanted = 1 if rising else FOLLOW_UPS - (done.get(hit["video"]) or {}).get("added", 0)
+        if wanted <= 0:
+            done[hit["video"]] = dict(done[hit["video"]], tier="breakout")
             continue
         spec = yaml.safe_load((e["folder"] / "short.yaml").read_text(encoding="utf-8")) if (e["folder"] / "short.yaml").exists() else {}
         short = {"title": e["title"], "topic": (e["topic"] or {}).get("topic"), "series": e["series"],
                  "hook": ((spec.get("beats") or [{}])[0]).get("text", "")}
         known = _known_topics(calendar_topics(), episodes())
         ratio = f"{hit['ratio']}x" if hit["ratio"] else "far above"
-        why = f"Follow-up to {e['id']}, which broke out ({hit['views']:,} views in {hit['hours']:.0f} h, {ratio} the median)"
-        items = [dict(i, series=e["series"], why=why) for i in growth.propose_followups(short, known, FOLLOW_UPS)]
-        rows = _verified(items, [_key_words(k) for k in known], FOLLOW_UPS)
+        verb = "is rising" if rising else "broke out"
+        why = f"Follow-up to {e['id']}, which {verb} ({hit['views']:,} views in {hit['hours']:.0f} h, {ratio} the median)"
+        items = [dict(i, series=e["series"], why=why) for i in growth.propose_followups(short, known, wanted)]
+        rows = _verified(items, [_key_words(k) for k in known], wanted)
         _write_timely(rows)
-        done[hit["video"]] = {"on": today, "short": e["id"], "views": hit["views"], "ratio": hit["ratio"], "added": len(rows)}
+        before = (done.get(hit["video"]) or {}).get("added", 0)
+        done[hit["video"]] = {"on": today, "short": e["id"], "views": hit["views"], "ratio": hit["ratio"],
+                              "added": before + len(rows), "tier": hit["tier"]}
         _write_json(STATUS / "state.json", state)
-        lines.append(f"{e['id']} \"{e['title']}\" broke out: {hit['views']:,} views {hit['hours']:.0f} hours after going live, "
+        lines.append(f"{e['id']} \"{e['title']}\" {verb}: {hit['views']:,} views {hit['hours']:.0f} hours after going live, "
                      f"{ratio} the median of its peers at that age ({hit['median']:,.0f}); queued "
                      + ("; ".join(r["topic"] for r in rows) or "no follow-up that passed the checks"))
     _write_json(STATUS / "state.json", state)
@@ -1019,6 +1080,11 @@ BASE_PACE = 2
 UNPROVEN_PACE = 3
 # The last 10 Shorts falling this far below the 10 before them in engaged views per Short drops back to BASE_PACE.
 PACE_DROP = 0.7
+# The Day 30 decision (strategy/PLAN-100.md): volume is added only while each Short reaches more people. Past
+# UNPROVEN_PACE the last 10 Shorts' median observed 24-30 h views must be at least REACH_TO_GROW and REACH_RISE
+# times the 10 before them; flat reach at more Shorts a day only spreads the same audience thinner.
+REACH_TO_GROW = 1000
+REACH_RISE = 1.1
 
 
 def _pace_numbers() -> tuple[list[float], list[float]]:
@@ -1027,6 +1093,26 @@ def _pace_numbers() -> tuple[list[float], list[float]]:
     rows = [r for r in _video_rows(_json(latest, {}), episodes()) if r["hours"] >= 48
             and isinstance(r["engaged_share"], (int, float))] if latest else []
     return [r["views"] * r["engaged_share"] for r in rows], [r["engaged_share"] for r in rows]
+
+
+def _reach_numbers() -> list[float]:
+    """Observed 24-30 h views of each Short that has them, by publication, oldest first."""
+    latest = max(ANALYTICS.glob("*.json"), default=None)
+    rows = _video_rows(_json(latest, {}), episodes()) if latest else []
+    return [r["early_reach"]["views"] for r in rows if r.get("early_reach")]
+
+
+def reach_earns_more() -> bool:
+    """Whether per-Short reach is high enough, and rising, to add a Short a day."""
+    try:
+        reach = _reach_numbers()
+    except Exception as err:
+        log.warning("couldn't read per-Short reach for the posting pace (%s); not adding a Short a day", err)
+        return False
+    if len(reach) < 20:
+        return False
+    recent, before = _median(reach[-10:]), _median(reach[-20:-10])
+    return bool(recent and before and recent >= REACH_TO_GROW and recent >= REACH_RISE * before)
 
 
 def slots_per_day(today: date | None = None) -> int:
@@ -1048,7 +1134,8 @@ def slots_per_day(today: date | None = None) -> int:
     recent_share, before_share = _median(share[-10:]), _median(share[-20:-10])
     if not before or recent < PACE_DROP * before:
         return BASE_PACE
-    if recent >= 0.9 * before and recent_share and before_share and recent_share >= 0.9 * before_share:
+    if (recent >= 0.9 * before and recent_share and before_share and recent_share >= 0.9 * before_share
+            and reach_earns_more()):
         return min(len(SLOTS), planned)
     return min(len(SLOTS), planned, UNPROVEN_PACE)
 
@@ -1086,7 +1173,7 @@ def release_anniversaries(run: Run) -> None:
 
 
 def publish_waiting(run: Run) -> None:
-    from .publish import AUDIENCE_TZ, BUFFER_QUEUE_LIMIT, SLOTS, next_slots, posts, schedule
+    from .publish import AUDIENCE_TZ, BUFFER_QUEUE_LIMIT, SLOTS, next_slots, posts, schedule, slots_on
 
     eps = episodes()
     waiting = [e for e in eps if e["state"] == "waiting"]
@@ -1129,7 +1216,7 @@ def publish_waiting(run: Run) -> None:
         ordered.remove(pick)
         when = None
         if day := anniversary(pick):
-            for slot in SLOTS[:3]:
+            for slot in slots_on(day)[:3]:
                 candidate = datetime.combine(day, slot, AUDIENCE_TZ)
                 if candidate > today + timedelta(minutes=30) and candidate not in taken:
                     when = candidate
@@ -1365,6 +1452,10 @@ def _section(text: str, heading: str) -> str:
     return text[start: end if end != -1 else len(text)]
 
 
+# Thirty rules promoted on two Shorts each, several contradicting, were in the writer's prompt by Day 24.
+RULE_SHORTS, MAX_RULES, MAX_HYPOTHESES = 4, 10, 8
+
+
 def update_learnings(run: Run, analytics: dict) -> dict:
     eps = episodes()
     rows = [r for r in _video_rows(analytics, eps) if r["hours"] >= LEARN_FROM_HOURS]
@@ -1385,8 +1476,13 @@ def update_learnings(run: Run, analytics: dict) -> dict:
         "channel medians. views, likes and Analytics are lifetime/current observations. For reach comparisons use "
         "only early_reach (observed 24-30h counts), retain its actual hours and compare similar ages. Missing "
         "early_reach or Analytics is unknown, never zero; do not infer retention from views. Describe associations, "
-        "not causes, and account for publication date and slot. Promote a hypothesis to a rule only when 2 or more Shorts show the same effect, and cite "
-        "them; drop hypotheses the data contradicts; keep the rest. Rules and hypotheses must be concrete enough "
+        "not causes, and account for publication date and slot. Promote a hypothesis to a rule only when "
+        f"{RULE_SHORTS} or more Shorts show the same effect AND their median early_reach (or the measure the rule "
+        "targets) differs from comparable Shorts without it; cite the Shorts and give both medians. Keep at most "
+        f"{MAX_RULES} rules, strongest first: merge overlapping rules, and when two rules pull in opposite "
+        "directions keep the better-measured one and move the other to the hypotheses. Keep at most "
+        f"{MAX_HYPOTHESES} hypotheses, most promising first; drop hypotheses the data contradicts. Rules and "
+        "hypotheses must be concrete enough "
         "for a scriptwriter to apply. log: one line on what changed today and why. summary: 2 sentences on what the "
         "numbers say for tomorrow's scripts.\n\nCurrent file:\n" + text.split("## Scoreboard")[0]
         + f"\n\nShorts with {LEARN_FROM_HOURS}+ hours of data:\n" + json.dumps(rows, indent=1) + "\n\nMedians of the last 10: " + json.dumps(medians)
@@ -1426,8 +1522,8 @@ def update_learnings(run: Run, analytics: dict) -> dict:
     log_section = _section(text, "## Log").rstrip()
     new = "".join([
         head, what.rstrip(), "\n\n",
-        rules_intro, "\n\n", "\n".join(f"- {r}" for r in answer["rules"]) or "- None yet.", "\n\n",
-        hyp_intro, "\n\n", "\n".join(f"- {h}" for h in answer["hypotheses"]), "\n\n",
+        rules_intro, "\n\n", "\n".join(f"- {r}" for r in answer["rules"][:MAX_RULES]) or "- None yet.", "\n\n",
+        hyp_intro, "\n\n", "\n".join(f"- {h}" for h in answer["hypotheses"][:MAX_HYPOTHESES]), "\n\n",
         board_intro, "\n\n", "\n".join(board), "\n\n",
         log_section, f"\n- {_now().date().isoformat()}: {answer['log']}\n",
     ])
@@ -1436,6 +1532,30 @@ def update_learnings(run: Run, analytics: dict) -> dict:
             raise RuntimeError(f"rebuilt LEARNINGS.md lost {heading}; left unchanged")
     LEARNINGS.write_text(new, encoding="utf-8")
     return {"rows": rows, "medians": medians, "summary": answer["summary"], "log": answer["log"]}
+
+
+def slot_test(rows: list[dict], skip: set[str] | frozenset = frozenset()) -> str | None:
+    """The third-slot crossover (publish.SLOT_TEST) so far: each time's Shorts and median observed 24-30 h views.
+    Only a Short in its day's test slot counts, and none in `skip` (timely Shorts, which ride news, and can take
+    the other time as a slot over the pace)."""
+    from .publish import AUDIENCE_TZ, SLOT_TEST, SLOT_TEST_TIMES, slots_on
+
+    arms: dict[str, list[float]] = {f"{t:%H:%M}": [] for t in SLOT_TEST_TIMES}
+    for r in rows:
+        at = datetime.fromisoformat(r["published"]).astimezone(AUDIENCE_TZ)
+        if r.get("short") in skip or not SLOT_TEST[0] <= at.date() < SLOT_TEST[1] or not r.get("early_reach"):
+            continue
+        test_slot = slots_on(at.date())[2]
+        # A post Buffer failed is sent again by slot_watch up to an hour later.
+        if -300 <= (at - datetime.combine(at.date(), test_slot, AUDIENCE_TZ)).total_seconds() <= 3600 + 900:
+            arms[f"{test_slot:%H:%M}"].append(r["early_reach"]["views"])
+    if not any(arms.values()):
+        return None
+    parts = [f"{slot} ET: {len(v)} Shorts, median {statistics.median(v):,.0f}" if v else f"{slot} ET: none measured yet"
+             for slot, v in arms.items()]
+    done = all(len(v) >= 10 for v in arms.values())
+    return ("Third-slot test " + ("(complete)" if done else f"({SLOT_TEST[0]} to {SLOT_TEST[1]}, so far)") + ": "
+            + "; ".join(parts) + ". Observed 24-30 h views.")
 
 
 def _report_path(day: int) -> Path:
@@ -1448,7 +1568,7 @@ def _sessions_section(path: Path) -> str:
 
 
 def write_report(run: Run, analytics: dict, learned: dict | None, topics_added: list[str],
-                 breakouts: list[str] | None = None) -> Path:
+                 breakouts: list[str] | None = None, stuck: list[str] | None = None) -> Path:
     today = _now().date()
     day = day_number(today)
     path = _report_path(day)
@@ -1508,6 +1628,10 @@ def write_report(run: Run, analytics: dict, learned: dict | None, topics_added: 
         lines.append("- No new Shorts in the last 24 hours.")
     if breakouts:
         lines += ["", "## Breakouts", ""] + [f"- {b}" for b in breakouts]
+    if stuck:
+        lines += ["", "## Stalled Shorts", ""] + [f"- {s}" for s in stuck]
+    if test := slot_test(list(rows.values()), {e["id"] for e in eps if (e.get("topic") or {}).get("timely")}):
+        lines += ["", "## Experiments", "", f"- {test}"]
     lines += ["", "## Decisions", ""]
     lines += [f"- Added topic: {t}" for t in topics_added] or ["- None."]
     lines += ["", "## Owner action needed", ""]
@@ -1543,11 +1667,52 @@ def weekly_review(run: Run, analytics: dict, learned: dict | None) -> Path:
     return path
 
 
+# A Short this many hours old with fewer than STALLED_VIEWS views never got its first test audience (ep167 had 11
+# views after 6 days while its peers had about 1,000): ask YouTube why, once per Short.
+STALLED_VIEWS, STALLED_HOURS = 50, 24
+
+
+def stalled(analytics: dict, seen: set[str] | frozenset = frozenset()) -> list[dict]:
+    """Public Shorts STALLED_HOURS+ old with under STALLED_VIEWS views, not reported before: {"video", "title",
+    "views", "hours"}."""
+    taken = datetime.fromisoformat(analytics["taken_at"]) if analytics.get("taken_at") else datetime.now(timezone.utc)
+    out = []
+    for video in analytics.get("videos", []):
+        hours = (taken - datetime.fromisoformat(video["published"].replace("Z", "+00:00"))).total_seconds() / 3600
+        if hours >= STALLED_HOURS and video.get("views", 0) < STALLED_VIEWS and video["id"] not in seen:
+            out.append({"video": video["id"], "title": video.get("title", ""), "views": video.get("views", 0),
+                        "hours": round(hours)})
+    return out
+
+
+def check_stalled(run: Run, analytics: dict, state: dict) -> list[str]:
+    """Report each stalled Short with what YouTube says about it; a restriction YouTube names goes to the owner."""
+    from .youtube import video_health
+
+    done = state.setdefault("stalled", {})
+    found = stalled(analytics, set(done))
+    if not found:
+        return []
+    health = video_health([s["video"] for s in found])
+    lines = []
+    for s in found:
+        problems = health.get(s["video"], [])
+        done[s["video"]] = {"on": _now().date().isoformat(), "views": s["views"], "problems": problems}
+        cause = "; ".join(problems) if problems else ("YouTube reports no restriction: public, processed, not for kids, "
+                                                     "not age-restricted, no blocked countries")
+        lines.append(f"\"{s['title']}\" ({s['video']}) has {s['views']} views after {s['hours']} hours: {cause}")
+        if problems:
+            run.owner_action.append(f"\"{s['title']}\" (https://youtube.com/shorts/{s['video']}) is held back: "
+                                    f"{cause}. Check it in Studio.")
+    _write_json(STATUS / "state.json", state)
+    return lines
+
+
 def daily(run: Run, state: dict | None = None) -> None:
     from .youtube import save_stats
 
     state = state if state is not None else _json(STATUS / "state.json", {})
-    analytics, learned, added, broke = {}, None, [], []
+    analytics, learned, added, broke, stuck = {}, None, [], [], []
     with run.stage("analytics") as entry:
         path = save_stats(ANALYTICS)
         analytics = _json(path, {})
@@ -1559,6 +1724,12 @@ def daily(run: Run, state: dict | None = None) -> None:
         with run.stage("breakouts") as entry:
             broke = breakout_topics(run, state)
             entry["detail"] = "; ".join(broke)[:300] or "none"
+        with run.stage("stalled Shorts") as entry:
+            try:
+                stuck = check_stalled(run, analytics, state)
+                entry["detail"] = "; ".join(stuck)[:300] or "none"
+            except Exception as err:  # a diagnosis only: it must never fail the day's routine
+                entry["detail"] = f"not checked: {type(err).__name__}: {err}"[:300]
     with run.stage("timely topics") as entry:
         timely = add_timely(run)
         added += timely
@@ -1571,7 +1742,7 @@ def daily(run: Run, state: dict | None = None) -> None:
         with run.stage("weekly review") as entry:
             entry["detail"] = weekly_review(run, analytics, learned).name
     with run.stage("report") as entry:
-        entry["detail"] = write_report(run, analytics, learned, added, broke).name
+        entry["detail"] = write_report(run, analytics, learned, added, broke, stuck).name
 
 
 # --- the run -------------------------------------------------------------------------------------------------

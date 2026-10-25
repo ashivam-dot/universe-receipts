@@ -313,6 +313,37 @@ def check_live(content_dir: Path) -> list[dict]:
     return problems
 
 
+def video_health(video_ids: list[str]) -> dict[str, list[str]]:
+    """What YouTube itself says could keep each video out of the feed: video id -> problems (empty when none).
+    One read of status and contentDetails per 50 videos (1 quota unit each)."""
+    data = build("youtube", "v3", credentials=_credentials(), cache_discovery=False)
+    out: dict[str, list[str]] = {}
+    for start in range(0, len(video_ids), 50):
+        chunk = video_ids[start:start + 50]
+        items = data.videos().list(part="status,contentDetails", id=",".join(chunk)).execute()["items"]
+        found = {item["id"]: item for item in items}
+        for video_id in chunk:
+            item = found.get(video_id)
+            if item is None:
+                out[video_id] = ["YouTube has no such video"]
+                continue
+            status, details = item.get("status") or {}, item.get("contentDetails") or {}
+            problems = []
+            if status.get("privacyStatus") != "public":
+                problems.append(f"it is {status.get('privacyStatus')}")
+            if status.get("uploadStatus") not in (None, "processed"):
+                reason = status.get("rejectionReason") or status.get("failureReason")
+                problems.append(f"upload {status.get('uploadStatus')}" + (f" ({reason})" if reason else ""))
+            if status.get("madeForKids"):
+                problems.append("it is marked made for kids")
+            if (details.get("contentRating") or {}).get("ytRating") == "ytAgeRestricted":
+                problems.append("it is age-restricted")
+            if blocked := (details.get("regionRestriction") or {}).get("blocked"):
+                problems.append(f"it is blocked in {len(blocked)} countries")
+            out[video_id] = problems
+    return out
+
+
 def save_stats(out_dir: Path) -> Path:
     report = stats()
     out_dir.mkdir(parents=True, exist_ok=True)

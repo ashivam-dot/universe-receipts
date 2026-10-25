@@ -18,44 +18,33 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 ## Rules we've proven
 
-A rule needs at least two Shorts with 24+ hours of data showing the same effect. Once proven, also copy it
-into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
+A rule needs at least four Shorts with 24+ hours of data showing the same effect, and a measured difference
+against comparable Shorts without it (say both medians). At most 10 rules: merge overlapping ones, and when two
+rules pull in opposite directions keep the better-measured one and move the other to the hypotheses. Once proven,
+also copy it into `strategy/SCRIPT-RULES.md`, then cite the evidence here. (Consolidated 2026-10-25 from 30 rules,
+each promoted on two Shorts; their evidence is kept below.)
 
-- Put the strongest surprise or contradiction in the first 2 seconds to maximize view velocity and early retention. Evidence: ep008, ep024, ep084, ep125, ep137, ep175, ep188.
-- Start the opening script line with a curiosity gap rather than a static statement or text overlay to improve initial retention. Evidence: ep002, ep009, ep040, ep114, ep129.
-- Replace closed circular endings with an open-ended question, debate prompt, or provocative paradox in the final beat to drive audience comments. Evidence: ep004, ep013, ep017, ep024, ep028, ep032, ep033, ep047, ep050, ep052, ep055, ep060, ep066, ep086, ep099, ep105, ep110, ep111, ep112, ep118, ep133, ep137, ep175.
-- Write a last line that flows straight into the first line to increase average percentage viewed and trigger rewatches. Evidence: ep008, ep013, ep028, ep032, ep047, ep086, ep099, ep111, ep112, ep114, ep125, ep129, ep175, ep146.
-- Avoid repeating exact hook phrases verbatim in the final beat; replace them with a distinct concluding payoff, seamless cliffhanger, or forward-looking question to prevent steep retention and like drops. Evidence: ep017, ep024, ep036, ep052, ep055, ep084, ep130.
-- Condense mid-script setups into single punchy beats to keep the final beat under 3 seconds and sustain end retention above 1.0. Evidence: ep008, ep009, ep047, ep084, ep188.
-- Compress or eliminate complex technical explanations, scientific definitions, or catalog designations in all beats to prevent retention drop-off. Evidence: ep008, ep028, ep086, ep112, ep125, ep159, ep188, ep172.
-- Deliver the core narrative payoff or setup within the first 3 seconds immediately after the hook to prevent pacing drop-off. Evidence: ep004, ep009, ep061, ep084, ep114, ep221.
-- Accelerate middle-beat reveals on cosmic scale topics to maintain audience engagement through the midpoint. Evidence: ep032, ep036.
-- Use high-urgency hook phrases to boost immediate view velocity and distribution. Evidence: ep032, ep035, ep112, ep184.
-- Tighten pacing in the second and third beats to prevent early-retention drop-offs. Evidence: ep009, ep036, ep184.
-- Avoid passive statement hooks in favor of high-tension, active mysteries or direct questions to prevent early viewer drop-off. Evidence: ep002, ep033, ep040, ep061, ep086, ep110, ep129, ep130, ep133, ep195.
-- Replace historical discovery dates, timeline beats, catalog designations, and academic debates with immediate physical scale comparisons or active narrative tension. Evidence: ep030, ep046, ep049, ep060, ep061, ep079, ep086, ep114, ep159, ep188.
-- Eliminate redundant concept or numerical restatements between the hook and subsequent beats to sustain narrative velocity. Evidence: ep049, ep052, ep084, ep130, ep172.
-- Cut generic concluding wrap-up statements in favor of an abrupt punchline quote, seamless loop, or challenge to prevent late-retention drift. Evidence: ep046, ep047, ep060, ep084, ep099, ep114, ep129, ep146.
-- Replace cosmic tropes with specific observational details in the hook to improve scroll-stop rates. Evidence: ep066, ep118, ep129.
-- Replace administrative proper names, researcher biographies, and instrument lists in middle beats with immediate anomaly reveals or countdown timeframes to maintain narrative tension and pacing. Evidence: ep111, ep112, ep125, ep186, ep188, ep197.
-- Avoid giveaway conclusion signals in final beats to prevent viewer drop-off before the loop or payoff completes. Evidence: ep111, ep118, ep129.
-- Use immediate physical threat or high-stakes action phrases in hook text rather than abstract distances or dates to maximize swipe-through. Evidence: ep072, ep112, ep130, ep133, ep181, ep184.
-- Avoid stacking multiple rapid numerical figures or dates across consecutive middle beats to prevent cognitive fatigue and protect like conversion. Evidence: ep125, ep175.
-- Delay the safety resolution or anti-climax in hazard scripts until the absolute final beat to sustain mid-to-late retention. Evidence: ep130, ep133, ep137, ep159.
-- Eliminate secondary aftermath subplots, historical footnotes, or unrelated survival outcomes following the main climax to preserve rewatch velocity. Evidence: ep137, ep159, ep146, ep165.
-- Structure the final beat as a grammatical setup that requires the hook's first word to complete the sentence to force rewatches. Evidence: ep114, ep118, ep125, ep129, ep130, ep175.
-- Hold the central threat revelation until the midpoint beats instead of revealing it in beat one to build mystery and prevent early climax fatigue. Evidence: ep129, ep130.
-- Ensure the final beat provides a complete concluding sentence rather than cutting off mid-thought to preserve like conversion and rewatch value. Evidence: ep137, ep172.
-- Replace technical scientific measurements and optical jargon with relatable physical scale analogies to prevent midpoint retention drop-offs. Evidence: ep159, ep188.
-- Replace static statement hooks with logic-defying challenges or 'nature isn't supposed to' framing to improve scroll-stop rates. Evidence: ep133, ep195.
-- Replace purely descriptive closing lines with an active viewer prompt or observational challenge in the final beat to drive comments and engagement. Evidence: ep146, ep185, ep201.
-- Start high-stakes hazard hooks with a direct chronological countdown or a stark paradox rather than a historical or static statement. Evidence: ep184, ep195.
+- Open with the most surprising true thing about a well-known subject in the first 2 seconds: a contradiction, paradox, myth flip or physical consequence with a specific observed detail, never a passive statement, cosmic trope or abstract distance. Evidence: ep002, ep008, ep009, ep024, ep033, ep040, ep061, ep066, ep072, ep084, ep086, ep110, ep112, ep114, ep118, ep125, ep129, ep130, ep133, ep137, ep175, ep181, ep184, ep188, ep195.
+- Deliver the core payoff within 3 seconds of the hook, and never restate the hook's number or idea in the next beat. Evidence: ep004, ep009, ep049, ep052, ep061, ep084, ep114, ep130, ep172, ep221.
+- Make every middle beat a new, bigger reveal; keep beats two and three short. Evidence: ep008, ep009, ep032, ep036, ep047, ep084, ep184, ep188.
+- No catalog designations, discovery dates, researcher biographies, instrument lists or jargon in any beat: replace them with one familiar physical comparison. Evidence: ep008, ep028, ep030, ep046, ep049, ep060, ep061, ep079, ep086, ep111, ep112, ep114, ep125, ep159, ep172, ep186, ep188, ep197.
+- One number per beat: never stack figures or dates in consecutive beats. Evidence: ep125, ep175.
+- In a hazard story, keep the safety resolution for the last beat. Evidence: ep130, ep133, ep137, ep159.
+- End right after the climax: no aftermath subplot, historical footnote, wrap-up summary or 'in the end' signal. Evidence: ep046, ep047, ep060, ep084, ep099, ep111, ep114, ep118, ep129, ep137, ep146, ep159, ep165.
+- The last line is a complete sentence that leads naturally back into the first, so the Short loops; never repeat the hook verbatim and never end on a fragment. Evidence: ep008, ep013, ep017, ep024, ep028, ep032, ep036, ep047, ep052, ep055, ep084, ep086, ep099, ep111, ep112, ep114, ep118, ep125, ep129, ep130, ep137, ep146, ep172, ep175.
 
 ## Hypotheses to test (from research, not yet our data)
 
+At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
+
+- Open on a belief most viewers already hold, then correct it (the Space Myths, Busted pattern: median 1,167 observed 24-30 h views, 5 of 7 past 1,000, against about 900 for the channel).
+- End on a direct question or challenge to the viewer instead of a loop: it was a rule on 23 Shorts, yet the channel has 19 comments in total, so test it against the loop.
+- Hold the central threat until the middle beats instead of beat one (conflicts with the opening rule; test it on hazard stories only).
+- End with a line worth sending to someone ('the next time someone says...'): 17 shares in 37,000 views.
+- For evergreen subjects, use the plain question people search as the title ('Is There a Dark Side of the Moon?'): search brings 4% of views.
 - Cut each Short to 45-59 seconds to maximize reach potential.
 - Replace detached opening statements with character-driven or first-person narrative friction to improve 5 percent retention.
-- Move high-impact human-interest confirmation or core story reveals to the 10-second mark to ground abstract theories early.
+- Move the human-interest confirmation or core story reveal to the 10-second mark to ground abstract theories early.
 
 ## Scoreboard
 
@@ -204,3 +193,4 @@ contradiction.
 - 2026-10-25: Reviewed 10 Shorts, updating evidence for Rule 19 (ep072) and Rule 28 (ep185) regarding high-stakes hook text and comment-prompting endings.
 - 2026-10-25: Updated today's review log by extracting performance diagnostics and translating script changes into actionable data points.
 - 2026-10-25: Integrated ten reviews, adding citations to rules on technical compression, naming conventions, and narrative focus while validating physical-impact hooks.
+- 2026-10-25: Consolidated 30 rules (each promoted on two Shorts, several contradicting) into 8; the contested ones (open-question endings, delayed threats) are hypotheses to test. Rules now need 4+ Shorts and a measured difference.

@@ -17,7 +17,7 @@ import shutil
 import tempfile
 import time
 import urllib.parse
-from datetime import datetime, time as clock, timedelta, timezone
+from datetime import date, datetime, time as clock, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -34,6 +34,18 @@ AUDIENCE_TZ = ZoneInfo("America/New_York")
 # 2026 data (1.8M videos) puts Shorts' peak at 6-11 p.m. and the weekday 12-5 p.m. stretch lowest, so the first two
 # are evening slots 2.5 hours apart (research/growth-playbook-2026.md, upgrade 5).
 SLOTS = (clock(19, 0), clock(21, 30), clock(12, 30), clock(16, 30), clock(22, 30))
+# A crossover test of the third slot: by Day 24, Shorts at 12:30 had a median of 746 views against about 1,050 at
+# 19:00 and 21:30, but topics weren't matched. Between these dates the third Short alternates daily between 12:30
+# (first, on Oct 29) and 16:30, 10 days each, so both see the same weeks and topic mix (auto.slot_test reports it).
+SLOT_TEST = (date(2026, 10, 29), date(2026, 11, 18))
+SLOT_TEST_TIMES = (clock(12, 30), clock(16, 30))
+
+
+def slots_on(day: date) -> tuple:
+    """The day's SLOTS, best first, with the third slot swapped on test days."""
+    if SLOT_TEST[0] <= day < SLOT_TEST[1] and day.toordinal() % 2:
+        return SLOTS[:2] + (SLOTS[3], SLOTS[2]) + SLOTS[4:]
+    return SLOTS
 BUFFER_QUEUE_LIMIT = 10
 # A live Short's copy is on YouTube, and a remake fetches the same images again.
 BULKY = ("{id}.mp4", "work/assets", "work/frames", "work/narration.wav", "work/contact.jpg")
@@ -474,7 +486,7 @@ def next_slots(count: int, taken: set[datetime], start: datetime | None = None, 
     now = (start or datetime.now(AUDIENCE_TZ)).astimezone(AUDIENCE_TZ) + timedelta(minutes=30)
     day, found = now.date(), []
     while len(found) < count:
-        for slot in sorted(SLOTS[:per_day]):
+        for slot in sorted(slots_on(day)[:per_day]):
             when = datetime.combine(day, slot, AUDIENCE_TZ)
             booked = sum(t.astimezone(AUDIENCE_TZ).date() == day for t in taken | set(found))
             if when > now and when not in taken and booked < per_day:

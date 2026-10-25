@@ -8,6 +8,7 @@ KEEP={'_publication_time','_early_reach','_reviews','_video_rows','_median','_se
 def namespace():
     tree=ast.parse(SOURCE.read_text());nodes=[ast.ImportFrom(module='__future__',names=[ast.alias(name='annotations')],level=0)]
     nodes += [n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name in KEEP]
+    nodes += [n for n in tree.body if isinstance(n,ast.Assign) and 'MAX_RULES' in ast.unparse(n.targets[0])]
     ns={'datetime':datetime,'Path':Path,'IST':timezone.utc,'statistics':statistics,'json':json,'re':__import__('re'),
         '_json':lambda p,default=None:json.loads(p.read_text()) if p.exists() else default,
         'yaml':SimpleNamespace(safe_load=lambda text:{'beats':[{'text':'the hook'}]}),
@@ -50,4 +51,19 @@ class MeasurementTests(unittest.TestCase):
         self.assertEqual(result['medians']['early_views'],700);self.assertIsNone(result['medians']['subs_per_1000'])
         self.assertIn('Observed 24-30h views',file.read_text());self.assertIn('| 700 |',file.read_text())
         self.assertIn('Missing early_reach or Analytics is unknown',captured[0])
+    def test_rules_need_four_measured_shorts_and_are_capped(self):
+        ep,v=self.episode('ep001',22,700);file=self.root/'LEARNINGS.md'
+        file.write_text('# Log\n\n## What to beat\n\n## Rules we\'ve proven\n\n## Hypotheses to test\n\n## Scoreboard\n\n## Log\n')
+        captured=[]
+        def generate(prompt,**kwargs):
+            captured.append(prompt)
+            return {'reasons':[],'rules':[f'rule {i}' for i in range(15)],'hypotheses':[f'hyp {i}' for i in range(12)],
+                    'summary':'test','log':'test'}
+        self.ns.update({'episodes':lambda:[ep],'_sister_rules':lambda:'','LEARNINGS':file,'LEARN_FROM_HOURS':24,'LEARN_SCHEMA':{},
+                        'llm':SimpleNamespace(generate=generate),'_now':lambda:datetime.now(timezone.utc)})
+        self.ns['update_learnings'](None,{'videos':[v]})
+        text=file.read_text()
+        self.assertIn('- rule 9\n',text);self.assertNotIn('rule 10',text)
+        self.assertIn('- hyp 7\n',text);self.assertNotIn('hyp 8',text)
+        self.assertIn('4 or more Shorts show the same effect AND',captured[0]);self.assertIn('at most 10 rules',captured[0])
 if __name__=='__main__':unittest.main(verbosity=2)
