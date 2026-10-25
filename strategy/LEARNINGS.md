@@ -24,25 +24,25 @@ into `strategy/SCRIPT-RULES.md`, then cite the evidence here.
 - Put the strongest surprise or contradiction in the first 2 seconds to maximize view velocity and early retention. Evidence: ep008, ep024, ep084, ep125, ep137, ep175, ep188.
 - Start the opening script line with a curiosity gap rather than a static statement or text overlay to improve initial retention. Evidence: ep002, ep009, ep040, ep114, ep129.
 - Replace closed circular endings with an open-ended question, debate prompt, or provocative paradox in the final beat to drive audience comments. Evidence: ep004, ep013, ep017, ep024, ep028, ep032, ep033, ep047, ep050, ep052, ep055, ep060, ep066, ep086, ep099, ep105, ep110, ep111, ep112, ep118, ep133, ep137, ep175.
-- Write a last line that flows straight into the first line to increase average percentage viewed and trigger rewatches. Evidence: ep008, ep013, ep028, ep032, ep047, ep086, ep099, ep111, ep112, ep114, ep125, ep129, ep175.
+- Write a last line that flows straight into the first line to increase average percentage viewed and trigger rewatches. Evidence: ep008, ep013, ep028, ep032, ep047, ep086, ep099, ep111, ep112, ep114, ep125, ep129, ep175, ep146.
 - Avoid repeating exact hook phrases verbatim in the final beat; replace them with a distinct concluding payoff, seamless cliffhanger, or forward-looking question to prevent steep retention and like drops. Evidence: ep017, ep024, ep036, ep052, ep055, ep084, ep130.
 - Condense mid-script setups into single punchy beats to keep the final beat under 3 seconds and sustain end retention above 1.0. Evidence: ep008, ep009, ep047, ep084, ep188.
-- Compress or eliminate complex technical explanations, scientific definitions, or catalog designations in all beats to prevent retention drop-off. Evidence: ep008, ep028, ep086, ep112, ep125, ep159, ep188.
-- Deliver the core narrative payoff or setup within the first 3 seconds immediately after the hook to prevent pacing drop-off. Evidence: ep004, ep009, ep061, ep084, ep114.
+- Compress or eliminate complex technical explanations, scientific definitions, or catalog designations in all beats to prevent retention drop-off. Evidence: ep008, ep028, ep086, ep112, ep125, ep159, ep188, ep172.
+- Deliver the core narrative payoff or setup within the first 3 seconds immediately after the hook to prevent pacing drop-off. Evidence: ep004, ep009, ep061, ep084, ep114, ep221.
 - Accelerate middle-beat reveals on cosmic scale topics to maintain audience engagement through the midpoint. Evidence: ep032, ep036.
 - Use high-urgency hook phrases to boost immediate view velocity and distribution. Evidence: ep032, ep035, ep112, ep184.
 - Tighten pacing in the second and third beats to prevent early-retention drop-offs. Evidence: ep009, ep036, ep184.
-- Avoid passive statement hooks in favor of high-tension, active mysteries or direct questions to prevent early viewer drop-off. Evidence: ep002, ep033, ep040, ep061, ep086, ep110, ep129, ep130, ep133.
+- Avoid passive statement hooks in favor of high-tension, active mysteries or direct questions to prevent early viewer drop-off. Evidence: ep002, ep033, ep040, ep061, ep086, ep110, ep129, ep130, ep133, ep195.
 - Replace historical discovery dates, timeline beats, catalog designations, and academic debates with immediate physical scale comparisons or active narrative tension. Evidence: ep030, ep046, ep049, ep060, ep061, ep079, ep086, ep114, ep159, ep188.
 - Eliminate redundant concept or numerical restatements between the hook and subsequent beats to sustain narrative velocity. Evidence: ep049, ep052, ep084, ep130, ep172.
-- Cut generic concluding wrap-up statements in favor of an abrupt punchline quote, seamless loop, or challenge to prevent late-retention drift. Evidence: ep046, ep047, ep060, ep084, ep099, ep114, ep129.
+- Cut generic concluding wrap-up statements in favor of an abrupt punchline quote, seamless loop, or challenge to prevent late-retention drift. Evidence: ep046, ep047, ep060, ep084, ep099, ep114, ep129, ep146.
 - Replace cosmic tropes with specific observational details in the hook to improve scroll-stop rates. Evidence: ep066, ep118, ep129.
 - Replace administrative proper names, researcher biographies, and instrument lists in middle beats with immediate anomaly reveals or countdown timeframes to maintain narrative tension and pacing. Evidence: ep111, ep112, ep125, ep186, ep188, ep197.
 - Avoid giveaway conclusion signals in final beats to prevent viewer drop-off before the loop or payoff completes. Evidence: ep111, ep118, ep129.
 - Use immediate physical threat or high-stakes action phrases in hook text rather than abstract distances or dates to maximize swipe-through. Evidence: ep072, ep112, ep130, ep133, ep181, ep184.
 - Avoid stacking multiple rapid numerical figures or dates across consecutive middle beats to prevent cognitive fatigue and protect like conversion. Evidence: ep125, ep175.
 - Delay the safety resolution or anti-climax in hazard scripts until the absolute final beat to sustain mid-to-late retention. Evidence: ep130, ep133, ep137, ep159.
-- Eliminate secondary aftermath subplots, historical footnotes, or unrelated survival outcomes following the main climax to preserve rewatch velocity. Evidence: ep137, ep159.
+- Eliminate secondary aftermath subplots, historical footnotes, or unrelated survival outcomes following the main climax to preserve rewatch velocity. Evidence: ep137, ep159, ep146, ep165.
 - Structure the final beat as a grammatical setup that requires the hook's first word to complete the sentence to force rewatches. Evidence: ep114, ep118, ep125, ep129, ep130, ep175.
 - Hold the central threat revelation until the midpoint beats instead of revealing it in beat one to build mystery and prevent early climax fatigue. Evidence: ep129, ep130.
 - Ensure the final beat provides a complete concluding sentence rather than cutting off mid-thought to preserve like conversion and rewatch value. Evidence: ep137, ep172.
@@ -101,16 +101,16 @@ contradiction.
 | ep184 | Near Misses | statement, myth_vs_fact | 487 | 54% | 66.8% | 110% | 0 | – |
 | ep071 | The Universe Is Terrifying | statement, record | 917 | 49% | 93.2% | 144% | 1 | – |
 | ep072 | Near Misses | statement, record | 711 | 50% | 175.4% | 234% | 1 | – |
-| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 58% | 64.7% | 119% | 1 | hook contradiction stopped the swipe, but mid-script bureaucracy caused a drop and the closing philosophy failed to loop |
-| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.4% | 110% | 1 | search discoverability drove views, but weak opening tension and an abrupt late-video drop hurt final retention |
-| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 63.8% | 114% | 1 | strong reach via the feed and hook, but technical definitions slowed pacing and a weak fragment ending prevented rewatches |
-| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 61.0% | 118% | 1 | good viewer satisfaction once watched, but slow hook velocity and descriptive framing held down total views |
-| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.9% | 116% | 1 | high early velocity from the contradiction hook, but academic name-drops in the middle hurt engagement and comments |
-| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 55% | 105.7% | 153% | 2 | strong reach from the series title and scale hook, but a factual debunking format and final line lowered likes and comments |
-| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | – | – | – | – | high content satisfaction when watched, but abstract distance in the visual hook lagged initial pickup velocity |
-| ep221 | Mission Files | contradiction, story | 400 | – | – | – | – | high likes per view once watched, but slow initial distribution and lengthy setup hurt overall early reach |
-| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | – | – | – | – | strong viewer satisfaction from the case study, but slow pacing and a neat factual ending failed to spark comments |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | – | – | – | – | exceptional reach from the counterintuitive opening premise, but meandering trivia in the middle diluted engagement |
+| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 58% | 64.7% | 119% | 1 | Hook: high scroll-stop; Pacing: stalled by NASA bureaucracy; Loop: weak philosophical ending. |
+| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.4% | 110% | 1 | Hook: soft initial tension (early_reach 1167 @ 24.5h); Pacing: hurt by mid-climax informational tangents; Loop: failed observation loop. |
+| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 63.8% | 114% | 1 | Hook: strong contradiction; Pacing: technical jargon slowed middle; Loop: sentence-fragment fragment failed. |
+| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 61.0% | 118% | 1 | Hook: weak descriptive statement (early_reach 519 @ 25.1h); Topic: high satisfaction; Pacing: low velocity. |
+| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.9% | 116% | 1 | Hook: effective contradiction velocity (early_reach 984 @ 24.6h); Pacing: bogged down by researcher biographies; Topic: low engagement. |
+| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 55% | 105.7% | 153% | 2 | Hook: strong scale/myth interest (early_reach 982 @ 28.1h); Loop: too final; Pacing: steady. |
+| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | – | – | – | – | Hook: abstract distance text hindered velocity (early_reach 546 @ 25.1h); Topic: high likes/resonance; Pacing: N/A. |
+| ep221 | Mission Files | contradiction, story | 400 | – | – | – | – | Hook: slow velocity/setup (early_reach 400 @ 27.1h); Topic: high likes/resonance; Pacing: N/A. |
+| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | – | – | – | – | Hook: weak velocity (early_reach 660 @ 24.5h); Topic: high satisfaction; Loop: missed engagement prompt. |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | – | – | – | – | Hook: counterintuitive premise reach leader (early_reach 1495 @ 28.1h); Pacing: diluted by generic trivia; Topic: low engagement. |
 
 ## Log
 
@@ -203,3 +203,4 @@ contradiction.
 - 2026-10-24: Consolidated rules on mid-script academic attribution and technical analogies using evidence from ep159, ep186, and ep197.
 - 2026-10-25: Reviewed 10 Shorts, updating evidence for Rule 19 (ep072) and Rule 28 (ep185) regarding high-stakes hook text and comment-prompting endings.
 - 2026-10-25: Updated today's review log by extracting performance diagnostics and translating script changes into actionable data points.
+- 2026-10-25: Integrated ten reviews, adding citations to rules on technical compression, naming conventions, and narrative focus while validating physical-impact hooks.

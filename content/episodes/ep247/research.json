@@ -1,0 +1,287 @@
+{
+  "viable": true,
+  "reason": "The sources robustly document Swift's autonomous slewing, multi-wavelength payload, records, and history across multiple independent sites.",
+  "story": "Most space telescopes are lumbering giants pointed cautiously by human controllers days in advance. But when a dying star collapses into a black hole billions of light-years away, the initial gamma-ray flash lasts mere seconds. Enter the Neil Gehrels Swift Observatory. Launched by NASA in 2004, Swift was not named as an acronym, but after the nimble bird that pivots mid-flight. Using a coded aperture mask embedded with 52,000 lead tiles, Swift continuously scans wide swathes of the sky. The moment it detects a burst, its onboard computers take total control, instantly slewing the entire multi-ton spacecraft in under a minute without waiting for commands from Earth. By aiming its onboard X-ray and ultraviolet telescopes at the coordinates before the explosion fades, Swift caught cosmic events over 13 billion light-years distant. Originally built for a two-year mission, this autonomous robot guarded the high-energy skies for two decades.",
+  "angle": "Unlike traditional observatories that await human commands, Swift autonomously overrides its schedule and pivots its entire multi-ton body in under a minute to catch cosmic explosions before they vanish.",
+  "claims": [
+    {
+      "claim": "Swift launched into space on November 20, 2004.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Swift was launched aboard a Delta II rocket from Cape Canaveral.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Swift is a NASA Medium-class Explorer (MIDEX) mission.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft carries three co-aligned instruments: the Burst Alert Telescope (BAT), the X-Ray Telescope (XRT), and the Ultraviolet/Optical Telescope (UVOT).",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The name Swift is not an acronym, but was chosen in reference to the swift bird's ability to rapidly change direction in flight.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Upon detecting a burst, Swift autonomously repoints its entire body to target its narrow-field instruments within 20 to 100 seconds.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Swift was originally launched with a nominal prime mission lifespan of only two years.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Astrophysicist Neil Gehrels served as the mission's principal investigator from development until his death in February 2017.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In January 2018, NASA officially renamed the spacecraft the Neil Gehrels Swift Observatory.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Burst Alert Telescope uses a coded aperture mask containing approximately 52,000 lead tiles.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Burst Alert Telescope calculates gamma-ray burst coordinates to within 1 to 4 arcminutes.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Swift transmits burst coordinates to ground stations almost immediately so observatories worldwide can follow up via the General Coordinates Network.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The X-Ray Telescope monitors afterglows across an energy range of 0.2 to 10 keV.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Ultraviolet/Optical Telescope features a 30-centimeter (12-inch) aperture.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "On April 23, 2009, Swift detected GRB 090423, an explosion originating more than 13 billion light-years away when the universe was roughly 630 million years old.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Day-to-day spacecraft operations and flight commanding are handled by Pennsylvania State University.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Elevated solar activity expanded Earth's upper atmosphere, generating drag that caused Swift's orbit to steadily decay.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A private robotic servicer named LINK, built by Katalyst Space Technologies, was developed to attempt an orbital capture and boost of Swift.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Initial orbital parameters: S1 states Swift was inserted into an orbit of 585 by 604 km at 20.60 degrees inclination, while S6 lists a 600 km circular orbit at 22 degrees inclination. Scripts should describe the orbit generally as a low Earth orbit around 600 kilometers.",
+    "LINK rescue timeline and mission outcome: S5 reports the rescue mission launching on a Friday in mid-2025, whereas S1 documents a launch on 3 July 2026 and subsequent failure to rendezvous on 19 August 2026. A short script should either omit future mission dates or attribute the failed rescue attempt directly to NASA and Katalyst reports.",
+    "Burst Alert Telescope detector tile count: S1 cites both 32,768 and 32,500 cadmium zinc telluride detector units in different sections, while S6 notes 256 modules of 128 elements (equaling 32,768). Scripts should refer to over 32,000 detector elements or focus on the agreed 52,000 mask tiles."
+  ],
+  "visuals": [
+    {
+      "subject": "Artist concept of Swift in Earth orbit",
+      "queries": [
+        "Swift Gamma-Ray Burst Explorer artist concept",
+        "Neil Gehrels Swift Observatory illustration"
+      ]
+    },
+    {
+      "subject": "Delta II rocket launch carrying Swift",
+      "queries": [
+        "Delta II Swift launch Cape Canaveral",
+        "Delta 7320 Swift launch pad 17A"
+      ]
+    },
+    {
+      "subject": "Burst Alert Telescope coded aperture mask",
+      "queries": [
+        "Swift Burst Alert Telescope coded mask",
+        "Swift BAT lead tiles aperture"
+      ]
+    },
+    {
+      "subject": "X-ray Telescope mirror assembly",
+      "queries": [
+        "Swift X-ray Telescope mirror module",
+        "Swift XRT Wolter I optics"
+      ]
+    },
+    {
+      "subject": "Ultraviolet/Optical Telescope hardware",
+      "queries": [
+        "Swift Ultraviolet Optical Telescope cleanroom",
+        "Swift UVOT instrument"
+      ]
+    },
+    {
+      "subject": "Portrait of astrophysicist Neil Gehrels",
+      "queries": [
+        "Neil Gehrels NASA astrophysicist",
+        "Neil Gehrels portrait Goddard"
+      ]
+    },
+    {
+      "subject": "Gamma-ray burst beam and exploding star (artist illustration)",
+      "queries": [
+        "Gamma-ray burst artist concept NASA",
+        "Hypernova relativistic jet illustration"
+      ]
+    },
+    {
+      "subject": "Afterglow discovery image of GRB 090423",
+      "queries": [
+        "GRB 090423 afterglow Gemini VLT",
+        "GRB 090423 discovery image"
+      ]
+    },
+    {
+      "subject": "Swift spacecraft assembly in cleanroom",
+      "queries": [
+        "Swift satellite cleanroom Spectrum Astro",
+        "Swift spacecraft integration Goddard"
+      ]
+    },
+    {
+      "subject": "LINK satellite servicer concept",
+      "queries": [
+        "Katalyst Space Technologies LINK spacecraft",
+        "Robotic satellite servicing arm illustration"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Neil_Gehrels_Swift_Observatory",
+      "title": "Neil Gehrels Swift Observatory",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://science.nasa.gov/mission/swift/spacecraft/",
+      "title": "The Swift Spacecraft - NASA Science",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.space.com/39349-swift-observatory-name-change.html",
+      "title": "NASA Renames Swift Observatory in Honor of Late Principal Investigator",
+      "site": "space.com"
+    },
+    {
+      "label": "S4",
+      "url": "http://www.universetoday.com/2009/10/28/more-observations-of-grb-090423-the-most-distant-known-object-in-the-universe/",
+      "title": "More Observations of GRB 090423, the Most Distant Known Object in the Universe",
+      "site": "universetoday.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.bbc.co.uk/news/articles/c0ry4xx7rk8o",
+      "title": "Nasa launches robot to save Swift telescope falling to Earth",
+      "site": "bbc.co.uk"
+    },
+    {
+      "label": "S6",
+      "url": "https://web.archive.org/web/20180624050438/http://swift.sonoma.edu/about_swift/general_faq.html",
+      "title": "Swift Facts and FAQ",
+      "site": "sonoma.edu"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.swift.ac.uk/about/",
+      "title": "The Neil Gehrels Swift Observatory",
+      "site": "swift.ac.uk"
+    }
+  ],
+  "topic": "Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions",
+  "series": "Mission Files"
+}

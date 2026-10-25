@@ -1,127 +1,162 @@
 {
-  "updated_at": "2026-10-25T11:09:43+05:30",
+  "updated_at": "2026-10-25T17:15:03+05:30",
   "day": 24,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5RRW8NN8325DW2PNQ2S68QR",
+    "id": "ta-01M5SDFE9JYPT70JRGBRVVX6WR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-25T11:05:22+05:30",
-    "started_at_utc": "2026-10-25T05:35:22+00:00",
-    "seconds": 261
+    "started_at": "2026-10-25T17:05:11+05:30",
+    "started_at_utc": "2026-10-25T11:35:11+00:00",
+    "seconds": 592
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.5
+      "seconds": 1.3
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "74 posts",
-      "seconds": 5.1
+      "detail": "75 posts",
+      "seconds": 0.8
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep203 to 'Near Misses'",
-      "seconds": 4.3
+      "detail": "nothing new",
+      "seconds": 2.0
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep146 language en/None -> en; ep172 language en/None -> en; ep181 language en/None -> en; ep195 language en/None -> en; ep197 language en/None -> en; ep201 language en/None -> en",
-      "seconds": 5.6
+      "detail": "every live Short is in English",
+      "seconds": 0.2
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep165 at 24 h: ahead of the channel's earlier Shorts at this age: 1495 views against a median of 826 (1.8x); ep172 at 72 h: level with the channel's earlier Shorts at this age: 1019 views against a median of 1016 (1.0x); ep174 at 6 h: behind the channel's earlier Shorts at this age: 149 views against a median of 670 (0.2x); learnings: Updated today's review log by extracting performance diagnostics and translating script changes into actionable data points.",
-      "seconds": 171.8
+      "detail": "ep203 at 6 h: behind the channel's earlier Shorts at this age: 111 views against a median of 659 (0.2x)",
+      "seconds": 1.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep241 rejected (low scores: visuals); ep242 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep244 ready; ep245 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 25.0
+      "detail": "ep247 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep248 rejected (low scores: hook, visuals, loop)",
+      "seconds": 6.2
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "105 subscribers",
+      "seconds": 15.1
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Integrated ten reviews, adding citations to rules on technical compression, naming conventions, and narrative focus while validating physical-impact hooks.",
+      "seconds": 443.3
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 1.3
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "2 added",
+      "seconds": 60.6
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 24.7
+    },
+    {
+      "name": "weekly review",
+      "ok": true,
+      "detail": "week-04.md",
+      "seconds": 9.3
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-024.md",
+      "seconds": 1.8
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.7
+      "seconds": 0.2
     },
     {
       "name": "preflight ep059",
       "ok": true,
-      "detail": "video downloads whole (14 MB in 2 s)",
-      "seconds": 2.5
+      "detail": "video still hosted",
+      "seconds": 0.4
+    },
+    {
+      "name": "preflight ep177",
+      "ok": true,
+      "detail": "video downloads whole (19 MB in 0 s)",
+      "seconds": 0.6
     },
     {
       "name": "preflight ep194",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.4
+      "seconds": 0.4
     },
     {
       "name": "preflight ep210",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.4
+      "seconds": 0.4
     },
     {
       "name": "preflight ep214",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.5
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 7.0
+      "seconds": 1.4
     },
     {
-      "name": "schedule ep244",
+      "name": "start ep236",
       "ok": true,
-      "detail": "2026-10-28T12:30:00-04:00",
-      "seconds": 3.2
-    },
-    {
-      "name": "start ep247",
-      "ok": true,
-      "detail": "Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions",
-      "seconds": 3.8
-    },
-    {
-      "name": "start ep248",
-      "ok": true,
-      "detail": "Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up",
-      "seconds": 3.9
+      "detail": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
+      "seconds": 1.0
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.9
+      "seconds": 2.4
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep242 stopped on Gemini's free quota; it resumes in a later run",
-    "ep245 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 12:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "room for 2 of the 4 Shorts wanted: Modal's credit covers 2, this run's share of the Actions minutes 0",
+    "ep247 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 21 waiting",
+    "room for 1 of the 10 Shorts wanted: Modal's credit covers 1, this run's share of the Actions minutes 0",
     "Buffer is full (10 queued); 21 waiting"
   ],
   "inventory": {
@@ -130,17 +165,16 @@
     "waiting": 21,
     "target": 42,
     "making": [
-      "ep236",
       "ep237",
       "ep238",
       "ep239",
       "ep240",
       "ep242",
-      "ep245"
+      "ep245",
+      "ep247"
     ],
     "remote": [
-      "ep247",
-      "ep248"
+      "ep236"
     ]
   },
   "queue": [
@@ -325,113 +359,67 @@
   ],
   "made": [
     {
-      "id": "ep241",
+      "id": "ep247",
+      "outcome": "unfinished",
+      "topic": "Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep248",
       "outcome": "rejected",
-      "topic": "2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep242",
-      "outcome": "unfinished",
-      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep244",
-      "outcome": "ready",
-      "topic": "Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards",
-      "title": "The Terrifying Myth of the Moon's Quicksand",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792885314/universereceipts/ep244-fd9677d6.mp4"
-    },
-    {
-      "id": "ep245",
-      "outcome": "unfinished",
-      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "topic": "Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up",
+      "reason": "low scores: hook, visuals, loop"
     }
   ],
   "spawned": [
     {
-      "id": "ep247",
-      "topic": "Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions",
-      "call_id": "fc-01M5RS4JB00123JSYDEQXD2JA4"
-    },
-    {
-      "id": "ep248",
-      "topic": "Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up",
-      "call_id": "fc-01M5RS4P56ETE97MJAQDSWRWTY"
+      "id": "ep236",
+      "topic": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
+      "call_id": "fc-01M5SE1MCSZAFE9CF1GDYN6XEZ"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep247",
-      "topic": "Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions",
-      "spawned_at": "2026-10-25T11:09:35+05:30"
-    },
-    {
-      "id": "ep248",
-      "topic": "Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up",
-      "spawned_at": "2026-10-25T11:09:38+05:30"
+      "id": "ep236",
+      "topic": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
+      "spawned_at": "2026-10-25T17:14:58+05:30"
     }
   ],
-  "published": [
-    {
-      "id": "ep244",
-      "title": "The Terrifying Myth of the Moon's Quicksand",
-      "due_at": "2026-10-28T12:30:00-04:00"
-    }
-  ],
+  "published": [],
   "live": 65,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 22,
+    "calls": 19,
     "by_model": {
-      "gemini-3.8-flash": 6,
-      "gemini-3-flash-preview": 4,
-      "gemini-3.5-flash-lite": 9,
-      "gemini-3.6-flash": 2,
-      "gemini-3.7-flash": 1
+      "gemini-3-flash-preview": 11,
+      "gemini-3.8-flash": 4,
+      "gemini-3.5-flash-lite": 3,
+      "gemini-3.5-flash": 1
     },
-    "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 8,
+    "modal": 4,
     "runner": 0
   },
-  "daily_done": "2026-10-24",
+  "daily_done": "2026-10-25",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 27.71,
+    "metered": 27.87,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 2,
+    "cloud": 1,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 0.29
+    "modal_credit_left": 0.13
   },
   "made_here": 0,
-  "open_topics": 34,
-  "parked_topics": 47
+  "open_topics": 41,
+  "parked_topics": 48
 }

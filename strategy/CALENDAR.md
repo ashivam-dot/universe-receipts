@@ -48,7 +48,9 @@ unexplained, not alien.
 | 2026-10-23 | Green star (astronomy) (1837): why true green stars are physically impossible for human eyes to see — dropped (ep235) | Space Got Weird | NASA featured the first apparent green white dwarf on Astronomy Picture of the Day. |
 | 2026-10-23 | Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble — making (ep236) | Scale Breaker | NASA highlighted new Hubble gravitational lens observations paving the way for the mission. |
 | 2026-10-24 | Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions — making (ep247) | Mission Files | NASA announced the conclusion of Swift's landmark 20-year science mission due to atmospheric drag. |
-| 2026-10-24 | Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up — making (ep248) | Mission Files | Featured on NASA's Astronomy Picture of the Day with its historic selfie alongside comet 67P. |
+| 2026-10-24 | Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up — parked (ep248) | Mission Files | Featured on NASA's Astronomy Picture of the Day with its historic selfie alongside comet 67P. |
+| 2026-10-25 | 2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days | Space Got Weird | The Moon is currently trending with over 27,000 views following recent news about Earth's temporary 'mini-moon' events. |
+| 2026-10-25 | Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside | Scale Breaker | Interest in the Moon is high on Wikipedia following NASA's recent updates on accelerating lander development for 2028. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -76,6 +78,7 @@ unexplained, not alien.
 | Dec 2 | STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope | Mission Files |
 | Dec 6 | Hayabusa2 (2020): on this day, the spacecraft successfully returned pristine capsule samples from asteroid Ryugu back to Earth | Mission Files |
 | Dec 07 | Apollo 17 (1972): the final crewed flight to the Moon, whose astronauts snapped the iconic whole-Earth Blue Marble photograph | Mission Files |
+| Dec 14 | Mariner 2 (1962): the first successful mission to another planet proved Venus was a 900-degree hellscape, shattering myths of it being a tropical paradise | Mission Files |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
 | Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
 | Oct 7 | Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons — done (ep004) | Mission Files |
@@ -194,6 +197,8 @@ unexplained, not alien.
 - Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms — parked (ep151)
 - Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth — done (ep190)
 - Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies — parked (ep202)
+- 2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years
+- Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth
 
 ### Space Got Weird
 
@@ -224,6 +229,7 @@ unexplained, not alien.
 - 3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids — parked (ep204)
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
 - Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — making (ep239)
+- Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose
 
 ### Near Misses
 
@@ -280,3 +286,4 @@ unexplained, not alien.
 - Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side — parked (ep215)
 - Escape velocity (1859): you do not need to reach 25,000 miles per hour to escape Earth's gravity; any speed will work as long as you have continuous thrust — done (ep216)
 - Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — making (ep238)
+- Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of "seared steak," "hot metal," and "welding fumes"

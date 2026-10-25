@@ -1,0 +1,181 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-25T11:20:52+05:30",
+      "check": {
+        "duration": 56.36,
+        "words": 122,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.5,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'at walking speed'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The on-screen text '31 MONTHS OF SILENCE' provides a strong curiosity gap for the first two seconds.",
+        "clarity": "The chronological structure makes a decade-long mission very easy to understand in under a minute.",
+        "payoff": "The 'Hello, world!' moment provides a high-quality emotional peak to the technical story.",
+        "visuals": "Most images are accurate, but the solar arrays in beat 5 belong to the ISS, not Rosetta.",
+        "loop": "The narration ends on a low-energy landing speed that flows naturally back into the start of the script."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows the International Space Station solar arrays rather than Rosetta's unique twin-panel design"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Ariane",
+          "respelling": "ah ree ahn"
+        },
+        {
+          "beat": 8,
+          "word": "Philae",
+          "respelling": "fee lay"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode humanizes the spacecraft through the 'Hello, world!' signal, providing a more relatable emotional beat than the recent episodes about Venus and the Moon.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-25T11:23:12+05:30",
+      "check": {
+        "duration": 56.53,
+        "words": 122,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'you' after 'at walking speed'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Intriguing premise but the verbal delivery lacks a strong initial punch.",
+        "clarity": "Chronological structure makes the multi-year mission history easy to follow.",
+        "payoff": "The 'Hello, world!' signal provides a satisfying climax to the silence.",
+        "visuals": "Distinctive mission-specific imagery and clear title cards support the narrative.",
+        "loop": "The crash landing creates a hard narrative break before the start repeats."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Ariane",
+          "respelling": "ah ree on"
+        },
+        {
+          "beat": 8,
+          "word": "Philae",
+          "respelling": "fee lay"
+        }
+      ],
+      "rewrite": [
+        "Beat 9: The final impact in 2016 ended the mission that began when it was..."
+      ],
+      "better_than_last": "This script handles a much longer timeline more clearly than the Moon Quicksand episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-25T11:26:53+05:30",
+      "check": {
+        "duration": 55.13,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'received by nasa'",
+          "'(nothing)' heard as 'you' after 'when it was'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The opening is a bit passive and lacks immediate intrigue.",
+        "clarity": "The chronological progression of the mission is easy to follow.",
+        "payoff": "The 'Hello, world!' greeting provides a satisfying conclusion to the tension.",
+        "visuals": "The technical diagram in beat 5 is too cluttered for mobile screens.",
+        "loop": "The sentence structure at the loop point feels slightly fragmented."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The instrument inventory diagram is text-heavy and illegible at phone scale."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A lone explorer was plunged into a 31-month silent sleep.",
+        "Beat 9: The 2016 impact ended the journey that began when the craft was..."
+      ],
+      "better_than_last": "This script manages the technical timeline more effectively than the Venus lander episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: hook, visuals, loop",
+  "rejected_at": "2026-10-25T11:26:54+05:30"
+}
