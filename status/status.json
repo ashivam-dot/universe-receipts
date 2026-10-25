@@ -1,100 +1,58 @@
 {
-  "updated_at": "2026-10-25T17:15:03+05:30",
+  "updated_at": "2026-10-25T23:09:54+05:30",
   "day": 24,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5SDFE9JYPT70JRGBRVVX6WR",
+    "id": "ta-01M5T22KXNXP172RDK4KRM0J6R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-25T17:05:11+05:30",
-    "started_at_utc": "2026-10-25T11:35:11+00:00",
-    "seconds": 592
+    "started_at": "2026-10-25T23:05:10+05:30",
+    "started_at_utc": "2026-10-25T17:35:10+00:00",
+    "seconds": 284
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 1.8
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "75 posts",
-      "seconds": 0.8
+      "seconds": 1.4
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 2.0
+      "detail": "added ep210 to 'Mission Files'",
+      "seconds": 2.7
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep203 at 6 h: behind the channel's earlier Shorts at this age: 111 views against a median of 659 (0.2x)",
-      "seconds": 1.5
+      "detail": "ep195 at 72 h: behind the channel's earlier Shorts at this age: 710 views against a median of 1018 (0.7x); ep208 at 24 h: behind the channel's earlier Shorts at this age: 34 views against a median of 829 (0.0x); learnings: Promoted the Space Myths debunking pattern to a rule based on 8 Shorts yielding 1,129.5 median early reach versus the 725.5 channel median, and updated middle-beat and attribution rules with evidence from recent reviews.",
+      "seconds": 251.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep247 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep248 rejected (low scores: hook, visuals, loop)",
-      "seconds": 6.2
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "105 subscribers",
-      "seconds": 15.1
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Integrated ten reviews, adding citations to rules on technical compression, naming conventions, and narrative focus while validating physical-impact hooks.",
-      "seconds": 443.3
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.3
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 60.6
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 24.7
-    },
-    {
-      "name": "weekly review",
-      "ok": true,
-      "detail": "week-04.md",
-      "seconds": 9.3
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-024.md",
-      "seconds": 1.8
+      "detail": "ep236 ready",
+      "seconds": 4.4
     },
     {
       "name": "buffer channel",
@@ -106,25 +64,19 @@
       "name": "preflight ep059",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "name": "preflight ep177",
       "ok": true,
-      "detail": "video downloads whole (19 MB in 0 s)",
-      "seconds": 0.6
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "preflight ep194",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
-    },
-    {
-      "name": "preflight ep210",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep214",
@@ -133,30 +85,34 @@
       "seconds": 0.4
     },
     {
+      "name": "preflight ep216",
+      "ok": true,
+      "detail": "video downloads whole (18 MB in 0 s)",
+      "seconds": 0.3
+    },
+    {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 4.5
     },
     {
-      "name": "start ep236",
+      "name": "schedule ep236",
       "ok": true,
-      "detail": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
+      "detail": "2026-10-25T16:30:00-04:00",
+      "seconds": 0.9
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
       "seconds": 1.0
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 2.4
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep247 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 21 waiting",
-    "room for 1 of the 10 Shorts wanted: Modal's credit covers 1, this run's share of the Actions minutes 0",
+    "room for 0 of the 9 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
     "Buffer is full (10 queued); 21 waiting"
   ],
   "inventory": {
@@ -173,15 +129,13 @@
       "ep245",
       "ep247"
     ],
-    "remote": [
-      "ep236"
-    ]
+    "remote": []
   },
   "queue": [
     {
-      "id": "ep210",
-      "title": "The Asteroid Sample That Was Too Big",
-      "due_at": "2026-10-25T12:30:00-04:00"
+      "id": "ep236",
+      "title": "The Spy Mirror Hunting for Alien Worlds",
+      "due_at": "2026-10-25T16:30:00-04:00"
     },
     {
       "id": "ep214",
@@ -359,65 +313,57 @@
   ],
   "made": [
     {
-      "id": "ep247",
-      "outcome": "unfinished",
-      "topic": "Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep248",
-      "outcome": "rejected",
-      "topic": "Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up",
-      "reason": "low scores: hook, visuals, loop"
+      "id": "ep236",
+      "outcome": "ready",
+      "topic": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
+      "title": "The Spy Mirror Hunting for Alien Worlds",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1792928931/universereceipts/ep236-1363fc59.mp4"
     }
   ],
-  "spawned": [
+  "spawned": [],
+  "in_cloud": [],
+  "published": [
     {
       "id": "ep236",
-      "topic": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
-      "call_id": "fc-01M5SE1MCSZAFE9CF1GDYN6XEZ"
+      "title": "The Spy Mirror Hunting for Alien Worlds",
+      "due_at": "2026-10-25T16:30:00-04:00"
     }
   ],
-  "in_cloud": [
-    {
-      "id": "ep236",
-      "topic": "Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble",
-      "spawned_at": "2026-10-25T17:14:58+05:30"
-    }
-  ],
-  "published": [],
-  "live": 65,
+  "live": 66,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 19,
+    "calls": 4,
     "by_model": {
-      "gemini-3-flash-preview": 11,
-      "gemini-3.8-flash": 4,
-      "gemini-3.5-flash-lite": 3,
-      "gemini-3.5-flash": 1
+      "gemini-3.8-flash": 3,
+      "gemini-3.6-flash": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 4,
+    "modal": 1,
     "runner": 0
   },
   "daily_done": "2026-10-25",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 27.87,
+    "metered": 27.9,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 1,
+    "cloud": 0,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 0.13
+    "modal_credit_left": 0.1
   },
   "made_here": 0,
   "open_topics": 41,
