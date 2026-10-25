@@ -1,0 +1,123 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-25T05:11:34+05:30",
+      "check": {
+        "duration": 49.43,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'12' heard as '(nothing)' after 'known as wasp'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong curiosity gap established immediately with the visual contrast.",
+        "clarity": "Concepts are clear and easy to follow throughout the narration.",
+        "payoff": "The doomed fate provides a solid conclusion to the setup.",
+        "visuals": "Several visual issues disrupt immersion, including incorrect planetary imagery.",
+        "loop": "The final sentence does not transition smoothly back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Wrong object shown; depicts our Solar System's Jupiter rather than an egg-shaped hot Jupiter."
+        },
+        {
+          "beat": 5,
+          "problem": "Text displays a missing font glyph box instead of a degree symbol."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "WASP-12b",
+          "respelling": "wasp twelve bee"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: 'Before it is consumed within three million years by its star, remember that'"
+      ],
+      "better_than_last": "Presents a more cohesive single-object narrative arc than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-25T05:18:32+05:30",
+      "check": {
+        "duration": 48.17,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.5,
+        "warnings": [],
+        "speech_differences": [
+          "'12' heard as '(nothing)' after 'known as wasp'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Visual contrast of dark and red is engaging.",
+        "clarity": "Sequential flow is logical.",
+        "payoff": "Conclusion is predictable by beat six.",
+        "visuals": "Beat five has a broken character.",
+        "loop": "Semantic link to asphalt works well."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Broken character symbol next to temperature unit."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "12",
+          "respelling": "twelve"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: In three million years, its star will finish consuming this pitch-black world."
+      ],
+      "better_than_last": "Provides a more consistent visual theme than the previous pulsar short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

@@ -1,0 +1,163 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-24T05:19:10+05:30",
+      "check": {
+        "duration": 49.37,
+        "words": 119,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The skull asteroid is a strong seasonal hook.",
+        "clarity": "Sequencing from discovery to identification is logical.",
+        "payoff": "The comet explanation justifies the unique shape.",
+        "visuals": "Beats 6 and 8 use images of the wrong asteroid.",
+        "loop": "The final line connects seamlessly to the start."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The image is dated August, whereas the event was in October."
+        },
+        {
+          "beat": 8,
+          "problem": "The frame explicitly labels the object as asteroid 2011 AG5."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Change to 'Astronomers discovered it was a dead comet, not an asteroid.'",
+        "Beat 8: Change to 'This 2,000-foot corpse reflects light like dark asphalt.'"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-25T05:11:26+05:30",
+      "check": {
+        "duration": 45.36,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong eerie premise that immediately commands attention.",
+        "clarity": "Easy to follow chronological sequence of discovery.",
+        "payoff": "Satisfactorily explains how a stripped comet formed the skull shape.",
+        "visuals": "Marred by an incorrect radar capture and generic asteroid charts.",
+        "loop": "Last beat connects cleanly back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Displays radar imagery dated 2012 from a completely different object."
+        },
+        {
+          "beat": 8,
+          "problem": "Shows a generic asteroid comparison chart unrelated to 2015 TB145."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The thematic Halloween hook provides stronger organic intrigue than the recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-25T05:12:41+05:30",
+      "check": {
+        "duration": 45.36,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging holiday tie-in and eerie premise immediately grab attention.",
+        "clarity": "Clear chronological narrative explaining the object's discovery and nature.",
+        "payoff": "Satisfying explanation of why the dead comet took on a skull shape.",
+        "visuals": "Releases good radar imagery, though beat 8 uses an inaccurate surface graphic.",
+        "loop": "Seamless audio transition directly connecting the last line to the first beat."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "Shows a generic planetary cratered surface with a 10 km scale bar, incorrect for a 2,000-foot object."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Features a much tighter thematic hook and cleaner loop transition than recent entries.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-25T05:12:41+05:30"
+}

@@ -101,30 +101,47 @@ beats:
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Portrait_of_Jupiter_from_Cassini.jpg/1280px-Portrait_of_Jupiter_from_Cassini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Artist%E2%80%99s_View_of_Extrasolar_Planet_WASP-12b_v2.png/3840px-Artist%E2%80%99s_View_of_Extrasolar_Planet_WASP-12b_v2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Portrait of Jupiter from Cassini.jpg
-      credit: NASA/JPL/Space Science Institute
+      title: Artist’s View of Extrasolar Planet WASP-12b v2.png
+      credit: NASA, ESA, and G. Bacon (STScI)
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Portrait_of_Jupiter_from_Cassini.jpg
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_View_of_Extrasolar_Planet_WASP-12b_v2.png
     fallbacks:
     - color
     motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.25
+    focus_y: 0.28
+    box:
+    - 0.03
+    - 0.04
+    - 0.46
+    - 0.52
 - text: Dayside temperatures soar to over forty-six hundred degrees Fahrenheit, thermalizing the atmosphere so no clouds can
     form.
   emphasis:
   - forty-six hundred degrees
   - no clouds can form
   visual:
-    source: card
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Spitzer_earth_trailing2.jpg/1920px-Spitzer_earth_trailing2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Spitzer earth trailing2.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Spitzer_earth_trailing2.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.52
+    focus_y: 0.45
     card:
       kind: fact
       big: "4,600 \x80F"
       small: Extreme dayside temperatures
-    motion: zoom_in
 - text: Hubble observations revealed that its superheated gas is actively spilling onto the star.
   emphasis:
   - Hubble observations
@@ -162,10 +179,10 @@ beats:
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: Locked in an irreversible death spiral, this pitch-black world has only about three million years left.
+- text: Within three million years, its star will completely consume this pitch-black world.
   emphasis:
-  - death spiral
-  - three million years left
+  - three million years
+  - completely consume
   sfx: pop
   pause_after: 0.4
   visual:

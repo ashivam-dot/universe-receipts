@@ -47,8 +47,8 @@ unexplained, not alien.
 | 2026-10-22 | Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts' — parked (ep222) | The Universe Is Terrifying | Featured in a recent NASA APOD highlighting the surrounding Ghost of Cassiopeia nebulae. |
 | 2026-10-23 | Green star (astronomy) (1837): why true green stars are physically impossible for human eyes to see — dropped (ep235) | Space Got Weird | NASA featured the first apparent green white dwarf on Astronomy Picture of the Day. |
 | 2026-10-23 | Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble — making (ep236) | Scale Breaker | NASA highlighted new Hubble gravitational lens observations paving the way for the mission. |
-| 2026-10-24 | Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions | Mission Files | NASA announced the conclusion of Swift's landmark 20-year science mission due to atmospheric drag. |
-| 2026-10-24 | Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up | Mission Files | Featured on NASA's Astronomy Picture of the Day with its historic selfie alongside comet 67P. |
+| 2026-10-24 | Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions — making (ep247) | Mission Files | NASA announced the conclusion of Swift's landmark 20-year science mission due to atmospheric drag. |
+| 2026-10-24 | Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up — making (ep248) | Mission Files | Featured on NASA's Astronomy Picture of the Day with its historic selfie alongside comet 67P. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -86,7 +86,7 @@ unexplained, not alien.
 | Oct 22 | Venera 9 (1975): the first photo ever taken on the surface of another planet came from Venus — parked (ep155) | Mission Files |
 | Oct 24 | V-2 rocket (1946): a captured rocket took the first-ever photo of Earth from space, showing the planet's curve from 65 miles up — done (ep174) | Mission Files |
 | Oct 29 | STS-95 (1998): John Glenn went back to space at 77, 36 years after his first orbit — parked (ep218) | Mission Files |
-| Oct 31 | 2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween — making (ep241) | Near Misses |
+| Oct 31 | 2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween — parked (ep241) | Near Misses |
 | Nov 2 | Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day | Mission Files |
 | Nov 3 | Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002 | Mission Files |
 | Nov 9 | Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos | Space Myths, Busted |
@@ -270,7 +270,7 @@ unexplained, not alien.
 - Tidal locking (1959): the Moon actually rotates on its axis, but at the exact same speed it orbits Earth, hiding its far side forever — dropped (ep231)
 - Asteroid belt (1801): despite movie scenes of ships dodging giant rocks, the average distance between asteroids in the belt is about 600,000 miles — done (ep087)
 - Halley's Comet (1910): rumors that its toxic tail would wipe out life on Earth led people to buy 'comet pills' and gas masks — dropped (ep227)
-- Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards — making (ep244)
+- Lunar soil (1969): early scientists feared lunar landers would sink into deep dust, but the surface proved to be compact rock and abrasive glass shards — done (ep244)
 - Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer — parked (ep154)
 - Vulcan (hypothetical planet) (1859): astronomers spent half a century hunting a phantom world inside Mercury's orbit before Einstein proved space itself was warping — done (ep168)
 - Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately — parked (ep173)

@@ -1,8 +1,8 @@
 id: ep242
 title: 'Pioneer 10: The First Scout to Jupiter'
 series: Mission Files
-description: In 1972, Pioneer 10 became the first spacecraft to navigate the asteroid belt and reach Jupiter. Carrying humanity's
-  golden greeting card, it blazed a trail into interstellar space.
+description: In 1972, Pioneer 10 became the first spacecraft to navigate the asteroid belt and reach Jupiter, carrying a golden
+  message into the deep.
 sources:
 - https://en.wikipedia.org/wiki/Pioneer_10
 - https://science.nasa.gov/mission/pioneer-10/
@@ -13,13 +13,12 @@ sources:
 - https://www.space.com/448-problem-gravity-mission-probe-strange-puzzle.html
 hashtags:
 - '#space'
-- '#nasa'
 - '#pioneer10'
+- '#nasa'
 tags:
 - pioneer 10
 - jupiter
 - asteroid belt
-- space exploration
 - nasa
 - carl sagan
 - pioneer anomaly
@@ -50,83 +49,59 @@ beats:
     - 0.23
     - 0.58
     - 0.52
-- text: In 1972, Pioneer 10 launched aboard an Atlas-Centaur rocket, powered entirely by nuclear generators.
+- text: In 1972, NASA's Pioneer 10 became the first nuclear-powered probe to attempt the journey.
   emphasis:
-  - Atlas-Centaur
-  - nuclear generators
+  - nuclear-powered
+  - attempt the journey
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Launch_of_Pioneer_10-2.jpg/1920px-Launch_of_Pioneer_10-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c8/Atlas_Centaur_27_with_Pioneer_10_on_launch_pad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Launch of Pioneer 10-2.jpg
-      credit: 'Launch_of_Pioneer_10.jpg: NASA Ames Resarch Center (NASA-ARC)
-
-        derivative work: Nova13 (talk)'
+      title: Atlas Centaur 27 with Pioneer 10 on launch pad.jpg
+      credit: NASA/Ames Research Center
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Launch_of_Pioneer_10-2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Atlas_Centaur_27_with_Pioneer_10_on_launch_pad.jpg
     fallbacks:
     - card
     - color
-    motion: pan_up
-    focus_x: 0.45
-    focus_y: 0.4
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: dateline
       big: March 1972
       small: Cape Canaveral
-- text: It safely navigated the asteroid belt and flew within 82,000 miles of Jupiter in 1973.
+- text: It survived intense radiation that triggered false commands while passing within 82,000 miles of Jupiter.
   emphasis:
-  - navigated
+  - intense radiation
   - 82,000 miles
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Pioneer10_Image_a51.jpg/960px-Pioneer10_Image_a51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Photograph_take_Pioneer_10_spacecraft_managed_by_the_NASA_Ames_Research_Center%2C_Moffett_Field%2C_California_Jupiter%27s_Red_Spot_and_a_showdow_of_the_Moon%2C_Io_are_seen_in_this_image_taken_at_a_range_of_2527063km_%28ARC-1973-AC73-9175%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Pioneer10 Image a51.jpg
-      credit: NASA
+      title: Photograph take Pioneer 10 spacecraft managed by the NASA Ames Research Center, Moffett Field, California Jupiter's
+        Red Spot and a showdow of the Moon, Io are seen in this image taken at a range of 2527063km (ARC-1973-AC73-9175).jpg
+      credit: NASA Ames Research Center
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Pioneer10_Image_a51.jpg
+      url: https://commons.wikimedia.org/wiki/File:Photograph_take_Pioneer_10_spacecraft_managed_by_the_NASA_Ames_Research_Center,_Moffett_Field,_California_Jupiter%27s_Red_Spot_and_a_showdow_of_the_Moon,_Io_are_seen_in_this_image_taken_at_a_range_of_2527063km_(ARC-1973-AC73-9175).jpg
     fallbacks:
     - card
     - color
     motion: pan_right
-    focus_x: 0.4
+    focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
       big: 82,000 miles
-      small: closest approach to Jupiter
-- text: Intense Jovian radiation triggered false commands in the probe, yet it returned over 500 images.
+      small: closest approach
+- text: On its hull, a gold-anodized plaque showed two human figures and a map of 14 pulsars.
   emphasis:
-  - false commands
-  - 500 images
+  - gold-anodized plaque
+  - human figures
   sfx: whoosh
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Pioneer-10_encounter_photos_from_T_V_%28ARC-1973-AC73-9278%29.jpg/1920px-Pioneer-10_encounter_photos_from_T_V_%28ARC-1973-AC73-9278%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Pioneer-10 encounter photos from T V (ARC-1973-AC73-9278).jpg
-      credit: NASA Ames Research Center
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Pioneer-10_encounter_photos_from_T_V_(ARC-1973-AC73-9278).jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_up
-    focus_x: 0.48
-    focus_y: 0.4
-    card:
-      kind: fact
-      big: 500+ images
-      small: returned from Jupiter
-- text: Its hull carried a gold plaque designed by Carl Sagan, depicting two humans and 14 pulsars.
-  emphasis:
-  - gold plaque
-  - 14 pulsars
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/4/48/Pioneer_F-G_Plaque-_Pioneer_10_the_first_spacecraft_to_leave_our_solar_system_carries_a_message_to_other_worlds_%28ARC-1972-AC72-1338%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -140,57 +115,87 @@ beats:
     fallbacks:
     - card
     - color
-    motion: pan_right
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
       big: 14 pulsars
-      small: mapped on the golden plaque
-- text: In 1983, it passed Neptune's orbit, but navigators soon noticed a tiny, unexplained drift in its signal.
+      small: mapped on the plaque
+- text: After passing Neptune's orbit in 1983, it became the first craft to head for interstellar space.
   emphasis:
   - Neptune's orbit
-  - unexplained drift
-  sfx: riser
+  - interstellar space
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/6/6e/72413main_ACD97-0036-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Pioneer_10_Trajectory.jpg/1280px-Pioneer_10_Trajectory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: 72413main ACD97-0036-3.jpg
-      credit: Nasa/JPL
+      title: Pioneer 10 Trajectory.jpg
+      credit: NASA Ames Resarch Center (NASA-ARC)
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:72413main_ACD97-0036-3.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pioneer_10_Trajectory.jpg
     fallbacks:
     - card
     - color
-    motion: pan_left
-    focus_x: 0.33
-    focus_y: 0.81
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: dateline
       big: June 1983
       small: past Neptune's orbit
-- text: 'This famous Pioneer Anomaly was eventually solved: the recoil of uneven heat radiation was gently tugging it.'
+- text: But navigators noticed a mysterious, tiny drag on its signal called the Pioneer Anomaly.
   emphasis:
+  - tiny drag
   - Pioneer Anomaly
-  - heat radiation
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Goldstone_DSN_antenna.jpg/1280px-Goldstone_DSN_antenna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Goldstone DSN antenna.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Goldstone_DSN_antenna.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Later analysis revealed it wasn't new physics, but just heat escaping unevenly from the probe.
+  emphasis:
+  - heat escaping
+  - unevenly
   sfx: pop
   pause_after: 0.4
   visual:
-    source: card
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Insturment_package%2C_Satellite%2C_Pioneer_IV_-_DPLA_-_9877062998b3d811d07de69be7a4b26f_%28page_3%29.jpg/1280px-Insturment_package%2C_Satellite%2C_Pioneer_IV_-_DPLA_-_9877062998b3d811d07de69be7a4b26f_%28page_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Insturment package, Satellite, Pioneer IV - DPLA - 9877062998b3d811d07de69be7a4b26f (page 3).jpg
+      credit: Space Technology Laboratories (STL)
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Insturment_package,_Satellite,_Pioneer_IV_-_DPLA_-_9877062998b3d811d07de69be7a4b26f_(page_3).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: fact
       big: Heat recoil
-      small: the Pioneer Anomaly explained
-    motion: zoom_in
-- text: Silent since 2003, the spacecraft drifts toward the star Aldebaran after proving what deep-space probes could survive.
+      small: anomaly explained
+- text: Now drifting toward Aldebaran, it opened the outer solar system before crossing where
   emphasis:
   - Aldebaran
-  - deep-space probes
+  - outer solar system
   visual:
     reuse: 1
     motion: zoom_out
     focus_x: 0.53
     focus_y: 0.44
-hook_text: FIRST CRAFT PAST JUPITER
+hook_text: FIRST TO JUPITER
