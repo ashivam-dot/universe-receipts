@@ -290,7 +290,8 @@ def check_live(content_dir: Path) -> list[dict]:
     now, problems, wanted = datetime.now(timezone.utc), [], {}
     for record_path in sorted(content_dir.glob("*/publish.json")):
         record = json.loads(record_path.read_text(encoding="utf-8"))
-        if record.get("status") != "sent" or not record.get("sent_at"):
+        # A Short remade and uploaded again is made private on purpose; `replaced_by` is the remake's video id.
+        if record.get("status") != "sent" or not record.get("sent_at") or record.get("replaced_by"):
             continue
         if not timedelta(hours=1) < now - datetime.fromisoformat(record["sent_at"]) < timedelta(days=3):
             continue
