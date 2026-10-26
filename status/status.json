@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-26T11:21:04+05:30",
+  "updated_at": "2026-10-26T17:45:48+05:30",
   "day": 25,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5VB8YT86G5FDHQVP194EYMR",
+    "id": "ta-01M5W070HJ1GZNAV69BEB115PR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-26T11:05:08+05:30",
-    "started_at_utc": "2026-10-26T05:35:08+00:00",
-    "seconds": 957
+    "started_at": "2026-10-26T17:11:07+05:30",
+    "started_at_utc": "2026-10-26T11:41:07+00:00",
+    "seconds": 2081
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 2.1
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "78 posts",
-      "seconds": 1.8
+      "detail": "79 posts",
+      "seconds": 1.4
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep194 to 'Mission Files'",
-      "seconds": 2.8
+      "detail": "nothing new",
+      "seconds": 2.6
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep165 language en/None -> en; ep185 language en/None -> en; ep208 language en/None -> en; ep221 language en/None -> en",
-      "seconds": 1.7
+      "detail": "every live Short is in English",
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -45,56 +45,98 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep201 at 72 h: level with the channel's earlier Shorts at this age: 1050 views against a median of 1018 (1.0x); ep203 at 24 h: behind the channel's earlier Shorts at this age: 131 views against a median of 823 (0.2x); ep214 at 6 h: behind the channel's earlier Shorts at this age: 65 views against a median of 657 (0.1x); ep236 at 6 h: behind the channel's earlier Shorts at this age: 17 views against a median of 632 (0.0x); learnings: Reviewed 10 Shorts (ep165, ep174, ep181, ep185, ep195, ep197, ep201, ep203, ep208, ep221); updated performance reasons and reinforced rules against archival hook t",
-      "seconds": 916.3
+      "detail": "ep194 at 6 h: behind the channel's earlier Shorts at this age: 14 views against a median of 607 (0.0x)",
+      "seconds": 1.7
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.8
+      "seconds": 2.9
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "106 subscribers",
+      "seconds": 12.5
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Updated Rule 3 evidence with ep203 confirming abstract metric openers stall distribution velocity, and validated researcher attribution penalties across ep195 and ep197.",
+      "seconds": 569.3
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 1.3
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "\"The Tumbling Mountain That Buzzed Earth\" (6HMmpM8WZbI) has 49 views after 43 hours: YouTube reports no restriction: public, processed, not for kids, not age-restricted, no blocked countries; \"The Alien World Buried Inside Earth\" (Dqn9RRB0YbY) has 11 views after 163 hours: YouTube reports no restric",
+      "seconds": 0.1
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 131.2
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 704.8
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-025.md",
+      "seconds": 1.8
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.5
     },
     {
       "name": "preflight ep059",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 1.2
     },
     {
       "name": "preflight ep177",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.7
     },
     {
       "name": "preflight ep190",
       "ok": true,
-      "detail": "video downloads whole (19 MB in 0 s)",
-      "seconds": 0.5
+      "detail": "video still hosted",
+      "seconds": 0.7
     },
     {
       "name": "preflight ep216",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.6
+    },
+    {
+      "name": "preflight ep225",
+      "ok": true,
+      "detail": "video downloads whole (16 MB in 1 s)",
+      "seconds": 624.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 6.4
-    },
-    {
-      "name": "schedule ep097",
-      "ok": true,
-      "detail": "2026-10-29T12:30:00-04:00",
-      "seconds": 1.1
+      "seconds": 1.5
     },
     {
       "name": "publish",
@@ -106,6 +148,7 @@
   "errors": [],
   "owner_action": [],
   "notes": [
+    "Buffer is full (10 queued); 18 waiting",
     "room for 0 of the 9 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
     "Buffer is full (10 queued); 18 waiting"
   ],
@@ -290,35 +333,27 @@
   "made": [],
   "spawned": [],
   "in_cloud": [],
-  "published": [
-    {
-      "id": "ep097",
-      "title": "The Star Escaping Our Galaxy at 4 Million MPH",
-      "due_at": "2026-10-29T12:30:00-04:00"
-    }
-  ],
+  "published": [],
   "live": 69,
   "failed_posts": [],
   "not_live": [],
   "llm": {
     "calls": 3,
     "by_model": {
-      "gemini-3.7-flash": 1,
-      "gemini-3.6-flash": 2
+      "gemini-3.8-flash": 2,
+      "gemini-3.6-flash": 1
     },
-    "out_of_quota": [
-      "gemini-3.7-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
     "modal": 0,
     "runner": 0
   },
-  "daily_done": "2026-10-25",
+  "daily_done": "2026-10-26",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 27.94,
+    "metered": 27.97,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -326,9 +361,9 @@
     "cloud": 0,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 0.06
+    "modal_credit_left": 0.03
   },
   "made_here": 0,
-  "open_topics": 41,
+  "open_topics": 46,
   "parked_topics": 48
 }

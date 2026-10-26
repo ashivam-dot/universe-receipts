@@ -78,6 +78,7 @@ unexplained, not alien.
 | Dec 2 | STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope | Mission Files |
 | Dec 6 | Hayabusa2 (2020): on this day, the spacecraft successfully returned pristine capsule samples from asteroid Ryugu back to Earth | Mission Files |
 | Dec 07 | Apollo 17 (1972): the final crewed flight to the Moon, whose astronauts snapped the iconic whole-Earth Blue Marble photograph | Mission Files |
+| Dec 7 | Galileo (spacecraft) (1995): dropped a probe directly into Jupiter's atmosphere that survived 1,000-degree heat and crushing pressures before being vaporized | Mission Files |
 | Dec 14 | Mariner 2 (1962): the first successful mission to another planet proved Venus was a 900-degree hellscape, shattering myths of it being a tropical paradise | Mission Files |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
 | Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
@@ -171,6 +172,8 @@ unexplained, not alien.
 - Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns — parked (ep224)
 - Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos — dropped (ep243)
 - Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it
+- Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity
+- Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter
 
 ### Mission Files
 
@@ -230,6 +233,8 @@ unexplained, not alien.
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
 - Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — making (ep239)
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose
+- Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice
+- TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night
 
 ### Near Misses
 
