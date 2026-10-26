@@ -26,7 +26,6 @@ each promoted on two Shorts; their evidence is kept below.)
 
 - Open with the most surprising true thing about a well-known subject in the first 2 seconds: a contradiction, paradox, myth flip or physical consequence with a specific observed detail, never a passive statement, cosmic trope or abstract distance. Evidence: ep002, ep008, ep009, ep024, ep033, ep040, ep061, ep066, ep072, ep084, ep086, ep110, ep112, ep114, ep118, ep125, ep129, ep130, ep133, ep137, ep175, ep181, ep184, ep188, ep195, ep197, ep201, ep208.
 - Open on a belief most viewers already hold, then immediately debunk it (Space Myths, Busted pattern): counterintuitive myth-busting generates higher early reach than abstract scale. Evidence: ep047, ep053, ep146, ep159, ep165, ep172, ep185, ep197 (median early reach 1,129.5 views at 24-28h vs 725.5 channel median / 726 for non-myth Shorts).
-- Never open with an archival datestamp, abstract metric measurement, or detached background statement: hook immediately with active physical impact or character tension in the first three words. Evidence: ep174, ep181, ep203, ep208, ep221 (median early reach 260.0 views at 24.5-28.1h vs 726.0 channel median for active openers).
 - Deliver the core payoff within 3 seconds of the hook, and never restate the hook's number or idea in the next beat. Evidence: ep004, ep009, ep049, ep052, ep061, ep084, ep114, ep130, ep172, ep221.
 - Make every middle beat a new, bigger reveal; keep beats two and three short. Evidence: ep008, ep009, ep032, ep036, ep047, ep084, ep165, ep184, ep188.
 - No catalog designations, discovery dates, researcher biographies, instrument lists or jargon in any beat: replace them with one familiar physical comparison. Evidence: ep008, ep028, ep030, ep046, ep049, ep060, ep061, ep079, ep086, ep111, ep112, ep114, ep125, ep159, ep165, ep172, ep186, ep188, ep195, ep197.
@@ -46,6 +45,7 @@ At most 8. Each is tested against the current rules on comparable Shorts before 
 - Hold the central threat until the middle beats instead of beat one (conflicts with opening rule; test on hazard stories only).
 - End with a line worth sending to someone ('the next time someone says...'): test whether share prompts lift retention or virality.
 - Cut each Short to 45-59 seconds to maximize reach potential.
+- Avoid opening on an archival datestamp, abstract metric or detached background statement (ep174, ep181 stalled; ep203, ep208, ep221 were published during the 24 Oct channel-wide hold and are not evidence; retest after the hold).
 
 ## Scoreboard
 
@@ -198,3 +198,4 @@ contradiction.
 - 2026-10-26: Promoted abstract/datestamp hook avoidance to a rule after ep174 provided the fourth qualifying Short confirming severe distribution stalls, and added ep165, ep195, and ep197 to the jargon rule.
 - 2026-10-26: Reviewed 10 Shorts (ep165, ep174, ep181, ep185, ep195, ep197, ep201, ep203, ep208, ep221); updated performance reasons and reinforced rules against archival hook texts and middle-beat researcher credits.
 - 2026-10-26: Updated Rule 3 evidence with ep203 confirming abstract metric openers stall distribution velocity, and validated researcher attribution penalties across ep195 and ep197.
+- 2026-10-26: Moved the datestamp-hook rule back to the hypotheses: three of its five Shorts were published during the 24 Oct channel-wide hold, which the learning loop now leaves out of the evidence until reach recovers.

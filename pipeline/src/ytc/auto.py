@@ -1454,12 +1454,36 @@ def _section(text: str, heading: str) -> str:
 
 # Thirty rules promoted on two Shorts each, several contradicting, were in the writer's prompt by Day 24.
 RULE_SHORTS, MAX_RULES, MAX_HYPOTHESES = 4, 10, 8
+# From here YouTube stopped showing this channel's and the sister channel's Shorts at once, whatever their script,
+# so their reach says nothing about scripts. The hold lifts once this many Shorts in a row reach half the median before.
+HOLD_FROM, HOLD_LIFTS_AFTER = "2026-10-24T16:00:00+00:00", 3
+
+
+def _held(rows: list[dict]) -> set[str]:
+    """Shorts published during the channel-wide hold, kept out of the evidence for rules and hypotheses."""
+    start = datetime.fromisoformat(HOLD_FROM)
+    before = [r["early_reach"]["views"] for r in rows
+              if r.get("early_reach") and datetime.fromisoformat(r["published"]) < start]
+    bar = statistics.median(before) / 2 if before else 0
+    held, recovered = set(), []
+    for r in sorted(rows, key=lambda r: datetime.fromisoformat(r["published"]).timestamp()):
+        if datetime.fromisoformat(r["published"]) < start:
+            continue
+        reached = r.get("early_reach") and r["early_reach"]["views"] >= bar
+        recovered = recovered + [r["short"]] if reached else []
+        held.add(r["short"])
+        if len(recovered) >= HOLD_LIFTS_AFTER:
+            return held - set(recovered)
+    return held
 
 
 def update_learnings(run: Run, analytics: dict) -> dict:
     eps = episodes()
-    rows = [r for r in _video_rows(analytics, eps) if r["hours"] >= LEARN_FROM_HOURS]
-    reviews = _reviews(eps)
+    every = _video_rows(analytics, eps)
+    held = _held(every)
+    board_rows = [r for r in every if r["hours"] >= LEARN_FROM_HOURS]
+    rows = [r for r in board_rows if r["short"] not in held]
+    reviews = [r for r in _reviews(eps) if r["short"] not in held]
     sister = _sister_rules()
     text = LEARNINGS.read_text(encoding="utf-8")
     recent = rows[-10:]
@@ -1494,6 +1518,7 @@ def update_learnings(run: Run, analytics: dict) -> dict:
         schema=LEARN_SCHEMA, purpose="learnings",
     )
     reasons = {r["short"]: r["reason"] for r in answer["reasons"]}
+    reasons.update({short: "published while YouTube held the whole channel back; not evidence" for short in held})
 
     def pct(v):
         return "–" if v is None else f"{v * 100:.0f}%"
@@ -1507,7 +1532,7 @@ def update_learnings(run: Run, analytics: dict) -> dict:
     ] + [
         f"| {r['short']} | {r['series']} | {r['hook_style']} | {r['early_reach']['views'] if r.get('early_reach') else '–'} | {pct(r['engaged_share'])} | {share(r['avg_viewed'])} | "
         f"{pct(r['at10'])} | {r['subs'] if r['subs'] is not None else '–'} | {reasons.get(r['short'], '–')} |"
-        for r in rows
+        for r in board_rows
     ]
     what = _section(text, "## What to beat")
     for label, key, fmt in (("Engaged share", "engaged_share", pct), ("Average percentage viewed", "avg_viewed", share),

@@ -4,11 +4,11 @@ from datetime import datetime, timezone
 from types import SimpleNamespace
 import ast,json,statistics,tempfile,unittest
 SOURCE=Path(__file__).resolve().parents[1]/'src/ytc/auto.py'
-KEEP={'_publication_time','_early_reach','_reviews','_video_rows','_median','_section','update_learnings'}
+KEEP={'_publication_time','_early_reach','_reviews','_video_rows','_median','_section','update_learnings','_held'}
 def namespace():
     tree=ast.parse(SOURCE.read_text());nodes=[ast.ImportFrom(module='__future__',names=[ast.alias(name='annotations')],level=0)]
     nodes += [n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name in KEEP]
-    nodes += [n for n in tree.body if isinstance(n,ast.Assign) and 'MAX_RULES' in ast.unparse(n.targets[0])]
+    nodes += [n for n in tree.body if isinstance(n,ast.Assign) and any(k in ast.unparse(n.targets[0]) for k in ('MAX_RULES','HOLD_FROM'))]
     ns={'datetime':datetime,'Path':Path,'IST':timezone.utc,'statistics':statistics,'json':json,'re':__import__('re'),
         '_json':lambda p,default=None:json.loads(p.read_text()) if p.exists() else default,
         'yaml':SimpleNamespace(safe_load=lambda text:{'beats':[{'text':'the hook'}]}),
@@ -66,4 +66,26 @@ class MeasurementTests(unittest.TestCase):
         self.assertIn('- rule 9\n',text);self.assertNotIn('rule 10',text)
         self.assertIn('- hyp 7\n',text);self.assertNotIn('hyp 8',text)
         self.assertIn('4 or more Shorts show the same effect AND',captured[0]);self.assertIn('at most 10 rules',captured[0])
+    def rows(self,reach):
+        eps,videos=[],[]
+        for i,(day,views) in enumerate(reach):
+            ep,v=self.episode(f'ep{i:03}',day,views);eps.append(ep);videos.append(v)
+        return eps,videos,self.ns['_video_rows']({'videos':videos},eps)
+    def test_shorts_in_the_channel_hold_are_not_evidence(self):
+        eps,videos,rows=self.rows([(20,800),(21,700),(22,900),(24,20),(25,30)])
+        self.assertEqual(self.ns['_held'](rows),{'ep003','ep004'})
+    def test_hold_lifts_after_three_recovered_shorts_in_a_row(self):
+        eps,videos,rows=self.rows([(20,800),(21,700),(22,900),(24,20),(25,500),(26,30),(27,450),(28,600),(29,700),(30,10)])
+        self.assertEqual(self.ns['_held'](rows),{'ep003','ep004','ep005'})
+    def test_held_shorts_stay_on_the_board_but_not_in_the_prompt(self):
+        eps,videos,rows=self.rows([(20,800),(21,700),(22,900),(24,20)]);file=self.root/'LEARNINGS.md'
+        file.write_text('# Log\n\n## What to beat\n\n## Rules we\'ve proven\n\n## Hypotheses to test\n\n## Scoreboard\n\n## Log\n')
+        captured=[]
+        def generate(prompt,**kwargs):
+            captured.append(prompt);return {'reasons':[],'rules':[],'hypotheses':[],'summary':'test','log':'test'}
+        self.ns.update({'episodes':lambda:eps,'_sister_rules':lambda:'','LEARNINGS':file,'LEARN_FROM_HOURS':24,'LEARN_SCHEMA':{},
+                        'llm':SimpleNamespace(generate=generate),'_now':lambda:datetime.now(timezone.utc)})
+        result=self.ns['update_learnings'](None,{'videos':videos})
+        self.assertNotIn('ep003',captured[0].split('Current file:')[1]);self.assertEqual(result['medians']['early_views'],800)
+        self.assertIn('| ep003 |',file.read_text());self.assertIn('held the whole channel back',file.read_text())
 if __name__=='__main__':unittest.main(verbosity=2)
