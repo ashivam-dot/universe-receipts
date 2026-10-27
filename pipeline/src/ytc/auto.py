@@ -1079,7 +1079,7 @@ PACE = ((1, 2), (15, 3), (30, 4), (50, 5))
 BASE_PACE = 2
 UNPROVEN_PACE = 3
 # The last 10 Shorts falling this far below the 10 before them in engaged views per Short drops back to BASE_PACE.
-PACE_DROP = 0.75
+PACE_DROP = 0.7
 # The Day 30 decision (strategy/PLAN-100.md): volume is added only while each Short reaches more people. Past
 # UNPROVEN_PACE the last 10 Shorts' median observed 24-30 h views must be at least REACH_TO_GROW and REACH_RISE
 # times the 10 before them; flat reach at more Shorts a day only spreads the same audience thinner.
@@ -1207,21 +1207,10 @@ def publish_waiting(run: Run) -> None:
     def timely(e):
         return bool((e.get("topic") or {}).get("timely"))
 
-    def series_rank(e):
-        s = e.get("series")
-        if s in ("Space Myths, Busted", "Space Got Weird", "Scale Breaker"):
-            return 0
-        if s in ("Near Misses", "The Universe Is Terrifying"):
-            return 1
-        if s == "Mission Files":
-            return 3
-        return 2
-
     # Timely Shorts go right after anniversaries, while the news or trend they ride is fresh. A Short whose post
-    # Buffer failed already lost one slot, so it takes the next one after those. Top-reach series are scheduled
-    # ahead of low-reach series so the audience receives proven high-retention topics.
+    # Buffer failed already lost one slot, so it takes the next one after those.
     ordered = sorted(waiting, key=lambda e: (anniversary(e) is None, anniversary(e) or date.max, not timely(e),
-                                             series_rank(e), not (e.get("held") or {}).get("retries"), -_scores(e), e["id"]))
+                                             not (e.get("held") or {}).get("retries"), -_scores(e), e["id"]))
     for _ in range(min(free, len(ordered))):
         pick = next((e for e in ordered if anniversary(e) or timely(e) or e["series"] != last_series), ordered[0])
         ordered.remove(pick)
