@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-27T23:05:40+05:30",
-  "day": 26,
+  "updated_at": "2026-10-28T05:08:08+05:30",
+  "day": 27,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5Z6W0X9F90ZM8RXD9Y3XHZR",
+    "id": "ta-01M5ZVF5T6KNBQR83MC991PHNR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-27T23:05:10+05:30",
-    "started_at_utc": "2026-10-27T17:35:10+00:00",
-    "seconds": 30
+    "started_at": "2026-10-28T05:05:06+05:30",
+    "started_at_utc": "2026-10-27T23:35:06+00:00",
+    "seconds": 182
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.2
+      "seconds": 1.8
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.3
+      "seconds": 0.1
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 3.0
+      "detail": "added ep078 to 'The Universe Is Terrifying'; added ep087 to 'Space Myths, Busted'; added ep095 to 'Scale Breaker'; added ep097 to 'The Universe Is Terrifying'; added ep106 to 'Mission Files'; added ep109 to 'The Universe Is Terrifying'; added ep116 to 'Mission Files'; added ep117 to 'The Universe Is",
+      "seconds": 8.6
     },
     {
       "name": "languages",
@@ -45,26 +45,27 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 1.8
+      "detail": "ep174 at 72 h: behind the channel's earlier Shorts at this age: 286 views against a median of 1016 (0.3x); ep177 at 24 h: behind the channel's earlier Shorts at this age: 127 views against a median of 791 (0.2x); ep190 at 6 h: not shown yet: 9 views in 7 hours (no source data yet). YouTube hasn't tested it in the Shorts feed, so this says nothing about the script; learnings: Logged evaluations for ep165, ep181, ep185, ep201, ep208, and ep221; retained existing rule set as no hypothesis reached the required 4-Short sample threshold.",
+      "seconds": 158.0
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 3.5
+      "seconds": 2.0
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
+    "Buffer is paused until Oct 31 09:30 IST: the Shorts due until then are scheduled on YouTube directly",
     "room for 0 of the 9 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 25,
-    "in_buffer": 10,
-    "waiting": 15,
+    "total": 13,
+    "in_buffer": 0,
+    "waiting": 13,
     "target": 42,
     "making": [
       "ep237",
@@ -77,71 +78,8 @@
     ],
     "remote": []
   },
-  "queue": [
-    {
-      "id": "ep190",
-      "title": "How NASA Trapped Speeding Comet Dust",
-      "due_at": "2026-10-27T12:30:00-04:00"
-    },
-    {
-      "id": "ep225",
-      "title": "The Planet Made of Diamond",
-      "due_at": "2026-10-27T19:00:00-04:00"
-    },
-    {
-      "id": "ep078",
-      "title": "The Bubble That Could Erase the Universe",
-      "due_at": "2026-10-27T21:30:00-04:00"
-    },
-    {
-      "id": "ep244",
-      "title": "The Terrifying Myth of the Moon's Quicksand",
-      "due_at": "2026-10-28T12:30:00-04:00"
-    },
-    {
-      "id": "ep095",
-      "title": "The Coldest Place in the Natural Universe",
-      "due_at": "2026-10-28T19:00:00-04:00"
-    },
-    {
-      "id": "ep087",
-      "title": "The Lonely Reality of the Asteroid Belt",
-      "due_at": "2026-10-28T21:30:00-04:00"
-    },
-    {
-      "id": "ep097",
-      "title": "The Star Escaping Our Galaxy at 4 Million MPH",
-      "due_at": "2026-10-29T12:30:00-04:00"
-    },
-    {
-      "id": "ep106",
-      "title": "The Missing Hyphen That Wasn't a Hyphen",
-      "due_at": "2026-10-29T19:00:00-04:00"
-    },
-    {
-      "id": "ep109",
-      "title": "The Galaxy-Sized Cosmic Ghost",
-      "due_at": "2026-10-29T21:30:00-04:00"
-    },
-    {
-      "id": "ep116",
-      "title": "The Scrap-Metal Probe That Conquered Venus",
-      "due_at": "2026-10-30T16:30:00-04:00"
-    }
-  ],
+  "queue": [],
   "waiting": [
-    {
-      "id": "ep117",
-      "title": "The Galaxy With a Missing Heart",
-      "series": "The Universe Is Terrifying",
-      "score": 20
-    },
-    {
-      "id": "ep119",
-      "title": "The City-Killer Hiding in the Sun",
-      "series": "Near Misses",
-      "score": 20
-    },
     {
       "id": "ep120",
       "title": "The Cosmic Giant Tearing Itself Apart",
@@ -225,12 +163,14 @@
   "spawned": [],
   "in_cloud": [],
   "published": [],
-  "live": 72,
+  "live": 84,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 0,
-    "by_model": {},
+    "calls": 3,
+    "by_model": {
+      "gemini-3.6-flash": 3
+    },
     "out_of_quota": []
   },
   "renders": {
@@ -241,7 +181,7 @@
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 28.04,
+    "metered": 28.06,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -249,7 +189,7 @@
     "cloud": 0,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": -0.04
+    "modal_credit_left": -0.06
   },
   "made_here": 0,
   "open_topics": 51,
