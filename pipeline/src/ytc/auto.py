@@ -936,6 +936,16 @@ def _scores(e: dict) -> int:
     return sum(int(x) for x in re.findall(r"\d", match.group(1))) if match else 0
 
 
+# Owner, 2026-10-28: the Shorts due until then were uploaded straight to YouTube as scheduled videos (publish.json
+# "direct": true, no Buffer post), to compare their reach with Buffer's after the 24 Oct drop. Until then no run
+# puts anything in Buffer, or it would book the same slots again.
+BUFFER_PAUSED_UNTIL = datetime(2026, 10, 31, 4, 0, tzinfo=timezone.utc)
+
+
+def buffer_paused() -> bool:
+    return _now() < BUFFER_PAUSED_UNTIL
+
+
 def check_channel(run: Run) -> bool:
     """Whether Buffer can post to the YouTube channel. Disconnected, locked, or paused, it fails every queued Short,
     and only the owner can fix it."""
@@ -1916,9 +1926,12 @@ def main(produce_count: int | None = None, publish: bool = True, daily_mode: str
             state["daily_done"] = today
             _write_json(STATUS / "state.json", state)
     can_post = False
-    if publish and not buffer_busy():
+    if publish and buffer_paused():
+        run.notes.append(f"Buffer is paused until {BUFFER_PAUSED_UNTIL.astimezone(IST):%b %d %H:%M} IST: the Shorts "
+                         "due until then are scheduled on YouTube directly")
+    elif publish and not buffer_busy():
         can_post = check_channel(run)
-    if publish and not buffer_busy():
+    if publish and not buffer_busy() and not buffer_paused():
         if not can_post:
             run.notes.append("scheduled nothing new: Buffer can't post to the YouTube channel")
         repair_posts(run, requeue=can_post)

@@ -46,6 +46,8 @@ INVENTORY_LOW = 9
 MINUTES_LIMIT = 2000
 CRON_HOURS_UTC = (5, 11, 17, 23)
 CRON_MINUTE = 35
+# auto.BUFFER_PAUSED_UNTIL: the Shorts due until then are scheduled on YouTube directly, so Buffer's queue is empty.
+BUFFER_PAUSED_UNTIL = dt.datetime(2026, 10, 31, 4, 0, tzinfo=dt.timezone.utc)
 DIGEST_HOUR = 8
 # Buffer allows 250 API requests a day for the key, shared with the studio's runs. The Mac reads it at most this
 # often and shows the last answer in between; the watchdog on GitHub reads it on each of its checks.
@@ -378,7 +380,9 @@ def assess(data: dict) -> list[tuple[str, str]]:
             else:
                 problems.append(("alert", f"Buffer couldn't publish a post due {_when(post.get('dueAt'))} IST: {why}"))
         due = sorted(_parse_time(p["dueAt"]) for p in buf["scheduled"] if p.get("dueAt"))
-        if not due:
+        if now < BUFFER_PAUSED_UNTIL:
+            pass
+        elif not due:
             problems.append(("alert", "Buffer has nothing scheduled: no Shorts will go out."))
         # The longest gap between slots at the pace the stock allows (auto.per_day): 16 h at 3 a day, 18 at 2, 24 at 1.
         elif due[0] - now > dt.timedelta(hours={3: 16, 2: 18, 1: 24}[max(1, min(3, total // 3))] + 1):
