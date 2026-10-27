@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-27T17:17:22+05:30",
+  "updated_at": "2026-10-27T23:05:40+05:30",
   "day": 26,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5YJ8TZMAXEG0P3JD00GMNZR",
+    "id": "ta-01M5Z6W0X9F90ZM8RXD9Y3XHZR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-27T17:05:07+05:30",
-    "started_at_utc": "2026-10-27T11:35:07+00:00",
-    "seconds": 734
+    "started_at": "2026-10-27T23:05:10+05:30",
+    "started_at_utc": "2026-10-27T17:35:10+00:00",
+    "seconds": 30
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 3.2
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "82 posts",
-      "seconds": 0.7
+      "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.6
+      "seconds": 3.0
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep174 language en/None -> en; ep203 language en/None -> en",
-      "seconds": 1.4
+      "detail": "every live Short is in English",
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -45,112 +45,21 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep216 at 6 h: behind the channel's earlier Shorts at this age: 79 views against a median of 603 (0.1x)",
-      "seconds": 1.9
+      "detail": "no checkpoint due",
+      "seconds": 1.8
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 3.1
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "106 subscribers",
-      "seconds": 16.8
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Updated learning log with reviews for ep165-ep221, incorporated mid-beat historical attribution findings into Rule 5, and tightened active hypotheses.",
-      "seconds": 270.4
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.4
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 349.0
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 59.6
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-026.md",
-      "seconds": 2.0
-    },
-    {
-      "name": "buffer channel",
-      "ok": true,
-      "detail": "connected",
-      "seconds": 0.2
-    },
-    {
-      "name": "preflight ep078",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.4
-    },
-    {
-      "name": "preflight ep095",
-      "ok": true,
-      "detail": "video downloads whole (23 MB in 0 s)",
-      "seconds": 0.4
-    },
-    {
-      "name": "preflight ep190",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.4
-    },
-    {
-      "name": "preflight ep225",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.5
-    },
-    {
-      "name": "preflight ep244",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.3
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 1.5
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 1.5
+      "seconds": 3.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 15 waiting",
     "room for 0 of the 9 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
-    "Buffer is full (10 queued); 15 waiting"
+    "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
     "total": 25,
@@ -320,12 +229,8 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 3,
-    "by_model": {
-      "gemini-3.7-flash": 1,
-      "gemini-3.6-flash": 1,
-      "gemini-3.5-flash": 1
-    },
+    "calls": 0,
+    "by_model": {},
     "out_of_quota": []
   },
   "renders": {
