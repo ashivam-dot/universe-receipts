@@ -70,6 +70,7 @@ unexplained, not alien.
 | Nov 15 | Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules | Near Misses |
 | Nov 17 | Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay | Space Got Weird |
 | Nov 20 | Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title | Space Got Weird |
+| Nov 20 | Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space | Mission Files |
 | Nov 27 | Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed | Mission Files |
 | Nov 28 | Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations | Mission Files |
 | Nov 28 | PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1 | Space Got Weird |
@@ -202,6 +203,7 @@ unexplained, not alien.
 - Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies — parked (ep202)
 - 2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years
 - Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth
+- Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands
 
 ### Space Got Weird
 
@@ -261,6 +263,8 @@ unexplained, not alien.
 - 2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed — done (ep203)
 - 2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach — parked (ep223)
 - STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew
+- 2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it
+- Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball
 
 ### Space Myths, Busted
 
@@ -292,3 +296,4 @@ unexplained, not alien.
 - Escape velocity (1859): you do not need to reach 25,000 miles per hour to escape Earth's gravity; any speed will work as long as you have continuous thrust — done (ep216)
 - Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — making (ep238)
 - Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of "seared steak," "hot metal," and "welding fumes"
+- Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight

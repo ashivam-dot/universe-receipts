@@ -12,7 +12,7 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 |---|---|---|---|
 | Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 54% | 70%+; under 60% rarely takes off |
 | Average percentage viewed | `analytics.averageViewPercentage` | 67.2% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 118% | rising week over week |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 116% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 1.1 | 2+ |
 | Likes per 100 views | `likes` / `views` | 3.2 | 4+ |
 
@@ -28,7 +28,7 @@ each promoted on two Shorts; their evidence is kept below.)
 - Open on a belief most viewers already hold, then immediately debunk it (Space Myths, Busted pattern): counterintuitive myth-busting generates higher early reach than abstract scale. Evidence: ep047, ep053, ep146, ep159, ep165, ep172, ep185, ep197 (median early reach 1,129.5 views at 24-28h vs 725.5 channel median / 726 for non-myth Shorts).
 - Deliver the core payoff within 3 seconds of the hook, and never restate the hook's number or idea in the next beat. Evidence: ep004, ep009, ep049, ep052, ep061, ep084, ep114, ep130, ep172, ep221.
 - Make every middle beat a new, bigger reveal; keep beats two and three short. Evidence: ep008, ep009, ep032, ep036, ep047, ep084, ep165, ep184, ep188.
-- No catalog designations, discovery dates, researcher biographies, instrument lists or jargon in any beat: replace them with one familiar physical comparison. Evidence: ep008, ep028, ep030, ep046, ep049, ep060, ep061, ep079, ep086, ep111, ep112, ep114, ep125, ep159, ep165, ep172, ep186, ep188, ep195, ep197.
+- No catalog designations, discovery dates, researcher biographies, instrument lists or jargon in any beat: replace them with one familiar physical comparison. Evidence: ep008, ep028, ep030, ep046, ep049, ep060, ep061, ep079, ep086, ep111, ep112, ep114, ep125, ep159, ep165, ep172, ep186, ep188, ep195, ep197, ep221.
 - One number per beat: never stack figures or dates in consecutive beats. Evidence: ep125, ep175.
 - In a hazard story, keep the safety resolution for the last beat. Evidence: ep130, ep133, ep137, ep159.
 - End right after the climax: no aftermath subplot, historical footnote, wrap-up summary or 'in the end' signal. Evidence: ep046, ep047, ep060, ep084, ep099, ep111, ep114, ep118, ep129, ep137, ep146, ep159, ep165.
@@ -38,9 +38,8 @@ each promoted on two Shorts; their evidence is kept below.)
 
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
-- End on a direct question or challenge to the viewer instead of a passive fade-out on myth or debate topics to drive comments without hurting retention (ep185, ep201).
 - Avoid opening on abstract background metrics or detached setup text; start with immediate high-stakes action (ep181, ep208, ep221).
-- Cut historical backstories and academic attribution from middle beats to jump straight from myth to physical reality and prevent retention drops (ep165, ep197, ep221).
+- End on a direct question or challenge to the viewer instead of a passive fade-out on myth or debate topics to drive comments without hurting retention (ep185, ep201).
 - For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic (ep146, ep165).
 - Contrast cosmic timescales with relatable human historical milestones rather than astronomer discovery trivia to sustain mid-video momentum (ep165, ep197).
 - Compress scientific definitions into a single beat under 4 seconds to reach core resolution by the 12-second mark (ep172).
@@ -61,7 +60,7 @@ contradiction.
 | ep066 | Space Got Weird | statement, story | 1096 | 49% | 81.9% | 134% | 4 | – |
 | ep084 | Mission Files | contradiction, story | 350 | 48% | 96.8% | 149% | 1 | – |
 | ep129 | Space Got Weird | statement, story | 190 | 57% | 82.6% | 132% | 1 | – |
-| ep048 | Scale Breaker | statement, scale_ladder | 1020 | 53% | 77.3% | 136% | 1 | – |
+| ep048 | Scale Breaker | statement, scale_ladder | 1020 | 53% | 77.3% | – | 1 | – |
 | ep045 | Mission Files | contradiction, mystery | 1060 | 50% | 78.0% | 128% | 5 | – |
 | ep079 | Scale Breaker | contradiction, story | 275 | 46% | 81.8% | 130% | 0 | – |
 | ep110 | Space Got Weird | statement, story | 1169 | 56% | 76.7% | 120% | 2 | – |
@@ -74,25 +73,25 @@ contradiction.
 | ep175 | Scale Breaker | contradiction, mystery | 1435 | 48% | 85.0% | 134% | 2 | – |
 | ep133 | Space Got Weird | statement, scale_ladder | 1208 | 48% | 59.6% | 117% | 3 | – |
 | ep051 | Mission Files | statement, scale_ladder | 1215 | 69% | 53.6% | 112% | 0 | – |
-| ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | 57% | 60.9% | 99% | 0 | – |
+| ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | 57% | 60.9% | – | 0 | – |
 | ep188 | Scale Breaker | contradiction, record | 948 | 50% | 80.2% | 128% | 0 | – |
 | ep137 | Near Misses | statement, story | 946 | 54% | 96.9% | 150% | 0 | – |
 | ep053 | Space Myths, Busted | statement, story | 1092 | 49% | 57.8% | 113% | 2 | – |
-| ep058 | Space Got Weird | statement, myth_vs_fact | 1014 | 52% | 107.2% | 158% | 3 | – |
-| ep063 | Near Misses | contradiction, mystery | 1010 | 52% | 72.0% | 115% | 4 | – |
+| ep058 | Space Got Weird | statement, myth_vs_fact | 1014 | 52% | 107.3% | 158% | 3 | – |
+| ep063 | Near Misses | contradiction, mystery | 1010 | 52% | 71.9% | 115% | 4 | – |
 | ep184 | Near Misses | statement, myth_vs_fact | 487 | 55% | 66.7% | 110% | 0 | – |
 | ep071 | The Universe Is Terrifying | statement, record | 917 | 49% | 92.9% | 143% | 1 | – |
 | ep072 | Near Misses | statement, record | 711 | 50% | 174.9% | 233% | 1 | – |
 | ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 57% | 68.5% | 124% | 1 | – |
 | ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.0% | 110% | 1 | – |
-| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 80.0% | 130% | 1 | – |
+| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 80.0% | 114% | 1 | – |
 | ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 61.1% | 117% | 1 | – |
-| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | Strong contradiction hook drove 984 views at 24.6h (above 725.5 median) and 1.156 at10, but mid-script historical backstory dragged avg_viewed down to 63.62%. |
-| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.3% | 148% | 2 | Scale paradox hook achieved 982 views at 28.1h with strong 101.28% avg_viewed and 1.48 at10, though a passive closing line yielded zero comments. |
-| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 52% | 69.0% | 115% | 3 | Abstract metric opener in the 16:30 slot stalled early reach at 546 views at 25.1h, though topic resonance supported 5.1 likes per 100 views. |
-| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.8% | 113% | 0 | Historical institutional narrative struggled in the 20:30 slot to 400 views at 27.1h, where biographical dates depressed avg_viewed to 59.81% despite 5.3 likes per 100 views. |
-| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 87.5% | 129% | 0 | Myth contradiction hook secured 87.49% avg_viewed, but a vague visual overlay in the 23:00 slot correlated with low 45.7% engaged share and 660 views at 24.5h. |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.8% | 120% | 4 | Search-friendly myth hook drove 1,495 views at 28.1h in the 01:30 slot, though historical middle-beat tangents dropped avg_viewed to 65.85%. |
+| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | Strong contradiction hook drove high early rewatch (at10 1.156), but academic attribution and historical radar dates in middle beats stalled pacing and pulled avg_viewed down to 63.6% (vs 67.2% median). |
+| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.5% | 148% | 2 | Myth-flip hook held strong narrative momentum through Gaia reveal (avg_viewed 101.5%), but a passive closing summary yielded 0 comments and low likes (2.2/100). |
+| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 52% | 69.0% | 115% | 3 | High-gravity topic generated strong end-funnel likes (5.1/100), but distant setup text overlay weakened hook grab, holding 25.1h early reach to 546 views (vs 725.5 median). |
+| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.8% | 113% | 0 | High viewer affinity (5.3 likes/100), but middle-beat historical names and dates dragged mid-video retention to 59.8% avg_viewed and capped 27.1h early reach at 400 views. |
+| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 87.5% | 129% | 0 | Myth debunk hook and concrete human survival beat held strong completion (avg_viewed 87.5%), but vague opening overlay hurt engaged share (45.7%) and a closed final sentence produced 0 comments. |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.8% | 120% | 4 | Search-phrased title drove huge velocity (1,495 views at 28.1h), but a mid-script historical detour on Pluto's discoverer degraded avg_viewed to 65.8%. |
 | ep174 | Mission Files | statement, story | 260 | 51% | 60.3% | 100% | 1 | published while YouTube held the whole channel back; not evidence |
 | ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 55% | 36.2% | 94% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep210 | Mission Files | contradiction, mystery | 149 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
@@ -198,3 +197,4 @@ contradiction.
 - 2026-10-26: Updated performance reviews for ep165, ep181, ep185, ep197, ep201, and ep221, refining hypotheses on comment prompts and middle-beat pacing.
 - 2026-10-27: Logged 7 reviews (ep165, ep181, ep185, ep197, ep201, ep208, ep221), reinforced myth-debunking reach advantages, and expanded evidence on concrete hook and pacing hypotheses.
 - 2026-10-27: Logged diagnoses for ep165 through ep221, adding evidence to search-query hooks and sharpening hypotheses against mid-script historical exposition.
+- 2026-10-27: Updated learning log with reviews for ep165-ep221, incorporated mid-beat historical attribution findings into Rule 5, and tightened active hypotheses.

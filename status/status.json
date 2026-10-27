@@ -1,111 +1,154 @@
 {
-  "updated_at": "2026-10-27T11:14:05+05:30",
+  "updated_at": "2026-10-27T17:17:22+05:30",
   "day": 26,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5XXNMMG3ZCCT168D8W5385R",
+    "id": "ta-01M5YJ8TZMAXEG0P3JD00GMNZR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-27T11:05:08+05:30",
-    "started_at_utc": "2026-10-27T05:35:08+00:00",
-    "seconds": 537
+    "started_at": "2026-10-27T17:05:07+05:30",
+    "started_at_utc": "2026-10-27T11:35:07+00:00",
+    "seconds": 734
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 1.5
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "81 posts",
-      "seconds": 1.6
+      "detail": "82 posts",
+      "seconds": 0.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep216 to 'Space Myths, Busted'",
-      "seconds": 3.4
+      "detail": "nothing new",
+      "seconds": 3.6
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep210 language en/None -> en",
-      "seconds": 0.9
+      "detail": "ep174 language en/None -> en; ep203 language en/None -> en",
+      "seconds": 1.4
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep165 at 72 h: ahead of the channel's earlier Shorts at this age: 1517 views against a median of 1014 (1.5x); ep177 at 6 h: behind the channel's earlier Shorts at this age: 101 views against a median of 605 (0.2x); learnings: Logged diagnoses for ep165 through ep221, adding evidence to search-query hooks and sharpening hypotheses against mid-script historical exposition.",
-      "seconds": 495.1
+      "detail": "ep216 at 6 h: behind the channel's earlier Shorts at this age: 79 views against a median of 603 (0.1x)",
+      "seconds": 1.9
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 3.0
+      "seconds": 3.1
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "106 subscribers",
+      "seconds": 16.8
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Updated learning log with reviews for ep165-ep221, incorporated mid-beat historical attribution findings into Rule 5, and tightened active hypotheses.",
+      "seconds": 270.4
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 1.4
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 349.0
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 59.6
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-026.md",
+      "seconds": 2.0
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "preflight ep078",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.4
+    },
+    {
+      "name": "preflight ep095",
+      "ok": true,
+      "detail": "video downloads whole (23 MB in 0 s)",
+      "seconds": 0.4
     },
     {
       "name": "preflight ep190",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.4
     },
     {
       "name": "preflight ep225",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.5
     },
     {
       "name": "preflight ep244",
       "ok": true,
-      "detail": "video downloads whole (19 MB in 0 s)",
-      "seconds": 0.8
+      "detail": "video still hosted",
+      "seconds": 0.3
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 5.3
-    },
-    {
-      "name": "schedule ep116",
-      "ok": true,
-      "detail": "2026-10-30T16:30:00-04:00",
-      "seconds": 1.7
+      "seconds": 1.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.6
+      "seconds": 1.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
+    "Buffer is full (10 queued); 15 waiting",
     "room for 0 of the 9 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
     "Buffer is full (10 queued); 15 waiting"
   ],
@@ -272,20 +315,16 @@
   "made": [],
   "spawned": [],
   "in_cloud": [],
-  "published": [
-    {
-      "id": "ep116",
-      "title": "The Scrap-Metal Probe That Conquered Venus",
-      "due_at": "2026-10-30T16:30:00-04:00"
-    }
-  ],
+  "published": [],
   "live": 72,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 2,
+    "calls": 3,
     "by_model": {
-      "gemini-3.8-flash": 2
+      "gemini-3.7-flash": 1,
+      "gemini-3.6-flash": 1,
+      "gemini-3.5-flash": 1
     },
     "out_of_quota": []
   },
@@ -293,11 +332,11 @@
     "modal": 0,
     "runner": 0
   },
-  "daily_done": "2026-10-26",
+  "daily_done": "2026-10-27",
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 28.03,
+    "metered": 28.04,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -305,9 +344,9 @@
     "cloud": 0,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": -0.03
+    "modal_credit_left": -0.04
   },
   "made_here": 0,
-  "open_topics": 46,
+  "open_topics": 51,
   "parked_topics": 48
 }
