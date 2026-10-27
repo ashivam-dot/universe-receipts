@@ -158,3 +158,24 @@ def test_a_rising_short_that_breaks_out_gets_the_rest_of_its_follow_ups(monkeypa
     asked.clear()
     auto.breakout_topics(None, state)
     assert asked == []
+
+
+def test_publish_waiting_prioritizes_top_series_over_low_series(monkeypatch, tmp_path):
+    scheduled = []
+    monkeypatch.setattr(publish, "posts", lambda since=None, channel_id=None: [])
+    monkeypatch.setattr(publish, "schedule", lambda path, when: scheduled.append(path.parent.name) or {"due_at": when.isoformat()})
+    monkeypatch.setattr(auto, "slots_per_day", lambda today=None: 2)
+
+    def ep(ep_id, series):
+        folder = tmp_path / ep_id
+        folder.mkdir(parents=True, exist_ok=True)
+        return {"id": ep_id, "folder": folder, "state": "waiting", "title": ep_id,
+                "series": series, "record": None, "held": {}, "topic": {}, "remote": None}
+
+    # Two waiting episodes: one Mission Files, one Space Myths, Busted
+    eps = [ep("ep001", "Mission Files"), ep("ep002", "Space Myths, Busted")]
+    monkeypatch.setattr(auto, "episodes", lambda: eps)
+    auto.publish_waiting(auto.Run("test"))
+    # Space Myths, Busted is prioritized ahead of Mission Files
+    assert scheduled == ["ep002", "ep001"]
+
