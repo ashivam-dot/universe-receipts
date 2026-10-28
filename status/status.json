@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-28T05:08:08+05:30",
+  "updated_at": "2026-10-28T11:11:25+05:30",
   "day": 27,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M5ZVF5T6KNBQR83MC991PHNR",
+    "id": "ta-01M60G2BDAHT3P4MHXK9V80X8R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-28T05:05:06+05:30",
-    "started_at_utc": "2026-10-27T23:35:06+00:00",
-    "seconds": 182
+    "started_at": "2026-10-28T11:05:09+05:30",
+    "started_at_utc": "2026-10-28T05:35:09+00:00",
+    "seconds": 376
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
+      "seconds": 2.4
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep078 to 'The Universe Is Terrifying'; added ep087 to 'Space Myths, Busted'; added ep095 to 'Scale Breaker'; added ep097 to 'The Universe Is Terrifying'; added ep106 to 'Mission Files'; added ep109 to 'The Universe Is Terrifying'; added ep116 to 'Mission Files'; added ep117 to 'The Universe Is",
-      "seconds": 8.6
+      "detail": "nothing new",
+      "seconds": 3.2
     },
     {
       "name": "languages",
@@ -40,19 +40,19 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep174 at 72 h: behind the channel's earlier Shorts at this age: 286 views against a median of 1016 (0.3x); ep177 at 24 h: behind the channel's earlier Shorts at this age: 127 views against a median of 791 (0.2x); ep190 at 6 h: not shown yet: 9 views in 7 hours (no source data yet). YouTube hasn't tested it in the Shorts feed, so this says nothing about the script; learnings: Logged evaluations for ep165, ep181, ep185, ep201, ep208, and ep221; retained existing rule set as no hypothesis reached the required 4-Short sample threshold.",
-      "seconds": 158.0
+      "detail": "ep203 at 72 h: behind the channel's earlier Shorts at this age: 145 views against a median of 1014 (0.1x); ep216 at 24 h: behind the channel's earlier Shorts at this age: 90 views against a median of 770 (0.1x); ep225 at 6 h: behind the channel's earlier Shorts at this age: 29 views against a median of 601 (0.0x); learnings: Logged diagnostic reviews for ep165, ep181, ep185, ep208, and ep221; recomputed 10-Short medians showing myth-busting reach advantage and reinforced rules against mid-script biographical tangents.",
+      "seconds": 352.3
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.0
+      "seconds": 4.2
     }
   ],
   "errors": [],
@@ -169,7 +169,7 @@
   "llm": {
     "calls": 3,
     "by_model": {
-      "gemini-3.6-flash": 3
+      "gemini-3.7-flash": 3
     },
     "out_of_quota": []
   },
@@ -181,7 +181,7 @@
   "minutes_this_month": 0.0,
   "minutes_budget": 2000,
   "modal_cost": {
-    "metered": 28.06,
+    "metered": 28.07,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -189,7 +189,7 @@
     "cloud": 0,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": -0.06
+    "modal_credit_left": -0.07
   },
   "made_here": 0,
   "open_topics": 51,
