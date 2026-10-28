@@ -1,107 +1,86 @@
 {
-  "updated_at": "2026-10-28T17:11:21+05:30",
+  "updated_at": "2026-10-28T20:07:15+05:30",
   "day": 27,
-  "result": "ok",
+  "result": "failed",
   "run": {
-    "host": "modal",
-    "id": "ta-01M614NH9H889Q6QZ813EXP40R",
-    "number": null,
+    "host": "github-actions",
+    "id": "40706041972",
+    "number": "120",
     "trigger": "schedule",
-    "started_at": "2026-10-28T17:05:08+05:30",
-    "started_at_utc": "2026-10-28T11:35:08+00:00",
-    "seconds": 372
+    "started_at": "2026-10-28T19:57:52+05:30",
+    "started_at_utc": "2026-10-28T14:27:52+00:00",
+    "seconds": 563
   },
   "stages": [
-    {
-      "name": "deploy",
-      "ok": true,
-      "detail": "",
-      "seconds": 6.3
-    },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.1
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.9
+      "seconds": 2.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 3.1
+      "seconds": 1.5
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 4.2
+      "seconds": 2.4
     },
     {
-      "name": "analytics",
-      "ok": true,
-      "detail": "106 subscribers",
-      "seconds": 11.6
+      "name": "make ep249",
+      "ok": false,
+      "detail": "2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days",
+      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "seconds": 357.3
     },
     {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Logged reviews for ep165, ep181, ep185, ep208, and ep221, updating benchmark medians and confirming rules against biographical detours and detached hook metrics.",
-      "seconds": 211.0
+      "name": "make ep250",
+      "ok": false,
+      "detail": "Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside",
+      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "seconds": 547.1
     },
     {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.5
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 37.3
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 81.2
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-027.md",
-      "seconds": 2.0
+      "name": "make ep251",
+      "ok": false,
+      "detail": "Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day",
+      "error": "RuntimeError: ep251 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 98): add at least 7 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 13, beat 2: 19, beat 3: 17, beat 4: 18, beat 5: 18, beat 6: 13.', 'The hook (beat 1) must be 12 words or fewer (it has 13: \"Most people assume astronauts only visit the space station for brief research trips.\"); cut at least 1 words and keep its meaning.']",
+      "seconds": 446.8
     }
   ],
-  "errors": [],
+  "errors": [
+    "make ep249: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+    "make ep251: RuntimeError: ep251 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 98): add at least 7 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 13, beat 2: 19, beat 3: 17, beat 4: 18, beat 5: 18, beat 6: 13.', 'The hook (beat 1) must be 12 words or fewer (it has 13: \"Most people assume astronauts only visit the space station for brief research trips.\"); cut at least 1 words and keep its meaning.']",
+    "make ep250: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today"
+  ],
   "owner_action": [],
   "notes": [
     "Buffer is paused until Oct 30 00:30 IST: the Shorts due until then are scheduled on YouTube directly",
-    "room for 0 of the 4 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
+    "Gemini is out of free quota or overloaded; the rest waits for the next run",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -111,7 +90,9 @@
     "target": 10,
     "making": [
       "ep249",
-      "ep250"
+      "ep250",
+      "ep251",
+      "ep252"
     ],
     "remote": []
   },
@@ -138,23 +119,27 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 3,
+    "calls": 5,
     "by_model": {
-      "gemini-3.8-flash": 1,
-      "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 1
+      "gemini-3.5-flash": 1,
+      "gemini-3.5-flash-lite": 4
     },
     "out_of_quota": [
+      "gemini-3-flash-preview",
+      "gemini-3.5-flash",
       "gemini-3.6-flash",
-      "gemini-3.8-flash"
+      "gemini-3.7-flash",
+      "gemini-3.8-flash",
+      "gemini-flash-latest",
+      "ovh:Qwen3.5-397B-A17B"
     ]
   },
   "renders": {
     "modal": 0,
-    "runner": 0
+    "runner": 2
   },
   "daily_done": "2026-10-28",
-  "minutes_this_month": 125.0,
+  "minutes_this_month": 136.38317557983333,
   "minutes_budget": 20000,
   "modal_cost": {
     "metered": 28.18,
@@ -163,12 +148,12 @@
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 0,
-    "runner_minutes": 0,
+    "runner": 6,
+    "runner_minutes": 120,
     "modal_credit_left": -0.18
   },
-  "starved": 4,
-  "made_here": 0,
-  "open_topics": 54,
+  "starved": 0,
+  "made_here": 3,
+  "open_topics": 52,
   "parked_topics": 51
 }
