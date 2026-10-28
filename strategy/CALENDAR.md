@@ -251,7 +251,7 @@ unexplained, not alien.
 - 1983 Soviet nuclear false alarm incident (1983): a satellite mistook sunlight on clouds for incoming missiles, and one officer decided it was a false alarm — done (ep184)
 - Tunguska event (1908): an explosion in the sky flattened forest across 2,150 square kilometers and left no crater — done (ep024)
 - Gliese 710: a star is on course to pass through the Sun's cloud of comets in about 1.29 million years — done (ep063)
-- 4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed — making (ep237)
+- 4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed — dropped (ep237)
 - 2019 OK (2019): a city-killer sized asteroid that came from the Sun's direction and was detected just hours before its closest approach — done (ep112)
 - 4179 Toutatis (2004): a 5-kilometer asteroid that passed within four lunar distances of Earth, close enough to see its strange "ginger-root" shape — done (ep208)
 - 1972 Great Daylight Fireball (1972): a meteoroid bounced off Earth's atmosphere like a skipping stone and escaped back into space — dropped (ep229)

@@ -1,0 +1,154 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-24T23:11:29+05:30",
+      "check": {
+        "duration": 53.26,
+        "words": 109,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong tension established by the narrow six-hour miss window.",
+        "clarity": "Narrative sequence from event to detection is very clear.",
+        "payoff": "The reveal of the nine-day detection delay is impactful.",
+        "visuals": "Critical inaccuracies in astronomical data and historical figures.",
+        "loop": "Seamless transition from the closing line back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Orbit diagram shows asteroid 2014 DX110 instead of 4581 Asclepius."
+        },
+        {
+          "beat": 4,
+          "problem": "Image shows Gene and Carolyn Shoemaker rather than Holt and Thomas."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Features a much tighter narrative loop than the NASA Space Center episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T11:37:45+05:30",
+      "check": {
+        "duration": 79.4,
+        "words": 109,
+        "integrated_lufs": -14.3,
+        "true_peak_dbfs": -1.7,
+        "warnings": [
+          "duration 79.4 s is outside 35-58 s"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong premise captures attention, though initial delivery is paced too slowly.",
+        "clarity": "Information is direct and easy to follow beat by beat.",
+        "payoff": "The revelation of the nine-day discovery delay delivers an effective resolution.",
+        "visuals": "Multiple consecutive title cards create visual stagnation in the second half.",
+        "loop": "Closing phrase loops smoothly back into the opening line."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 2: We assume global networks would spot space hazards approaching days in advance.",
+        "Beat 3: But in 1989, the 300-meter asteroid Asclepius crossed our path completely unseen.",
+        "Beat 4: Astronomers only discovered it nine days after it had swept past.",
+        "Beat 5: It passed within 684,000 kilometers, avoiding a 600-megaton atomic impact.",
+        "The render ran 79.4 s; it must be 35-58 s."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T11:52:41+05:30",
+      "check": {
+        "duration": 57.4,
+        "words": 114,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Nasa via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise with immediate high-stakes tension.",
+        "clarity": "Chronological progression that is easy to follow on one listen.",
+        "payoff": "Effective revelation of the nine-day detection delay and modern defense origins.",
+        "visuals": "Visuals fit well overall, though one diagram depicts the wrong asteroid.",
+        "loop": "Seamless audio transition looping directly back into the opening subject."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Orbit diagram labels asteroid 2001 SG286 rather than Asclepius."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Connects a chilling historical near-miss directly to the real-world creation of modern planetary defense systems.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-28T11:52:41+05:30"
+}

@@ -1,74 +1,71 @@
 {
-  "updated_at": "2026-10-28T11:11:25+05:30",
+  "updated_at": "2026-10-28T11:52:44+05:30",
   "day": 27,
   "result": "ok",
   "run": {
-    "host": "modal",
-    "id": "ta-01M60G2BDAHT3P4MHXK9V80X8R",
-    "number": null,
-    "trigger": "schedule",
-    "started_at": "2026-10-28T11:05:09+05:30",
-    "started_at_utc": "2026-10-28T05:35:09+00:00",
-    "seconds": 376
+    "host": "github-actions",
+    "id": "40640685619",
+    "number": "116",
+    "trigger": "workflow_dispatch",
+    "started_at": "2026-10-28T11:24:44+05:30",
+    "started_at_utc": "2026-10-28T05:54:44+00:00",
+    "seconds": 1680
   },
   "stages": [
-    {
-      "name": "deploy",
-      "ok": true,
-      "detail": "",
-      "seconds": 2.4
-    },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.2
+      "seconds": 3.1
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep203 at 72 h: behind the channel's earlier Shorts at this age: 145 views against a median of 1014 (0.1x); ep216 at 24 h: behind the channel's earlier Shorts at this age: 90 views against a median of 770 (0.1x); ep225 at 6 h: behind the channel's earlier Shorts at this age: 29 views against a median of 601 (0.0x); learnings: Logged diagnostic reviews for ep165, ep181, ep185, ep208, and ep221; recomputed 10-Short medians showing myth-busting reach advantage and reinforced rules against mid-script biographical tangents.",
-      "seconds": 352.3
+      "detail": "no checkpoint due",
+      "seconds": 2.7
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 4.2
+      "seconds": 4.9
+    },
+    {
+      "name": "make ep237",
+      "ok": true,
+      "detail": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed: rejected (low scores: visuals)",
+      "seconds": 1658.1
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is paused until Oct 31 09:30 IST: the Shorts due until then are scheduled on YouTube directly",
-    "room for 0 of the 9 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 13,
+    "total": 0,
     "in_buffer": 0,
-    "waiting": 13,
-    "target": 42,
+    "waiting": 0,
+    "target": 10,
     "making": [
-      "ep237",
       "ep238",
       "ep239",
       "ep240",
@@ -79,87 +76,15 @@
     "remote": []
   },
   "queue": [],
-  "waiting": [
+  "waiting": [],
+  "made": [
     {
-      "id": "ep120",
-      "title": "The Cosmic Giant Tearing Itself Apart",
-      "series": "Scale Breaker",
-      "score": 20
-    },
-    {
-      "id": "ep127",
-      "title": "The Supersonic Impostor in Stephan's Quintet",
-      "series": "Space Got Weird",
-      "score": 20
-    },
-    {
-      "id": "ep156",
-      "title": "The Radioactive Clock Bolted to Voyager",
-      "series": "Space Got Weird",
-      "score": 20
-    },
-    {
-      "id": "ep161",
-      "title": "The Fastest Craft Ever Built Plunges Into the Sun",
-      "series": "Scale Breaker",
-      "score": 20
-    },
-    {
-      "id": "ep162",
-      "title": "The Shuttle That Survived Seven Hundred Missing Tiles",
-      "series": "Near Misses",
-      "score": 20
-    },
-    {
-      "id": "ep168",
-      "title": "The 50-Year Hunt for a Phantom Planet",
-      "series": "Space Myths, Busted",
-      "score": 20
-    },
-    {
-      "id": "ep176",
-      "title": "The Moon That Builds Saturn's Rings",
-      "series": "Space Got Weird",
-      "score": 20
-    },
-    {
-      "id": "ep191",
-      "title": "How Dead Stars Forged the Universe's Gold",
-      "series": "The Universe Is Terrifying",
-      "score": 20
-    },
-    {
-      "id": "ep198",
-      "title": "The 5,000-Light-Year Ray From a Black Hole",
-      "series": "Scale Breaker",
-      "score": 20
-    },
-    {
-      "id": "ep205",
-      "title": "The Black Hole That Sings a B-flat",
-      "series": "Scale Breaker",
-      "score": 20
-    },
-    {
-      "id": "ep219",
-      "title": "The Moon Rock Hiding in Madagascar",
-      "series": "Space Got Weird",
-      "score": 20
-    },
-    {
-      "id": "ep226",
-      "title": "Why a dead star just SKIPPED a beat",
-      "series": "The Universe Is Terrifying",
-      "score": 20
-    },
-    {
-      "id": "ep234",
-      "title": "The Soviet Lander That Whispered From Venus",
-      "series": "Mission Files",
-      "score": 20
+      "id": "ep237",
+      "outcome": "rejected",
+      "topic": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
+      "reason": "low scores: visuals"
     }
   ],
-  "made": [],
   "spawned": [],
   "in_cloud": [],
   "published": [],
@@ -167,31 +92,37 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 3,
+    "calls": 5,
     "by_model": {
-      "gemini-3.7-flash": 3
+      "gemini-3.7-flash": 1,
+      "gemini-3.6-flash": 2,
+      "gemini-3.5-flash-lite": 1,
+      "gemini-3.8-flash": 1
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.7-flash"
+    ]
   },
   "renders": {
     "modal": 0,
-    "runner": 0
+    "runner": 2
   },
   "daily_done": "2026-10-27",
-  "minutes_this_month": 0.0,
-  "minutes_budget": 2000,
+  "minutes_this_month": 29.992662780083332,
+  "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.07,
+    "metered": 28.09,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 0,
-    "runner_minutes": 0,
+    "runner": 6,
+    "runner_minutes": 120,
     "modal_credit_left": -0.07
   },
-  "made_here": 0,
+  "starved": 0,
+  "made_here": 1,
   "open_topics": 51,
   "parked_topics": 48
 }
