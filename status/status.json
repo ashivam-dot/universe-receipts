@@ -1,86 +1,65 @@
 {
-  "updated_at": "2026-10-28T20:07:15+05:30",
+  "updated_at": "2026-10-28T23:14:01+05:30",
   "day": 27,
-  "result": "failed",
+  "result": "ok",
   "run": {
-    "host": "github-actions",
-    "id": "40706041972",
-    "number": "120",
+    "host": "modal",
+    "id": "ta-01M61S8QHEFR8A52W2ND9WB6FR",
+    "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-28T19:57:52+05:30",
-    "started_at_utc": "2026-10-28T14:27:52+00:00",
-    "seconds": 563
+    "started_at": "2026-10-28T23:05:07+05:30",
+    "started_at_utc": "2026-10-28T17:35:07+00:00",
+    "seconds": 534
   },
   "stages": [
+    {
+      "name": "deploy",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.5
+    },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.5
+      "seconds": 3.4
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.3
+      "seconds": 0.6
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 1.5
+      "detail": "ep190 at 24 h: behind the channel's earlier Shorts at this age: 14 views against a median of 750 (0.0x); ep210 at 72 h: behind the channel's earlier Shorts at this age: 223 views against a median of 1011 (0.2x); learnings: Updated performance entries for recent Shorts, tracking early reach stalls and the negative impact of biographical and historical timeline detours in mid beats.",
+      "seconds": 514.4
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.4
-    },
-    {
-      "name": "make ep249",
-      "ok": false,
-      "detail": "2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 357.3
-    },
-    {
-      "name": "make ep250",
-      "ok": false,
-      "detail": "Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 547.1
-    },
-    {
-      "name": "make ep251",
-      "ok": false,
-      "detail": "Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day",
-      "error": "RuntimeError: ep251 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 98): add at least 7 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 13, beat 2: 19, beat 3: 17, beat 4: 18, beat 5: 18, beat 6: 13.', 'The hook (beat 1) must be 12 words or fewer (it has 13: \"Most people assume astronauts only visit the space station for brief research trips.\"); cut at least 1 words and keep its meaning.']",
-      "seconds": 446.8
+      "seconds": 3.0
     }
   ],
-  "errors": [
-    "make ep249: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-    "make ep251: RuntimeError: ep251 script still breaks the rules: ['Use 105 to 135 spoken words in total (you have 98): add at least 7 words, aiming for about 120, by lengthening or trimming the middle beats rather than the hook. Words now: beat 1: 13, beat 2: 19, beat 3: 17, beat 4: 18, beat 5: 18, beat 6: 13.', 'The hook (beat 1) must be 12 words or fewer (it has 13: \"Most people assume astronauts only visit the space station for brief research trips.\"); cut at least 1 words and keep its meaning.']",
-    "make ep250: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today"
-  ],
+  "errors": [],
   "owner_action": [],
   "notes": [
     "Buffer is paused until Oct 30 00:30 IST: the Shorts due until then are scheduled on YouTube directly",
-    "Gemini is out of free quota or overloaded; the rest waits for the next run",
+    "room for 0 of the 4 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -119,41 +98,38 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 5,
+    "calls": 2,
     "by_model": {
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 4
+      "gemini-3.6-flash": 1,
+      "gemini-3.5-flash-lite": 1
     },
     "out_of_quota": [
       "gemini-3-flash-preview",
       "gemini-3.5-flash",
       "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest",
-      "ovh:Qwen3.5-397B-A17B"
+      "gemini-flash-latest"
     ]
   },
   "renders": {
     "modal": 0,
-    "runner": 2
+    "runner": 0
   },
   "daily_done": "2026-10-28",
-  "minutes_this_month": 136.38317557983333,
+  "minutes_this_month": 136.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.18,
+    "metered": 28.19,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 6,
-    "runner_minutes": 120,
-    "modal_credit_left": -0.18
+    "runner": 0,
+    "runner_minutes": 0,
+    "modal_credit_left": -0.19
   },
-  "starved": 0,
-  "made_here": 3,
+  "starved": 4,
+  "made_here": 0,
   "open_topics": 52,
   "parked_topics": 51
 }
