@@ -1,0 +1,171 @@
+id: ep252
+title: The Broken Probe That Sailed on Sunlight to Mercury
+series: Mission Files
+format: v2
+description: Discover how Mariner 10 overcame relentless breakdowns and used a gravity assist past Venus to reach Mercury.
+sources:
+- https://en.wikipedia.org/wiki/Mariner_10
+- https://science.nasa.gov/mission/mariner-10/
+- https://www.space.com/18301-mariner-10.html
+- https://www.ebsco.com/research-starters/history/mariner-10-uses-gravitational-pull-one-planet-reach-another
+hashtags:
+- '#space'
+- '#nasa'
+- '#mercury'
+tags:
+- Mariner 10
+- Venus gravity assist
+- Mercury flyby
+- space exploration
+- solar sailing
+voice:
+  engine: gemini
+  voice: Sadaltager
+  direction: 'Read the transcript below aloud as a science host telling one friend something amazing: conversational and quick,
+    about 160 words a minute, with real energy on the surprising parts and no long pauses. Never sound like an announcer or
+    a trailer. Speak only the transcript.'
+  max_seconds: 54.0
+captions:
+  font: DM Serif Display
+  font_file: DMSerifDisplay-Regular.ttf
+  size: 84
+  outline: 5
+  words_per_line: 5
+  uppercase: false
+  karaoke: false
+  y: 0.7
+  primary: '#FFFFFF'
+  accent: '#FFD8A0'
+  highlight: '#FFFFFF'
+  max_width: 0.78
+beats:
+- text: A dying spacecraft survived its trip to Mercury by sailing on sunlight.
+  emphasis:
+  - sailing on sunlight
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Mariner_10.jpg/1920px-Mariner_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mariner 10.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mariner_10.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: In November 1973, NASA launched Mariner 10 to attempt the very first interplanetary gravity assist.
+  emphasis:
+  - first interplanetary gravity assist
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Atlas-Centaur_launch_with_Mariner_10.jpg/1920px-Atlas-Centaur_launch_with_Mariner_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Atlas-Centaur launch with Mariner 10.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Atlas-Centaur_launch_with_Mariner_10.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.4
+    card:
+      kind: dateline
+      big: November 1973
+      small: Cape Canaveral
+- text: Soon after takeoff, camera heaters failed and peeling paint tricked the star-tracker into losing its guide star.
+  emphasis:
+  - peeling paint
+  - losing its guide star
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Mariner10-IT.jpg/1920px-Mariner10-IT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mariner10-IT.jpg
+      credit: 'Mariner10.jpg: NASA / Jet Propulsion Laboratory
+
+        derivative work: Adert (talk)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mariner10-IT.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: When attitude control gas ran critically low, engineers gambled on a completely untested maneuver.
+  emphasis:
+  - untested maneuver
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mariner10_-_third_Mercury_encounter_-_scheme.PNG/960px-Mariner10_-_third_Mercury_encounter_-_scheme.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mariner10 - third Mercury encounter - scheme.PNG
+      credit: Mariner Venus/Mercury 1973 Project Office, Jet Propulsion Laboratory, NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mariner10_-_third_Mercury_encounter_-_scheme.PNG
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Controllers angled the solar panels to catch the pressure of solar radiation, using sunlight itself as a rudder.
+  emphasis:
+  - pressure of solar radiation
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/ACS3_solar_sail_fully_unfurled.png/960px-ACS3_solar_sail_fully_unfurled.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ACS3 solar sail fully unfurled.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ACS3_solar_sail_fully_unfurled.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.75
+    focus_y: 0.65
+    card:
+      kind: fact
+      big: Solar Sailing
+      small: Attitude control via sunlight
+- text: That brilliant improvised fix let Venus fling the probe toward Mercury for three historic flybys.
+  emphasis:
+  - three historic flybys
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/54/PIA03101_Mercury%27s_Southern_Hemisphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA03101 Mercury's Southern Hemisphere.jpg
+      credit: NASA/JPL.
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA03101_Mercury%27s_Southern_Hemisphere.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Without that sunlight-driven escape, no broken ship could ever sail across the inner solar system.
+  emphasis:
+  - sunlight-driven escape
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+hook_text: A DYING SHIP, A SOLAR SAIL

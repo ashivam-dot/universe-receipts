@@ -1,23 +1,17 @@
 {
-  "updated_at": "2026-10-28T23:14:01+05:30",
-  "day": 27,
-  "result": "ok",
+  "updated_at": "2026-10-29T02:03:11+05:30",
+  "day": 28,
+  "result": "failed",
   "run": {
-    "host": "modal",
-    "id": "ta-01M61S8QHEFR8A52W2ND9WB6FR",
-    "number": null,
+    "host": "github-actions",
+    "id": "40761785813",
+    "number": "121",
     "trigger": "schedule",
-    "started_at": "2026-10-28T23:05:07+05:30",
-    "started_at_utc": "2026-10-28T17:35:07+00:00",
-    "seconds": 534
+    "started_at": "2026-10-29T01:47:07+05:30",
+    "started_at_utc": "2026-10-28T20:17:07+00:00",
+    "seconds": 964
   },
   "stages": [
-    {
-      "name": "deploy",
-      "ok": true,
-      "detail": "",
-      "seconds": 1.5
-    },
     {
       "name": "sync",
       "ok": true,
@@ -28,47 +22,80 @@
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.4
+      "seconds": 2.7
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep190 at 24 h: behind the channel's earlier Shorts at this age: 14 views against a median of 750 (0.0x); ep210 at 72 h: behind the channel's earlier Shorts at this age: 223 views against a median of 1011 (0.2x); learnings: Updated performance entries for recent Shorts, tracking early reach stalls and the negative impact of biographical and historical timeline detours in mid beats.",
-      "seconds": 514.4
+      "detail": "no checkpoint due",
+      "seconds": 2.0
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 3.0
+      "seconds": 2.7
+    },
+    {
+      "name": "make ep249",
+      "ok": true,
+      "detail": "2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days: ready",
+      "seconds": 229.3
+    },
+    {
+      "name": "make ep250",
+      "ok": false,
+      "detail": "Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside",
+      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "seconds": 562.2
+    },
+    {
+      "name": "make ep251",
+      "ok": false,
+      "detail": "Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day",
+      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "seconds": 710.1
+    },
+    {
+      "name": "make ep252",
+      "ok": false,
+      "detail": "Mariner 10 (1973): the first mission to use a \"gravity assist,\" stealing momentum from Venus to reach Mercury",
+      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "seconds": 715.6
     }
   ],
-  "errors": [],
+  "errors": [
+    "make ep250: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+    "make ep251: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+    "make ep252: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today"
+  ],
   "owner_action": [],
   "notes": [
     "Buffer is paused until Oct 30 00:30 IST: the Shorts due until then are scheduled on YouTube directly",
-    "room for 0 of the 4 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
+    "Gemini is out of free quota or overloaded; the rest waits for the next run",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 2,
+    "total": 3,
     "in_buffer": 0,
-    "waiting": 2,
+    "waiting": 3,
     "target": 10,
     "making": [
-      "ep249",
       "ep250",
       "ep251",
       "ep252"
@@ -88,9 +115,31 @@
       "title": "The Space Telescope That Hunts on Machine Instinct",
       "series": "Mission Files",
       "score": 20
+    },
+    {
+      "id": "ep249",
+      "title": "Earth’s Long-Lost Second Moon",
+      "series": "Space Got Weird",
+      "score": 20
     }
   ],
-  "made": [],
+  "made": [
+    {
+      "id": "ep249",
+      "outcome": "ready",
+      "topic": "2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days",
+      "title": "Earth’s Long-Lost Second Moon",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793218869/universereceipts/ep249-29b01bc6.mp4",
+      "renders": 3
+    }
+  ],
   "spawned": [],
   "in_cloud": [],
   "published": [],
@@ -98,38 +147,43 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 2,
+    "calls": 11,
     "by_model": {
-      "gemini-3.6-flash": 1,
-      "gemini-3.5-flash-lite": 1
+      "gemini-3.5-flash": 2,
+      "gemini-3-flash-preview": 1,
+      "gemini-3.5-flash-lite": 7,
+      "gemini-flash-latest": 1
     },
     "out_of_quota": [
       "gemini-3-flash-preview",
       "gemini-3.5-flash",
       "gemini-3.6-flash",
-      "gemini-flash-latest"
+      "gemini-3.7-flash",
+      "gemini-3.8-flash",
+      "gemini-flash-latest",
+      "ovh:Qwen3.5-397B-A17B"
     ]
   },
   "renders": {
     "modal": 0,
-    "runner": 0
+    "runner": 4
   },
   "daily_done": "2026-10-28",
-  "minutes_this_month": 136.0,
+  "minutes_this_month": 154.06108748795,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.19,
+    "metered": 28.22,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 0,
-    "runner_minutes": 0,
+    "runner": 6,
+    "runner_minutes": 120,
     "modal_credit_left": -0.19
   },
-  "starved": 4,
-  "made_here": 0,
+  "starved": 0,
+  "made_here": 4,
   "open_topics": 52,
   "parked_topics": 51
 }
