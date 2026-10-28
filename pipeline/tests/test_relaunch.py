@@ -6,6 +6,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+import pytest
 import yaml
 
 from ytc import auto, captions, studio, tts
@@ -47,6 +48,15 @@ def test_a_new_spec_carries_the_format_voice_and_subtitles():
 
 def test_gemini_never_reads_kokoro_markup():
     assert tts.plain("The moon [Io](/ˈaɪoʊ/) erupts.") == "The moon Io erupts."
+
+
+def test_a_long_take_is_sped_up_to_fit_but_never_rushed():
+    import numpy as np
+
+    take = np.sin(np.arange(tts.SAMPLE_RATE * 60) / 20).astype(np.float32)
+    assert len(tts.fit(take, 50.0)) / tts.SAMPLE_RATE == pytest.approx(50.0, abs=0.2)
+    assert len(tts.fit(take, 30.0)) / tts.SAMPLE_RATE == pytest.approx(60 / tts.MAX_TEMPO, abs=0.2)
+    assert tts.fit(take, 70.0) is take
 
 
 def test_subtitles_show_a_phrase_at_a_time_without_lighting_each_word(tmp_path):

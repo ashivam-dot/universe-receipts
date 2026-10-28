@@ -33,9 +33,11 @@ IST = ZoneInfo("Asia/Kolkata")
 # which thousands of faceless channels share, and subtitles instead of word-pop karaoke captions.
 FORMAT = "v2"
 VOICE = {"engine": "gemini", "voice": "Sadaltager",
-         "direction": "Read the transcript below aloud as a thoughtful science host talking with one curious friend: "
-                      "relaxed and conversational, genuinely amazed by the surprising parts, with a short natural "
-                      "pause before each one. Never sound like an announcer or a trailer. Speak only the transcript."}
+         "direction": "Read the transcript below aloud as a science host telling one friend something amazing: "
+                      "conversational and quick, about 160 words a minute, with real energy on the surprising parts "
+                      "and no long pauses. Never sound like an announcer or a trailer. Speak only the transcript.",
+         # A 109-word script read in 79 s on the first try (ep237); Shorts end at 58 s, with the lead-in and pauses.
+         "max_seconds": 54.0}
 CAPTIONS = {"font": "DM Serif Display", "font_file": "DMSerifDisplay-Regular.ttf", "size": 84, "outline": 5,
             "words_per_line": 5, "uppercase": False, "karaoke": False, "y": 0.70, "primary": "#FFFFFF",
             "accent": "#FFD8A0", "highlight": "#FFFFFF", "max_width": 0.78}

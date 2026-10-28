@@ -9,6 +9,7 @@ import json
 import logging
 import os
 import re
+import subprocess
 import time
 import unicodedata
 from dataclasses import dataclass
@@ -28,6 +29,7 @@ EDGE_KEEP = 0.05
 _PUNCTUATION = set(".,!?;:\u2026\u2014\u2013-\"'()[]\u201c\u201d\u2018\u2019")
 _pipelines: dict[str, object] = {}
 _KOKORO_OVERRIDE = re.compile(r"\[([^\]]+)\]\(/[^)]*/\)")
+MAX_TEMPO = 1.3
 
 GEMINI_API = "https://generativelanguage.googleapis.com/v1beta/models"
 # Newest first; each has its own free daily quota.
@@ -191,6 +193,19 @@ def _gemini_take(text: str, voice: Voice, models: list[str] | None = None) -> tu
     raise RuntimeError(f"no Gemini TTS model read the script: {'; '.join(errors)}")
 
 
+def fit(audio: np.ndarray, max_seconds: float | None) -> np.ndarray:
+    """A take sped up, pitch kept (FFmpeg's atempo), to last at most `max_seconds`; never by more than MAX_TEMPO,
+    past which a voice sounds rushed (the check then flags the length)."""
+    seconds = len(audio) / SAMPLE_RATE
+    if not max_seconds or seconds <= max_seconds:
+        return audio
+    tempo = min(seconds / max_seconds, MAX_TEMPO)
+    out = subprocess.run(["ffmpeg", "-v", "error", "-f", "f32le", "-ar", str(SAMPLE_RATE), "-ac", "1", "-i", "pipe:0",
+                          "-filter:a", f"atempo={tempo:.4f}", "-f", "f32le", "pipe:1"],
+                         input=audio.astype(np.float32).tobytes(), capture_output=True, check=True).stdout
+    return np.frombuffer(out, dtype=np.float32).copy()
+
+
 def plain(text: str) -> str:
     """A line without Kokoro's pronunciation markup ("[Io](/ˈaɪoʊ/)" is "Io"), which Gemini would read out."""
     return _KOKORO_OVERRIDE.sub(r"\1", text)
@@ -294,7 +309,8 @@ def _gemini(spec: ShortSpec, out_dir: Path) -> Narration:
                 log.warning("%s: no take %d (%s); keeping the best so far", spec.id, take, error)
                 break
         head, tail = _speech_bounds(raw)
-        audio = np.concatenate([np.zeros(int(lead_in * SAMPLE_RATE), dtype=np.float32), raw[head:tail]])
+        raw = fit(raw[head:tail], spec.voice.max_seconds)
+        audio = np.concatenate([np.zeros(int(lead_in * SAMPLE_RATE), dtype=np.float32), raw])
         sf.write(wav_path, audio, SAMPLE_RATE)
         words, coverage = _align(tokens, _heard(wav_path, language))
         log.info("%s take %d (%s): Whisper heard %s of each line", spec.id, take, served or "model not recorded",

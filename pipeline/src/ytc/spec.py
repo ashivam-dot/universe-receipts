@@ -80,6 +80,8 @@ class Voice(_Model):
     # follows without reading them out.
     model: str = ""
     direction: str = ""
+    # Gemini only: a take longer than this is sped up to fit (tts.fit); empty leaves it as read.
+    max_seconds: float | None = None
     # Seconds before the first word. A Reel needs enough for its cover frame to show the hook before any caption.
     lead_in: float = Field(0.08, ge=0, le=1)
 
