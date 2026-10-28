@@ -1,34 +1,40 @@
 {
-  "updated_at": "2026-10-29T02:03:11+05:30",
+  "updated_at": "2026-10-29T05:12:14+05:30",
   "day": 28,
-  "result": "failed",
+  "result": "ok",
   "run": {
-    "host": "github-actions",
-    "id": "40761785813",
-    "number": "121",
+    "host": "modal",
+    "id": "ta-01M62DVWGYWQRHSPD3B7MSNK3R",
+    "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-29T01:47:07+05:30",
-    "started_at_utc": "2026-10-28T20:17:07+00:00",
-    "seconds": 964
+    "started_at": "2026-10-29T05:05:13+05:30",
+    "started_at_utc": "2026-10-28T23:35:13+00:00",
+    "seconds": 421
   },
   "stages": [
+    {
+      "name": "deploy",
+      "ok": true,
+      "detail": "",
+      "seconds": 3.1
+    },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.7
+      "seconds": 3.6
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -39,55 +45,21 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 2.0
+      "detail": "ep225 at 24 h: behind the channel's earlier Shorts at this age: 41 views against a median of 741 (0.1x); ep244 at 6 h: behind the channel's earlier Shorts at this age: 41 views against a median of 549 (0.1x); learnings: Reviewed performance for ep221, ep185, ep165, and ep208; removed the historical milestone hypothesis after ep165 retention dropped during biographical side notes.",
+      "seconds": 402.6
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.7
-    },
-    {
-      "name": "make ep249",
-      "ok": true,
-      "detail": "2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days: ready",
-      "seconds": 229.3
-    },
-    {
-      "name": "make ep250",
-      "ok": false,
-      "detail": "Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 562.2
-    },
-    {
-      "name": "make ep251",
-      "ok": false,
-      "detail": "Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 710.1
-    },
-    {
-      "name": "make ep252",
-      "ok": false,
-      "detail": "Mariner 10 (1973): the first mission to use a \"gravity assist,\" stealing momentum from Venus to reach Mercury",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 715.6
+      "seconds": 3.0
     }
   ],
-  "errors": [
-    "make ep250: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-    "make ep251: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-    "make ep252: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today"
-  ],
+  "errors": [],
   "owner_action": [],
   "notes": [
     "Buffer is paused until Oct 30 00:30 IST: the Shorts due until then are scheduled on YouTube directly",
-    "Gemini is out of free quota or overloaded; the rest waits for the next run",
+    "room for 0 of the 4 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -123,23 +95,7 @@
       "score": 20
     }
   ],
-  "made": [
-    {
-      "id": "ep249",
-      "outcome": "ready",
-      "topic": "2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days",
-      "title": "Earth’s Long-Lost Second Moon",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793218869/universereceipts/ep249-29b01bc6.mp4",
-      "renders": 3
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
   "published": [],
@@ -147,29 +103,21 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 11,
+    "calls": 2,
     "by_model": {
-      "gemini-3.5-flash": 2,
-      "gemini-3-flash-preview": 1,
-      "gemini-3.5-flash-lite": 7,
-      "gemini-flash-latest": 1
+      "gemini-3.8-flash": 1,
+      "gemini-3.6-flash": 1
     },
     "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest",
-      "ovh:Qwen3.5-397B-A17B"
+      "gemini-3.8-flash"
     ]
   },
   "renders": {
     "modal": 0,
-    "runner": 4
+    "runner": 0
   },
   "daily_done": "2026-10-28",
-  "minutes_this_month": 154.06108748795,
+  "minutes_this_month": 154.0,
   "minutes_budget": 20000,
   "modal_cost": {
     "metered": 28.22,
@@ -178,12 +126,12 @@
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 6,
-    "runner_minutes": 120,
-    "modal_credit_left": -0.19
+    "runner": 0,
+    "runner_minutes": 0,
+    "modal_credit_left": -0.22
   },
-  "starved": 0,
-  "made_here": 4,
+  "starved": 4,
+  "made_here": 0,
   "open_topics": 52,
   "parked_topics": 51
 }

@@ -41,7 +41,6 @@ At most 8. Each is tested against the current rules on comparable Shorts before 
 - Avoid opening on abstract background metrics or detached setup text; start with immediate high-stakes action (ep181, ep208, ep221).
 - End on a direct question or challenge to the viewer instead of a passive fade-out on myth or debate topics to drive comments without hurting retention (ep185, ep201).
 - For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic (ep146, ep165).
-- Contrast cosmic timescales with relatable human historical milestones rather than astronomer discovery trivia to sustain mid-video momentum (ep165, ep197).
 - Compress scientific definitions into a single beat under 4 seconds to reach core resolution by the 12-second mark (ep172).
 - Hold the central threat until middle beats instead of beat one in hazard stories.
 - End with a shareable line ('the next time someone says...') to test if share prompts lift retention or virality.
@@ -71,27 +70,36 @@ contradiction.
 | ep053 | Space Myths, Busted | statement, story | 1092 | 49% | 57.8% | 113% | 2 | – |
 | ep058 | Space Got Weird | statement, myth_vs_fact | 1014 | 52% | 107.3% | 158% | 3 | – |
 | ep063 | Near Misses | contradiction, mystery | 1010 | 52% | 71.9% | 115% | 4 | – |
-| ep184 | Near Misses | statement, myth_vs_fact | 487 | 55% | 66.7% | 110% | 0 | – |
+| ep184 | Near Misses | statement, myth_vs_fact | 487 | 54% | 66.7% | 110% | 0 | – |
 | ep071 | The Universe Is Terrifying | statement, record | 917 | 49% | 92.9% | 143% | 1 | – |
 | ep072 | Near Misses | statement, record | 711 | 50% | 174.9% | 233% | 1 | – |
-| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 57% | 68.5% | 124% | 1 | – |
+| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 57% | 68.6% | 124% | 1 | – |
 | ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.0% | 110% | 1 | – |
-| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 64.4% | 114% | 1 | – |
-| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 61.0% | 116% | 1 | – |
-| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.7% | 116% | 1 | – |
+| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 64.3% | 114% | 1 | – |
+| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.9% | 116% | 1 | – |
+| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | – |
 | ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.4% | 148% | 2 | – |
-| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.3% | 115% | 3 | Started with distant setup text instead of immediate high-stakes action, limiting early reach to 574 views despite strong late retention. |
-| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | Mid-script retention dropped during historical timeline beats and name listings, pulling average view percentage down to 59.41%. |
-| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 86.1% | 127% | 0 | A vague opening text overlay hurt engaged share to 0.46 while the concluding beat lacked an interactive question for comments. |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.8% | 120% | 4 | Strong search traffic and a contradiction hook pushed views to 1,539, though mid-video historical tangents caused a drop in retention. |
+| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.2% | 115% | 3 | – |
+| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | Early contradiction hook held initial engagement (1.259 at 5%), but biographical dates and names in middle beats caused mid-script retention to crash to 0.518 at 50% and 59.41% average viewed, resulting in low early reach of 400 views at 27.1h despite strong like ratio (5.3/100). |
+| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.7% | 127% | 0 | Spoken myth-busting hook drove outstanding initial retention (1.477 at 5%) and high completion (0.618 at end, 85.72% avg viewed), but text overlay underperformed causing 0.462 engaged share, while a passive closing statement left comments at zero despite 660 views at 24.5h. |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.9% | 120% | 4 | Search-friendly title generated strong early reach (1,495 views at 28.1h vs 725.5 median) and search traffic, but a historical detour into Clyde Tombaugh caused 50% retention to plunge to 0.401 and avg viewed to 65.88%, cutting end retention to 0.257. |
 | ep174 | Mission Files | statement, story | 260 | 52% | 64.5% | 106% | 1 | published while YouTube held the whole channel back; not evidence |
-| ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 50% | 37.6% | 97% | 0 | published while YouTube held the whole channel back; not evidence |
-| ep210 | Mission Files | contradiction, mystery | 149 | 46% | 43.2% | 102% | 0 | published while YouTube held the whole channel back; not evidence |
-| 4vqKkpkfwyY | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
-| ep177 | Mission Files | statement, story | 127 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
-| ep216 | Space Myths, Busted | contradiction, record | 90 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 51% | 39.8% | 96% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep210 | Mission Files | contradiction, mystery | 149 | 44% | 44.0% | 101% | 0 | published while YouTube held the whole channel back; not evidence |
+| 4vqKkpkfwyY | ? | –, story | – | 36% | 56.4% | – | 0 | published while YouTube held the whole channel back; not evidence |
+| ep177 | Mission Files | statement, story | 127 | 56% | 48.4% | 101% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep216 | Space Myths, Busted | contradiction, record | 90 | 55% | 59.1% | 115% | 0 | published while YouTube held the whole channel back; not evidence |
 | 7lDBiMMlASI | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 | ep190 | Mission Files | statement, story | 14 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| n8iv0-XfRnY | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| sPUubWIORv4 | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| TKHYK3-F_QI | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| 3FU0QDuIAAQ | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| UrEN-tyt2DY | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| VWs9pa7NFJo | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| Ql418EoNwCQ | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| 5bfuZgx-CS4 | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| ep225 | Space Got Weird | contradiction, mystery | 41 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 
 ## Log
 
@@ -199,3 +207,4 @@ contradiction.
 - 2026-10-28: Logged diagnostic reviews for ep165, ep181, ep185, ep208, and ep221; recomputed 10-Short medians showing myth-busting reach advantage and reinforced rules against mid-script biographical tangents.
 - 2026-10-28: Logged reviews for ep165, ep181, ep185, ep208, and ep221, updating benchmark medians and confirming rules against biographical detours and detached hook metrics.
 - 2026-10-28: Updated performance entries for recent Shorts, tracking early reach stalls and the negative impact of biographical and historical timeline detours in mid beats.
+- 2026-10-29: Reviewed performance for ep221, ep185, ep165, and ep208; removed the historical milestone hypothesis after ep165 retention dropped during biographical side notes.
