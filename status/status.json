@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-10-28T12:15:21+05:30",
+  "updated_at": "2026-10-28T13:11:08+05:30",
   "day": 27,
-  "result": "failed",
+  "result": "ok",
   "run": {
     "host": "github-actions",
-    "id": "40645633302",
-    "number": "117",
+    "id": "40648337152",
+    "number": "118",
     "trigger": "workflow_dispatch",
-    "started_at": "2026-10-28T12:14:39+05:30",
-    "started_at_utc": "2026-10-28T06:44:39+00:00",
-    "seconds": 42
+    "started_at": "2026-10-28T12:40:55+05:30",
+    "started_at_utc": "2026-10-28T07:10:55+00:00",
+    "seconds": 1813
   },
   "stages": [
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.0
+      "seconds": 3.6
     },
     {
       "name": "languages",
@@ -34,39 +34,34 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 1.1
+      "seconds": 1.3
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.9
+      "seconds": 4.7
     },
     {
       "name": "make ep238",
-      "ok": false,
-      "detail": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "error": "FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'",
-      "seconds": 15.5
+      "ok": true,
+      "detail": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data: rejected (low scores: hook, visuals)",
+      "seconds": 1796.6
     },
     {
       "name": "make ep239",
-      "ok": false,
-      "detail": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "error": "FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'",
-      "seconds": 30.3
+      "ok": true,
+      "detail": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system: rejected (low scores: visuals; 2 frame problems)",
+      "seconds": 1321.6
     }
   ],
-  "errors": [
-    "make ep238: FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'",
-    "make ep239: FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'"
-  ],
+  "errors": [],
   "owner_action": [],
   "notes": [
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
@@ -77,8 +72,6 @@
     "waiting": 0,
     "target": 10,
     "making": [
-      "ep238",
-      "ep239",
       "ep240",
       "ep242",
       "ep245",
@@ -88,7 +81,20 @@
   },
   "queue": [],
   "waiting": [],
-  "made": [],
+  "made": [
+    {
+      "id": "ep239",
+      "outcome": "rejected",
+      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
+      "reason": "low scores: visuals; 2 frame problems"
+    },
+    {
+      "id": "ep238",
+      "outcome": "rejected",
+      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
+      "reason": "low scores: hook, visuals"
+    }
+  ],
   "spawned": [],
   "in_cloud": [],
   "published": [],
@@ -96,19 +102,25 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 0,
-    "by_model": {},
+    "calls": 10,
+    "by_model": {
+      "gemini-3.6-flash": 6,
+      "gemini-3.5-flash": 1,
+      "gemini-3.5-flash-lite": 1,
+      "gemini-3-flash-preview": 1,
+      "gemini-3.8-flash": 1
+    },
     "out_of_quota": []
   },
   "renders": {
     "modal": 0,
-    "runner": 0
+    "runner": 4
   },
   "daily_done": "2026-10-27",
-  "minutes_this_month": 32.69420139308333,
+  "minutes_this_month": 64.21072152643333,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.09,
+    "metered": 28.1,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -121,5 +133,5 @@
   "starved": 0,
   "made_here": 2,
   "open_topics": 51,
-  "parked_topics": 48
+  "parked_topics": 50
 }

@@ -1,0 +1,182 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-24T23:11:21+05:30",
+      "check": {
+        "duration": 49.0,
+        "words": 116,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'meta' heard as 'met' after 'and police calls'",
+          "'sync their' heard as 'sink there' after 'together coral species'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Direct opening premise, but lacks strong dramatic tension.",
+        "clarity": "Easy to follow progression of debunking arguments.",
+        "payoff": "Concludes rationally without delivering a strong surprising twist.",
+        "visuals": "Multiple beats rely on dense, illegible paper diagrams.",
+        "loop": "Closing phrasing connects smoothly back to the start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Contains small, unreadable text in a foreign language."
+        },
+        {
+          "beat": 6,
+          "problem": "Overcrowded with small diagram text unsuited for mobile."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Say 'Does a full moon really trigger human madness?'",
+        "Beat 8: Say 'Yet despite zero scientific proof, the ancient myth survives.'"
+      ],
+      "better_than_last": "It grounds its core claim in relatable real-world statistics.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T12:56:12+05:30",
+      "check": {
+        "duration": 53.2,
+        "words": 124,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "beat 3: the recognizer heard only 87% of the line",
+          "beat 4: the recognizer heard only 62% of the line",
+          "beat 8: the recognizer heard only 89% of the line"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Relatable premise, but lacks an immediate high-stakes hook.",
+        "clarity": "Logical narrative flow that is easy to follow.",
+        "payoff": "Standard debunking format without a major mind-bending twist.",
+        "visuals": "Includes an off-topic chart and several text-dense diagrams.",
+        "loop": "Flows naturally back to the starting question."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Off-topic chart showing 1700s wage data."
+        },
+        {
+          "beat": 4,
+          "problem": "Dense, unreadable diagram containing non-English text."
+        },
+        {
+          "beat": 7,
+          "problem": "Unreadable text-heavy scientific chart."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Decades of scientific data prove the full moon does not trigger human madness.",
+        "Beat 9: While moonlight syncs coral and pulls tides, for human chaos..."
+      ],
+      "better_than_last": "Offers a clearer contrast between real biological lunar ties and human myth.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T13:11:06+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 125,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "beat 3: the recognizer heard only 89% of the line",
+          "beat 5: the recognizer heard only 71% of the line"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Revealing the debunk upfront spoils tension, and dragging beat 1 across eighteen seconds hurts retention.",
+        "clarity": "The myth-busting points and biological distinctions are presented in an easy-to-follow sequence.",
+        "payoff": "Contrasting the human myth with genuine lunar synchronization in coral and tides provides a solid twist.",
+        "visuals": "Beat 3's title card mistakenly displays '100 SPECIES' instead of studies, and beat 5 is a dense, hard-to-read chart.",
+        "loop": "The final clause connects into the opening topic cleanly."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The title card prominently displays '100 SPECIES' instead of studies, contradicting the voiceover."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Police officers and medical staff swear the full moon triggers sudden emergency room madness.",
+        "Beat 2: Yet decades of data prove lunar phases have zero link to human chaos."
+      ],
+      "better_than_last": "It effectively contrasts a debunked human superstition with real lunar synchronization in marine biology and tides.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: hook, visuals",
+  "rejected_at": "2026-10-28T13:11:06+05:30"
+}

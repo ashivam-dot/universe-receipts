@@ -1,0 +1,171 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-24T23:12:25+05:30",
+      "check": {
+        "duration": 52.83,
+        "words": 114,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'haumea' heard as 'hamiya' after 'the object designated'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Strong mental image of an egg-shaped world effectively captures interest.",
+        "clarity": "Narrative follows a logical path from discovery to physical properties.",
+        "payoff": "The ring discovery provides a solid secondary fact to finish.",
+        "visuals": "Several frames use text-dense charts that are illegible on mobile.",
+        "loop": "The final sentence lacks a grammatical or thematic lead-in for replay."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Diagram shows eclipsing binary stars, which is irrelevant to the planetary occultation."
+        },
+        {
+          "beat": 7,
+          "problem": "Reused general object chart is too cluttered to illustrate the ring system."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 8,
+          "word": "Haumea",
+          "respelling": "how may ah"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: Known as Haumea, this collision created the frozen world..."
+      ],
+      "better_than_last": "This entry highlights a more unique physical deformation than the recent star or composition facts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T12:58:23+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Grabs attention quickly by highlighting the strange egg shape of a frozen world.",
+        "clarity": "Explains the science behind the shape and ring discovery in simple, logical steps.",
+        "payoff": "The unexpected ring system discovery in 2017 provides a satisfying conclusion.",
+        "visuals": "Relies on technical charts and mistakenly shows graphics for Eris instead of Haumea.",
+        "loop": "The final phrase about the frozen world flows smoothly back into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Technical light curve graph that is cluttered and hard to read on a phone."
+        },
+        {
+          "beat": 6,
+          "problem": "Displays diagram labeled for Eris rather than Haumea."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode delivers a stronger final twist with the unexpected ring discovery than the lunar dust premise in ep244.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T13:03:11+05:30",
+      "check": {
+        "duration": 54.42,
+        "words": 110,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong visual concept immediately stops the scroll.",
+        "clarity": "Effectively links rotation speed to physical deformation.",
+        "payoff": "Unexpected ring system reveal satisfies the setup.",
+        "visuals": "Beat 3 incorrectly identifies a star's light curve.",
+        "loop": "Seamlessly transitions back to the spatial location."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Chart is for star MP Muscae, not the dwarf planet Haumea."
+        },
+        {
+          "beat": 7,
+          "problem": "Reuses general object lineup instead of showing the ring system."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Handles complex orbital mechanics more intuitively than the lunar dust episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 2 frame problems",
+  "rejected_at": "2026-10-28T13:03:11+05:30"
+}

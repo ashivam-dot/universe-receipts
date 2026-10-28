@@ -233,7 +233,7 @@ unexplained, not alien.
 - 10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds — done (ep195)
 - 3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids — parked (ep204)
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
-- Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — making (ep239)
+- Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — parked (ep239)
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night
@@ -294,6 +294,6 @@ unexplained, not alien.
 - Mercury (planet) (1965): radar observations shattered the long-held belief that it permanently keeps one face to the Sun, proving it actually rotates three times for every two orbits — done (ep197)
 - Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side — parked (ep215)
 - Escape velocity (1859): you do not need to reach 25,000 miles per hour to escape Earth's gravity; any speed will work as long as you have continuous thrust — done (ep216)
-- Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — making (ep238)
+- Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — parked (ep238)
 - Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of "seared steak," "hot metal," and "welding fumes"
 - Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight
