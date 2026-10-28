@@ -936,10 +936,13 @@ def _scores(e: dict) -> int:
     return sum(int(x) for x in re.findall(r"\d", match.group(1))) if match else 0
 
 
-# Owner, 2026-10-28: the Shorts due until then were uploaded straight to YouTube as scheduled videos (publish.json
-# "direct": true, no Buffer post), to compare their reach with Buffer's after the 24 Oct drop. Until then no run
-# puts anything in Buffer, or it would book the same slots again.
-BUFFER_PAUSED_UNTIL = datetime(2026, 10, 31, 4, 0, tzinfo=timezone.utc)
+# Owner, 2026-10-28: the Shorts due until then are uploaded straight to YouTube as scheduled videos (publish.json
+# "direct": true, no Buffer post), one a day, while the new original format is built (strategy/RELAUNCH.md). Until
+# then no run puts anything in Buffer, or it would book the same slots again.
+BUFFER_PAUSED_UNTIL = datetime(2026, 11, 6, 6, 0, tzinfo=timezone.utc)
+# YouTube's Shorts feed cut the channel's reach on 24 Oct, most likely for templated, mass-produced uploads (its
+# 1 Oct originality update): one Short a day, each made with more care, until the relaunch test reads out.
+DAILY_CAP: int | None = 1
 
 
 def buffer_paused() -> bool:
@@ -1126,7 +1129,13 @@ def reach_earns_more() -> bool:
 
 
 def slots_per_day(today: date | None = None) -> int:
-    """How many of publish.SLOTS a day uses (PACE), held back while the per-Short numbers don't earn more."""
+    """How many of publish.SLOTS a day uses (PACE, never past DAILY_CAP), held back while the per-Short numbers
+    don't earn more."""
+    planned = _paced_slots(today)
+    return min(planned, DAILY_CAP) if DAILY_CAP else planned
+
+
+def _paced_slots(today: date | None = None) -> int:
     from .publish import SLOTS
 
     planned = max(n for day, n in PACE if day_number(today) >= day) if day_number(today) >= PACE[0][0] else BASE_PACE

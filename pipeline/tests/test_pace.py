@@ -4,6 +4,7 @@ RISING = [1000.0] * 10 + [1200.0] * 10
 
 
 def _setup(monkeypatch, day, engaged, share=None, reach=RISING):
+    monkeypatch.setattr(auto, "DAILY_CAP", None)
     monkeypatch.setattr(auto, "day_number", lambda today=None: day)
     monkeypatch.setattr(auto, "_pace_numbers", lambda: (engaged, share or [0.6] * len(engaged)))
     monkeypatch.setattr(auto, "_reach_numbers", lambda: reach)
@@ -58,6 +59,7 @@ def test_a_big_drop_steps_back_to_two(monkeypatch):
 
 
 def test_unreadable_numbers_post_two(monkeypatch):
+    monkeypatch.setattr(auto, "DAILY_CAP", None)
     monkeypatch.setattr(auto, "day_number", lambda today=None: 40)
 
     def broken():
