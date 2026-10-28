@@ -1,6 +1,7 @@
 id: ep245
 title: The Dark Planet Being Eaten Alive
 series: Space Got Weird
+format: v2
 description: Discover WASP-12b, a pitch-black gas giant trapped in a deadly death spiral around its host star.
 sources:
 - https://en.wikipedia.org/wiki/WASP-12b
@@ -21,8 +22,25 @@ tags:
 - hot Jupiter
 - Hubble
 voice:
-  voice: af_heart
-  speed: 1.05
+  engine: gemini
+  voice: Sadaltager
+  direction: 'Read the transcript below aloud as a science host telling one friend something amazing: conversational and quick,
+    about 160 words a minute, with real energy on the surprising parts and no long pauses. Never sound like an announcer or
+    a trailer. Speak only the transcript.'
+  max_seconds: 54.0
+captions:
+  font: DM Serif Display
+  font_file: DMSerifDisplay-Regular.ttf
+  size: 84
+  outline: 5
+  words_per_line: 5
+  uppercase: false
+  karaoke: false
+  y: 0.7
+  primary: '#FFFFFF'
+  accent: '#FFD8A0'
+  highlight: '#FFFFFF'
+  max_width: 0.78
 beats:
 - text: This planet is darker than asphalt and glows red.
   emphasis:

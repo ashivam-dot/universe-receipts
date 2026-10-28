@@ -1,0 +1,113 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-28T14:31:52+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 127,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging news-style hook though the topic is trending.",
+        "clarity": "Logical progression from the event to the scientific cause.",
+        "payoff": "The lunar origin reveal effectively resolves the initial mystery.",
+        "visuals": "Several frames depict incorrect objects or non-visual metaphors.",
+        "loop": "Phrasing allows the end to lead directly back to the start."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows an impact on Earth instead of the Moon."
+        },
+        {
+          "beat": 7,
+          "problem": "Depicts a coin rather than illustrating radiation pressure."
+        },
+        {
+          "beat": 8,
+          "problem": "Displays the wrong asteroid name and location."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Connects current events to lunar history more directly than the previous telescope episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T14:39:39+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 127,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The claim of a second moon is a proven attention-grabber.",
+        "clarity": "Logical progression from discovery to chemical analysis.",
+        "payoff": "The reveal that the asteroid is a lunar chunk is satisfying.",
+        "visuals": "Inaccurate charts and incorrect object types distract from the facts.",
+        "loop": "Circular phrasing creates a seamless transition for replays."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The chart is for SIMP 0136, a brown dwarf, not the asteroid 2024 PT5."
+        },
+        {
+          "beat": 8,
+          "problem": "Shows human-made rocket debris while the script identifies a natural object."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The hook has more universal appeal than the technical subject of the machine-instinct telescope.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

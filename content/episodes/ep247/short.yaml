@@ -1,6 +1,7 @@
 id: ep247
 title: The Space Telescope That Hunts on Machine Instinct
 series: Mission Files
+format: v2
 description: NASA's Neil Gehrels Swift Observatory can pivot its entire multi-ton body in under a minute to catch fleeting
   cosmic explosions. Launched in 2004, it revolutionized how astronomers study the dying universe.
 sources:
@@ -22,8 +23,25 @@ tags:
 - nasa missions
 - deep space
 voice:
-  voice: af_heart
-  speed: 1.05
+  engine: gemini
+  voice: Sadaltager
+  direction: 'Read the transcript below aloud as a science host telling one friend something amazing: conversational and quick,
+    about 160 words a minute, with real energy on the surprising parts and no long pauses. Never sound like an announcer or
+    a trailer. Speak only the transcript.'
+  max_seconds: 54.0
+captions:
+  font: DM Serif Display
+  font_file: DMSerifDisplay-Regular.ttf
+  size: 84
+  outline: 5
+  words_per_line: 5
+  uppercase: false
+  karaoke: false
+  y: 0.7
+  primary: '#FFFFFF'
+  accent: '#FFD8A0'
+  highlight: '#FFFFFF'
+  max_width: 0.78
 beats:
 - text: A multi-ton NASA telescope pivots in seconds without human commands.
   emphasis:
@@ -166,9 +184,9 @@ beats:
       kind: fact
       big: 13 Billion
       small: light-years away
-- text: Built for a two-year mission, the observatory spent two decades hunting these flashes.
+- text: Built for a two-year mission, the observatory spent two decades hunting these flashes, which is why...
   emphasis:
-  - two decades
+  - which is why
   sfx: pop
   pause_after: 0.4
   visual:

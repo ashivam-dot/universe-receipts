@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-10-28T13:11:08+05:30",
+  "updated_at": "2026-10-28T14:52:19+05:30",
   "day": 27,
-  "result": "ok",
+  "result": "degraded",
   "run": {
     "host": "github-actions",
-    "id": "40648337152",
-    "number": "118",
-    "trigger": "workflow_dispatch",
-    "started_at": "2026-10-28T12:40:55+05:30",
-    "started_at_utc": "2026-10-28T07:10:55+00:00",
-    "seconds": 1813
+    "id": "40656312551",
+    "number": "119",
+    "trigger": "schedule",
+    "started_at": "2026-10-28T13:53:13+05:30",
+    "started_at_utc": "2026-10-28T08:23:13+00:00",
+    "seconds": 3546
   },
   "stages": [
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.6
+      "seconds": 2.6
     },
     {
       "name": "languages",
@@ -39,60 +39,134 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 1.3
+      "detail": "ep078 at 6 h: behind the channel's earlier Shorts at this age: 67 views against a median of 575 (0.1x)",
+      "seconds": 32.3
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 4.7
+      "seconds": 3.8
     },
     {
-      "name": "make ep238",
+      "name": "make ep240",
       "ok": true,
-      "detail": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data: rejected (low scores: hook, visuals)",
-      "seconds": 1796.6
+      "detail": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body: rejected (low scores: payoff)",
+      "seconds": 2030.9
     },
     {
-      "name": "make ep239",
+      "name": "make ep242",
       "ok": true,
-      "detail": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system: rejected (low scores: visuals; 2 frame problems)",
-      "seconds": 1321.6
+      "detail": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life: rejected (low scores: loop)",
+      "seconds": 1807.2
+    },
+    {
+      "name": "make ep245",
+      "ok": true,
+      "detail": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star: ready",
+      "seconds": 530.0
+    },
+    {
+      "name": "make ep247",
+      "ok": true,
+      "detail": "Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions: ready",
+      "seconds": 774.9
+    },
+    {
+      "name": "make ep249",
+      "ok": false,
+      "detail": "2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days",
+      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "seconds": 2190.2
+    },
+    {
+      "name": "make ep250",
+      "ok": false,
+      "detail": "Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside",
+      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "seconds": 1606.9
     }
   ],
-  "errors": [],
+  "errors": [
+    "make ep250: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+    "make ep249: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today"
+  ],
   "owner_action": [],
   "notes": [
+    "Buffer is paused until Nov 06 11:30 IST: the Shorts due until then are scheduled on YouTube directly",
+    "Gemini is out of free quota or overloaded; the rest waits for the next run",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 0,
+    "total": 2,
     "in_buffer": 0,
-    "waiting": 0,
+    "waiting": 2,
     "target": 10,
     "making": [
-      "ep240",
-      "ep242",
-      "ep245",
-      "ep247"
+      "ep249",
+      "ep250"
     ],
     "remote": []
   },
   "queue": [],
-  "waiting": [],
-  "made": [
+  "waiting": [
     {
-      "id": "ep239",
-      "outcome": "rejected",
-      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "reason": "low scores: visuals; 2 frame problems"
+      "id": "ep245",
+      "title": "The Dark Planet Being Eaten Alive",
+      "series": "Space Got Weird",
+      "score": 20
     },
     {
-      "id": "ep238",
+      "id": "ep247",
+      "title": "The Space Telescope That Hunts on Machine Instinct",
+      "series": "Mission Files",
+      "score": 20
+    }
+  ],
+  "made": [
+    {
+      "id": "ep245",
+      "outcome": "ready",
+      "topic": "WASP-12b (2008): a pitch-black planet that is actively being eaten alive by its parent star",
+      "title": "The Dark Planet Being Eaten Alive",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793176370/universereceipts/ep245-72890ebe.mp4",
+      "renders": 3
+    },
+    {
+      "id": "ep247",
+      "outcome": "ready",
+      "topic": "Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions",
+      "title": "The Space Telescope That Hunts on Machine Instinct",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793177145/universereceipts/ep247-2f67a261.mp4",
+      "renders": 2
+    },
+    {
+      "id": "ep242",
       "outcome": "rejected",
-      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "reason": "low scores: hook, visuals"
+      "topic": "Pioneer 10 (1972): the first spacecraft to navigate through the asteroid belt and reach Jupiter, carrying a golden plaque designed for alien life",
+      "reason": "low scores: loop"
+    },
+    {
+      "id": "ep240",
+      "outcome": "rejected",
+      "topic": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
+      "reason": "low scores: payoff"
     }
   ],
   "spawned": [],
@@ -102,25 +176,33 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 10,
+    "calls": 34,
     "by_model": {
+      "gemini-3.8-flash": 3,
+      "gemini-3.7-flash": 2,
       "gemini-3.6-flash": 6,
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 1,
-      "gemini-3-flash-preview": 1,
-      "gemini-3.8-flash": 1
+      "gemini-3.5-flash-lite": 6,
+      "gemini-3-flash-preview": 17
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3-flash-preview",
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash",
+      "gemini-flash-latest",
+      "ovh:Qwen3.5-397B-A17B"
+    ]
   },
   "renders": {
     "modal": 0,
-    "runner": 4
+    "runner": 14
   },
   "daily_done": "2026-10-27",
-  "minutes_this_month": 64.21072152643333,
+  "minutes_this_month": 125.09886524379999,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.1,
+    "metered": 28.17,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -128,10 +210,10 @@
     "cloud": 0,
     "runner": 6,
     "runner_minutes": 120,
-    "modal_credit_left": -0.09
+    "modal_credit_left": -0.1
   },
   "starved": 0,
-  "made_here": 2,
-  "open_topics": 51,
-  "parked_topics": 50
+  "made_here": 6,
+  "open_topics": 49,
+  "parked_topics": 51
 }

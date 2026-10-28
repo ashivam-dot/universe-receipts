@@ -1,0 +1,180 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-28T14:09:41+05:30",
+      "check": {
+        "duration": 52.86,
+        "words": 107,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "beat 3: the recognizer heard only 71% of the line",
+          "beat 5: the recognizer heard only 78% of the line",
+          "beat 6: the recognizer heard only 70% of the line"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The concept of a dead star swallowed inside another star creates strong immediate curiosity.",
+        "clarity": "The scientific progression from theoretical concept to candidate discovery is easy to follow.",
+        "payoff": "Highlighting a real observed candidate and detection method delivers a satisfying conclusion.",
+        "visuals": "Beat 4 mistakenly displays graphics of black hole accretion disks rather than a stellar core.",
+        "loop": "Beat 8 repeats the exact phrase 'a dead neutron star is buried', making the transition feel redundant rather than seamless."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Wrong object; the graphic shows accretion disks around black holes rather than a stellar core."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Żytkow",
+          "respelling": "zhit koff"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: That proof would finally confirm the bizarre secret hiding"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T14:19:59+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 108,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.5,
+        "warnings": [],
+        "speech_differences": [
+          "beat 3: the recognizer heard only 79% of the line",
+          "beat 5: the recognizer heard only 80% of the line",
+          "beat 6: the recognizer heard only 83% of the line"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening sentence is delivered too slowly for a vertical video format.",
+        "clarity": "The script logically explains the hybrid star concept to a general audience.",
+        "payoff": "The conclusion merely restates the hook instead of offering a new twist.",
+        "visuals": "The title cards and diagrams effectively illustrate abstract astronomical concepts.",
+        "loop": "The final line creates a seamless grammatical bridge back to the beginning."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The stellar core art looks more like biological organs than astronomical plasma."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Inside this red giant star, a dead neutron star is hiding.",
+        "Beat 8: New research could finally prove what is"
+      ],
+      "better_than_last": "The use of specific data title cards provides better technical grounding than episode 244.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T14:27:52+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 112,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "beat 3: the recognizer heard only 77% of the line",
+          "beat 6: the recognizer heard only 82% of the line"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing concept that effectively grabs attention immediately.",
+        "clarity": "Logical progression of astronomical theories and observations.",
+        "payoff": "Ending feels slightly inconclusive compared to the strong buildup.",
+        "visuals": "High-quality, relevant imagery that supports the complex subject matter.",
+        "loop": "Grammatical connection between the final and first lines is excellent."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shot 1 contains small labels and a watermark that clutter the view."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Żytkow",
+          "respelling": "zhut kov"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: 'However, later data cast doubt on the find, leaving these hybrids as terrifying cosmic ghosts.'",
+        "Beat 8: 'Now, new telescopes are hunting for proof of what is.'"
+      ],
+      "better_than_last": "This script achieves a more natural and seamless loop transition than ep244.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff",
+  "rejected_at": "2026-10-28T14:27:52+05:30"
+}

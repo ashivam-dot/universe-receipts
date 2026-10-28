@@ -1,0 +1,162 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-25T05:13:26+05:30",
+      "check": {
+        "duration": 57.75,
+        "words": 123,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Historical statement sets up the premise adequately but lacks urgency.",
+        "clarity": "Logical chronological progression that is easy to follow.",
+        "payoff": "The thermal recoil explanation nicely resolves the navigation anomaly.",
+        "visuals": "Historic imagery fits well, though the plaque drawing contains anatomical nudity.",
+        "loop": "The final sentence ends abruptly and does not flow into beat one."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "nudity in the plaque illustration poses platform moderation risk"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: 'Now drifting toward Aldebaran, it opened the outer solar system back when...'",
+        "Beat 1: '...no human-made object had ever crossed the asteroid belt or reached Jupiter.'"
+      ],
+      "better_than_last": "Explains a specific technical mystery with a clear scientific resolution.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T14:06:12+05:30",
+      "check": {
+        "duration": 54.42,
+        "words": 115,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The opening statement is informative but lacks urgency or high tension.",
+        "clarity": "The narrative progresses logically and explains the mystery simply.",
+        "payoff": "The thermal explanation resolves the mystery reasonably well.",
+        "visuals": "Historic imagery fits, though some frames show incorrect hardware or policy risks.",
+        "loop": "The phrasing connecting beat 8 into beat 1 is syntactically clunky."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "nudity"
+        },
+        {
+          "beat": 7,
+          "problem": "the wrong object or mission"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: \"Until Pioneer 10, no human craft had crossed the asteroid belt or reached Jupiter.\"",
+        "Beat 8: \"Now drifting toward Aldebaran, it ventured where\""
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T14:24:08+05:30",
+      "check": {
+        "duration": 54.42,
+        "words": 109,
+        "integrated_lufs": -14.3,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "A solid historical hook, though slightly less gripping than recent mysteries.",
+        "clarity": "The chronological journey from launch to interstellar space is very easy to follow.",
+        "payoff": "The resolution of the Pioneer Anomaly provides a satisfying explanation to a famous mystery.",
+        "visuals": "High-quality historical imagery, though the iconic plaque in beat 4 contains line-art nudity.",
+        "loop": "The transition between 'ventured where' and 'Until' is grammatically incomplete."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "contains line-art nudity of human figures"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Change to 'Now drifting toward Aldebaran, it is a reminder that'",
+        "Beat 1: Change to 'until Pioneer 10, no craft had crossed the asteroid belt or reached Jupiter.'"
+      ],
+      "better_than_last": "It offers a much clearer chronological narrative compared to the technical jargon used in the machine instinct episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: loop",
+  "rejected_at": "2026-10-28T14:24:08+05:30"
+}

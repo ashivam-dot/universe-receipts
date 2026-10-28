@@ -1,0 +1,103 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-28T14:36:08+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 127,
+        "integrated_lufs": -14.4,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Philadelphia scale provides immediate context.",
+        "clarity": "Phrasing 'black hole' is scientifically misleading for a pit.",
+        "payoff": "Recent radar data provides a satisfying conclusion.",
+        "visuals": "NASA documents are cluttered and text-heavy.",
+        "loop": "Repetition of the scale fact creates a perfect loop."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "Frame is a text-heavy document slide."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 3: Change 'black hole' to 'dark pit'."
+      ],
+      "better_than_last": "Focuses on confirmed discoveries rather than debunking historical myths.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-28T14:43:35+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 127,
+        "integrated_lufs": -14.4,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Art Institute of Chicago (CC0)",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Relatable city scale comparison effectively captures attention immediately.",
+        "clarity": "Logical sequence from 2009 discovery to 2024 radar data is easy to follow.",
+        "payoff": "The inclusion of specific 2024 findings provides a timely, satisfying conclusion.",
+        "visuals": "Historical Earth painting in beat 5 clashes with the space science theme.",
+        "loop": "Phrasing allows the final sentence to merge perfectly with the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows a historical Earth landscape painting instead of lunar or space-based visuals"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Integrates very recent 2024 research findings to make the content feel more urgent.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}
