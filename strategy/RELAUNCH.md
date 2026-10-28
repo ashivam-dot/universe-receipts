@@ -24,13 +24,14 @@ originality update demotes exactly this mass-produced pattern.
 - **Volume:** one Short a day (`auto.DAILY_CAP`), aiming for 10 made (`auto.INVENTORY_TARGET`), with no
   last-resort Gemma reviews (`auto.LAST_RESORT_BELOW = 0`).
 - **Older Shorts:** finished Shorts without `format: v2` are shelved (`auto.episodes`): never scheduled, never
-  counted as ready. The 8 already scheduled on YouTube go out as planned through 5 Nov.
+  counted as ready. The owner started the test early: the 8 old-format Shorts scheduled on YouTube for 29 Oct -
+  5 Nov are private with no release date (not deleted; `hold.json` "withdrawn" keeps the video id).
 - **Compute:** this repository is public, so GitHub's runner is free; when Modal's credit can't make the Shorts
   wanted, the run says so (`status.json` `starved`) and the backup workflow makes them (`.github/backup_gate.py`).
 
 ## The test
 
-10 v2 Shorts at one a day once Buffer's pause ends (6 Nov 06:00 UTC, `auto.BUFFER_PAUSED_UNTIL`). Compare each
+10 v2 Shorts at one a day, through Buffer once its pause ends (29 Oct 19:00 UTC, `auto.BUFFER_PAUSED_UNTIL`). Compare each
 one's 24-hour views and Shorts-feed share with the post-drop baseline (47-286 views at 24 h, Shorts feed under
 half of views). A clear win is a median over 500 at 24 h or the feed share back over 80%; then raise the pace
 one step at a time as `auto.slots_per_day` allows. No clear change after 10 means the cut isn't about the format:

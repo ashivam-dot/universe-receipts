@@ -944,10 +944,10 @@ def _scores(e: dict) -> int:
     return sum(int(x) for x in re.findall(r"\d", match.group(1))) if match else 0
 
 
-# Owner, 2026-10-28: the Shorts due until then are uploaded straight to YouTube as scheduled videos (publish.json
-# "direct": true, no Buffer post), one a day, while the new original format is built (strategy/RELAUNCH.md). Until
-# then no run puts anything in Buffer, or it would book the same slots again.
-BUFFER_PAUSED_UNTIL = datetime(2026, 11, 6, 6, 0, tzinfo=timezone.utc)
+# Owner, 2026-10-28: the old format's last Shorts were uploaded straight to YouTube, then the owner started the v2
+# test early (strategy/RELAUNCH.md). Buffer's monthly API allowance is spent until 29 Oct 18:20 UTC; after that, v2
+# Shorts go through Buffer as before.
+BUFFER_PAUSED_UNTIL = datetime(2026, 10, 29, 19, 0, tzinfo=timezone.utc)
 # YouTube's Shorts feed cut the channel's reach on 24 Oct, most likely for templated, mass-produced uploads (its
 # 1 Oct originality update): one Short a day, each made with more care, until the relaunch test reads out.
 DAILY_CAP: int | None = 1
