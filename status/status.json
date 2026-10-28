@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-28T11:52:44+05:30",
+  "updated_at": "2026-10-28T12:15:21+05:30",
   "day": 27,
-  "result": "ok",
+  "result": "failed",
   "run": {
     "host": "github-actions",
-    "id": "40640685619",
-    "number": "116",
+    "id": "40645633302",
+    "number": "117",
     "trigger": "workflow_dispatch",
-    "started_at": "2026-10-28T11:24:44+05:30",
-    "started_at_utc": "2026-10-28T05:54:44+00:00",
-    "seconds": 1680
+    "started_at": "2026-10-28T12:14:39+05:30",
+    "started_at_utc": "2026-10-28T06:44:39+00:00",
+    "seconds": 42
   },
   "stages": [
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.4
+      "seconds": 0.1
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.1
+      "seconds": 2.0
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -40,22 +40,33 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 2.7
+      "seconds": 1.1
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 4.9
+      "seconds": 2.9
     },
     {
-      "name": "make ep237",
-      "ok": true,
-      "detail": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed: rejected (low scores: visuals)",
-      "seconds": 1658.1
+      "name": "make ep238",
+      "ok": false,
+      "detail": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'",
+      "seconds": 15.5
+    },
+    {
+      "name": "make ep239",
+      "ok": false,
+      "detail": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
+      "error": "FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'",
+      "seconds": 30.3
     }
   ],
-  "errors": [],
+  "errors": [
+    "make ep238: FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'",
+    "make ep239: FileNotFoundError: [Errno 2] No such file or directory: 'ffmpeg'"
+  ],
   "owner_action": [],
   "notes": [
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
@@ -77,14 +88,7 @@
   },
   "queue": [],
   "waiting": [],
-  "made": [
-    {
-      "id": "ep237",
-      "outcome": "rejected",
-      "topic": "4581 Asclepius (1989): a 300-meter asteroid missed Earth by just six hours, and we didn't see it until it had already passed",
-      "reason": "low scores: visuals"
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
   "published": [],
@@ -92,23 +96,16 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 5,
-    "by_model": {
-      "gemini-3.7-flash": 1,
-      "gemini-3.6-flash": 2,
-      "gemini-3.5-flash-lite": 1,
-      "gemini-3.8-flash": 1
-    },
-    "out_of_quota": [
-      "gemini-3.7-flash"
-    ]
+    "calls": 0,
+    "by_model": {},
+    "out_of_quota": []
   },
   "renders": {
     "modal": 0,
-    "runner": 2
+    "runner": 0
   },
   "daily_done": "2026-10-27",
-  "minutes_this_month": 29.992662780083332,
+  "minutes_this_month": 32.69420139308333,
   "minutes_budget": 20000,
   "modal_cost": {
     "metered": 28.09,
@@ -119,10 +116,10 @@
     "cloud": 0,
     "runner": 6,
     "runner_minutes": 120,
-    "modal_credit_left": -0.07
+    "modal_credit_left": -0.09
   },
   "starved": 0,
-  "made_here": 1,
+  "made_here": 2,
   "open_topics": 51,
   "parked_topics": 48
 }

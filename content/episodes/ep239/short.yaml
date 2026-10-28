@@ -1,6 +1,7 @@
 id: ep239
 title: The Dwarf Planet Shaped Like an Egg
 series: Space Got Weird
+format: v2
 description: Deep in the Kuiper Belt, dwarf planet Haumea spins so fast that centrifugal force stretched it into an egg shape
   with its own ring system.
 sources:
@@ -23,8 +24,25 @@ tags:
 - ring system
 - solar system
 voice:
-  voice: af_heart
-  speed: 1.05
+  engine: gemini
+  voice: Sadaltager
+  direction: 'Read the transcript below aloud as a science host telling one friend something amazing: conversational and quick,
+    about 160 words a minute, with real energy on the surprising parts and no long pauses. Never sound like an announcer or
+    a trailer. Speak only the transcript.'
+  max_seconds: 54.0
+captions:
+  font: DM Serif Display
+  font_file: DMSerifDisplay-Regular.ttf
+  size: 84
+  outline: 5
+  words_per_line: 5
+  uppercase: false
+  karaoke: false
+  y: 0.7
+  primary: '#FFFFFF'
+  accent: '#FFD8A0'
+  highlight: '#FFFFFF'
+  max_width: 0.78
 beats:
 - text: Deep beyond Neptune, a giant frozen world is stretched into an egg.
   emphasis:
