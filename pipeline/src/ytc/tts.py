@@ -8,6 +8,7 @@ import io
 import json
 import logging
 import os
+import re
 import time
 import unicodedata
 from dataclasses import dataclass
@@ -26,6 +27,7 @@ SPEECH_FLOOR = 0.01  # fraction of a clip's peak; quieter samples at its ends co
 EDGE_KEEP = 0.05
 _PUNCTUATION = set(".,!?;:\u2026\u2014\u2013-\"'()[]\u201c\u201d\u2018\u2019")
 _pipelines: dict[str, object] = {}
+_KOKORO_OVERRIDE = re.compile(r"\[([^\]]+)\]\(/[^)]*/\)")
 
 GEMINI_API = "https://generativelanguage.googleapis.com/v1beta/models"
 # Newest first; each has its own free daily quota.
@@ -189,6 +191,11 @@ def _gemini_take(text: str, voice: Voice, models: list[str] | None = None) -> tu
     raise RuntimeError(f"no Gemini TTS model read the script: {'; '.join(errors)}")
 
 
+def plain(text: str) -> str:
+    """A line without Kokoro's pronunciation markup ("[Io](/ˈaɪoʊ/)" is "Io"), which Gemini would read out."""
+    return _KOKORO_OVERRIDE.sub(r"\1", text)
+
+
 def _letters(text: str) -> str:
     """A text's letters, vowel signs and digits: what a transcript and the script can be matched on."""
     return "".join(ch for ch in unicodedata.normalize("NFC", text).lower() if unicodedata.category(ch)[0] in "LMN")
@@ -261,8 +268,9 @@ def speech_report(coverage: list[float]) -> dict:
 def _gemini(spec: ShortSpec, out_dir: Path) -> Narration:
     """The best of up to TAKES readings. The chosen take is kept (take.wav) and used again while the script and
     voice stay the same, so re-rendering the pictures doesn't change the performance."""
-    script = "\n".join(beat.text for beat in spec.beats)
-    tokens = [(text, index) for index, beat in enumerate(spec.beats) for text in beat.text.split()]
+    lines = [plain(beat.text) for beat in spec.beats]
+    script = "\n".join(lines)
+    tokens = [(text, index) for index, line in enumerate(lines) for text in line.split()]
     language = WHISPER_LANGUAGE.get(spec.voice.lang_code, "en")
     out_dir.mkdir(parents=True, exist_ok=True)
     wav_path, take_path, take_json = out_dir / "narration.wav", out_dir / "take.wav", out_dir / "take.json"

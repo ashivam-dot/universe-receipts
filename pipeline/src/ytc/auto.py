@@ -43,7 +43,8 @@ ET = ZoneInfo("America/New_York")
 DAY_ZERO = date(2026, 10, 1)
 # Two weeks at 3 a day, so the channel keeps publishing through two weeks without any language model. Shorts
 # made further ahead would miss what the newest analytics teach.
-INVENTORY_TARGET = 42
+# At one a day (DAILY_CAP), the relaunch's 10 test Shorts (strategy/RELAUNCH.md); was 42, two weeks at 3 a day.
+INVENTORY_TARGET = 10
 BATCH = 4
 # After Gemini's free quotas reset (00:05 Pacific: 12:35 IST in summer time, 13:35 in winter), so the routine's
 # learnings and new topics come before production uses the day's quota; the first run after is 17:05 IST.
@@ -57,9 +58,9 @@ MODAL_PER_SHORT = 0.12
 MODAL_RESERVE = 2.0 if MODAL_CREDIT >= 10 else 0.0
 # Set in Modal's containers: this run is cloud.studio_run, which starts workers but makes no Short itself.
 ON_MODAL = bool(os.environ.get("YTC_ON_MODAL"))
-# GitHub's free plan gives private repositories 2,000 Actions minutes a month. The reserve keeps the runs that
-# only sync, collect and publish (about 2 minutes each) going to the end of the month.
-MONTH_MINUTES = 2000
+# The repository is public, so GitHub's standard runners are free with no monthly cap; this only paces making
+# Shorts there over the month. The reserve keeps the runs that only sync, collect and publish going.
+MONTH_MINUTES = 20000
 MINUTES_RESERVE = 250
 # About what one Short made on the runner takes: research, image picks, and reviews waiting on the language model
 # (3 to 5 minutes a prompt through Cursor), and three renders of about 3 minutes each (39 and 49 on 2026-09-26).
@@ -74,7 +75,8 @@ LANES = 3
 CURSOR_BELOW = 9
 # Below this many ready (about a day of posting), production goes on without Gemini's Flash models or Cursor, and
 # Gemma 4 31B reviews the Shorts they can't (studio.LAST_RESORT): a Short judged by Gemma beats posting nothing.
-LAST_RESORT_BELOW = 3
+# Off for the relaunch, which starts with none ready on purpose and is judged on care, not volume.
+LAST_RESORT_BELOW = 0
 # A post Buffer couldn't publish goes back in the queue this many times; after that it's left for the owner.
 RETRIES = 2
 # How far ahead of its slot a post is first checked (preflight_posts); every run until it goes out checks it again.
@@ -144,6 +146,8 @@ class Run:
         self.spawned: list[dict] = []
         self.started_here = 0
         self.capacity: dict | None = None
+        # Shorts wanted that neither Modal's credit nor this runner had room for (.github/backup_gate.py).
+        self.starved = 0
         self.worker_calls: list[dict] = []
         self.quota_until: datetime | None = None
         self.published: list[dict] = []
@@ -197,7 +201,10 @@ def _owner_action_for(run: Run, err: Exception) -> None:
 
 
 def episodes() -> list[dict]:
-    """Every episode folder with what stage it's at."""
+    """Every episode folder with what stage it's at. A finished Short in an older format than studio.FORMAT is
+    shelved: never scheduled, and not counted as ready."""
+    from .studio import FORMAT
+
     out = []
     for folder in sorted(EPISODES.glob("ep[0-9][0-9][0-9]")):
         record, held, topic = _json(folder / "publish.json"), _json(folder / "hold.json"), _json(folder / "topic.json")
@@ -206,7 +213,7 @@ def episodes() -> list[dict]:
         if record:
             state = "live" if record["status"] == "sent" else "error" if record["status"] == "error" else "scheduled"
         elif held:
-            state = "waiting"
+            state = "waiting" if spec.get("format", "") == FORMAT else "shelved"
         elif remote:
             state = "remote"
         elif topic:
@@ -870,6 +877,7 @@ def produce(run: Run, count: int) -> None:
     """Start up to `count` Shorts: Modal workers while this month's credit lasts, then on this runner."""
     room = run.capacity = capacity()
     jobs = _jobs(min(count, room["cloud"] + room["runner"]))
+    run.starved = count - len(jobs)
     if len(jobs) < count:
         run.notes.append(f"room for {len(jobs)} of the {count} Shorts wanted: Modal's credit covers {room['cloud']}, "
                          f"this run's share of the Actions minutes {room['runner']}")
@@ -1879,6 +1887,7 @@ def write_status(run: Run, result: str) -> dict:
         "modal_cost": _modal_cost(),
         "modal_credit": MODAL_CREDIT,
         "capacity": run.capacity,
+        "starved": run.starved,
         "made_here": run.started_here,
         "open_topics": sum(1 for t in calendar_topics() if not t["status"]),
         "parked_topics": sum(1 for t in calendar_topics() if t["status"] == "parked"),

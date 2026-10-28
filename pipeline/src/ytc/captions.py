@@ -188,6 +188,12 @@ def write_ass(
         next_start = chunks[ci + 1][0].start if ci + 1 < len(chunks) else total
         chunk_end = min(next_start, chunk[-1].end + 1.0, total)
         scale = min(100, int(100 * max_width / width(chunk)))
+        if not style.karaoke:
+            parts = [f"{{\\c{accent}}}{_display(w.text, style.uppercase)}{{\\c{primary}}}"
+                     if _key(w.text) in emphasis.get(w.beat, set()) else _display(w.text, style.uppercase) for w in chunk]
+            tags = f"\\an5\\pos({x},{y})\\fscx{scale}\\fscy{scale}\\fad(60,0)"
+            events.append(f"Dialogue: 0,{_ass_time(chunk[0].start)},{_ass_time(chunk_end)},Cap,,0,0,0,,{{{tags}}}{' '.join(parts)}")
+            continue
         for wi, word in enumerate(chunk):
             end = chunk[wi + 1].start if wi + 1 < len(chunk) else chunk_end
             parts = []

@@ -129,6 +129,10 @@ Visual ideas:
 {visuals}
 
 Write the episode:
+- Voice: a host thinking out loud with one viewer, not a narrator captioning pictures. Talk to "you"; use
+  "I" at most twice, for the host's own reaction or reasoning ("Here's the part I can't get past."). At least one
+  beat explains why the fact matters or what it means, in plain words of your own and only from the claims:
+  a comparison with something the viewer knows, or the "so what". No beat may only describe what is on screen.
 - hooks: three candidate first lines in different styles, each 12 words or fewer, opening inside the story
   on its most surprising true fact. Use the strongest as beat 1 and name its style in hook_style.
 - beats: 6 to 9 beats and 105 to 135 spoken words in total, one or two short sentences each. Follow the

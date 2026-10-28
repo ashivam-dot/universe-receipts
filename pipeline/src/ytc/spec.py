@@ -102,6 +102,8 @@ class CaptionStyle(_Model):
     outline: int = 9
     words_per_line: int = 3
     uppercase: bool = True
+    # Word by word, the spoken word lit and each line popping in. Off: a phrase at a time, like a subtitle.
+    karaoke: bool = True
     y: float = 0.60
     # The on-screen hook's font; Anton has no Devanagari, so Hindi Reels name one that does.
     hook_font: str = "Anton"
@@ -115,6 +117,8 @@ class ShortSpec(_Model):
     id: str
     title: str
     series: str | None = None
+    # The channel's format this Short was made in (studio.FORMAT); empty for the first one.
+    format: str = ""
     description: str = ""
     # A few words on screen over the first beat, a teaser that adds to the spoken hook.
     hook_text: str = ""

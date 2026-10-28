@@ -29,7 +29,16 @@ ROOT = Path(__file__).resolve().parents[3]
 EPISODES = ROOT / "content" / "episodes"
 REJECTED = ROOT / "content" / "rejected"
 IST = ZoneInfo("Asia/Kolkata")
-VOICE = {"voice": "af_heart", "speed": 1.05}
+# The relaunch format (strategy/RELAUNCH.md): the channel's own host voice instead of Kokoro's stock af_heart,
+# which thousands of faceless channels share, and subtitles instead of word-pop karaoke captions.
+FORMAT = "v2"
+VOICE = {"engine": "gemini", "voice": "Sadaltager",
+         "direction": "Read the transcript below aloud as a thoughtful science host talking with one curious friend: "
+                      "relaxed and conversational, genuinely amazed by the surprising parts, with a short natural "
+                      "pause before each one. Never sound like an announcer or a trailer. Speak only the transcript."}
+CAPTIONS = {"font": "DM Serif Display", "font_file": "DMSerifDisplay-Regular.ttf", "size": 84, "outline": 5,
+            "words_per_line": 5, "uppercase": False, "karaoke": False, "y": 0.70, "primary": "#FFFFFF",
+            "accent": "#FFD8A0", "highlight": "#FFFFFF", "max_width": 0.78}
 GATE = ["hook", "clarity", "payoff", "visuals", "loop"]
 PASS_SCORE = 4
 FIX_ROUNDS = 2
@@ -117,11 +126,13 @@ def spec_from(script: dict, visuals: list[dict], research: dict, episode_id: str
         "id": episode_id,
         "title": script["title"],
         "series": research["series"],
+        "format": FORMAT,
         "description": script["description"],
         "sources": list(dict.fromkeys(by_label[l] for l in labels if l in by_label)),
         "hashtags": script["hashtags"],
         "tags": script["tags"],
         "voice": VOICE,
+        "captions": CAPTIONS,
         "beats": beats,
     }
     if script.get("hook_text"):
