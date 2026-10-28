@@ -200,7 +200,9 @@ def fit(audio: np.ndarray, max_seconds: float | None) -> np.ndarray:
     if not max_seconds or seconds <= max_seconds:
         return audio
     tempo = min(seconds / max_seconds, MAX_TEMPO)
-    out = subprocess.run(["ffmpeg", "-v", "error", "-f", "f32le", "-ar", str(SAMPLE_RATE), "-ac", "1", "-i", "pipe:0",
+    from . import ff
+
+    out = subprocess.run([ff.exe(), "-v", "error", "-f", "f32le", "-ar", str(SAMPLE_RATE), "-ac", "1", "-i", "pipe:0",
                           "-filter:a", f"atempo={tempo:.4f}", "-f", "f32le", "pipe:1"],
                          input=audio.astype(np.float32).tobytes(), capture_output=True, check=True).stdout
     return np.frombuffer(out, dtype=np.float32).copy()
