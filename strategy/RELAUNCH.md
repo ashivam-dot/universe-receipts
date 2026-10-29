@@ -13,6 +13,15 @@ all-caps sans, yellow and cyan highlights), evergreen fact narration, and 3-4 up
 Atlas's custom 3D visuals didn't protect it, so the pictures alone are not the trigger. YouTube's 2026 Shorts
 originality update demotes exactly this mass-produced pattern.
 
+**Correction, 29 Oct (public stats of all the studio's channels, `Desktop/YouTube/tarun-channels-2026-10-29/`):**
+Days of Odd, made by the same studio kit with the same Kokoro voice and captions, was *not* cut: median ~1,100
+views a Short before 24 Oct and ~1,050 after, at 24-34 s and 2 a day. So the voice and captions are not the
+trigger. What the cut channels share is volume: Universe 3.3 a day and Atlas 2.4 before the cut; Days of Odd 1.9
+and Orbitwire 1 were not cut. Length alone doesn't separate them (Atlas ~38 s was cut, Orbitwire ~55 s wasn't),
+but Days of Odd's ~30 s is the best-performing shape on this kit, so v2 now aims for it (`writer.MIN_WORDS`/
+`MAX_WORDS` 70-90, `check.DURATION` 22-38 s). The first 7 v2 Shorts (ep245-ep253) were made at ~54 s; later ones
+are ~30 s, which gives a length comparison inside the test.
+
 ## What changes (studio.FORMAT = "v2")
 
 - **Voice:** the channel's own host voice, Gemini TTS `Sadaltager` with a conversational host direction

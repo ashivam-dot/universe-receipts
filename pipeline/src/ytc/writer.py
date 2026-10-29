@@ -35,6 +35,10 @@ STRUCTURES = {
 }
 # Two scripts sharing this share of their three-word phrases read as the same script with the nouns swapped.
 SAME_SCRIPT = 0.25
+# About 30 s read: Days of Odd, made by the same studio, holds ~1,000 views a Short at 24-34 s through the 24 Oct
+# cut that took Universe's 52 s Shorts to under 300 (public stats, 2026-10-29). Was 6-9 beats, 105-135 words.
+MIN_BEATS, MAX_BEATS = 5, 8
+MIN_WORDS, MAX_WORDS = 70, 90
 # A hook whose first this-many words match a recent hook's opens on a template.
 SAME_OPENING = 4
 RECENT = 40
@@ -135,7 +139,7 @@ Write the episode:
   a comparison with something the viewer knows, or the "so what". No beat may only describe what is on screen.
 - hooks: three candidate first lines in different styles, each 12 words or fewer, opening inside the story
   on its most surprising true fact. Use the strongest as beat 1 and name its style in hook_style.
-- beats: 6 to 9 beats and 105 to 135 spoken words in total, one or two short sentences each. Follow the
+- beats: {min_beats} to {max_beats} beats and {min_words} to {max_words} spoken words in total (about 30 seconds read), one or two short sentences each. Follow the
   structure above, and end with a last beat that loops back to beat 1. The twist is the claim a curious viewer is least likely to know already; for a famous subject, build
   the Short around its least-known true detail instead of retelling the familiar story in order.
 - The loop: the last beat is a complete, grammatical sentence on its own that echoes beat 1's image or question,
@@ -327,13 +331,13 @@ def problems(script: dict, research: dict) -> list[str]:
     found = []
     beats = script.get("beats", [])
     total = sum(word_count(b["text"]) for b in beats)
-    if not 6 <= len(beats) <= 9:
-        found.append(f"Use 6 to 9 beats (you have {len(beats)}).")
-    if not 105 <= total <= 135:
+    if not MIN_BEATS <= len(beats) <= MAX_BEATS:
+        found.append(f"Use {MIN_BEATS} to {MAX_BEATS} beats (you have {len(beats)}).")
+    if not MIN_WORDS <= total <= MAX_WORDS:
         per_beat = ", ".join(f"beat {n}: {word_count(b['text'])}" for n, b in enumerate(beats, start=1))
-        change = f"add at least {105 - total}" if total < 105 else f"cut at least {total - 135}"
-        found.append(f"Use 105 to 135 spoken words in total (you have {total}): {change} words, aiming for about "
-                     f"120, by lengthening or trimming the middle beats rather than the hook. Words now: {per_beat}.")
+        change = f"add at least {MIN_WORDS - total}" if total < MIN_WORDS else f"cut at least {total - MAX_WORDS}"
+        found.append(f"Use {MIN_WORDS} to {MAX_WORDS} spoken words in total (you have {total}): {change} words, aiming for "
+                     f"about {(MIN_WORDS + MAX_WORDS) // 2}, by lengthening or trimming the middle beats rather than the hook. Words now: {per_beat}.")
     if beats:
         hook = spoken(beats[0]["text"])
         if word_count(hook) > 12:
@@ -403,6 +407,7 @@ def write_script(research: dict, episode_id: str, feedback: list[str] | None = N
         claims=_claims_listing(research),
         disputed="\n".join(f"- {d}" for d in research.get("disputed", [])) or "- none",
         visuals="\n".join(f"- {v['subject']}: {'; '.join(v['queries'])}" for v in research.get("visuals", [])),
+        min_beats=MIN_BEATS, max_beats=MAX_BEATS, min_words=MIN_WORDS, max_words=MAX_WORDS,
     )
     if feedback and draft:
         prompt += (

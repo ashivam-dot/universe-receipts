@@ -46,6 +46,15 @@ def test_a_new_spec_carries_the_format_voice_and_subtitles():
     assert not spec.captions.karaoke and not spec.captions.uppercase
 
 
+def test_shorts_are_about_thirty_seconds():
+    from ytc import check, writer
+
+    assert (writer.MIN_WORDS, writer.MAX_WORDS) == (70, 90) and check.DURATION == (22, 38)
+    beats = [{"text": " ".join(["word"] * 20), "claims": [1], "emphasis": []} for _ in range(6)]
+    assert any("70 to 90 spoken words" in p for p in writer.problems({"beats": beats}, {"claims": []}))
+    assert studio.VOICE["max_seconds"] <= check.DURATION[1] - 2
+
+
 def test_gemini_never_reads_kokoro_markup():
     assert tts.plain("The moon [Io](/ˈaɪoʊ/) erupts.") == "The moon Io erupts."
 

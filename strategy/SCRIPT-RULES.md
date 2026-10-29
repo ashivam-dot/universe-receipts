@@ -20,7 +20,8 @@ Folder: `content/episodes/<id>/` (ids are `ep001`, `ep002`, ...).
 
 ## Script rules
 
-- **Length:** 105–135 spoken words (about 40–50 seconds), 6–9 beats, one or two short sentences per beat.
+- **Length:** 70–90 spoken words (about 30 seconds), 5–8 beats, one or two short sentences per beat
+  (`writer.MIN_WORDS`/`MAX_WORDS`; since 2026-10-29, after Days of Odd's 24–34 s Shorts held through the 24 Oct cut).
 - **Hook (beat 1):** a curiosity-gap statement of 12 words or fewer that is literally true and concrete: it
   opens a question the rest of the Short answers ("An oxygen tank exploded 200,000 miles from Earth."; "There is
   a star that seems to be made partly of rare metals."). No "Did you know", no greeting, no channel name, no

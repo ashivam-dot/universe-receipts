@@ -11,6 +11,8 @@ from pathlib import Path
 
 from . import ff
 
+# Seconds a finished Short may run (writer.MIN_WORDS/MAX_WORDS read at about 30 s); was 35-58.
+DURATION = (22, 38)
 _LUFS = re.compile(r"I:\s+(-?[\d.]+) LUFS")
 _PEAK = re.compile(r"Peak:\s+(-?[\d.]+) dBFS")
 # Kokoro's pronunciation override, [Formosus](/fɔɹmˈOsəs/), is spoken and captioned as the bracketed word.
@@ -133,8 +135,8 @@ def _ordinal(numeral: re.Match) -> str:
 def _warnings(duration: float, integrated: float | None, true_peak: float | None, beats: list[dict]) -> list[str]:
     """The quality gate's measurable rules (PLAYBOOK.md step 6), plus beats that fell back to a placeholder."""
     found = []
-    if not 35 <= duration <= 58:
-        found.append(f"duration {duration} s is outside 35-58 s")
+    if not DURATION[0] <= duration <= DURATION[1]:
+        found.append(f"duration {duration} s is outside {DURATION[0]}-{DURATION[1]} s")
     if integrated is None or abs(integrated + 14) > 1:
         found.append(f"loudness {integrated} LUFS is outside -14 +/- 1")
     if true_peak is None or true_peak > -1:

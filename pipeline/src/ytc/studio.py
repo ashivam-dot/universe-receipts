@@ -36,8 +36,8 @@ VOICE = {"engine": "gemini", "voice": "Sadaltager",
          "direction": "Read the transcript below aloud as a science host telling one friend something amazing: "
                       "conversational and quick, about 160 words a minute, with real energy on the surprising parts "
                       "and no long pauses. Never sound like an announcer or a trailer. Speak only the transcript.",
-         # A 109-word script read in 79 s on the first try (ep237); Shorts end at 58 s, with the lead-in and pauses.
-         "max_seconds": 54.0}
+         # A 109-word script read in 79 s on the first try (ep237); Shorts end at check.DURATION's 38 s.
+         "max_seconds": 35.0}
 CAPTIONS = {"font": "DM Serif Display", "font_file": "DMSerifDisplay-Regular.ttf", "size": 84, "outline": 5,
             "words_per_line": 5, "uppercase": False, "karaoke": False, "y": 0.70, "primary": "#FFFFFF",
             "accent": "#FFD8A0", "highlight": "#FFFFFF", "max_width": 0.78}
@@ -84,7 +84,7 @@ Also:
   a correctly spoken name, not a skipped short word), give the beat, the word exactly as written in the
   beat, and a respelling in plain lowercase words that a text-to-speech voice would read correctly
   (Formosus: "for moe sus").
-- rewrite: if hook, clarity, payoff, or loop is under 4, or the duration is outside 35-58 s, up to 4 concrete
+- rewrite: if hook, clarity, payoff, or loop is under 4, or the duration is outside 22-38 s, up to 4 concrete
   changes (which beat, what to say instead), using only facts already in the script. Otherwise empty.
 - better_than_last: one sentence on what this Short does better than the recent ones listed, or "" if nothing.
 
@@ -417,9 +417,12 @@ def produce(topic: str, series: str, episode_id: str | None = None, *, at: str |
 
         story = ("hook", "clarity", "payoff", "loop")
         rewrite = verdict["rewrite"] or [f"{k}: {verdict['notes'][k]}" for k in story if verdict["scores"][k] < PASS_SCORE]
-        if any(verdict["scores"][k] < PASS_SCORE for k in story) or not 35 <= result["duration"] <= 58:
-            if not 35 <= result["duration"] <= 58:
-                rewrite.append(f"The render ran {result['duration']} s; it must be 35-58 s.")
+        from .check import DURATION
+
+        low, high = DURATION
+        if any(verdict["scores"][k] < PASS_SCORE for k in story) or not low <= result["duration"] <= high:
+            if not low <= result["duration"] <= high:
+                rewrite.append(f"The render ran {result['duration']} s; it must be {low}-{high} s.")
             old_script, script = script, writer.write_script(research, episode_id, feedback=rewrite, draft=script)
             # Beats the rewrite left alone keep their pictures, unless the reviewer flagged them.
             kept = pick.unchanged(old_script, visuals, script, skip={f["beat"] for f in verdict["frames"]})

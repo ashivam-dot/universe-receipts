@@ -120,7 +120,7 @@ Every Short should beat the recent ones. For every new episode check:
   into the first). Record the scores in `research.md`. Anything under 4 gets rewritten or re-rendered.
   If today's episodes score lower than yesterday's best, find out why before publishing.
 - `research.md` has a claims table with 2+ independent sources per claim, and the script says nothing beyond it.
-- `uv run --no-sync ytc check <mp4>`: duration 35–58 s, integrated loudness -14 ±1 LUFS, true peak -1 dB or below,
+- `uv run --no-sync ytc check <mp4>`: duration 22–38 s, integrated loudness -14 ±1 LUFS, true peak -1 dB or below,
   and an empty `warnings` list (it flags those limits and any beat that fell back to a gradient).
 - The check's `speech.differences` lists where a speech recognizer heard something other than the script.
   For each one, run `uv run --no-sync ytc phonemes "<the sentence>"` to see how the narrator says it. Fix a
