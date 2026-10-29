@@ -1,40 +1,34 @@
 {
-  "updated_at": "2026-10-29T17:38:26+05:30",
+  "updated_at": "2026-10-29T20:08:43+05:30",
   "day": 28,
   "result": "degraded",
   "run": {
     "host": "github-actions",
-    "id": "40866853368",
-    "number": "124",
-    "trigger": "workflow_dispatch",
-    "started_at": "2026-10-29T17:08:32+05:30",
-    "started_at_utc": "2026-10-29T11:38:32+00:00",
-    "seconds": 1793
+    "id": "40891537740",
+    "number": "125",
+    "trigger": "schedule",
+    "started_at": "2026-10-29T19:57:26+05:30",
+    "started_at_utc": "2026-10-29T14:27:26+00:00",
+    "seconds": 677
   },
   "stages": [
-    {
-      "name": "deploy",
-      "ok": true,
-      "detail": "",
-      "seconds": 3.3
-    },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.5
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.6
+      "seconds": 2.4
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.5
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -52,57 +46,13 @@
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.8
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "106 subscribers",
-      "seconds": 18.4
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Updated review insights for ep165, ep185, and ep208 to target mid-video retention pacing and hook phrasing.",
-      "seconds": 318.5
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.1
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "\"The Planet Made of Diamond\" (BCzhtNdHFlA) has 46 views after 37 hours: YouTube reports no restriction: public, processed, not for kids, not age-restricted, no blocked countries; \"The City-Killer Hiding in the Sun\" (5bfuZgx-CS4) has 0 views after 41 hours: it is private; \"The Galaxy With a Missing H",
-      "seconds": 0.2
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 33.3
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "6 added",
-      "seconds": 95.8
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-028.md",
-      "seconds": 1.5
+      "seconds": 2.7
     },
     {
       "name": "make ep254",
-      "ok": false,
-      "detail": "CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 1123.4
+      "ok": true,
+      "detail": "CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour: ready",
+      "seconds": 191.5
     },
     {
       "name": "make ep255",
@@ -110,41 +60,75 @@
       "detail": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
       "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
       "quota": true,
-      "seconds": 1308.2
+      "seconds": 362.6
+    },
+    {
+      "name": "make ep256",
+      "ok": true,
+      "detail": "Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of \"seared steak,\" \"hot metal,\" and \"welding fumes\": rejected (research: only 0 claims have two different sites)",
+      "seconds": 446.0
+    },
+    {
+      "name": "make ep257",
+      "ok": false,
+      "detail": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth",
+      "error": "RuntimeError: ep257: every take said things that aren't in the script",
+      "seconds": 457.3
     }
   ],
   "errors": [
-    "make ep254: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-    "make ep255: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today"
+    "make ep255: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+    "make ep257: RuntimeError: ep257: every take said things that aren't in the script"
   ],
-  "owner_action": [
-    "\"The City-Killer Hiding in the Sun\" (https://youtube.com/shorts/5bfuZgx-CS4) is held back: it is private. Check it in Studio.",
-    "\"The Galaxy With a Missing Heart\" (https://youtube.com/shorts/Ql418EoNwCQ) is held back: it is private. Check it in Studio.",
-    "\"The Scrap-Metal Probe That Conquered Venus\" (https://youtube.com/shorts/VWs9pa7NFJo) is held back: it is private. Check it in Studio.",
-    "\"The Galaxy-Sized Cosmic Ghost\" (https://youtube.com/shorts/UrEN-tyt2DY) is held back: it is private. Check it in Studio.",
-    "\"The Missing Hyphen That Wasn't a Hyphen\" (https://youtube.com/shorts/3FU0QDuIAAQ) is held back: it is private. Check it in Studio.",
-    "\"The Star Escaping Our Galaxy at 4 Million MPH\" (https://youtube.com/shorts/TKHYK3-F_QI) is held back: it is private. Check it in Studio.",
-    "\"The Lonely Reality of the Asteroid Belt\" (https://youtube.com/shorts/sPUubWIORv4) is held back: it is private. Check it in Studio.",
-    "\"The Coldest Place in the Natural Universe\" (https://youtube.com/shorts/n8iv0-XfRnY) is held back: it is private. Check it in Studio."
-  ],
+  "owner_action": [],
   "notes": [
+    "Buffer is paused until Oct 30 00:30 IST: the Shorts due until then are scheduled on YouTube directly",
     "Gemini is out of free quota or overloaded; the rest waits for the next run",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 0,
+    "total": 1,
     "in_buffer": 0,
-    "waiting": 0,
+    "waiting": 1,
     "target": 14,
     "making": [
-      "ep254",
-      "ep255"
+      "ep255",
+      "ep257"
     ],
     "remote": []
   },
   "queue": [],
-  "waiting": [],
-  "made": [],
+  "waiting": [
+    {
+      "id": "ep254",
+      "title": "A Star ESCAPING the Milky Way",
+      "series": "Scale Breaker",
+      "score": 22
+    }
+  ],
+  "made": [
+    {
+      "id": "ep254",
+      "outcome": "ready",
+      "topic": "CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour",
+      "title": "A Star ESCAPING the Milky Way",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793284261/universereceipts/ep254-fd8c7094.mp4",
+      "renders": 3
+    },
+    {
+      "id": "ep256",
+      "outcome": "rejected",
+      "topic": "Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of \"seared steak,\" \"hot metal,\" and \"welding fumes\"",
+      "reason": "research: only 0 claims have two different sites"
+    }
+  ],
   "spawned": [],
   "in_cloud": [],
   "published": [],
@@ -152,12 +136,12 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 26,
+    "calls": 13,
     "by_model": {
-      "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 16,
-      "gemini-3.5-flash-lite": 4,
-      "gemini-3.8-flash-tts": 5
+      "gemini-3.5-flash-lite": 6,
+      "gemini-3.8-flash-tts": 2,
+      "gemini-3.6-flash": 2,
+      "gemini-3.8-flash-lite-tts": 3
     },
     "out_of_quota": [
       "gemini-3-flash-preview",
@@ -171,13 +155,13 @@
   },
   "renders": {
     "modal": 0,
-    "runner": 6
+    "runner": 2
   },
   "daily_done": "2026-10-29",
-  "minutes_this_month": 241.89012221321667,
+  "minutes_this_month": 254.278925964,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.32,
+    "metered": 28.33,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -185,10 +169,10 @@
     "cloud": 0,
     "runner": 6,
     "runner_minutes": 120,
-    "modal_credit_left": -0.27
+    "modal_credit_left": -0.32
   },
   "starved": 0,
-  "made_here": 2,
-  "open_topics": 57,
+  "made_here": 4,
+  "open_topics": 55,
   "parked_topics": 51
 }
