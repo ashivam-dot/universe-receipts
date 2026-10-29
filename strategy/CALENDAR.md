@@ -94,7 +94,7 @@ unexplained, not alien.
 | Oct 29 | STS-95 (1998): John Glenn went back to space at 77, 36 years after his first orbit — parked (ep218) | Mission Files |
 | Oct 31 | 2015 TB145 (2015): a skull-shaped asteroid flew past Earth on Halloween — parked (ep241) | Near Misses |
 | Nov 2 | Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day — making (ep251) | Mission Files |
-| Nov 3 | Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002 | Mission Files |
+| Nov 3 | Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002 — making (ep253) | Mission Files |
 | Nov 9 | Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos | Space Myths, Busted |
 | Nov 14 | Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on | Near Misses |
 | Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away | Space Got Weird |
