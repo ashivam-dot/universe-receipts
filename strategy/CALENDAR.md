@@ -52,7 +52,7 @@ unexplained, not alien.
 | 2026-10-25 | 2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days — done (ep249) | Space Got Weird | The Moon is currently trending with over 27,000 views following recent news about Earth's temporary 'mini-moon' events. |
 | 2026-10-25 | Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside — done (ep250) | Scale Breaker | Interest in the Moon is high on Wikipedia following NASA's recent updates on accelerating lander development for 2028. |
 | 2026-10-29 | CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour — done (ep254) | Scale Breaker | NASA's citizen science highlights this week brought renewed attention to the project that discovered this galaxy-escaping object. |
-| 2026-10-29 | Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo — making (ep255) | Space Got Weird | This specific visual phenomenon was featured as the NASA Astronomy Picture of the Day on October 29. |
+| 2026-10-29 | Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo — parked (ep255) | Space Got Weird | This specific visual phenomenon was featured as the NASA Astronomy Picture of the Day on October 29. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -246,7 +246,7 @@ unexplained, not alien.
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
 - Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — parked (ep239)
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose
-- Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice
+- Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — making (ep259)
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night
 - Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls
 
@@ -309,4 +309,4 @@ unexplained, not alien.
 - Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — parked (ep238)
 - Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of "seared steak," "hot metal," and "welding fumes" — dropped (ep256)
 - Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight
-- Rings of Saturn (1610): Galileo first described the planet as having "ears" because his telescope wasn't clear enough to reveal the rings
+- Rings of Saturn (1610): Galileo first described the planet as having "ears" because his telescope wasn't clear enough to reveal the rings — making (ep258)

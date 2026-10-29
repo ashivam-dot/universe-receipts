@@ -1,34 +1,28 @@
 {
-  "updated_at": "2026-10-29T23:16:59+05:30",
-  "day": 28,
-  "result": "ok",
+  "updated_at": "2026-10-30T00:44:52+05:30",
+  "day": 29,
+  "result": "failed",
   "run": {
-    "host": "modal",
-    "id": "ta-01M64BNEDBD8GE2YNVEQ74YF5R",
-    "number": null,
-    "trigger": "schedule",
-    "started_at": "2026-10-29T23:05:12+05:30",
-    "started_at_utc": "2026-10-29T17:35:12+00:00",
-    "seconds": 707
+    "host": "github-actions",
+    "id": "40936861303",
+    "number": "126",
+    "trigger": "workflow_dispatch",
+    "started_at": "2026-10-30T00:35:57+05:30",
+    "started_at_utc": "2026-10-29T19:05:57+00:00",
+    "seconds": 535
   },
   "stages": [
     {
-      "name": "deploy",
-      "ok": true,
-      "detail": "",
-      "seconds": 2.7
-    },
-    {
       "name": "sync",
       "ok": true,
-      "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.2
+      "detail": "76 posts",
+      "seconds": 5.7
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.6
+      "seconds": 2.7
     },
     {
       "name": "languages",
@@ -45,83 +39,158 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep244 at 24 h: behind the channel's earlier Shorts at this age: 51 views against a median of 729 (0.1x); learnings: Reviewed ep165 and ep208; updated strategy to prioritize immediate mechanical explanations over historical detours to fix mid-video audience drop-off.",
-      "seconds": 684.7
+      "detail": "no checkpoint due",
+      "seconds": 2.1
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 3.5
+      "seconds": 3.0
+    },
+    {
+      "name": "buffer channel",
+      "ok": true,
+      "detail": "connected",
+      "seconds": 0.1
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 4.1
+    },
+    {
+      "name": "schedule ep254",
+      "ok": true,
+      "detail": "2026-10-29T19:00:00-04:00",
+      "seconds": 1.0
+    },
+    {
+      "name": "make ep255",
+      "ok": true,
+      "detail": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo: rejected (low scores: visuals)",
+      "seconds": 225.0
+    },
+    {
+      "name": "make ep257",
+      "ok": false,
+      "detail": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth",
+      "error": "RuntimeError: ep257: every take said things that aren't in the script",
+      "seconds": 256.1
+    },
+    {
+      "name": "make ep258",
+      "ok": false,
+      "detail": "Rings of Saturn (1610): Galileo first described the planet as having \"ears\" because his telescope wasn't clear enough to reveal the rings",
+      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "seconds": 462.9
+    },
+    {
+      "name": "make ep259",
+      "ok": false,
+      "detail": "Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice",
+      "error": "RuntimeError: no Gemini TTS model read the script: gemini-3.8-flash-tts: HTTP 429 GenerateRequestsPerDayPerProjectPerModel-FreeTier=10",
+      "seconds": 271.9
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.2
     }
   ],
-  "errors": [],
+  "errors": [
+    "make ep257: RuntimeError: ep257: every take said things that aren't in the script",
+    "make ep258: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+    "make ep259: RuntimeError: no Gemini TTS model read the script: gemini-3.8-flash-tts: HTTP 429 GenerateRequestsPerDayPerProjectPerModel-FreeTier=10"
+  ],
   "owner_action": [],
   "notes": [
-    "Buffer is paused until Oct 30 00:30 IST: the Shorts due until then are scheduled on YouTube directly",
-    "room for 0 of the 4 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
-    "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
+    "only 1 Shorts made and unposted; scheduling 1 a day",
+    "Gemini is out of free quota or overloaded; the rest waits for the next run"
   ],
   "inventory": {
     "total": 1,
-    "in_buffer": 0,
-    "waiting": 1,
+    "in_buffer": 1,
+    "waiting": 0,
     "target": 14,
     "making": [
-      "ep255",
-      "ep257"
+      "ep257",
+      "ep258",
+      "ep259"
     ],
     "remote": []
   },
-  "queue": [],
-  "waiting": [
+  "queue": [
     {
       "id": "ep254",
       "title": "A Star ESCAPING the Milky Way",
-      "series": "Scale Breaker",
-      "score": 22
+      "due_at": "2026-10-29T19:00:00-04:00"
     }
   ],
-  "made": [],
+  "waiting": [],
+  "made": [
+    {
+      "id": "ep255",
+      "outcome": "rejected",
+      "topic": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
+      "reason": "low scores: visuals"
+    }
+  ],
   "spawned": [],
   "in_cloud": [],
-  "published": [],
+  "published": [
+    {
+      "id": "ep254",
+      "title": "A Star ESCAPING the Milky Way",
+      "due_at": "2026-10-29T19:00:00-04:00"
+    }
+  ],
   "live": 76,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 2,
+    "calls": 15,
     "by_model": {
+      "gemini-3.8-flash-tts": 2,
+      "gemini-3.8-flash": 1,
       "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 1
+      "gemini-3.8-flash-lite-tts": 4,
+      "gemini-3-flash-preview": 1,
+      "gemini-3.5-flash-lite": 6
     },
     "out_of_quota": [
+      "gemini-3-flash-preview",
       "gemini-3.5-flash",
       "gemini-3.6-flash",
       "gemini-3.7-flash",
-      "gemini-3.8-flash"
+      "gemini-3.8-flash",
+      "gemini-flash-latest",
+      "ovh:Qwen3.5-397B-A17B"
     ]
   },
   "renders": {
     "modal": 0,
-    "runner": 0
+    "runner": 2
   },
   "daily_done": "2026-10-29",
-  "minutes_this_month": 254.0,
+  "minutes_this_month": 264.91900884995,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.34,
+    "metered": 28.35,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 0,
-    "runner_minutes": 0,
+    "runner": 6,
+    "runner_minutes": 120,
     "modal_credit_left": -0.34
   },
-  "starved": 4,
-  "made_here": 0,
-  "open_topics": 55,
-  "parked_topics": 51
+  "starved": 0,
+  "made_here": 4,
+  "open_topics": 53,
+  "parked_topics": 52
 }

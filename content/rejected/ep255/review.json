@@ -122,7 +122,72 @@
       "better_than_last": "This episode utilizes primary historical sketches more effectively to ground the scientific narrative.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-30T00:40:16+05:30",
+      "check": {
+        "duration": 33.97,
+        "words": 91,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'hid' heard as 'hit' after 'most toxic planet'",
+          "'mikhail lomonosov' heard as 'mikhailomonosov' after 'the solar edge'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The 'hidden halo' on a 'toxic planet' is a strong, curiosity-driven opening.",
+        "clarity": "The script explains a complex astronomical discovery with very logical, easy-to-follow steps.",
+        "payoff": "Ending on the fact that this was the first proof of another atmosphere provides a great 'receipt'.",
+        "visuals": "The diagram in beat 6 is explicitly for Earth, which is misleading in a video about Venus.",
+        "loop": "The verbal transition from the end of beat 9 back into beat 1 is perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The visual is an atmospheric diagram explicitly labeled 'Earth' while the narration is about Venus."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "hid",
+          "respelling": "hid"
+        },
+        {
+          "beat": 5,
+          "word": "Lomonosov",
+          "respelling": "low moe no soff"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode achieves a perfect 5 for its loop, making the replay much smoother than the recent Milky Way or Laika shorts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-10-30T00:40:16+05:30"
 }

@@ -1,0 +1,203 @@
+id: ep259
+title: The Strange Mystery of Planet GJ 1214 b
+series: Space Got Weird
+format: v3
+description: Discover how the James Webb Space Telescope uncovered the scorching truth behind the mysterious exoplanet GJ
+  1214 b.
+sources:
+- https://en.wikipedia.org/wiki/GJ_1214_b
+- https://www.space.com/james-webb-space-telescope-mini-neptune-exoplanet
+- https://www.bbc.co.uk/news/science-environment-17117030
+- https://news.arizona.edu/news/spectra-carbon-dioxide-world-astronomers-unlock-atmospheric-secrets-new-class-planet
+- https://www.sciencealert.com/jwst-takes-our-closest-look-yet-at-a-steamy-and-mysterious-mini-neptune
+- https://zendaruniverse.com/updates/steamy-super-earth-jwst-confirms-water-vapor-on-gliese-1214-b/
+- http://www.eso.org/public/news/eso0950/
+hashtags:
+- '#space'
+- '#exoplanets'
+- '#jwst'
+tags:
+- exoplanet
+- GJ 1214 b
+- JWST
+- astronomy
+- space
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: An ocean world turned out to be a super-Venus.
+  emphasis:
+  - super-Venus
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Exoplanet_GJ_1214_b_and_Its_Star_%28Illustration%29_%282021-054-01FMJA3A8205K9X4M9QXJK5JX9%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Exoplanet GJ 1214 b and Its Star (Illustration) (2021-054-01FMJA3A8205K9X4M9QXJK5JX9).png
+      credit: 'ARTWORK: NASA, ESA, CSA, Dani Player (STScI)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Exoplanet_GJ_1214_b_and_Its_Star_(Illustration)_(2021-054-01FMJA3A8205K9X4M9QXJK5JX9).png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.35
+    focus_y: 0.5
+- text: The MEarth Project found exoplanet GJ 1214 b orbiting a red dwarf.
+  emphasis:
+  - MEarth Project
+  - red dwarf
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/AU_MIc_M-dwarf_artist%27s_conception.jpg/1280px-AU_MIc_M-dwarf_artist%27s_conception.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AU MIc M-dwarf artist's conception.jpg
+      credit: 'NASA''s Goddard Space Flight Center. Chris Smith (USRA): Lead Producer'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AU_MIc_M-dwarf_artist%27s_conception.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: December 2009
+      small: MEarth Project
+- text: It sits about forty light-years away in Ophiuchus.
+  emphasis:
+  - forty light-years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Ophiuchus_%28Annotated%29_%28ophiuchus-ann%29.jpg/3840px-Ophiuchus_%28Annotated%29_%28ophiuchus-ann%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ophiuchus (Annotated) (ophiuchus-ann).jpg
+      credit: E. Slawik/NOIRLab/NSF/AURA/M. Zamani
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Ophiuchus_(Annotated)_(ophiuchus-ann).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.35
+    - 0.65
+    - 0.65
+    card:
+      kind: fact
+      big: 40 light-years
+      small: Distance from Earth
+- text: This mini-Neptune is nearly three times Earth's radius.
+  emphasis:
+  - mini-Neptune
+  - three times
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Hot_Sub-Neptune_Exoplanet_Illustration_%282025-113%29.tiff/lossy-page1-3840px-Hot_Sub-Neptune_Exoplanet_Illustration_%282025-113%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hot Sub-Neptune Exoplanet Illustration (2025-113).tiff
+      credit: Illustration NASA, ESA, CSA, Dani Player (STScI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hot_Sub-Neptune_Exoplanet_Illustration_(2025-113).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 2.7 times
+      small: Radius of Earth
+- text: For over a decade, thick clouds hid its true nature.
+  emphasis:
+  - thick clouds
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Hubble_2009_close-up.jpg/3840px-Hubble_2009_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble 2009 close-up.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_2009_close-up.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Then the James Webb Space Telescope measured massive temperature swings.
+  emphasis:
+  - James Webb Space Telescope
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Artist_concept_of_JWST_%2850489833002_107cb9e661_o%29.jpg/1920px-Artist_concept_of_JWST_%2850489833002_107cb9e661_o%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist concept of JWST (50489833002 107cb9e661 o).jpg
+      credit: Adriana Manrique Gutierrez, NASA Animator
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist_concept_of_JWST_(50489833002_107cb9e661_o).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 535°F
+      small: Dayside temperature
+- text: Dayside heat reached five hundred thirty-five degrees Fahrenheit.
+  emphasis:
+  - five hundred thirty-five
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 535°F
+      small: Measured by JWST MIRI
+    motion: zoom_in
+- text: Nightside readings dropped to three hundred twenty-six degrees.
+  emphasis:
+  - three hundred twenty-six
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 326°F
+      small: Nightside temperature
+    motion: zoom_in
+- text: That metal-rich atmosphere proved it was never an ocean world.
+  emphasis:
+  - never an ocean world
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.35
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: HAZE HIDES A SUPER-VENUS
