@@ -1,0 +1,213 @@
+id: ep255
+title: The Secret Halo of Venus
+series: Space Got Weird
+format: v3
+description: Discover how a rare celestial alignment revealed the toxic atmosphere of Venus through a stunning ring of fire.
+sources:
+- https://annex.exploratorium.edu/venus/question4.html
+- https://www.cambridge.org/core/journals/proceedings-of-the-international-astronomical-union/article/mikhail-lomonosov-and-the-discovery-of-the-atmosphere-of-venus-during-the-1761-transit/DB3469287EF11031C59499390B271609
+- https://en.wikipedia.org/wiki/Phases_of_Venus
+- http://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html
+hashtags:
+- '#space'
+- '#venus'
+- '#astronomy'
+tags:
+- venus
+- transit of venus
+- astronomy
+- mikhail lomonosov
+- atmosphere
+- space facts
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+  say:
+    code: kohd
+    Lomonosov: low mon o sof
+beats:
+- text: For centuries, the most toxic planet hid a secret halo.
+  emphasis:
+  - secret halo
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_%28171_Angstrom_Close_Up%29.jpg/1280px-SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_%28171_Angstrom_Close_Up%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: SDO's Ultra-high Definition View of 2012 Venus Transit (171 Angstrom Close Up).jpg
+      credit: NASA/SDO, AIA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_(171_Angstrom_Close_Up).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.48
+    focus_y: 0.28
+- text: It only appears when Venus passes directly across the Sun.
+  emphasis:
+  - across the Sun
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PSM_V06_D230_Orbits_of_venus_and_the_earth.jpg/1280px-PSM_V06_D230_Orbits_of_venus_and_the_earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PSM V06 D230 Orbits of venus and the earth.jpg
+      credit: Unknown authorUnknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PSM_V06_D230_Orbits_of_venus_and_the_earth.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Observers first spotted this hair-thin ring of light in 1761.
+  emphasis:
+  - ring of light
+  visual:
+    source: url
+    url: https://iiif.wellcomecollection.org/image/L0069634/full/!1920,1920/0/default.jpg
+    credit:
+      source: Wellcome Collection
+      title: Astronomy explained upon Sir Isaac Newton's principles. And made easy to those who have not studied mathematics
+        / To whi
+      credit: Wellcome Collection
+      license: Public domain
+      url: https://wellcomecollection.org/works/q2mqs2qb
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '1761'
+      small: Transit of Venus
+- text: They watched a dark silhouette touch the solar edge.
+  emphasis:
+  - dark silhouette
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/The_Rare_Transit_of_Venus_-_2004_%287296491948%29.jpg/960px-The_Rare_Transit_of_Venus_-_2004_%287296491948%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Rare Transit of Venus - 2004 (7296491948).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Rare_Transit_of_Venus_-_2004_(7296491948).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.23
+    box:
+    - 0.35
+    - 0.08
+    - 0.65
+    - 0.38
+- text: Mikhail Lomonosov realized this fire ring was actually refracted sunlight.
+  emphasis:
+  - refracted sunlight
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/4d/M.V._Lomonosov_by_L.Miropolskiy_after_G.C.Prenner_%281787%2C_RAN%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: M.V. Lomonosov by L.Miropolskiy after G.C.Prenner (1787, RAN).jpg
+      credit: After Georg Caspar Prenner
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:M.V._Lomonosov_by_L.Miropolskiy_after_G.C.Prenner_(1787,_RAN).jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.4
+    focus_y: 0.3
+    box:
+    - 0.28
+    - 0.15
+    - 0.55
+    - 0.45
+- text: The light was bending through a massive, thick atmosphere.
+  emphasis:
+  - thick atmosphere
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e8/Posn_Setting_Sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Posn Setting Sun.jpg
+      credit: Robert P. O'Shea
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Posn_Setting_Sun.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This was our first proof that another world had air.
+  emphasis:
+  - another world
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/11/PIA23791-Venus-NewlyProcessedView-20200608_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA23791-Venus-NewlyProcessedView-20200608 (cropped).jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA23791-Venus-NewlyProcessedView-20200608_(cropped).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: ANOTHER WORLD
+      small: HAS AIR
+- text: This halo proved Venus is a hellscape of acid clouds and crushing pressure.
+  emphasis:
+  - hellscape of acid
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/45/Tall_plumes_of_white_vapor_rise_from_the_rocky_Venusian_surface_in_this_April_19%2C_1977%2C_artist%E2%80%99s_concept_%28venus-blows-off-some-steam%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Tall plumes of white vapor rise from the rocky Venusian surface in this April 19, 1977, artist’s concept (venus-blows-off-some-steam).jpg
+      credit: NASA/Rick Guidice
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Tall_plumes_of_white_vapor_rise_from_the_rocky_Venusian_surface_in_this_April_19,_1977,_artist%E2%80%99s_concept_(venus-blows-off-some-steam).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The solar system's most toxic planet hides a secret halo.
+  emphasis:
+  - toxic planet
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.48
+    focus_y: 0.28
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A HIDDEN HALO

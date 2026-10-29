@@ -1,0 +1,108 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-29T17:26:54+05:30",
+      "check": {
+        "duration": 26.87,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.5,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong use of active verbs like screaming to create immediate intrigue.",
+        "clarity": "Logical flow from discovery to identity and then to scientific theories.",
+        "payoff": "The conclusion is a bit flat and lacks a mind-bending revelation.",
+        "visuals": "Several frames contain distracting text or irrelevant stellar objects.",
+        "loop": "Seamlessly transitions from the dark back to the screaming star."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Diagram specifically labels LAWD 37, a different star than the subject."
+        },
+        {
+          "beat": 8,
+          "problem": "Infographic is text-heavy and illegible on mobile screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Use a simple animation of a black hole slingshot instead of a text-heavy diagram.",
+        "Beat 9: End with 'and it's never coming back' to heighten the emotional stakes of the exit."
+      ],
+      "better_than_last": "The narrative pacing feels more urgent than ep251, though the visuals are less polished.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-29T17:32:42+05:30",
+      "check": {
+        "duration": 30.07,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The use of a million-mile-per-hour speed creates a high-stakes, compelling reason to keep watching.",
+        "clarity": "The story flows logically from the discovery method to the star's nature and then to the origin theories.",
+        "payoff": "The 'cosmic slingshot' and white dwarf theories provide satisfying explanations for the initial speed hook.",
+        "visuals": "Beat 2 includes a star chart for LAWD 37, which is a different, unrelated star than the one discovered.",
+        "loop": "The loop is logically sound as it identifies the 'relic' from the end as the 'star' at the start."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The graphic is for LAWD 37, which is an unrelated white dwarf; the correct subject is J1249+36."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode features a stronger hook than the last three, utilizing active verbs like 'screaming' to create more immediate engagement.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

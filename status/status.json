@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-29T17:09:47+05:30",
+  "updated_at": "2026-10-29T17:38:26+05:30",
   "day": 28,
-  "result": "ok",
+  "result": "degraded",
   "run": {
-    "host": "modal",
-    "id": "ta-01M63Q290THJEZWTA553JV9QAR",
-    "number": null,
-    "trigger": "schedule",
-    "started_at": "2026-10-29T17:05:13+05:30",
-    "started_at_utc": "2026-10-29T11:35:13+00:00",
-    "seconds": 274
+    "host": "github-actions",
+    "id": "40866853368",
+    "number": "124",
+    "trigger": "workflow_dispatch",
+    "started_at": "2026-10-29T17:08:32+05:30",
+    "started_at_utc": "2026-10-29T11:38:32+00:00",
+    "seconds": 1793
   },
   "stages": [
     {
@@ -40,31 +40,31 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.3
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 2.2
+      "seconds": 1.9
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.3
+      "seconds": 2.8
     },
     {
       "name": "analytics",
       "ok": true,
       "detail": "106 subscribers",
-      "seconds": 14.2
+      "seconds": 18.4
     },
     {
       "name": "learnings",
       "ok": true,
-      "detail": "Promoted the action-vs-abstract metric rule and updated myth-busting citations following reviews of ep185, ep165, and ep208.",
-      "seconds": 124.0
+      "detail": "Updated review insights for ep165, ep185, and ep208 to target mid-video retention pacing and hook phrasing.",
+      "seconds": 318.5
     },
     {
       "name": "breakouts",
@@ -76,28 +76,47 @@
       "name": "stalled Shorts",
       "ok": true,
       "detail": "\"The Planet Made of Diamond\" (BCzhtNdHFlA) has 46 views after 37 hours: YouTube reports no restriction: public, processed, not for kids, not age-restricted, no blocked countries; \"The City-Killer Hiding in the Sun\" (5bfuZgx-CS4) has 0 views after 41 hours: it is private; \"The Galaxy With a Missing H",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "timely topics",
       "ok": true,
       "detail": "2 added",
-      "seconds": 64.2
+      "seconds": 33.3
     },
     {
       "name": "new topics",
       "ok": true,
-      "detail": "4 added",
-      "seconds": 47.3
+      "detail": "6 added",
+      "seconds": 95.8
     },
     {
       "name": "report",
       "ok": true,
       "detail": "day-028.md",
-      "seconds": 1.4
+      "seconds": 1.5
+    },
+    {
+      "name": "make ep254",
+      "ok": false,
+      "detail": "CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour",
+      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "seconds": 1123.4
+    },
+    {
+      "name": "make ep255",
+      "ok": false,
+      "detail": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
+      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "seconds": 1308.2
     }
   ],
-  "errors": [],
+  "errors": [
+    "make ep254: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+    "make ep255: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today"
+  ],
   "owner_action": [
     "\"The City-Killer Hiding in the Sun\" (https://youtube.com/shorts/5bfuZgx-CS4) is held back: it is private. Check it in Studio.",
     "\"The Galaxy With a Missing Heart\" (https://youtube.com/shorts/Ql418EoNwCQ) is held back: it is private. Check it in Studio.",
@@ -109,63 +128,22 @@
     "\"The Coldest Place in the Natural Universe\" (https://youtube.com/shorts/n8iv0-XfRnY) is held back: it is private. Check it in Studio."
   ],
   "notes": [
-    "Buffer is paused until Oct 30 00:30 IST: the Shorts due until then are scheduled on YouTube directly",
-    "room for 0 of the 2 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
+    "Gemini is out of free quota or overloaded; the rest waits for the next run",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 7,
+    "total": 0,
     "in_buffer": 0,
-    "waiting": 7,
-    "target": 10,
-    "making": [],
+    "waiting": 0,
+    "target": 14,
+    "making": [
+      "ep254",
+      "ep255"
+    ],
     "remote": []
   },
   "queue": [],
-  "waiting": [
-    {
-      "id": "ep245",
-      "title": "The Dark Planet Being Eaten Alive",
-      "series": "Space Got Weird",
-      "score": 20
-    },
-    {
-      "id": "ep247",
-      "title": "The Space Telescope That Hunts on Machine Instinct",
-      "series": "Mission Files",
-      "score": 20
-    },
-    {
-      "id": "ep249",
-      "title": "Earth’s Long-Lost Second Moon",
-      "series": "Space Got Weird",
-      "score": 20
-    },
-    {
-      "id": "ep250",
-      "title": "The Massive Tunnels Hidden Beneath the Moon",
-      "series": "Scale Breaker",
-      "score": 25
-    },
-    {
-      "id": "ep251",
-      "title": "The 24-Year Streak of Living Off Earth",
-      "series": "Mission Files",
-      "score": 23
-    },
-    {
-      "id": "ep252",
-      "title": "The Broken Probe That Sailed on Sunlight to Mercury",
-      "series": "Mission Files",
-      "score": 21
-    },
-    {
-      "id": "ep253",
-      "title": "The 45-Year Cover-Up of Space Dog Laika",
-      "series": "Mission Files",
-      "score": 20
-    }
-  ],
+  "waiting": [],
   "made": [],
   "spawned": [],
   "in_cloud": [],
@@ -174,35 +152,43 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 3,
+    "calls": 26,
     "by_model": {
-      "gemini-3-flash-preview": 3
+      "gemini-3.6-flash": 1,
+      "gemini-3-flash-preview": 16,
+      "gemini-3.5-flash-lite": 4,
+      "gemini-3.8-flash-tts": 5
     },
     "out_of_quota": [
+      "gemini-3-flash-preview",
       "gemini-3.5-flash",
-      "gemini-3.6-flash"
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash",
+      "gemini-flash-latest",
+      "ovh:Qwen3.5-397B-A17B"
     ]
   },
   "renders": {
     "modal": 0,
-    "runner": 0
+    "runner": 6
   },
   "daily_done": "2026-10-29",
-  "minutes_this_month": 210.0,
+  "minutes_this_month": 241.89012221321667,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.27,
+    "metered": 28.32,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 0,
-    "runner_minutes": 0,
+    "runner": 6,
+    "runner_minutes": 120,
     "modal_credit_left": -0.27
   },
-  "starved": 2,
-  "made_here": 0,
+  "starved": 0,
+  "made_here": 2,
   "open_topics": 57,
   "parked_topics": 51
 }

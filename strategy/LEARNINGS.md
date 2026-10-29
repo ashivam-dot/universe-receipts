@@ -24,9 +24,8 @@ rules pull in opposite directions keep the better-measured one and move the othe
 also copy it into `strategy/SCRIPT-RULES.md`, then cite the evidence here. (Consolidated 2026-10-25 from 30 rules,
 each promoted on two Shorts; their evidence is kept below.)
 
-- Open with the most surprising true thing about a well-known subject in the first 2 seconds: a contradiction, paradox, myth flip or physical consequence with a specific observed detail, never a passive statement or cosmic trope. Evidence: ep002, ep008, ep045, ep110, ep111, ep133, ep175, ep197, ep201.
-- Open on a belief most viewers already hold, then immediately debunk it: myth-busting generates higher early reach than abstract scale. Evidence: ep047, ep053, ep146, ep159, ep165, ep172, ep185, ep197 (median early reach 1,075.5 views vs 875 for non-myth Shorts).
-- Avoid opening on abstract background metrics or detached setup text; start with immediate high-stakes action to avoid stalling distribution. Evidence: ep079, ep181, ep208, ep221 (median early reach 337.5 views) vs comparable action/myth hooks (ep146, ep165, ep175, ep201: median 1,075.5 views).
+- Open on a belief most viewers already hold, then immediately debunk it (Space Myths, Busted pattern): counterintuitive myth-busting generates higher early reach than abstract scale. Evidence: ep047, ep053, ep146, ep159, ep165, ep172, ep185, ep197 (median early reach 1,129.5 views vs 726 for non-myth Shorts).
+- Open with the most surprising true thing about a well-known subject in the first 2 seconds: a contradiction, paradox, myth flip or physical consequence with a specific observed detail, never a passive statement, cosmic trope or abstract distance. Evidence: ep002, ep008, ep045, ep110, ep111, ep133, ep175, ep197, ep201.
 - Deliver the core payoff within 3 seconds of the hook, and never restate the hook's number or idea in the next beat. Evidence: ep004, ep009, ep105, ep111, ep125, ep133, ep172, ep221.
 - Make every middle beat a new, bigger reveal; keep beats two and three short. Evidence: ep008, ep009, ep032, ep036, ep047, ep084, ep165, ep184, ep188.
 - No catalog designations, discovery dates, researcher biographies, instrument lists or jargon: replace them with one familiar physical comparison. Evidence: ep079, ep111, ep133, ep172, ep181, ep186, ep188, ep195, ep197, ep221.
@@ -39,7 +38,9 @@ each promoted on two Shorts; their evidence is kept below.)
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
 - End on a direct question or challenge to the viewer (e.g., 'Would you keep calm?') to convert high retention into active comments (ep185).
-- Eliminate historical detours or researcher backstories immediately after the hook to sustain mid-video retention (ep165).
+- Deliver mechanical explanations of the hook's premise immediately and eliminate historical detours or researcher backstories to sustain mid-video retention (ep165).
+- Replace abstract metric hooks with tangible human-scale threats in the first 2 seconds to boost distribution (ep181, ep208, ep221).
+- Avoid opening on abstract background metrics or detached setup text; start with immediate high-stakes action (ep181, ep208, ep221).
 - For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic (ep146, ep165).
 - Compress scientific definitions into a single beat under 4 seconds to reach core resolution by the 12-second mark (ep172).
 - One number per beat: never stack figures or dates in consecutive beats (ep125, ep175).
@@ -82,8 +83,8 @@ contradiction.
 | ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.4% | 148% | 2 | – |
 | ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.2% | 115% | 3 | – |
 | ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | – |
-| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.7% | 127% | 0 | Hook: Contradiction audio ('never explode') drove high retention (85.7% avg_viewed) but 'THE VACUUM MYTH' text overlay likely tanked engaged share (46.2% vs 54.2% median). Topic: High-interest myth. Pacing: Narrative focus on Jim LeBlanc held viewers. Loop: Closed statement final beat resulted in zero comments. |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.9% | 120% | 4 | Hook: Myth-bust topic achieved massive early reach (1,495 views). Topic: Search-optimized subject (Pluto). Pacing: Retention collapsed at 50% mark due to historical detours into discovery facts. Visuals: Standard. Loop: Low completion restricted feed distribution. |
+| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.7% | 127% | 0 | Strong myth-busting hook drove elevated early retention at 10% (1.266 vs 1.159 median), but vague opening text reduced engaged share (46.2% vs 54.2% median) and closed conclusion limited comments. |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.9% | 120% | 4 | Search-friendly myth topic achieved strong early reach (1,495 views vs 725.5 median), but mid-video historical tangents caused a severe retention drop at 50%. |
 | ep174 | Mission Files | statement, story | 260 | 52% | 64.5% | 106% | 1 | published while YouTube held the whole channel back; not evidence |
 | ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 51% | 39.8% | 96% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep210 | Mission Files | contradiction, mystery | 149 | 44% | 44.0% | 101% | 0 | published while YouTube held the whole channel back; not evidence |
@@ -211,4 +212,4 @@ contradiction.
 - 2026-10-28: Updated performance entries for recent Shorts, tracking early reach stalls and the negative impact of biographical and historical timeline detours in mid beats.
 - 2026-10-29: Reviewed performance for ep221, ep185, ep165, and ep208; removed the historical milestone hypothesis after ep165 retention dropped during biographical side notes.
 - 2026-10-29: Updated evidence for myths and loops; added three new hypotheses from ep185, ep165, and ep208 performance reviews.
-- 2026-10-29: Promoted the action-vs-abstract metric rule and updated myth-busting citations following reviews of ep185, ep165, and ep208.
+- 2026-10-29: Updated review insights for ep165, ep185, and ep208 to target mid-video retention pacing and hook phrasing.

@@ -1,0 +1,128 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-29T17:24:12+05:30",
+      "check": {
+        "duration": 30.15,
+        "words": 92,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'code' heard as 'coat' after 'a scrambled latin'",
+          "'lomonosov' heard as 'lomoduzov' after 'russian scientist mikhail'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The mention of a 'celestial halo' is a strong, mysterious hook for a space video.",
+        "clarity": "The narrative flows perfectly from Galileo's phases to the discovery of the atmosphere.",
+        "payoff": "Connecting the beautiful visual to the planet's lethal nature provides a satisfying punchline.",
+        "visuals": "Strong use of historical documents and diagrams, though the specific 'halo' is hard to see.",
+        "loop": "The repetition of the 'glowing halo' line creates an effortless, seamless loop."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows a technical map of the transit instead of the 'brilliant fire ring' described in the script"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "code",
+          "respelling": "kohd"
+        },
+        {
+          "beat": 7,
+          "word": "Lomonosov",
+          "respelling": "low mon o sof"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This script manages a more complex historical timeline with greater clarity than the Laika episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-29T17:29:34+05:30",
+      "check": {
+        "duration": 29.86,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong imagery but lacks a compelling 'reason to watch' in the first two seconds.",
+        "clarity": "Narrative flows logically from historical discovery to scientific explanation.",
+        "payoff": "The atmosphere reveal is educational but lacks a surprising twist for enthusiasts.",
+        "visuals": "Historical sketches are excellent; modern diagrams feel slightly dated and low-contrast.",
+        "loop": "Phrasing creates a smooth, continuous cycle back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The technical diagram is abstract and lacks the visual clarity of the historical frames."
+        },
+        {
+          "beat": 8,
+          "problem": "Image is low contrast and difficult to distinguish on small mobile screens."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Lomonosov",
+          "respelling": "lo mo no sof"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: For centuries, the most toxic planet in our solar system hid a secret halo.",
+        "Beat 8: This halo proved Venus is a hellscape of acid clouds and crushing pressure."
+      ],
+      "better_than_last": "This episode utilizes primary historical sketches more effectively to ground the scientific narrative.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -51,8 +51,8 @@ unexplained, not alien.
 | 2026-10-24 | Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up — parked (ep248) | Mission Files | Featured on NASA's Astronomy Picture of the Day with its historic selfie alongside comet 67P. |
 | 2026-10-25 | 2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days — done (ep249) | Space Got Weird | The Moon is currently trending with over 27,000 views following recent news about Earth's temporary 'mini-moon' events. |
 | 2026-10-25 | Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside — done (ep250) | Scale Breaker | Interest in the Moon is high on Wikipedia following NASA's recent updates on accelerating lander development for 2028. |
-| 2026-10-29 | Large Magellanic Cloud (964): a satellite galaxy being cannibalized by the Milky Way that contains star-forming "cauldrons" with gas clumps larger than our solar system | Scale Breaker | New high-resolution James Webb Space Telescope imagery released this week captures turbulent gas structures inside the cloud's N159 region. |
-| 2026-10-29 | Backyard Worlds (2017): a project where ordinary volunteers discovered a "hypervelocity" object fleeing the galaxy that NASA’s advanced algorithms completely missed | Mission Files | NASA is highlighting this project's record-breaking discoveries following their announcement of 19 new citizen science proposals this week. |
+| 2026-10-29 | CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour — making (ep254) | Scale Breaker | NASA's citizen science highlights this week brought renewed attention to the project that discovered this galaxy-escaping object. |
+| 2026-10-29 | Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo — making (ep255) | Space Got Weird | This specific visual phenomenon was featured as the NASA Astronomy Picture of the Day on October 29. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -84,6 +84,7 @@ unexplained, not alien.
 | Dec 07 | Apollo 17 (1972): the final crewed flight to the Moon, whose astronauts snapped the iconic whole-Earth Blue Marble photograph | Mission Files |
 | Dec 7 | Galileo (spacecraft) (1995): dropped a probe directly into Jupiter's atmosphere that survived 1,000-degree heat and crushing pressures before being vaporized | Mission Files |
 | Dec 14 | Mariner 2 (1962): the first successful mission to another planet proved Venus was a 900-degree hellscape, shattering myths of it being a tropical paradise | Mission Files |
+| Dec 24 | Apollo 8 (1968): on Christmas Eve, the first humans to orbit the Moon captured the "Earthrise" photo that forever changed how we see our home | Mission Files |
 | Oct 1 | NASA (1958): at the peak of its Apollo program, an estimated 5% of the entire American workforce contributed to it in some capacity — done (ep002) | Mission Files |
 | Oct 4 | Sputnik 1 (1957): the "Sputnik" most people saw crossing the night sky was really its 85-foot rocket stage; the satellite was barely visible — parked (ep003) | Mission Files |
 | Oct 7 | Luna 3 (1959): its first photos of the Moon's far side were shot on American film the Soviets salvaged from downed US spy balloons — done (ep004) | Mission Files |
@@ -142,6 +143,7 @@ unexplained, not alien.
 - GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye
 - Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died
 - Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe
+- Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth
 
 ### Scale Breaker
 
@@ -181,6 +183,8 @@ unexplained, not alien.
 - Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter
 - Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way
 - CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered
+- Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge
+- Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth
 
 ### Mission Files
 
@@ -244,8 +248,7 @@ unexplained, not alien.
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night
-- Apollo 14 (1971): Alan Shepard brought a six-iron to the Moon and hit a golf ball that traveled for 'miles and miles' in the low gravity
-- Sagittarius B2 (2009): a giant dust cloud at the center of our galaxy contains enough ethyl formate to make the universe smell like raspberries and rum
+- Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls
 
 ### Near Misses
 
@@ -306,5 +309,4 @@ unexplained, not alien.
 - Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — parked (ep238)
 - Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of "seared steak," "hot metal," and "welding fumes"
 - Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight
-- Blue giant (1901): despite blue often representing 'cold' on Earth, blue giant stars are the hottest objects in the sky, reaching over 30,000 degrees
-- Planetary ring (1977): space telescopes proved Saturn isn't the only planet with rings; Jupiter, Uranus, and Neptune all have their own hidden systems
+- Rings of Saturn (1610): Galileo first described the planet as having "ears" because his telescope wasn't clear enough to reveal the rings
