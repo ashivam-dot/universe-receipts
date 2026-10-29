@@ -1,28 +1,34 @@
 {
-  "updated_at": "2026-10-30T02:01:15+05:30",
+  "updated_at": "2026-10-30T05:08:20+05:30",
   "day": 29,
-  "result": "failed",
+  "result": "ok",
   "run": {
-    "host": "github-actions",
-    "id": "40947809584",
-    "number": "127",
+    "host": "modal",
+    "id": "ta-01M6508KS466CMA5VA7X1XYCCR",
+    "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-30T01:49:00+05:30",
-    "started_at_utc": "2026-10-29T20:19:00+00:00",
-    "seconds": 736
+    "started_at": "2026-10-30T05:05:10+05:30",
+    "started_at_utc": "2026-10-29T23:35:10+00:00",
+    "seconds": 191
   },
   "stages": [
     {
+      "name": "deploy",
+      "ok": true,
+      "detail": "",
+      "seconds": 2.4
+    },
+    {
       "name": "sync",
       "ok": true,
-      "detail": "77 posts",
-      "seconds": 1.4
+      "detail": "78 posts",
+      "seconds": 2.4
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 2.2
+      "detail": "added ep254 to 'Scale Breaker'",
+      "seconds": 4.4
     },
     {
       "name": "languages",
@@ -39,14 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 1.6
+      "detail": "ep177 at 72 h: behind the channel's earlier Shorts at this age: 158 views against a median of 1010 (0.2x); learnings: Logged diagnostic reviews for ep165 and ep208, reinforcing hypotheses on immediate mechanical payoffs and eliminating abstract metric hooks.",
+      "seconds": 155.7
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.3
+      "seconds": 3.3
     },
     {
       "name": "buffer channel",
@@ -55,71 +61,32 @@
       "seconds": 0.2
     },
     {
-      "name": "preflight ep254",
+      "name": "preflight ep258",
       "ok": true,
-      "detail": "video downloads whole (13 MB in 2 s)",
-      "seconds": 1.8
+      "detail": "video downloads whole (14 MB in 0 s)",
+      "seconds": 0.3
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.9
-    },
-    {
-      "name": "make ep257",
-      "ok": false,
-      "detail": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth",
-      "error": "RuntimeError: ep257: every take said things that aren't in the script",
-      "seconds": 56.6
-    },
-    {
-      "name": "make ep258",
-      "ok": true,
-      "detail": "Rings of Saturn (1610): Galileo first described the planet as having \"ears\" because his telescope wasn't clear enough to reveal the rings: ready",
-      "seconds": 390.8
-    },
-    {
-      "name": "make ep259",
-      "ok": false,
-      "detail": "Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice",
-      "error": "RuntimeError: ep259: every take said things that aren't in the script",
-      "seconds": 117.2
-    },
-    {
-      "name": "make ep260",
-      "ok": false,
-      "detail": "Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 651.4
+      "seconds": 1.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 4.3
-    },
-    {
-      "name": "schedule ep258",
-      "ok": true,
-      "detail": "2026-10-30T19:00:00-04:00",
-      "seconds": 1.9
+      "seconds": 1.7
     }
   ],
-  "errors": [
-    "make ep257: RuntimeError: ep257: every take said things that aren't in the script",
-    "make ep259: RuntimeError: ep259: every take said things that aren't in the script",
-    "make ep260: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today"
-  ],
+  "errors": [],
   "owner_action": [],
   "notes": [
-    "Gemini is out of free quota or overloaded; the rest waits for the next run",
-    "only 2 Shorts made and unposted; scheduling 1 a day"
+    "room for 0 of the 4 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0"
   ],
   "inventory": {
-    "total": 2,
-    "in_buffer": 2,
+    "total": 1,
+    "in_buffer": 1,
     "waiting": 0,
     "target": 14,
     "making": [
@@ -131,86 +98,46 @@
   },
   "queue": [
     {
-      "id": "ep254",
-      "title": "A Star ESCAPING the Milky Way",
-      "due_at": "2026-10-29T19:00:00-04:00"
-    },
-    {
       "id": "ep258",
       "title": "Why Saturn's Rings VANISHED From Galileo",
       "due_at": "2026-10-30T19:00:00-04:00"
     }
   ],
   "waiting": [],
-  "made": [
-    {
-      "id": "ep258",
-      "outcome": "ready",
-      "topic": "Rings of Saturn (1610): Galileo first described the planet as having \"ears\" because his telescope wasn't clear enough to reveal the rings",
-      "title": "Why Saturn's Rings VANISHED From Galileo",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793305551/universereceipts/ep258-4c5a3aa1.mp4",
-      "renders": 2
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
-  "published": [
-    {
-      "id": "ep258",
-      "title": "Why Saturn's Rings VANISHED From Galileo",
-      "due_at": "2026-10-30T19:00:00-04:00"
-    }
-  ],
-  "live": 76,
+  "published": [],
+  "live": 77,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 15,
+    "calls": 2,
     "by_model": {
-      "gemini-3.8-flash-tts": 3,
-      "gemini-3.8-flash-lite-tts": 5,
-      "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 2,
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 3
+      "gemini-3.8-flash": 2
     },
-    "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest",
-      "ovh:Qwen3.5-397B-A17B"
-    ]
+    "out_of_quota": []
   },
   "renders": {
     "modal": 0,
-    "runner": 3
+    "runner": 0
   },
   "daily_done": "2026-10-29",
-  "minutes_this_month": 278.26382649585,
+  "minutes_this_month": 278.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.39,
+    "metered": 28.38,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 6,
-    "runner_minutes": 120,
-    "modal_credit_left": -0.36
+    "runner": 0,
+    "runner_minutes": 0,
+    "modal_credit_left": -0.38
   },
-  "starved": 0,
-  "made_here": 4,
+  "starved": 4,
+  "made_here": 0,
   "open_topics": 52,
   "parked_topics": 52
 }
