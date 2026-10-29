@@ -29,18 +29,16 @@ ROOT = Path(__file__).resolve().parents[3]
 EPISODES = ROOT / "content" / "episodes"
 REJECTED = ROOT / "content" / "rejected"
 IST = ZoneInfo("Asia/Kolkata")
-# The relaunch format (strategy/RELAUNCH.md): the channel's own host voice instead of Kokoro's stock af_heart,
-# which thousands of faceless channels share, and subtitles instead of word-pop karaoke captions.
-FORMAT = "v2"
-VOICE = {"engine": "gemini", "voice": "Sadaltager",
-         "direction": "Read the transcript below aloud as a science host telling one friend something amazing: "
-                      "conversational and quick, about 160 words a minute, with real energy on the surprising parts "
-                      "and no long pauses. Never sound like an announcer or a trailer. Speak only the transcript.",
-         # A 109-word script read in 79 s on the first try (ep237); Shorts end at check.DURATION's 38 s.
-         "max_seconds": 35.0}
-CAPTIONS = {"font": "DM Serif Display", "font_file": "DMSerifDisplay-Regular.ttf", "size": 84, "outline": 5,
-            "words_per_line": 5, "uppercase": False, "karaoke": False, "y": 0.70, "primary": "#FFFFFF",
-            "accent": "#FFD8A0", "highlight": "#FFFFFF", "max_width": 0.78}
+# The relaunch format (strategy/RELAUNCH.md): Days of Odd's format 2, which brought that channel back from the same
+# Shorts-feed cut on the same pipeline: shorter scripts about famous subjects, its Gemini narrator played 1.05 times
+# as fast with pauses cut to a quarter second, the bold look, a music bed made for each Short, and a bigger hook.
+FORMAT = "v3"
+VOICE = {"engine": "gemini", "voice": "Zubenelgenubi", "language": "en-US", "speed": 1.05, "max_pause": 0.25,
+         "direction": "fast, energetic, conversational American telling a friend a true space story they can hardly "
+                      "believe; punchy and playful, natural rises and falls, never an announcer or documentary voice"}
+# The music bed's mood (bed.MOODS) by series.
+MOODS = {"The Universe Is Terrifying": "mystery", "Scale Breaker": "wonder", "Mission Files": "chase",
+         "Space Got Weird": "wonder", "Near Misses": "chase", "Space Myths, Busted": "chase"}
 GATE = ["hook", "clarity", "payoff", "visuals", "loop"]
 PASS_SCORE = 4
 FIX_ROUNDS = 2
@@ -84,7 +82,7 @@ Also:
   a correctly spoken name, not a skipped short word), give the beat, the word exactly as written in the
   beat, and a respelling in plain lowercase words that a text-to-speech voice would read correctly
   (Formosus: "for moe sus").
-- rewrite: if hook, clarity, payoff, or loop is under 4, or the duration is outside 22-38 s, up to 4 concrete
+- rewrite: if hook, clarity, payoff, or loop is under 4, or the duration is outside 20-40 s, up to 4 concrete
   changes (which beat, what to say instead), using only facts already in the script. Otherwise empty.
 - better_than_last: one sentence on what this Short does better than the recent ones listed, or "" if nothing.
 
@@ -111,7 +109,12 @@ def _clean(visual: dict) -> dict:
     return {k: v for k, v in visual.items() if not k.startswith("_")}
 
 
-def spec_from(script: dict, visuals: list[dict], research: dict, episode_id: str) -> dict:
+def _voice(meta: dict) -> dict:
+    """The channel's voice, with the respellings the reviewer asked for."""
+    return VOICE | ({"say": meta["say"]} if meta.get("say") else {})
+
+
+def spec_from(script: dict, visuals: list[dict], research: dict, episode_id: str, voice: dict = VOICE) -> dict:
     cited = [c for beat in script["beats"] for c in beat.get("claims", [])]
     labels = [s for n in dict.fromkeys(cited) if 1 <= n <= len(research["claims"]) for s in research["claims"][n - 1]["sources"]]
     by_label = {s["label"]: s["url"] for s in research["sources"]}
@@ -133,9 +136,11 @@ def spec_from(script: dict, visuals: list[dict], research: dict, episode_id: str
         "sources": list(dict.fromkeys(by_label[l] for l in labels if l in by_label)),
         "hashtags": script["hashtags"],
         "tags": script["tags"],
-        "voice": VOICE,
-        "captions": CAPTIONS,
+        "voice": voice,
         "beats": beats,
+        "look": "bold",
+        "music": {"path": f"bed:{MOODS.get(research['series'], 'mystery')}", "gain_db": -17.0, "fade_out": 1.0},
+        "captions": {"hook_size": 150},
     }
     if script.get("hook_text"):
         spec["hook_text"] = script["hook_text"]
@@ -275,15 +280,6 @@ def _restore_best(folder: Path) -> None:
     shutil.rmtree(best)
 
 
-def _override(text: str, word: str, respelling: str) -> str:
-    from .tts import phonemes
-
-    if f"[{word}](" in text:
-        return text
-    sounds = phonemes(respelling.lower()).replace(" ", "")
-    return re.sub(rf"(?<![\w\[]){re.escape(word)}(?!\w)", lambda _: f"[{word}](/{sounds}/)", text, count=1)
-
-
 renders: list[str] = []
 # Shorts made side by side (auto.LANES) render and check one at a time: those share the CPU and the voice and
 # speech models.
@@ -374,7 +370,7 @@ def produce(topic: str, series: str, episode_id: str | None = None, *, at: str |
         _write(folder / "visuals.json", visuals)
 
     notes = _read(folder / "review.json") or {"rounds": []}
-    spec_path = _save_spec(folder, spec_from(script, visuals, research, episode_id))
+    spec_path = _save_spec(folder, spec_from(script, visuals, research, episode_id, _voice(meta)))
     video = folder / f"{episode_id}.mp4"
     while True:
         with CPU_LOCK:
@@ -436,11 +432,11 @@ def produce(topic: str, series: str, episode_id: str | None = None, *, at: str |
             for fix in verdict["speech"][:3]:
                 n = fix["beat"]
                 if 1 <= n <= len(script["beats"]):
-                    beat = script["beats"][n - 1]
-                    beat["text"] = _override(beat["text"], fix["word"], fix["respelling"])
+                    meta.setdefault("say", {})[fix["word"]] = fix["respelling"]
+            _write(folder / "topic.json", meta)
         _write(folder / "script.json", script)
         _write(folder / "visuals.json", visuals)
-        spec_path = _save_spec(folder, spec_from(script, visuals, research, episode_id))
+        spec_path = _save_spec(folder, spec_from(script, visuals, research, episode_id, _voice(meta)))
 
     shutil.rmtree(folder / BEST, ignore_errors=True)
     verdict = notes["rounds"][notes.get("kept_round", len(notes["rounds"])) - 1]

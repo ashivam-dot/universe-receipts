@@ -205,7 +205,9 @@ def _commons(query: str, out: Path, used: set) -> Asset:
 def _met(query: str, out: Path, used: set) -> Asset:
     base = "https://collectionapi.metmuseum.org/public/collection/v1"
     terms = _terms(query)
-    ids = _get(f"{base}/search", params={"q": _plain_query(query), "hasImages": "true"}).json().get("objectIDs") or []
+    # The Met retired v1's search on 1 Oct 2026 (410 Gone); v1.1's returns one page of IDs. Objects are still on v1.
+    ids = _get("https://collectionapi.metmuseum.org/public/collection/v1.1/search",
+               params={"hasImages": "true", "q": _plain_query(query), "limit": 30}).json().get("objectIDs") or []
     candidates = []
     for object_id in ids[:30]:
         if ("met", str(object_id)) in used:

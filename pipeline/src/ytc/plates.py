@@ -46,6 +46,17 @@ CARD_MAX_UPSCALE = 1.7
 DETAIL_MIN_HEIGHT = 760
 
 
+# The bold look (ShortSpec.look) fills the screen with a wide or square picture only from this many pixels high.
+FILL_MIN_HEIGHT = 1000
+
+
+def vivid(image: Image.Image) -> Image.Image:
+    """The bold look's grade: each channel's levels stretched and colors a little richer, where grade() mutes
+    and warms them."""
+    image = ImageOps.autocontrast(image.convert("RGB"), cutoff=(0.5, 0.5))
+    return ImageEnhance.Color(image).enhance(1.08)
+
+
 def grade(image: Image.Image) -> Image.Image:
     """Slightly muted and warm, so photographs, engravings, and paintings from different archives sit together."""
     image = ImageEnhance.Color(image.convert("RGB")).enhance(0.9)
@@ -75,6 +86,26 @@ def _crop_to(image: Image.Image, ratio: float, cx: float, cy: float) -> Image.Im
     left = min(max(round(cx * width - cw / 2), 0), width - cw)
     top = min(max(round(cy * height - ch / 2), 0), height - ch)
     return image.crop((left, top, left + cw, top + ch))
+
+
+def fill(image: Image.Image, focus: tuple[float, float], box: list[float]) -> Image.Image | None:
+    """A wide or square picture cropped to fill the screen around its subject (the box, else the focus), or None
+    when the crop would be too soft, would cut the boxed subject, or would leave out most of a wide picture
+    whose subject is the whole of it (no box)."""
+    width, height = image.size
+    ratio = PW / PH
+    crop_height = height if width / height > ratio else round(width / ratio)
+    if crop_height < FILL_MIN_HEIGHT:
+        return None
+    if box:
+        if (box[2] - box[0]) * width > crop_height * ratio * 1.04:
+            return None
+        center = ((box[0] + box[2]) / 2, (box[1] + box[3]) / 2)
+    elif width > height:
+        return None
+    else:
+        center = focus
+    return _crop_to(image.convert("RGB"), ratio, *center).resize((PW, PH), Image.Resampling.LANCZOS)
 
 
 def cover(image: Image.Image, focus: tuple[float, float] = (0.5, 0.5)) -> Image.Image:
@@ -289,11 +320,12 @@ def trim(image: Image.Image) -> Image.Image:
     return image.crop((left, top, right, bottom))
 
 
-def open_image(path: Path) -> Image.Image:
-    """A downloaded picture, upright, without scan margins, and graded."""
+def open_image(path: Path, bold: bool = False) -> Image.Image:
+    """A downloaded picture, upright, without scan margins, and graded (vivid in the bold look)."""
     image = Image.open(path)
     image = ImageOps.exif_transpose(image)
-    return grade(trim(image.convert("RGB")))
+    image = trim(image.convert("RGB"))
+    return vivid(image) if bold else grade(image)
 
 
 def ratio_ok(image: Image.Image) -> bool:

@@ -43,8 +43,8 @@ ET = ZoneInfo("America/New_York")
 DAY_ZERO = date(2026, 10, 1)
 # Two weeks at 3 a day, so the channel keeps publishing through two weeks without any language model. Shorts
 # made further ahead would miss what the newest analytics teach.
-# At one a day (DAILY_CAP), the relaunch's 10 test Shorts (strategy/RELAUNCH.md); was 42, two weeks at 3 a day.
-INVENTORY_TARGET = 10
+# A week at two a day (DAILY_CAP), as Days of Odd keeps; was 42, two weeks at 3 a day.
+INVENTORY_TARGET = 14
 BATCH = 4
 # After Gemini's free quotas reset (00:05 Pacific: 12:35 IST in summer time, 13:35 in winter), so the routine's
 # learnings and new topics come before production uses the day's quota; the first run after is 17:05 IST.
@@ -103,6 +103,12 @@ STATUS_MARK = re.compile(r"\s+—\s+(making|done|dropped|parked)\s+\((ep\d{3})\)
 # Wikipedia readership per topic (choose_topics), read again after DEMAND_DAYS.
 DEMAND = STATUS / "demand.json"
 DEMAND_DAYS = 14
+# Days of Odd's format 2 (2026-10-07): famous subjects only. A backlog topic whose Wikipedia article had at least this
+# many readers in 30 days goes before any that didn't, and a new topic is added only above it. Universe's open
+# backlog had a median of 1,928 on 2026-10-29, with 1 of 20 measured above it.
+MIN_READERS = 15_000
+# While fewer open backlog topics than this are that famous, the daily routine adds up to RESTOCK instead of 4.
+FAMOUS_TARGET, RESTOCK = 14, 8
 # Timely topics (news, what's trending on Wikipedia, follow-ups to a breakout) are made and posted first while
 # this many days old; after that they wait in line with the backlog. Trending and news add at most TREND_PER_DAY a
 # day, and each breakout FOLLOW_UPS.
@@ -404,8 +410,8 @@ def _series_shares() -> dict[str, float] | None:
 
 def choose_topics(count: int, eps: list[dict]) -> list[dict]:
     """Fresh timely topics first, then anniversaries within a week, then the backlog (with timely topics past
-    TIMELY_DAYS), each series getting its share (series_shares) or, before there are numbers, rotating series;
-    within a series its most widely known topic goes first."""
+    TIMELY_DAYS), its famous topics (MIN_READERS) before the rest, each series getting its share (series_shares) or,
+    before there are numbers, rotating series; within a series its most widely known topic goes first."""
     today = _now().date()
     open_topics = [t for t in calendar_topics(today) if _available(t, today)]
     fresh = urgent(open_topics, today)
@@ -427,11 +433,14 @@ def choose_topics(count: int, eps: list[dict]) -> list[dict]:
             window = used[:SHARE_WINDOW]
             return shares.get(t["series"], 0) - (window.count(t["series"]) / len(window) if window else 0)
 
+        def famous(t):
+            return readers.get(t["topic"], 0) >= MIN_READERS
+
         if shares:
-            best = max(backlog, key=lambda t: (t["series"] != last, round(owed(t), 3), staleness(t),
+            best = max(backlog, key=lambda t: (famous(t), t["series"] != last, round(owed(t), 3), staleness(t),
                                                readers.get(t["topic"], 0)))
         else:
-            best = max(backlog, key=lambda t: (staleness(t) if t["series"] != last else -1,
+            best = max(backlog, key=lambda t: (famous(t), staleness(t) if t["series"] != last else -1,
                                                readers.get(t["topic"], 0)))
         chosen.append(best)
         backlog.remove(best)
@@ -470,15 +479,23 @@ def add_topics(run: Run, backlog_count: int = 4) -> list[str]:
     known = [t["topic"] for t in topics] + [e["title"] or "" for e in episodes()]
     today = _now().date()
     series_counts = {s: sum(1 for t in topics if t["kind"] == "backlog" and t["series"] == s and not t["status"]) for s in SERIES}
+    open_backlog = [t for t in topics if t["kind"] == "backlog" and not t["status"]]
+    known_readers = demand(open_backlog)
+    if sum(known_readers.get(t["topic"], 0) >= MIN_READERS for t in open_backlog) < FAMOUS_TARGET:
+        backlog_count = max(backlog_count, RESTOCK)
     prompt = (
         "You find topics for Universe Receipts, a YouTube Shorts channel of true, mind-bending space and astronomy "
         "stories and facts for a US audience (under a minute each, told with NASA/ESO/telescope pictures, every claim "
         "sourced). Series: " + "; ".join(SERIES) + ".\n\n"
-        f"Suggest {backlog_count + 3} new backlog topics and 2 anniversaries dated between "
+        f"Suggest {backlog_count + 6} new backlog topics and 2 anniversaries dated between "
         f"{(today + timedelta(days=21)).strftime('%b %d')} and {(today + timedelta(days=56)).strftime('%b %d')}. Each must be a "
         "true story with a genuinely surprising fact, well documented by reputable sources, with an English "
         "Wikipedia article (give its exact title), and with real NASA, ESO, ESA/Hubble, ESA/Webb, or NOIRLab "
-        "pictures of it likely on Wikimedia Commons. No hoaxes or conspiracy claims presented as true, no "
+        "pictures of it likely on Wikimedia Commons. The subject must be one most Americans already know or "
+        "instantly recognize: the Sun, the Moon, a planet, Pluto, a black hole, a famous star (Betelgeuse, Polaris), "
+        "a famous comet or telescope, the ISS, Apollo, Voyager, a famous astronaut or disaster (Challenger, Apollo "
+        "13). \"Apollo 13's crew survived on a filter made of tape and socks\" is the kind of story; an obscure "
+        "catalogued object or a minor probe is not. No hoaxes or conspiracy claims presented as true, no "
         "gore-centered stories, no living private people, no topics already listed below or close variants. "
         "Favor series with few open topics. Write each topic as a short line naming the story, the year, and the "
         "twist, like: \"Boötes Void (1981): a hole in the universe 330 million light-years wide\". Dates look like "
@@ -493,8 +510,13 @@ def add_topics(run: Run, backlog_count: int = 4) -> list[str]:
     def fresh(item) -> bool:
         return not _repeats(item["topic"], known_words) and bool(_existing([item["wikipedia"]]))
 
+    suggested = [i for i in answer.get("backlog", []) if fresh(i)]
+    readers = demand([{"topic": i["wikipedia"]} for i in suggested])
+    suggested = sorted((i for i in suggested if readers.get(i["wikipedia"], 0) >= MIN_READERS),
+                       key=lambda i: -readers[i["wikipedia"]])
     lines = CALENDAR.read_text(encoding="utf-8").splitlines()
-    for item in [i for i in answer.get("backlog", []) if fresh(i)][:backlog_count]:
+    cache = _json(DEMAND, {})
+    for item in suggested[:backlog_count]:
         heading = f"### {item['series']}"
         if heading not in lines:
             continue
@@ -505,6 +527,10 @@ def add_topics(run: Run, backlog_count: int = 4) -> list[str]:
         lines.insert(end, f"- {item['topic']}")
         known_words.append(_key_words(item["topic"]))
         added.append(f"{item['topic']} ({item['series']})")
+        # choose_topics looks a topic up by its line, which a fresh search could match to another article.
+        if item["wikipedia"] in cache:
+            cache[item["topic"]] = cache[item["wikipedia"]]
+    _write_json(DEMAND, cache)
     for item in [i for i in answer.get("anniversaries", []) if fresh(i) and _next_date(i["date"], today)][:1]:
         header = next(i for i, l in enumerate(lines) if l.startswith("## Anniversaries"))
         end = next(i for i in range(header + 1, len(lines)) if lines[i].startswith("## "))
@@ -948,9 +974,9 @@ def _scores(e: dict) -> int:
 # test early (strategy/RELAUNCH.md). Buffer's monthly API allowance is spent until 29 Oct 18:20 UTC; after that, v2
 # Shorts go through Buffer as before.
 BUFFER_PAUSED_UNTIL = datetime(2026, 10, 29, 19, 0, tzinfo=timezone.utc)
-# YouTube's Shorts feed cut the channel's reach on 24 Oct, most likely for templated, mass-produced uploads (its
-# 1 Oct originality update): one Short a day, each made with more care, until the relaunch test reads out.
-DAILY_CAP: int | None = 1
+# YouTube's Shorts feed cut the channel's reach on 24 Oct, tracking upload volume: the channels posting over 2 a day
+# were cut, Days of Odd at 2 a day on the same pipeline was not. Its format 2 ran at 2 a day, as this does.
+DAILY_CAP: int | None = 2
 
 
 def buffer_paused() -> bool:

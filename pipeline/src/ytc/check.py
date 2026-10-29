@@ -11,8 +11,8 @@ from pathlib import Path
 
 from . import ff
 
-# Seconds a finished Short may run (writer.MIN_WORDS/MAX_WORDS read at about 30 s); was 35-58.
-DURATION = (22, 38)
+# Seconds a finished Short may run (writer.MIN_WORDS/MAX_WORDS read at 22-32 s, Days of Odd's format 2); was 35-58.
+DURATION = (20, 40)
 _LUFS = re.compile(r"I:\s+(-?[\d.]+) LUFS")
 _PEAK = re.compile(r"Peak:\s+(-?[\d.]+) dBFS")
 # Kokoro's pronunciation override, [Formosus](/fɔɹmˈOsəs/), is spoken and captioned as the bracketed word.

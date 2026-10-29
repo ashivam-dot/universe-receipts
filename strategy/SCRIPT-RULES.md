@@ -20,14 +20,15 @@ Folder: `content/episodes/<id>/` (ids are `ep001`, `ep002`, ...).
 
 ## Script rules
 
-- **Length:** 70–90 spoken words (about 30 seconds), 5–8 beats, one or two short sentences per beat
-  (`writer.MIN_WORDS`/`MAX_WORDS`; since 2026-10-29, after Days of Odd's 24–34 s Shorts held through the 24 Oct cut).
-- **Hook (beat 1):** a curiosity-gap statement of 12 words or fewer that is literally true and concrete: it
-  opens a question the rest of the Short answers ("An oxygen tank exploded 200,000 miles from Earth."; "There is
-  a star that seems to be made partly of rare metals."). No "Did you know", no greeting, no channel name, no
-  question the Short can't answer. Open inside the story.
-- **Shape:** hook, then context, 2–3 escalating beats, a twist or payoff, and a last line that loops back to
-  the first. The twist is the fact a curious viewer is least likely to already know. For a famous subject
+- **Length:** 65–95 spoken words (22–32 seconds), 7–12 beats of 14 words or fewer each: one sentence, or two
+  very short ones (`writer.MIN_WORDS`/`MAX_WORDS`/`BEAT_WORDS`; Days of Odd's format 2, since 2026-10-29).
+- **Hook (beat 1):** a plain statement of the most surprising true fact in 10 words or fewer, about something
+  everyone pictures at once ("An oxygen tank exploded 200,000 miles from Earth."). No "Did you know", "Meet",
+  "Back in", greeting, or channel name; no riddle that hides the fact; never a year or a date first.
+- **Talk:** the way you'd tell a friend, with contractions and everyday words. No beat starts with a year or a
+  date, and a Short says at most 2 different years.
+- **Shape:** hook, then a beat that makes it stranger (never background), escalating beats, a twist or payoff
+  in the last 2 or 3, and a last line that loops back to the first. The twist is the fact a curious viewer is least likely to already know. For a famous subject
   (Apollo 13, Voyager, Pluto), build the Short around its least-known true detail rather than retelling the
   familiar story in order: reviewers score a well-told but well-known story 3 on payoff.
 - **Loop:** the last line is a complete sentence on its own that echoes the hook's image or question, so
@@ -159,16 +160,19 @@ sources:
   - https://www.britannica.com/...
 hashtags: ["#space", "#apollo13", "#nasa"]
 tags: [apollo 13, nasa, lunar module, 1970]
-voice: {voice: af_heart, speed: 1.05}
-hook_text: "3 ASTRONAUTS, 1 DYING SHIP"
+voice: {engine: gemini, voice: Zubenelgenubi, language: en-US, speed: 1.05, max_pause: 0.25}
+look: bold
+music: {path: "bed:chase", gain_db: -17, fade_out: 1}
+captions: {hook_size: 150}
+hook_text: "APOLLO 13, 1970"
 beats:
   - text: An oxygen tank exploded 200,000 miles from Earth.
     emphasis: [exploded]
     sfx: whoosh
     visual: {source: nasa, query: Apollo 13 damaged service module, fallbacks: [commons, color], motion: zoom_in}
-  - text: It was April 1970, and Apollo 13 was on its way to the Moon.
-    emphasis: [April 1970]
-    visual: {source: card, card: {kind: dateline, big: April 1970, small: "Apollo 13"}}
+  - text: And the three men inside still had to get home.
+    emphasis: [get home]
+    visual: {source: nasa, query: Apollo 13 crew, fallbacks: [commons, color]}
 ```
 
 `emphasis` words must appear in that beat's text; use 1–2 per beat, single words or short phrases.
@@ -197,4 +201,4 @@ wrong, write it as `[word](/phonemes/)` using that alphabet (`[Oumuamua](/ʔoʊm
 it in `research.md`. Other spellings of a correctly spoken name and skipped short words are normal. It also writes one frame per beat to
 `content/episodes/<id>/work/frames/`. Look at every frame. If an image is wrong, off-topic, low quality,
 or has distracting burned-in text, change that beat's `query` or `source` and re-render; a changed visual
-is fetched again automatically. Aim for 40–50 seconds.
+is fetched again automatically. Aim for 22–32 seconds.

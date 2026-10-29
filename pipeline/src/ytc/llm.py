@@ -113,8 +113,17 @@ calls: list[dict] = []
 _answered = threading.local()
 
 
+def record(call: dict) -> None:
+    """Keep a model call's tokens with the run's others (auto reports them)."""
+    calls.append(call)
+
+
 class OutOfQuota(RuntimeError):
     """Every model in the ladder has used up today's free quota."""
+
+
+class OutOfCredits(OutOfQuota):
+    """The project's prepaid Gemini credits ran out (HTTP 402)."""
 
 
 class Overloaded(RuntimeError):

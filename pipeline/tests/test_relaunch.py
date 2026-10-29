@@ -1,4 +1,4 @@
-"""The relaunch format (strategy/RELAUNCH.md): host voice, subtitles, and older Shorts kept out of the test."""
+"""The relaunch format (strategy/RELAUNCH.md): Days of Odd's format 2, and older Shorts kept out of the test."""
 
 import json
 import os
@@ -6,13 +6,14 @@ import subprocess
 import sys
 from pathlib import Path
 
+import numpy as np
 import pytest
 import yaml
+from PIL import Image
 
-from ytc import auto, captions, studio, tts
-from ytc.spec import CaptionStyle, ShortSpec
+from ytc import auto, bed, check, plates, studio, tts, writer
+from ytc.spec import ShortSpec
 
-FONTS = Path(__file__).resolve().parents[1] / "assets" / "fonts"
 GATE = Path(__file__).resolve().parents[2] / ".github" / "backup_gate.py"
 
 
@@ -28,54 +29,85 @@ def _episode(root: Path, name: str, fmt: str | None) -> None:
 
 def test_older_finished_shorts_are_shelved_not_ready(monkeypatch, tmp_path):
     _episode(tmp_path, "ep001", None)
-    _episode(tmp_path, "ep002", studio.FORMAT)
+    _episode(tmp_path, "ep002", "v2")
+    _episode(tmp_path, "ep003", studio.FORMAT)
     monkeypatch.setattr(auto, "EPISODES", tmp_path)
     states = {e["id"]: e["state"] for e in auto.episodes()}
-    assert states == {"ep001": "shelved", "ep002": "waiting"}
+    assert states == {"ep001": "shelved", "ep002": "shelved", "ep003": "waiting"}
     assert auto.inventory()["total"] == 1
 
 
-def test_a_new_spec_carries_the_format_voice_and_subtitles():
-    research = {"claims": [{"sources": ["A"]}], "sources": [{"label": "A", "url": "https://a"}],
-                "series": "Scale Breaker"}
+def _spec(meta: dict | None = None, series: str = "Mission Files") -> ShortSpec:
+    research = {"claims": [{"sources": ["A"]}], "sources": [{"label": "A", "url": "https://a"}], "series": series}
     script = {"title": "T", "description": "D", "hashtags": ["#space"], "tags": [],
               "beats": [{"text": "One line.", "emphasis": [], "claims": [1]}]}
-    spec = ShortSpec.model_validate(studio.spec_from(script, [{"source": "color"}], research, "ep009"))
+    return ShortSpec.model_validate(studio.spec_from(script, [{"source": "color"}], research, "ep009",
+                                                     studio._voice(meta or {})))
+
+
+def test_a_new_spec_is_days_of_odds_format_2():
+    spec = _spec()
     assert spec.format == studio.FORMAT
-    assert spec.voice.engine == "gemini" and spec.voice.voice != "af_heart"
-    assert not spec.captions.karaoke and not spec.captions.uppercase
+    assert (spec.voice.engine, spec.voice.voice, spec.voice.speed, spec.voice.max_pause) == \
+        ("gemini", "Zubenelgenubi", 1.05, 0.25)
+    assert spec.look == "bold" and spec.music.path == "bed:chase" and spec.music.fade_out == 1.0
+    assert spec.captions.hook_size == 150 and spec.captions.karaoke
+
+
+def test_every_series_has_a_bed_mood():
+    assert set(studio.MOODS) == set(auto.SERIES)
+    assert set(studio.MOODS.values()) <= set(bed.MOODS)
+
+
+def test_a_mispronounced_word_is_respelled_for_the_voice_only():
+    spec = _spec({"say": {"Io": "eye oh"}})
+    assert spec.voice.say == {"Io": "eye oh"} and spec.beats[0].text == "One line."
 
 
 def test_shorts_are_about_thirty_seconds():
-    from ytc import check, writer
+    assert (writer.MIN_WORDS, writer.MAX_WORDS) == (65, 95) and check.DURATION == (20, 40)
+    beats = [{"text": " ".join(["word"] * 12), "claims": [1], "emphasis": []} for _ in range(4)]
+    assert any("65 to 95 spoken words" in p for p in writer.problems({"beats": beats}, {"claims": []}))
 
-    assert (writer.MIN_WORDS, writer.MAX_WORDS) == (70, 90) and check.DURATION == (22, 38)
-    beats = [{"text": " ".join(["word"] * 20), "claims": [1], "emphasis": []} for _ in range(6)]
-    assert any("70 to 90 spoken words" in p for p in writer.problems({"beats": beats}, {"claims": []}))
-    assert studio.VOICE["max_seconds"] <= check.DURATION[1] - 2
+
+def test_the_script_rules_of_format_2():
+    beats = [{"text": "In 1970 an oxygen tank blew up on the way to the Moon.", "claims": [1], "emphasis": []},
+             {"text": " ".join(["word"] * 15) + ".", "claims": [1], "emphasis": []}]
+    found = writer.problems({"beats": beats}, {"claims": []})
+    assert any("The hook (beat 1) must be 10 words or fewer" in p for p in found)
+    assert any("Beat 1 starts with a year or date" in p for p in found)
+    assert any("Beat 2 must be 14 words or fewer" in p for p in found)
 
 
 def test_gemini_never_reads_kokoro_markup():
     assert tts.plain("The moon [Io](/ˈaɪoʊ/) erupts.") == "The moon Io erupts."
 
 
-def test_a_long_take_is_sped_up_to_fit_but_never_rushed():
-    import numpy as np
+def test_the_bold_look_fills_the_screen_only_from_a_sharp_picture():
+    sharp, soft = Image.new("RGB", (2400, 1600), "gray"), Image.new("RGB", (900, 600), "gray")
+    filled = plates.fill(sharp, (0.5, 0.5), [0.4, 0.3, 0.6, 0.7])
+    assert filled is not None and filled.size == (plates.PW, plates.PH)
+    assert plates.fill(soft, (0.5, 0.5), [0.4, 0.3, 0.6, 0.7]) is None
+    assert plates.fill(sharp, (0.5, 0.5), []) is None
 
-    take = np.sin(np.arange(tts.SAMPLE_RATE * 60) / 20).astype(np.float32)
-    assert len(tts.fit(take, 50.0)) / tts.SAMPLE_RATE == pytest.approx(50.0, abs=0.2)
-    assert len(tts.fit(take, 30.0)) / tts.SAMPLE_RATE == pytest.approx(60 / tts.MAX_TEMPO, abs=0.2)
-    assert tts.fit(take, 70.0) is take
+
+def test_a_bed_is_composed_for_each_short(tmp_path):
+    import soundfile as sf
+
+    path = bed.compose("ep009", 12.0, tmp_path / "bed.wav", "wonder")
+    audio, rate = sf.read(path)
+    assert abs(len(audio) / rate - 12.0) < 0.5 and np.abs(audio).max() > 0.01
 
 
-def test_subtitles_show_a_phrase_at_a_time_without_lighting_each_word(tmp_path):
-    words = [tts.Word(t, i * 0.4, i * 0.4 + 0.35, 0) for i, t in enumerate("Saturn would float in a bathtub.".split())]
-    style = CaptionStyle(**studio.CAPTIONS)
-    path = tmp_path / "c.ass"
-    captions.write_ass(words, style, path, 3.0, {0: {"float"}}, FONTS)
-    events = [l for l in path.read_text(encoding="utf-8").splitlines() if l.startswith("Dialogue")]
-    assert len(events) < len(words)
-    assert "Saturn" in events[0] and "SATURN" not in events[0]
+def test_famous_topics_go_first(monkeypatch):
+    topics = [{"topic": t, "series": s, "kind": "backlog", "date": None, "status": None}
+              for t, s in (("Obscure void", "Scale Breaker"), ("Apollo 13 filter", "Mission Files"))]
+    monkeypatch.setattr(auto, "calendar_topics", lambda today=None: topics)
+    monkeypatch.setattr(auto, "_available", lambda t, today: True)
+    monkeypatch.setattr(auto, "demand", lambda ts: {"Obscure void": 2000, "Apollo 13 filter": 90000})
+    monkeypatch.setattr(auto, "_series_shares", lambda: None)
+    assert auto.choose_topics(1, [{"id": "ep001", "series": "Scale Breaker"}])[0]["topic"] == "Apollo 13 filter"
+    assert auto.choose_topics(1, [{"id": "ep001", "series": "Mission Files"}])[0]["topic"] == "Apollo 13 filter"
 
 
 def _gate(tmp_path: Path, status: dict) -> str:

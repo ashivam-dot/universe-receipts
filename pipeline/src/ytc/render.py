@@ -7,13 +7,12 @@ import logging
 import random
 from pathlib import Path
 
-from . import captions, depth, drone, ff, plates, sfx, tts, visuals
+from . import bed, captions, depth, drone, ff, plates, sfx, tts, visuals
 from .spec import Beat, ShortSpec, Visual
 
 log = logging.getLogger(__name__)
 
 W, H, FPS = 1080, 1920, 30
-TAIL = 0.35
 MAX_SHORT_SECONDS = 180
 MAX_KBPS = 12_000
 # Buffer fetches the video when the post goes out: it got no answer fetching a 63 MB Short, and 46 MB ones went up.
@@ -31,6 +30,8 @@ SFX_PLACEMENT = {"whoosh": (-0.27, -10.0), "pop": (0.0, -9.0), "riser": (-1.2, -
 # soft vignette, and fine moving grain, all in YUV so nothing converts colors twice. Applied before the
 # captions, so they stay crisp.
 GRADE = "eq=contrast=1.05,vignette=angle=PI/5,noise=c0s=2:c0f=t+u"
+# The bold look (ShortSpec.look) over pictures plates.vivid has already brightened: a lighter vignette.
+BOLD_GRADE = "eq=contrast=1.04:saturation=1.05,vignette=angle=PI/7,noise=c0s=2:c0f=t+u"
 # The camera moves inside a plate 1.12 times the frame (plates.OVERSCAN): zoom 1 shows the whole plate, 1.12 a
 # frame-sized part of it. (start zoom, end zoom, start x, end x, start y, end y); x and y run 0 to 1 across the
 # room the zoom leaves.
@@ -105,7 +106,8 @@ def _cut_frame(beat: Beat, words: list, start: int, end: int) -> int:
     return round((start + end) / 2)
 
 
-def _plan(index: int, beat: Beat, asset: visuals.Asset, start: int, end: int, words: list, first_plate: dict | None) -> list[dict]:
+def _plan(index: int, beat: Beat, asset: visuals.Asset, start: int, end: int, words: list, first_plate: dict | None,
+          bold: bool = False) -> list[dict]:
     """The shots a still beat is cut into: a plate, a camera move, and a length in frames each."""
     visual = beat.visual
     seconds = (end - start) / FPS
@@ -117,12 +119,16 @@ def _plan(index: int, beat: Beat, asset: visuals.Asset, start: int, end: int, wo
         z0, _, x0, _, y0, _ = first_plate["move"]
         return [{"kind": first_plate["kind"], "plate": first_plate["plate"], "frames": end - start,
                  "move": (min(z0 + 0.07, plates.OVERSCAN), z0, x0, x0, y0, y0)}]
-    image = plates.open_image(asset.path)
+    image = plates.open_image(asset.path, bold=bold)
     if visual.crop:
         image = plates.region(image, visual.crop)
     focus = (visual.focus_x, visual.focus_y)
     kind = plates.layout(image)
-    wide = plates.cover(image, focus) if kind == "cover" else plates.card(image, focus, plates.tilt_for(index))
+    wide = plates.fill(image, focus, visual.box) if bold and kind == "card" else None
+    if wide is not None:
+        kind = "cover"
+    else:
+        wide = plates.cover(image, focus) if kind == "cover" else plates.card(image, focus, plates.tilt_for(index))
     wide_move = MOVES[visual.motion if kind == "cover" else ("zoom_in" if index % 2 == 0 else "zoom_out")]
     close = None
     if visual.box and seconds >= DETAIL_SECONDS:
@@ -169,10 +175,17 @@ def _mix(
     labels: list[str] = []
     index = 1
     if spec.music.path:
-        music = drone.ensure(SFX_CACHE) if spec.music.path == "tanpura" else (base / spec.music.path).resolve()
+        if spec.music.path == "tanpura":
+            music = drone.ensure(SFX_CACHE)
+        elif spec.music.path.split(":")[0] == "bed":
+            music = bed.compose(spec.id, total, work / "bed.wav", spec.music.path.partition(":")[2] or "mystery")
+        else:
+            music = (base / spec.music.path).resolve()
         inputs += ["-stream_loop", "-1", "-i", music]
         graph.append("[nar]asplit=2[voice][key]")
-        graph.append(f"[{index}:a]{prep},atrim=0:{total:.3f},volume={spec.music.gain_db}dB[bed]")
+        fade = min(spec.music.fade_out, total)
+        fade_out = f",afade=t=out:st={total - fade:.3f}:d={fade:.3f}" if fade else ""
+        graph.append(f"[{index}:a]{prep},atrim=0:{total:.3f},volume={spec.music.gain_db}dB{fade_out}[bed]")
         graph.append("[bed][key]sidechaincompress=threshold=0.03:ratio=6:attack=15:release=250[duck]")
         labels += ["[voice]", "[duck]"]
         index += 1
@@ -225,7 +238,7 @@ def make_short(spec_path: Path, out: Path | None = None) -> Path:
     assets_dir.mkdir(parents=True, exist_ok=True)
 
     narration = tts.synthesize(spec, work)
-    total = narration.duration + TAIL
+    total = narration.duration + spec.tail
     if total > MAX_SHORT_SECONDS:
         raise ValueError(f"{spec.id} runs {total:.1f}s; a Short can be at most {MAX_SHORT_SECONDS}s")
 
@@ -252,7 +265,7 @@ def make_short(spec_path: Path, out: Path | None = None) -> Path:
             continue
         words = [w for w in narration.words if start <= round(w.start * FPS) < end]
         reused = first_shots.get(beat.visual.reuse - 1) if beat.visual.reuse else None
-        shots = _plan(i, beat, assets[i], start, end, words, reused)
+        shots = _plan(i, beat, assets[i], start, end, words, reused, bold=spec.look == "bold")
         first_shots[i] = shots[0]
         at, made = start, []
         for k, shot in enumerate(shots):
@@ -283,7 +296,7 @@ def make_short(spec_path: Path, out: Path | None = None) -> Path:
     kbps = min(MAX_KBPS, int(MAX_UPLOAD_MB * 8000 * 0.95 / total) - 192)
     ff.run(
         "-i", video, "-i", audio,
-        "-vf", f"{GRADE},ass=filename={ff.filter_path(ass)}:fontsdir={ff.filter_path(FONTS_DIR)}",
+        "-vf", f"{BOLD_GRADE if spec.look == 'bold' else GRADE},ass=filename={ff.filter_path(ass)}:fontsdir={ff.filter_path(FONTS_DIR)}",
         "-map", "0:v:0", "-map", "1:a:0",
         "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-maxrate", f"{kbps}k", "-bufsize", f"{2 * kbps}k",
         "-pix_fmt", "yuv420p", "-r", str(FPS), *BT709,

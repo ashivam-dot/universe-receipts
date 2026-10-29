@@ -14,9 +14,9 @@ def test_the_daily_cap_holds_even_when_the_numbers_earn_more(monkeypatch):
     monkeypatch.setattr(auto, "day_number", lambda today=None: 55)
     monkeypatch.setattr(auto, "_pace_numbers", lambda: ([1000.0] * 10 + [1200.0] * 10, [0.6] * 20))
     monkeypatch.setattr(auto, "_reach_numbers", lambda: [1000.0] * 10 + [1200.0] * 10)
-    assert auto.slots_per_day() == 1
+    assert auto.slots_per_day() == 2
     monkeypatch.setattr(auto, "DAILY_CAP", None)
-    assert auto.slots_per_day() > 1
+    assert auto.slots_per_day() > 2
 
 
 def test_a_paused_run_never_touches_buffer(monkeypatch, tmp_path):

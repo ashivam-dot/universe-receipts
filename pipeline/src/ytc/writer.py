@@ -37,8 +37,15 @@ STRUCTURES = {
 SAME_SCRIPT = 0.25
 # About 30 s read: Days of Odd, made by the same studio, holds ~1,000 views a Short at 24-34 s through the 24 Oct
 # cut that took Universe's 52 s Shorts to under 300 (public stats, 2026-10-29). Was 6-9 beats, 105-135 words.
-MIN_BEATS, MAX_BEATS = 5, 8
-MIN_WORDS, MAX_WORDS = 70, 90
+MIN_BEATS, MAX_BEATS = 7, 12
+MIN_WORDS, MAX_WORDS = 65, 95
+HOOK_WORDS, BEAT_WORDS = 10, 14
+# A year (a number of 1,000 or more otherwise has a comma), or a month and day.
+_YEAR = re.compile(r"\b(?:1\d{3}|20[0-2]\d)s?\b")
+_DATE_FIRST = re.compile(
+    r"\s*(?:(?:in|on|by|back in|around|during|since|from|until)\s+)?(?:the\s+)?(?:(?:early|late|mid)[\s-]+)?"
+    r"(?:(?:1\d{3}|20[0-2]\d)s?\b|(?:january|february|march|april|may|june|july|august|september|october|november|december)\s+\d)",
+    re.I)
 # A hook whose first this-many words match a recent hook's opens on a template.
 SAME_OPENING = 4
 RECENT = 40
@@ -133,15 +140,17 @@ Visual ideas:
 {visuals}
 
 Write the episode:
-- Voice: a host thinking out loud with one viewer, not a narrator captioning pictures. Talk to "you"; use
-  "I" at most twice, for the host's own reaction or reasoning ("Here's the part I can't get past."). At least one
-  beat explains why the fact matters or what it means, in plain words of your own and only from the claims:
-  a comparison with something the viewer knows, or the "so what". No beat may only describe what is on screen.
-- hooks: three candidate first lines in different styles, each 12 words or fewer, opening inside the story
-  on its most surprising true fact. Use the strongest as beat 1 and name its style in hook_style.
-- beats: {min_beats} to {max_beats} beats and {min_words} to {max_words} spoken words in total (about 30 seconds read), one or two short sentences each. Follow the
-  structure above, and end with a last beat that loops back to beat 1. The twist is the claim a curious viewer is least likely to know already; for a famous subject, build
-  the Short around its least-known true detail instead of retelling the familiar story in order.
+- hooks: three candidate first lines in different styles, each {hook_words} words or fewer, opening inside the story
+  on its most surprising true fact, stated plainly so a stranger gets it on one hearing, with something everyone
+  pictures at once (the Moon, the Sun, Mars, a black hole, an astronaut, a famous mission, a life at stake). Never
+  open with a year or a date, and never a riddle that hides the fact. Use the strongest as beat 1 and name its
+  style in hook_style.
+- beats: {min_beats} to {max_beats} beats and {min_words} to {max_words} spoken words in total (about 30 seconds read), each beat
+  {beat_words} words or fewer: one sentence, or two very short ones. Say it the way you'd tell a friend, with
+  contractions and everyday words. Follow the structure above, with beat 2 making the hook stranger (never
+  background), the payoff in the last 2 or 3 beats, and a last beat that loops back to beat 1. No beat starts with
+  a year or date. The twist is the claim a curious viewer is least likely to know already; for a
+  famous subject, build the Short around its least-known true detail instead of retelling the familiar story.
 - The loop: the last beat is a complete, grammatical sentence on its own that echoes beat 1's image or question,
   so replaying beat 1 feels like the natural next line (a last beat "It was built to last 32 minutes." before a
   first beat "A Soviet lander kept talking from the surface of Venus for 127 minutes."). Never end on a dangling
@@ -253,6 +262,10 @@ def spoken(text: str) -> str:
     return _OVERRIDE.sub(r"\1", text)
 
 
+def _words_key(text: str) -> str:
+    return " ".join(re.findall(r"[a-z0-9']+", spoken(text).lower()))
+
+
 def word_count(text: str) -> int:
     return len(re.findall(r"[A-Za-z0-9][A-Za-z0-9'’.,\-]*", spoken(text)))
 
@@ -340,14 +353,29 @@ def problems(script: dict, research: dict) -> list[str]:
                      f"about {(MIN_WORDS + MAX_WORDS) // 2}, by lengthening or trimming the middle beats rather than the hook. Words now: {per_beat}.")
     if beats:
         hook = spoken(beats[0]["text"])
-        if word_count(hook) > 12:
-            found.append(f"The hook (beat 1) must be 12 words or fewer (it has {word_count(hook)}: \"{hook}\"); "
-                         f"cut at least {word_count(hook) - 12} words and keep its meaning.")
-        if re.match(r"\s*(did you know|hey|hi|welcome)", hook, re.I) or "universe receipts" in hook.lower():
-            found.append("The hook must open inside the story: no 'Did you know', greeting, or channel name.")
+        if word_count(hook) > HOOK_WORDS:
+            found.append(f"The hook (beat 1) must be {HOOK_WORDS} words or fewer (it has {word_count(hook)}: \"{hook}\"); "
+                         f"cut at least {word_count(hook) - HOOK_WORDS} words and keep its meaning.")
+        if re.match(r"\s*(did you know|hey|hi|welcome|meet|this is|once upon|back in)\b", hook, re.I) \
+                or "universe receipts" in hook.lower():
+            found.append("The hook must open inside the story on its surprise: no 'Did you know', 'Meet', 'Back in', "
+                         "greeting, or channel name.")
         if re.search(DANGLING_END, spoken(beats[-1]["text"]), re.I):
             found.append("The last beat must be a complete sentence that echoes beat 1, not end on a dangling word "
                          "such as 'because', 'when', 'until', or 'that'.")
+        if len(beats) > 1 and _words_key(beats[-1]["text"]) == _words_key(beats[0]["text"]):
+            found.append("The last beat repeats beat 1, so the loop would say the hook twice in a row: end on a beat "
+                         "that runs into beat 1 instead.")
+    for number, beat in enumerate(beats, start=1):
+        text = spoken(beat["text"])
+        if number > 1 and word_count(text) > BEAT_WORDS:
+            found.append(f"Beat {number} must be {BEAT_WORDS} words or fewer (it has {word_count(text)}); split it or cut it.")
+        if _DATE_FIRST.match(text):
+            found.append(f"Beat {number} starts with a year or date (\"{text[:24]}\"): open on what happened and put "
+                         "the year later in the line, in another beat, or in hook_text.")
+    years = {y for b in beats for y in _YEAR.findall(spoken(b["text"]))}
+    if len(years) > 2:
+        found.append(f"Say at most 2 different years in the whole Short (you have {', '.join(sorted(years))}).")
     title = script.get("title", "")
     if len(title) > 60:
         found.append(f"The title must be 60 characters or fewer (it has {len(title)}).")
@@ -408,6 +436,7 @@ def write_script(research: dict, episode_id: str, feedback: list[str] | None = N
         disputed="\n".join(f"- {d}" for d in research.get("disputed", [])) or "- none",
         visuals="\n".join(f"- {v['subject']}: {'; '.join(v['queries'])}" for v in research.get("visuals", [])),
         min_beats=MIN_BEATS, max_beats=MAX_BEATS, min_words=MIN_WORDS, max_words=MAX_WORDS,
+        hook_words=HOOK_WORDS, beat_words=BEAT_WORDS,
     )
     if feedback and draft:
         prompt += (

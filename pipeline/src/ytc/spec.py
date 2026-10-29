@@ -73,23 +73,34 @@ class Voice(_Model):
     engine: Literal["kokoro", "gemini"] = "kokoro"
     # A Kokoro voice, or a Gemini TTS voice name such as "Algenib".
     voice: str = "af_heart"
-    speed: float = 1.0
+    # Kokoro reads at this speed; a Gemini take is played this much faster at the same pitch.
+    speed: float = Field(1.0, gt=0.5, le=2.0)
     # Kokoro's language code; "h" is Hindi.
     lang_code: str = "a"
     # Gemini only: the TTS model (empty: the newest that answers), and performance notes in English, which it
     # follows without reading them out.
     model: str = ""
     direction: str = ""
-    # Gemini only: a take longer than this is sped up to fit (tts.fit); empty leaves it as read.
+    # Format v2 Shorts only, which still have to load; no longer read.
     max_seconds: float | None = None
+    # Gemini only: the language the take is read in, such as "en-US"; empty leaves it to the model.
+    language: str = ""
+    # Gemini only: words the voice reads from a respelling while the captions keep the real spelling.
+    say: dict[str, str] = {}
     # Seconds before the first word. A Reel needs enough for its cover frame to show the hook before any caption.
     lead_in: float = Field(0.08, ge=0, le=1)
+    # Gemini only: a silence inside the take longer than this many seconds is cut down to it (0 keeps the take's
+    # own pauses).
+    max_pause: float = Field(0.0, ge=0, le=2)
 
 
 class Music(_Model):
-    # A file beside the spec, or "tanpura" for the drone the pipeline synthesizes (drone.py).
+    # A file beside the spec, "tanpura" for the drone the pipeline synthesizes (drone.py), or "bed" (or
+    # "bed:<mood>", a key of bed.MOODS) for a bed it composes for this Short alone (bed.py).
     path: str | None = None
     gain_db: float = -24.0
+    # Seconds the music fades out over at the very end, rather than stopping dead.
+    fade_out: float = Field(0.0, ge=0, le=5)
 
 
 class CaptionStyle(_Model):
@@ -136,6 +147,11 @@ class ShortSpec(_Model):
     music: Music = Field(default_factory=Music)
     captions: CaptionStyle = Field(default_factory=CaptionStyle)
     beats: list[Beat]
+    # "bold" (Days of Odd's format 2): pictures graded vivid rather than muted, and a wide one cropped to fill the
+    # screen around its subject rather than shown whole as a framed print.
+    look: Literal["archive", "bold"] = "archive"
+    # Seconds the Short runs on after the last word.
+    tail: float = Field(0.35, ge=0, le=3)
 
     @model_validator(mode="after")
     def _reuse_points_back(self) -> ShortSpec:

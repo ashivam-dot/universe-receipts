@@ -1,6 +1,41 @@
-# Relaunch: format v2 (owner's go-ahead 2026-10-28)
+# Relaunch: format v3, Days of Odd's format 2 (2026-10-29)
 
-## Why
+v3 replaces v2 before any v2 Short was posted. The owner asked to apply Days of Odd's changes to this channel, and
+Tarun's kit (`Desktop/YouTube/tarun-channels-2026-10-29/kit/`, CHANNEL.md decision of 2026-10-07) records the format
+that brought Days of Odd back from the same kind of drop on the same pipeline. v2 was our own guess; v3 is that
+proven package, ported piece by piece because the two pipelines have diverged.
+
+## What changes (studio.FORMAT = "v3")
+
+- **Topics:** famous subjects first. A backlog topic with at least 15,000 English Wikipedia readers in 30 days
+  (`auto.MIN_READERS`) goes before any without, and new topics are only added above it, 8 a day while fewer than
+  14 open topics are that famous (`auto.FAMOUS_TARGET`, `RESTOCK`). On 29 Oct the open backlog's median was 1,928
+  readers, with 1 of 20 measured over the bar: the clearest difference from Days of Odd.
+- **Script:** 65-95 words (22-32 s) in 7-12 beats of 14 words or fewer, a hook of 10 words or fewer that states
+  the surprise plainly and never opens on a year or date, beat 2 making it stranger (never background), told the
+  way you'd tell a friend, at most 2 years named (`writer`; `check.DURATION` 20-40 s).
+- **Voice:** Days of Odd's narrator, Gemini `Zubenelgenubi` (en-US), played 1.05 times as fast with pauses inside
+  the take cut to 0.25 s (`studio.VOICE`, `tts._tempo`, `tts._tighten`). Its direction goes as a style note, not
+  spoken text, and a take that says things not in the script is refused (`tts._unscripted`). A mispronounced
+  word is respelled for the voice only (`Voice.say`).
+- **Look:** `look: bold`: a picture at least 1,000 px tall fills the screen around its subject instead of a
+  framed print, with a brighter grade (`plates.fill`, `plates.vivid`, `render.BOLD_GRADE`); the on-screen hook
+  is 150 px. Captions are the kit's word-by-word style, as on Days of Odd.
+- **Music:** a bed composed for each Short in its series' mood (`bed.py`, `studio.MOODS`), fading out at the end.
+- **Volume:** 2 a day at the channel's two evening slots (19:00 and 21:30 ET), keeping 14 ready
+  (`auto.DAILY_CAP`, `INVENTORY_TARGET`), as Days of Odd does.
+- **Older Shorts:** v2 Shorts (ep245-ep253) are shelved like the old format: never scheduled, kept on disk.
+
+## The test
+
+The first 10 v3 Shorts, compared with the post-drop baseline (47-286 views at 24 h, Shorts feed under half of
+views). A clear win is a median over 500 at 24 h or the feed share back over 80%. No clear change after 10 means
+the next lever is the visuals (scenes made for each script) and the owner decides on the channel's future. Never
+promise views; never buy engagement.
+
+## Before: format v2 (owner's go-ahead 2026-10-28; replaced by v3 before posting)
+
+### Why
 
 From 24 Oct ~16:30 UTC the Shorts feed stopped showing the channel: Shorts-feed views 3,064 (23 Oct) -> 825 -> 455
 (25 Oct) while search held, and new Shorts get 9-286 views where they got ~1,000. Retention held (~60%). No change
@@ -22,7 +57,7 @@ but Days of Odd's ~30 s is the best-performing shape on this kit, so v2 now aims
 `MAX_WORDS` 70-90, `check.DURATION` 22-38 s). The first 7 v2 Shorts (ep245-ep253) were made at ~54 s; later ones
 are ~30 s, which gives a length comparison inside the test.
 
-## What changes (studio.FORMAT = "v2")
+### What changes (studio.FORMAT = "v2")
 
 - **Voice:** the channel's own host voice, Gemini TTS `Sadaltager` with a conversational host direction
   (`studio.VOICE`), checked by Whisper (`tts._gemini`). No Kokoro fallback: a Short with no take waits.
@@ -38,7 +73,7 @@ are ~30 s, which gives a length comparison inside the test.
 - **Compute:** this repository is public, so GitHub's runner is free; when Modal's credit can't make the Shorts
   wanted, the run says so (`status.json` `starved`) and the backup workflow makes them (`.github/backup_gate.py`).
 
-## The test
+### The test
 
 10 v2 Shorts at one a day, through Buffer once its pause ends (29 Oct 19:00 UTC, `auto.BUFFER_PAUSED_UNTIL`). Compare each
 one's 24-hour views and Shorts-feed share with the post-drop baseline (47-286 views at 24 h, Shorts feed under
