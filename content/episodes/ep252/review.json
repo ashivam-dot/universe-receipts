@@ -1,0 +1,147 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-29T14:02:35+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 106,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong premise that captures attention early.",
+        "clarity": "Chronological narrative is straightforward to follow.",
+        "payoff": "Resolves the crisis with an effective historical outcome.",
+        "visuals": "Inaccurate spacecraft depicted in beat 5.",
+        "loop": "Seamless transition from last line to first."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows a diamond solar sail craft rather than Mariner 10."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Features a clearer historical focus and problem-solving narrative than recent shorts.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-29T14:06:33+05:30",
+      "check": {
+        "duration": 54.42,
+        "words": 106,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong central concept, though the first beat timing feels slightly long.",
+        "clarity": "Narrative logically tracks from system breakdowns to the novel solution.",
+        "payoff": "Using solar pressure as a rudder provides a satisfying conclusion.",
+        "visuals": "Historic imagery is relevant, though schematic diagrams are text-dense.",
+        "loop": "Final phrasing flows naturally back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 4,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short features a clearer narrative arc and problem-solving focus than ep247.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-29T14:18:47+05:30",
+      "check": {
+        "duration": 54.42,
+        "words": 106,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "A dying probe using sunlight as a sail is a compelling sci-fi premise grounded in reality.",
+        "clarity": "Follows a clean chronological problem-and-solution arc that anyone can understand.",
+        "payoff": "Angling solar panels to use light pressure as a rudder neatly pays off the opening hook.",
+        "visuals": "Great historical Mariner 10 photos and Mercury mosaics, though beat 4 uses an unrelated antique chart.",
+        "loop": "The closing line flows logically back into the opening claim about a dying ship sailing on sunlight."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Off-topic 19th-century astronomical chart instead of mission control or spacecraft schematics."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

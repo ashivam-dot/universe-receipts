@@ -1,23 +1,17 @@
 {
-  "updated_at": "2026-10-29T11:05:27+05:30",
+  "updated_at": "2026-10-29T14:28:33+05:30",
   "day": 28,
   "result": "ok",
   "run": {
-    "host": "modal",
-    "id": "ta-01M632F2EX16204KJ94FB628AR",
-    "number": null,
+    "host": "github-actions",
+    "id": "40841863953",
+    "number": "123",
     "trigger": "schedule",
-    "started_at": "2026-10-29T11:05:07+05:30",
-    "started_at_utc": "2026-10-29T05:35:07+00:00",
-    "seconds": 20
+    "started_at": "2026-10-29T13:54:52+05:30",
+    "started_at_utc": "2026-10-29T08:24:52+00:00",
+    "seconds": 2021
   },
   "stages": [
-    {
-      "name": "deploy",
-      "ok": true,
-      "detail": "",
-      "seconds": 1.4
-    },
     {
       "name": "sync",
       "ok": true,
@@ -28,51 +22,69 @@
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.5
+      "seconds": 2.2
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep177 language en/None -> en; ep216 language en/None -> en",
-      "seconds": 1.0
+      "detail": "every live Short is in English",
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 2.6
+      "seconds": 1.1
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.6
+      "seconds": 1.8
+    },
+    {
+      "name": "make ep250",
+      "ok": true,
+      "detail": "Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside: ready",
+      "seconds": 309.8
+    },
+    {
+      "name": "make ep251",
+      "ok": true,
+      "detail": "Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day: ready",
+      "seconds": 1329.6
+    },
+    {
+      "name": "make ep252",
+      "ok": true,
+      "detail": "Mariner 10 (1973): the first mission to use a \"gravity assist,\" stealing momentum from Venus to reach Mercury: ready",
+      "seconds": 1427.8
+    },
+    {
+      "name": "make ep253",
+      "ok": true,
+      "detail": "Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002: ready",
+      "seconds": 1700.4
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
     "Buffer is paused until Oct 30 00:30 IST: the Shorts due until then are scheduled on YouTube directly",
-    "room for 0 of the 4 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 3,
+    "total": 7,
     "in_buffer": 0,
-    "waiting": 3,
+    "waiting": 7,
     "target": 10,
-    "making": [
-      "ep250",
-      "ep251",
-      "ep252",
-      "ep253"
-    ],
+    "making": [],
     "remote": []
   },
   "queue": [],
@@ -94,9 +106,94 @@
       "title": "Earth’s Long-Lost Second Moon",
       "series": "Space Got Weird",
       "score": 20
+    },
+    {
+      "id": "ep250",
+      "title": "The Massive Tunnels Hidden Beneath the Moon",
+      "series": "Scale Breaker",
+      "score": 25
+    },
+    {
+      "id": "ep251",
+      "title": "The 24-Year Streak of Living Off Earth",
+      "series": "Mission Files",
+      "score": 23
+    },
+    {
+      "id": "ep252",
+      "title": "The Broken Probe That Sailed on Sunlight to Mercury",
+      "series": "Mission Files",
+      "score": 21
+    },
+    {
+      "id": "ep253",
+      "title": "The 45-Year Cover-Up of Space Dog Laika",
+      "series": "Mission Files",
+      "score": 20
     }
   ],
-  "made": [],
+  "made": [
+    {
+      "id": "ep250",
+      "outcome": "ready",
+      "topic": "Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside",
+      "title": "The Massive Tunnels Hidden Beneath the Moon",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793262610/universereceipts/ep250-371b5aed.mp4",
+      "renders": 3
+    },
+    {
+      "id": "ep251",
+      "outcome": "ready",
+      "topic": "Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day",
+      "title": "The 24-Year Streak of Living Off Earth",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793263630/universereceipts/ep251-35395ae8.mp4",
+      "renders": 3
+    },
+    {
+      "id": "ep252",
+      "outcome": "ready",
+      "topic": "Mariner 10 (1973): the first mission to use a \"gravity assist,\" stealing momentum from Venus to reach Mercury",
+      "title": "The Broken Probe That Sailed on Sunlight to Mercury",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793263728/universereceipts/ep252-8c32ffa2.mp4",
+      "renders": 3
+    },
+    {
+      "id": "ep253",
+      "outcome": "ready",
+      "topic": "Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002",
+      "title": "The 45-Year Cover-Up of Space Dog Laika",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793264311/universereceipts/ep253-0a00dbe6.mp4",
+      "renders": 2
+    }
+  ],
   "spawned": [],
   "in_cloud": [],
   "published": [],
@@ -104,30 +201,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 0,
-    "by_model": {},
+    "calls": 23,
+    "by_model": {
+      "gemini-3.6-flash": 5,
+      "gemini-3.5-flash": 9,
+      "gemini-3.5-flash-lite": 4,
+      "gemini-3.8-flash": 5
+    },
     "out_of_quota": []
   },
   "renders": {
     "modal": 0,
-    "runner": 0
+    "runner": 9
   },
   "daily_done": "2026-10-28",
-  "minutes_this_month": 175.0,
+  "minutes_this_month": 210.68370200123334,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.23,
+    "metered": 28.27,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 0,
-    "runner_minutes": 0,
+    "runner": 6,
+    "runner_minutes": 120,
     "modal_credit_left": -0.23
   },
-  "starved": 4,
-  "made_here": 0,
+  "starved": 0,
+  "made_here": 4,
   "open_topics": 51,
   "parked_topics": 51
 }

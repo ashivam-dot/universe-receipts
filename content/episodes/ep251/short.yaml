@@ -77,18 +77,24 @@ beats:
   - brief astronaut visits
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/STS079-789-096.jpg/1920px-STS079-789-096.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/STS076-725-099_-_STS-076_-_Earth_observations_taken_from_shuttle_orbiter_Atlantis_during_STS-76_mission_-_DPLA_-_2f06ca550e05ad4d34414dcc946a7bde.jpg/1920px-STS076-725-099_-_STS-076_-_Earth_observations_taken_from_shuttle_orbiter_Atlantis_during_STS-76_mission_-_DPLA_-_2f06ca550e05ad4d34414dcc946a7bde.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: STS079-789-096.jpg
-      credit: Earth Science and Remote Sensing Unit, NASA Johnson Space Center
+      title: STS076-725-099 - STS-076 - Earth observations taken from shuttle orbiter Atlantis during STS-76 mission - DPLA
+        - 2f06ca550e05ad4d34414dcc946a7bde.jpg
+      credit: National Aeronautics and Space Administration. Lyndon B. Johnson Space Center. 2/17/1973
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:STS079-789-096.jpg
+      url: https://commons.wikimedia.org/wiki/File:STS076-725-099_-_STS-076_-_Earth_observations_taken_from_shuttle_orbiter_Atlantis_during_STS-76_mission_-_DPLA_-_2f06ca550e05ad4d34414dcc946a7bde.jpg
     fallbacks:
     - color
     motion: zoom_in
-    focus_x: 0.5
+    focus_x: 0.75
     focus_y: 0.5
+    box:
+    - 0.52
+    - 0.04
+    - 0.98
+    - 0.95
 - text: On October 31, 2000, three men launched aboard a Soyuz rocket from Kazakhstan.
   emphasis:
   - Soyuz rocket
@@ -218,9 +224,9 @@ beats:
       kind: fact
       big: $1.4 Billion
       small: Destiny lab module
-- text: When Expedition 1 handed over control in March 2001, they secured continuous orbital living.
+- text: When Expedition 1 handed off control, they created a permanent human outpost.
   emphasis:
-  - continuous orbital living
+  - permanent human outpost
   sfx: whoosh
   visual:
     source: url
@@ -240,10 +246,10 @@ beats:
     card:
       kind: dateline
       big: March 2001
-      small: Expedition 1 hands over control
-- text: That unbroken chain ensures someone is always residing above the atmosphere.
+      small: Expedition 1 hands off control
+- text: Ensuring that for 24 years, not a single second has passed with all humans on Earth.
   emphasis:
-  - above the atmosphere
+  - all humans on Earth
   sfx: pop
   visual:
     reuse: 1

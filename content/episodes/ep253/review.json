@@ -1,0 +1,102 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-29T14:11:37+05:30",
+      "check": {
+        "duration": 54.43,
+        "words": 123,
+        "integrated_lufs": -14.6,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "beat 9: the recognizer heard only 81% of the line"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong historical premise, but seventeen seconds on the first beat severely drags the start.",
+        "clarity": "The timeline of the mission and eventual revelation is simple to digest.",
+        "payoff": "The reveal of the seven-hour heat death effectively shatters the state myth.",
+        "visuals": "Archival images work, but beat 5 displays a later Vostok rocket rather than Sputnik 2.",
+        "loop": "Beat 9 ties directly back into the opening sentence on Soviet claims."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows a later Vostok display rocket instead of Sputnik 2 or its launch vehicle."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Cut the extended silence and pace the line to finish within four seconds."
+      ],
+      "better_than_last": "Delivers a more poignant emotional core than ep250's geological focus.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-29T14:28:30+05:30",
+      "check": {
+        "duration": 54.23,
+        "words": 109,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "beat 9: the recognizer heard only 84% of the line"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong text overlay and secret narrative effectively grab attention.",
+        "clarity": "Straightforward historical progression is easy to digest.",
+        "payoff": "The rapid death reveal delivers a satisfying resolution.",
+        "visuals": "Historical photographs fit the dark, atmospheric tone.",
+        "loop": "Final statement transitions smoothly into the opening beat."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more emotionally compelling narrative arc compared to recent technical episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}
