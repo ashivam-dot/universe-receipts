@@ -80,6 +80,8 @@ def test_timely_topics_are_parsed_marked_and_chosen_first(studio):
     assert [t["date"] for t in timely] == [date(2026, 10, 19), date(2026, 10, 10)]
     assert [t["topic"][:6] for t in auto.urgent(topics, NOW.date())] == ["Europa"]
 
+    europa = next(t["topic"] for t in timely if t["topic"].startswith("Europa"))
+    auto.demand = lambda topics: {europa: auto.MIN_READERS}
     chosen = auto.choose_topics(5, [])
     assert [t["kind"] for t in chosen[:2]] == ["timely", "anniversary"]
     # The stale timely topic waits in line with the backlog.

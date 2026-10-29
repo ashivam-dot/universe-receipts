@@ -415,6 +415,9 @@ def choose_topics(count: int, eps: list[dict]) -> list[dict]:
     today = _now().date()
     open_topics = [t for t in calendar_topics(today) if _available(t, today)]
     fresh = urgent(open_topics, today)
+    # A timely topic jumps the line only when its subject is famous; otherwise it waits with the backlog.
+    fresh_readers = demand(fresh) if fresh else {}
+    fresh = [t for t in fresh if fresh_readers.get(t["topic"], 0) >= MIN_READERS]
     chosen = fresh[:count]
     chosen += sorted((t for t in open_topics if t["kind"] == "anniversary" and t["date"] and (t["date"] - today).days <= 7),
                      key=lambda t: t["date"])[:count - len(chosen)]

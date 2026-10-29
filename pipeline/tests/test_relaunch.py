@@ -4,6 +4,7 @@ import json
 import os
 import subprocess
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import numpy as np
@@ -108,6 +109,21 @@ def test_famous_topics_go_first(monkeypatch):
     monkeypatch.setattr(auto, "_series_shares", lambda: None)
     assert auto.choose_topics(1, [{"id": "ep001", "series": "Scale Breaker"}])[0]["topic"] == "Apollo 13 filter"
     assert auto.choose_topics(1, [{"id": "ep001", "series": "Mission Files"}])[0]["topic"] == "Apollo 13 filter"
+
+
+def test_only_a_famous_timely_topic_jumps_the_line(monkeypatch):
+    from datetime import date
+
+    today = date(2026, 10, 29)
+    topics = [{"topic": "Obscure news", "series": "Scale Breaker", "kind": "timely", "date": today, "status": None},
+              {"topic": "Famous news", "series": "Mission Files", "kind": "timely", "date": today, "status": None},
+              {"topic": "Famous backlog", "series": "Near Misses", "kind": "backlog", "date": None, "status": None}]
+    monkeypatch.setattr(auto, "calendar_topics", lambda day=None: topics)
+    monkeypatch.setattr(auto, "_available", lambda t, day: True)
+    monkeypatch.setattr(auto, "_now", lambda: datetime(2026, 10, 29, 18, 0, tzinfo=auto.IST))
+    monkeypatch.setattr(auto, "demand", lambda ts: {"Obscure news": 300, "Famous news": 50000, "Famous backlog": 40000})
+    monkeypatch.setattr(auto, "_series_shares", lambda: None)
+    assert [t["topic"] for t in auto.choose_topics(3, [])] == ["Famous news", "Famous backlog", "Obscure news"]
 
 
 def test_new_topics_are_shown_the_winners_and_losers(monkeypatch, tmp_path):
