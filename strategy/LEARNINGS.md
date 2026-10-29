@@ -24,28 +24,27 @@ rules pull in opposite directions keep the better-measured one and move the othe
 also copy it into `strategy/SCRIPT-RULES.md`, then cite the evidence here. (Consolidated 2026-10-25 from 30 rules,
 each promoted on two Shorts; their evidence is kept below.)
 
-- Open on a belief most viewers already hold, then immediately debunk it (Space Myths, Busted pattern): counterintuitive myth-busting generates higher early reach than abstract scale. Evidence: ep047, ep053, ep146, ep159, ep165, ep172, ep185, ep197 (median early reach 1,129.5 views vs 726 for non-myth Shorts).
-- Open with the most surprising true thing about a well-known subject in the first 2 seconds: a contradiction, paradox, myth flip or physical consequence with a specific observed detail, never a passive statement, cosmic trope or abstract distance. Evidence: ep002, ep008, ep045, ep110, ep111, ep133, ep175, ep197, ep201.
+- Open on a belief most viewers already hold, then immediately debunk it (Space Myths, Busted pattern): counterintuitive myth-busting generates higher early reach than abstract scale. Evidence: ep047, ep053, ep146, ep159, ep165, ep172, ep185, ep197 (median early reach 1,092 vs 947 for non-myth Shorts).
+- The last line is a complete sentence that leads naturally back into the first; never repeat the hook verbatim. Evidence: ep105, ep111, ep125, ep137, ep146, ep172, ep175, ep201 (median avg percentage viewed 90.5% vs 63.5%).
+- Open with the most surprising true thing about a well-known subject in the first 2 seconds: a contradiction, paradox, or physical consequence, never a passive statement. Evidence: ep002, ep008, ep045, ep110, ep111, ep133, ep175, ep197, ep201.
 - Deliver the core payoff within 3 seconds of the hook, and never restate the hook's number or idea in the next beat. Evidence: ep004, ep009, ep105, ep111, ep125, ep133, ep172, ep221.
 - Make every middle beat a new, bigger reveal; keep beats two and three short. Evidence: ep008, ep009, ep032, ep036, ep047, ep084, ep165, ep184, ep188.
-- No catalog designations, discovery dates, researcher biographies, instrument lists or jargon: replace them with one familiar physical comparison. Evidence: ep079, ep111, ep133, ep172, ep181, ep186, ep188, ep195, ep197, ep221.
+- No jargon or discovery dates: replace them with one familiar physical comparison. Evidence: ep079, ep111, ep133, ep172, ep181, ep186, ep188, ep195, ep197, ep221.
 - In a hazard story, keep the safety resolution for the last beat. Evidence: ep130, ep133, ep137, ep159.
-- End right after the climax: no aftermath subplot, historical footnote, or wrap-up summary. Evidence: ep046, ep137, ep146, ep159, ep165.
-- The last line is a complete sentence that leads naturally back into the first; never repeat the hook verbatim. Evidence: ep105, ep111, ep125, ep137, ep146, ep172, ep175, ep201.
+- End right after the climax: no aftermath subplot or wrap-up summary. Evidence: ep046, ep137, ep146, ep159, ep165.
 
 ## Hypotheses to test (from research, not yet our data)
 
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
-- End on a direct question or challenge to the viewer (e.g., 'Would you keep calm?') to convert high retention into active comments (ep185).
-- Deliver mechanical explanations of the hook's premise immediately and eliminate historical detours or researcher backstories to sustain mid-video retention (ep165).
-- Replace abstract metric hooks with tangible human-scale threats in the first 2 seconds to boost distribution (ep181, ep208, ep221).
-- Avoid opening on abstract background metrics or detached setup text; start with immediate high-stakes action (ep181, ep208, ep221).
+- Deliver mechanical explanations of the hook's premise immediately and eliminate historical detours to sustain mid-video retention (ep165).
+- Replace abstract metric hooks with tangible human-scale threats (e.g. 'mountain-sized' vs '5km') in the first 2 seconds to boost distribution (ep181, ep208, ep221).
 - For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic (ep146, ep165).
+- End on a direct question or challenge to the viewer to convert high retention into active comments (ep185).
 - Compress scientific definitions into a single beat under 4 seconds to reach core resolution by the 12-second mark (ep172).
 - One number per beat: never stack figures or dates in consecutive beats (ep125, ep175).
-- Hold the central threat until middle beats instead of beat one in hazard stories.
-- End with a shareable line ('the next time someone says...') to test if share prompts lift retention or virality.
+- Hold the central threat until middle beats instead of beat one in hazard stories to build tension.
+- End with a shareable line to test if share prompts lift retention or virality.
 
 ## Scoreboard
 
@@ -79,12 +78,12 @@ contradiction.
 | ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.0% | 110% | 1 | – |
 | ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 64.3% | 114% | 1 | – |
 | ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.9% | 116% | 1 | – |
-| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | – |
-| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.4% | 148% | 2 | – |
-| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.2% | 115% | 3 | – |
-| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | – |
-| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.7% | 127% | 0 | Strong myth-busting hook drove elevated early retention at 10% (1.266 vs 1.159 median), but vague opening text reduced engaged share (46.2% vs 54.2% median) and closed conclusion limited comments. |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.9% | 120% | 4 | Search-friendly myth topic achieved strong early reach (1,495 views vs 725.5 median), but mid-video historical tangents caused a severe retention drop at 50%. |
+| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | Myth-based contradiction hook associated with high early reach (984 views), but the scale-ladder topic transition associated with lower completion rates than other Scale Breaker entries. |
+| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.4% | 148% | 2 | Record-breaking scale topic with a clear visual comparison associated with excellent retention (101.4%) and a successful loop that beat channel medians. |
+| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.2% | 115% | 3 | Tangible threat topic associated with high average percentage viewed, but the use of abstract metric hooks associated with below-median early reach (546 views). |
+| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | Historical mission topic and contradiction hook associated with low early reach (400 views) and sub-median retention despite high-quality specific visuals. |
+| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.7% | 127% | 0 | Contradiction hook on a popular myth topic associated with high retention (85.7% avg viewed), but slower pacing in middle beats associated with a sub-median engaged share. |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.9% | 120% | 4 | Myth-busting hook and search-friendly title associated with high early reach (1495 views vs 725.5 median), but historical detours in pacing associated with a sharp mid-video retention drop. |
 | ep174 | Mission Files | statement, story | 260 | 52% | 64.5% | 106% | 1 | published while YouTube held the whole channel back; not evidence |
 | ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 51% | 39.8% | 96% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep210 | Mission Files | contradiction, mystery | 149 | 44% | 44.0% | 101% | 0 | published while YouTube held the whole channel back; not evidence |
@@ -103,6 +102,7 @@ contradiction.
 | 5bfuZgx-CS4 | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 | ep225 | Space Got Weird | contradiction, mystery | 41 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 | ep078 | The Universe Is Terrifying | contradiction, scale_ladder | 85 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| ep244 | Space Myths, Busted | statement, record | 51 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 
 ## Log
 
@@ -213,3 +213,4 @@ contradiction.
 - 2026-10-29: Reviewed performance for ep221, ep185, ep165, and ep208; removed the historical milestone hypothesis after ep165 retention dropped during biographical side notes.
 - 2026-10-29: Updated evidence for myths and loops; added three new hypotheses from ep185, ep165, and ep208 performance reviews.
 - 2026-10-29: Updated review insights for ep165, ep185, and ep208 to target mid-video retention pacing and hook phrasing.
+- 2026-10-29: Reviewed ep165 and ep208; updated strategy to prioritize immediate mechanical explanations over historical detours to fix mid-video audience drop-off.

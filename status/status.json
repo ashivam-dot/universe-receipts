@@ -1,17 +1,23 @@
 {
-  "updated_at": "2026-10-29T20:08:43+05:30",
+  "updated_at": "2026-10-29T23:16:59+05:30",
   "day": 28,
-  "result": "degraded",
+  "result": "ok",
   "run": {
-    "host": "github-actions",
-    "id": "40891537740",
-    "number": "125",
+    "host": "modal",
+    "id": "ta-01M64BNEDBD8GE2YNVEQ74YF5R",
+    "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-29T19:57:26+05:30",
-    "started_at_utc": "2026-10-29T14:27:26+00:00",
-    "seconds": 677
+    "started_at": "2026-10-29T23:05:12+05:30",
+    "started_at_utc": "2026-10-29T17:35:12+00:00",
+    "seconds": 707
   },
   "stages": [
+    {
+      "name": "deploy",
+      "ok": true,
+      "detail": "",
+      "seconds": 2.7
+    },
     {
       "name": "sync",
       "ok": true,
@@ -22,13 +28,13 @@
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.4
+      "seconds": 3.6
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -39,51 +45,21 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 1.9
+      "detail": "ep244 at 24 h: behind the channel's earlier Shorts at this age: 51 views against a median of 729 (0.1x); learnings: Reviewed ep165 and ep208; updated strategy to prioritize immediate mechanical explanations over historical detours to fix mid-video audience drop-off.",
+      "seconds": 684.7
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.7
-    },
-    {
-      "name": "make ep254",
-      "ok": true,
-      "detail": "CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour: ready",
-      "seconds": 191.5
-    },
-    {
-      "name": "make ep255",
-      "ok": false,
-      "detail": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 362.6
-    },
-    {
-      "name": "make ep256",
-      "ok": true,
-      "detail": "Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of \"seared steak,\" \"hot metal,\" and \"welding fumes\": rejected (research: only 0 claims have two different sites)",
-      "seconds": 446.0
-    },
-    {
-      "name": "make ep257",
-      "ok": false,
-      "detail": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth",
-      "error": "RuntimeError: ep257: every take said things that aren't in the script",
-      "seconds": 457.3
+      "seconds": 3.5
     }
   ],
-  "errors": [
-    "make ep255: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-    "make ep257: RuntimeError: ep257: every take said things that aren't in the script"
-  ],
+  "errors": [],
   "owner_action": [],
   "notes": [
     "Buffer is paused until Oct 30 00:30 IST: the Shorts due until then are scheduled on YouTube directly",
-    "Gemini is out of free quota or overloaded; the rest waits for the next run",
+    "room for 0 of the 4 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -106,29 +82,7 @@
       "score": 22
     }
   ],
-  "made": [
-    {
-      "id": "ep254",
-      "outcome": "ready",
-      "topic": "CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour",
-      "title": "A Star ESCAPING the Milky Way",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793284261/universereceipts/ep254-fd8c7094.mp4",
-      "renders": 3
-    },
-    {
-      "id": "ep256",
-      "outcome": "rejected",
-      "topic": "Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of \"seared steak,\" \"hot metal,\" and \"welding fumes\"",
-      "reason": "research: only 0 claims have two different sites"
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
   "published": [],
@@ -136,43 +90,38 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 13,
+    "calls": 2,
     "by_model": {
-      "gemini-3.5-flash-lite": 6,
-      "gemini-3.8-flash-tts": 2,
-      "gemini-3.6-flash": 2,
-      "gemini-3.8-flash-lite-tts": 3
+      "gemini-3.6-flash": 1,
+      "gemini-3-flash-preview": 1
     },
     "out_of_quota": [
-      "gemini-3-flash-preview",
       "gemini-3.5-flash",
       "gemini-3.6-flash",
       "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest",
-      "ovh:Qwen3.5-397B-A17B"
+      "gemini-3.8-flash"
     ]
   },
   "renders": {
     "modal": 0,
-    "runner": 2
+    "runner": 0
   },
   "daily_done": "2026-10-29",
-  "minutes_this_month": 254.278925964,
+  "minutes_this_month": 254.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.33,
+    "metered": 28.34,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 6,
-    "runner_minutes": 120,
-    "modal_credit_left": -0.32
+    "runner": 0,
+    "runner_minutes": 0,
+    "modal_credit_left": -0.34
   },
-  "starved": 0,
-  "made_here": 4,
+  "starved": 4,
+  "made_here": 0,
   "open_topics": 55,
   "parked_topics": 51
 }
