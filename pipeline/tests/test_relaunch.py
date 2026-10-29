@@ -110,6 +110,19 @@ def test_famous_topics_go_first(monkeypatch):
     assert auto.choose_topics(1, [{"id": "ep001", "series": "Mission Files"}])[0]["topic"] == "Apollo 13 filter"
 
 
+def test_new_topics_are_shown_the_winners_and_losers(monkeypatch, tmp_path):
+    from datetime import datetime
+
+    videos = [{"title": f"Short {n}", "views": n * 100, "published": "2026-10-01T16:00:00Z", "analytics": []}
+              for n in range(1, 11)] + [{"title": "New", "views": 5000, "published": "2026-10-29T10:00:00Z"}]
+    (tmp_path / "2026-10-29.json").write_text(json.dumps({"videos": videos}), encoding="utf-8")
+    monkeypatch.setattr(auto, "ANALYTICS", tmp_path)
+    monkeypatch.setattr(auto, "_now", lambda: datetime(2026, 10, 29, 18, 0, tzinfo=auto.IST))
+    text = auto._winners()
+    assert "Short 10: 1,000 views" in text.split("And least")[0] and "Short 1: 100 views" in text.split("And least")[1]
+    assert "New" not in text
+
+
 def _gate(tmp_path: Path, status: dict) -> str:
     (tmp_path / "status").mkdir(parents=True)
     (tmp_path / "status" / "status.json").write_text(json.dumps(status), encoding="utf-8")

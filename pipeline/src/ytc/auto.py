@@ -471,6 +471,27 @@ def _repeats(topic: str, known_words: list[set[str]]) -> bool:
     return not words or any(len(words & k) >= max(2, len(words) // 2) for k in known_words)
 
 
+def _winners(count: int = 5) -> str:
+    """The channel's Shorts at least two days old that drew the most and the fewest views, from the latest analytics,
+    so new topics aim at subjects with the winners' pull (Days of Odd's growth desk)."""
+    files = sorted(ANALYTICS.glob("*.json"))
+    now = _now()
+    videos = sorted((v for v in (_json(files[-1], {}) if files else {}).get("videos", [])
+                     if now - datetime.fromisoformat(v["published"].replace("Z", "+00:00")) >= timedelta(hours=48)),
+                    key=lambda v: -v["views"])
+    if len(videos) < count + 3:
+        return ""
+
+    def line(v: dict) -> str:
+        stats = v.get("analytics")
+        watched = stats.get("averageViewPercentage") if isinstance(stats, dict) else None
+        return f"- {v['title']}: {v['views']:,} views" + (f", watched {watched:.0f}% through" if watched else "")
+
+    return ("Our Shorts viewers watched most; favour subjects with the same pull:\n"
+            + "\n".join(line(v) for v in videos[:count])
+            + "\nAnd least; avoid subjects like these:\n" + "\n".join(line(v) for v in videos[-3:]) + "\n\n")
+
+
 def add_topics(run: Run, backlog_count: int = 4) -> list[str]:
     """Fresh, well-documented topics for the backlog, plus an anniversary 3 to 8 weeks out."""
     from .research import _existing
@@ -500,7 +521,8 @@ def add_topics(run: Run, backlog_count: int = 4) -> list[str]:
         "Favor series with few open topics. Write each topic as a short line naming the story, the year, and the "
         "twist, like: \"Boötes Void (1981): a hole in the universe 330 million light-years wide\". Dates look like "
         "\"Oct 7\".\n\n"
-        f"Open topics per series: {json.dumps(series_counts)}\n\nAlready listed or made:\n" + "\n".join(f"- {k}" for k in known)
+        + _winners()
+        + f"Open topics per series: {json.dumps(series_counts)}\n\nAlready listed or made:\n" + "\n".join(f"- {k}" for k in known)
     )
     # Without new topics the calendar runs dry in weeks, so this falls back to the light models' separate quota.
     answer = llm.generate(prompt, schema=TOPICS_SCHEMA, models=llm.BROAD, purpose="new topics")
