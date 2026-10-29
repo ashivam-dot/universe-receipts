@@ -51,6 +51,8 @@ unexplained, not alien.
 | 2026-10-24 | Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up — parked (ep248) | Mission Files | Featured on NASA's Astronomy Picture of the Day with its historic selfie alongside comet 67P. |
 | 2026-10-25 | 2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days — done (ep249) | Space Got Weird | The Moon is currently trending with over 27,000 views following recent news about Earth's temporary 'mini-moon' events. |
 | 2026-10-25 | Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside — done (ep250) | Scale Breaker | Interest in the Moon is high on Wikipedia following NASA's recent updates on accelerating lander development for 2028. |
+| 2026-10-29 | Large Magellanic Cloud (964): a satellite galaxy being cannibalized by the Milky Way that contains star-forming "cauldrons" with gas clumps larger than our solar system | Scale Breaker | New high-resolution James Webb Space Telescope imagery released this week captures turbulent gas structures inside the cloud's N159 region. |
+| 2026-10-29 | Backyard Worlds (2017): a project where ordinary volunteers discovered a "hypervelocity" object fleeing the galaxy that NASA’s advanced algorithms completely missed | Mission Files | NASA is highlighting this project's record-breaking discoveries following their announcement of 19 new citizen science proposals this week. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -242,6 +244,8 @@ unexplained, not alien.
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night
+- Apollo 14 (1971): Alan Shepard brought a six-iron to the Moon and hit a golf ball that traveled for 'miles and miles' in the low gravity
+- Sagittarius B2 (2009): a giant dust cloud at the center of our galaxy contains enough ethyl formate to make the universe smell like raspberries and rum
 
 ### Near Misses
 
@@ -302,3 +306,5 @@ unexplained, not alien.
 - Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — parked (ep238)
 - Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of "seared steak," "hot metal," and "welding fumes"
 - Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight
+- Blue giant (1901): despite blue often representing 'cold' on Earth, blue giant stars are the hottest objects in the sky, reaching over 30,000 degrees
+- Planetary ring (1977): space telescopes proved Saturn isn't the only planet with rings; Jupiter, Uranus, and Neptune all have their own hidden systems

@@ -1,82 +1,116 @@
 {
-  "updated_at": "2026-10-29T14:28:33+05:30",
+  "updated_at": "2026-10-29T17:09:47+05:30",
   "day": 28,
   "result": "ok",
   "run": {
-    "host": "github-actions",
-    "id": "40841863953",
-    "number": "123",
+    "host": "modal",
+    "id": "ta-01M63Q290THJEZWTA553JV9QAR",
+    "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-29T13:54:52+05:30",
-    "started_at_utc": "2026-10-29T08:24:52+00:00",
-    "seconds": 2021
+    "started_at": "2026-10-29T17:05:13+05:30",
+    "started_at_utc": "2026-10-29T11:35:13+00:00",
+    "seconds": 274
   },
   "stages": [
+    {
+      "name": "deploy",
+      "ok": true,
+      "detail": "",
+      "seconds": 3.3
+    },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:20 UTC",
-      "seconds": 0.2
+      "seconds": 0.5
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.2
+      "seconds": 3.6
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.3
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 1.1
+      "seconds": 2.2
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 1.8
+      "seconds": 2.3
     },
     {
-      "name": "make ep250",
+      "name": "analytics",
       "ok": true,
-      "detail": "Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside: ready",
-      "seconds": 309.8
+      "detail": "106 subscribers",
+      "seconds": 14.2
     },
     {
-      "name": "make ep251",
+      "name": "learnings",
       "ok": true,
-      "detail": "Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day: ready",
-      "seconds": 1329.6
+      "detail": "Promoted the action-vs-abstract metric rule and updated myth-busting citations following reviews of ep185, ep165, and ep208.",
+      "seconds": 124.0
     },
     {
-      "name": "make ep252",
+      "name": "breakouts",
       "ok": true,
-      "detail": "Mariner 10 (1973): the first mission to use a \"gravity assist,\" stealing momentum from Venus to reach Mercury: ready",
-      "seconds": 1427.8
+      "detail": "none",
+      "seconds": 1.1
     },
     {
-      "name": "make ep253",
+      "name": "stalled Shorts",
       "ok": true,
-      "detail": "Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002: ready",
-      "seconds": 1700.4
+      "detail": "\"The Planet Made of Diamond\" (BCzhtNdHFlA) has 46 views after 37 hours: YouTube reports no restriction: public, processed, not for kids, not age-restricted, no blocked countries; \"The City-Killer Hiding in the Sun\" (5bfuZgx-CS4) has 0 views after 41 hours: it is private; \"The Galaxy With a Missing H",
+      "seconds": 0.3
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "2 added",
+      "seconds": 64.2
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "4 added",
+      "seconds": 47.3
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-028.md",
+      "seconds": 1.4
     }
   ],
   "errors": [],
-  "owner_action": [],
+  "owner_action": [
+    "\"The City-Killer Hiding in the Sun\" (https://youtube.com/shorts/5bfuZgx-CS4) is held back: it is private. Check it in Studio.",
+    "\"The Galaxy With a Missing Heart\" (https://youtube.com/shorts/Ql418EoNwCQ) is held back: it is private. Check it in Studio.",
+    "\"The Scrap-Metal Probe That Conquered Venus\" (https://youtube.com/shorts/VWs9pa7NFJo) is held back: it is private. Check it in Studio.",
+    "\"The Galaxy-Sized Cosmic Ghost\" (https://youtube.com/shorts/UrEN-tyt2DY) is held back: it is private. Check it in Studio.",
+    "\"The Missing Hyphen That Wasn't a Hyphen\" (https://youtube.com/shorts/3FU0QDuIAAQ) is held back: it is private. Check it in Studio.",
+    "\"The Star Escaping Our Galaxy at 4 Million MPH\" (https://youtube.com/shorts/TKHYK3-F_QI) is held back: it is private. Check it in Studio.",
+    "\"The Lonely Reality of the Asteroid Belt\" (https://youtube.com/shorts/sPUubWIORv4) is held back: it is private. Check it in Studio.",
+    "\"The Coldest Place in the Natural Universe\" (https://youtube.com/shorts/n8iv0-XfRnY) is held back: it is private. Check it in Studio."
+  ],
   "notes": [
     "Buffer is paused until Oct 30 00:30 IST: the Shorts due until then are scheduled on YouTube directly",
+    "room for 0 of the 2 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0",
     "Buffer's API limit is used up until 23:50 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -132,68 +166,7 @@
       "score": 20
     }
   ],
-  "made": [
-    {
-      "id": "ep250",
-      "outcome": "ready",
-      "topic": "Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside",
-      "title": "The Massive Tunnels Hidden Beneath the Moon",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793262610/universereceipts/ep250-371b5aed.mp4",
-      "renders": 3
-    },
-    {
-      "id": "ep251",
-      "outcome": "ready",
-      "topic": "Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day",
-      "title": "The 24-Year Streak of Living Off Earth",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793263630/universereceipts/ep251-35395ae8.mp4",
-      "renders": 3
-    },
-    {
-      "id": "ep252",
-      "outcome": "ready",
-      "topic": "Mariner 10 (1973): the first mission to use a \"gravity assist,\" stealing momentum from Venus to reach Mercury",
-      "title": "The Broken Probe That Sailed on Sunlight to Mercury",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793263728/universereceipts/ep252-8c32ffa2.mp4",
-      "renders": 3
-    },
-    {
-      "id": "ep253",
-      "outcome": "ready",
-      "topic": "Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002",
-      "title": "The 45-Year Cover-Up of Space Dog Laika",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793264311/universereceipts/ep253-0a00dbe6.mp4",
-      "renders": 2
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
   "published": [],
@@ -201,21 +174,21 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 23,
+    "calls": 3,
     "by_model": {
-      "gemini-3.6-flash": 5,
-      "gemini-3.5-flash": 9,
-      "gemini-3.5-flash-lite": 4,
-      "gemini-3.8-flash": 5
+      "gemini-3-flash-preview": 3
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash"
+    ]
   },
   "renders": {
     "modal": 0,
-    "runner": 9
+    "runner": 0
   },
-  "daily_done": "2026-10-28",
-  "minutes_this_month": 210.68370200123334,
+  "daily_done": "2026-10-29",
+  "minutes_this_month": 210.0,
   "minutes_budget": 20000,
   "modal_cost": {
     "metered": 28.27,
@@ -224,12 +197,12 @@
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 6,
-    "runner_minutes": 120,
-    "modal_credit_left": -0.23
+    "runner": 0,
+    "runner_minutes": 0,
+    "modal_credit_left": -0.27
   },
-  "starved": 0,
-  "made_here": 4,
-  "open_topics": 51,
+  "starved": 2,
+  "made_here": 0,
+  "open_topics": 57,
   "parked_topics": 51
 }
