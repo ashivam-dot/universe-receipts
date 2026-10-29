@@ -2045,9 +2045,11 @@ def main(produce_count: int | None = None, publish: bool = True, daily_mode: str
     quota = any(s.get("quota") or "Overloaded" in s.get("error", "") for s in failed)
     # Rejected Shorts are the quality gate working; a run fails when the Shorts it started all broke.
     made_nothing = run.started_here > 0 and not run.spawned and not any(m["outcome"] in ("ready", "rejected") for m in run.made)
+    # A single Short breaking (quota, a bad take) is retried next run, so only stages outside "make" count here.
+    broken = [s for s in failed if not s["name"].startswith("make ")]
     if not failed:
         result = "ok"
-    elif (made_nothing and not quota) or len(failed) >= 3:
+    elif (made_nothing and not quota) or len(broken) >= 3:
         result = "failed"
     else:
         result = "degraded"
