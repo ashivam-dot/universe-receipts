@@ -1,0 +1,216 @@
+id: ep260
+title: Voyager's Thirty Thousand Year Journey
+series: Scale Breaker
+format: v3
+description: NASA's Voyager 1 is the fastest object we've ever launched, but it will never survive the trip to the Solar System's
+  true edge.
+sources:
+- https://en.wikipedia.org/wiki/Oort_cloud
+- https://science.nasa.gov/solar-system/oort-cloud/facts/
+- https://www.universetoday.com/32522/oort-cloud/
+- https://cosmosunveiled.com/articles/oort-cloud-frozen-shell-solar-system.html
+- https://starwalk.space/en/news/what-is-oort-cloud
+- http://www.scientificamerican.com/article/kepler-oort-cloud/
+- https://www.space.com/16401-oort-cloud-the-outer-solar-system-s-icy-shell.html
+hashtags:
+- '#space'
+- '#voyager'
+- '#oortcloud'
+tags:
+- Voyager 1
+- Oort Cloud
+- NASA
+- Jan Oort
+- Astronomy
+- Solar System
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Voyager 1 will die long before it reaches our border.
+  emphasis:
+  - reaches our border
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/29/Voyager_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager spacecraft.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.5
+    box:
+    - 0.12
+    - 0.15
+    - 0.85
+    - 0.85
+- text: The ship is screaming away at a million miles a day.
+  emphasis:
+  - million miles
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f0/Voyagers_and_Pioneers_Trajectory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyagers and Pioneers Trajectory.png
+      credit: NASA / JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyagers_and_Pioneers_Trajectory.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Yet it won't touch the inner Oort cloud for three centuries.
+  emphasis:
+  - three centuries
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/53/Oort_cloud_lrg.en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Oort cloud lrg.en.png
+      credit: Nasa.gov
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Oort_cloud_lrg.en.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 300 YEARS
+      small: to reach the edge
+- text: Jan Oort proposed this giant icy shell in 1950.
+  emphasis:
+  - icy shell
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/JanOort.jpg/3840px-JanOort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: JanOort.jpg
+      credit: Joop van Bilsen
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:JanOort.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.65
+    focus_y: 0.6
+    box:
+    - 0.45
+    - 0.3
+    - 0.82
+    - 0.98
+    card:
+      kind: dateline
+      big: '1950'
+      small: Leiden, Netherlands
+- text: It stretches halfway to the next star system.
+  emphasis:
+  - next star system
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Best_image_of_Alpha_Centauri_A_and_B.jpg/960px-Best_image_of_Alpha_Centauri_A_and_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Best image of Alpha Centauri A and B.jpg
+      credit: ESA/Hubble & NASA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Best_image_of_Alpha_Centauri_A_and_B.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Sunlight takes over a year to reach the outer edge.
+  emphasis:
+  - over a year
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/3840px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg
+      credit: NASA/SDO (AIA)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: No telescope has ever actually seen this massive structure.
+  emphasis:
+  - massive structure
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/8f/Artist%27s_Concept_of_the_James_Webb_Space_Telescope_%28JWST%29_%282003-27-1413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Artist's Concept of the James Webb Space Telescope (JWST) (2003-27-1413).jpg
+      credit: Northrop Grumman
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist%27s_Concept_of_the_James_Webb_Space_Telescope_(JWST)_(2003-27-1413).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Voyager needs thirty thousand years to finally drift through it.
+  emphasis:
+  - thirty thousand years
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/PIA17046_-_Voyager_1_Goes_Interstellar.jpg/3840px-PIA17046_-_Voyager_1_Goes_Interstellar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA17046 - Voyager 1 Goes Interstellar.jpg
+      credit: NASA / JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA17046_-_Voyager_1_Goes_Interstellar.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 30,000 YEARS
+      small: to drift through
+- text: The probe will be a cold, silent rock before it ever leaves.
+  emphasis:
+  - cold, silent rock
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.45
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 30,000 YEARS TO THE EDGE
