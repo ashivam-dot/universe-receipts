@@ -318,6 +318,6 @@ unexplained, not alien.
 - Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight
 - Rings of Saturn (1610): Galileo first described the planet as having "ears" because his telescope wasn't clear enough to reveal the rings — done (ep258)
 - Black hole (1916): they don't actually function like cosmic vacuum cleaners; if the Sun were replaced by one, Earth wouldn't be sucked in — making (ep263)
-- Milky Way (1610): the "milk" in the sky isn't a cloud of gas, but the combined light of billions of individual stars too faint to see alone
+- Milky Way (1610): the "milk" in the sky isn't a cloud of gas, but the combined light of billions of individual stars too faint to see alone — making (ep266)
 - Mars (1976): the "Red Planet" is actually a golden-brown butterscotch color; its red hue is just a thin layer of iron oxide dust
 - Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look

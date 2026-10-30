@@ -37,7 +37,7 @@ each promoted on two Shorts; their evidence is kept below.)
 
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
-- Replace abstract metric hooks with tangible human-scale threats (e.g. 'mountain-sized' vs '5km') in the first 2 seconds to boost distribution (ep181, ep208, ep221).
+- Replace abstract metric hooks with tangible human-scale threats (e.g. 'mountain-sized' vs '5km') in the first 2 seconds to boost distribution (ep181, ep195, ep208, ep221).
 - Deliver mechanical explanations of the hook's premise immediately and eliminate historical detours to sustain mid-video retention (ep165).
 - For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic (ep146, ep165).
 - One number per beat: never stack figures or dates in consecutive beats (ep125, ep175).
@@ -53,44 +53,43 @@ contradiction.
 
 | Short | Series | Hook style | Observed 24-30h views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep079 | Scale Breaker | contradiction, story | 275 | 46% | 81.8% | 130% | 0 | – |
-| ep110 | Space Got Weird | statement, story | 1169 | 56% | 76.7% | 120% | 2 | – |
-| ep105 | Scale Breaker | statement, myth_vs_fact | 662 | 50% | 158.6% | 212% | 4 | – |
-| ep112 | Near Misses | statement, story | 581 | 53% | 62.2% | 111% | 1 | – |
-| ep111 | Scale Breaker | number, story | 1169 | 52% | 98.0% | 145% | 1 | – |
-| ep118 | Space Got Weird | statement, mystery | 927 | 54% | 69.6% | 118% | 0 | – |
-| ep130 | The Universe Is Terrifying | statement, scale_ladder | 823 | 53% | 60.5% | 113% | 2 | – |
-| ep125 | Mission Files | statement, record | 450 | 56% | 109.2% | 159% | 3 | – |
-| ep175 | Scale Breaker | contradiction, mystery | 1435 | 48% | 84.9% | 134% | 2 | – |
-| ep133 | Space Got Weird | statement, scale_ladder | 1208 | 48% | 59.9% | 117% | 3 | – |
-| ep051 | Mission Files | statement, scale_ladder | 1215 | 69% | 53.6% | 112% | 0 | – |
-| ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | 57% | 60.9% | 99% | 0 | – |
-| ep188 | Scale Breaker | contradiction, record | 948 | 50% | 79.9% | 128% | 0 | – |
-| ep137 | Near Misses | statement, story | 946 | 54% | 96.9% | 150% | 0 | – |
-| ep053 | Space Myths, Busted | statement, story | 1092 | 49% | 57.8% | 113% | 2 | – |
-| ep058 | Space Got Weird | statement, myth_vs_fact | 1014 | 52% | 107.3% | 158% | 3 | – |
-| ep063 | Near Misses | contradiction, mystery | 1010 | 51% | 72.0% | 115% | 4 | – |
-| ep184 | Near Misses | statement, myth_vs_fact | 487 | 54% | 66.7% | 110% | 0 | – |
-| ep071 | The Universe Is Terrifying | statement, record | 917 | 49% | 92.9% | 143% | 1 | – |
-| ep072 | Near Misses | statement, record | 711 | 50% | 174.9% | 233% | 1 | – |
-| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 57% | 68.6% | 124% | 1 | – |
-| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.0% | 110% | 1 | – |
-| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 64.3% | 114% | 1 | – |
-| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.9% | 116% | 1 | – |
-| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | – |
-| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.3% | 148% | 2 | – |
-| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.2% | 115% | 3 | – |
-| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | – |
-| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.1% | 126% | 0 | – |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.5% | 120% | 4 | Search-query phrasing yielded strong early reach (1,495 views at 28.1h vs 725.5 median), but a historical backstory detour in middle beats caused mid-video retention to collapse to 48.02%. |
+| ep110 | Space Got Weird | statement, story | 1169 | 56% | 76.7% | 120% | 2 | Hook: mystery; Topic: NASA history; Reach: high; Pacing: strong at10; Visuals: story-led. |
+| ep105 | Scale Breaker | statement, myth_vs_fact | 662 | 50% | 158.6% | 212% | 4 | Hook: scale; Topic: Saturn; Reach: low; Pacing: elite looping (158%); Visuals: effective. |
+| ep112 | Near Misses | statement, story | 581 | 53% | 62.2% | 111% | 1 | Hook: story; Topic: asteroid; Reach: low; Pacing: average; Visuals: discovery-focused. |
+| ep111 | Scale Breaker | number, story | 1169 | 52% | 98.0% | 145% | 1 | Hook: number/story; Topic: megastructure; Reach: high; Pacing: strong loop; Visuals: effective. |
+| ep118 | Space Got Weird | statement, mystery | 927 | 54% | 69.6% | 118% | 0 | Hook: mystery; Topic: jigsaw moon; Reach: high; Pacing: stable; Visuals: high interest. |
+| ep130 | The Universe Is Terrifying | statement, scale_ladder | 823 | 53% | 60.5% | 113% | 2 | Hook: hazard; Topic: black hole; Reach: high; Pacing: weak mid-video retention; Visuals: intimidating. |
+| ep125 | Mission Files | statement, record | 450 | 56% | 109.2% | 159% | 3 | Hook: record; Topic: nuclear rocket; Reach: low; Pacing: high loop; Visuals: niche historical. |
+| ep175 | Scale Breaker | contradiction, mystery | 1435 | 48% | 84.9% | 134% | 2 | Hook: paradox; Topic: universe size; Reach: high; Pacing: strong retention; Visuals: conceptual. |
+| ep133 | Space Got Weird | statement, scale_ladder | 1208 | 48% | 59.9% | 117% | 3 | Hook: scale; Topic: Saturn geometry; Reach: high; Pacing: below median; Visuals: pattern-based. |
+| ep051 | Mission Files | statement, scale_ladder | 1215 | 69% | 53.6% | 112% | 0 | Hook: scale; Topic: NASA crash; Reach: high; Pacing: elite engaged share (68%); Visuals: failure-led. |
+| ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | 57% | 60.9% | 99% | 0 | Hook: scale; Topic: Great Wall; Reach: high; Pacing: poor at10 start; Visuals: debunking. |
+| ep188 | Scale Breaker | contradiction, record | 948 | 50% | 79.9% | 128% | 0 | Hook: record; Topic: Pillars; Reach: high; Pacing: strong retention; Visuals: iconic imagery. |
+| ep137 | Near Misses | statement, story | 946 | 54% | 96.9% | 150% | 0 | Hook: story; Topic: spacewalk; Reach: high; Pacing: strong loop; Visuals: survival-led. |
+| ep053 | Space Myths, Busted | statement, story | 1092 | 49% | 57.8% | 113% | 2 | Hook: story; Topic: space rocks; Reach: high; Pacing: low retention; Visuals: impact-led. |
+| ep058 | Space Got Weird | statement, myth_vs_fact | 1014 | 52% | 107.3% | 158% | 3 | Hook: myth; Topic: ring galaxy; Reach: high; Pacing: high loop; Visuals: impossible geometry. |
+| ep063 | Near Misses | contradiction, mystery | 1010 | 51% | 72.0% | 115% | 4 | Hook: mystery; Topic: star collision; Reach: high; Pacing: good; Visuals: threat-based. |
+| ep184 | Near Misses | statement, myth_vs_fact | 487 | 54% | 66.7% | 110% | 0 | Hook: story; Topic: Soviet alarm; Reach: low; Pacing: average; Visuals: niche history. |
+| ep071 | The Universe Is Terrifying | statement, record | 917 | 49% | 92.9% | 143% | 1 | Hook: record; Topic: galactic crash; Reach: high; Pacing: high retention; Visuals: scale-based. |
+| ep072 | Near Misses | statement, record | 711 | 50% | 174.9% | 233% | 1 | Hook: record; Topic: solar storm; Reach: low; Pacing: elite looping (174%); Visuals: rare event. |
+| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 57% | 68.6% | 124% | 1 | Hook: myth; Topic: Pale Blue Dot; Reach: low; Pacing: stable; Visuals: iconic but slow. |
+| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.0% | 110% | 1 | Hook: myth; Topic: Halley's Comet; Reach: high; Pacing: weak retention; Visuals: actionable. |
+| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 64.3% | 114% | 1 | Hook: scale; Topic: Apollo radiation; Reach: high; Pacing: median; Visuals: historical debunk. |
+| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.9% | 116% | 1 | Hook: scale; Topic: asteroid rings; Reach: low; Pacing: high engaged share; Visuals: niche astronomy. |
+| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | Hook: scale; Topic: Mercury day; Reach: high; Pacing: median; Visuals: counter-intuitive. |
+| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.3% | 148% | 2 | Hook: myth; Topic: largest star; Reach: high; Pacing: strong loop; Visuals: scale change. |
+| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.0% | 114% | 3 | Hook: scale; Topic: dead star; Reach: low; Pacing: median; Visuals: abstract threat. |
+| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | Hook: story; Topic: suicide squad; Reach: low; Pacing: weak; Visuals: origin story. |
+| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.1% | 126% | 0 | Hook: myth; Topic: space explosion; Reach: low; Pacing: high retention; Visuals: human-scale. |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.5% | 120% | 4 | Hook: myth; Topic: Pluto orbit; Reach: high; Pacing: median; Visuals: discovery-based. |
 | ep174 | Mission Files | statement, story | 260 | 52% | 64.5% | 106% | 1 | published while YouTube held the whole channel back; not evidence |
 | ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 51% | 39.8% | 96% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep210 | Mission Files | contradiction, mystery | 149 | 41% | 41.1% | 98% | 0 | published while YouTube held the whole channel back; not evidence |
-| 4vqKkpkfwyY | ? | –, story | – | 29% | 44.3% | 112% | 0 | published while YouTube held the whole channel back; not evidence |
-| ep177 | Mission Files | statement, story | 127 | 56% | 50.3% | 101% | 0 | published while YouTube held the whole channel back; not evidence |
-| ep216 | Space Myths, Busted | contradiction, record | 90 | 53% | 59.6% | 108% | 0 | published while YouTube held the whole channel back; not evidence |
-| 7lDBiMMlASI | ? | –, story | – | 26% | 82.0% | – | 0 | published while YouTube held the whole channel back; not evidence |
-| ep190 | Mission Files | statement, story | 14 | 50% | 65.6% | – | 0 | published while YouTube held the whole channel back; not evidence |
+| 4vqKkpkfwyY | ? | –, story | – | 29% | 46.7% | 110% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep177 | Mission Files | statement, story | 127 | 55% | 53.4% | 102% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep216 | Space Myths, Busted | contradiction, record | 90 | 52% | 59.3% | 109% | 0 | published while YouTube held the whole channel back; not evidence |
+| 7lDBiMMlASI | ? | –, story | – | 29% | 86.5% | 142% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep190 | Mission Files | statement, story | 14 | 44% | 73.6% | – | 0 | published while YouTube held the whole channel back; not evidence |
 | n8iv0-XfRnY | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 | sPUubWIORv4 | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 | TKHYK3-F_QI | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
@@ -99,9 +98,10 @@ contradiction.
 | VWs9pa7NFJo | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 | Ql418EoNwCQ | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 | 5bfuZgx-CS4 | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
-| ep225 | Space Got Weird | contradiction, mystery | 41 | 56% | 54.0% | 116% | 0 | published while YouTube held the whole channel back; not evidence |
-| ep078 | The Universe Is Terrifying | contradiction, scale_ladder | 85 | 38% | 71.3% | 125% | 0 | published while YouTube held the whole channel back; not evidence |
-| ep244 | Space Myths, Busted | statement, record | 51 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| ep225 | Space Got Weird | contradiction, mystery | 41 | 48% | 58.1% | 114% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep078 | The Universe Is Terrifying | contradiction, scale_ladder | 85 | 41% | 73.1% | 129% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep244 | Space Myths, Busted | statement, record | 51 | 31% | 78.1% | 127% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep254 | Scale Breaker | statement, story | 1061 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 
 ## Log
 
@@ -216,3 +216,4 @@ contradiction.
 - 2026-10-30: Logged diagnostic reviews for ep165 and ep208, reinforcing hypotheses on immediate mechanical payoffs and eliminating abstract metric hooks.
 - 2026-10-30: Analyzed ep165 and ep208 reviews, adding evidence to human-scale threat and direct mechanical payoff hypotheses without altering proven rules.
 - 2026-10-30: Logged diagnostic reviews for ep165 and ep208, reinforcing hypotheses on cutting historical detours and avoiding metric abstractions in hooks.
+- 2026-10-31: Updated medians and reviewed ep208, noting a strong correlation between abstract scale hooks and distribution failure (reach <100).
