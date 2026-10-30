@@ -1,58 +1,58 @@
 {
-  "updated_at": "2026-10-30T05:08:20+05:30",
+  "updated_at": "2026-10-30T11:10:34+05:30",
   "day": 29,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6508KS466CMA5VA7X1XYCCR",
+    "id": "ta-01M65MVSPZWK9SBJ4EE61RXCWR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-30T05:05:10+05:30",
-    "started_at_utc": "2026-10-29T23:35:10+00:00",
-    "seconds": 191
+    "started_at": "2026-10-30T11:05:07+05:30",
+    "started_at_utc": "2026-10-30T05:35:07+00:00",
+    "seconds": 326
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.4
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "78 posts",
-      "seconds": 2.4
+      "seconds": 1.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep254 to 'Scale Breaker'",
-      "seconds": 4.4
+      "detail": "nothing new",
+      "seconds": 3.0
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep177 at 72 h: behind the channel's earlier Shorts at this age: 158 views against a median of 1010 (0.2x); learnings: Logged diagnostic reviews for ep165 and ep208, reinforcing hypotheses on immediate mechanical payoffs and eliminating abstract metric hooks.",
-      "seconds": 155.7
+      "detail": "ep216 at 72 h: behind the channel's earlier Shorts at this age: 109 views against a median of 1010 (0.1x); ep254 at 6 h: ahead of the channel's earlier Shorts at this age: 1004 views against a median of 528 (1.9x); learnings: Analyzed ep165 and ep208 reviews, adding evidence to human-scale threat and direct mechanical payoff hypotheses without altering proven rules.",
+      "seconds": 295.0
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 3.3
+      "seconds": 3.2
     },
     {
       "name": "buffer channel",
@@ -63,7 +63,7 @@
     {
       "name": "preflight ep258",
       "ok": true,
-      "detail": "video downloads whole (14 MB in 0 s)",
+      "detail": "video still hosted",
       "seconds": 0.3
     },
     {
@@ -76,7 +76,7 @@
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 1.5
     }
   ],
   "errors": [],
@@ -114,9 +114,12 @@
   "llm": {
     "calls": 2,
     "by_model": {
-      "gemini-3.8-flash": 2
+      "gemini-3.8-flash": 1,
+      "gemini-3.7-flash": 1
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
     "modal": 0,
@@ -126,7 +129,7 @@
   "minutes_this_month": 278.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.38,
+    "metered": 28.39,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -134,7 +137,7 @@
     "cloud": 0,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": -0.38
+    "modal_credit_left": -0.39
   },
   "starved": 4,
   "made_here": 0,
