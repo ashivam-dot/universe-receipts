@@ -53,11 +53,14 @@ unexplained, not alien.
 | 2026-10-25 | Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside — done (ep250) | Scale Breaker | Interest in the Moon is high on Wikipedia following NASA's recent updates on accelerating lander development for 2028. |
 | 2026-10-29 | CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour — done (ep254) | Scale Breaker | NASA's citizen science highlights this week brought renewed attention to the project that discovered this galaxy-escaping object. |
 | 2026-10-29 | Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo — parked (ep255) | Space Got Weird | This specific visual phenomenon was featured as the NASA Astronomy Picture of the Day on October 29. |
+| 2026-10-30 | Dragonfly (spacecraft) (2021): this nuclear-powered rotorcraft will leapfrog across Titan, covering more ground in a single flight than the Curiosity rover has in twelve years | Mission Files | NASA just opened a public campaign to send names to Titan aboard the craft. |
+| 2026-10-30 | Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet | Scale Breaker | NASA scientists just identified 13 specific craters on Mars where this ancient rock may have originated. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
 | Date | Story | Series |
 |---|---|---|
+| Dec 4 | Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball | Mission Files |
 | Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day — parked (ep217) | Mission Files |
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury — done (ep252) | Mission Files |
 | Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar | Near Misses |
@@ -215,6 +218,7 @@ unexplained, not alien.
 - Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth
 - Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands
 - Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator
+- Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs
 
 ### Space Got Weird
 
@@ -249,6 +253,8 @@ unexplained, not alien.
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — parked (ep259)
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night
 - Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls
+- Moon (1969): Apollo astronauts discovered that lunar dust smells exactly like spent gunpowder and can cause moon hay fever
+- Saturn (2013): extreme pressure in the atmosphere may create diamond rain, where 1,000 tons of diamonds are produced every year
 
 ### Near Misses
 
@@ -277,6 +283,7 @@ unexplained, not alien.
 - STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew
 - 2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it
 - Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball
+- International Space Station (2022): astronauts had to fire the station's thrusters to dodge a piece of space junk traveling at 17,500 mph
 
 ### Space Myths, Busted
 
@@ -310,3 +317,7 @@ unexplained, not alien.
 - Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of "seared steak," "hot metal," and "welding fumes" — dropped (ep256)
 - Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight
 - Rings of Saturn (1610): Galileo first described the planet as having "ears" because his telescope wasn't clear enough to reveal the rings — done (ep258)
+- Black hole (1916): they don't actually function like cosmic vacuum cleaners; if the Sun were replaced by one, Earth wouldn't be sucked in
+- Milky Way (1610): the "milk" in the sky isn't a cloud of gas, but the combined light of billions of individual stars too faint to see alone
+- Mars (1976): the "Red Planet" is actually a golden-brown butterscotch color; its red hue is just a thin layer of iron oxide dust
+- Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look

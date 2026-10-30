@@ -38,8 +38,8 @@ each promoted on two Shorts; their evidence is kept below.)
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
 - Replace abstract metric hooks with tangible human-scale threats (e.g. 'mountain-sized' vs '5km') in the first 2 seconds to boost distribution (ep181, ep208, ep221).
-- For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic (ep146, ep165).
 - Deliver mechanical explanations of the hook's premise immediately and eliminate historical detours to sustain mid-video retention (ep165).
+- For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic (ep146, ep165).
 - One number per beat: never stack figures or dates in consecutive beats (ep125, ep175).
 - Compress scientific definitions into a single beat under 4 seconds to reach core resolution by the 12-second mark (ep172).
 - End on a direct question or challenge to the viewer to convert high retention into active comments (ep185).
@@ -82,7 +82,7 @@ contradiction.
 | ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.2% | 115% | 3 | – |
 | ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | – |
 | ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.1% | 126% | 0 | – |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.5% | 120% | 4 | Search-friendly title and myth hook drove strong early reach (1,495 views at 28.1h vs median 725.5) and above-median engaged share (56.1%), but historical detours in middle beats degraded mid-video retention. |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.5% | 120% | 4 | Search-query phrasing yielded strong early reach (1,495 views at 28.1h vs 725.5 median), but a historical backstory detour in middle beats caused mid-video retention to collapse to 48.02%. |
 | ep174 | Mission Files | statement, story | 260 | 52% | 64.5% | 106% | 1 | published while YouTube held the whole channel back; not evidence |
 | ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 51% | 39.8% | 96% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep210 | Mission Files | contradiction, mystery | 149 | 41% | 41.1% | 98% | 0 | published while YouTube held the whole channel back; not evidence |
@@ -215,3 +215,4 @@ contradiction.
 - 2026-10-29: Reviewed ep165 and ep208; updated strategy to prioritize immediate mechanical explanations over historical detours to fix mid-video audience drop-off.
 - 2026-10-30: Logged diagnostic reviews for ep165 and ep208, reinforcing hypotheses on immediate mechanical payoffs and eliminating abstract metric hooks.
 - 2026-10-30: Analyzed ep165 and ep208 reviews, adding evidence to human-scale threat and direct mechanical payoff hypotheses without altering proven rules.
+- 2026-10-30: Logged diagnostic reviews for ep165 and ep208, reinforcing hypotheses on cutting historical detours and avoiding metric abstractions in hooks.

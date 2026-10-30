@@ -1,34 +1,40 @@
 {
-  "updated_at": "2026-10-30T13:48:56+05:30",
+  "updated_at": "2026-10-30T17:10:20+05:30",
   "day": 29,
   "result": "ok",
   "run": {
-    "host": "github-actions",
-    "id": "41021691566",
-    "number": "128",
+    "host": "modal",
+    "id": "ta-01M669EZBAEJWRETVRJ1HXNKKR",
+    "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-30T13:12:54+05:30",
-    "started_at_utc": "2026-10-30T07:42:54+00:00",
-    "seconds": 2163
+    "started_at": "2026-10-30T17:05:09+05:30",
+    "started_at_utc": "2026-10-30T11:35:09+00:00",
+    "seconds": 311
   },
   "stages": [
     {
+      "name": "deploy",
+      "ok": true,
+      "detail": "",
+      "seconds": 2.1
+    },
+    {
       "name": "sync",
       "ok": true,
-      "detail": "78 posts",
-      "seconds": 0.9
+      "detail": "79 posts",
+      "seconds": 1.1
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.5
+      "seconds": 3.0
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.6
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -40,13 +46,55 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 1.7
+      "seconds": 3.4
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.5
+      "seconds": 3.1
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "108 subscribers",
+      "seconds": 16.6
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Logged diagnostic reviews for ep165 and ep208, reinforcing hypotheses on cutting historical detours and avoiding metric abstractions in hooks.",
+      "seconds": 82.2
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "ep254 \"A Star ESCAPING the Milky Way\" broke out: 1,027 views 13 hours after going live, 13.1x the median of its peers at that age (78); queued no follow-up that passed the checks",
+      "seconds": 30.5
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "2 added",
+      "seconds": 90.3
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "9 added",
+      "seconds": 48.1
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-029.md",
+      "seconds": 2.4
     },
     {
       "name": "buffer channel",
@@ -58,55 +106,31 @@
       "name": "preflight ep258",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.3
+    },
+    {
+      "name": "preflight ep260",
+      "ok": true,
+      "detail": "video downloads whole (15 MB in 0 s)",
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.9
-    },
-    {
-      "name": "make ep257",
-      "ok": true,
-      "detail": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth: rejected (too many attempts)",
-      "seconds": 0.0
-    },
-    {
-      "name": "make ep259",
-      "ok": true,
-      "detail": "Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice: rejected (low scores: loop)",
-      "seconds": 1364.5
-    },
-    {
-      "name": "make ep260",
-      "ok": true,
-      "detail": "Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge: ready",
-      "seconds": 719.4
-    },
-    {
-      "name": "make ep261",
-      "ok": true,
-      "detail": "Io (moon) (1979): tidal forces squeeze this world so violently that hundreds of volcanoes shoot sulfur plumes hundreds of miles into space: rejected (low scores: payoff, visuals; 2 frame problems)",
-      "seconds": 2135.1
+      "seconds": 1.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 3.8
-    },
-    {
-      "name": "schedule ep260",
-      "ok": true,
-      "detail": "2026-10-31T19:00:00-04:00",
-      "seconds": 1.4
+      "seconds": 1.6
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "only 2 Shorts made and unposted; scheduling 1 a day"
+    "room for 0 of the 4 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0"
   ],
   "inventory": {
     "total": 2,
@@ -129,70 +153,31 @@
     }
   ],
   "waiting": [],
-  "made": [
-    {
-      "id": "ep257",
-      "outcome": "rejected",
-      "topic": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth",
-      "reason": "too many attempts"
-    },
-    {
-      "id": "ep260",
-      "outcome": "ready",
-      "topic": "Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge",
-      "title": "Voyager's Thirty Thousand Year Journey",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793346913/universereceipts/ep260-527bdd0d.mp4",
-      "renders": 2
-    },
-    {
-      "id": "ep259",
-      "outcome": "rejected",
-      "topic": "Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice",
-      "reason": "low scores: loop"
-    },
-    {
-      "id": "ep261",
-      "outcome": "rejected",
-      "topic": "Io (moon) (1979): tidal forces squeeze this world so violently that hundreds of volcanoes shoot sulfur plumes hundreds of miles into space",
-      "reason": "low scores: payoff, visuals; 2 frame problems"
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
-  "published": [
-    {
-      "id": "ep260",
-      "title": "Voyager's Thirty Thousand Year Journey",
-      "due_at": "2026-10-31T19:00:00-04:00"
-    }
-  ],
+  "published": [],
   "live": 77,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 36,
+    "calls": 4,
     "by_model": {
-      "gemini-3.8-flash-lite-tts": 10,
-      "gemini-3.8-flash": 8,
-      "gemini-3.8-flash-tts": 8,
-      "gemini-3.5-flash-lite": 3,
-      "gemini-3.7-flash": 7
+      "gemini-3.8-flash": 1,
+      "gemini-3.6-flash": 1,
+      "gemini-3-flash-preview": 2
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
     "modal": 0,
-    "runner": 8
+    "runner": 0
   },
-  "daily_done": "2026-10-29",
-  "minutes_this_month": 316.0438121885,
+  "daily_done": "2026-10-30",
+  "minutes_this_month": 316.0,
   "minutes_budget": 20000,
   "modal_cost": {
     "metered": 28.42,
@@ -201,12 +186,12 @@
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 6,
-    "runner_minutes": 120,
-    "modal_credit_left": -0.39
+    "runner": 0,
+    "runner_minutes": 0,
+    "modal_credit_left": -0.42
   },
-  "starved": 0,
-  "made_here": 4,
-  "open_topics": 52,
+  "starved": 4,
+  "made_here": 0,
+  "open_topics": 63,
   "parked_topics": 53
 }
