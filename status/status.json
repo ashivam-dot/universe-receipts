@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-10-30T17:10:20+05:30",
+  "updated_at": "2026-10-30T23:05:40+05:30",
   "day": 29,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M669EZBAEJWRETVRJ1HXNKKR",
+    "id": "ta-01M66Y25843M8BX2JDE7G7EX6R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-30T17:05:09+05:30",
-    "started_at_utc": "2026-10-30T11:35:09+00:00",
-    "seconds": 311
+    "started_at": "2026-10-30T23:05:07+05:30",
+    "started_at_utc": "2026-10-30T17:35:07+00:00",
+    "seconds": 33
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
+      "seconds": 1.6
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "79 posts",
-      "seconds": 1.1
+      "seconds": 2.2
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.0
+      "seconds": 2.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -45,56 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 3.4
+      "detail": "ep190 at 72 h: behind the channel's earlier Shorts at this age: 18 views against a median of 994 (0.0x)",
+      "seconds": 3.2
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 3.1
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "108 subscribers",
-      "seconds": 16.6
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Logged diagnostic reviews for ep165 and ep208, reinforcing hypotheses on cutting historical detours and avoiding metric abstractions in hooks.",
-      "seconds": 82.2
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "ep254 \"A Star ESCAPING the Milky Way\" broke out: 1,027 views 13 hours after going live, 13.1x the median of its peers at that age (78); queued no follow-up that passed the checks",
-      "seconds": 30.5
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 90.3
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "9 added",
-      "seconds": 48.1
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-029.md",
-      "seconds": 2.4
+      "seconds": 2.7
     },
     {
       "name": "buffer channel",
@@ -106,25 +64,25 @@
       "name": "preflight ep258",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.6
     },
     {
       "name": "preflight ep260",
       "ok": true,
-      "detail": "video downloads whole (15 MB in 0 s)",
-      "seconds": 0.4
+      "detail": "video still hosted",
+      "seconds": 0.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 1.3
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.6
+      "seconds": 1.2
     }
   ],
   "errors": [],
@@ -161,16 +119,9 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 4,
-    "by_model": {
-      "gemini-3.8-flash": 1,
-      "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 2
-    },
-    "out_of_quota": [
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "calls": 0,
+    "by_model": {},
+    "out_of_quota": []
   },
   "renders": {
     "modal": 0,
