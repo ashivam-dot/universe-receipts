@@ -1,17 +1,23 @@
 {
-  "updated_at": "2026-10-31T04:51:39+05:30",
+  "updated_at": "2026-10-31T05:05:31+05:30",
   "day": 30,
-  "result": "degraded",
+  "result": "ok",
   "run": {
-    "host": "github-actions",
-    "id": "41142800298",
-    "number": "130",
+    "host": "modal",
+    "id": "ta-01M67JNBVDZHY8FVM7HF5XXC7R",
+    "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-31T04:40:47+05:30",
-    "started_at_utc": "2026-10-30T23:10:47+00:00",
-    "seconds": 652
+    "started_at": "2026-10-31T05:05:07+05:30",
+    "started_at_utc": "2026-10-30T23:35:07+00:00",
+    "seconds": 24
   },
   "stages": [
+    {
+      "name": "deploy",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.4
+    },
     {
       "name": "sync",
       "ok": true,
@@ -21,8 +27,8 @@
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep258 to 'Space Myths, Busted'",
-      "seconds": 3.2
+      "detail": "nothing new",
+      "seconds": 2.2
     },
     {
       "name": "languages",
@@ -34,19 +40,19 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep225 at 72 h: behind the channel's earlier Shorts at this age: 48 views against a median of 979 (0.0x); ep254 at 24 h: ahead of the channel's earlier Shorts at this age: 1061 views against a median of 726 (1.5x); learnings: Updated medians and reviewed ep208, noting a strong correlation between abstract scale hooks and distribution failure (reach <100).",
-      "seconds": 155.7
+      "detail": "no checkpoint due",
+      "seconds": 2.2
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.8
+      "seconds": 2.1
     },
     {
       "name": "buffer channel",
@@ -58,53 +64,25 @@
       "name": "preflight ep260",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.1
+      "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
-    },
-    {
-      "name": "make ep262",
-      "ok": false,
-      "detail": "Dragonfly (spacecraft) (2021): this nuclear-powered rotorcraft will leapfrog across Titan, covering more ground in a single flight than the Curiosity rover has in twelve years",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 264.6
-    },
-    {
-      "name": "make ep263",
-      "ok": false,
-      "detail": "Black hole (1916): they don't actually function like cosmic vacuum cleaners; if the Sun were replaced by one, Earth wouldn't be sucked in",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 322.6
-    },
-    {
-      "name": "make ep264",
-      "ok": false,
-      "detail": "Phobos (moon) (1877): Mars is slowly dragging its largest moon to its doom, where tidal forces will eventually tear it into a planetary ring",
-      "error": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "seconds": 467.2
+      "seconds": 1.0
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 0.9
     }
   ],
-  "errors": [
-    "make ep262: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-    "make ep263: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-    "make ep264: OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today"
-  ],
+  "errors": [],
   "owner_action": [],
   "notes": [
-    "Gemini is out of free quota or overloaded; the rest waits for the next run"
+    "room for 0 of the 6 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0"
   ],
   "inventory": {
     "total": 1,
@@ -136,29 +114,16 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 7,
-    "by_model": {
-      "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 2,
-      "gemini-3.8-flash-tts": 3,
-      "gemini-3.8-flash-lite-tts": 1
-    },
-    "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest",
-      "ovh:Qwen3.5-397B-A17B"
-    ]
+    "calls": 0,
+    "by_model": {},
+    "out_of_quota": []
   },
   "renders": {
     "modal": 0,
-    "runner": 3
+    "runner": 0
   },
   "daily_done": "2026-10-30",
-  "minutes_this_month": 356.86654030305,
+  "minutes_this_month": 356.0,
   "minutes_budget": 20000,
   "modal_cost": {
     "metered": 28.51,
@@ -167,12 +132,12 @@
   "modal_credit": 30.0,
   "capacity": {
     "cloud": 0,
-    "runner": 6,
-    "runner_minutes": 120,
+    "runner": 0,
+    "runner_minutes": 0,
     "modal_credit_left": -0.51
   },
-  "starved": 0,
-  "made_here": 3,
+  "starved": 6,
+  "made_here": 0,
   "open_topics": 59,
   "parked_topics": 52
 }
