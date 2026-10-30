@@ -1,0 +1,70 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-31T00:33:42+05:30",
+      "check": {
+        "duration": 27.43,
+        "words": 82,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -2.8,
+        "warnings": [],
+        "speech_differences": [
+          "'replacing' heard as 'but placing' after 'any normal star'",
+          "'(nothing)' heard as 'star' after 'sits sagittarius a'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong direct address to common myth.",
+        "clarity": "Middle beats introduce unrelated facts about formation.",
+        "payoff": "Ends on a repetition rather than new insight.",
+        "visuals": "Consistent style, though beat seven is complex.",
+        "loop": "Phrasing allows for a smooth reset."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Diagram is too technical and text-heavy for mobile."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Replacing",
+          "respelling": "ree play sing"
+        },
+        {
+          "beat": 6,
+          "word": "Sagittarius",
+          "respelling": "saj ih tare ee us"
+        }
+      ],
+      "rewrite": [
+        "Beat 4: Objects only fall in if they cross the event horizon.",
+        "Beat 5: Outside that point, they just orbit normally.",
+        "Beat 8: Gravity is mass, not a cosmic vacuum."
+      ],
+      "better_than_last": "Provides a more relatable real-world comparison than the Voyager episode's distances.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

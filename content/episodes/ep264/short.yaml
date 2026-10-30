@@ -1,0 +1,172 @@
+id: ep264
+title: Mars Is Eating Its Own Moon
+series: The Universe Is Terrifying
+format: v3
+description: Mars is dragging its largest moon, Phobos, toward a violent end. Scientists believe it will one day shatter and
+  form a dark ring around the planet.
+sources:
+- https://en.wikipedia.org/wiki/Phobos_(moon)
+- https://web.archive.org/web/20230425153640/http://planetary-science.org/mars-research/moons-of-mars/
+- http://sci.esa.int/science-e/www/object/index.cfm?fobjectid=31031
+- https://www.nature.com/articles/s41550-021-01306-2
+- https://www.space.com/mars-moon-phobos-orbit-surface-powder.html
+hashtags:
+- '#space'
+- '#mars'
+- '#phobos'
+tags:
+- Mars
+- Phobos
+- Moon
+- Astronomy
+- Space
+- NASA
+- Planetary ring
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Mars is currently devouring its largest moon.
+  emphasis:
+  - devouring its largest moon
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Phobos_over_Mars_-_Peridier_Crater%2C_Syrtis_Major_quadrangle_-_ESA_Mars_Express_%2852568167027%29.png/1920px-Phobos_over_Mars_-_Peridier_Crater%2C_Syrtis_Major_quadrangle_-_ESA_Mars_Express_%2852568167027%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Phobos over Mars - Peridier Crater, Syrtis Major quadrangle - ESA Mars Express (52568167027).png
+      credit: Andrea Luck
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Phobos_over_Mars_-_Peridier_Crater,_Syrtis_Major_quadrangle_-_ESA_Mars_Express_(52568167027).png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.54
+    focus_y: 0.46
+    box:
+    - 0.41
+    - 0.33
+    - 0.67
+    - 0.59
+- text: It skims just 6,000 kilometers above the Martian dust.
+  emphasis:
+  - 6,000 kilometers
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 6,000 kilometers
+      small: Above the surface
+    motion: zoom_in
+- text: Named for the god of fear, this orbit is a death sentence.
+  emphasis:
+  - death sentence
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f7/Stickney_PIA01333.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Stickney PIA01333.jpg
+      credit: NASA/JPL/Malin Space Science Systems
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Stickney_PIA01333.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.4
+    focus_y: 0.5
+- text: The planet drags the moon inward by two centimeters every year.
+  emphasis:
+  - two centimeters
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Phobos_over_Mars.png/960px-Phobos_over_Mars.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Phobos over Mars.png
+      credit: NASA, Viking 2 Orbiter
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Phobos_over_Mars.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.25
+    focus_y: 0.55
+- text: Tidal forces are relentlessly stretching the moon’s fragile interior.
+  emphasis:
+  - fragile interior
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Heaven_is_coming%2CMars_system.png/1280px-Heaven_is_coming%2CMars_system.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Heaven is coming,Mars system.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Heaven_is_coming,Mars_system.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Within fifty million years, the Red Planet will win.
+  emphasis:
+  - planet will win
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Mars_Valles_Marineris.jpeg/1280px-Mars_Valles_Marineris.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars Valles Marineris.jpeg
+      credit: NASA / USGS (see PIA04304 catalog page)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris.jpeg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This destruction is inevitable because the moon will shatter into a dusty ring.
+  emphasis:
+  - dusty ring
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c4/Extreme_debris_disc_%28artist%E2%80%99s_concept%29_%28weic2618a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Extreme debris disc (artist’s concept) (weic2618a).jpg
+      credit: NASA, ESA, CSA, J. Olmsted (STScI)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Extreme_debris_disc_(artist%E2%80%99s_concept)_(weic2618a).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Because every single year, Mars is steadily dragging its moon to its doom.
+  emphasis:
+  - moon to its doom
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.54
+    focus_y: 0.46
+look: bold
+music:
+  path: bed:mystery
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A FATAL ORBIT

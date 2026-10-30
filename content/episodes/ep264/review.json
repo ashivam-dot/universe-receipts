@@ -1,0 +1,116 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-31T00:30:00+05:30",
+      "check": {
+        "duration": 27.6,
+        "words": 78,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'stretching the moon'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The opening line is an interesting fact but lacks a visceral grab for a stranger.",
+        "clarity": "The narrative follows a very logical path from current state to eventual outcome.",
+        "payoff": "The transformation of a moon into a planetary ring is a solid astronomical payoff.",
+        "visuals": "The middle beats use flat maps and historical drawings rather than immersive space visuals.",
+        "loop": "The ending is too conclusive and doesn't naturally lead back into the opening moon fact."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "mostly text and technical map lines, lacks visual impact"
+        },
+        {
+          "beat": 6,
+          "problem": "off-topic historical engraving of a person instead of space content"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Mars is currently devouring its largest moon.",
+        "Beat 8: This destruction is inevitable because..."
+      ],
+      "better_than_last": "This short offers a much clearer timeline of events than the 'Escaping Star' episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-31T00:38:30+05:30",
+      "check": {
+        "duration": 27.16,
+        "words": 79,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'stretching the moon'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong emotional hook but the subject matter is relatively common in space media.",
+        "clarity": "The progression from orbit height to tidal destruction is logical and easy to follow.",
+        "payoff": "The transformation of a moon into a ring system is a satisfying scientific twist.",
+        "visuals": "The terrestrial telescope in beat 2 and the generic explosion in beat 7 are weak.",
+        "loop": "The transition repeats the word Mars too quickly and lacks a smooth verbal bridge."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a terrestrial telescope and people instead of Mars or its orbit."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows a generic fiery explosion rather than a moon shattering into a ring."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Because every single year..."
+      ],
+      "better_than_last": "This episode maintains better thematic focus on a single object compared to the star escaping the galaxy short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

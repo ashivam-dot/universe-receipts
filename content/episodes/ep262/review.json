@@ -1,0 +1,59 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-31T00:37:42+05:30",
+      "check": {
+        "duration": 30.07,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'thicker than earth'",
+          "'s' heard as 'is' after 'times easier nasa'",
+          "'won t' heard as 'will not' after 'next great explorer'",
+          "'ll' heard as 'will' after 't crawl it'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong opening image and text overlay immediately promise a high-tech space story.",
+        "clarity": "The comparison between Mars' slow rovers and Titan's easy flight is very easy to grasp.",
+        "payoff": "The fact that one flight beats Curiosity's 10-year distance is a powerful ending.",
+        "visuals": "High-quality renders and appropriate Mars/Titan imagery, though one frame is overly technical.",
+        "loop": "Perfect seamless transition from the last word back to the start of the sentence."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The schematic is too detailed with small text that is impossible to read at phone size."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script achieves a more perfect, seamless loop than the Voyager episode while maintaining high clarity.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

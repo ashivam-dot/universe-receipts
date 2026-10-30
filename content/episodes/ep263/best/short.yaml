@@ -1,0 +1,192 @@
+id: ep263
+title: The Black Hole Vacuum Cleaner Myth
+series: Space Myths, Busted
+format: v3
+description: Black holes do not suck in surrounding space like giant vacuum cleaners. From a distance, their gravitational
+  pull is identical to any normal star of equal mass.
+sources:
+- https://en.wikipedia.org/wiki/Black_hole
+- https://science.nasa.gov/universe/black-holes/
+hashtags:
+- '#space'
+- '#blackhole'
+- '#astronomy'
+tags:
+- black hole
+- sagittarius a*
+- space myth
+- gravity
+- astronomy
+- physics
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Black holes do not act like giant vacuum cleaners.
+  emphasis:
+  - vacuum cleaners
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/A_view_of_the_M87_supermassive_black_hole_in_polarised_light_%28eso2105a%29.jpg/1920px-A_view_of_the_M87_supermassive_black_hole_in_polarised_light_%28eso2105a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: A view of the M87 supermassive black hole in polarised light (eso2105a).jpg
+      credit: EHT Collaboration
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:A_view_of_the_M87_supermassive_black_hole_in_polarised_light_(eso2105a).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: NOT VACUUMS
+      small: black hole gravity myth
+- text: At a distance, their gravity is identical to any normal star.
+  emphasis:
+  - identical
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: EQUAL GRAVITY
+      small: identical mass pull
+    motion: zoom_in
+- text: Replacing our Sun with an equal-mass black hole wouldn't pull Earth in.
+  emphasis:
+  - wouldn't pull Earth
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/City_Lights_of_Asia_and_Middle_East_2016.png/3840px-City_Lights_of_Asia_and_Middle_East_2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: City Lights of Asia and Middle East 2016.png
+      credit: NASA Earth Observatory
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:City_Lights_of_Asia_and_Middle_East_2016.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Stellar black holes form when massive stars collapse in supernovae.
+  emphasis:
+  - supernovae
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Artist%27s_illustration_of_Supernova_1987A_%28eso1401b%29.jpg/3840px-Artist%27s_illustration_of_Supernova_1987A_%28eso1401b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist's illustration of Supernova 1987A (eso1401b).jpg
+      credit: ALMA (ESO/NAOJ/NRAO)/Alexandra Angelich (NRAO/AUI/NSF)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist%27s_illustration_of_Supernova_1987A_(eso1401b).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.45
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: SUPERNOVA
+      small: stellar collapse origin
+- text: They all spin, with one rotating over 1,000 times per second.
+  emphasis:
+  - 1,000 times
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Illustrations-_The_Cause_of_the_%22Heartbeat%22_Variation_%282011-g1915-more-3_-_C%29.tiff/lossy-page1-1920px-Illustrations-_The_Cause_of_the_%22Heartbeat%22_Variation_%282011-g1915-more-3_-_C%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Illustrations- The Cause of the "Heartbeat" Variation (2011-g1915-more-3 - C).tiff
+      credit: '(Credit: NASA/CXC/M.Weiss)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Illustrations-_The_Cause_of_the_%22Heartbeat%22_Variation_(2011-g1915-more-3_-_C).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 1,000 ROTATIONS
+      small: per second spin rate
+- text: At our Milky Way center sits Sagittarius A*.
+  emphasis:
+  - Sagittarius A*
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/EHT_Sagittarius_A_black_hole.tif/lossy-page1-3840px-EHT_Sagittarius_A_black_hole.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: EHT Sagittarius A black hole.tif
+      credit: EHT Collaboration
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:EHT_Sagittarius_A_black_hole.tif
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: SAGITTARIUS A*
+      small: Milky Way center
+- text: Astronomers proved it holds four million solar masses by tracking orbiting stars.
+  emphasis:
+  - four million
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/69/The_daily_motion_of_the_S2_star_as_seen_with_GRAVITY_%28eso1825e%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: The daily motion of the S2 star as seen with GRAVITY (eso1825e).jpg
+      credit: Unknown author
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_daily_motion_of_the_S2_star_as_seen_with_GRAVITY_(eso1825e).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.35
+    - 0.1
+    - 0.65
+    - 0.5
+    card:
+      kind: fact
+      big: 4 MILLION SUNS
+      small: proven by star orbits
+- text: Yet even that galactic giant won't suck space in.
+  emphasis:
+  - won't suck space in
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE BLACK HOLE VACUUM MYTH

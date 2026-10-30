@@ -1,0 +1,265 @@
+{
+  "viable": true,
+  "reason": "The sources provide over 10 cross-verified claims across multiple independent sites to bust common black hole misconceptions and structure a 45-second story.",
+  "story": "Contrary to popular belief, black holes do not act like cosmic vacuum cleaners that suck in everything around them. Far away, a black hole's gravitational pull is no different from any normal celestial object of the exact same mass. If the Sun were replaced by a black hole of equal mass, Earth wouldn't get sucked in; planets would simply continue orbiting as usual, though space would turn dark and cold. All black holes spin, with some rotating over 1,000 times per second. They form when massive stars collapse in supernovae, leaving behind event horizons where not even light can escape. At the center of our Milky Way sits Sagittarius A*, a supermassive black hole four million times the mass of the Sun, proven by tracking the orbits of surrounding stars. When stars like our Sun eventually die in five billion years, they become white dwarfs, not black holes.",
+  "angle": "Black holes do not suck in matter like vacuum cleaners—from a distance, their gravity is identical to any normal object of the same mass.",
+  "claims": [
+    {
+      "claim": "Black holes do not act like cosmic vacuum cleaners that suck in surrounding matter.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "At a distance, the gravitational effect of a black hole is identical to any object of the exact same mass.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Supermassive black holes exist at the centers of most large galaxies.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The supermassive black hole at the center of the Milky Way galaxy is named Sagittarius A*.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Sagittarius A* has a mass approximately 4 million times that of the Sun.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "Astronomers proved the existence of Sagittarius A* by tracking the orbits of nearby stars.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The 2020 Nobel Prize in Physics was awarded for the discovery and proof of Sagittarius A*.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Stellar black holes form when massive stars collapse in supernova explosions.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "All black holes possess intrinsic spin.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The stellar black hole GRS 1915+105 spins at a rate exceeding 1,000 rotations per second.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The event horizon is the boundary of a black hole from which nothing, including light, can escape.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Accretion disks surrounding black holes radiate light across multiple electromagnetic wavelengths, including X-rays.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Colliding or merging black holes produce detectable gravitational waves.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The gravity of a black hole bends light from distant background objects via gravitational lensing.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Stars like our Sun expand into red giants after exhausting core hydrogen in about 5 billion years.",
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "After the red giant phase, a Sun-like star leaves behind an Earth-sized stellar remnant called a white dwarf.",
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Mass estimate for Sagittarius A*: S1 specifies about 4.3 million solar masses while S3 rounds to 4 million times the Sun's mass. The script should use 'about 4 million solar masses'.",
+    "Coining of the phrase 'black hole': S1 notes conflicting accounts regarding John Wheeler adopting the term at a 1967 lecture versus earlier print uses by Marcia Bartusiak, Ann Ewing, and Robert Dicke. The script should omit origin stories of the term.",
+    "Earth's survival during the Sun's red giant phase: S2 cites conflicting studies from 2008 (vaporization) and 2026 (survival). The script should leave out Earth's ultimate fate or present it as uncertain."
+  ],
+  "visuals": [
+    {
+      "subject": "Sagittarius A* Milky Way center star orbits diagram",
+      "queries": [
+        "Sagittarius A* star orbits",
+        "Galactic Center star orbits Sgr A*"
+      ]
+    },
+    {
+      "subject": "Accretion disk and relativistic jet around a black hole illustration",
+      "queries": [
+        "Black hole accretion disk illustration",
+        "Active galactic nucleus jet artist concept"
+      ]
+    },
+    {
+      "subject": "Event Horizon Telescope image of Sagittarius A*",
+      "queries": [
+        "Event Horizon Telescope Sagittarius A*",
+        "First image of Sagittarius A*"
+      ]
+    },
+    {
+      "subject": "Event Horizon Telescope image of Messier 87 black hole",
+      "queries": [
+        "M87 Event Horizon Telescope",
+        "First direct image of a black hole M87"
+      ]
+    },
+    {
+      "subject": "Gravitational lensing distortion by a massive black hole diagram",
+      "queries": [
+        "Gravitational lensing diagram",
+        "Black hole gravitational lensing simulation"
+      ]
+    },
+    {
+      "subject": "Binary black hole merger emitting gravitational waves illustration",
+      "queries": [
+        "Binary black hole merger gravitational waves illustration",
+        "LIGO black hole merger artist concept"
+      ]
+    },
+    {
+      "subject": "Sun expanding into a red giant phase illustration",
+      "queries": [
+        "Red giant Sun illustration",
+        "Sun red giant stage artist concept"
+      ]
+    },
+    {
+      "subject": "White dwarf star remnant illustration",
+      "queries": [
+        "White dwarf star illustration",
+        "White dwarf star artist concept"
+      ]
+    },
+    {
+      "subject": "Core-collapse supernova explosion illustration",
+      "queries": [
+        "Supernova explosion artist concept",
+        "Core collapse supernova illustration"
+      ]
+    },
+    {
+      "subject": "W. M. Keck Observatory twin telescopes on Maunakea",
+      "queries": [
+        "WM Keck Observatory Mauna Kea",
+        "Keck Observatory twin telescopes photo"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Black_hole",
+      "title": "Black hole",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Formation_and_evolution_of_the_Solar_System",
+      "title": "Formation and evolution of the Solar System",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://science.nasa.gov/universe/black-holes/",
+      "title": "Black Holes - NASA Science",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.esa.int/gsp/ACT/phy/Projects/Blackholes/WebGL/",
+      "title": "Black hole visualization",
+      "site": "esa.int"
+    },
+    {
+      "label": "S5",
+      "url": "https://web.archive.org/web/20260629122406/https://www.ligo.caltech.edu/news/ligo20250320",
+      "title": "LIGO-Virgo-KAGRA Announce the 200th Gravitational Wave Detection of O4!",
+      "site": "caltech.edu"
+    },
+    {
+      "label": "S6",
+      "url": "https://keckobservatory.org/white-dwarf-system/",
+      "title": "A Crystal Ball Into Our Solar System’s Future",
+      "site": "keckobservatory.org"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.nature.com/articles/s42254-021-00364-9",
+      "title": "The origins of massive black holes - Nature Reviews Physics",
+      "site": "nature.com"
+    }
+  ],
+  "topic": "Black hole (1916): they don't actually function like cosmic vacuum cleaners; if the Sun were replaced by one, Earth wouldn't be sucked in",
+  "series": "Space Myths, Busted"
+}
