@@ -38,7 +38,7 @@ unexplained, not alien.
 | 2026-10-10 | Gravitational lens: MACS J0454.1-0300 (2026): a galaxy cluster warping light like a cosmic house of mirrors — dropped (ep124) | The Universe Is Terrifying | NASA just released a stunning new James Webb Space Telescope image of this cluster. |
 | 2026-10-11 | IceCube Neutrino Observatory (2010): a telescope made of a cubic kilometer of Antarctic ice that looks straight down through Earth — done (ep129) | Space Got Weird | Featured on NASA's Astronomy Picture of the Day on October 11. |
 | 2026-10-12 | Ganymede (moon) (1996): bigger than Mercury and the only moon in the solar system that generates its own magnetic field — dropped (ep135) | Scale Breaker | Highlighted in NASA's Astronomy Picture of the Day featuring Jupiter and its Galilean moons. |
-| 2026-10-12 | Io (moon) (1979): tidal forces squeeze this world so violently that hundreds of volcanoes shoot sulfur plumes hundreds of miles into space — parked (ep136) | The Universe Is Terrifying | Featured in NASA's Astronomy Picture of the Day showcasing Jupiter and its moons. |
+| 2026-10-12 | Io (moon) (1979): tidal forces squeeze this world so violently that hundreds of volcanoes shoot sulfur plumes hundreds of miles into space — dropped (ep261) | The Universe Is Terrifying | Featured in NASA's Astronomy Picture of the Day showcasing Jupiter and its moons. |
 | 2026-10-13 | Spider crater (1977): a bizarre impact scar in the Australian outback whose spider-like legs were carved by shockwaves from a cosmic collision — parked (ep141) | Space Got Weird | Featured in NASA Earth Observatory reporting highlighting Earth's eerily spider-shaped impact structure |
 | 2026-10-16 | Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space — parked (ep169) | Space Got Weird | NASA highlighted its collaboration on JAXA's upcoming MMX mission targeting Mars' moons. |
 | 2026-10-17 | Phobos (moon) (1877): Mars is slowly dragging its largest moon to its doom, where tidal forces will eventually tear it into a planetary ring — parked (ep179) | The Universe Is Terrifying | NASA announced its partnership and science instruments for JAXA's upcoming MMX mission to explore Mars' moons. |
@@ -143,7 +143,7 @@ unexplained, not alien.
 - GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye
 - Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died
 - Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe
-- Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — making (ep257)
+- Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — parked (ep257)
 
 ### Scale Breaker
 
@@ -183,7 +183,7 @@ unexplained, not alien.
 - Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter
 - Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way
 - CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered
-- Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge — making (ep260)
+- Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge — done (ep260)
 - Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth
 
 ### Mission Files
@@ -246,7 +246,7 @@ unexplained, not alien.
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
 - Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — parked (ep239)
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose
-- Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — making (ep259)
+- Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — parked (ep259)
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night
 - Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls
 

@@ -1,0 +1,162 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-30T13:22:46+05:30",
+      "check": {
+        "duration": 31.0,
+        "words": 83,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.9,
+        "warnings": [],
+        "speech_differences": [
+          "'mearth' heard as 'amurth' after 'super venus the'",
+          "'hid' heard as 'hit' after 'decade thick clouds'",
+          "'nightside' heard as 'nice side' after '535 degrees fahrenheit'",
+          "'that' heard as '(nothing)' after 'to 326 degrees'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening statement spoils the surprise immediately instead of building curiosity.",
+        "clarity": "Logical progression of discovery and scientific observations.",
+        "payoff": "Weak payoff because the twist was revealed in the very first sentence.",
+        "visuals": "Clean and relevant space imagery paired with legible title cards.",
+        "loop": "Smooth audio flow linking the final phrase back into the opening line."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "MEarth",
+          "respelling": "em earth"
+        },
+        {
+          "beat": 8,
+          "word": "Nightside",
+          "respelling": "night side"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: Astronomers thought they found a thriving alien ocean world.",
+        "Beat 9: Instead of water, Webb revealed a scorching super-Venus."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-30T13:32:02+05:30",
+      "check": {
+        "duration": 27.69,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'hid' heard as 'hit' after 'decade thick clouds'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial hook presents an immediate intrigue.",
+        "clarity": "Logical narrative progression with one clear idea per beat.",
+        "payoff": "Effective contrast between the ocean expectation and Venus reality.",
+        "visuals": "Accurate visuals, though consecutive title cards reduce momentum.",
+        "loop": "Resolves cleanly and circles back into the opening premise."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Maintains a sharper narrative contrast and mystery reveal than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-30T13:36:00+05:30",
+      "check": {
+        "duration": 27.69,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'hid' heard as 'hit' after 'decade thick clouds'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong alien world premise catches attention immediately.",
+        "clarity": "Clean, logical narrative that is easy to follow.",
+        "payoff": "The twist from ocean world to scorching super-Venus delivers well.",
+        "visuals": "Accurate, sharp space renders and clear data title cards.",
+        "loop": "The ending feels abrupt and does not flow smoothly into the hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: \"Instead of water, Webb revealed a scorching super-Venus, not the planet where...\""
+      ],
+      "better_than_last": "Provides a clearer contrast between initial scientific expectation and final discovery.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: loop",
+  "rejected_at": "2026-10-30T13:36:00+05:30"
+}

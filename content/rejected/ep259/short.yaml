@@ -2,8 +2,8 @@ id: ep259
 title: The Strange Mystery of Planet GJ 1214 b
 series: Space Got Weird
 format: v3
-description: Discover how the James Webb Space Telescope uncovered the scorching truth behind the mysterious exoplanet GJ
-  1214 b.
+description: Astronomers once thought GJ 1214 b was a steamy ocean planet, until the James Webb Space Telescope exposed the
+  truth.
 sources:
 - https://en.wikipedia.org/wiki/GJ_1214_b
 - https://www.space.com/james-webb-space-telescope-mini-neptune-exoplanet
@@ -31,9 +31,9 @@ voice:
   direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
     and playful, natural rises and falls, never an announcer or documentary voice
 beats:
-- text: An ocean world turned out to be a super-Venus.
+- text: Astronomers thought they found a thriving alien ocean world.
   emphasis:
-  - super-Venus
+  - ocean world
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Exoplanet_GJ_1214_b_and_Its_Star_%28Illustration%29_%282021-054-01FMJA3A8205K9X4M9QXJK5JX9%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -46,8 +46,13 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.35
-    focus_y: 0.5
+    focus_x: 0.25
+    focus_y: 0.45
+    box:
+    - 0.0
+    - 0.0
+    - 0.55
+    - 0.89
 - text: The MEarth Project found exoplanet GJ 1214 b orbiting a red dwarf.
   emphasis:
   - MEarth Project
@@ -185,14 +190,14 @@ beats:
       big: 326°F
       small: Nightside temperature
     motion: zoom_in
-- text: That metal-rich atmosphere proved it was never an ocean world.
+- text: Instead of water, Webb revealed a scorching super-Venus.
   emphasis:
-  - never an ocean world
+  - super-Venus
   visual:
     reuse: 1
     motion: zoom_out
-    focus_x: 0.35
-    focus_y: 0.5
+    focus_x: 0.25
+    focus_y: 0.45
 look: bold
 music:
   path: bed:wonder
@@ -200,4 +205,4 @@ music:
   fade_out: 1.0
 captions:
   hook_size: 150
-hook_text: HAZE HIDES A SUPER-VENUS
+hook_text: MYSTERY OF PLANET GJ 1214 B

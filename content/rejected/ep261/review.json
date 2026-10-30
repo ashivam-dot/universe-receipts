@@ -1,0 +1,165 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-30T13:30:36+05:30",
+      "check": {
+        "duration": 34.99,
+        "words": 85,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Leading with four hundred active volcanoes is an immediate visual grab.",
+        "clarity": "Explains tidal flexing and thermal friction cleanly in simple steps.",
+        "payoff": "The Juno finding that the mantle is mostly solid stone is an unexpected twist.",
+        "visuals": "Strong planetary geology frames, though beat 5 looks like a cropped poster.",
+        "loop": "Beat 9 stops as a final punchline instead of feeding back into the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "cropped photo of a printed poster with cut-off moon labels"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: That relentless gravitational squeezing is why..."
+      ],
+      "better_than_last": "It connects orbital mechanics directly to cutting-edge gravity probe findings better than recent astronomy shorts.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-30T13:43:49+05:30",
+      "check": {
+        "duration": 30.03,
+        "words": 82,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening stat immediately establishes the core subject.",
+        "clarity": "Logical sequence explaining the tidal heating mechanism step-by-step.",
+        "payoff": "The solid mantle reveal subverts the expectation of a totally molten world.",
+        "visuals": "Several frames contain harsh mosaic dropouts and diagram mismatches.",
+        "loop": "Last line flows smoothly into the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Stair-step black mosaic artifacts cover half the frame."
+        },
+        {
+          "beat": 5,
+          "problem": "Depicts magnetic field lines instead of gravitational tidal forces."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-30T13:48:51+05:30",
+      "check": {
+        "duration": 30.03,
+        "words": 82,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong numerical hook that immediately establishes extreme planetary scale.",
+        "clarity": "Logical progression from volcanic features to gravitational cause.",
+        "payoff": "The solid stone reveal is intriguing but feels disconnected from the final beat.",
+        "visuals": "Low-resolution footage and mismatched reused stills weaken visual quality.",
+        "loop": "Last line connects smoothly back into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Extremely pixelated and blurry image."
+        },
+        {
+          "beat": 5,
+          "problem": "Reuses beat 4 image which does not depict gravitational tug-of-war."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Yet despite all that eruptive heat, Juno found its mantle remains mostly solid stone.",
+        "Beat 9: That relentless tidal flexing is why"
+      ],
+      "better_than_last": "Provides clearer scientific numbers and tighter pacing than ep254.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals; 2 frame problems",
+  "rejected_at": "2026-10-30T13:48:51+05:30"
+}

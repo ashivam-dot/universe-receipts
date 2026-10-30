@@ -1,0 +1,200 @@
+id: ep261
+title: The Solar System's Most Volcanic World
+series: The Universe Is Terrifying
+format: v3
+description: Jupiter's moon Io holds the record as the most volcanic world in our solar system, powered by brutal tidal friction.
+sources:
+- https://en.wikipedia.org/wiki/Io_(moon)
+- https://cosmosunveiled.com/articles/io-jupiter-volcanic-moon-juno-tidal-heating.html
+- https://space.sciencearray.com/io-400-volcanoes-solar-system-most-violent-world
+- https://en.wikipedia.org/wiki/Volcanism_on_Io
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11798835
+hashtags:
+- '#space'
+- '#jupiter'
+- '#volcano'
+tags:
+- Io
+- Jupiter moon
+- volcanoes
+- Voyager
+- Juno
+- solar system
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: One moon has over four hundred active volcanoes.
+  emphasis:
+  - four hundred
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/75/Io_highest_resolution_true_color_%28non-edit_version%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Io highest resolution true color (non-edit version).jpg
+      credit: NASA / JPL / University of Arizona
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Io_highest_resolution_true_color_(non-edit_version).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 400+
+      small: active volcanoes
+- text: Jupiter's moon Io is the most geologically active world known.
+  emphasis:
+  - most geologically active
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Plume_of_Gas_and_Dust_Spouts_From_Volcanic_Eruption_on_Io_%281997-21-489%29.jpg/1920px-Plume_of_Gas_and_Dust_Spouts_From_Volcanic_Eruption_on_Io_%281997-21-489%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Plume of Gas and Dust Spouts From Volcanic Eruption on Io (1997-21-489).jpg
+      credit: John Spencer (Lowell Observatory) and NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Plume_of_Gas_and_Dust_Spouts_From_Volcanic_Eruption_on_Io_(1997-21-489).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Its plumes shoot sulfur five hundred kilometers into space.
+  emphasis:
+  - five hundred kilometers
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg/1280px-PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA01081-Color Mosaic and Active Volcanic Plumes on Io.jpg
+      credit: NASA's Galileo spacecraft
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.45
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 500 km
+      small: plume height
+- text: The eruptions continuously bury ancient craters in fresh lava.
+  emphasis:
+  - bury ancient craters
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Io_Pillan_Patera_comparison.jpg/960px-Io_Pillan_Patera_comparison.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Io Pillan Patera comparison.jpg
+      credit: The original uploader was Volcanopele at English Wikipedia.
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Io_Pillan_Patera_comparison.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The trigger is a relentless gravitational tug-of-war.
+  emphasis:
+  - gravitational tug-of-war
+  sfx: whoosh
+  visual:
+    reuse: 4
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Jupiter pulls so hard that Io's solid rock flexes one hundred meters.
+  emphasis:
+  - one hundred meters
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 100 meters
+      small: tidal flexing bulge
+    motion: zoom_in
+- text: That tidal friction unleashes one hundred trillion watts of heat.
+  emphasis:
+  - one hundred trillion
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/13/NIMS_Io_map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: NIMS Io map.jpg
+      credit: NASA/JPL/University of Arizona
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NIMS_Io_map.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 10^14 W
+      small: global heat output
+- text: Yet Juno gravity data revealed its mantle is mostly solid stone.
+  emphasis:
+  - mostly solid stone
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/63/During_its_close_flyby_of_Jupiter%E2%80%99s_moon_Io_on_December_30%2C_2023%2C_NASA%E2%80%99s_Juno_spacecraft_captured_some_of_the_most_detailed_imagery_ever_of_Io%E2%80%99s_volcanic_surface_%28jupiters-volcanic-moon-io%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: During its close flyby of Jupiter’s moon Io on December 30, 2023, NASA’s Juno spacecraft captured some of the
+        most detailed imagery ever of Io’s volcanic surface (jupiters-volcanic-moon-io).jpg
+      credit: 'NASA/Jet Propulsion Laboratory–Caltech/Southwest Research Institute (SwRI)/Malin Space Science Systems (MSSS);
+        Image processing: Emma Wälimäki © CC BY'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:During_its_close_flyby_of_Jupiter%E2%80%99s_moon_Io_on_December_30,_2023,_NASA%E2%80%99s_Juno_spacecraft_captured_some_of_the_most_detailed_imagery_ever_of_Io%E2%80%99s_volcanic_surface_(jupiters-volcanic-moon-io).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.25
+    - 0.08
+    - 0.75
+    - 0.92
+    card:
+      kind: fact
+      big: Solid Mantle
+      small: no shallow magma ocean
+- text: That relentless gravitational squeezing is why.
+  emphasis:
+  - gravitational squeezing
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:mystery
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: MOST VOLCANIC WORLD

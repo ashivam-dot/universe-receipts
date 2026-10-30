@@ -1,22 +1,22 @@
 {
   "hooks": [
     {
-      "style": "contradiction",
-      "text": "An ocean world turned out to be a super-Venus."
-    },
-    {
       "style": "statement",
-      "text": "A boiling exoplanet hides its true face behind thick haze."
+      "text": "Astronomers thought they found a thriving alien ocean world."
     },
     {
-      "style": "number",
-      "text": "A scorching mini-Neptune orbits its star every single day."
+      "style": "contradiction",
+      "text": "A suspected water world turned into a scorching super-Venus."
+    },
+    {
+      "style": "question",
+      "text": "Did astronomers actually discover an ocean in deep space?"
     }
   ],
-  "hook_style": "contradiction",
+  "hook_style": "statement",
   "structure": "mystery",
   "title": "The Strange Mystery of Planet GJ 1214 b",
-  "description": "Discover how the James Webb Space Telescope uncovered the scorching truth behind the mysterious exoplanet GJ 1214 b.",
+  "description": "Astronomers once thought GJ 1214 b was a steamy ocean planet, until the James Webb Space Telescope exposed the truth.",
   "hashtags": [
     "#space",
     "#exoplanets",
@@ -31,23 +31,23 @@
   ],
   "beats": [
     {
-      "text": "An ocean world turned out to be a super-Venus.",
+      "text": "Astronomers thought they found a thriving alien ocean world.",
       "emphasis": [
-        "super-Venus"
+        "ocean world"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         7
       ],
-      "visual": "Artist's concept of exoplanet GJ 1214 b with a cloudy atmosphere, 2009",
+      "visual": "Artist's concept of a water world exoplanet, 2009",
       "subjects": [
         "GJ 1214 b"
       ],
       "year": 2009,
       "queries": [
-        "GJ 1214 b exoplanet artist concept",
-        "Extrasolar planet GJ 1214b illustration"
+        "Waterworld exoplanet artist concept",
+        "Ocean planet illustration NASA"
       ],
       "card": {
         "kind": "none",
@@ -184,9 +184,9 @@
         "JWST space observatory illustration"
       ],
       "card": {
-        "kind": "fact",
-        "big": "535°F",
-        "small": "Dayside temperature"
+        "kind": "none",
+        "big": "",
+        "small": ""
       }
     },
     {
@@ -211,7 +211,7 @@
       "card": {
         "kind": "fact",
         "big": "535°F",
-        "small": "Measured by JWST MIRI"
+        "small": "Dayside temperature"
       }
     },
     {
@@ -240,23 +240,24 @@
       }
     },
     {
-      "text": "That metal-rich atmosphere proved it was never an ocean world.",
+      "text": "Instead of water, Webb revealed a scorching super-Venus.",
       "emphasis": [
-        "never an ocean world"
+        "super-Venus"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        7
+        7,
+        8
       ],
-      "visual": "Artist's concept of a water world exoplanet, 2009",
+      "visual": "Artist's concept of exoplanet GJ 1214 b with a cloudy atmosphere, 2022",
       "subjects": [
         "GJ 1214 b"
       ],
       "year": 2022,
       "queries": [
-        "Waterworld exoplanet artist concept",
-        "Ocean planet illustration NASA"
+        "GJ 1214 b exoplanet artist concept",
+        "Extrasolar planet GJ 1214b illustration"
       ],
       "card": {
         "kind": "none",
@@ -265,7 +266,7 @@
       }
     }
   ],
-  "hook_text": "HAZE HIDES A SUPER-VENUS",
+  "hook_text": "MYSTERY OF PLANET GJ 1214 B",
   "loop": true,
-  "better_than_last": "This episode applies a contradiction hook and mystery structure to debunk a popular early exoplanet myth, driving higher early engagement."
+  "better_than_last": "Replaced the abstract opening with a belief-driven mystery hook and resolved directly with the super-Venus reveal to maximize loop continuity."
 }
