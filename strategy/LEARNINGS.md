@@ -24,6 +24,7 @@ rules pull in opposite directions keep the better-measured one and move the othe
 also copy it into `strategy/SCRIPT-RULES.md`, then cite the evidence here. (Consolidated 2026-10-25 from 30 rules,
 each promoted on two Shorts; their evidence is kept below.)
 
+- Prioritize cosmic-scale subjects (billions of light-years, entire planets) over human-scale or 'small' objects (asteroids, individual labs) in the hook to maximize early reach. Evidence: ep110, ep111, ep133, ep165, ep175 (median early reach 1,208) vs ep181, ep195, ep208, ep221 (median early reach 459.5).
 - Open on a belief most viewers already hold, then immediately debunk it (Space Myths, Busted pattern): counterintuitive myth-busting generates higher early reach than abstract scale. Evidence: ep047, ep053, ep146, ep159, ep165, ep172, ep185, ep197 (median early reach 1,092 vs 947 for non-myth Shorts).
 - The last line is a complete sentence that leads naturally back into the first; never repeat the hook verbatim. Evidence: ep105, ep111, ep125, ep137, ep146, ep172, ep175, ep201 (median avg percentage viewed 90.5% vs 63.5%).
 - Open with the most surprising true thing about a well-known subject in the first 2 seconds: a contradiction, paradox, or physical consequence, never a passive statement. Evidence: ep002, ep008, ep045, ep110, ep111, ep133, ep175, ep197, ep201.
@@ -37,12 +38,12 @@ each promoted on two Shorts; their evidence is kept below.)
 
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
-- Replace abstract metric hooks with tangible human-scale threats (e.g. 'mountain-sized' vs '5km') in the first 2 seconds to boost distribution (ep181, ep195, ep208, ep221).
 - Deliver mechanical explanations of the hook's premise immediately and eliminate historical detours to sustain mid-video retention (ep165).
 - For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic (ep146, ep165).
 - One number per beat: never stack figures or dates in consecutive beats (ep125, ep175).
 - Compress scientific definitions into a single beat under 4 seconds to reach core resolution by the 12-second mark (ep172).
 - End on a direct question or challenge to the viewer to convert high retention into active comments (ep185).
+- Use authority-anchoring institutions like 'NASA' in the hook to improve engaged share and initial distribution (ep110, ep051).
 - Hold the central threat until middle beats instead of beat one in hazard stories to build tension.
 - End with a shareable line to test if share prompts lift retention or virality.
 
@@ -53,35 +54,35 @@ contradiction.
 
 | Short | Series | Hook style | Observed 24-30h views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep110 | Space Got Weird | statement, story | 1169 | 56% | 76.7% | 120% | 2 | Hook: mystery; Topic: NASA history; Reach: high; Pacing: strong at10; Visuals: story-led. |
-| ep105 | Scale Breaker | statement, myth_vs_fact | 662 | 50% | 158.6% | 212% | 4 | Hook: scale; Topic: Saturn; Reach: low; Pacing: elite looping (158%); Visuals: effective. |
-| ep112 | Near Misses | statement, story | 581 | 53% | 62.2% | 111% | 1 | Hook: story; Topic: asteroid; Reach: low; Pacing: average; Visuals: discovery-focused. |
-| ep111 | Scale Breaker | number, story | 1169 | 52% | 98.0% | 145% | 1 | Hook: number/story; Topic: megastructure; Reach: high; Pacing: strong loop; Visuals: effective. |
-| ep118 | Space Got Weird | statement, mystery | 927 | 54% | 69.6% | 118% | 0 | Hook: mystery; Topic: jigsaw moon; Reach: high; Pacing: stable; Visuals: high interest. |
-| ep130 | The Universe Is Terrifying | statement, scale_ladder | 823 | 53% | 60.5% | 113% | 2 | Hook: hazard; Topic: black hole; Reach: high; Pacing: weak mid-video retention; Visuals: intimidating. |
-| ep125 | Mission Files | statement, record | 450 | 56% | 109.2% | 159% | 3 | Hook: record; Topic: nuclear rocket; Reach: low; Pacing: high loop; Visuals: niche historical. |
-| ep175 | Scale Breaker | contradiction, mystery | 1435 | 48% | 84.9% | 134% | 2 | Hook: paradox; Topic: universe size; Reach: high; Pacing: strong retention; Visuals: conceptual. |
-| ep133 | Space Got Weird | statement, scale_ladder | 1208 | 48% | 59.9% | 117% | 3 | Hook: scale; Topic: Saturn geometry; Reach: high; Pacing: below median; Visuals: pattern-based. |
-| ep051 | Mission Files | statement, scale_ladder | 1215 | 69% | 53.6% | 112% | 0 | Hook: scale; Topic: NASA crash; Reach: high; Pacing: elite engaged share (68%); Visuals: failure-led. |
-| ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | 57% | 60.9% | 99% | 0 | Hook: scale; Topic: Great Wall; Reach: high; Pacing: poor at10 start; Visuals: debunking. |
-| ep188 | Scale Breaker | contradiction, record | 948 | 50% | 79.9% | 128% | 0 | Hook: record; Topic: Pillars; Reach: high; Pacing: strong retention; Visuals: iconic imagery. |
-| ep137 | Near Misses | statement, story | 946 | 54% | 96.9% | 150% | 0 | Hook: story; Topic: spacewalk; Reach: high; Pacing: strong loop; Visuals: survival-led. |
-| ep053 | Space Myths, Busted | statement, story | 1092 | 49% | 57.8% | 113% | 2 | Hook: story; Topic: space rocks; Reach: high; Pacing: low retention; Visuals: impact-led. |
-| ep058 | Space Got Weird | statement, myth_vs_fact | 1014 | 52% | 107.3% | 158% | 3 | Hook: myth; Topic: ring galaxy; Reach: high; Pacing: high loop; Visuals: impossible geometry. |
-| ep063 | Near Misses | contradiction, mystery | 1010 | 51% | 72.0% | 115% | 4 | Hook: mystery; Topic: star collision; Reach: high; Pacing: good; Visuals: threat-based. |
-| ep184 | Near Misses | statement, myth_vs_fact | 487 | 54% | 66.7% | 110% | 0 | Hook: story; Topic: Soviet alarm; Reach: low; Pacing: average; Visuals: niche history. |
-| ep071 | The Universe Is Terrifying | statement, record | 917 | 49% | 92.9% | 143% | 1 | Hook: record; Topic: galactic crash; Reach: high; Pacing: high retention; Visuals: scale-based. |
-| ep072 | Near Misses | statement, record | 711 | 50% | 174.9% | 233% | 1 | Hook: record; Topic: solar storm; Reach: low; Pacing: elite looping (174%); Visuals: rare event. |
-| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 57% | 68.6% | 124% | 1 | Hook: myth; Topic: Pale Blue Dot; Reach: low; Pacing: stable; Visuals: iconic but slow. |
-| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.0% | 110% | 1 | Hook: myth; Topic: Halley's Comet; Reach: high; Pacing: weak retention; Visuals: actionable. |
-| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 64.3% | 114% | 1 | Hook: scale; Topic: Apollo radiation; Reach: high; Pacing: median; Visuals: historical debunk. |
-| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.9% | 116% | 1 | Hook: scale; Topic: asteroid rings; Reach: low; Pacing: high engaged share; Visuals: niche astronomy. |
-| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | Hook: scale; Topic: Mercury day; Reach: high; Pacing: median; Visuals: counter-intuitive. |
-| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.3% | 148% | 2 | Hook: myth; Topic: largest star; Reach: high; Pacing: strong loop; Visuals: scale change. |
-| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.0% | 114% | 3 | Hook: scale; Topic: dead star; Reach: low; Pacing: median; Visuals: abstract threat. |
-| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | Hook: story; Topic: suicide squad; Reach: low; Pacing: weak; Visuals: origin story. |
-| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.1% | 126% | 0 | Hook: myth; Topic: space explosion; Reach: low; Pacing: high retention; Visuals: human-scale. |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.5% | 120% | 4 | Hook: myth; Topic: Pluto orbit; Reach: high; Pacing: median; Visuals: discovery-based. |
+| ep110 | Space Got Weird | statement, story | 1169 | 56% | 76.7% | 120% | 2 | High reach and retention associated with NASA-themed hook and story pacing. |
+| ep105 | Scale Breaker | statement, myth_vs_fact | 662 | 50% | 158.6% | 212% | 4 | Extreme average percentage viewed (158%) associated with myth-vs-fact hook and seamless loop structure. |
+| ep112 | Near Misses | statement, story | 581 | 53% | 62.2% | 111% | 1 | Reach and retention below median associated with asteroid topic and lack of cosmic novelty. |
+| ep111 | Scale Breaker | number, story | 1169 | 52% | 98.0% | 145% | 1 | Strong distribution and 97.9% retention associated with physics-breaking topic and payoff delivery. |
+| ep118 | Space Got Weird | statement, mystery | 927 | 54% | 69.6% | 118% | 0 | Mystery hook associated with median retention and reach above recent medians. |
+| ep130 | The Universe Is Terrifying | statement, scale_ladder | 823 | 53% | 60.5% | 113% | 2 | Black hole jet reach near median, but retention dipped associated with lack of new reveal in middle beats. |
+| ep125 | Mission Files | statement, record | 450 | 56% | 109.2% | 159% | 3 | Reach was lower than median, but 109% retention associated with niche interest and strong loop pacing. |
+| ep175 | Scale Breaker | contradiction, mystery | 1435 | 48% | 84.9% | 134% | 2 | Top-tier reach (1435) associated with universe-age paradox hook despite lower engaged share. |
+| ep133 | Space Got Weird | statement, scale_ladder | 1208 | 48% | 59.9% | 117% | 3 | Large-scale geometry hook associated with high reach (1208) but retention under median. |
+| ep051 | Mission Files | statement, scale_ladder | 1215 | 69% | 53.6% | 112% | 0 | High engaged share (68.7%) associated with financial hook, but retention plummeted after the hook beat. |
+| ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | 57% | 60.9% | 99% | 0 | Myth-busting hook associated with strong reach (1220), though retention was under median. |
+| ep188 | Scale Breaker | contradiction, record | 948 | 50% | 79.9% | 128% | 0 | Pillars topic associated with 79.9% average percentage viewed and strong distribution. |
+| ep137 | Near Misses | statement, story | 946 | 54% | 96.9% | 150% | 0 | High average percentage viewed (96.9%) associated with space history story and loop grammar. |
+| ep053 | Space Myths, Busted | statement, story | 1092 | 49% | 57.8% | 113% | 2 | Reach was high (1092) associated with myth hook, but retention was below the 64.9% target. |
+| ep058 | Space Got Weird | statement, myth_vs_fact | 1014 | 52% | 107.3% | 158% | 3 | Average percentage viewed of 107% associated with mystery hook and seamless loop pacing. |
+| ep063 | Near Misses | contradiction, mystery | 1010 | 51% | 72.0% | 115% | 4 | Reach and retention both near median associated with collision course mystery hook. |
+| ep184 | Near Misses | statement, myth_vs_fact | 487 | 54% | 66.7% | 110% | 0 | Reach stalled at 487; historical alarm hook associated with lower distribution velocity. |
+| ep071 | The Universe Is Terrifying | statement, record | 917 | 49% | 92.9% | 143% | 1 | Average percentage viewed of 92.9% associated with galactic crash topic and loop structure. |
+| ep072 | Near Misses | statement, record | 711 | 50% | 174.9% | 233% | 1 | Highest recorded average percentage viewed (174.9%) associated with monster solar storm loop. |
+| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 57% | 68.6% | 124% | 1 | Strong engaged share (57.1%) from Pale Blue Dot hook, reach was below median. |
+| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.0% | 110% | 1 | Reach was high (1167) associated with search-query hook, but retention stayed under median. |
+| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 64.3% | 114% | 1 | Reach and retention near median associated with radiation belt myth-busting hook. |
+| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.9% | 116% | 1 | High engaged share (61.3%) paired with lower early reach (519) associated with small asteroid scale. |
+| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | Myth hook drove reach (984) associated with Mercury planet scale, retention was near median. |
+| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.3% | 148% | 2 | Strong average percentage viewed (101.3%) associated with largest star myth and loop pacing. |
+| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.0% | 114% | 3 | Retention above median (69%) paired with lower reach velocity associated with 12-mile wide subject. |
+| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | Reach stalled at 400 early views associated with human-interest suicide squad hook. |
+| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.1% | 126% | 0 | High average percentage viewed (85%) associated with body-explosion contradiction hook. |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.5% | 120% | 4 | Lead performer in views; reach (1495) associated with Pluto myth and pacing reveals. |
 | ep174 | Mission Files | statement, story | 260 | 52% | 64.5% | 106% | 1 | published while YouTube held the whole channel back; not evidence |
 | ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 51% | 39.8% | 96% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep210 | Mission Files | contradiction, mystery | 149 | 41% | 41.1% | 98% | 0 | published while YouTube held the whole channel back; not evidence |
@@ -217,3 +218,4 @@ contradiction.
 - 2026-10-30: Analyzed ep165 and ep208 reviews, adding evidence to human-scale threat and direct mechanical payoff hypotheses without altering proven rules.
 - 2026-10-30: Logged diagnostic reviews for ep165 and ep208, reinforcing hypotheses on cutting historical detours and avoiding metric abstractions in hooks.
 - 2026-10-31: Updated medians and reviewed ep208, noting a strong correlation between abstract scale hooks and distribution failure (reach <100).
+- 2026-10-31: Promoted Rule 9 prioritizing cosmic-scale hooks after ep208 distribution failure highlighted a reach gap between universal subjects and localized objects.

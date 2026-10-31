@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-31T05:05:31+05:30",
+  "updated_at": "2026-10-31T11:09:33+05:30",
   "day": 30,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M67JNBVDZHY8FVM7HF5XXC7R",
+    "id": "ta-01M6878KZ2Y41RKTBH1NWBAENR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-10-31T05:05:07+05:30",
-    "started_at_utc": "2026-10-30T23:35:07+00:00",
-    "seconds": 24
+    "started_at": "2026-10-31T11:05:10+05:30",
+    "started_at_utc": "2026-10-31T05:35:10+00:00",
+    "seconds": 263
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.3
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "79 posts",
-      "seconds": 0.6
+      "seconds": 1.2
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.2
+      "seconds": 2.5
     },
     {
       "name": "languages",
@@ -45,38 +45,38 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 2.2
+      "detail": "ep078 at 72 h: behind the channel's earlier Shorts at this age: 95 views against a median of 967 (0.1x); ep258 at 6 h: behind the channel's earlier Shorts at this age: 247 views against a median of 549 (0.4x); learnings: Promoted Rule 9 prioritizing cosmic-scale hooks after ep208 distribution failure highlighted a reach gap between universal subjects and localized objects.",
+      "seconds": 234.8
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 2.1
+      "seconds": 2.8
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "preflight ep260",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.3
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.0
+      "seconds": 1.3
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 0.9
+      "seconds": 1.3
     }
   ],
   "errors": [],
@@ -114,9 +114,17 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 0,
-    "by_model": {},
-    "out_of_quota": []
+    "calls": 2,
+    "by_model": {
+      "gemini-3.8-flash": 1,
+      "gemini-3-flash-preview": 1
+    },
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
     "modal": 0,
@@ -126,7 +134,7 @@
   "minutes_this_month": 356.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.51,
+    "metered": 28.52,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -134,7 +142,7 @@
     "cloud": 0,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": -0.51
+    "modal_credit_left": -0.52
   },
   "starved": 6,
   "made_here": 0,
