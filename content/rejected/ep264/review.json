@@ -110,7 +110,65 @@
       "better_than_last": "This episode maintains better thematic focus on a single object compared to the star escaping the galaxy short.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-31T13:10:42+05:30",
+      "check": {
+        "duration": 27.92,
+        "words": 83,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.5,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'stretching the moon'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Dramatic, immediate statement that instantly makes the viewer stop and pay attention.",
+        "clarity": "The mechanism of orbital decay and tidal disruption is explained simply and logically.",
+        "payoff": "The transformation of the moon into a future ring around Mars provides a solid twist.",
+        "visuals": "Beats 6 and 7 use inaccurate visuals: a terraformed blue Mars and a fiery mega-planet collision.",
+        "loop": "Ending on a full stop about doom does not lead naturally back into the opening hook line."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows a blue terraformed world with oceans rather than the actual Red Planet."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows a fiery collision between two massive planets instead of tidal shredding into a dust ring."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Which is why, two centimeters every year,"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
     }
   ],
-  "best_round": 2
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals, loop; 2 frame problems",
+  "rejected_at": "2026-10-31T13:10:43+05:30"
 }

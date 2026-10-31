@@ -1,0 +1,63 @@
+{
+  "rounds": [
+    {
+      "at": "2026-10-31T13:18:46+05:30",
+      "check": {
+        "duration": 29.63,
+        "words": 74,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial hook about lunar smell grabs attention immediately.",
+        "clarity": "Transitions from dust smell to solar charging feel disconnected.",
+        "payoff": "Explains dust levitation well but omits why it smells like gunpowder.",
+        "visuals": "Features several text-heavy technical charts unsuited for phone screens.",
+        "loop": "Smooth transition back into the opening frame and topic."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "off-topic image showing lab engineers with a rocket model"
+        },
+        {
+          "beat": 6,
+          "problem": "mostly text diagram unreadable on mobile"
+        },
+        {
+          "beat": 7,
+          "problem": "mostly text chart hard to read on phone"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Solar ultraviolet light charges the surface dust particles.",
+        "Beat 7: Static forces push floating dust onto astronaut suits."
+      ],
+      "better_than_last": "It incorporates primary historical astronaut sketches effectively to build mystery.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

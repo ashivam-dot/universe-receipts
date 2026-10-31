@@ -53,7 +53,110 @@
       "better_than_last": "This script achieves a more perfect, seamless loop than the Voyager episode while maintaining high clarity.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-10-31T13:05:43+05:30",
+      "check": {
+        "duration": 31.1,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'thicker than earth'",
+          "'s' heard as 'is' after 'times easier nasa'",
+          "'won t' heard as 'will not' after 'next great explorer'",
+          "'ll' heard as 'will' after 't crawl it'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of a nuclear-powered drone flying over an icy alien world hooks attention immediately.",
+        "clarity": "The narrative flows effortlessly from Mars rovers to Titan's unique atmospheric physics and Dragonfly's capabilities.",
+        "payoff": "Contrasting a single flight's distance against Curiosity's entire decade-long trek provides a solid scale payoff.",
+        "visuals": "Crisp and relevant renders throughout, though beat 3 reuses the same Curiosity selfie seen in beat 2.",
+        "loop": "The sentence flows smoothly into the opening beat, though repeating the word 'fly' back-to-back slightly weakens the impact."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "uses the same Curiosity rover selfie as beat 2"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It establishes a direct, intuitive contrast between sluggish wheeled rovers and planetary aviation that gives the technical stats immediate impact.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-10-31T13:15:43+05:30",
+      "check": {
+        "duration": 31.1,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'thicker than earth'",
+          "'s' heard as 'is' after 'times easier nasa'",
+          "'won t' heard as 'will not' after 'next great explorer'",
+          "'ll' heard as 'will' after 't crawl it'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "A nuclear drone flying across an alien moon is an irresistible premise paired with strong title text.",
+        "clarity": "The comparison between slow Mars rovers and Titan's dense air makes the physics immediately intuitive.",
+        "payoff": "The reveal that a single flight covers more ground than Curiosity did in an entire decade delivers a killer payoff.",
+        "visuals": "Every render, diagram, and title card is sharp, informative, and visually engaging on mobile screens.",
+        "loop": "Ending on 'it'll fly' flows effortlessly into 'A nuclear drone will fly across a frozen moon' visually and verbally."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It sets up the slow pace of wheeled rovers early and pays it off powerfully by quantifying how a single Dragonfly hop outperforms a decade of rover driving.",
+      "judge": "gemini-3.7-flash",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }
