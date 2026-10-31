@@ -20,14 +20,14 @@
   "hashtags": [
     "#space",
     "#apollo",
-    "#moon"
+    "#nasafacts"
   ],
   "tags": [
     "apollo",
     "moon dust",
     "lunar module",
-    "nasa",
     "moon smell",
+    "nasa",
     "space history"
   ],
   "beats": [
@@ -58,7 +58,7 @@
       }
     },
     {
-      "text": "They'd track the clingy gray grit inside after every moonwalk.",
+      "text": "They'd track clingy gray grit inside after every moonwalk.",
       "emphasis": [
         "clingy gray grit"
       ],
@@ -67,7 +67,7 @@
       "claims": [
         9
       ],
-      "visual": "Apollo astronaut suit covered in lunar dust after moonwalk, 1972",
+      "visual": "Apollo 17 astronaut suit covered in lunar dust after moonwalk, 1972",
       "subjects": [
         "Apollo 17",
         "Harrison Schmitt"
@@ -84,20 +84,20 @@
       }
     },
     {
-      "text": "Robotic landers in 1968 photographed a ghostly glow on the horizon.",
+      "text": "This grit floats, creating a ghostly glow on the horizon.",
       "emphasis": [
         "ghostly glow"
       ],
-      "sfx": "whoosh",
+      "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         4
       ],
-      "visual": "Surveyor 7 moon lander photo showing horizon glow, 1968",
+      "visual": "Surveyor 7 moon lander photo showing horizon glow",
       "subjects": [
         "Surveyor 7"
       ],
-      "year": 1968,
+      "year": 0,
       "queries": [
         "Surveyor 7 spacecraft lunar surface",
         "Surveyor moon lander twilight glow"
@@ -109,11 +109,11 @@
       }
     },
     {
-      "text": "Apollo crews even sketched long rays stretching into the sky.",
+      "text": "Robots and crews even saw long rays stretching into space.",
       "emphasis": [
         "long rays"
       ],
-      "sfx": "whoosh",
+      "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         5,
@@ -135,7 +135,7 @@
       }
     },
     {
-      "text": "Solar ultraviolet light charges the surface dust particles.",
+      "text": "Solar ultraviolet light charges the tiny surface dust particles.",
       "emphasis": [
         "charges"
       ],
@@ -144,10 +144,10 @@
       "claims": [
         6
       ],
-      "visual": "Illustration of solar radiation charging lunar surface particles, 2020",
+      "visual": "Illustration of solar radiation charging lunar surface particles",
       "subjects": [
         "Solar wind",
-        "Lunar soil"
+        "Moon"
       ],
       "year": 0,
       "queries": [
@@ -161,9 +161,9 @@
       }
     },
     {
-      "text": "Static forces push floating dust onto astronaut suits.",
+      "text": "Static forces push floating dust onto the astronauts' suits.",
       "emphasis": [
-        "push floating dust"
+        "Static forces"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -174,7 +174,7 @@
       "visual": "Apollo 17 Harrison Schmitt lunar surface moonwalk, 1972",
       "subjects": [
         "Harrison Schmitt",
-        "Lunar soil"
+        "Apollo 17"
       ],
       "year": 1972,
       "queries": [
@@ -197,9 +197,10 @@
       "claims": [
         8
       ],
-      "visual": "Illustration of Earth's magnetotail encompassing the Moon's orbit, 2015",
+      "visual": "Illustration of Earth's magnetotail encompassing the Moon's orbit",
       "subjects": [
-        "Earth's magnetic field"
+        "Earth's magnetic field",
+        "Magnetosphere"
       ],
       "year": 0,
       "queries": [
@@ -213,17 +214,17 @@
       }
     },
     {
-      "text": "This sticky, levitating grit's why they found such a strange scent.",
+      "text": "That levitating grit is what carries the gunpowder scent inside.",
       "emphasis": [
-        "strange scent"
+        "gunpowder scent"
       ],
-      "sfx": "none",
-      "pause_after": 0.12,
+      "sfx": "pop",
+      "pause_after": 0.4,
       "claims": [
         1,
         2
       ],
-      "visual": "Apollo 11 lunar module cabin interior after moonwalk, 1969",
+      "visual": "Apollo 11 lunar module cabin interior, 1969",
       "subjects": [
         "Apollo 11"
       ],
@@ -237,9 +238,35 @@
         "big": "",
         "small": ""
       }
+    },
+    {
+      "text": "Every return mission proves this weird lunar secret is true.",
+      "emphasis": [
+        "lunar secret"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        12
+      ],
+      "visual": "Chang'e 5 return capsule landed in Inner Mongolia",
+      "subjects": [
+        "Chang'e 5",
+        "Lunar soil"
+      ],
+      "year": 0,
+      "queries": [
+        "Chang'e 5 return capsule Inner Mongolia",
+        "Chang'e 5 lunar sample return"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
     }
   ],
-  "hook_text": "THE MOON'S SCENT",
+  "hook_text": "A STRANGE LUNAR ODOR",
   "loop": true,
-  "better_than_last": "Trimmed beat 1 to 9 words to respect the 10-word hook limit while keeping the mystery setup and reviewer revisions intact."
+  "better_than_last": "Reduced spoken years to two (1969 and 1972) and applied the specific reviewer phrasing for the dust levitation and gunpowder beats."
 }

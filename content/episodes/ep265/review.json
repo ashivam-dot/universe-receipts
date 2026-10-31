@@ -57,7 +57,120 @@
       "better_than_last": "It incorporates primary historical astronaut sketches effectively to build mystery.",
       "judge": "gemini-3.6-flash",
       "passed": false
+    },
+    {
+      "at": "2026-10-31T19:26:07+05:30",
+      "check": {
+        "duration": 27.43,
+        "words": 77,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.8,
+        "warnings": [],
+        "speech_differences": [
+          "'would track' heard as 'tracked' after 'spent gunpowder they'",
+          "'astronaut' heard as 'astronauts' after 'floating dust onto'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong sensory hook that grabs attention immediately.",
+        "clarity": "The connection between the horizon glow and the smell is weak.",
+        "payoff": "The ending fails to explain the science behind the scent.",
+        "visuals": "Technical diagrams are too complex for a fast-paced mobile format.",
+        "loop": "Natural verbal transition that circles back well."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Scientific diagram is too dense and text-heavy for mobile."
+        },
+        {
+          "beat": 7,
+          "problem": "Graph is illegible and distracting at phone size."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 3: This grit floats, creating a ghostly glow on the horizon.",
+        "Beat 8: That levitating grit is what carries the gunpowder scent inside."
+      ],
+      "better_than_last": "The sensory-driven hook is more relatable than the conceptual milk myth.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-10-31T19:32:28+05:30",
+      "check": {
+        "duration": 31.1,
+        "words": 86,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'discovered' heard as 'discover' after 'apollo astronauts'",
+          "'would' heard as '(nothing)' after 'spent gunpowder they'",
+          "'grit' heard as 'grid' after 'track clingy gray'",
+          "'grit' heard as 'grid' after 'every moonwalk this'",
+          "'astronauts' heard as 'astronaut is' after 'dust onto the'",
+          "'grit' heard as 'grid' after 'storms that levitating'",
+          "'scent' heard as 'sent' after 'carries the gunpowder'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "A sensory claim about the moon is an excellent way to stop a scroll.",
+        "clarity": "Transitions well from the smell to the physics of levitating dust.",
+        "payoff": "Successfully explains the mechanism behind the strange lunar odor.",
+        "visuals": "Uses authentic mission photos and relevant scientific diagrams.",
+        "loop": "The concluding confirmation leads perfectly back into the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "mostly text and a technical scientific chart that is difficult to read on a phone screen"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The sensory hook regarding smell is more visceral and engaging than the naming trivia in the Uranus episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

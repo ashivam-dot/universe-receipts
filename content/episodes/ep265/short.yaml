@@ -9,16 +9,17 @@ sources:
 - https://www.space.com/26932-moon-smell-apollo-lunar-aroma.html
 - https://web.archive.org/web/20100319112529/http://science.nasa.gov/headlines/y2005/30mar_moonfountains.htm
 - https://web.archive.org/web/20081015195451/http://www.livescience.com/space/scienceastronomy/080418-strange-moon.html
+- https://www.bbc.com/news/science-environment-55323176
 hashtags:
 - '#space'
 - '#apollo'
-- '#moon'
+- '#nasafacts'
 tags:
 - apollo
 - moon dust
 - lunar module
-- nasa
 - moon smell
+- nasa
 - space history
 voice:
   engine: gemini
@@ -57,7 +58,7 @@ beats:
       kind: quote
       big: spent gunpowder
       small: lunar dust scent
-- text: They'd track the clingy gray grit inside after every moonwalk.
+- text: They'd track clingy gray grit inside after every moonwalk.
   emphasis:
   - clingy gray grit
   sfx: whoosh
@@ -73,17 +74,16 @@ beats:
     fallbacks:
     - color
     motion: zoom_in
-    focus_x: 0.42
-    focus_y: 0.72
+    focus_x: 0.5
+    focus_y: 0.7
     box:
-    - 0.03
-    - 0.52
-    - 0.69
-    - 0.98
-- text: Robotic landers in 1968 photographed a ghostly glow on the horizon.
+    - 0.1
+    - 0.45
+    - 0.9
+    - 0.95
+- text: This grit floats, creating a ghostly glow on the horizon.
   emphasis:
   - ghostly glow
-  sfx: whoosh
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Surveyor_7_Fig_3-43.jpg/1280px-Surveyor_7_Fig_3-43.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -97,11 +97,15 @@ beats:
     - color
     motion: pan_right
     focus_x: 0.5
-    focus_y: 0.5
-- text: Apollo crews even sketched long rays stretching into the sky.
+    focus_y: 0.15
+    box:
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.3
+- text: Robots and crews even saw long rays stretching into space.
   emphasis:
   - long rays
-  sfx: whoosh
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/7/72/Apollo_17_twilight_ray_sketch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -116,52 +120,46 @@ beats:
     motion: pan_up
     focus_x: 0.5
     focus_y: 0.5
-- text: Solar ultraviolet light charges the surface dust particles.
+- text: Solar ultraviolet light charges the tiny surface dust particles.
   emphasis:
   - charges
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Psjad06aff1_hr.jpg/1280px-Psjad06aff1_hr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Outreach-Art1-TM_%284312250456%29.jpg/1920px-Outreach-Art1-TM_%284312250456%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Psjad06aff1 hr.jpg
-      credit: Lianghai Xie, Lei Li, Huizi Wang, Binbin Tang, Jindong Wang, Yiteng Zhang, Quanqi Shi, Bin Zhou and Yongyong
-        Feng
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Psjad06aff1_hr.jpg
+      title: Outreach-Art1-TM (4312250456).jpg
+      credit: The Science Directorate at NASA Langley
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Outreach-Art1-TM_(4312250456).jpg
     fallbacks:
     - color
-    motion: pan_right
-    focus_x: 0.25
-    focus_y: 0.55
-    box:
-    - 0.02
-    - 0.21
-    - 0.48
-    - 0.88
-- text: Static forces push floating dust onto astronaut suits.
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.3
+- text: Static forces push floating dust onto the astronauts' suits.
   emphasis:
-  - push floating dust
+  - Static forces
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Astronaut_Harrison_%27Jack%27_Schmitt%2C_American_Flag%2C_and_Earth_%28Apollo_17_EVA-1%29.jpg/1920px-Astronaut_Harrison_%27Jack%27_Schmitt%2C_American_Flag%2C_and_Earth_%28Apollo_17_EVA-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/e/ec/Apollo_17_-_Schmitt_bei_der_Arbeit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Astronaut Harrison 'Jack' Schmitt, American Flag, and Earth (Apollo 17 EVA-1).jpg
-      credit: NASA/Eugene Cernan
+      title: Apollo 17 - Schmitt bei der Arbeit.jpg
+      credit: unbekannt
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Astronaut_Harrison_%27Jack%27_Schmitt,_American_Flag,_and_Earth_(Apollo_17_EVA-1).jpg
+      url: https://commons.wikimedia.org/wiki/File:Apollo_17_-_Schmitt_bei_der_Arbeit.jpg
     fallbacks:
     - color
-    motion: zoom_in
-    focus_x: 0.18
-    focus_y: 0.62
+    motion: pan_up
+    focus_x: 0.35
+    focus_y: 0.65
     box:
-    - 0.0
-    - 0.34
-    - 0.38
-    - 1.0
+    - 0.15
+    - 0.1
+    - 0.55
+    - 0.9
 - text: Once a month, Earth's magnetotail whips these grains into storms.
   emphasis:
   - storms
@@ -187,9 +185,33 @@ beats:
       kind: fact
       big: Once a month
       small: Magnetotail storms
-- text: This sticky, levitating grit's why they found such a strange scent.
+- text: That levitating grit is what carries the gunpowder scent inside.
   emphasis:
-  - strange scent
+  - gunpowder scent
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/AS11-36-5388_-_Apollo_11_-_Apollo_11_Mission_image_-_Astronaut_inside_the_Lunar_Module_-_NARA_-_16683232.jpg/1920px-AS11-36-5388_-_Apollo_11_-_Apollo_11_Mission_image_-_Astronaut_inside_the_Lunar_Module_-_NARA_-_16683232.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS11-36-5388 - Apollo 11 - Apollo 11 Mission image - Astronaut inside the Lunar Module - NARA - 16683232.jpg
+      credit: Unknown authorUnknown author or not provided
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS11-36-5388_-_Apollo_11_-_Apollo_11_Mission_image_-_Astronaut_inside_the_Lunar_Module_-_NARA_-_16683232.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.58
+    focus_y: 0.62
+    box:
+    - 0.4
+    - 0.45
+    - 0.85
+    - 0.9
+- text: Every return mission proves this weird lunar secret is true.
+  emphasis:
+  - lunar secret
   visual:
     reuse: 1
     motion: zoom_in
@@ -202,4 +224,4 @@ music:
   fade_out: 1.0
 captions:
   hook_size: 150
-hook_text: THE MOON'S SCENT
+hook_text: A STRANGE LUNAR ODOR

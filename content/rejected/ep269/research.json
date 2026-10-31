@@ -1,0 +1,239 @@
+{
+  "viable": false,
+  "reason": "The provided sources cannot support the topic: the claims that Mars is butterscotch-colored, that this was discovered in 1976, and that its red hue is merely a thin dust layer appear in only one source or none.",
+  "story": "Throughout human history, Mars has been celebrated as the fiery Red Planet. Scientific analyses confirm that its distinctive reddish hue comes from iron oxides coating the surface—literally rusting the Martian crust. But beneath this rusty facade lies a dramatic world shaped by catastrophic events. Over four billion years ago, during the planet's infancy, an enormous celestial collision gouged out the northern hemisphere, creating the massive Borealis basin spanning 10,600 by 8,500 kilometers. This cataclysm left Mars forever split in two: flat northern lava plains and cratered southern highlands. As Mars cooled, its global magnetic dynamo shut down, stripping away its early thick atmosphere and liquid water oceans. Today, its rust-tinted surface preserves remnants of colossal volcanoes like Olympus Mons and vast ancient impact scars like the 2,300-kilometer-wide Hellas basin, testifying to billions of years of geological evolution.",
+  "angle": "Mars is permanently scarred by a 4-billion-year-old cosmic collision so colossal that it flattened over 40% of the planet into a single gigantic impact basin.",
+  "claims": [
+    {
+      "claim": "Mars formed along with the other planets approximately 4.5 billion years ago.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mars's geological history is divided into three primary eras: the Noachian, Hesperian, and Amazonian periods.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Noachian period is named after the ancient Martian highland region Noachis Terra.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Hesperian period is named after the ridged volcanic plains of Hesperia Planum.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Amazonian period is named after the smooth northern plains of Amazonis Planitia.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Olympus Mons experienced volcanic activity during the Amazonian period.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "Mars features a dramatic topographic dichotomy between low, flat northern plains and rugged, cratered southern highlands.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mars lost its global magnetic dynamo and magnetosphere early in its history.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The characteristic red hue of Mars is caused by iron oxides present across its surface.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mars has approximately half the diameter of Earth.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Earth is approximately ten times more massive than Mars.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "An immense elliptical depression in the northern hemisphere, the Borealis basin, measures roughly 10,600 by 8,500 kilometers.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Borealis basin covers roughly 40 to 42 percent of the entire surface of Mars.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "Scientists hypothesize that the Borealis basin was formed by a giant impact about 4 billion years ago.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Hellas impact basin in the southern hemisphere spans more than 2,000 kilometers across.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The total surface area covered by the Borealis basin is cited as 40% in S1 and 42% in S7; scripts should state 'roughly 40 to 42 percent'.",
+    "The existence of the Late Heavy Bombardment is treated as standard history in S3 but noted as disputed by modern modeling in S1; scripts should present it as a hypothesis rather than settled fact.",
+    "The presence of a solid inner core is disputed between recent studies cited in S1; scripts should avoid asserting whether the core is partly solid or entirely liquid."
+  ],
+  "visuals": [
+    {
+      "subject": "Full-disk view of Mars showing rusty surface and polar caps",
+      "queries": [
+        "Mars global view Hubble",
+        "OSIRIS Mars true color",
+        "Mars globe Viking mosaic"
+      ]
+    },
+    {
+      "subject": "Topographic map of Mars illustrating the hemispheric dichotomy",
+      "queries": [
+        "MOLA Mars topography map",
+        "Mars hemispheric dichotomy elevation map"
+      ]
+    },
+    {
+      "subject": "Olympus Mons shield volcano from orbit",
+      "queries": [
+        "Olympus Mons Mars Express",
+        "Olympus Mons Viking orbiter"
+      ]
+    },
+    {
+      "subject": "Artist illustration of a giant asteroid impact creating the Borealis basin",
+      "queries": [
+        "Early Mars giant impact illustration",
+        "Protoplanet impact Mars artist concept"
+      ]
+    },
+    {
+      "subject": "Hellas Planitia impact basin viewed from orbit",
+      "queries": [
+        "Hellas Planitia Mars Express",
+        "Hellas basin Mars Global Surveyor"
+      ]
+    },
+    {
+      "subject": "Valles Marineris canyon system global mosaic",
+      "queries": [
+        "Valles Marineris Mars Express mosaic",
+        "Valles Marineris Viking 1 mosaic"
+      ]
+    },
+    {
+      "subject": "Martian surface soil and reddish dust close-up from a lander",
+      "queries": [
+        "Mars Curiosity rover soil close-up",
+        "Viking 1 lander surface red soil"
+      ]
+    },
+    {
+      "subject": "Diagram comparing the internal structures of Earth and Mars",
+      "queries": [
+        "Mars internal structure diagram NASA",
+        "Mars interior crust mantle core InSight"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Mars",
+      "title": "Mars",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://web.archive.org/web/20200317184127/https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+      "title": "Mars Fact Sheet",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://sci.esa.int/web/mars-express/-/55481-the-ages-of-mars",
+      "title": "The Ages of Mars - Mars Express - Science Portal",
+      "site": "esa.int"
+    },
+    {
+      "label": "S4",
+      "url": "https://planetarynames.wr.usgs.gov/Page/Categories",
+      "title": "Planetary Names",
+      "site": "usgs.gov"
+    },
+    {
+      "label": "S5",
+      "url": "http://www.nature.com/news/2004/040503/full/news040503-6.html",
+      "title": "How Mars got its rust",
+      "site": "nature.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://web.archive.org/web/20220422162701/https://www.science.org/doi/10.1126/science.1164246",
+      "title": "Radar Sounding Evidence for Buried Glaciers in the Southern Mid-Latitudes of Mars",
+      "site": "science.org"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.scientificamerican.com/article/giant-asteroid-flattened/",
+      "title": "Giant Asteroid Flattened Half of Mars, Studies Suggest",
+      "site": "scientificamerican.com"
+    }
+  ],
+  "topic": "Mars (1976): the \"Red Planet\" is actually a golden-brown butterscotch color; its red hue is just a thin layer of iron oxide dust",
+  "series": "Space Myths, Busted"
+}

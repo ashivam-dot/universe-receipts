@@ -1,0 +1,236 @@
+id: ep268
+title: The Planet That Almost Became a King
+series: Space Got Weird
+format: v3
+description: In 1781, William Herschel discovered the seventh planet and tried to name it after his royal patron, King George
+  III.
+sources:
+- https://en.wikipedia.org/wiki/Uranus
+- https://en.wikipedia.org/wiki/William_Herschel
+- https://www.nasa.gov/history/240-years-ago-astronomer-william-herschel-identifies-uranus-as-the-seventh-planet/
+- https://www.astronomy.com/science/march-13-marks-240-years-since-william-herschel-discovered-uranus/
+- https://web.archive.org/web/20120225094516/http://coolcosmos.ipac.caltech.edu/cosmic_classroom/classroom_activities/herschel_bio.html
+- https://web.archive.org/web/20201122123848/https://skyandtelescope.org/observing/ice-giants-neptune-and-uranus/
+hashtags:
+- '#space'
+- '#uranus'
+- '#astronomy'
+tags:
+- Uranus
+- William Herschel
+- King George III
+- astronomy
+- solar system history
+- Johann Elert Bode
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The planet Uranus was almost named after King George.
+  emphasis:
+  - King George
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/69/Uranus_Voyager2_color_calibrated.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Uranus Voyager2 color calibrated.png
+      credit: Ardenau4
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Uranus_Voyager2_color_calibrated.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A musician named William Herschel spotted the faint object first.
+  emphasis:
+  - William Herschel
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/William_Herschel01.jpg/1920px-William_Herschel01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: William Herschel01.jpg
+      credit: Lemuel Francis Abbott
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:William_Herschel01.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.55
+    focus_y: 0.3
+    box:
+    - 0.35
+    - 0.1
+    - 0.75
+    - 0.5
+- text: He found it using a telescope he built himself.
+  emphasis:
+  - built himself
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/bc/Medium_SMG00043907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Medium SMG00043907.jpg
+      credit: Wellcome Collection
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Medium_SMG00043907.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.45
+- text: Herschel initially thought he had found a fuzzy comet.
+  emphasis:
+  - fuzzy comet
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/ed/VLT_Tracks_Rosetta%27s_Comet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: VLT Tracks Rosetta's Comet.jpg
+      credit: Colin Snodgrass/ESO/ESA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:VLT_Tracks_Rosetta%27s_Comet.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.52
+    focus_y: 0.47
+    box:
+    - 0.4
+    - 0.35
+    - 0.65
+    - 0.6
+- text: But the circular orbit proved it was a massive planet.
+  emphasis:
+  - massive planet
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/%28589683%29_2010_RF43_orbit_diagram_jpl.png/1920px-%28589683%29_2010_RF43_orbit_diagram_jpl.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: (589683) 2010 RF43 orbit diagram jpl.png
+      credit: 'Public domainPublic domainfalsefalse
+
+
+
+
+
+
+        This file is in the public domain in the United States because it was solely created by NASA. NASA copyright policy
+        states that "NASA material is not protecte'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:(589683)_2010_RF43_orbit_diagram_jpl.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.45
+    box:
+    - 0.3
+    - 0.3
+    - 0.6
+    - 0.6
+    card:
+      kind: fact
+      big: Circular Orbit
+      small: Proved it was a planet
+- text: This discovery instantly doubled the known size of our solar system.
+  emphasis:
+  - doubled
+  sfx: pop
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/de/Graph_of_Planetary_Mass_Versus_Distance_From_the_Sun.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Graph of Planetary Mass Versus Distance From the Sun.png
+      credit: Emily Lakdawalla for The Planetary Society using image data from NASA/JPL-Caltech/SSI/SwRI/CIW/ISRO/Daniel Chang,
+        processed by Björn Jónsson, Emily Lakdawalla, Daniel Macháček, Mattias Malmer, Alex Pa
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Graph_of_Planetary_Mass_Versus_Distance_From_the_Sun.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.7
+    focus_y: 0.3
+    box:
+    - 0.45
+    - 0.05
+    - 0.9
+    - 0.4
+- text: International astronomers refused to name a world after a monarch.
+  emphasis:
+  - refused
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Allan_Ramsay_%281713-84%29_-_George_III_%281738-1820%29_-_RCIN_405307_-_Royal_Collection.jpg/960px-Allan_Ramsay_%281713-84%29_-_George_III_%281738-1820%29_-_RCIN_405307_-_Royal_Collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Allan Ramsay (1713-84) - George III (1738-1820) - RCIN 405307 - Royal Collection.jpg
+      credit: Allan Ramsay
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Allan_Ramsay_(1713-84)_-_George_III_(1738-1820)_-_RCIN_405307_-_Royal_Collection.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.51
+    focus_y: 0.23
+    box:
+    - 0.4
+    - 0.15
+    - 0.6
+    - 0.35
+- text: They chose Uranus to match the ancient gods instead.
+  emphasis:
+  - Uranus
+  sfx: whoosh
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/PPN663944449_J._Bode_%281824%29.tif/lossy-page1-1920px-PPN663944449_J._Bode_%281824%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PPN663944449 J. Bode (1824).tif
+      credit: Karl Friedrich Gustav Lüderitz; Emil Krafft
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PPN663944449_J._Bode_(1824).tif
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.53
+    focus_y: 0.35
+    box:
+    - 0.38
+    - 0.2
+    - 0.65
+    - 0.5
+- text: It remains the only world that nearly became a king.
+  emphasis:
+  - became a king
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: KING GEORGE'S PLANET
