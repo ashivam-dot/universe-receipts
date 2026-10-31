@@ -1,0 +1,198 @@
+id: ep271
+title: The Asteroid That Doubled in Size
+series: Near Misses
+format: v3
+description: In 2011, a giant asteroid slipped between Earth and the Moon, and radar revealed it was much bigger than we thought.
+sources:
+- https://en.wikipedia.org/wiki/(308635)_2005_YU55
+- https://www.space.com/13549-huge-asteroid-2005yu55-close-earth-flyby.html
+- https://web.archive.org/web/20111109071155/http://herschel.cf.ac.uk/news/herschel-observe-near-earth-asteroid
+- https://astronoo.com/en/articles/asteroid-2005-yu55.html
+- https://web.archive.org/web/20111104172332/http://planetary.org/blog/article/00002463
+- https://news.cornell.edu/stories/2010/04/arecibo-tracks-potentially-dangerous-asteroid
+hashtags:
+- '#space'
+- '#asteroid'
+- '#nasa'
+tags:
+- 2005 YU55
+- near miss
+- astronomy
+- arecibo
+- asteroid
+- earth
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A giant asteroid once snuck inside the Moon's orbit.
+  emphasis:
+  - snuck inside
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/NASA%27s_Swift_Satellite_Captures_Asteroid_2005_YU55_Flyby.jpg/960px-NASA%27s_Swift_Satellite_Captures_Asteroid_2005_YU55_Flyby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA's Swift Satellite Captures Asteroid 2005 YU55 Flyby.jpg
+      credit: NASA/Swift/Stefan Immler and DSS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA%27s_Swift_Satellite_Captures_Asteroid_2005_YU55_Flyby.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.8
+    focus_y: 0.7
+    box:
+    - 0.65
+    - 0.55
+    - 0.95
+    - 0.85
+- text: This massive rock was originally flagged as a threat to Earth.
+  emphasis:
+  - threat to Earth
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c0/Asteroidsscale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Asteroidsscale.jpg
+      credit: NASA/JPL-Caltech/JAXA/ESA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Asteroidsscale.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers fired radar beams from Puerto Rico to calculate its path.
+  emphasis:
+  - radar beams
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/cd/Arecibo_Observatory_Aerial_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Arecibo Observatory Aerial View.jpg
+      credit: H. Schweiker/WIYN and NOAO/AURA/NSF
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Arecibo_Observatory_Aerial_View.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Those signals removed the asteroid from NASA's impact list.
+  emphasis:
+  - impact list
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/NASA_HQ_Building.jpg/1920px-NASA_HQ_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA HQ Building.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA_HQ_Building.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But the radar data revealed a bigger surprise.
+  emphasis:
+  - bigger surprise
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/ASTEROIDE_2013_TV135.jpg/1280px-ASTEROIDE_2013_TV135.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ASTEROIDE 2013 TV135.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ASTEROIDE_2013_TV135.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The rock was actually twice as large as everyone thought.
+  emphasis:
+  - twice as large
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Asteroid20100429-full.jpg/960px-Asteroid20100429-full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Asteroid20100429-full.jpg
+      credit: NASA/Cornell/Arecibo
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Asteroid20100429-full.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It stretched 1,300 feet across, larger than an aircraft carrier.
+  emphasis:
+  - 1,300 feet
+  visual:
+    reuse: 6
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This dark visitor reached its closest point in November 2011.
+  emphasis:
+  - November 2011
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/3d/Released_to_Public_Earth_by_NASA_%28NASA%2C_GPN-2000-001437%29_%28241635550%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Released to Public Earth by NASA (NASA, GPN-2000-001437) (241635550).jpg
+      credit: pingnews.com
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Released_to_Public_Earth_by_NASA_(NASA,_GPN-2000-001437)_(241635550).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: November 2011
+      small: Closest Approach
+- text: It was the nearest pass by a giant in decades.
+  emphasis:
+  - giant in decades
+  sfx: whoosh
+  visual:
+    reuse: 8
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It was a massive near miss.
+  emphasis:
+  - massive near miss
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.8
+    focus_y: 0.7
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 1,300-FOOT NEAR MISS

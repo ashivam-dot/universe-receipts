@@ -1,0 +1,194 @@
+id: ep272
+title: Why the Moon Flag Never Waved
+series: Space Myths, Busted
+format: v3
+description: Apollo 11's famous flag ripples weren't caused by wind or a hoax, but by a jammed mechanical support rod.
+sources:
+- https://www.nasa.gov/history/flag-day-flying-high-the-stars-and-stripes-in-space/
+- https://news.ucsb.edu/2019/019536/astronomical-accomplishment
+- https://e.vnexpress.net/news/tech/tech-news/why-us-flag-appears-to-fly-on-moon-with-no-wind-5060840.html
+- https://en.wikipedia.org/wiki/Lunar_Flag_Assembly
+- https://airandspace.si.edu/stories/editorial/moons-early-light
+- https://sentinelmission.org/blog/how-to-explain-why-the-flag-moved-on-the-moon/
+hashtags:
+- '#space'
+- '#apollo11'
+- '#nasa'
+tags:
+- apollo 11
+- moon landing
+- flag myth
+- space myths busted
+- neil armstrong
+- buzz aldrin
+- nasa
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The American flag on the Moon never actually waved.
+  emphasis:
+  - never actually waved
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Buzz_Aldrin_and_the_US_flag_on_the_Moon%2C_AS11-40-5875.jpg/1920px-Buzz_Aldrin_and_the_US_flag_on_the_Moon%2C_AS11-40-5875.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Buzz Aldrin and the US flag on the Moon, AS11-40-5875.jpg
+      credit: Neil Armstrong
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Buzz_Aldrin_and_the_US_flag_on_the_Moon,_AS11-40-5875.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.28
+    - 0.1
+    - 0.75
+    - 0.65
+- text: Without any lunar wind, a normal banner would just hang limp.
+  emphasis:
+  - hang limp
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/AS11-40-5927_%2821447616643%29.jpg/1920px-AS11-40-5927_%2821447616643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS11-40-5927 (21447616643).jpg
+      credit: Project Apollo Archive
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS11-40-5927_(21447616643).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.45
+- text: So NASA bought a standard five-dollar nylon flag.
+  emphasis:
+  - five-dollar
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/VAB_Exterior_Photos_%28KSC-20220119-PH-CSH01_0011%29.jpg/1920px-VAB_Exterior_Photos_%28KSC-20220119-PH-CSH01_0011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: VAB Exterior Photos (KSC-20220119-PH-CSH01 0011).jpg
+      credit: Cory Huston
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:VAB_Exterior_Photos_(KSC-20220119-PH-CSH01_0011).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.3
+    focus_y: 0.35
+    card:
+      kind: fact
+      big: $5.50
+      small: Cost of standard flag
+- text: Engineers sewed a hem to slide in a telescoping top rod.
+  emphasis:
+  - top rod
+  visual:
+    reuse: 3
+    motion: zoom_in
+    focus_x: 0.3
+    focus_y: 0.35
+- text: On the surface, that horizontal metal rod jammed halfway.
+  emphasis:
+  - jammed halfway
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/AS11-40-5886_%2821473317649%29.jpg/3840px-AS11-40-5886_%2821473317649%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS11-40-5886 (21473317649).jpg
+      credit: Project Apollo Archive
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS11-40-5886_(21473317649).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.82
+    focus_y: 0.35
+    box:
+    - 0.75
+    - 0.2
+    - 0.88
+    - 0.55
+- text: The stuck bar and tight packing folds trapped permanent wrinkles.
+  emphasis:
+  - trapped permanent wrinkles
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/AS11-37-5481_%2821657378566%29.jpg/3840px-AS11-37-5481_%2821657378566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS11-37-5481 (21657378566).jpg
+      credit: Project Apollo Archive
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS11-37-5481_(21657378566).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.16
+    focus_y: 0.52
+    card:
+      kind: fact
+      big: Jammed Rod
+      small: Created permanent ripples
+- text: During liftoff, engine exhaust blew the whole small assembly over.
+  emphasis:
+  - blew the whole
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/S72-35614.jpg/3840px-S72-35614.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: S72-35614.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:S72-35614.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.7
+    box:
+    - 0.38
+    - 0.58
+    - 0.62
+    - 0.88
+    card:
+      kind: fact
+      big: 9 Pounds
+      small: Assembly blown over at liftoff
+- text: That is why the famous banner only seemed to wave.
+  emphasis:
+  - seemed to wave
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.4
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE LUNAR FLAG MYTH

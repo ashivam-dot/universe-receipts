@@ -1,0 +1,218 @@
+id: ep273
+title: The Storm That Eats Planets
+series: Scale Breaker
+format: v3
+description: Jupiter's Great Red Spot has raged for centuries without land friction to stop it. Even while shrinking, the
+  solar system's largest storm could swallow Earth whole.
+sources:
+- https://en.wikipedia.org/wiki/Great_Red_Spot
+- https://web.archive.org/web/20040610075946/http://csep10.phys.utk.edu/astr161/lect/jupiter/redspot.html
+- http://www.berkeley.edu/news/media/releases/2004/04/21_jupiter.shtml
+- http://www.gemini.edu/index.php?option=content&task=view&id=196
+- https://www.nasa.gov/feature/goddard/jupiter-s-great-red-spot-a-swirling-mystery
+- https://www.space.com/3134-jupiter-data-sheet.html
+- https://astronomy.com/news/2019/11/jupiters-great-red-spot-is-not-disappearing
+hashtags:
+- '#space'
+- '#jupiter'
+- '#astronomy'
+tags:
+- jupiter
+- great red spot
+- space
+- astronomy
+- nasa
+- juno
+- voyager
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Jupiter has a storm large enough to swallow Earth.
+  emphasis:
+  - swallow Earth
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Jupiter_-_Great_Red_Spot_-_PJ7-60_61_62_-_Balanced_%2849803032983%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter - Great Red Spot - PJ7-60 61 62 - Balanced (49803032983).png
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Jupiter_-_Great_Red_Spot_-_PJ7-60_61_62_-_Balanced_(49803032983).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.49
+    focus_y: 0.52
+    box:
+    - 0.14
+    - 0.1
+    - 0.85
+    - 0.92
+    card:
+      kind: fact
+      big: GREAT RED SPOT
+      small: Swallows entire planets
+- text: Earth's wildest hurricanes die when they hit solid land.
+  emphasis:
+  - solid land
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Katrina_2005-08-28_2115Z_%28EVL_alternate%29.png/1280px-Katrina_2005-08-28_2115Z_%28EVL_alternate%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Katrina 2005-08-28 2115Z (EVL alternate).png
+      credit: NOAA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Katrina_2005-08-28_2115Z_(EVL_alternate).png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.45
+    focus_y: 0.4
+- text: But Jupiter has no surface, so this storm never stops.
+  emphasis:
+  - never stops
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 350 YEARS
+      small: Raging continuously
+    motion: zoom_in
+- text: Its cloud tops tower five miles above surrounding clouds.
+  emphasis:
+  - five miles
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Grosser_roter_fleck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Grosser roter fleck.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Grosser_roter_fleck.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.58
+    focus_y: 0.52
+    card:
+      kind: fact
+      big: 5 MILES
+      small: Above surrounding clouds
+- text: At its peak, the vortex could swallow three Earths whole.
+  emphasis:
+  - three Earths
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Earth_and_the_Great_Red_Spot_%284078049755%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Earth and the Great Red Spot (4078049755).jpg
+      credit: Lunar and Planetary Institute from Houston, TX, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Earth_and_the_Great_Red_Spot_(4078049755).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.81
+    focus_y: 0.75
+    box:
+    - 0.66
+    - 0.56
+    - 0.95
+    - 0.93
+- text: Over the last century, astronomers watched it steadily shrink.
+  emphasis:
+  - steadily shrink
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Jupiter%27s_Great_Red_Spot_mosaic_from_Voyager_1_%28cropped%29.jpg/1920px-Jupiter%27s_Great_Red_Spot_mosaic_from_Voyager_1_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter's Great Red Spot mosaic from Voyager 1 (cropped).jpg
+      credit: NASA / JPL / Björn Jónsson
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Jupiter%27s_Great_Red_Spot_mosaic_from_Voyager_1_(cropped).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.52
+    focus_y: 0.46
+- text: Telescopes caught it shedding massive cloud flakes in 2019.
+  emphasis:
+  - shedding massive
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Compass_Image_of_Jupiter_%282019-36-4562%29.png/1920px-Compass_Image_of_Jupiter_%282019-36-4562%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Compass Image of Jupiter (2019-36-4562).png
+      credit: ', , A. Simon (Goddard Space Flight Center), and M.H. Wong (University of California, Berkeley)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Compass_Image_of_Jupiter_(2019-36-4562).png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.59
+    focus_y: 0.56
+    card:
+      kind: dateline
+      big: '2019'
+      small: Red cloud flaking event
+- text: Yet it stays stable by absorbing smaller neighboring storms.
+  emphasis:
+  - absorbing smaller
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Three_Red_Spots_Mix_It_Up_on_Jupiter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Three Red Spots Mix It Up on Jupiter.jpg
+      credit: NASA, ESA, A. Simon-Miller (Goddard Space Flight Center), N. Chanover (New Mexico State University), and G.
+        Orton (Jet Propulsion Laboratory)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Three_Red_Spots_Mix_It_Up_on_Jupiter.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.68
+    focus_y: 0.53
+    card:
+      kind: fact
+      big: ANTICYCLONES
+      small: Absorbs passing storms
+- text: It remains an ancient tempest large enough to engulf worlds.
+  emphasis:
+  - engulf worlds
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.49
+    focus_y: 0.52
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A STORM THAT EATS PLANETS
