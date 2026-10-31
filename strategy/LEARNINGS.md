@@ -24,9 +24,9 @@ rules pull in opposite directions keep the better-measured one and move the othe
 also copy it into `strategy/SCRIPT-RULES.md`, then cite the evidence here. (Consolidated 2026-10-25 from 30 rules,
 each promoted on two Shorts; their evidence is kept below.)
 
-- Prioritize cosmic-scale subjects (billions of light-years, entire planets) over human-scale or 'small' objects (asteroids, individual labs) in the hook to maximize early reach. Evidence: ep110, ep111, ep133, ep165, ep175 (median early reach 1,208) vs ep181, ep195, ep208, ep221 (median early reach 459.5).
-- Open on a belief most viewers already hold, then immediately debunk it (Space Myths, Busted pattern): counterintuitive myth-busting generates higher early reach than abstract scale. Evidence: ep047, ep053, ep146, ep159, ep165, ep172, ep185, ep197 (median early reach 1,092 vs 947 for non-myth Shorts).
-- The last line is a complete sentence that leads naturally back into the first; never repeat the hook verbatim. Evidence: ep105, ep111, ep125, ep137, ep146, ep172, ep175, ep201 (median avg percentage viewed 90.5% vs 63.5%).
+- Prioritize cosmic-scale subjects (billions of light-years, entire planets) over human-scale or small objects (asteroids, individual labs) in the hook to maximize early reach. Evidence: ep110, ep111, ep133, ep165, ep175 (median early reach 1,208) vs ep181, ep195, ep208, ep221 (median early reach 459.5).
+- Open on a belief most viewers already hold, then immediately debunk it (Space Myths, Busted pattern): myth-busting generates higher early reach than abstract scale. Evidence: ep047, ep053, ep146, ep159, ep165, ep172, ep185, ep197 (median early reach 1,092 vs 927 for non-myth Shorts).
+- The last line must be a complete sentence that leads naturally back into the first; never repeat the hook verbatim. Evidence: ep105, ep111, ep125, ep137, ep146, ep172, ep175, ep201 (median avg percentage viewed 90.5% vs 64.9%).
 - Open with the most surprising true thing about a well-known subject in the first 2 seconds: a contradiction, paradox, or physical consequence, never a passive statement. Evidence: ep002, ep008, ep045, ep110, ep111, ep133, ep175, ep197, ep201.
 - Deliver the core payoff within 3 seconds of the hook, and never restate the hook's number or idea in the next beat. Evidence: ep004, ep009, ep105, ep111, ep125, ep133, ep172, ep221.
 - Make every middle beat a new, bigger reveal; keep beats two and three short. Evidence: ep008, ep009, ep032, ep036, ep047, ep084, ep165, ep184, ep188.
@@ -39,7 +39,7 @@ each promoted on two Shorts; their evidence is kept below.)
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
 - In hazard hooks, replace abstract metric measurements with immediate, tangible stakes in beat 1 to capture initial audience distribution (ep208).
-- Use authority-anchoring institutions like 'NASA' in the hook to improve engaged share and initial distribution (ep110, ep051).
+- Use authority-anchoring institutions like NASA in the hook to improve engaged share and initial distribution (ep110, ep051).
 - For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic (ep146, ep165).
 - One number per beat: never stack figures or dates in consecutive beats (ep125, ep175).
 - Deliver mechanical explanations of the hook's premise immediately and eliminate historical detours to sustain mid-video retention (ep165).
@@ -54,16 +54,16 @@ contradiction.
 
 | Short | Series | Hook style | Observed 24-30h views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep110 | Space Got Weird | statement, story | 1169 | 56% | 76.7% | 120% | 2 | – |
-| ep105 | Scale Breaker | statement, myth_vs_fact | 662 | 50% | 158.6% | 212% | 4 | – |
-| ep112 | Near Misses | statement, story | 581 | 53% | 62.2% | 111% | 1 | – |
-| ep111 | Scale Breaker | number, story | 1169 | 52% | 98.0% | 145% | 1 | – |
+| ep110 | Space Got Weird | statement, story | 1169 | 56% | 76.7% | 120% | 2 | NASA authority hook associated with high early reach (1,169 at 28h) and above-median engaged share (55.7%). |
+| ep105 | Scale Breaker | statement, myth_vs_fact | 662 | 50% | 158.6% | 212% | 4 | Planetary-scale hook with a perfect loop sentence associated with a record average view percentage (158.5%). |
+| ep112 | Near Misses | statement, story | 581 | 53% | 62.2% | 111% | 1 | Small-scale asteroid topic and abstract hook associated with below-median reach (581 at 28h). |
+| ep111 | Scale Breaker | number, story | 1169 | 52% | 98.0% | 145% | 1 | Cosmic megastructure topic using the surprising number hook associated with high reach (1,169 at 24h). |
 | ep118 | Space Got Weird | statement, mystery | 927 | 54% | 69.6% | 118% | 0 | – |
 | ep130 | The Universe Is Terrifying | statement, scale_ladder | 823 | 53% | 60.5% | 113% | 2 | – |
-| ep125 | Mission Files | statement, record | 450 | 56% | 109.2% | 159% | 3 | – |
-| ep175 | Scale Breaker | contradiction, mystery | 1435 | 48% | 84.9% | 134% | 2 | – |
+| ep125 | Mission Files | statement, record | 450 | 56% | 109.2% | 159% | 3 | Human-scale rocket topic associated with low reach (450 at 28h) but high-stakes atomic hook drove a 109% loop. |
+| ep175 | Scale Breaker | contradiction, mystery | 1435 | 48% | 84.9% | 134% | 2 | Cosmic-scale paradox hook associated with highest recent early reach (1,435 at 25h). |
 | ep133 | Space Got Weird | statement, scale_ladder | 1208 | 48% | 59.9% | 117% | 3 | – |
-| ep051 | Mission Files | statement, scale_ladder | 1215 | 69% | 53.6% | 112% | 0 | – |
+| ep051 | Mission Files | statement, scale_ladder | 1215 | 69% | 53.6% | 112% | 0 | NASA authority-anchored hook and clear visual payoff associated with high reach (1,215 at 28h) and 68% engaged share. |
 | ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | 57% | 60.9% | 99% | 0 | – |
 | ep188 | Scale Breaker | contradiction, record | 948 | 50% | 79.9% | 128% | 0 | – |
 | ep137 | Near Misses | statement, story | 946 | 54% | 96.9% | 150% | 0 | – |
@@ -76,13 +76,13 @@ contradiction.
 | ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 57% | 68.6% | 124% | 1 | – |
 | ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 61.0% | 110% | 1 | – |
 | ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 64.3% | 114% | 1 | – |
-| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.9% | 116% | 1 | – |
+| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.9% | 116% | 1 | Small-scale object (155 miles) associated with poor early reach (519 at 25h) despite interesting visual premise. |
 | ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | – |
 | ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.3% | 148% | 2 | – |
 | ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.0% | 114% | 3 | – |
 | ep221 | Mission Files | contradiction, story | 400 | 54% | 59.4% | 113% | 0 | – |
 | ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.1% | 126% | 0 | – |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.5% | 120% | 4 | – |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.5% | 120% | 4 | Myth-busting hook on planet-scale subject associated with elite early reach (1,495 at 28h) and 4 subs per 1k views. |
 | ep174 | Mission Files | statement, story | 260 | 52% | 64.5% | 106% | 1 | published while YouTube held the whole channel back; not evidence |
 | ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 51% | 39.8% | 96% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep210 | Mission Files | contradiction, mystery | 149 | 41% | 41.1% | 98% | 0 | published while YouTube held the whole channel back; not evidence |
@@ -220,3 +220,4 @@ contradiction.
 - 2026-10-31: Updated medians and reviewed ep208, noting a strong correlation between abstract scale hooks and distribution failure (reach <100).
 - 2026-10-31: Promoted Rule 9 prioritizing cosmic-scale hooks after ep208 distribution failure highlighted a reach gap between universal subjects and localized objects.
 - 2026-10-31: Reviewed ep208 (34 early views at 25.1h): reinforced small-scale reach penalty, dropped contradicted delayed-threat hypothesis, and added beat-1 tangible stakes hypothesis.
+- 2026-10-31: Added tangible stakes hypothesis following ep208 reach failure; consolidated small-scale reach evidence showing a 62% reach penalty.
