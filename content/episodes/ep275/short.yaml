@@ -1,0 +1,196 @@
+id: ep275
+title: Saturn's Rings Are Younger Than Dinosaurs
+series: Space Myths, Busted
+format: v3
+description: Cassini data revealed that Saturn's massive ring system is only 10 to 100 million years old, formed from a shredded
+  icy moon.
+sources:
+- https://www.nasa.gov/solar-system/saturns-rings-young-and-ephemeral-three-nasa-ames-studies-say/
+- http://www.astronomy.com/news/2019/01/saturns-rings-are-surprisingly-young
+- https://en.wikipedia.org/wiki/Rings_of_Saturn
+- https://library.si.edu/digital-library/book/cristianihugeni00huyga-0
+hashtags:
+- '#space'
+- '#saturn'
+- '#nasa'
+tags:
+- saturn
+- cassini
+- astronomy
+- dinosaurs
+- space myths
+- planetary science
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Dinosaurs walked on Earth before Saturn had its rings.
+  emphasis:
+  - Dinosaurs
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/PIA17172_Saturn_eclipse_mosaic_bright_crop.jpg/3840px-PIA17172_Saturn_eclipse_mosaic_bright_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA17172 Saturn eclipse mosaic bright crop.jpg
+      credit: NASA / JPL-Caltech / Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA17172_Saturn_eclipse_mosaic_bright_crop.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 100 MILLION
+      small: years old or less
+- text: Saturn formed four and a half billion years ago, completely bare.
+  emphasis:
+  - completely bare
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 4.5 BILLION
+      small: years without rings
+    motion: zoom_in
+- text: NASA's Cassini spacecraft dove inside the rings to weigh them.
+  emphasis:
+  - Cassini
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/4e/PIA21439_-_Cassini_Grand_Finale_Dive_%28Illustration%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA21439 - Cassini Grand Finale Dive (Illustration).jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA21439_-_Cassini_Grand_Finale_Dive_(Illustration).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.2
+    - 0.65
+    - 0.75
+- text: They were shockingly light and made of almost pure water ice.
+  emphasis:
+  - pure water ice
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/PIA21059_-_The_Propeller_Belts_in_Saturn%27s_A_Ring%2C_Figure_2.jpg/960px-PIA21059_-_The_Propeller_Belts_in_Saturn%27s_A_Ring%2C_Figure_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA21059 - The Propeller Belts in Saturn's A Ring, Figure 2.jpg
+      credit: NASA/JPL-Caltech/Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA21059_-_The_Propeller_Belts_in_Saturn%27s_A_Ring,_Figure_2.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Billions of years of micrometeoroid dust would have darkened them.
+  emphasis:
+  - darkened them
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Saturn_-_August_6_2016_%2828818971836%29.jpg/960px-Saturn_-_August_6_2016_%2828818971836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Saturn - August 6 2016 (28818971836).jpg
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Saturn_-_August_6_2016_(28818971836).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Instead, Saturn's gravity shredded an icy moon just recently.
+  emphasis:
+  - shredded an icy moon
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Affecting_Two_Rings.jpg/960px-Affecting_Two_Rings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Affecting Two Rings.jpg
+      credit: NASA/JPL/Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Affecting_Two_Rings.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.35
+    focus_y: 0.5
+    box:
+    - 0.15
+    - 0.0
+    - 0.45
+    - 1.0
+    card:
+      kind: fact
+      big: SHATTERED MOON
+      small: torn apart by tidal forces
+- text: That ring debris is already raining down into the clouds.
+  emphasis:
+  - raining down
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Saturn_Lyman-alpha_Image_%282023-009%29.png/1280px-Saturn_Lyman-alpha_Image_%282023-009%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Saturn Lyman-alpha Image (2023-009).png
+      credit: 'SCIENCE: NASA, ESA, Lotfi Ben-Jaffel (IAP & LPL)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Saturn_Lyman-alpha_Image_(2023-009).png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.53
+    focus_y: 0.5
+    box:
+    - 0.2
+    - 0.15
+    - 0.85
+    - 0.8
+    card:
+      kind: fact
+      big: RING RAIN
+      small: spiraling into the planet
+- text: Soon, the giant planet will be completely bare again.
+  emphasis:
+  - completely bare again
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: YOUNGER THAN T-REX

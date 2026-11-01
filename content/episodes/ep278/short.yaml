@@ -1,0 +1,246 @@
+id: ep278
+title: The Strange Quarantine of Apollo 11
+series: Mission Files
+format: v3
+description: After walking on the Moon in 1969, the Apollo 11 crew was quarantined for three weeks to guard against lunar
+  germs.
+sources:
+- https://en.wikipedia.org/wiki/Mobile_quarantine_facility
+- https://www.nasa.gov/history/50-years-ago-apollo-11-astronauts-leave-quarantine/
+- https://www.space.com/apollo-11-astronauts-quarantined-after-splashdown.html
+- https://www.skyatnightmagazine.com/space-missions/why-were-apollo-11-astronauts-put-in-quarantine
+- https://www.19fortyfive.com/2026/07/after-walking-on-the-moon-the-apollo-11-crew-spent-three-weeks-locked-in-quarantine-in-case-theyd-brought-back-lunar-germs-and-greeted-the-world-through-glass/
+- https://www.collectspace.com/ubb/Forum14/HTML/000587.html
+- https://abcnews.com/Technology/awaited-astronauts-returned-earth-apollo-11-moon-landing/story?id=64375119
+hashtags:
+- '#space'
+- '#apollo11'
+- '#nasa'
+tags:
+- apollo 11
+- quarantine
+- neil armstrong
+- buzz aldrin
+- michael collins
+- nasa
+- moon landing
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The first Moonwalkers were locked in quarantine upon returning.
+  emphasis:
+  - locked in quarantine
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Apollo_11_crew_in_quarantine.jpg/1280px-Apollo_11_crew_in_quarantine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apollo 11 crew in quarantine.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apollo_11_crew_in_quarantine.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.35
+    focus_y: 0.36
+    box:
+    - 0.15
+    - 0.22
+    - 0.52
+    - 0.48
+    card:
+      kind: fact
+      big: 21 DAYS
+      small: lunar quarantine
+- text: NASA feared they might bring back deadly lunar germs.
+  emphasis:
+  - deadly lunar germs
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Splashdown_3.jpg/960px-Splashdown_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Splashdown 3.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Splashdown_3.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.05
+    - 0.25
+    - 0.91
+    - 0.67
+- text: The crew sealed themselves inside a converted Airstream trailer.
+  emphasis:
+  - Airstream trailer
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/dc/The_Apollo_11_mission%2C_the_first_manned_lunar_mission%2C_launched_from_the_Kennedy_Space_Center%2C_Florida_via_the_Marshall_Space_Flight_Center_%28MSFC%29_developed_Saturn_V_launch_vehicle_on_July_16%2C_1969_and_safely_returned_to_Ear_%286901219%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: The Apollo 11 mission, the first manned lunar mission, launched from the Kennedy Space Center, Florida via the
+        Marshall Space Flight Center (MSFC) developed Saturn V launch vehicle on July 16, 1969 and safely returned to Ear
+        (6901219).jpg
+      credit: NASA Marshall Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Apollo_11_mission,_the_first_manned_lunar_mission,_launched_from_the_Kennedy_Space_Center,_Florida_via_the_Marshall_Space_Flight_Center_(MSFC)_developed_Saturn_V_launch_vehicle_on_July_16,_1969_and_safely_returned_to_Ear_(6901219).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.48
+    box:
+    - 0.11
+    - 0.32
+    - 0.79
+    - 0.68
+- text: President Nixon had to congratulate them through a glass window.
+  emphasis:
+  - glass window
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/a4/KENNEDY_SPACE_CENTER%2C_FLA_%28KSC-69P-658%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: KENNEDY SPACE CENTER, FLA (KSC-69P-658).jpg
+      credit: NASA Kennedy Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:KENNEDY_SPACE_CENTER,_FLA_(KSC-69P-658).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.7
+    focus_y: 0.5
+    box:
+    - 0.6
+    - 0.21
+    - 0.8
+    - 0.94
+- text: Then they flew to Houston to live in an airtight bunker.
+  emphasis:
+  - airtight bunker
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/37/EXTERIOR_OF_LUNAR_RECEIVING_LABORATORY_BUILDING_37_in_1967_%28s67-50718%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: EXTERIOR OF LUNAR RECEIVING LABORATORY BUILDING 37 in 1967 (s67-50718).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:EXTERIOR_OF_LUNAR_RECEIVING_LABORATORY_BUILDING_37_in_1967_(s67-50718).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.66
+    box:
+    - 0.07
+    - 0.59
+    - 0.95
+    - 0.72
+- text: Neil Armstrong even spent his thirty-ninth birthday sealed inside.
+  emphasis:
+  - thirty-ninth birthday
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Views_of_final_preparations_to_birthday_cakes_and_party_activities_for_Astronaut_Neil_Armstrong_in_the_bldg_%28s69-40962%29.jpg/1920px-Views_of_final_preparations_to_birthday_cakes_and_party_activities_for_Astronaut_Neil_Armstrong_in_the_bldg_%28s69-40962%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Views of final preparations to birthday cakes and party activities for Astronaut Neil Armstrong in the bldg (s69-40962).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Views_of_final_preparations_to_birthday_cakes_and_party_activities_for_Astronaut_Neil_Armstrong_in_the_bldg_(s69-40962).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.43
+    focus_y: 0.6
+    box:
+    - 0.24
+    - 0.44
+    - 0.56
+    - 0.87
+- text: Yet astronaut Michael Collins pointed out a massive flaw.
+  emphasis:
+  - massive flaw
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Michael_Collins_%28S69-31742%2C_restoration%29.jpg/1920px-Michael_Collins_%28S69-31742%2C_restoration%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Michael Collins (S69-31742, restoration).jpg
+      credit: NASA; restored by Coffeeandcrumbs
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Michael_Collins_(S69-31742,_restoration).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.15
+    - 0.12
+    - 0.9
+    - 0.88
+- text: Opening the capsule hatch at sea had already vented spacecraft air.
+  emphasis:
+  - already vented
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/94/Saturn_Apollo_Program_%286900604%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Saturn Apollo Program (6900604).jpg
+      credit: NASA Marshall Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Saturn_Apollo_Program_(6900604).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.45
+    focus_y: 0.55
+    box:
+    - 0.03
+    - 0.22
+    - 0.72
+    - 0.9
+    card:
+      kind: fact
+      big: HATCH OPENED
+      small: vented into Pacific
+- text: Earth was already exposed before any astronaut entered quarantine.
+  emphasis:
+  - already exposed
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.35
+    focus_y: 0.36
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: RETURNING FROM THE MOON

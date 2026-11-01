@@ -1,0 +1,291 @@
+{
+  "viable": true,
+  "reason": "The sources provide multi-site corroboration for more than a dozen detailed claims detailing the 1974 discovery, mechanics, and consequences of Hawking radiation.",
+  "story": "For decades, physicists believed black holes were cosmic dead ends where anything crossing the event horizon vanished forever. But in 1974, Stephen Hawking published a shock finding in Nature titled 'Black hole explosions?'. Applying quantum field theory to Einstein's general relativity, Hawking revealed empty space is constantly churning with pairs of virtual particles popping into existence. At the edge of an event horizon, gravity can rip these pairs apart before they annihilate: one particle falls inward while the other escapes outward as thermal glow. This escaping stream, now called Hawking radiation, steadily siphons away the black hole's mass. Counterintuitively, shrinking black holes grow hotter and radiate faster, ultimately vanishing in a catastrophic gamma-ray explosion. A solar-mass black hole takes over 10^67 years to evaporate—far longer than the universe's age—meaning no telescope has ever directly seen this faint quantum glow.",
+  "angle": "Black holes are not permanently black: quantum fluctuations at their horizons cause them to leak thermal radiation, heat up as they shrink, and eventually detonate in a violent burst.",
+  "claims": [
+    {
+      "claim": "In 1974, Stephen Hawking published a landmark paper in Nature titled 'Black hole explosions?'.",
+      "sources": [
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Hawking's 1974 paper demonstrated theoretically that black holes are not completely black and emit thermal radiation.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Prior to 1974, the prevailing scientific consensus was that nothing could ever escape from inside an event horizon.",
+      "sources": [
+        "S1",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In quantum field theory, the vacuum of space is filled with virtual particle-antiparticle pairs constantly appearing and annihilating.",
+      "sources": [
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Near a black hole's event horizon, virtual particle pairs can separate so that one particle falls in while the other escapes into space.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Escaping Hawking radiation drains energy and mass from the black hole, causing it to slowly shrink and evaporate.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Hawking radiation unites principles from general relativity, quantum mechanics, and thermodynamics.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Jacob Bekenstein previously posited that black holes possess entropy and a temperature proportional to their surface area.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The temperature of Hawking radiation is inversely proportional to the black hole's mass, meaning smaller black holes are hotter.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Unlike ordinary objects, a black hole gets hotter as it radiates away its mass.",
+      "sources": [
+        "S1",
+        "S2",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "As an evaporating black hole shrinks near the end of its life, it radiates exponentially faster until it ends in a violent radiation explosion.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A black hole with the mass of the Sun would take roughly 10^67 years to completely evaporate.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The evaporation time of a solar-mass black hole is vastly longer than the current age of the universe.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Stellar-mass black holes are colder than the 2.7 Kelvin cosmic microwave background, meaning they currently absorb more radiation than they emit.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Hawking radiation has never been directly observed from an astrophysical black hole.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Black hole evaporation triggered the black hole information paradox over whether physical information is permanently destroyed.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Experimental physicists have attempted to study analog Hawking radiation in laboratory systems using Bose-Einstein condensates.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Final explosion energy: Hawking's 1974 paper states about 10^30 erg is released in the final 0.1 seconds, whereas S3 quotes a rate of 10^29 erg/s; scripts should avoid citing exact burst wattage or state 'an estimated 10^30 ergs'.",
+    "Solar-mass evaporation lifetime: Older pre-1998 calculations cited 10^64 years, while modern calculations accounting for 3 neutrino flavors yield roughly 10^67 years; scripts should state 'over 10^67 years according to modern calculations'.",
+    "Laboratory optical analog confirmation: S4 and S1 note that an optical horizon created in glass in 2010 showed photon emission, but other physicists disputed whether it represented true quantum Hawking radiation; scripts should treat optical analogues as debated."
+  ],
+  "visuals": [
+    {
+      "subject": "Stephen Hawking portrait",
+      "queries": [
+        "Stephen Hawking portrait",
+        "Stephen Hawking 1980s"
+      ]
+    },
+    {
+      "subject": "Diagram of Hawking radiation pair production at an event horizon",
+      "queries": [
+        "Hawking radiation diagram",
+        "Hawking radiation illustration commons"
+      ]
+    },
+    {
+      "subject": "Event horizon and curved spacetime artist's impression",
+      "queries": [
+        "Black hole accretion disk ESO artist impression",
+        "Black hole spacetime curvature illustration"
+      ]
+    },
+    {
+      "subject": "Cosmic microwave background map from Planck observatory",
+      "queries": [
+        "Planck CMB all sky map",
+        "WMAP cosmic microwave background"
+      ]
+    },
+    {
+      "subject": "NASA Fermi Gamma-ray Space Telescope searching for primordial black hole bursts",
+      "queries": [
+        "Fermi Gamma-ray Space Telescope spacecraft",
+        "GLAST satellite artist concept"
+      ]
+    },
+    {
+      "subject": "Artist concept of an exploding primordial micro black hole",
+      "queries": [
+        "Gamma ray burst illustration NASA",
+        "Supernova explosion artist impression ESO"
+      ]
+    },
+    {
+      "subject": "Bose-Einstein condensate laboratory apparatus for analog gravity",
+      "queries": [
+        "Bose Einstein condensate laboratory apparatus",
+        "Ultra cold atom experiment optical table"
+      ]
+    },
+    {
+      "subject": "Schwarzschild metric geometry diagram",
+      "queries": [
+        "Schwarzschild black hole diagram",
+        "Embedding diagram Schwarzschild metric"
+      ]
+    },
+    {
+      "subject": "Large Hadron Collider tunnel at CERN",
+      "queries": [
+        "Large Hadron Collider tunnel CERN",
+        "LHC dipole magnets tunnel"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Hawking_radiation",
+      "title": "Hawking radiation",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.nature.com/articles/248030a0",
+      "title": "Black hole explosions? - Nature",
+      "site": "nature.com"
+    },
+    {
+      "label": "S3",
+      "url": "https://communities.springernature.com/posts/hawking-bekenstein-radiation-and-the-shifting-of-a-paradigm",
+      "title": "Hawking-Bekenstein radiation and the shifting of a paradigm",
+      "site": "springernature.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://web.archive.org/web/20141202232003/https://www.scientificamerican.com/article/hawking-radiation/",
+      "title": "Artificial Event Horizon Emits Laboratory Analogue to Theoretical Black Hole Radiation",
+      "site": "scientificamerican.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://stephenhawking.co.uk/research/annotated-black-hole-explosions",
+      "title": "Annotated: Hawking's 'Black Hole Explosions?' (1974)",
+      "site": "stephenhawking.co.uk"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.physicsoftheuniverse.com/topics_blackholes_theory.html",
+      "title": "Black Hole Theory & Hawking Radiation",
+      "site": "physicsoftheuniverse.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://cosmichorizons.org/hawking-radiation-explained/",
+      "title": "Hawking Radiation Explained: How Black Holes Lose Mass | Cosmic Horizons",
+      "site": "cosmichorizons.org"
+    }
+  ],
+  "topic": "Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate",
+  "series": "Space Myths, Busted"
+}

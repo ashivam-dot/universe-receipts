@@ -1,0 +1,217 @@
+id: ep277
+title: Why Black Holes Are Not Completely Black
+series: Space Myths, Busted
+format: v3
+description: Physicist Stephen Hawking proved that black holes slowly leak energy until they explode. Quantum fluctuations
+  at the event horizon cause even cosmic giants to evaporate.
+sources:
+- https://en.wikipedia.org/wiki/Hawking_radiation
+- https://communities.springernature.com/posts/hawking-bekenstein-radiation-and-the-shifting-of-a-paradigm
+- https://stephenhawking.co.uk/research/annotated-black-hole-explosions
+- https://www.physicsoftheuniverse.com/topics_blackholes_theory.html
+- https://cosmichorizons.org/hawking-radiation-explained/
+- https://www.nature.com/articles/248030a0
+- https://web.archive.org/web/20141202232003/https://www.scientificamerican.com/article/hawking-radiation/
+hashtags:
+- '#space'
+- '#blackhole'
+- '#physics'
+tags:
+- black hole
+- Hawking radiation
+- Stephen Hawking
+- quantum physics
+- event horizon
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Every black hole in space is slowly evaporating.
+  emphasis:
+  - slowly evaporating
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Artist%E2%80%99s_Impression_of_Black_Hole_LID-568_%28noirlab2427d%29.jpg/3840px-Artist%E2%80%99s_Impression_of_Black_Hole_LID-568_%28noirlab2427d%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s Impression of Black Hole LID-568 (noirlab2427d).jpg
+      credit: NOIRLab/NSF/AURA/J. da Silva/M. Zamani
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_Impression_of_Black_Hole_LID-568_(noirlab2427d).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.32
+    focus_y: 0.68
+- text: They actually leak a steady stream of thermal radiation.
+  emphasis:
+  - leak
+  - thermal radiation
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Thermal glow
+      small: leaking radiation
+    motion: zoom_in
+- text: For decades, physicists believed nothing could ever escape an event horizon.
+  emphasis:
+  - nothing could ever escape
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Diagramme_Penrose_Kruskal.png/1920px-Diagramme_Penrose_Kruskal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Diagramme Penrose Kruskal.png
+      credit: ²°¹°° at French Wikipedia
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Diagramme_Penrose_Kruskal.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.1
+    - 0.05
+    - 0.9
+    - 0.75
+- text: Physicist Stephen Hawking proved in 1974 that virtual particles churn through space.
+  emphasis:
+  - Stephen Hawking
+  - virtual particles
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/0/05/Stephen_Hawking_in_Cambridge_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Stephen Hawking in Cambridge cropped.jpg
+      credit: 'Photographer: Doug Wheller, cropped and tweaked by W.carter'
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Stephen_Hawking_in_Cambridge_cropped.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.72
+    focus_y: 0.22
+    box:
+    - 0.55
+    - 0.1
+    - 0.9
+    - 0.35
+    card:
+      kind: dateline
+      big: '1974'
+      small: Stephen Hawking's proof
+- text: Near the edge, extreme gravity rips these particle pairs apart.
+  emphasis:
+  - rips these particle pairs apart
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Black_Hole_with_Accretion_Disk_Visualization_%28SVS14619_-_5-Black_hole_grid_approach-4K_00001_print%29.jpg/960px-Black_Hole_with_Accretion_Disk_Visualization_%28SVS14619_-_5-Black_hole_grid_approach-4K_00001_print%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Black Hole with Accretion Disk Visualization (SVS14619 - 5-Black hole grid approach-4K 00001 print).jpg
+      credit: NASA's Scientific Visualization Studio - Caltech-IPAC/Robert Hurt, Caltech-IPAC/Keith Miller, NASA/JPL/Chelsea
+        Gohd, Global Science and Technology, Inc./Ella Kaplan, NASA/GSFC/Mark SubbaRao
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Black_Hole_with_Accretion_Disk_Visualization_(SVS14619_-_5-Black_hole_grid_approach-4K_00001_print).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.35
+    - 0.65
+    - 0.65
+- text: One falls inward while the escaping partner slowly drains cosmic mass.
+  emphasis:
+  - drains cosmic mass
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Hawking radiation
+      small: draining black hole mass
+    motion: zoom_in
+- text: Unlike ordinary matter, a shrinking black hole gets hotter.
+  emphasis:
+  - gets hotter
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/WMAP_2012.png/3840px-WMAP_2012.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: WMAP 2012.png
+      credit: NASA / WMAP Science Team
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:WMAP_2012.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Gets hotter
+      small: as it loses mass
+- text: It radiates faster and faster until it detonates in a violent explosion.
+  emphasis:
+  - violent explosion
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Illustration_of_a_Gamma-Ray_Burst_%282005-grb050709-more-2%29.tiff/lossy-page1-1920px-Illustration_of_a_Gamma-Ray_Burst_%282005-grb050709-more-2%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Illustration of a Gamma-Ray Burst (2005-grb050709-more-2).tiff
+      credit: '(Illustration: NASA/D.Berry)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Illustration_of_a_Gamma-Ray_Burst_(2005-grb050709-more-2).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.3
+    - 0.2
+    - 0.7
+    - 0.8
+    card:
+      kind: fact
+      big: Final burst
+      small: violent radiation explosion
+- text: That is why the darkest monsters in space slowly vanish into light.
+  emphasis:
+  - vanish into light
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.32
+    focus_y: 0.68
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: LEAKING INTO SPACE
