@@ -1,0 +1,200 @@
+id: ep280
+title: NASA's 23,000 mph Comet Target Practice
+series: Mission Files
+format: v3
+description: NASA intentionally smashed an 820-pound copper probe into Comet Tempel 1 to study its interior.
+sources:
+- https://en.wikipedia.org/wiki/Deep_Impact_(spacecraft)
+- https://svs.gsfc.nasa.gov/11892
+- http://www.esa.int/esaCP/SEMCOZ1DU8E_index_0.html
+- http://www.space.com/missionlaunches/050609_impact_camera.html
+- http://www.planetary.org/blogs/emily-lakdawalla/2012/10051022-deep-impact-asteroid-flyby.html
+- https://web.archive.org/web/20090301053550/http://www.ballaerospace.com/page.jsp?page=60
+- http://www.universetoday.com/99777/deep-impact-images-spectacular-incoming-comet-ison-curiosity-nasa-armada-will-try/#more-99777
+hashtags:
+- '#space'
+- '#nasa'
+- '#deepimpact'
+tags:
+- nasa
+- deep impact
+- comet
+- spacecraft
+- tempel 1
+- astronomy
+- space mission
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA smashed an 820-pound copper probe into a speeding comet.
+  emphasis:
+  - 820-pound
+  - speeding comet
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Deep_Impact.jpg/1920px-Deep_Impact.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Deep Impact.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 820 LBS
+      small: COPPER PROBE
+- text: Many believed the spacecraft accidentally lost control and crashed.
+  emphasis:
+  - accidentally lost control
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/bc/Deep_Impact_HRI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Deep Impact HRI.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Deep_Impact_HRI.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But engineers targeted comet Tempel 1 on purpose.
+  emphasis:
+  - on purpose
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/8e/Outburst_from_Comet_Tempel_1%2C_the_Target_of_Deep_Impact_Space_Probe_%282005-16-1706%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Outburst from Comet Tempel 1, the Target of Deep Impact Space Probe (2005-16-1706).jpg
+      credit: NASA, ESA, P. Feldman (Johns Hopkins University), and H. Weaver (Johns Hopkins University/Applied Physics Lab)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Outburst_from_Comet_Tempel_1,_the_Target_of_Deep_Impact_Space_Probe_(2005-16-1706).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: TEMPEL 1
+      small: TARGET COMET
+- text: The probe slammed in at 23,000 miles per hour.
+  emphasis:
+  - 23,000 miles per hour
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/NASA%27s_Deep_Impact_impactor_probe_hits_comet_Tempel_1.tif/lossy-page1-1920px-NASA%27s_Deep_Impact_impactor_probe_hits_comet_Tempel_1.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA's Deep Impact impactor probe hits comet Tempel 1.tif
+      credit: ESA & NASA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:NASA%27s_Deep_Impact_impactor_probe_hits_comet_Tempel_1.tif
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 23,000 MPH
+      small: IMPACT SPEED
+- text: It transmitted its final image just seconds before impact.
+  emphasis:
+  - seconds before impact
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Tempel1_Composite.jpg/1920px-Tempel1_Composite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Tempel1 Composite.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Tempel1_Composite.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The blast unleashed energy equal to nearly five tons of TNT.
+  emphasis:
+  - five tons of TNT
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/PIA02131.jpg/960px-PIA02131.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA02131.jpg
+      credit: NASA/JPL-Caltech/UMD
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA02131.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.52
+    focus_y: 0.52
+    box:
+    - 0.45
+    - 0.45
+    - 0.62
+    - 0.62
+- text: Europe's Rosetta spacecraft filmed the crash from 80 million kilometers away.
+  emphasis:
+  - 80 million kilometers
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Rosetta_in_space.jpg/1280px-Rosetta_in_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Rosetta in space.jpg
+      credit: DLR, CC-BY 3.0
+      license: CC BY 3.0 de
+      url: https://commons.wikimedia.org/wiki/File:Rosetta_in_space.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 80 MILLION KM
+      small: ROSETTA OBSERVATION DISTANCE
+- text: No malfunction occurred during this cosmic target practice.
+  emphasis:
+  - target practice
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

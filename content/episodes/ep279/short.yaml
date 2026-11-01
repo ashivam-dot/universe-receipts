@@ -1,0 +1,191 @@
+id: ep279
+title: The Probe That Flew to Jupiter to Reach the Sun
+series: Mission Files
+format: v3
+description: How NASA and ESA sent the Ulysses probe on a 500 million mile detour to orbit the Sun's poles.
+sources:
+- https://en.wikipedia.org/wiki/Ulysses_(spacecraft)
+- https://science.nasa.gov/mission/ulysses/
+- https://www.cosmos.esa.int/web/ulysses/the-ulysses-mission
+- https://web.archive.org/web/20230907002154/https://www.reuters.com/article/us-space-solar-idINTRE5600A220090701
+- https://web.archive.org/web/20110817205127/http://hiauly1.hia.nrc.ca/index.html
+hashtags:
+- '#space'
+- '#ulysses'
+- '#nasa'
+tags:
+- ulysses
+- sun
+- jupiter
+- nasa
+- esa
+- spacecraft
+- gravity assist
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: To explore the Sun's poles, a probe flew to Jupiter.
+  emphasis:
+  - Sun's poles
+  - Jupiter
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ulysses_at_Jupiter_H1.jpg/960px-Ulysses_at_Jupiter_H1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ulysses at Jupiter H1.jpg
+      credit: NASA/ESA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ulysses_at_Jupiter_H1.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.4
+    focus_y: 0.5
+    box:
+    - 0.22
+    - 0.28
+    - 0.52
+    - 0.82
+- text: Earth rockets lacked the power to turn straight up into solar orbit.
+  emphasis:
+  - lacked the power
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/62/SHUTTLE-CENTAUR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: SHUTTLE-CENTAUR.JPG
+      credit: 'Photographer: COPY NEGATIVE'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:SHUTTLE-CENTAUR.JPG
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.4
+    focus_y: 0.4
+    box:
+    - 0.1
+    - 0.1
+    - 0.7
+    - 0.8
+- text: So NASA and ESA launched Ulysses aboard Space Shuttle Discovery in 1990.
+  emphasis:
+  - Space Shuttle Discovery
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/S035_s041pads.jpg/960px-S035_s041pads.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: S035 s041pads.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:S035_s041pads.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.71
+    focus_y: 0.44
+    box:
+    - 0.65
+    - 0.25
+    - 0.77
+    - 0.55
+    card:
+      kind: dateline
+      big: '1990'
+      small: Space Shuttle Discovery launch
+- text: Instead of heading inward, the probe raced straight toward giant Jupiter.
+  emphasis:
+  - toward giant Jupiter
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Hubble_Images_Jupiter_in_Support_of_the_New_Horizons_Flyby_%282007-11-2071%29.jpg/1920px-Hubble_Images_Jupiter_in_Support_of_the_New_Horizons_Flyby_%282007-11-2071%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble Images Jupiter in Support of the New Horizons Flyby (2007-11-2071).jpg
+      credit: NASA, ESA, and the Hubble Heritage Team (AURA/STScI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_Images_Jupiter_in_Support_of_the_New_Horizons_Flyby_(2007-11-2071).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.18
+    - 0.15
+    - 0.82
+    - 0.75
+- text: Jupiter's powerful gravity hurled Ulysses 80 degrees off the solar plane.
+  emphasis:
+  - 80 degrees
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 80 DEGREES
+      small: orbital tilt achieved at Jupiter
+    motion: zoom_in
+- text: The slingshot made Ulysses the fastest human object made up to 1990.
+  emphasis:
+  - fastest human object
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/The_Ulysses_spacecraft_undergoes_testing_at_the_vacuum_spin-balancing_facility_in_ESTEC.jpg/3840px-The_Ulysses_spacecraft_undergoes_testing_at_the_vacuum_spin-balancing_facility_in_ESTEC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Ulysses spacecraft undergoes testing at the vacuum spin-balancing facility in ESTEC.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Ulysses_spacecraft_undergoes_testing_at_the_vacuum_spin-balancing_facility_in_ESTEC.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: FASTEST PROBE
+      small: record launch speed in 1990
+- text: Above the poles, it discovered interstellar dust 30 times thicker than assumed.
+  emphasis:
+  - 30 times thicker
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 30X DUST
+      small: interstellar dust over solar poles
+    motion: zoom_in
+- text: To reach the top of our star, you must first fly away from it.
+  emphasis:
+  - fly away from it
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.4
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 500 MILLION MILE DETOUR

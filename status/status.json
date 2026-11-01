@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-01T23:06:10+05:30",
-  "day": 31,
+  "updated_at": "2026-11-02T05:11:27+05:30",
+  "day": 32,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6C2VN9N7HW9TPRZAJ9WKFZR",
+    "id": "ta-01M6CQESVHD3R0Y57XR3DPGFCR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-01T23:05:09+05:30",
-    "started_at_utc": "2026-11-01T17:35:09+00:00",
-    "seconds": 61
+    "started_at": "2026-11-02T05:05:09+05:30",
+    "started_at_utc": "2026-11-01T23:35:09+00:00",
+    "seconds": 378
   },
   "stages": [
     {
@@ -28,7 +28,7 @@
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.0
+      "seconds": 3.2
     },
     {
       "name": "languages",
@@ -45,98 +45,68 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 2.9
+      "detail": "ep254 at 72 h: ahead of the channel's earlier Shorts at this age: 1181 views against a median of 922 (1.3x); ep260 at 24 h: ahead of the channel's earlier Shorts at this age: 1414 views against a median of 726 (1.9x); learnings: Maintained existing 9 proven rules and 8 hypotheses as no new daily short reviews were added today.",
+      "seconds": 305.6
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep271 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep272 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep273 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep274 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep275 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep276 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep277 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep278 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set)",
-      "seconds": 20.2
+      "detail": "ep271 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep272 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep273 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep274 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep275 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep276 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep277 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep278 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep279 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep280 unfinished (Runtim",
+      "seconds": 27.8
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "preflight ep263",
       "ok": true,
-      "detail": "video downloads whole (8 MB in 0 s)",
-      "seconds": 0.3
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "preflight ep265",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "preflight ep266",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep268",
       "ok": true,
-      "detail": "video downloads whole (14 MB in 1 s)",
-      "seconds": 0.8
+      "detail": "video still hosted",
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
-    },
-    {
-      "name": "start ep271",
-      "ok": true,
-      "detail": "2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep272",
-      "ok": true,
-      "detail": "Apollo 11 (1969): the US flag didn't \"wave\" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep273",
-      "ok": true,
-      "detail": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep274",
-      "ok": true,
-      "detail": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep275",
-      "ok": true,
-      "detail": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
-      "seconds": 0.5
+      "seconds": 1.7
     },
     {
       "name": "start ep276",
       "ok": true,
       "detail": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
-      "seconds": 0.5
+      "seconds": 0.6
     },
     {
       "name": "start ep277",
       "ok": true,
       "detail": "Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate",
-      "seconds": 0.5
+      "seconds": 0.6
     },
     {
       "name": "start ep278",
       "ok": true,
       "detail": "Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs",
-      "seconds": 0.5
+      "seconds": 0.9
     },
     {
       "name": "start ep279",
@@ -157,10 +127,58 @@
       "seconds": 0.5
     },
     {
+      "name": "start ep282",
+      "ok": true,
+      "detail": "Apollo 4 (1967): the first launch of the Saturn V rocket was so loud its shockwaves shook buildings and shattered windows miles away",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep283",
+      "ok": true,
+      "detail": "Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep284",
+      "ok": true,
+      "detail": "Big Bang (1927): it was not a giant explosion bursting into empty space, but the rapid expansion of space itself everywhere at once",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep285",
+      "ok": true,
+      "detail": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep286",
+      "ok": true,
+      "detail": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep287",
+      "ok": true,
+      "detail": "Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep288",
+      "ok": true,
+      "detail": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep289",
+      "ok": true,
+      "detail": "Iapetus (moon) (1671): a bizarre world shaped like a walnut, with a 12-mile-high equatorial ridge and one hemisphere ten times darker than the other",
+      "seconds": 0.8
+    },
+    {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 1.6
     }
   ],
   "errors": [],
@@ -173,17 +191,20 @@
     "target": 14,
     "making": [],
     "remote": [
-      "ep271",
-      "ep272",
-      "ep273",
-      "ep274",
-      "ep275",
       "ep276",
       "ep277",
       "ep278",
       "ep279",
       "ep280",
-      "ep281"
+      "ep281",
+      "ep282",
+      "ep283",
+      "ep284",
+      "ep285",
+      "ep286",
+      "ep287",
+      "ep288",
+      "ep289"
     ]
   },
   "queue": [
@@ -273,120 +294,174 @@
       "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
       "quota": false,
       "overloaded": false
+    },
+    {
+      "id": "ep279",
+      "outcome": "unfinished",
+      "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep280",
+      "outcome": "unfinished",
+      "topic": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep281",
+      "outcome": "unfinished",
+      "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep271",
-      "topic": "2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar",
-      "call_id": "fc-01M6C2XE5B87GZ0SSS8M5JJ82P"
-    },
-    {
-      "id": "ep272",
-      "topic": "Apollo 11 (1969): the US flag didn't \"wave\" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look",
-      "call_id": "fc-01M6C2XEKC2ZNRP7CCXRQ1D1RP"
-    },
-    {
-      "id": "ep273",
-      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
-      "call_id": "fc-01M6C2XF2HXCNBBEDZSPVQJ7QP"
-    },
-    {
-      "id": "ep274",
-      "topic": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
-      "call_id": "fc-01M6C2XFJ6H1CXWV1FGWT8HAVJ"
-    },
-    {
-      "id": "ep275",
-      "topic": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
-      "call_id": "fc-01M6C2XG12148ZDE05RXX970JZ"
-    },
-    {
       "id": "ep276",
       "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
-      "call_id": "fc-01M6C2XGG44KHVW470T77S9HEY"
+      "call_id": "fc-01M6CQT5Y6V7VNN6BB8W1BXAD8"
     },
     {
       "id": "ep277",
       "topic": "Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate",
-      "call_id": "fc-01M6C2XGYEAAPBGPM8WQ1WAG7X"
+      "call_id": "fc-01M6CQT6FHGMFJ8C6P3F2NZ5X6"
     },
     {
       "id": "ep278",
       "topic": "Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs",
-      "call_id": "fc-01M6C2XHCJ512N6XN1A2F2723P"
+      "call_id": "fc-01M6CQT7C4P7NJRKQ4TEBACNTA"
     },
     {
       "id": "ep279",
       "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
-      "call_id": "fc-01M6C2XHV20ETTTAX37CRQS6DY"
+      "call_id": "fc-01M6CQT7WYYSH3JTV9E6XP458B"
     },
     {
       "id": "ep280",
       "topic": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
-      "call_id": "fc-01M6C2XJ9CNFW3ZDPTMZJJYWWR"
+      "call_id": "fc-01M6CQT8E0E6BNFN7V2JHKSVEZ"
     },
     {
       "id": "ep281",
       "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "call_id": "fc-01M6C2XJQVKGT0ZHC4R22AN59A"
+      "call_id": "fc-01M6CQT8YCGHMMRXVAAMJQAKN5"
+    },
+    {
+      "id": "ep282",
+      "topic": "Apollo 4 (1967): the first launch of the Saturn V rocket was so loud its shockwaves shook buildings and shattered windows miles away",
+      "call_id": "fc-01M6CQT9F95XD5QQA7C1ESVYFY"
+    },
+    {
+      "id": "ep283",
+      "topic": "Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos",
+      "call_id": "fc-01M6CQT9ZWDKS144EKGJZEYYPK"
+    },
+    {
+      "id": "ep284",
+      "topic": "Big Bang (1927): it was not a giant explosion bursting into empty space, but the rapid expansion of space itself everywhere at once",
+      "call_id": "fc-01M6CQTAHB90WFK9T0XYWJ5S0M"
+    },
+    {
+      "id": "ep285",
+      "topic": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
+      "call_id": "fc-01M6CQTB2PYXWNKGZSRWT3NNWY"
+    },
+    {
+      "id": "ep286",
+      "topic": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
+      "call_id": "fc-01M6CQTBPKZTCWC8QVRAMCZ8ZX"
+    },
+    {
+      "id": "ep287",
+      "topic": "Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space",
+      "call_id": "fc-01M6CQTCG8V02GTREWV23X7BY0"
+    },
+    {
+      "id": "ep288",
+      "topic": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
+      "call_id": "fc-01M6CQTDA6HM3QSK4A0T7Q1JGE"
+    },
+    {
+      "id": "ep289",
+      "topic": "Iapetus (moon) (1671): a bizarre world shaped like a walnut, with a 12-mile-high equatorial ridge and one hemisphere ten times darker than the other",
+      "call_id": "fc-01M6CQTE3ZAG6EQFFYFT8AFK80"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep271",
-      "topic": "2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar",
-      "spawned_at": "2026-11-01T23:06:01+05:30"
-    },
-    {
-      "id": "ep272",
-      "topic": "Apollo 11 (1969): the US flag didn't \"wave\" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look",
-      "spawned_at": "2026-11-01T23:06:01+05:30"
-    },
-    {
-      "id": "ep273",
-      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
-      "spawned_at": "2026-11-01T23:06:02+05:30"
-    },
-    {
-      "id": "ep274",
-      "topic": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
-      "spawned_at": "2026-11-01T23:06:02+05:30"
-    },
-    {
-      "id": "ep275",
-      "topic": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
-      "spawned_at": "2026-11-01T23:06:03+05:30"
-    },
-    {
       "id": "ep276",
       "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
-      "spawned_at": "2026-11-01T23:06:03+05:30"
+      "spawned_at": "2026-11-02T05:11:14+05:30"
     },
     {
       "id": "ep277",
       "topic": "Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate",
-      "spawned_at": "2026-11-01T23:06:04+05:30"
+      "spawned_at": "2026-11-02T05:11:15+05:30"
     },
     {
       "id": "ep278",
       "topic": "Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs",
-      "spawned_at": "2026-11-01T23:06:04+05:30"
+      "spawned_at": "2026-11-02T05:11:16+05:30"
     },
     {
       "id": "ep279",
       "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
-      "spawned_at": "2026-11-01T23:06:04+05:30"
+      "spawned_at": "2026-11-02T05:11:16+05:30"
     },
     {
       "id": "ep280",
       "topic": "Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater",
-      "spawned_at": "2026-11-01T23:06:05+05:30"
+      "spawned_at": "2026-11-02T05:11:17+05:30"
     },
     {
       "id": "ep281",
       "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "spawned_at": "2026-11-01T23:06:05+05:30"
+      "spawned_at": "2026-11-02T05:11:17+05:30"
+    },
+    {
+      "id": "ep282",
+      "topic": "Apollo 4 (1967): the first launch of the Saturn V rocket was so loud its shockwaves shook buildings and shattered windows miles away",
+      "spawned_at": "2026-11-02T05:11:18+05:30"
+    },
+    {
+      "id": "ep283",
+      "topic": "Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos",
+      "spawned_at": "2026-11-02T05:11:18+05:30"
+    },
+    {
+      "id": "ep284",
+      "topic": "Big Bang (1927): it was not a giant explosion bursting into empty space, but the rapid expansion of space itself everywhere at once",
+      "spawned_at": "2026-11-02T05:11:19+05:30"
+    },
+    {
+      "id": "ep285",
+      "topic": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
+      "spawned_at": "2026-11-02T05:11:19+05:30"
+    },
+    {
+      "id": "ep286",
+      "topic": "Barnard 68 (1919): a molecular cloud of freezing cosmic dust so dense it creates an ink-black void that looks like a hole in the universe",
+      "spawned_at": "2026-11-02T05:11:20+05:30"
+    },
+    {
+      "id": "ep287",
+      "topic": "Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space",
+      "spawned_at": "2026-11-02T05:11:21+05:30"
+    },
+    {
+      "id": "ep288",
+      "topic": "Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years",
+      "spawned_at": "2026-11-02T05:11:22+05:30"
+    },
+    {
+      "id": "ep289",
+      "topic": "Iapetus (moon) (1671): a bizarre world shaped like a walnut, with a 12-mile-high equatorial ridge and one hemisphere ten times darker than the other",
+      "spawned_at": "2026-11-02T05:11:22+05:30"
     }
   ],
   "published": [],
@@ -394,15 +469,17 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 21,
+    "calls": 17,
     "by_model": {
-      "gemini-3.8-flash": 10,
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 5,
-      "gemini-3.6-flash": 4,
-      "gemini-3.7-flash": 1
+      "gemini-3.8-flash": 2,
+      "gemini-3.6-flash": 11,
+      "gemini-3-flash-preview": 1,
+      "gemini-3.5-flash-lite": 3
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
     "modal": 0,
@@ -412,18 +489,18 @@
   "minutes_this_month": 0.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 0.16,
+    "metered": 0.3,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 232,
+    "cloud": 230,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 27.84
+    "modal_credit_left": 27.7
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 53,
+  "open_topics": 50,
   "parked_topics": 51
 }
