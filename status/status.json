@@ -1,88 +1,112 @@
 {
-  "updated_at": "2026-11-01T05:06:43+05:30",
+  "updated_at": "2026-11-01T11:06:04+05:30",
   "day": 31,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6A5239A330XCQ7E3A2A2H1R",
+    "id": "ta-01M6ASN9C6SD48N0C3ZWMQRZDR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-01T05:05:09+05:30",
-    "started_at_utc": "2026-10-31T23:35:09+00:00",
-    "seconds": 94
+    "started_at": "2026-11-01T11:05:13+05:30",
+    "started_at_utc": "2026-11-01T05:35:13+00:00",
+    "seconds": 52
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 2.2
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "84 posts",
-      "seconds": 1.2
+      "seconds": 1.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep260 to 'Scale Breaker'",
-      "seconds": 3.5
+      "detail": "added ep262 to 'Mission Files'",
+      "seconds": 4.1
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep254 language en/None -> en",
-      "seconds": 0.6
+      "detail": "every live Short is in English",
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep258 at 24 h: behind the channel's earlier Shorts at this age: 394 views against a median of 729 (0.5x); learnings: Updated performance reviews for ep105-ep165; confirmed planetary-scale and myth-busting topics remain the primary reach drivers.",
-      "seconds": 61.2
+      "detail": "ep260 at 6 h: ahead of the channel's earlier Shorts at this age: 1108 views against a median of 528 (2.1x)",
+      "seconds": 3.8
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 3.0
+      "seconds": 3.4
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
-    },
-    {
-      "name": "preflight ep262",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "preflight ep265",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.7
     },
     {
       "name": "preflight ep266",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.5
+    },
+    {
+      "name": "start ep271",
+      "ok": true,
+      "detail": "2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar",
+      "seconds": 2.0
+    },
+    {
+      "name": "start ep272",
+      "ok": true,
+      "detail": "Apollo 11 (1969): the US flag didn't \"wave\" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep273",
+      "ok": true,
+      "detail": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
+      "seconds": 1.7
+    },
+    {
+      "name": "start ep274",
+      "ok": true,
+      "detail": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
+      "seconds": 1.7
+    },
+    {
+      "name": "start ep275",
+      "ok": true,
+      "detail": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
+      "seconds": 0.9
     },
     {
       "name": "publish",
@@ -93,28 +117,22 @@
   ],
   "errors": [],
   "owner_action": [],
-  "notes": [
-    "room for 0 of the 5 Shorts wanted: Modal's credit covers 0, this run's share of the Actions minutes 0"
-  ],
+  "notes": [],
   "inventory": {
-    "total": 5,
-    "in_buffer": 5,
+    "total": 4,
+    "in_buffer": 4,
     "waiting": 0,
     "target": 14,
-    "making": [
+    "making": [],
+    "remote": [
       "ep271",
       "ep272",
       "ep273",
-      "ep274"
-    ],
-    "remote": []
+      "ep274",
+      "ep275"
+    ]
   },
   "queue": [
-    {
-      "id": "ep262",
-      "title": "NASA's Nuclear Drone Is Ready to Fly",
-      "due_at": "2026-10-31T21:30:00-04:00"
-    },
     {
       "id": "ep266",
       "title": "The Night Sky's Milk Isn't a Cloud",
@@ -138,44 +156,89 @@
   ],
   "waiting": [],
   "made": [],
-  "spawned": [],
-  "in_cloud": [],
+  "spawned": [
+    {
+      "id": "ep271",
+      "topic": "2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar",
+      "call_id": "fc-01M6ASPVZ613Z4BD17CXEN9SX5"
+    },
+    {
+      "id": "ep272",
+      "topic": "Apollo 11 (1969): the US flag didn't \"wave\" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look",
+      "call_id": "fc-01M6ASPXJ2194QANE4DJ5MY6N0"
+    },
+    {
+      "id": "ep273",
+      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
+      "call_id": "fc-01M6ASPZ6MS49RFF6JKX86GZ2X"
+    },
+    {
+      "id": "ep274",
+      "topic": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
+      "call_id": "fc-01M6ASQ0T4K417K5JHECRS188P"
+    },
+    {
+      "id": "ep275",
+      "topic": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
+      "call_id": "fc-01M6ASQ1PXWFEJRY9WD8FCBFBY"
+    }
+  ],
+  "in_cloud": [
+    {
+      "id": "ep271",
+      "topic": "2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar",
+      "spawned_at": "2026-11-01T11:05:54+05:30"
+    },
+    {
+      "id": "ep272",
+      "topic": "Apollo 11 (1969): the US flag didn't \"wave\" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look",
+      "spawned_at": "2026-11-01T11:05:56+05:30"
+    },
+    {
+      "id": "ep273",
+      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
+      "spawned_at": "2026-11-01T11:05:57+05:30"
+    },
+    {
+      "id": "ep274",
+      "topic": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
+      "spawned_at": "2026-11-01T11:05:59+05:30"
+    },
+    {
+      "id": "ep275",
+      "topic": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
+      "spawned_at": "2026-11-01T11:06:00+05:30"
+    }
+  ],
   "published": [],
-  "live": 79,
+  "live": 80,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 2,
-    "by_model": {
-      "gemini-3-flash-preview": 2
-    },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "calls": 0,
+    "by_model": {},
+    "out_of_quota": []
   },
   "renders": {
     "modal": 0,
     "runner": 0
   },
   "daily_done": "2026-10-31",
-  "minutes_this_month": 431.0,
+  "minutes_this_month": 0.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 28.63,
+    "metered": 0.0,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 0,
+    "cloud": 233,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": -0.63
+    "modal_credit_left": 28.0
   },
-  "starved": 5,
+  "starved": 0,
   "made_here": 0,
-  "open_topics": 56,
+  "open_topics": 55,
   "parked_topics": 52
 }
