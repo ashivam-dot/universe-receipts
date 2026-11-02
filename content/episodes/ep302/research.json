@@ -1,0 +1,319 @@
+{
+  "viable": true,
+  "reason": "The sources provide over 20 specific, double-verified claims regarding the sunshield's dimensions, materials, thermal performance, and deployment complexity.",
+  "story": "The James Webb Space Telescope (JWST) is a $10 billion gamble that relied on a giant purple umbrella to work. Because the telescope detects faint heat from the dawn of time, its mirrors must stay at a bone-chilling minus 388 degrees Fahrenheit. To achieve this, engineers at Northrop Grumman designed a five-layer sunshield the size of a tennis court. Each layer is made of Kapton, a specialized plastic thinner than a human hair, coated in aluminum and silicon. This shield creates a 600-degree temperature wall, blocking 200 kilowatts of solar energy so effectively that only a fraction of a watt reaches the cold side. Because it was too large for any rocket, the shield was folded 12 times and deployed 500,000 miles from Earth. The process was so complex it involved 139 release mechanisms and 400 pulleys. On January 4, 2022, the final tensioning was completed, marking a flawless success for one of space's riskiest maneuvers.",
+  "angle": "A five-layer shield as thin as a human hair creates a 600-degree temperature difference, protecting the telescope from its own heat.",
+  "claims": [
+    {
+      "claim": "The JWST sunshield is approximately 21 meters by 14 meters, roughly the size of a tennis court.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The sunshield consists of five independent layers of metal-coated plastic.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The layers are made of Kapton polyimide film, which is stable from minus 269 to 400 degrees Celsius.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The sun-facing layers have a purple or lavender hue due to a doped-silicon coating.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The first layer of the shield is 0.05 millimeters thick, while the other four are 0.025 millimeters thick.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The aluminum coating on the layers is approximately 100 nanometers thick.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The silicon coating on the outer layers is approximately 50 nanometers thick.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The sunshield allows the telescope to cool to a design temperature of 40 Kelvin or minus 388 degrees Fahrenheit.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The hot side of the sunshield reaches a maximum modeled temperature of approximately 230 degrees Fahrenheit.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The total temperature drop between the hot and cold sides is approximately 570 to 600 degrees Fahrenheit.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "The sunshield deployment was completed on January 4, 2022.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "At the time of full deployment, the telescope was more than 500,000 miles away from Earth.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Deployment of the sunshield involved 139 release mechanisms and 8 deployment motors.",
+      "sources": [
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The system used 90 individual cables and approximately 400 pulleys to unfurl and tension the layers.",
+      "sources": [
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The sunshield was designed and assembled by Northrop Grumman.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "During testing in 2018, the sunshield material suffered several tears that contributed to mission delays.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The sunshield was folded 12 times to fit inside the Ariane 5 rocket fairing.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The sunshield intercepts roughly 200,000 watts of solar radiation.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The structure includes 70 hinge assemblies.",
+      "sources": [
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A momentum trim tab is attached to the sunshield to help balance solar photon pressure.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact temperature drop between sides varies by source, ranging from 570 to 604 degrees Fahrenheit; the script should use 'roughly 600 degrees'.",
+    "The amount of heat transmitted to the cold side is listed as 23 milliwatts in S1 but 1 watt in S4; the script should attribute this to 'less than a watt'."
+  ],
+  "visuals": [
+    {
+      "subject": "Illustration of JWST fully deployed showing the purple sunshield layers",
+      "queries": [
+        "James Webb Space Telescope artist concept",
+        "JWST sunshield illustration",
+        "James Webb Space Telescope L2 orbit"
+      ]
+    },
+    {
+      "subject": "Engineers on Earth inspecting the tennis-court-sized sunshield during testing",
+      "queries": [
+        "James Webb Space Telescope sunshield deployment test",
+        "JWST sunshield Northrop Grumman",
+        "JWST sunshield full scale"
+      ]
+    },
+    {
+      "subject": "Diagram of the five layers of the sunshield with temperature labels",
+      "queries": [
+        "JWST sunshield layer diagram",
+        "James Webb Space Telescope thermal management",
+        "JWST sunshield heat dissipation"
+      ]
+    },
+    {
+      "subject": "Close-up of the Kapton material showing its thin, foil-like texture",
+      "queries": [
+        "JWST Kapton membrane",
+        "James Webb Space Telescope sunshield material",
+        "JWST sunshield layer close up"
+      ]
+    },
+    {
+      "subject": "The JWST folded inside the Ariane 5 rocket fairing",
+      "queries": [
+        "JWST stowed Ariane 5 fairing",
+        "James Webb Space Telescope launch configuration",
+        "Ariane 5 JWST payload"
+      ]
+    },
+    {
+      "subject": "Animation of the sunshield booms extending in space",
+      "queries": [
+        "JWST mid-boom deployment animation",
+        "James Webb Space Telescope sunshield unfurling",
+        "JWST deployment sequence"
+      ]
+    },
+    {
+      "subject": "Close-up of the Thermal Spot Bonds or rip-stops on the sunshield",
+      "queries": [
+        "JWST thermal spot bond",
+        "James Webb Space Telescope sunshield rip stop",
+        "JWST sunshield construction"
+      ]
+    },
+    {
+      "subject": "The Mission Operations Center team celebrating successful tensioning",
+      "queries": [
+        "JWST mission control celebration",
+        "Space Telescope Science Institute mission operations center",
+        "NASA Webb deployment success"
+      ]
+    },
+    {
+      "subject": "Diagram of the L2 Lagrange point showing the sunshield orientation",
+      "queries": [
+        "JWST L2 Lagrange point diagram",
+        "James Webb Space Telescope sun earth L2",
+        "JWST orbit animation"
+      ]
+    },
+    {
+      "subject": "Artist's concept of the JWST secondary mirror deploying over the sunshield",
+      "queries": [
+        "JWST secondary mirror deployment illustration",
+        "James Webb Space Telescope deployment",
+        "JWST space artist concept"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope_sunshield",
+      "title": "James Webb Space Telescope sunshield",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://science.nasa.gov/mission/webb/webbs-sunshield/",
+      "title": "Webb's Sunshield - NASA Science",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_sunshield_fully_deployed",
+      "title": "Webb sunshield fully deployed",
+      "site": "esa.int"
+    },
+    {
+      "label": "S4",
+      "url": "https://web.archive.org/web/20211226181150/https://jwst-docs.stsci.edu/jwst-observatory-hardware/jwst-observatory-overview#JWSTObservatoryOverview-Sunshield",
+      "title": "JWST User Documentation",
+      "site": "stsci.edu"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.scientificamerican.com/article/james-webb-space-telescope-completes-crucial-sunshield-deployment/",
+      "title": "James Webb Space Telescope Completes Crucial Sunshield Deployment",
+      "site": "scientificamerican.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://astronomy.com/news/2022/01/james-webb-space-telescope-successfully-deploys-sunshield",
+      "title": "James Webb Space Telescope successfully deploys sunshield",
+      "site": "astronomy.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.space.com/40102-james-webb-space-telescope-launch-delay-2020.html",
+      "title": "NASA Delays Launch of James Webb Space Telescope Until 2020",
+      "site": "space.com"
+    }
+  ],
+  "topic": "James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388",
+  "series": "Mission Files"
+}

@@ -1,0 +1,206 @@
+id: ep306
+title: The Star So Big Light Takes 6 Hours to Circle
+series: Scale Breaker
+format: v3
+description: French astronomer Jérôme Lalande first recorded VY Canis Majoris in 1801. This extreme red hypergiant is so immense
+  that light takes six full hours to orbit its equator.
+sources:
+- https://en.wikipedia.org/wiki/VY_Canis_Majoris
+- https://supernovatribune.com/stars/vy-canis-majoris/
+- https://www.star-facts.com/vy-canis-majoris/
+- https://science.nasa.gov/missions/hubble/hubble-solves-mystery-of-monster-stars-dimming/
+- https://news.bbc.co.uk/2/hi/science/nature/8382348.stm
+- https://www.eso.org/public/images/eso1546a/
+hashtags:
+- '#space'
+- '#astronomy'
+- '#vycanismajoris'
+tags:
+- VY Canis Majoris
+- hypergiant
+- largest star
+- astronomy
+- space facts
+- Jerome Lalande
+- Roberta Humphreys
+- Canis Major
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Light takes six full hours to circle a single star.
+  emphasis:
+  - six full hours
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Artist%27s_Illustration_of_VY_CMa_%282021-009%29.jpg/960px-Artist%27s_Illustration_of_VY_CMa_%282021-009%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist's Illustration of VY CMa (2021-009).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist%27s_Illustration_of_VY_CMa_(2021-009).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 6 hours
+      small: speed of light travel time
+- text: Light circles our Sun in just fourteen seconds.
+  emphasis:
+  - fourteen seconds
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/3840px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg
+      credit: NASA/SDO (AIA)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 14.5 seconds
+      small: speed of light around the Sun
+- text: French astronomer Jérôme Lalande first recorded VY Canis Majoris in 1801.
+  emphasis:
+  - Jérôme Lalande
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/J%C3%A9r%C3%B4me_de_La_Lande.jpg/1920px-J%C3%A9r%C3%B4me_de_La_Lande.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jérôme de La Lande.jpg
+      credit: Jean-Honoré Fragonard
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:J%C3%A9r%C3%B4me_de_La_Lande.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.35
+    box:
+    - 0.3
+    - 0.2
+    - 0.6
+    - 0.48
+    card:
+      kind: dateline
+      big: '1801'
+      small: Discovered by Jérôme Lalande
+- text: Early astronomers mistook bright surrounding knots for companion stars.
+  emphasis:
+  - companion stars
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/39/Johannes_Hevelius_-_Canus_Major.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Johannes Hevelius - Canus Major.jpg
+      credit: Johannes Hevelius
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Johannes_Hevelius_-_Canus_Major.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.62
+    focus_y: 0.52
+    box:
+    - 0.45
+    - 0.25
+    - 0.75
+    - 0.8
+- text: But those knots are violent gas ejections from a dying hypergiant.
+  emphasis:
+  - violent gas ejections
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/87/VY_Canis_Majoris_Ejecta_Shell_%2810713189953%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: VY Canis Majoris Ejecta Shell (10713189953).png
+      credit: geckzilla
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:VY_Canis_Majoris_Ejecta_Shell_(10713189953).png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.47
+- text: Astrophysicist Roberta Humphreys described it as Betelgeuse on steroids.
+  emphasis:
+  - Betelgeuse on steroids
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: quote
+      big: Betelgeuse on steroids
+      small: Roberta Humphreys, Astrophysicist
+    motion: zoom_in
+- text: Placed in our solar system, its surface would extend beyond Jupiter.
+  emphasis:
+  - beyond Jupiter
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Past Jupiter
+      small: If placed at center of solar system
+    motion: zoom_in
+- text: This monster will eventually collapse into a black hole.
+  emphasis:
+  - black hole
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/A_stellar_black_hole.jpg/3840px-A_stellar_black_hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: A stellar black hole.jpg
+      credit: ESO/L. Calçada/M.Kornmesser
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:A_stellar_black_hole.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Even at top speed, light takes six full hours to circle its equator.
+  emphasis:
+  - six full hours
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 6 HOURS AT LIGHT SPEED

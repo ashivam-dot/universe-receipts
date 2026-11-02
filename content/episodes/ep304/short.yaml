@@ -1,0 +1,172 @@
+id: ep304
+title: The Martian canyon that dwarfs the Grand Canyon
+series: Scale Breaker
+format: v3
+description: Discover Valles Marineris, a massive Martian rift system that stretches across an entire continent and plunges
+  miles deep.
+sources:
+- https://en.wikipedia.org/wiki/Valles_Marineris
+- https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_Express_peers_into_Mars_Grand_Canyon
+- https://web.archive.org/web/20190427160116/http://www.avcr.cz/en/media/news-archive/Recent-volcanic-activity-and-hydrothermal-minerals-on-Mars/
+- https://themis.asu.edu/vallesspecial
+- https://www.seti.org/press-release/giant-volcano-discovered-mars
+hashtags:
+- '#space'
+- '#mars'
+- '#astronomy'
+tags:
+- Mars
+- Valles Marineris
+- canyon
+- geology
+- solar system
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Mars hides a canyon that would stretch across America.
+  emphasis:
+  - stretch across America
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/PlanetMars-VallesMarineris-VikingOrbiter-1980.jpg/3840px-PlanetMars-VallesMarineris-VikingOrbiter-1980.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PlanetMars-VallesMarineris-VikingOrbiter-1980.jpg
+      credit: NASA/USGS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PlanetMars-VallesMarineris-VikingOrbiter-1980.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Most people picture small rifts when they think of Martian valleys.
+  emphasis:
+  - small rifts
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/85/Noctis_Labyrinthus_Zoom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Noctis Labyrinthus Zoom.jpg
+      credit: NASA/JPL/USGS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Noctis_Labyrinthus_Zoom.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: NASA spacecraft revealed it spans up to four thousand kilometers long.
+  emphasis:
+  - four thousand kilometers
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/11/Mariner09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mariner09.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mariner09.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 4,000 km
+      small: Length of Valles Marineris
+- text: Tectonic rifting ripped open the crust as nearby volcanic bulges surged.
+  emphasis:
+  - Tectonic rifting
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Ius_Chasma_THEMIS_mosaic.jpg/3840px-Ius_Chasma_THEMIS_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ius Chasma THEMIS mosaic.jpg
+      credit: NASA / JPL-Caltech / Arizona State University
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ius_Chasma_THEMIS_mosaic.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Its sheer walls plunge seven kilometers deep into the planet.
+  emphasis:
+  - seven kilometers deep
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Candor_Chasma_THEMIS_mosaic.jpg/3840px-Candor_Chasma_THEMIS_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Candor Chasma THEMIS mosaic.jpg
+      credit: NASA / JPL-Caltech / Arizona State University
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Candor_Chasma_THEMIS_mosaic.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 7 km
+      small: Maximum canyon depth
+- text: Yet young volcanic cones sit quietly on the immense canyon floor.
+  emphasis:
+  - young volcanic cones
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Coprates_Chasma_based_on_THEMIS_Day_IR.png/3840px-Coprates_Chasma_based_on_THEMIS_Day_IR.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Coprates Chasma based on THEMIS Day IR.png
+      credit: NASA, modified by Chmee2
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Coprates_Chasma_based_on_THEMIS_Day_IR.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 400M years
+      small: Volcanic cone age
+- text: An entire continent fits neatly inside this colossal Martian canyon.
+  emphasis:
+  - entire continent
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A CONTINENT-SIZED CANYON

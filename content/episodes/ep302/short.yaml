@@ -1,0 +1,246 @@
+id: ep302
+title: Webb's $10 Billion Purple Umbrella
+series: Mission Files
+format: v3
+description: The James Webb Space Telescope uses a five-layer sunshield thinner than a human hair to survive the Sun's heat
+  and see into the deep past.
+sources:
+- https://en.wikipedia.org/wiki/James_Webb_Space_Telescope_sunshield
+- https://science.nasa.gov/mission/webb/webbs-sunshield/
+- https://astronomy.com/news/2022/01/james-webb-space-telescope-successfully-deploys-sunshield
+- https://web.archive.org/web/20211226181150/https://jwst-docs.stsci.edu/jwst-observatory-hardware/jwst-observatory-overview#JWSTObservatoryOverview-Sunshield
+- https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_sunshield_fully_deployed
+- https://www.scientificamerican.com/article/james-webb-space-telescope-completes-crucial-sunshield-deployment/
+hashtags:
+- '#space'
+- '#jameswebb'
+- '#nasa'
+tags:
+- JWST
+- astronomy
+- engineering
+- NASA
+- telescope
+- sunshield
+- James Webb
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA’s giant purple umbrella protects our most powerful telescope.
+  emphasis:
+  - purple umbrella
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Artist_concept_of_JWST_%2850489833002_107cb9e661_o%29.jpg/1920px-Artist_concept_of_JWST_%2850489833002_107cb9e661_o%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist concept of JWST (50489833002 107cb9e661 o).jpg
+      credit: Adriana Manrique Gutierrez, NASA Animator
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist_concept_of_JWST_(50489833002_107cb9e661_o).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.47
+    focus_y: 0.43
+- text: Most people think the telescope is just its massive mirrors.
+  emphasis:
+  - massive mirrors
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/James_Webb_Space_Telescope_18_mirrors.jpg/1920px-James_Webb_Space_Telescope_18_mirrors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: James Webb Space Telescope 18 mirrors.jpg
+      credit: Chris Gunn
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_18_mirrors.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.1
+    - 0.05
+    - 0.9
+    - 0.75
+- text: But they'd fail without a shield as big as a tennis court.
+  emphasis:
+  - tennis court
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/The_Flight_Sunshield_Deployed_and_Fully_Tensioned_by_Northrop_Grumman_for_First_Time_%2837950711251%29.jpg/1920px-The_Flight_Sunshield_Deployed_and_Fully_Tensioned_by_Northrop_Grumman_for_First_Time_%2837950711251%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Flight Sunshield Deployed and Fully Tensioned by Northrop Grumman for First Time (37950711251).jpg
+      credit: NASA's James Webb Space Telescope from Greenbelt, MD, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:The_Flight_Sunshield_Deployed_and_Fully_Tensioned_by_Northrop_Grumman_for_First_Time_(37950711251).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.6
+    card:
+      kind: fact
+      big: TENNIS COURT
+      small: shield size
+- text: Engineers folded the massive shield 12 times to fit the rocket.
+  emphasis:
+  - folded
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Webb_is_encapsulated_in_its_rocket_fairing_%2851760302044%29.jpg/1920px-Webb_is_encapsulated_in_its_rocket_fairing_%2851760302044%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Webb is encapsulated in its rocket fairing (51760302044).jpg
+      credit: NASA's James Webb Space Telescope from Greenbelt, MD, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Webb_is_encapsulated_in_its_rocket_fairing_(51760302044).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.6
+    box:
+    - 0.38
+    - 0.35
+    - 0.62
+    - 0.85
+    card:
+      kind: fact
+      big: 12 TIMES
+      small: folded to fit
+- text: 400 pulleys unfurled it 500,000 miles from Earth.
+  emphasis:
+  - 400 pulleys
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 500,000 MILES
+      small: from Earth
+    motion: zoom_in
+- text: Five layers thinner than a human hair block the heat.
+  emphasis:
+  - human hair
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/NASA%E2%80%99s_James_Webb_Space_Telescope_View_of_of_October_2019_Sunshield_Deployment_Testing_%2850068963377%29.jpg/3840px-NASA%E2%80%99s_James_Webb_Space_Telescope_View_of_of_October_2019_Sunshield_Deployment_Testing_%2850068963377%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA’s James Webb Space Telescope View of of October 2019 Sunshield Deployment Testing (50068963377).jpg
+      credit: Chris Gunn
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_James_Webb_Space_Telescope_View_of_of_October_2019_Sunshield_Deployment_Testing_(50068963377).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.75
+    box:
+    - 0.0
+    - 0.45
+    - 1.0
+    - 1.0
+- text: A silicon coating stops 200,000 watts of solar energy.
+  emphasis:
+  - 200,000 watts
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/James_Webb_Space_Telescope_2009_bottom.jpg/3840px-James_Webb_Space_Telescope_2009_bottom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: James Webb Space Telescope 2009 bottom.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_2009_bottom.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.6
+    card:
+      kind: fact
+      big: 200,000 WATTS
+      small: solar energy
+- text: One side stays frozen at minus 388 degrees.
+  emphasis:
+  - minus 388
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/JWST_spacecraft_model_2.png/1280px-JWST_spacecraft_model_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: JWST spacecraft model 2.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:JWST_spacecraft_model_2.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.53
+    focus_y: 0.26
+    box:
+    - 0.35
+    - 0.05
+    - 0.71
+    - 0.46
+    card:
+      kind: fact
+      big: -388 DEGREES
+      small: cold side
+- text: The other side reaches roughly 230 degrees Fahrenheit.
+  emphasis:
+  - 230 degrees
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/76/James_Webb_Space_Telescope_Hot_Side_%284173-Image%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: James Webb Space Telescope Hot Side (4173-Image).jpeg
+      credit: Northrop Grumman
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Hot_Side_(4173-Image).jpeg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.6
+    card:
+      kind: fact
+      big: 230 DEGREES
+      small: hot side
+- text: It’s a ten-billion-dollar purple umbrella.
+  emphasis:
+  - ten-billion-dollar
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.47
+    focus_y: 0.43
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 600-DEGREE HEAT WALL

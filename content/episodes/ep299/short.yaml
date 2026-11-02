@@ -1,0 +1,174 @@
+id: ep299
+title: The Planet That Doesn't Orbit the Sun
+series: Space Myths, Busted
+format: v3
+description: Jupiter is so massive it forces the Sun into a celestial dance. Discover why this giant orbits empty space instead
+  of our star's center.
+sources:
+- https://en.wikipedia.org/wiki/Barycenter
+- https://spaceplace.nasa.gov/deepimpact/barycenter/
+- https://www.sciencealert.com/jupiter-is-so-freaking-massive-it-doesn-t-actually-orbit-the-sun
+hashtags:
+- '#space'
+- '#jupiter'
+- '#astronomy'
+tags:
+- jupiter
+- sun
+- orbit
+- barycenter
+- gravity
+- solar system
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Jupiter does not actually orbit the Sun.
+  emphasis:
+  - not actually orbit
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter_OPAL_2024.png/1280px-Jupiter_OPAL_2024.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter OPAL 2024.png
+      credit: NASA/STSCI (S.T.A.R.S)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Jupiter_OPAL_2024.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: We are taught every planet circles the star's center.
+  emphasis:
+  - every planet
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Solar_System_graphic_by_NASA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Solar System graphic by NASA.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_System_graphic_by_NASA.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But two bodies always orbit a shared center of gravity.
+  emphasis:
+  - shared center of gravity
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Trajektorie_barycentra_kolem_Slunce_v_rovin%C4%9B_ekliptiky_%281950%E2%80%932050%29.png/960px-Trajektorie_barycentra_kolem_Slunce_v_rovin%C4%9B_ekliptiky_%281950%E2%80%932050%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Trajektorie barycentra kolem Slunce v rovině ekliptiky (1950–2050).png
+      credit: Bnmbnmbnm
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Trajektorie_barycentra_kolem_Slunce_v_rovin%C4%9B_ekliptiky_(1950%E2%80%932050).png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Small planets like Earth stay locked inside the Sun.
+  emphasis:
+  - locked inside
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/63/Orbit_Diagram_for_the_Main-belt_Asteroid_6478_Gault_on_2019-01-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Orbit Diagram for the Main-belt Asteroid 6478 Gault on 2019-01-01.jpg
+      credit: NASA Orbit Viewer applet
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Orbit_Diagram_for_the_Main-belt_Asteroid_6478_Gault_on_2019-01-01.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Jupiter is two and a half times more massive than all other planets.
+  emphasis:
+  - two and a half times
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Jupiter%2C_Earth_size_comparison_2.jpg/960px-Jupiter%2C_Earth_size_comparison_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter, Earth size comparison 2.jpg
+      credit: NASA (image modified by Jcpag2012)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Jupiter,_Earth_size_comparison_2.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Its sheer weight pulls that center of mass outward.
+  emphasis:
+  - outward
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/446667main1_sdo-fulldisk-670.jpg/3840px-446667main1_sdo-fulldisk-670.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 446667main1 sdo-fulldisk-670.jpg
+      credit: NASA's SDO
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:446667main1_sdo-fulldisk-670.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They orbit seven percent of a solar radius above the surface.
+  emphasis:
+  - seven percent
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/ba/Solar_System_Barycenter_2000-2050.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Solar System Barycenter 2000-2050.png
+      credit: Larry McNish
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_System_Barycenter_2000-2050.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 7 PERCENT
+      small: ABOVE SOLAR SURFACE
+- text: This gas giant actually circles a spot in empty space.
+  emphasis:
+  - empty space
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: ORBITING EMPTY SPACE

@@ -1,0 +1,220 @@
+{
+  "viable": true,
+  "reason": "The sources provide 14 distinct claims about barycenters supported by at least two sites, confirming the Jupiter-Sun barycenter fact.",
+  "story": "You have been told the Sun is the center of the solar system and everything orbits it. That is a myth—at least regarding Jupiter. In physics, two objects orbit a shared center of mass called a barycenter. For a small planet like Earth, that point is deep inside the Sun. But Jupiter is massive, with 2.5 times the mass of every other planet in our solar system combined. Because it is so heavy and so far away, the center of gravity between Jupiter and the Sun is not inside the star. It is a point in empty space, about 7 percent of a solar radius above the Sun’s surface. Technically, Jupiter and the Sun are locked in a dance around this invisible spot. This creates a wobble in the Sun’s motion, a phenomenon astronomers use to find hidden planets orbiting distant stars. Jupiter is not just orbiting the Sun; it is making the Sun orbit too.",
+  "angle": "Jupiter is so massive that it doesn't actually orbit the Sun, but a point in empty space just above the Sun's surface.",
+  "claims": [
+    {
+      "claim": "A barycenter is the center of mass around which two or more bodies orbit.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Two bodies in space orbit their common center of mass rather than one perfectly orbiting the other.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "For systems with a very massive primary and small secondary, the barycenter usually stays inside the primary.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Earth-Sun barycenter is located very close to the center of the Sun.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Jupiter is the fifth planet from the Sun and is classified as a gas giant.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Jupiter has 2.5 times the mass of all other planets in the solar system combined.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Jupiter-Sun barycenter is located outside the Sun's surface.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Jupiter-Sun barycenter is 1.07 solar radii from the middle of the Sun.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Jupiter-Sun barycenter sits 7 percent of a solar radius above the Sun's surface.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Sun wobbles as it orbits the moving barycenters of the solar system.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Detecting a star's wobble is one way astronomers find planets orbiting other stars.",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A barycenter is a dynamical point rather than a physical object.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The distance to a barycenter is calculated based on the masses of the objects and the distance between them.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "When most planets orbit the Sun, the center of mass with the Sun lies deep within the star.",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "S1 notes that general relativity introduces complications to barycentric coordinates that classical mechanics ignores; the script should focus on the Newtonian center-of-mass explanation for simplicity.",
+    "S1 mentions that orbital eccentricity could theoretically cause a barycenter to move inside and outside a primary, but confirms the Sun-Jupiter system fails this and remains outside; the script should treat the outside position as constant."
+  ],
+  "visuals": [
+    {
+      "subject": "Jupiter Hubble View",
+      "queries": [
+        "Jupiter planet Hubble mosaic",
+        "Jupiter Great Red Spot Hubble"
+      ]
+    },
+    {
+      "subject": "Solar Surface SDO",
+      "queries": [
+        "Sun solar surface SDO high resolution",
+        "Sun corona SDO"
+      ]
+    },
+    {
+      "subject": "Sun-Jupiter Barycenter Illustration",
+      "queries": [
+        "Jupiter Sun barycenter NASA illustration",
+        "Barycenter orbit diagram"
+      ]
+    },
+    {
+      "subject": "Sledgehammer Analogy",
+      "queries": [
+        "Sledgehammer center of mass illustration",
+        "Sledgehammer tool"
+      ]
+    },
+    {
+      "subject": "Ruler Balance Demo",
+      "queries": [
+        "Ruler balancing on finger",
+        "Center of mass ruler demonstration"
+      ]
+    },
+    {
+      "subject": "Exoplanet Wobble Detection",
+      "queries": [
+        "Exoplanet radial velocity method NASA illustration",
+        "Star wobble planet detection diagram"
+      ]
+    },
+    {
+      "subject": "Juno Spacecraft",
+      "queries": [
+        "Juno spacecraft Jupiter illustration",
+        "Juno mission NASA concept"
+      ]
+    },
+    {
+      "subject": "Solar System Barycenter Path",
+      "queries": [
+        "Solar system barycenter motion illustration",
+        "Sun's path around barycenter diagram"
+      ]
+    },
+    {
+      "subject": "ISS in Orbit",
+      "queries": [
+        "ISS orbiting Earth NASA",
+        "International Space Station photography from shuttle"
+      ]
+    },
+    {
+      "subject": "Pluto and Charon",
+      "queries": [
+        "Pluto and Charon New Horizons",
+        "Pluto Charon binary system illustration"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Barycenter",
+      "title": "Barycenter",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://spaceplace.nasa.gov/deepimpact/barycenter/",
+      "title": "What Is a Barycenter?",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.sciencealert.com/jupiter-is-so-freaking-massive-it-doesn-t-actually-orbit-the-sun",
+      "title": "Jupiter Is So Freaking Massive, It Doesn't Actually Orbit The Sun",
+      "site": "sciencealert.com"
+    }
+  ],
+  "topic": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
+  "series": "Space Myths, Busted"
+}

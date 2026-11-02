@@ -1,0 +1,175 @@
+id: ep301
+title: Why Neil Armstrong's Famous Quote Made No Sense
+series: Space Myths, Busted
+format: v3
+description: Neil Armstrong's iconic line on the Moon was missing a single word, altering its meaning. Decades of forensic
+  audio analysis still debate whether radio static muffled the missing letter.
+sources:
+- https://en.wikipedia.org/wiki/One_small_step
+- https://www.nasa.gov/history/july-20-1969-one-giant-leap-for-mankind/
+- http://www.space.com/19136-neil-armstrong-moon-speech-truth.html
+- https://www.newyorker.com/news/news-desk/neil-armstrongs-voice
+- http://www.collectspace.com/news/news-100306a.html
+- http://news.bbc.co.uk/2/hi/science/nature/8081817.stm
+- https://airandspace.si.edu/stories/editorial/one-small-step-man-or-man
+hashtags:
+- '#space'
+- '#apollo11'
+- '#neilarmstrong'
+tags:
+- neil armstrong
+- apollo 11
+- moon landing
+- one small step
+- nasa
+- space myths
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Neil Armstrong accidentally ruined his famous moonwalk line.
+  emphasis:
+  - accidentally ruined
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/AS11-40-5886_-_Apollo_11_-_Apollo_11_Mission_image_-_Astronaut_Neil_Armstrong_works_at_the_Lunar_Module_-_NARA_-_16685088.jpg/3840px-AS11-40-5886_-_Apollo_11_-_Apollo_11_Mission_image_-_Astronaut_Neil_Armstrong_works_at_the_Lunar_Module_-_NARA_-_16685088.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS11-40-5886 - Apollo 11 - Apollo 11 Mission image - Astronaut Neil Armstrong works at the Lunar Module - NARA
+        - 16685088.jpg
+      credit: Unknown authorUnknown author or not provided
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS11-40-5886_-_Apollo_11_-_Apollo_11_Mission_image_-_Astronaut_Neil_Armstrong_works_at_the_Lunar_Module_-_NARA_-_16685088.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.83
+    focus_y: 0.35
+    box:
+    - 0.78
+    - 0.22
+    - 0.88
+    - 0.48
+- text: Without the word a, man and mankind mean the exact same thing.
+  emphasis:
+  - exact same thing
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: MAN = MANKIND
+      small: grammatically redundant
+    motion: zoom_in
+- text: His line literally meant one small step for humanity, one giant leap for humanity.
+  emphasis:
+  - literally meant
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e1/Saturn_Apollo_Program_%288903695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Saturn Apollo Program (8903695).jpg
+      credit: NASA Marshall Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Saturn_Apollo_Program_(8903695).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.22
+    focus_y: 0.4
+    box:
+    - 0.03
+    - 0.25
+    - 0.38
+    - 0.8
+- text: Over 500 million people heard the transmission live in 1969.
+  emphasis:
+  - 500 million people
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/View_of_Mission_Control_during_lunar_surface_Apollo_11_EVA_%28S69-39593%29.jpg/3840px-View_of_Mission_Control_during_lunar_surface_Apollo_11_EVA_%28S69-39593%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: View of Mission Control during lunar surface Apollo 11 EVA (S69-39593).jpg
+      credit: NASA Johnson Space Center / NA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:View_of_Mission_Control_during_lunar_surface_Apollo_11_EVA_(S69-39593).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: JULY 1969
+      small: 500 million listening live
+- text: Programmer Peter Shann Ford claimed computer analysis found the missing syllable in static.
+  emphasis:
+  - found the missing syllable
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: HIDDEN SYLLABLE
+      small: Peter Shann Ford analysis
+    motion: zoom_in
+- text: But forensic spectrographs later proved there was no room in the audio wave.
+  emphasis:
+  - no room
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 4
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: NASA now prints brackets around the missing letter for his intended meaning.
+  emphasis:
+  - prints brackets
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Armstrong_Spacesuit.jpg/3840px-Armstrong_Spacesuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Armstrong Spacesuit.jpg
+      credit: Ed.histoire
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Armstrong_Spacesuit.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: quote
+      big: FOR [A] MAN
+      small: NASA official transcript
+- text: Yet sound waves prove what actually echoed from that historic step.
+  emphasis:
+  - actually echoed
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.83
+    focus_y: 0.35
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE MISSING MOONWALK WORD
