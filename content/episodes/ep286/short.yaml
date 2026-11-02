@@ -1,0 +1,210 @@
+id: ep286
+title: The Ink-Black Hole in Our Universe
+series: The Universe Is Terrifying
+format: v3
+description: Barnard 68 is a freezing cloud of cosmic dust so dense it appears to erase the stars behind it.
+sources:
+- https://en.wikipedia.org/wiki/Barnard_68
+- https://www.eso.org/public/images/eso9924a/
+- https://www.labrujulaverde.com/en/2025/04/the-abyss-of-barnard-68-a-great-dark-spot-in-the-firmament/
+- https://grokipedia.com/page/Barnard_68
+- http://kencroswell.com/theblackcloud.html
+hashtags:
+- '#space'
+- '#barnard68'
+- '#astronomy'
+tags:
+- Barnard 68
+- molecular cloud
+- Bok globule
+- space void
+- star formation
+- Ophiuchus
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A massive ink-black void is floating in our universe.
+  emphasis:
+  - ink-black void
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Barnard_68.jpg/3840px-Barnard_68.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Barnard 68.jpg
+      credit: ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Barnard_68.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It is a freezing dust cloud named Barnard 68.
+  emphasis:
+  - Barnard 68
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Barnard 68
+      small: Bok Globule
+    motion: zoom_in
+- text: This ball is about half a light-year wide.
+  emphasis:
+  - half a light-year
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Inside, temperatures drop to nearly absolute zero.
+  emphasis:
+  - absolute zero
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Gas_thermometer_and_absolute_zero_fr.jpg/960px-Gas_thermometer_and_absolute_zero_fr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Gas thermometer and absolute zero fr.jpg
+      credit: 'Gas_thermometer_and_absolute_zero.jpg: Guy vandegrift
+
+        derivative work: Pierre cb'
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Gas_thermometer_and_absolute_zero_fr.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.8
+    card:
+      kind: fact
+      big: 10 Kelvin
+      small: Extreme Cold
+- text: No stars exist between us and its black center.
+  emphasis:
+  - black center
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Bok_globule_B68_%28eso0102c%29.tiff/lossy-page1-1920px-Bok_globule_B68_%28eso0102c%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Bok globule B68 (eso0102c).tiff
+      credit: ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Bok_globule_B68_(eso0102c).tiff
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But this terrifying empty spot is a lie.
+  emphasis:
+  - is a lie
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Guardians_of_the_Galaxy_%281505-d810-8152-pano-cc%29.tiff/lossy-page1-3840px-Guardians_of_the_Galaxy_%281505-d810-8152-pano-cc%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Guardians of the Galaxy (1505-d810-8152-pano-cc).tiff
+      credit: A. Russell/ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Guardians_of_the_Galaxy_(1505-d810-8152-pano-cc).tiff
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Infrared revealed 3,700 stars hiding behind the curtain.
+  emphasis:
+  - 3,700 stars
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Molecular_Cloud_Barnard_68.jpg/960px-Molecular_Cloud_Barnard_68.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Molecular Cloud Barnard 68.jpg
+      credit: FORS Team, 8.2-meter VLT Antu, ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Molecular_Cloud_Barnard_68.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.75
+    focus_y: 0.5
+    box:
+    - 0.5
+    - 0.0
+    - 1.0
+    - 1.0
+    card:
+      kind: fact
+      big: 3,700 Stars
+      small: Hidden Behind
+- text: Even stranger, the entire void is jiggling like a bubble.
+  emphasis:
+  - jiggling like a bubble
+  visual:
+    reuse: 7
+    motion: zoom_in
+    focus_x: 0.75
+    focus_y: 0.5
+- text: It will collapse into a sun in 200,000 years.
+  emphasis:
+  - 200,000 years
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble_studies_sequences_of_star_formation_in_neighbouring_galaxy_-full_WFPC2_frame-_%28heic0411c%29.jpg/1280px-Hubble_studies_sequences_of_star_formation_in_neighbouring_galaxy_-full_WFPC2_frame-_%28heic0411c%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble studies sequences of star formation in neighbouring galaxy -full WFPC2 frame- (heic0411c).jpg
+      credit: NASA/ESA and the Hubble Heritage Team (AURA/STScI)/HEIC
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_studies_sequences_of_star_formation_in_neighbouring_galaxy_-full_WFPC2_frame-_(heic0411c).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.25
+    focus_y: 0.3
+    box:
+    - 0.1
+    - 0.1
+    - 0.4
+    - 0.5
+    card:
+      kind: dateline
+      big: 200,000 Years
+      small: Until Starbirth
+- text: For now, it remains a terrifying, empty gap in reality.
+  emphasis:
+  - gap in reality
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:mystery
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE HOLE IN SPACE

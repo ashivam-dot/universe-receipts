@@ -40,7 +40,7 @@ unexplained, not alien.
 | 2026-10-12 | Ganymede (moon) (1996): bigger than Mercury and the only moon in the solar system that generates its own magnetic field — dropped (ep135) | Scale Breaker | Highlighted in NASA's Astronomy Picture of the Day featuring Jupiter and its Galilean moons. |
 | 2026-10-12 | Io (moon) (1979): tidal forces squeeze this world so violently that hundreds of volcanoes shoot sulfur plumes hundreds of miles into space — dropped (ep261) | The Universe Is Terrifying | Featured in NASA's Astronomy Picture of the Day showcasing Jupiter and its moons. |
 | 2026-10-13 | Spider crater (1977): a bizarre impact scar in the Australian outback whose spider-like legs were carved by shockwaves from a cosmic collision — parked (ep141) | Space Got Weird | Featured in NASA Earth Observatory reporting highlighting Earth's eerily spider-shaped impact structure |
-| 2026-10-16 | Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space — making (ep287) | Space Got Weird | NASA highlighted its collaboration on JAXA's upcoming MMX mission targeting Mars' moons. |
+| 2026-10-16 | Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space — dropped (ep287) | Space Got Weird | NASA highlighted its collaboration on JAXA's upcoming MMX mission targeting Mars' moons. |
 | 2026-10-17 | Phobos (moon) (1877): Mars is slowly dragging its largest moon to its doom, where tidal forces will eventually tear it into a planetary ring — dropped (ep264) | The Universe Is Terrifying | NASA announced its partnership and science instruments for JAXA's upcoming MMX mission to explore Mars' moons. |
 | 2026-10-18 | Pillars of Creation (1995): towering columns of cosmic gas so colossal that the tiny finger-like protrusions at their tips are larger than our entire solar system — done (ep188) | Scale Breaker | Featured as NASA's Astronomy Picture of the Day with a new cosmic sonification. |
 | 2026-10-22 | Jet Propulsion Laboratory (1936): founded by self-taught experimenters dubbed the 'Suicide Squad' after dangerous rocket explosions got them banned from campus — done (ep221) | Mission Files | NASA JPL is marking 90 years since its founders conducted their first rocket propulsion experiments in October 1936. |
@@ -149,7 +149,7 @@ unexplained, not alien.
 - Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body — parked (ep240)
 - GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye
 - Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — making (ep281)
-- Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe
+- Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe — making (ep294)
 - Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — parked (ep257)
 
 ### Scale Breaker
@@ -176,7 +176,7 @@ unexplained, not alien.
 - Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night — parked (ep131)
 - Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way — parked (ep138)
 - Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon — parked (ep142)
-- Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour — parked (ep153)
+- Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour — making (ep291)
 - Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour — done (ep161)
 - R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely — dropped (ep182)
 - VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip — parked (ep192)
@@ -222,7 +222,7 @@ unexplained, not alien.
 - Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth
 - Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands
 - Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — making (ep279)
-- Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — making (ep278)
+- Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — parked (ep278)
 
 ### Space Got Weird
 
@@ -248,15 +248,15 @@ unexplained, not alien.
 - Saturn's hexagon (1981): a bizarre six-sided jet stream spinning at Saturn's north pole that is wide enough to swallow two whole Earths — done (ep133)
 - Iapetus (moon) (1671): a bizarre world shaped like a walnut, with a 12-mile-high equatorial ridge and one hemisphere ten times darker than the other — making (ep289)
 - WASP-76b (2020): an ultra-hot world where extreme temperatures vaporize iron on the dayside, driving winds that make it rain liquid iron droplets at night — parked (ep183)
-- Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly — parked (ep189)
+- Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly — making (ep295)
 - 10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds — done (ep195)
 - 3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids — parked (ep204)
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
 - Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — parked (ep239)
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — parked (ep259)
-- TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night
-- Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls — making (ep276)
+- TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — making (ep293)
+- Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls — parked (ep276)
 - Moon (1969): Apollo astronauts discovered that lunar dust smells exactly like spent gunpowder and can cause moon hay fever — done (ep265)
 - Saturn (2013): extreme pressure in the atmosphere may create diamond rain, where 1,000 tons of diamonds are produced every year — dropped (ep267)
 - Uranus (1781): discoverer William Herschel originally wanted to name the newly found seventh planet after King George III — done (ep268)
@@ -282,7 +282,7 @@ unexplained, not alien.
 - 2023 NT1 (2023): a 200-foot asteroid approached from the direction of the Sun and flew past Earth undetected until two days later — done (ep119)
 - Voskhod 2 (1965): the first spacewalker was trapped outside his ship when his suit ballooned stiff, forcing him to bleed off vital oxygen to squeeze back inside — done (ep137)
 - STS-27 (1988): space shuttle Atlantis lost over 700 thermal tiles on ascent, surviving fiery reentry only because a missing tile sat over a thick steel antenna plate — done (ep162)
-- STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean — parked (ep170)
+- STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean — making (ep290)
 - Apollo 11 (1969): computer overloads and a boulder-strewn landing zone forced astronauts to fly manually, touching down on the Moon with under 30 seconds of fuel left — dropped (ep180)
 - 2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed — done (ep203)
 - 2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach — parked (ep223)
@@ -321,11 +321,11 @@ unexplained, not alien.
 - Escape velocity (1859): you do not need to reach 25,000 miles per hour to escape Earth's gravity; any speed will work as long as you have continuous thrust — done (ep216)
 - Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — parked (ep238)
 - Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of "seared steak," "hot metal," and "welding fumes" — dropped (ep256)
-- Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight
+- Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight — making (ep292)
 - Rings of Saturn (1610): Galileo first described the planet as having "ears" because his telescope wasn't clear enough to reveal the rings — done (ep258)
 - Black hole (1916): they don't actually function like cosmic vacuum cleaners; if the Sun were replaced by one, Earth wouldn't be sucked in — done (ep263)
 - Milky Way (1610): the "milk" in the sky isn't a cloud of gas, but the combined light of billions of individual stars too faint to see alone — done (ep266)
 - Mars (1976): the "Red Planet" is actually a golden-brown butterscotch color; its red hue is just a thin layer of iron oxide dust — dropped (ep269)
 - Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look — parked (ep272)
 - Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs — parked (ep275)
-- Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate — making (ep277)
+- Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate — parked (ep277)

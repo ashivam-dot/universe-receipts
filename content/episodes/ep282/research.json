@@ -1,0 +1,260 @@
+{
+  "viable": true,
+  "reason": "The sources provide 16 claims supported by at least two sites, documenting the first Saturn V launch and its extreme acoustic impact.",
+  "story": "In 1967, NASA took its biggest gamble. After the tragic Apollo 1 fire, the agency was falling behind in the race to the Moon. Director George Mueller made a gutsy call: skip years of incremental tests and launch the entire 363-foot Saturn V rocket all at once. This all-up test was Apollo 4. On November 9, the world’s most powerful rocket ignited with 7.5 million pounds of thrust. The roar was so intense it was recorded as one of the loudest sounds in history. Three miles away, shockwaves buffeted the massive Vehicle Assembly Building and rattled the press site so violently that windows were shattered or nearly broken. The mission was a total success, orbiting Earth and capturing 755 color images from high altitude before splashing down in the Pacific. It proved the Saturn V was ready, clearing the path to land astronauts on the Moon by 1969.",
+  "angle": "The shockwaves from the first Saturn V launch were so powerful they shook buildings three miles away and were reported as some of the loudest noises in human history.",
+  "claims": [
+    {
+      "claim": "Apollo 4 was the first uncrewed test flight of the Saturn V launch vehicle.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission launched on November 9, 1967, from Launch Complex 39 at Kennedy Space Center.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Saturn V rocket stood 363 feet tall and was the largest rocket ever to attempt flight at the time.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The rocket's five F-1 engines generated 7.5 million pounds of thrust at liftoff.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA utilized an all-up testing strategy, meaning all three rocket stages were functional on its very first flight.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA Director George Mueller mandated the all-up approach to meet the goal of landing on the Moon before 1970.",
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The noise of the launch was described as one of the loudest sounds in history, second only to nuclear explosions.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The sound pressure from the launch buffeted the Vehicle Assembly Building located three miles away from the pad.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Launch shockwaves were powerful enough to rattle or shatter windows at the press site several miles away.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission carried an automatic camera that captured 755 high-altitude images of Earth.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The command module's heat shield was tested at a re-entry speed of nearly 25,000 miles per hour.",
+      "sources": [
+        "S2",
+        "S5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "The mission duration was approximately 8.5 hours from launch to splashdown.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "The USS Bennington served as the prime recovery ship for the command module.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA officially skipped the designations Apollo 2 and Apollo 3 in its mission sequence.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission was considered a complete success, verifying the Saturn V was flightworthy.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft entered Earth's atmosphere on a trajectory simulating a return from the Moon.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact splashdown distance from the target varies between 8.6 nautical miles (S1) and 12 miles (S2); the script should use a generic distance or attribute the specific number.",
+    "While S4 reports that windows shattered miles away, S1 specifies that onlookers held the windows to prevent them from breaking; the script should attribute the reported force to both accounts.",
+    "Sources vary on the exact number of Earth photos taken, with S2 reporting 715 and others citing 755; the script should say 'over 700'."
+  ],
+  "visuals": [
+    {
+      "subject": "Saturn V rocket on launch pad 39A",
+      "queries": [
+        "Saturn V Apollo 4 launch pad 39A",
+        "Apollo 4 Saturn V rollout"
+      ]
+    },
+    {
+      "subject": "The five F-1 engines of the first stage",
+      "queries": [
+        "Saturn V F-1 engine cluster",
+        "Apollo 4 F-1 engines"
+      ]
+    },
+    {
+      "subject": "Apollo 4 liftoff and ascent",
+      "queries": [
+        "Apollo 4 Saturn V liftoff",
+        "Apollo 4 Saturn V ascent"
+      ]
+    },
+    {
+      "subject": "Onboard camera footage of stage separation",
+      "queries": [
+        "Saturn V S-IC stage separation",
+        "Apollo 4 stage separation camera"
+      ]
+    },
+    {
+      "subject": "Crescent Earth photographed from high altitude",
+      "queries": [
+        "Apollo 4 Earth from space",
+        "Apollo 4 crescent Earth"
+      ]
+    },
+    {
+      "subject": "Apollo 4 command module on recovery ship",
+      "queries": [
+        "USS Bennington Apollo 4 recovery",
+        "Apollo 4 command module splashdown"
+      ]
+    },
+    {
+      "subject": "Apollo 4 command module CM-017 on display",
+      "queries": [
+        "Apollo 4 command module Infinity Science Center",
+        "CM-017 command module Stennis"
+      ]
+    },
+    {
+      "subject": "NASA official George Mueller",
+      "queries": [
+        "George Mueller NASA portrait",
+        "George Mueller Apollo program"
+      ]
+    },
+    {
+      "subject": "Vehicle Assembly Building at Kennedy Space Center",
+      "queries": [
+        "Kennedy Space Center Vehicle Assembly Building",
+        "VAB building aerial"
+      ]
+    },
+    {
+      "subject": "Apollo 4 flight path diagram",
+      "queries": [
+        "Apollo 4 mission sequence diagram",
+        "Apollo 4 flight profile"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Apollo_4",
+      "title": "Apollo 4",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.nasa.gov/history/55-years-ago-apollo-4-the-first-flight-of-the-saturn-v/",
+      "title": "55 Years Ago: Apollo 4, the First Flight of the Saturn V - NASA",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.planetary.org/articles/20180522-apollo-4-images",
+      "title": "The curious case of the Apollo 4 Earth images",
+      "site": "planetary.org"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.space.com/18505-nasa-moon-rocket-saturn-v-history.html",
+      "title": "NASA's Gutsy First Launch of the Saturn V Moon Rocket",
+      "site": "space.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://airandspace.si.edu/explore/stories/apollo-missions/apollo-4",
+      "title": "Apollo 4",
+      "site": "si.edu"
+    },
+    {
+      "label": "S6",
+      "url": "https://web.archive.org/web/20081120153024/http://www.americanheritage.com/articles/magazine/it/1998/4/1998_4_46.shtml",
+      "title": "?Fire in the cockpit!?",
+      "site": "americanheritage.com"
+    }
+  ],
+  "topic": "Apollo 4 (1967): the first launch of the Saturn V rocket was so loud its shockwaves shook buildings and shattered windows miles away",
+  "series": "Scale Breaker"
+}

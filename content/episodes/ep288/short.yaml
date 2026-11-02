@@ -1,0 +1,213 @@
+id: ep288
+title: The Invisible Star Winning the Cosmic Race
+series: Scale Breaker
+format: v3
+description: Barnard's Star is the fastest-moving star in our night sky, yet it's completely hidden from view.
+sources:
+- https://en.wikipedia.org/wiki/Barnard%27s_Star
+- https://www.eso.org/public/news/eso1837/
+- https://www.scientificamerican.com/article/a-frozen-super-earth-may-orbit-barnards-star/
+- https://skyandtelescope.org/astronomy-news/meet-barnards-star-our-red-dwarf-neighbor/
+- https://www.astronomy.com/science/barnards-star/
+- https://exoplanetarchive.ipac.caltech.edu/overview/GJ-699
+hashtags:
+- '#space'
+- '#astronomy'
+- '#barnardsstar'
+tags:
+- barnard's star
+- red dwarf
+- fastest star
+- ophiuchus
+- space facts
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A nearby star is sprinting across our night sky.
+  emphasis:
+  - sprinting
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Flaring_red_dwarf_star_%28artist%27s_impression%29_%28opo1102a%29.jpg/3840px-Flaring_red_dwarf_star_%28artist%27s_impression%29_%28opo1102a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Flaring red dwarf star (artist's impression) (opo1102a).jpg
+      credit: 'Artwork Credit: NASA, ESA, and G. Bacon (STScI). Science Credit: NASA, ESA, A. Kowalski (University of Washington,
+        USA), R. Osten and K. Sahu (STScI) and S. Hawley (University of Washington, USA)'
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Flaring_red_dwarf_star_(artist%27s_impression)_(opo1102a).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.78
+    focus_y: 0.25
+    box:
+    - 0.65
+    - 0.08
+    - 0.9
+    - 0.42
+- text: It covers the width of a full Moon every 180 years.
+  emphasis:
+  - width of a full Moon
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Solar_eclipse_taken_from_Artemis_II_-_April_2026.jpg/3840px-Solar_eclipse_taken_from_Artemis_II_-_April_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Solar eclipse taken from Artemis II - April 2026.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_eclipse_taken_from_Artemis_II_-_April_2026.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.22
+    - 0.22
+    - 0.78
+    - 0.78
+    card:
+      kind: fact
+      big: 180 years
+      small: to cross the moon
+- text: This red dwarf sits just six light-years from Earth.
+  emphasis:
+  - six light-years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/PIA18003-NASA-WISE-StarsNearSun-20140425-2.png/960px-PIA18003-NASA-WISE-StarsNearSun-20140425-2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA18003-NASA-WISE-StarsNearSun-20140425-2.png
+      credit: NASA/Penn State University
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA18003-NASA-WISE-StarsNearSun-20140425-2.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.13
+    focus_y: 0.44
+- text: It’s barely larger than the planet Jupiter.
+  emphasis:
+  - planet Jupiter
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/89/Sun%2C_Wolf_359%2C_and_Jupiter.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Sun, Wolf 359, and Jupiter.png
+      credit: NASA's Goddard Space Flight Center / NASA, ESA, and A. Simon (GSFC) / Phil Plait
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Sun,_Wolf_359,_and_Jupiter.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.78
+    focus_y: 0.5
+    box:
+    - 0.65
+    - 0.42
+    - 0.9
+    - 0.58
+    card:
+      kind: fact
+      big: Jupiter sized
+      small: tiny red dwarf
+- text: While most stars seem frozen, this one is a cosmic bullet.
+  emphasis:
+  - cosmic bullet
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Sagittarius_Star_Cloud_%28noao-m24%29.jpg/3840px-Sagittarius_Star_Cloud_%28noao-m24%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Sagittarius Star Cloud (noao-m24).jpg
+      credit: Vanessa Harvey, REU program/NOIRLab/NSF/AURA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Sagittarius_Star_Cloud_(noao-m24).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It’s hurtling toward our solar system at 110 kilometers per second.
+  emphasis:
+  - 110 kilometers per second
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 110 km/s
+      small: speeding toward us
+    motion: zoom_in
+- text: Yet this speedster is totally invisible to the naked eye.
+  emphasis:
+  - totally invisible
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Invisible
+      small: to the naked eye
+    motion: zoom_in
+- text: In 10,000 years, it will be our closest neighbor in space.
+  emphasis:
+  - closest neighbor
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/AU_MIc_M-dwarf_artist%27s_conception.jpg/1280px-AU_MIc_M-dwarf_artist%27s_conception.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AU MIc M-dwarf artist's conception.jpg
+      credit: 'NASA''s Goddard Space Flight Center. Chris Smith (USRA): Lead Producer'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AU_MIc_M-dwarf_artist%27s_conception.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.2
+    - 0.1
+    - 0.8
+    - 0.9
+    card:
+      kind: fact
+      big: 10,000 years
+      small: until closest approach
+- text: We’ll need a telescope to see the star sprinting toward us.
+  emphasis:
+  - need a telescope
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.78
+    focus_y: 0.25
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE SKY’S FASTEST STAR

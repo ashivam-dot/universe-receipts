@@ -1,0 +1,248 @@
+id: ep285
+title: The Secret Eye That Saved STS-1
+series: Near Misses
+format: v3
+description: NASA's first shuttle mission faced a hidden disaster when a violent shockwave tore the ship's heat shield apart.
+sources:
+- https://en.wikipedia.org/wiki/STS-1
+- https://www.nasa.gov/mission/sts-1/
+- https://www.space.com/2323-columbia-launch-pushed-crew-workers-technology.html
+- https://www.spacedaily.com/t-nasas-first-space-shuttle-launch-lost-16-heat-shield-tiles-and-damaged-148-more-before-it-even-left-the-ground-not-from-any-failure-but-from-the-shock-wave-of-its-own-engines-bouncing-back-off-the-l/
+- https://www.smithsonianmag.com/air-space-magazine/spysat-and-shuttle-180962872/
+- http://www.thespacereview.com/article/3219/1
+hashtags:
+- '#space'
+- '#nasa'
+- '#spaceshuttle'
+tags:
+- STS-1
+- Columbia
+- John Young
+- spy satellite
+- KH-11
+- thermal tiles
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A shockwave nearly destroyed the first Space Shuttle at liftoff.
+  emphasis:
+  - nearly destroyed
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/3840px-Space_Shuttle_Columbia_launching.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Space Shuttle Columbia launching.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.42
+    - 0.26
+    - 0.58
+    - 0.61
+- text: NASA expected a massive roar on the launch pad.
+  emphasis:
+  - massive roar
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/9e/Sound_suppression_water_system_test_at_KSC_Launch_Pad_39A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Sound suppression water system test at KSC Launch Pad 39A.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Sound_suppression_water_system_test_at_KSC_Launch_Pad_39A.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.4
+    focus_y: 0.3
+- text: But ignition created a shockwave more violent than predicted.
+  emphasis:
+  - more violent
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/S81-30502.jpg/1920px-S81-30502.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: S81-30502.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:S81-30502.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.8
+    box:
+    - 0.2
+    - 0.65
+    - 0.8
+    - 0.95
+- text: This wave hit the ground and slammed into Columbia.
+  emphasis:
+  - slammed
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Sts1-liftoff-columbia.triddle.jpg/1920px-Sts1-liftoff-columbia.triddle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Sts1-liftoff-columbia.triddle.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Sts1-liftoff-columbia.triddle.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.55
+    focus_y: 0.3
+    box:
+    - 0.48
+    - 0.16
+    - 0.62
+    - 0.43
+- text: The force was enough to rip 16 tiles away.
+  emphasis:
+  - rip 16 tiles
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/STS-1_Columbia_Cargo_Bay.jpg/1920px-STS-1_Columbia_Cargo_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS-1 Columbia Cargo Bay.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-1_Columbia_Cargo_Bay.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.2
+    focus_y: 0.45
+    box:
+    - 0.08
+    - 0.35
+    - 0.3
+    - 0.5
+    card:
+      kind: fact
+      big: 16 TILES
+      small: ripped off by the shock
+- text: Commander John Young feared they would burn up during reentry.
+  emphasis:
+  - burn up
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/John_Young_%28STS-1%29.jpg/1920px-John_Young_%28STS-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: John Young (STS-1).jpg
+      credit: Unknown authorUnknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:John_Young_(STS-1).jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.25
+    box:
+    - 0.4
+    - 0.1
+    - 0.63
+    - 0.38
+- text: Since mission control couldn’t see the damage, NASA got desperate.
+  emphasis:
+  - got desperate
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/STS-1_control_room.jpg/3840px-STS-1_control_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS-1 control room.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-1_control_room.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They used a top-secret spy satellite to photograph the ship.
+  emphasis:
+  - top-secret
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/fe/KH-11Block3TMAdynamictestunit.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: KH-11Block3TMAdynamictestunit.png
+      credit: National Reconnaissance Office
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:KH-11Block3TMAdynamictestunit.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: KH-11 KENNEN
+      small: classified spy satellite
+- text: The secret images confirmed the crew was safe.
+  emphasis:
+  - safe
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/S81-30425.jpg/3840px-S81-30425.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: S81-30425.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:S81-30425.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.6
+    focus_y: 0.45
+    box:
+    - 0.52
+    - 0.37
+    - 0.72
+    - 0.53
+- text: A secret eye saved the shuttle from that shockwave.
+  emphasis:
+  - secret eye
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.45
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 16 TILES RIPPED AWAY
