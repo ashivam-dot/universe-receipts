@@ -1,0 +1,123 @@
+id: ep312
+title: Surviving a Comet Blast at 150,000 MPH
+series: Mission Files
+format: v3
+description: How Europe's Giotto probe survived a punishing swarm of comet dust to snap the first close-up images of Halley's
+  nucleus.
+sources:
+- https://www.esa.int/Science_Exploration/Space_Science/Giotto_overview
+- https://www.upi.com/Archives/1986/03/13/Europes-Giotto-space-probe-ran-into-a-wall-of/9348511074000/
+- https://www.wired.com/2012/06/capturing-a-comet-giotto-ii-1985/
+- https://en.wikipedia.org/wiki/Giotto_(spacecraft)
+- https://pdssbn.astro.umd.edu/data_sb/missions/giotto/index.shtml
+hashtags:
+- '#space'
+- '#nasa'
+- '#esa'
+tags:
+- Giotto
+- Halley's Comet
+- space probe
+- ESA
+- space exploration
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A suicide probe hit comet dust at 150,000 mph.
+  emphasis:
+  - 150,000 mph
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/FRG_1986_MiNr1273_SD_B002.jpg/1920px-FRG_1986_MiNr1273_SD_B002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: FRG 1986 MiNr1273 SD B002.jpg
+      credit: '"Deutsche Bundespost" of the Federal Republic of Germany'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:FRG_1986_MiNr1273_SD_B002.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Engineers protected it with a shield of aluminum and Kevlar.
+  emphasis:
+  - aluminum and Kevlar
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Nextell_Kevlar_enhanced_Whipple_shield_configurations_on_ISS.jpg/960px-Nextell_Kevlar_enhanced_Whipple_shield_configurations_on_ISS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Nextell Kevlar enhanced Whipple shield configurations on ISS.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Nextell_Kevlar_enhanced_Whipple_shield_configurations_on_ISS.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The craft passed within 596 kilometers of the icy nucleus.
+  emphasis:
+  - 596 kilometers
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 596 km
+      small: Closest approach distance
+    motion: zoom_in
+- text: Right before, a dust particle knocked it spinning off axis.
+  emphasis:
+  - spinning off axis
+  sfx: riser
+  visual:
+    reuse: 2
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The resilient probe somehow re-stabilized itself within 32 minutes.
+  emphasis:
+  - 32 minutes
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 32 minutes
+      small: Recovery time
+    motion: zoom_in
+- text: It captured the first close-up images of a peanut-shaped nucleus.
+  emphasis:
+  - peanut-shaped
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That is how a suicide probe hit comet dust at 150,000 mph.
+  emphasis:
+  - 150,000 mph
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

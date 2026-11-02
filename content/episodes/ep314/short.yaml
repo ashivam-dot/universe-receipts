@@ -1,0 +1,169 @@
+id: ep314
+title: The Planet Where Ice Burns
+series: Space Got Weird
+format: v3
+description: Gliese 436 b is an exoplanet where intense gravity forces water into solid hot ice despite 800 degree temperatures.
+sources:
+- https://en.wikipedia.org/wiki/Gliese_436_b
+- https://handwiki.org/wiki/Astronomy:Gliese_436_b
+- https://www.thedeeprabbithole.com/videos/gliese-436b-burning-ice-planet/
+- https://web.archive.org/web/20080706143705/http://space.newscientist.com/article/dn11864-strange-alien-world-made-of-hot-ice-and-steam.html
+- https://www.nytimes.com/interactive/projects/cp/summer-of-science-2015/latest/exoplanet-tail
+- https://grokipedia.com/page/Gliese_436_b
+- https://en.wikipedia.org/wiki/Hot_Neptune
+hashtags:
+- '#space'
+- '#exoplanets'
+- '#nasa'
+tags:
+- Gliese 436 b
+- exoplanet
+- hot ice
+- astronomy
+- space weird
+- red dwarf
+- space facts
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Ice burns on a planet hotter than a pizza oven.
+  emphasis:
+  - Ice burns
+  - hotter than a pizza oven
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gliese-436-b.jpg/1280px-Gliese-436-b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Gliese-436-b.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Gliese-436-b.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.23
+    focus_y: 0.71
+    box:
+    - 0.0
+    - 0.41
+    - 0.44
+    - 1.0
+- text: Orbiting a red dwarf in Leo, this world sits thirty-three light-years away.
+  emphasis:
+  - red dwarf
+  - thirty-three light-years
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 33 Light-Years
+      small: Distance from Earth
+    motion: zoom_in
+- text: Its surface temperatures soar past eight hundred degrees Fahrenheit.
+  emphasis:
+  - eight hundred degrees
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Wasp-39b_and_its_parent_star_%28artist%E2%80%99s_impression%29.jpg/3840px-Wasp-39b_and_its_parent_star_%28artist%E2%80%99s_impression%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Wasp-39b and its parent star (artist’s impression).jpg
+      credit: NASA, ESA, and G. Bacon (STScI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Wasp-39b_and_its_parent_star_(artist%E2%80%99s_impression).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.77
+    focus_y: 0.58
+    box:
+    - 0.61
+    - 0.28
+    - 0.96
+    - 0.87
+    card:
+      kind: fact
+      big: 800 F
+      small: Surface temperature
+- text: That extreme heat should instantly boil away any water.
+  emphasis:
+  - boil away
+  visual:
+    reuse: 3
+    motion: zoom_in
+    focus_x: 0.77
+    focus_y: 0.58
+- text: Instead, massive planetary gravity crushes that water into solid hot ice.
+  emphasis:
+  - solid hot ice
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Crystal_structure_of_ice_VII.png/960px-Crystal_structure_of_ice_VII.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Crystal structure of ice VII.png
+      credit: Khsacc
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Crystal_structure_of_ice_VII.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Hot Ice
+      small: Solid water under heavy gravity
+- text: Even though it is scorching, solid ice burns right on the world.
+  emphasis:
+  - solid ice burns
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/dc/NASA-Exoplanet-WaterWorlds-20180817.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: NASA-Exoplanet-WaterWorlds-20180817.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA-Exoplanet-WaterWorlds-20180817.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.15
+    focus_y: 0.35
+    box:
+    - 0.0
+    - 0.18
+    - 0.26
+    - 0.58
+- text: Ice burns on this strange exoplanet.
+  emphasis:
+  - Ice burns
+  sfx: whoosh
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.23
+    focus_y: 0.71
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 800 DEGREES, SOLID ICE

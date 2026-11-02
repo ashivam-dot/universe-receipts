@@ -1,0 +1,181 @@
+id: ep308
+title: The Mysterious 1,100-Mile Martian Cloud
+series: Space Got Weird
+format: v3
+description: Discover the bizarre Martian volcano that spawns a massive water-ice cloud every spring using physics never seen
+  before.
+sources:
+- https://en.wikipedia.org/wiki/Arsia_Mons
+- https://science.nasa.gov/photojournal/themis-views-mars-arsia-mons-volcano/
+- https://www.astronomy.com/science/the-weird-science-behind-mars-weirdest-cloud/
+- https://www.livescience.com/space/mars/1-000-mile-long-cloud-that-forms-and-vanishes-on-mars-every-day-obeys-exotic-physics-never-seen-on-earth
+- https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought
+hashtags:
+- '#space'
+- '#mars'
+- '#astronomy'
+tags:
+- Mars
+- Arsia Mons
+- volcano
+- space weather
+- Mars Express
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A Martian volcano builds a cloud longer than Texas.
+  emphasis:
+  - longer than Texas
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Olympus_Mons_alt.jpg/1920px-Olympus_Mons_alt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Olympus Mons alt.jpg
+      credit: Image by NASA, modifications by Seddon
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Olympus_Mons_alt.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Arsia Mons stands nearly twelve miles high into the thin air.
+  emphasis:
+  - twelve miles high
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Olympus_Mons_-_ESA_Mars_Express.png/1920px-Olympus_Mons_-_ESA_Mars_Express.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Olympus Mons - ESA Mars Express.png
+      credit: Jackie Branc
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Olympus_Mons_-_ESA_Mars_Express.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.45
+    focus_y: 0.55
+    box:
+    - 0.25
+    - 0.25
+    - 0.65
+    - 0.65
+    card:
+      kind: fact
+      big: 12 miles
+      small: Volcano height
+- text: Every spring, it stretches an incredible eleven hundred miles long.
+  emphasis:
+  - eleven hundred miles
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/54/Mars_-_Cloudy_Arsia_Mons_-_ESA_Mars_Express_%2854559293995%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mars - Cloudy Arsia Mons - ESA Mars Express (54559293995).jpg
+      credit: Andrea Luck
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Mars_-_Cloudy_Arsia_Mons_-_ESA_Mars_Express_(54559293995).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.35
+    focus_y: 0.45
+    box:
+    - 0.05
+    - 0.3
+    - 0.6
+    - 0.6
+    card:
+      kind: fact
+      big: 1,100 miles
+      small: Cloud length
+- text: Morning winds lift air fast enough to drop temperatures thirty degrees Celsius.
+  emphasis:
+  - thirty degrees
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/First_THEMIS_Image_of_Mars_DVIDS733363.jpg/1280px-First_THEMIS_Image_of_Mars_DVIDS733363.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: First THEMIS Image of Mars DVIDS733363.jpg
+      credit: Glenn Research Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:First_THEMIS_Image_of_Mars_DVIDS733363.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.6
+    focus_y: 0.5
+- text: Water vapor freezes directly into ice crystals without dust or particles.
+  emphasis:
+  - without dust
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://iiif.wellcomecollection.org/image/B20455938_0002.JP2/full/!1920,1920/0/default.jpg
+    credit:
+      source: Wellcome Collection
+      title: The Ludovisi Mars. Photographic postcard, 190-.
+      credit: Wellcome Collection
+      license: Public domain
+      url: https://wellcomecollection.org/works/tumetk3a
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.4
+    card:
+      kind: fact
+      big: No dust
+      small: Direct freezing
+- text: This exotic physics has never been seen anywhere in a planetary atmosphere.
+  emphasis:
+  - never been seen
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Global_mosaic_of_Hellas_and_Arabia_areas_on_Mars.jpg/1920px-Global_mosaic_of_Hellas_and_Arabia_areas_on_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Global mosaic of Hellas and Arabia areas on Mars.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Global_mosaic_of_Hellas_and_Arabia_areas_on_Mars.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.6
+    focus_y: 0.5
+- text: That is how a Martian volcano builds a cloud longer than Texas.
+  emphasis:
+  - longer than Texas
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 1,100 MILE MARTIAN CLOUD

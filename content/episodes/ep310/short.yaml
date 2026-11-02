@@ -1,0 +1,200 @@
+id: ep310
+title: The Launchpad Escape That Saved Two Cosmonauts
+series: Near Misses
+format: v3
+description: In 1983, a Soyuz rocket exploded on the pad just seconds after an emergency escape system yanked the crew free.
+sources:
+- https://en.wikipedia.org/wiki/Soyuz_7K-ST_No.16L
+- https://www.space.com/space-exploration/on-this-day-in-space-september-26-2026
+- http://www.americaspace.com/?p=42882
+- https://datesandtimes.org/event/soyuz-7k-st-no-16l/
+- https://spaceflightpedia.com/article/soyuz-t-10-1
+- https://www.spacedaily.com/m-in-september-1983-a-soyuz-rocket-caught-fire-on-the-pad-with-two-cosmonauts-strapped-in-above-it-and-the-flames-burned-through-the-cables-carrying-the-abort-command-saving-them-came-down-to-two-co-2/
+hashtags:
+- '#space'
+- '#soyuz'
+- '#nasa'
+tags:
+- Soyuz
+- cosmonauts
+- spacecraft
+- launch abort
+- space history
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: An escape system yanked two men away seconds before launch.
+  emphasis:
+  - yanked two men away
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Soyuz_40c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Soyuz 40c.jpg
+      credit: Radu Cristescu
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Soyuz_40c.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Fire erupted at the base of the rocket.
+  emphasis:
+  - erupted at the base
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c5/Soyuz_TMA-22_lifts_off_from_Gagarin%27s_Start.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Soyuz TMA-22 lifts off from Gagarin's Start.jpg
+      credit: NASA TV
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Soyuz_TMA-22_lifts_off_from_Gagarin%27s_Start.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.7
+- text: A leaking valve burned through the control cables.
+  emphasis:
+  - control cables
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Mir-31.jpg/1280px-Mir-31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mir-31.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mir-31.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The trapped crew had no manual way to trigger escape.
+  emphasis:
+  - no manual way
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/75/STS063-312-009_-_STS-063_-_MS_Titov_photographs_Charlotte_on_SPACEHAB_-_DPLA_-_1c8e83b4f4947f5a24415a71665a4de0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: STS063-312-009 - STS-063 - MS Titov photographs Charlotte on SPACEHAB - DPLA - 1c8e83b4f4947f5a24415a71665a4de0.jpg
+      credit: National Aeronautics and Space Administration. Lyndon B. Johnson Space Center. 2/17/1973
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS063-312-009_-_STS-063_-_MS_Titov_photographs_Charlotte_on_SPACEHAB_-_DPLA_-_1c8e83b4f4947f5a24415a71665a4de0.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Only a backup radio command could save them.
+  emphasis:
+  - backup radio command
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Soyuz_TMA-4_at_the_Gagarin%27s_Start.jpg/1280px-Soyuz_TMA-4_at_the_Gagarin%27s_Start.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Soyuz TMA-4 at the Gagarin's Start.jpg
+      credit: Bill Ingalls
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Soyuz_TMA-4_at_the_Gagarin%27s_Start.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Two operators hit their buttons with one second left.
+  emphasis:
+  - one second left
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Gennady_Strekalov.jpg/1920px-Gennady_Strekalov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Gennady Strekalov.jpg
+      credit: NASA/JSC
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Gennady_Strekalov.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Solid rockets yanked the capsule away with seventeen gs.
+  emphasis:
+  - seventeen gs
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Soyuz_TMA-09M_landing.jpg/1920px-Soyuz_TMA-09M_landing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Soyuz TMA-09M landing.jpg
+      credit: Carla Cioffi
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Soyuz_TMA-09M_landing.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 17 Gs
+      small: Launch abort force
+- text: Seconds later the booster erupted into a twenty hour fireball.
+  emphasis:
+  - twenty hour fireball
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Soyuz_TMA-13_Edit.jpg/1920px-Soyuz_TMA-13_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Soyuz TMA-13 Edit.jpg
+      credit: Bill Ingalls
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Soyuz_TMA-13_Edit.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.7
+    card:
+      kind: fact
+      big: 20 Hours
+      small: Fire duration
+- text: An emergency escape system is what saved those men.
+  emphasis:
+  - escape system
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: SECONDS FROM LAUNCH

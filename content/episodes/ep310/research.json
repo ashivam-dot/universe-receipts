@@ -1,0 +1,283 @@
+{
+  "viable": true,
+  "reason": "This story is exceptionally well-supported with detailed technical specifics and human-interest elements across seven distinct sources.",
+  "story": "On September 26, 1983, cosmonauts Vladimir Titov and Gennady Strekalov were seconds from launching to the Salyut 7 station when a massive fire erupted at the base of their Soyuz-U rocket. A faulty valve had caused fuel to spill and ignite, engulfing the booster in flames. The inferno quickly burned through the wired control cables, leaving the crew trapped with no way to trigger their own escape. The only hope was a backup radio command, which required two operators in separate rooms to press their buttons within five seconds of each other. They hit the window with only one second to spare. The escape tower's solid rockets ignited, yanking the capsule away with a bone-crushing 17G force. Just six seconds later, the rocket exploded into a fireball that burned for 20 hours. After a 4 km flight, the dazed crew landed safely and immediately requested cigarettes and vodka.",
+  "angle": "Because the fire burned through the primary control wires, the crew’s only hope for survival was two ground controllers pressing their buttons within a strict five-second window.",
+  "claims": [
+    {
+      "claim": "The mission, often designated Soyuz T-10a or T-10-1, was scheduled for September 26, 1983.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The crew consisted of commander Vladimir Titov and flight engineer Gennady Strekalov.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission was intended to dock with the Salyut 7 space station.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A fire broke out at the base of the Soyuz-U rocket approximately 90 seconds before launch.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The fire was caused by a faulty fuel valve that led to a turbopump failure and kerosene leak.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The fire burned through the control cables used to activate the escape system from the ground.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The cosmonauts in the capsule had no manual controls to activate the escape system themselves.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A backup radio command required two independent operators to press buttons within five seconds of each other.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The launch escape system (LES) fired only seconds before the booster exploded.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The escape system subjected the crew to forces between 14 and 17 g during the abort.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The booster exploded and its remains burned on the pad for approximately 20 hours.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The crew capsule landed roughly four kilometers (2.5 miles) from the launch pad.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The crew requested cigarettes and were given vodka after being recovered.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "This remains the only time a launch escape system has been used with a crew aboard on the launch pad.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The crew deactivated their cockpit voice recorder immediately after the abort because they were swearing.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact time interval between the escape system firing and the rocket explosion varies between 2 seconds (S2, S6) and 6 seconds (S1, S3, S5). A script should say 'seconds before.'",
+    "The peak altitude reached by the capsule is cited as 650 meters (S1), 3,000 feet (S3), and 'under a kilometer' (S6). A script should say 'roughly 2,000 to 3,000 feet.'",
+    "Source S2 mentions 20 g acceleration, while most others (S1, S3, S5, S6, S7) state 14 to 17 g. Use the 14-17 g range."
+  ],
+  "visuals": [
+    {
+      "subject": "Soyuz-U rocket on launch pad",
+      "queries": [
+        "Soyuz-U rocket Baikonur",
+        "Soyuz rocket on launch pad"
+      ]
+    },
+    {
+      "subject": "Diagram of the Soyuz Launch Escape System (SAS/LES)",
+      "queries": [
+        "Soyuz launch escape system diagram",
+        "Soyuz SAS escape tower"
+      ]
+    },
+    {
+      "subject": "Cosmonaut Vladimir Titov in flight suit",
+      "queries": [
+        "Vladimir Titov cosmonaut",
+        "Vladimir Titov portrait"
+      ]
+    },
+    {
+      "subject": "Cosmonaut Gennady Strekalov in flight suit",
+      "queries": [
+        "Gennady Strekalov cosmonaut",
+        "Gennady Strekalov portrait"
+      ]
+    },
+    {
+      "subject": "Salyut 7 space station in orbit",
+      "queries": [
+        "Salyut 7 space station",
+        "Salyut 7 NASA"
+      ]
+    },
+    {
+      "subject": "Soyuz capsule landing with parachute (illustrative)",
+      "queries": [
+        "Soyuz descent module parachute landing",
+        "Soyuz landing rockets firing"
+      ]
+    },
+    {
+      "subject": "Baikonur Cosmodrome Site 1 (Gagarin's Start)",
+      "queries": [
+        "Baikonur Cosmodrome Site 1",
+        "Gagarin's Start launch pad"
+      ]
+    },
+    {
+      "subject": "Illustration of a rocket explosion on a launch pad",
+      "queries": [
+        "rocket explosion launch pad illustration",
+        "booster fireball illustration"
+      ]
+    },
+    {
+      "subject": "Soyuz T-10 mission crew photo",
+      "queries": [
+        "Soyuz T-10 crew",
+        "Titov Strekalov"
+      ]
+    },
+    {
+      "subject": "Recovery of a Soyuz descent module",
+      "queries": [
+        "Soyuz recovery team Kazakh steppe",
+        "Soyuz capsule after landing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Soyuz_7K-ST_No.16L",
+      "title": "Soyuz 7K-ST No.16L",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-september-26-2026",
+      "title": "On this day in space! Sept. 26, 1983: Russian cosmonauts narrowly escape Soyuz rocket explosion during harrowing launch abort",
+      "site": "space.com"
+    },
+    {
+      "label": "S3",
+      "url": "http://www.americaspace.com/?p=42882",
+      "title": "‘We Were Swearing!’ Thirty Years Since Russia’s Brush With Disaster - AmericaSpace",
+      "site": "americaspace.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.bbc.com/news/world-europe-45822845",
+      "title": "Astronauts escape malfunctioning Soyuz rocket",
+      "site": "bbc.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://datesandtimes.org/event/soyuz-7k-st-no-16l/",
+      "title": "Soyuz 7K-ST No.16L: The Launch Pad Explosion That Nearly Killed Two Cosmonauts (1983) — History | DatesAndTimes",
+      "site": "datesandtimes.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://spaceflightpedia.com/article/soyuz-t-10-1",
+      "title": "Soyuz T-10-1",
+      "site": "spaceflightpedia.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.spacedaily.com/m-in-september-1983-a-soyuz-rocket-caught-fire-on-the-pad-with-two-cosmonauts-strapped-in-above-it-and-the-flames-burned-through-the-cables-carrying-the-abort-command-saving-them-came-down-to-two-co-2/",
+      "title": "In September 1983, a Soyuz rocket caught fire on the pad with two cosmonauts strapped in above it, and the flames burned through the cables carrying the abort command. Saving them came down to two controllers pressing their buttons within five seconds of each other",
+      "site": "spacedaily.com"
+    }
+  ],
+  "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
+  "series": "Near Misses"
+}

@@ -1,0 +1,232 @@
+{
+  "viable": true,
+  "reason": "The sources comprehensively support a surprising story with at least 12 atomic claims backed by multiple sources.",
+  "story": "The famous legend claims NASA spent millions developing a zero-gravity space pen while the Soviets simply used pencils. The true story is entirely inverted. Both early American and Soviet space programs actually used pencils. However, pencils were dangerous: broken graphite dust could short out electronics, and wood shavings were a severe fire hazard in pure-oxygen cabins, a risk tragically highlighted by the fatal Apollo 1 fire. Meanwhile, inventor Paul C. Fisher independently spent about one million dollars of his own private capital to develop the pressurized AG7 Anti-Gravity Space Pen, patented in 1965. NASA did not fund its creation, nor did they approach Fisher. After rigorous testing, NASA purchased 400 pens in 1967 for just $2.95 each, which was actually cheaper than an earlier public outcry over $128 mechanical pencils. The Soviet Union later bought them too.",
+  "angle": "The viral legend is completely backwards: NASA never spent millions on a space pen, and pencils were actually a dangerous fire hazard that could blind astronauts or short-circuit spacecraft.",
+  "claims": [
+    {
+      "claim": "An urban legend claims NASA spent millions developing a space pen while Soviets used pencils.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Paul C. Fisher independently developed and patented the AG7 Anti-Gravity Space Pen in 1965.",
+      "sources": [
+        "S1",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Fisher invested about $1 million of his own private capital into developing the pen without government funding.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA and Soviet programs both initially used pencils or mechanical pencils.",
+      "sources": [
+        "S1",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Pencil graphite dust and broken tips posed a dangerous threat to electronics and astronaut eyes in zero gravity.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Wood-cased pencils were flammable hazards in spacecraft cabins, a danger emphasized after the Apollo 1 fire.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA ordered 34 mechanical pencils for $4,382.50 ($128.89 each) during Project Gemini, causing public outcry.",
+      "sources": [
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In 1967, NASA purchased approximately 400 Fisher Space Pens for $2.95 apiece.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA and the Soviet space agency both received a 40 percent bulk discount, paying about $2.39 per pen.",
+      "sources": [
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Fisher Space Pen uses a cartridge pressurized with nitrogen gas at around 35 to 45 psi.",
+      "sources": [
+        "S1",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The pen utilizes thixotropic ink that stays solid at rest and liquefies when the tungsten carbide ballpoint moves.",
+      "sources": [
+        "S1",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Soviet Union eventually purchased 100 Fisher pens and 1,000 ink cartridges for Soyuz missions.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The claim that a Fisher Space Pen saved Apollo 11 by fixing a broken circuit breaker is disputed; source S7 notes that astronaut BuzzAldrin's memoir and Space.com attribute the fix to a felt-tip pen from the Duro Pen Company, not Fisher. The script should attribute this specific legend as disputed or leave it out."
+  ],
+  "visuals": [
+    {
+      "subject": "Apollo 11 command module",
+      "queries": [
+        "Apollo 11 command module interior",
+        "Apollo spacecraft interior diagram"
+      ]
+    },
+    {
+      "subject": "Fisher Space Pen AG7",
+      "queries": [
+        "Fisher Space Pen AG7 astronaut pen",
+        "Fisher Space Pen pressurized refill"
+      ]
+    },
+    {
+      "subject": "Apollo 1 command module fire damage",
+      "queries": [
+        "Apollo 1 command module damage",
+        "Apollo 1 spacecraft fire test"
+      ]
+    },
+    {
+      "subject": "Soyuz spacecraft interior",
+      "queries": [
+        "Soyuz orbital module interior",
+        "Soyuz spacecraft flight deck"
+      ]
+    },
+    {
+      "subject": "International Space Station crew quarters",
+      "queries": [
+        "International Space Station interior view",
+        "ISS crew cabin zero gravity"
+      ]
+    },
+    {
+      "subject": "Moon landing mission patch",
+      "queries": [
+        "Apollo 11 mission patch",
+        "Apollo program insignia"
+      ]
+    },
+    {
+      "subject": "Astronaut writing in space",
+      "queries": [
+        "Astronaut writing logbook space station",
+        "Cosmonaut writing in Soyuz"
+      ]
+    },
+    {
+      "subject": "NASA astronaut in zero gravity",
+      "queries": [
+        "Astronaut in microgravity Skylab",
+        "Gemini astronaut spacewalk"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Space_Pen",
+      "title": "Space Pen",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Writing_in_space",
+      "title": "Writing in space",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Cervantes_Mission/Pedro_Duque_s_diary_from_space",
+      "title": "Pedro Duque's diary from space",
+      "site": "esa.int"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.scientificamerican.com/article/fact-or-fiction-nasa-spen/",
+      "title": "Fact or Fiction?: NASA Spent Millions to Develop a Pen that Would Write in Space, whereas the Soviet Cosmonauts Used a Pencil",
+      "site": "scientificamerican.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://news.bbc.co.uk/1/hi/magazine/6173154.stm",
+      "title": "Did Biros really revolutionise writing?",
+      "site": "bbc.co.uk"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.snopes.com/fact-check/the-write-stuff/",
+      "title": "FACT CHECK: NASA's 'Astronaut Pen'",
+      "site": "snopes.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.spacedaily.com/m-1965-space-pen-myth-debunked-nasa-didnt-spend-millions-soviets-pencil/",
+      "title": "The 1965 space pen myth: NASA didn't spend millions to build a pen and the Soviets didn't outsmart anyone with a pencil. Inventor Paul C. Fisher quietly developed the pressurised pen on his own dime and only sold it to NASA.",
+      "site": "spacedaily.com"
+    }
+  ],
+  "topic": "Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately",
+  "series": "Space Myths, Busted"
+}

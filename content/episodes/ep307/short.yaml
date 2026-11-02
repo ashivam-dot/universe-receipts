@@ -1,0 +1,152 @@
+id: ep307
+title: The Explosion Brighter Than Twenty Galaxies
+series: The Universe Is Terrifying
+format: v3
+description: Discover ASASSN-15lh, a cosmic explosion so powerful it briefly outshone twenty Milky Ways combined.
+sources:
+- https://en.wikipedia.org/wiki/ASASSN-15lh
+- https://www.scientificamerican.com/article/found-the-most-powerful-supernova-ever-seen/
+- https://www.astronomy.com/science/brightest-supernova-ever-seen-pushes-theoretical-models-to-the-edge/
+- http://www.sci-news.com/astronomy/kerr-black-hole-asassn-15lh-04444.html
+hashtags:
+- '#space'
+- '#blackhole'
+- '#astronomy'
+tags:
+- ASASSN-15lh
+- supernova
+- black hole
+- cosmic explosion
+- milky way
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A single explosion outshone twenty Milky Ways combined.
+  emphasis:
+  - twenty Milky Ways
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Galactic_Center-_Chandra_Takes_In_The_Bright_Lights%2C_Big_City_Of_The_Milky_Way_%282002-gcenter_-_gcenter_xray_ir_r%29.jpg/1280px-Galactic_Center-_Chandra_Takes_In_The_Bright_Lights%2C_Big_City_Of_The_Milky_Way_%282002-gcenter_-_gcenter_xray_ir_r%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Galactic Center- Chandra Takes In The Bright Lights, Big City Of The Milky Way (2002-gcenter - gcenter xray ir
+        r).jpg
+      credit: NASA/UMass/D.Wang et al.
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Galactic_Center-_Chandra_Takes_In_The_Bright_Lights,_Big_City_Of_The_Milky_Way_(2002-gcenter_-_gcenter_xray_ir_r).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The All Sky survey found this flash in Chile.
+  emphasis:
+  - All Sky survey
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Happy_Trails_CTIO.jpg/3840px-Happy_Trails_CTIO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Happy Trails CTIO.jpg
+      credit: DOE/FNAL/DECam/R. Hahn/CTIO/NOIRLab/NSF/AURA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Happy_Trails_CTIO.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.45
+    focus_y: 0.75
+- text: It blazed six hundred billion times brighter than our Sun.
+  emphasis:
+  - six hundred billion times
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 600 billion
+      small: Brighter than our Sun
+    motion: zoom_in
+- text: In weeks, it released more energy than the Sun's ten billion years.
+  emphasis:
+  - more energy
+  - ten billion years
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Swift_Spacecraft_Animations-_2025_%28SVS14786_-_SWIFT_S1_v2_4k_60fps_proRes_00005_print%29.jpg/960px-Swift_Spacecraft_Animations-_2025_%28SVS14786_-_SWIFT_S1_v2_4k_60fps_proRes_00005_print%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Swift Spacecraft Animations- 2025 (SVS14786 - SWIFT S1 v2 4k 60fps proRes 00005 print).jpg
+      credit: NASA's Scientific Visualization Studio - eMITS/Adriana Manrique Gutierrez, eMITS/Jonathan North, eMITS/Michael
+        Lentz, eMITS/Scott Wiessinger, eMITS/Sophia Roberts, University of Maryland College Park/
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Swift_Spacecraft_Animations-_2025_(SVS14786_-_SWIFT_S1_v2_4k_60fps_proRes_00005_print).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers think a supermassive black hole destroyed a wandering star.
+  emphasis:
+  - supermassive black hole
+  - destroyed a wandering star
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Artist%E2%80%99s_impression_of_star_being_tidally_disrupted_by_a_supermassive_black_hole_%28eso2018a%29.jpg/3840px-Artist%E2%80%99s_impression_of_star_being_tidally_disrupted_by_a_supermassive_black_hole_%28eso2018a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s impression of star being tidally disrupted by a supermassive black hole (eso2018a).jpg
+      credit: ESO/M. Kornmesser
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_star_being_tidally_disrupted_by_a_supermassive_black_hole_(eso2018a).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.35
+    focus_y: 0.5
+- text: That extreme gravity ripped the star apart in a violent flare.
+  emphasis:
+  - extreme gravity
+  - violent flare
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Black_hole_with_thick%2C_hot_accretion_disk.png/960px-Black_hole_with_thick%2C_hot_accretion_disk.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Black hole with thick, hot accretion disk.png
+      credit: Shocksingularity
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Black_hole_with_thick,_hot_accretion_disk.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Such death glows brighter than twenty Milky Ways combined.
+  emphasis:
+  - twenty Milky Ways
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:mystery
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 20 GALAXIES OUTSHONE

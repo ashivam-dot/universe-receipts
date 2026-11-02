@@ -1,0 +1,152 @@
+id: ep313
+title: Why the Horizon Moon Looks So Gigantic
+series: Space Myths, Busted
+format: v3
+description: Discover why the giant horizon moon is an optical illusion created by your brain rather than atmospheric magnification.
+sources:
+- https://en.wikipedia.org/wiki/Moon_illusion
+- https://sciencenotes.org/why-the-moon-looks-bigger-near-the-horizon-moon-illusion/
+- https://encyclopedia.arabpsychology.com/moon-illusion/
+- https://www.nationalgeographic.com/science/article/moon-illusion-explained-horizon-size-supermoon-space-science
+- https://web.archive.org/web/20090221135719/http://www.lhup.edu/~dsimanek/3d/moonillu.htm
+- https://scienceshot.com/post/moon-illusion-horizon-farther
+- https://web.archive.org/web/20210126141939/http://www.nasa.gov/vision/universe/watchtheskies/20jun_moonillusion.html
+hashtags:
+- '#space'
+- '#moon'
+- '#science'
+tags:
+- moon illusion
+- astronomy
+- psychology
+- space myth
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: That giant horizon moon is an illusion inside your head.
+  emphasis:
+  - illusion inside
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Moon_in_Egypt_18_-9-2024.jpg/1920px-Moon_in_Egypt_18_-9-2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Moon in Egypt 18 -9-2024.jpg
+      credit: Haithamalhaw89
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Moon_in_Egypt_18_-9-2024.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.49
+    focus_y: 0.44
+- text: The atmosphere doesn't magnify it like a lens at all.
+  emphasis:
+  - doesn't magnify it
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e8/Posn_Setting_Sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Posn Setting Sun.jpg
+      credit: Robert P. O'Shea
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Posn_Setting_Sun.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Refraction near the horizon actually squashes the moon vertically.
+  emphasis:
+  - squashes the moon
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Craterlight_a_world_away.jpg/3840px-Craterlight_a_world_away.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Craterlight a world away.jpg
+      credit: sagesolar
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Craterlight_a_world_away.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: In fact, the low moon is fractionally more distant and smaller.
+  emphasis:
+  - more distant and smaller
+  visual:
+    reuse: 3
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Extensive experiments in 1962 showed background terrain tricks our distance cues.
+  emphasis:
+  - '1962'
+  - distance cues
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/94/Ponzo_Illusion_%C3%A1bra_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Ponzo Illusion ábra 4.jpg
+      credit: Süle Krisztina
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ponzo_Illusion_%C3%A1bra_4.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '1962'
+      small: Kaufman and Rock experiments
+- text: You can shrink it instantly by looking upside down through your legs.
+  emphasis:
+  - shrink it instantly
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/96/%281%29_Moonrise_Bondi_Beach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: (1) Moonrise Bondi Beach.JPG
+      credit: Sardaka (talk) 09:33, 8 December 2010 (UTC)
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:(1)_Moonrise_Bondi_Beach.JPG
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.1
+- text: That giant horizon illusion lives entirely inside your head.
+  emphasis:
+  - inside your head
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.49
+    focus_y: 0.44
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: GIANT MOON IS A BRAIN TRICK

@@ -11,7 +11,7 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
 | Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 54% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 64.8% | 80%+ (loops can push it past 100%) |
+| Average percentage viewed | `analytics.averageViewPercentage` | 64.9% | 80%+ (loops can push it past 100%) |
 | Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 116% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 1.1 | 2+ |
 | Likes per 100 views | `likes` / `views` | 3.2 | 4+ |
@@ -53,38 +53,38 @@ contradiction.
 
 | Short | Series | Hook style | Observed 24-30h views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep118 | Space Got Weird | statement, mystery | 927 | 54% | 69.6% | 118% | 0 | Mystery jigsaw hook drove above-median early reach (927 at 28.1h) and solid retention (69.56% viewed), though engaged share sat near median at 54.1%. |
-| ep130 | The Universe Is Terrifying | statement, scale_ladder | 823 | 53% | 60.5% | 113% | 2 | Direct particle jet hazard topic delivered above-median early reach (823 at 24.6h), though mid-video pacing kept retention below median at 60.5%. |
-| ep125 | Mission Files | statement, record | 450 | 56% | 109.2% | 159% | 3 | Underperformed on early reach (450 at 28.1h) in the 01:30 slot, but seamless loop and high-tension pacing generated massive 109.19% avg view percentage. |
-| ep175 | Scale Breaker | contradiction, mystery | 1435 | 48% | 84.9% | 134% | 2 | Paradox hook and cosmic-scale subject produced channel-topping early reach (1435 at 25.1h) and strong loop retention (84.93% viewed) despite an afternoon slot. |
-| ep133 | Space Got Weird | statement, scale_ladder | 1208 | 48% | 59.9% | 117% | 3 | Planetary-scale geometry hook captured outstanding reach (1208 at 24.6h), though lower engaged share (48.2%) and 59.88% viewed indicate early drop-off. |
-| ep051 | Mission Files | statement, scale_ladder | 1215 | 69% | 53.6% | 112% | 0 | NASA dollar-figure hook drove exceptional engaged share (68.7%) and early reach (1215 at 28.1h), but trailing beats dropped retention to 53.63%. |
-| ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | 57% | 60.9% | 99% | 0 | High-interest myth-busting hook produced 1220 reach at 25.1h and 57.4% engaged share, though pacing flattened retention to 60.87%. |
-| ep188 | Scale Breaker | contradiction, record | 948 | 50% | 79.9% | 128% | 0 | Iconic visual subject and destruction paradox sustained above-median retention (79.89%) and reach (948 at 27.1h) despite sub-50% engaged share. |
-| ep137 | Near Misses | statement, story | 946 | 54% | 96.9% | 150% | 0 | Delayed survival resolution in a near-miss narrative yielded high 96.87% avg viewed and 1.499 at-10% retention, with steady 946 reach at 24.6h. |
-| ep053 | Space Myths, Busted | statement, story | 1092 | 49% | 57.8% | 113% | 2 | Kinetic high-number hook drove 1092 reach at 28.1h, but lacked a tight loop structure, leaving average viewed at 57.79%. |
-| ep058 | Space Got Weird | statement, myth_vs_fact | 1014 | 52% | 107.3% | 158% | 3 | Visual anomaly hook coupled with a seamless loop achieved outstanding 107.33% avg viewed and above-median reach (1014 at 24.6h). |
-| ep063 | Near Misses | contradiction, mystery | 1010 | 51% | 72.0% | 115% | 4 | Impending cosmic collision hook held 1010 reach at 28.1h and above-median 71.95% retention, though engaged share lagged at 51.4%. |
-| ep184 | Near Misses | statement, myth_vs_fact | 487 | 54% | 66.7% | – | 0 | Historical military cold-open struggled for reach (487 at 25.1h) in the 16:30 slot, though pacing stabilized retention slightly above median (66.74%); at10 unknown. |
-| ep071 | The Universe Is Terrifying | statement, record | 917 | 49% | 92.9% | 143% | 1 | Galactic collision coin-flip hook and tight pacing delivered 92.92% avg viewed and strong reach (917 at 24.5h). |
-| ep072 | Near Misses | statement, record | 711 | 50% | 174.9% | 233% | 1 | Near-miss hazard pacing and flawless loop drove channel-record 174.91% avg view percentage, though 28.1h reach sat near median at 711. |
-| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 57% | 68.6% | 124% | 1 | Camera glare reveal preserved solid 68.63% retention and 57.1% engaged share, but 16:32 slot reach was suppressed at 525 (25.1h). |
-| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 60.9% | 110% | 1 | Urgent timeline myth hook generated massive reach (1167 at 24.5h) in the late slot, holding median-level retention and swipe rates. |
-| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 64.2% | 114% | 1 | Historical debunking narrative generated consistent baseline reach (791 at 28.1h) and near-median 64.24% retention. |
-| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.8% | 116% | 1 | Small asteroid scale limited early reach (519 at 25.1h), despite an above-median 61.4% engaged share from the ring visual premise. |
-| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | Planetary paradox hook delivered 984 reach at 24.6h and balanced near-median engagement across all core metrics. |
-| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.3% | 148% | 2 | Extreme scale paradox paired with a circular ending yielded 101.33% avg viewed and above-median reach (982 at 28.1h). |
-| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.0% | 114% | 3 | Small physical scale (12 miles) in the 16:31 slot constrained early reach to 546 at 25.1h, though planetary impact topic kept retention above median at 69.01%. |
-| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.2% | 112% | 0 | Human-scale lab origin hook underperformed in reach (400 at 27.1h) and retention (59.17%) during the 20:30 slot. |
-| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.1% | 126% | 0 | Body-horror myth hook drove high completion (85.06% viewed) and 1.264 at-10% retention, though early reach lagged at 660 (24.5h). |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.3% | 120% | 4 | Debunking hook on a household-name body drove dominant 1495 reach at 28.1h, with engaged share and completion both above median. |
+| ep118 | Space Got Weird | statement, mystery | 927 | 54% | 69.6% | 118% | 0 | Hook mystery on tiny moon glued together achieved 927 views at 28.1h (above early median) with 69.6% avg viewed slightly beating median. |
+| ep130 | The Universe Is Terrifying | statement, scale_ladder | 823 | 53% | 60.5% | 113% | 2 | Terrifying hazard hook about black hole jet reached 823 views at 24.6h, though average viewed (60.5%) trailed channel median. |
+| ep125 | Mission Files | statement, record | 450 | 56% | 109.2% | 159% | 3 | Cold War rocket topic with seamless looping audio achieved exceptional 109.2% avg viewed and 1.586 at10, despite modest 450 early views at 28.1h. |
+| ep175 | Scale Breaker | contradiction, mystery | 1435 | 48% | 84.9% | 134% | 2 | Cosmic scale paradox hook drove strong early reach of 1,435 views at 25.1h along with high 84.9% average percentage viewed. |
+| ep133 | Space Got Weird | statement, scale_ladder | 1208 | 48% | 59.9% | 117% | 3 | Scale ladder hook on Saturn storm generated 1,208 early views at 24.6h, while avg viewed (59.9%) sat slightly below median. |
+| ep051 | Mission Files | statement, scale_ladder | 1215 | 69% | 53.6% | 112% | 0 | NASA crash hook drove high engaged share (68.7%) and strong early reach (1,215 views at 28.1h), but avg viewed lagged at 53.6%. |
+| ep159 | Space Myths, Busted | statement, scale_ladder | 1220 | 57% | 60.9% | 99% | 0 | Great Wall myth-busting hook achieved 1,220 early views at 25.1h with steady pacing and median retention. |
+| ep188 | Scale Breaker | contradiction, record | 948 | 50% | 79.9% | 128% | 0 | Pillars of Creation destruction concept performed well on retention with 79.9% avg viewed and solid 948 early views at 27.1h. |
+| ep137 | Near Misses | statement, story | 946 | 54% | 96.9% | 150% | 0 | Spacewalk survival narrative sustained strong engagement with 96.8% avg viewed and 1.499 at10, reaching 946 views at 24.6h. |
+| ep053 | Space Myths, Busted | statement, story | 1092 | 49% | 57.8% | 113% | 2 | Space rocks myth hook captured 1,092 early views at 28.1h with moderate retention (57.8% avg viewed). |
+| ep058 | Space Got Weird | statement, myth_vs_fact | 1014 | 52% | 107.3% | 158% | 3 | Galaxy gap mystery hook yielded strong replay value with 107.3% avg viewed and 1,014 early views at 24.6h. |
+| ep063 | Near Misses | contradiction, mystery | 1010 | 51% | 72.0% | 115% | 4 | Collision course star hook held solid early reach of 1,010 views at 28.1h and 72.0% avg viewed. |
+| ep184 | Near Misses | statement, myth_vs_fact | 487 | 54% | 66.7% | 110% | 0 | Human-scale Soviet satellite false alarm story saw lower early reach at 487 views at 25.1h. |
+| ep071 | The Universe Is Terrifying | statement, record | 917 | 49% | 92.9% | 143% | 1 | Galactic crash coin-flip hook generated 92.9% avg viewed and 1.431 at10 with 917 early views at 24.5h. |
+| ep072 | Near Misses | statement, record | 711 | 50% | 174.9% | 233% | 1 | Monster solar storm near-miss delivered exceptional retention (174.9% avg viewed, 2.33 at10) with 711 early views at 28.1h. |
+| ep186 | Scale Breaker | contradiction, myth_vs_fact | 525 | 57% | 68.6% | 124% | 1 | Pale Blue Dot camera glare debunk got 525 early views at 25.1h with above-median retention at 68.6% avg viewed. |
+| ep146 | Space Myths, Busted | contradiction, myth_vs_fact | 1167 | 54% | 60.9% | 110% | 1 | Halley comet myth-buster delivered high early reach of 1,167 views at 24.5h and typical retention. |
+| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 54% | 64.5% | 114% | 1 | Van Allen radiation myth hook pulled 791 early views at 28.1h with median-level avg percentage viewed (64.5%). |
+| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.8% | 116% | 1 | Minor asteroid subject saw weak early reach of 519 views at 25.1h despite above-median engaged share (61.4%). |
+| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | Mercury day/year contradiction hook drove 984 early views at 24.6h with standard retention. |
+| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.3% | 148% | 2 | Shrinking star myth/fact hook achieved 982 early views at 28.1h and excellent loop retention (101.3% avg viewed). |
+| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.0% | 114% | 3 | 12-mile dead star hook resulted in low early reach of 546 views at 25.1h. |
+| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.2% | 112% | 0 | Human-scale lab story hook resulted in low early reach of 400 views at 27.1h. |
+| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.1% | 126% | 0 | Exploding body myth-buster got 660 early views at 24.5h but strong retention (85.1% avg viewed). |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.3% | 119% | 4 | Pluto orbit myth hook achieved channel-leading early reach of 1,495 views at 28.1h with 65.3% avg viewed. |
 | ep174 | Mission Files | statement, story | 260 | 52% | 64.5% | 106% | 1 | published while YouTube held the whole channel back; not evidence |
 | ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 50% | 39.8% | 96% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep210 | Mission Files | contradiction, mystery | 149 | 41% | 41.0% | 98% | 0 | published while YouTube held the whole channel back; not evidence |
 | 4vqKkpkfwyY | ? | –, story | – | 30% | 44.5% | 110% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep177 | Mission Files | statement, story | 127 | 55% | 53.4% | 102% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep216 | Space Myths, Busted | contradiction, record | 90 | 52% | 59.1% | 109% | 0 | published while YouTube held the whole channel back; not evidence |
-| 7lDBiMMlASI | ? | –, story | – | 28% | 86.5% | 142% | 0 | published while YouTube held the whole channel back; not evidence |
+| 7lDBiMMlASI | ? | –, story | – | 27% | 86.5% | 142% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep190 | Mission Files | statement, story | 14 | 50% | 69.0% | – | 0 | published while YouTube held the whole channel back; not evidence |
 | n8iv0-XfRnY | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 | sPUubWIORv4 | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
@@ -97,10 +97,11 @@ contradiction.
 | ep225 | Space Got Weird | contradiction, mystery | 41 | 48% | 56.7% | 113% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep078 | The Universe Is Terrifying | contradiction, scale_ladder | 85 | 42% | 71.8% | 128% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep244 | Space Myths, Busted | statement, record | 51 | 34% | 74.8% | 132% | 0 | published while YouTube held the whole channel back; not evidence |
-| ep254 | Scale Breaker | statement, story | 1061 | 46% | 68.5% | 123% | 2 | published while YouTube held the whole channel back; not evidence |
-| ep258 | Space Myths, Busted | statement, scale_ladder | 394 | 39% | 66.9% | 117% | 1 | published while YouTube held the whole channel back; not evidence |
-| ep260 | Scale Breaker | statement, story | 1414 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
-| ep262 | Mission Files | statement, myth_vs_fact | 931 | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| ep254 | Scale Breaker | statement, story | 1061 | 46% | 67.8% | 123% | 3 | published while YouTube held the whole channel back; not evidence |
+| ep258 | Space Myths, Busted | statement, scale_ladder | 394 | 40% | 71.0% | 118% | 1 | published while YouTube held the whole channel back; not evidence |
+| ep260 | Scale Breaker | statement, story | 1414 | 45% | 86.8% | 129% | 3 | published while YouTube held the whole channel back; not evidence |
+| ep262 | Mission Files | statement, myth_vs_fact | 931 | 48% | 157.4% | 230% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep266 | Space Myths, Busted | contradiction, myth_vs_fact | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 
 ## Log
 
@@ -224,3 +225,4 @@ contradiction.
 - 2026-11-02: Maintained existing 9 proven rules and 8 hypotheses as no new daily short reviews were added today.
 - 2026-11-02: Dropped call-to-action question hypothesis after ep185 registered zero comments despite an 85% average view percentage; preserved top 9 proven rules.
 - 2026-11-02: Recalibrated recent channel medians across the last 10 eligible Shorts and evaluated all 25 episodes without rule promotions due to lack of new diagnoses.
+- 2026-11-03: Maintained proven playbook rules and hypotheses as upload data reinforces high early reach for cosmic scale and myth-busting hooks.
