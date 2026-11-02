@@ -57,6 +57,11 @@ unexplained, not alien.
 | 2026-10-30 | Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet | Scale Breaker | NASA scientists just identified 13 specific craters on Mars where this ancient rock may have originated. |
 | 2026-11-01 | Pioneer 11 (1973): NASA's forgotten interstellar probe is coasting in dead silence toward a star in Aquila that it will not reach for four million years | Scale Breaker | Follow-up to ep260, which broke out (1,268 views in 13 h, 25.4x the median) |
 | 2026-11-01 | Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas | Scale Breaker | Follow-up to ep260, which broke out (1,268 views in 13 h, 25.4x the median) |
+| 2026-11-02 | Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas — making (ep305) | Space Got Weird | Follow-up to ep265, which broke out (1,155 views in 9 h, 25.1x the median) |
+| 2026-11-02 | Moonquake (1969): when Apollo astronauts intentionally crashed a spent lunar module into the surface, seismic detectors revealed the dry, rigid Moon rang like a bell for over an hour | Space Got Weird | Follow-up to ep265, which broke out (1,155 views in 9 h, 25.1x the median) |
+| 2026-11-02 | Moon illusion (1962): the Moon on the horizon isn't magnified by Earth's atmosphere, but is an optical illusion created by the human brain that stays the exact same size in photos | Space Myths, Busted | Follow-up to ep266, which broke out (1,064 views in 12 h, 23.1x the median) |
+| 2026-11-02 | Scintillation (astronomy) (1953): stars don't actually flicker or pulsate in space, as their steady light is distorted entirely by turbulent pockets of air in Earth's atmosphere | Space Myths, Busted | Follow-up to ep266, which broke out (1,064 views in 12 h, 23.1x the median) |
+| 2026-11-02 | Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring | Space Got Weird | Featured on NASA APOD highlighting the volcano's recurring 1,100-mile-long cloud. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -65,6 +70,7 @@ unexplained, not alien.
 | Dec 3 | Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot | Mission Files |
 | Dec 4 | Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball | Mission Files |
 | Dec 15 | Gemini 6A (1965): on Dec 15, NASA pulled off the first crewed spacecraft rendezvous, maneuvering within one foot of another capsule at 17,000 mph | Near Misses |
+| Dec 25 | James Webb Space Telescope (2021): on Christmas Day, NASA launched a $10 billion observatory into deep space to look back to the beginning of time | Mission Files |
 | Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day — parked (ep217) | Mission Files |
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury — done (ep252) | Mission Files |
 | Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar — parked (ep271) | Near Misses |
@@ -148,9 +154,10 @@ unexplained, not alien.
 - Vela Pulsar (1968): a dead star spinning 11 times a second that shoots a violent jet of superheated plasma through space while glitching its spin rate — done (ep226)
 - Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body — parked (ep240)
 - GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye
-- Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — making (ep281)
-- Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe — making (ep294)
+- Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — parked (ep281)
+- Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe — dropped (ep294)
 - Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — parked (ep257)
+- Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — making (ep296)
 
 ### Scale Breaker
 
@@ -175,11 +182,11 @@ unexplained, not alien.
 - Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years — making (ep288)
 - Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night — parked (ep131)
 - Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way — parked (ep138)
-- Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon — parked (ep142)
+- Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon — making (ep304)
 - Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour — making (ep291)
 - Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour — done (ep161)
 - R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely — dropped (ep182)
-- VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip — parked (ep192)
+- VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip — making (ep306)
 - Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space — done (ep198)
 - Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C — done (ep205)
 - Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year — done (ep214)
@@ -214,15 +221,17 @@ unexplained, not alien.
 - Magellan (spacecraft) (1989): mapped 98 percent of Venus's surface with radar before intentionally diving into its crushing atmosphere — done (ep116)
 - Project Orion (nuclear propulsion) (1958): a Cold War plan to launch a massive spaceship using a rapid-fire series of atomic bomb explosions — done (ep125)
 - Giotto (spacecraft) (1986): a probe survived a battering of 150,000 mph comet dust to capture the first close-up images of Halley's nucleus — parked (ep132)
-- Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater — making (ep280)
+- Deep Impact (spacecraft) (2005): NASA intentionally fired an 820-pound copper projectile into a speeding comet at 23,000 mph just to study the blast crater — dropped (ep280)
 - Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms — parked (ep151)
 - Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth — done (ep190)
 - Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies — parked (ep202)
 - 2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years
 - Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth
 - Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands
-- Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — making (ep279)
+- Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — parked (ep279)
 - Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — parked (ep278)
+- James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — making (ep302)
+- Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — making (ep303)
 
 ### Space Got Weird
 
@@ -248,7 +257,7 @@ unexplained, not alien.
 - Saturn's hexagon (1981): a bizarre six-sided jet stream spinning at Saturn's north pole that is wide enough to swallow two whole Earths — done (ep133)
 - Iapetus (moon) (1671): a bizarre world shaped like a walnut, with a 12-mile-high equatorial ridge and one hemisphere ten times darker than the other — making (ep289)
 - WASP-76b (2020): an ultra-hot world where extreme temperatures vaporize iron on the dayside, driving winds that make it rain liquid iron droplets at night — parked (ep183)
-- Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly — making (ep295)
+- Titan (moon) (1655): a freezing world with liquid methane seas and an atmosphere so dense that a human strapped with artificial wings could take off and fly — dropped (ep295)
 - 10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds — done (ep195)
 - 3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids — parked (ep204)
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
@@ -261,6 +270,7 @@ unexplained, not alien.
 - Saturn (2013): extreme pressure in the atmosphere may create diamond rain, where 1,000 tons of diamonds are produced every year — dropped (ep267)
 - Uranus (1781): discoverer William Herschel originally wanted to name the newly found seventh planet after King George III — done (ep268)
 - Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself — parked (ep274)
+- Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness — making (ep298)
 
 ### Near Misses
 
@@ -290,6 +300,8 @@ unexplained, not alien.
 - 2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it
 - Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball
 - International Space Station (2022): astronauts had to fire the station's thrusters to dodge a piece of space junk traveling at 17,500 mph — dropped (ep270)
+- Apollo 11 (1969): a broken switch nearly stranded the astronauts on the Moon forever until Buzz Aldrin jammed a felt-tip pen into the circuit breaker — making (ep297)
+- Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting — making (ep300)
 
 ### Space Myths, Busted
 
@@ -329,3 +341,5 @@ unexplained, not alien.
 - Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look — parked (ep272)
 - Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs — parked (ep275)
 - Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate — parked (ep277)
+- Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — making (ep299)
+- Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning — making (ep301)

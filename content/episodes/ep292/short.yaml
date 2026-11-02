@@ -1,0 +1,213 @@
+id: ep292
+title: The Truth Behind the Face on Mars
+series: Space Myths, Busted
+format: v3
+description: In 1976, Viking 1 captured a spooky face on Mars that captivated believers for decades, until sharper satellite
+  cameras revealed the truth.
+sources:
+- https://en.wikipedia.org/wiki/Cydonia_(Mars)
+- http://www.esa.int/Our_Activities/Space_Science/Mars_Express/Cydonia_-_the_face_on_Mars
+- https://news.bbc.co.uk/2/hi/science/nature/1351319.stm
+- https://www.skyatnightmagazine.com/space-science/face-on-mars
+- http://mars.jpl.nasa.gov/mgs/cydonia2.html
+- https://web.archive.org/web/20120304214615/http://www.planetary.org/news/2007/0317_The_Empire_Strikes_Back_Europes_First.html
+hashtags:
+- '#space'
+- '#mars'
+- '#nasa'
+tags:
+- mars
+- face on mars
+- cydonia
+- viking 1
+- astronomy
+- space myths
+- nasa
+- mars global surveyor
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Low camera resolution created a spooky face on Mars.
+  emphasis:
+  - spooky face
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/38/Martian_face_viking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Martian face viking.jpg
+      credit: Viking 1, NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Martian_face_viking.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.54
+    focus_y: 0.28
+    card:
+      kind: fact
+      big: FACE ON MARS
+      small: Viking 1 image 1976
+- text: A NASA orbiter photographed the shadow while scouting landing sites.
+  emphasis:
+  - scouting landing sites
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Viking_spacecraft.jpg/1280px-Viking_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Viking spacecraft.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Viking_spacecraft.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.4
+- text: Sunlight grazing the eroded mesa made it look like eyes and lips.
+  emphasis:
+  - eroded mesa
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Viking_1_F035A72.png/960px-Viking_1_F035A72.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Viking 1 F035A72.png
+      credit: NASA / JPL / Viking 1 Orbiter
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Viking_1_F035A72.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.28
+    focus_y: 0.15
+- text: Believers claimed it was an alien monument near ruined ancient cities.
+  emphasis:
+  - alien monument
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/070A13.jpg/960px-070A13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 070A13.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:070A13.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Humans were experiencing pareidolia, seeing familiar faces in random terrain.
+  emphasis:
+  - pareidolia
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/4c/Par%C3%A9idolies_pomme_de_terre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Paréidolies pomme de terre.jpg
+      credit: Pierrecolantidot
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Par%C3%A9idolies_pomme_de_terre.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.75
+    focus_y: 0.5
+    box:
+    - 0.58
+    - 0.1
+    - 0.92
+    - 0.9
+    card:
+      kind: fact
+      big: PAREIDOLIA
+      small: seeing faces in terrain
+- text: Decades later, Mars Global Surveyor returned with far sharper cameras.
+  emphasis:
+  - sharper cameras
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Mars_global_surveyor.jpg/1920px-Mars_global_surveyor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars global surveyor.jpg
+      credit: NASA/JPL-Caltech/Corby Waste
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.45
+    focus_y: 0.4
+    card:
+      kind: dateline
+      big: April 1998
+      small: Mars Global Surveyor
+- text: With ten times higher resolution, the face vanished into ordinary rock.
+  emphasis:
+  - vanished
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Mars_face.png/1920px-Mars_face.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars face.png
+      credit: NASA / JPL / Malin Space Science Systems
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_face.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Stereo 3D mapping from Europe confirmed the hill was completely natural.
+  emphasis:
+  - completely natural
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Perspektivische_Ansicht_der_s%C3%BCdwestlich_liegenden_Inselberge_%2816783129571%29.jpeg/3840px-Perspektivische_Ansicht_der_s%C3%BCdwestlich_liegenden_Inselberge_%2816783129571%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Perspektivische Ansicht der südwestlich liegenden Inselberge (16783129571).jpeg
+      credit: DLR_de
+      license: CC BY 3.0 de
+      url: https://commons.wikimedia.org/wiki/File:Perspektivische_Ansicht_der_s%C3%BCdwestlich_liegenden_Inselberge_(16783129571).jpeg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.45
+- text: Blurry shadows tricked the world for over twenty years.
+  emphasis:
+  - tricked the world
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.54
+    focus_y: 0.28
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

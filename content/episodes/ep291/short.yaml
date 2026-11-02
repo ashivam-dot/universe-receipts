@@ -1,0 +1,169 @@
+id: ep291
+title: The Solar Wind Discovery Called Utter Nonsense
+series: Scale Breaker
+format: v3
+description: How astrophysicist Eugene Parker's groundbreaking solar wind theory survived peer review rejection to reshape
+  our understanding of space plasma.
+sources:
+- https://en.wikipedia.org/wiki/Solar_wind
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6390891
+- https://www.nasa.gov/solar-system/parker-solar-probe-and-the-birth-of-the-solar-wind/
+- https://www.ebsco.com/research-starters/astronomy-and-astrophysics/solar-wind
+- https://arxiv.org/abs/2507.13460
+hashtags:
+- '#space'
+- '#nasa'
+- '#sun'
+tags:
+- solar wind
+- Eugene Parker
+- astrophysics
+- Parker Solar Probe
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Reviewers called the solar wind nonsense before it was proven.
+  emphasis:
+  - nonsense
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/1f/Wind_NASA_poster%2C_solar_wind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Wind NASA poster, solar wind.jpg
+      credit: NASA/Goddard Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Wind_NASA_poster,_solar_wind.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: quote
+      big: utter nonsense
+      small: Reviewer reaction
+- text: Astrophysicist Eugene Parker calculated it using just four lines of algebra.
+  emphasis:
+  - four lines of algebra
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Dr._Eugene_PKSC-20180809-PH_KLS02_0003arker_Speaks_to_Media_%2830123740568%29_%28cropped%29.jpg/3840px-Dr._Eugene_PKSC-20180809-PH_KLS02_0003arker_Speaks_to_Media_%2830123740568%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Dr. Eugene PKSC-20180809-PH KLS02 0003arker Speaks to Media (30123740568) (cropped).jpg
+      credit: Kim Shiflett
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Dr._Eugene_PKSC-20180809-PH_KLS02_0003arker_Speaks_to_Media_(30123740568)_(cropped).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.35
+    - 0.2
+    - 0.65
+    - 0.8
+- text: He proved the million-degree solar atmosphere is simply too hot to stay put.
+  emphasis:
+  - million-degree
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/The_total_solar_eclipse_of_21_August_2017_%28eso1822i%29.jpg/3840px-The_total_solar_eclipse_of_21_August_2017_%28eso1822i%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The total solar eclipse of 21 August 2017 (eso1822i).jpg
+      credit: ESO/P. Horálek/Solar Wind Sherpas project
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_total_solar_eclipse_of_21_August_2017_(eso1822i).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Gravity weakens enough to launch a relentless supersonic river of plasma.
+  emphasis:
+  - supersonic river
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Parker_Solar_Probe.jpg/3840px-Parker_Solar_Probe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Parker Solar Probe.jpg
+      credit: NASA/Johns Hopkins APL/Steve Gribben
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Parker_Solar_Probe.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The journal editor bravely overruled the mocking reviewers and published it anyway.
+  emphasis:
+  - overruled
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/The_Astrophysical_journal_%281895%29_%2814597869027%29.jpg/1920px-The_Astrophysical_journal_%281895%29_%2814597869027%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Astrophysical journal (1895) (14597869027).jpg
+      credit: Internet Archive Book Images
+      license: No restrictions
+      url: https://commons.wikimedia.org/wiki/File:The_Astrophysical_journal_(1895)_(14597869027).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Soviet spacecraft Luna 1 directly detected the wind just one year later.
+  emphasis:
+  - Luna 1
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/cc/Luna_1_-_2_Spacecraft.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Luna 1 - 2 Spacecraft.png
+      credit: NASA/NSSDCA (public domain)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Luna_1_-_2_Spacecraft.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: January 1959
+      small: Luna 1 detection
+- text: That dismissed prediction became the supersonic wind shaping our solar system.
+  emphasis:
+  - supersonic wind
+  sfx: whoosh
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: REJECTED PAPER PREDICTED SOLAR WIND
