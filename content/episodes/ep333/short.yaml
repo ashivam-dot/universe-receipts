@@ -1,0 +1,191 @@
+id: ep333
+title: NASA's Real Diamond in the Sky
+series: Mission Files
+format: v3
+description: NASA's Lucy mission is a literal tribute to a Beatles classic, carrying lab-grown diamonds to study asteroid
+  fossils.
+sources:
+- https://en.wikipedia.org/wiki/Lucy_(spacecraft)
+- https://www.latimes.com/world-nation/story/2021-10-16/nasas-asteroid-hunter-lucy-soars-into-sky-with-diamonds
+- https://web.archive.org/web/20211018164132/https://www.space.com/lucy-asteroid-spacecraft-solar-array-glitch
+- http://www.nasa.gov/feature/goddard/2019/lucy-mission-clears-critical-milestone
+- https://web.archive.org/web/20201125180456/https://www.nature.com/news/five-solar-system-sights-nasa-should-visit-1.17119
+- https://web.archive.org/web/20170107052013/http://www.nytimes.com/2017/01/06/science/nasa-psyche-asteroid.html
+hashtags:
+- '#space'
+- '#lucymission'
+- '#asteroids'
+tags:
+- NASA
+- Lucy spacecraft
+- Jupiter
+- Trojan asteroids
+- Beatles
+- fossils
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA sent a real diamond into deep space.
+  emphasis:
+  - real diamond
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Lucy-PatroclusMenoetius-art.png/1280px-Lucy-PatroclusMenoetius-art.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Lucy-PatroclusMenoetius-art.png
+      credit: NASA’s Goddard Space Flight Center/Conceptual Image Lab/Adriana Gutierrez
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Lucy-PatroclusMenoetius-art.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Diamond
+      small: Lab-grown disc
+- text: It's aboard a spacecraft called Lucy, launched in 2021.
+  emphasis:
+  - Lucy
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/NHQ202110160009_-_Lucy_Spacecraft_Launch.jpg/1920px-NHQ202110160009_-_Lucy_Spacecraft_Launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NHQ202110160009 - Lucy Spacecraft Launch.jpg
+      credit: Bill Ingalls
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NHQ202110160009_-_Lucy_Spacecraft_Launch.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '2021'
+      small: Mission launch
+- text: The mission is heading for two massive swarms of ancient asteroids.
+  emphasis:
+  - ancient asteroids
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Illustration_of_Asteroid_Belts_%282021-005%29.tif/lossy-page1-3840px-Illustration_of_Asteroid_Belts_%282021-005%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Illustration of Asteroid Belts (2021-005).tif
+      credit: 'ILLUSTRATION: NASA, ESA, Joseph Olmsted (STScI)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Illustration_of_Asteroid_Belts_(2021-005).tif
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Scientists call these rocks the fossils of our solar system.
+  emphasis:
+  - fossils
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Webb_Detects_Extremely_Small_Main_Belt_Asteroid_%2852672254127%29.jpg/1280px-Webb_Detects_Extremely_Small_Main_Belt_Asteroid_%2852672254127%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Webb Detects Extremely Small Main Belt Asteroid (52672254127).jpg
+      credit: NASA's James Webb Space Telescope from Greenbelt, MD, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Webb_Detects_Extremely_Small_Main_Belt_Asteroid_(52672254127).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This mission is named after the famous human ancestor, Lucy.
+  emphasis:
+  - human ancestor
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Lucy_blackbg.jpg/960px-Lucy_blackbg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Lucy blackbg.jpg
+      credit: '120'
+      license: CC BY 2.5
+      url: https://commons.wikimedia.org/wiki/File:Lucy_blackbg.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That ancestor was named after a song by the Beatles.
+  emphasis:
+  - song by the Beatles
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/The_Beatles_1967.jpg/1280px-The_Beatles_1967.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Beatles 1967.jpg
+      credit: Capitol Records / Henry Grossman
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Beatles_1967.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Now, the ship carries a golden plaque of their lyrics.
+  emphasis:
+  - golden plaque
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Lucy_Plaque.png/3840px-Lucy_Plaque.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Lucy Plaque.png
+      credit: Unknown authorUnknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Lucy_Plaque.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: quote
+      big: Lyrics
+      small: Golden plaque
+- text: This twelve-year journey puts Lucy in the sky with diamonds.
+  emphasis:
+  - sky with diamonds
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 12-YEAR SEARCH FOR FOSSILS

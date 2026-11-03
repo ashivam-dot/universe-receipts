@@ -1,0 +1,193 @@
+id: ep327
+title: The Silent Truth About Crossing a Black Hole
+series: Space Myths, Busted
+format: v3
+description: Contrary to popular myth, crossing the event horizon of a supermassive black hole produces no sudden forces or
+  immediate destruction.
+sources:
+- https://en.wikipedia.org/wiki/Event_horizon
+- https://www.space.com/black-holes-event-horizon-explained.html
+- https://www.ebsco.com/research-starters/astronomy-and-astrophysics/event-horizon
+hashtags:
+- '#space'
+- '#blackhole'
+- '#astronomy'
+tags:
+- black hole
+- event horizon
+- Karl Schwarzschild
+- physics
+- spaghettification
+- astronomy
+- space myths
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: You could fall into a giant black hole without noticing.
+  emphasis:
+  - without noticing
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Black_hole_-_Messier_87_crop_max_res.png/3840px-Black_hole_-_Messier_87_crop_max_res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Black hole - Messier 87 crop max res.png
+      credit: Event Horizon Telescope
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.35
+    - 0.65
+    - 0.65
+- text: Crossing its outer boundary brings no sudden jolts or crushing pressure.
+  emphasis:
+  - no sudden jolts
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Anatomy_of_a_Black_Hole.jpg/3840px-Anatomy_of_a_Black_Hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Anatomy of a Black Hole.jpg
+      credit: European Southern Observatory - ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Anatomy_of_a_Black_Hole.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.6
+    focus_y: 0.45
+- text: That invisible edge is the event horizon, where gravity traps even light.
+  emphasis:
+  - event horizon
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Apjlab0ec7f3_EHT-image-of-M87-black-hole.jpg/960px-Apjlab0ec7f3_EHT-image-of-M87-black-hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apjlab0ec7f3 EHT-image-of-M87-black-hole.jpg
+      credit: The Event Horizon Telescope Collaboration
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Apjlab0ec7f3_EHT-image-of-M87-black-hole.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.35
+    box:
+    - 0.0
+    - 0.05
+    - 1.0
+    - 0.65
+- text: Physicist Karl Schwarzschild first calculated this point of no return in 1916.
+  emphasis:
+  - Karl Schwarzschild
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/48/Schwarzschild.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Schwarzschild.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Schwarzschild.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.48
+    focus_y: 0.38
+    box:
+    - 0.2
+    - 0.1
+    - 0.7
+    - 0.85
+    card:
+      kind: dateline
+      big: '1916'
+      small: Schwarzschild Solves Relativity
+- text: To a distant observer, your infalling body seems to freeze and fade.
+  emphasis:
+  - freeze and fade
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Black_hole_with_thick_accretion_disk_exhibiting_Doppler_effect.png/960px-Black_hole_with_thick_accretion_disk_exhibiting_Doppler_effect.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Black hole with thick accretion disk exhibiting Doppler effect.png
+      credit: Shocksingularity
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Black_hole_with_thick_accretion_disk_exhibiting_Doppler_effect.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But space curvature around a supermassive black hole is remarkably gentle.
+  emphasis:
+  - remarkably gentle
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/5c/Quasistar_Plain_Core.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Quasistar Plain Core.png
+      credit: WhirligigGirl
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Quasistar_Plain_Core.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Crushing tidal forces will not strike until you travel much deeper inside.
+  emphasis:
+  - much deeper inside
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c4/MergingBlackHoles_V2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: MergingBlackHoles V2.jpg
+      credit: NASA/Ames Research Center/C. Henze
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:MergingBlackHoles_V2.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: You would glide right past the boundary, completely unaware of your fate.
+  emphasis:
+  - unaware of your fate
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: CROSSING THE POINT OF NO RETURN

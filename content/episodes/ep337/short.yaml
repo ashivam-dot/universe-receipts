@@ -1,0 +1,185 @@
+id: ep337
+title: The Interplanetary Internet at Mars
+series: Mission Files
+format: v3
+description: Meet 2001 Mars Odyssey, the record-breaking satellite that has acted as the primary communications link for every
+  rover landing for over two decades.
+sources:
+- https://en.wikipedia.org/wiki/2001_Mars_Odyssey
+- https://science.nasa.gov/mission/odyssey/
+- https://www.planetary.org/space-missions/odyssey
+- https://www.space.com/18270-mars-odyssey.html
+- http://www.universetoday.com/81675/the-longest-martian-odyssey-ever
+- https://news.bbc.co.uk/2/hi/science/nature/2009318.stm
+- https://www.latimes.com/local/la-xpm-2012-aug-07-la-sci-mars-seven-minutes-20120807-story.html
+hashtags:
+- '#space'
+- '#nasa'
+- '#mars'
+tags:
+- 2001 Mars Odyssey
+- nasa mission
+- space exploration
+- red planet
+- satellite
+- arthur c clarke
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The oldest machine at Mars isn't a rover.
+  emphasis:
+  - isn't a rover
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Mars_Odyssey_spacecraft_model.png/1280px-Mars_Odyssey_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars Odyssey spacecraft model.png
+      credit: National Aeronautics and Space Administration (NASA)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Odyssey_spacecraft_model.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: 'It''s a satellite named after the film 2001: A Space Odyssey.'
+  emphasis:
+  - Space Odyssey
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/2001_A_Space_Odyssey_title.jpg/960px-2001_A_Space_Odyssey_title.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 2001 A Space Odyssey title.jpg
+      credit: Metro-Goldwyn-Mayer
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:2001_A_Space_Odyssey_title.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: NASA got Arthur C. Clarke's personal blessing for the name.
+  emphasis:
+  - personal blessing
+  visual:
+    source: card
+    card:
+      kind: quote
+      big: enthusiastically endorsed
+      small: Arthur C. Clarke
+    motion: zoom_in
+- text: It arrived in late October by skimming the atmosphere.
+  emphasis:
+  - skimming
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/MRO_Aerobrake.jpg/3840px-MRO_Aerobrake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: MRO Aerobrake.jpg
+      credit: NASA/JPL/Corby Waste
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:MRO_Aerobrake.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Using drag slowed it down and saved millions of dollars.
+  emphasis:
+  - saved millions
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Delta_II_7925_launches_with_2001_Mars_Odyssey_spacecraft_%28KSC-01PP-0742%29.jpg/1280px-Delta_II_7925_launches_with_2001_Mars_Odyssey_spacecraft_%28KSC-01PP-0742%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Delta II 7925 launches with 2001 Mars Odyssey spacecraft (KSC-01PP-0742).jpg
+      credit: NASA/KSC
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Delta_II_7925_launches_with_2001_Mars_Odyssey_spacecraft_(KSC-01PP-0742).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: $297 million
+      small: original mission cost
+- text: The orbiter soon found massive ice fields under the dust.
+  emphasis:
+  - ice fields
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b0/Water_equivalent_hydrogen_abundance_in_the_lower_latitudes_of_Mars_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Water equivalent hydrogen abundance in the lower latitudes of Mars 01.jpg
+      credit: Feldman, W.C., Prettyman, T.H., Maurice, S., et al., Los Alamos National Laboratory/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Water_equivalent_hydrogen_abundance_in_the_lower_latitudes_of_Mars_01.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But its true role is being the interplanetary internet.
+  emphasis:
+  - interplanetary internet
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/da/Mars_Telecommunications_Orbiter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mars Telecommunications Orbiter.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Telecommunications_Orbiter.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It's relayed most of the data from every landing since.
+  emphasis:
+  - most of the data
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 85% of data
+      small: from Spirit and Opportunity
+    motion: zoom_in
+- text: This craft remains the longest-serving explorer at another world.
+  emphasis:
+  - longest-serving
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 23 YEARS AT MARS

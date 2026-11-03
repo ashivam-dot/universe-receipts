@@ -1,0 +1,241 @@
+{
+  "viable": true,
+  "reason": "The sources provide 13 verified claims about 2018 AH, including its size, discovery delay, and comparison to the Tunguska event.",
+  "story": "In January 2018, a skyscraper-sized asteroid named 2018 AH zipped between Earth and the Moon—and we had no idea until it was over. The rock, estimated at up to 190 meters wide, reached its closest point on January 2nd, passing just 297,000 kilometers away. Because it approached from the direction of the Sun, its glare rendered the asteroid invisible to ground-based telescopes. Astronomers at the ATLAS survey in Hawaii finally spotted the object on January 4th, two days after it had already passed. If 2018 AH had struck Earth, the impact would have been catastrophic. Scientists compare it to the 1908 Tunguska event, which unleashed a 12-megaton explosion that flattened 80 million trees in Siberia. It remains one of the largest asteroids to ever come this close without being detected until after the fact.",
+  "angle": "A 190-meter asteroid passed closer to Earth than the Moon, but astronomers didn't even know it existed until two days after its closest approach.",
+  "claims": [
+    {
+      "claim": "The asteroid is named 2018 AH.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The asteroid reached its closest approach to Earth on January 2, 2018.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Astronomers did not discover the asteroid until January 4, 2018.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The asteroid was detected two days after it passed Earth.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "At its closest, the asteroid was approximately 297,000 kilometers from Earth.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The asteroid passed closer to Earth than the Moon.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The asteroid's diameter is estimated to be as large as 190 meters.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The asteroid is categorized as an Apollo-class near-Earth object.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "It was difficult to detect because it approached from the direction of the Sun.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "The asteroid is similar in size to the one that caused the 1908 Tunguska event.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "An impact would have released an estimated 12 megatons of energy.",
+      "sources": [
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "It was the largest known asteroid to pass this close to Earth since at least 2011.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The discovery was made by the ATLAS survey on Mauna Loa.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Diameter estimates vary between 84-190 meters in most sources, but source S4 describes it as school bus size, which the script should ignore as an outlier.",
+    "The historical comparison for the last time a larger asteroid passed this close is listed as 1971 in S1 but 2011 in S5; the script should use 'largest in decades' to avoid contradiction."
+  ],
+  "visuals": [
+    {
+      "subject": "The Washington Monument for scale comparison",
+      "queries": [
+        "Washington Monument",
+        "Washington Monument aerial"
+      ]
+    },
+    {
+      "subject": "Flattened forest from the 1908 Tunguska event",
+      "queries": [
+        "Tunguska 1908 trees",
+        "Tunguska expedition forest"
+      ]
+    },
+    {
+      "subject": "ATLAS telescope facility on Mauna Loa",
+      "queries": [
+        "ATLAS telescope Mauna Loa",
+        "ATLAS Hawaii observatory"
+      ]
+    },
+    {
+      "subject": "Diagram of an Apollo-class asteroid orbit",
+      "queries": [
+        "Apollo asteroid orbit diagram",
+        "Earth crossing asteroid orbit"
+      ]
+    },
+    {
+      "subject": "Artist's concept of a large asteroid near Earth",
+      "queries": [
+        "asteroid near earth illustration",
+        "near earth object artist concept"
+      ]
+    },
+    {
+      "subject": "Visualizing the distance between Earth and Moon",
+      "queries": [
+        "Earth Moon distance scale",
+        "Earth and Moon from space"
+      ]
+    },
+    {
+      "subject": "The Sun's glare hiding an object",
+      "queries": [
+        "Sun photosphere glare",
+        "sun silhouette space"
+      ]
+    },
+    {
+      "subject": "Comparison of asteroid sizes to a football field",
+      "queries": [
+        "American football field aerial"
+      ]
+    },
+    {
+      "subject": "Chelyabinsk meteor trail for scale of smaller impacts",
+      "queries": [
+        "Chelyabinsk meteor trail",
+        "2013 Russian meteor sky"
+      ]
+    },
+    {
+      "subject": "Mushroom cloud to represent 12-megaton force",
+      "queries": [
+        "atomic bomb mushroom cloud",
+        "nuclear explosion test"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/2018_AH",
+      "title": "2018 AH",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/List_of_asteroid_close_approaches_to_Earth_in_2018",
+      "title": "List of asteroid close approaches to Earth in 2018",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://web.archive.org/web/20170205095947/http://neo.jpl.nasa.gov/cgi-bin/neo_ca?type=NEO&hmax=all&sort=date&sdir=DESC&tlim=current&dmax=5LD&max_rows=100&action=Display+Table&show_table=1",
+      "title": "NEO Earth Close-Approaches",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.spacereference.org/asteroid/2018-ah",
+      "title": "2018 AH",
+      "site": "spacereference.org"
+    },
+    {
+      "label": "S5",
+      "url": "https://watchers.news/2018/01/08/asteroid-2018-ah/",
+      "title": "Large asteroid 2018 AH flew past Earth at 0.77 LD, 2 days before discovery",
+      "site": "watchers.news"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.jpost.com/science/large-asteroid-stronger-than-nuke-heading-towards-earth-late-december-687091",
+      "title": "Large asteroid stronger than nuke heading towards Earth late December | The Jerusalem Post",
+      "site": "jpost.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.sciencealert.com/giant-football-field-size-asteroid-surprise-flyby-earth",
+      "title": "NASA Basically Missed a Huge Asteroid That Passed Unnervingly Close to Earth",
+      "site": "sciencealert.com"
+    }
+  ],
+  "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
+  "series": "Near Misses"
+}

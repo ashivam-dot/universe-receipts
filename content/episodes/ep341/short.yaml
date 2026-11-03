@@ -1,0 +1,229 @@
+id: ep341
+title: The Giant Spider Carved by Space
+series: Space Got Weird
+format: v3
+description: Deep in the Australian outback, a bizarre spider-shaped formation reveals the violent history of a cosmic collision.
+sources:
+- https://en.wikipedia.org/wiki/Spider_crater
+- https://science.nasa.gov/earth/earth-observatory/an-impact-structure-with-legs/
+- https://www.natureworldnews.com/articles/73565/20261015/giant-spider-seen-space-western-australia-really-eroded-core-ancient-impact-crater.htm
+- https://dailygalaxy.com/2026/10/nasa-spider-crater-australia-impact/
+hashtags:
+- '#space'
+- '#geology'
+- '#outback'
+tags:
+- Spider crater
+- Kimberley
+- Australia
+- impact crater
+- shatter cones
+- geology
+- space
+- outback
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A giant sandstone spider is frozen in the Australian desert.
+  emphasis:
+  - sandstone spider
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/An_Impact_Structure_With_Legs_%281480026%29.jpg/960px-An_Impact_Structure_With_Legs_%281480026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: An Impact Structure With Legs (1480026).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:An_Impact_Structure_With_Legs_(1480026).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It spans four kilometers and shows up on satellites.
+  emphasis:
+  - four kilometers
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f6/Spider_Western_Australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Spider Western Australia.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Spider_Western_Australia.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 4 Kilometers
+      small: Diameter of central spider
+- text: Geologists once believed this weird formation was a volcano.
+  emphasis:
+  - volcano
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/CSIRO_ScienceImage_1216_Aerial_view_of_Central_Australian_landscape.jpg/1280px-CSIRO_ScienceImage_1216_Aerial_view_of_Central_Australian_landscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: CSIRO ScienceImage 1216 Aerial view of Central Australian landscape.jpg
+      credit: Robert Kerton, CSIRO
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1216_Aerial_view_of_Central_Australian_landscape.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Then researchers in 1977 found fan-shaped fractures in the stone.
+  emphasis:
+  - fan-shaped fractures
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Shatterconed_sandstone_%28Mississagi_Formation%2C_Paleoproterozoic%2C_~2.3-2.4_Ga%3B_Ramsey_Lake_Road_outcrop%2C_Sudbury%2C_Ontario%2C_Canada%29_116_%2846979061094%29.jpg/1920px-Shatterconed_sandstone_%28Mississagi_Formation%2C_Paleoproterozoic%2C_~2.3-2.4_Ga%3B_Ramsey_Lake_Road_outcrop%2C_Sudbury%2C_Ontario%2C_Canada%29_116_%2846979061094%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Shatterconed sandstone (Mississagi Formation, Paleoproterozoic, ~2.3-2.4 Ga; Ramsey Lake Road outcrop, Sudbury,
+        Ontario, Canada) 116 (46979061094).jpg
+      credit: James St. John
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Shatterconed_sandstone_(Mississagi_Formation,_Paleoproterozoic,_~2.3-2.4_Ga;_Ramsey_Lake_Road_outcrop,_Sudbury,_Ontario,_Canada)_116_(46979061094).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '1977'
+      small: Kimberley Region
+- text: These shatter cones only form during a cosmic collision.
+  emphasis:
+  - shatter cones
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Asteroid_falling_to_Earth.jpg/1920px-Asteroid_falling_to_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Asteroid falling to Earth.jpg
+      credit: State Farm
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Asteroid_falling_to_Earth.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Shatter cones
+      small: Shockwave proof
+- text: A meteorite slammed into the outback at a shallow angle.
+  emphasis:
+  - shallow angle
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Bennu_TAG_Surface_Change_%28SVS5010_-_Bennu_TAG_surface_change_print_still_00450%29.tiff/lossless-page1-3840px-Bennu_TAG_Surface_Change_%28SVS5010_-_Bennu_TAG_surface_change_print_still_00450%29.tiff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Bennu TAG Surface Change (SVS5010 - Bennu TAG surface change print still 00450).tiff
+      credit: NASA's Scientific Visualization Studio - USRA/Kel Elkins, KBR Wyle Services, LLC/Dan Gallagher, The University
+        of Arizona/Dante Lauretta, JHUAPL/Olivier Barnouin
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Bennu_TAG_Surface_Change_(SVS5010_-_Bennu_TAG_surface_change_print_still_00450).tiff
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The impact was so violent it made the ground bounce.
+  emphasis:
+  - ground bounce
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/99/Kratertipes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Kratertipes.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Kratertipes.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Bounce
+      small: Central rebound
+- text: That central rebound created the spider's massive body.
+  emphasis:
+  - massive body
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f4/Spider_Western_Australia_oblique.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Spider Western Australia oblique.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Spider_Western_Australia_oblique.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Its legs are shockwaves that survived ages of erosion.
+  emphasis:
+  - shockwaves
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Pogue_Creek_Natural_Area_Cliffs.jpg/1920px-Pogue_Creek_Natural_Area_Cliffs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pogue Creek Natural Area Cliffs.jpg
+      credit: Tyler C.
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Pogue_Creek_Natural_Area_Cliffs.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Only the hardest stone remains of this giant sandstone spider.
+  emphasis:
+  - hardest stone
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 13-KILOMETER COSMIC SCAR

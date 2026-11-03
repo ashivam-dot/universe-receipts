@@ -1,0 +1,196 @@
+id: ep335
+title: The Rosetta Stone of Mars
+series: Scale Breaker
+format: v3
+description: Discover the 4.1-billion-year-old Martian meteorite found in the Sahara that reveals the Red Planet's watery
+  past.
+sources:
+- https://en.wikipedia.org/wiki/Martian_meteorite
+- https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/
+- https://www.scientificamerican.com/article/oldest-known-mars-rock-is-a-rosetta-stone-for-the-red-planets-watery-past/
+- https://www.smithsonianmag.com/smart-news/this-rosy-stone-spotted-in-the-sahara-turned-out-to-be-a-4-1-billion-year-old-meteorite-from-mars-one-of-the-oldest-ever-found-180989786/
+hashtags:
+- '#space'
+- '#mars'
+- '#meteorite'
+tags:
+- Mars
+- meteorite
+- Sahara
+- astronomy
+- space
+- geology
+- NASA
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A rosy rock from the Sahara holds ancient Mars.
+  emphasis:
+  - rosy rock
+  - ancient Mars
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Morocco_-_Marrakech_to_Sahara_%2831308207861%29.jpg/1920px-Morocco_-_Marrakech_to_Sahara_%2831308207861%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Morocco - Marrakech to Sahara (31308207861).jpg
+      credit: Visions of Domino
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Morocco_-_Marrakech_to_Sahara_(31308207861).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Nomadic hunters discovered the eight hundred gram meteorite in Mali.
+  emphasis:
+  - eight hundred gram
+  - Mali
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/MarsMeteorite-NWA7034-716969main_black_beauty_full.jpg/1920px-MarsMeteorite-NWA7034-716969main_black_beauty_full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: MarsMeteorite-NWA7034-716969main black beauty full.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:MarsMeteorite-NWA7034-716969main_black_beauty_full.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 800 grams
+      small: meteorite weight
+- text: Scientists call it a Rosetta Stone for the Red Planet.
+  emphasis:
+  - Rosetta Stone
+  - Red Planet
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b0/2025_Southern_California_fires_and_the_United_States_Forest_Service_%28USFS%29_-_20250114-FS-ANF--30_%2854266916922%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: 2025 Southern California fires and the United States Forest Service (USFS) - 20250114-FS-ANF--30 (54266916922).jpg
+      credit: Pacific Southwest Forest Service, USDA from USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:2025_Southern_California_fires_and_the_United_States_Forest_Service_(USFS)_-_20250114-FS-ANF--30_(54266916922).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: quote
+      big: Rosetta Stone
+      small: for Mars
+- text: The specimen dates back four point one billion years.
+  emphasis:
+  - four point one billion years
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/61/Detrital_zircons_BSE_micrographs_NAI_2014_Annual_Science_Report.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Detrital zircons BSE micrographs NAI 2014 Annual Science Report.jpg
+      credit: Aaron Cavosie, John Valley
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Detrital_zircons_BSE_micrographs_NAI_2014_Annual_Science_Report.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 4.1 billion
+      small: years old
+- text: Inside are zircon crystals from the very first Martian crust.
+  emphasis:
+  - zircon crystals
+  - first Martian crust
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Map_Showing_Potential_Origins_of_Martian_Meteorite_Teghaza_001_%28PIA26802%29.jpg/3840px-Map_Showing_Potential_Origins_of_Martian_Meteorite_Teghaza_001_%28PIA26802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Map Showing Potential Origins of Martian Meteorite Teghaza 001 (PIA26802).jpg
+      credit: NASA/JPL-Caltech/USGS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Map_Showing_Potential_Origins_of_Martian_Meteorite_Teghaza_001_(PIA26802).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Chemical tests prove liquid water altered this igneous rock.
+  emphasis:
+  - liquid water
+  - igneous rock
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Karinkal.jpg/1280px-Karinkal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Karinkal.jpg
+      credit: Rameshng at Malayalam Wikipedia
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Karinkal.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It existed when life was first emerging right here on Earth.
+  emphasis:
+  - life was first emerging
+  - on Earth
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/bc/Tijdtafel_evolutie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Tijdtafel evolutie.jpg
+      credit: Phacelias
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Tijdtafel_evolutie.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Ancient Mars left its rosy mark across the Sahara.
+  emphasis:
+  - rosy mark
+  - across the Sahara
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 4.1 BILLION YEARS OLD

@@ -1,0 +1,192 @@
+id: ep342
+title: The Explosion That Warped Earth's Atmosphere
+series: The Universe Is Terrifying
+format: v3
+description: In 2022, a gamma-ray burst from a collapsing star was so powerful it physically altered our atmosphere from two
+  billion light-years away.
+sources:
+- https://en.wikipedia.org/wiki/GRB_221009A
+- https://web.archive.org/web/20230112211419/https://www.esa.int/ESA_Multimedia/Images/2022/10/ESA_spacecraft_catch_the_brightest_ever_gamma-ray_burst
+- https://noirlab.edu/public/news/noirlab2224/
+- https://www.scientificamerican.com/article/recent-gamma-ray-burst-may-be-the-brightest-ever-seen/
+- https://web.archive.org/web/20221027024145/https://skyandtelescope.org/astronomy-news/brightest-gamma-ray-burst-yet-lit-up-the-sky/
+- https://www.nasa.gov/missions/nustar/brightest-cosmic-explosion-ever-detected-had-other-unique-features-2/
+hashtags:
+- '#space'
+- '#blackhole'
+- '#astronomy'
+tags:
+- grb 221009a
+- gamma ray burst
+- boat
+- nasa
+- space
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A cosmic explosion two billion light-years away warped Earth's atmosphere.
+  emphasis:
+  - warped Earth's atmosphere
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Black_Hole_Desktop_%26_Phone_Wallpapers_%28SVS14146_-_GRB_artist_concept_desktop%29.png/1280px-Black_Hole_Desktop_%26_Phone_Wallpapers_%28SVS14146_-_GRB_artist_concept_desktop%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Black Hole Desktop & Phone Wallpapers (SVS14146 - GRB artist concept desktop).png
+      credit: NASA's Scientific Visualization Studio - KBR Wyle Services, LLC/Scott Wiessinger, University of Maryland College
+        Park/Barb Mattson, University of Maryland College Park/Francis Reddy, University of Mar
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Black_Hole_Desktop_%26_Phone_Wallpapers_(SVS14146_-_GRB_artist_concept_desktop).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 2 BILLION
+      small: LIGHT-YEARS AWAY
+- text: The blast started when a massive star collapsed into a black hole.
+  emphasis:
+  - black hole
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Anatomy_of_a_Black_Hole.jpg/3840px-Anatomy_of_a_Black_Hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Anatomy of a Black Hole.jpg
+      credit: European Southern Observatory - ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Anatomy_of_a_Black_Hole.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It fired a particle jet at nearly light speed toward us.
+  emphasis:
+  - particle jet
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Black_hole_jet_diagram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Black hole jet diagram.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Black_hole_jet_diagram.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Orbiting space telescopes were instantly blinded by the intense radiation.
+  emphasis:
+  - instantly blinded
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Fermi Gamma-ray Space Telescope spacecraft model.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This event was 70 times brighter than any burst ever recorded.
+  emphasis:
+  - 70 times brighter
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 70 TIMES
+      small: BRIGHTER THAN RECORD
+    motion: zoom_in
+- text: The wave physically ionized the top layers of our atmosphere.
+  emphasis:
+  - physically ionized
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Ionosphere_and_its_constituents.jpg/3840px-Ionosphere_and_its_constituents.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ionosphere and its constituents.jpg
+      credit: Space Travel Blog / Rute Marta Jansone
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Ionosphere_and_its_constituents.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It even jammed longwave radio signals on the ground.
+  emphasis:
+  - jammed longwave radio
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/cc/3D_Ionospheric_Ray_Example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: 3D Ionospheric Ray Example.png
+      credit: 'Solterdisp at English Wikipedia
+
+
+        (Original text: C. Oler)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:3D_Ionospheric_Ray_Example.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: RADIO JAMMED
+      small: SURFACE COMMUNICATIONS
+- text: A strike this powerful only happens once every 10,000 years.
+  emphasis:
+  - 10,000 years
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 1 IN 10,000
+      small: YEAR EVENT
+    motion: zoom_in
+- text: Yet we physically felt an explosion two billion light-years away.
+  emphasis:
+  - physically felt
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:mystery
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A ONCE-IN-10,000 YEAR STRIKE

@@ -1,0 +1,187 @@
+id: ep340
+title: The Asteroid We Didn't See Coming
+series: Near Misses
+format: v3
+description: In 2018, a massive asteroid passed closer to Earth than the Moon, but solar glare kept it hidden from telescopes
+  for days.
+sources:
+- https://en.wikipedia.org/wiki/2018_AH
+- https://en.wikipedia.org/wiki/List_of_asteroid_close_approaches_to_Earth_in_2018
+- https://watchers.news/2018/01/08/asteroid-2018-ah/
+- https://www.jpost.com/science/large-asteroid-stronger-than-nuke-heading-towards-earth-late-december-687091
+- https://www.sciencealert.com/giant-football-field-size-asteroid-surprise-flyby-earth
+hashtags:
+- '#space'
+- '#asteroid'
+- '#astronomy'
+tags:
+- 2018 AH
+- asteroid
+- near miss
+- ATLAS survey
+- Tunguska
+- space discovery
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A 190-meter asteroid snuck past Earth closer than the Moon.
+  emphasis:
+  - 190-meter
+  - closer than the Moon
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/DART_%E2%80%94_Earth%27s_first_planetary_defense_mission_%2851708994661%29.jpg/1920px-DART_%E2%80%94_Earth%27s_first_planetary_defense_mission_%2851708994661%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: DART — Earth's first planetary defense mission (51708994661).jpg
+      credit: jurvetson
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:DART_%E2%80%94_Earth%27s_first_planetary_defense_mission_(51708994661).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It zipped by at 297,000 kilometers in 2018.
+  emphasis:
+  - 297,000 kilometers
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Moon_Phase_and_Libration%2C_2026_South_Up_%28SVS5588_-_distance%29.jpg/1280px-Moon_Phase_and_Libration%2C_2026_South_Up_%28SVS5588_-_distance%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Moon Phase and Libration, 2026 South Up (SVS5588 - distance).jpg
+      credit: NASA's Scientific Visualization Studio - USRA/Ernie Wright, NASA/GSFC/Noah Petro, eMITS/James Tralie
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Moon_Phase_and_Libration,_2026_South_Up_(SVS5588_-_distance).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: January 2018
+      small: Earth-Moon System
+- text: But astronomers didn't even know the rock was there.
+  emphasis:
+  - didn't even know
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Rubin_Observatory_at_Night_%28rubin_DSC1138-CC%29.jpg/3840px-Rubin_Observatory_at_Night_%28rubin_DSC1138-CC%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Rubin Observatory at Night (rubin DSC1138-CC).jpg
+      credit: Rubin Observatory/NSF/AURA/ B. Quint
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Rubin_Observatory_at_Night_(rubin_DSC1138-CC).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This giant asteroid approached from the direction of the Sun.
+  emphasis:
+  - direction
+  - Sun
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg/3840px-SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: SDO's Ultra-high Definition View of 2012 Venus Transit -- Path Sequence.jpg
+      credit: NASA/SDO, AIA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Solar glare kept the massive rock invisible until it passed.
+  emphasis:
+  - invisible
+  visual:
+    source: url
+    url: https://live.staticflickr.com/212/450837342_e9325ae389_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: 'Released to Public: Arist''s Concept of the Layers of the Sun (NASA)'
+      credit: pingnews.com
+      license: Public domain
+      url: https://www.flickr.com/photos/39735679@N00/450837342
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Experts finally spotted it two days after its closest approach.
+  emphasis:
+  - two days after
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Two Days Late
+      small: Discovery Date
+    motion: zoom_in
+- text: It matches the 1908 blast that leveled entire forests.
+  emphasis:
+  - leveled entire forests
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Tunguska_Ereignis-1.jpg/3840px-Tunguska_Ereignis-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Tunguska Ereignis-1.jpg
+      credit: Leonid Kulik, the expedition to the Tunguska event
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Tunguska_Ereignis-1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '1908'
+      small: Tunguska, Siberia
+- text: An impact would have unleashed a 12-megaton explosion.
+  emphasis:
+  - 12-megaton explosion
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 12 Megatons
+      small: Estimated Force
+    motion: zoom_in
+- text: We only saw the danger once it safely moved away.
+  emphasis:
+  - safely moved away
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: INVISIBLE UNTIL IT PASSED

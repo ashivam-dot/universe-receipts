@@ -1,0 +1,189 @@
+id: ep331
+title: The Great Comet the World Ignored
+series: The Universe Is Terrifying
+format: v3
+description: Comet West was one of the brightest visitors from the Oort Cloud, but a previous space dud kept it out of the
+  headlines.
+sources:
+- https://en.wikipedia.org/wiki/C/1975_V1_(West)
+- https://www.eso.org/public/images/c-west-1976-ps/
+- https://web.archive.org/web/20120920222133/http://www.universetoday.com/40814/comet-west/
+- https://grokipedia.com/page/c1975_v1_west
+- https://backend.climatecosmos.com/climate-news/50-years-ago-comet-wests-daylight-brilliance-defied-all-expectations/
+- http://cometography.com/lcomets/1975v1.html
+- https://ssd.jpl.nasa.gov/sb/great_comets.html
+hashtags:
+- '#space'
+- '#comet'
+- '#astronomy'
+tags:
+- Comet West
+- '1976'
+- astronomy facts
+- Great Comet
+- Richard West
+- space history
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A giant comet once hid in plain daylight.
+  emphasis:
+  - plain daylight
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/C-west-1976-ps.jpg/3840px-C-west-1976-ps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: C-west-1976-ps.jpg
+      credit: J. Linder/ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:C-west-1976-ps.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.65
+    focus_y: 0.55
+    card:
+      kind: fact
+      big: Full Daylight
+      small: Visible at noon
+- text: It outshone the stars, but the media stayed silent.
+  emphasis:
+  - media stayed silent
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/C-west-mar1976-ps.jpg/1920px-C-west-mar1976-ps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: C-west-mar1976-ps.jpg
+      credit: P. Stättmayer/ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:C-west-mar1976-ps.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.4
+- text: Reporters were still embarrassed by a previous space dud.
+  emphasis:
+  - space dud
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Comet_Kohoutek_%28S74-17688%29.jpg/3840px-Comet_Kohoutek_%28S74-17688%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Comet Kohoutek (S74-17688).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Comet_Kohoutek_(S74-17688).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.35
+    card:
+      kind: dateline
+      big: '1973'
+      small: Comet Kohoutek
+- text: When Richard West spotted this one, newsrooms ignored him.
+  emphasis:
+  - ignored him
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Richard West
+      small: Astronomer
+    motion: zoom_in
+- text: As the icy visitor rounded the Sun, something snapped.
+  emphasis:
+  - something snapped
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/3840px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg
+      credit: NASA/SDO (AIA)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Extreme gravity tore the comet into four distinct pieces.
+  emphasis:
+  - four distinct pieces
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://live.staticflickr.com/65535/50173896798_05debac130_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: Doomed Deep-Space Comet C/2019 Y4 (ATLAS)
+      credit: NASA Hubble
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/144614754@N02/50173896798
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.55
+    focus_y: 0.5
+- text: These shards released a massive fan of glowing dust.
+  emphasis:
+  - fan of glowing dust
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Comet_West_JOCR_mosaic_inverted.jpg/960px-Comet_West_JOCR_mosaic_inverted.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Comet West JOCR mosaic inverted.jpg
+      credit: John C. Brandt
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Comet_West_JOCR_mosaic_inverted.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.35
+    focus_y: 0.6
+- text: It painted a tail across thirty degrees of the sky.
+  emphasis:
+  - thirty degrees
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 30 Degrees
+      small: Across the sky
+    motion: zoom_in
+- text: It was the greatest show that nearly stayed hidden in daylight.
+  emphasis:
+  - hidden in daylight
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.65
+    focus_y: 0.55
+look: bold
+music:
+  path: bed:mystery
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: VISIBLE AT NOON

@@ -1,0 +1,185 @@
+id: ep334
+title: The Beer Brewer Who Discovered Uranus's Moon
+series: Space Got Weird
+format: v3
+description: Discover how English brewer William Lassell built his own telescope inside a factory and found Uranus's moon
+  Ariel.
+sources:
+- https://en.wikipedia.org/wiki/Ariel_(moon)
+- https://science.nasa.gov/uranus/moons/ariel/
+- https://en.wikipedia.org/wiki/William_Lassell
+- https://web.archive.org/web/20120219044538/http://www.planetary.org/blog/article/00001362/
+hashtags:
+- '#space'
+- '#uranus'
+- '#astronomy'
+tags:
+- Ariel moon
+- William Lassell
+- Uranus moons
+- beer brewer
+- Voyager 2
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A beer brewer discovered an icy moon of Uranus.
+  emphasis:
+  - beer brewer
+  - icy moon
+  visual:
+    source: url
+    url: https://www.artic.edu/iiif/2/29ed4a54-868c-a158-f574-cddfdffe809c/full/1686,/0/default.jpg
+    credit:
+      source: Art Institute of Chicago (CC0)
+      title: William Bonham
+      credit: 'William Bonnell
+
+        American, 1804–1865'
+      license: CC0
+      url: https://www.artic.edu/artworks/61139
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.35
+- text: English brewer William Lassell built his own telescope inside a factory.
+  emphasis:
+  - built his own telescope
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Triumphs_and_wonders_of_the_19th_century%2C_the_true_mirror_of_a_phenomenal_era%2C_a_volume_of_original%2C_entertaining_and_instructive_historic_and_descriptive_writings%2C_showing_the_many_and_marvellous_%2814597000187%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Triumphs and wonders of the 19th century, the true mirror of a phenomenal era, a volume of original, entertaining
+        and instructive historic and descriptive writings, showing the many and marvellous (14597000187).jpg
+      credit: Internet Archive Book Images
+      license: No restrictions
+      url: https://commons.wikimedia.org/wiki/File:Triumphs_and_wonders_of_the_19th_century,_the_true_mirror_of_a_phenomenal_era,_a_volume_of_original,_entertaining_and_instructive_historic_and_descriptive_writings,_showing_the_many_and_marvellous_(14597000187).jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: He ground and polished the mirror himself using profits from selling beer.
+  emphasis:
+  - polished the mirror
+  - selling beer
+  visual:
+    reuse: 2
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: He spotted Ariel on October twenty-fourth, eighteen fifty-one.
+  emphasis:
+  - spotted Ariel
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Uranus%27_Satellite_1986_U10_Discovery_Image.jpg/960px-Uranus%27_Satellite_1986_U10_Discovery_Image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Uranus' Satellite 1986 U10 Discovery Image.jpg
+      credit: Voyager 2, NASA,  Erich Karkoschka (U. Arizona)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Uranus%27_Satellite_1986_U10_Discovery_Image.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: October 1851
+      small: Discovery of Ariel
+- text: Astronomer John Herschel later named the moon after literary characters.
+  emphasis:
+  - John Herschel
+  - literary characters
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Sir_John_Herschel_MET_DP295219.jpg/1920px-Sir_John_Herschel_MET_DP295219.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Sir John Herschel MET DP295219.jpg
+      credit: Julia Margaret Cameron
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Sir_John_Herschel_MET_DP295219.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.2
+    - 0.15
+    - 0.8
+    - 0.85
+- text: Voyager 2 flew past and revealed its young, grooved canyons.
+  emphasis:
+  - Voyager 2
+  - grooved canyons
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/29/Voyager_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager spacecraft.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.45
+    focus_y: 0.45
+    card:
+      kind: fact
+      big: '1986'
+      small: Voyager 2 Flyby
+- text: No other spacecraft has ever visited this distant Uranian world.
+  emphasis:
+  - No other spacecraft
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://iiif.wellcomecollection.org/image/V0040860/full/!1920,1920/0/default.jpg
+    credit:
+      source: Wellcome Collection
+      title: A hydrogen balloon flying high above the clouds with the sun shining on it. Coloured wood engraving.
+      credit: Wellcome Collection
+      license: Public domain
+      url: https://wellcomecollection.org/works/yearegzs
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A frosty world was found because a brewer built a telescope.
+  emphasis:
+  - frosty world
+  - brewer built a telescope
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.45
+    focus_y: 0.35
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
