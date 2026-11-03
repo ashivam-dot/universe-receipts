@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-03T05:08:45+05:30",
+  "updated_at": "2026-11-03T11:09:21+05:30",
   "day": 33,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6F9VMH2D53955XK0V63ZSER",
+    "id": "ta-01M6FYESE3VF0AXGKHND6F7TVR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-03T05:05:14+05:30",
-    "started_at_utc": "2026-11-02T23:35:14+00:00",
-    "seconds": 211
+    "started_at": "2026-11-03T11:05:12+05:30",
+    "started_at_utc": "2026-11-03T05:35:12+00:00",
+    "seconds": 248
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "84 posts",
-      "seconds": 1.0
+      "seconds": 1.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 3.3
+      "detail": "added ep263 to 'Space Myths, Busted'; added ep268 to 'Space Got Weird'",
+      "seconds": 4.1
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.5
+      "detail": "ep260 language en/None -> en; ep262 language en/None -> en",
+      "seconds": 1.1
     },
     {
       "name": "on youtube",
@@ -45,200 +45,110 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep258 at 72 h: behind the channel's earlier Shorts at this age: 719 views against a median of 955 (0.8x); learnings: Maintained proven playbook rules and hypotheses as upload data reinforces high early reach for cosmic scale and myth-busting hooks.",
-      "seconds": 94.7
+      "detail": "ep265 at 24 h: ahead of the channel's earlier Shorts at this age: 1379 views against a median of 732 (1.9x); ep266 at 24 h: ahead of the channel's earlier Shorts at this age: 1146 views against a median of 741 (1.5x); learnings: Updated learning log with new batch observations (ep260, ep262, ep266, ep265) demonstrating strong early reach from high-stakes hooks but zero comment engagement due to missing final call-to-action prompts.",
+      "seconds": 143.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep290 unfinished (LookupError: unknown encoding: .utf8); ep291 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep292 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep293 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep296 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep298 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep299 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep300 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep301 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep302 unfinished (RuntimeError:",
-      "seconds": 65.9
+      "detail": "ep296 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep298 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep299 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep300 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep301 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep302 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep303 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep304 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep305 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep306 unfinished (Runtim",
+      "seconds": 58.8
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
-    },
-    {
-      "name": "preflight ep263",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.4
-    },
-    {
-      "name": "preflight ep268",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
-    },
-    {
-      "name": "start ep296",
-      "ok": true,
-      "detail": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep298",
-      "ok": true,
-      "detail": "Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep299",
-      "ok": true,
-      "detail": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep300",
-      "ok": true,
-      "detail": "Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep301",
-      "ok": true,
-      "detail": "Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep302",
-      "ok": true,
-      "detail": "James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep303",
-      "ok": true,
-      "detail": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep304",
-      "ok": true,
-      "detail": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep305",
-      "ok": true,
-      "detail": "Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas",
-      "seconds": 0.3
-    },
-    {
-      "name": "start ep306",
-      "ok": true,
-      "detail": "VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip",
-      "seconds": 0.4
+      "seconds": 2.2
     },
     {
       "name": "start ep307",
       "ok": true,
       "detail": "ASASSN-15lh (2015): a cosmic explosion that shone twenty times brighter than our entire galaxy combined, blasting out more energy than the Sun will in its lifetime",
-      "seconds": 0.4
+      "seconds": 0.6
     },
     {
       "name": "start ep308",
       "ok": true,
       "detail": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "start ep310",
       "ok": true,
       "detail": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "seconds": 0.3
+      "seconds": 0.5
     },
     {
       "name": "start ep311",
       "ok": true,
       "detail": "Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way",
-      "seconds": 0.4
+      "seconds": 0.6
     },
     {
       "name": "start ep312",
       "ok": true,
       "detail": "Giotto (spacecraft) (1986): a probe survived a battering of 150,000 mph comet dust to capture the first close-up images of Halley's nucleus",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "start ep313",
       "ok": true,
       "detail": "Moon illusion (1962): the Moon on the horizon isn't magnified by Earth's atmosphere, but is an optical illusion created by the human brain that stays the exact same size in photos",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "start ep314",
       "ok": true,
       "detail": "Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "start ep315",
       "ok": true,
       "detail": "Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "start ep316",
       "ok": true,
       "detail": "Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "start ep317",
       "ok": true,
       "detail": "Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "start ep320",
       "ok": true,
       "detail": "Scintillation (astronomy) (1953): stars don't actually flicker or pulsate in space, as their steady light is distorted entirely by turbulent pockets of air in Earth's atmosphere",
-      "seconds": 0.4
+      "seconds": 0.6
     },
     {
       "name": "start ep321",
       "ok": true,
       "detail": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
-      "seconds": 0.3
+      "seconds": 0.5
     },
     {
       "name": "start ep322",
       "ok": true,
       "detail": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "start ep323",
       "ok": true,
       "detail": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep324",
-      "ok": true,
-      "detail": "2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep325",
-      "ok": true,
-      "detail": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep326",
-      "ok": true,
-      "detail": "Moonquake (1969): when Apollo astronauts intentionally crashed a spent lunar module into the surface, seismic detectors revealed the dry, rigid Moon rang like a bell for over an hour",
-      "seconds": 0.3
+      "seconds": 0.6
     },
     {
       "name": "publish",
@@ -251,22 +161,15 @@
   "owner_action": [],
   "notes": [],
   "inventory": {
-    "total": 2,
-    "in_buffer": 2,
+    "total": 0,
+    "in_buffer": 0,
     "waiting": 0,
     "target": 14,
-    "making": [],
+    "making": [
+      "ep324",
+      "ep325"
+    ],
     "remote": [
-      "ep296",
-      "ep298",
-      "ep299",
-      "ep300",
-      "ep301",
-      "ep302",
-      "ep303",
-      "ep304",
-      "ep305",
-      "ep306",
       "ep307",
       "ep308",
       "ep310",
@@ -280,58 +183,12 @@
       "ep320",
       "ep321",
       "ep322",
-      "ep323",
-      "ep324",
-      "ep325",
-      "ep326"
+      "ep323"
     ]
   },
-  "queue": [
-    {
-      "id": "ep263",
-      "title": "The Black Hole Vacuum Myth",
-      "due_at": "2026-11-02T19:00:00-05:00"
-    },
-    {
-      "id": "ep268",
-      "title": "The Planet That Almost Became a King",
-      "due_at": "2026-11-02T21:30:00-05:00"
-    }
-  ],
+  "queue": [],
   "waiting": [],
   "made": [
-    {
-      "id": "ep290",
-      "outcome": "unfinished",
-      "topic": "STS-93 (1999): an electrical short and a stray pin nearly forced the space shuttle into a catastrophic emergency ditching in the Atlantic Ocean",
-      "reason": "LookupError: unknown encoding: .utf8",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep291",
-      "outcome": "unfinished",
-      "topic": "Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep292",
-      "outcome": "unfinished",
-      "topic": "Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep293",
-      "outcome": "unfinished",
-      "topic": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
     {
       "id": "ep296",
       "outcome": "unfinished",
@@ -429,12 +286,6 @@
       "overloaded": false
     },
     {
-      "id": "ep309",
-      "outcome": "rejected",
-      "topic": "Pioneer 11 (1973): NASA's forgotten interstellar probe is coasting in dead silence toward a star in Aquila that it will not reach for four million years",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
       "id": "ep310",
       "outcome": "unfinished",
       "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
@@ -499,318 +350,221 @@
       "overloaded": false
     },
     {
-      "id": "ep318",
-      "outcome": "rejected",
-      "topic": "Pioneer anomaly (1980): deep-space probes that mysteriously drifted off course, baffling scientists for decades until thermal radiation provided the answer",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
-      "id": "ep319",
-      "outcome": "rejected",
-      "topic": "V404 Cygni (1989): a black hole system that suddenly wakes up every few decades to shoot relativistic plasma jets",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
       "id": "ep320",
       "outcome": "unfinished",
       "topic": "Scintillation (astronomy) (1953): stars don't actually flicker or pulsate in space, as their steady light is distorted entirely by turbulent pockets of air in Earth's atmosphere",
       "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
       "quota": false,
       "overloaded": false
+    },
+    {
+      "id": "ep321",
+      "outcome": "unfinished",
+      "topic": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep322",
+      "outcome": "unfinished",
+      "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep323",
+      "outcome": "unfinished",
+      "topic": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep324",
+      "outcome": "unfinished",
+      "topic": "2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep325",
+      "outcome": "unfinished",
+      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep326",
+      "outcome": "rejected",
+      "topic": "Moonquake (1969): when Apollo astronauts intentionally crashed a spent lunar module into the surface, seismic detectors revealed the dry, rigid Moon rang like a bell for over an hour",
+      "reason": "research: only 5 claims have two different sites"
     }
   ],
   "spawned": [
     {
-      "id": "ep296",
-      "topic": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
-      "call_id": "fc-01M6FA1WD0V0M2JNYKKJEV87K7"
-    },
-    {
-      "id": "ep298",
-      "topic": "Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness",
-      "call_id": "fc-01M6FA1WS6GEENFKJ164C5CSH5"
-    },
-    {
-      "id": "ep299",
-      "topic": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
-      "call_id": "fc-01M6FA1X4KCG3S7KSS4EKZ6VBW"
-    },
-    {
-      "id": "ep300",
-      "topic": "Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting",
-      "call_id": "fc-01M6FA1XGM07XMQ0YPD0QPFDEJ"
-    },
-    {
-      "id": "ep301",
-      "topic": "Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning",
-      "call_id": "fc-01M6FA1XWAK1HYT2J6VYJW7JHJ"
-    },
-    {
-      "id": "ep302",
-      "topic": "James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388",
-      "call_id": "fc-01M6FA1Y88P70JY2GR25JRZHQS"
-    },
-    {
-      "id": "ep303",
-      "topic": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
-      "call_id": "fc-01M6FA1YJXGZA23EGJFTPQNMVW"
-    },
-    {
-      "id": "ep304",
-      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "call_id": "fc-01M6FA1YYD1TGP1AT743QPB9AA"
-    },
-    {
-      "id": "ep305",
-      "topic": "Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas",
-      "call_id": "fc-01M6FA1Z9BQH8FZF23BC177W1W"
-    },
-    {
-      "id": "ep306",
-      "topic": "VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip",
-      "call_id": "fc-01M6FA1ZQ5M0HCBMX3118D3V7J"
-    },
-    {
       "id": "ep307",
       "topic": "ASASSN-15lh (2015): a cosmic explosion that shone twenty times brighter than our entire galaxy combined, blasting out more energy than the Sun will in its lifetime",
-      "call_id": "fc-01M6FA202THRTHRSVNGEAKD20F"
+      "call_id": "fc-01M6FYP7WJAW50ETQC2DCX5M5M"
     },
     {
       "id": "ep308",
       "topic": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
-      "call_id": "fc-01M6FA20ENAMVQGQH9W67VGSTZ"
+      "call_id": "fc-01M6FYP8D1FQZ30XJ6C6Q8BB38"
     },
     {
       "id": "ep310",
       "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "call_id": "fc-01M6FA20S7QR0M1YPWNYZNYEG3"
+      "call_id": "fc-01M6FYP8Y6YERXZ4DNJCR3SNKK"
     },
     {
       "id": "ep311",
       "topic": "Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way",
-      "call_id": "fc-01M6FA214FBGF326WF5HXTJS8X"
+      "call_id": "fc-01M6FYP9FFTS37W2HNR63DYSSP"
     },
     {
       "id": "ep312",
       "topic": "Giotto (spacecraft) (1986): a probe survived a battering of 150,000 mph comet dust to capture the first close-up images of Halley's nucleus",
-      "call_id": "fc-01M6FA21FA9VMNASXR5VXN621R"
+      "call_id": "fc-01M6FYP9YXTBN0QEFDT8KK4MG6"
     },
     {
       "id": "ep313",
       "topic": "Moon illusion (1962): the Moon on the horizon isn't magnified by Earth's atmosphere, but is an optical illusion created by the human brain that stays the exact same size in photos",
-      "call_id": "fc-01M6FA21TV47GD7SY23FT4Z1DG"
+      "call_id": "fc-01M6FYPADHJT1J120925ZPXDNP"
     },
     {
       "id": "ep314",
       "topic": "Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit",
-      "call_id": "fc-01M6FA226R36ZCP79KMPZTN1VS"
+      "call_id": "fc-01M6FYPAWCEWHH4XG1188R7FR8"
     },
     {
       "id": "ep315",
       "topic": "Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately",
-      "call_id": "fc-01M6FA22HQFC7N595VB73XE1KS"
+      "call_id": "fc-01M6FYPBBW7XN4AKEVAZJM53KZ"
     },
     {
       "id": "ep316",
       "topic": "Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose",
-      "call_id": "fc-01M6FA22X5RQ7V7MYWDHSHGJQS"
+      "call_id": "fc-01M6FYPBVTAR6W04D44F3AY5M7"
     },
     {
       "id": "ep317",
       "topic": "Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night",
-      "call_id": "fc-01M6FA23816HD4QWW0JN811T58"
+      "call_id": "fc-01M6FYPCCDX91GCGY8SBYVXZAA"
     },
     {
       "id": "ep320",
       "topic": "Scintillation (astronomy) (1953): stars don't actually flicker or pulsate in space, as their steady light is distorted entirely by turbulent pockets of air in Earth's atmosphere",
-      "call_id": "fc-01M6FA23NBDMVB7839C7D0S3DR"
+      "call_id": "fc-01M6FYPCYWC4D6DP1ACN1TAV9V"
     },
     {
       "id": "ep321",
       "topic": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
-      "call_id": "fc-01M6FA2401RBMDXVD3RM61PAX0"
+      "call_id": "fc-01M6FYPDFDGS260J68Y9FCSDQ3"
     },
     {
       "id": "ep322",
       "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
-      "call_id": "fc-01M6FA24C1GD1NE2S0B5GXQFX3"
+      "call_id": "fc-01M6FYPDXMG1N91PZEM1ZBJD3G"
     },
     {
       "id": "ep323",
       "topic": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
-      "call_id": "fc-01M6FA24R4BJQAVVQH0SKKMRXE"
-    },
-    {
-      "id": "ep324",
-      "topic": "2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032",
-      "call_id": "fc-01M6FA252ZZ9VM5KQ8TTJETG4V"
-    },
-    {
-      "id": "ep325",
-      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
-      "call_id": "fc-01M6FA25EKFJBG5T7HPZ3HJEBC"
-    },
-    {
-      "id": "ep326",
-      "topic": "Moonquake (1969): when Apollo astronauts intentionally crashed a spent lunar module into the surface, seismic detectors revealed the dry, rigid Moon rang like a bell for over an hour",
-      "call_id": "fc-01M6FA25S7MR5NSAPVJNCQPBN3"
+      "call_id": "fc-01M6FYPEFYB93YNEACQNGDSF6Z"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep296",
-      "topic": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
-      "spawned_at": "2026-11-03T05:08:30+05:30"
-    },
-    {
-      "id": "ep298",
-      "topic": "Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness",
-      "spawned_at": "2026-11-03T05:08:30+05:30"
-    },
-    {
-      "id": "ep299",
-      "topic": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
-      "spawned_at": "2026-11-03T05:08:30+05:30"
-    },
-    {
-      "id": "ep300",
-      "topic": "Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting",
-      "spawned_at": "2026-11-03T05:08:31+05:30"
-    },
-    {
-      "id": "ep301",
-      "topic": "Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning",
-      "spawned_at": "2026-11-03T05:08:31+05:30"
-    },
-    {
-      "id": "ep302",
-      "topic": "James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388",
-      "spawned_at": "2026-11-03T05:08:32+05:30"
-    },
-    {
-      "id": "ep303",
-      "topic": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
-      "spawned_at": "2026-11-03T05:08:32+05:30"
-    },
-    {
-      "id": "ep304",
-      "topic": "Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon",
-      "spawned_at": "2026-11-03T05:08:32+05:30"
-    },
-    {
-      "id": "ep305",
-      "topic": "Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas",
-      "spawned_at": "2026-11-03T05:08:33+05:30"
-    },
-    {
-      "id": "ep306",
-      "topic": "VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip",
-      "spawned_at": "2026-11-03T05:08:33+05:30"
-    },
-    {
       "id": "ep307",
       "topic": "ASASSN-15lh (2015): a cosmic explosion that shone twenty times brighter than our entire galaxy combined, blasting out more energy than the Sun will in its lifetime",
-      "spawned_at": "2026-11-03T05:08:33+05:30"
+      "spawned_at": "2026-11-03T11:09:08+05:30"
     },
     {
       "id": "ep308",
       "topic": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
-      "spawned_at": "2026-11-03T05:08:34+05:30"
+      "spawned_at": "2026-11-03T11:09:09+05:30"
     },
     {
       "id": "ep310",
       "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "spawned_at": "2026-11-03T05:08:34+05:30"
+      "spawned_at": "2026-11-03T11:09:09+05:30"
     },
     {
       "id": "ep311",
       "topic": "Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way",
-      "spawned_at": "2026-11-03T05:08:35+05:30"
+      "spawned_at": "2026-11-03T11:09:10+05:30"
     },
     {
       "id": "ep312",
       "topic": "Giotto (spacecraft) (1986): a probe survived a battering of 150,000 mph comet dust to capture the first close-up images of Halley's nucleus",
-      "spawned_at": "2026-11-03T05:08:35+05:30"
+      "spawned_at": "2026-11-03T11:09:10+05:30"
     },
     {
       "id": "ep313",
       "topic": "Moon illusion (1962): the Moon on the horizon isn't magnified by Earth's atmosphere, but is an optical illusion created by the human brain that stays the exact same size in photos",
-      "spawned_at": "2026-11-03T05:08:35+05:30"
+      "spawned_at": "2026-11-03T11:09:11+05:30"
     },
     {
       "id": "ep314",
       "topic": "Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit",
-      "spawned_at": "2026-11-03T05:08:36+05:30"
+      "spawned_at": "2026-11-03T11:09:11+05:30"
     },
     {
       "id": "ep315",
       "topic": "Space Pen (1965): the famous legend claims NASA spent millions while Soviets used pencils, but pencil graphite was a dangerous fire hazard and the pen was funded privately",
-      "spawned_at": "2026-11-03T05:08:36+05:30"
+      "spawned_at": "2026-11-03T11:09:12+05:30"
     },
     {
       "id": "ep316",
       "topic": "Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose",
-      "spawned_at": "2026-11-03T05:08:36+05:30"
+      "spawned_at": "2026-11-03T11:09:12+05:30"
     },
     {
       "id": "ep317",
       "topic": "Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night",
-      "spawned_at": "2026-11-03T05:08:37+05:30"
+      "spawned_at": "2026-11-03T11:09:13+05:30"
     },
     {
       "id": "ep320",
       "topic": "Scintillation (astronomy) (1953): stars don't actually flicker or pulsate in space, as their steady light is distorted entirely by turbulent pockets of air in Earth's atmosphere",
-      "spawned_at": "2026-11-03T05:08:37+05:30"
+      "spawned_at": "2026-11-03T11:09:14+05:30"
     },
     {
       "id": "ep321",
       "topic": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
-      "spawned_at": "2026-11-03T05:08:37+05:30"
+      "spawned_at": "2026-11-03T11:09:14+05:30"
     },
     {
       "id": "ep322",
       "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
-      "spawned_at": "2026-11-03T05:08:38+05:30"
+      "spawned_at": "2026-11-03T11:09:15+05:30"
     },
     {
       "id": "ep323",
       "topic": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
-      "spawned_at": "2026-11-03T05:08:38+05:30"
-    },
-    {
-      "id": "ep324",
-      "topic": "2024 YR4 (2024): for a few weeks the most threatening asteroid ever measured, with a 3.1 percent chance of hitting Earth in 2032",
-      "spawned_at": "2026-11-03T05:08:39+05:30"
-    },
-    {
-      "id": "ep325",
-      "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
-      "spawned_at": "2026-11-03T05:08:39+05:30"
-    },
-    {
-      "id": "ep326",
-      "topic": "Moonquake (1969): when Apollo astronauts intentionally crashed a spent lunar module into the surface, seismic detectors revealed the dry, rigid Moon rang like a bell for over an hour",
-      "spawned_at": "2026-11-03T05:08:39+05:30"
+      "spawned_at": "2026-11-03T11:09:15+05:30"
     }
   ],
   "published": [],
-  "live": 82,
+  "live": 84,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 60,
+    "calls": 32,
     "by_model": {
-      "gemini-3.6-flash": 2,
-      "gemini-3.5-flash": 1,
-      "gemini-3-flash-preview": 6,
-      "gemini-3.5-flash-lite": 33,
-      "gemini-3.1-flash-lite": 16,
-      "gemini-flash-lite-latest": 1,
-      "ovh:Qwen3.5-397B-A17B": 1
+      "gemini-3.6-flash": 4,
+      "gemini-3.5-flash-lite": 27,
+      "gemini-3.5-flash": 1
     },
     "out_of_quota": [
+      "gemini-3-flash-preview",
+      "gemini-3.5-flash",
       "gemini-3.6-flash",
-      "gemini-3.7-flash"
+      "gemini-3.8-flash",
+      "gemini-flash-latest"
     ]
   },
   "renders": {
@@ -821,18 +575,18 @@
   "minutes_this_month": 0.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 0.97,
+    "metered": 1.11,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 225,
+    "cloud": 224,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 27.03
+    "modal_credit_left": 26.89
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 42,
-  "parked_topics": 46
+  "parked_topics": 54
 }

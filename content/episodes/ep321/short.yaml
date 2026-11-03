@@ -1,0 +1,154 @@
+id: ep321
+title: The Cosmic Bubble We Live In
+series: Scale Breaker
+format: v3
+description: Our entire solar system is drifting through a 1,000-light-year-wide cavity blasted out by ancient supernovas.
+sources:
+- https://www.stsci.edu/contents/news-releases/2022/news-2022-006
+- https://blog.sciandnature.com/2024/01/nasa-discovers-1000-light-year-wide.html
+- https://www.astronomy.com/science/the-1000-light-year-wide-cosmic-bubble-around-earth/
+- https://web.archive.org/web/20131121061128/http://interstellar.jpl.nasa.gov/interstellar/probe/introduction/neighborhood.html
+- https://www.nature.com/articles/s41550-019-0814-z
+- https://en.wikipedia.org/wiki/Local_Bubble
+- https://www.smithsonianmag.com/smart-news/the-solar-system-is-shrouded-by-a-local-bubble-that-birthed-all-the-nearest-stars-180979396/
+hashtags:
+- '#space'
+- '#solarsystem'
+- '#supernova'
+tags:
+- Local Bubble
+- supernova
+- Gaia observatory
+- solar system
+- cosmic void
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Our solar system floats inside a giant cosmic cavity.
+  emphasis:
+  - giant cosmic cavity
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/83/Annotated_Illustration_of_the_Local_Bubble%27s_Star-forming_Regions_%282022-006%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Annotated Illustration of the Local Bubble's Star-forming Regions (2022-006).png
+      credit: 'ILLUSTRATION: CfA, Leah Hustak (STScI)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Annotated_Illustration_of_the_Local_Bubble%27s_Star-forming_Regions_(2022-006).png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.2
+    - 0.1
+    - 0.9
+    - 0.9
+- text: Most people assume space is just empty nothingness between the stars.
+  emphasis:
+  - empty nothingness
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Hubble_observes_the_Large_Magellanic_Cloud%27s_Star-Forming_Region%2C_30_Doradus_%28opo0932f%29.jpg/960px-Hubble_observes_the_Large_Magellanic_Cloud%27s_Star-Forming_Region%2C_30_Doradus_%28opo0932f%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble observes the Large Magellanic Cloud's Star-Forming Region, 30 Doradus (opo0932f).jpg
+      credit: NASA, ESA, and F. Paresce (INAF-IASF, Bologna, Italy), R. O'Connell (University of Virginia, Charlottesville),
+        the Wide Field Camera 3 Science Oversight Committee, and the Hubble Heritage Team (STScI/
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Hubble_observes_the_Large_Magellanic_Cloud%27s_Star-Forming_Region,_30_Doradus_(opo0932f).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The Local Bubble spans an incredible one thousand light-years across.
+  emphasis:
+  - one thousand light-years
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 1,000 LY
+      small: Bubble size
+    motion: zoom_in
+- text: Fifteen ancient supernovas blasted out this million-degree plasma void.
+  emphasis:
+  - fifteen ancient supernovas
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Tycho%27s_Supernova_Remnant-_Exploding_Stars_and_Stripes_%282011-tycho_-_tycho_1024%29.jpg/960px-Tycho%27s_Supernova_Remnant-_Exploding_Stars_and_Stripes_%282011-tycho_-_tycho_1024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Tycho's Supernova Remnant- Exploding Stars and Stripes (2011-tycho - tycho 1024).jpg
+      credit: 'X-ray: NASA/CXC/Rutgers/K.Eriksen et al.; Optical: DSS'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Tycho%27s_Supernova_Remnant-_Exploding_Stars_and_Stripes_(2011-tycho_-_tycho_1024).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: '15'
+      small: Ancient supernovas
+- text: Our sun drifted straight into this expanding bubble five million years ago.
+  emphasis:
+  - five million years ago
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: 5 Million
+      small: Years ago entry
+    motion: zoom_in
+- text: Every nearby young star still sits on the edge of our cavity.
+  emphasis:
+  - young star
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Part_of_the_Taurus_Molecular_Cloud.jpg/1920px-Part_of_the_Taurus_Molecular_Cloud.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Part of the Taurus Molecular Cloud.jpg
+      credit: 'ESO/APEX (MPIfR/ESO/OSO)/A. Hacar et al./Digitized Sky Survey 2. Acknowledgment: Davide De Martin.'
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Part_of_the_Taurus_Molecular_Cloud.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Dying stars literally built the giant cavity our solar system floats inside.
+  emphasis:
+  - giant cavity
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 1,000 LIGHT-YEAR VOID

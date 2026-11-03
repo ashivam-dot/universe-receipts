@@ -1,0 +1,271 @@
+{
+  "viable": true,
+  "reason": "The provided sources contain multiple independent site confirmations for over 10 atomic claims regarding black widow pulsars.",
+  "story": "In the deep reaches of space, dead stars known as millisecond pulsars execute a horrifying cosmic execution. Known as black widows, these hyper-dense neutron stars spin hundreds of times every second, sustained by energy they once stole from a partner star. But once the feeding stops, the vector reverses into destruction. The pulsar unleashes a devastating beam of high-energy particles and radiation, blasting its companion star at point-blank range. On the companion's tidally locked surface, the side facing the cosmic blowtorch heats to thousands of degrees higher than its night side, slowly vaporizing into space. As gas boils away from the doomed star, it creates a thick cloud of plasma that temporarily masks the pulsar's radio signals from Earth. Over millions of years, the black widow systematically strips its mate down to a tiny fraction of its original mass, potentially leaving behind a completely isolated, solitary pulsar.",
+  "angle": "A rapidly spinning dead star blasts its orbiting companion star with a relativistic particle blowtorch, slowly vaporizing it down to nothing.",
+  "claims": [
+    {
+      "claim": "Black widow pulsars are binary systems consisting of a rapidly spinning millisecond pulsar and a low-mass companion star.",
+      "sources": [
+        "S2",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The pulsar slowly destroys and evaporates its companion star with high-energy radiation and particle winds.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The prototypical Black Widow pulsar, PSR B1957+20, was discovered in 1988.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Old neutron stars are spun up into fast millisecond pulsars by siphoning matter from their partner stars.",
+      "sources": [
+        "S3",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Intense pulsar radiation heats the facing side of the companion star, creating an extreme temperature contrast with its cooler night side.",
+      "sources": [
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Gas blown off the companion star creates an ionized plasma cloud that scatters and absorbs the pulsar's radio waves.",
+      "sources": [
+        "S2",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "High-energy gamma rays pass through the evaporated plasma unhindered, allowing detection even when radio signals are blocked.",
+      "sources": [
+        "S2",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA's Fermi Gamma-ray Space Telescope has been instrumental in discovering and identifying spider pulsars.",
+      "sources": [
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The black widow system PSR J1311-3430 features an ultra-tight orbital period of approximately 93 minutes.",
+      "sources": [
+        "S2",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The pulsar PSR J1311-3430 rotates at 390 revolutions per second, which equals over 23,000 revolutions per minute.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Black Widow pulsar PSR B1957+20 has a spin period of approximately 1.6 milliseconds.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "PSR B1957+20 travels through the galaxy at roughly one million kilometers per hour, producing a bow shock.",
+      "sources": [
+        "S1",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Scientists theorize that total evaporation of companion stars by black widow pulsars creates solitary millisecond pulsars.",
+      "sources": [
+        "S4",
+        "S7"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "The black widow pulsar PSR J1653-0158 orbits its companion star every 75 minutes.",
+      "sources": [
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Black widow companion stars are physically smaller and less massive than those found in redback pulsar systems.",
+      "sources": [
+        "S2",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Mass estimate of PSR B1957+20: Optical light curve models estimated the mass up to 2.4 solar masses, whereas Fermi LAT gamma-ray eclipse measurements constrained it to 1.81 ± 0.07 solar masses. Script handling: frame as early optical models suggesting extreme masses until gamma-ray observations established a precise lower value.",
+    "Mass range for PSR J1311-3430: Initial models estimated 2.7 solar masses, but newer observations with Gemini and Keck allow lower values down to 2 solar masses. Script handling: present as a range from 2 to 2.7 solar masses.",
+    "Shortest orbital record: ZTF J1406+1222 has a 62-minute candidate orbit, but PSR J1653-0158 holds the confirmed rotation-powered pulsar record at 75 minutes. Script handling: explicitly state ZTF J1406+1222 as a candidate system."
+  ],
+  "visuals": [
+    {
+      "subject": "PSR B1957+20 bow shock observed by optical telescopes and Chandra X-ray Observatory",
+      "queries": [
+        "PSR B1957+20 bow shock Chandra optical",
+        "Black Widow pulsar bow shock Chandra"
+      ]
+    },
+    {
+      "subject": "Fermi Gamma-ray Space Telescope observing the high-energy universe",
+      "queries": [
+        "Fermi Gamma-ray Space Telescope illustration",
+        "Fermi Space Telescope spacecraft"
+      ]
+    },
+    {
+      "subject": "Artist impression of PSR J1311-3430 black widow pulsar evaporating its companion star",
+      "queries": [
+        "PSR J1311-3430 pulsar artist impression",
+        "Black widow pulsar artist concept NASA"
+      ]
+    },
+    {
+      "subject": "Chandra X-ray Observatory in Earth orbit",
+      "queries": [
+        "Chandra X-ray Observatory diagram",
+        "Chandra X-ray Observatory spacecraft"
+      ]
+    },
+    {
+      "subject": "Zwicky Transient Facility telescope dome at Palomar Observatory",
+      "queries": [
+        "Palomar Observatory Samuel Oschin telescope",
+        "Zwicky Transient Facility Palomar dome"
+      ]
+    },
+    {
+      "subject": "W. M. Keck Observatory twin telescopes atop Mauna Kea",
+      "queries": [
+        "W. M. Keck Observatory twin domes Mauna Kea",
+        "Keck Observatory telescope night sky"
+      ]
+    },
+    {
+      "subject": "Robert C. Byrd Green Bank Telescope in West Virginia",
+      "queries": [
+        "Green Bank Telescope dish West Virginia",
+        "Robert C Byrd Green Bank Telescope"
+      ]
+    },
+    {
+      "subject": "Arecibo Observatory historical radio telescope dish in Puerto Rico",
+      "queries": [
+        "Arecibo Observatory aerial view",
+        "Arecibo Observatory dish primary reflector"
+      ]
+    },
+    {
+      "subject": "Artist impression of a millisecond pulsar beaming radiation in space",
+      "queries": [
+        "Pulsar wind nebula artist impression NASA",
+        "Neutron star magnetic field artist concept"
+      ]
+    },
+    {
+      "subject": "Diagram illustrating Roche lobe deformation in a close binary star system",
+      "queries": [
+        "Roche lobe binary star diagram",
+        "Roche lobe equipotential surfaces diagram"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Black_Widow_pulsar",
+      "title": "Black Widow pulsar",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://svs.gsfc.nasa.gov/11215",
+      "title": "NASA Scientific Visualization Studio | PSR J1311-3430 'Black Widow' Pulsar Animations",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.pma.caltech.edu/news/black-widow-star-devours-its-rapidly-circling-companion",
+      "title": "\"Black Widow\" Star Devours Its Rapidly Circling Companion",
+      "site": "caltech.edu"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.astronomy.com/science/with-a-deadly-embrace-spidery-pulsars-consume-their-mates/",
+      "title": "With a deadly embrace, “spidery” pulsars consume their mates | Astronomy.com",
+      "site": "astronomy.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://chandra.harvard.edu/photo/2003/b1957/",
+      "title": "Chandra :: Photo Album :: B1957+20 :: 27 Feb 03",
+      "site": "harvard.edu"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10119022",
+      "title": "Neutron star mass estimates from gamma-ray eclipses in spider millisecond pulsar binaries",
+      "site": "nih.gov"
+    },
+    {
+      "label": "S7",
+      "url": "https://unseel.com/astronomy/black-widow-pulsar",
+      "title": "The Black Widow Pulsar: A Star Evaporating Its Own Companion — Interactive Explainer",
+      "site": "unseel.com"
+    }
+  ],
+  "topic": "Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing",
+  "series": "The Universe Is Terrifying"
+}

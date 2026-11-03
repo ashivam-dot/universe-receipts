@@ -1,0 +1,162 @@
+id: ep323
+title: The Monster Pulling Our Galaxy
+series: Scale Breaker
+format: v3
+description: Discover the Shapley Supercluster, a colossal concentration of over 8,000 galaxies hauling our Milky Way toward
+  it.
+sources:
+- https://en.wikipedia.org/wiki/Shapley_Supercluster
+- http://www.universetoday.com/113150/what-is-the-great-attractor/
+- https://sci.esa.int/web/planck/-/57952-shapley-supercluster
+- https://heasarc.gsfc.nasa.gov/docs/objects/heapow/archive/large_scale_structure/shapley_erosita.html
+- http://www.atlasoftheuniverse.com/superc/shapley.html
+hashtags:
+- '#space'
+- '#galaxies'
+- '#supercluster'
+tags:
+- Shapley Supercluster
+- Milky Way
+- astronomy
+- galaxies
+- gravity
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Our Milky Way is being hauled toward a cosmic monster.
+  emphasis:
+  - cosmic monster
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Our_Milky_Way_Gets_a_Makeover_%28NASA%29.jpg/1920px-Our_Milky_Way_Gets_a_Makeover_%28NASA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Our Milky Way Gets a Makeover (NASA).jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Our_Milky_Way_Gets_a_Makeover_(NASA).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Most people think the universe expands equally in every direction.
+  emphasis:
+  - expands equally
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e5/Probing_the_cosmic_web_%28opo0820b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Probing the cosmic web (opo0820b).jpg
+      credit: NASA, ESA, and E. Hallman (University of Colorado, Boulder)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Probing_the_cosmic_web_(opo0820b).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: American astronomer Harlow Shapley found a massive cluster hiding there in 1930.
+  emphasis:
+  - Harlow Shapley
+  - '1930'
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/PCA_Quartet_1947.jpg/1280px-PCA_Quartet_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PCA Quartet 1947.jpg
+      credit: AP Wire
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PCA_Quartet_1947.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.6
+    focus_y: 0.35
+    box:
+    - 0.4
+    - 0.1
+    - 0.75
+    - 0.6
+    card:
+      kind: dateline
+      big: '1930'
+      small: Harlow Shapley discovery
+- text: It sits roughly 650 million light-years away in Centaurus.
+  emphasis:
+  - 650 million light-years
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 650 million
+      small: light-years away
+    motion: zoom_in
+- text: This colossal structure packs over 8,000 galaxies together.
+  emphasis:
+  - over 8,000 galaxies
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/More_Galaxies_of_the_Shapley_Supercluster_%2828330672719%29.png/1920px-More_Galaxies_of_the_Shapley_Supercluster_%2828330672719%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: More Galaxies of the Shapley Supercluster (28330672719).png
+      credit: geckzilla
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:More_Galaxies_of_the_Shapley_Supercluster_(28330672719).png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 8,000+
+      small: galaxies packed together
+- text: It holds ten million billion times the mass of the Sun.
+  emphasis:
+  - ten million billion
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Galaxies_in_the_Shapley_Supercluster_-_Flickr_-_geckzilla.png/3840px-Galaxies_in_the_Shapley_Supercluster_-_Flickr_-_geckzilla.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Galaxies in the Shapley Supercluster - Flickr - geckzilla.png
+      credit: Judy Schmidt
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Galaxies_in_the_Shapley_Supercluster_-_Flickr_-_geckzilla.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That immense gravity keeps hauling our Milky Way toward the monster.
+  emphasis:
+  - hauling our Milky Way
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 8,000 GALAXIES PULLING US

@@ -57,8 +57,8 @@ unexplained, not alien.
 | 2026-10-30 | Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet | Scale Breaker | NASA scientists just identified 13 specific craters on Mars where this ancient rock may have originated. |
 | 2026-11-01 | Pioneer 11 (1973): NASA's forgotten interstellar probe is coasting in dead silence toward a star in Aquila that it will not reach for four million years — dropped (ep309) | Scale Breaker | Follow-up to ep260, which broke out (1,268 views in 13 h, 25.4x the median) |
 | 2026-11-01 | Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas — making (ep321) | Scale Breaker | Follow-up to ep260, which broke out (1,268 views in 13 h, 25.4x the median) |
-| 2026-11-02 | Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas — making (ep305) | Space Got Weird | Follow-up to ep265, which broke out (1,155 views in 9 h, 25.1x the median) |
-| 2026-11-02 | Moonquake (1969): when Apollo astronauts intentionally crashed a spent lunar module into the surface, seismic detectors revealed the dry, rigid Moon rang like a bell for over an hour — making (ep326) | Space Got Weird | Follow-up to ep265, which broke out (1,155 views in 9 h, 25.1x the median) |
+| 2026-11-02 | Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas — parked (ep305) | Space Got Weird | Follow-up to ep265, which broke out (1,155 views in 9 h, 25.1x the median) |
+| 2026-11-02 | Moonquake (1969): when Apollo astronauts intentionally crashed a spent lunar module into the surface, seismic detectors revealed the dry, rigid Moon rang like a bell for over an hour — dropped (ep326) | Space Got Weird | Follow-up to ep265, which broke out (1,155 views in 9 h, 25.1x the median) |
 | 2026-11-02 | Moon illusion (1962): the Moon on the horizon isn't magnified by Earth's atmosphere, but is an optical illusion created by the human brain that stays the exact same size in photos — making (ep313) | Space Myths, Busted | Follow-up to ep266, which broke out (1,064 views in 12 h, 23.1x the median) |
 | 2026-11-02 | Scintillation (astronomy) (1953): stars don't actually flicker or pulsate in space, as their steady light is distorted entirely by turbulent pockets of air in Earth's atmosphere — making (ep320) | Space Myths, Busted | Follow-up to ep266, which broke out (1,064 views in 12 h, 23.1x the median) |
 | 2026-11-02 | Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring — making (ep308) | Space Got Weird | Featured on NASA APOD highlighting the volcano's recurring 1,100-mile-long cloud. |
@@ -157,7 +157,7 @@ unexplained, not alien.
 - Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — parked (ep281)
 - Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe — dropped (ep294)
 - Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — parked (ep257)
-- Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — making (ep296)
+- Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — parked (ep296)
 
 ### Scale Breaker
 
@@ -182,11 +182,11 @@ unexplained, not alien.
 - Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years — dropped (ep288)
 - Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night — making (ep317)
 - Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way — parked (ep138)
-- Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon — making (ep304)
+- Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon — dropped (ep304)
 - Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour — dropped (ep291)
 - Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour — done (ep161)
 - R136a1 (2010): the most massive known star is over 200 times heavier than the Sun and shines millions of times brighter, burning so violently it will destroy itself completely — dropped (ep182)
-- VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip — making (ep306)
+- VY Canis Majoris (1801): a red hypergiant star so monstrously vast that a commercial passenger jet flying around its equator would take over 1,100 years to make a single trip — dropped (ep306)
 - Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space — done (ep198)
 - Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C — done (ep205)
 - Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year — done (ep214)
@@ -230,8 +230,8 @@ unexplained, not alien.
 - Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands
 - Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — parked (ep279)
 - Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — parked (ep278)
-- James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — making (ep302)
-- Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — making (ep303)
+- James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — parked (ep302)
+- Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — parked (ep303)
 
 ### Space Got Weird
 
@@ -270,7 +270,7 @@ unexplained, not alien.
 - Saturn (2013): extreme pressure in the atmosphere may create diamond rain, where 1,000 tons of diamonds are produced every year — dropped (ep267)
 - Uranus (1781): discoverer William Herschel originally wanted to name the newly found seventh planet after King George III — done (ep268)
 - Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself — parked (ep274)
-- Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness — making (ep298)
+- Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness — parked (ep298)
 
 ### Near Misses
 
@@ -301,7 +301,7 @@ unexplained, not alien.
 - Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball — making (ep310)
 - International Space Station (2022): astronauts had to fire the station's thrusters to dodge a piece of space junk traveling at 17,500 mph — dropped (ep270)
 - Apollo 11 (1969): a broken switch nearly stranded the astronauts on the Moon forever until Buzz Aldrin jammed a felt-tip pen into the circuit breaker — dropped (ep297)
-- Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting — making (ep300)
+- Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting — parked (ep300)
 
 ### Space Myths, Busted
 
@@ -341,5 +341,5 @@ unexplained, not alien.
 - Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look — parked (ep272)
 - Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs — parked (ep275)
 - Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate — parked (ep277)
-- Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — making (ep299)
-- Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning — making (ep301)
+- Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — parked (ep299)
+- Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning — parked (ep301)

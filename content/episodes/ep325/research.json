@@ -1,0 +1,241 @@
+{
+  "viable": true,
+  "reason": "The sources provide over 10 cross-verified claims confirming the Sun emits white light and appears yellow due to Rayleigh scattering.",
+  "story": "Despite what childhood drawings suggest, the Sun is not yellow—it is pure white. In space, unfiltered sunlight contains every visible color of the rainbow mixed together. Because the Sun's surface temperature sits near 5,800 Kelvin, it emits a complete spectrum of light that human visual receptors process as clean white. The Sun only looks yellow from Earth due to atmospheric physics. When sunlight hits Earth's atmosphere, gas molecules like nitrogen and oxygen trigger Rayleigh scattering. Because this scattering is inversely proportional to the fourth power of wavelength, short blue wavelengths bounce off in every direction, painting the sky blue. With blue light scattered away from the direct beam, the remaining sunlight reaching our eyes shifts toward warmer wavelengths, turning the solar disk yellow. At sunset, sunlight passes through even more atmosphere, scattering away nearly all blue light and leaving brilliant red and orange hues.",
+  "angle": "The Sun is actually pure white; it only looks yellow on Earth because atmospheric molecules scatter away short blue wavelengths.",
+  "claims": [
+    {
+      "claim": "The Sun radiates light across all visible wavelengths, producing combined pure white light.",
+      "sources": [
+        "S1",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "When observed from space without atmospheric interference, the Sun appears as a brilliant white sphere.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The surface temperature of the Sun is approximately 5,700 to 5,800 Kelvin.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Isaac Newton used a glass prism to demonstrate that sunlight splits into a rainbow spectrum of colors.",
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The peak photon emission rate of the Sun actually occurs in the green to blue-green portion of the visible spectrum.",
+      "sources": [
+        "S1",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Human retinas process color vision using three types of cone cells responsive to red, green, and blue light.",
+      "sources": [
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Earth's atmosphere scatters shorter blue light wavelengths away from direct sunlight, making the direct solar disk appear yellow.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The atmospheric deflection of light by particles much smaller than its wavelength is called Rayleigh scattering.",
+      "sources": [
+        "S2",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Rayleigh scattering intensity is inversely proportional to the fourth power of the light's wavelength.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Near sunrise and sunset, sunlight travels through a longer path of atmosphere, scattering out blue light and turning the Sun orange or red.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Astronomers categorize the Sun as a G-type main-sequence star (G2V), historically nicknamed a yellow dwarf.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "John Tyndall demonstrated that light scattering off nanoscopic suspended particles produces a blue tint.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Aerosol particles roughly 500 nanometers across from volcanic eruptions or wildfires can scatter red light, making the Sun appear blue.",
+      "sources": [
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact year of John Tyndall's discovery is reported as 1869 in S2 and 1859 in S4; a script should leave out the exact year.",
+    "The exact effective surface temperature of the Sun varies slightly across sources (5,700 K to 5,800 K); a script should state approximately 5,800 Kelvin or 5,700–5,800 K."
+  ],
+  "visuals": [
+    {
+      "subject": "Sun viewed from space",
+      "queries": [
+        "Sun seen from ISS orbit",
+        "Sun photographed from Apollo spacecraft"
+      ]
+    },
+    {
+      "subject": "Prism splitting sunlight into spectrum",
+      "queries": [
+        "Light refraction through glass prism diagram",
+        "Optics prism spectrum dispersion"
+      ]
+    },
+    {
+      "subject": "Rayleigh scattering mechanism",
+      "queries": [
+        "Rayleigh scattering atmospheric diagram",
+        "Atmospheric scattering light wavelengths vector"
+      ]
+    },
+    {
+      "subject": "Sunset over ocean horizon",
+      "queries": [
+        "Sunset Rayleigh scattering red sun horizon",
+        "Solar disk setting over ocean"
+      ]
+    },
+    {
+      "subject": "Solar Dynamics Observatory view of the Sun",
+      "queries": [
+        "Solar Dynamics Observatory full disk Sun",
+        "SDO solar atmosphere image"
+      ]
+    },
+    {
+      "subject": "Human retina cone cells",
+      "queries": [
+        "Retina photoreceptor cone cells diagram",
+        "Human eye retina cone cells illustration"
+      ]
+    },
+    {
+      "subject": "Blue sky and atmosphere",
+      "queries": [
+        "Clear blue sky Rayleigh scattering",
+        "Atmosphere light scattering daytime sky"
+      ]
+    },
+    {
+      "subject": "John Tyndall portrait",
+      "queries": [
+        "John Tyndall portrait historical photo",
+        "John Tyndall physicist photo"
+      ]
+    },
+    {
+      "subject": "Volcanic aerosol atmospheric scattering",
+      "queries": [
+        "Volcanic aerosol atmosphere scattering illustration",
+        "Volcanic plume atmospheric aerosols"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Sun",
+      "title": "Sun",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Rayleigh_scattering",
+      "title": "Rayleigh scattering",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.nature.com/articles/nature19106",
+      "title": "A terrestrial planet candidate in a temperate orbit around Proxima Centauri - Nature",
+      "site": "nature.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://math.ucr.edu/home/baez/physics/General/BlueSky/blue_sky.html",
+      "title": "Why is the sky blue?",
+      "site": "ucr.edu"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7730476",
+      "title": "Microchemical analysis of Leonardo da Vinci’s lead white paints reveals knowledge and control over pigment scattering properties",
+      "site": "nih.gov"
+    },
+    {
+      "label": "S6",
+      "url": "https://nibble-app.com/blog/is-the-sun-yellow-or-white",
+      "title": "Is the Sun Yellow or White? Why Your Eyes Trick You - Nibble Blog",
+      "site": "nibble-app.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://biologyinsights.com/the-sun-is-white-not-yellow-the-science-explained/",
+      "title": "The Sun Is White, Not Yellow: The Science Explained",
+      "site": "biologyinsights.com"
+    }
+  ],
+  "topic": "Sun (1970): it's actually pure white; Earth's atmosphere scatters blue light to make it look yellow to our eyes",
+  "series": "Space Myths, Busted"
+}
