@@ -35,17 +35,17 @@ beats:
   - shadows
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Tycho%27s_Supernova_Remnant-_Exploding_Stars_and_Stripes_%282011-tycho_-_tycho_1680%29.jpg/1280px-Tycho%27s_Supernova_Remnant-_Exploding_Stars_and_Stripes_%282011-tycho_-_tycho_1680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/X-ray_Images_of_Tycho%27s_Supernova_Remnant_%282011-tycho2-more-3_-_label%29.tiff/lossy-page1-1920px-X-ray_Images_of_Tycho%27s_Supernova_Remnant_%282011-tycho2-more-3_-_label%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Tycho's Supernova Remnant- Exploding Stars and Stripes (2011-tycho - tycho 1680).jpg
-      credit: 'X-ray: NASA/CXC/Rutgers/K.Eriksen et al.; Optical: DSS'
+      title: X-ray Images of Tycho's Supernova Remnant (2011-tycho2-more-3 - label).tiff
+      credit: '(Credit: NASA/CXC/Chinese Academy of Sciences/F. Lu et al)'
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Tycho%27s_Supernova_Remnant-_Exploding_Stars_and_Stripes_(2011-tycho_-_tycho_1680).jpg
+      url: https://commons.wikimedia.org/wiki/File:X-ray_Images_of_Tycho%27s_Supernova_Remnant_(2011-tycho2-more-3_-_label).tiff
     fallbacks:
     - card
     - color
-    motion: pan_right
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
     card:
@@ -161,24 +161,19 @@ beats:
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_%282009-tycho_-_tycho_1680%29.jpg/1280px-Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_%282009-tycho_-_tycho_1680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_%282009-tycho_-_tycho_1280%29.jpg/960px-Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_%282009-tycho_-_tycho_1280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Tycho's Supernova Remnant- A New View of Tycho's Supernova Remnant (2009-tycho - tycho 1680).jpg
+      title: Tycho's Supernova Remnant- A New View of Tycho's Supernova Remnant (2009-tycho - tycho 1280).jpg
       credit: 'X-ray: NASA/CXC/SAO, Infrared: NASA/JPL-Caltech; Optical: MPIA, Calar Alto, O.Krause et al.'
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_(2009-tycho_-_tycho_1680).jpg
+      url: https://commons.wikimedia.org/wiki/File:Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_(2009-tycho_-_tycho_1280).jpg
     fallbacks:
     - card
     - color
-    motion: pan_right
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-    box:
-    - 0.12
-    - 0.08
-    - 0.88
-    - 0.92
     card:
       kind: fact
       big: White Dwarf Core
@@ -189,30 +184,25 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Shakespeare_Droeshout_1623_From_the_First_Folio_Edition.jpg/1920px-Shakespeare_Droeshout_1623_From_the_First_Folio_Edition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/3/36/Shakespeare_Droeshout_1623.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Shakespeare Droeshout 1623 From the First Folio Edition.jpg
+      title: Shakespeare Droeshout 1623.jpg
       credit: Martin Droeshout
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Shakespeare_Droeshout_1623_From_the_First_Folio_Edition.jpg
+      url: https://commons.wikimedia.org/wiki/File:Shakespeare_Droeshout_1623.jpg
     fallbacks:
     - color
     motion: zoom_in
     focus_x: 0.5
-    focus_y: 0.35
-    box:
-    - 0.18
-    - 0.08
-    - 0.82
-    - 0.58
+    focus_y: 0.5
 - text: He saw the same ghost star that cast shadows across the Earth.
   emphasis:
   - ghost star
   sfx: whoosh
   visual:
     reuse: 1
-    motion: zoom_out
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
 look: bold

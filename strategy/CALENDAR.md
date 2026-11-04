@@ -202,7 +202,7 @@ unexplained, not alien.
 - Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity — parked (ep338)
 - Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter — done (ep347)
 - Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way — parked (ep311)
-- CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered — making (ep344)
+- CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered — parked (ep344)
 - Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge — done (ep260)
 - Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth — parked (ep273)
 - Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics

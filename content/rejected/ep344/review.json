@@ -130,7 +130,69 @@
       "better_than_last": "This script provides more specific historical context and named astronomers compared to episode 346.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-04T17:13:08+05:30",
+      "check": {
+        "duration": 29.73,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'huchra' heard as 'hookra' after 'geller and john'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Scale comparison effectively hooks new viewers.",
+        "clarity": "Smooth progression from discovery to cosmic theory.",
+        "payoff": "Dark matter reveal feels more like a lesson than a twist.",
+        "visuals": "Repeating the first frame in beat two stalls momentum.",
+        "loop": "Sentence structure allows for an infinite loop."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Same picture as beat 1"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Huchra",
+          "respelling": "hoo kra"
+        }
+      ],
+      "rewrite": [
+        "Beat 6: Gravity should have taken much longer to build this structure.",
+        "Beat 7: This wall proves dark matter is pulling all the strings."
+      ],
+      "better_than_last": "The scale comparison is more evocative than the Venus episode's hook.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-11-04T17:13:08+05:30"
 }
