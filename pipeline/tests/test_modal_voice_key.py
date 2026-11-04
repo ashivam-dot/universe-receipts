@@ -1,4 +1,8 @@
-from ytc import auto
+from ytc import auto, cloud
+
+
+def test_the_render_worker_that_voices_the_short_gets_the_voice_key():
+    assert "YTC_GEMINI_API_KEY" in cloud.RENDER_ENV
 
 
 def _setup(monkeypatch, key: str | None):

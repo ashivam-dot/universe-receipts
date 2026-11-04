@@ -55,8 +55,10 @@ outbox = modal.Volume.from_name("universe-receipts-outbox", create_if_missing=Tr
 STUDIO_ENV = ("YTC_CURSOR_API_KEY", "YTC_CURSOR_MODEL", "YTC_LLM_FIRST", "YTC_GEMINI_API_KEY", "YTC_MISTRAL_API_KEY",
               "YTC_OPENROUTER_API_KEY", "CLOUDINARY_URL", "YTC_CONTACT")
 studio_secret = modal.Secret.from_dict({k: v for k in STUDIO_ENV if (v := os.environ.get(k))})
-# Image sources throttle downloads that carry no contact details (visuals._user_agent).
-render_secret = modal.Secret.from_dict({k: v for k in ("YTC_CONTACT",) if (v := os.environ.get(k))})
+# Image sources throttle downloads that carry no contact details (visuals._user_agent); the narration is voiced
+# here too (render.make_short -> tts.synthesize), with Gemini's key.
+RENDER_ENV = ("YTC_CONTACT", "YTC_GEMINI_API_KEY")
+render_secret = modal.Secret.from_dict({k: v for k in RENDER_ENV if (v := os.environ.get(k))})
 # Everything a studio run uses, the deploy key it pushes with included; made from the Mac (OWNER-CHECKLIST.md).
 run_secret = modal.Secret.from_name("universe-receipts-studio")
 
