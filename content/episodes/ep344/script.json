@@ -2,39 +2,39 @@
   "hooks": [
     {
       "style": "statement",
-      "text": "A wall of galaxies stretches across the deep sky."
+      "text": "A cosmic wall of galaxies stretches across the sky."
     },
     {
       "style": "contradiction",
-      "text": "Gravity didn't have enough time to build this wall."
+      "text": "Gravity hadn't nearly enough time to build this wall."
     },
     {
       "style": "number",
-      "text": "This structure is 500 million light-years long."
+      "text": "A 500 million light-year structure spans the deep sky."
     }
   ],
   "hook_style": "statement",
   "structure": "scale_ladder",
-  "title": "The Wall Too BIG to Exist",
-  "description": "In 1989, astronomers discovered the CfA2 Great Wall, a structure so massive it challenged the timeline of the universe.",
+  "title": "The Wall That Shouldn't Exist",
+  "description": "In 1989, astronomers discovered the CfA2 Great Wall, a structure so massive it challenged the timeline of our universe.",
   "hashtags": [
     "#space",
     "#astronomy",
-    "#universe"
+    "#cosmology"
   ],
   "tags": [
     "Great Wall",
-    "CfA2 Great Wall",
+    "CfA2",
     "Margaret Geller",
     "John Huchra",
-    "galaxy filament",
-    "dark matter"
+    "dark matter",
+    "galaxies"
   ],
   "beats": [
     {
-      "text": "A wall of galaxies stretches across the deep sky.",
+      "text": "A cosmic wall of galaxies stretches across the sky.",
       "emphasis": [
-        "wall of galaxies"
+        "cosmic wall"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -58,7 +58,7 @@
       }
     },
     {
-      "text": "If our home galaxy were a single pebble, this wall is a mountain.",
+      "text": "If our home galaxy were a pebble, this is a mountain.",
       "emphasis": [
         "mountain"
       ],
@@ -83,13 +83,14 @@
       }
     },
     {
-      "text": "It contains thousands of galaxies, like the massive Coma Cluster.",
+      "text": "It contains thousands of galaxies across 500 million light-years.",
       "emphasis": [
-        "thousands of galaxies"
+        "thousands"
       ],
       "sfx": "none",
-      "pause_after": 0.12,
+      "pause_after": 0.4,
       "claims": [
+        6,
         17
       ],
       "visual": "Hubble Space Telescope image of the Coma Cluster of galaxies",
@@ -102,22 +103,20 @@
         "Abell 1656"
       ],
       "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
+        "kind": "fact",
+        "big": "500 MILLION",
+        "small": "light-years long"
       }
     },
     {
-      "text": "Astronomers Margaret Geller and John Huchra mapped this sheet in 1989.",
+      "text": "Astronomers Margaret Geller and John Huchra mapped this sheet.",
       "emphasis": [
         "Margaret Geller"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1,
-        2,
-        10
+        2
       ],
       "visual": "portrait of astronomer Margaret Geller at the Smithsonian, 1989",
       "subjects": [
@@ -130,41 +129,41 @@
         "John Huchra astronomer"
       ],
       "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "They used a 60-inch telescope in Arizona in 1989.",
+      "emphasis": [
+        "Arizona"
+      ],
+      "sfx": "whoosh",
+      "pause_after": 0.12,
+      "claims": [
+        1,
+        10
+      ],
+      "visual": "60-inch telescope at the Fred Lawrence Whipple Observatory in Arizona",
+      "subjects": [
+        "Fred Lawrence Whipple Observatory"
+      ],
+      "year": 1989,
+      "queries": [
+        "Whipple Observatory 1.5 meter telescope",
+        "Mount Hopkins telescope"
+      ],
+      "card": {
         "kind": "dateline",
         "big": "1989",
         "small": "Whipple Observatory"
       }
     },
     {
-      "text": "The structure is a staggering 500 million light-years long.",
+      "text": "Gravity alone is far too slow to weave together such a massive structure.",
       "emphasis": [
-        "500 million"
-      ],
-      "sfx": "pop",
-      "pause_after": 0.4,
-      "claims": [
-        6,
-        18
-      ],
-      "visual": "CfA Redshift Survey slice of the universe mapping galaxies",
-      "subjects": [
-        "CfA Redshift Survey"
-      ],
-      "year": 1989,
-      "queries": [
-        "CfA Redshift Survey map",
-        "Geller Huchra galaxy map"
-      ],
-      "card": {
-        "kind": "fact",
-        "big": "500 MILLION",
-        "small": "light-years long"
-      }
-    },
-    {
-      "text": "Gravity shouldn't have had enough time to build something this big.",
-      "emphasis": [
-        "enough time"
+        "too slow"
       ],
       "sfx": "riser",
       "pause_after": 0.12,
@@ -187,7 +186,7 @@
       }
     },
     {
-      "text": "Only an invisible web of dark matter makes its scale possible.",
+      "text": "It proves a hidden web of dark matter must be pulling the strings.",
       "emphasis": [
         "dark matter"
       ],
@@ -212,7 +211,7 @@
       }
     },
     {
-      "text": "Our own Milky Way still hides the wall's true end.",
+      "text": "Our own Milky Way still hides where it ends.",
       "emphasis": [
         "Milky Way"
       ],
@@ -239,11 +238,11 @@
       }
     },
     {
-      "text": "A hidden giant remains draped across the entire sky.",
+      "text": "A hidden giant still stretches across the sky.",
       "emphasis": [
         "hidden giant"
       ],
-      "sfx": "none",
+      "sfx": "pop",
       "pause_after": 0.12,
       "claims": [
         5,
@@ -265,7 +264,7 @@
       }
     }
   ],
-  "hook_text": "500 MILLION LIGHT-YEARS",
+  "hook_text": "TOO BIG TO EXIST",
   "loop": true,
-  "better_than_last": "Applied the scale_ladder structure to emphasize the Great Wall's impossible size relative to the age of the universe."
+  "better_than_last": "I integrated the reviewer's exact requested wording for beats 6 and 7 while maintaining strict adherence to scale progression and loop rules."
 }

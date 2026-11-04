@@ -1,0 +1,117 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-04T13:34:36+05:30",
+      "check": {
+        "duration": 26.85,
+        "words": 70,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'a' after 'it is huge'",
+          "'ways' heard as 'way is' after 'huge 100 milky'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The massive scale of 16 million light-years is an effective immediately stopping point.",
+        "clarity": "The comparison to one hundred Milky Ways provides a clear mental model for scale.",
+        "payoff": "The irony of a record-breaking structure having a normal heart is a good subversion.",
+        "visuals": "Several frames rely too heavily on text-dense charts and diagrams rather than immersive space imagery.",
+        "loop": "The transition from the 'ordinary heart' back to the 'colossal galaxy' works well."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "mostly text and graphical data"
+        },
+        {
+          "beat": 3,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 5,
+          "problem": "mostly text and technical labels"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This short utilizes more effective scale comparisons than ep346 by using the Milky Way as a benchmark.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-04T13:36:17+05:30",
+      "check": {
+        "duration": 26.56,
+        "words": 70,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'match it' heard as 'matching' after 'to end barely'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong scale-based opening creates immediate interest.",
+        "clarity": "The narrative follows a logical, easy-to-digest progression.",
+        "payoff": "The twist regarding its 'ordinary' nature feels somewhat underwhelming.",
+        "visuals": "Several frames display the wrong galaxies or mismatched subjects.",
+        "loop": "Seamlessly transitions from the 'heart' back to the 'galaxy'."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Frame shows Radio Galaxy 0313-192 instead of Alcyoneus."
+        },
+        {
+          "beat": 3,
+          "problem": "Frame compares the Milky Way to Bullseye Galaxy, not 100 galaxies."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Scientists were shocked to find the host galaxy is actually totally average.",
+        "Beat 7: This normal heart is what grew this colossal galaxy."
+      ],
+      "better_than_last": "Provides a more relatable sense of scale than the distant star explosion episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

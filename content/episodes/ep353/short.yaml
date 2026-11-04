@@ -1,9 +1,8 @@
 id: ep353
-title: NASA's Giant Balloon Satellite
+title: The Giant Silver Balloon That Heard the Big Bang
 series: Mission Files
 format: v3
-description: Discover how a giant aluminum-coated balloon launched in 1960 enabled the first satellite communications and
-  led to a Nobel Prize.
+description: NASA's first communications satellite was an inflatable mirror that accidentally found the Big Bang.
 sources:
 - https://en.wikipedia.org/wiki/Project_Echo
 - https://web.archive.org/web/20100527211747/http://samadhi.jpl.nasa.gov/msl/QuickLooks/echoQL.html
@@ -14,13 +13,14 @@ sources:
 hashtags:
 - '#space'
 - '#nasa'
-- '#satellites'
+- '#bigbang'
 tags:
 - Project Echo
-- NASA
-- communications satellite
+- satellite
+- NASA history
+- Big Bang
+- communications
 - space history
-- astronomy
 voice:
   engine: gemini
   voice: Zubenelgenubi
@@ -32,47 +32,47 @@ voice:
 beats:
 - text: NASA's first communications satellite was a giant silver balloon.
   emphasis:
-  - giant silver balloon
+  - silver balloon
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/4/40/Echo_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Echo_-_A_Passive_Communications_Satellite_-_GPN-2002-000122.jpg/1280px-Echo_-_A_Passive_Communications_Satellite_-_GPN-2002-000122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Echo II.jpg
+      title: Echo - A Passive Communications Satellite - GPN-2002-000122.jpg
       credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Echo_II.jpg
+      url: https://commons.wikimedia.org/wiki/File:Echo_-_A_Passive_Communications_Satellite_-_GPN-2002-000122.jpg
     fallbacks:
     - card
     - color
-    motion: zoom_out
+    motion: pan_right
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.4
     card:
       kind: fact
       big: 100 FEET
       small: Silver balloon satellite
-- text: It stretched a massive one hundred feet across.
+- text: It stretched a massive one hundred feet across in space.
   emphasis:
   - one hundred feet
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/0/04/Thor_Delta_with_Explorer_10_Mar_25_1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Inflation_Tests_of_the_Echo_1_Satellite_in_Weeksville%2C_N_C_%28LRC-1958-B701_P-03600%29.tiff/lossy-page1-1920px-Inflation_Tests_of_the_Echo_1_Satellite_in_Weeksville%2C_N_C_%28LRC-1958-B701_P-03600%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Thor Delta with Explorer 10 Mar 25 1961.jpg
-      credit: Unknown author
+      title: Inflation Tests of the Echo 1 Satellite in Weeksville, N C (LRC-1958-B701 P-03600).tiff
+      credit: NASA Langley Research Center / NACA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Thor_Delta_with_Explorer_10_Mar_25_1961.jpg
+      url: https://commons.wikimedia.org/wiki/File:Inflation_Tests_of_the_Echo_1_Satellite_in_Weeksville,_N_C_(LRC-1958-B701_P-03600).tiff
     fallbacks:
     - color
     motion: pan_up
     focus_x: 0.5
-    focus_y: 0.4
-- text: Engineers built it from thin Mylar coated with aluminum.
+    focus_y: 0.5
+- text: Engineers built it from thin plastic film coated with aluminum.
   emphasis:
-  - Mylar coated with aluminum
+  - plastic film
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/DRAWING_OF_ALUMINIZED_MYLAR_-_NARA_-_17468019.jpg/3840px-DRAWING_OF_ALUMINIZED_MYLAR_-_NARA_-_17468019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -86,11 +86,10 @@ beats:
     - color
     motion: pan_right
     focus_x: 0.5
-    focus_y: 0.5
-- text: Workers packed the massive sphere into a tiny canister for launch.
+    focus_y: 0.55
+- text: Workers packed the massive sphere into a tiny canister.
   emphasis:
   - tiny canister
-  sfx: whoosh
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Echo_1_payload_mounted_at_top_of_third-stage_Thor-Delta_launch_vehicle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -104,10 +103,15 @@ beats:
     - color
     motion: pan_up
     focus_x: 0.5
-    focus_y: 0.5
-- text: Once in orbit, it inflated into a gleaming mirror in the sky.
+    focus_y: 0.15
+    box:
+    - 0.34
+    - 0.02
+    - 0.66
+    - 0.28
+- text: Once in orbit, it inflated into a gleaming sky mirror.
   emphasis:
-  - gleaming mirror
+  - sky mirror
   sfx: riser
   visual:
     source: url
@@ -121,30 +125,33 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.7
-    focus_y: 0.5
-- text: The bright orb bounced the very first satellite phone calls across Earth.
+    focus_x: 0.68
+    focus_y: 0.46
+    box:
+    - 0.54
+    - 0.22
+    - 0.85
+    - 0.72
+- text: This mirror bounced the first satellite phone calls across Earth.
   emphasis:
-  - satellite phone calls
-  sfx: pop
-  pause_after: 0.4
+  - phone calls
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Goldstone_DSN_antenna.jpg/1280px-Goldstone_DSN_antenna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/0/0d/PioneerDeepSpaceStation2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Goldstone DSN antenna.jpg
-      credit: Unknown author
+      title: PioneerDeepSpaceStation2.jpg
+      credit: unknown NASA employee
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Goldstone_DSN_antenna.jpg
+      url: https://commons.wikimedia.org/wiki/File:PioneerDeepSpaceStation2.jpg
     fallbacks:
     - color
-    motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Even wilder, its tracking antenna accidentally discovered the echoes of the Big Bang.
+    motion: zoom_in
+    focus_x: 0.45
+    focus_y: 0.35
+- text: But its tracking antenna also accidentally heard the Big Bang.
   emphasis:
-  - echoes of the Big Bang
+  - Big Bang
   sfx: pop
   pause_after: 0.4
   visual:
@@ -166,15 +173,15 @@ beats:
       kind: fact
       big: NOBEL PRIZE
       small: Big Bang echo discovery
-- text: It all started as a giant silver balloon.
+- text: And to think, it all started as a giant silver balloon.
   emphasis:
-  - giant silver balloon
+  - silver balloon
   sfx: whoosh
   visual:
     reuse: 1
-    motion: zoom_in
+    motion: zoom_out
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.4
 look: bold
 music:
   path: bed:chase

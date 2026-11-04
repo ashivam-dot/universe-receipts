@@ -1,8 +1,8 @@
 id: ep344
-title: The Wall Too BIG to Exist
+title: The Wall That Shouldn't Exist
 series: Scale Breaker
 format: v3
-description: In 1989, astronomers discovered the CfA2 Great Wall, a structure so massive it challenged the timeline of the
+description: In 1989, astronomers discovered the CfA2 Great Wall, a structure so massive it challenged the timeline of our
   universe.
 sources:
 - https://en.wikipedia.org/wiki/CfA2_Great_Wall
@@ -13,14 +13,14 @@ sources:
 hashtags:
 - '#space'
 - '#astronomy'
-- '#universe'
+- '#cosmology'
 tags:
 - Great Wall
-- CfA2 Great Wall
+- CfA2
 - Margaret Geller
 - John Huchra
-- galaxy filament
 - dark matter
+- galaxies
 voice:
   engine: gemini
   voice: Zubenelgenubi
@@ -30,27 +30,9 @@ voice:
   direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
     and playful, natural rises and falls, never an announcer or documentary voice
 beats:
-- text: A wall of galaxies stretches across the deep sky.
+- text: A cosmic wall of galaxies stretches across the sky.
   emphasis:
-  - wall of galaxies
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Large-scale_structure_of_light_distribution_in_the_universe.jpg/3840px-Large-scale_structure_of_light_distribution_in_the_universe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Large-scale structure of light distribution in the universe.jpg
-      credit: Andrew Pontzen and Fabio Governato
-      license: CC BY 2.0
-      url: https://commons.wikimedia.org/wiki/File:Large-scale_structure_of_light_distribution_in_the_universe.jpg
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: If our home galaxy were a single pebble, this wall is a mountain.
-  emphasis:
-  - mountain
-  sfx: whoosh
+  - cosmic wall
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Simulation_of_large_scale_structure_%28eso1438b%29.jpg/3840px-Simulation_of_large_scale_structure_%28eso1438b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -62,12 +44,31 @@ beats:
       url: https://commons.wikimedia.org/wiki/File:Simulation_of_large_scale_structure_(eso1438b).jpg
     fallbacks:
     - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: If our home galaxy were a pebble, this is a mountain.
+  emphasis:
+  - mountain
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Simulation_of_large_scale_structure_%28eso1438b%29.tiff/lossy-page1-3840px-Simulation_of_large_scale_structure_%28eso1438b%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Simulation of large scale structure (eso1438b).tiff
+      credit: Illustris Collaboration
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Simulation_of_large_scale_structure_(eso1438b).tiff
+    fallbacks:
+    - color
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-- text: It contains thousands of galaxies, like the massive Coma Cluster.
+- text: It contains thousands of galaxies across 500 million light-years.
   emphasis:
-  - thousands of galaxies
+  - thousands
+  pause_after: 0.4
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Coma_Cluster_Full_Mosaic_%282018-44-4268%29.tif/lossy-page1-3840px-Coma_Cluster_Full_Mosaic_%282018-44-4268%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -78,37 +79,6 @@ beats:
       license: Public domain
       url: https://commons.wikimedia.org/wiki/File:Coma_Cluster_Full_Mosaic_(2018-44-4268).tif
     fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Astronomers Margaret Geller and John Huchra mapped this sheet in 1989.
-  emphasis:
-  - Margaret Geller
-  visual:
-    source: card
-    card:
-      kind: dateline
-      big: '1989'
-      small: Whipple Observatory
-    motion: zoom_in
-- text: The structure is a staggering 500 million light-years long.
-  emphasis:
-  - 500 million
-  sfx: pop
-  pause_after: 0.4
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/2MASS_LSS_chart-NEW_Nasa_rus.jpg/960px-2MASS_LSS_chart-NEW_Nasa_rus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: 2MASS LSS chart-NEW Nasa rus.jpg
-      credit: '2MASS_LSS_chart-NEW_Nasa.jpg: IPAC/Caltech, by Thomas Jarrett
-
-        derivative work: antropia (talk)'
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:2MASS_LSS_chart-NEW_Nasa_rus.jpg
-    fallbacks:
     - card
     - color
     motion: pan_right
@@ -118,9 +88,37 @@ beats:
       kind: fact
       big: 500 MILLION
       small: light-years long
-- text: Gravity shouldn't have had enough time to build something this big.
+- text: Astronomers Margaret Geller and John Huchra mapped this sheet.
   emphasis:
-  - enough time
+  - Margaret Geller
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Large-scale_structure_of_light_distribution_in_the_universe.jpg/3840px-Large-scale_structure_of_light_distribution_in_the_universe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Large-scale structure of light distribution in the universe.jpg
+      credit: Andrew Pontzen and Fabio Governato
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Large-scale_structure_of_light_distribution_in_the_universe.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.4
+- text: They used a 60-inch telescope in Arizona in 1989.
+  emphasis:
+  - Arizona
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: '1989'
+      small: Whipple Observatory
+    motion: zoom_in
+- text: Gravity alone is far too slow to weave together such a massive structure.
+  emphasis:
+  - too slow
   sfx: riser
   visual:
     source: url
@@ -136,26 +134,26 @@ beats:
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: Only an invisible web of dark matter makes its scale possible.
+- text: It proves a hidden web of dark matter must be pulling the strings.
   emphasis:
   - dark matter
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Probing_the_cosmic_web_%28opo0820b%29.tiff/lossy-page1-1920px-Probing_the_cosmic_web_%28opo0820b%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Cosmic_Web_and_Slime_Mold_%282020-11-4635%29.tif/lossy-page1-1920px-Cosmic_Web_and_Slime_Mold_%282020-11-4635%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Probing the cosmic web (opo0820b).tiff
-      credit: NASA, ESA, and E. Hallman (University of Colorado, Boulder)
+      title: Cosmic Web and Slime Mold (2020-11-4635).tif
+      credit: ', , and J. Burchett and O. Elek (UC Santa Cruz)'
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Probing_the_cosmic_web_(opo0820b).tiff
+      url: https://commons.wikimedia.org/wiki/File:Cosmic_Web_and_Slime_Mold_(2020-11-4635).tif
     fallbacks:
     - color
-    motion: zoom_out
+    motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: Our own Milky Way still hides the wall's true end.
+- text: Our own Milky Way still hides where it ends.
   emphasis:
   - Milky Way
   sfx: whoosh
@@ -172,13 +170,14 @@ beats:
     - color
     motion: pan_left
     focus_x: 0.5
-    focus_y: 0.5
-- text: A hidden giant remains draped across the entire sky.
+    focus_y: 0.4
+- text: A hidden giant still stretches across the sky.
   emphasis:
   - hidden giant
+  sfx: pop
   visual:
     reuse: 1
-    motion: zoom_out
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
 look: bold
@@ -188,4 +187,4 @@ music:
   fade_out: 1.0
 captions:
   hook_size: 150
-hook_text: 500 MILLION LIGHT-YEARS
+hook_text: TOO BIG TO EXIST

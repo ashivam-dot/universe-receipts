@@ -20,6 +20,7 @@ tags:
 - supernova
 - light echo
 - Shakespeare
+- astronomy
 voice:
   engine: gemini
   voice: Zubenelgenubi
@@ -74,23 +75,18 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/7/7d/Illustration_Explaining_the_Arc_in_Tycho_%282011-tycho2-more-1_-_labeled%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Tycho-supernova-xray.jpg/1920px-Tycho-supernova-xray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Illustration Explaining the Arc in Tycho (2011-tycho2-more-1 - labeled).jpg
-      credit: '(Credit: NASA/CXC/M.Weiss)'
+      title: Tycho-supernova-xray.jpg
+      credit: NASA/CXC/Rutgers/J.Warren & J.Hughes et al.
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Illustration_Explaining_the_Arc_in_Tycho_(2011-tycho2-more-1_-_labeled).jpg
+      url: https://commons.wikimedia.org/wiki/File:Tycho-supernova-xray.jpg
     fallbacks:
     - color
-    motion: pan_right
-    focus_x: 0.78
-    focus_y: 0.2
-    box:
-    - 0.65
-    - 0.1
-    - 0.9
-    - 0.3
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
 - text: Astronomer Tycho Brahe proved it sat far beyond our Moon.
   emphasis:
   - far beyond our Moon
@@ -158,31 +154,36 @@ beats:
       big: '2008'
       small: catching light echoes
     motion: zoom_in
-- text: This light echo proved a white dwarf star had completely exploded.
+- text: This light echo proved a white dwarf—a dead star's core—had exploded.
   emphasis:
-  - white dwarf star
+  - white dwarf
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_%282009-tycho_-_tycho_1280%29.jpg/960px-Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_%282009-tycho_-_tycho_1280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_%282009-tycho_-_tycho_1680%29.jpg/1280px-Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_%282009-tycho_-_tycho_1680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Tycho's Supernova Remnant- A New View of Tycho's Supernova Remnant (2009-tycho - tycho 1280).jpg
+      title: Tycho's Supernova Remnant- A New View of Tycho's Supernova Remnant (2009-tycho - tycho 1680).jpg
       credit: 'X-ray: NASA/CXC/SAO, Infrared: NASA/JPL-Caltech; Optical: MPIA, Calar Alto, O.Krause et al.'
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_(2009-tycho_-_tycho_1280).jpg
+      url: https://commons.wikimedia.org/wiki/File:Tycho%27s_Supernova_Remnant-_A_New_View_of_Tycho%27s_Supernova_Remnant_(2009-tycho_-_tycho_1680).jpg
     fallbacks:
     - card
     - color
-    motion: zoom_out
+    motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
+    box:
+    - 0.12
+    - 0.08
+    - 0.88
+    - 0.92
     card:
       kind: fact
-      big: Type Ia
-      small: supernova confirmed
-- text: A young William Shakespeare likely watched the blast according to research.
+      big: White Dwarf Core
+      small: Type Ia supernova
+- text: Research suggests the blast inspired a young William Shakespeare.
   emphasis:
   - William Shakespeare
   sfx: whoosh
@@ -198,14 +199,14 @@ beats:
     fallbacks:
     - color
     motion: zoom_in
-    focus_x: 0.49
+    focus_x: 0.5
     focus_y: 0.35
     box:
-    - 0.32
     - 0.18
-    - 0.65
-    - 0.52
-- text: It remains the ghost star that cast shadows across the Earth.
+    - 0.08
+    - 0.82
+    - 0.58
+- text: He saw the same ghost star that cast shadows across the Earth.
   emphasis:
   - ghost star
   sfx: whoosh

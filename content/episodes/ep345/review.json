@@ -49,7 +49,120 @@
       "better_than_last": "The scientific reveal regarding the composition of the tail provides a more compelling payoff than the trivia in episode 268.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-04T13:35:19+05:30",
+      "check": {
+        "duration": 28.0,
+        "words": 65,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [
+          "'geminids' heard as 'geminates' after 'created the annual'",
+          "'(nothing)' heard as 'planetoid' after 'amazing baking rock'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise with clear on-screen text.",
+        "clarity": "Easy to follow with one concept per beat.",
+        "payoff": "Sodium gas reveal provides a good scientific twist.",
+        "visuals": "Beat 3 shows orbit diagram for wrong asteroid.",
+        "loop": "Ending phrase transitions seamlessly into the start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows an orbit diagram for asteroid 2014 DX110 instead of Phaethon."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Geminids",
+          "respelling": "jem ih nidz"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Delivers a smoother loop transition and a clearer scientific mystery than recent shorts.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-04T13:37:23+05:30",
+      "check": {
+        "duration": 27.43,
+        "words": 65,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'geminids' heard as 'gem in its' after 'created the annual'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The solar proximity fact is a strong, immediate draw.",
+        "clarity": "Smooth logical progression from physical state to mystery.",
+        "payoff": "The sodium gas reveal effectively subverts initial expectations.",
+        "visuals": "Images are professional but include incorrect meteorite identification.",
+        "loop": "The closing phrase transitions perfectly into the subject."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Image shows an Earth-found meteorite sample (NWA 13887) instead of the asteroid."
+        },
+        {
+          "beat": 3,
+          "problem": "Image shows an Earth-found meteorite sample (NWA 13887) instead of the asteroid."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Geminids",
+          "respelling": "jem ih nids"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This short presents a more intriguing scientific puzzle than the straightforward planet facts in episode 268.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

@@ -1,0 +1,136 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-04T13:33:06+05:30",
+      "check": {
+        "duration": 30.07,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'huchra' heard as 'hutter' after 'geller and john'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Opening statement is clear but lacks an immediate dramatic pull.",
+        "clarity": "Logical sequence of ideas makes the concept simple to follow.",
+        "payoff": "The explanation of cosmic web and hidden bounds pays off well.",
+        "visuals": "Informative graphics, but some text elements are cropped or foreign.",
+        "loop": "Final sentence connects smoothly back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Labels on the map are written in Russian."
+        },
+        {
+          "beat": 7,
+          "problem": "Title text at the top edge is cut off."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Huchra",
+          "respelling": "hoo kra"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: A cosmic structure so massive it shouldn't exist stretches across the deep sky."
+      ],
+      "better_than_last": "Provides a sharper focus on cosmic scale compared to recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-04T13:39:11+05:30",
+      "check": {
+        "duration": 26.83,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'a' heard as 'in' after 'pebble this is'",
+          "'not' heard as '(nothing)' after '1989 gravity had'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Compelling on-screen text and a clear opening statement create immediate intrigue.",
+        "clarity": "The narrative flows logically from the object's scale to its scientific mystery.",
+        "payoff": "The dark matter explanation is a standard fact that lacks a sharp twist.",
+        "visuals": "Abstract simulations are used, but some do not match the specific spoken metaphors.",
+        "loop": "The transition from the final line back to the start is grammatically smooth."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Image shows a temporal evolution chart, not a scale comparison between a pebble and mountain."
+        },
+        {
+          "beat": 6,
+          "problem": "The diagram is text-heavy and several labels are illegible at mobile screen sizes."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Huchra",
+          "respelling": "hoo kra"
+        },
+        {
+          "beat": 6,
+          "word": "hadn't",
+          "respelling": "had ent"
+        }
+      ],
+      "rewrite": [
+        "Beat 6: Gravity alone is far too slow to weave together such a massive structure.",
+        "Beat 7: It proves a hidden web of dark matter must be pulling the strings."
+      ],
+      "better_than_last": "This script provides more specific historical context and named astronomers compared to episode 346.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

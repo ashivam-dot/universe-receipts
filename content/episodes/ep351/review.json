@@ -52,7 +52,56 @@
       "better_than_last": "Stronger narrative tension regarding mission failure than ep268.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-04T13:35:13+05:30",
+      "check": {
+        "duration": 31.36,
+        "words": 79,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -3.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong financial stakes and intriguing mystery.",
+        "clarity": "Logical progression from launch to successful repair.",
+        "payoff": "Satisfying conclusion though lacks a final punch.",
+        "visuals": "Most frames align well, but beat five is generic.",
+        "loop": "Phrasing creates a seamless transition back to start."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Frame shows an asteroid size comparison chart instead of technical repair."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: The hack worked, letting it capture the clearest comet photos in history."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 2
 }

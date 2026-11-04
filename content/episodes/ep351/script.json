@@ -6,17 +6,17 @@
     },
     {
       "style": "statement",
-      "text": "Engineers turned a science camera into a star tracker."
+      "text": "NASA saved a blind spacecraft by reprogramming its camera."
     },
     {
       "style": "number",
-      "text": "Deep Space 1 operated its ion engine for 16,265 hours."
+      "text": "A spacecraft engine fired for 16,265 hours in flight."
     }
   ],
   "hook_style": "contradiction",
   "structure": "scale_ladder",
   "title": "The Blind Probe That Saved Itself",
-  "description": "NASA saved a blind $150 million spacecraft by teaching its science camera how to see the stars.",
+  "description": "NASA saved a blind $150 million spacecraft by teaching its science camera how to see the stars after a total navigation failure.",
   "hashtags": [
     "#space",
     "#nasa",
@@ -28,7 +28,8 @@
     "ion engine",
     "spacecraft",
     "astronomy",
-    "Artificial Intelligence"
+    "Artificial Intelligence",
+    "JPL"
   ],
   "beats": [
     {
@@ -58,17 +59,17 @@
       }
     },
     {
-      "text": "NASA launched the experimental $150 million mission to test new tech.",
+      "text": "NASA launched Deep Space 1 to test risky new technology.",
       "emphasis": [
-        "$150 million",
-        "new tech"
+        "Deep Space 1",
+        "risky"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
         1,
-        6,
-        9
+        2,
+        6
       ],
       "visual": "Deep Space 1 launch on a Delta II rocket from Cape Canaveral, 1998",
       "subjects": [
@@ -82,15 +83,42 @@
       ],
       "card": {
         "kind": "dateline",
-        "big": "1998",
+        "big": "October 1998",
         "small": "Cape Canaveral"
       }
     },
     {
-      "text": "It became the first spacecraft powered entirely by an ion engine.",
+      "text": "It used the first AI to control a ship without humans.",
       "emphasis": [
-        "first spacecraft",
-        "ion engine"
+        "first AI",
+        "without humans"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        7,
+        8
+      ],
+      "visual": "Diagram of the Remote Agent AI software architecture for NASA, 1998",
+      "subjects": [
+        "Remote Agent"
+      ],
+      "year": 1998,
+      "queries": [
+        "Remote Agent NASA software diagram",
+        "EUROPA software Livingstone2 NASA"
+      ],
+      "card": {
+        "kind": "fact",
+        "big": "AI Pilot",
+        "small": "Remote Agent system"
+      }
+    },
+    {
+      "text": "A glowing ion engine pushed the craft using xenon gas.",
+      "emphasis": [
+        "ion engine",
+        "xenon gas"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -114,16 +142,17 @@
       }
     },
     {
-      "text": "Then its primary star tracker navigation system failed completely.",
+      "text": "Suddenly its navigation system failed, leaving the probe totally blind.",
       "emphasis": [
-        "navigation system failed"
+        "failed",
+        "totally blind"
       ],
       "sfx": "riser",
       "pause_after": 0.12,
       "claims": [
         11
       ],
-      "visual": "Diagram of the Miniature Integrated Camera and Imaging Spectrometer, 1998",
+      "visual": "Diagram of the Miniature Integrated Camera and Imaging Spectrometer on Deep Space 1, 1998",
       "subjects": [
         "Deep Space 1"
       ],
@@ -134,24 +163,51 @@
       ],
       "card": {
         "kind": "fact",
-        "big": "Navigation Failure",
+        "big": "Nav Failure",
         "small": "Star tracker lost"
       }
     },
     {
-      "text": "Engineers urgently reprogrammed the science camera to act as its eye.",
+      "text": "Engineers reprogrammed the science camera to act as a new eye.",
       "emphasis": [
         "reprogrammed",
-        "science camera"
+        "new eye"
+      ],
+      "sfx": "whoosh",
+      "pause_after": 0.12,
+      "claims": [
+        12
+      ],
+      "visual": "Project manager Marc Rayman at NASA JPL, 2000",
+      "subjects": [
+        "Jet Propulsion Laboratory"
+      ],
+      "year": 2000,
+      "queries": [
+        "Marc Rayman NASA JPL",
+        "Marc Rayman Deep Space 1"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "The hack worked, letting it capture the clearest comet photos in history.",
+      "emphasis": [
+        "hack worked",
+        "clearest"
       ],
       "sfx": "pop",
       "pause_after": 0.4,
       "claims": [
-        12
+        13,
+        15
       ],
       "visual": "Detailed image of the nucleus of Comet 19P/Borrelly taken by Deep Space 1, 2001",
       "subjects": [
-        "Comet Borrelly"
+        "19P/Borrelly"
       ],
       "year": 2001,
       "queries": [
@@ -165,36 +221,10 @@
       }
     },
     {
-      "text": "This makeshift eye guided it to a comet flyby years later.",
+      "text": "Its engine fired for a record 16,000 hours in deep space.",
       "emphasis": [
-        "makeshift eye",
-        "comet flyby"
-      ],
-      "sfx": "whoosh",
-      "pause_after": 0.12,
-      "claims": [
-        12,
-        13
-      ],
-      "visual": "Scientific image of asteroid 9969 Braille captured by Deep Space 1, 1999",
-      "subjects": [
-        "9969 Braille"
-      ],
-      "year": 1999,
-      "queries": [
-        "asteroid 9969 Braille MICAS image",
-        "asteroid Braille Deep Space 1"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "Its ion engine ran for 16,265 hours in space.",
-      "emphasis": [
-        "16,265 hours"
+        "record",
+        "16,000 hours"
       ],
       "sfx": "pop",
       "pause_after": 0.4,
@@ -213,7 +243,7 @@
       "card": {
         "kind": "fact",
         "big": "16,265 Hours",
-        "small": "Record ion engine run"
+        "small": "Propulsion record"
       }
     },
     {
@@ -245,5 +275,5 @@
   ],
   "hook_text": "$150 MILLION BLIND PROBE",
   "loop": true,
-  "better_than_last": "Integrated reviewer feedback for beat 6 to emphasize the comet flyby milestone resulting from the improvised navigation fix."
+  "better_than_last": "Integrated reviewer feedback for beat 7 to emphasize the comet flyby milestone resulting from the improvised navigation fix."
 }
