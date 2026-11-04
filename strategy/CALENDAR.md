@@ -152,7 +152,7 @@ unexplained, not alien.
 - Tidal disruption event (1975): when a star wanders too close to a supermassive black hole, gravitational forces shred it into a blinding stream of stellar debris — dropped (ep144)
 - Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight — dropped (ep331)
 - Black widow pulsar (1988): a hyper-spinning dead star blasts its companion star with a relativistic particle beam, slowly vaporizing it down to nothing — dropped (ep322)
-- GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away — making (ep342)
+- GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away — dropped (ep342)
 - SGR 1806-20 (2004): a starquake on a magnetar 50,000 light-years away blasted out more energy in a tenth of a second than the Sun emits in 150,000 years — done (ep181)
 - Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum — done (ep191)
 - Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light — parked (ep213)
