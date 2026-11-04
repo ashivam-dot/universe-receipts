@@ -1,0 +1,157 @@
+id: ep351
+title: The Blind Probe That Saved Itself
+series: Mission Files
+format: v3
+description: NASA saved a blind $150 million spacecraft by teaching its science camera how to see the stars.
+sources:
+- https://en.wikipedia.org/wiki/Deep_Space_1
+- https://science.nasa.gov/mission/deep-space-1/
+- https://pdssbn.astro.umd.edu/data_sb/missions/deepspace1/index.shtml
+- http://spider.seds.org/spider/Comets/c_missions.html
+- https://www.wired.com/2001/12/end-of-the-line-for-nasa-probe/
+- https://ghostarchive.org/varchive/youtube/20211211/_gZK0tW8EhQ
+hashtags:
+- '#space'
+- '#nasa'
+- '#deepspace1'
+tags:
+- Deep Space 1
+- NASA
+- ion engine
+- spacecraft
+- astronomy
+- Artificial Intelligence
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A blind space probe navigated millions of miles alone.
+  emphasis:
+  - blind space probe
+  - millions of miles
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Deep_Space_1_using_its_ion_engine.jpg/1280px-Deep_Space_1_using_its_ion_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Deep Space 1 using its ion engine.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Deep_Space_1_using_its_ion_engine.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: NASA launched the experimental $150 million mission to test new tech.
+  emphasis:
+  - $150 million
+  - new tech
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: '1998'
+      small: Cape Canaveral
+    motion: zoom_in
+- text: It became the first spacecraft powered entirely by an ion engine.
+  emphasis:
+  - first spacecraft
+  - ion engine
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Ion_Engine_Test_Firing_-_GPN-2000-000482.jpg/1280px-Ion_Engine_Test_Firing_-_GPN-2000-000482.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ion Engine Test Firing - GPN-2000-000482.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ion_Engine_Test_Firing_-_GPN-2000-000482.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Then its primary star tracker navigation system failed completely.
+  emphasis:
+  - navigation system failed
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Navigation Failure
+      small: Star tracker lost
+    motion: zoom_in
+- text: Engineers urgently reprogrammed the science camera to act as its eye.
+  emphasis:
+  - reprogrammed
+  - science camera
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Small_Bodies_%2815416177797%29.png/1920px-Small_Bodies_%2815416177797%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Small Bodies (15416177797).png
+      credit: geckzilla
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Small_Bodies_(15416177797).png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The clever hack worked to keep the craft on course.
+  emphasis:
+  - clever hack worked
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/16/PIA01344.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA01344.jpg
+      credit: NASA/JPL-Caltech/UMD
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA01344.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Its ion engine ran for 16,265 hours in space.
+  emphasis:
+  - 16,265 hours
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 6
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A blinded machine navigated millions of miles alone.
+  emphasis:
+  - blinded machine
+  - millions of miles
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: $150 MILLION BLIND PROBE

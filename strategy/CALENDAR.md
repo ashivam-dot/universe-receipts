@@ -39,7 +39,7 @@ unexplained, not alien.
 | 2026-10-11 | IceCube Neutrino Observatory (2010): a telescope made of a cubic kilometer of Antarctic ice that looks straight down through Earth — done (ep129) | Space Got Weird | Featured on NASA's Astronomy Picture of the Day on October 11. |
 | 2026-10-12 | Ganymede (moon) (1996): bigger than Mercury and the only moon in the solar system that generates its own magnetic field — dropped (ep135) | Scale Breaker | Highlighted in NASA's Astronomy Picture of the Day featuring Jupiter and its Galilean moons. |
 | 2026-10-12 | Io (moon) (1979): tidal forces squeeze this world so violently that hundreds of volcanoes shoot sulfur plumes hundreds of miles into space — dropped (ep261) | The Universe Is Terrifying | Featured in NASA's Astronomy Picture of the Day showcasing Jupiter and its moons. |
-| 2026-10-13 | Spider crater (1977): a bizarre impact scar in the Australian outback whose spider-like legs were carved by shockwaves from a cosmic collision — making (ep341) | Space Got Weird | Featured in NASA Earth Observatory reporting highlighting Earth's eerily spider-shaped impact structure |
+| 2026-10-13 | Spider crater (1977): a bizarre impact scar in the Australian outback whose spider-like legs were carved by shockwaves from a cosmic collision — dropped (ep341) | Space Got Weird | Featured in NASA Earth Observatory reporting highlighting Earth's eerily spider-shaped impact structure |
 | 2026-10-16 | Deimos (moon) (1877): its surface gravity is so weak that a human sprinting could launch straight off into interplanetary space — dropped (ep287) | Space Got Weird | NASA highlighted its collaboration on JAXA's upcoming MMX mission targeting Mars' moons. |
 | 2026-10-17 | Phobos (moon) (1877): Mars is slowly dragging its largest moon to its doom, where tidal forces will eventually tear it into a planetary ring — dropped (ep264) | The Universe Is Terrifying | NASA announced its partnership and science instruments for JAXA's upcoming MMX mission to explore Mars' moons. |
 | 2026-10-18 | Pillars of Creation (1995): towering columns of cosmic gas so colossal that the tiny finger-like protrusions at their tips are larger than our entire solar system — done (ep188) | Scale Breaker | Featured as NASA's Astronomy Picture of the Day with a new cosmic sonification. |
@@ -251,7 +251,7 @@ unexplained, not alien.
 - Voyager Golden Record (1977): its cover carries ultra-pure uranium-238, a clock that could tell whoever finds it how old the record is — done (ep156)
 - Moon tree (1971): most NASA staff didn't know these trees existed until 1996, when a third-grade teacher and her students found one — done (ep110)
 - Skylab (1979): a shire in Western Australia fined NASA A$400 for littering; a radio show's listeners finally paid it in 2009 — done (ep040)
-- SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars — making (ep348)
+- SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars — dropped (ep348)
 - 55 Cancri e (2004): a planet twice the size of Earth where the pressure and heat likely turned its interior into solid diamond — done (ep066)
 - 16 Psyche (1852): a giant metal asteroid that might be the exposed core of a destroyed protoplanet — dropped (ep064)
 - Gliese 436 b (2004): a planet where gravity is so intense it forces water into solid ice despite temperatures reaching 800 degrees Fahrenheit — dropped (ep314)
@@ -302,7 +302,7 @@ unexplained, not alien.
 - 2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed — done (ep203)
 - 2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach — parked (ep223)
 - STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew — parked (ep285)
-- 2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it — making (ep340)
+- 2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it — parked (ep340)
 - Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball — parked (ep310)
 - International Space Station (2022): astronauts had to fire the station's thrusters to dodge a piece of space junk traveling at 17,500 mph — dropped (ep270)
 - Apollo 11 (1969): a broken switch nearly stranded the astronauts on the Moon forever until Buzz Aldrin jammed a felt-tip pen into the circuit breaker — dropped (ep297)

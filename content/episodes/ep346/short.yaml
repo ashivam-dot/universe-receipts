@@ -1,0 +1,177 @@
+id: ep346
+title: The Star You Could See 7.5 Billion Light-Years Away
+series: The Universe Is Terrifying
+format: v3
+description: Discover how a dying star 7.5 billion light-years away exploded with such fury it became visible from Earth to
+  the naked eye.
+sources:
+- https://en.wikipedia.org/wiki/GRB_080319B
+- https://science.nasa.gov/image-detail/amf-f7c95234-c5c9-4bf7-a531-88d7d15c4f60/
+- https://www.astronomy.com/science/distant-grb-imaged/
+- https://web.archive.org/web/20130802052604/http://www.newscientist.com/article/dn13520
+- https://science.psu.edu/news/naked-eye-gamma-ray-burst-was-aimed-squarely-earth
+- https://www.eso.org/public/news/eso0828/
+hashtags:
+- '#space'
+- '#astronomy'
+- '#gammarayburst'
+tags:
+- GRB 080319B
+- gamma-ray burst
+- dying star
+- universe
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A distant dying star exploded brightly enough to see.
+  emphasis:
+  - dying star
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Hubble_Pinpoints_Record-Breaking_Explosion_%282008-17-2344%29.jpg/1280px-Hubble_Pinpoints_Record-Breaking_Explosion_%282008-17-2344%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble Pinpoints Record-Breaking Explosion (2008-17-2344).jpg
+      credit: NASA, ESA, N. Tanvir (University of Leicester), and A. Fruchter (STScI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_Pinpoints_Record-Breaking_Explosion_(2008-17-2344).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 7.5 billion
+      small: light-years away
+- text: The flash came from 7.5 billion light-years away in the cosmos.
+  emphasis:
+  - 7.5 billion
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Paranal_%28paranal_10-nov1999%29.jpg/1920px-Paranal_%28paranal_10-nov1999%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Paranal (paranal 10-nov1999).jpg
+      credit: ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Paranal_(paranal_10-nov1999).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It beamed right from the constellation Boötes.
+  emphasis:
+  - Boötes
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Bo%C3%B6tes_%28Annotated%29_%28bootes-ann%29.jpg/3840px-Bo%C3%B6tes_%28Annotated%29_%28bootes-ann%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Boötes (Annotated) (bootes-ann).jpg
+      credit: E. Slawik/NOIRLab/NSF/AURA/M. Zamani
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Bo%C3%B6tes_(Annotated)_(bootes-ann).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.3
+    - 0.65
+    - 0.75
+- text: For nearly a minute, it outshone ten million galaxies combined.
+  emphasis:
+  - ten million
+  sfx: riser
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/7e/SN_1998bw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: SN 1998bw.jpg
+      credit: ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:SN_1998bw.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 10 million
+      small: galaxies combined
+- text: This brightness came from a jet shooting at 99.99995 percent light speed.
+  emphasis:
+  - 99.99995 percent
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/69/GRB_artist_NASA_Zhang_Woosley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: GRB artist NASA Zhang Woosley.jpg
+      credit: NASA/Zhang & Woosley
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:GRB_artist_NASA_Zhang_Woosley.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 99.99995%
+      small: speed of light
+- text: The cosmic blowtorch pointed directly down the barrel at Earth.
+  emphasis:
+  - directly down
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b1/The_double_firing_burst_%28artist%27s_impression%29_%28eso0828a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: The double firing burst (artist's impression) (eso0828a).jpg
+      credit: ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_double_firing_burst_(artist%27s_impression)_(eso0828a).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That is why you could see a distant dying star explode.
+  emphasis:
+  - dying star
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:mystery
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: SEEN WITH THE NAKED EYE

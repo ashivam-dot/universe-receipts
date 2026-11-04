@@ -1,0 +1,185 @@
+id: ep353
+title: NASA's Giant Balloon Satellite
+series: Mission Files
+format: v3
+description: Discover how a giant aluminum-coated balloon launched in 1960 enabled the first satellite communications and
+  led to a Nobel Prize.
+sources:
+- https://en.wikipedia.org/wiki/Project_Echo
+- https://web.archive.org/web/20100527211747/http://samadhi.jpl.nasa.gov/msl/QuickLooks/echoQL.html
+- https://www.ebsco.com/research-starters/history/first-passive-communications-satellite-launched
+- https://spectrum.ieee.org/when-a-giant-mylar-balloon-was-the-coolest-thing-in-space
+- https://web.archive.org/web/20110713032131/http://legacy.inforum.com/specials/century/jan3/week38b.html
+- http://nobelprize.org/nobel_prizes/physics/laureates/1978/penzias-bio.html
+hashtags:
+- '#space'
+- '#nasa'
+- '#satellites'
+tags:
+- Project Echo
+- NASA
+- communications satellite
+- space history
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA's first communications satellite was a giant silver balloon.
+  emphasis:
+  - giant silver balloon
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/40/Echo_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Echo II.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Echo_II.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 100 FEET
+      small: Silver balloon satellite
+- text: It stretched a massive one hundred feet across.
+  emphasis:
+  - one hundred feet
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/0/04/Thor_Delta_with_Explorer_10_Mar_25_1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Thor Delta with Explorer 10 Mar 25 1961.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Thor_Delta_with_Explorer_10_Mar_25_1961.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.4
+- text: Engineers built it from thin Mylar coated with aluminum.
+  emphasis:
+  - Mylar coated with aluminum
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/DRAWING_OF_ALUMINIZED_MYLAR_-_NARA_-_17468019.jpg/3840px-DRAWING_OF_ALUMINIZED_MYLAR_-_NARA_-_17468019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: DRAWING OF ALUMINIZED MYLAR - NARA - 17468019.jpg
+      credit: Unknown authorUnknown author or not provided
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:DRAWING_OF_ALUMINIZED_MYLAR_-_NARA_-_17468019.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Workers packed the massive sphere into a tiny canister for launch.
+  emphasis:
+  - tiny canister
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Echo_1_payload_mounted_at_top_of_third-stage_Thor-Delta_launch_vehicle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Echo 1 payload mounted at top of third-stage Thor-Delta launch vehicle.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Echo_1_payload_mounted_at_top_of_third-stage_Thor-Delta_launch_vehicle.png
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Once in orbit, it inflated into a gleaming mirror in the sky.
+  emphasis:
+  - gleaming mirror
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/6c/Echo_I_1960_Issue-4c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Echo I 1960 Issue-4c.jpg
+      credit: US Post office
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Echo_I_1960_Issue-4c.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.7
+    focus_y: 0.5
+- text: The bright orb bounced the very first satellite phone calls across Earth.
+  emphasis:
+  - satellite phone calls
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Goldstone_DSN_antenna.jpg/1280px-Goldstone_DSN_antenna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Goldstone DSN antenna.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Goldstone_DSN_antenna.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Even wilder, its tracking antenna accidentally discovered the echoes of the Big Bang.
+  emphasis:
+  - echoes of the Big Bang
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f7/Horn_Antenna-in_Holmdel%2C_New_Jersey.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Horn Antenna-in Holmdel, New Jersey.jpeg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Horn_Antenna-in_Holmdel,_New_Jersey.jpeg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: NOBEL PRIZE
+      small: Big Bang echo discovery
+- text: It all started as a giant silver balloon.
+  emphasis:
+  - giant silver balloon
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A 100-FOOT SILVER BALLOON

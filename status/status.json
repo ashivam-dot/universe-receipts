@@ -1,82 +1,70 @@
 {
-  "updated_at": "2026-11-04T11:12:03+05:30",
+  "updated_at": "2026-11-04T11:50:31+05:30",
   "day": 34,
   "result": "ok",
   "run": {
-    "host": "modal",
-    "id": "ta-01M6JGVDQYVBV187GY1ZBD776R",
-    "number": null,
-    "trigger": "schedule",
-    "started_at": "2026-11-04T11:05:09+05:30",
-    "started_at_utc": "2026-11-04T05:35:09+00:00",
-    "seconds": 415
+    "host": "github-actions",
+    "id": "41784662564",
+    "number": "141",
+    "trigger": "workflow_dispatch",
+    "started_at": "2026-11-04T11:49:26+05:30",
+    "started_at_utc": "2026-11-04T06:19:26+00:00",
+    "seconds": 65
   },
   "stages": [
-    {
-      "name": "deploy",
-      "ok": true,
-      "detail": "",
-      "seconds": 1.1
-    },
     {
       "name": "sync",
       "ok": true,
       "detail": "84 posts",
-      "seconds": 1.8
+      "seconds": 0.8
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.1
+      "seconds": 2.4
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "ep266 language en/None -> en",
-      "seconds": 0.8
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep262 at 72 h: level with the channel's earlier Shorts at this age: 1024 views against a median of 955 (1.1x); ep263 at 24 h: ahead of the channel's earlier Shorts at this age: 1065 views against a median of 750 (1.4x); ep268 at 24 h: ahead of the channel's earlier Shorts at this age: 1060 views against a median of 770 (1.4x); learnings: Updated learning log with 24-hour review insights from ep260, ep262, ep266, ep265, ep263, and ep268 to refine engagement and hook strategies.",
-      "seconds": 341.7
+      "detail": "no checkpoint due",
+      "seconds": 1.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep327 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep329 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep330 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep331 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep332 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep333 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep334 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep335 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep336 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep337 unfinished (Runtim",
-      "seconds": 30.5
+      "detail": "ep340 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep341 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep342 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep343 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep344 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep345 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep346 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep347 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep348 rejected (research: The provided sources do not mention a meteorite named SNC 420 ",
+      "seconds": 36.5
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
+      "seconds": 1.0
+    },
+    {
+      "name": "deploy",
+      "ok": true,
+      "detail": "",
       "seconds": 1.6
-    },
-    {
-      "name": "start ep340",
-      "ok": true,
-      "detail": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep341",
-      "ok": true,
-      "detail": "Spider crater (1977): a bizarre impact scar in the Australian outback whose spider-like legs were carved by shockwaves from a cosmic collision",
-      "seconds": 0.5
     },
     {
       "name": "start ep342",
@@ -88,13 +76,13 @@
       "name": "start ep343",
       "ok": true,
       "detail": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "seconds": 0.5
+      "seconds": 0.4
     },
     {
       "name": "start ep344",
       "ok": true,
       "detail": "CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "name": "start ep345",
@@ -106,18 +94,12 @@
       "name": "start ep346",
       "ok": true,
       "detail": "GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "name": "start ep347",
       "ok": true,
       "detail": "Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep348",
-      "ok": true,
-      "detail": "SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars",
       "seconds": 0.5
     },
     {
@@ -130,36 +112,38 @@
       "name": "start ep350",
       "ok": true,
       "detail": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "seconds": 0.6
+      "seconds": 0.5
     },
     {
       "name": "start ep351",
       "ok": true,
       "detail": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "name": "start ep352",
       "ok": true,
       "detail": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "seconds": 0.6
+      "seconds": 0.5
     },
     {
       "name": "start ep353",
       "ok": true,
       "detail": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.0
     }
   ],
   "errors": [],
   "owner_action": [],
-  "notes": [],
+  "notes": [
+    "room for 11 of the 13 Shorts wanted: Modal's credit covers 219, this run's share of the Actions minutes 6"
+  ],
   "inventory": {
     "total": 0,
     "in_buffer": 0,
@@ -167,15 +151,12 @@
     "target": 14,
     "making": [],
     "remote": [
-      "ep340",
-      "ep341",
       "ep342",
       "ep343",
       "ep344",
       "ep345",
       "ep346",
       "ep347",
-      "ep348",
       "ep349",
       "ep350",
       "ep351",
@@ -187,102 +168,6 @@
   "waiting": [],
   "made": [
     {
-      "id": "ep327",
-      "outcome": "unfinished",
-      "topic": "Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep329",
-      "outcome": "unfinished",
-      "topic": "Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep330",
-      "outcome": "unfinished",
-      "topic": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep331",
-      "outcome": "unfinished",
-      "topic": "Comet West (1976): a dazzling sungrazer that split into four pieces and was bright enough to be seen in broad daylight",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep332",
-      "outcome": "unfinished",
-      "topic": "Mir (1997): a fire and then a crash with a cargo ship nearly doomed the space station within four months",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep333",
-      "outcome": "unfinished",
-      "topic": "Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep334",
-      "outcome": "unfinished",
-      "topic": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep335",
-      "outcome": "unfinished",
-      "topic": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep336",
-      "outcome": "unfinished",
-      "topic": "HD 189733 b (2005): a deep-blue planet where it may rain glass sideways in 5,400 mph winds",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep337",
-      "outcome": "unfinished",
-      "topic": "2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep338",
-      "outcome": "unfinished",
-      "topic": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep339",
-      "outcome": "unfinished",
-      "topic": "WASP-76b (2020): an ultra-hot world where extreme temperatures vaporize iron on the dayside, driving winds that make it rain liquid iron droplets at night",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
-    {
       "id": "ep340",
       "outcome": "unfinished",
       "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
@@ -294,6 +179,100 @@
       "id": "ep341",
       "outcome": "unfinished",
       "topic": "Spider crater (1977): a bizarre impact scar in the Australian outback whose spider-like legs were carved by shockwaves from a cosmic collision",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep342",
+      "outcome": "unfinished",
+      "topic": "GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep343",
+      "outcome": "unfinished",
+      "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep344",
+      "outcome": "unfinished",
+      "topic": "CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep345",
+      "outcome": "unfinished",
+      "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep346",
+      "outcome": "unfinished",
+      "topic": "GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep347",
+      "outcome": "unfinished",
+      "topic": "Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep348",
+      "outcome": "rejected",
+      "topic": "SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars",
+      "reason": "research: The provided sources do not mention a meteorite named SNC 420 sitting in a museum drawer for decades before being identified as Martian."
+    },
+    {
+      "id": "ep349",
+      "outcome": "unfinished",
+      "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep350",
+      "outcome": "unfinished",
+      "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep351",
+      "outcome": "unfinished",
+      "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep352",
+      "outcome": "unfinished",
+      "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
+      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep353",
+      "outcome": "unfinished",
+      "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
       "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
       "quota": false,
       "overloaded": false
@@ -301,146 +280,116 @@
   ],
   "spawned": [
     {
-      "id": "ep340",
-      "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "call_id": "fc-01M6JH7YJFM20JCETRY7FYEME8"
-    },
-    {
-      "id": "ep341",
-      "topic": "Spider crater (1977): a bizarre impact scar in the Australian outback whose spider-like legs were carved by shockwaves from a cosmic collision",
-      "call_id": "fc-01M6JH7Z3FACWJXPSVDB13HBAY"
-    },
-    {
       "id": "ep342",
       "topic": "GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away",
-      "call_id": "fc-01M6JH7ZMMEKCTRTVNYH8ZDD9P"
+      "call_id": "fc-01M6JKEFVHMMW262E55RS260ZY"
     },
     {
       "id": "ep343",
       "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "call_id": "fc-01M6JH805RHPA75QSJM2AGGEZZ"
+      "call_id": "fc-01M6JKEG8Z0BTQY39CANM2R91N"
     },
     {
       "id": "ep344",
       "topic": "CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered",
-      "call_id": "fc-01M6JH80Q3PT06DAYZHXSPT8H5"
+      "call_id": "fc-01M6JKEGPE27EBQB2Z90H989DQ"
     },
     {
       "id": "ep345",
       "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
-      "call_id": "fc-01M6JH8181EP5AANR2V2C824MA"
+      "call_id": "fc-01M6JKEH4JGSRYHPTD4T6EHFAY"
     },
     {
       "id": "ep346",
       "topic": "GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye",
-      "call_id": "fc-01M6JH81SE44XX716D338QRW42"
+      "call_id": "fc-01M6JKEHHW7KRM28RKX3WRNK6V"
     },
     {
       "id": "ep347",
       "topic": "Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter",
-      "call_id": "fc-01M6JH82CCKSDF3BVRE0232AJ4"
-    },
-    {
-      "id": "ep348",
-      "topic": "SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars",
-      "call_id": "fc-01M6JH82X84YEPV0Z7MKFNEXWS"
+      "call_id": "fc-01M6JKEHZXH3GZE1S4ADJ5BPWV"
     },
     {
       "id": "ep349",
       "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "call_id": "fc-01M6JH83EAFJGDXWYEFSE18CW4"
+      "call_id": "fc-01M6JKEJERBV1MS6Z93PH28CJY"
     },
     {
       "id": "ep350",
       "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "call_id": "fc-01M6JH83ZWWC23B0BE5XA7M6G5"
+      "call_id": "fc-01M6JKEJYCRP7ZBE1ZR6YDR38Z"
     },
     {
       "id": "ep351",
       "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "call_id": "fc-01M6JH84HD8KJTCPRPSEENWX84"
+      "call_id": "fc-01M6JKEKC2MN2G2YHJCRYEDY9T"
     },
     {
       "id": "ep352",
       "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "call_id": "fc-01M6JH852P1AMSCN7RMXY8C1V1"
+      "call_id": "fc-01M6JKEKTF5G8Y5JEXRSN1MNFM"
     },
     {
       "id": "ep353",
       "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "call_id": "fc-01M6JH85MCPJ0Q7QKDEVPCBWD0"
+      "call_id": "fc-01M6JKEM87MJTB0MYAKCQE1QDA"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep340",
-      "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "spawned_at": "2026-11-04T11:11:52+05:30"
-    },
-    {
-      "id": "ep341",
-      "topic": "Spider crater (1977): a bizarre impact scar in the Australian outback whose spider-like legs were carved by shockwaves from a cosmic collision",
-      "spawned_at": "2026-11-04T11:11:52+05:30"
-    },
-    {
       "id": "ep342",
       "topic": "GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away",
-      "spawned_at": "2026-11-04T11:11:53+05:30"
+      "spawned_at": "2026-11-04T11:50:23+05:30"
     },
     {
       "id": "ep343",
       "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "spawned_at": "2026-11-04T11:11:54+05:30"
+      "spawned_at": "2026-11-04T11:50:24+05:30"
     },
     {
       "id": "ep344",
       "topic": "CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered",
-      "spawned_at": "2026-11-04T11:11:54+05:30"
+      "spawned_at": "2026-11-04T11:50:24+05:30"
     },
     {
       "id": "ep345",
       "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
-      "spawned_at": "2026-11-04T11:11:55+05:30"
+      "spawned_at": "2026-11-04T11:50:25+05:30"
     },
     {
       "id": "ep346",
       "topic": "GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye",
-      "spawned_at": "2026-11-04T11:11:55+05:30"
+      "spawned_at": "2026-11-04T11:50:25+05:30"
     },
     {
       "id": "ep347",
       "topic": "Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter",
-      "spawned_at": "2026-11-04T11:11:56+05:30"
-    },
-    {
-      "id": "ep348",
-      "topic": "SNC 420 (2020): a meteorite that sat in a museum drawer for decades before scientists realized it was from Mars",
-      "spawned_at": "2026-11-04T11:11:56+05:30"
+      "spawned_at": "2026-11-04T11:50:26+05:30"
     },
     {
       "id": "ep349",
       "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "spawned_at": "2026-11-04T11:11:57+05:30"
+      "spawned_at": "2026-11-04T11:50:26+05:30"
     },
     {
       "id": "ep350",
       "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "spawned_at": "2026-11-04T11:11:57+05:30"
+      "spawned_at": "2026-11-04T11:50:26+05:30"
     },
     {
       "id": "ep351",
       "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "spawned_at": "2026-11-04T11:11:58+05:30"
+      "spawned_at": "2026-11-04T11:50:27+05:30"
     },
     {
       "id": "ep352",
       "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "spawned_at": "2026-11-04T11:11:59+05:30"
+      "spawned_at": "2026-11-04T11:50:27+05:30"
     },
     {
       "id": "ep353",
       "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "spawned_at": "2026-11-04T11:11:59+05:30"
+      "spawned_at": "2026-11-04T11:50:28+05:30"
     }
   ],
   "published": [],
@@ -448,40 +397,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 4,
+    "calls": 51,
     "by_model": {
       "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 1,
-      "gemini-3.5-flash-lite": 2
+      "gemini-3-flash-preview": 9,
+      "gemini-3.5-flash-lite": 40,
+      "gemini-3.5-flash": 1
     },
-    "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-flash-latest"
-    ]
+    "out_of_quota": []
   },
   "renders": {
     "modal": 0,
     "runner": 0
   },
   "daily_done": "2026-11-03",
-  "minutes_this_month": 0.0,
+  "minutes_this_month": 3.0862422851833333,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 1.49,
+    "metered": 1.64,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 220,
-    "runner": 0,
-    "runner_minutes": 0,
-    "modal_credit_left": 26.51
+    "cloud": 219,
+    "runner": 6,
+    "runner_minutes": 120,
+    "modal_credit_left": 26.36
   },
-  "starved": 0,
+  "starved": 2,
   "made_here": 0,
   "open_topics": 32,
-  "parked_topics": 57
+  "parked_topics": 58
 }

@@ -1,0 +1,284 @@
+{
+  "viable": true,
+  "reason": "The sources provide over 15 consistent claims regarding the spacecraft's pioneering AI, its engine failure and recovery, and its record-breaking comet flyby.",
+  "story": "In 1998, NASA launched Deep Space 1, a $150 million gamble to prove robots could explore the solar system alone. It featured a futuristic ion engine and \"Remote Agent,\" the first AI to fully control an interplanetary craft without human supervision. However, the experimental mission nearly died in 1999 when its star tracker—the \"eye\" it used to navigate—failed completely. Blind and drifting millions of miles from home, the probe was considered doomed. In a desperate move, engineers spent months rewriting the spacecraft's code to transform its science camera into a makeshift star tracker. The ingenious hack worked. Not only did the probe recover, but it went on to capture images of Comet Borrelly so detailed they surpassed those of the famous Giotto mission. After three years and 16,000 hours of engine thrust, Deep Space 1 remains in solar orbit today, a silent pioneer of autonomous spaceflight.",
+  "angle": "NASA saved a 'blind' $150 million spacecraft by teaching its science camera how to see the stars after its primary navigation system failed.",
+  "claims": [
+    {
+      "claim": "Deep Space 1 launched on October 24, 1998, from Cape Canaveral.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft was the first in NASA's New Millennium Program to test high-risk advanced technologies.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "It was the first NASA spacecraft to use ion propulsion for its primary flight instead of chemical rockets.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The NSTAR ion engine was powered by xenon gas.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The ion engine achieved a specific impulse as much as 10 times higher than traditional chemical propellants.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission tested 12 specific advanced technologies for future spaceflight.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Remote Agent was the first artificial intelligence system to control a spacecraft without human supervision.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Remote Agent AI successfully managed three different simulated component failures onboard.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission cost was approximately $150 million.",
+      "sources": [
+        "S1",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The craft flew past asteroid 9969 Braille in July 1999.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft's star tracker navigation system failed on November 11, 1999.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "To save the mission, engineers reprogrammed the MICAS science camera to function as a replacement star tracker.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Deep Space 1 successfully encountered Comet 19P/Borrelly on September 22, 2001.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The probe passed Comet Borrelly at a distance of approximately 2,200 kilometers.",
+      "sources": [
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "The images of Comet Borrelly were of higher resolution than those of Halley's Comet taken by the Giotto spacecraft.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The ion engine operated for 16,265 hours, setting a record for the longest operating time in space.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft used SCARLET solar arrays that employed Fresnel lenses to concentrate sunlight.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission officially ended when the ion engine was shut down on December 18, 2001.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Flyby distance of asteroid Braille: S1, S2, and S3 state 26 km, but S5 states 15 km; the script should use 26 km as the primary figure.",
+    "Flyby distance of Comet Borrelly: S2 states 2,171 km, while S3 and S5 use 2,200 km; the script should say 'about 2,200 kilometers.'",
+    "Remote Agent control duration: S4 specifies the AI had control for three days, while S1 describes it more generally; the script should attribute the AI control to a 'multi-day experiment.'"
+  ],
+  "visuals": [
+    {
+      "subject": "Deep Space 1 launch on a Delta II rocket",
+      "queries": [
+        "Delta II 7326 launch",
+        "Deep Space 1 launch Cape Canaveral"
+      ]
+    },
+    {
+      "subject": "Illustration of the Deep Space 1 spacecraft in flight",
+      "queries": [
+        "Deep Space 1 spacecraft artist's concept",
+        "Deep Space 1 NASA illustration"
+      ]
+    },
+    {
+      "subject": "NSTAR ion engine testing with its blue xenon glow",
+      "queries": [
+        "NSTAR ion engine test",
+        "xenon ion thruster blue glow"
+      ]
+    },
+    {
+      "subject": "Scientific image of asteroid 9969 Braille",
+      "queries": [
+        "asteroid 9969 Braille MICAS image",
+        "asteroid Braille Deep Space 1"
+      ]
+    },
+    {
+      "subject": "Detailed image of the nucleus of Comet 19P/Borrelly",
+      "queries": [
+        "Comet 19P/Borrelly nucleus",
+        "Comet Borrelly Deep Space 1"
+      ]
+    },
+    {
+      "subject": "SCARLET solar array design showing Fresnel optics",
+      "queries": [
+        "SCARLET solar array Deep Space 1",
+        "Fresnel lens solar array NASA"
+      ]
+    },
+    {
+      "subject": "Diagram of the MICAS instrument",
+      "queries": [
+        "MICAS instrument diagram",
+        "Miniature Integrated Camera and Imaging Spectrometer"
+      ]
+    },
+    {
+      "subject": "Project manager Marc Rayman at JPL",
+      "queries": [
+        "Marc Rayman NASA JPL",
+        "Marc Rayman Deep Space 1"
+      ]
+    },
+    {
+      "subject": "Diagram of the Remote Agent AI software architecture",
+      "queries": [
+        "Remote Agent NASA software diagram",
+        "EUROPA software Livingstone2 NASA"
+      ]
+    },
+    {
+      "subject": "Map of the spacecraft's trajectory through the solar system",
+      "queries": [
+        "Deep Space 1 mission trajectory diagram",
+        "Deep Space 1 heliocentric orbit"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Deep_Space_1",
+      "title": "Deep Space 1",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://science.nasa.gov/mission/deep-space-1/",
+      "title": "Deep Space 1 - NASA Science",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://pdssbn.astro.umd.edu/data_sb/missions/deepspace1/index.shtml",
+      "title": "SBN Mission Support: DS1",
+      "site": "umd.edu"
+    },
+    {
+      "label": "S4",
+      "url": "https://ghostarchive.org/varchive/youtube/20211211/_gZK0tW8EhQ",
+      "title": "The Remote Agent Experiment: Debugging Code from 60 Million Miles Away",
+      "site": "ghostarchive.org"
+    },
+    {
+      "label": "S5",
+      "url": "http://spider.seds.org/spider/Comets/c_missions.html",
+      "title": "Comet Space Missions",
+      "site": "seds.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.wired.com/2001/12/end-of-the-line-for-nasa-probe/",
+      "title": "End of the Line for NASA Probe",
+      "site": "wired.com"
+    }
+  ],
+  "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
+  "series": "Mission Files"
+}
