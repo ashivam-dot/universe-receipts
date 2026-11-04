@@ -11,9 +11,9 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
 | Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 51% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 85.1% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 126% | rising week over week |
-| Subscribers per 1,000 views | `subscribersGained` / `views` | 1.0 | 2+ |
+| Average percentage viewed | `analytics.averageViewPercentage` | 77.9% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 125% | rising week over week |
+| Subscribers per 1,000 views | `subscribersGained` / `views` | 0.5 | 2+ |
 | Likes per 100 views | `likes` / `views` | 2.3 | 4+ |
 
 ## Rules we've proven
@@ -37,7 +37,7 @@ each promoted on two Shorts; their evidence is kept below.)
 
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
-- End the script with a human question, debate prompt, or relatable stake (e.g., Will humanity survive?) to convert high view volume into comment engagement (ep260, 262, 265).
+- End the script with a human question, debate prompt, or relatable stake to convert high view volume into comment engagement (ep260, 262, 265).
 - Open on a belief most viewers already hold, then immediately debunk it; test if myth-busting reach is now dependent on the scale of the subject (ep266).
 - Use authority-anchoring institutions like NASA in the hook to improve engaged share and initial distribution (ep051, ep262).
 - In hazard hooks, replace abstract metric measurements with immediate, tangible stakes in beat 1 to capture initial audience distribution (ep208).
@@ -97,11 +97,12 @@ contradiction.
 | ep244 | Space Myths, Busted | statement, record | 51 | 34% | 74.8% | 132% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep254 | Scale Breaker | statement, story | 1061 | 47% | 68.1% | 122% | 3 | published while YouTube held the whole channel back; not evidence |
 | ep258 | Space Myths, Busted | statement, scale_ladder | 394 | 42% | 74.1% | 120% | 1 | published while YouTube held the whole channel back; not evidence |
-| ep260 | Scale Breaker | statement, story | 1414 | 45% | 95.4% | 137% | 3 | Cosmic-scale subject drove high early reach; narrative pacing sustained retention to a strong 95% finish. |
-| ep262 | Mission Files | statement, myth_vs_fact | 931 | 49% | 136.4% | 204% | 1 | Snappy tech hook combined with a perfect loop pushed average percentage viewed far past the 100% mark. |
-| ep266 | Space Myths, Busted | contradiction, myth_vs_fact | 1146 | 50% | 106.2% | 149% | 0 | Galactic-scale myth-busting secured reach, but a reflective ending beat caused a late drop-off in retention. |
-| ep265 | Space Got Weird | statement, mystery | 1379 | 55% | 70.8% | 124% | 0 | Strong sensory mystery hook pulled viewers in, though technical middle beats and jargon limited engagement. |
-| ep263 | Space Myths, Busted | contradiction, record | – | – | – | – | – | – |
+| ep260 | Scale Breaker | statement, story | 1414 | 45% | 95.4% | 137% | 3 | Exceptional early retention and high view count driven by a strong statement hook and story progression. |
+| ep262 | Mission Files | statement, myth_vs_fact | 931 | 49% | 136.4% | 204% | 1 | Strong initial distribution from opening statement, but low engagement depth and late retention drops during technical explanations. |
+| ep266 | Space Myths, Busted | contradiction, myth_vs_fact | 1146 | 50% | 106.2% | 149% | 0 | Strong early reach driven by a myth-busting hook, though viewer satisfaction and likes per 100 views lagged. |
+| ep265 | Space Got Weird | statement, mystery | 1379 | 55% | 70.8% | 124% | 0 | Strong early reach from title premise, but viewer engagement lagged with low likes and comments. |
+| ep263 | Space Myths, Busted | contradiction, record | 1065 | – | – | – | – | Good early velocity from contradiction hook, but low likes and zero comments indicate a closed-ended script. |
+| ep268 | Space Got Weird | statement, mystery | 1060 | – | – | – | – | Steady early reach matching upper-tier performers due to historical trivia hook style. |
 
 ## Log
 
@@ -229,3 +230,4 @@ contradiction.
 - 2026-11-03: Updated learning log with new batch observations (ep260, ep262, ep266, ep265) demonstrating strong early reach from high-stakes hooks but zero comment engagement due to missing final call-to-action prompts.
 - 2026-11-03: Evaluated ep260, ep262, ep265, and ep266; confirmed scale hooks drive superior reach while missing debate prompts correlate with zero comment engagement.
 - 2026-11-04: Today we integrated data from ep260-266, confirming Rule 1 reach and updating Rule 2 evidence for seamless looping.
+- 2026-11-04: Updated learning log with 24-hour review insights from ep260, ep262, ep266, ep265, ep263, and ep268 to refine engagement and hook strategies.
