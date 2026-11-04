@@ -743,7 +743,10 @@ def runner_minutes_allowed() -> float:
 def capacity() -> dict:
     """How many Shorts this run can start: on Modal while this month's credit lasts, then on this runner."""
     cloud, credit_left = 0, None
-    if (os.environ.get("MODAL_TOKEN_ID") or ON_MODAL) and os.environ.get("YTC_STUDIO_HERE") != "1":
+    # A run on Modal redeploys its workers with its own secret's keys; without Gemini's, every worker dies at the
+    # voice (tts.py), so the Shorts count as starved and the GitHub backup, which has the key, makes them.
+    voiced = not ON_MODAL or bool(os.environ.get("YTC_GEMINI_API_KEY"))
+    if (os.environ.get("MODAL_TOKEN_ID") or ON_MODAL) and os.environ.get("YTC_STUDIO_HERE") != "1" and voiced:
         if (cost := _modal_cost()) is not None:
             # Workers still going haven't been billed in full.
             credit_left = MODAL_CREDIT - MODAL_RESERVE - cost["metered"] - len(inventory()["remote"]) * MODAL_PER_SHORT
