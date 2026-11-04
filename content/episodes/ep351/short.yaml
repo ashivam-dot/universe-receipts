@@ -97,46 +97,72 @@ beats:
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Small_Bodies_%2815416177797%29.png/1920px-Small_Bodies_%2815416177797%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Small_Asteroids_and_Comets_Visited_by_Spacecraft.jpg/3840px-Small_Asteroids_and_Comets_Visited_by_Spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Small Bodies (15416177797).png
-      credit: geckzilla
-      license: CC BY 2.0
-      url: https://commons.wikimedia.org/wiki/File:Small_Bodies_(15416177797).png
+      title: Small Asteroids and Comets Visited by Spacecraft.jpg
+      credit: Montage by Emily Lakdawalla for The Planetary Society. Data from NASA / JPL / JHUAPL / SwRI / UMD / JAXA / ESA
+        / OSIRIS team / Russian Academy of Sciences / China National Space Agency. Processed by E
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Small_Asteroids_and_Comets_Visited_by_Spacecraft.jpg
     fallbacks:
     - color
-    motion: zoom_out
+    motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: The clever hack worked to keep the craft on course.
+- text: This makeshift eye guided it to a comet flyby years later.
   emphasis:
-  - clever hack worked
+  - makeshift eye
+  - comet flyby
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/1/16/PIA01344.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/7/78/DeepSpace1encounter9969Braille.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: PIA01344.jpg
-      credit: NASA/JPL-Caltech/UMD
+      title: DeepSpace1encounter9969Braille.png
+      credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PIA01344.jpg
+      url: https://commons.wikimedia.org/wiki/File:DeepSpace1encounter9969Braille.png
     fallbacks:
     - color
-    motion: pan_left
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
+    box:
+    - 0.3
+    - 0.1
+    - 0.8
+    - 0.9
 - text: Its ion engine ran for 16,265 hours in space.
   emphasis:
   - 16,265 hours
   sfx: pop
   pause_after: 0.4
   visual:
-    reuse: 6
-    motion: zoom_in
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Deep_Space_1_lifted.jpg/1280px-Deep_Space_1_lifted.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Deep Space 1 lifted.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Deep_Space_1_lifted.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
     focus_x: 0.5
     focus_y: 0.5
+    box:
+    - 0.25
+    - 0.35
+    - 0.75
+    - 0.75
+    card:
+      kind: fact
+      big: 16,265 Hours
+      small: Record ion engine run
 - text: A blinded machine navigated millions of miles alone.
   emphasis:
   - blinded machine

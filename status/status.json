@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-04T12:04:19+05:30",
+  "updated_at": "2026-11-04T13:29:31+05:30",
   "day": 34,
   "result": "ok",
   "run": {
     "host": "github-actions",
-    "id": "41786192134",
-    "number": "142",
-    "trigger": "workflow_dispatch",
-    "started_at": "2026-11-04T12:03:13+05:30",
-    "started_at_utc": "2026-11-04T06:33:13+00:00",
-    "seconds": 66
+    "id": "41795861406",
+    "number": "143",
+    "trigger": "schedule",
+    "started_at": "2026-11-04T13:28:16+05:30",
+    "started_at_utc": "2026-11-04T07:58:16+00:00",
+    "seconds": 76
   },
   "stages": [
     {
       "name": "sync",
       "ok": true,
       "detail": "84 posts",
-      "seconds": 1.2
+      "seconds": 1.7
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.3
+      "seconds": 2.6
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -40,107 +40,116 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 1.6
+      "seconds": 2.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep342 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep343 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep344 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep345 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep346 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep347 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep349 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep350 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep351 unfinished (RuntimeError: YTC_GEMINI_API_KEY is not set); ep352 unfinished (Runtim",
-      "seconds": 34.4
+      "detail": "ep343 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep344 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep345 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', '",
+      "seconds": 29.7
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.0
+      "seconds": 7.0
+    },
+    {
+      "name": "schedule ep346",
+      "ok": true,
+      "detail": "2026-11-04T19:00:00-05:00",
+      "seconds": 1.6
     },
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 1.7
     },
     {
       "name": "start ep343",
       "ok": true,
       "detail": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "seconds": 0.7
+      "seconds": 1.3
     },
     {
       "name": "start ep344",
       "ok": true,
       "detail": "CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered",
-      "seconds": 1.1
+      "seconds": 1.4
     },
     {
       "name": "start ep345",
       "ok": true,
       "detail": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
-      "seconds": 1.1
-    },
-    {
-      "name": "start ep346",
-      "ok": true,
-      "detail": "GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye",
-      "seconds": 1.3
+      "seconds": 0.7
     },
     {
       "name": "start ep347",
       "ok": true,
       "detail": "Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter",
-      "seconds": 0.6
+      "seconds": 0.7
     },
     {
       "name": "start ep349",
       "ok": true,
       "detail": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "seconds": 0.6
+      "seconds": 1.2
     },
     {
       "name": "start ep350",
       "ok": true,
       "detail": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "seconds": 0.6
+      "seconds": 0.7
     },
     {
       "name": "start ep351",
       "ok": true,
       "detail": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "seconds": 0.6
+      "seconds": 0.7
     },
     {
       "name": "start ep352",
       "ok": true,
       "detail": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "seconds": 0.6
+      "seconds": 0.8
     },
     {
       "name": "start ep353",
       "ok": true,
       "detail": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "seconds": 0.6
+      "seconds": 1.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.0
+      "seconds": 1.4
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "room for 10 of the 11 Shorts wanted: Modal's credit covers 219, this run's share of the Actions minutes 6"
+    "ep343 stopped on Gemini's free quota; it resumes in a later run",
+    "ep344 stopped on Gemini's free quota; it resumes in a later run",
+    "ep345 stopped on Gemini's free quota; it resumes in a later run",
+    "ep347 stopped on Gemini's free quota; it resumes in a later run",
+    "ep349 stopped on Gemini's free quota; it resumes in a later run",
+    "ep350 stopped on Gemini's free quota; it resumes in a later run",
+    "ep351 stopped on Gemini's free quota; it resumes in a later run",
+    "ep352 stopped on Gemini's free quota; it resumes in a later run",
+    "ep353 stopped on Gemini's free quota; it resumes in a later run",
+    "only 1 Shorts made and unposted; scheduling 1 a day"
   ],
   "inventory": {
-    "total": 0,
-    "in_buffer": 0,
+    "total": 1,
+    "in_buffer": 1,
     "waiting": 0,
     "target": 14,
     "making": [],
@@ -148,7 +157,6 @@
       "ep343",
       "ep344",
       "ep345",
-      "ep346",
       "ep347",
       "ep349",
       "ep350",
@@ -157,95 +165,99 @@
       "ep353"
     ]
   },
-  "queue": [],
+  "queue": [
+    {
+      "id": "ep346",
+      "title": "The Star You Could See 7.5 Billion Light-Years Away",
+      "due_at": "2026-11-04T19:00:00-05:00"
+    }
+  ],
   "waiting": [],
   "made": [
-    {
-      "id": "ep342",
-      "outcome": "unfinished",
-      "topic": "GRB 221009A (2022): the brightest cosmic explosion ever recorded blinded space telescopes and physically warped Earth's upper atmosphere from two billion light-years away",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
-    },
     {
       "id": "ep343",
       "outcome": "unfinished",
       "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
       "id": "ep344",
       "outcome": "unfinished",
       "topic": "CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
       "id": "ep345",
       "outcome": "unfinished",
       "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
       "id": "ep346",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
-      "overloaded": false
+      "title": "The Star You Could See 7.5 Billion Light-Years Away",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793774252/universereceipts/ep346-49b8c4a8.mp4"
     },
     {
       "id": "ep347",
       "outcome": "unfinished",
       "topic": "Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
       "id": "ep349",
       "outcome": "unfinished",
       "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
       "id": "ep350",
       "outcome": "unfinished",
       "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
       "id": "ep351",
       "outcome": "unfinished",
       "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
       "id": "ep352",
       "outcome": "unfinished",
       "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
       "id": "ep353",
       "outcome": "unfinished",
       "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "reason": "RuntimeError: YTC_GEMINI_API_KEY is not set",
-      "quota": false,
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
       "overloaded": false
     }
   ],
@@ -253,134 +265,134 @@
     {
       "id": "ep343",
       "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "call_id": "fc-01M6JM7NZF9PJ5FB7DMZJ2XVMQ"
+      "call_id": "fc-01M6JS3N4YCRP5QF9PRHC6EMXJ"
     },
     {
       "id": "ep344",
       "topic": "CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered",
-      "call_id": "fc-01M6JM7Q1TR0CEYY61MGZ0VD1E"
+      "call_id": "fc-01M6JS3PGEDRHTDP997YMQWCPX"
     },
     {
       "id": "ep345",
       "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
-      "call_id": "fc-01M6JM7R33T2VBFA9BV2VDV87Z"
-    },
-    {
-      "id": "ep346",
-      "topic": "GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye",
-      "call_id": "fc-01M6JM7SAZYSQDMEYZZ7PDGYWQ"
+      "call_id": "fc-01M6JS3Q6MJSZ0VM6GC4DKC31S"
     },
     {
       "id": "ep347",
       "topic": "Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter",
-      "call_id": "fc-01M6JM7SXW8AYDAY36AEETSQ92"
+      "call_id": "fc-01M6JS3QX3W20KK45RJXM79JV0"
     },
     {
       "id": "ep349",
       "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "call_id": "fc-01M6JM7TGZ6WF1BJ34SANG9FR1"
+      "call_id": "fc-01M6JS3S3BVBZVZS3WBGKP1A4S"
     },
     {
       "id": "ep350",
       "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "call_id": "fc-01M6JM7V4JK1C9HZ0QHHQGQQAH"
+      "call_id": "fc-01M6JS3SSFRMD9NAE4Z32RJRSC"
     },
     {
       "id": "ep351",
       "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "call_id": "fc-01M6JM7VR94JDPAB7WNAR0TH6K"
+      "call_id": "fc-01M6JS3TFQVZBC0H3ZZ29KFN49"
     },
     {
       "id": "ep352",
       "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "call_id": "fc-01M6JM7WBHF4Y36HSSHFBNP1DF"
+      "call_id": "fc-01M6JS3V61ANSFVYW914MTXKAV"
     },
     {
       "id": "ep353",
       "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "call_id": "fc-01M6JM7WZ4XEKKCXDHA00BG5HG"
+      "call_id": "fc-01M6JS3WDF1B63ENADR7G0XMAZ"
     }
   ],
   "in_cloud": [
     {
       "id": "ep343",
       "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "spawned_at": "2026-11-04T12:04:09+05:30"
+      "spawned_at": "2026-11-04T13:29:20+05:30"
     },
     {
       "id": "ep344",
       "topic": "CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered",
-      "spawned_at": "2026-11-04T12:04:10+05:30"
+      "spawned_at": "2026-11-04T13:29:21+05:30"
     },
     {
       "id": "ep345",
       "topic": "3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids",
-      "spawned_at": "2026-11-04T12:04:11+05:30"
-    },
-    {
-      "id": "ep346",
-      "topic": "GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye",
-      "spawned_at": "2026-11-04T12:04:12+05:30"
+      "spawned_at": "2026-11-04T13:29:22+05:30"
     },
     {
       "id": "ep347",
       "topic": "Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter",
-      "spawned_at": "2026-11-04T12:04:13+05:30"
+      "spawned_at": "2026-11-04T13:29:23+05:30"
     },
     {
       "id": "ep349",
       "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "spawned_at": "2026-11-04T12:04:13+05:30"
+      "spawned_at": "2026-11-04T13:29:24+05:30"
     },
     {
       "id": "ep350",
       "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "spawned_at": "2026-11-04T12:04:14+05:30"
+      "spawned_at": "2026-11-04T13:29:25+05:30"
     },
     {
       "id": "ep351",
       "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "spawned_at": "2026-11-04T12:04:15+05:30"
+      "spawned_at": "2026-11-04T13:29:25+05:30"
     },
     {
       "id": "ep352",
       "topic": "Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies",
-      "spawned_at": "2026-11-04T12:04:15+05:30"
+      "spawned_at": "2026-11-04T13:29:26+05:30"
     },
     {
       "id": "ep353",
       "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "spawned_at": "2026-11-04T12:04:16+05:30"
+      "spawned_at": "2026-11-04T13:29:27+05:30"
     }
   ],
-  "published": [],
+  "published": [
+    {
+      "id": "ep346",
+      "title": "The Star You Could See 7.5 Billion Light-Years Away",
+      "due_at": "2026-11-04T19:00:00-05:00"
+    }
+  ],
   "live": 84,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 0,
-    "by_model": {},
+    "calls": 14,
+    "by_model": {
+      "gemini-3-flash-preview": 2,
+      "gemini-3.5-flash-lite": 10,
+      "gemini-3.6-flash": 2
+    },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 0,
+    "modal": 13,
     "runner": 0
   },
   "daily_done": "2026-11-03",
-  "minutes_this_month": 6.0925011205,
+  "minutes_this_month": 9.260633753666667,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 1.69,
+    "metered": 2.06,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 219,
+    "cloud": 216,
     "runner": 6,
     "runner_minutes": 120,
-    "modal_credit_left": 26.31
+    "modal_credit_left": 25.94
   },
-  "starved": 1,
+  "starved": 0,
   "made_here": 0,
   "open_topics": 32,
   "parked_topics": 58

@@ -1,0 +1,55 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-04T12:07:30+05:30",
+      "check": {
+        "duration": 25.87,
+        "words": 76,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.5,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "The hook statement is somewhat generic and the on-screen text introduces 300 Gs before beat 2 mentions it.",
+        "clarity": "Using technical terms like 'in situ analysis' without explanation confuses casual viewers.",
+        "payoff": "The twist that the probe was destroyed high in the clouds before reaching the surface is a solid payoff.",
+        "visuals": "Beat 5 shows an Earth radio telescope with a picnic area rather than space probe atmospheric data collection.",
+        "loop": "Beat 7 duplicates Beat 1 nearly word-for-word, creating a jarring restart rather than a seamless loop."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows a ground-based radio dish antenna on Earth with park benches instead of the probe in Venus atmosphere."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Change text graphic to 'VENUS ATMOSPHERIC ENTRY' to align with the opening audio line.",
+        "Beat 5: Change 'perform in situ analysis' to 'transmit data from inside another planet's atmosphere'.",
+        "Beat 7: Change to 'And that is what happened when...' so it seamlessly leads back into Beat 1."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

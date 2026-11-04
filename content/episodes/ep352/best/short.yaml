@@ -1,0 +1,155 @@
+id: ep352
+title: The Probe That Fell Into Venus
+series: Mission Files
+format: v3
+description: Discover how the Soviet Venera 4 probe survived a brutal entry into the crushing atmosphere of Venus in 1967.
+sources:
+- https://en.wikipedia.org/wiki/Venera_4
+- https://www.scientificamerican.com/article/venus-ussr-1967-mission/
+- https://blogs.esa.int/venustransit/venus-exploration-timeline-transit-of-venus-blog.html
+- https://en.wikipedia.org/wiki/Venera_program
+- http://news.bbc.co.uk/onthisday/hi/dates/stories/october/18/newsid_4082000/4082373.stm
+hashtags:
+- '#space'
+- '#venus'
+- '#nasa'
+tags:
+- Venera 4
+- Venus atmosphere
+- Soviet space program
+- planet entry
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A space probe slammed into the crushing skies of Venus.
+  emphasis:
+  - crushing skies
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/18/Venus_-_May_18_2016_%2839575655862%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Venus - May 18 2016 (39575655862).jpg
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Venus_-_May_18_2016_(39575655862).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: During atmospheric entry, cabin deceleration reached 300 Gs.
+  emphasis:
+  - 300 Gs
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Venera_4_%28MMA_2011%29_%281%29.JPG/1920px-Venera_4_%28MMA_2011%29_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Venera 4 (MMA 2011) (1).JPG
+      credit: Armael
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Venera_4_(MMA_2011)_(1).JPG
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 300 Gs
+      small: Cabin deceleration
+- text: Its heat shield endured temperatures soaring up to 11,000 degrees Celsius.
+  emphasis:
+  - 11,000 degrees Celsius
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Artemis_I_Orion_heat_shield.jpg/3840px-Artemis_I_Orion_heat_shield.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artemis I Orion heat shield.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artemis_I_Orion_heat_shield.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 11,000 C
+      small: Heat shield temperature
+- text: The probe deployed its parachute at an altitude of about 52 kilometers.
+  emphasis:
+  - 52 kilometers
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 52 km
+      small: Parachute deployment altitude
+    motion: zoom_in
+- text: It became the first successful spacecraft to perform in situ analysis.
+  emphasis:
+  - first successful spacecraft
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://live.staticflickr.com/3619/3614254573_c78d17ae22_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: Lovell Radio Telescope, Jodrell Bank
+      credit: tom_bullock
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/22206162@N03/3614254573
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Subsequent analysis proved the hull was crushed before reaching the surface.
+  emphasis:
+  - crushed before reaching the surface
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Venus_globe.jpg/3840px-Venus_globe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Venus globe.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Venus_globe.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That is how a space probe slammed into the crushing skies of Venus.
+  emphasis:
+  - space probe
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 300 GS OF DECELERATION

@@ -1,0 +1,58 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-04T12:12:53+05:30",
+      "check": {
+        "duration": 29.3,
+        "words": 78,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing premise with effective on-screen text.",
+        "clarity": "Logical progression from problem to solution.",
+        "payoff": "Informative conclusion but lacks a dramatic twist.",
+        "visuals": "Some frames are off-topic or low quality.",
+        "loop": "Seamless transition between final and first lines."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Generic infographic showing size comparisons, unrelated to camera reprogramming."
+        },
+        {
+          "beat": 7,
+          "problem": "Asteroid photo does not visualize the ion engine runtime mentioned."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: This makeshift eye guided it to a comet flyby years later."
+      ],
+      "better_than_last": "Stronger narrative tension regarding mission failure than ep268.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

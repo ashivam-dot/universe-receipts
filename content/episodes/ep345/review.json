@@ -1,0 +1,55 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-04T12:06:00+05:30",
+      "check": {
+        "duration": 26.77,
+        "words": 68,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [
+          "'phaethon' heard as 'phaeton' after 'asteroid'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong text overlay and proximity fact grab attention immediately.",
+        "clarity": "Concepts of solar heating and meteor origins are explained clearly.",
+        "payoff": "The revelation about sodium gas is a high-quality scientific twist.",
+        "visuals": "Critical error in beat 3 showing the wrong asteroid's orbit.",
+        "loop": "The current ending does not connect syntactically to the start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The frame shows the orbit of asteroid 2014 DX110 instead of Phaethon."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Scientists call this amazing baking rock"
+      ],
+      "better_than_last": "The scientific reveal regarding the composition of the tail provides a more compelling payoff than the trivia in episode 268.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

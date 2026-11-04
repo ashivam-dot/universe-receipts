@@ -1,0 +1,159 @@
+id: ep345
+title: The Asteroid That Bakes Like a Comet
+series: Space Got Weird
+format: v3
+description: Discover how asteroid 3200 Phaethon gets close enough to the Sun to bake and create the Geminid meteor shower.
+sources:
+- https://en.wikipedia.org/wiki/3200_Phaethon
+- https://communities.springernature.com/posts/perihelion-paradox-of-3200-phaethon-the-unique-asteroid-which-behaves-like-a-comet
+- https://earthsky.org/astronomy-essentials/rock-comet-3200-phaethon-geminid-meteor-shower/
+- https://minorplanetcenter.net/db_search/show_object?object_id=3200
+- https://www.nasa.gov/solar-system/asteroids-comet-like-tail-is-not-made-of-dust-solar-observatories-reveal/
+- https://arxiv.org/abs/2610.29383
+- https://web.archive.org/web/20170811104002/https://voices.nationalgeographic.org/2010/10/12/geminids_meteor_shower_driven_by_exploding_clays/
+hashtags:
+- '#space'
+- '#asteroid'
+- '#nasa'
+tags:
+- 3200 Phaethon
+- Geminids
+- astronomy
+- meteor shower
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Asteroid Phaethon orbits closer to the Sun than Mercury.
+  emphasis:
+  - closer to the Sun
+  - Mercury
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/PIA22185.tif/lossy-page1-1280px-PIA22185.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA22185.tif
+      credit: Arecibo Observatory/NASA/NSF
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA22185.tif
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Its barren rocky surface bakes up to 750 degrees Celsius.
+  emphasis:
+  - 750 degrees Celsius
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Privately_owned_meteorite_-_NWA_13887.jpg/1920px-Privately_owned_meteorite_-_NWA_13887.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Privately owned meteorite - NWA 13887.jpg
+      credit: Ahmad Fairuz
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Privately_owned_meteorite_-_NWA_13887.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 750 C
+      small: Surface temperature
+- text: That intense extreme heat physically cracks the rock apart.
+  emphasis:
+  - cracks the rock apart
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Asteroid2014DX110-NEO-NearEarthFlyby-20140305.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Scientists long thought solar dust created the annual Geminids.
+  emphasis:
+  - solar dust
+  - Geminids
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Gemenids_%2853402544230%29.png/1280px-Gemenids_%2853402544230%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Gemenids (53402544230).png
+      credit: Šime Barešić from Drage, Croatia
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Gemenids_(53402544230).png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Then NASA observatories revealed the tail is actually sodium gas.
+  emphasis:
+  - sodium gas
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/STEREO_spacecraft_model_2.png/1280px-STEREO_spacecraft_model_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STEREO spacecraft model 2.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STEREO_spacecraft_model_2.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Sodium gas
+      small: Tail composition
+- text: Since gas cannot form meteors, the true origin remains a complete mystery.
+  emphasis:
+  - true origin
+  - complete mystery
+  visual:
+    reuse: 5
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This amazing baking rock is what created the Geminids.
+  emphasis:
+  - baking rock
+  - Geminids
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: AN ASTEROID BAKES NEAR THE SUN
