@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-04T23:06:27+05:30",
-  "day": 34,
+  "updated_at": "2026-11-05T05:06:35+05:30",
+  "day": 35,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6KT1VZX6ABK5GFYE5QTVBMR",
+    "id": "ta-01M6MEMZDXFG43M6BTV8MBXY3R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-04T23:05:14+05:30",
-    "started_at_utc": "2026-11-04T17:35:14+00:00",
-    "seconds": 73
+    "started_at": "2026-11-05T05:05:19+05:30",
+    "started_at_utc": "2026-11-04T23:35:19+00:00",
+    "seconds": 76
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.6
+      "seconds": 1.9
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "88 posts",
-      "seconds": 1.5
+      "seconds": 2.6
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.8
+      "seconds": 4.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -46,13 +46,13 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 3.7
+      "seconds": 4.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep343 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep344 rejected (low scores: payoff, visuals); ep349 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep350 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', '",
-      "seconds": 24.9
+      "detail": "ep343 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep349 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep350 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', '",
+      "seconds": 23.0
     },
     {
       "name": "buffer channel",
@@ -64,55 +64,55 @@
       "name": "preflight ep346",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.3
     },
     {
       "name": "preflight ep347",
       "ok": true,
-      "detail": "video downloads whole (14 MB in 1 s)",
-      "seconds": 1.5
+      "detail": "video still hosted",
+      "seconds": 0.6
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 1.8
+    },
+    {
+      "name": "start ep343",
+      "ok": true,
+      "detail": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
+      "seconds": 1.9
+    },
+    {
+      "name": "start ep349",
+      "ok": true,
+      "detail": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
+      "seconds": 2.2
+    },
+    {
+      "name": "start ep350",
+      "ok": true,
+      "detail": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
+      "seconds": 1.1
+    },
+    {
+      "name": "start ep351",
+      "ok": true,
+      "detail": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
+      "seconds": 1.1
+    },
+    {
+      "name": "start ep353",
+      "ok": true,
+      "detail": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
+      "seconds": 1.0
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
       "seconds": 1.7
-    },
-    {
-      "name": "start ep343",
-      "ok": true,
-      "detail": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "seconds": 2.5
-    },
-    {
-      "name": "start ep349",
-      "ok": true,
-      "detail": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep350",
-      "ok": true,
-      "detail": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep351",
-      "ok": true,
-      "detail": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep353",
-      "ok": true,
-      "detail": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "seconds": 1.2
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 1.6
     }
   ],
   "errors": [],
@@ -171,12 +171,6 @@
       "overloaded": false
     },
     {
-      "id": "ep344",
-      "outcome": "rejected",
-      "topic": "CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered",
-      "reason": "low scores: payoff, visuals"
-    },
-    {
       "id": "ep349",
       "outcome": "unfinished",
       "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
@@ -213,54 +207,54 @@
     {
       "id": "ep343",
       "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "call_id": "fc-01M6KT43G3N3EXG590TM1X0Q4M"
+      "call_id": "fc-01M6MEQG2P9XB8BRBCVCDFTN49"
     },
     {
       "id": "ep349",
       "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "call_id": "fc-01M6KT44NGBHKB7CXYYBRXM160"
+      "call_id": "fc-01M6MEQJ60WXERVJNABEAHFHZY"
     },
     {
       "id": "ep350",
       "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "call_id": "fc-01M6KT45W5K83QVW169ADETG3R"
+      "call_id": "fc-01M6MEQK8R5VMYSATPFHKCM9GJ"
     },
     {
       "id": "ep351",
       "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "call_id": "fc-01M6KT46TMZ2FEJMYYG7QASGXR"
+      "call_id": "fc-01M6MEQMA19Z6PQNAWQJVBCWYK"
     },
     {
       "id": "ep353",
       "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "call_id": "fc-01M6KT480ZFQ7V28X0VQMNF9BB"
+      "call_id": "fc-01M6MEQNATQSESMV7ANGSHSHX7"
     }
   ],
   "in_cloud": [
     {
       "id": "ep343",
       "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "spawned_at": "2026-11-04T23:06:17+05:30"
+      "spawned_at": "2026-11-05T05:06:24+05:30"
     },
     {
       "id": "ep349",
       "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "spawned_at": "2026-11-04T23:06:19+05:30"
+      "spawned_at": "2026-11-05T05:06:27+05:30"
     },
     {
       "id": "ep350",
       "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "spawned_at": "2026-11-04T23:06:20+05:30"
+      "spawned_at": "2026-11-05T05:06:28+05:30"
     },
     {
       "id": "ep351",
       "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "spawned_at": "2026-11-04T23:06:21+05:30"
+      "spawned_at": "2026-11-05T05:06:29+05:30"
     },
     {
       "id": "ep353",
       "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "spawned_at": "2026-11-04T23:06:22+05:30"
+      "spawned_at": "2026-11-05T05:06:30+05:30"
     }
   ],
   "published": [],
@@ -268,29 +262,27 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 2,
-    "by_model": {
-      "gemini-3-flash-preview": 2
-    },
+    "calls": 0,
+    "by_model": {},
     "out_of_quota": []
   },
   "renders": {
-    "modal": 7,
+    "modal": 5,
     "runner": 0
   },
   "daily_done": "2026-11-04",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 2.73,
+    "metered": 2.88,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 210,
+    "cloud": 209,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 25.27
+    "modal_credit_left": 25.12
   },
   "starved": 0,
   "made_here": 0,
