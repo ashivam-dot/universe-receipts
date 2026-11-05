@@ -1,0 +1,153 @@
+id: ep355
+title: The Comet Panic of 1910
+series: Space Myths, Busted
+format: v3
+description: When astronomers found poison gas in Halley's Comet, people panicked and bought comet pills for an apocalypse
+  that never happened.
+sources:
+- https://livelyhistory.com/articles/halley-comet-panic-1910
+- https://www.spacedaily.com/t-halley-comet-1910-cyanogen-pills-inhalers-insurance/
+- https://www.sciencehistory.org/stories/magazine/the-comet-panic-of-1910-revisited/
+- https://allthatsinteresting.com/halleys-comet-1910
+- https://deadlycurious.com/articles/halley-comet-panic-1910/
+hashtags:
+- '#space'
+- '#halleyscomet'
+- '#astronomy'
+tags:
+- Halley's Comet
+- 1910 panic
+- cyanogen
+- comet pills
+- space history
+- astronomy
+- myths
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A comet's poisonous tail nearly sparked a global panic.
+  emphasis:
+  - poisonous tail
+  - global panic
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/88/EB1911_-_Comet_Fig._4.%E2%80%94Halley%E2%80%99s_Comet%2C_1910.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: EB1911 - Comet Fig. 4.—Halley’s Comet, 1910.jpg
+      credit: Edward Emerson Barnard
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:EB1911_-_Comet_Fig._4.%E2%80%94Halley%E2%80%99s_Comet,_1910.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers detected cyanogen gas hiding inside the glowing tail.
+  emphasis:
+  - cyanogen gas
+  - glowing tail
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/PSM_V60_D306_The_forty_inch_telescope_of_the_yerkes_observatory.png/1280px-PSM_V60_D306_The_forty_inch_telescope_of_the_yerkes_observatory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PSM V60 D306 The forty inch telescope of the yerkes observatory.png
+      credit: Unknown authorUnknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PSM_V60_D306_The_forty_inch_telescope_of_the_yerkes_observatory.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Cyanogen gas
+      small: Found in comet
+- text: Newspapers warned the poison gas would snuff out all life.
+  emphasis:
+  - snuff out all life
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/20/Mark_Twain_called_by_death.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mark Twain called by death.jpg
+      credit: The San Francisco call (San Francisco [Calif.]), April 22, 1910
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mark_Twain_called_by_death.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Hucksters quickly sold fake comet pills and gas masks.
+  emphasis:
+  - fake comet pills
+  - gas masks
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Comet pills
+      small: Sold to panic buyers
+    motion: zoom_in
+- text: Families sealed their windows and doors with wet towels.
+  emphasis:
+  - sealed their windows
+  - wet towels
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/View_on_the_back_of_the_exterior_of_the_Old_Observatory_Leiden_at_the_Sterrewachtlaan_11_in_Leiden%2C_AHM-F-6059-1786.tiff/lossy-page1-3840px-View_on_the_back_of_the_exterior_of_the_Old_Observatory_Leiden_at_the_Sterrewachtlaan_11_in_Leiden%2C_AHM-F-6059-1786.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: View on the back of the exterior of the Old Observatory Leiden at the Sterrewachtlaan 11 in Leiden, AHM-F-6059-1786.tiff
+      credit: AnonymousUnknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:View_on_the_back_of_the_exterior_of_the_Old_Observatory_Leiden_at_the_Sterrewachtlaan_11_in_Leiden,_AHM-F-6059-1786.tiff
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Earth glided right through the tail with zero harmful effects.
+  emphasis:
+  - zero harmful effects
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Zero effects
+      small: Earth survived
+    motion: zoom_in
+- text: That is how a celestial visitor nearly triggered widespread worldwide panic.
+  emphasis:
+  - celestial visitor
+  - widespread worldwide panic
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: POISON GAS IN SPACE

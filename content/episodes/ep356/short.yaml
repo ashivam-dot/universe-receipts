@@ -1,0 +1,173 @@
+id: ep356
+title: Earth's vanishing act
+series: Scale Breaker
+format: v3
+description: Voyager 1 captured our entire world as a single, tiny pixel from over four billion miles away.
+sources:
+- https://en.wikipedia.org/wiki/Pale_Blue_Dot
+- https://science.nasa.gov/earth/10-things-you-might-not-know-about-voyagers-famous-pale-blue-dot-photo/
+- https://www.planetary.org/worlds/pale-blue-dot
+- https://www.scientificamerican.com/blog/observations/how-the-celebrated-pale-blue-dot-image-came-to-be/
+- https://www.bbc.com/news/science-environment-51491471
+- http://www.space.com/1280-earthly-view-mars.html
+hashtags:
+- '#space'
+- '#voyager1'
+- '#earth'
+tags:
+- Voyager 1
+- Pale Blue Dot
+- Carl Sagan
+- Solar System
+- Astronomy
+- Space exploration
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Earth appears as a tiny, invisible speck from deep space.
+  emphasis:
+  - invisible speck
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/71/PaleBlueDot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PaleBlueDot.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PaleBlueDot.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.35
+- text: Astronomer Carl Sagan pushed for a portrait from six billion kilometers away.
+  emphasis:
+  - Carl Sagan
+  - six billion kilometers
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Planetary_society2.jpg/1280px-Planetary_society2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Planetary society2.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Planetary_society2.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.45
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 6 billion km
+      small: Distance of the shot
+- text: Engineers feared the sun's glare would destroy the spacecraft's sensitive cameras.
+  emphasis:
+  - feared
+  - destroy
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Voyager_instruments_boom.jpg/960px-Voyager_instruments_boom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager instruments boom.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_instruments_boom.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They finally relented, letting the probe look back at our home.
+  emphasis:
+  - relented
+  - look back
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/28/Voyager_Portrait_Family_diagram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager Portrait Family diagram.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_Portrait_Family_diagram.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.3
+    focus_y: 0.3
+    card:
+      kind: dateline
+      big: February 14, 1990
+      small: Voyager 1
+- text: Our world is just 0.12 of a pixel in the frame.
+  emphasis:
+  - 0.12 of a pixel
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/73/Pale_Blue_Dot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Pale Blue Dot.png
+      credit: Voyager 1
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.55
+    focus_y: 0.55
+    card:
+      kind: fact
+      big: 0.12 pixels
+      small: Size of Earth
+- text: Light from the shot took over five hours to reach us.
+  emphasis:
+  - five hours
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d6/Goldstone_Deep_Space_Network.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Goldstone Deep Space Network.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Goldstone_Deep_Space_Network.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The entire solar system is invisible without special optics from deep space.
+  emphasis:
+  - invisible
+  - special optics
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.35
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

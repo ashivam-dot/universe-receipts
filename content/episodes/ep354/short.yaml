@@ -1,0 +1,184 @@
+id: ep354
+title: The Spacecraft That Bounced
+series: Mission Files
+format: v3
+description: When the Philae probe reached a comet, its harpoons failed, sending it on a wild two-hour flight into the shadows.
+sources:
+- https://en.wikipedia.org/wiki/Philae_(spacecraft)
+- https://www.jpl.nasa.gov/news/rosettas-comet-lander-landed-three-times/
+- https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Philae_s_extraordinary_comet_landing_relived
+- https://www.planetary.org/articles/11120821-philae-has-landed
+- https://www.space.com/34254-rosetta-crash-lands-on-comet-mission-ends.html
+- https://www.bbc.com/news/science-environment-30034060
+hashtags:
+- '#space'
+- '#philae'
+- '#esa'
+tags:
+- comet
+- spacecraft
+- exploration
+- rosetta
+- philae
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A space probe bounced off a comet like a ball.
+  emphasis:
+  - bounced off a comet
+  - like a ball
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Philae_over_a_comet.jpg/1280px-Philae_over_a_comet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Philae over a comet.jpg
+      credit: DLR, CC-BY 3.0
+      license: CC BY 3.0 de
+      url: https://commons.wikimedia.org/wiki/File:Philae_over_a_comet.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The lander Philae tried to stick humanity's first-ever comet landing.
+  emphasis:
+  - Philae
+  - first-ever comet landing
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Rosetta_and_philae.jpg/1280px-Rosetta_and_philae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Rosetta and philae.jpg
+      credit: DLR, CC-BY 3.0
+      license: CC BY 3.0 de
+      url: https://commons.wikimedia.org/wiki/File:Rosetta_and_philae.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: November 2014
+      small: Comet 67P
+- text: Both its anchoring harpoons and its downward thrusters failed.
+  emphasis:
+  - harpoons
+  - failed
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ein_Modell_von_Philae_-_A_model_of_Philae_%2814225938481%29.jpg/3840px-Ein_Modell_von_Philae_-_A_model_of_Philae_%2814225938481%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ein Modell von Philae - A model of Philae (14225938481).jpg
+      credit: DLR German Aerospace Center
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Ein_Modell_von_Philae_-_A_model_of_Philae_(14225938481).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Instead of grabbing the ice, the craft shot 1 kilometer high.
+  emphasis:
+  - 1 kilometer high
+  sfx: pop
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 1 KILOMETER
+      small: rebound altitude
+    motion: zoom_in
+- text: It tumbled for two hours before hitting the comet a second time.
+  emphasis:
+  - tumbled
+  - two hours
+  sfx: riser
+  visual:
+    source: url
+    url: https://live.staticflickr.com/268/32755885495_55786800f4_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: 67P/Churyumov-Gerasimenko - Rosetta
+      credit: jccwrt
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/132160802@N06/32755885495
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Philae finally wedged itself sideways inside a freezing cliff shadow.
+  emphasis:
+  - wedged itself sideways
+  - cliff shadow
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/PIA21565_-_Rosetta%27s_Moving_Cometary_Boulder.jpg/1920px-PIA21565_-_Rosetta%27s_Moving_Cometary_Boulder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA21565 - Rosetta's Moving Cometary Boulder.jpg
+      credit: ESA/Rosetta/MPS for OSIRIS Team MPS/UPD/LAM/IAA/SSO/INTA/UPM/DASP/IDA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA21565_-_Rosetta%27s_Moving_Cometary_Boulder.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Cut off from the sun, the probe worked for only 64 hours.
+  emphasis:
+  - 64 hours
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Rosetta%27s_Philae_on_Comet_67P_Churyumov-Gerasimenko.jpg/1280px-Rosetta%27s_Philae_on_Comet_67P_Churyumov-Gerasimenko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Rosetta's Philae on Comet 67P Churyumov-Gerasimenko.jpg
+      credit: DLR, CC-BY 3.0
+      license: CC BY 3.0 de
+      url: https://commons.wikimedia.org/wiki/File:Rosetta%27s_Philae_on_Comet_67P_Churyumov-Gerasimenko.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.6
+    focus_y: 0.6
+    card:
+      kind: fact
+      big: 64 HOURS
+      small: until hibernation
+- text: The billion-dollar robot was a lab that bounced like a ball.
+  emphasis:
+  - billion-dollar robot
+  - bounced like a ball
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE COMET BOUNCE

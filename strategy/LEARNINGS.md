@@ -14,7 +14,7 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 | Average percentage viewed | `analytics.averageViewPercentage` | 84.4% | 80%+ (loops can push it past 100%) |
 | Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 132% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
-| Likes per 100 views | `likes` / `views` | 2.3 | 4+ |
+| Likes per 100 views | `likes` / `views` | 2.2 | 4+ |
 
 ## Rules we've proven
 
@@ -38,13 +38,13 @@ each promoted on two Shorts; their evidence is kept below.)
 
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
-- End scripts with a curiosity-gap question or debate prompt (e.g., 'how does it actually grow?') to convert high views into comments (ep262, 263, 265, 266).
-- Myth-busting reach (e.g., ep266) is now dependent on the scale of the subject rather than the myth's popularity.
-- In hazard hooks, replace abstract metric measurements with immediate, tangible stakes in beat 1 to capture initial audience distribution (ep208).
-- For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic (ep146, ep165).
-- One number per beat: never stack figures or dates in consecutive beats to avoid cognitive overload (ep125, ep175).
-- Deliver mechanical explanations of the hook's premise immediately and eliminate historical detours to sustain mid-video retention (ep165).
-- Compress scientific definitions into a single beat under 4 seconds to reach core resolution by the 12-second mark (ep172).
+- End scripts with an interactive curiosity-gap question or debate prompt to convert high completion rates into viewer comments and likes (ep262, ep263, ep265, ep266).
+- Myth-busting reach is dependent on the cosmic scale of the subject rather than the myth's popularity.
+- In hazard hooks, replace abstract metric measurements with immediate, tangible stakes in beat 1 to capture initial audience distribution.
+- For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic.
+- One number per beat: never stack figures or dates in consecutive beats to avoid cognitive overload.
+- Deliver mechanical explanations of the hook's premise immediately and eliminate historical detours to sustain mid-video retention.
+- Compress scientific definitions into a single beat under 4 seconds to reach core resolution by the 12-second mark.
 
 ## Scoreboard
 
@@ -96,12 +96,12 @@ contradiction.
 | ep244 | Space Myths, Busted | statement, record | 51 | 34% | 74.8% | 132% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep254 | Scale Breaker | statement, story | 1061 | 47% | 68.1% | 123% | 3 | published while YouTube held the whole channel back; not evidence |
 | ep258 | Space Myths, Busted | statement, scale_ladder | 394 | 42% | 73.7% | 120% | 1 | published while YouTube held the whole channel back; not evidence |
-| ep260 | Scale Breaker | statement, story | 1414 | 45% | 97.9% | 138% | 3 | Scale hook/topic (Voyager) drove exceptional early reach (1.3x median) and high AVP (97.9%) via strong narrative momentum. |
-| ep262 | Mission Files | statement, myth_vs_fact | 931 | 49% | 135.1% | 201% | 1 | Authority hook (NASA) secured solid early distribution; seamless loop pushed AVP to 135.1% despite weak engagement metrics. |
-| ep266 | Space Myths, Busted | contradiction, myth_vs_fact | 1146 | 50% | 105.7% | 148% | 0 | Contradiction hook about a common sight (Milky Way) achieved high At10 (1.48); looping ending maximized watch time but lacked engagement. |
-| ep265 | Space Got Weird | statement, mystery | 1379 | 55% | 76.8% | 136% | 0 | Authority hook (Apollo) drove strong early reach (1379 views); high mystery retention didn't convert into likes or subs. |
-| ep263 | Space Myths, Busted | contradiction, record | 1065 | 50% | 83.8% | 126% | 0 | Myth-busting hook worked for reach (1065 views), but middle-beat pacing felt like a list, hurting interaction (2.2 likes/100). |
-| ep268 | Space Got Weird | statement, mystery | 1060 | 49% | 101.9% | 156% | 0 | Historical mystery hook performed above median for reach; loop logic successfully kept AVP above 100%. |
+| ep260 | Scale Breaker | statement, story | 1414 | 45% | 97.9% | 138% | 3 | Cosmic scale statement hook ('Voyager 1 will die') combined with sustained story pacing achieved strong early reach (1,414 views at 24.6h vs 1,062 median) and high completion (97.93% AVP). |
+| ep262 | Mission Files | statement, myth_vs_fact | 931 | 49% | 135.1% | 201% | 1 | NASA authority hook sustained good distribution (931 views at 28.1h) with strong initial 5s loop (135.14% AVP), but passive closing pacing limited viewer comments and likes. |
+| ep266 | Space Myths, Busted | contradiction, myth_vs_fact | 1146 | 50% | 105.7% | 148% | 0 | Myth contradiction hook on sky cloud drove above-median reach (1,146 views at 29.6h) and smooth retention loop (105.66% AVP), though lack of question prompt yielded lower likes. |
+| ep265 | Space Got Weird | statement, mystery | 1379 | 55% | 76.8% | 136% | 0 | Apollo historical mystery hook pulled exceptional initial 5s retention and early reach (1,379 views at 27.1h), but summary ending left engagement metrics behind channel targets. |
+| ep263 | Space Myths, Busted | contradiction, record | 1065 | 50% | 83.8% | 126% | 0 | Black hole myth-busting hook maintained steady reach (1,065 views at 29.5h) and 83.83% AVP, though list-like middle pacing lowered like conversion (2.2 likes/100). |
+| ep268 | Space Got Weird | statement, mystery | 1060 | 49% | 101.9% | 156% | 0 | Historical mystery hook on Uranus sustained upper-tier velocity (1,060 views at 27.1h) and strong loop retention (101.92% AVP) matching channel benchmark performance. |
 
 ## Log
 
@@ -232,3 +232,4 @@ contradiction.
 - 2026-11-04: Updated learning log with 24-hour review insights from ep260, ep262, ep266, ep265, ep263, and ep268 to refine engagement and hook strategies.
 - 2026-11-04: Integrated five new Shorts (ep260-268) and promoted the Authority Anchoring rule based on a 350-view reach advantage.
 - 2026-11-05: Updated Rule 3 and Hypothesis 1 following high-retention/low-engagement results for ep262-268 to prioritize loop-based AVP and interaction conversion.
+- 2026-11-05: Reviewed performance for ep260-ep268; retained existing rules while refining hypotheses on ending script prompts to improve engagement conversion.

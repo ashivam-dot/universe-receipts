@@ -67,6 +67,10 @@ unexplained, not alien.
 | 2026-11-03 | Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory — parked (ep334) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
 | 2026-11-03 | Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names — parked (ep329) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
 | 2026-11-03 | Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models — parked (ep330) | Scale Breaker | Trending on NASA news this week with new Hubble findings on dwarf galaxies. |
+| 2026-11-05 | SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes — making (ep358) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
+| 2026-11-05 | SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
+| 2026-11-05 | IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear | Space Got Weird | Featured in NASA's Astronomy Picture of the Day on November 4. |
+| 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -74,6 +78,7 @@ unexplained, not alien.
 |---|---|---|
 | Dec 3 | Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot | Mission Files |
 | Dec 4 | Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball | Mission Files |
+| Dec 4 | Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat | Mission Files |
 | Dec 15 | Gemini 6A (1965): on Dec 15, NASA pulled off the first crewed spacecraft rendezvous, maneuvering within one foot of another capsule at 17,000 mph | Near Misses |
 | Dec 21 | Apollo 8 (1968): on this day, the first humans to ever leave Earth orbit entered lunar gravity and broadcast Christmas Eve from space | Mission Files |
 | Dec 25 | James Webb Space Telescope (2021): on Christmas Day, NASA launched a $10 billion observatory into deep space to look back to the beginning of time | Mission Files |
@@ -239,7 +244,7 @@ unexplained, not alien.
 - Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — parked (ep278)
 - James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — parked (ep302)
 - Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — parked (ep303)
-- Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols
+- Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — making (ep360)
 
 ### Space Got Weird
 
@@ -280,6 +285,8 @@ unexplained, not alien.
 - Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself — parked (ep274)
 - Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness — parked (ep298)
 - Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers — making (ep357)
+- Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water — making (ep359)
+- Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon — making (ep361)
 
 ### Near Misses
 
