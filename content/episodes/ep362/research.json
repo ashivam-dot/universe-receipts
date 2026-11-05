@@ -1,0 +1,236 @@
+{
+  "viable": true,
+  "reason": "13 distinct claims are supported by at least two independent sites, including the identification of the magnetar, the specifics of the 1998 flare, and the discovery of the stable infrared ring.",
+  "story": "A dead star known as SGR 1900+14 is a magnetic monster lurking 20,000 light-years away. This 'magnetar' is a neutron star with a magnetic field trillions of times stronger than Earth’s. On August 27, 1998, it experienced a massive eruption so intense that it overwhelmed satellite sensors across our solar system. Even the shielded Rossi X-ray Timing Explorer was flooded with radiation. This blast was a giant flare—likely caused by a massive disruption of the star's crust—releasing a burst of energy that left the object emitting a pulsating tail as it spun every 5.16 seconds. Years later, NASA’s Spitzer Space Telescope discovered a mysterious 'ring of fire' seven light-years wide surrounding the star. This stationary ring is believed to be a permanent scar from the magnetar's violent past, proving that even the most distant stars can scream loud enough for the entire galaxy to hear.",
+  "angle": "A starquake 20,000 light-years away was so powerful it saturated satellite detectors throughout our solar system and left a permanent seven-light-year-wide ring of fire in its wake.",
+  "claims": [
+    {
+      "claim": "SGR 1900+14 is a soft gamma repeater (SGR) located in our galaxy.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "SGR 1900+14 is a magnetar, an intensely magnetic type of neutron star.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The magnetar's magnetic field is trillions of times more intense than the magnetic field of Earth.",
+      "sources": [
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A massive giant flare or burst was detected from the star on August 27, 1998.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The 1998 burst was so intense that it caused the detectors of multiple satellites to saturate or receive unusually strong signals.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "The Rossi X-ray Timing Explorer (RXTE) detected the burst despite the intensity of the event.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The star has a rotation period of 5.16 seconds.",
+      "sources": [
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The giant flare was followed by a long pulsating tail of radiation lasting hundreds of seconds.",
+      "sources": [
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "SGR 1900+14 is associated with the supernova remnant G42.8+0.6.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA's Spitzer Space Telescope discovered a mysterious infrared ring around the magnetar.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The infrared ring measures approximately seven light-years across.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The ring remained stationary and showed no discernible change between observations in 2005 and 2007.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Magnetars like SGR 1900+14 are formed from the core-collapse of massive stars at least eight times the mass of the sun.",
+      "sources": [
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The distance to SGR 1900+14 is disputed, with Wikipedia citing 20,000 light-years and NRAO citing 15,000 light-years; the script should use 'about 20,000 light-years' or mention the proximity to the galactic plane.",
+    "The ionization of Earth's atmosphere is only detailed in Wikipedia, whereas scientific sources focus on satellite saturation; the script should focus on the impact on space-based sensors for better attribution.",
+    "The origin of the Spitzer ring is labeled as 'unknown' in Wikipedia but as 'formed by a powerful flare' in the Newswise report; the script should attribute the flare theory to the Spitzer research team."
+  ],
+  "visuals": [
+    {
+      "subject": "The mysterious infrared ring around SGR 1900+14",
+      "queries": [
+        "SGR 1900+14 Spitzer Space Telescope infrared ring",
+        "magnetar ring Spitzer"
+      ]
+    },
+    {
+      "subject": "Artist's concept of a magnetar and its intense magnetic field lines",
+      "queries": [
+        "magnetar magnetic field artist illustration NASA",
+        "neutron star magnetic field lines"
+      ]
+    },
+    {
+      "subject": "The Rossi X-ray Timing Explorer (RXTE) spacecraft",
+      "queries": [
+        "Rossi X-ray Timing Explorer satellite NASA",
+        "RXTE spacecraft"
+      ]
+    },
+    {
+      "subject": "Artist's impression of a giant gamma-ray flare from a neutron star",
+      "queries": [
+        "magnetar giant flare artist impression",
+        "gamma-ray burst illustration"
+      ]
+    },
+    {
+      "subject": "NASA's Spitzer Space Telescope in orbit",
+      "queries": [
+        "Spitzer Space Telescope illustration",
+        "Spitzer spacecraft NASA"
+      ]
+    },
+    {
+      "subject": "The Ulysses spacecraft which also detected the burst",
+      "queries": [
+        "Ulysses spacecraft NASA ESA",
+        "Ulysses solar probe"
+      ]
+    },
+    {
+      "subject": "Radio image of the region around SGR 1900+14",
+      "queries": [
+        "SGR 1900+14 radio image VLA",
+        "supernova remnant G42.8 radio"
+      ]
+    },
+    {
+      "subject": "Artist's concept of a starquake on a magnetar crust",
+      "queries": [
+        "neutron star starquake artist impression",
+        "neutron star crust fracture illustration"
+      ]
+    },
+    {
+      "subject": "A map of the constellation Aquila where the star is located",
+      "queries": [
+        "Aquila constellation star map",
+        "constellation Aquila diagram"
+      ]
+    },
+    {
+      "subject": "The Very Large Array (VLA) telescopes used for radio imaging",
+      "queries": [
+        "Very Large Array radio telescopes",
+        "VLA New Mexico"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/SGR_1900%2B14",
+      "title": "SGR 1900+14",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.nature.com/articles/16199",
+      "title": "A giant periodic flare from the soft γ-ray repeater SGR1900+14 - Nature",
+      "site": "nature.com"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.nrao.edu/pr/1998/magnetar/background/",
+      "title": "Cosmic Flasher Reveals All!",
+      "site": "nrao.edu"
+    },
+    {
+      "label": "S4",
+      "url": "https://arxiv.org/abs/astro-ph/9809140",
+      "title": "Discovery of a magnetar associated with the Soft Gamma Repeater SGR 1900+14",
+      "site": "arxiv.org"
+    },
+    {
+      "label": "S5",
+      "url": "https://iopscience.iop.org/article/10.1086/322248",
+      "title": "An Unusual Burst from Soft Gamma Repeater SGR 1900+14:Comparisons with Giant Flares and Implications for the MagnetarModel",
+      "site": "iop.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.newswise.com/articles/view/541200/",
+      "title": "CSI: Milky Way Team Works Scene of Dead Star | Newswise",
+      "site": "newswise.com"
+    }
+  ],
+  "topic": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
+  "series": "The Universe Is Terrifying"
+}
