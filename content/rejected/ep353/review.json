@@ -1,0 +1,156 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-04T13:32:51+05:30",
+      "check": {
+        "duration": 27.25,
+        "words": 82,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [
+          "'communications' heard as 'communication' after 'nasa is 1st'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The striking visual and odd premise grab attention quickly.",
+        "clarity": "Logical narrative progression that is easy to follow.",
+        "payoff": "Connecting the balloon project to the CMB discovery is a strong twist.",
+        "visuals": "Historic imagery supports each beat well.",
+        "loop": "Repeats the opening phrase verbatim rather than bridging into it."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: And to think,"
+      ],
+      "better_than_last": "Ties an unusual early space program artifact directly to a Nobel-winning cosmological discovery.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-05T05:09:26+05:30",
+      "check": {
+        "duration": 26.69,
+        "words": 79,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -3.3,
+        "warnings": [],
+        "speech_differences": [
+          "'communications' heard as 'communication' after 'nasa is 1st'",
+          "'and' heard as '(nothing)' after 'the big bang'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial premise grabs attention quickly.",
+        "clarity": "Easy to follow progression of events.",
+        "payoff": "Great turn connecting a simple balloon to Big Bang audio.",
+        "visuals": "Includes text-heavy technical diagrams.",
+        "loop": "Ends smoothly to restart the opening line."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Stronger cohesive narrative arc around a single central object.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-05T05:10:53+05:30",
+      "check": {
+        "duration": 28.0,
+        "words": 79,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -2.5,
+        "warnings": [],
+        "speech_differences": [
+          "'communications' heard as 'communication' after 'nasa is 1st'",
+          "'the' heard as 'a' after 'aluminum workers packed'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening is informative but lacks a strong curiosity gap.",
+        "clarity": "Logical progression from satellite construction to scientific discovery.",
+        "payoff": "The revelation of hearing the Big Bang is effective.",
+        "visuals": "Most frames are excellent, though beat six is slightly off-topic.",
+        "loop": "The repetition of the balloon subject creates a smooth transition."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "shows a ground dish while text describes the balloon mirror"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: This giant silver balloon accidentally heard the beginning of time."
+      ],
+      "better_than_last": "Features more consistent archival footage than the Venus episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: hook, visuals",
+  "rejected_at": "2026-11-05T05:10:53+05:30"
+}

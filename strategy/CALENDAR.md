@@ -81,8 +81,8 @@ unexplained, not alien.
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury — done (ep252) | Mission Files |
 | Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar — parked (ep271) | Near Misses |
 | Nov 9 | Apollo 4 (1967): the first launch of the Saturn V rocket was so loud its shockwaves shook buildings and shattered windows miles away — parked (ep282) | Scale Breaker |
-| Nov 11 | SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging — making (ep343) | Space Myths, Busted |
-| Nov 12 | Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow | Mission Files |
+| Nov 11 | SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging — parked (ep343) | Space Myths, Busted |
+| Nov 12 | Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow — making (ep354) | Mission Files |
 | Nov 13 | Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm | Mission Files |
 | Nov 13 | 2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station | Near Misses |
 | Nov 13 | WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware | Space Got Weird |
@@ -187,7 +187,7 @@ unexplained, not alien.
 - Giant Arc (2021): a crescent of galaxies 3.3 billion light-years long that is so massive it challenges our basic understanding of cosmology — done (ep111)
 - Barnard's Star (1916): the fastest-moving star in our night sky, crossing a moon-width every 180 years — dropped (ep288)
 - Tarantula Nebula (1751): a star nursery so intensely luminous that if it were at Orion's distance, it would cast visible shadows at night — dropped (ep317)
-- Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way — making (ep349)
+- Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way — done (ep349)
 - Valles Marineris (1971): a Martian canyon system that would stretch across the entire continental United States, plunging four times deeper than the Grand Canyon — dropped (ep304)
 - Solar wind (1958): a relentless stream of charged particles tearing through the solar system at a million miles per hour — dropped (ep291)
 - Parker Solar Probe (2018): the fastest human-made craft in history plunges through the Sun's blistering outer atmosphere at over 400,000 miles per hour — done (ep161)
@@ -205,7 +205,7 @@ unexplained, not alien.
 - CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered — parked (ep344)
 - Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge — done (ep260)
 - Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth — parked (ep273)
-- Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics
+- Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics — making (ep356)
 
 ### Mission Files
 
@@ -220,7 +220,7 @@ unexplained, not alien.
 - James Webb Space Telescope (2021): 344 potential single-point failures all had to work, 930,000 miles from any repair crew — dropped (ep015)
 - Voyager 2 (1977): despite its name it launched first, two weeks before its twin Voyager 1, and is still the only probe to visit Uranus and Neptune — done (ep017)
 - Churyumov–Gerasimenko (2014): the comet smelled like rotten eggs, horse urine, and bitter almonds when we finally landed on it — done (ep084)
-- Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload — making (ep350)
+- Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload — dropped (ep350)
 - Venera 7 (1970): the first probe to transmit data from the surface of another planet, though it landed on its side and barely signaled — done (ep234)
 - Mariner 1 (1962): a missing hyphen in a line of guidance code caused NASA's first planetary probe to veer off course and be destroyed — done (ep106)
 - Genesis (spacecraft) (2004): a sample return probe crashed into the desert because its parachute switches were installed upside down — done (ep051)
@@ -233,8 +233,8 @@ unexplained, not alien.
 - Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth — done (ep190)
 - Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies — done (ep352)
 - 2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years — parked (ep337)
-- Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth — making (ep353)
-- Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands — making (ep351)
+- Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth — parked (ep353)
+- Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands — done (ep351)
 - Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — parked (ep279)
 - Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — parked (ep278)
 - James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — parked (ep302)
@@ -279,7 +279,7 @@ unexplained, not alien.
 - Uranus (1781): discoverer William Herschel originally wanted to name the newly found seventh planet after King George III — done (ep268)
 - Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself — parked (ep274)
 - Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness — parked (ep298)
-- Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers
+- Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers — making (ep357)
 
 ### Near Misses
 
@@ -352,4 +352,4 @@ unexplained, not alien.
 - Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate — parked (ep277)
 - Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — parked (ep299)
 - Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning — parked (ep301)
-- Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation
+- Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation — making (ep355)

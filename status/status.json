@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-05T05:06:35+05:30",
+  "updated_at": "2026-11-05T11:08:07+05:30",
   "day": 35,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6MEMZDXFG43M6BTV8MBXY3R",
+    "id": "ta-01M6N3858WHF23R18ETE9KFXAR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-05T05:05:19+05:30",
-    "started_at_utc": "2026-11-04T23:35:19+00:00",
-    "seconds": 76
+    "started_at": "2026-11-05T11:05:10+05:30",
+    "started_at_utc": "2026-11-05T05:35:10+00:00",
+    "seconds": 177
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.9
+      "seconds": 1.1
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "88 posts",
-      "seconds": 2.6
+      "seconds": 1.8
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 4.5
+      "detail": "added ep346 to 'The Universe Is Terrifying'",
+      "seconds": 3.4
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.4
+      "detail": "ep265 language en/None -> en",
+      "seconds": 0.6
     },
     {
       "name": "on youtube",
@@ -45,105 +45,95 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 4.5
+      "detail": "ep265 at 72 h: ahead of the channel's earlier Shorts at this age: 1699 views against a median of 967 (1.8x); ep266 at 72 h: ahead of the channel's earlier Shorts at this age: 1222 views against a median of 979 (1.2x); learnings: Updated Rule 3 and Hypothesis 1 following high-retention/low-engagement results for ep262-268 to prioritize loop-based AVP and interaction conversion.",
+      "seconds": 118.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep343 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep349 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep350 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', '",
-      "seconds": 23.0
+      "detail": "ep343 rejected (low scores: visuals); ep349 ready; ep350 rejected (low scores: visuals; 3 frame problems); ep351 ready; ep353 rejected (low scores: hook, visuals)",
+      "seconds": 12.0
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
-    },
-    {
-      "name": "preflight ep346",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.1
     },
     {
       "name": "preflight ep347",
       "ok": true,
       "detail": "video still hosted",
+      "seconds": 0.2
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 7.9
+    },
+    {
+      "name": "schedule ep349",
+      "ok": true,
+      "detail": "2026-11-08T19:00:00-05:00",
+      "seconds": 0.8
+    },
+    {
+      "name": "schedule ep351",
+      "ok": true,
+      "detail": "2026-11-09T19:00:00-05:00",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep354",
+      "ok": true,
+      "detail": "Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow",
+      "seconds": 0.7
+    },
+    {
+      "name": "start ep355",
+      "ok": true,
+      "detail": "Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep356",
+      "ok": true,
+      "detail": "Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics",
+      "seconds": 0.6
+    },
+    {
+      "name": "start ep357",
+      "ok": true,
+      "detail": "Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers",
       "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
-    },
-    {
-      "name": "start ep343",
-      "ok": true,
-      "detail": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "seconds": 1.9
-    },
-    {
-      "name": "start ep349",
-      "ok": true,
-      "detail": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "seconds": 2.2
-    },
-    {
-      "name": "start ep350",
-      "ok": true,
-      "detail": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "seconds": 1.1
-    },
-    {
-      "name": "start ep351",
-      "ok": true,
-      "detail": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "seconds": 1.1
-    },
-    {
-      "name": "start ep353",
-      "ok": true,
-      "detail": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "seconds": 1.0
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 1.7
+      "seconds": 1.6
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep343 stopped on Gemini's free quota; it resumes in a later run",
-    "ep349 stopped on Gemini's free quota; it resumes in a later run",
-    "ep350 stopped on Gemini's free quota; it resumes in a later run",
-    "ep351 stopped on Gemini's free quota; it resumes in a later run",
-    "ep353 stopped on Gemini's free quota; it resumes in a later run"
+    "only 5 Shorts made and unposted; scheduling 1 a day"
   ],
   "inventory": {
-    "total": 4,
-    "in_buffer": 4,
+    "total": 5,
+    "in_buffer": 5,
     "waiting": 0,
     "target": 14,
     "making": [],
     "remote": [
-      "ep343",
-      "ep349",
-      "ep350",
-      "ep351",
-      "ep353"
+      "ep354",
+      "ep355",
+      "ep356",
+      "ep357"
     ]
   },
   "queue": [
-    {
-      "id": "ep346",
-      "title": "The Star You Could See 7.5 Billion Light-Years Away",
-      "due_at": "2026-11-04T19:00:00-05:00"
-    },
     {
       "id": "ep347",
       "title": "The Missing Mass of Coma",
@@ -158,134 +148,160 @@
       "id": "ep352",
       "title": "The Probe That Fell Into Venus",
       "due_at": "2026-11-07T19:00:00-05:00"
+    },
+    {
+      "id": "ep349",
+      "title": "This Galaxy Makes 100 Milky Ways Look Tiny",
+      "due_at": "2026-11-08T19:00:00-05:00"
+    },
+    {
+      "id": "ep351",
+      "title": "The Blind Probe That Saved Itself",
+      "due_at": "2026-11-09T19:00:00-05:00"
     }
   ],
   "waiting": [],
   "made": [
     {
       "id": "ep343",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "reason": "low scores: visuals"
     },
     {
       "id": "ep349",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "This Galaxy Makes 100 Milky Ways Look Tiny",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793835954/universereceipts/ep349-8dd0c9f4.mp4"
     },
     {
       "id": "ep350",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "reason": "low scores: visuals; 3 frame problems"
     },
     {
       "id": "ep351",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "The Blind Probe That Saved Itself",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793835580/universereceipts/ep351-8dea2d72.mp4"
     },
     {
       "id": "ep353",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "reason": "low scores: hook, visuals"
     }
   ],
   "spawned": [
     {
-      "id": "ep343",
-      "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "call_id": "fc-01M6MEQG2P9XB8BRBCVCDFTN49"
+      "id": "ep354",
+      "topic": "Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow",
+      "call_id": "fc-01M6N3DKQ4579KQFQ6YFFASB56"
     },
     {
-      "id": "ep349",
-      "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "call_id": "fc-01M6MEQJ60WXERVJNABEAHFHZY"
+      "id": "ep355",
+      "topic": "Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation",
+      "call_id": "fc-01M6N3DMAMCMA0N2ZXJEXDY4MD"
     },
     {
-      "id": "ep350",
-      "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "call_id": "fc-01M6MEQK8R5VMYSATPFHKCM9GJ"
+      "id": "ep356",
+      "topic": "Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics",
+      "call_id": "fc-01M6N3DMXGKACY2C31P8P6KC46"
     },
     {
-      "id": "ep351",
-      "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "call_id": "fc-01M6MEQMA19Z6PQNAWQJVBCWYK"
-    },
-    {
-      "id": "ep353",
-      "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "call_id": "fc-01M6MEQNATQSESMV7ANGSHSHX7"
+      "id": "ep357",
+      "topic": "Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers",
+      "call_id": "fc-01M6N3DNGRKGSG5JDSWCBN9W32"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep343",
-      "topic": "SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging",
-      "spawned_at": "2026-11-05T05:06:24+05:30"
+      "id": "ep354",
+      "topic": "Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow",
+      "spawned_at": "2026-11-05T11:08:01+05:30"
     },
+    {
+      "id": "ep355",
+      "topic": "Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation",
+      "spawned_at": "2026-11-05T11:08:01+05:30"
+    },
+    {
+      "id": "ep356",
+      "topic": "Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics",
+      "spawned_at": "2026-11-05T11:08:02+05:30"
+    },
+    {
+      "id": "ep357",
+      "topic": "Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers",
+      "spawned_at": "2026-11-05T11:08:02+05:30"
+    }
+  ],
+  "published": [
     {
       "id": "ep349",
-      "topic": "Alcyoneus (galaxy) (2022): a colossal radio galaxy spanning 16 million light-years, making it more than 150 times wider than the Milky Way",
-      "spawned_at": "2026-11-05T05:06:27+05:30"
-    },
-    {
-      "id": "ep350",
-      "topic": "Skylab 4 (1973): astronauts staged the first strike in space by cutting off communication with mission control after a brutal workload",
-      "spawned_at": "2026-11-05T05:06:28+05:30"
+      "title": "This Galaxy Makes 100 Milky Ways Look Tiny",
+      "due_at": "2026-11-08T19:00:00-05:00"
     },
     {
       "id": "ep351",
-      "topic": "Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands",
-      "spawned_at": "2026-11-05T05:06:29+05:30"
-    },
-    {
-      "id": "ep353",
-      "topic": "Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth",
-      "spawned_at": "2026-11-05T05:06:30+05:30"
+      "title": "The Blind Probe That Saved Itself",
+      "due_at": "2026-11-09T19:00:00-05:00"
     }
   ],
-  "published": [],
-  "live": 84,
+  "live": 85,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 0,
-    "by_model": {},
-    "out_of_quota": []
+    "calls": 9,
+    "by_model": {
+      "gemini-3.6-flash": 3,
+      "gemini-3.5-flash": 2,
+      "gemini-3-flash-preview": 4
+    },
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
-    "modal": 5,
+    "modal": 6,
     "runner": 0
   },
   "daily_done": "2026-11-04",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 2.88,
+    "metered": 3.05,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 209,
+    "cloud": 208,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 25.12
+    "modal_credit_left": 24.96
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 37,
-  "parked_topics": 59
+  "open_topics": 33,
+  "parked_topics": 61
 }
