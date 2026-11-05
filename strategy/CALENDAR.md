@@ -67,10 +67,10 @@ unexplained, not alien.
 | 2026-11-03 | Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory — parked (ep334) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
 | 2026-11-03 | Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names — parked (ep329) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
 | 2026-11-03 | Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models — parked (ep330) | Scale Breaker | Trending on NASA news this week with new Hubble findings on dwarf galaxies. |
-| 2026-11-05 | SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes — making (ep358) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
-| 2026-11-05 | SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
-| 2026-11-05 | IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear | Space Got Weird | Featured in NASA's Astronomy Picture of the Day on November 4. |
-| 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
+| 2026-11-05 | SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes — dropped (ep358) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
+| 2026-11-05 | SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night — making (ep362) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
+| 2026-11-05 | IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear — making (ep364) | Space Got Weird | Featured in NASA's Astronomy Picture of the Day on November 4. |
+| 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe — making (ep363) | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -87,7 +87,7 @@ unexplained, not alien.
 | Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar — parked (ep271) | Near Misses |
 | Nov 9 | Apollo 4 (1967): the first launch of the Saturn V rocket was so loud its shockwaves shook buildings and shattered windows miles away — parked (ep282) | Scale Breaker |
 | Nov 11 | SN 1572 (1572): on this day, Tycho Brahe spotted a 'new star' so bright it cast shadows, shattering the ancient belief that the heavens were unchanging — parked (ep343) | Space Myths, Busted |
-| Nov 12 | Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow — making (ep354) | Mission Files |
+| Nov 12 | Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow — parked (ep354) | Mission Files |
 | Nov 13 | Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm | Mission Files |
 | Nov 13 | 2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station | Near Misses |
 | Nov 13 | WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware | Space Got Weird |
@@ -210,7 +210,7 @@ unexplained, not alien.
 - CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered — parked (ep344)
 - Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge — done (ep260)
 - Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth — parked (ep273)
-- Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics — making (ep356)
+- Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics — done (ep356)
 
 ### Mission Files
 
@@ -244,7 +244,7 @@ unexplained, not alien.
 - Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — parked (ep278)
 - James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — parked (ep302)
 - Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — parked (ep303)
-- Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — making (ep360)
+- Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — done (ep360)
 
 ### Space Got Weird
 
@@ -284,8 +284,8 @@ unexplained, not alien.
 - Uranus (1781): discoverer William Herschel originally wanted to name the newly found seventh planet after King George III — done (ep268)
 - Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself — parked (ep274)
 - Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness — parked (ep298)
-- Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers — making (ep357)
-- Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water — making (ep359)
+- Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers — done (ep357)
+- Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water — done (ep359)
 - Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon — making (ep361)
 
 ### Near Misses
@@ -359,4 +359,4 @@ unexplained, not alien.
 - Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate — parked (ep277)
 - Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — parked (ep299)
 - Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning — parked (ep301)
-- Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation — making (ep355)
+- Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation — done (ep355)

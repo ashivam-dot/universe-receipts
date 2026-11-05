@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-05T17:10:44+05:30",
+  "updated_at": "2026-11-05T23:06:49+05:30",
   "day": 35,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6NQVB4XJR82HGCQFAAR5J5R",
+    "id": "ta-01M6PCEH53VGGK1PF89ADT36MR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-05T17:05:09+05:30",
-    "started_at_utc": "2026-11-05T11:35:09+00:00",
-    "seconds": 335
+    "started_at": "2026-11-05T23:05:13+05:30",
+    "started_at_utc": "2026-11-05T17:35:13+00:00",
+    "seconds": 97
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 1.8
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "90 posts",
-      "seconds": 1.0
+      "seconds": 1.6
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 2.7
+      "seconds": 3.3
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep263 language en/None -> en; ep268 language en/None -> en",
-      "seconds": 0.9
+      "detail": "every live Short is in English",
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -45,56 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep346 at 6 h: ahead of the channel's earlier Shorts at this age: 1600 views against a median of 605 (2.6x)",
-      "seconds": 2.9
+      "detail": "no checkpoint due",
+      "seconds": 3.4
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep354 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep355 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep356 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', '",
-      "seconds": 10.0
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "116 subscribers",
-      "seconds": 14.8
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Reviewed performance for ep260-ep268; retained existing rules while refining hypotheses on ending script prompts to improve engagement conversion.",
-      "seconds": 165.6
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "ep346 \"The Star You Could See 7.5 Billion Light-Years Away\" broke out: 1,600 views 12 hours after going live, 41.6x the median of its peers at that age (38); queued SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding",
-      "seconds": 34.4
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 11.6
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "3 added",
-      "seconds": 63.9
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-035.md",
-      "seconds": 1.4
+      "detail": "ep354 rejected (low scores: payoff); ep355 ready; ep356 ready; ep357 ready; ep358 rejected (research: only 0 claims have two different sites); ep359 ready; ep360 ready; ep361 unfinished (LookupError: unknown encoding: .utf8)",
+      "seconds": 29.6
     },
     {
       "name": "buffer channel",
@@ -103,95 +61,98 @@
       "seconds": 0.2
     },
     {
+      "name": "preflight ep345",
+      "ok": true,
+      "detail": "video downloads whole (12 MB in 0 s)",
+      "seconds": 0.8
+    },
+    {
       "name": "preflight ep347",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.0
+      "seconds": 14.0
     },
     {
-      "name": "start ep354",
+      "name": "schedule ep359",
       "ok": true,
-      "detail": "Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow",
-      "seconds": 0.5
+      "detail": "2026-11-05T21:30:00-05:00",
+      "seconds": 1.5
     },
     {
-      "name": "start ep355",
+      "name": "schedule ep355",
       "ok": true,
-      "detail": "Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation",
-      "seconds": 0.5
+      "detail": "2026-11-06T21:30:00-05:00",
+      "seconds": 1.4
     },
     {
-      "name": "start ep356",
+      "name": "schedule ep356",
       "ok": true,
-      "detail": "Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics",
-      "seconds": 0.5
+      "detail": "2026-11-07T21:30:00-05:00",
+      "seconds": 2.0
     },
     {
-      "name": "start ep357",
+      "name": "schedule ep357",
       "ok": true,
-      "detail": "Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers",
-      "seconds": 0.5
+      "detail": "2026-11-08T21:30:00-05:00",
+      "seconds": 1.6
     },
     {
-      "name": "start ep358",
+      "name": "schedule ep360",
       "ok": true,
-      "detail": "SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep359",
-      "ok": true,
-      "detail": "Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep360",
-      "ok": true,
-      "detail": "Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols",
-      "seconds": 0.5
+      "detail": "2026-11-09T21:30:00-05:00",
+      "seconds": 1.2
     },
     {
       "name": "start ep361",
       "ok": true,
       "detail": "Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon",
-      "seconds": 0.5
+      "seconds": 5.3
+    },
+    {
+      "name": "start ep362",
+      "ok": true,
+      "detail": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep363",
+      "ok": true,
+      "detail": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep364",
+      "ok": true,
+      "detail": "IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear",
+      "seconds": 1.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.0
+      "seconds": 1.7
     }
   ],
   "errors": [],
   "owner_action": [],
-  "notes": [
-    "ep354 stopped on Gemini's free quota; it resumes in a later run",
-    "ep355 stopped on Gemini's free quota; it resumes in a later run",
-    "ep356 stopped on Gemini's free quota; it resumes in a later run",
-    "ep357 stopped on Gemini's free quota; it resumes in a later run"
-  ],
+  "notes": [],
   "inventory": {
-    "total": 5,
-    "in_buffer": 5,
+    "total": 10,
+    "in_buffer": 10,
     "waiting": 0,
     "target": 14,
     "making": [],
     "remote": [
-      "ep354",
-      "ep355",
-      "ep356",
-      "ep357",
-      "ep358",
-      "ep359",
-      "ep360",
-      "ep361"
+      "ep361",
+      "ep362",
+      "ep363",
+      "ep364"
     ]
   },
   "queue": [
@@ -201,9 +162,19 @@
       "due_at": "2026-11-05T19:00:00-05:00"
     },
     {
+      "id": "ep359",
+      "title": "The Planet With Growing Ears",
+      "due_at": "2026-11-05T21:30:00-05:00"
+    },
+    {
       "id": "ep345",
       "title": "The Asteroid That Bakes Like a Comet",
       "due_at": "2026-11-06T19:00:00-05:00"
+    },
+    {
+      "id": "ep355",
+      "title": "The Comet Panic of 1910",
+      "due_at": "2026-11-06T21:30:00-05:00"
     },
     {
       "id": "ep352",
@@ -211,169 +182,229 @@
       "due_at": "2026-11-07T19:00:00-05:00"
     },
     {
+      "id": "ep356",
+      "title": "A Pixel in the Sunbeam",
+      "due_at": "2026-11-07T21:30:00-05:00"
+    },
+    {
       "id": "ep349",
       "title": "This Galaxy Makes 100 Milky Ways Look Tiny",
       "due_at": "2026-11-08T19:00:00-05:00"
     },
     {
+      "id": "ep357",
+      "title": "The Frozen Heart of Pluto",
+      "due_at": "2026-11-08T21:30:00-05:00"
+    },
+    {
       "id": "ep351",
       "title": "The Blind Probe That Saved Itself",
       "due_at": "2026-11-09T19:00:00-05:00"
+    },
+    {
+      "id": "ep360",
+      "title": "The Fire That Reshaped NASA",
+      "due_at": "2026-11-09T21:30:00-05:00"
     }
   ],
   "waiting": [],
   "made": [
     {
       "id": "ep354",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "reason": "low scores: payoff"
     },
     {
       "id": "ep355",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "The Comet Panic of 1910",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793879033/universereceipts/ep355-12d8ce54.mp4"
     },
     {
       "id": "ep356",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "A Pixel in the Sunbeam",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793879665/universereceipts/ep356-153245ba.mp4"
     },
     {
       "id": "ep357",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
+      "title": "The Frozen Heart of Pluto",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793879316/universereceipts/ep357-d8762d9a.mp4"
+    },
+    {
+      "id": "ep358",
+      "outcome": "rejected",
+      "topic": "SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes",
+      "reason": "research: only 0 claims have two different sites"
+    },
+    {
+      "id": "ep359",
+      "outcome": "ready",
+      "topic": "Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water",
+      "title": "The Planet With Growing Ears",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793879833/universereceipts/ep359-b7368fc4.mp4"
+    },
+    {
+      "id": "ep360",
+      "outcome": "ready",
+      "topic": "Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols",
+      "title": "The Fire That Reshaped NASA",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793879491/universereceipts/ep360-9a0e0a5b.mp4"
+    },
+    {
+      "id": "ep361",
+      "outcome": "unfinished",
+      "topic": "Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon",
+      "reason": "LookupError: unknown encoding: .utf8",
+      "quota": false,
       "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep354",
-      "topic": "Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow",
-      "call_id": "fc-01M6NR5K1M2F6FJ1E00J7VE1GR"
-    },
-    {
-      "id": "ep355",
-      "topic": "Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation",
-      "call_id": "fc-01M6NR5KG0B2C3ZY10WW2SAH6Q"
-    },
-    {
-      "id": "ep356",
-      "topic": "Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics",
-      "call_id": "fc-01M6NR5KZCFM2PS50BEKNY8DMS"
-    },
-    {
-      "id": "ep357",
-      "topic": "Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers",
-      "call_id": "fc-01M6NR5MEEP7WY4YYVAGYVM09X"
-    },
-    {
-      "id": "ep358",
-      "topic": "SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes",
-      "call_id": "fc-01M6NR5MWSMMSPV24K1VVG9SAM"
-    },
-    {
-      "id": "ep359",
-      "topic": "Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water",
-      "call_id": "fc-01M6NR5NAQ8VJ9MS39DH15TG58"
-    },
-    {
-      "id": "ep360",
-      "topic": "Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols",
-      "call_id": "fc-01M6NR5NS459NTZEE4YSEP9NC1"
-    },
-    {
       "id": "ep361",
       "topic": "Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon",
-      "call_id": "fc-01M6NR5P7T19BZFKSCBAR6HDEA"
+      "call_id": "fc-01M6PCHH7Q90MRVTYYW0WAKHJ3"
+    },
+    {
+      "id": "ep362",
+      "topic": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
+      "call_id": "fc-01M6PCHJFRFKBZ0RZZ5W3YNGYF"
+    },
+    {
+      "id": "ep363",
+      "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
+      "call_id": "fc-01M6PCHKBVCCKZPX5SP924ETN9"
+    },
+    {
+      "id": "ep364",
+      "topic": "IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear",
+      "call_id": "fc-01M6PCHMJGCNBDN3EWWT8D6MQB"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep354",
-      "topic": "Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow",
-      "spawned_at": "2026-11-05T17:10:38+05:30"
+      "id": "ep361",
+      "topic": "Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon",
+      "spawned_at": "2026-11-05T23:06:41+05:30"
+    },
+    {
+      "id": "ep362",
+      "topic": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
+      "spawned_at": "2026-11-05T23:06:42+05:30"
+    },
+    {
+      "id": "ep363",
+      "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
+      "spawned_at": "2026-11-05T23:06:43+05:30"
+    },
+    {
+      "id": "ep364",
+      "topic": "IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear",
+      "spawned_at": "2026-11-05T23:06:44+05:30"
+    }
+  ],
+  "published": [
+    {
+      "id": "ep359",
+      "title": "The Planet With Growing Ears",
+      "due_at": "2026-11-05T21:30:00-05:00"
     },
     {
       "id": "ep355",
-      "topic": "Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation",
-      "spawned_at": "2026-11-05T17:10:38+05:30"
+      "title": "The Comet Panic of 1910",
+      "due_at": "2026-11-06T21:30:00-05:00"
     },
     {
       "id": "ep356",
-      "topic": "Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics",
-      "spawned_at": "2026-11-05T17:10:39+05:30"
+      "title": "A Pixel in the Sunbeam",
+      "due_at": "2026-11-07T21:30:00-05:00"
     },
     {
       "id": "ep357",
-      "topic": "Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers",
-      "spawned_at": "2026-11-05T17:10:39+05:30"
-    },
-    {
-      "id": "ep358",
-      "topic": "SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes",
-      "spawned_at": "2026-11-05T17:10:40+05:30"
-    },
-    {
-      "id": "ep359",
-      "topic": "Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water",
-      "spawned_at": "2026-11-05T17:10:40+05:30"
+      "title": "The Frozen Heart of Pluto",
+      "due_at": "2026-11-08T21:30:00-05:00"
     },
     {
       "id": "ep360",
-      "topic": "Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols",
-      "spawned_at": "2026-11-05T17:10:41+05:30"
-    },
-    {
-      "id": "ep361",
-      "topic": "Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon",
-      "spawned_at": "2026-11-05T17:10:41+05:30"
+      "title": "The Fire That Reshaped NASA",
+      "due_at": "2026-11-09T21:30:00-05:00"
     }
   ],
-  "published": [],
   "live": 85,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 21,
+    "calls": 31,
     "by_model": {
-      "gemini-3.5-flash": 6,
-      "gemini-3-flash-preview": 3,
-      "gemini-3.5-flash-lite": 9,
-      "gemini-3.1-flash-lite": 3
+      "gemini-3.6-flash": 6,
+      "gemini-3-flash-preview": 18,
+      "gemini-3.5-flash": 2,
+      "gemini-3.1-flash-lite": 4,
+      "gemini-3.5-flash-lite": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 4,
+    "modal": 14,
     "runner": 0
   },
   "daily_done": "2026-11-05",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 3.18,
+    "metered": 3.5,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 206,
+    "cloud": 204,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 24.82
+    "modal_credit_left": 24.5
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 36,
-  "parked_topics": 61
+  "open_topics": 33,
+  "parked_topics": 62
 }

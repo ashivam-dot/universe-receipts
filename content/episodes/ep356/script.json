@@ -2,54 +2,54 @@
   "hooks": [
     {
       "style": "statement",
-      "text": "Earth appears as a tiny, invisible speck from deep space."
+      "text": "Voyager traveled four billion miles to look back at us."
     },
     {
       "style": "number",
-      "text": "Earth is less than one pixel wide from billions away."
+      "text": "One photo from four billion miles away changed everything."
     },
     {
       "style": "contradiction",
-      "text": "Our entire world is invisible without special optics out here."
+      "text": "Earth is completely invisible from the edge of our solar system."
     }
   ],
   "hook_style": "statement",
   "structure": "story",
-  "title": "Earth's vanishing act",
-  "description": "Voyager 1 captured our entire world as a single, tiny pixel from over four billion miles away.",
+  "title": "A Pixel in the Sunbeam",
+  "description": "Experience the moment Voyager 1 turned its cameras toward home to capture the Pale Blue Dot from four billion miles away.",
   "hashtags": [
     "#space",
     "#voyager1",
-    "#earth"
+    "#carlsagan"
   ],
   "tags": [
     "Voyager 1",
-    "Pale Blue Dot",
     "Carl Sagan",
-    "Solar System",
+    "Pale Blue Dot",
+    "NASA",
     "Astronomy",
-    "Space exploration"
+    "Solar System"
   ],
   "beats": [
     {
-      "text": "Earth appears as a tiny, invisible speck from deep space.",
+      "text": "Voyager traveled four billion miles to look back at us.",
       "emphasis": [
-        "invisible speck"
+        "four billion miles",
+        "look back"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        3
+        2
       ],
-      "visual": "The Pale Blue Dot photograph taken by Voyager 1, 1990",
+      "visual": "Illustration of Voyager 1 in deep space, 1990",
       "subjects": [
-        "Pale Blue Dot",
         "Voyager 1"
       ],
       "year": 1990,
       "queries": [
-        "Pale Blue Dot",
-        "Voyager 1"
+        "Voyager 1 illustration",
+        "Voyager spacecraft"
       ],
       "card": {
         "kind": "none",
@@ -58,15 +58,14 @@
       }
     },
     {
-      "text": "Astronomer Carl Sagan pushed for a portrait from six billion kilometers away.",
+      "text": "Astronomer Carl Sagan first proposed the photo in 1981.",
       "emphasis": [
         "Carl Sagan",
-        "six billion kilometers"
+        "1981"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
-        2,
         4
       ],
       "visual": "Portrait of astronomer Carl Sagan, 1980",
@@ -75,34 +74,34 @@
       ],
       "year": 1981,
       "queries": [
-        "Carl Sagan",
-        "Voyager 1"
+        "Carl Sagan planetary scientist photo",
+        "Carl Sagan 1980"
       ],
       "card": {
         "kind": "fact",
-        "big": "6 billion km",
-        "small": "Distance of the shot"
+        "big": "1981",
+        "small": "Sagan's proposal"
       }
     },
     {
-      "text": "Engineers feared the sun's glare would destroy the spacecraft's sensitive cameras.",
+      "text": "NASA rejected it for years, fearing the Sun would blind the cameras.",
       "emphasis": [
-        "feared",
-        "destroy"
+        "rejected",
+        "blind the cameras"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         5
       ],
-      "visual": "Voyager 1 spacecraft illustration, 1977",
+      "visual": "Voyager Imaging Science Subsystem camera diagram",
       "subjects": [
         "Voyager 1"
       ],
-      "year": 1990,
+      "year": 1981,
       "queries": [
-        "Voyager 1 camera",
-        "Voyager 1"
+        "Voyager Imaging Science Subsystem camera",
+        "Voyager camera diagram"
       ],
       "card": {
         "kind": "none",
@@ -111,51 +110,77 @@
       }
     },
     {
-      "text": "They finally relented, letting the probe look back at our home.",
+      "text": "NASA finally took the shot in 1990 from deep space.",
       "emphasis": [
-        "relented",
-        "look back"
+        "1990",
+        "deep space"
       ],
-      "sfx": "riser",
+      "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
-        1
+        1,
+        2
       ],
       "visual": "Voyager 1 Solar System Family Portrait mosaic, 1990",
       "subjects": [
-        "Voyager 1",
         "Solar System"
       ],
       "year": 1990,
       "queries": [
-        "Solar System family portrait Voyager",
+        "Voyager 1 Solar System Family Portrait",
         "Voyager 1"
       ],
       "card": {
         "kind": "dateline",
-        "big": "February 14, 1990",
-        "small": "Voyager 1"
+        "big": "1990",
+        "small": "Deep Space"
       }
     },
     {
-      "text": "Our world is just 0.12 of a pixel in the frame.",
+      "text": "Then, Voyager shut down its cameras for the last time.",
       "emphasis": [
-        "0.12 of a pixel"
+        "shut down",
+        "last time"
+      ],
+      "sfx": "riser",
+      "pause_after": 0.12,
+      "claims": [
+        8
+      ],
+      "visual": "Illustration of Voyager 1 with cameras pointed toward the Sun, 1990",
+      "subjects": [
+        "Voyager 1"
+      ],
+      "year": 1990,
+      "queries": [
+        "Voyager 1 space illustration",
+        "Voyager 1 craft"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "Our entire world appeared as 0.12 pixels.",
+      "emphasis": [
+        "0.12 pixels"
       ],
       "sfx": "pop",
       "pause_after": 0.4,
       "claims": [
         3
       ],
-      "visual": "Close up of the Earth pixel in the Pale Blue Dot image, 1990",
+      "visual": "Detail crop of Earth pixel in Pale Blue Dot image, 1990",
       "subjects": [
         "Pale Blue Dot",
         "Earth"
       ],
       "year": 1990,
       "queries": [
-        "Pale Blue Dot",
-        "Earth"
+        "Pale Blue Dot uncompressed image NASA",
+        "Pale Blue Dot Earth detail"
       ],
       "card": {
         "kind": "fact",
@@ -164,23 +189,25 @@
       }
     },
     {
-      "text": "Light from the shot took over five hours to reach us.",
+      "text": "Without a lucky sunbeam, the planet would be totally invisible.",
       "emphasis": [
-        "five hours"
+        "sunbeam",
+        "totally invisible"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        9
+        3,
+        6
       ],
-      "visual": "NASA Deep Space Network antenna dish, 1990",
+      "visual": "The Pale Blue Dot uncompressed photograph taken by Voyager 1, 1990",
       "subjects": [
-        "Deep Space Network"
+        "Pale Blue Dot"
       ],
       "year": 1990,
       "queries": [
-        "Deep Space Network",
-        "Voyager 1"
+        "Pale Blue Dot full frame",
+        "Pale Blue Dot"
       ],
       "card": {
         "kind": "none",
@@ -189,25 +216,24 @@
       }
     },
     {
-      "text": "The entire solar system is invisible without special optics from deep space.",
+      "text": "The photo explains why Voyager traveled four billion miles to look back at us.",
       "emphasis": [
-        "invisible",
-        "special optics"
+        "four billion miles",
+        "look back"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
-        3
+        2
       ],
-      "visual": "The Pale Blue Dot photograph taken by Voyager 1, 1990",
+      "visual": "Voyager 1 spacecraft illustration in interstellar space",
       "subjects": [
-        "Pale Blue Dot",
         "Voyager 1"
       ],
       "year": 1990,
       "queries": [
-        "Pale Blue Dot",
-        "Voyager 1"
+        "Voyager 1 illustration",
+        "Voyager spacecraft"
       ],
       "card": {
         "kind": "none",
@@ -216,7 +242,7 @@
       }
     }
   ],
-  "hook_text": "",
+  "hook_text": "4 BILLION MILE SELFIE",
   "loop": true,
-  "better_than_last": "Improved pacing by focusing on the technical impossibility of the photo, applying the 'don't restate hook' rule from ep004."
+  "better_than_last": "Reduced hook to exactly 10 words as requested while maintaining a clean narrative loop under 14 words per beat."
 }

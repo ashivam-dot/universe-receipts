@@ -78,17 +78,8 @@ beats:
   - failed
   pause_after: 0.4
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ein_Modell_von_Philae_-_A_model_of_Philae_%2814225938481%29.jpg/3840px-Ein_Modell_von_Philae_-_A_model_of_Philae_%2814225938481%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Ein Modell von Philae - A model of Philae (14225938481).jpg
-      credit: DLR German Aerospace Center
-      license: CC BY 2.0
-      url: https://commons.wikimedia.org/wiki/File:Ein_Modell_von_Philae_-_A_model_of_Philae_(14225938481).jpg
-    fallbacks:
-    - color
-    motion: pan_right
+    reuse: 2
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
 - text: Instead of grabbing the ice, the craft shot 1 kilometer high.
@@ -146,24 +137,12 @@ beats:
   sfx: pop
   pause_after: 0.4
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Rosetta%27s_Philae_on_Comet_67P_Churyumov-Gerasimenko.jpg/1280px-Rosetta%27s_Philae_on_Comet_67P_Churyumov-Gerasimenko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Rosetta's Philae on Comet 67P Churyumov-Gerasimenko.jpg
-      credit: DLR, CC-BY 3.0
-      license: CC BY 3.0 de
-      url: https://commons.wikimedia.org/wiki/File:Rosetta%27s_Philae_on_Comet_67P_Churyumov-Gerasimenko.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
-    focus_x: 0.6
-    focus_y: 0.6
+    source: card
     card:
       kind: fact
       big: 64 HOURS
       small: until hibernation
+    motion: zoom_in
 - text: The billion-dollar robot was a lab that bounced like a ball.
   emphasis:
   - billion-dollar robot

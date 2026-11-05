@@ -1,0 +1,163 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-05T17:14:10+05:30",
+      "check": {
+        "duration": 24.3,
+        "words": 85,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'cut' heard as 'caught' after 'freezing cliff shadow'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Direct statement creates immediate curiosity about the event.",
+        "clarity": "Chronological flow makes the failure and bouncing easy to follow.",
+        "payoff": "Reveals the ultimate fate of the probe in a satisfying ending.",
+        "visuals": "Mixed quality imagery including a display case model and lit surface graphics.",
+        "loop": "Ending phrase connects seamlessly into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows a physical display model inside a glass case"
+        },
+        {
+          "beat": 7,
+          "problem": "Shows a fully sunlit surface despite text mentioning shadow cut off"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Maintains a tighter focus on a single dramatic event compared to recent probe episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-05T17:16:03+05:30",
+      "check": {
+        "duration": 27.0,
+        "words": 85,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'stick' heard as 'stake' after 'philae tried to'",
+          "'cut' heard as 'caught' after 'freezing cliff shadow'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging premise that stops scrolling quickly.",
+        "clarity": "Easy to follow linear chain of events.",
+        "payoff": "Nice twist revealing the brief 64-hour lifespan.",
+        "visuals": "Includes a test rig frame that breaks immersion.",
+        "loop": "Phrasing links smoothly back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows a lab test rig with paper cutouts instead of space footage."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Maintains a sharper focus on a single dramatic sequence than recent probe episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-05T17:17:43+05:30",
+      "check": {
+        "duration": 26.43,
+        "words": 85,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'cut' heard as 'caught' after 'freezing cliff shadow'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The ball analogy provides immediate and relatable context.",
+        "clarity": "Narrative follows a logical sequence of mission events.",
+        "payoff": "The ending repeats the hook without providing a new revelation.",
+        "visuals": "Effective use of mission-specific photography and clear data cards.",
+        "loop": "Verbal mirroring creates a very smooth transition back to start."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "Cut",
+          "respelling": "kuht"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: This billion-dollar lab now sits forever in the dark shadow it bounced into."
+      ],
+      "better_than_last": "This short provides a more visceral sense of physical failure than the recent Venus episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff",
+  "rejected_at": "2026-11-05T17:17:43+05:30"
+}

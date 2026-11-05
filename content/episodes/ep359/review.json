@@ -1,0 +1,173 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-05T17:24:07+05:30",
+      "check": {
+        "duration": 31.5,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'christiaan' heard as 'christian' after 'them dutch astronomer'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The visual of 'three planets' is an intriguing way to start a Saturn story.",
+        "clarity": "The narrative follows a perfect chronological order from confusion to discovery.",
+        "payoff": "The explanation of the first-ever ring discovery is a solid historical payoff.",
+        "visuals": "Excellent juxtaposition of 17th-century sketches with modern Hubble imagery.",
+        "loop": "The final line perfectly resets the premise for a seamless replay."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "Christiaan",
+          "respelling": "kris tee ahn"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode uses historical primary source diagrams much more effectively than the previous probe-focused stories.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    },
+    {
+      "at": "2026-11-05T17:25:50+05:30",
+      "check": {
+        "duration": 33.05,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'through' heard as 'at' after 'together he looked'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The three-planet hook effectively triggers viewer curiosity.",
+        "clarity": "Chronological delivery of the mystery and solution is clear.",
+        "payoff": "The transition from ears to rings is a strong payoff.",
+        "visuals": "Historical diagrams provide excellent support for the narrative.",
+        "loop": "Visual and textual repetition creates a perfect loop."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "through",
+          "respelling": "throo"
+        },
+        {
+          "beat": 6,
+          "word": "Christiaan",
+          "respelling": "kris tee ahn"
+        },
+        {
+          "beat": 6,
+          "word": "Huygens",
+          "respelling": "hoy gunz"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Effectively uses period-accurate diagrams to provide clearer historical context than recent episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-05T17:27:12+05:30",
+      "check": {
+        "duration": 33.33,
+        "words": 93,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Historical curiosity is effective for retention.",
+        "clarity": "Logical progression from mystery to solution.",
+        "payoff": "The reveal of rings is widely known, lowering impact.",
+        "visuals": "Strong use of historical diagrams and portraits.",
+        "loop": "Phrasing creates a seamless transition back to start."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "Huygens",
+          "respelling": "hoy genz"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: Saturn was actually wearing a thin, flat ring seen edge-on.",
+        "Beat 9: This explained why the ears vanished every few years."
+      ],
+      "better_than_last": "This uses historical primary sources more effectively than ep351.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "kept_round": 1
+}

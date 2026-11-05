@@ -1,0 +1,143 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-05T17:14:41+05:30",
+      "check": {
+        "duration": 25.4,
+        "words": 78,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'0.12' heard as '.12' after 'world is just'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Solid image but text hook could be more compelling.",
+        "clarity": "Straightforward history of the Pale Blue Dot photo.",
+        "payoff": "The pixel dimension detail is interesting but predictable.",
+        "visuals": "Authentic imagery that aligns directly with narrative beats.",
+        "loop": "Functional transition back to the opening line."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Voyager looked back billions of miles to capture Earth.",
+        "Beat 7: Leaving our whole planet looking completely invisible."
+      ],
+      "better_than_last": "Slightly better visual cohesion using original historical archive imagery.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-05T17:20:02+05:30",
+      "check": {
+        "duration": 22.29,
+        "words": 69,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'0.12' heard as '.12' after 'world is just'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Opening statement is informative but lacks an immediate narrative hook.",
+        "clarity": "The chronological sequence of events is clear and easy to follow.",
+        "payoff": "The scale comparison of the pixel size offers a strong concluding thought.",
+        "visuals": "One frame displays a Viking lander mock-up rather than Voyager.",
+        "loop": "The final line connects logically back to the distance mentioned at the start."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "shows a Viking lander model which is a different mission from Voyager"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Voyager traveled four billion miles just to look back at us."
+      ],
+      "better_than_last": "This entry uses specific numerical dimensions to convey the scale of the cosmos more effectively than ep352.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-05T17:24:23+05:30",
+      "check": {
+        "duration": 29.23,
+        "words": 82,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Selfie framing provides immediate relatable context.",
+        "clarity": "Chronological flow keeps mission objectives clear.",
+        "payoff": "Pixel statistics effectively emphasize Earth's fragility.",
+        "visuals": "Historical photos and diagrams support narrative well.",
+        "loop": "Sentence structure ensures smooth transition back."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Stronger emotional resonance compared to recent technical probe summaries.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

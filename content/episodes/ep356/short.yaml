@@ -1,26 +1,27 @@
 id: ep356
-title: Earth's vanishing act
+title: A Pixel in the Sunbeam
 series: Scale Breaker
 format: v3
-description: Voyager 1 captured our entire world as a single, tiny pixel from over four billion miles away.
+description: Experience the moment Voyager 1 turned its cameras toward home to capture the Pale Blue Dot from four billion
+  miles away.
 sources:
 - https://en.wikipedia.org/wiki/Pale_Blue_Dot
 - https://science.nasa.gov/earth/10-things-you-might-not-know-about-voyagers-famous-pale-blue-dot-photo/
-- https://www.planetary.org/worlds/pale-blue-dot
 - https://www.scientificamerican.com/blog/observations/how-the-celebrated-pale-blue-dot-image-came-to-be/
+- https://www.planetary.org/worlds/pale-blue-dot
 - https://www.bbc.com/news/science-environment-51491471
 - http://www.space.com/1280-earthly-view-mars.html
 hashtags:
 - '#space'
 - '#voyager1'
-- '#earth'
+- '#carlsagan'
 tags:
 - Voyager 1
-- Pale Blue Dot
 - Carl Sagan
-- Solar System
+- Pale Blue Dot
+- NASA
 - Astronomy
-- Space exploration
+- Solar System
 voice:
   engine: gemini
   voice: Zubenelgenubi
@@ -30,27 +31,33 @@ voice:
   direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
     and playful, natural rises and falls, never an announcer or documentary voice
 beats:
-- text: Earth appears as a tiny, invisible speck from deep space.
+- text: Voyager traveled four billion miles to look back at us.
   emphasis:
-  - invisible speck
+  - four billion miles
+  - look back
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/7/71/PaleBlueDot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Voyager_1%27s_view_of_Solar_System_%28artist%27s_impression%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: PaleBlueDot.jpg
-      credit: Unknown author
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PaleBlueDot.jpg
+      title: Voyager 1's view of Solar System (artist's impression).jpg
+      credit: NASA, ESA, and G. Bacon (STScI)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Voyager_1%27s_view_of_Solar_System_(artist%27s_impression).jpg
     fallbacks:
     - color
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.35
-- text: Astronomer Carl Sagan pushed for a portrait from six billion kilometers away.
+    motion: pan_right
+    focus_x: 0.62
+    focus_y: 0.45
+    box:
+    - 0.55
+    - 0.25
+    - 0.75
+    - 0.65
+- text: Astronomer Carl Sagan first proposed the photo in 1981.
   emphasis:
   - Carl Sagan
-  - six billion kilometers
+  - '1981'
   sfx: whoosh
   visual:
     source: url
@@ -65,35 +72,21 @@ beats:
     - card
     - color
     motion: zoom_in
-    focus_x: 0.45
-    focus_y: 0.5
+    focus_x: 0.42
+    focus_y: 0.45
+    box:
+    - 0.35
+    - 0.35
+    - 0.5
+    - 0.65
     card:
       kind: fact
-      big: 6 billion km
-      small: Distance of the shot
-- text: Engineers feared the sun's glare would destroy the spacecraft's sensitive cameras.
+      big: '1981'
+      small: Sagan's proposal
+- text: NASA rejected it for years, fearing the Sun would blind the cameras.
   emphasis:
-  - feared
-  - destroy
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Voyager_instruments_boom.jpg/960px-Voyager_instruments_boom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Voyager instruments boom.jpg
-      credit: NASA/JPL
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Voyager_instruments_boom.jpg
-    fallbacks:
-    - color
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
-- text: They finally relented, letting the probe look back at our home.
-  emphasis:
-  - relented
-  - look back
-  sfx: riser
+  - rejected
+  - blind the cameras
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/2/28/Voyager_Portrait_Family_diagram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -104,20 +97,86 @@ beats:
       license: Public domain
       url: https://commons.wikimedia.org/wiki/File:Voyager_Portrait_Family_diagram.jpg
     fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: NASA finally took the shot in 1990 from deep space.
+  emphasis:
+  - '1990'
+  - deep space
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Solar_System_Group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Solar System Group.jpg
+      credit: NASA / Voyager 1 probe
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_System_Group.jpg
+    fallbacks:
     - card
     - color
-    motion: pan_left
-    focus_x: 0.3
-    focus_y: 0.3
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: dateline
-      big: February 14, 1990
-      small: Voyager 1
-- text: Our world is just 0.12 of a pixel in the frame.
+      big: '1990'
+      small: Deep Space
+- text: Then, Voyager shut down its cameras for the last time.
   emphasis:
-  - 0.12 of a pixel
+  - shut down
+  - last time
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Voyager_in_space_%28PIA17049%29.jpg/1280px-Voyager_in_space_%28PIA17049%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager in space (PIA17049).jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_in_space_(PIA17049).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.42
+    focus_y: 0.38
+    box:
+    - 0.3
+    - 0.15
+    - 0.55
+    - 0.65
+- text: Our entire world appeared as 0.12 pixels.
+  emphasis:
+  - 0.12 pixels
   sfx: pop
   pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Pale_Blue_Dot_from_Voyager_1_-_PIA23645.png/3840px-Pale_Blue_Dot_from_Voyager_1_-_PIA23645.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pale Blue Dot from Voyager 1 - PIA23645.png
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot_from_Voyager_1_-_PIA23645.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.58
+    focus_y: 0.51
+    card:
+      kind: fact
+      big: 0.12 pixels
+      small: Size of Earth
+- text: Without a lucky sunbeam, the planet would be totally invisible.
+  emphasis:
+  - sunbeam
+  - totally invisible
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/7/73/Pale_Blue_Dot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -128,42 +187,25 @@ beats:
       license: Public domain
       url: https://commons.wikimedia.org/wiki/File:Pale_Blue_Dot.png
     fallbacks:
-    - card
     - color
     motion: pan_down
-    focus_x: 0.55
-    focus_y: 0.55
-    card:
-      kind: fact
-      big: 0.12 pixels
-      small: Size of Earth
-- text: Light from the shot took over five hours to reach us.
+    focus_x: 0.72
+    focus_y: 0.48
+    box:
+    - 0.7
+    - 0.0
+    - 0.75
+    - 1.0
+- text: The photo explains why Voyager traveled four billion miles to look back at us.
   emphasis:
-  - five hours
-  visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/d/d6/Goldstone_Deep_Space_Network.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Goldstone Deep Space Network.jpg
-      credit: Unknown author
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Goldstone_Deep_Space_Network.jpg
-    fallbacks:
-    - color
-    motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
-- text: The entire solar system is invisible without special optics from deep space.
-  emphasis:
-  - invisible
-  - special optics
+  - four billion miles
+  - look back
   sfx: whoosh
   visual:
     reuse: 1
-    motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.35
+    motion: zoom_out
+    focus_x: 0.62
+    focus_y: 0.45
 look: bold
 music:
   path: bed:wonder
@@ -171,3 +213,4 @@ music:
   fade_out: 1.0
 captions:
   hook_size: 150
+hook_text: 4 BILLION MILE SELFIE

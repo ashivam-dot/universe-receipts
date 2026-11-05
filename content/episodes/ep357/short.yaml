@@ -31,6 +31,8 @@ voice:
   max_pause: 0.25
   direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
     and playful, natural rises and falls, never an announcer or documentary voice
+  say:
+    Planitia: pluh nish ee uh
 beats:
 - text: Pluto has ice mountains as tall as the Rockies.
   emphasis:
@@ -98,17 +100,17 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/NH-Pluto-SputnikPlanum-20150714-v1.jpg/960px-NH-Pluto-SputnikPlanum-20150714-v1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/PIA19936_crop_-_Flowing_nitrogen_ice_on_Pluto_context.jpg/1920px-PIA19936_crop_-_Flowing_nitrogen_ice_on_Pluto_context.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: NH-Pluto-SputnikPlanum-20150714-v1.jpg
-      credit: NASA/JHUAPL/SWRI
+      title: PIA19936 crop - Flowing nitrogen ice on Pluto context.jpg
+      credit: NASA / Johns Hopkins University Applied Physics Laboratory / Southwest Research Institute
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:NH-Pluto-SputnikPlanum-20150714-v1.jpg
+      url: https://commons.wikimedia.org/wiki/File:PIA19936_crop_-_Flowing_nitrogen_ice_on_Pluto_context.jpg
     fallbacks:
     - color
-    motion: zoom_in
-    focus_x: 0.45
+    motion: pan_left
+    focus_x: 0.5
     focus_y: 0.5
 - text: The nitrogen ice churns like a lava lamp to stay fresh.
   emphasis:
