@@ -2,44 +2,45 @@
   "hooks": [
     {
       "style": "statement",
-      "text": "Mariner 9 was the first probe to orbit another planet."
-    },
-    {
-      "style": "question",
-      "text": "How did NASA orbit a planet that had completely disappeared?"
+      "text": "The first probe orbiting Mars found it swallowed by dust."
     },
     {
       "style": "contradiction",
-      "text": "NASA's first Martian orbiter arrived but couldn't see the planet."
+      "text": "The first probe orbiting Mars couldn't see the planet."
+    },
+    {
+      "style": "number",
+      "text": "One probe mapped Mars after a global storm blinded it."
     }
   ],
   "hook_style": "statement",
   "structure": "record",
-  "title": "The First Ship to Orbit Mars",
-  "description": "Mariner 9 made history as the first spacecraft to orbit another planet, arriving just as a global dust storm blinded the Red Planet.",
+  "title": "The Craft That Saved Mars Exploration",
+  "description": "In 1971, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a global dust storm.",
   "hashtags": [
     "#space",
-    "#nasa",
-    "#mars"
+    "#mariner9",
+    "#nasa"
   ],
   "tags": [
     "Mariner 9",
     "Mars",
     "NASA",
-    "Space Race",
-    "Soviet Union",
-    "Astronomy"
+    "space exploration",
+    "astronomy",
+    "Soviet space program"
   ],
   "beats": [
     {
-      "text": "Mariner 9 was the first probe to orbit another planet.",
+      "text": "The first probe orbiting Mars found it swallowed by dust.",
       "emphasis": [
-        "first probe"
+        "swallowed by dust"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        4
+        4,
+        5
       ],
       "visual": "artist's concept of Mariner 9 spacecraft in orbit around Mars, 1971",
       "subjects": [
@@ -48,8 +49,8 @@
       ],
       "year": 1971,
       "queries": [
-        "Mariner 9 orbit",
-        "Mariner 9 spacecraft"
+        "Mariner 9 spacecraft",
+        "Mariner 9 Mars orbit"
       ],
       "card": {
         "kind": "none",
@@ -58,7 +59,7 @@
       }
     },
     {
-      "text": "It beat its twin, which crashed in the Atlantic.",
+      "text": "Mariner 9 beat its twin, which crashed in the ocean.",
       "emphasis": [
         "crashed"
       ],
@@ -68,10 +69,10 @@
         2,
         3
       ],
-      "visual": "photograph of an Atlas-Centaur rocket launch from Cape Canaveral, 1971",
+      "visual": "photograph of Atlas-Centaur rocket carrying Mariner 8 launch failure, 1971",
       "subjects": [
-        "Atlas-Centaur",
-        "Mariner 8"
+        "Mariner 8",
+        "Atlas-Centaur"
       ],
       "year": 1971,
       "queries": [
@@ -81,20 +82,20 @@
       "card": {
         "kind": "fact",
         "big": "Crashed",
-        "small": "Mariner 8"
+        "small": "Mariner 8 twin"
       }
     },
     {
-      "text": "But on arrival, it found only a wall of dust.",
+      "text": "A planet-wide storm had blinded the entire Red Planet.",
       "emphasis": [
-        "wall of dust"
+        "blinded"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         5
       ],
-      "visual": "photograph of Mars completely obscured by a global dust storm, Mariner 9, 1971",
+      "visual": "photograph of Mars completely covered in dust taken by Mariner 9, 1971",
       "subjects": [
         "Mars",
         "Mariner 9"
@@ -111,49 +112,24 @@
       }
     },
     {
-      "text": "A global storm had swallowed the entire Red Planet.",
+      "text": "Two Soviet probes arrived and blindly took photos of dust.",
       "emphasis": [
-        "swallowed"
-      ],
-      "sfx": "none",
-      "pause_after": 0.12,
-      "claims": [
-        5
-      ],
-      "visual": "wide-angle view of the Martian atmosphere during the 1971 dust storm",
-      "subjects": [
-        "Mars"
-      ],
-      "year": 1971,
-      "queries": [
-        "Mars atmospheric dust",
-        "Mars storm visualization"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "Two Soviet probes arrived but couldn't adapt to the storm.",
-      "emphasis": [
-        "couldn't adapt"
+        "photos of dust"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
         7
       ],
-      "visual": "model of the Soviet Mars 3 spacecraft in a museum",
+      "visual": "model of Soviet Mars 3 spacecraft, 1971",
       "subjects": [
         "Mars 3",
         "Mars 2"
       ],
       "year": 1971,
       "queries": [
-        "Mars 3 probe",
-        "Soviet Mars lander model"
+        "Mars 3 spacecraft model",
+        "Soviet Mars probe 1971"
       ],
       "card": {
         "kind": "none",
@@ -162,24 +138,23 @@
       }
     },
     {
-      "text": "They blindly snapped thousands of photos of pure dust.",
+      "text": "Their fixed programming could not adapt to the storm.",
       "emphasis": [
-        "pure dust"
+        "could not adapt"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        7,
-        9
+        7
       ],
-      "visual": "blurry gray high-altitude image from a space probe mission",
+      "visual": "diagram of Soviet Mars probe pre-programmed computer sequence, 1971",
       "subjects": [
         "Mars 3"
       ],
       "year": 1971,
       "queries": [
-        "Mars 3 image dust",
-        "gray space probe photo"
+        "Mars 3 lander diagram",
+        "Soviet space computer"
       ],
       "card": {
         "kind": "none",
@@ -188,7 +163,7 @@
       }
     },
     {
-      "text": "NASA engineers reprogrammed the ship from Earth in 1971.",
+      "text": "NASA engineers reprogrammed Mariner 9 from Earth to wait.",
       "emphasis": [
         "reprogrammed"
       ],
@@ -197,40 +172,14 @@
       "claims": [
         6
       ],
-      "visual": "NASA Jet Propulsion Laboratory mission control center with 1970s computers",
+      "visual": "photograph of NASA Jet Propulsion Laboratory mission controllers in 1971",
       "subjects": [
         "Jet Propulsion Laboratory"
       ],
       "year": 1971,
       "queries": [
         "JPL mission control 1971",
-        "NASA 1970s mission control"
-      ],
-      "card": {
-        "kind": "dateline",
-        "big": "1971",
-        "small": "NASA JPL"
-      }
-    },
-    {
-      "text": "Mariner 9 waited months for the Martian sky to clear.",
-      "emphasis": [
-        "waited months"
-      ],
-      "sfx": "riser",
-      "pause_after": 0.12,
-      "claims": [
-        6
-      ],
-      "visual": "sequence of Mars photos showing the surface slowly appearing as dust settles",
-      "subjects": [
-        "Mars",
-        "Mariner 9"
-      ],
-      "year": 1972,
-      "queries": [
-        "Mars clearing dust",
-        "Mariner 9 Mars surface"
+        "NASA engineers 1970s"
       ],
       "card": {
         "kind": "none",
@@ -239,52 +188,78 @@
       }
     },
     {
-      "text": "It finally mapped massive volcanoes and 2,500-mile canyons.",
+      "text": "When dust cleared, Mariner 9 mapped massive extinct volcanoes.",
       "emphasis": [
-        "massive volcanoes"
+        "extinct volcanoes"
+      ],
+      "sfx": "riser",
+      "pause_after": 0.12,
+      "claims": [
+        8,
+        10
+      ],
+      "visual": "Mariner 9 photograph of Olympus Mons volcano on Mars, 1972",
+      "subjects": [
+        "Olympus Mons",
+        "Mariner 9"
+      ],
+      "year": 1972,
+      "queries": [
+        "Olympus Mons Mariner 9",
+        "Olympus Mons volcano Mars"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "It discovered a canyon system spanning 2,500 miles.",
+      "emphasis": [
+        "2,500 miles"
       ],
       "sfx": "pop",
       "pause_after": 0.4,
       "claims": [
-        8,
-        10,
         11
       ],
-      "visual": "composite orbital mosaic of Valles Marineris canyon system, Mars",
+      "visual": "Mariner 9 photograph of Valles Marineris canyon on Mars, 1972",
       "subjects": [
         "Valles Marineris",
-        "Olympus Mons"
+        "Mars"
       ],
       "year": 1972,
       "queries": [
-        "Valles Marineris mosaic",
-        "Olympus Mons Mariner 9"
+        "Valles Marineris Mariner 9",
+        "Valles Marineris canyon"
       ],
       "card": {
         "kind": "fact",
         "big": "2,500 miles",
-        "small": "Valles Marineris"
+        "small": "Valles Marineris canyon"
       }
     },
     {
-      "text": "It succeeded even when the planet was hidden by dust.",
+      "text": "Smart reprogramming turned a blinded mission into history.",
       "emphasis": [
-        "hidden by dust"
+        "into history"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        5
+        6,
+        8
       ],
-      "visual": "final orbiting view of Mariner 9 above a clear Martian horizon",
+      "visual": "photograph of Mariner 9 full disk image of Mars after storm cleared, 1972",
       "subjects": [
         "Mariner 9",
         "Mars"
       ],
       "year": 1972,
       "queries": [
-        "Mariner 9 orbit view",
-        "Mars horizon from space"
+        "Mariner 9 Mars full disk",
+        "Mariner 9 clear Mars view"
       ],
       "card": {
         "kind": "none",
@@ -293,7 +268,7 @@
       }
     }
   ],
-  "hook_text": "FIRST SHIP TO ORBIT MARS",
+  "hook_text": "BLINDED BY DUST",
   "loop": true,
-  "better_than_last": "Used the 'Record' structure to contrast NASA's programming flexibility with the Soviet Union's failure during the 1971 dust storm."
+  "better_than_last": "Tightened the spoken hook to 10 words while ensuring a seamless grammatical loop between beat 9 and beat 1."
 }

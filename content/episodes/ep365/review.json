@@ -1,0 +1,57 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-06T11:14:05+05:30",
+      "check": {
+        "duration": 31.87,
+        "words": 94,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Opening with a dry textbook fact lacks the curiosity or drama needed to stop viewers from swiping.",
+        "clarity": "The narrative unfolds cleanly with a clear chronological timeline and one idea per beat.",
+        "payoff": "Waiting out the dust storm to discover giant volcanoes and canyons provides a satisfying payoff.",
+        "visuals": "Beat 4 uses a comparison graphic with prominent dates from 1997 and 2001 that contradict the 1971 mission setting.",
+        "loop": "Beat 10 is an abrupt summary sentence that does not lead naturally back into beat 1."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "shows text labels with dates '1997' and '2001', contradicting the 1971 mission setting"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: The first probe to orbit Mars arrived to find the entire planet swallowed by dust.",
+        "Beat 10: Reprogramming the spacecraft to outlast the storm secured victory for—"
+      ],
+      "better_than_last": "It highlights an engaging technological contrast between NASA's adaptable reprogramming and the Soviet probes blindly burning through film.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -71,6 +71,9 @@ unexplained, not alien.
 | 2026-11-05 | SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night — making (ep362) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
 | 2026-11-05 | IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear — dropped (ep364) | Space Got Weird | Featured in NASA's Astronomy Picture of the Day on November 4. |
 | 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe — making (ep363) | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
+| 2026-11-06 | Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
+| 2026-11-06 | Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years — making (ep367) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
+| 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -79,6 +82,7 @@ unexplained, not alien.
 | Dec 3 | Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot | Mission Files |
 | Dec 4 | Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball | Mission Files |
 | Dec 4 | Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat | Mission Files |
+| Dec 14 | Apollo 17 (1972): Gene Cernan left his daughter's initials traced in the lunar dust before stepping off the Moon on humanity's last Apollo spacewalk | Mission Files |
 | Dec 15 | Gemini 6A (1965): on Dec 15, NASA pulled off the first crewed spacecraft rendezvous, maneuvering within one foot of another capsule at 17,000 mph | Near Misses |
 | Dec 21 | Apollo 8 (1968): on this day, the first humans to ever leave Earth orbit entered lunar gravity and broadcast Christmas Eve from space | Mission Files |
 | Dec 25 | James Webb Space Telescope (2021): on Christmas Day, NASA launched a $10 billion observatory into deep space to look back to the beginning of time | Mission Files |
@@ -90,7 +94,7 @@ unexplained, not alien.
 | Nov 12 | Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow — parked (ep354) | Mission Files |
 | Nov 13 | Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm — making (ep365) | Mission Files |
 | Nov 13 | 2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station — making (ep366) | Near Misses |
-| Nov 13 | WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware | Space Got Weird |
+| Nov 13 | WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware — making (ep368) | Space Got Weird |
 | Nov 14 | 90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once | Scale Breaker |
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot | Mission Files |
 | Nov 15 | Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules | Near Misses |
@@ -211,6 +215,7 @@ unexplained, not alien.
 - Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge — done (ep260)
 - Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth — parked (ep273)
 - Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics — done (ep356)
+- Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness
 
 ### Mission Files
 
@@ -245,6 +250,7 @@ unexplained, not alien.
 - James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — parked (ep302)
 - Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — parked (ep303)
 - Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — done (ep360)
+- Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years
 
 ### Space Got Weird
 
@@ -318,6 +324,7 @@ unexplained, not alien.
 - International Space Station (2022): astronauts had to fire the station's thrusters to dodge a piece of space junk traveling at 17,500 mph — dropped (ep270)
 - Apollo 11 (1969): a broken switch nearly stranded the astronauts on the Moon forever until Buzz Aldrin jammed a felt-tip pen into the circuit breaker — dropped (ep297)
 - Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting — parked (ep300)
+- Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock — making (ep369)
 
 ### Space Myths, Busted
 

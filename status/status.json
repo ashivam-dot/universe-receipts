@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-06T11:09:49+05:30",
+  "updated_at": "2026-11-06T17:14:50+05:30",
   "day": 36,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6QNMV1QJ4849AMT96F2W77R",
+    "id": "ta-01M6RA81FBT69ATT0ZT9BA1EDR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-06T11:05:08+05:30",
-    "started_at_utc": "2026-11-06T05:35:08+00:00",
-    "seconds": 281
+    "started_at": "2026-11-06T17:05:11+05:30",
+    "started_at_utc": "2026-11-06T11:35:11+00:00",
+    "seconds": 579
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.6
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "95 posts",
-      "seconds": 0.9
+      "seconds": 1.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep347 to 'Scale Breaker'; added ep359 to 'Space Got Weird'",
-      "seconds": 3.6
+      "detail": "nothing new",
+      "seconds": 3.2
     },
     {
       "name": "languages",
@@ -45,73 +45,135 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep263 at 72 h: level with the channel's earlier Shorts at this age: 1086 views against a median of 994 (1.1x); ep268 at 72 h: level with the channel's earlier Shorts at this age: 1205 views against a median of 1010 (1.2x); ep346 at 24 h: ahead of the channel's earlier Shorts at this age: 1912 views against a median of 791 (2.4x); learnings: Updated review evidence and integrated latest diagnostic feedback on viewer interaction and mid-script retention tangles.",
-      "seconds": 242.0
+      "detail": "ep347 at 6 h: ahead of the channel's earlier Shorts at this age: 955 views against a median of 607 (1.6x); ep359 at 6 h: ahead of the channel's earlier Shorts at this age: 1472 views against a median of 632 (2.3x)",
+      "seconds": 4.4
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep361 rejected (research: The primary topic of Buzz Aldrin taking communion on the lunar surface is detailed in only one source ([S1]), failing the requirement of at least two independent sites per claim.); ep364 rejected (research: fewer than two readable sources); ep365 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep366 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-",
-      "seconds": 10.3
+      "detail": "ep362 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep363 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep365 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', '",
+      "seconds": 13.9
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "119 subscribers",
+      "seconds": 13.9
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Processed 24-30h reviews for ep260-ep346; maintained rule set while tracking interactive ending prompt hypothesis against flat engagement depth.",
+      "seconds": 377.1
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "ep359 \"The Planet With Growing Ears\" broke out: 1,455 views 9 hours after going live, 20.2x the median of its peers at that age (72); queued Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge; Janus (moon) (1966): shares ",
+      "seconds": 56.7
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "1 added",
+      "seconds": 15.5
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "4 added",
+      "seconds": 43.5
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-036.md",
+      "seconds": 2.5
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "preflight ep345",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.5
     },
     {
       "name": "preflight ep355",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 1.7
     },
     {
       "name": "start ep362",
       "ok": true,
       "detail": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
-      "seconds": 0.6
+      "seconds": 2.0
     },
     {
       "name": "start ep363",
       "ok": true,
       "detail": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
-      "seconds": 0.6
+      "seconds": 1.2
     },
     {
       "name": "start ep365",
       "ok": true,
       "detail": "Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm",
-      "seconds": 0.5
+      "seconds": 1.0
     },
     {
       "name": "start ep366",
       "ok": true,
       "detail": "2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station",
-      "seconds": 0.5
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep367",
+      "ok": true,
+      "detail": "Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep368",
+      "ok": true,
+      "detail": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep369",
+      "ok": true,
+      "detail": "Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock",
+      "seconds": 0.9
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 1.7
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
+    "ep362 stopped on Gemini's free quota; it resumes in a later run",
+    "ep363 stopped on Gemini's free quota; it resumes in a later run",
     "ep365 stopped on Gemini's free quota; it resumes in a later run",
     "ep366 stopped on Gemini's free quota; it resumes in a later run"
   ],
@@ -125,7 +187,10 @@
       "ep362",
       "ep363",
       "ep365",
-      "ep366"
+      "ep366",
+      "ep367",
+      "ep368",
+      "ep369"
     ]
   },
   "queue": [
@@ -173,22 +238,26 @@
   "waiting": [],
   "made": [
     {
-      "id": "ep361",
-      "outcome": "rejected",
-      "topic": "Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon",
-      "reason": "research: The primary topic of Buzz Aldrin taking communion on the lunar surface is detailed in only one source ([S1]), failing the requirement of at least two independent sites per claim."
+      "id": "ep362",
+      "outcome": "unfinished",
+      "topic": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep364",
-      "outcome": "rejected",
-      "topic": "IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear",
-      "reason": "research: fewer than two readable sources"
+      "id": "ep363",
+      "outcome": "unfinished",
+      "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
       "id": "ep365",
       "outcome": "unfinished",
       "topic": "Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
       "quota": true,
       "overloaded": false
     },
@@ -196,7 +265,7 @@
       "id": "ep366",
       "outcome": "unfinished",
       "topic": "2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
       "quota": true,
       "overloaded": false
     }
@@ -205,44 +274,74 @@
     {
       "id": "ep362",
       "topic": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
-      "call_id": "fc-01M6QNXFD1BAVH8ZMH6810EZ54"
+      "call_id": "fc-01M6RASN264AFQFTGWTK32N6MK"
     },
     {
       "id": "ep363",
       "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
-      "call_id": "fc-01M6QNXFZT8BEA8G1RCMBSJAMM"
+      "call_id": "fc-01M6RASP86E7ATFS2Y3GY517F9"
     },
     {
       "id": "ep365",
       "topic": "Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm",
-      "call_id": "fc-01M6QNXGG414H5SEF4CBTA0FTB"
+      "call_id": "fc-01M6RASQ64N8BE5NEJT6C6C8XM"
     },
     {
       "id": "ep366",
       "topic": "2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station",
-      "call_id": "fc-01M6QNXH09ECF2XA6ACRFH5P7Y"
+      "call_id": "fc-01M6RASRDQA0W5X0KQ3P8X8RPW"
+    },
+    {
+      "id": "ep367",
+      "topic": "Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years",
+      "call_id": "fc-01M6RASSBBQ0GK0598RD251PV6"
+    },
+    {
+      "id": "ep368",
+      "topic": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
+      "call_id": "fc-01M6RAST85T7R54BRN9GH632WR"
+    },
+    {
+      "id": "ep369",
+      "topic": "Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock",
+      "call_id": "fc-01M6RASV4X4WGAZSTDVQ68VYJ5"
     }
   ],
   "in_cloud": [
     {
       "id": "ep362",
       "topic": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
-      "spawned_at": "2026-11-06T11:09:44+05:30"
+      "spawned_at": "2026-11-06T17:14:39+05:30"
     },
     {
       "id": "ep363",
       "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
-      "spawned_at": "2026-11-06T11:09:44+05:30"
+      "spawned_at": "2026-11-06T17:14:40+05:30"
     },
     {
       "id": "ep365",
       "topic": "Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm",
-      "spawned_at": "2026-11-06T11:09:45+05:30"
+      "spawned_at": "2026-11-06T17:14:41+05:30"
     },
     {
       "id": "ep366",
       "topic": "2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station",
-      "spawned_at": "2026-11-06T11:09:45+05:30"
+      "spawned_at": "2026-11-06T17:14:42+05:30"
+    },
+    {
+      "id": "ep367",
+      "topic": "Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years",
+      "spawned_at": "2026-11-06T17:14:43+05:30"
+    },
+    {
+      "id": "ep368",
+      "topic": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
+      "spawned_at": "2026-11-06T17:14:44+05:30"
+    },
+    {
+      "id": "ep369",
+      "topic": "Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock",
+      "spawned_at": "2026-11-06T17:14:45+05:30"
     }
   ],
   "published": [],
@@ -250,41 +349,37 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 14,
+    "calls": 17,
     "by_model": {
-      "gemini-3.8-flash": 2,
-      "gemini-3-flash-preview": 4,
+      "gemini-3.6-flash": 4,
+      "gemini-3.5-flash": 3,
+      "gemini-flash-latest": 1,
       "gemini-3.5-flash-lite": 5,
-      "gemini-3.6-flash": 3
+      "gemini-3.8-flash": 2,
+      "gemini-3-flash-preview": 2
     },
-    "out_of_quota": [
-      "gemini-3-flash-preview",
-      "gemini-3.5-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash",
-      "gemini-flash-latest"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 2,
+    "modal": 8,
     "runner": 0
   },
-  "daily_done": "2026-11-05",
+  "daily_done": "2026-11-06",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 3.68,
+    "metered": 3.91,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 202,
+    "cloud": 200,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 24.32
+    "modal_credit_left": 24.09
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 31,
+  "open_topics": 35,
   "parked_topics": 62
 }

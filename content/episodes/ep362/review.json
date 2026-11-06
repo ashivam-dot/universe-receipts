@@ -1,0 +1,58 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-06T11:11:14+05:30",
+      "check": {
+        "duration": 29.63,
+        "words": 79,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging opening line that quickly captures interest.",
+        "clarity": "Straightforward sequence of facts that is easy to follow.",
+        "payoff": "Repeats the hook concept instead of delivering a surprising resolution.",
+        "visuals": "Features technical graphs with heavy text and incorrect spacecraft types.",
+        "loop": " Seamlessly connects the final phrasing back to the starting line."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows a crewed orbital spacecraft rather than satellite detectors."
+        },
+        {
+          "beat": 5,
+          "problem": "Displays a text-heavy spectral graph of an unrelated object."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Spitzer captured a seven light-year ring of glowing dust left behind.",
+        "Beat 7: The blast was powerful enough to physically alter Earth's atmosphere."
+      ],
+      "better_than_last": "Delivers a more dramatic astronomical threat scale than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

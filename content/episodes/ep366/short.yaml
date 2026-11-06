@@ -167,36 +167,27 @@ beats:
   sfx: pop
   pause_after: 0.4
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/2001_SG286_orbit.jpg/1280px-2001_SG286_orbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: 2001 SG286 orbit.jpg
-      credit: NASA/JPL
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:2001_SG286_orbit.jpg
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.65
-    focus_y: 0.25
+    reuse: 6
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.32
 - text: Earth’s gravity hijacked the rock and shrank its orbit.
   emphasis:
   - shrank its orbit
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/6/61/Lunar_perturbation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/09a-2moonperts.jpg/1920px-09a-2moonperts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Lunar perturbation.jpg
-      credit: Geologician, Homunculus 2
-      license: CC BY 3.0
-      url: https://commons.wikimedia.org/wiki/File:Lunar_perturbation.jpg
+      title: 09a-2moonperts.jpg
+      credit: F R Moulton
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:09a-2moonperts.jpg
     fallbacks:
     - color
-    motion: zoom_in
-    focus_x: 0.15
-    focus_y: 0.55
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
 - text: On that Friday the 13th, the world never saw it coming.
   emphasis:
   - never saw it coming

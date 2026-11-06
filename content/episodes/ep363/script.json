@@ -67,7 +67,8 @@
       "pause_after": 0.12,
       "claims": [
         2,
-        3
+        6,
+        7
       ],
       "visual": "Portrait of astronomer William Herschel, painting by John Russell",
       "subjects": [
@@ -79,9 +80,9 @@
         "NGC 4449 discovery"
       ],
       "card": {
-        "kind": "dateline",
-        "big": "1788",
-        "small": "NGC 4449 Discovery"
+        "kind": "none",
+        "big": "",
+        "small": ""
       }
     },
     {
@@ -143,9 +144,9 @@
       "pause_after": 0.12,
       "claims": [
         9,
-        10
+        11
       ],
-      "visual": "Artist's concept of new stars forming in dense gas clouds",
+      "visual": "Artist concept of new stars forming in dense gas clouds",
       "subjects": [],
       "year": 0,
       "queries": [
@@ -188,9 +189,10 @@
       "emphasis": [
         "neighbors"
       ],
-      "sfx": "none",
+      "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
+        5,
         10
       ],
       "visual": "Star map showing NGC 4449 in the constellation Canes Venatici",
@@ -209,15 +211,14 @@
       }
     },
     {
-      "text": "A gravitational tug-of-war with nearby galaxies ignited this starburst.",
+      "text": "Nearby galaxies pulled on it in a cosmic interaction.",
       "emphasis": [
-        "tug-of-war"
+        "cosmic interaction"
       ],
       "sfx": "pop",
       "pause_after": 0.4,
       "claims": [
-        10,
-        8
+        10
       ],
       "visual": "Diagram illustrating gravitational interaction between two galaxies",
       "subjects": [
@@ -235,16 +236,15 @@
       }
     },
     {
-      "text": "Now, this tiny dwarf galaxy is having a massive growth spurt.",
+      "text": "And that gravitational tug-of-war is why.",
       "emphasis": [
-        "massive growth"
+        "tug-of-war"
       ],
-      "sfx": "whoosh",
+      "sfx": "pop",
       "pause_after": 0.12,
       "claims": [
-        6,
-        8,
-        9
+        10,
+        8
       ],
       "visual": "Hubble Space Telescope high resolution image of NGC 4449, 2011",
       "subjects": [
@@ -262,7 +262,7 @@
       }
     }
   ],
-  "hook_text": "",
+  "hook_text": "GALACTIC GROWTH SPURT",
   "loop": true,
-  "better_than_last": "I applied the mystery structure to NGC 4449, starting with the growth spurt observation and using gravitational interaction as the final resolution to build tension."
+  "better_than_last": "Updated beat 9 to 'And that gravitational tug-of-war is why.' per reviewer feedback, creating a smooth grammatical loop into beat 1."
 }

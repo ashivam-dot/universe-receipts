@@ -2,40 +2,45 @@
   "hooks": [
     {
       "style": "statement",
-      "text": "A dead star 20,000 light-years away just screamed at us."
+      "text": "A dead star struck Earth from 20,000 light-years away."
+    },
+    {
+      "style": "contradiction",
+      "text": "A blast 20,000 light-years away physically punched our atmosphere."
     },
     {
       "style": "question",
-      "text": "Can a starquake shatter a satellite on the other side?"
+      "text": "Can a starquake 20,000 light-years away alter Earth's atmosphere?"
     },
     {
       "style": "number",
-      "text": "100 trillion times Earth's field, one star just erupted."
+      "text": "20,000 light-years away, a dead star hit Earth."
     }
   ],
   "hook_style": "statement",
   "structure": "mystery",
-  "title": "The magnetar that screamed",
-  "description": "In 1998, a distant neutron star experienced a violent crust-shattering flare so intense it overwhelmed satellites across our solar system.",
+  "title": "The Starquake That Hit Earth",
+  "description": "In 1998, a violent starquake on magnetar SGR 1900+14 unleashed a radiation blast so fierce it struck Earth from 20,000 light-years away.",
   "hashtags": [
     "#space",
-    "#magnetar",
-    "#astrophysics"
+    "#astronomy",
+    "#magnetar"
   ],
   "tags": [
     "magnetar",
+    "starquake",
+    "SGR 1900+14",
     "neutron star",
     "gamma ray",
-    "SGR 1900+14",
     "astronomy",
-    "space exploration"
+    "space"
   ],
   "beats": [
     {
-      "text": "A dead star 20,000 light-years away just screamed at us.",
+      "text": "A dead star struck Earth from 20,000 light-years away.",
       "emphasis": [
         "dead star",
-        "screamed at us"
+        "struck Earth"
       ],
       "sfx": "none",
       "pause_after": 0.12,
@@ -43,15 +48,15 @@
         1,
         2
       ],
-      "visual": "Artist's illustration of a magnetar with intense magnetic fields, 2010",
+      "visual": "Artist illustration of a magnetar surrounded by intense magnetic fields",
       "subjects": [
         "Magnetar",
         "SGR 1900+14"
       ],
-      "year": 1998,
+      "year": 0,
       "queries": [
         "magnetar artist impression",
-        "SGR 1900+14 illustration"
+        "neutron star magnetic field illustration"
       ],
       "card": {
         "kind": "none",
@@ -60,16 +65,99 @@
       }
     },
     {
-      "text": "This magnetar has a magnetic field trillions of times stronger than Earth.",
+      "text": "Spacecraft detectors across our solar system were suddenly blinded in August 1998.",
       "emphasis": [
-        "trillions of times"
+        "suddenly blinded"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
+        4,
+        5
+      ],
+      "visual": "Illustration of scientific satellite instruments overwhelmed by incoming radiation in orbit",
+      "subjects": [
+        "Satellite",
+        "Gamma-ray burst"
+      ],
+      "year": 1998,
+      "queries": [
+        "satellite in Earth orbit illustration",
+        "spacecraft sensor detection radiation"
+      ],
+      "card": {
+        "kind": "dateline",
+        "big": "August 1998",
+        "small": "Sensors saturated across space"
+      }
+    },
+    {
+      "text": "NASA's Rossi satellite was flooded by an invisible, pulsating gamma-ray wave.",
+      "emphasis": [
+        "flooded",
+        "gamma-ray wave"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        6,
+        8
+      ],
+      "visual": "Rossi X-ray Timing Explorer spacecraft operating in Earth orbit",
+      "subjects": [
+        "Rossi X-ray Timing Explorer"
+      ],
+      "year": 1998,
+      "queries": [
+        "Rossi X-ray Timing Explorer NASA",
+        "RXTE satellite model"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "The signal flashed every 5.16 seconds from a magnetar called SGR 1900+14.",
+      "emphasis": [
+        "5.16 seconds",
+        "SGR 1900+14"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        1,
+        2,
+        7
+      ],
+      "visual": "Diagram illustrating the spinning pulse profile of a neutron star",
+      "subjects": [
+        "Neutron star",
+        "Pulsar"
+      ],
+      "year": 0,
+      "queries": [
+        "pulsar rotation diagram",
+        "neutron star pulse profile"
+      ],
+      "card": {
+        "kind": "fact",
+        "big": "5.16 seconds",
+        "small": "Rotation period"
+      }
+    },
+    {
+      "text": "Its magnetic field is trillions of times stronger than Earth's entire field.",
+      "emphasis": [
+        "trillions of times"
+      ],
+      "sfx": "riser",
+      "pause_after": 0.12,
+      "claims": [
         3
       ],
-      "visual": "NASA/ESA Hubble Space Telescope artist impression of a magnetar's magnetic field",
+      "visual": "Render of twisted magnetic field lines erupting from a neutron star crust",
       "subjects": [
         "Magnetar",
         "Magnetic field"
@@ -77,117 +165,35 @@
       "year": 0,
       "queries": [
         "magnetar magnetic field lines",
-        "neutron star magnetic field"
+        "starquake neutron star crust"
       ],
       "card": {
         "kind": "fact",
         "big": "Trillions of times",
-        "small": "Magnetic field intensity"
+        "small": "Stronger than Earth's field"
       }
     },
     {
-      "text": "The star's crust shattered in a massive explosion during August 1998.",
+      "text": "Spitzer captured a seven light-year ring of glowing dust left behind.",
       "emphasis": [
-        "crust shattered",
-        "August 1998"
+        "seven light-year ring",
+        "glowing dust"
       ],
-      "sfx": "none",
+      "sfx": "whoosh",
       "pause_after": 0.12,
-      "claims": [
-        4
-      ],
-      "visual": "Artist's concept of a starquake on a neutron star crust",
-      "subjects": [
-        "Starquake",
-        "Neutron star"
-      ],
-      "year": 1998,
-      "queries": [
-        "neutron star crust fracture",
-        "starquake artist impression"
-      ],
-      "card": {
-        "kind": "dateline",
-        "big": "August 1998",
-        "small": "A massive starquake event"
-      }
-    },
-    {
-      "text": "The blast was so violent it overwhelmed satellite detectors across our solar system.",
-      "emphasis": [
-        "overwhelmed",
-        "satellite detectors"
-      ],
-      "sfx": "none",
-      "pause_after": 0.12,
-      "claims": [
-        5,
-        6
-      ],
-      "visual": "Rossi X-ray Timing Explorer spacecraft in orbit, 1995",
-      "subjects": [
-        "Rossi X-ray Timing Explorer",
-        "Satellite"
-      ],
-      "year": 1998,
-      "queries": [
-        "Rossi X-ray Timing Explorer spacecraft",
-        "RXTE satellite"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "This eruption created a pulsating tail, spinning every 5.16 seconds.",
-      "emphasis": [
-        "spinning",
-        "5.16 seconds"
-      ],
-      "sfx": "riser",
-      "pause_after": 0.12,
-      "claims": [
-        7,
-        8
-      ],
-      "visual": "Computer-generated chart showing pulse period frequency",
-      "subjects": [
-        "Neutron star",
-        "Pulsar"
-      ],
-      "year": 0,
-      "queries": [
-        "pulsar timing signal",
-        "neutron star spin rate"
-      ],
-      "card": {
-        "kind": "fact",
-        "big": "5.16 seconds",
-        "small": "Magnetar rotation period"
-      }
-    },
-    {
-      "text": "Years later, Spitzer captured a mysterious seven light-year ring of fire.",
-      "emphasis": [
-        "ring of fire"
-      ],
-      "sfx": "pop",
-      "pause_after": 0.4,
       "claims": [
         10,
         11
       ],
-      "visual": "Spitzer Space Telescope infrared image of the ring around SGR 1900+14, 2005",
+      "visual": "Spitzer Space Telescope infrared image of the dust ring around SGR 1900+14, 2005",
       "subjects": [
         "Spitzer Space Telescope",
         "SGR 1900+14"
       ],
       "year": 2005,
       "queries": [
-        "SGR 1900+14 Spitzer infrared ring",
-        "magnetar ring of fire"
+        "Spitzer SGR 1900+14 ring",
+        "magnetar infrared ring Spitzer"
       ],
       "card": {
         "kind": "none",
@@ -196,25 +202,26 @@
       }
     },
     {
-      "text": "The entire galaxy heard that dead star scream from 20,000 light-years away.",
+      "text": "The blast was powerful enough to physically alter Earth's atmosphere.",
       "emphasis": [
-        "dead star scream",
-        "20,000 light-years"
+        "physically alter",
+        "Earth's atmosphere"
       ],
-      "sfx": "whoosh",
-      "pause_after": 0.12,
+      "sfx": "pop",
+      "pause_after": 0.4,
       "claims": [
-        1
+        4,
+        5
       ],
-      "visual": "Radio image showing the supernova remnant G42.8+0.6 region",
+      "visual": "Artist illustration of gamma rays striking Earth's upper atmosphere",
       "subjects": [
-        "SGR 1900+14",
-        "Supernova remnant"
+        "Upper atmosphere",
+        "Gamma-ray burst"
       ],
-      "year": 0,
+      "year": 1998,
       "queries": [
-        "SGR 1900+14 radio imaging",
-        "supernova remnant G42.8+0.6"
+        "gamma ray burst atmosphere illustration",
+        "radiation striking Earth upper atmosphere"
       ],
       "card": {
         "kind": "none",
@@ -225,5 +232,5 @@
   ],
   "hook_text": "",
   "loop": true,
-  "better_than_last": "I moved the date away from the start of the beat to comply with the narrative rules."
+  "better_than_last": "Applied reviewer revisions to beats 6 and 7, ensuring beat 7 directly loops into the hook while preserving the mystery structure."
 }

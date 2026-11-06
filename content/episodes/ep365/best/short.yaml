@@ -1,0 +1,199 @@
+id: ep365
+title: The First Ship to Orbit Mars
+series: Mission Files
+format: v3
+description: Mariner 9 made history as the first spacecraft to orbit another planet, arriving just as a global dust storm
+  blinded the Red Planet.
+sources:
+- https://en.wikipedia.org/wiki/Mariner_9
+- https://science.nasa.gov/mission/mariner-9/
+- https://www.space.com/18439-mariner-9.html
+- https://www.lindahall.org/about/news/scientist-of-the-day/mariner-9/
+- https://www.ebsco.com/research-starters/visual-arts/mariner-9-first-spacecraft-orbit-another-planet
+- https://web.archive.org/web/20120125055707/http://planetary.org/blog/article/00003296/
+hashtags:
+- '#space'
+- '#nasa'
+- '#mars'
+tags:
+- Mariner 9
+- Mars
+- NASA
+- Space Race
+- Soviet Union
+- Astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Mariner 9 was the first probe to orbit another planet.
+  emphasis:
+  - first probe
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/11/Mariner09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mariner09.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mariner09.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It beat its twin, which crashed in the Atlantic.
+  emphasis:
+  - crashed
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Crashed
+      small: Mariner 8
+    motion: zoom_in
+- text: But on arrival, it found only a wall of dust.
+  emphasis:
+  - wall of dust
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/PIA02985_Dust_storm_in_the_Thaumasia_region_of_Mars.jpg/960px-PIA02985_Dust_storm_in_the_Thaumasia_region_of_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA02985 Dust storm in the Thaumasia region of Mars.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA02985_Dust_storm_in_the_Thaumasia_region_of_Mars.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A global storm had swallowed the entire Red Planet.
+  emphasis:
+  - swallowed
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Comparison_of_atmospheric_activity_%28blue_410_nm%29_from_1997_and_2001_%28opo0131e%29.jpg/960px-Comparison_of_atmospheric_activity_%28blue_410_nm%29_from_1997_and_2001_%28opo0131e%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Comparison of atmospheric activity (blue 410 nm) from 1997 and 2001 (opo0131e).jpg
+      credit: J. Bell (Cornell University)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Comparison_of_atmospheric_activity_(blue_410_nm)_from_1997_and_2001_(opo0131e).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.75
+    focus_y: 0.5
+- text: Two Soviet probes arrived but couldn't adapt to the storm.
+  emphasis:
+  - couldn't adapt
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Mars_3_Space_Probe_1.jpg/3840px-Mars_3_Space_Probe_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars 3 Space Probe 1.jpg
+      credit: Stolbovsky
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Mars_3_Space_Probe_1.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They blindly snapped thousands of photos of pure dust.
+  emphasis:
+  - pure dust
+  visual:
+    source: url
+    url: https://live.staticflickr.com/65535/55432325774_990e263749_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: Stratigraphy of the North Polar Deposits
+      credit: UAHiRISE (NASA)
+      license: CC0
+      url: https://www.flickr.com/photos/71688597@N05/55432325774
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: NASA engineers reprogrammed the ship from Earth in 1971.
+  emphasis:
+  - reprogrammed
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: '1971'
+      small: NASA JPL
+    motion: zoom_in
+- text: Mariner 9 waited months for the Martian sky to clear.
+  emphasis:
+  - waited months
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/69/Mars_atmosphere_by_Hubble.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mars atmosphere by Hubble.jpg
+      credit: Philip James (University of Toledo), Steven Lee (University of Colorado), NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_atmosphere_by_Hubble.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It finally mapped massive volcanoes and 2,500-mile canyons.
+  emphasis:
+  - massive volcanoes
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Valles_Marineris_PIA00178.jpg/3840px-Valles_Marineris_PIA00178.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Valles Marineris PIA00178.jpg
+      credit: NASA/JPL/USGS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Valles_Marineris_PIA00178.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 2,500 miles
+      small: Valles Marineris
+- text: It succeeded even when the planet was hidden by dust.
+  emphasis:
+  - hidden by dust
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: FIRST SHIP TO ORBIT MARS

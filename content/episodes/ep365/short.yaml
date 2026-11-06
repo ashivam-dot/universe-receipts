@@ -1,9 +1,9 @@
 id: ep365
-title: The First Ship to Orbit Mars
+title: The Craft That Saved Mars Exploration
 series: Mission Files
 format: v3
-description: Mariner 9 made history as the first spacecraft to orbit another planet, arriving just as a global dust storm
-  blinded the Red Planet.
+description: In 1971, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a global dust
+  storm.
 sources:
 - https://en.wikipedia.org/wiki/Mariner_9
 - https://science.nasa.gov/mission/mariner-9/
@@ -13,15 +13,15 @@ sources:
 - https://web.archive.org/web/20120125055707/http://planetary.org/blog/article/00003296/
 hashtags:
 - '#space'
+- '#mariner9'
 - '#nasa'
-- '#mars'
 tags:
 - Mariner 9
 - Mars
 - NASA
-- Space Race
-- Soviet Union
-- Astronomy
+- space exploration
+- astronomy
+- Soviet space program
 voice:
   engine: gemini
   voice: Zubenelgenubi
@@ -31,9 +31,9 @@ voice:
   direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
     and playful, natural rises and falls, never an announcer or documentary voice
 beats:
-- text: Mariner 9 was the first probe to orbit another planet.
+- text: The first probe orbiting Mars found it swallowed by dust.
   emphasis:
-  - first probe
+  - swallowed by dust
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/1/11/Mariner09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -48,20 +48,32 @@ beats:
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: It beat its twin, which crashed in the Atlantic.
+- text: Mariner 9 beat its twin, which crashed in the ocean.
   emphasis:
   - crashed
   sfx: whoosh
   visual:
-    source: card
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/af/08_002160_SDASM_Space_Image_-_MLV_%28AC69%29_%2854035752428%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: 08 002160 SDASM Space Image - MLV (AC69) (54035752428).jpg
+      credit: San Diego Air & Space Museum Archives
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:08_002160_SDASM_Space_Image_-_MLV_(AC69)_(54035752428).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: fact
       big: Crashed
-      small: Mariner 8
-    motion: zoom_in
-- text: But on arrival, it found only a wall of dust.
+      small: Mariner 8 twin
+- text: A planet-wide storm had blinded the entire Red Planet.
   emphasis:
-  - wall of dust
+  - blinded
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/PIA02985_Dust_storm_in_the_Thaumasia_region_of_Mars.jpg/960px-PIA02985_Dust_storm_in_the_Thaumasia_region_of_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -76,114 +88,104 @@ beats:
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: A global storm had swallowed the entire Red Planet.
+- text: Two Soviet probes arrived and blindly took photos of dust.
   emphasis:
-  - swallowed
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Comparison_of_atmospheric_activity_%28blue_410_nm%29_from_1997_and_2001_%28opo0131e%29.jpg/960px-Comparison_of_atmospheric_activity_%28blue_410_nm%29_from_1997_and_2001_%28opo0131e%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Comparison of atmospheric activity (blue 410 nm) from 1997 and 2001 (opo0131e).jpg
-      credit: J. Bell (Cornell University)
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Comparison_of_atmospheric_activity_(blue_410_nm)_from_1997_and_2001_(opo0131e).jpg
-    fallbacks:
-    - color
-    motion: pan_left
-    focus_x: 0.75
-    focus_y: 0.5
-- text: Two Soviet probes arrived but couldn't adapt to the storm.
-  emphasis:
-  - couldn't adapt
+  - photos of dust
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Mars_3_Space_Probe_1.jpg/3840px-Mars_3_Space_Probe_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/6/6d/Mars_1_%28Memorial_Museum_of_Astronautics%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Mars 3 Space Probe 1.jpg
-      credit: Stolbovsky
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Mars_3_Space_Probe_1.jpg
+      title: Mars 1 (Memorial Museum of Astronautics).JPG
+      credit: Armael
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Mars_1_(Memorial_Museum_of_Astronautics).JPG
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Their fixed programming could not adapt to the storm.
+  emphasis:
+  - could not adapt
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Mars_Polar_Lander_-_landing_diagram.png/1920px-Mars_Polar_Lander_-_landing_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars Polar Lander - landing diagram.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Polar_Lander_-_landing_diagram.png
     fallbacks:
     - color
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: They blindly snapped thousands of photos of pure dust.
+- text: NASA engineers reprogrammed Mariner 9 from Earth to wait.
   emphasis:
-  - pure dust
+  - reprogrammed
+  sfx: whoosh
   visual:
     source: url
-    url: https://live.staticflickr.com/65535/55432325774_990e263749_b.jpg
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Overall_view_of_Mission_Control_Center_during_Apollo_14_%28S71-16879%29.jpg/3840px-Overall_view_of_Mission_Control_Center_during_Apollo_14_%28S71-16879%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
-      source: Flickr via Openverse
-      title: Stratigraphy of the North Polar Deposits
-      credit: UAHiRISE (NASA)
-      license: CC0
-      url: https://www.flickr.com/photos/71688597@N05/55432325774
+      source: Wikimedia Commons
+      title: Overall view of Mission Control Center during Apollo 14 (S71-16879).jpg
+      credit: NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Overall_view_of_Mission_Control_Center_during_Apollo_14_(S71-16879).jpg
     fallbacks:
     - color
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: NASA engineers reprogrammed the ship from Earth in 1971.
+- text: When dust cleared, Mariner 9 mapped massive extinct volcanoes.
   emphasis:
-  - reprogrammed
-  sfx: whoosh
-  visual:
-    source: card
-    card:
-      kind: dateline
-      big: '1971'
-      small: NASA JPL
-    motion: zoom_in
-- text: Mariner 9 waited months for the Martian sky to clear.
-  emphasis:
-  - waited months
+  - extinct volcanoes
   sfx: riser
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/6/69/Mars_atmosphere_by_Hubble.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Olympus_Mons_alt.jpg/1920px-Olympus_Mons_alt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Mars atmosphere by Hubble.jpg
-      credit: Philip James (University of Toledo), Steven Lee (University of Colorado), NASA
+      title: Olympus Mons alt.jpg
+      credit: Image by NASA, modifications by Seddon
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Mars_atmosphere_by_Hubble.jpg
+      url: https://commons.wikimedia.org/wiki/File:Olympus_Mons_alt.jpg
     fallbacks:
     - color
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: It finally mapped massive volcanoes and 2,500-mile canyons.
+- text: It discovered a canyon system spanning 2,500 miles.
   emphasis:
-  - massive volcanoes
+  - 2,500 miles
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Valles_Marineris_PIA00178.jpg/3840px-Valles_Marineris_PIA00178.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Valles_Marineris_-_Mars_-_July_19_2015_%2849204861137%29.jpg/1920px-Valles_Marineris_-_Mars_-_July_19_2015_%2849204861137%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Valles Marineris PIA00178.jpg
-      credit: NASA/JPL/USGS
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Valles_Marineris_PIA00178.jpg
+      title: Valles Marineris - Mars - July 19 2015 (49204861137).jpg
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Valles_Marineris_-_Mars_-_July_19_2015_(49204861137).jpg
     fallbacks:
     - card
     - color
-    motion: pan_right
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
       big: 2,500 miles
-      small: Valles Marineris
-- text: It succeeded even when the planet was hidden by dust.
+      small: Valles Marineris canyon
+- text: Smart reprogramming turned a blinded mission into history.
   emphasis:
-  - hidden by dust
+  - into history
   visual:
     reuse: 1
     motion: zoom_out
@@ -196,4 +198,4 @@ music:
   fade_out: 1.0
 captions:
   hook_size: 150
-hook_text: FIRST SHIP TO ORBIT MARS
+hook_text: BLINDED BY DUST

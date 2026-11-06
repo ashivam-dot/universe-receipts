@@ -148,6 +148,7 @@ beats:
 - text: The clue to this chaos was hiding in the neighbors.
   emphasis:
   - neighbors
+  sfx: whoosh
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Canes_Venatici_charta.png/960px-Canes_Venatici_charta.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -160,11 +161,16 @@ beats:
     fallbacks:
     - color
     motion: zoom_out
-    focus_x: 0.64
-    focus_y: 0.45
-- text: A gravitational tug-of-war with nearby galaxies ignited this starburst.
+    focus_x: 0.47
+    focus_y: 0.54
+    box:
+    - 0.24
+    - 0.2
+    - 0.68
+    - 0.8
+- text: Nearby galaxies pulled on it in a cosmic interaction.
   emphasis:
-  - tug-of-war
+  - cosmic interaction
   sfx: pop
   pause_after: 0.4
   visual:
@@ -174,10 +180,10 @@ beats:
       big: Starburst
       small: Cosmic Firestorm
     motion: zoom_in
-- text: Now, this tiny dwarf galaxy is having a massive growth spurt.
+- text: And that gravitational tug-of-war is why.
   emphasis:
-  - massive growth
-  sfx: whoosh
+  - tug-of-war
+  sfx: pop
   visual:
     reuse: 1
     motion: zoom_in
@@ -190,3 +196,4 @@ music:
   fade_out: 1.0
 captions:
   hook_size: 150
+hook_text: GALACTIC GROWTH SPURT
