@@ -69,7 +69,7 @@ unexplained, not alien.
 | 2026-11-03 | Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models — parked (ep330) | Scale Breaker | Trending on NASA news this week with new Hubble findings on dwarf galaxies. |
 | 2026-11-05 | SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes — dropped (ep358) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
 | 2026-11-05 | SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night — making (ep362) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
-| 2026-11-05 | IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear — making (ep364) | Space Got Weird | Featured in NASA's Astronomy Picture of the Day on November 4. |
+| 2026-11-05 | IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear — dropped (ep364) | Space Got Weird | Featured in NASA's Astronomy Picture of the Day on November 4. |
 | 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe — making (ep363) | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
@@ -286,7 +286,7 @@ unexplained, not alien.
 - Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness — parked (ep298)
 - Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers — done (ep357)
 - Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water — done (ep359)
-- Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon — making (ep361)
+- Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon — dropped (ep361)
 
 ### Near Misses
 
