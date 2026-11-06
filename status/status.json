@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-06T17:14:50+05:30",
+  "updated_at": "2026-11-06T23:06:42+05:30",
   "day": 36,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6RA81FBT69ATT0ZT9BA1EDR",
+    "id": "ta-01M6RYV8FM92EDCSMQFHV9S17R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-06T17:05:11+05:30",
-    "started_at_utc": "2026-11-06T11:35:11+00:00",
-    "seconds": 579
+    "started_at": "2026-11-06T23:05:16+05:30",
+    "started_at_utc": "2026-11-06T17:35:16+00:00",
+    "seconds": 86
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.6
+      "seconds": 2.2
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "95 posts",
-      "seconds": 1.7
+      "seconds": 1.6
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.2
+      "seconds": 3.9
     },
     {
       "name": "languages",
@@ -45,56 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep347 at 6 h: ahead of the channel's earlier Shorts at this age: 955 views against a median of 607 (1.6x); ep359 at 6 h: ahead of the channel's earlier Shorts at this age: 1472 views against a median of 632 (2.3x)",
-      "seconds": 4.4
+      "detail": "no checkpoint due",
+      "seconds": 3.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep362 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep363 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep365 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', '",
-      "seconds": 13.9
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "119 subscribers",
-      "seconds": 13.9
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Processed 24-30h reviews for ep260-ep346; maintained rule set while tracking interactive ending prompt hypothesis against flat engagement depth.",
-      "seconds": 377.1
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "ep359 \"The Planet With Growing Ears\" broke out: 1,455 views 9 hours after going live, 20.2x the median of its peers at that age (72); queued Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge; Janus (moon) (1966): shares ",
-      "seconds": 56.7
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "1 added",
-      "seconds": 15.5
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "4 added",
-      "seconds": 43.5
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-036.md",
-      "seconds": 2.5
+      "detail": "ep362 ready; ep363 rejected (low scores: payoff); ep365 ready; ep366 rejected (low scores: visuals); ep367 ready; ep368 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep369 ready",
+      "seconds": 27.1
     },
     {
       "name": "buffer channel",
@@ -106,91 +64,81 @@
       "name": "preflight ep345",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.6
+    },
+    {
+      "name": "preflight ep352",
+      "ok": true,
+      "detail": "video downloads whole (12 MB in 1 s)",
+      "seconds": 1.4
     },
     {
       "name": "preflight ep355",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.6
+    },
+    {
+      "name": "preflight ep356",
+      "ok": true,
+      "detail": "video downloads whole (12 MB in 1 s)",
+      "seconds": 1.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 9.5
     },
     {
-      "name": "start ep362",
+      "name": "schedule ep367",
       "ok": true,
-      "detail": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
-      "seconds": 2.0
+      "detail": "2026-11-07T16:30:00-05:00",
+      "seconds": 1.5
     },
     {
-      "name": "start ep363",
+      "name": "schedule ep362",
       "ok": true,
-      "detail": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
-      "seconds": 1.2
+      "detail": "2026-11-08T12:30:00-05:00",
+      "seconds": 1.6
     },
     {
-      "name": "start ep365",
+      "name": "start ep370",
       "ok": true,
-      "detail": "Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm",
-      "seconds": 1.0
+      "detail": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "seconds": 1.9
     },
     {
-      "name": "start ep366",
+      "name": "start ep371",
       "ok": true,
-      "detail": "2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station",
-      "seconds": 1.3
-    },
-    {
-      "name": "start ep367",
-      "ok": true,
-      "detail": "Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep368",
-      "ok": true,
-      "detail": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep369",
-      "ok": true,
-      "detail": "Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock",
-      "seconds": 0.9
+      "detail": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "seconds": 1.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 1.9
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep362 stopped on Gemini's free quota; it resumes in a later run",
-    "ep363 stopped on Gemini's free quota; it resumes in a later run",
-    "ep365 stopped on Gemini's free quota; it resumes in a later run",
-    "ep366 stopped on Gemini's free quota; it resumes in a later run"
+    "ep368 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "Buffer is full (10 queued); 2 waiting"
   ],
   "inventory": {
-    "total": 8,
-    "in_buffer": 8,
-    "waiting": 0,
+    "total": 12,
+    "in_buffer": 10,
+    "waiting": 2,
     "target": 14,
-    "making": [],
+    "making": [
+      "ep368"
+    ],
     "remote": [
-      "ep362",
-      "ep363",
-      "ep365",
-      "ep366",
-      "ep367",
-      "ep368",
-      "ep369"
+      "ep370",
+      "ep371"
     ]
   },
   "queue": [
@@ -205,6 +153,11 @@
       "due_at": "2026-11-06T21:30:00-05:00"
     },
     {
+      "id": "ep367",
+      "title": "The Moons That Swap Orbits Every Four Years",
+      "due_at": "2026-11-07T16:30:00-05:00"
+    },
+    {
       "id": "ep352",
       "title": "The Probe That Fell Into Venus",
       "due_at": "2026-11-07T19:00:00-05:00"
@@ -213,6 +166,11 @@
       "id": "ep356",
       "title": "A Pixel in the Sunbeam",
       "due_at": "2026-11-07T21:30:00-05:00"
+    },
+    {
+      "id": "ep362",
+      "title": "The Starquake That Hit Earth",
+      "due_at": "2026-11-08T12:30:00-05:00"
     },
     {
       "id": "ep349",
@@ -235,151 +193,167 @@
       "due_at": "2026-11-09T21:30:00-05:00"
     }
   ],
-  "waiting": [],
+  "waiting": [
+    {
+      "id": "ep365",
+      "title": "The Craft That Saved Mars Exploration",
+      "series": "Mission Files",
+      "score": 21
+    },
+    {
+      "id": "ep369",
+      "title": "Saving Apollo 13 With Duct Tape",
+      "series": "Near Misses",
+      "score": 20
+    }
+  ],
   "made": [
     {
       "id": "ep362",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "The Starquake That Hit Earth",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793966420/universereceipts/ep362-b0325786.mp4"
     },
     {
       "id": "ep363",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "reason": "low scores: payoff"
     },
     {
       "id": "ep365",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm",
+      "title": "The Craft That Saved Mars Exploration",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793966354/universereceipts/ep365-f7d13f28.mp4"
+    },
+    {
+      "id": "ep366",
+      "outcome": "rejected",
+      "topic": "2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep367",
+      "outcome": "ready",
+      "topic": "Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years",
+      "title": "The Moons That Swap Orbits Every Four Years",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793966369/universereceipts/ep367-0da5ba05.mp4"
+    },
+    {
+      "id": "ep368",
+      "outcome": "unfinished",
+      "topic": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep366",
-      "outcome": "unfinished",
-      "topic": "2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep369",
+      "outcome": "ready",
+      "topic": "Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock",
+      "title": "Saving Apollo 13 With Duct Tape",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793966889/universereceipts/ep369-eaced021.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep362",
-      "topic": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
-      "call_id": "fc-01M6RASN264AFQFTGWTK32N6MK"
+      "id": "ep370",
+      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "call_id": "fc-01M6RYY2WHZ3EXB6QJ9Z24JBC3"
     },
     {
-      "id": "ep363",
-      "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
-      "call_id": "fc-01M6RASP86E7ATFS2Y3GY517F9"
-    },
-    {
-      "id": "ep365",
-      "topic": "Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm",
-      "call_id": "fc-01M6RASQ64N8BE5NEJT6C6C8XM"
-    },
-    {
-      "id": "ep366",
-      "topic": "2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station",
-      "call_id": "fc-01M6RASRDQA0W5X0KQ3P8X8RPW"
-    },
-    {
-      "id": "ep367",
-      "topic": "Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years",
-      "call_id": "fc-01M6RASSBBQ0GK0598RD251PV6"
-    },
-    {
-      "id": "ep368",
-      "topic": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
-      "call_id": "fc-01M6RAST85T7R54BRN9GH632WR"
-    },
-    {
-      "id": "ep369",
-      "topic": "Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock",
-      "call_id": "fc-01M6RASV4X4WGAZSTDVQ68VYJ5"
+      "id": "ep371",
+      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "call_id": "fc-01M6RYY3Y4PZKCQ8M7CYERE4WV"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep362",
-      "topic": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
-      "spawned_at": "2026-11-06T17:14:39+05:30"
+      "id": "ep370",
+      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "spawned_at": "2026-11-06T23:06:35+05:30"
     },
     {
-      "id": "ep363",
-      "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
-      "spawned_at": "2026-11-06T17:14:40+05:30"
-    },
-    {
-      "id": "ep365",
-      "topic": "Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm",
-      "spawned_at": "2026-11-06T17:14:41+05:30"
-    },
-    {
-      "id": "ep366",
-      "topic": "2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station",
-      "spawned_at": "2026-11-06T17:14:42+05:30"
-    },
-    {
-      "id": "ep367",
-      "topic": "Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years",
-      "spawned_at": "2026-11-06T17:14:43+05:30"
-    },
-    {
-      "id": "ep368",
-      "topic": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
-      "spawned_at": "2026-11-06T17:14:44+05:30"
-    },
-    {
-      "id": "ep369",
-      "topic": "Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock",
-      "spawned_at": "2026-11-06T17:14:45+05:30"
+      "id": "ep371",
+      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "spawned_at": "2026-11-06T23:06:36+05:30"
     }
   ],
-  "published": [],
+  "published": [
+    {
+      "id": "ep367",
+      "title": "The Moons That Swap Orbits Every Four Years",
+      "due_at": "2026-11-07T16:30:00-05:00"
+    },
+    {
+      "id": "ep362",
+      "title": "The Starquake That Hit Earth",
+      "due_at": "2026-11-08T12:30:00-05:00"
+    }
+  ],
   "live": 87,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 17,
+    "calls": 42,
     "by_model": {
-      "gemini-3.6-flash": 4,
-      "gemini-3.5-flash": 3,
-      "gemini-flash-latest": 1,
-      "gemini-3.5-flash-lite": 5,
-      "gemini-3.8-flash": 2,
-      "gemini-3-flash-preview": 2
+      "gemini-3.5-flash": 1,
+      "gemini-3-flash-preview": 19,
+      "gemini-3.6-flash": 15,
+      "gemini-3.5-flash-lite": 7
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 8,
+    "modal": 16,
     "runner": 0
   },
   "daily_done": "2026-11-06",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 3.91,
+    "metered": 4.36,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 200,
+    "cloud": 197,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 24.09
+    "modal_credit_left": 23.64
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 35,
-  "parked_topics": 62
+  "open_topics": 33,
+  "parked_topics": 64
 }

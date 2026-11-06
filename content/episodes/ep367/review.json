@@ -1,0 +1,149 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-06T17:25:45+05:30",
+      "check": {
+        "duration": 26.83,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing concept of identical orbits captures attention immediately.",
+        "clarity": "Straightforward explanation of orbital mechanics without jargon.",
+        "payoff": "Clear resolution explaining how gravity prevents collision via swap.",
+        "visuals": "Images are mostly crisp, but Beat 5 displays an unreadable text chart.",
+        "loop": "Smooth linguistic transition from final sentence back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Chart graphic features tiny text labels that are unreadable on a phone screen."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Presents a clearer physical interaction concept than recent historical episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-06T17:27:03+05:30",
+      "check": {
+        "duration": 26.73,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'inner and outer' heard as 'in or out of' after 'years they trade'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Sets up an interesting orbital premise quickly, though slightly standard.",
+        "clarity": "Explains the orbital mechanics and mass differences simply.",
+        "payoff": "Concludes with the uniqueness of the swap, offering moderate surprise.",
+        "visuals": "Imagery of Saturn, moons, and probes remains relevant and crisp.",
+        "loop": "Transitions back smoothly, though the sentence flow feels slightly abrupt."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: 'Saturn has two moons locked in a constant orbital dance.'",
+        "Beat 9: 'Making this the solar system's only known orbital swap where...'"
+      ],
+      "better_than_last": "Provides a clearer step-by-step breakdown of orbital mechanics than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-06T17:29:28+05:30",
+      "check": {
+        "duration": 27.43,
+        "words": 82,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Sets up an intriguing orbital phenomenon immediately with clear stakes.",
+        "clarity": "Explains the physics of the swap step-by-step without cluttering the main idea.",
+        "payoff": "The explanation of how gravity safely swaps their orbits delivers a satisfying conclusion.",
+        "visuals": "Imagery is generally sharp and relevant, though beat 4 features an incorrect moon.",
+        "loop": "The final sentence completes the thought seamlessly into beat 1."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows Mars's moon Phobos instead of Saturn's moon Janus or Epimetheus."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Explains a counterintuitive orbital physics mechanism with greater clarity than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

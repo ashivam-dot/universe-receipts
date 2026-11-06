@@ -1,0 +1,160 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-06T11:13:46+05:30",
+      "check": {
+        "duration": 30.3,
+        "words": 89,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "The contrast between a tiny dwarf galaxy and a massive growth spurt sets up an engaging premise quickly.",
+        "clarity": "Explains irregular galaxies and starburst triggers step-by-step with zero confusing jargon.",
+        "payoff": "Identifies gravitational interaction with neighbors as the root cause of the galaxy's chaotic frenzy.",
+        "visuals": "Beat 7 drops into a dry, low-contrast constellation chart with unreadable labels that breaks the visual flow.",
+        "loop": "Beat 9 repeats beat 1 almost verbatim, making the replay clunky rather than seamless."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "An unreadable black-and-white constellation star chart dominated by tiny text and dots."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: \"And that gravitational tug-of-war is why...\""
+      ],
+      "better_than_last": "Explains an astrophysical mechanism with simpler, crisper clarity than the technical narrative in ep360.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-06T17:27:36+05:30",
+      "check": {
+        "duration": 31.0,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Establishes an interesting premise quickly, though it could state the mystery more sharply.",
+        "clarity": "Logical chronological narrative that is easy to track on a single listen.",
+        "payoff": "Explains the underlying cosmic cause clearly, though the final twist is mild.",
+        "visuals": "Strong astronomical imagery overall, hampered by an illegible chart near the end.",
+        "loop": "Connects back to the first line logically, but the sentence transition is slightly abrupt."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "mostly text and hard to read at phone size"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Change to 'This tiny dwarf galaxy is having a violent galactic growth spurt.'",
+        "Beat 9: Change to 'And this gravitational tug-of-war with neighbor galaxies is why'"
+      ],
+      "better_than_last": "It builds a clearer cause-and-effect narrative structure than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-06T17:33:42+05:30",
+      "check": {
+        "duration": 28.63,
+        "words": 86,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Uses evocative verbs like violent to capture attention quickly.",
+        "clarity": "The narrative follows a clear path from history to discovery.",
+        "payoff": "The explanation is logical but lacks a surprising twist.",
+        "visuals": "Galaxy and historical imagery are relevant and high quality.",
+        "loop": "Ends on a question that is answered by the hook."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Generic nebula image that appears unrelated to the specific galaxy discussed."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Nearby galaxies are actually stretching and pulling its gas apart.",
+        "Beat 9: This gravitational tug-of-war is the engine behind the violent"
+      ],
+      "better_than_last": "Maintains the strong historical context established in the Saturn short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff",
+  "rejected_at": "2026-11-06T17:33:42+05:30"
+}

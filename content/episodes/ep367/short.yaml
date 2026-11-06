@@ -1,0 +1,196 @@
+id: ep367
+title: The Moons That Swap Orbits Every Four Years
+series: Space Got Weird
+format: v3
+description: Saturn's moons Janus and Epimetheus share almost the exact same orbit, trading places every four years without
+  ever colliding.
+sources:
+- https://en.wikipedia.org/wiki/Janus_(moon)
+- https://science.nasa.gov/saturn/moons/janus/
+- https://theplanets.org/moons-of-saturn/janus-moon/
+- https://www.planetary.org/articles/janus-epimetheus-swap
+hashtags:
+- '#space'
+- '#saturn'
+- '#janus'
+tags:
+- saturn
+- janus
+- epimetheus
+- moons
+- astronomy
+- voyager
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Saturn has two moons locked in a constant orbital dance.
+  emphasis:
+  - constant orbital dance
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Mimas_%28Mond%29_%287185488%29.jpg/960px-Mimas_%28Mond%29_%287185488%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mimas (Mond) (7185488).jpg
+      credit: alan taylor from Hudson, MA, usa
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Mimas_(Mond)_(7185488).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Their orbital paths differ by only 50 kilometers.
+  emphasis:
+  - 50 kilometers
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 50 KM
+      small: ORBIT GAP
+    motion: zoom_in
+- text: That tiny gap should cause a violent collision.
+  emphasis:
+  - violent collision
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/92/Meteors_Meet_Saturn%27s_Rings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Meteors Meet Saturn's Rings.jpg
+      credit: NASA/JPL-Caltech/Space Science Institute/Cornell
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Meteors_Meet_Saturn%27s_Rings.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Instead, as the inner moon catches up, gravity forces a swap.
+  emphasis:
+  - forces a swap
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/3e/Janus_2006_closeup_by_Cassinix2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Janus 2006 closeup by Cassinix2.jpg
+      credit: 'Janus_2006_closeup_by_Cassini.jpg: NASA (Cassini-Huygens mission)
+
+        derivative work: WolfmanSF (talk)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Janus_2006_closeup_by_Cassinix2.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They pass between 10,000 and 15,000 kilometers apart.
+  emphasis:
+  - 10,000 and 15,000
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d6/Saturn_2019_June_20_%2848106116216%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Saturn 2019 June 20 (48106116216).png
+      credit: geckzilla
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Saturn_2019_June_20_(48106116216).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 10,000 KM
+      small: CLOSEST PASS
+- text: Every four years, they trade inner and outer positions.
+  emphasis:
+  - trade inner and outer
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/75/PIA08361_Ring_World.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA08361 Ring World.png
+      credit: NASA/JPL/Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA08361_Ring_World.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Janus is four times more massive, shifting Epimetheus four times more.
+  emphasis:
+  - four times more
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/36/Epimetheus_Mosaic.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Epimetheus Mosaic.png
+      credit: NASA/JPL-Caltech/Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Epimetheus_Mosaic.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.4
+    focus_y: 0.45
+- text: Voyager 1 confirmed this unique dance in 1980.
+  emphasis:
+  - Voyager 1
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/29/Voyager_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager spacecraft.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.35
+    focus_y: 0.45
+    card:
+      kind: dateline
+      big: '1980'
+      small: VOYAGER 1
+- text: Making this the solar system's only known orbital swap.
+  emphasis:
+  - only known
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE 50 KM MOON SWAP

@@ -1,0 +1,163 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-06T11:14:54+05:30",
+      "check": {
+        "duration": 26.07,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'it passed earth'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong comparison to the ISS provides immediate scale.",
+        "clarity": "Logical flow from proximity to detection delay.",
+        "payoff": "Glare explanation effectively resolves the mystery.",
+        "visuals": "Technical diagrams include irrelevant or incorrect data.",
+        "loop": "Last line connects perfectly to the start."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Diagram shows the wrong asteroid (2001 SG286)."
+        },
+        {
+          "beat": 8,
+          "problem": "Diagram shows lunar orbital nodes instead of the asteroid's path."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short uses a specific date to add a layer of thematic tension missing from the previous episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-06T17:23:05+05:30",
+      "check": {
+        "duration": 28.05,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'it passed earth'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong opening comparison to the space station's altitude immediately grabs interest.",
+        "clarity": "Clear, single-idea beat progression that is simple to follow on one listen.",
+        "payoff": "Great reveal explaining how the asteroid snuck past inside the Sun's glare.",
+        "visuals": "Beat 8 uses an academic physics diagram with small text that is unreadable on mobile screens.",
+        "loop": "The final sentence flows naturally back into the opening line for a seamless loop."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "dry mathematical diagram with tiny text, hard to read on phone"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The narrative arc builds tension faster and lands a more seamless loop than episode 360.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-06T17:24:52+05:30",
+      "check": {
+        "duration": 26.6,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.8,
+        "warnings": [],
+        "speech_differences": [
+          "'skimmed' heard as 'is came' after 'space station it'",
+          "'s' heard as 'is' after 'it passed earth'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Grabs attention quickly with the ISS proximity comparison.",
+        "clarity": "Simple linear structure that is easy to digest.",
+        "payoff": "Sun glare explanation delivers a solid closing reveal.",
+        "visuals": "Beat 8 visual fails to represent gravity and orbit modification.",
+        "loop": "Final phrase leads naturally back into the start."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "Observatory visual does not illustrate gravitational orbit alteration."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a tighter thematic focus and clearer narrative arc than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-06T17:24:52+05:30"
+}

@@ -1,0 +1,63 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-06T17:32:50+05:30",
+      "check": {
+        "duration": 26.97,
+        "words": 85,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Relies on a generic asteroid trope needing more punch.",
+        "clarity": "Logical progression from mystery discovery to debris identification.",
+        "payoff": "The rocket debris reveal provides a clever subversion.",
+        "visuals": "Several frames show incorrect objects or mismatched scales.",
+        "loop": "Last line transitions naturally back into the hook."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Shows a comet with a tail instead of debris."
+        },
+        {
+          "beat": 2,
+          "problem": "Depicts a massive asteroid, contradicting the small size mentioned."
+        },
+        {
+          "beat": 6,
+          "problem": "Displays text for 'Progress 42P', a different mission."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Astronomers found a mystery object from deep space falling toward Earth."
+      ],
+      "better_than_last": "Provides a more compelling narrative mystery than the Pluto episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

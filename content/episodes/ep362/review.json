@@ -52,7 +52,103 @@
       "better_than_last": "Delivers a more dramatic astronomical threat scale than recent episodes.",
       "judge": "gemini-3.6-flash",
       "passed": false
+    },
+    {
+      "at": "2026-11-06T17:28:08+05:30",
+      "check": {
+        "duration": 31.47,
+        "words": 77,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'14' heard as '+14' after 'called sgr 1900'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial premise about a distant cosmic event impacting Earth.",
+        "clarity": "Easy to follow chronologically with clear scientific context.",
+        "payoff": "Impact on Earth's atmosphere provides a satisfying concluding twist.",
+        "visuals": "Small panel text in beat 6 reduces readability at mobile scale.",
+        "loop": "Final statement leads smoothly back into the opening beat."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Contains small text labels that are hard to read on phone screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode provides a clearer narrative connection between the cosmic phenomenon and its direct physical effect on Earth.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-06T17:30:19+05:30",
+      "check": {
+        "duration": 30.02,
+        "words": 77,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'14' heard as '+14' after 'called sgr 1900'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging premise regarding cosmic distance and impact.",
+        "clarity": "Logical narrative flow from discovery to magnetar details.",
+        "payoff": "Atmospheric effect provides a grounded, satisfying conclusion.",
+        "visuals": "Imagery is largely relevant to the spacecraft and bodies mentioned.",
+        "loop": "Final sentence structure allows for a smooth replay transition."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "shows the telescope instead of the glowing dust ring mentioned"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode connects a distant event to an Earthly impact more effectively than episode 357.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

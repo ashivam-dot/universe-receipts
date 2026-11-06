@@ -51,7 +51,109 @@
       "better_than_last": "It highlights an engaging technological contrast between NASA's adaptable reprogramming and the Soviet probes blindly burning through film.",
       "judge": "gemini-3.8-flash",
       "passed": false
+    },
+    {
+      "at": "2026-11-06T17:27:37+05:30",
+      "check": {
+        "duration": 27.46,
+        "words": 82,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.7,
+        "warnings": [],
+        "speech_differences": [
+          "'wait' heard as 'weight' after 'from earth to'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The premise of a Mars orbiter arriving to find the planet swallowed by dust immediately grabs attention.",
+        "clarity": "The contrast between the rigid Soviet mission code and NASA's adaptable strategy is easy to follow on one listen.",
+        "payoff": "Seeing the grand canyon and huge volcanoes mapped after waiting out the storm gives a strong payoff.",
+        "visuals": "Historic photos and spacecraft imagery are sharp and relevant, though beat 5 uses a text-heavy diagram.",
+        "loop": "Ending on how a blinded mission made history flows naturally back into the opening beat."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode builds stronger dramatic tension between competing space programs than ep360.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    },
+    {
+      "at": "2026-11-06T17:29:14+05:30",
+      "check": {
+        "duration": 29.17,
+        "words": 82,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "The opening visual and text create immediate tension.",
+        "clarity": "The chronological mission sequence is easy to follow.",
+        "payoff": "The discovery is significant but lacks a surprising twist.",
+        "visuals": "Historical images are clear, but diagrams are illegible.",
+        "loop": "The final line fails to connect back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The schematic text is too small for mobile viewing."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: Smart coding saved the mission, which is why...",
+        "Beat 1: ...the first probe orbiting Mars found it swallowed by dust."
+      ],
+      "better_than_last": "This episode provides a clearer technical comparison between rival agencies than the Apollo 1 story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 2,
+  "kept_round": 2
 }

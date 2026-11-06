@@ -1,0 +1,204 @@
+id: ep369
+title: Saving Apollo 13 With Duct Tape
+series: Near Misses
+format: v3
+description: How NASA engineers used literal trash to save three astronauts stranded in deep space after a catastrophic oxygen
+  tank explosion.
+sources:
+- https://en.wikipedia.org/wiki/Apollo_13
+- https://www.space.com/17250-apollo-13-facts.html
+- https://airandspace.si.edu/explore/stories/apollo-missions/apollo-13
+- https://web.archive.org/web/20200723051039/https://www.nytimes.com/1970/04/18/archives/tv-millions-of-viewers-end-vigil-for-apollo-13-unusual-color.html?searchResultPosition=8
+hashtags:
+- '#space'
+- '#apollo13'
+- '#nasa'
+tags:
+- Apollo 13
+- Jim Lovell
+- Mission Control
+- Space History
+- Engineering
+- Lunar Module
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+  say:
+    spiked: spy kt
+beats:
+- text: Three astronauts were suffocating inside a dying moon lander.
+  emphasis:
+  - suffocating
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/86/Apollo_13_Lunar_Module.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Apollo 13 Lunar Module.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apollo_13_Lunar_Module.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.2
+    - 0.25
+    - 0.8
+    - 0.75
+- text: It was like their spacecraft's lungs were slowly clogging up.
+  emphasis:
+  - lungs
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Apollo_13_crew_inside_lunar_module.jpg/1280px-Apollo_13_crew_inside_lunar_module.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apollo 13 crew inside lunar module.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apollo_13_crew_inside_lunar_module.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Poison gas spiked because Jim Lovell's crew crowded a two-man ship.
+  emphasis:
+  - two-man ship
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/52/Fred_Haise_%28left%29%2C_Jack_Swigert%2C_and_Jim_Lovell_pose_on_the_day_before_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Fred Haise (left), Jack Swigert, and Jim Lovell pose on the day before launch.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Fred_Haise_(left),_Jack_Swigert,_and_Jim_Lovell_pose_on_the_day_before_launch.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.15
+    - 0.2
+    - 0.85
+    - 0.6
+- text: The Command Module had square filters, but the Lander's holes were round.
+  emphasis:
+  - square
+  - round
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Apollo_Command_Module_CO2_Scrubber_%2849772097492%29.jpg/1920px-Apollo_Command_Module_CO2_Scrubber_%2849772097492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apollo Command Module CO2 Scrubber (49772097492).jpg
+      credit: jurvetson
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Apollo_Command_Module_CO2_Scrubber_(49772097492).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.6
+    focus_y: 0.5
+    box:
+    - 0.25
+    - 0.05
+    - 0.9
+    - 0.95
+    card:
+      kind: fact
+      big: WRONG SHAPE
+      small: square vs round
+- text: They were stranded 200,000 miles from Earth with zero spare parts.
+  emphasis:
+  - 200,000 miles
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: 200,000 MILES
+      small: from Earth
+    motion: zoom_in
+- text: Mission Control engineers built a fix using manuals and duct tape.
+  emphasis:
+  - manuals and duct tape
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Apollo_13_Mailbox_at_Mission_Control.jpg/3840px-Apollo_13_Mailbox_at_Mission_Control.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apollo 13 Mailbox at Mission Control.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apollo_13_Mailbox_at_Mission_Control.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.35
+    box:
+    - 0.4
+    - 0.1
+    - 0.8
+    - 0.6
+- text: This 'mailbox' made of manuals and plastic saved their lives.
+  emphasis:
+  - mailbox
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Interior_view_of_%22mail_box%22_for_purging_carbon_dioxide_from_Lunar_Module_%28as13-62-8929%29.jpg/1920px-Interior_view_of_%22mail_box%22_for_purging_carbon_dioxide_from_Lunar_Module_%28as13-62-8929%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Interior view of "mail box" for purging carbon dioxide from Lunar Module (as13-62-8929).jpg
+      credit: NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Interior_view_of_%22mail_box%22_for_purging_carbon_dioxide_from_Lunar_Module_(as13-62-8929).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.4
+    focus_y: 0.4
+    box:
+    - 0.25
+    - 0.25
+    - 0.55
+    - 0.55
+    card:
+      kind: fact
+      big: THE MAILBOX
+      small: improvised air filter
+- text: It's the only reason those three astronauts didn't end up suffocating.
+  emphasis:
+  - suffocating
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.45
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 3 ASTRONAUTS, 1 DYING SHIP
