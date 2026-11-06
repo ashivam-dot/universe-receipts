@@ -95,7 +95,7 @@ unexplained, not alien.
 | Nov 13 | Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm — done (ep365) | Mission Files |
 | Nov 13 | 2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station — parked (ep366) | Near Misses |
 | Nov 13 | WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware — making (ep368) | Space Got Weird |
-| Nov 14 | 90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once | Scale Breaker |
+| Nov 14 | 90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once — making (ep372) | Scale Breaker |
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot | Mission Files |
 | Nov 15 | Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules | Near Misses |
 | Nov 17 | Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay | Space Got Weird |
@@ -127,7 +127,7 @@ unexplained, not alien.
 | Nov 2 | Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day — done (ep251) | Mission Files |
 | Nov 3 | Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002 — done (ep253) | Mission Files |
 | Nov 9 | Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos — parked (ep283) | Space Myths, Busted |
-| Nov 14 | Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on | Near Misses |
+| Nov 14 | Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on — making (ep373) | Near Misses |
 | Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away | Space Got Weird |
 | Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors | Space Got Weird |
 | Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean | Mission Files |

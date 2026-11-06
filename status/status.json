@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-06T23:06:42+05:30",
-  "day": 36,
+  "updated_at": "2026-11-07T05:06:00+05:30",
+  "day": 37,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6RYV8FM92EDCSMQFHV9S17R",
+    "id": "ta-01M6SKED5YPPEWZ8T5EE7AMZWR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-06T23:05:16+05:30",
-    "started_at_utc": "2026-11-06T17:35:16+00:00",
-    "seconds": 86
+    "started_at": "2026-11-07T05:05:10+05:30",
+    "started_at_utc": "2026-11-06T23:35:10+00:00",
+    "seconds": 50
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.2
+      "seconds": 1.2
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "95 posts",
-      "seconds": 1.6
+      "detail": "97 posts",
+      "seconds": 1.5
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.9
+      "seconds": 3.4
     },
     {
       "name": "languages",
@@ -51,8 +51,8 @@
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep362 ready; ep363 rejected (low scores: payoff); ep365 ready; ep366 rejected (low scores: visuals); ep367 ready; ep368 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today); ep369 ready",
-      "seconds": 27.1
+      "detail": "ep370 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep371 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 7.5
     },
     {
       "name": "buffer channel",
@@ -64,67 +64,63 @@
       "name": "preflight ep345",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "name": "preflight ep352",
       "ok": true,
-      "detail": "video downloads whole (12 MB in 1 s)",
-      "seconds": 1.4
+      "detail": "video still hosted",
+      "seconds": 0.4
     },
     {
       "name": "preflight ep355",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.3
     },
     {
       "name": "preflight ep356",
       "ok": true,
-      "detail": "video downloads whole (12 MB in 1 s)",
-      "seconds": 1.5
+      "detail": "video still hosted",
+      "seconds": 0.4
+    },
+    {
+      "name": "preflight ep367",
+      "ok": true,
+      "detail": "video downloads whole (8 MB in 0 s)",
+      "seconds": 0.3
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 9.5
+      "seconds": 1.8
     },
     {
-      "name": "schedule ep367",
+      "name": "start ep372",
       "ok": true,
-      "detail": "2026-11-07T16:30:00-05:00",
-      "seconds": 1.5
+      "detail": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
+      "seconds": 0.7
     },
     {
-      "name": "schedule ep362",
+      "name": "start ep373",
       "ok": true,
-      "detail": "2026-11-08T12:30:00-05:00",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep370",
-      "ok": true,
-      "detail": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
-      "seconds": 1.9
-    },
-    {
-      "name": "start ep371",
-      "ok": true,
-      "detail": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
-      "seconds": 1.1
+      "detail": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.9
+      "seconds": 1.8
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep368 stopped on Gemini's free quota; it resumes in a later run",
+    "ep370 stopped on Gemini's free quota; it resumes in a later run",
+    "ep371 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 2 waiting",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer is full (10 queued); 2 waiting"
   ],
@@ -134,11 +130,13 @@
     "waiting": 2,
     "target": 14,
     "making": [
-      "ep368"
-    ],
-    "remote": [
+      "ep368",
       "ep370",
       "ep371"
+    ],
+    "remote": [
+      "ep372",
+      "ep373"
     ]
   },
   "queue": [
@@ -209,151 +207,79 @@
   ],
   "made": [
     {
-      "id": "ep362",
-      "outcome": "ready",
-      "topic": "SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night",
-      "title": "The Starquake That Hit Earth",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793966420/universereceipts/ep362-b0325786.mp4"
-    },
-    {
-      "id": "ep363",
-      "outcome": "rejected",
-      "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
-      "reason": "low scores: payoff"
-    },
-    {
-      "id": "ep365",
-      "outcome": "ready",
-      "topic": "Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm",
-      "title": "The Craft That Saved Mars Exploration",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793966354/universereceipts/ep365-f7d13f28.mp4"
-    },
-    {
-      "id": "ep366",
-      "outcome": "rejected",
-      "topic": "2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep367",
-      "outcome": "ready",
-      "topic": "Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years",
-      "title": "The Moons That Swap Orbits Every Four Years",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793966369/universereceipts/ep367-0da5ba05.mp4"
-    },
-    {
-      "id": "ep368",
+      "id": "ep370",
       "outcome": "unfinished",
-      "topic": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest', 'ovh:Qwen3.5-397B-A17B') has free quota left today",
+      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep369",
-      "outcome": "ready",
-      "topic": "Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock",
-      "title": "Saving Apollo 13 With Duct Tape",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1793966889/universereceipts/ep369-eaced021.mp4"
+      "id": "ep371",
+      "outcome": "unfinished",
+      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep370",
-      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
-      "call_id": "fc-01M6RYY2WHZ3EXB6QJ9Z24JBC3"
+      "id": "ep372",
+      "topic": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
+      "call_id": "fc-01M6SKG0D3DESHNQV69VXRNRRF"
     },
     {
-      "id": "ep371",
-      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
-      "call_id": "fc-01M6RYY3Y4PZKCQ8M7CYERE4WV"
+      "id": "ep373",
+      "topic": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
+      "call_id": "fc-01M6SKG10CA166J02HSQA6QMZQ"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep370",
-      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
-      "spawned_at": "2026-11-06T23:06:35+05:30"
+      "id": "ep372",
+      "topic": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
+      "spawned_at": "2026-11-07T05:05:54+05:30"
     },
     {
-      "id": "ep371",
-      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
-      "spawned_at": "2026-11-06T23:06:36+05:30"
+      "id": "ep373",
+      "topic": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
+      "spawned_at": "2026-11-07T05:05:55+05:30"
     }
   ],
-  "published": [
-    {
-      "id": "ep367",
-      "title": "The Moons That Swap Orbits Every Four Years",
-      "due_at": "2026-11-07T16:30:00-05:00"
-    },
-    {
-      "id": "ep362",
-      "title": "The Starquake That Hit Earth",
-      "due_at": "2026-11-08T12:30:00-05:00"
-    }
-  ],
+  "published": [],
   "live": 87,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 42,
+    "calls": 10,
     "by_model": {
-      "gemini-3.5-flash": 1,
-      "gemini-3-flash-preview": 19,
-      "gemini-3.6-flash": 15,
-      "gemini-3.5-flash-lite": 7
+      "gemini-3-flash-preview": 3,
+      "gemini-3.5-flash-lite": 6,
+      "gemini-3.5-flash": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 16,
+    "modal": 2,
     "runner": 0
   },
   "daily_done": "2026-11-06",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 4.36,
+    "metered": 4.44,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 197,
+    "cloud": 196,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 23.64
+    "modal_credit_left": 23.56
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 33,
+  "open_topics": 31,
   "parked_topics": 64
 }
