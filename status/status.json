@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-07T05:06:00+05:30",
+  "updated_at": "2026-11-07T11:08:05+05:30",
   "day": 37,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6SKED5YPPEWZ8T5EE7AMZWR",
+    "id": "ta-01M6T81JK0QB6Z7G755Y9EN4SR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-07T05:05:10+05:30",
-    "started_at_utc": "2026-11-06T23:35:10+00:00",
-    "seconds": 50
+    "started_at": "2026-11-07T11:05:10+05:30",
+    "started_at_utc": "2026-11-07T05:35:10+00:00",
+    "seconds": 175
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "97 posts",
-      "seconds": 1.5
+      "seconds": 1.4
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 3.4
+      "detail": "added ep345 to 'Space Got Weird'; added ep355 to 'Space Myths, Busted'",
+      "seconds": 4.4
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -45,14 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 3.0
+      "detail": "ep347 at 24 h: ahead of the channel's earlier Shorts at this age: 1001 views against a median of 807 (1.2x); ep359 at 24 h: ahead of the channel's earlier Shorts at this age: 1580 views against a median of 823 (1.9x); learnings: Integrated reach data from ep346, ep347, and ep359 to strengthen cosmic scale and interaction hypotheses.",
+      "seconds": 114.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep370 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep371 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 7.5
+      "detail": "ep372 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep373 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 7.8
     },
     {
       "name": "buffer channel",
@@ -61,95 +61,105 @@
       "seconds": 0.2
     },
     {
-      "name": "preflight ep345",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.4
-    },
-    {
       "name": "preflight ep352",
       "ok": true,
       "detail": "video still hosted",
       "seconds": 0.4
     },
     {
-      "name": "preflight ep355",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.3
-    },
-    {
       "name": "preflight ep356",
       "ok": true,
       "detail": "video still hosted",
+      "seconds": 0.2
+    },
+    {
+      "name": "preflight ep362",
+      "ok": true,
+      "detail": "video downloads whole (13 MB in 0 s)",
       "seconds": 0.4
     },
     {
       "name": "preflight ep367",
       "ok": true,
-      "detail": "video downloads whole (8 MB in 0 s)",
-      "seconds": 0.3
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
+      "seconds": 8.4
     },
     {
-      "name": "start ep372",
+      "name": "schedule ep369",
       "ok": true,
-      "detail": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
-      "seconds": 0.7
+      "detail": "2026-11-10T19:00:00-05:00",
+      "seconds": 1.0
     },
     {
-      "name": "start ep373",
+      "name": "schedule ep365",
       "ok": true,
-      "detail": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
-      "seconds": 0.6
+      "detail": "2026-11-10T21:30:00-05:00",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep374",
+      "ok": true,
+      "detail": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep375",
+      "ok": true,
+      "detail": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
+      "seconds": 1.2
+    },
+    {
+      "name": "start ep376",
+      "ok": true,
+      "detail": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
+      "seconds": 1.2
+    },
+    {
+      "name": "start ep377",
+      "ok": true,
+      "detail": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
+      "seconds": 1.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
+      "seconds": 1.7
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep370 stopped on Gemini's free quota; it resumes in a later run",
-    "ep371 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 2 waiting",
-    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 2 waiting"
+    "ep372 stopped on Gemini's free quota; it resumes in a later run",
+    "ep373 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset"
   ],
   "inventory": {
-    "total": 12,
+    "total": 10,
     "in_buffer": 10,
-    "waiting": 2,
+    "waiting": 0,
     "target": 14,
     "making": [
       "ep368",
       "ep370",
-      "ep371"
-    ],
-    "remote": [
+      "ep371",
       "ep372",
       "ep373"
+    ],
+    "remote": [
+      "ep374",
+      "ep375",
+      "ep376",
+      "ep377"
     ]
   },
   "queue": [
-    {
-      "id": "ep345",
-      "title": "The Asteroid That Bakes Like a Comet",
-      "due_at": "2026-11-06T19:00:00-05:00"
-    },
-    {
-      "id": "ep355",
-      "title": "The Comet Panic of 1910",
-      "due_at": "2026-11-06T21:30:00-05:00"
-    },
     {
       "id": "ep367",
       "title": "The Moons That Swap Orbits Every Four Years",
@@ -189,35 +199,32 @@
       "id": "ep360",
       "title": "The Fire That Reshaped NASA",
       "due_at": "2026-11-09T21:30:00-05:00"
-    }
-  ],
-  "waiting": [
-    {
-      "id": "ep365",
-      "title": "The Craft That Saved Mars Exploration",
-      "series": "Mission Files",
-      "score": 21
     },
     {
       "id": "ep369",
       "title": "Saving Apollo 13 With Duct Tape",
-      "series": "Near Misses",
-      "score": 20
+      "due_at": "2026-11-10T19:00:00-05:00"
+    },
+    {
+      "id": "ep365",
+      "title": "The Craft That Saved Mars Exploration",
+      "due_at": "2026-11-10T21:30:00-05:00"
     }
   ],
+  "waiting": [],
   "made": [
     {
-      "id": "ep370",
+      "id": "ep372",
       "outcome": "unfinished",
-      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "topic": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep371",
+      "id": "ep373",
       "outcome": "unfinished",
-      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "topic": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -225,61 +232,98 @@
   ],
   "spawned": [
     {
-      "id": "ep372",
-      "topic": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
-      "call_id": "fc-01M6SKG0D3DESHNQV69VXRNRRF"
+      "id": "ep374",
+      "topic": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
+      "call_id": "fc-01M6T86XFKBPDWVV5QREZH9A06"
     },
     {
-      "id": "ep373",
-      "topic": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
-      "call_id": "fc-01M6SKG10CA166J02HSQA6QMZQ"
+      "id": "ep375",
+      "topic": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
+      "call_id": "fc-01M6T86YKMHKM7MQ3VFY6KAS7C"
+    },
+    {
+      "id": "ep376",
+      "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
+      "call_id": "fc-01M6T86ZQTVXYZSXA0930WE74J"
+    },
+    {
+      "id": "ep377",
+      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
+      "call_id": "fc-01M6T870W542AVN92X001ZJB1P"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep372",
-      "topic": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
-      "spawned_at": "2026-11-07T05:05:54+05:30"
+      "id": "ep374",
+      "topic": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
+      "spawned_at": "2026-11-07T11:07:56+05:30"
     },
     {
-      "id": "ep373",
-      "topic": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
-      "spawned_at": "2026-11-07T05:05:55+05:30"
+      "id": "ep375",
+      "topic": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
+      "spawned_at": "2026-11-07T11:07:57+05:30"
+    },
+    {
+      "id": "ep376",
+      "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
+      "spawned_at": "2026-11-07T11:07:59+05:30"
+    },
+    {
+      "id": "ep377",
+      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
+      "spawned_at": "2026-11-07T11:08:00+05:30"
     }
   ],
-  "published": [],
-  "live": 87,
+  "published": [
+    {
+      "id": "ep369",
+      "title": "Saving Apollo 13 With Duct Tape",
+      "due_at": "2026-11-10T19:00:00-05:00"
+    },
+    {
+      "id": "ep365",
+      "title": "The Craft That Saved Mars Exploration",
+      "due_at": "2026-11-10T21:30:00-05:00"
+    }
+  ],
+  "live": 89,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 10,
+    "calls": 13,
     "by_model": {
+      "gemini-3.6-flash": 3,
+      "gemini-3.5-flash": 2,
       "gemini-3-flash-preview": 3,
-      "gemini-3.5-flash-lite": 6,
-      "gemini-3.5-flash": 1
+      "gemini-3.8-flash": 2,
+      "gemini-3.5-flash-lite": 3
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash"
+    ]
   },
   "renders": {
-    "modal": 2,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-11-06",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 4.44,
+    "metered": 4.55,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 196,
+    "cloud": 195,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 23.56
+    "modal_credit_left": 23.45
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 31,
-  "parked_topics": 64
+  "parked_topics": 60
 }
