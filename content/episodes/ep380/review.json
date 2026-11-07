@@ -1,0 +1,102 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-07T23:13:24+05:30",
+      "check": {
+        "duration": 33.6,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'it' heard as 'its' after 'moon io feed'",
+          "'(nothing)' heard as 'a' after 'glowing lights are'",
+          "'mapped' heard as 'map' after 'is how we'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong opening claim that makes the viewer curious about what this structure is.",
+        "clarity": "Explains a complex magnetic system through simple, distinct steps.",
+        "payoff": "The moon footprint revelation is a surprising and specific mind-bending fact.",
+        "visuals": "Good variety of imagery, but the diagram in beat 3 contains truncated text.",
+        "loop": "Perfectly seamless repetition of the core hook statement."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The text in the diagram 'Molecular hydroge' is cut off at the edge."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The circular script structure creates a more satisfying and seamless loop than the recent Apollo short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T23:15:46+05:30",
+      "check": {
+        "duration": 32.23,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -3.4,
+        "warnings": [],
+        "speech_differences": [
+          "'churning' heard as 'turning' after 'saturn deep inside'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Superlative opening establishes scale.",
+        "clarity": "Logical flow from cause to effect.",
+        "payoff": "Footprint detail adds a novel fact.",
+        "visuals": "Diagrams and renders support the narration.",
+        "loop": "Repeat of hook phrase is seamless."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides more detailed planetary interior explanation than the Venus episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

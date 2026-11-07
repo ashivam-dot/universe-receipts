@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-07T23:06:45+05:30",
-  "day": 37,
+  "updated_at": "2026-11-08T05:06:18+05:30",
+  "day": 38,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6VH7YHSGYBMJX7G3983W93R",
+    "id": "ta-01M6W5V3FQWPDGX55HZG3YWJFR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-07T23:05:18+05:30",
-    "started_at_utc": "2026-11-07T17:35:18+00:00",
-    "seconds": 87
+    "started_at": "2026-11-08T05:05:13+05:30",
+    "started_at_utc": "2026-11-07T23:35:13+00:00",
+    "seconds": 66
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
+      "seconds": 2.2
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "99 posts",
-      "seconds": 2.1
+      "seconds": 1.6
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 4.1
+      "detail": "added ep367 to 'Space Got Weird'",
+      "seconds": 3.9
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep346 language en/None -> en; ep359 language en/None -> en",
-      "seconds": 1.5
+      "detail": "every live Short is in English",
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -46,13 +46,13 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 3.5
+      "seconds": 2.6
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep368 rejected (low scores: payoff, visuals; 2 frame problems); ep370 rejected (low scores: payoff); ep371 rejected (low scores: visuals); ep372 rejected (low scores: visuals); ep373 ready; ep375 rejected (low scores: hook, payoff, visuals); ep376 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep377 unfinished (RuntimeError: ep377: every take said things that aren't in the script); ep378 ready; ep379 unfinished (OutOfQuota: no model in ('gemini-3.8-",
-      "seconds": 33.5
+      "detail": "ep377 unfinished (RuntimeError: no Gemini TTS model read the script: gemini-3.8-flash-tts: HTTP 429 GenerateRequestsPerDayPerProjectPerModel-FreeTier=10); ep380 ready; ep381 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 12.8
     },
     {
       "name": "buffer channel",
@@ -63,14 +63,14 @@
     {
       "name": "preflight ep349",
       "ok": true,
-      "detail": "video downloads whole (12 MB in 0 s)",
-      "seconds": 0.6
+      "detail": "video still hosted",
+      "seconds": 0.5
     },
     {
       "name": "preflight ep352",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.4
     },
     {
       "name": "preflight ep356",
@@ -81,58 +81,56 @@
     {
       "name": "preflight ep357",
       "ok": true,
-      "detail": "video downloads whole (15 MB in 0 s)",
-      "seconds": 0.7
+      "detail": "video still hosted",
+      "seconds": 0.5
     },
     {
       "name": "preflight ep362",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
-    },
-    {
-      "name": "preflight ep367",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.9
+      "seconds": 7.5
     },
     {
-      "name": "start ep377",
+      "name": "schedule ep378",
       "ok": true,
-      "detail": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
-      "seconds": 1.0
+      "detail": "2026-11-11T19:00:00-05:00",
+      "seconds": 1.5
     },
     {
-      "name": "start ep380",
+      "name": "start ep382",
       "ok": true,
-      "detail": "Jupiter (1979): Jupiter's invisible magnetosphere is so vast that if visible from Earth, it would look twice as large as the full Moon",
-      "seconds": 0.9
+      "detail": "Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot",
+      "seconds": 1.6
     },
     {
-      "name": "start ep381",
+      "name": "start ep383",
       "ok": true,
-      "detail": "Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz",
+      "detail": "Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep384",
+      "ok": true,
+      "detail": "Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky",
       "seconds": 0.8
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 1.8
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep376 stopped on Gemini's free quota; it resumes in a later run",
-    "ep379 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 2 waiting",
+    "ep381 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer is full (10 queued); 2 waiting"
   ],
@@ -143,20 +141,16 @@
     "target": 14,
     "making": [
       "ep376",
-      "ep379"
+      "ep379",
+      "ep381"
     ],
     "remote": [
-      "ep377",
-      "ep380",
-      "ep381"
+      "ep382",
+      "ep383",
+      "ep384"
     ]
   },
   "queue": [
-    {
-      "id": "ep367",
-      "title": "The Moons That Swap Orbits Every Four Years",
-      "due_at": "2026-11-07T16:30:00-05:00"
-    },
     {
       "id": "ep352",
       "title": "The Probe That Fell Into Venus",
@@ -201,6 +195,11 @@
       "id": "ep365",
       "title": "The Craft That Saved Mars Exploration",
       "due_at": "2026-11-10T21:30:00-05:00"
+    },
+    {
+      "id": "ep378",
+      "title": "The Planet That Spins Backward",
+      "due_at": "2026-11-11T19:00:00-05:00"
     }
   ],
   "waiting": [
@@ -211,42 +210,26 @@
       "score": 20
     },
     {
-      "id": "ep378",
-      "title": "The Planet That Spins Backward",
-      "series": "Space Myths, Busted",
-      "score": 24
+      "id": "ep380",
+      "title": "Jupiter's Invisible Magnetic Monster",
+      "series": "Scale Breaker",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep368",
-      "outcome": "rejected",
-      "topic": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
-      "reason": "low scores: payoff, visuals; 2 frame problems"
+      "id": "ep377",
+      "outcome": "unfinished",
+      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
+      "reason": "RuntimeError: no Gemini TTS model read the script: gemini-3.8-flash-tts: HTTP 429 GenerateRequestsPerDayPerProjectPerModel-FreeTier=10",
+      "quota": false,
+      "overloaded": false
     },
     {
-      "id": "ep370",
-      "outcome": "rejected",
-      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
-      "reason": "low scores: payoff"
-    },
-    {
-      "id": "ep371",
-      "outcome": "rejected",
-      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep372",
-      "outcome": "rejected",
-      "topic": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep373",
+      "id": "ep380",
       "outcome": "ready",
-      "topic": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
-      "title": "The Rocket That Struck ITSELF",
+      "topic": "Jupiter (1979): Jupiter's invisible magnetosphere is so vast that if visible from Earth, it would look twice as large as the full Moon",
+      "title": "Jupiter's Invisible Magnetic Monster",
       "scores": {
         "hook": 4,
         "clarity": 4,
@@ -254,48 +237,12 @@
         "visuals": 4,
         "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794052630/universereceipts/ep373-239615fe.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794073547/universereceipts/ep380-565ff335.mp4"
     },
     {
-      "id": "ep375",
-      "outcome": "rejected",
-      "topic": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
-      "reason": "low scores: hook, payoff, visuals"
-    },
-    {
-      "id": "ep376",
+      "id": "ep381",
       "outcome": "unfinished",
-      "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep377",
-      "outcome": "unfinished",
-      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
-      "reason": "RuntimeError: ep377: every take said things that aren't in the script",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep378",
-      "outcome": "ready",
-      "topic": "Venus (1962): Venus spins in the opposite direction of almost every other planet, meaning the Sun rises in the west and sets in the east",
-      "title": "The Planet That Spins Backward",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794052662/universereceipts/ep378-c2345450.mp4"
-    },
-    {
-      "id": "ep379",
-      "outcome": "unfinished",
-      "topic": "Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun",
+      "topic": "Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -303,73 +250,79 @@
   ],
   "spawned": [
     {
-      "id": "ep377",
-      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
-      "call_id": "fc-01M6VHAVTEA1E3RE450RFSHTBF"
+      "id": "ep382",
+      "topic": "Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot",
+      "call_id": "fc-01M6W5X7XX5S1GDZT5Y44Z5RC2"
     },
     {
-      "id": "ep380",
-      "topic": "Jupiter (1979): Jupiter's invisible magnetosphere is so vast that if visible from Earth, it would look twice as large as the full Moon",
-      "call_id": "fc-01M6VHAWQ776PYZTZ25WBXNBK6"
+      "id": "ep383",
+      "topic": "Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules",
+      "call_id": "fc-01M6W5X9FR8HVF659RY7YJCBAF"
     },
     {
-      "id": "ep381",
-      "topic": "Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz",
-      "call_id": "fc-01M6VHAXHMNAZCNQH3Q55X2AAE"
+      "id": "ep384",
+      "topic": "Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky",
+      "call_id": "fc-01M6W5XAAWFNJYDKFWVE15J1RF"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep377",
-      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
-      "spawned_at": "2026-11-07T23:06:37+05:30"
+      "id": "ep382",
+      "topic": "Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot",
+      "spawned_at": "2026-11-08T05:06:11+05:30"
     },
     {
-      "id": "ep380",
-      "topic": "Jupiter (1979): Jupiter's invisible magnetosphere is so vast that if visible from Earth, it would look twice as large as the full Moon",
-      "spawned_at": "2026-11-07T23:06:38+05:30"
+      "id": "ep383",
+      "topic": "Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules",
+      "spawned_at": "2026-11-08T05:06:13+05:30"
     },
     {
-      "id": "ep381",
-      "topic": "Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz",
-      "spawned_at": "2026-11-07T23:06:39+05:30"
+      "id": "ep384",
+      "topic": "Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky",
+      "spawned_at": "2026-11-08T05:06:13+05:30"
     }
   ],
-  "published": [],
-  "live": 89,
+  "published": [
+    {
+      "id": "ep378",
+      "title": "The Planet That Spins Backward",
+      "due_at": "2026-11-11T19:00:00-05:00"
+    }
+  ],
+  "live": 90,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 64,
+    "calls": 11,
     "by_model": {
-      "gemini-3.8-flash": 2,
-      "gemini-3-flash-preview": 24,
-      "gemini-3.5-flash-lite": 12,
-      "gemini-3.6-flash": 25,
-      "gemini-3.5-flash": 1
+      "gemini-3.8-flash": 1,
+      "gemini-3.6-flash": 3,
+      "gemini-3.5-flash-lite": 1,
+      "gemini-3-flash-preview": 4,
+      "gemini-3.1-flash-lite": 2
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 24,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-11-07",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 5.28,
+    "metered": 5.39,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 189,
+    "cloud": 188,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 22.72
+    "modal_credit_left": 22.61
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 35,
+  "open_topics": 32,
   "parked_topics": 64
 }

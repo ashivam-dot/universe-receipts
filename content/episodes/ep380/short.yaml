@@ -1,0 +1,217 @@
+id: ep380
+title: Jupiter's Invisible Magnetic Monster
+series: Scale Breaker
+format: v3
+description: Jupiter's magnetic field forms an invisible bubble so vast its tail reaches Saturn's orbit. Powered by metallic
+  hydrogen and volcanic moons, it unleashes permanent auroras 100 times stronger than Earth's.
+sources:
+- https://en.wikipedia.org/wiki/Magnetosphere_of_Jupiter
+- https://science.nasa.gov/resource/jupiters-magnetosphere/
+- https://www.missionjuno.swri.edu/jupiter/magnetosphere
+- https://lasp.colorado.edu/outerplanets/giantplanets_magnetospheres.php
+- https://www.space.com/40205-elusive-aurora-jupiter-moon-callisto-found.html
+- https://web.archive.org/web/20170324122251/http://www.jhuapl.edu/newscenter/pressreleases/2016/160629.asp
+hashtags:
+- '#space'
+- '#jupiter'
+- '#nasa'
+tags:
+- jupiter
+- magnetosphere
+- juno
+- astronomy
+- aurora
+- science
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Jupiter creates the largest structure in the Solar System.
+  emphasis:
+  - largest structure
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Jupiter%27s_Magnetosphere_animation.png/1920px-Jupiter%27s_Magnetosphere_animation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter's Magnetosphere animation.png
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Jupiter%27s_Magnetosphere_animation.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: LARGEST STRUCTURE
+      small: In the Solar System
+- text: Its invisible magnetic tail stretches all the way to Saturn.
+  emphasis:
+  - to Saturn
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Jupiter%27s_Magnetosphere.png/1280px-Jupiter%27s_Magnetosphere.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter's Magnetosphere.png
+      credit: NASA/JPL/JHUAPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Jupiter%27s_Magnetosphere.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Deep inside, churning metallic hydrogen drives this giant magnetic bubble.
+  emphasis:
+  - metallic hydrogen
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Jupiter%27s_Interior.jpg/1280px-Jupiter%27s_Interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter's Interior.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Jupiter%27s_Interior.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Volcanic eruptions on its moon Io feed it charged particles continuously.
+  emphasis:
+  - moon Io
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg/1280px-PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA01081-Color Mosaic and Active Volcanic Plumes on Io.jpg
+      credit: NASA's Galileo spacecraft
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA01081-Color_Mosaic_and_Active_Volcanic_Plumes_on_Io.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.08
+    focus_y: 0.55
+    box:
+    - 0.02
+    - 0.45
+    - 0.15
+    - 0.65
+- text: Jupiter spins in ten hours, driving permanent polar auroras.
+  emphasis:
+  - ten hours
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Hubble_Captures_Vivid_Auroras_in_Jupiter%27s_Atmosphere.jpg/1920px-Hubble_Captures_Vivid_Auroras_in_Jupiter%27s_Atmosphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble Captures Vivid Auroras in Jupiter's Atmosphere.jpg
+      credit: NASA, ESA, and J. Nichols (University of Leicester)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_Captures_Vivid_Auroras_in_Jupiter%27s_Atmosphere.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 10 HOURS
+      small: Jupiter rotation period
+- text: These glowing lights are 100 times more powerful than Earth's.
+  emphasis:
+  - 100 times
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Close-up_Observations_of_Auroras_on_Jupiter_%282025-108%29.png/3840px-Close-up_Observations_of_Auroras_on_Jupiter_%282025-108%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Close-up Observations of Auroras on Jupiter (2025-108).png
+      credit: 'Image: NASA, ESA, CSA, Jonathan Nichols (University of Leicester), Mahdi Zamani (ESA/Webb)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Close-up_Observations_of_Auroras_on_Jupiter_(2025-108).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 100 TIMES
+      small: More powerful than Earth's auroras
+- text: Magnetic lines even etch moon footprint spots into Jupiter's atmosphere.
+  emphasis:
+  - footprint spots
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/6e/Aurora_Crowns_Jupiter%27s_North_Pole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Aurora Crowns Jupiter's North Pole.jpg
+      credit: NASA Hubble
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Aurora_Crowns_Jupiter%27s_North_Pole.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: NASA's Juno spacecraft dives through polar orbits to avoid dangerous radiation.
+  emphasis:
+  - Juno spacecraft
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Juno_above_Jupiter%27s_pole.jpg/3840px-Juno_above_Jupiter%27s_pole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Juno above Jupiter's pole.jpg
+      credit: 'Image credit: NASA/JPL-Caltech'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Juno_above_Jupiter%27s_pole.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.55
+    focus_y: 0.3
+    box:
+    - 0.38
+    - 0.03
+    - 0.88
+    - 0.52
+- text: That is how we mapped the largest structure in the Solar System.
+  emphasis:
+  - largest structure
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
