@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-07T11:08:05+05:30",
+  "updated_at": "2026-11-07T17:15:02+05:30",
   "day": 37,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6T81JK0QB6Z7G755Y9EN4SR",
+    "id": "ta-01M6TWMRSYV45A3NV7E7PPK14R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-07T11:05:10+05:30",
-    "started_at_utc": "2026-11-07T05:35:10+00:00",
-    "seconds": 175
+    "started_at": "2026-11-07T17:05:14+05:30",
+    "started_at_utc": "2026-11-07T11:35:14+00:00",
+    "seconds": 588
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 2.3
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "97 posts",
-      "seconds": 1.4
+      "detail": "99 posts",
+      "seconds": 2.1
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep345 to 'Space Got Weird'; added ep355 to 'Space Myths, Busted'",
-      "seconds": 4.4
+      "detail": "nothing new",
+      "seconds": 4.7
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -45,86 +45,152 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep347 at 24 h: ahead of the channel's earlier Shorts at this age: 1001 views against a median of 807 (1.2x); ep359 at 24 h: ahead of the channel's earlier Shorts at this age: 1580 views against a median of 823 (1.9x); learnings: Integrated reach data from ep346, ep347, and ep359 to strengthen cosmic scale and interaction hypotheses.",
-      "seconds": 114.9
+      "detail": "ep345 at 6 h: behind the channel's earlier Shorts at this age: 467 views against a median of 657 (0.7x); ep355 at 6 h: behind the channel's earlier Shorts at this age: 303 views against a median of 632 (0.5x)",
+      "seconds": 4.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep372 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep373 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 7.8
+      "detail": "ep374 rejected (research: only 0 claims have two different sites); ep375 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep376 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep377 unfinished (RuntimeError: no Gemini TTS model read the script: gemini-3.8-flash-tts: HTTP 429 GenerateRequestsPerDayPerProjectP",
+      "seconds": 15.7
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "119 subscribers",
+      "seconds": 9.9
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Reviewed latest 24h+ Shorts performance and diagnosis updates, validating cosmic-scale reach rules while tracking call-to-action hypotheses.",
+      "seconds": 413.9
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 1.8
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 25.7
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "8 added",
+      "seconds": 56.5
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-037.md",
+      "seconds": 2.3
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.5
     },
     {
       "name": "preflight ep352",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.9
     },
     {
       "name": "preflight ep356",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.5
     },
     {
       "name": "preflight ep362",
       "ok": true,
-      "detail": "video downloads whole (13 MB in 0 s)",
-      "seconds": 0.4
+      "detail": "video still hosted",
+      "seconds": 0.7
     },
     {
       "name": "preflight ep367",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 8.4
+      "seconds": 1.7
     },
     {
-      "name": "schedule ep369",
+      "name": "start ep368",
       "ok": true,
-      "detail": "2026-11-10T19:00:00-05:00",
+      "detail": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
+      "seconds": 1.9
+    },
+    {
+      "name": "start ep370",
+      "ok": true,
+      "detail": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "seconds": 1.9
+    },
+    {
+      "name": "start ep371",
+      "ok": true,
+      "detail": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "seconds": 1.9
+    },
+    {
+      "name": "start ep372",
+      "ok": true,
+      "detail": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
       "seconds": 1.0
     },
     {
-      "name": "schedule ep365",
+      "name": "start ep373",
       "ok": true,
-      "detail": "2026-11-10T21:30:00-05:00",
+      "detail": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
       "seconds": 1.0
-    },
-    {
-      "name": "start ep374",
-      "ok": true,
-      "detail": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
-      "seconds": 0.8
     },
     {
       "name": "start ep375",
       "ok": true,
       "detail": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
-      "seconds": 1.2
+      "seconds": 1.9
     },
     {
       "name": "start ep376",
       "ok": true,
       "detail": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
-      "seconds": 1.2
+      "seconds": 1.0
     },
     {
       "name": "start ep377",
       "ok": true,
       "detail": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
-      "seconds": 1.2
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep378",
+      "ok": true,
+      "detail": "Venus (1962): Venus spins in the opposite direction of almost every other planet, meaning the Sun rises in the west and sets in the east",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep379",
+      "ok": true,
+      "detail": "Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun",
+      "seconds": 1.0
     },
     {
       "name": "publish",
@@ -136,27 +202,26 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep372 stopped on Gemini's free quota; it resumes in a later run",
-    "ep373 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset"
+    "ep375 stopped on Gemini's free quota; it resumes in a later run",
+    "ep376 stopped on Gemini's free quota; it resumes in a later run"
   ],
   "inventory": {
     "total": 10,
     "in_buffer": 10,
     "waiting": 0,
     "target": 14,
-    "making": [
+    "making": [],
+    "remote": [
       "ep368",
       "ep370",
       "ep371",
       "ep372",
-      "ep373"
-    ],
-    "remote": [
-      "ep374",
+      "ep373",
       "ep375",
       "ep376",
-      "ep377"
+      "ep377",
+      "ep378",
+      "ep379"
     ]
   },
   "queue": [
@@ -214,116 +279,173 @@
   "waiting": [],
   "made": [
     {
-      "id": "ep372",
+      "id": "ep374",
+      "outcome": "rejected",
+      "topic": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
+      "reason": "research: only 0 claims have two different sites"
+    },
+    {
+      "id": "ep375",
       "outcome": "unfinished",
-      "topic": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
+      "topic": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep373",
+      "id": "ep376",
       "outcome": "unfinished",
-      "topic": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
+      "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep377",
+      "outcome": "unfinished",
+      "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
+      "reason": "RuntimeError: no Gemini TTS model read the script: gemini-3.8-flash-tts: HTTP 429 GenerateRequestsPerDayPerProjectPerModel-FreeTier=10",
+      "quota": false,
       "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep374",
-      "topic": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
-      "call_id": "fc-01M6T86XFKBPDWVV5QREZH9A06"
+      "id": "ep368",
+      "topic": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
+      "call_id": "fc-01M6TX6K0EWKE3J8H1S29TX400"
+    },
+    {
+      "id": "ep370",
+      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "call_id": "fc-01M6TX6MTXNKHZ9ER530N8QY9C"
+    },
+    {
+      "id": "ep371",
+      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "call_id": "fc-01M6TX6PN18M95YG7R6ZQ2M4S3"
+    },
+    {
+      "id": "ep372",
+      "topic": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
+      "call_id": "fc-01M6TX6QK5Q446WRJHBNFJ8SG0"
+    },
+    {
+      "id": "ep373",
+      "topic": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
+      "call_id": "fc-01M6TX6RGY0EQPK917ZG53SXQC"
     },
     {
       "id": "ep375",
       "topic": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
-      "call_id": "fc-01M6T86YKMHKM7MQ3VFY6KAS7C"
+      "call_id": "fc-01M6TX6TB1Y2ZZFFPZM4FS21BD"
     },
     {
       "id": "ep376",
       "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
-      "call_id": "fc-01M6T86ZQTVXYZSXA0930WE74J"
+      "call_id": "fc-01M6TX6V91YEHZ2HS8WCE1MR42"
     },
     {
       "id": "ep377",
       "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
-      "call_id": "fc-01M6T870W542AVN92X001ZJB1P"
+      "call_id": "fc-01M6TX6W736P1CXBR3YC58X4MN"
+    },
+    {
+      "id": "ep378",
+      "topic": "Venus (1962): Venus spins in the opposite direction of almost every other planet, meaning the Sun rises in the west and sets in the east",
+      "call_id": "fc-01M6TX6X3QAET22HGSMMZ4N2YJ"
+    },
+    {
+      "id": "ep379",
+      "topic": "Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun",
+      "call_id": "fc-01M6TX6Y3R53EH827R7VM2G4R3"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep374",
-      "topic": "Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side",
-      "spawned_at": "2026-11-07T11:07:56+05:30"
+      "id": "ep368",
+      "topic": "WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware",
+      "spawned_at": "2026-11-07T17:14:46+05:30"
+    },
+    {
+      "id": "ep370",
+      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "spawned_at": "2026-11-07T17:14:48+05:30"
+    },
+    {
+      "id": "ep371",
+      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "spawned_at": "2026-11-07T17:14:49+05:30"
+    },
+    {
+      "id": "ep372",
+      "topic": "90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once",
+      "spawned_at": "2026-11-07T17:14:50+05:30"
+    },
+    {
+      "id": "ep373",
+      "topic": "Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on",
+      "spawned_at": "2026-11-07T17:14:51+05:30"
     },
     {
       "id": "ep375",
       "topic": "Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns",
-      "spawned_at": "2026-11-07T11:07:57+05:30"
+      "spawned_at": "2026-11-07T17:14:53+05:30"
     },
     {
       "id": "ep376",
       "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
-      "spawned_at": "2026-11-07T11:07:59+05:30"
+      "spawned_at": "2026-11-07T17:14:54+05:30"
     },
     {
       "id": "ep377",
       "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
-      "spawned_at": "2026-11-07T11:08:00+05:30"
-    }
-  ],
-  "published": [
-    {
-      "id": "ep369",
-      "title": "Saving Apollo 13 With Duct Tape",
-      "due_at": "2026-11-10T19:00:00-05:00"
+      "spawned_at": "2026-11-07T17:14:55+05:30"
     },
     {
-      "id": "ep365",
-      "title": "The Craft That Saved Mars Exploration",
-      "due_at": "2026-11-10T21:30:00-05:00"
+      "id": "ep378",
+      "topic": "Venus (1962): Venus spins in the opposite direction of almost every other planet, meaning the Sun rises in the west and sets in the east",
+      "spawned_at": "2026-11-07T17:14:56+05:30"
+    },
+    {
+      "id": "ep379",
+      "topic": "Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun",
+      "spawned_at": "2026-11-07T17:14:57+05:30"
     }
   ],
+  "published": [],
   "live": 89,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 13,
+    "calls": 20,
     "by_model": {
       "gemini-3.6-flash": 3,
-      "gemini-3.5-flash": 2,
       "gemini-3-flash-preview": 3,
-      "gemini-3.8-flash": 2,
-      "gemini-3.5-flash-lite": 3
+      "gemini-3.5-flash-lite": 14
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 3,
+    "modal": 2,
     "runner": 0
   },
-  "daily_done": "2026-11-06",
+  "daily_done": "2026-11-07",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 4.55,
+    "metered": 4.66,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 195,
+    "cloud": 194,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 23.45
+    "modal_credit_left": 23.35
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 31,
+  "open_topics": 37,
   "parked_topics": 60
 }

@@ -1,0 +1,260 @@
+{
+  "viable": true,
+  "reason": "The sources provide 14 distinct claims corroborated by at least two different websites, covering discovery, orbital mechanics, and physical properties.",
+  "story": "In February 2023, astronomers at the Isaac Newton Telescope in Spain spotted a new shadow in the stars: asteroid 2023 DZ2. Just weeks later, this 'city killer' space rock zipped between Earth and the Moon, passing at less than half the distance to our lunar neighbor. Measuring up to 90 meters wide, it was the largest asteroid to approach this closely in years—a once-in-a-decade event. For a tense few days, initial data suggested a 1-in-430 chance of a catastrophic impact in 2026. However, high-precision radar from Goldstone tracked the object as it spun wildly, completing a full rotation every six minutes. These observations allowed scientists to refine its path, eventually ruling out the impact threat. While 2023 DZ2 is currently locked in a gravitational dance with Jupiter that keeps us safe, its close shave served as a critical live-fire exercise for our global planetary defense systems.",
+  "angle": "A 'city killer' asteroid passed halfway between Earth and the Moon just 26 days after it was first discovered.",
+  "claims": [
+    {
+      "claim": "Asteroid 2023 DZ2 was discovered on February 27, 2023.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The asteroid was first spotted using the Isaac Newton Telescope on the island of La Palma.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The object reached its closest approach to Earth on March 25, 2023.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "It passed approximately 175,000 kilometers from Earth's surface.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The pass occurred at less than half the distance between the Earth and the Moon.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Astronomers estimate the asteroid's diameter is between 40 and 90 meters.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The asteroid is large enough to destroy an entire city.",
+      "sources": [
+        "S3",
+        "S7"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "An asteroid of this size passing this close to Earth is considered a once-in-a-decade event.",
+      "sources": [
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "2023 DZ2 is categorized as an Apollo-class near-Earth asteroid.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The asteroid rotates extremely fast, with a period of approximately 6 minutes.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Initial observations suggested a 1-in-430 (0.2%) chance of the asteroid hitting Earth in March 2026.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The asteroid was removed from the Sentry Risk Table on March 21, 2023, after its impact threat was ruled out.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The asteroid was bright enough to be seen by amateur astronomers using small telescopes or binoculars.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The object's orbit is influenced by a resonance with the planet Jupiter.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Size comparisons vary between sources; S5 compares it to a school bus while S6 compares it to the Statue of Liberty. The script should use the numerical range 40-90 meters.",
+    "The exact discovery observation date is listed as Jan 14, 2023 in S5, but Feb 27, 2023 in S1, S2, and S4; the script should stick to the widely reported February date.",
+    "Impact probability details differ slightly, with S1 citing 1-in-430 and S2 citing 0.2%. Both are statistically similar and can be attributed as 'around 0.2%'.",
+    "Visible magnitude estimates range from 10 to 12; the script should specify it was visible in 'small telescopes' to cover all bases."
+  ],
+  "visuals": [
+    {
+      "subject": "Isaac Newton Telescope at night",
+      "queries": [
+        "Isaac Newton Telescope La Palma",
+        "Observatorio del Roque de los Muchachos"
+      ]
+    },
+    {
+      "subject": "Comparison of asteroid size and Statue of Liberty",
+      "queries": [
+        "Statue of Liberty scale diagram",
+        "Statue of Liberty height comparison"
+      ]
+    },
+    {
+      "subject": "Radar imaging of an asteroid",
+      "queries": [
+        "Goldstone solar system radar asteroid",
+        "asteroid radar delay-doppler imaging"
+      ]
+    },
+    {
+      "subject": "Diagram of Earth, Moon, and an intersecting orbit",
+      "queries": [
+        "Earth Moon orbit diagram",
+        "Near-Earth object orbit animation"
+      ]
+    },
+    {
+      "subject": "NASA's DART mission spacecraft",
+      "queries": [
+        "DART spacecraft illustration",
+        "Double Asteroid Redirection Test NASA"
+      ]
+    },
+    {
+      "subject": "Amateur astronomer using a telescope",
+      "queries": [
+        "astronomer with small reflecting telescope",
+        "backyard telescope sky observation"
+      ]
+    },
+    {
+      "subject": "Jupiter's gravity affecting orbits",
+      "queries": [
+        "Jupiter planet space",
+        "Jupiter orbital resonance diagram"
+      ]
+    },
+    {
+      "subject": "The asteroid 2013 Chelyabinsk comparison",
+      "queries": [
+        "Chelyabinsk meteor trail",
+        "Chelyabinsk fireball"
+      ]
+    },
+    {
+      "subject": "Deep Space Network antenna",
+      "queries": [
+        "Goldstone Deep Space Communications Complex DSS-14",
+        "Canberra Deep Space Communication Complex antenna"
+      ]
+    },
+    {
+      "subject": "Binoculars used for stargazing",
+      "queries": [
+        "10x50 binoculars",
+        "astronomy binoculars"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/2023_DZ2",
+      "title": "2023 DZ2",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://echo.jpl.nasa.gov/asteroids/2023DZ2/2023DZ2.2023.goldstone.planning.html",
+      "title": "2023 DZ2",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.bbc.com/news/science-environment-65061818",
+      "title": "Massive asteroid passes between Earth and Moon",
+      "site": "bbc.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://earthsky.org/space/200-ft-asteroid-2023-dz2-will-pass-by-earth-closer-than-the-moon/",
+      "title": "200-foot asteroid 2023 DZ2 passed closer than moon",
+      "site": "earthsky.org"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.spacereference.org/asteroid/2023-dz2",
+      "title": "2023 DZ2",
+      "site": "spacereference.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.ing.iac.es/PR/press/2023DZ2.html",
+      "title": "Asteroid 2023 DZ<sub>2</sub>, Discovered Using the INT and Headed for Earth, Will Not Impact",
+      "site": "iac.es"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.rnz.co.nz/news/science-and-technology/486736/massive-asteroid-passes-between-earth-and-moon",
+      "title": "Massive asteroid passes between Earth and Moon",
+      "site": "rnz.co.nz"
+    }
+  ],
+  "topic": "2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach",
+  "series": "Near Misses"
+}

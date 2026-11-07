@@ -1,0 +1,177 @@
+id: ep377
+title: The asteroid that snuck past Earth
+series: Near Misses
+format: v3
+description: Discover how astronomers caught a city-killer asteroid just days before its shockingly close pass between Earth
+  and the Moon in 2023.
+sources:
+- https://en.wikipedia.org/wiki/2023_DZ2
+- https://echo.jpl.nasa.gov/asteroids/2023DZ2/2023DZ2.2023.goldstone.planning.html
+- https://earthsky.org/space/200-ft-asteroid-2023-dz2-will-pass-by-earth-closer-than-the-moon/
+- https://www.ing.iac.es/PR/press/2023DZ2.html
+- https://www.bbc.com/news/science-environment-65061818
+- https://www.rnz.co.nz/news/science-and-technology/486736/massive-asteroid-passes-between-earth-and-moon
+- https://www.spacereference.org/asteroid/2023-dz2
+hashtags:
+- '#space'
+- '#asteroid'
+- '#nasa'
+tags:
+- asteroid
+- 2023 DZ2
+- near misses
+- space rock
+- astronomy
+- Earth
+- Moon
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A city-killer asteroid passed halfway between Earth and the Moon.
+  emphasis:
+  - halfway between Earth and the Moon
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Moon_Phase_and_Libration%2C_2026_%28SVS5587_-_orbit%29.jpg/960px-Moon_Phase_and_Libration%2C_2026_%28SVS5587_-_orbit%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Moon Phase and Libration, 2026 (SVS5587 - orbit).jpg
+      credit: NASA's Scientific Visualization Studio - USRA/Ernie Wright, NASA/GSFC/Noah Petro, eMITS/James Tralie
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Moon_Phase_and_Libration,_2026_(SVS5587_-_orbit).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It was spotted using the Isaac Newton Telescope on La Palma.
+  emphasis:
+  - Isaac Newton Telescope
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/27/Ing_telescopes_sunset_la_palma_july_2001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Ing telescopes sunset la palma july 2001.jpg
+      credit: Bob Tubbs
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ing_telescopes_sunset_la_palma_july_2001.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.22
+    focus_y: 0.65
+- text: This space rock measures between forty and ninety meters wide.
+  emphasis:
+  - forty and ninety meters
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Height_comparison_of_notable_statues_whether_or_not_FoP.png/1280px-Height_comparison_of_notable_statues_whether_or_not_FoP.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Height comparison of notable statues whether or not FoP.png
+      credit: 'Original: Anna Frodesiak
+
+
+        Derivative work: Ox1997cow'
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Height_comparison_of_notable_statues_whether_or_not_FoP.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 40-90m
+      small: Asteroid width
+- text: Initial data warned of a zero point two percent chance of impact.
+  emphasis:
+  - zero point two percent chance
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Goldstone_Deep_Space_Network_-_Deep_Space_Station_14.jpg/1280px-Goldstone_Deep_Space_Network_-_Deep_Space_Station_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Goldstone Deep Space Network - Deep Space Station 14.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Goldstone_Deep_Space_Network_-_Deep_Space_Station_14.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.45
+    card:
+      kind: fact
+      big: 1 in 430
+      small: Initial impact chance
+- text: High-precision radar revealed it spun wildly every six minutes.
+  emphasis:
+  - every six minutes
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/1991VH_Arecibo_radar_Aug9.png/1280px-1991VH_Arecibo_radar_Aug9.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 1991VH Arecibo radar Aug9.png
+      credit: Shantanu Naidu et al.; Arecibo/NSF/NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:1991VH_Arecibo_radar_Aug9.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 6 minutes
+      small: Rotation period
+- text: That fast spin helped scientists rule out the threat completely.
+  emphasis:
+  - rule out the threat
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/40/Dart-poster3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Dart-poster3.jpg
+      credit: 'Credits: NASA/Johns Hopkins Applied Physics Lab'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Dart-poster3.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A city-killer rock missed us by one hundred seventy-five thousand kilometers.
+  emphasis:
+  - one hundred seventy-five thousand kilometers
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A CITY-KILLER ASTEROID MISSED US
