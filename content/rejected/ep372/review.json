@@ -1,0 +1,174 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-07T05:12:04+05:30",
+      "check": {
+        "duration": 31.89,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'assumed' heard as 'assume' after 'sun most astronomers'",
+          "'tholin' heard as 'tholen' after 'astronomical units away'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The 11,000-year orbital period is an effective attention-grabber.",
+        "clarity": "The narrative transition from Neptune to Planet Nine is logical.",
+        "payoff": "The explanation involving an unseen planet provides a solid resolution.",
+        "visuals": "Multiple frames contain technical text too small for mobile screens.",
+        "loop": "The script repeats the hook phrasing for a smooth transition."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "The image is grey and white, contradicting the 'red glow' script."
+        },
+        {
+          "beat": 6,
+          "problem": "Contains small, unreadable technical labels and dates."
+        },
+        {
+          "beat": 8,
+          "problem": "Diagram is too cluttered and text-heavy for phone viewers."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "tholin",
+          "respelling": "tho lin"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This entry uses a more precise numerical hook than the recent Saturn moons episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:19:52+05:30",
+      "check": {
+        "duration": 30.85,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'tholin' heard as 'tholen' after 'astronomical units away'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing opener on Sedna's extreme orbital duration.",
+        "clarity": "Single clear concept per beat with logical flow.",
+        "payoff": "Satisfying twist linking the orbit to Planet Nine.",
+        "visuals": "Beat 5 uses an off-topic chemistry graphic.",
+        "loop": "Sentence structure transitions smoothly back to beat 1."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows a diagram explicitly labeled for Titan chemistry."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Presents a more captivating mystery about outer solar system dynamics than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:22:06+05:30",
+      "check": {
+        "duration": 31.87,
+        "words": 92,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'assumed' heard as 'assume' after 'sun most astronomers'",
+          "'tholin' heard as 'tholen' after 'astronomical units away'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Engaging opening stat about an extreme 11,000-year orbit.",
+        "clarity": "Explains the orbital mechanics clearly in digestible steps.",
+        "payoff": "Delivers a strong mystery payoff with the Planet Nine and stellar flyby hypotheses.",
+        "visuals": "Beat 5 uses an orbital path diagram while describing surface composition and color, which does not match.",
+        "loop": "The final phrase connects smoothly back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows an orbit diagram instead of illustrating the surface appearance or red tholin sludge described."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The setup and seamless circular loop are stronger than in the Apollo 13 episode.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-07T17:22:06+05:30"
+}

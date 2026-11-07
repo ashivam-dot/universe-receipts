@@ -1,0 +1,156 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-07T17:23:00+05:30",
+      "check": {
+        "duration": 28.07,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The numerical overlay and bright cluster imagery create immediate interest.",
+        "clarity": "The script moves logically from the mystery to the scientific resolution.",
+        "payoff": "The discovery of intermediate gas provides a satisfying answer to the prompt.",
+        "visuals": "Several beats feature diagrams with text far too small for mobile devices.",
+        "loop": "The closing phrase connects seamlessly to the opening line about the cluster."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "contains tiny text labels unreadable on phone screens"
+        },
+        {
+          "beat": 4,
+          "problem": "frame is primarily a complex diagram with small text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It presents a tighter scientific mystery and resolution than the recent historical shorts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:24:34+05:30",
+      "check": {
+        "duration": 30.23,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The '700 stars' claim is a strong quantitative hook that stops a scroll.",
+        "clarity": "The script does an excellent job explaining why star formation in this cluster is a scientific contradiction.",
+        "payoff": "Using Webb to find the 'missing link' of intermediate gas provides a satisfying resolution.",
+        "visuals": "Most frames are great, but the electromagnetic spectrum chart in beat 4 is too dense for a phone screen.",
+        "loop": "The word-to-word transition from the end of beat 8 to the start of beat 1 is perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The frame is a dense infographic that is mostly text and illegible at phone size."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The seamless word-match loop is more polished than the transitions in the recent Apollo 13 and Mars probe episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:25:54+05:30",
+      "check": {
+        "duration": 30.23,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Statistic is strong but the visual is standard.",
+        "clarity": "Logical flow between star birth and black hole conflict.",
+        "payoff": "Webb discovery resolves the mystery but lacks punch.",
+        "visuals": "Diagram in beat 4 uses non-English labels.",
+        "loop": "Seamlessly connects the final subject to the start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Spectrum diagram labels are in French."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A single galaxy cluster is birthing 700 stars every year.",
+        "Beat 8: This warm gas acts as a fuel line for the cluster."
+      ],
+      "better_than_last": "Presents a more intriguing scientific contradiction than the recent orbit story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, visuals",
+  "rejected_at": "2026-11-07T17:25:54+05:30"
+}

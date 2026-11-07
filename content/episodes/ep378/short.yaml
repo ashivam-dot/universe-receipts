@@ -1,0 +1,189 @@
+id: ep378
+title: The Planet That Spins Backward
+series: Space Myths, Busted
+format: v3
+description: Venus is the only planet in the solar system where a single day lasts longer than its entire orbital year.
+sources:
+- https://en.wikipedia.org/wiki/Venus
+- https://www.scientificamerican.com/article/why-venus-spins-the-wrong/
+- https://www.esa.int/Science_Exploration/Space_Science/Venus_Express/Have_Venusian_volcanoes_been_caught_in_the_act
+- https://en.wikipedia.org/wiki/Atmosphere_of_Venus
+hashtags:
+- '#space'
+- '#venus'
+- '#astronomy'
+tags:
+- venus
+- solar system
+- planets
+- space facts
+- retrograde rotation
+- astronomy
+- nasa
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: One day on Venus actually lasts longer than its year.
+  emphasis:
+  - longer
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/83/Global_view_uvi_Venus_%28Akatsuki%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Global view uvi Venus (Akatsuki).jpg
+      credit: Meli thev
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Global_view_uvi_Venus_(Akatsuki).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A single rotation on its axis takes 243 Earth days.
+  emphasis:
+  - 243 Earth days
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/11/PIA23791-Venus-NewlyProcessedView-20200608_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA23791-Venus-NewlyProcessedView-20200608 (cropped).jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA23791-Venus-NewlyProcessedView-20200608_(cropped).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 243 DAYS
+      small: one rotation
+- text: It holds the record for the solar system's slowest spin.
+  emphasis:
+  - slowest spin
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Maat_Mons_on_Venus.jpg/3840px-Maat_Mons_on_Venus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Maat Mons on Venus.jpg
+      credit: NASA - Jet Propulsion Laboratory
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Maat_Mons_on_Venus.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+    card:
+      kind: fact
+      big: RECORD
+      small: slowest spin
+- text: Most other planets finish a full rotation in just hours.
+  emphasis:
+  - just hours
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Solar_System_graphic_by_NASA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Solar System graphic by NASA.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_System_graphic_by_NASA.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: 'There''s a catch: Venus actually spins in the opposite direction.'
+  emphasis:
+  - opposite direction
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Venus_globe_-_transparent_background.png/3840px-Venus_globe_-_transparent_background.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Venus globe - transparent background.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Venus_globe_-_transparent_background.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Because of this backward rotation, the Sun rises in the west.
+  emphasis:
+  - Sun rises in the west
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg/3840px-SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: SDO's Ultra-high Definition View of 2012 Venus Transit -- Path Sequence.jpg
+      credit: NASA/SDO, AIA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_--_Path_Sequence.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.88
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: WEST
+      small: sun rises
+- text: Even weirder, the atmosphere super-rotates around the planet every four days.
+  emphasis:
+  - super-rotates
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b9/Venus_-_May_6_2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Venus - May 6 2016.png
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Venus_-_May_6_2016.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It's a bizarre world where a day lasts longer than its year.
+  emphasis:
+  - day lasts longer
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 1 DAY > 1 YEAR

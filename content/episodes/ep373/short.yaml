@@ -1,9 +1,9 @@
 id: ep373
-title: The Rocket That Struck ITSELF With Lightning
+title: The Rocket That Struck ITSELF
 series: Near Misses
 format: v3
-description: Apollo 12 was hit by lightning twice during launch, but the storm wasn't an accident—the rocket created the electrical
-  path itself.
+description: Apollo 12 was hit by lightning twice during launch, but the storm was not an accident—the rocket created the
+  electrical path itself.
 sources:
 - https://en.wikipedia.org/wiki/Apollo_12
 - https://www.nasa.gov/centers-and-facilities/kennedy/repeat-performance-apollo-12-achieves-second-moon-landing/
@@ -37,39 +37,40 @@ beats:
   - lightning
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Apollo_12_space_vehicle_is_launched_from_Pad_A.jpg/1920px-Apollo_12_space_vehicle_is_launched_from_Pad_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/6/62/Apollo-12-Lancering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Apollo 12 space vehicle is launched from Pad A.jpg
+      title: Apollo-12-Lancering.jpg
       credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Apollo_12_space_vehicle_is_launched_from_Pad_A.jpg
+      url: https://commons.wikimedia.org/wiki/File:Apollo-12-Lancering.jpg
     fallbacks:
     - color
-    motion: pan_down
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Many assume Apollo 12 hit a random storm.
+    motion: pan_right
+    focus_x: 0.48
+    focus_y: 0.35
+- text: Most assume Apollo 12 hit a random Florida storm.
   emphasis:
-  - random storm
+  - random
+  - storm
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/PAD_39A_-_SKYLAB_%28SL%29-I_-_KSC_%28S73-26911%29.jpg/3840px-PAD_39A_-_SKYLAB_%28SL%29-I_-_KSC_%28S73-26911%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Apollo_12_launches_from_Kennedy_Space_Center.jpg/3840px-Apollo_12_launches_from_Kennedy_Space_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: PAD 39A - SKYLAB (SL)-I - KSC (S73-26911).jpg
-      credit: NASA Johnson Space Center
+      title: Apollo 12 launches from Kennedy Space Center.jpg
+      credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PAD_39A_-_SKYLAB_(SL)-I_-_KSC_(S73-26911).jpg
+      url: https://commons.wikimedia.org/wiki/File:Apollo_12_launches_from_Kennedy_Space_Center.jpg
     fallbacks:
     - color
-    motion: pan_left
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-- text: In reality, its metal body and exhaust triggered the bolts.
+- text: Actually, the massive rocket and its exhaust triggered the bolts.
   emphasis:
-  - metal body
+  - exhaust
   - triggered
   visual:
     source: url
@@ -85,80 +86,41 @@ beats:
     motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: Thirty-six seconds after liftoff, the first bolt struck.
+- text: The first strike hit 36 seconds in, killing the power.
   emphasis:
-  - first bolt
-  sfx: whoosh
+  - killing the power
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/AS07-08-1934_-_Apollo_7_-_Apollo_7_Mission%2C_Florida_-_NARA_-_16666733.jpg/3840px-AS07-08-1934_-_Apollo_7_-_Apollo_7_Mission%2C_Florida_-_NARA_-_16666733.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Guidance_and_Navigation_Indicator_Control_Panel.jpg/3840px-Guidance_and_Navigation_Indicator_Control_Panel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: AS07-08-1934 - Apollo 7 - Apollo 7 Mission, Florida - NARA - 16666733.jpg
-      credit: Unknown authorUnknown author or not provided
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:AS07-08-1934_-_Apollo_7_-_Apollo_7_Mission,_Florida_-_NARA_-_16666733.jpg
+      title: Guidance and Navigation Indicator Control Panel.jpg
+      credit: Steve Jurvetson
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Guidance_and_Navigation_Indicator_Control_Panel.jpg
     fallbacks:
     - card
     - color
-    motion: zoom_in
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: dateline
-      big: 36.5 SECONDS
-      small: first strike after liftoff
-- text: All three fuel cells disconnected, flooding the cockpit with warning lights.
+      big: 36 SECONDS
+      small: POWER FAILURE
+- text: A second strike turned mission data into total gibberish.
   emphasis:
-  - fuel cells disconnected
-  - warning lights
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Apollo_Command_Module_Panel_%285386054271%29.jpg/1920px-Apollo_Command_Module_Panel_%285386054271%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Apollo Command Module Panel (5386054271).jpg
-      credit: Steve Jurvetson from Los Altos, USA
-      license: CC BY 2.0
-      url: https://commons.wikimedia.org/wiki/File:Apollo_Command_Module_Panel_(5386054271).jpg
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: A second strike at 52 seconds turned telemetry into gibberish.
-  emphasis:
-  - second strike
-  - gibberish
+  - total gibberish
   visual:
     source: card
     card:
-      kind: dateline
-      big: 52 SECONDS
-      small: second lightning strike
+      kind: fact
+      big: GIBBERISH
+      small: SCRAMBLED TELEMETRY
     motion: zoom_in
-- text: Fortunately, the rocket's independent guidance system kept flying true.
-  emphasis:
-  - independent guidance
-  sfx: whoosh
-  visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/0/02/Saturn_V_Instrument_Unit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Saturn V Instrument Unit.jpg
-      credit: NASA/MSFC
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Saturn_V_Instrument_Unit.jpg
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Flight controller John Aaron called out a switch from an earlier test.
+- text: Controller John Aaron recognized the failure from an obscure test.
   emphasis:
   - John Aaron
-  sfx: riser
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/John_Aaron_EECOM.jpg/960px-John_Aaron_EECOM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -169,48 +131,63 @@ beats:
       license: Public domain
       url: https://commons.wikimedia.org/wiki/File:John_Aaron_EECOM.jpg
     fallbacks:
-    - card
     - color
     motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.62
+    focus_y: 0.35
+    box:
+    - 0.48
+    - 0.08
+    - 0.78
+    - 0.58
+- text: He ordered the crew to flip the SCE switch to auxiliary.
+  emphasis:
+  - SCE switch
+  sfx: riser
+  visual:
+    source: card
     card:
       kind: quote
-      big: TRY SCE TO AUX
-      small: flight controller John Aaron
-- text: Astronaut Alan Bean flipped it, restoring telemetry instantly.
+      big: SCE TO AUX
+      small: JOHN AARON
+    motion: zoom_in
+- text: Alan Bean did, restoring data and saving the mission.
   emphasis:
-  - Alan Bean
-  - restoring telemetry
+  - saving the mission
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/2/2a/Bean_Samples_The_Ocean_of_Storms_-_GPN-2000-001103.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Alan_Bean_NASA_portrait_%28S69-38859%29.jpg/1920px-Alan_Bean_NASA_portrait_%28S69-38859%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Bean Samples The Ocean of Storms - GPN-2000-001103.jpg
-      credit: NASA Charles Conrad Jr
+      title: Alan Bean NASA portrait (S69-38859).jpg
+      credit: NASA / Johnson Space Center (NASA-JSC)
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Bean_Samples_The_Ocean_of_Storms_-_GPN-2000-001103.jpg
+      url: https://commons.wikimedia.org/wiki/File:Alan_Bean_NASA_portrait_(S69-38859).jpg
     fallbacks:
     - card
     - color
-    motion: zoom_out
+    motion: pan_up
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.3
+    box:
+    - 0.32
+    - 0.08
+    - 0.68
+    - 0.48
     card:
       kind: fact
-      big: SCE TO AUX
-      small: restored spacecraft telemetry
-- text: The mission survived lightning of its own making.
+      big: RESTORED
+      small: DATA LINK RECOVERED
+- text: The crew survived because a Saturn V rocket generated the lightning that struck it.
   emphasis:
-  - survived lightning
+  - crew survived
   visual:
     reuse: 1
     motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.48
+    focus_y: 0.35
 look: bold
 music:
   path: bed:chase

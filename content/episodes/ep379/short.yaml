@@ -1,0 +1,201 @@
+id: ep379
+title: The Coldest Planet Isn't the Farthest Away
+series: Space Got Weird
+format: v3
+description: Uranus holds the record for the coldest planetary atmosphere in the solar system. Discover the bizarre science
+  behind this sideways-spinning ice giant and its lopsided magnetic field.
+sources:
+- https://en.wikipedia.org/wiki/Uranus
+- https://science.nasa.gov/uranus/facts/
+- https://news.bbc.co.uk/2/hi/science/nature/6569849.stm
+- https://www.planetary.org/articles/chinas-plans-for-outer-solar-system-exploration
+- https://web.archive.org/web/20080709020909/http://www.space.com/scienceastronomy/solarsystem/miranda_creation_011016-1.html
+hashtags:
+- '#space'
+- '#uranus'
+- '#voyager2'
+tags:
+- uranus
+- astronomy
+- solar system
+- voyager 2
+- ice giant
+- planet facts
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The coldest atmosphere isn't on the planet farthest away.
+  emphasis:
+  - coldest atmosphere
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/19/Uranus_-_January_22_1986_%2826534993078%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Uranus - January 22 1986 (26534993078).jpg
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Uranus_-_January_22_1986_(26534993078).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.24
+    - 0.24
+    - 0.76
+    - 0.76
+- text: Uranus hits minus 371 degrees Fahrenheit even though Neptune is farther.
+  emphasis:
+  - minus 371 degrees
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Solar_sys8_numbered.jpg/1280px-Solar_sys8_numbered.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Solar sys8 numbered.jpg
+      credit: Harman Smith and Laura Generosa (nee Berwin), graphic artists and contractors to NASA's Jet Propulsion Laboratory,
+        with Pluto removed by User:Frokor and nubers added by User:HenkvD
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_sys8_numbered.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.18
+    focus_y: 0.22
+    box:
+    - 0.05
+    - 0.05
+    - 0.35
+    - 0.4
+    card:
+      kind: fact
+      big: -371 F
+      small: Coldest Atmosphere
+- text: Methane gas absorbs red light, turning the world blue-green.
+  emphasis:
+  - blue-green
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/PIA00032_Uranus_in_True_and_False_Color.jpg/1920px-PIA00032_Uranus_in_True_and_False_Color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA00032 Uranus in True and False Color.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA00032_Uranus_in_True_and_False_Color.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A giant collision likely knocked the entire planet sideways.
+  emphasis:
+  - knocked
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/4a/Artist%27s_concept_of_collision_at_HD_172555.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Artist's concept of collision at HD 172555.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist%27s_concept_of_collision_at_HD_172555.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This ice giant orbits on its side every 84 years.
+  emphasis:
+  - on its side
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/PIA01278_Hubble_Tracks_Clouds_on_Uranus.jpg/960px-PIA01278_Hubble_Tracks_Clouds_on_Uranus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA01278 Hubble Tracks Clouds on Uranus.jpg
+      credit: NASA/JPL/STScI
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA01278_Hubble_Tracks_Clouds_on_Uranus.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.25
+    focus_y: 0.5
+    box:
+    - 0.05
+    - 0.22
+    - 0.45
+    - 0.77
+- text: NASA's Voyager 2 swept past this frozen giant in 1986.
+  emphasis:
+  - '1986'
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/2e/Voyager_testing_at_JPL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager testing at JPL.jpg
+      credit: JOHN GREGOIRE, NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_testing_at_JPL.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '1986'
+      small: Voyager 2 Flyby
+- text: Voyager found its magnetic center offset by a third of its radius.
+  emphasis:
+  - offset
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Alien_aurorae_on_Uranus_%28remastered%29.jpg/960px-Alien_aurorae_on_Uranus_%28remastered%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Alien aurorae on Uranus (remastered).jpg
+      credit: ESA/Hubble & NASA, L. Lam
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Alien_aurorae_on_Uranus_(remastered).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It holds the record for the solar system's coldest atmosphere.
+  emphasis:
+  - coldest atmosphere
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: -371 F RECORD COLD

@@ -1,0 +1,203 @@
+id: ep372
+title: The Frozen World Beyond Neptune's Reach
+series: Scale Breaker
+format: v3
+description: Dwarf planet Sedna orbits so far away that one trip around the Sun takes over 10,000 years. Its strange trajectory
+  hints at an unseen stellar visitor or Planet Nine.
+sources:
+- https://en.wikipedia.org/wiki/Sedna_(dwarf_planet)
+- https://web.archive.org/web/20200227133304/https://ssd.jpl.nasa.gov/sbdb.cgi?sstr=Sedna
+- https://web.archive.org/web/20100725212803/http://www.gps.caltech.edu/~mbrown/sedna/
+- https://web.archive.org/web/20091125013455/http://www.planetary.org/explore/topics/our_solar_system/trans_neptunian_objects/sedna.html
+- https://www.universetoday.com/121637/stealing-sedna/
+- https://web.archive.org/web/20160620222017/http://phys.org/news/2014-03-edge-solar.html
+- https://www.scientificamerican.com/article/sun-accused-of-stealing-planetary-objects-from-another-star/
+hashtags:
+- '#space'
+- '#sedna'
+- '#astronomy'
+tags:
+- Sedna
+- dwarf planet
+- solar system
+- Planet Nine
+- Oort cloud
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+  say:
+    tholin: tho lin
+beats:
+- text: A frozen world takes 11,000 years to orbit our Sun.
+  emphasis:
+  - 11,000 years
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/68/Artist%27s_conception_of_Sedna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Artist's conception of Sedna.jpg
+      credit: NASA/JPL-Caltech/R. Hurt (SSC-Caltech)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist%27s_conception_of_Sedna.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.4
+    focus_y: 0.55
+    card:
+      kind: fact
+      big: 11,000 YEARS
+      small: Single Solar Orbit
+- text: Most astronomers assumed Neptune's gravity controlled everything out there.
+  emphasis:
+  - Neptune's gravity
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Solar_System-_EIC_Display_%28SVS5674_-_4%29.jpg/3840px-Solar_System-_EIC_Display_%28SVS5674_-_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Solar System- EIC Display (SVS5674 - 4).jpg
+      credit: NASA's Scientific Visualization Studio - Science and Technology Corporation/Kel Elkins
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_System-_EIC_Display_(SVS5674_-_4).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.23
+    focus_y: 0.85
+- text: But dwarf planet Sedna never comes close to Neptune.
+  emphasis:
+  - never comes close
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/64/%E2%80%9CFar_Out%E2%80%9D_Dwarf_Planet_Discovered_%28noaoann18024a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: “Far Out” Dwarf Planet Discovered (noaoann18024a).jpg
+      credit: R. M. Candanosa &Carnegie Institution for Science
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:%E2%80%9CFar_Out%E2%80%9D_Dwarf_Planet_Discovered_(noaoann18024a).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.76
+    focus_y: 0.85
+    box:
+    - 0.1
+    - 0.8
+    - 0.9
+    - 0.98
+    card:
+      kind: fact
+      big: 76 AU
+      small: Closest Distance to Sun
+- text: At its farthest point, it swings 900 astronomical units away.
+  emphasis:
+  - 900 astronomical units
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Sedna-PIA05569-crop.jpg/960px-Sedna-PIA05569-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Sedna-PIA05569-crop.jpg
+      credit: NASA/Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Sedna-PIA05569-crop.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 900 AU
+      small: Farthest Distance
+- text: Tholin hydrocarbon sludge gives its thousand-kilometer surface a deep red glow.
+  emphasis:
+  - deep red glow
+  visual:
+    reuse: 4
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Hubble proved it rotates every 10 hours with no moon nearby.
+  emphasis:
+  - no moon nearby
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 10 HOURS
+      small: Rotation Period
+    motion: zoom_in
+- text: Neptune couldn't drag it into this extreme, oval path.
+  emphasis:
+  - couldn't drag it
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sedna_Discovery_%28geminiann05005c%29.tiff/lossy-page1-1920px-Sedna_Discovery_%28geminiann05005c%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Sedna Discovery (geminiann05005c).tiff
+      credit: International Gemini Observatory/NOIRLab/NSF/AURA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Sedna_Discovery_(geminiann05005c).tiff
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A passing star or an unseen Planet Nine pulled it away.
+  emphasis:
+  - unseen Planet Nine
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/89/Hypothetical_Planet_Nine_%2824420842591%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Hypothetical Planet Nine (24420842591).png
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Hypothetical_Planet_Nine_(24420842591).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: PLANET NINE?
+      small: Gravitational Shepherd
+- text: That left this red world on an 11,000-year journey around our Sun.
+  emphasis:
+  - 11,000-year journey
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.4
+    focus_y: 0.55
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

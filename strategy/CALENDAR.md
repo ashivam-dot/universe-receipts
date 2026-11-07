@@ -95,8 +95,8 @@ unexplained, not alien.
 | Nov 12 | Philae (spacecraft) (2014): the first probe to land on a comet bounced twice after its harpoons failed, landing in a dark shadow — parked (ep354) | Mission Files |
 | Nov 13 | Mariner 9 (1971): on this day, Mariner 9 became the first spacecraft to orbit another planet, arriving at Mars during a planet-wide dust storm — done (ep365) | Mission Files |
 | Nov 13 | 2020 VT4 (2020): an asteroid skimmed just 230 miles above Earth's surface on this day, flying closer than the International Space Station — parked (ep366) | Near Misses |
-| Nov 13 | WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware — making (ep368) | Space Got Weird |
-| Nov 14 | 90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once — making (ep372) | Scale Breaker |
+| Nov 13 | WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware — parked (ep368) | Space Got Weird |
+| Nov 14 | 90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once — parked (ep372) | Scale Breaker |
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot | Mission Files |
 | Nov 15 | Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules | Near Misses |
 | Nov 17 | Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay | Space Got Weird |
@@ -128,7 +128,7 @@ unexplained, not alien.
 | Nov 2 | Expedition 1 (2000): since this crew moved in, the space station has had people aboard every single day — done (ep251) | Mission Files |
 | Nov 3 | Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002 — done (ep253) | Mission Files |
 | Nov 9 | Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos — parked (ep283) | Space Myths, Busted |
-| Nov 14 | Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on — making (ep373) | Near Misses |
+| Nov 14 | Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on — done (ep373) | Near Misses |
 | Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away | Space Got Weird |
 | Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors | Space Got Weird |
 | Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean | Mission Files |
@@ -207,7 +207,7 @@ unexplained, not alien.
 - Messier 87 (1918): an enormous elliptical galaxy containing trillions of stars whose central supermassive black hole fires a relativistic plasma jet over 5,000 light-years into deep space — done (ep198)
 - Perseus Cluster (2002): sound waves ripple through hot gas around a supermassive black hole, creating a cosmic hum 57 octaves below middle C — done (ep205)
 - Pistol Star (1990): a hypergiant star shrouded in cosmic dust that radiates as much energy in twenty seconds as the Sun produces in an entire year — done (ep214)
-- Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns — making (ep375)
+- Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns — dropped (ep375)
 - Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos — dropped (ep243)
 - Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it — parked (ep323)
 - Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity — parked (ep338)
@@ -217,8 +217,8 @@ unexplained, not alien.
 - Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge — done (ep260)
 - Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth — parked (ep273)
 - Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics — done (ep356)
-- Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness — making (ep370)
-- Jupiter (1979): Jupiter's invisible magnetosphere is so vast that if visible from Earth, it would look twice as large as the full Moon
+- Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness — parked (ep370)
+- Jupiter (1979): Jupiter's invisible magnetosphere is so vast that if visible from Earth, it would look twice as large as the full Moon — making (ep380)
 - Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky
 - International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds
 
@@ -255,7 +255,7 @@ unexplained, not alien.
 - James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — parked (ep302)
 - Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — parked (ep303)
 - Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — done (ep360)
-- Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years — making (ep371)
+- Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years — parked (ep371)
 
 ### Space Got Weird
 
@@ -373,5 +373,5 @@ unexplained, not alien.
 - Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — parked (ep299)
 - Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning — parked (ep301)
 - Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation — done (ep355)
-- Venus (1962): Venus spins in the opposite direction of almost every other planet, meaning the Sun rises in the west and sets in the east — making (ep378)
-- Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz
+- Venus (1962): Venus spins in the opposite direction of almost every other planet, meaning the Sun rises in the west and sets in the east — done (ep378)
+- Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz — making (ep381)

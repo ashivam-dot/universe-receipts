@@ -1,0 +1,101 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-07T17:22:48+05:30",
+      "check": {
+        "duration": 33.39,
+        "words": 92,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -2.7,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'is' after 'another bizarre planet'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Sets up the core temperature paradox within two seconds.",
+        "clarity": "Logical flow with single concepts per beat.",
+        "payoff": "Satisfying reveal of collision and magnetic field quirks.",
+        "visuals": "Mostly on-topic, but beat 6 relies on small chart text.",
+        "loop": "Seamless transition from final phrase to hook."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Multi-panel graphic contains small text that is unreadable on mobile screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Integrates planetary mechanics more smoothly than the Mars probe episode.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:24:18+05:30",
+      "check": {
+        "duration": 31.43,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Establishes a solid initial premise about extreme planetary temperatures.",
+        "clarity": "Easy to follow with straightforward, single-concept beats.",
+        "payoff": "The transition from temperature facts to magnetic field offset feels slightly detached.",
+        "visuals": "Clear astronomical graphics and relevant spacecraft imagery throughout.",
+        "loop": "Ends on a concluding thought that leads smoothly back into the opening beat."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: The coldest atmosphere isn't on the planet farthest from the Sun.",
+        "Beat 8: Voyager found its magnetic center offset by a third of its radius."
+      ],
+      "better_than_last": "Provides stronger thematic continuity between planetary structure and scientific discoveries than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

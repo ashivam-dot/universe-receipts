@@ -1,0 +1,184 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-06T17:32:50+05:30",
+      "check": {
+        "duration": 26.97,
+        "words": 85,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Relies on a generic asteroid trope needing more punch.",
+        "clarity": "Logical progression from mystery discovery to debris identification.",
+        "payoff": "The rocket debris reveal provides a clever subversion.",
+        "visuals": "Several frames show incorrect objects or mismatched scales.",
+        "loop": "Last line transitions naturally back into the hook."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Shows a comet with a tail instead of debris."
+        },
+        {
+          "beat": 2,
+          "problem": "Depicts a massive asteroid, contradicting the small size mentioned."
+        },
+        {
+          "beat": 6,
+          "problem": "Displays text for 'Progress 42P', a different mission."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Astronomers found a mystery object from deep space falling toward Earth."
+      ],
+      "better_than_last": "Provides a more compelling narrative mystery than the Pluto episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:20:20+05:30",
+      "check": {
+        "duration": 26.72,
+        "words": 89,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.5,
+        "warnings": [],
+        "speech_differences": [
+          "'chartered' heard as 'charted' after 'ocean so researchers'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening line is intriguing, though the visual depicts an upward launch rather than an incoming object.",
+        "clarity": "The sequence of events is straightforward and easy to follow.",
+        "payoff": "The twist is revealed too early in beat 5 rather than landing near the conclusion.",
+        "visuals": "Several assets mismatch narration, including mountain terrain for ocean and a rocket launch for falling debris.",
+        "loop": "The repetition of 'mystery object' smoothly reconnects into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Shows a ground-based rocket launch streak rather than an incoming space object."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows a lush green mountain ridge instead of the ocean."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 8,
+          "word": "chartered",
+          "respelling": "char terd"
+        }
+      ],
+      "rewrite": [
+        "Beat 5: The incoming object entered the atmosphere at nearly 25,000 miles per hour.",
+        "Beat 7: Underneath heavy ocean cloud cover, researchers boarded a chartered business jet to film the fireball.",
+        "Beat 8: The fiery mystery was revealed to be human trash: a hollow, discarded tank from a lunar mission."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:25:27+05:30",
+      "check": {
+        "duration": 27.27,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong graphic; immediate threat.",
+        "clarity": "Clear discovery-to-ID logic.",
+        "payoff": "Reveal lacks high impact.",
+        "visuals": "Generic assets for technical points.",
+        "loop": "Seamless linguistic transition."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows a commemorative coin instead of density testing."
+        },
+        {
+          "beat": 6,
+          "problem": "Generic landscape fails to show ground observation."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: The killer asteroid was actually a fuel tank."
+      ],
+      "better_than_last": "Seamless loop improves upon ep369.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals; 2 frame problems",
+  "rejected_at": "2026-11-07T17:25:27+05:30"
+}

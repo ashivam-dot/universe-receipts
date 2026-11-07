@@ -1,0 +1,114 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-07T17:25:09+05:30",
+      "check": {
+        "duration": 33.6,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Catches attention quickly with high-speed plasma concept.",
+        "clarity": "Simple step-by-step description of binary black hole dynamics.",
+        "payoff": "Stellar wind reveal provides a modest concluding shift.",
+        "visuals": "Some frames rely heavily on text-heavy scientific diagrams.",
+        "loop": "Final phrase transitions seamlessly back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Frame is mostly a technical diagram with heavy text labels."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Stellar winds from the companion star push these plasma jets, making them visibly dance."
+      ],
+      "better_than_last": "Provides a more coherent narrative structure than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:29:46+05:30",
+      "check": {
+        "duration": 36.8,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening fact is interesting but lacks a unique punch.",
+        "clarity": "Historical timeline is clear and logical.",
+        "payoff": "The final reveal of the dancing jets is subtle.",
+        "visuals": "Visuals mismatch the stated astronomical subject.",
+        "loop": "Ending connects cleanly to the start."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "On-screen text references a galactic center black hole."
+        },
+        {
+          "beat": 7,
+          "problem": "Visual identifies a star called HH 30 instead."
+        },
+        {
+          "beat": 8,
+          "problem": "Uses a generic radio map unrelated to this system."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Imagine a black hole with jets that dance.",
+        "Beat 8: Massive stellar winds batter the jets into a wobble."
+      ],
+      "better_than_last": "This short features more precise historical dates than ep369.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

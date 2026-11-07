@@ -1,0 +1,175 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-07T17:17:26+05:30",
+      "check": {
+        "duration": 32.39,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'saturn'",
+          "'christiaan' heard as 'christian' after 'through their plane'",
+          "'nothing' heard as '(nothing)' after '100000000 years ago'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong contrast between massive scale and extreme thinness captures interest quickly.",
+        "clarity": "The cardboard comparison in beat 3 feels slightly abstract on a single listen.",
+        "payoff": "The ring age detail is interesting, though the ending lacks a strong narrative twist.",
+        "visuals": "Beat 3 displays a state map outline that feels disconnected from the topic.",
+        "loop": "The final phrase about scale seamlessly connects back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows an unrelated outline map of California."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 3: 'If scaled down to a city's width, the disk would be thinner than paper.'",
+        "Beat 8: 'Astronomers recently realized they formed only 100 million years ago.'"
+      ],
+      "better_than_last": "Provides a more immediate sense of physical scale compared to recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:22:11+05:30",
+      "check": {
+        "duration": 33.62,
+        "words": 89,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'saturn'",
+          "'christiaan huygens' heard as 'christian huwens' after 'through their plane'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Effective contrast comparison grabs immediate attention.",
+        "clarity": "Logical sequence of scale and historical facts.",
+        "payoff": "The recent formation age provides a solid twist.",
+        "visuals": "Beat 3 map graphic is confusing for scale context.",
+        "loop": "Ends seamlessly into the opening beat frame and topic."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "State map of California is off-topic and confusing for a city-width paper scale comparison."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "Huygens",
+          "respelling": "hoi genz"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides clearer historical progression and scale comparisons than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:23:59+05:30",
+      "check": {
+        "duration": 32.09,
+        "words": 89,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'saturn'",
+          "'razor' heard as 'rays are' after '20 earths but'",
+          "'christiaan' heard as 'christian' after 'through their plane'",
+          "'nothing' heard as 'something' after '100000000 years ago'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong verbal contrast between width and thickness.",
+        "clarity": "Logical chronological discovery path is easy to follow.",
+        "payoff": "The age fact is a good surprise but ends abruptly.",
+        "visuals": "Excellent use of archival sketches; beat 3 scale is confusing.",
+        "loop": "Paper-thin metaphor creates a seamless transition back to the start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The frame shows a multi-state region which contradicts the city-width scale comparison."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Astronomers recently realized they formed only 100 million years ago, making them cosmic newcomers."
+      ],
+      "better_than_last": "This Short utilizes superior primary source sketches from Galileo and Huygens compared to the generic imagery in ep365.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff",
+  "rejected_at": "2026-11-07T17:23:59+05:30"
+}

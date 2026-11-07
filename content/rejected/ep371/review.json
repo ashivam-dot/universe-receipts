@@ -1,0 +1,166 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-07T17:20:04+05:30",
+      "check": {
+        "duration": 29.13,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'is' heard as '(nothing)' after 'away voyager one'",
+          "'probe' heard as 'pro' after 'them meant the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong initial premise about an engine 13 billion miles away.",
+        "clarity": "Logical narrative progression from equipment failure to resolution.",
+        "payoff": "Expected positive outcome without a strong surprising twist.",
+        "visuals": "Includes incorrect spacecraft diagrams and an inaccurate rocket engine.",
+        "loop": "Sentence structure transitions smoothly back into the opening beat."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Schematic image text is illegible on mobile screens."
+        },
+        {
+          "beat": 6,
+          "problem": "Diagram displays the James Webb Space Telescope instead of Voyager."
+        },
+        {
+          "beat": 8,
+          "problem": "Shows a large rocket engine test instead of a tiny thruster."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: NASA woke up a sleeping engine 13 billion miles away after 37 years.",
+        "Beat 8: The dormant thrusters fired perfectly, extending Voyager's lifespan."
+      ],
+      "better_than_last": "Maintains a sharper focus on a single technical rescue mission throughout.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:24:23+05:30",
+      "check": {
+        "duration": 33.0,
+        "words": 88,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The distance and the concept of waking a machine create immediate curiosity.",
+        "clarity": "The problem and solution are explained with perfect logical flow.",
+        "payoff": "The 19-hour wait provides a great sense of tension and relief.",
+        "visuals": "The engine shown in beat 8 is a massive terrestrial engine, not a tiny probe thruster.",
+        "loop": "The transition from talking to 'home' back to the hook is smooth."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "The image shows a large rocket or jet engine instead of the small MR-103 thrusters used on Voyager."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short maintains a tighter chronological narrative and clearer stakes than ep365.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:25:58+05:30",
+      "check": {
+        "duration": 32.89,
+        "words": 88,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening with an impressive distance and action verb.",
+        "clarity": "Narrative follows a clear chronological path from problem to resolution.",
+        "payoff": "Successful firing after 37 years provides a satisfying technical resolution.",
+        "visuals": "Imagery is thematic though one frame is overly dense with text.",
+        "loop": "The concluding sentiment on communication links well to the NASA action."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "mostly text and unreadable schematics for a mobile screen"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The technical stakes feel higher here than in the Mars probe or moon orbit stories.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-07T17:25:58+05:30"
+}

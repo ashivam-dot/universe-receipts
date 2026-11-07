@@ -1,0 +1,151 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-07T17:19:53+05:30",
+      "check": {
+        "duration": 31.06,
+        "words": 94,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong intriguing premise captures interest right away.",
+        "clarity": "Logical and easy-to-follow chronological sequence.",
+        "payoff": "The resolution wraps up quickly without maximizing dramatic tension.",
+        "visuals": "Several shots feel mismatched with launch-phase events.",
+        "loop": "Phrase repetition makes the transition back to start feel slightly clunky."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Orbital space view is off-topic for 36 seconds post-liftoff in clouds."
+        },
+        {
+          "beat": 9,
+          "problem": "Image shows astronaut walking on the Moon rather than inside the launch cockpit."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 10: Restoring power saved the crew from disaster after..."
+      ],
+      "better_than_last": "Maintains sharper focus on a singular high-stakes crisis than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:23:10+05:30",
+      "check": {
+        "duration": 30.32,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strongly subverts the expectation of lightning as an external accident.",
+        "clarity": "Logical progression from the physics to the failure to the fix.",
+        "payoff": "The technical solution provides a satisfying resolution to the tension.",
+        "visuals": "Accurate historical photos and diagrams maintain high technical relevance.",
+        "loop": "The final sentence concludes the story but lacks a seamless transition."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 10: This near-disaster happened because..."
+      ],
+      "better_than_last": "This entry maintains higher dramatic stakes than the orbital mechanics of ep367.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-07T17:27:08+05:30",
+      "check": {
+        "duration": 29.25,
+        "words": 92,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [
+          "'bean' heard as 'b' after 'to auxiliary alan'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Opening paradox is immediately engaging.",
+        "clarity": "Technical explanation is easy to follow.",
+        "payoff": "The historical resolution provides a solid surprise.",
+        "visuals": "Imagery is contextually accurate and clear.",
+        "loop": "Final line transitions perfectly into the start."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more concise technical resolution than the Apollo 13 short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

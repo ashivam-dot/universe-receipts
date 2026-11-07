@@ -1,0 +1,224 @@
+id: ep371
+title: NASA Awakes a 37-Year-Old Engine
+series: Mission Files
+format: v3
+description: In 2017, NASA successfully fired backup thrusters on Voyager 1 after 37 years of dormancy in interstellar space.
+sources:
+- https://en.wikipedia.org/wiki/Voyager_1
+- https://science.nasa.gov/missions/voyager-program/voyager-1-fires-up-thrusters-after-37-years/
+- https://earthsky.org/space/voyager-1-fires-thrusters-after-37-years/
+- https://spaceflightnow.com/2017/12/03/voyager-1-probe-fires-long-dormant-thrusters-in-interstellar-space/
+- https://www.sciencedaily.com/releases/2017/12/171202094942.htm
+- https://scitechdaily.com/nasas-voyager-1-fires-up-thrusters-after-37-years-extends-the-mission/
+hashtags:
+- '#space'
+- '#spacetouchfalse'
+- '#voyager1'
+tags:
+- voyager 1
+- nasa
+- interstellar space
+- jpl
+- rocket thrusters
+- deep space network
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA woke up an engine 13 billion miles away.
+  emphasis:
+  - engine
+  - 13 billion miles
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/29/Voyager_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager spacecraft.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.35
+    focus_y: 0.45
+    box:
+    - 0.12
+    - 0.15
+    - 0.82
+    - 0.85
+- text: Voyager 1's main steering jets were dying in interstellar cold.
+  emphasis:
+  - steering jets
+  - interstellar cold
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Voyager_diagram.jpg/960px-Voyager_diagram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager diagram.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_diagram.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Without them, the probe could no longer talk to Earth.
+  emphasis:
+  - talk to Earth
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/4f/Solar_Rays_Hit_Space_Age_High_%283967680978%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Solar Rays Hit Space Age High (3967680978).jpg
+      credit: NASA Goddard Photo and Video
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_Rays_Hit_Space_Age_High_(3967680978).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.5
+- text: Engineers found backup thrusters unused since a 1980 Saturn flyby.
+  emphasis:
+  - backup thrusters
+  - 1980 Saturn flyby
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Crescent_Saturn_as_seen_from_Voyager_1.jpg/960px-Crescent_Saturn_as_seen_from_Voyager_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Crescent Saturn as seen from Voyager 1.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Crescent_Saturn_as_seen_from_Voyager_1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: NOVEMBER 1980
+      small: SATURN FLYBY
+- text: They spent weeks analyzing code written in an outdated language.
+  emphasis:
+  - analyzing code
+  - outdated language
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Bill_Tindall_%28left%29_and_Gene_Kranz_in_Mission_Control_during_Apollo_11.png/960px-Bill_Tindall_%28left%29_and_Gene_Kranz_in_Mission_Control_during_Apollo_11.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Bill Tindall (left) and Gene Kranz in Mission Control during Apollo 11.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Bill_Tindall_(left)_and_Gene_Kranz_in_Mission_Control_during_Apollo_11.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.65
+    focus_y: 0.55
+    box:
+    - 0.38
+    - 0.05
+    - 0.98
+    - 0.95
+- text: NASA beamed brief test pulses into deep space and waited.
+  emphasis:
+  - test pulses
+  - waited
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Deep-space-op.jpg/1280px-Deep-space-op.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Deep-space-op.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Deep-space-op.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A return signal reached California after nineteen hours in transit.
+  emphasis:
+  - nineteen hours
+  - in transit
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Goldstone_DSN_antenna.jpg/1280px-Goldstone_DSN_antenna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Goldstone DSN antenna.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Goldstone_DSN_antenna.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.55
+    focus_y: 0.48
+    card:
+      kind: fact
+      big: 19 HOURS 35 MINS
+      small: SIGNAL TRAVEL TIME
+- text: The dormant thrusters fired perfectly, extending Voyager's lifespan.
+  emphasis:
+  - fired perfectly
+  - extending Voyager's lifespan
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%22C%22_%28Charlie%29_Stand%2C_Building_E-18_%284217%29_-_Jet_Propulsion_Laboratory_Edwards_Facility%2C_Edwards_Air_Force_Base%2C_Boron%2C_Kern_County%2C_CA_HAER_CAL%2C15-BORON.V%2C1-_%28sheet_3_of_4%29.tif/lossy-page1-3840px-thumbnail.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: '"C" (Charlie) Stand, Building E-18 (4217) - Jet Propulsion Laboratory Edwards Facility, Edwards Air Force Base,
+        Boron, Kern County, CA HAER CAL,15-BORON.V,1- (sheet 3 of 4).tif'
+      credit: 'Anderson, Richard K. Jr.
+
+        Related names:
+
+
+        Greynald Construction Company; Ruane Corporation; U.S. Department of the Air Force; United States Army Corps of Engineers;
+        Guggenheim Aeronautical Laboratory/C'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:%22C%22_(Charlie)_Stand,_Building_E-18_(4217)_-_Jet_Propulsion_Laboratory_Edwards_Facility,_Edwards_Air_Force_Base,_Boron,_Kern_County,_CA_HAER_CAL,15-BORON.V,1-_(sheet_3_of_4).tif
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That simple switch keeps our most distant explorer talking to home.
+  emphasis:
+  - most distant explorer
+  - talking to home
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.35
+    focus_y: 0.45
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: WAKING A 37-YEAR-OLD ENGINE
