@@ -44,7 +44,7 @@ unexplained, not alien.
 | 2026-10-17 | Phobos (moon) (1877): Mars is slowly dragging its largest moon to its doom, where tidal forces will eventually tear it into a planetary ring — dropped (ep264) | The Universe Is Terrifying | NASA announced its partnership and science instruments for JAXA's upcoming MMX mission to explore Mars' moons. |
 | 2026-10-18 | Pillars of Creation (1995): towering columns of cosmic gas so colossal that the tiny finger-like protrusions at their tips are larger than our entire solar system — done (ep188) | Scale Breaker | Featured as NASA's Astronomy Picture of the Day with a new cosmic sonification. |
 | 2026-10-22 | Jet Propulsion Laboratory (1936): founded by self-taught experimenters dubbed the 'Suicide Squad' after dangerous rocket explosions got them banned from campus — done (ep221) | Mission Files | NASA JPL is marking 90 years since its founders conducted their first rocket propulsion experiments in October 1936. |
-| 2026-10-22 | Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts' — making (ep390) | The Universe Is Terrifying | Featured in a recent NASA APOD highlighting the surrounding Ghost of Cassiopeia nebulae. |
+| 2026-10-22 | Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts' — done (ep390) | The Universe Is Terrifying | Featured in a recent NASA APOD highlighting the surrounding Ghost of Cassiopeia nebulae. |
 | 2026-10-23 | Green star (astronomy) (1837): why true green stars are physically impossible for human eyes to see — dropped (ep235) | Space Got Weird | NASA featured the first apparent green white dwarf on Astronomy Picture of the Day. |
 | 2026-10-23 | Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble — done (ep236) | Scale Breaker | NASA highlighted new Hubble gravitational lens observations paving the way for the mission. |
 | 2026-10-24 | Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions — done (ep247) | Mission Files | NASA announced the conclusion of Swift's landmark 20-year science mission due to atmospheric drag. |
@@ -130,7 +130,7 @@ unexplained, not alien.
 | Nov 3 | Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002 — done (ep253) | Mission Files |
 | Nov 9 | Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos — parked (ep283) | Space Myths, Busted |
 | Nov 14 | Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on — done (ep373) | Near Misses |
-| Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away | Space Got Weird |
+| Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away — making (ep391) | Space Got Weird |
 | Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors | Space Got Weird |
 | Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean | Mission Files |
 | Nov 26 | InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough | Mission Files |

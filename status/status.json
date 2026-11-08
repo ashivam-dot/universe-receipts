@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-08T23:06:13+05:30",
-  "day": 38,
+  "updated_at": "2026-11-09T05:11:26+05:30",
+  "day": 39,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6Y3MQ5W02Y34DJYJ3NVPMJR",
+    "id": "ta-01M6YR7WMG4WQC8SS9DR5WF3XR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-08T23:05:11+05:30",
-    "started_at_utc": "2026-11-08T17:35:11+00:00",
-    "seconds": 62
+    "started_at": "2026-11-09T05:05:21+05:30",
+    "started_at_utc": "2026-11-08T23:35:21+00:00",
+    "seconds": 365
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 3.4
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "102 posts",
-      "seconds": 1.0
+      "detail": "103 posts",
+      "seconds": 2.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep362 to 'The Universe Is Terrifying'",
-      "seconds": 3.2
+      "detail": "nothing new",
+      "seconds": 4.3
     },
     {
       "name": "languages",
@@ -45,83 +45,78 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 2.6
+      "detail": "ep362 at 6 h: level with the channel's earlier Shorts at this age: 572 views against a median of 632 (0.9x); ep367 at 24 h: level with the channel's earlier Shorts at this age: 660 views against a median of 807 (0.8x); learnings: Updated review diagnoses for ep263, ep265, ep266, ep268, ep345, ep346, ep347, ep355, ep359, and ep367 to track loop mechanics, hook paradoxes, and engagement conversion.",
+      "seconds": 316.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep376 rejected (low scores: hook, clarity, payoff, visuals, loop; 2 frame problems); ep379 ready; ep381 ready; ep382 rejected (low scores: hook, payoff, visuals); ep384 ready; ep385 rejected (low scores: visuals; 2 frame problems); ep387 ready; ep388 rejected (low scores: visuals); ep389 ready",
-      "seconds": 21.8
+      "detail": "ep390 ready",
+      "seconds": 7.9
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
+      "seconds": 0.8
     },
     {
       "name": "preflight ep349",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 0.7
     },
     {
       "name": "preflight ep351",
       "ok": true,
-      "detail": "video downloads whole (17 MB in 1 s)",
-      "seconds": 0.8
+      "detail": "video still hosted",
+      "seconds": 1.2
     },
     {
       "name": "preflight ep357",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.8
     },
     {
       "name": "preflight ep360",
       "ok": true,
-      "detail": "video downloads whole (14 MB in 1 s)",
-      "seconds": 1.0
+      "detail": "video still hosted",
+      "seconds": 1.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 5.4
+      "seconds": 1.7
     },
     {
-      "name": "schedule ep387",
+      "name": "start ep391",
       "ok": true,
-      "detail": "2026-11-12T21:30:00-05:00",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep390",
-      "ok": true,
-      "detail": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
-      "seconds": 0.6
+      "detail": "Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away",
+      "seconds": 3.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 5 waiting"
+    "Buffer is full (10 queued); 6 waiting",
+    "Buffer is full (10 queued); 6 waiting"
   ],
   "inventory": {
-    "total": 15,
+    "total": 16,
     "in_buffer": 10,
-    "waiting": 5,
+    "waiting": 6,
     "target": 14,
     "making": [],
     "remote": [
-      "ep390"
+      "ep391"
     ]
   },
   "queue": [
@@ -206,20 +201,20 @@
       "title": "The Invisible Tug on Sirius",
       "series": "Scale Breaker",
       "score": 20
+    },
+    {
+      "id": "ep390",
+      "title": "The Invisible Star Devouring Cassiopeia's Giant",
+      "series": "The Universe Is Terrifying",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep376",
-      "outcome": "rejected",
-      "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
-      "reason": "low scores: hook, clarity, payoff, visuals, loop; 2 frame problems"
-    },
-    {
-      "id": "ep379",
+      "id": "ep390",
       "outcome": "ready",
-      "topic": "Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun",
-      "title": "The Coldest Planet Isn't the Farthest Away",
+      "topic": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
+      "title": "The Invisible Star Devouring Cassiopeia's Giant",
       "scores": {
         "hook": 4,
         "clarity": 4,
@@ -227,139 +222,60 @@
         "visuals": 4,
         "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794138501/universereceipts/ep379-42a25b2b.mp4"
-    },
-    {
-      "id": "ep381",
-      "outcome": "ready",
-      "topic": "Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz",
-      "title": "The Hand-Woven Computer That Saved Apollo 11",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794138584/universereceipts/ep381-7f1d090e.mp4"
-    },
-    {
-      "id": "ep382",
-      "outcome": "rejected",
-      "topic": "Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot",
-      "reason": "low scores: hook, payoff, visuals"
-    },
-    {
-      "id": "ep384",
-      "outcome": "ready",
-      "topic": "Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky",
-      "title": "There Are More Planets Than Stars",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794139517/universereceipts/ep384-434e1ad9.mp4"
-    },
-    {
-      "id": "ep385",
-      "outcome": "rejected",
-      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
-      "reason": "low scores: visuals; 2 frame problems"
-    },
-    {
-      "id": "ep387",
-      "outcome": "ready",
-      "topic": "Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up",
-      "title": "Rosetta's 2 MPH Comet Landing",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794139019/universereceipts/ep387-2e498a4b.mp4"
-    },
-    {
-      "id": "ep388",
-      "outcome": "rejected",
-      "topic": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep389",
-      "outcome": "ready",
-      "topic": "Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton",
-      "title": "The Invisible Tug on Sirius",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794139542/universereceipts/ep389-96ddd94e.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794160723/universereceipts/ep390-838dba3c.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep390",
-      "topic": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
-      "call_id": "fc-01M6Y3PQJGG8B4VM7K0VNWCPAC"
+      "id": "ep391",
+      "topic": "Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away",
+      "call_id": "fc-01M6YRKE8XKZ829SD4XT3QZ296"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep390",
-      "topic": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
-      "spawned_at": "2026-11-08T23:06:09+05:30"
+      "id": "ep391",
+      "topic": "Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away",
+      "spawned_at": "2026-11-09T05:11:22+05:30"
     }
   ],
-  "published": [
-    {
-      "id": "ep387",
-      "title": "Rosetta's 2 MPH Comet Landing",
-      "due_at": "2026-11-12T21:30:00-05:00"
-    }
-  ],
+  "published": [],
   "live": 93,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 41,
+    "calls": 11,
     "by_model": {
-      "gemini-3.8-flash": 8,
-      "gemini-3.7-flash": 2,
-      "gemini-3.6-flash": 16,
-      "gemini-3.5-flash-lite": 6,
-      "gemini-3.5-flash": 2,
-      "gemini-3-flash-preview": 7
+      "gemini-3.8-flash": 2,
+      "gemini-3.6-flash": 3,
+      "gemini-3.5-flash-lite": 2,
+      "gemini-3-flash-preview": 4
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
-    "modal": 19,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-11-08",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 6.27,
+    "metered": 6.38,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 181,
+    "cloud": 180,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 21.73
+    "modal_credit_left": 21.63
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 30,
+  "open_topics": 29,
   "parked_topics": 66
 }
