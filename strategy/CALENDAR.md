@@ -48,7 +48,7 @@ unexplained, not alien.
 | 2026-10-23 | Green star (astronomy) (1837): why true green stars are physically impossible for human eyes to see — dropped (ep235) | Space Got Weird | NASA featured the first apparent green white dwarf on Astronomy Picture of the Day. |
 | 2026-10-23 | Nancy Grace Roman Space Telescope (2020): a space observatory with a field of view 100 times wider than Hubble — done (ep236) | Scale Breaker | NASA highlighted new Hubble gravitational lens observations paving the way for the mission. |
 | 2026-10-24 | Neil Gehrels Swift Observatory (2004): an autonomous space telescope that dropped everything to spin its entire multi-ton body within seconds to catch cosmic explosions — done (ep247) | Mission Files | NASA announced the conclusion of Swift's landmark 20-year science mission due to atmospheric drag. |
-| 2026-10-24 | Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up — parked (ep248) | Mission Files | Featured on NASA's Astronomy Picture of the Day with its historic selfie alongside comet 67P. |
+| 2026-10-24 | Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up — making (ep387) | Mission Files | Featured on NASA's Astronomy Picture of the Day with its historic selfie alongside comet 67P. |
 | 2026-10-25 | 2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days — done (ep249) | Space Got Weird | The Moon is currently trending with over 27,000 views following recent news about Earth's temporary 'mini-moon' events. |
 | 2026-10-25 | Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside — done (ep250) | Scale Breaker | Interest in the Moon is high on Wikipedia following NASA's recent updates on accelerating lander development for 2028. |
 | 2026-10-29 | CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour — done (ep254) | Scale Breaker | NASA's citizen science highlights this week brought renewed attention to the project that discovered this galaxy-escaping object. |
@@ -71,7 +71,7 @@ unexplained, not alien.
 | 2026-11-05 | SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night — done (ep362) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
 | 2026-11-05 | IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear — dropped (ep364) | Space Got Weird | Featured in NASA's Astronomy Picture of the Day on November 4. |
 | 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe — parked (ep363) | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
-| 2026-11-06 | Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
+| 2026-11-06 | Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge — making (ep388) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
 | 2026-11-06 | Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years — done (ep367) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
 | 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
 
@@ -98,7 +98,7 @@ unexplained, not alien.
 | Nov 13 | WT1190F (2015): an unknown piece of deep-space debris on a collision course with Earth burned up over the Indian Ocean and was identified as lost Apollo-era hardware — parked (ep368) | Space Got Weird |
 | Nov 14 | 90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once — parked (ep372) | Scale Breaker |
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot — making (ep382) | Mission Files |
-| Nov 15 | Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules — making (ep383) | Near Misses |
+| Nov 15 | Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules — parked (ep383) | Near Misses |
 | Nov 17 | Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay | Space Got Weird |
 | Nov 20 | Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title | Space Got Weird |
 | Nov 20 | Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space | Mission Files |
@@ -174,7 +174,7 @@ unexplained, not alien.
 - Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe — dropped (ep294)
 - Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — parked (ep257)
 - Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — parked (ep296)
-- Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks
+- Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks — making (ep385)
 
 ### Scale Breaker
 
@@ -220,7 +220,7 @@ unexplained, not alien.
 - Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness — parked (ep370)
 - Jupiter (1979): Jupiter's invisible magnetosphere is so vast that if visible from Earth, it would look twice as large as the full Moon — done (ep380)
 - Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky — making (ep384)
-- International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds
+- International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds — making (ep386)
 
 ### Mission Files
 

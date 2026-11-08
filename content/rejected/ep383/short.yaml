@@ -1,0 +1,218 @@
+id: ep383
+title: The Missile Strike That Trapped Cosmonauts
+series: Near Misses
+format: v3
+description: When an anti-satellite missile obliterated Kosmos 1408, it generated over 1,500 trackable fragments. The debris
+  cloud forced the ISS crew into emergency escape pods.
+sources:
+- https://en.wikipedia.org/wiki/Kosmos_1408
+- https://www.bbc.com/news/science-environment-59307862
+- https://www.theguardian.com/science/2021/nov/15/us-investigating-debris-event-space-reports-russia-anti-satellite-weapon-test
+- https://orbitalradar.com/events/kosmos-1408-2021
+- https://www.space.com/russia-asat-launch-test-space-debris-field
+- https://www.independent.co.uk/space/chinese-satellite-russian-explosion-debris-b1997077.html
+- https://www.nasa.gov/press-release/nasa-administrator-statement-on-russian-asat-test
+hashtags:
+- '#space'
+- '#iss'
+- '#nasa'
+tags:
+- Kosmos 1408
+- anti-satellite missile
+- space debris
+- International Space Station
+- NASA
+- Roscosmos
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Russia claimed their missile test threatened nobody in space.
+  emphasis:
+  - threatened nobody
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/99/Kosmos-2558_launch_on_Soyuz_2.1v_at_Plesetsk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Kosmos-2558 launch on Soyuz 2.1v at Plesetsk.jpg
+      credit: Russian Ministry of Defense
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Kosmos-2558_launch_on_Soyuz_2.1v_at_Plesetsk.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Destroying the Kosmos satellite made over 1,500 trackable fragments.
+  emphasis:
+  - 1,500 trackable
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Debris-GEO1280.jpg/960px-Debris-GEO1280.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Debris-GEO1280.jpg
+      credit: NASA image
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Debris-GEO1280.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.15
+    - 0.1
+    - 0.85
+    - 0.9
+    card:
+      kind: fact
+      big: 1,500+
+      small: trackable debris pieces
+- text: It generated hundreds of thousands of smaller, untrackable debris pieces.
+  emphasis:
+  - hundreds of thousands
+  visual:
+    reuse: 2
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That cloud crossed the Space Station's path roughly every 90 minutes.
+  emphasis:
+  - every 90 minutes
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/3840px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS-134 International Space Station after undocking.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.1
+    - 0.15
+    - 0.9
+    - 0.8
+    card:
+      kind: fact
+      big: 90 minutes
+      small: orbital intersection cycle
+- text: Seven crew members had to seal hatches and take emergency shelter.
+  emphasis:
+  - emergency shelter
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Expedition_66_crew_portrait.jpg/3840px-Expedition_66_crew_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Expedition 66 crew portrait.jpg
+      credit: NASA/JSC
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Expedition_66_crew_portrait.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They hid inside docked SpaceX Crew Dragon and Russian Soyuz spacecraft.
+  emphasis:
+  - docked SpaceX
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Iss069e085853.jpg/3840px-Iss069e085853.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Iss069e085853.jpg
+      credit: NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Iss069e085853.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That test directly endangered two of Russia's own cosmonauts.
+  emphasis:
+  - own cosmonauts
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Expedition_53_Qualification_Exams_%28NHQ201708300012%29_%28cropped%29.jpg/1920px-Expedition_53_Qualification_Exams_%28NHQ201708300012%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Expedition 53 Qualification Exams (NHQ201708300012) (cropped).jpg
+      credit: Bill Ingalls
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Expedition_53_Qualification_Exams_(NHQ201708300012)_(cropped).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.3
+    - 0.1
+    - 0.7
+    - 0.45
+- text: NASA called it unthinkable that Russia would risk its own crew.
+  emphasis:
+  - unthinkable
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/NASA_Administrator_Bill_Nelson_Official_Portrait_%28NHQ202105170001%29.jpg/1920px-NASA_Administrator_Bill_Nelson_Official_Portrait_%28NHQ202105170001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA Administrator Bill Nelson Official Portrait (NHQ202105170001).jpg
+      credit: Bill Ingalls
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA_Administrator_Bill_Nelson_Official_Portrait_(NHQ202105170001).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.25
+    - 0.05
+    - 0.75
+    - 0.6
+    card:
+      kind: quote
+      big: unthinkable
+      small: Bill Nelson, NASA
+- text: Yet officials still claimed the blast threatened nobody in space.
+  emphasis:
+  - threatened nobody
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 1,500 SHARDS OF SHRAPNEL

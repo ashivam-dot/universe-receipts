@@ -1,0 +1,167 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-08T05:15:46+05:30",
+      "check": {
+        "duration": 31.03,
+        "words": 91,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [
+          "'test' heard as 'tests' after 'claimed their missile'",
+          "'kosmos' heard as 'cosmo' after 'space destroying the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial tension between official claim and caption.",
+        "clarity": "Logical sequence of events is very easy to follow.",
+        "payoff": "Effective ironic twist showing self-inflicted danger to cosmonauts.",
+        "visuals": "Beat 6 shows a SpaceX Crew Dragon labeled as a Soyuz capsule.",
+        "loop": "Seamlessly transitions from the closing thought back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The frame mislabels a SpaceX Crew Dragon capsule as a Russian Soyuz spacecraft."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides stronger human narrative tension than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-08T05:17:20+05:30",
+      "check": {
+        "duration": 34.99,
+        "words": 91,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'kosmos' heard as 'cosmo' after 'space destroying the'",
+          "'they' heard as 'the' after 'take emergency shelter'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial hook contrasting official claims against the shrapnel callout.",
+        "clarity": "Logical sequence following the missile impact and its orbital consequences.",
+        "payoff": "Effective ironic twist highlighting the danger posed to Russia's own crew.",
+        "visuals": "Relevant graphics overall, though docking shots feel slightly uninspired.",
+        "loop": "Seamless transition from the closing remark back into the opening claim."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Subject is cropped out in the second shot, showing mostly black space."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a sharper narrative focus and ironic punch than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-08T05:18:39+05:30",
+      "check": {
+        "duration": 34.99,
+        "words": 91,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'kosmos' heard as 'cosmo' after 'space destroying the'",
+          "'they' heard as 'the' after 'take emergency shelter'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Political conflict provides a strong immediate hook.",
+        "clarity": "Logical progression from event to consequence is clear.",
+        "payoff": "The irony of harming their own cosmonauts hits well.",
+        "visuals": "Images are relevant but some mentioned subjects are missing.",
+        "loop": "The return to the original claim is perfectly timed."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Frame only shows the SpaceX Dragon; the Soyuz is not visible."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Kosmos",
+          "respelling": "koz mose"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This script utilizes a more compelling narrative arc of irony compared to the straightforward facts in ep380.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-08T05:18:39+05:30"
+}

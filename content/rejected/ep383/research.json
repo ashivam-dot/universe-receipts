@@ -1,0 +1,298 @@
+{
+  "viable": true,
+  "reason": "The sources thoroughly corroborate a dramatic 2021 incident with over a dozen cross-verified facts across multiple independent news and government outlets.",
+  "story": "On November 15, 2021, Russia launched a direct-ascent anti-satellite missile from the Plesetsk Cosmodrome, targeting Kosmos 1408, a defunct Soviet electronic signals satellite launched back in 1982. The strike obliterated the spacecraft, instantly creating more than 1,500 pieces of trackable orbital shrapnel and hundreds of thousands of smaller fragments hurtling at high speeds. The resulting debris cloud intersected the orbit of the International Space Station every 90 minutes. NASA and flight controllers ordered the seven Expedition 66 crew members to seal interior hatches and seek emergency shelter inside their docked SpaceX Crew Dragon and Russian Soyuz spacecraft, ready to evacuate Earth if debris punctured the hull. In a shocking twist, Russia's missile test directly endangered two of its own cosmonauts aboard the station, drawing fierce condemnation from NASA and international space agencies.",
+  "angle": "Russia blew up a satellite with a missile, creating a deadly debris storm that forced two of its own cosmonauts to shelter in escape pods aboard the ISS.",
+  "claims": [
+    {
+      "claim": "Kosmos 1408 was a Soviet signals intelligence surveillance satellite originally launched in 1982.",
+      "sources": [
+        "S1",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Kosmos 1408 was part of the Soviet Tselina radio signals surveillance satellite program.",
+      "sources": [
+        "S1",
+        "S4",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "On November 15, 2021, Russia destroyed Kosmos 1408 in an anti-satellite missile test.",
+      "sources": [
+        "S1",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The missile was fired from the Plesetsk Cosmodrome north of Moscow.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The weapon used was a direct-ascent Nudol anti-satellite missile.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The impact generated more than 1,500 pieces of trackable orbital debris.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The collision generated hundreds of thousands of smaller, untrackable debris fragments.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Debris from the breakup initially spread across altitudes between roughly 440 km and 520 km above Earth.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The debris cloud passed near or intersected the International Space Station's orbital path roughly every 90 minutes.",
+      "sources": [
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The seven crew members aboard the ISS were instructed to seal module hatches and take emergency shelter.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The ISS crew sheltered inside their docked SpaceX Crew Dragon and Russian Soyuz spacecraft.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The endangered crew on the ISS included two Russian cosmonauts, Anton Shkaplerov and Pyotr Dubrov.",
+      "sources": [
+        "S1",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The ISS crew took shelter inside the spacecraft for two consecutive passes of the debris field.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA Administrator Bill Nelson condemned the test, calling it unthinkable that Russia would endanger its own cosmonauts.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Officials noted the debris also threatened China's space station and the astronauts aboard it.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Russian military and government officials publicly claimed the fragments posed no threat to orbital stations or space activities.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Russia had previously conducted three anti-satellite missile tests in 2020.",
+      "sources": [
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In January 2022, a fragment from the Kosmos 1408 test passed within 14.5 meters of China's Tsinghua Science Satellite.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Kosmos 1408 spacecraft mass: Wikipedia lists it around 1,750 kg, while Orbital Radar lists it at ~2,200 kg. A script should avoid quoting an exact mass or state 'weighing around two tons'.",
+    "Orbital pass frequency: Wikipedia states debris intersected the orbit every 93 minutes, whereas NASA, Space.com, and The Guardian cite every 90 minutes. A script should say 'roughly every 90 minutes'."
+  ],
+  "visuals": [
+    {
+      "subject": "International Space Station in orbit",
+      "queries": [
+        "International Space Station seen from Crew Dragon",
+        "ISS flyaround Expedition 66",
+        "International Space Station cupola view"
+      ]
+    },
+    {
+      "subject": "Expedition 66 ISS crew portrait",
+      "queries": [
+        "Expedition 66 crew portrait",
+        "NASA Expedition 66 official photo",
+        "Expedition 66 inflight crew"
+      ]
+    },
+    {
+      "subject": "SpaceX Crew Dragon docked to ISS",
+      "queries": [
+        "Crew Dragon Endurance docked ISS",
+        "Crew-3 Crew Dragon attached to Harmony",
+        "SpaceX Crew Dragon docking ISS exterior"
+      ]
+    },
+    {
+      "subject": "Soyuz MS-19 spacecraft docked to ISS",
+      "queries": [
+        "Soyuz MS-19 docked to Rassvet",
+        "Soyuz MS-19 spacecraft ISS",
+        "Soyuz capsule attached to ISS"
+      ]
+    },
+    {
+      "subject": "Plesetsk Cosmodrome launch site",
+      "queries": [
+        "Plesetsk Cosmodrome launch pad",
+        "Plesetsk Cosmodrome aerial",
+        "Plesetsk space launch facility"
+      ]
+    },
+    {
+      "subject": "Tsyklon-3 rocket launch",
+      "queries": [
+        "Tsyklon-3 rocket launch",
+        "Cyclone-3 rocket Plesetsk",
+        "Tsyklon launch vehicle pad"
+      ]
+    },
+    {
+      "subject": "NASA Administrator Bill Nelson speaking",
+      "queries": [
+        "NASA Administrator Bill Nelson official portrait",
+        "Bill Nelson NASA headquarters press briefing",
+        "Senator Bill Nelson NASA press conference"
+      ]
+    },
+    {
+      "subject": "Space debris visualization and orbit tracking",
+      "queries": [
+        "Space debris low Earth orbit computer model",
+        "Orbital debris cloud diagram NASA",
+        "Space junk illustration low Earth orbit"
+      ]
+    },
+    {
+      "subject": "Astronauts inside ISS module wearing spacesuits",
+      "queries": [
+        "Astronauts inside ISS preparing emergency evacuation",
+        "Expedition 66 astronauts inside ISS module",
+        "Astronauts inside Crew Dragon cabin"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Kosmos_1408",
+      "title": "Kosmos 1408",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.nasa.gov/press-release/nasa-administrator-statement-on-russian-asat-test",
+      "title": "NASA Administrator Statement on Russian ASAT Test - NASA",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.space.com/russia-asat-launch-test-space-debris-field",
+      "title": "Did Russia just launch an anti-satellite test that created a cloud of space junk?",
+      "site": "space.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.bbc.com/news/science-environment-59307862",
+      "title": "Russian anti-satellite test adds to worsening problem of space debris",
+      "site": "bbc.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.theguardian.com/science/2021/nov/15/us-investigating-debris-event-space-reports-russia-anti-satellite-weapon-test",
+      "title": "US accuses Russia of ‘dangerous’ behavior after anti-satellite weapons test",
+      "site": "theguardian.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://www.independent.co.uk/space/chinese-satellite-russian-explosion-debris-b1997077.html",
+      "title": "Chinese satellite narrowly avoids collision with debris from Russian explosion",
+      "site": "independent.co.uk"
+    },
+    {
+      "label": "S7",
+      "url": "https://orbitalradar.com/events/kosmos-1408-2021",
+      "title": "Kosmos 1408 ASAT Test (2021) — Russia's Destructive Anti-Satellite Test | Orbital Radar",
+      "site": "orbitalradar.com"
+    }
+  ],
+  "topic": "Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules",
+  "series": "Near Misses"
+}

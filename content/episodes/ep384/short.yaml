@@ -1,0 +1,232 @@
+id: ep384
+title: There Are More Planets Than Stars
+series: Scale Breaker
+format: v3
+description: Our home galaxy is crowded with more than just suns. New data reveals that planets actually outnumber stars in
+  the night sky.
+sources:
+- https://en.wikipedia.org/wiki/Milky_Way
+- http://www.space.com/19915-milky-way-galaxy.html
+hashtags:
+- '#space'
+- '#milkyway'
+- '#exoplanets'
+tags:
+- galaxy
+- astronomy
+- nasa
+- hubble
+- planets
+- stars
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: There are more planets than stars in the night sky.
+  emphasis:
+  - more planets
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/15/The_Milky_Way_and_Sagittarius_Constellation_%28opo9930e%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: The Milky Way and Sagittarius Constellation (opo9930e).jpg
+      credit: Terrence Dickinson
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Milky_Way_and_Sagittarius_Constellation_(opo9930e).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.4
+- text: We once thought our galaxy was a collection of lonely suns.
+  emphasis:
+  - lonely suns
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://live.staticflickr.com/7350/27747557010_05b3b4482b_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: Light Echo Illuminates Dust Around Supergiant Star V838 Monocerotis (V838 Mon)
+      credit: NASA Hubble
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/144614754@N02/27747557010
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.3
+    - 0.2
+    - 0.7
+    - 0.8
+- text: Edwin Hubble proved we're one galaxy among billions in the 1920s.
+  emphasis:
+  - one galaxy
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Hubble_at_Hale_Telescope_%2819950424_cd3_08-CC%29.jpg/1280px-Hubble_at_Hale_Telescope_%2819950424_cd3_08-CC%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble at Hale Telescope (19950424 cd3 08-CC).jpg
+      credit: International Gemini Observatory/NOIRLab/NSF/AURA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Hubble_at_Hale_Telescope_(19950424_cd3_08-CC).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.7
+    focus_y: 0.35
+    box:
+    - 0.62
+    - 0.25
+    - 0.8
+    - 0.45
+    card:
+      kind: dateline
+      big: The 1920s
+      small: Mount Wilson Observatory
+- text: This barred spiral home holds up to 400 billion stars.
+  emphasis:
+  - 400 billion
+  sfx: pop
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/A_top-down_view_of_the_Milky_Way_galaxy_%28SVS14930_-_Westerlund_1_illustration_Plan_Unlabeled%29.jpg/3840px-A_top-down_view_of_the_Milky_Way_galaxy_%28SVS14930_-_Westerlund_1_illustration_Plan_Unlabeled%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: A top-down view of the Milky Way galaxy (SVS14930 - Westerlund 1 illustration Plan Unlabeled).jpg
+      credit: NASA’s Goddard Space Flight Center/Conceptual Image Lab
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:A_top-down_view_of_the_Milky_Way_galaxy_(SVS14930_-_Westerlund_1_illustration_Plan_Unlabeled).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 400 Billion
+      small: Stars
+- text: It hides a black hole four million times heavier than the Sun.
+  emphasis:
+  - four million
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Sag_A%2A.jpg/3840px-Sag_A%2A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Sag A*.jpg
+      credit: EHT Collaboration
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Sag_A*.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 4 Million
+      small: Solar Masses
+- text: But scientists realize the stars aren't the main event.
+  emphasis:
+  - main event
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Exoplanet_29_Cygni_b_%28Artist%27s_Concept%29_%28weic2607a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Exoplanet 29 Cygni b (Artist's Concept) (weic2607a).jpg
+      credit: NASA, ESA, CSA, J. Olmsted (STScI)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Exoplanet_29_Cygni_b_(Artist%27s_Concept)_(weic2607a).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.35
+    focus_y: 0.5
+    box:
+    - 0.02
+    - 0.05
+    - 0.65
+    - 0.95
+- text: The Milky Way actually contains at least 100 billion planets.
+  emphasis:
+  - 100 billion
+  sfx: pop
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/41/PIA23690-Exoplanet-Kepler1649c-20200415.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA23690-Exoplanet-Kepler1649c-20200415.jpg
+      credit: NASA/Ames Research Center/Daniel Rutter
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA23690-Exoplanet-Kepler1649c-20200415.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.3
+    focus_y: 0.5
+    box:
+    - 0.05
+    - 0.15
+    - 0.55
+    - 0.85
+    card:
+      kind: fact
+      big: 100 Billion
+      small: Planets
+- text: That's an average of one world for every single star.
+  emphasis:
+  - one world
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/46/Rocky_exoplanet_TRAPPIST-1_b_%28illustration%29_%28weic2309a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Rocky exoplanet TRAPPIST-1 b (illustration) (weic2309a).jpg
+      credit: NASA, ESA, CSA, J. Olmsted (STScI), T. P. Greene (NASA Ames), T. Bell (BAERI), E. Ducrot (CEA), P. Lagage (CEA)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Rocky_exoplanet_TRAPPIST-1_b_(illustration)_(weic2309a).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.75
+    focus_y: 0.6
+    box:
+    - 0.55
+    - 0.25
+    - 0.95
+    - 0.85
+- text: It means there are more planets than stars in the night sky.
+  emphasis:
+  - more planets
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.4
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 100 BILLION WORLDS
