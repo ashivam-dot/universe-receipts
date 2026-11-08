@@ -16,7 +16,7 @@
   "hook_style": "statement",
   "structure": "myth_vs_fact",
   "title": "There Are More Planets Than Stars",
-  "description": "Our home galaxy is crowded with more than just suns. New data reveals that planets actually outnumber stars in the night sky.",
+  "description": "Our home galaxy is crowded with more than just suns. Data reveals that planets actually outnumber stars in the night sky.",
   "hashtags": [
     "#space",
     "#milkyway",
@@ -25,8 +25,8 @@
   "tags": [
     "galaxy",
     "astronomy",
-    "nasa",
-    "hubble",
+    "milky way",
+    "exoplanets",
     "planets",
     "stars"
   ],
@@ -57,23 +57,25 @@
       }
     },
     {
-      "text": "We once thought our galaxy was a collection of lonely suns.",
+      "text": "We once believed our home galaxy held the entire universe.",
       "emphasis": [
-        "lonely suns"
+        "entire universe"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
-        12
+        12,
+        13
       ],
-      "visual": "Artist's concept of stars floating in the void",
+      "visual": "Historical night sky observation illustration, 1920",
       "subjects": [
-        "Milky Way"
+        "Milky Way",
+        "The Great Debate (astronomy)"
       ],
-      "year": 0,
+      "year": 1920,
       "queries": [
-        "starry sky night artistic",
-        "milky way galaxy background"
+        "Great Debate Shapley Curtis",
+        "Milky Way galaxy night sky"
       ],
       "card": {
         "kind": "none",
@@ -91,7 +93,7 @@
       "claims": [
         13
       ],
-      "visual": "Photograph of Edwin Hubble at the 100-inch Hooker Telescope",
+      "visual": "Photograph of Edwin Hubble at the 100-inch Hooker Telescope, 1924",
       "subjects": [
         "Edwin Hubble",
         "Hooker Telescope"
@@ -108,17 +110,17 @@
       }
     },
     {
-      "text": "This barred spiral home holds up to 400 billion stars.",
+      "text": "Our barred spiral home holds over 100 billion stars.",
       "emphasis": [
-        "400 billion"
+        "100 billion stars"
       ],
-      "sfx": "pop",
+      "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
         1,
         2
       ],
-      "visual": "Artist concept of the Milky Way barred spiral structure",
+      "visual": "Artist concept of the Milky Way barred spiral galaxy structure",
       "subjects": [
         "Milky Way"
       ],
@@ -129,55 +131,30 @@
       ],
       "card": {
         "kind": "fact",
-        "big": "400 Billion",
+        "big": "100 Billion",
         "small": "Stars"
       }
     },
     {
-      "text": "It hides a black hole four million times heavier than the Sun.",
+      "text": "But our galaxy isn't a quiet collection of lonely suns.",
       "emphasis": [
-        "four million"
-      ],
-      "sfx": "none",
-      "pause_after": 0.4,
-      "claims": [
-        4,
-        5
-      ],
-      "visual": "Event Horizon Telescope image of Sagittarius A star",
-      "subjects": [
-        "Sagittarius A*",
-        "Event Horizon Telescope"
-      ],
-      "year": 2022,
-      "queries": [
-        "Sagittarius A black hole Event Horizon Telescope photo",
-        "Sagittarius A star illustration"
-      ],
-      "card": {
-        "kind": "fact",
-        "big": "4 Million",
-        "small": "Solar Masses"
-      }
-    },
-    {
-      "text": "But scientists realize the stars aren't the main event.",
-      "emphasis": [
-        "main event"
+        "lonely suns"
       ],
       "sfx": "riser",
       "pause_after": 0.12,
       "claims": [
+        2,
         3
       ],
-      "visual": "Artist concept of a lonely exoplanet in space",
+      "visual": "Artist concept of stars in deep galactic space",
       "subjects": [
-        "Exoplanet"
+        "Milky Way",
+        "Star"
       ],
       "year": 0,
       "queries": [
-        "terrestrial exoplanet orbiting star illustration",
-        "exoplanet space dark"
+        "star field deep space artist concept",
+        "milky way stars cluster"
       ],
       "card": {
         "kind": "none",
@@ -186,22 +163,22 @@
       }
     },
     {
-      "text": "The Milky Way actually contains at least 100 billion planets.",
+      "text": "The Milky Way contains at least 100 billion planets.",
       "emphasis": [
-        "100 billion"
+        "100 billion planets"
       ],
       "sfx": "pop",
-      "pause_after": 0.12,
+      "pause_after": 0.4,
       "claims": [
         3
       ],
-      "visual": "Cluster of various artistic exoplanets in a dark void",
+      "visual": "Artist concept of exoplanets in the Milky Way galaxy",
       "subjects": [
         "Exoplanet"
       ],
       "year": 0,
       "queries": [
-        "exoplanet cluster illustration",
+        "terrestrial exoplanet orbiting star illustration",
         "habitable zone exoplanet artist concept"
       ],
       "card": {
@@ -211,16 +188,16 @@
       }
     },
     {
-      "text": "That's an average of one world for every single star.",
+      "text": "That means an average of at least one planet per star.",
       "emphasis": [
-        "one world"
+        "one planet per star"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         3
       ],
-      "visual": "Illustration of an exoplanet orbiting a bright sun",
+      "visual": "Illustration of an exoplanet orbiting a parent star",
       "subjects": [
         "Exoplanet"
       ],
@@ -230,22 +207,48 @@
         "star with planet system"
       ],
       "card": {
+        "kind": "fact",
+        "big": "1 Planet",
+        "small": "Per Star Average"
+      }
+    },
+    {
+      "text": "That average across every single sun adds up fast.",
+      "emphasis": [
+        "adds up fast"
+      ],
+      "sfx": "pop",
+      "pause_after": 0.4,
+      "claims": [
+        3
+      ],
+      "visual": "Crowded alien solar systems illustration in the Milky Way",
+      "subjects": [
+        "Exoplanet",
+        "Milky Way"
+      ],
+      "year": 0,
+      "queries": [
+        "exoplanet system artist concept",
+        "alien planetary system illustration"
+      ],
+      "card": {
         "kind": "none",
         "big": "",
         "small": ""
       }
     },
     {
-      "text": "It means there are more planets than stars in the night sky.",
+      "text": "Proving that when you look up at the Milky Way,",
       "emphasis": [
-        "more planets"
+        "Milky Way"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
         3
       ],
-      "visual": "Wide panoramic view of the Milky Way over a desert landscape",
+      "visual": "Milky Way band across the night sky, 2020",
       "subjects": [
         "Milky Way"
       ],
@@ -263,5 +266,5 @@
   ],
   "hook_text": "100 BILLION WORLDS",
   "loop": true,
-  "better_than_last": "Applied a seamless complete-sentence loop to Beat 9 to improve rewatch potential as seen in ep268."
+  "better_than_last": "Applied requested edits to beats 4, 5, 8, and 9 to form a seamless loop directly into the spoken hook."
 }

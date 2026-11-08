@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-08T17:14:33+05:30",
+  "updated_at": "2026-11-08T23:06:13+05:30",
   "day": 38,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6XF1JNZ43VZ7Z3EZ7PXNECR",
+    "id": "ta-01M6Y3MQ5W02Y34DJYJ3NVPMJR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-08T17:05:17+05:30",
-    "started_at_utc": "2026-11-08T11:35:17+00:00",
-    "seconds": 556
+    "started_at": "2026-11-08T23:05:11+05:30",
+    "started_at_utc": "2026-11-08T17:35:11+00:00",
+    "seconds": 62
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.6
+      "seconds": 1.1
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "102 posts",
-      "seconds": 1.4
+      "seconds": 1.0
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 3.4
+      "detail": "added ep362 to 'The Universe Is Terrifying'",
+      "seconds": 3.2
     },
     {
       "name": "languages",
@@ -40,192 +40,91 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep352 at 6 h: ahead of the channel's earlier Shorts at this age: 1235 views against a median of 605 (2.0x); ep356 at 6 h: ahead of the channel's earlier Shorts at this age: 1632 views against a median of 607 (2.7x)",
-      "seconds": 16.1
+      "detail": "no checkpoint due",
+      "seconds": 2.6
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep385 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep386 ready; ep387 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep388 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota ",
-      "seconds": 13.3
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "122 subscribers",
-      "seconds": 12.8
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Incorporated step 3 reviews for ep262-ep355, adding ep268 to loop rule evidence and tracking prompt-driven engagement hypotheses.",
-      "seconds": 377.1
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 2.2
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 7.9
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 42.0
-    },
-    {
-      "name": "weekly review",
-      "ok": true,
-      "detail": "week-06.md",
-      "seconds": 21.0
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-038.md",
-      "seconds": 2.7
+      "detail": "ep376 rejected (low scores: hook, clarity, payoff, visuals, loop; 2 frame problems); ep379 ready; ep381 ready; ep382 rejected (low scores: hook, payoff, visuals); ep384 ready; ep385 rejected (low scores: visuals; 2 frame problems); ep387 ready; ep388 rejected (low scores: visuals); ep389 ready",
+      "seconds": 21.8
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.3
+      "seconds": 0.1
     },
     {
       "name": "preflight ep349",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.3
+    },
+    {
+      "name": "preflight ep351",
+      "ok": true,
+      "detail": "video downloads whole (17 MB in 1 s)",
+      "seconds": 0.8
     },
     {
       "name": "preflight ep357",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.2
     },
     {
-      "name": "preflight ep362",
+      "name": "preflight ep360",
       "ok": true,
-      "detail": "video still hosted",
+      "detail": "video downloads whole (14 MB in 1 s)",
+      "seconds": 1.0
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 5.4
+    },
+    {
+      "name": "schedule ep387",
+      "ok": true,
+      "detail": "2026-11-12T21:30:00-05:00",
+      "seconds": 0.9
+    },
+    {
+      "name": "start ep390",
+      "ok": true,
+      "detail": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
       "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.5
-    },
-    {
-      "name": "start ep376",
-      "ok": true,
-      "detail": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep379",
-      "ok": true,
-      "detail": "Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep381",
-      "ok": true,
-      "detail": "Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep382",
-      "ok": true,
-      "detail": "Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep384",
-      "ok": true,
-      "detail": "Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep385",
-      "ok": true,
-      "detail": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep387",
-      "ok": true,
-      "detail": "Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep388",
-      "ok": true,
-      "detail": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep389",
-      "ok": true,
-      "detail": "Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton",
-      "seconds": 1.2
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 2.9
+      "seconds": 1.4
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep385 stopped on Gemini's free quota; it resumes in a later run",
-    "ep387 stopped on Gemini's free quota; it resumes in a later run",
-    "ep388 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 1 waiting",
-    "Buffer is full (10 queued); 1 waiting"
+    "Buffer is full (10 queued); 5 waiting"
   ],
   "inventory": {
-    "total": 11,
+    "total": 15,
     "in_buffer": 10,
-    "waiting": 1,
+    "waiting": 5,
     "target": 14,
     "making": [],
     "remote": [
-      "ep376",
-      "ep379",
-      "ep381",
-      "ep382",
-      "ep384",
-      "ep385",
-      "ep387",
-      "ep388",
-      "ep389"
+      "ep390"
     ]
   },
   "queue": [
-    {
-      "id": "ep362",
-      "title": "The Starquake That Hit Earth",
-      "due_at": "2026-11-08T12:30:00-05:00"
-    },
     {
       "id": "ep349",
       "title": "This Galaxy Makes 100 Milky Ways Look Tiny",
@@ -270,186 +169,197 @@
       "id": "ep380",
       "title": "Jupiter's Invisible Magnetic Monster",
       "due_at": "2026-11-12T19:00:00-05:00"
+    },
+    {
+      "id": "ep387",
+      "title": "Rosetta's 2 MPH Comet Landing",
+      "due_at": "2026-11-12T21:30:00-05:00"
     }
   ],
   "waiting": [
+    {
+      "id": "ep379",
+      "title": "The Coldest Planet Isn't the Farthest Away",
+      "series": "Space Got Weird",
+      "score": 20
+    },
+    {
+      "id": "ep381",
+      "title": "The Hand-Woven Computer That Saved Apollo 11",
+      "series": "Space Myths, Busted",
+      "score": 20
+    },
+    {
+      "id": "ep384",
+      "title": "There Are More Planets Than Stars",
+      "series": "Scale Breaker",
+      "score": 20
+    },
     {
       "id": "ep386",
       "title": "The Space Station Is Wider Than a Football Field",
       "series": "Scale Breaker",
       "score": 24
+    },
+    {
+      "id": "ep389",
+      "title": "The Invisible Tug on Sirius",
+      "series": "Scale Breaker",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep385",
-      "outcome": "unfinished",
-      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep376",
+      "outcome": "rejected",
+      "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
+      "reason": "low scores: hook, clarity, payoff, visuals, loop; 2 frame problems"
     },
     {
-      "id": "ep386",
+      "id": "ep379",
       "outcome": "ready",
-      "topic": "International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds",
-      "title": "The Space Station Is Wider Than a Football Field",
+      "topic": "Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun",
+      "title": "The Coldest Planet Isn't the Farthest Away",
       "scores": {
         "hook": 4,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794116716/universereceipts/ep386-b3edd796.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794138501/universereceipts/ep379-42a25b2b.mp4"
+    },
+    {
+      "id": "ep381",
+      "outcome": "ready",
+      "topic": "Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz",
+      "title": "The Hand-Woven Computer That Saved Apollo 11",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794138584/universereceipts/ep381-7f1d090e.mp4"
+    },
+    {
+      "id": "ep382",
+      "outcome": "rejected",
+      "topic": "Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot",
+      "reason": "low scores: hook, payoff, visuals"
+    },
+    {
+      "id": "ep384",
+      "outcome": "ready",
+      "topic": "Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky",
+      "title": "There Are More Planets Than Stars",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794139517/universereceipts/ep384-434e1ad9.mp4"
+    },
+    {
+      "id": "ep385",
+      "outcome": "rejected",
+      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
+      "reason": "low scores: visuals; 2 frame problems"
     },
     {
       "id": "ep387",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "Rosetta's 2 MPH Comet Landing",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794139019/universereceipts/ep387-2e498a4b.mp4"
     },
     {
       "id": "ep388",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep389",
+      "outcome": "ready",
+      "topic": "Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton",
+      "title": "The Invisible Tug on Sirius",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794139542/universereceipts/ep389-96ddd94e.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep376",
-      "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
-      "call_id": "fc-01M6XFJDAFP0G9Q7A12FTFHKN6"
-    },
-    {
-      "id": "ep379",
-      "topic": "Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun",
-      "call_id": "fc-01M6XFJEGGT2MER24SR808EYS2"
-    },
-    {
-      "id": "ep381",
-      "topic": "Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz",
-      "call_id": "fc-01M6XFJFPJX7FKXRC7Z8GJKMRZ"
-    },
-    {
-      "id": "ep382",
-      "topic": "Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot",
-      "call_id": "fc-01M6XFJGTPW4N6B23QJE9XKM7P"
-    },
-    {
-      "id": "ep384",
-      "topic": "Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky",
-      "call_id": "fc-01M6XFJJ0XS80TC0MPCZWXXVMN"
-    },
-    {
-      "id": "ep385",
-      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
-      "call_id": "fc-01M6XFJK5THMCRR31KYAGACKB6"
-    },
-    {
-      "id": "ep387",
-      "topic": "Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up",
-      "call_id": "fc-01M6XFJMB509PDH88QGCYB9Y95"
-    },
-    {
-      "id": "ep388",
-      "topic": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
-      "call_id": "fc-01M6XFJNHKZRBESTM6PED8NPC0"
-    },
-    {
-      "id": "ep389",
-      "topic": "Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton",
-      "call_id": "fc-01M6XFJPQ7HZK3GFR94H5AQ8TY"
+      "id": "ep390",
+      "topic": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
+      "call_id": "fc-01M6Y3PQJGG8B4VM7K0VNWCPAC"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep376",
-      "topic": "Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light",
-      "spawned_at": "2026-11-08T17:14:16+05:30"
-    },
-    {
-      "id": "ep379",
-      "topic": "Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun",
-      "spawned_at": "2026-11-08T17:14:17+05:30"
-    },
-    {
-      "id": "ep381",
-      "topic": "Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz",
-      "spawned_at": "2026-11-08T17:14:19+05:30"
-    },
-    {
-      "id": "ep382",
-      "topic": "Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot",
-      "spawned_at": "2026-11-08T17:14:20+05:30"
-    },
-    {
-      "id": "ep384",
-      "topic": "Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky",
-      "spawned_at": "2026-11-08T17:14:21+05:30"
-    },
-    {
-      "id": "ep385",
-      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
-      "spawned_at": "2026-11-08T17:14:22+05:30"
-    },
-    {
-      "id": "ep387",
-      "topic": "Rosetta (spacecraft) (2004): a probe that drifted through deep space in frozen radio silence for 31 months before an internal alarm clock woke it up",
-      "spawned_at": "2026-11-08T17:14:23+05:30"
-    },
-    {
-      "id": "ep388",
-      "topic": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
-      "spawned_at": "2026-11-08T17:14:25+05:30"
-    },
-    {
-      "id": "ep389",
-      "topic": "Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton",
-      "spawned_at": "2026-11-08T17:14:26+05:30"
+      "id": "ep390",
+      "topic": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
+      "spawned_at": "2026-11-08T23:06:09+05:30"
     }
   ],
-  "published": [],
-  "live": 92,
+  "published": [
+    {
+      "id": "ep387",
+      "title": "Rosetta's 2 MPH Comet Landing",
+      "due_at": "2026-11-12T21:30:00-05:00"
+    }
+  ],
+  "live": 93,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 30,
+    "calls": 41,
     "by_model": {
-      "gemini-3.6-flash": 6,
-      "gemini-3.5-flash-lite": 10,
-      "gemini-3.8-flash": 3,
-      "gemini-3-flash-preview": 8,
+      "gemini-3.8-flash": 8,
+      "gemini-3.7-flash": 2,
+      "gemini-3.6-flash": 16,
+      "gemini-3.5-flash-lite": 6,
       "gemini-3.5-flash": 2,
-      "gemini-3.7-flash": 1
+      "gemini-3-flash-preview": 7
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 7,
+    "modal": 19,
     "runner": 0
   },
   "daily_done": "2026-11-08",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 5.77,
+    "metered": 6.27,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 185,
+    "cloud": 181,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 22.23
+    "modal_credit_left": 21.73
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 30,
-  "parked_topics": 64
+  "parked_topics": 66
 }

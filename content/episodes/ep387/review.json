@@ -1,0 +1,160 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-08T17:21:53+05:30",
+      "check": {
+        "duration": 29.65,
+        "words": 91,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'€1000000000' heard as '1000000000 year old' after 'rosetta on a'",
+          "'bounced' heard as 'spounced' after 'lander philae which'",
+          "'(nothing)' heard as 'is' after 'touched the comet'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The contrast between a 10-year deep space chase and walking speed grabs immediate interest.",
+        "clarity": "Follows a clean, effortless timeline from launch through gravity assists to the final landing.",
+        "payoff": "Delivers a satisfying conclusion explaining how the 2 MPH touchdown ended the decade-long mission.",
+        "visuals": "Features incredible real photographs of Comet 67P, though beat 7 falls flat with a generic lecture hall.",
+        "loop": "The final sentence mirrors beat 1 almost word-for-word for an effortless loop."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows a generic conference presentation room instead of mission control or spacecraft engineers."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Features spectacular real footage and close-ups of Comet 67P's active nucleus and jets.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    },
+    {
+      "at": "2026-11-08T17:23:44+05:30",
+      "check": {
+        "duration": 26.63,
+        "words": 91,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -0.7,
+        "warnings": [
+          "true peak -0.7 dBFS is above -1"
+        ],
+        "speech_differences": [
+          "'(nothing)' heard as 'is' after 'touched the comet'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing core premise but somewhat understated opening visual.",
+        "clarity": "Clear chronological progression that is easy to follow.",
+        "payoff": "Ending resolves the premise smoothly but lacks an unexpected punch.",
+        "visuals": "Frame 7 shows an off-topic conference room speaker.",
+        "loop": "Seamless audio transition into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows a generic presentation speaker rather than mission control or engineers."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: 'Engineers commanded Rosetta to intentionally crash gently into the comet, ending its mission forever.'"
+      ],
+      "better_than_last": "Maintains a clearer timeline than ep380 while preserving strong story progression.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-08T17:26:59+05:30",
+      "check": {
+        "duration": 29.97,
+        "words": 91,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Good initial premise regarding walking speed in space.",
+        "clarity": "Simple chronological timeline is easy to understand.",
+        "payoff": "Intentional crash landing finishes the arc well.",
+        "visuals": "Beat 7 visually shows an unrelated conference speaker.",
+        "loop": "Ending line matches the opening sentence smoothly."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Off-topic photo of a person speaking at a podium."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Stronger narrative structure than ep380's technical overview.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "kept_round": 1
+}

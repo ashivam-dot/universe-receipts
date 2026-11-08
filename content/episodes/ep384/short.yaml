@@ -2,8 +2,8 @@ id: ep384
 title: There Are More Planets Than Stars
 series: Scale Breaker
 format: v3
-description: Our home galaxy is crowded with more than just suns. New data reveals that planets actually outnumber stars in
-  the night sky.
+description: Our home galaxy is crowded with more than just suns. Data reveals that planets actually outnumber stars in the
+  night sky.
 sources:
 - https://en.wikipedia.org/wiki/Milky_Way
 - http://www.space.com/19915-milky-way-galaxy.html
@@ -14,8 +14,8 @@ hashtags:
 tags:
 - galaxy
 - astronomy
-- nasa
-- hubble
+- milky way
+- exoplanets
 - planets
 - stars
 voice:
@@ -44,29 +44,24 @@ beats:
     motion: pan_right
     focus_x: 0.45
     focus_y: 0.4
-- text: We once thought our galaxy was a collection of lonely suns.
+- text: We once believed our home galaxy held the entire universe.
   emphasis:
-  - lonely suns
+  - entire universe
   sfx: whoosh
   visual:
     source: url
-    url: https://live.staticflickr.com/7350/27747557010_05b3b4482b_b.jpg
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/View_of_the_Milky_Way_from_the_Taganay_National_Park.jpg/1920px-View_of_the_Milky_Way_from_the_Taganay_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
-      source: Flickr via Openverse
-      title: Light Echo Illuminates Dust Around Supergiant Star V838 Monocerotis (V838 Mon)
-      credit: NASA Hubble
-      license: CC BY 2.0
-      url: https://www.flickr.com/photos/144614754@N02/27747557010
+      source: Wikimedia Commons
+      title: View of the Milky Way from the Taganay National Park.jpg
+      credit: Vasily Iakovlev
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:View_of_the_Milky_Way_from_the_Taganay_National_Park.jpg
     fallbacks:
     - color
-    motion: zoom_in
+    motion: pan_up
     focus_x: 0.5
-    focus_y: 0.5
-    box:
-    - 0.3
-    - 0.2
-    - 0.7
-    - 0.8
+    focus_y: 0.4
 - text: Edwin Hubble proved we're one galaxy among billions in the 1920s.
   emphasis:
   - one galaxy
@@ -83,21 +78,16 @@ beats:
     - card
     - color
     motion: pan_down
-    focus_x: 0.7
-    focus_y: 0.35
-    box:
-    - 0.62
-    - 0.25
-    - 0.8
-    - 0.45
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: dateline
       big: The 1920s
       small: Mount Wilson Observatory
-- text: This barred spiral home holds up to 400 billion stars.
+- text: Our barred spiral home holds over 100 billion stars.
   emphasis:
-  - 400 billion
-  sfx: pop
+  - 100 billion stars
+  sfx: whoosh
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/A_top-down_view_of_the_Milky_Way_galaxy_%28SVS14930_-_Westerlund_1_illustration_Plan_Unlabeled%29.jpg/3840px-A_top-down_view_of_the_Milky_Way_galaxy_%28SVS14930_-_Westerlund_1_illustration_Plan_Unlabeled%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -115,85 +105,53 @@ beats:
     focus_y: 0.5
     card:
       kind: fact
-      big: 400 Billion
+      big: 100 Billion
       small: Stars
-- text: It hides a black hole four million times heavier than the Sun.
+- text: But our galaxy isn't a quiet collection of lonely suns.
   emphasis:
-  - four million
+  - lonely suns
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg/3840px-Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Center of the Milky Way Galaxy IV – Composite.jpg
+      credit: NASA/JPL-Caltech/ESA/CXC/STScI
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The Milky Way contains at least 100 billion planets.
+  emphasis:
+  - 100 billion planets
+  sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Sag_A%2A.jpg/3840px-Sag_A%2A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/First_Potentially_Habitable_Earth-Sized_Planet_Confirmed_By_Gemini_And_Keck_Observatories_%28gemini1403c%29.tiff/lossy-page1-500px-First_Potentially_Habitable_Earth-Sized_Planet_Confirmed_By_Gemini_And_Keck_Observatories_%28gemini1403c%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Sag A*.jpg
-      credit: EHT Collaboration
+      title: First Potentially Habitable Earth-Sized Planet Confirmed By Gemini And Keck Observatories (gemini1403c).tiff
+      credit: Danielle Futselaar.
       license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Sag_A*.jpg
+      url: https://commons.wikimedia.org/wiki/File:First_Potentially_Habitable_Earth-Sized_Planet_Confirmed_By_Gemini_And_Keck_Observatories_(gemini1403c).tiff
     fallbacks:
     - card
     - color
-    motion: zoom_out
+    motion: pan_up
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
-      big: 4 Million
-      small: Solar Masses
-- text: But scientists realize the stars aren't the main event.
-  emphasis:
-  - main event
-  sfx: riser
-  visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Exoplanet_29_Cygni_b_%28Artist%27s_Concept%29_%28weic2607a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Exoplanet 29 Cygni b (Artist's Concept) (weic2607a).jpg
-      credit: NASA, ESA, CSA, J. Olmsted (STScI)
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Exoplanet_29_Cygni_b_(Artist%27s_Concept)_(weic2607a).jpg
-    fallbacks:
-    - color
-    motion: pan_left
-    focus_x: 0.35
-    focus_y: 0.5
-    box:
-    - 0.02
-    - 0.05
-    - 0.65
-    - 0.95
-- text: The Milky Way actually contains at least 100 billion planets.
-  emphasis:
-  - 100 billion
-  sfx: pop
-  visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/4/41/PIA23690-Exoplanet-Kepler1649c-20200415.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: PIA23690-Exoplanet-Kepler1649c-20200415.jpg
-      credit: NASA/Ames Research Center/Daniel Rutter
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PIA23690-Exoplanet-Kepler1649c-20200415.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
-    focus_x: 0.3
-    focus_y: 0.5
-    box:
-    - 0.05
-    - 0.15
-    - 0.55
-    - 0.85
-    card:
-      kind: fact
       big: 100 Billion
       small: Planets
-- text: That's an average of one world for every single star.
+- text: That means an average of at least one planet per star.
   emphasis:
-  - one world
+  - one planet per star
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/4/46/Rocky_exoplanet_TRAPPIST-1_b_%28illustration%29_%28weic2309a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -204,18 +162,42 @@ beats:
       license: CC BY 4.0
       url: https://commons.wikimedia.org/wiki/File:Rocky_exoplanet_TRAPPIST-1_b_(illustration)_(weic2309a).jpg
     fallbacks:
+    - card
     - color
-    motion: pan_left
-    focus_x: 0.75
+    motion: pan_right
+    focus_x: 0.68
     focus_y: 0.6
     box:
-    - 0.55
+    - 0.5
     - 0.25
-    - 0.95
-    - 0.85
-- text: It means there are more planets than stars in the night sky.
+    - 0.88
+    - 0.92
+    card:
+      kind: fact
+      big: 1 Planet
+      small: Per Star Average
+- text: That average across every single sun adds up fast.
   emphasis:
-  - more planets
+  - adds up fast
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://live.staticflickr.com/65535/48805110243_9dfbe164f5_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: Giant World Orbiting Red Dwarf Star Gliese 876 (Illustration)
+      credit: NASA Hubble
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/144614754@N02/48805110243
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Proving that when you look up at the Milky Way,
+  emphasis:
+  - Milky Way
   sfx: whoosh
   visual:
     reuse: 1

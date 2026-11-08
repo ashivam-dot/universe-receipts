@@ -1,0 +1,163 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-08T17:28:55+05:30",
+      "check": {
+        "duration": 31.97,
+        "words": 91,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'alvan' heard as 'alvin' after '1844 telescope maker'",
+          "'walter' heard as 'walther' after 'dwarf star astronomer'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Creates immediate curiosity about star motion.",
+        "clarity": "Logical historical progression is easy to follow.",
+        "payoff": "Density fact provides a moderate final reveal.",
+        "visuals": "Historic portraits feel slightly dry for Short format.",
+        "loop": "Ends seamlessly into the starting line."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Presents a clearer physical comparison than recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-08T17:34:25+05:30",
+      "check": {
+        "duration": 28.43,
+        "words": 77,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'alvan' heard as 'alvin' after 'this ghost star'",
+          "'cause' heard as 'the costs' after 'density is the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The immediate mention of the night sky's brightest star 'wobbling' is a high-retention hook.",
+        "clarity": "The narrative path from history to discovery to physical explanation is logical and easy to follow.",
+        "payoff": "The ton-per-cubic-inch fact provides a perfect mind-bending climax for the Short.",
+        "visuals": "The use of historical photos is great, but the specific crop in beat four is imprecise.",
+        "loop": "The sentence structure allows the end of the script to flow perfectly back into the start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The close-up in the second frame focuses on the central figure, while Alvan Clark is the man on the left in this specific historical photo."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Alvan",
+          "respelling": "al van"
+        },
+        {
+          "beat": 9,
+          "word": "cause",
+          "respelling": "kawz"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "The density comparison in beat eight provides a more visceral and mind-bending payoff than the football field analogy used in episode 386.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-08T17:35:42+05:30",
+      "check": {
+        "duration": 25.22,
+        "words": 77,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'alvan' heard as 'alfred' after 'this ghost star'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing mystery regarding a familiar celestial object.",
+        "clarity": "Linear progression from observation to physical explanation.",
+        "payoff": "Compelling density statistics provide a strong ending.",
+        "visuals": "Accurate historical portraits and scientific diagrams used.",
+        "loop": "Natural transition between the cause and initial hook."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Alvan",
+          "respelling": "al vun"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a more cohesive historical narrative than the recent solar system shorts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

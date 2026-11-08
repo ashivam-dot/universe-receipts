@@ -1,0 +1,153 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-08T17:25:11+05:30",
+      "check": {
+        "duration": 28.43,
+        "words": 95,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 2,
+        "payoff": 2,
+        "visuals": 4,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "A bold counterintuitive claim that immediately makes viewers stop and question what they see at night.",
+        "clarity": "The black hole in beat 5 is an off-topic distraction, and claiming 400 billion stars against 100 billion planets mathematically contradicts the core premise.",
+        "payoff": "The numbers presented actively undermine the claim that planets outnumber stars, leaving the central mystery unearned.",
+        "visuals": "Striking, high-quality astrophotography and CGI renders that illustrate the celestial bodies clearly.",
+        "loop": "Repeating the exact same full sentence back-to-back between beat 9 and beat 1 feels clumsy rather than seamless."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 4: Our barred spiral home holds over 100 billion stars.",
+        "Beat 5: But our galaxy isn't a quiet collection of lonely suns.",
+        "Beat 8: That average across every single sun adds up fast.",
+        "Beat 9: Proving that when you look up at the Milky Way,"
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-08T17:33:47+05:30",
+      "check": {
+        "duration": 28.22,
+        "words": 89,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'that' after 'fast proving that'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Claim effectively captures immediate interest.",
+        "clarity": "Logical flow from history to statistics.",
+        "payoff": "Scale-based reveal satisfies the hook.",
+        "visuals": "Relevant imagery supports the cosmic scale.",
+        "loop": "Bridges the end and start seamlessly."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Duplicate background image used for both beat segments."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Offers a more mind-bending statistical insight than the recent football field size comparison.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-08T17:35:16+05:30",
+      "check": {
+        "duration": 28.22,
+        "words": 89,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'that' after 'fast proving that'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Direct claim creates immediate intrigue.",
+        "clarity": "Simple progression from history to data.",
+        "payoff": "Succinctly validates the initial hook.",
+        "visuals": "Clear astronomical themes across all beats.",
+        "loop": "Ending resolves perfectly into the start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows a regular spiral instead of a barred spiral."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more engaging historical context than ep386.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

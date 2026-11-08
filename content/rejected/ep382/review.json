@@ -1,0 +1,168 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-08T17:21:47+05:30",
+      "check": {
+        "duration": 31.1,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing concept, though lacks dramatic punch in the first two seconds.",
+        "clarity": "Straightforward chronological explanation that is easy to follow.",
+        "payoff": "Automated landing details provide a reasonable resolution to the premise.",
+        "visuals": "Multiple frames show transport planes or train tracks rather than actual spaceflight or landing.",
+        "loop": "Final phrase flows seamlessly into the first sentence for replay capability."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows shuttle mounted on transport plane rather than in orbit."
+        },
+        {
+          "beat": 8,
+          "problem": "Shows a rocket on a train bed instead of crosswind landing."
+        },
+        {
+          "beat": 9,
+          "problem": "Shows shuttle piggybacking on an aircraft rather than landing autonomously."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: 'Without any crew onboard, a Soviet space shuttle flew into orbit.'"
+      ],
+      "better_than_last": "Focuses on historical engineering achievements rather than general planetary facts.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-08T17:24:43+05:30",
+      "check": {
+        "duration": 33.8,
+        "words": 89,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing premise about an uncrewed Soviet shuttle flight.",
+        "clarity": "Simple chronological structure that is easy to follow.",
+        "payoff": "Satisfying conclusion highlighting the automated landing.",
+        "visuals": "Relevant historical images, though beat 9 shows a carrier transport.",
+        "loop": "Seamlessly connects the final phrase back to the start."
+      },
+      "frames": [
+        {
+          "beat": 9,
+          "problem": "Shows Buran mounted on a carrier plane rather than landing on its own."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a clearer historical plot contrast than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-08T17:26:17+05:30",
+      "check": {
+        "duration": 33.8,
+        "words": 89,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging premise introduces uncrewed Soviet shuttle immediately.",
+        "clarity": "Chronological narrative structure is easy to follow.",
+        "payoff": "Autonomous landing details provide a modest climax.",
+        "visuals": "Beat 9 displays orbital imagery instead of runway landing.",
+        "loop": "Final sentence transitions smoothly back into opening beat."
+      },
+      "frames": [
+        {
+          "beat": 9,
+          "problem": "Shows shuttle in orbit instead of landing on a runway."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Without any human crew, a Soviet space shuttle launched itself into orbit.",
+        "Beat 9: Buran completed a fully automated touchdown on the runway below."
+      ],
+      "better_than_last": "Provides a tighter narrative focus on a single spacecraft event than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, visuals",
+  "rejected_at": "2026-11-08T17:26:17+05:30"
+}
