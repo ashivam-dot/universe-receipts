@@ -1,0 +1,210 @@
+id: ep386
+title: The Space Station Is Wider Than a Football Field
+series: Scale Breaker
+format: v3
+description: The International Space Station spans 356 feet across and weighs over 900,000 pounds, but its pressurized living
+  area equals just a single airliner.
+sources:
+- https://en.wikipedia.org/wiki/International_Space_Station
+- https://www.nasa.gov/international-space-station/space-station-facts-and-figures/
+- https://www.planetary.org/articles/how-nasa-plans-to-deorbit-the-international-space-station
+- https://en.wikipedia.org/wiki/Assembly_of_the_International_Space_Station
+- https://www.scientificamerican.com/article/russia-scales-back-ambitions-for-its-next-space-station/
+- https://www.space.com/11335-nasa-mars-exploration-space-station.html
+hashtags:
+- '#space'
+- '#iss'
+- '#nasa'
+tags:
+- space station
+- iss
+- nasa
+- astronomy
+- space shuttle
+- orbit
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The space station is wider than a football field.
+  emphasis:
+  - football field
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/STS-135_final_flyaround_of_ISS_1.jpg/3840px-STS-135_final_flyaround_of_ISS_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS-135 final flyaround of ISS 1.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-135_final_flyaround_of_ISS_1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.48
+    focus_y: 0.45
+    box:
+    - 0.22
+    - 0.2
+    - 0.77
+    - 0.72
+    card:
+      kind: fact
+      big: 356 FEET
+      small: End-to-end span
+- text: It weighs over 900,000 pounds across 356 feet of solar arrays.
+  emphasis:
+  - 900,000 pounds
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/75/S118E09821_-_STS-118_-_Exterior_view_of_the_ISS_taken_from_the_Space_Shuttle_Endeavour_during_STS-118_-_DPLA_-_7464e13e9e63ce181f97c9f5381eb70e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: S118E09821 - STS-118 - Exterior view of the ISS taken from the Space Shuttle Endeavour during STS-118 - DPLA
+        - 7464e13e9e63ce181f97c9f5381eb70e.jpg
+      credit: National Aeronautics and Space Administration. Lyndon B. Johnson Space Center. 2/17/1973
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:S118E09821_-_STS-118_-_Exterior_view_of_the_ISS_taken_from_the_Space_Shuttle_Endeavour_during_STS-118_-_DPLA_-_7464e13e9e63ce181f97c9f5381eb70e.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.48
+    focus_y: 0.52
+    card:
+      kind: fact
+      big: 900,000+ LBS
+      small: Total station weight
+- text: More than 40 delivery flights assembled this giant 250 miles above Earth.
+  emphasis:
+  - 40 delivery flights
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/STS_134_Endeavour_Docked_At_The_ISS.jpg/1920px-STS_134_Endeavour_Docked_At_The_ISS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS 134 Endeavour Docked At The ISS.jpg
+      credit: Ron Garan
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS_134_Endeavour_Docked_At_The_ISS.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.6
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 250 MILES
+      small: Orbital altitude
+- text: Yet inside, its entire pressurized living space equals just one Boeing 747.
+  emphasis:
+  - Boeing 747
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/ISS_STS-130_Terry_Virts_and_Jeffrey_Williams_in_the_Cupola.jpg/3840px-ISS_STS-130_Terry_Virts_and_Jeffrey_Williams_in_the_Cupola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ISS STS-130 Terry Virts and Jeffrey Williams in the Cupola.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ISS_STS-130_Terry_Virts_and_Jeffrey_Williams_in_the_Cupola.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: BOEING 747
+      small: Internal pressurized volume
+- text: Seven astronauts orbit the planet inside it at five miles per second.
+  emphasis:
+  - five miles
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Four_Expedition_74_flight_engineers_pose_for_a_fun_portrait_inside_their_crew_quarters_%28iss074e0812254%29.jpg/3840px-Four_Expedition_74_flight_engineers_pose_for_a_fun_portrait_inside_their_crew_quarters_%28iss074e0812254%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Four Expedition 74 flight engineers pose for a fun portrait inside their crew quarters (iss074e0812254).jpg
+      credit: NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Four_Expedition_74_flight_engineers_pose_for_a_fun_portrait_inside_their_crew_quarters_(iss074e0812254).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That speed carries them around the entire globe every 90 minutes.
+  emphasis:
+  - 90 minutes
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/ISS-65_Northwest_America_at_night%2C_city_lights.jpg/3840px-ISS-65_Northwest_America_at_night%2C_city_lights.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ISS-65 Northwest America at night, city lights.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ISS-65_Northwest_America_at_night,_city_lights.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.65
+    card:
+      kind: fact
+      big: 90 MINUTES
+      small: One complete Earth orbit
+- text: NASA plans to crash this 400-ton titan into the Pacific Ocean around 2030.
+  emphasis:
+  - Pacific Ocean
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/ISS057-E-21316_-_View_of_Earth.jpg/3840px-ISS057-E-21316_-_View_of_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ISS057-E-21316 - View of Earth.jpg
+      credit: Earth Science and Remote Sensing Unit, NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ISS057-E-21316_-_View_of_Earth.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '2030'
+      small: Targeted Pacific reentry
+- text: It is a dramatic end for an outpost wider than a football field.
+  emphasis:
+  - football field
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.48
+    focus_y: 0.45
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

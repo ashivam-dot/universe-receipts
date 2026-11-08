@@ -80,6 +80,7 @@ unexplained, not alien.
 | Date | Story | Series |
 |---|---|---|
 | Dec 3 | Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot | Mission Files |
+| Dec 3 | Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early | Mission Files |
 | Dec 4 | Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball | Mission Files |
 | Dec 4 | Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat | Mission Files |
 | Dec 14 | Apollo 17 (1972): Gene Cernan left his daughter's initials traced in the lunar dust before stepping off the Moon on humanity's last Apollo spacewalk | Mission Files |
@@ -220,7 +221,8 @@ unexplained, not alien.
 - Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness — parked (ep370)
 - Jupiter (1979): Jupiter's invisible magnetosphere is so vast that if visible from Earth, it would look twice as large as the full Moon — done (ep380)
 - Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky — making (ep384)
-- International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds — making (ep386)
+- International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds — done (ep386)
+- Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton — making (ep389)
 
 ### Mission Files
 

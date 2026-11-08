@@ -1,0 +1,202 @@
+id: ep387
+title: Rosetta's 2 MPH Comet Landing
+series: Mission Files
+format: v3
+description: Rosetta spent ten years chasing Comet 67P across billions of miles. In 2016, the spacecraft ended its historic
+  mission by gently descending onto the comet at two miles per hour.
+sources:
+- https://en.wikipedia.org/wiki/Rosetta_(spacecraft)
+- http://www.planetary.org/blogs/guest-blogs/2014/0806-fischer-rendezvous-with-a-crazy-world.html
+- https://www.space.com/34254-rosetta-crash-lands-on-comet-mission-ends.html
+- http://www.universetoday.com/113704/rosetta-arrives-at-scientific-disneyland-for-ambitious-study-of-comet-67pchuryumov-gerasimenko-after-10-year-voyage/
+- https://web.archive.org/web/20240714050932/https://www.newscientist.com/article/2107585-rosetta-lands-on-67p-in-grand-finale-to-two-year-comet-mission/
+- https://sci.esa.int/web/rosetta/-/34797-rosetta-status-report-no-1
+- https://news.bbc.co.uk/2/hi/science/nature/8355873.stm
+hashtags:
+- '#space'
+- '#rosetta'
+- '#esa'
+tags:
+- rosetta
+- comet 67p
+- esa
+- spacecraft
+- philae
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A space probe ended a ten-year chase at walking speed.
+  emphasis:
+  - walking speed
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Rosetta_-_comet_fly-by.jpg/1280px-Rosetta_-_comet_fly-by.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Rosetta - comet fly-by.jpg
+      credit: DLR, CC-BY 3.0
+      license: CC BY 3.0 de
+      url: https://commons.wikimedia.org/wiki/File:Rosetta_-_comet_fly-by.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 2 MPH
+      small: impact speed
+- text: The European Space Agency launched Rosetta on a billion-euro mission.
+  emphasis:
+  - billion-euro mission
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: MARCH 2004
+      small: ESA Rosetta Launch
+    motion: zoom_in
+- text: It whipped past Earth and Mars to build deep-space speed.
+  emphasis:
+  - Earth and Mars
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1280px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars - August 30 2021 - Flickr - Kevin M. Gill.png
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: After ten years, it reached a bizarre duck-shaped comet.
+  emphasis:
+  - duck-shaped comet
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/67P-C-G_-_March_28_2015_%2832370930490%29.jpg/1280px-67P-C-G_-_March_28_2015_%2832370930490%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 67P-C-G - March 28 2015 (32370930490).jpg
+      credit: ESA / MPS / OSIRIS Team / Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:67P-C-G_-_March_28_2015_(32370930490).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Rosetta became the first spacecraft to orbit a comet nucleus.
+  emphasis:
+  - first spacecraft
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Comet_67P-CHURYUMOV-GERASIMENKO_-_ESA_Rosetta_%2853875967301%29.png/1920px-Comet_67P-CHURYUMOV-GERASIMENKO_-_ESA_Rosetta_%2853875967301%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Comet 67P-CHURYUMOV-GERASIMENKO - ESA Rosetta (53875967301).png
+      credit: Andrea Luck
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Comet_67P-CHURYUMOV-GERASIMENKO_-_ESA_Rosetta_(53875967301).png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: HISTORIC FIRST
+      small: comet orbiter
+- text: It dropped the lander Philae, which bounced against a cliff.
+  emphasis:
+  - bounced against a cliff
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Philae_over_a_comet.jpg/1280px-Philae_over_a_comet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Philae over a comet.jpg
+      credit: DLR, CC-BY 3.0
+      license: CC BY 3.0 de
+      url: https://commons.wikimedia.org/wiki/File:Philae_over_a_comet.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: As solar power faded, engineers guided the probe down.
+  emphasis:
+  - guided the probe down
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/ESOC_hosts_CCSDS_%2822344681734%29.jpg/3840px-ESOC_hosts_CCSDS_%2822344681734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ESOC hosts CCSDS (22344681734).jpg
+      credit: ESA_events
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:ESOC_hosts_CCSDS_(22344681734).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Rosetta touched the comet surface at two miles per hour.
+  emphasis:
+  - two miles per hour
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://live.staticflickr.com/65535/48819324213_9590a3bfcc_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: Landing site in sight
+      credit: europeanspaceagency
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/37472264@N04/48819324213
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 2 MPH
+      small: touchdown speed
+- text: That is how a space probe ended a ten-year chase at walking speed.
+  emphasis:
+  - walking speed
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 10-YEAR CHASE, 2 MPH LANDING

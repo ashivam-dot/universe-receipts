@@ -1,0 +1,210 @@
+id: ep388
+title: Saturn's Electric Sponge Moon
+series: Space Got Weird
+format: v3
+description: Saturn's moon Hyperion is a bizarre, porous rubble pile that tumbles chaotically and zaps passing probes with
+  electrons.
+sources:
+- https://www.space.com/20770-hyperion-moon.html
+- https://supernovatribune.com/moons/saturn/hyperion/
+- https://en.wikipedia.org/wiki/Hyperion_(moon)
+- https://science.nasa.gov/saturn/moons/hyperion/
+- https://www.scienceabc.com/nature/universe/hyperion-moon-of-saturn-size-surface-rotation-nasa-facts
+hashtags:
+- '#space'
+- '#saturn'
+- '#cassini'
+tags:
+- hyperion
+- saturn moon
+- cassini
+- astronomy
+- space facts
+- static electricity
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A moon of Saturn zaps passing spacecraft with static electricity.
+  emphasis:
+  - zaps
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/ef/Hyperion_false_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Hyperion false color.jpg
+      credit: 'The original uploader was Tablizer at English Wikipedia.
+
+
+        Later versions were uploaded by Clh288 at en.wikipedia.'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hyperion_false_color.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Most moons are just solid spheres of ice.
+  emphasis:
+  - solid spheres
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Four_Saturnian_moons_PIA07644.png/960px-Four_Saturnian_moons_PIA07644.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Four Saturnian moons PIA07644.png
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Four_Saturnian_moons_PIA07644.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.7
+- text: Saturn's moon Hyperion is a sponge, half as dense as water.
+  emphasis:
+  - sponge
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hyperion_%28captured_by_Cassini%29.tif/lossy-page1-960px-Hyperion_%28captured_by_Cassini%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hyperion (captured by Cassini).tif
+      credit: NASA/JPL/Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hyperion_(captured_by_Cassini).tif
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Over 40 percent of its interior is totally empty space.
+  emphasis:
+  - 40 percent
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Hyperion_-_May_31_2015_%2837908801791%29.png/960px-Hyperion_-_May_31_2015_%2837908801791%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hyperion - May 31 2015 (37908801791).png
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Hyperion_-_May_31_2015_(37908801791).png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 40% EMPTY
+      small: porous interior space
+- text: When meteorites hit, they punch inward, crushing the icy foam.
+  emphasis:
+  - crushing
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/80/Hyperion_surface.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Hyperion surface.jpg
+      credit: NASA/JPL/Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hyperion_surface.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Gravitational tugs from Titan make Hyperion tumble through space uncontrollably.
+  emphasis:
+  - tumble
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Saturnmoonsdiagram.png/1920px-Saturnmoonsdiagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Saturnmoonsdiagram.png
+      credit: Exoplanetaryscience
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Saturnmoonsdiagram.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.7
+    focus_y: 0.2
+    box:
+    - 0.6
+    - 0.1
+    - 0.85
+    - 0.35
+- text: As it tumbles, Hyperion builds up a negative 200-volt charge.
+  emphasis:
+  - 200-volt charge
+  sfx: riser
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 200 VOLTS
+      small: static electric charge
+    motion: zoom_in
+- text: When NASA's Cassini probe flew past, Hyperion fired a beam of electrons.
+  emphasis:
+  - beam of electrons
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Cassini_Saturn_Orbit_Insertion.tif/lossy-page1-3840px-Cassini_Saturn_Orbit_Insertion.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Cassini Saturn Orbit Insertion.tif
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Cassini_Saturn_Orbit_Insertion.tif
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.45
+    focus_y: 0.45
+    box:
+    - 0.25
+    - 0.3
+    - 0.65
+    - 0.65
+    card:
+      kind: dateline
+      big: September 2005
+      small: Cassini Flyby
+- text: It proves a moon of Saturn zaps passing spacecraft with static electricity.
+  emphasis:
+  - zaps
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: SATURN'S ELECTRIC SPONGE
