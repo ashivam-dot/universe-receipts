@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-09T17:15:22+05:30",
+  "updated_at": "2026-11-09T23:16:40+05:30",
   "day": 39,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M701E7VN72KAC7VH4ZGD21AR",
+    "id": "ta-01M70P1EKGMSXGCFZRXSX2Y0CR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-09T17:05:13+05:30",
-    "started_at_utc": "2026-11-09T11:35:13+00:00",
-    "seconds": 609
+    "started_at": "2026-11-09T23:05:14+05:30",
+    "started_at_utc": "2026-11-09T17:35:14+00:00",
+    "seconds": 686
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 1.3
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "105 posts",
-      "seconds": 0.7
+      "seconds": 1.1
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.3
+      "seconds": 3.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -45,56 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep349 at 6 h: ahead of the channel's earlier Shorts at this age: 1144 views against a median of 607 (1.9x); ep357 at 6 h: ahead of the channel's earlier Shorts at this age: 1178 views against a median of 632 (1.9x)",
-      "seconds": 4.6
+      "detail": "ep362 at 24 h: ahead of the channel's earlier Shorts at this age: 1017 views against a median of 823 (1.2x); learnings: Logged diagnostics for ep268 through ep362, reinforcing rules against recap endings and passive hooks while testing interactive end prompts.",
+      "seconds": 637.8
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep392 rejected (low scores: visuals)",
-      "seconds": 6.0
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "127 subscribers",
-      "seconds": 9.7
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Analyzed performance diagnostics across 10 recent Shorts, confirming that active conflict and cosmic-scale hooks (ep356, ep346) outperform passive exposition (ep355, ep345) in early distribution.",
-      "seconds": 390.7
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "ep356 \"A Pixel in the Sunbeam\" is rising: 2,214 views 33 hours after going live, 2.0x the median of its peers at that age (1,093); queued Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billi",
-      "seconds": 16.1
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 20.8
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "3 added",
-      "seconds": 116.0
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-039.md",
-      "seconds": 2.5
+      "detail": "ep393 rejected (research: The provided sources do not support the topic's core premise that Andromeda's hot gas halo touches the Milky Way; only S1 mentions a gas halo (stating it extends only halfway), and no second source corroborates it.)",
+      "seconds": 6.2
     },
     {
       "name": "buffer channel",
@@ -106,31 +64,43 @@
       "name": "preflight ep351",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.5
     },
     {
       "name": "preflight ep360",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.4
+    },
+    {
+      "name": "preflight ep365",
+      "ok": true,
+      "detail": "video downloads whole (11 MB in 0 s)",
+      "seconds": 0.4
+    },
+    {
+      "name": "preflight ep369",
+      "ok": true,
+      "detail": "video downloads whole (14 MB in 0 s)",
+      "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.3
+      "seconds": 1.9
     },
     {
-      "name": "start ep393",
+      "name": "start ep394",
       "ok": true,
-      "detail": "Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way",
+      "detail": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
       "seconds": 0.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 2.1
     }
   ],
   "errors": [],
@@ -146,7 +116,7 @@
     "target": 14,
     "making": [],
     "remote": [
-      "ep393"
+      "ep394"
     ]
   },
   "queue": [
@@ -235,24 +205,24 @@
   ],
   "made": [
     {
-      "id": "ep392",
+      "id": "ep393",
       "outcome": "rejected",
-      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
-      "reason": "low scores: visuals"
+      "topic": "Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way",
+      "reason": "research: The provided sources do not support the topic's core premise that Andromeda's hot gas halo touches the Milky Way; only S1 mentions a gas halo (stating it extends only halfway), and no second source corroborates it."
     }
   ],
   "spawned": [
     {
-      "id": "ep393",
-      "topic": "Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way",
-      "call_id": "fc-01M7020YETA2KBKTPA7VCPR86H"
+      "id": "ep394",
+      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
+      "call_id": "fc-01M70PPGM9VB0V1SA4PNHRYQSC"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep393",
-      "topic": "Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way",
-      "spawned_at": "2026-11-09T17:15:16+05:30"
+      "id": "ep394",
+      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
+      "spawned_at": "2026-11-09T23:16:34+05:30"
     }
   ],
   "published": [],
@@ -260,24 +230,23 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 15,
+    "calls": 4,
     "by_model": {
-      "gemini-3.6-flash": 3,
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 3,
-      "gemini-3-flash-preview": 8
+      "gemini-3.7-flash": 2,
+      "gemini-3.5-flash-lite": 1,
+      "gemini-3.8-flash": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 3,
+    "modal": 0,
     "runner": 0
   },
   "daily_done": "2026-11-09",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 6.58,
+    "metered": 6.59,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -285,10 +254,10 @@
     "cloud": 178,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 21.42
+    "modal_credit_left": 21.41
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 31,
+  "open_topics": 30,
   "parked_topics": 67
 }

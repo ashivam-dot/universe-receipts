@@ -225,8 +225,8 @@ unexplained, not alien.
 - Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky — done (ep384)
 - International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds — done (ep386)
 - Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton — done (ep389)
-- Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way — making (ep393)
-- Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way
+- Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way — dropped (ep393)
+- Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way — making (ep394)
 
 ### Mission Files
 
