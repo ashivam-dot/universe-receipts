@@ -73,7 +73,7 @@ unexplained, not alien.
 | 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe — parked (ep363) | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
 | 2026-11-06 | Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge — parked (ep388) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
 | 2026-11-06 | Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years — done (ep367) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
-| 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
+| 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging — making (ep392) | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -130,7 +130,7 @@ unexplained, not alien.
 | Nov 3 | Laika (1957): the first animal to orbit Earth; the truth about how she died only came out in 2002 — done (ep253) | Mission Files |
 | Nov 9 | Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos — parked (ep283) | Space Myths, Busted |
 | Nov 14 | Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on — done (ep373) | Near Misses |
-| Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away — making (ep391) | Space Got Weird |
+| Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away — done (ep391) | Space Got Weird |
 | Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors | Space Got Weird |
 | Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean | Mission Files |
 | Nov 26 | InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough | Mission Files |

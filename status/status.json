@@ -1,135 +1,124 @@
 {
-  "updated_at": "2026-11-09T05:11:26+05:30",
+  "updated_at": "2026-11-09T11:12:12+05:30",
   "day": 39,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6YR7WMG4WQC8SS9DR5WF3XR",
+    "id": "ta-01M6ZCV343P30VEK207EQ7H0WR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-09T05:05:21+05:30",
-    "started_at_utc": "2026-11-08T23:35:21+00:00",
-    "seconds": 365
+    "started_at": "2026-11-09T11:05:15+05:30",
+    "started_at_utc": "2026-11-09T05:35:15+00:00",
+    "seconds": 417
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.4
+      "seconds": 1.6
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "103 posts",
-      "seconds": 2.7
+      "seconds": 2.8
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 4.3
+      "detail": "added ep349 to 'Scale Breaker'; added ep357 to 'Space Got Weird'",
+      "seconds": 3.9
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.4
+      "detail": "ep345 language en/None -> en; ep347 language en/None -> en; ep355 language en/None -> en",
+      "seconds": 1.5
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep362 at 6 h: level with the channel's earlier Shorts at this age: 572 views against a median of 632 (0.9x); ep367 at 24 h: level with the channel's earlier Shorts at this age: 660 views against a median of 807 (0.8x); learnings: Updated review diagnoses for ep263, ep265, ep266, ep268, ep345, ep346, ep347, ep355, ep359, and ep367 to track loop mechanics, hook paradoxes, and engagement conversion.",
-      "seconds": 316.1
+      "detail": "ep347 at 72 h: level with the channel's earlier Shorts at this age: 1020 views against a median of 1011 (1.0x); ep352 at 24 h: ahead of the channel's earlier Shorts at this age: 1372 views against a median of 791 (1.7x); ep356 at 24 h: ahead of the channel's earlier Shorts at this age: 2135 views against a median of 807 (2.6x); ep359 at 72 h: ahead of the channel's earlier Shorts at this age: 1682 views against a median of 1014 (1.7x); learnings: Promoted active paradox hooks to a rule after passive openings in ep345 and ep355 significantly underperformed the cohort median early_reach.",
+      "seconds": 358.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep390 ready",
-      "seconds": 7.9
+      "detail": "ep391 ready",
+      "seconds": 6.7
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.8
-    },
-    {
-      "name": "preflight ep349",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.7
+      "seconds": 0.2
     },
     {
       "name": "preflight ep351",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.2
-    },
-    {
-      "name": "preflight ep357",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.8
+      "seconds": 0.5
     },
     {
       "name": "preflight ep360",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.1
+      "seconds": 0.5
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 9.3
     },
     {
-      "name": "start ep391",
+      "name": "schedule ep391",
       "ok": true,
-      "detail": "Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away",
-      "seconds": 3.1
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
+      "detail": "2026-11-16T19:00:00-05:00",
       "seconds": 1.5
+    },
+    {
+      "name": "schedule ep386",
+      "ok": true,
+      "detail": "2026-11-13T19:00:00-05:00",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep392",
+      "ok": true,
+      "detail": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
+      "seconds": 1.2
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 2.0
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 6 waiting",
-    "Buffer is full (10 queued); 6 waiting"
+    "Buffer is full (10 queued); 5 waiting"
   ],
   "inventory": {
-    "total": 16,
+    "total": 15,
     "in_buffer": 10,
-    "waiting": 6,
+    "waiting": 5,
     "target": 14,
     "making": [],
     "remote": [
-      "ep391"
+      "ep392"
     ]
   },
   "queue": [
-    {
-      "id": "ep349",
-      "title": "This Galaxy Makes 100 Milky Ways Look Tiny",
-      "due_at": "2026-11-08T19:00:00-05:00"
-    },
-    {
-      "id": "ep357",
-      "title": "The Frozen Heart of Pluto",
-      "due_at": "2026-11-08T21:30:00-05:00"
-    },
     {
       "id": "ep351",
       "title": "The Blind Probe That Saved Itself",
@@ -169,6 +158,16 @@
       "id": "ep387",
       "title": "Rosetta's 2 MPH Comet Landing",
       "due_at": "2026-11-12T21:30:00-05:00"
+    },
+    {
+      "id": "ep386",
+      "title": "The Space Station Is Wider Than a Football Field",
+      "due_at": "2026-11-13T19:00:00-05:00"
+    },
+    {
+      "id": "ep391",
+      "title": "The Interstellar Message Aimed at Nothing",
+      "due_at": "2026-11-16T19:00:00-05:00"
     }
   ],
   "waiting": [
@@ -191,12 +190,6 @@
       "score": 20
     },
     {
-      "id": "ep386",
-      "title": "The Space Station Is Wider Than a Football Field",
-      "series": "Scale Breaker",
-      "score": 24
-    },
-    {
       "id": "ep389",
       "title": "The Invisible Tug on Sirius",
       "series": "Scale Breaker",
@@ -211,10 +204,10 @@
   ],
   "made": [
     {
-      "id": "ep390",
+      "id": "ep391",
       "outcome": "ready",
-      "topic": "Gamma Cassiopeiae (1866): a volatile star spinning so fast it flung out a gas disk and is now slowly vaporizing nearby interstellar 'ghosts'",
-      "title": "The Invisible Star Devouring Cassiopeia's Giant",
+      "topic": "Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away",
+      "title": "The Interstellar Message Aimed at Nothing",
       "scores": {
         "hook": 4,
         "clarity": 4,
@@ -222,36 +215,50 @@
         "visuals": 4,
         "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794160723/universereceipts/ep390-838dba3c.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794182068/universereceipts/ep391-6b88bf01.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep391",
-      "topic": "Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away",
-      "call_id": "fc-01M6YRKE8XKZ829SD4XT3QZ296"
+      "id": "ep392",
+      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
+      "call_id": "fc-01M6ZD7ZSB3ZQPER9GGXTMWCG9"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep391",
-      "topic": "Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away",
-      "spawned_at": "2026-11-09T05:11:22+05:30"
+      "id": "ep392",
+      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
+      "spawned_at": "2026-11-09T11:12:06+05:30"
     }
   ],
-  "published": [],
-  "live": 93,
+  "published": [
+    {
+      "id": "ep391",
+      "title": "The Interstellar Message Aimed at Nothing",
+      "due_at": "2026-11-16T19:00:00-05:00"
+    },
+    {
+      "id": "ep386",
+      "title": "The Space Station Is Wider Than a Football Field",
+      "due_at": "2026-11-13T19:00:00-05:00"
+    }
+  ],
+  "live": 95,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 11,
+    "calls": 12,
     "by_model": {
-      "gemini-3.8-flash": 2,
+      "gemini-3.8-flash": 3,
       "gemini-3.6-flash": 3,
-      "gemini-3.5-flash-lite": 2,
-      "gemini-3-flash-preview": 4
+      "gemini-3.5-flash": 4,
+      "gemini-3-flash-preview": 1,
+      "gemini-3.5-flash-lite": 1
     },
     "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
       "gemini-3.7-flash",
       "gemini-3.8-flash"
     ]
@@ -264,18 +271,18 @@
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 6.38,
+    "metered": 6.46,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 180,
+    "cloud": 179,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 21.63
+    "modal_credit_left": 21.54
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 29,
+  "open_topics": 28,
   "parked_topics": 66
 }

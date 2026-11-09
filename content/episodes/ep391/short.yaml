@@ -1,0 +1,209 @@
+id: ep391
+title: The Interstellar Message Aimed at Nothing
+series: Space Got Weird
+format: v3
+description: In 1974, humanity beamed the Arecibo message 25,000 light-years away into deep space. Here is why the stars will
+  not be there when it arrives.
+sources:
+- https://en.wikipedia.org/wiki/Arecibo_message
+- https://www.scientificamerican.com/article/the-arecibo-message-earths-first-interstellar-transmission-turns-50/
+- https://www.universetoday.com/articles/what-is-the-arecibo-message
+- https://www.nationalgeographic.com/science/article/arecibo-message-alien-extraterrestrial-communication
+- https://news.cornell.edu/stories/1999/11/25th-anniversary-first-attempt-phone-et-0
+- https://www.independent.co.uk/tech/arecibo-message-decoded-meaning-google-doodle-reply-audio-response-explained-a8636856.html
+hashtags:
+- '#space'
+- '#arecibo'
+- '#astronomy'
+tags:
+- arecibo message
+- frank drake
+- carl sagan
+- seti
+- messier 13
+- radio astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Astronomers beamed a cosmic greeting to an empty target.
+  emphasis:
+  - empty target
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/cd/Arecibo_Observatory_Aerial_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Arecibo Observatory Aerial View.jpg
+      credit: H. Schweiker/WIYN and NOAO/AURA/NSF
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Arecibo_Observatory_Aerial_View.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomer Frank Drake broadcast a three-minute transmission from Puerto Rico in 1974.
+  emphasis:
+  - Frank Drake
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/69/Dr._Frank_Drake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Dr. Frank Drake.jpg
+      credit: Raphael Perrino
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Dr._Frank_Drake.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.2
+    - 0.1
+    - 0.8
+    - 0.8
+    card:
+      kind: dateline
+      big: '1974'
+      small: Arecibo, Puerto Rico
+- text: Carl Sagan helped encode 1,679 radio pulses into a grid.
+  emphasis:
+  - Carl Sagan
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Planetary_society.jpg/1280px-Planetary_society.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Planetary society.jpg
+      credit: credit NASA JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Planetary_society.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.35
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 1,679 bits
+      small: 73 by 23 grid
+- text: Decoded, the pixels showed numbers, human DNA, and our Solar System.
+  emphasis:
+  - human DNA
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Solar_System_PIA00545.jpg/1920px-Solar_System_PIA00545.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Solar System PIA00545.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_System_PIA00545.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The signal targeted a massive cluster 25,000 light-years away.
+  emphasis:
+  - 25,000 light-years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Hubble_image_of_globular_cluster_M13_%28opo0840a%29.jpg/3840px-Hubble_image_of_globular_cluster_M13_%28opo0840a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble image of globular cluster M13 (opo0840a).jpg
+      credit: NASA, ESA, and the Hubble Heritage Team (STScI/AURA)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_image_of_globular_cluster_M13_(opo0840a).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 25,000
+      small: light-years to Messier 13
+- text: Any alien answer would take 50,000 years to return.
+  emphasis:
+  - 50,000 years
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 50,000 years
+      small: round-trip reply time
+    motion: zoom_in
+- text: But that star cluster orbits the center of our galaxy.
+  emphasis:
+  - orbits
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Milky_Way_Anatomy_%28SVS14935%29.jpg/3840px-Milky_Way_Anatomy_%28SVS14935%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Milky Way Anatomy (SVS14935).jpg
+      credit: NASA's Scientific Visualization Studio - eMITS/Scott Wiessinger, eMITS/Adriana Manrique Gutierrez, eMITS/Ashley
+        Balzer
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Milky_Way_Anatomy_(SVS14935).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: When the broadcast arrives, those stars will have moved away.
+  emphasis:
+  - moved away
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://live.staticflickr.com/7636/26577255860_370cfbdd8a_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: Messier 13, the great Globular Cluster in Hercules. DSLR Image
+      credit: kees scherer
+      license: CC0
+      url: https://www.flickr.com/photos/50769593@N00/26577255860
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.57
+    focus_y: 0.42
+    box:
+    - 0.42
+    - 0.18
+    - 0.72
+    - 0.68
+- text: We really did beam a greeting to an empty target.
+  emphasis:
+  - empty target
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 1,679 BITS INTO DEEP SPACE
