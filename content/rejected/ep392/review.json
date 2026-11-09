@@ -1,0 +1,172 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-09T11:18:14+05:30",
+      "check": {
+        "duration": 30.53,
+        "words": 89,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise about stellar rejuvenation captures interest quickly.",
+        "clarity": "Logical progression from cluster density to specific stellar interactions.",
+        "payoff": "The explanation of blue stragglers provides a satisfying scientific answer.",
+        "visuals": "Informative diagrams are used, though some frames are cluttered.",
+        "loop": "Perfectly seamless transition between the final and first sentences."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Starchart is dry and contains too much small text."
+        },
+        {
+          "beat": 7,
+          "problem": "Frame is cluttered with technical data labels and coordinates."
+        },
+        {
+          "beat": 8,
+          "problem": "HR diagram is too complex and text-heavy for mobile."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Messier",
+          "respelling": "mess ee ay"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: These are blue stragglers, stars that steal mass to cheat death."
+      ],
+      "better_than_last": "This script utilizes a more distinct astronomical classification compared to the recent broader descriptions.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-09T11:23:26+05:30",
+      "check": {
+        "duration": 30.43,
+        "words": 88,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Age reversal is a strong scroll-stopper.",
+        "clarity": "Clean progression from history to mechanism.",
+        "payoff": "Vampire analogy is a satisfying explanation.",
+        "visuals": "Technical diagrams are illegible on mobile.",
+        "loop": "Seamless loop through hook repetition."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Diagram text is too small for phone screens."
+        },
+        {
+          "beat": 8,
+          "problem": "Technical graph is illegible on mobile."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Uses more evocative metaphorical language than previous technical episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-09T11:25:01+05:30",
+      "check": {
+        "duration": 30.43,
+        "words": 88,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The age-reversal premise is an effective, high-interest hook.",
+        "clarity": "Concepts flow logically from cluster age to the vampire mechanism.",
+        "payoff": "The explanation of blue stragglers provides a satisfying scientific resolution.",
+        "visuals": "Beat 4 features a microlensing diagram unrelated to core collapse.",
+        "loop": "The identical start and end phrases create a perfect circular loop."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Frame depicts gravitational microlensing and planetary-mass objects instead of core collapse."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Successfully utilizes a historical figure to anchor the scientific narrative more effectively than episode 390.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-09T11:25:01+05:30"
+}

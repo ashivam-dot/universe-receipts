@@ -73,7 +73,8 @@ unexplained, not alien.
 | 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe — parked (ep363) | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
 | 2026-11-06 | Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge — parked (ep388) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
 | 2026-11-06 | Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years — done (ep367) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
-| 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging — making (ep392) | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
+| 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging — parked (ep392) | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
+| 2026-11-09 | Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space | Scale Breaker | Follow-up to ep356, which is rising (2,214 views in 33 h, 2.0x the median) |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -83,6 +84,7 @@ unexplained, not alien.
 | Dec 3 | Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early | Mission Files |
 | Dec 4 | Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball | Mission Files |
 | Dec 4 | Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat | Mission Files |
+| Dec 7 | Apollo 17 (1972): on Dec 7, NASA launched humanity's final Apollo moon mission, carrying Harrison Schmitt, the first and only professional geologist to walk on the Moon | Mission Files |
 | Dec 14 | Apollo 17 (1972): Gene Cernan left his daughter's initials traced in the lunar dust before stepping off the Moon on humanity's last Apollo spacewalk | Mission Files |
 | Dec 15 | Gemini 6A (1965): on Dec 15, NASA pulled off the first crewed spacecraft rendezvous, maneuvering within one foot of another capsule at 17,000 mph | Near Misses |
 | Dec 21 | Apollo 8 (1968): on this day, the first humans to ever leave Earth orbit entered lunar gravity and broadcast Christmas Eve from space | Mission Files |
@@ -223,6 +225,8 @@ unexplained, not alien.
 - Milky Way (2020): our home galaxy contains over 100 billion planets, meaning alien worlds outnumber stars in the night sky — done (ep384)
 - International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds — done (ep386)
 - Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton — done (ep389)
+- Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way — making (ep393)
+- Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way
 
 ### Mission Files
 

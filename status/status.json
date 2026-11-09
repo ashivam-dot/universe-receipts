@@ -1,58 +1,100 @@
 {
-  "updated_at": "2026-11-09T11:12:12+05:30",
+  "updated_at": "2026-11-09T17:15:22+05:30",
   "day": 39,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M6ZCV343P30VEK207EQ7H0WR",
+    "id": "ta-01M701E7VN72KAC7VH4ZGD21AR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-09T11:05:15+05:30",
-    "started_at_utc": "2026-11-09T05:35:15+00:00",
-    "seconds": 417
+    "started_at": "2026-11-09T17:05:13+05:30",
+    "started_at_utc": "2026-11-09T11:35:13+00:00",
+    "seconds": 609
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.6
+      "seconds": 1.1
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "103 posts",
-      "seconds": 2.8
+      "detail": "105 posts",
+      "seconds": 0.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep349 to 'Scale Breaker'; added ep357 to 'Space Got Weird'",
-      "seconds": 3.9
+      "detail": "nothing new",
+      "seconds": 3.3
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep345 language en/None -> en; ep347 language en/None -> en; ep355 language en/None -> en",
-      "seconds": 1.5
+      "detail": "every live Short is in English",
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep347 at 72 h: level with the channel's earlier Shorts at this age: 1020 views against a median of 1011 (1.0x); ep352 at 24 h: ahead of the channel's earlier Shorts at this age: 1372 views against a median of 791 (1.7x); ep356 at 24 h: ahead of the channel's earlier Shorts at this age: 2135 views against a median of 807 (2.6x); ep359 at 72 h: ahead of the channel's earlier Shorts at this age: 1682 views against a median of 1014 (1.7x); learnings: Promoted active paradox hooks to a rule after passive openings in ep345 and ep355 significantly underperformed the cohort median early_reach.",
-      "seconds": 358.0
+      "detail": "ep349 at 6 h: ahead of the channel's earlier Shorts at this age: 1144 views against a median of 607 (1.9x); ep357 at 6 h: ahead of the channel's earlier Shorts at this age: 1178 views against a median of 632 (1.9x)",
+      "seconds": 4.6
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep391 ready",
-      "seconds": 6.7
+      "detail": "ep392 rejected (low scores: visuals)",
+      "seconds": 6.0
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "127 subscribers",
+      "seconds": 9.7
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Analyzed performance diagnostics across 10 recent Shorts, confirming that active conflict and cosmic-scale hooks (ep356, ep346) outperform passive exposition (ep355, ep345) in early distribution.",
+      "seconds": 390.7
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "ep356 \"A Pixel in the Sunbeam\" is rising: 2,214 views 33 hours after going live, 2.0x the median of its peers at that age (1,093); queued Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billi",
+      "seconds": 16.1
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 20.8
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "3 added",
+      "seconds": 116.0
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-039.md",
+      "seconds": 2.5
     },
     {
       "name": "buffer channel",
@@ -64,37 +106,25 @@
       "name": "preflight ep351",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.2
     },
     {
       "name": "preflight ep360",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 9.3
+      "seconds": 2.3
     },
     {
-      "name": "schedule ep391",
+      "name": "start ep393",
       "ok": true,
-      "detail": "2026-11-16T19:00:00-05:00",
-      "seconds": 1.5
-    },
-    {
-      "name": "schedule ep386",
-      "ok": true,
-      "detail": "2026-11-13T19:00:00-05:00",
-      "seconds": 1.3
-    },
-    {
-      "name": "start ep392",
-      "ok": true,
-      "detail": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
-      "seconds": 1.2
+      "detail": "Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way",
+      "seconds": 0.7
     },
     {
       "name": "publish",
@@ -106,6 +136,7 @@
   "errors": [],
   "owner_action": [],
   "notes": [
+    "Buffer is full (10 queued); 5 waiting",
     "Buffer is full (10 queued); 5 waiting"
   ],
   "inventory": {
@@ -115,7 +146,7 @@
     "target": 14,
     "making": [],
     "remote": [
-      "ep392"
+      "ep393"
     ]
   },
   "queue": [
@@ -204,85 +235,60 @@
   ],
   "made": [
     {
-      "id": "ep391",
-      "outcome": "ready",
-      "topic": "Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away",
-      "title": "The Interstellar Message Aimed at Nothing",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794182068/universereceipts/ep391-6b88bf01.mp4"
+      "id": "ep392",
+      "outcome": "rejected",
+      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
+      "reason": "low scores: visuals"
     }
   ],
   "spawned": [
     {
-      "id": "ep392",
-      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
-      "call_id": "fc-01M6ZD7ZSB3ZQPER9GGXTMWCG9"
+      "id": "ep393",
+      "topic": "Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way",
+      "call_id": "fc-01M7020YETA2KBKTPA7VCPR86H"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep392",
-      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
-      "spawned_at": "2026-11-09T11:12:06+05:30"
+      "id": "ep393",
+      "topic": "Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way",
+      "spawned_at": "2026-11-09T17:15:16+05:30"
     }
   ],
-  "published": [
-    {
-      "id": "ep391",
-      "title": "The Interstellar Message Aimed at Nothing",
-      "due_at": "2026-11-16T19:00:00-05:00"
-    },
-    {
-      "id": "ep386",
-      "title": "The Space Station Is Wider Than a Football Field",
-      "due_at": "2026-11-13T19:00:00-05:00"
-    }
-  ],
+  "published": [],
   "live": 95,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 12,
+    "calls": 15,
     "by_model": {
-      "gemini-3.8-flash": 3,
       "gemini-3.6-flash": 3,
-      "gemini-3.5-flash": 4,
-      "gemini-3-flash-preview": 1,
-      "gemini-3.5-flash-lite": 1
+      "gemini-3.5-flash": 1,
+      "gemini-3.5-flash-lite": 3,
+      "gemini-3-flash-preview": 8
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
     "modal": 3,
     "runner": 0
   },
-  "daily_done": "2026-11-08",
+  "daily_done": "2026-11-09",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 6.46,
+    "metered": 6.58,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 179,
+    "cloud": 178,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 21.54
+    "modal_credit_left": 21.42
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 28,
-  "parked_topics": 66
+  "open_topics": 31,
+  "parked_topics": 67
 }
