@@ -1,0 +1,215 @@
+id: ep394
+title: The Milky Way is Hiding Huge Radiation Bubbles
+series: Scale Breaker
+format: v3
+description: NASA discovered two gargantuan bubbles of radiation hiding in the Milky Way. These Fermi bubbles span half the
+  galaxy's diameter and suggest a violent past.
+sources:
+- https://en.wikipedia.org/wiki/Galactic_Center
+- https://www.scientificamerican.com/article/fermi-bubbles/
+- https://fermi.gsfc.nasa.gov/science/constellations/pages/bubbles.html
+hashtags:
+- '#space'
+- '#nasa'
+- '#milkyway'
+tags:
+- Fermi bubbles
+- gamma rays
+- Sagittarius A*
+- NASA
+- galaxy
+- astronomy
+- Milky Way center
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+  say:
+    lobes: lohbz
+beats:
+- text: The Milky Way is breathing two massive bubbles of radiation.
+  emphasis:
+  - massive bubbles
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Fermi_discovers_giant_gamma-ray_bubbles_in_the_Milky_Way_%285161800961%29.jpg/960px-Fermi_discovers_giant_gamma-ray_bubbles_in_the_Milky_Way_%285161800961%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Fermi discovers giant gamma-ray bubbles in the Milky Way (5161800961).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Fermi_discovers_giant_gamma-ray_bubbles_in_the_Milky_Way_(5161800961).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: These invisible lobes tower 25,000 light-years above and below us.
+  emphasis:
+  - 25,000 light-years
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/ac/Fermi_all-sky_survey%2C_1-10_GeV%2C_revealing_Fermi_Bubbles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Fermi all-sky survey, 1-10 GeV, revealing Fermi Bubbles.jpg
+      credit: NASA/DOE/Fermi LAT/D. Finkbeiner, et al.
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Fermi_all-sky_survey,_1-10_GeV,_revealing_Fermi_Bubbles.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 25,000
+      small: light-years tall
+- text: They span half the diameter of our entire galaxy.
+  emphasis:
+  - half the diameter
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Artist%E2%80%99s_Impression_of_Milky_Way_Inflows_and_Outflows_%282019-46-4570%29.tif/lossy-page1-3840px-Artist%E2%80%99s_Impression_of_Milky_Way_Inflows_and_Outflows_%282019-46-4570%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s Impression of Milky Way Inflows and Outflows (2019-46-4570).tif
+      credit: NASA, ESA, and D. Player (STScI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_Impression_of_Milky_Way_Inflows_and_Outflows_(2019-46-4570).tif
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 50,000
+      small: light-year span
+- text: A thick fog of background radiation hid them for decades.
+  emphasis:
+  - thick fog
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Fermi_Sees_the_Gamma_Ray_Sky_%284059194656%29.jpg/3840px-Fermi_Sees_the_Gamma_Ray_Sky_%284059194656%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Fermi Sees the Gamma Ray Sky (4059194656).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Fermi_Sees_the_Gamma_Ray_Sky_(4059194656).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers finally spotted them using public NASA data in 2010.
+  emphasis:
+  - public NASA data
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/7d/Fermi%27s_14-Year_Time-Lapse_of_the_Gamma-Ray_Sky_%28SVS14399_-_Fermi_14Year_Cart_Still%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Fermi's 14-Year Time-Lapse of the Gamma-Ray Sky (SVS14399 - Fermi 14Year Cart Still).jpg
+      credit: NASA's Scientific Visualization Studio - Seth Digel, Francis Reddy, Judith Racusin, Scott Wiessinger
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Fermi%27s_14-Year_Time-Lapse_of_the_Gamma-Ray_Sky_(SVS14399_-_Fermi_14Year_Cart_Still).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.0
+    - 0.0
+    - 0.25
+    - 0.1
+    card:
+      kind: dateline
+      big: '2010'
+      small: NASA discovery
+- text: These gargantuan clouds are plasma glowing with high-energy light.
+  emphasis:
+  - gargantuan clouds
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/3d/Fermi%27s_15-year_View_of_the_Gamma-Ray_Sky_%28SVS14976_-_ait_ac_180m_gt1000_psf3_gal_0p1%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Fermi's 15-year View of the Gamma-Ray Sky (SVS14976 - ait ac 180m gt1000 psf3 gal 0p1).png
+      credit: NASA's Scientific Visualization Studio - NASA/DOE/Fermi LAT Collaboration
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Fermi%27s_15-year_View_of_the_Gamma-Ray_Sky_(SVS14976_-_ait_ac_180m_gt1000_psf3_gal_0p1).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Gamma Rays
+      small: high-energy light
+- text: We thought our home was a quiet, stable spiral.
+  emphasis:
+  - quiet, stable spiral
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/A_top-down_view_of_the_Milky_Way_galaxy_%28SVS14930_-_Westerlund_1_illustration_Plan_Unlabeled%29.jpg/3840px-A_top-down_view_of_the_Milky_Way_galaxy_%28SVS14930_-_Westerlund_1_illustration_Plan_Unlabeled%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: A top-down view of the Milky Way galaxy (SVS14930 - Westerlund 1 illustration Plan Unlabeled).jpg
+      credit: NASA’s Goddard Space Flight Center/Conceptual Image Lab
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:A_top-down_view_of_the_Milky_Way_galaxy_(SVS14930_-_Westerlund_1_illustration_Plan_Unlabeled).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But our galaxy is actually breathing fire into the void.
+  emphasis:
+  - breathing fire
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f1/Galactic_Center_Magnetized_Threads_labeled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Galactic Center Magnetized Threads labeled.jpg
+      credit: 'X-ray: NASA/CXC/UMass/Q.D. Wang; Radio: NRF/SARAO/MeerKAT'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Galactic_Center_Magnetized_Threads_labeled.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It's breathing two massive bubbles of radiation.
+  emphasis:
+  - massive bubbles
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 50,000 LIGHT-YEARS TALL

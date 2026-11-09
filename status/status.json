@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-09T23:16:40+05:30",
-  "day": 39,
+  "updated_at": "2026-11-10T05:06:01+05:30",
+  "day": 40,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M70P1EKGMSXGCFZRXSX2Y0CR",
+    "id": "ta-01M71AMM4QR9JS4PATJVMZ68SR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-09T23:05:14+05:30",
-    "started_at_utc": "2026-11-09T17:35:14+00:00",
-    "seconds": 686
+    "started_at": "2026-11-10T05:05:12+05:30",
+    "started_at_utc": "2026-11-09T23:35:12+00:00",
+    "seconds": 49
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "105 posts",
-      "seconds": 1.1
+      "seconds": 1.8
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.5
+      "seconds": 3.4
     },
     {
       "name": "languages",
@@ -45,14 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep362 at 24 h: ahead of the channel's earlier Shorts at this age: 1017 views against a median of 823 (1.2x); learnings: Logged diagnostics for ep268 through ep362, reinforcing rules against recap endings and passive hooks while testing interactive end prompts.",
-      "seconds": 637.8
+      "detail": "no checkpoint due",
+      "seconds": 3.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep393 rejected (research: The provided sources do not support the topic's core premise that Andromeda's hot gas halo touches the Milky Way; only S1 mentions a gas halo (stating it extends only halfway), and no second source corroborates it.)",
-      "seconds": 6.2
+      "detail": "ep394 rejected (low scores: payoff, visuals; 3 frame problems)",
+      "seconds": 6.8
     },
     {
       "name": "buffer channel",
@@ -64,25 +64,25 @@
       "name": "preflight ep351",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.5
+      "seconds": 0.3
     },
     {
       "name": "preflight ep360",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep365",
       "ok": true,
-      "detail": "video downloads whole (11 MB in 0 s)",
-      "seconds": 0.4
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "preflight ep369",
       "ok": true,
-      "detail": "video downloads whole (14 MB in 0 s)",
-      "seconds": 0.5
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "publish",
@@ -91,16 +91,16 @@
       "seconds": 1.9
     },
     {
-      "name": "start ep394",
+      "name": "start ep395",
       "ok": true,
-      "detail": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
+      "detail": "Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay",
       "seconds": 0.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
+      "seconds": 1.9
     }
   ],
   "errors": [],
@@ -116,7 +116,7 @@
     "target": 14,
     "making": [],
     "remote": [
-      "ep394"
+      "ep395"
     ]
   },
   "queue": [
@@ -205,24 +205,24 @@
   ],
   "made": [
     {
-      "id": "ep393",
+      "id": "ep394",
       "outcome": "rejected",
-      "topic": "Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way",
-      "reason": "research: The provided sources do not support the topic's core premise that Andromeda's hot gas halo touches the Milky Way; only S1 mentions a gas halo (stating it extends only halfway), and no second source corroborates it."
+      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
+      "reason": "low scores: payoff, visuals; 3 frame problems"
     }
   ],
   "spawned": [
     {
-      "id": "ep394",
-      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
-      "call_id": "fc-01M70PPGM9VB0V1SA4PNHRYQSC"
+      "id": "ep395",
+      "topic": "Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay",
+      "call_id": "fc-01M71AP7BYV029M2PCPAZG73SV"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep394",
-      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
-      "spawned_at": "2026-11-09T23:16:34+05:30"
+      "id": "ep395",
+      "topic": "Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay",
+      "spawned_at": "2026-11-10T05:05:56+05:30"
     }
   ],
   "published": [],
@@ -230,34 +230,33 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 4,
+    "calls": 12,
     "by_model": {
-      "gemini-3.7-flash": 2,
-      "gemini-3.5-flash-lite": 1,
-      "gemini-3.8-flash": 1
+      "gemini-3.5-flash-lite": 3,
+      "gemini-3-flash-preview": 9
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 0,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-11-09",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 6.59,
+    "metered": 6.7,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 178,
+    "cloud": 177,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 21.41
+    "modal_credit_left": 21.3
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 30,
-  "parked_topics": 67
+  "open_topics": 29,
+  "parked_topics": 68
 }

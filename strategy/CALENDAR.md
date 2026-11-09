@@ -102,7 +102,7 @@ unexplained, not alien.
 | Nov 14 | 90377 Sedna (2003): discovered on this day, this freezing dwarf planet has an orbit so distant it takes over 11,000 years to circle the Sun once — parked (ep372) | Scale Breaker |
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot — parked (ep382) | Mission Files |
 | Nov 15 | Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules — parked (ep383) | Near Misses |
-| Nov 17 | Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay | Space Got Weird |
+| Nov 17 | Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay — making (ep395) | Space Got Weird |
 | Nov 20 | Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title | Space Got Weird |
 | Nov 20 | Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space | Mission Files |
 | Nov 26 | Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind "sky crane" to land on the Martian surface | Mission Files |
@@ -226,7 +226,7 @@ unexplained, not alien.
 - International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds — done (ep386)
 - Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton — done (ep389)
 - Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way — dropped (ep393)
-- Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way — making (ep394)
+- Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way — parked (ep394)
 
 ### Mission Files
 
