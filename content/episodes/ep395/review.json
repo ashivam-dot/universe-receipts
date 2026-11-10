@@ -1,0 +1,104 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-10T05:25:08+05:30",
+      "check": {
+        "duration": 35.07,
+        "words": 89,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -3.4,
+        "warnings": [],
+        "speech_differences": [
+          "'lunokhod' heard as 'lunacod' after 'own survival record'",
+          "'lunokhod' heard as 'lunacod' after 'very 1st attempt'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Sets up an interesting record angle, but lacks immediate visual punch.",
+        "clarity": "Logical chronological progression that is easy to follow.",
+        "payoff": "Strong finish with the laser reflection working after decades.",
+        "visuals": "Relevant archival imagery, though somewhat static overall.",
+        "loop": "Final phrase does not flow naturally back into the opening sentence."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Lunokhod",
+          "respelling": "loo noh khod"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: The Moon's first rover was built to last three days, but it broke every record.",
+        "Beat 9: It outshined newer lunar reflectors, proving why..."
+      ],
+      "better_than_last": "Maintains a clearer single-subject story arc compared to recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-10T05:29:12+05:30",
+      "check": {
+        "duration": 27.47,
+        "words": 80,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'laser' heard as 'blazer' after 'fired a telescope'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Flickr via Openverse",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Sets up an intriguing contrast between intended lifespan and performance.",
+        "clarity": "Linear storytelling makes the historical timeline easy to follow.",
+        "payoff": "Strong reveal showing the retroreflector outperformed newer models.",
+        "visuals": "Relevant archive photos and text overlays maintain high clarity.",
+        "loop": "Concluding phrase transitions smoothly back into the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Maintains a clearer single-subject narrative focus than recent astronomy episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

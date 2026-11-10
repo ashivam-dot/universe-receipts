@@ -1,0 +1,187 @@
+id: ep395
+title: The Moon's First Rover That Never Gave Up
+series: Space Got Weird
+format: v3
+description: In 1970, the Soviet Union landed Lunokhod 1 on the Moon for a three-day mission. Decades later, an Earth laser
+  pinged the forgotten rover and it fired right back.
+sources:
+- https://en.wikipedia.org/wiki/Lunokhod_1
+- https://www.space.com/35090-lunokhod-1.html
+- https://web.archive.org/web/20100606145111/https://science.nasa.gov/science-news/science-at-nasa/2010/03jun_oldrover/
+- https://web.archive.org/web/20100430164946/http://ucsdnews.ucsd.edu/newsrel/science/04-26SovietReflector.asp
+- https://web.archive.org/web/20120318040855/http://planetary.org/blog/article/00002395
+hashtags:
+- '#space'
+- '#moon'
+- '#rover'
+tags:
+- Lunokhod 1
+- Moon rover
+- Soviet space program
+- lunar laser ranging
+- Apache Point Observatory
+- space history
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The Moon's first rover was built to last three days.
+  emphasis:
+  - three days
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/11/Lunokhod_1_moon_rover_%28MMA_2011%29_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Lunokhod 1 moon rover (MMA 2011) (1).JPG
+      credit: Armael
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Lunokhod_1_moon_rover_(MMA_2011)_(1).JPG
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.53
+    focus_y: 0.48
+- text: Instead, it survived eleven lunar days and drove six miles.
+  emphasis:
+  - eleven lunar days
+  - six miles
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 6 MILES
+      small: Total distance driven
+    motion: zoom_in
+- text: A radioactive polonium core kept it warm through freezing nights.
+  emphasis:
+  - radioactive polonium core
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://live.staticflickr.com/7506/15189844354_aae0c157a7_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: Lunokhod
+      credit: fdecomite
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/21649179@N00/15189844354
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.55
+    box:
+    - 0.08
+    - 0.2
+    - 0.95
+    - 0.95
+- text: Contact went dark in 1971, leaving it lost for decades.
+  emphasis:
+  - lost for decades
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: '1971'
+      small: Mare Imbrium, Moon
+    motion: zoom_in
+- text: An orbiter spotted the rover sitting in the dust in 2010.
+  emphasis:
+  - spotted the rover
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Sinus_Iridum%2C_Chang%27e_3_%26_Lunokhod_1_landing_sites.png/1280px-Sinus_Iridum%2C_Chang%27e_3_%26_Lunokhod_1_landing_sites.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Sinus Iridum, Chang'e 3 & Lunokhod 1 landing sites.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Sinus_Iridum,_Chang%27e_3_%26_Lunokhod_1_landing_sites.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.18
+    focus_y: 0.58
+    box:
+    - 0.01
+    - 0.52
+    - 0.35
+    - 0.65
+    card:
+      kind: dateline
+      big: '2010'
+      small: Lunar Reconnaissance Orbiter
+- text: Scientists fired a telescope laser at its French mirror.
+  emphasis:
+  - telescope laser
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Apache-0110.JPG/960px-Apache-0110.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apache-0110.JPG
+      credit: -r.c. (talk)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apache-0110.JPG
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.2
+    focus_y: 0.35
+    box:
+    - 0.08
+    - 0.18
+    - 0.29
+    - 0.75
+- text: On the first try, it bounced back 2,000 photons.
+  emphasis:
+  - 2,000 photons
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Lunokhod_2_in_Kaluga_01.jpg/3840px-Lunokhod_2_in_Kaluga_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Lunokhod 2 in Kaluga 01.jpg
+      credit: Stolbovsky
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Lunokhod_2_in_Kaluga_01.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.84
+    focus_y: 0.31
+    card:
+      kind: fact
+      big: 2,000 PHOTONS
+      small: Returned on first attempt
+- text: It outshined newer lunar reflectors, proving how it broke every record.
+  emphasis:
+  - outshined
+  - broke every record
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.53
+    focus_y: 0.48
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: BUILT FOR 3 DAYS

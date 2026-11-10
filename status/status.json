@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-10T05:06:01+05:30",
+  "updated_at": "2026-11-10T11:08:10+05:30",
   "day": 40,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M71AMM4QR9JS4PATJVMZ68SR",
+    "id": "ta-01M71Z7RJEVWYJ80RDWQVQ631R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-10T05:05:12+05:30",
-    "started_at_utc": "2026-11-09T23:35:12+00:00",
-    "seconds": 49
+    "started_at": "2026-11-10T11:05:10+05:30",
+    "started_at_utc": "2026-11-10T05:35:10+00:00",
+    "seconds": 180
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.2
     },
     {
       "name": "sync",
@@ -27,8 +27,8 @@
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 3.4
+      "detail": "added ep351 to 'Mission Files'; added ep360 to 'Mission Files'",
+      "seconds": 3.2
     },
     {
       "name": "languages",
@@ -45,91 +45,80 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 3.1
+      "detail": "ep345 at 72 h: behind the channel's earlier Shorts at this age: 705 views against a median of 1016 (0.7x); ep349 at 24 h: ahead of the channel's earlier Shorts at this age: 1199 views against a median of 826 (1.5x); ep355 at 72 h: behind the channel's earlier Shorts at this age: 432 views against a median of 1014 (0.4x); ep357 at 24 h: ahead of the channel's earlier Shorts at this age: 1268 views against a median of 829 (1.5x); learnings: Consolidated end-beat rules to emphasize climax-only loops and added engagement hypotheses to address a trend of zero-comment shorts.",
+      "seconds": 138.7
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep394 rejected (low scores: payoff, visuals; 3 frame problems)",
-      "seconds": 6.8
+      "detail": "ep395 ready",
+      "seconds": 5.0
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
-    },
-    {
-      "name": "preflight ep351",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.3
-    },
-    {
-      "name": "preflight ep360",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "preflight ep365",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "preflight ep369",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.9
+      "seconds": 6.5
     },
     {
-      "name": "start ep395",
+      "name": "schedule ep381",
       "ok": true,
-      "detail": "Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay",
-      "seconds": 0.7
+      "detail": "2026-11-13T21:30:00-05:00",
+      "seconds": 0.8
+    },
+    {
+      "name": "schedule ep379",
+      "ok": true,
+      "detail": "2026-11-14T19:00:00-05:00",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep396",
+      "ok": true,
+      "detail": "Leonids (1833): a meteor storm so intense it launched the science of meteors",
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.9
+      "seconds": 1.4
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 5 waiting",
-    "Buffer is full (10 queued); 5 waiting"
+    "Buffer is full (10 queued); 4 waiting"
   ],
   "inventory": {
-    "total": 15,
+    "total": 14,
     "in_buffer": 10,
-    "waiting": 5,
+    "waiting": 4,
     "target": 14,
     "making": [],
     "remote": [
-      "ep395"
+      "ep396"
     ]
   },
   "queue": [
-    {
-      "id": "ep351",
-      "title": "The Blind Probe That Saved Itself",
-      "due_at": "2026-11-09T19:00:00-05:00"
-    },
-    {
-      "id": "ep360",
-      "title": "The Fire That Reshaped NASA",
-      "due_at": "2026-11-09T21:30:00-05:00"
-    },
     {
       "id": "ep369",
       "title": "Saving Apollo 13 With Duct Tape",
@@ -166,24 +155,22 @@
       "due_at": "2026-11-13T19:00:00-05:00"
     },
     {
+      "id": "ep381",
+      "title": "The Hand-Woven Computer That Saved Apollo 11",
+      "due_at": "2026-11-13T21:30:00-05:00"
+    },
+    {
+      "id": "ep379",
+      "title": "The Coldest Planet Isn't the Farthest Away",
+      "due_at": "2026-11-14T19:00:00-05:00"
+    },
+    {
       "id": "ep391",
       "title": "The Interstellar Message Aimed at Nothing",
       "due_at": "2026-11-16T19:00:00-05:00"
     }
   ],
   "waiting": [
-    {
-      "id": "ep379",
-      "title": "The Coldest Planet Isn't the Farthest Away",
-      "series": "Space Got Weird",
-      "score": 20
-    },
-    {
-      "id": "ep381",
-      "title": "The Hand-Woven Computer That Saved Apollo 11",
-      "series": "Space Myths, Busted",
-      "score": 20
-    },
     {
       "id": "ep384",
       "title": "There Are More Planets Than Stars",
@@ -201,62 +188,93 @@
       "title": "The Invisible Star Devouring Cassiopeia's Giant",
       "series": "The Universe Is Terrifying",
       "score": 20
+    },
+    {
+      "id": "ep395",
+      "title": "The Moon's First Rover That Never Gave Up",
+      "series": "Space Got Weird",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep394",
-      "outcome": "rejected",
-      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
-      "reason": "low scores: payoff, visuals; 3 frame problems"
+      "id": "ep395",
+      "outcome": "ready",
+      "topic": "Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay",
+      "title": "The Moon's First Rover That Never Gave Up",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794268753/universereceipts/ep395-7964a67d.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep395",
-      "topic": "Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay",
-      "call_id": "fc-01M71AP7BYV029M2PCPAZG73SV"
+      "id": "ep396",
+      "topic": "Leonids (1833): a meteor storm so intense it launched the science of meteors",
+      "call_id": "fc-01M71ZDBZWQB9RS7NA9Z9SZ06H"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep395",
-      "topic": "Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay",
-      "spawned_at": "2026-11-10T05:05:56+05:30"
+      "id": "ep396",
+      "topic": "Leonids (1833): a meteor storm so intense it launched the science of meteors",
+      "spawned_at": "2026-11-10T11:08:06+05:30"
     }
   ],
-  "published": [],
-  "live": 95,
+  "published": [
+    {
+      "id": "ep381",
+      "title": "The Hand-Woven Computer That Saved Apollo 11",
+      "due_at": "2026-11-13T21:30:00-05:00"
+    },
+    {
+      "id": "ep379",
+      "title": "The Coldest Planet Isn't the Farthest Away",
+      "due_at": "2026-11-14T19:00:00-05:00"
+    }
+  ],
+  "live": 97,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 12,
+    "calls": 16,
     "by_model": {
+      "gemini-3.6-flash": 7,
+      "gemini-3-flash-preview": 4,
       "gemini-3.5-flash-lite": 3,
-      "gemini-3-flash-preview": 9
+      "gemini-3.8-flash": 2
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash"
+    ]
   },
   "renders": {
-    "modal": 3,
+    "modal": 2,
     "runner": 0
   },
   "daily_done": "2026-11-09",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 6.7,
+    "metered": 6.79,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 177,
+    "cloud": 176,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 21.3
+    "modal_credit_left": 21.21
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 29,
+  "open_topics": 28,
   "parked_topics": 68
 }
