@@ -93,16 +93,16 @@ contradiction.
 | ep263 | Space Myths, Busted | contradiction, record | 1065 | 50% | 83.9% | 125% | 0 | – |
 | ep268 | Space Got Weird | statement, mystery | 1060 | 49% | 120.0% | 173% | 0 | – |
 | ep346 | The Universe Is Terrifying | statement, scale_ladder | 1912 | 52% | 80.5% | 131% | 6 | – |
-| ep347 | Scale Breaker | statement, scale_ladder | 1001 | 46% | 65.6% | 118% | 2 | Hook/topic strong (scale), pacing solid, but redundant summary loop killed retention. |
-| ep359 | Space Got Weird | statement, myth_vs_fact | 1580 | 51% | 80.8% | 123% | 0 | Hook/topic reach high, myth-fact pacing good, but no-comment loop failed. |
-| ep345 | Space Got Weird | statement, scale_ladder | 571 | 45% | 92.0% | 141% | 0 | Topic liked, but hook/reach weak and ending line broke the loop. |
-| ep355 | Space Myths, Busted | statement, story | 330 | 38% | 81.5% | 127% | 0 | Topic (panic) stopped scroll, but hook pacing/retention failed to loop. |
-| ep367 | Space Got Weird | statement, scale_ladder | 660 | 51% | 68.3% | 117% | 0 | Topic interesting, but passive hook and pacing lagged channel medians. |
-| ep352 | Mission Files | statement, scale_ladder | 1372 | 46% | 82.8% | 131% | 0 | Hook/topic reach excellent, but summary sign-off lowered likes. |
-| ep356 | Scale Breaker | statement, story | 2135 | 44% | 100.8% | 145% | 2 | Hook (authority/scale) and loop perfect, driving extreme distribution. |
-| ep362 | The Universe Is Terrifying | statement, mystery | 1017 | – | – | – | – | Hook reach good, but jargon pacing and lack of interaction hurt engagement. |
-| ep349 | Scale Breaker | statement, scale_ladder | 1199 | – | – | – | – | Scale topic drove reach and likes, but abstract hook/loop limited comments. |
-| ep357 | Space Got Weird | statement, story | 1268 | – | – | – | – | Topic/pacing ahead of medians, but factual loop failed to spark discussion. |
+| ep347 | Scale Breaker | statement, scale_ladder | 1001 | 46% | 65.6% | 118% | 2 | Strong distance hook drove early hold, but redundant final recap hurt completion and likes; missing clean loop. |
+| ep359 | Space Got Weird | statement, myth_vs_fact | 1580 | 51% | 80.8% | 123% | 0 | Bold statement hook and strong story pacing drove high reach (1.7x median), but lacking comment prompt yielded zero comments. |
+| ep345 | Space Got Weird | statement, scale_ladder | 571 | 45% | 92.0% | 141% | 0 | Unique baking asteroid topic maintained likes, but weak hook and incomplete final sentence dragged completion below median. |
+| ep355 | Space Myths, Busted | statement, story | 330 | 38% | 81.5% | 127% | 0 | High-stakes poison gas premise raised engaged share, but slow early pacing and summary sign-off reduced reach (0.4x median). |
+| ep367 | Space Got Weird | statement, scale_ladder | 660 | 51% | 68.3% | 117% | 0 | Fascinating orbital mechanics retained interested viewers, but passive opening exposition slowed early reach behind channel median. |
+| ep352 | Mission Files | statement, scale_ladder | 1372 | 46% | 82.8% | 131% | 0 | Action-packed probe impact hook and fast pacing drove high early reach (1.7x median), though generic sign-off capped likes. |
+| ep356 | Scale Breaker | statement, story | 2135 | 44% | 100.8% | 145% | 2 | Cosmic 4-billion-mile scale hook and tight story pacing achieved breakout reach (2.6x median) with high engagement. |
+| ep362 | The Universe Is Terrifying | statement, mystery | 1017 | – | – | – | – | High-stakes starquake hook maintained steady views, but catalog jargon drag and abrupt ending lowered likes below median. |
+| ep349 | Scale Breaker | statement, scale_ladder | 1199 | – | – | – | – | Striking 100 Milky Ways scale comparison drove above-median views and strong likes, though closed delivery yielded zero comments. |
+| ep357 | Space Got Weird | statement, story | 1268 | – | – | – | – | Evocative Pluto ice mountains topic yielded strong view velocity, but factual hook style lacked direct user prompt for discussion. |
 
 ## Log
 
@@ -245,3 +245,4 @@ contradiction.
 - 2026-11-09: Analyzed performance diagnostics across 10 recent Shorts, confirming that active conflict and cosmic-scale hooks (ep356, ep346) outperform passive exposition (ep355, ep345) in early distribution.
 - 2026-11-09: Logged diagnostics for ep268 through ep362, reinforcing rules against recap endings and passive hooks while testing interactive end prompts.
 - 2026-11-10: Consolidated end-beat rules to emphasize climax-only loops and added engagement hypotheses to address a trend of zero-comment shorts.
+- 2026-11-10: Processed daily performance diagnostic reviews for ep347, ep359, ep345, ep355, ep367, ep352, ep356, ep362, ep349, and ep357 to optimize script structure and loop execution.
