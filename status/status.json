@@ -1,125 +1,118 @@
 {
-  "updated_at": "2026-11-10T23:06:03+05:30",
-  "day": 40,
+  "updated_at": "2026-11-11T05:13:50+05:30",
+  "day": 41,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M738E412E0VQNMPDMED84T0R",
+    "id": "ta-01M73X19SS7X1P8GES4R0Y01AR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-10T23:05:10+05:30",
-    "started_at_utc": "2026-11-10T17:35:10+00:00",
-    "seconds": 52
+    "started_at": "2026-11-11T05:05:22+05:30",
+    "started_at_utc": "2026-11-10T23:35:22+00:00",
+    "seconds": 508
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 3.9
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "107 posts",
-      "seconds": 1.6
+      "seconds": 3.3
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.4
+      "seconds": 4.4
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.5
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 2.4
+      "detail": "ep367 at 72 h: level with the channel's earlier Shorts at this age: 980 views against a median of 1011 (1.0x); learnings: Recalculated channel medians across the last 10 eligible Shorts, dropped summary ending hypotheses contradicted by ep347/ep352/ep355 drop-offs, and added a hypothesis targeting mid-script citation cuts.",
+      "seconds": 425.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep396 ready; ep397 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep398 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep399 rejected (low scores: visuals)",
-      "seconds": 13.2
+      "detail": "ep400 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep401 unfinished (LookupError: unknown encoding: BIG-5); ep402 rejected (research: The provided sources do not mention the discovery of potential rubies or deep volcanic plumbing crystals on the Martian surface.)",
+      "seconds": 20.9
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "name": "preflight ep365",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 1.6
     },
     {
       "name": "preflight ep369",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 1.4
     },
     {
       "name": "preflight ep373",
       "ok": true,
-      "detail": "video downloads whole (11 MB in 1 s)",
-      "seconds": 1.5
+      "detail": "video still hosted",
+      "seconds": 0.8
     },
     {
       "name": "preflight ep378",
       "ok": true,
-      "detail": "video downloads whole (10 MB in 1 s)",
-      "seconds": 1.3
+      "detail": "video still hosted",
+      "seconds": 0.8
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
-    },
-    {
-      "name": "start ep400",
-      "ok": true,
-      "detail": "Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter",
-      "seconds": 0.6
+      "seconds": 2.4
     },
     {
       "name": "start ep401",
       "ok": true,
       "detail": "Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts",
-      "seconds": 0.6
+      "seconds": 3.7
     },
     {
-      "name": "start ep402",
+      "name": "start ep403",
       "ok": true,
-      "detail": "Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing",
-      "seconds": 0.6
+      "detail": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
+      "seconds": 3.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 1.5
+      "seconds": 2.2
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep397 stopped on Gemini's free quota; it resumes in a later run",
-    "ep398 stopped on Gemini's free quota; it resumes in a later run",
+    "ep400 stopped on Gemini's free quota; it resumes in a later run",
     "Buffer is full (10 queued); 5 waiting",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer is full (10 queued); 5 waiting"
@@ -131,12 +124,12 @@
     "target": 14,
     "making": [
       "ep397",
-      "ep398"
+      "ep398",
+      "ep400"
     ],
     "remote": [
-      "ep400",
       "ep401",
-      "ep402"
+      "ep403"
     ]
   },
   "queue": [
@@ -225,74 +218,50 @@
   ],
   "made": [
     {
-      "id": "ep396",
-      "outcome": "ready",
-      "topic": "Leonids (1833): a meteor storm so intense it launched the science of meteors",
-      "title": "The Meteor Storm That Created Space Science",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794312681/universereceipts/ep396-6bed4cff.mp4"
-    },
-    {
-      "id": "ep397",
+      "id": "ep400",
       "outcome": "unfinished",
-      "topic": "Red dwarf: though our Sun is a Yellow Dwarf, these tiny, dim stars are actually the most common in the universe, making up 75% of all stars",
+      "topic": "Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep398",
+      "id": "ep401",
       "outcome": "unfinished",
-      "topic": "Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
+      "topic": "Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts",
+      "reason": "LookupError: unknown encoding: BIG-5",
+      "quota": false,
       "overloaded": false
     },
     {
-      "id": "ep399",
+      "id": "ep402",
       "outcome": "rejected",
-      "topic": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
-      "reason": "low scores: visuals"
+      "topic": "Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing",
+      "reason": "research: The provided sources do not mention the discovery of potential rubies or deep volcanic plumbing crystals on the Martian surface."
     }
   ],
   "spawned": [
     {
-      "id": "ep400",
-      "topic": "Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter",
-      "call_id": "fc-01M738FTDGHGYW4ADPQHHCPF2C"
-    },
-    {
       "id": "ep401",
       "topic": "Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts",
-      "call_id": "fc-01M738FTYXTWTDNEH8G79ZWQ81"
+      "call_id": "fc-01M73XH3JPB1KT1K1219E58AVB"
     },
     {
-      "id": "ep402",
-      "topic": "Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing",
-      "call_id": "fc-01M738FVGFND14BAPSR2QRTC77"
+      "id": "ep403",
+      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
+      "call_id": "fc-01M73XH75VC7PBZM8GYVY9BGSF"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep400",
-      "topic": "Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter",
-      "spawned_at": "2026-11-10T23:05:58+05:30"
-    },
-    {
       "id": "ep401",
       "topic": "Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts",
-      "spawned_at": "2026-11-10T23:05:58+05:30"
+      "spawned_at": "2026-11-11T05:13:40+05:30"
     },
     {
-      "id": "ep402",
-      "topic": "Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing",
-      "spawned_at": "2026-11-10T23:05:59+05:30"
+      "id": "ep403",
+      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
+      "spawned_at": "2026-11-11T05:13:44+05:30"
     }
   ],
   "published": [],
@@ -300,25 +269,24 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 33,
+    "calls": 10,
     "by_model": {
-      "gemini-3.7-flash": 2,
-      "gemini-3-flash-preview": 19,
-      "gemini-3.5-flash-lite": 8,
-      "gemini-3.6-flash": 3,
-      "gemini-3.5-flash": 1
+      "gemini-3.8-flash": 2,
+      "gemini-3.5-flash-lite": 3,
+      "gemini-3-flash-preview": 1,
+      "gemini-3.1-flash-lite": 4
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 10,
+    "modal": 1,
     "runner": 0
   },
   "daily_done": "2026-11-10",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 7.16,
+    "metered": 7.22,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -326,10 +294,10 @@
     "cloud": 173,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 20.84
+    "modal_credit_left": 20.78
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 29,
-  "parked_topics": 69
+  "parked_topics": 68
 }

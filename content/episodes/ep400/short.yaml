@@ -1,0 +1,152 @@
+id: ep400
+title: Why The Universe Is Mostly Invisible
+series: Scale Breaker
+format: v3
+description: While space looks empty, it is filled with invisible dark matter and dark energy that shape the entire cosmos.
+  Everything we see is just a tiny fraction of reality.
+sources:
+- https://en.wikipedia.org/wiki/Outer_space
+- https://science.nasa.gov/astrophysics/focus-areas/what-is-dark-energy/
+hashtags:
+- '#space'
+- '#astronomy'
+- '#science'
+tags:
+- dark matter
+- dark energy
+- cosmos
+- universe
+- astrophysics
+- Scale Breaker
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Every star and planet you see is just 5%.
+  emphasis:
+  - just 5%
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/30/Universe_content_pie_chart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Universe content pie chart.jpg
+      credit: 'Credit: NASA / WMAP Science Team'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Universe_content_pie_chart.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.25
+    card:
+      kind: fact
+      big: 5%
+      small: of the universe is matter
+- text: Most people think deep space is only empty, cold nothingness.
+  emphasis:
+  - empty
+  - nothingness
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/9d/Structure_of_the_Universe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Structure of the Universe.jpg
+      credit: NASA, ESA, and E. Hallman (University of Colorado, Boulder)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Structure_of_the_Universe.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But the rest is invisible dark matter and dark energy.
+  emphasis:
+  - invisible dark matter
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Bullet_Cluster_%28Webb_and_Chandra_Compass_Image%29_%282025-128%29.png/3840px-Bullet_Cluster_%28Webb_and_Chandra_Compass_Image%29_%282025-128%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Bullet Cluster (Webb and Chandra Compass Image) (2025-128).png
+      credit: 'Image: NASA, ESA, CSA, STScI, CXC Science James Jee (Yonsei University, UC Davis), Sangjun Cha (Yonsei University),
+        Kyle Finner (Caltech/IPAC)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Bullet_Cluster_(Webb_and_Chandra_Compass_Image)_(2025-128).png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Dark matter acts as a glue, holding massive galaxies together.
+  emphasis:
+  - glue
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/M31%2C_the_Andromeda_Galaxy%2C_Killarney_Provincial_Park_Observatory.jpg/3840px-M31%2C_the_Andromeda_Galaxy%2C_Killarney_Provincial_Park_Observatory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: M31, the Andromeda Galaxy, Killarney Provincial Park Observatory.jpg
+      credit: Brucewaters
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:M31,_the_Andromeda_Galaxy,_Killarney_Provincial_Park_Observatory.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Meanwhile, dark energy pushes everything away even faster today.
+  emphasis:
+  - dark energy
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/CMB_universe_expansion.png/1920px-CMB_universe_expansion.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: CMB universe expansion.png
+      credit: NASA/WMAP Science Team/ Art by Dana Berry
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:CMB_universe_expansion.png
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.7
+    focus_y: 0.5
+- text: That hidden 95% is the actual backbone of our reality.
+  emphasis:
+  - 95%
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 95%
+      small: of the universe is dark
+    motion: zoom_in
+- text: Everything else is clearly just a tiny fragment of 5%.
+  emphasis:
+  - tiny fragment
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.25
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 95% IS INVISIBLE

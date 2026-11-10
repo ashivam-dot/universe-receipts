@@ -75,7 +75,7 @@ unexplained, not alien.
 | 2026-11-06 | Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years — done (ep367) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
 | 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging — parked (ep392) | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
 | 2026-11-09 | Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space | Scale Breaker | Follow-up to ep356, which is rising (2,214 views in 33 h, 2.0x the median) |
-| 2026-11-10 | Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing — making (ep402) | Space Got Weird | NASA recently announced the discovery of corundum crystals (rubies) in the latest Martian rock samples. |
+| 2026-11-10 | Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing — dropped (ep402) | Space Got Weird | NASA recently announced the discovery of corundum crystals (rubies) in the latest Martian rock samples. |
 | 2026-11-10 | Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts — making (ep401) | The Universe Is Terrifying | New findings from the Chandra X-ray Observatory explain the star's mysterious and violent periodic eruptions. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
@@ -297,7 +297,7 @@ unexplained, not alien.
 - 10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds — done (ep195)
 - 3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids — done (ep345)
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
-- Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — parked (ep239)
+- Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — making (ep403)
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose — parked (ep316)
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — parked (ep259)
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — parked (ep293)
