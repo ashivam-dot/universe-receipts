@@ -75,8 +75,8 @@ unexplained, not alien.
 | 2026-11-06 | Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years — done (ep367) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
 | 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging — parked (ep392) | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
 | 2026-11-09 | Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space | Scale Breaker | Follow-up to ep356, which is rising (2,214 views in 33 h, 2.0x the median) |
-| 2026-11-10 | Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing | Space Got Weird | NASA recently announced the discovery of corundum crystals (rubies) in the latest Martian rock samples. |
-| 2026-11-10 | Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts | The Universe Is Terrifying | New findings from the Chandra X-ray Observatory explain the star's mysterious and violent periodic eruptions. |
+| 2026-11-10 | Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing — making (ep402) | Space Got Weird | NASA recently announced the discovery of corundum crystals (rubies) in the latest Martian rock samples. |
+| 2026-11-10 | Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts — making (ep401) | The Universe Is Terrifying | New findings from the Chandra X-ray Observatory explain the star's mysterious and violent periodic eruptions. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -136,7 +136,7 @@ unexplained, not alien.
 | Nov 9 | Carl Sagan (1934): the astronomer famous for billions and billions never actually said it on Cosmos — parked (ep283) | Space Myths, Busted |
 | Nov 14 | Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on — done (ep373) | Near Misses |
 | Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away — done (ep391) | Space Got Weird |
-| Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors — making (ep396) | Space Got Weird |
+| Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors — done (ep396) | Space Got Weird |
 | Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean | Mission Files |
 | Nov 26 | InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough | Mission Files |
 | Nov 30 | Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock | Space Got Weird |
@@ -181,7 +181,7 @@ unexplained, not alien.
 - Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — parked (ep257)
 - Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — parked (ep296)
 - Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks — parked (ep385)
-- Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever — making (ep399)
+- Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever — parked (ep399)
 
 ### Scale Breaker
 
@@ -232,7 +232,7 @@ unexplained, not alien.
 - Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way — dropped (ep393)
 - Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way — parked (ep394)
 - Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States — making (ep398)
-- Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter
+- Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter — making (ep400)
 
 ### Mission Files
 

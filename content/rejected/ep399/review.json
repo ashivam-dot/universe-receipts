@@ -1,0 +1,168 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-10T17:45:39+05:30",
+      "check": {
+        "duration": 29.87,
+        "words": 86,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'a' after 'the dark in'",
+          "'every' heard as '(nothing)' after 'dark empty void'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The mind-bending premise of black holes vanishing is a powerful scroll-stopper.",
+        "clarity": "The timeline is easy to follow, transitioning smoothly from star death to the final void.",
+        "payoff": "The immense time scale of a googol years delivers a satisfyingly cosmic conclusion.",
+        "visuals": "Beat 9 incorrectly uses a map of the early universe (CMB) to represent a future empty void.",
+        "loop": "The final word connects perfectly to the opening sentence for a seamless repeat."
+      },
+      "frames": [
+        {
+          "beat": 9,
+          "problem": "The frame shows the Cosmic Microwave Background (the universe's beginning), not a dark, empty void."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The loop transition is significantly smoother and more natural than the rover story in episode 395.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-10T17:47:30+05:30",
+      "check": {
+        "duration": 29.85,
+        "words": 86,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.5,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'a' after 'the dark in'",
+          "'googol' heard as 'google' after 'radiation in a'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening statement that immediately defines the video's scope.",
+        "clarity": "The chronological progression from starlight to black hole decay is logical.",
+        "payoff": "The use of the googol timescale provides a satisfying sense of finality.",
+        "visuals": "Imagery for the dead suns and the final void is scientifically inaccurate.",
+        "loop": "The concluding sentence transitions perfectly back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows Sirius A, a bright living star, for a beat about a graveyard of dead suns."
+        },
+        {
+          "beat": 9,
+          "problem": "Shows the Cosmic Microwave Background, which is the early universe, not a future void."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short handles massive scales of time more effectively than the interstellar message episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-10T17:48:58+05:30",
+      "check": {
+        "duration": 29.85,
+        "words": 86,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.5,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'a' after 'the dark in'",
+          "'googol' heard as 'google' after 'radiation in a'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening that challenges the perceived permanence of black holes.",
+        "clarity": "Logical progression from the present age to the far future.",
+        "payoff": "The total empty void successfully concludes the narrative arc.",
+        "visuals": "Consistent style, but one key scientific diagram is misplaced.",
+        "loop": "Phrasing creates a seamless transition back to the start."
+      },
+      "frames": [
+        {
+          "beat": 9,
+          "problem": "Shows the Cosmic Microwave Background map, which is the early universe, not a future empty void."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The thematic loop is much tighter than the ending of the rover story in episode 395.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-10T17:48:58+05:30"
+}

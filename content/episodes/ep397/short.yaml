@@ -1,0 +1,184 @@
+id: ep397
+title: Why the Universe’s Most Common Stars are Invisible
+series: Space Myths, Busted
+format: v3
+description: 80 percent of stars in our galaxy are completely invisible to the naked eye. Discover why these tiny stars will
+  outlive the Sun.
+sources:
+- https://en.wikipedia.org/wiki/Red_dwarf
+- https://web.archive.org/web/20070103234953/http://www.eso.org/outreach/press-rel/pr-2002/pr-22-02.html
+- http://kencroswell.com/thebrightestreddwarf.html
+- https://en.wikipedia.org/wiki/Stellar_evolution
+- http://spiff.rit.edu/classes/phys230/lectures/planneb/planneb.html
+hashtags:
+- '#space'
+- '#astronomy'
+- '#reddwarf'
+tags:
+- red dwarf
+- stars
+- Proxima Centauri
+- Milky Way
+- space facts
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: You cannot see the most common star in the sky.
+  emphasis:
+  - cannot see
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Red_dwarf_star_CHXR_73_and_companion_object_%28artist%27s_concept%29.tif/lossy-page1-3840px-Red_dwarf_star_CHXR_73_and_companion_object_%28artist%27s_concept%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Red dwarf star CHXR 73 and companion object (artist's concept).tif
+      credit: NASA, ESA and G. Bacon
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Red_dwarf_star_CHXR_73_and_companion_object_(artist%27s_concept).tif
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: These dim embers make up 80 percent of our galaxy.
+  emphasis:
+  - 80 percent
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 80 PERCENT
+      small: of all stars
+    motion: zoom_in
+- text: Even our closest neighbor, Proxima Centauri, is hidden in the dark.
+  emphasis:
+  - Proxima Centauri
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/95/New_shot_of_Proxima_Centauri%2C_our_nearest_neighbour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: New shot of Proxima Centauri, our nearest neighbour.jpg
+      credit: ESA/Hubble & NASA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:New_shot_of_Proxima_Centauri,_our_nearest_neighbour.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.35
+    - 0.65
+    - 0.65
+- text: These are red dwarfs, small stars that act like cosmic marathon runners.
+  emphasis:
+  - red dwarfs
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Comparison_between_the_Sun_and_the_ultracool_dwarf_star_TRAPPIST-1.jpg/3840px-Comparison_between_the_Sun_and_the_ultracool_dwarf_star_TRAPPIST-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Comparison between the Sun and the ultracool dwarf star TRAPPIST-1.jpg
+      credit: ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Comparison_between_the_Sun_and_the_ultracool_dwarf_star_TRAPPIST-1.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: While our Sun is a rare giant, these stars burn for trillions of years.
+  emphasis:
+  - trillions of years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/AU_MIc_M-dwarf_artist%27s_conception.jpg/1280px-AU_MIc_M-dwarf_artist%27s_conception.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AU MIc M-dwarf artist's conception.jpg
+      credit: 'NASA''s Goddard Space Flight Center. Chris Smith (USRA): Lead Producer'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AU_MIc_M-dwarf_artist%27s_conception.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.2
+    - 0.1
+    - 0.8
+    - 0.9
+    card:
+      kind: fact
+      big: TRILLIONS
+      small: of years
+- text: In fact, not a single one has ever died yet.
+  emphasis:
+  - ever died
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b3/Red_Dwarf_Flare_Star_%28Artist%27s_Illustration%29_%282018-46-4241%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Red Dwarf Flare Star (Artist's Illustration) (2018-46-4241).png
+      credit: NASA, ESA, and D. Player (STScI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Red_Dwarf_Flare_Star_(Artist%27s_Illustration)_(2018-46-4241).png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.65
+    focus_y: 0.45
+    box:
+    - 0.45
+    - 0.25
+    - 0.85
+    - 0.7
+- text: The universe is simply too young for them to burn out.
+  emphasis:
+  - too young
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/CMB_universe_expansion.png/1920px-CMB_universe_expansion.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: CMB universe expansion.png
+      credit: NASA/WMAP Science Team/ Art by Dana Berry
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:CMB_universe_expansion.png
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They are the ultimate survivors you will never see.
+  emphasis:
+  - never see
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE INVISIBLE MAJORITY

@@ -1,0 +1,174 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-10T17:30:40+05:30",
+      "check": {
+        "duration": 23.97,
+        "words": 70,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -4.0,
+        "warnings": [],
+        "speech_differences": [
+          "'fell' heard as 'felt' after 'world as stars'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong historical premise and bold text hook grab immediate attention.",
+        "clarity": "Easy to follow chronological sequence with one idea per beat.",
+        "payoff": "The revelation about space debris is solid but lands somewhat dryly.",
+        "visuals": "Several graphic assets feel like low-effort diagrams rather than immersive space visuals.",
+        "loop": "Beat 7 duplicates Beat 1 opening phrasing rather than creating a fluid continuation."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "diagram text is in German rather than English"
+        },
+        {
+          "beat": 5,
+          "problem": "sparse star chart with unreadable small labels on mobile"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Change to 'All because' so it leads naturally into beat 1."
+      ],
+      "better_than_last": "Features a more immediately dramatic opening spectacle than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-10T17:36:47+05:30",
+      "check": {
+        "duration": 27.19,
+        "words": 74,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.5,
+        "warnings": [],
+        "speech_differences": [
+          "'denison' heard as 'dennis' after 'but yale professor'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong numbers and historical drama effectively capture attention.",
+        "clarity": "Logical sequence makes the shift in scientific thought easy to grasp.",
+        "payoff": "The conclusion is more of a historical summary than a shocking revelation.",
+        "visuals": "Uses appropriate historical media but suffers from repetition and low resolution.",
+        "loop": "The concluding phrase leads naturally back into the start of the event."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "uses the exact same image as the previous beat"
+        },
+        {
+          "beat": 6,
+          "problem": "image is extremely blurry and lacks visual impact"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Denison",
+          "respelling": "den ih sun"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: This one night proved Earth was flying through a cosmic debris field."
+      ],
+      "better_than_last": "This Short uses period-accurate illustrations to create a stronger sense of atmosphere than the abstract visuals in ep391.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-10T17:41:21+05:30",
+      "check": {
+        "duration": 30.65,
+        "words": 86,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'denison' heard as 'dennis and' after 'but yale professor'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong statistics and period woodcuts capture interest quickly.",
+        "clarity": "Narrative clearly tracks the shift in scientific thought.",
+        "payoff": "Historical context justifies the scientific impact well.",
+        "visuals": "Thematic lithographs and diagrams are clear and relevant.",
+        "loop": "Seamlessly transitions back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "blurry and low-resolution image"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Denison",
+          "respelling": "den nih sun"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Authentic period lithographs provide a more immersive atmosphere than the graphics in the rover episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

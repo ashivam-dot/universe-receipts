@@ -10,6 +10,7 @@ sources:
 - https://www.universetoday.com/123251/from-a-roar-to-a-purr-prospects-for-the-2015-november-leonid-meteors/
 - https://blogs.loc.gov/headlinesandheroes/2020/09/how-newspapers-helped-crowdsource-a-scientific-discovery-the-1833-leonid-meteor-storm/
 - https://web.archive.org/web/20200926175816/https://www.washingtonpost.com/weather/2019/11/18/leonid-shower-dud-past-years-have-featured-extreme-meteor-storms/
+- https://web.archive.org/web/20170119191351/http://news.nationalgeographic.com/news/2009/11/091116-leonids-meteor-shower-best-2009.html
 hashtags:
 - '#space'
 - '#meteors'
@@ -21,6 +22,7 @@ tags:
 - comet
 - astronomy
 - science
+- Denison Olmsted
 voice:
   engine: gemini
   voice: Zubenelgenubi
@@ -47,10 +49,32 @@ beats:
     motion: pan_down
     focus_x: 0.5
     focus_y: 0.5
-- text: Terrified onlookers feared the end of the world as stars fell like rain.
+- text: Eyewitnesses watched thousands of stars fall just like snow in 1833.
   emphasis:
-  - stars fell like rain
+  - like snow
   sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Trouvelot_-_The_November_Meteors.jpg/1920px-Trouvelot_-_The_November_Meteors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Trouvelot - The November Meteors.jpg
+      credit: Étienne Léopold Trouvelot
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Trouvelot_-_The_November_Meteors.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.13
+    - 0.13
+    - 0.88
+    - 0.87
+- text: Scientists then believed shooting stars were just weird atmospheric weather.
+  emphasis:
+  - atmospheric weather
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Leonid_Meteor.jpg/1920px-Leonid_Meteor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -62,29 +86,17 @@ beats:
       url: https://commons.wikimedia.org/wiki/File:Leonid_Meteor.jpg
     fallbacks:
     - color
-    motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
-- text: At the time, scientists believed shooting stars were just atmospheric weather.
-  emphasis:
-  - atmospheric weather
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Meteoroiden.jpg/960px-Meteoroiden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Meteoroiden.jpg
-      credit: Herbert Bolz
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Meteoroiden.jpg
-    fallbacks:
-    - color
     motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Yale professor Denison Olmsted noticed every meteor radiated from a single point.
+    focus_x: 0.65
+    focus_y: 0.55
+    box:
+    - 0.2
+    - 0.28
+    - 0.72
+    - 0.6
+- text: But Yale professor Denison Olmsted noticed something revolutionary about the storm.
   emphasis:
-  - single point
+  - revolutionary
   sfx: riser
   visual:
     source: url
@@ -98,13 +110,11 @@ beats:
     fallbacks:
     - color
     motion: pan_up
-    focus_x: 0.5
-    focus_y: 0.4
-- text: He proved meteors originated from a debris cloud in outer space.
+    focus_x: 0.48
+    focus_y: 0.25
+- text: Every single meteor appeared to radiate from one specific point in Leo.
   emphasis:
-  - outer space
-  sfx: pop
-  pause_after: 0.4
+  - specific point
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/e/e0/Leo_constellation_83.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -119,31 +129,67 @@ beats:
     - color
     motion: zoom_out
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.4
+    box:
+    - 0.1
+    - 0.2
+    - 0.9
+    - 0.7
     card:
       kind: fact
-      big: OUTER SPACE
-      small: Debris cloud origin
-- text: That terrifying storm launched the modern science of meteors.
+      big: SINGLE POINT
+      small: Radiant in Leo
+- text: Olmsted proved they're actually pieces of space rock, not weather.
   emphasis:
-  - modern science
+  - space rock
+  sfx: pop
+  pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Four_views_of_the_Leonid_meteor_shower_of_1966_Noao-4127A.jpg/1920px-Four_views_of_the_Leonid_meteor_shower_of_1966_Noao-4127A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/d/de/Comet_Temple-Tuttle_u4jm0404r.fits.gz_sci.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Four views of the Leonid meteor shower of 1966 Noao-4127A.jpg
-      credit: NOIRLab/NSF/AURA
+      title: Comet Temple-Tuttle u4jm0404r.fits.gz sci.jpg
+      credit: Hubble Space Telescope
       license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Four_views_of_the_Leonid_meteor_shower_of_1966_Noao-4127A.jpg
+      url: https://commons.wikimedia.org/wiki/File:Comet_Temple-Tuttle_u4jm0404r.fits.gz_sci.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.7
+    focus_y: 0.22
+    box:
+    - 0.45
+    - 0.05
+    - 0.95
+    - 0.65
+    card:
+      kind: fact
+      big: SPACE ROCK
+      small: Not weather
+- text: This one night proved Earth was flying through a cosmic debris field.
+  emphasis:
+  - cosmic debris field
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/The_story_of_the_comets_-_Orbit_of_the_leonids_on_nov._13_and_of_the_comet_of_1866_%28i.%29_relatively_to_the_orbits_of_certain_planets.jpg/960px-The_story_of_the_comets_-_Orbit_of_the_leonids_on_nov._13_and_of_the_comet_of_1866_%28i.%29_relatively_to_the_orbits_of_certain_planets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The story of the comets - Orbit of the leonids on nov. 13 and of the comet of 1866 (i.) relatively to the orbits
+        of certain planets.jpg
+      credit: George Frederick Chambers
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_story_of_the_comets_-_Orbit_of_the_leonids_on_nov._13_and_of_the_comet_of_1866_(i.)_relatively_to_the_orbits_of_certain_planets.jpg
     fallbacks:
     - color
-    motion: zoom_in
+    motion: pan_down
     focus_x: 0.5
     focus_y: 0.5
-- text: Meteors fell across North America.
+- text: Modern meteor science exists today all because of that historic night.
   emphasis:
-  - Meteors fell
+  - all because
   visual:
     reuse: 1
     motion: zoom_out
@@ -156,4 +202,4 @@ music:
   fade_out: 1.0
 captions:
   hook_size: 150
-hook_text: 240,000 METEORS IN NINE HOURS
+hook_text: 240,000 METEORS PER HOUR
