@@ -1,0 +1,148 @@
+id: ep409
+title: The Space Detector Wider Than the Sun
+series: Scale Breaker
+format: v3
+description: Discover LISA, the planned 1.6-million-mile space antenna built to measure spacetime ripples smaller than an
+  atom.
+sources:
+- https://en.wikipedia.org/wiki/Laser_Interferometer_Space_Antenna
+- https://science.nasa.gov/science-research/astrophysics/gravitational-waves/nasa-collaborating-on-european-led-gravitational-wave-observatory-in-space/
+- https://www.esa.int/Science_Exploration/Space_Science/LISA/Construction_of_ESA_s_ambitious_LISA_mission_begins
+- https://www.thalesaleniaspace.com/en/press-releases/thales-alenia-space-signs-contract-ohb-provide-critical-elements-lisa-mission
+hashtags:
+- '#space'
+- '#astronomy'
+- '#esa'
+tags:
+- LISA
+- gravitational waves
+- European Space Agency
+- space telescope
+- black holes
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Three spacecraft will form a triangle wider than the Sun.
+  emphasis:
+  - wider than the Sun
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/LISA_Pathfinder_spacecraft_model.png/1920px-LISA_Pathfinder_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: LISA Pathfinder spacecraft model.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:LISA_Pathfinder_spacecraft_model.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 1.6 Million Miles
+      small: Triangle formation
+- text: This is LISA, a planned European Space Agency mission.
+  emphasis:
+  - European Space Agency
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Each side of the floating constellation stretches 1.6 million miles.
+  emphasis:
+  - 1.6 million miles
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/NASA_Reveals_LISA_Engineering_Development_Unit_Telescope_%28SVS14698_-_GSFC_20240520_LISA_000533%29.jpg/3840px-NASA_Reveals_LISA_Engineering_Development_Unit_Telescope_%28SVS14698_-_GSFC_20240520_LISA_000533%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA Reveals LISA Engineering Development Unit Telescope (SVS14698 - GSFC 20240520 LISA 000533).jpg
+      credit: NASA's Scientific Visualization Studio - University of Maryland College Park/Francis Reddy, eMITS/Scott Wiessinger,
+        ASRC/Dennis J. Henry
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA_Reveals_LISA_Engineering_Development_Unit_Telescope_(SVS14698_-_GSFC_20240520_LISA_000533).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 2.5 Million Km
+      small: Side length
+- text: The trio will trail Earth in a heliocentric orbit around the Sun.
+  emphasis:
+  - heliocentric orbit
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_%28NHQ202112230012%29.jpg/1920px-Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_%28NHQ202112230012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ariane 5 with James Webb Space Telescope Prelaunch (NHQ202112230012).jpg
+      credit: Bill Ingalls
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_(NHQ202112230012).jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Gold-platinum cubes will float freely inside every single craft.
+  emphasis:
+  - Gold-platinum cubes
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/a2/New_Simulation_Sheds_Light_on_Spiraling_Supermassive_Black_Holes_-_31209212418.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: New Simulation Sheds Light on Spiraling Supermassive Black Holes - 31209212418.png
+      credit: NASA Goddard Photo and Video
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:New_Simulation_Sheds_Light_on_Spiraling_Supermassive_Black_Holes_-_31209212418.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Lasers will measure spacetime ripples smaller than an atom.
+  emphasis:
+  - smaller than an atom
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Atom Width
+      small: Precision target
+    motion: zoom_in
+- text: That is how a triangle wider than the Sun listens to spacetime.
+  emphasis:
+  - wider than the Sun
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

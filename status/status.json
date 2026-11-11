@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-11T23:08:17+05:30",
-  "day": 41,
+  "updated_at": "2026-11-12T05:06:35+05:30",
+  "day": 42,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M75TTTVQP5740Y714M3JAPGR",
+    "id": "ta-01M76FDZMKE0EBKZ7YZ5PB7W0R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-11T23:05:11+05:30",
-    "started_at_utc": "2026-11-11T17:35:11+00:00",
-    "seconds": 186
+    "started_at": "2026-11-12T05:05:20+05:30",
+    "started_at_utc": "2026-11-11T23:35:20+00:00",
+    "seconds": 76
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 3.2
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "109 posts",
-      "seconds": 2.5
+      "seconds": 5.6
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.5
+      "seconds": 5.0
     },
     {
       "name": "languages",
@@ -45,75 +45,69 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep362 at 72 h: level with the channel's earlier Shorts at this age: 1034 views against a median of 1014 (1.0x); learnings: Consolidated technical mass and catalog mission citations into the jargon ban rule (Rule 3) following retention drops in ep362 and ep367.",
-      "seconds": 113.9
+      "detail": "no checkpoint due",
+      "seconds": 3.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep397 ready; ep398 rejected (low scores: visuals); ep400 rejected (low scores: hook, payoff, visuals; 2 frame problems); ep403 rejected (low scores: payoff, visuals; 2 frame problems); ep404 rejected (low scores: payoff, visuals, loop); ep405 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep406 ready; ep407 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', '",
-      "seconds": 25.3
+      "detail": "ep409 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep410 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 14.0
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.8
     },
     {
       "name": "preflight ep373",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
+      "seconds": 1.8
     },
     {
       "name": "preflight ep378",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 1.1
     },
     {
       "name": "preflight ep380",
       "ok": true,
-      "detail": "video downloads whole (12 MB in 0 s)",
-      "seconds": 0.5
+      "detail": "video still hosted",
+      "seconds": 1.8
     },
     {
       "name": "preflight ep387",
       "ok": true,
-      "detail": "video downloads whole (12 MB in 0 s)",
-      "seconds": 0.5
-    },
-    {
-      "name": "publish",
-      "ok": true,
-      "detail": "",
-      "seconds": 2.0
-    },
-    {
-      "name": "start ep409",
-      "ok": true,
-      "detail": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
+      "detail": "video still hosted",
       "seconds": 0.8
     },
     {
-      "name": "start ep410",
+      "name": "publish",
       "ok": true,
-      "detail": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "seconds": 0.7
+      "detail": "",
+      "seconds": 2.6
+    },
+    {
+      "name": "start ep411",
+      "ok": true,
+      "detail": "Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space",
+      "seconds": 3.1
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 2.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep405 stopped on Gemini's free quota; it resumes in a later run",
-    "ep407 stopped on Gemini's free quota; it resumes in a later run",
+    "ep409 stopped on Gemini's free quota; it resumes in a later run",
+    "ep410 stopped on Gemini's free quota; it resumes in a later run",
     "Buffer is full (10 queued); 5 waiting",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer is full (10 queued); 5 waiting"
@@ -125,11 +119,12 @@
     "target": 14,
     "making": [
       "ep405",
-      "ep407"
-    ],
-    "remote": [
+      "ep407",
       "ep409",
       "ep410"
+    ],
+    "remote": [
+      "ep411"
     ]
   },
   "queue": [
@@ -218,102 +213,34 @@
   ],
   "made": [
     {
-      "id": "ep397",
-      "outcome": "ready",
-      "topic": "Red dwarf: though our Sun is a Yellow Dwarf, these tiny, dim stars are actually the most common in the universe, making up 75% of all stars",
-      "title": "Why the Universe’s Most Common Stars are Invisible",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794398607/universereceipts/ep397-5e78313b.mp4"
-    },
-    {
-      "id": "ep398",
-      "outcome": "rejected",
-      "topic": "Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep400",
-      "outcome": "rejected",
-      "topic": "Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter",
-      "reason": "low scores: hook, payoff, visuals; 2 frame problems"
-    },
-    {
-      "id": "ep403",
-      "outcome": "rejected",
-      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "reason": "low scores: payoff, visuals; 2 frame problems"
-    },
-    {
-      "id": "ep404",
-      "outcome": "rejected",
-      "topic": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
-      "reason": "low scores: payoff, visuals, loop"
-    },
-    {
-      "id": "ep405",
+      "id": "ep409",
       "outcome": "unfinished",
-      "topic": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
+      "topic": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep406",
-      "outcome": "ready",
-      "topic": "Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant",
-      "title": "Jupiter Will Outlive the Death of Our Sun",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794399681/universereceipts/ep406-7b9b513b.mp4"
-    },
-    {
-      "id": "ep407",
+      "id": "ep410",
       "outcome": "unfinished",
-      "topic": "Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time",
+      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
-    },
-    {
-      "id": "ep408",
-      "outcome": "rejected",
-      "topic": "Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once",
-      "reason": "low scores: payoff, loop"
     }
   ],
   "spawned": [
     {
-      "id": "ep409",
-      "topic": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
-      "call_id": "fc-01M75V0JHD7PBA7G7JP4RE5CG3"
-    },
-    {
-      "id": "ep410",
-      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "call_id": "fc-01M75V0K7VJGXBWA811819F5QQ"
+      "id": "ep411",
+      "topic": "Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space",
+      "call_id": "fc-01M76FGNPGEYZKYXJ4GB0RJ138"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep409",
-      "topic": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
-      "spawned_at": "2026-11-11T23:08:10+05:30"
-    },
-    {
-      "id": "ep410",
-      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "spawned_at": "2026-11-11T23:08:11+05:30"
+      "id": "ep411",
+      "topic": "Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space",
+      "spawned_at": "2026-11-12T05:06:29+05:30"
     }
   ],
   "published": [],
@@ -321,41 +248,34 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 53,
+    "calls": 11,
     "by_model": {
-      "gemini-3-flash-preview": 25,
-      "gemini-3.8-flash": 4,
-      "gemini-3.6-flash": 13,
-      "gemini-3.5-flash-lite": 8,
-      "gemini-3.1-flash-lite": 1,
-      "gemini-3.5-flash": 2
+      "gemini-3.5-flash-lite": 7,
+      "gemini-3.6-flash": 2,
+      "gemini-3-flash-preview": 2
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 21,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-11-11",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 7.94,
+    "metered": 8.05,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 167,
+    "cloud": 166,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 20.06
+    "modal_credit_left": 19.95
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 30,
+  "open_topics": 29,
   "parked_topics": 70
 }

@@ -1,0 +1,51 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-11T23:17:38+05:30",
+      "check": {
+        "duration": 28.23,
+        "words": 71,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong scale comparison hooks immediate attention.",
+        "clarity": "Simple explanation of mission setup and mechanism.",
+        "payoff": "Effective reveal connecting giant size to subatomic sensitivity.",
+        "visuals": "Beat 5 shows gravitational wave sources instead of internal cubes.",
+        "loop": "Final phrase links smoothly back into the opening beat."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows a binary black hole merger instead of the internal gold-platinum cubes."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Compared to recent episodes, this script creates a stronger contrast between massive cosmic scale and subatomic precision.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
