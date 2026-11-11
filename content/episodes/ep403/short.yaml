@@ -1,0 +1,194 @@
+id: ep403
+title: The Dwarf Planet Shaped Like a Football
+series: Space Got Weird
+format: v3
+description: The dwarf planet Haumea spins so fast its physical shape has distorted into an egg, and it even has its own rings.
+sources:
+- https://en.wikipedia.org/wiki/Haumea
+- https://science.nasa.gov/dwarf-planets/haumea/
+- http://www.space.com/scienceastronomy/090915-Haumea-dark-spot.html
+- https://iopscience.iop.org/article/10.1088/0004-6256/137/6/4766
+hashtags:
+- '#space'
+- '#haumea'
+- '#astronomy'
+tags:
+- Haumea
+- dwarf planet
+- Kuiper Belt
+- astronomy
+- space rings
+- Space Got Weird
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A dwarf planet is spinning into a football shape.
+  emphasis:
+  - football shape
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/38/Haumea_with_rings_%2837641832331%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Haumea with rings (37641832331).jpg
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Haumea_with_rings_(37641832331).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.25
+    - 0.85
+    - 0.75
+- text: While Earth takes 24 hours to rotate, big Jupiter takes 10.
+  emphasis:
+  - Jupiter takes 10
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Kepler-51_planetary_system.jpg/1280px-Kepler-51_planetary_system.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Kepler-51 planetary system.jpg
+      credit: 21.Andromedae
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Kepler-51_planetary_system.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.65
+    - 0.45
+    - 0.95
+    - 0.9
+    card:
+      kind: fact
+      big: 24 vs 10
+      small: Rotation hours
+- text: But the frozen world Haumea completes a day in under 4 hours.
+  emphasis:
+  - under 4 hours
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/9a/Haumea_-_NASA_2015_What_is_a_dwarf_planet%3F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Haumea - NASA 2015 What is a dwarf planet?.jpg
+      credit: JPL/NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Haumea_-_NASA_2015_What_is_a_dwarf_planet%3F.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 3.9 Hours
+      small: One full day
+- text: That is one of the fastest spins in the solar system.
+  emphasis:
+  - fastest spins
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/de/Graph_of_Planetary_Mass_Versus_Distance_From_the_Sun.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Graph of Planetary Mass Versus Distance From the Sun.png
+      credit: Emily Lakdawalla for The Planetary Society using image data from NASA/JPL-Caltech/SSI/SwRI/CIW/ISRO/Daniel Chang,
+        processed by Björn Jónsson, Emily Lakdawalla, Daniel Macháček, Mattias Malmer, Alex Pa
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Graph_of_Planetary_Mass_Versus_Distance_From_the_Sun.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Centrifugal force has stretched its rock and ice into a lopsided egg.
+  emphasis:
+  - lopsided egg
+  sfx: whoosh
+  visual:
+    reuse: 4
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers found something even more bizarre near the object in 2017.
+  emphasis:
+  - found something
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Charon%27s_occultation_on_July_11%2C_2005_%28eso0602c%29.jpg/1280px-Charon%27s_occultation_on_July_11%2C_2005_%28eso0602c%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Charon's occultation on July 11, 2005 (eso0602c).jpg
+      credit: ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Charon%27s_occultation_on_July_11,_2005_(eso0602c).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '2017'
+      small: Rings Discovered
+- text: Haumea is the first of its kind found with its own ring system.
+  emphasis:
+  - ring system
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Rings_of_Quaoar_%28Portrait_3Rings%29.jpg/3840px-Rings_of_Quaoar_%28Portrait_3Rings%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Rings of Quaoar (Portrait 3Rings).jpg
+      credit: Alexandre Crispim/UTFPR
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Rings_of_Quaoar_(Portrait_3Rings).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: First Ring
+      small: In the Kuiper Belt
+- text: It really is a dwarf planet spinning into a football shape.
+  emphasis:
+  - dwarf planet
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE FASTEST SPINNING WORLD
