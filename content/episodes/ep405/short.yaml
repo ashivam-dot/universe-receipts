@@ -1,0 +1,216 @@
+id: ep405
+title: The Spacecraft One Light-Day Away From Earth
+series: Scale Breaker
+format: v3
+description: Voyager 1 is so far from Earth that its signals take nearly twenty-four hours to reach us. Discover how NASA
+  keeps this interstellar traveler calling home.
+sources:
+- https://en.wikipedia.org/wiki/Voyager_1
+- https://en.wikipedia.org/wiki/Voyager_program
+- https://web.archive.org/web/20221210180431/http://www.nasa.gov/centers/goddard/news/topstory/2003/1105voyager_facts.html
+- https://www.universetoday.com/104717/its-official-voyager-1-is-now-in-interstellar-space/
+- https://www.space.com/38967-voyager-1-fires-backup-thrusters-after-37-years.html
+- https://www.scientificamerican.com/article/nasas-voyager-1-spacecraft-down-to-just-two-working-science-instruments/
+- https://web.archive.org/web/20131104221550/http://www.smithsonianmag.com/science-nature/Timothy-Ferris-on-Voyagers-Never-Ending-Journey.html
+hashtags:
+- '#space'
+- '#voyager1'
+- '#nasa'
+tags:
+- voyager 1
+- nasa
+- interstellar space
+- deep space network
+- scale breaker
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA is currently shouting into a twenty-four-hour void.
+  emphasis:
+  - twenty-four-hour void
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Titan_3E_with_Voyager_1.jpg/1920px-Titan_3E_with_Voyager_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Titan 3E with Voyager 1.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Titan_3E_with_Voyager_1.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.2
+    box:
+    - 0.45
+    - 0.05
+    - 0.55
+    - 0.35
+- text: Most think our furthest spacecraft is still close to home.
+  emphasis:
+  - close to home
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d9/Solar_System_graphic_by_NASA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Solar System graphic by NASA.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_System_graphic_by_NASA.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But Voyager 1 actually crossed into interstellar space in 2012.
+  emphasis:
+  - interstellar space
+  - '2012'
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Voyagers_in_the_Heliosheath.jpg/960px-Voyagers_in_the_Heliosheath.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyagers in the Heliosheath.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyagers_in_the_Heliosheath.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: August 2012
+      small: Entered interstellar space
+- text: It is now sixteen billion miles away from the sun.
+  emphasis:
+  - sixteen billion miles
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/1e/Voyager_probe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager probe.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_probe.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: NASA's Jet Propulsion Laboratory launched the probe back in 1977.
+  emphasis:
+  - launched
+  - '1977'
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d3/Titan_IIIE_Centaur_1977.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Titan IIIE Centaur 1977.jpg
+      credit: United States Air Force
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Titan_IIIE_Centaur_1977.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.4
+    card:
+      kind: dateline
+      big: September 1977
+      small: NASA JPL launch
+- text: To keep it talking, engineers recently fired backup thrusters.
+  emphasis:
+  - backup thrusters
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Mission_Control-_Floor_Level_%2849386802568%29.png/1920px-Mission_Control-_Floor_Level_%2849386802568%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mission Control- Floor Level (49386802568).png
+      credit: NASAJPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mission_Control-_Floor_Level_(49386802568).png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: These engines had slept unused for over thirty-seven years.
+  emphasis:
+  - thirty-seven years
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Voyager_Program_-_spacecraft_diagram.png/960px-Voyager_Program_-_spacecraft_diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager Program - spacecraft diagram.png
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_Program_-_spacecraft_diagram.png
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It is now a lonely time capsule carrying our golden record.
+  emphasis:
+  - lonely time capsule
+  - golden record
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg/1920px-The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Sounds of Earth Record Cover - GPN-2000-001978.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Golden Record
+      small: Message to the stars
+- text: Every radio message must cross that endless twenty-four-hour void.
+  emphasis:
+  - endless
+  - twenty-four-hour void
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.2
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE 24-HOUR VOID

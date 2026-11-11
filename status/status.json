@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-11T17:30:14+05:30",
+  "updated_at": "2026-11-11T23:08:17+05:30",
   "day": 41,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M7567MT4AHSAVXTD466WEK5R",
+    "id": "ta-01M75TTTVQP5740Y714M3JAPGR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-11T17:05:20+05:30",
-    "started_at_utc": "2026-11-11T11:35:20+00:00",
-    "seconds": 1493
+    "started_at": "2026-11-11T23:05:11+05:30",
+    "started_at_utc": "2026-11-11T17:35:11+00:00",
+    "seconds": 186
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.4
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "109 posts",
-      "seconds": 3.1
+      "seconds": 2.5
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 5.0
+      "seconds": 3.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.5
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -45,165 +45,91 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep365 at 6 h: ahead of the channel's earlier Shorts at this age: 997 views against a median of 659 (1.5x); ep369 at 6 h: behind the channel's earlier Shorts at this age: 89 views against a median of 664 (0.1x)",
-      "seconds": 7.6
+      "detail": "ep362 at 72 h: level with the channel's earlier Shorts at this age: 1034 views against a median of 1014 (1.0x); learnings: Consolidated technical mass and catalog mission citations into the jargon ban rule (Rule 3) following retention drops in ep362 and ep367.",
+      "seconds": 113.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep401 unfinished (LookupError: unknown encoding: BIG-5); ep404 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 14.0
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "127 subscribers",
-      "seconds": 34.8
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Logged 24h+ early reach diagnostics for ep351 and ep360; added beat 2 crisis placement hypothesis from ep351 diagnosis.",
-      "seconds": 602.1
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.9
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 276.7
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "4 added",
-      "seconds": 481.3
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-041.md",
-      "seconds": 2.4
+      "detail": "ep397 ready; ep398 rejected (low scores: visuals); ep400 rejected (low scores: hook, payoff, visuals; 2 frame problems); ep403 rejected (low scores: payoff, visuals; 2 frame problems); ep404 rejected (low scores: payoff, visuals, loop); ep405 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep406 ready; ep407 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', '",
+      "seconds": 25.3
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep373",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.4
+      "seconds": 0.3
     },
     {
       "name": "preflight ep378",
       "ok": true,
       "detail": "video still hosted",
+      "seconds": 0.4
+    },
+    {
+      "name": "preflight ep380",
+      "ok": true,
+      "detail": "video downloads whole (12 MB in 0 s)",
+      "seconds": 0.5
+    },
+    {
+      "name": "preflight ep387",
+      "ok": true,
+      "detail": "video downloads whole (12 MB in 0 s)",
+      "seconds": 0.5
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 2.0
+    },
+    {
+      "name": "start ep409",
+      "ok": true,
+      "detail": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
       "seconds": 0.8
     },
     {
-      "name": "publish",
+      "name": "start ep410",
       "ok": true,
-      "detail": "",
-      "seconds": 3.0
-    },
-    {
-      "name": "start ep397",
-      "ok": true,
-      "detail": "Red dwarf: though our Sun is a Yellow Dwarf, these tiny, dim stars are actually the most common in the universe, making up 75% of all stars",
-      "seconds": 2.0
-    },
-    {
-      "name": "start ep398",
-      "ok": true,
-      "detail": "Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States",
-      "seconds": 2.0
-    },
-    {
-      "name": "start ep400",
-      "ok": true,
-      "detail": "Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter",
-      "seconds": 3.2
-    },
-    {
-      "name": "start ep403",
-      "ok": true,
-      "detail": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "seconds": 1.4
-    },
-    {
-      "name": "start ep404",
-      "ok": true,
-      "detail": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
-      "seconds": 1.4
-    },
-    {
-      "name": "start ep405",
-      "ok": true,
-      "detail": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
-      "seconds": 1.4
-    },
-    {
-      "name": "start ep406",
-      "ok": true,
-      "detail": "Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant",
-      "seconds": 1.5
-    },
-    {
-      "name": "start ep407",
-      "ok": true,
-      "detail": "Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time",
-      "seconds": 1.5
-    },
-    {
-      "name": "start ep408",
-      "ok": true,
-      "detail": "Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once",
-      "seconds": 3.3
+      "detail": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
+      "seconds": 0.7
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 4.5
+      "seconds": 2.0
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep404 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 3 waiting",
-    "Buffer is full (10 queued); 3 waiting"
+    "ep405 stopped on Gemini's free quota; it resumes in a later run",
+    "ep407 stopped on Gemini's free quota; it resumes in a later run",
+    "Buffer is full (10 queued); 5 waiting",
+    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "Buffer is full (10 queued); 5 waiting"
   ],
   "inventory": {
-    "total": 13,
+    "total": 15,
     "in_buffer": 10,
-    "waiting": 3,
+    "waiting": 5,
     "target": 14,
-    "making": [],
-    "remote": [
-      "ep397",
-      "ep398",
-      "ep400",
-      "ep403",
-      "ep404",
+    "making": [
       "ep405",
-      "ep406",
-      "ep407",
-      "ep408"
+      "ep407"
+    ],
+    "remote": [
+      "ep409",
+      "ep410"
     ]
   },
   "queue": [
@@ -276,118 +202,118 @@
       "title": "The Invisible Star Devouring Cassiopeia's Giant",
       "series": "The Universe Is Terrifying",
       "score": 20
+    },
+    {
+      "id": "ep397",
+      "title": "Why the Universe’s Most Common Stars are Invisible",
+      "series": "Space Myths, Busted",
+      "score": 22
+    },
+    {
+      "id": "ep406",
+      "title": "Jupiter Will Outlive the Death of Our Sun",
+      "series": "The Universe Is Terrifying",
+      "score": 21
     }
   ],
   "made": [
     {
-      "id": "ep401",
-      "outcome": "unfinished",
-      "topic": "Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts",
-      "reason": "LookupError: unknown encoding: BIG-5",
-      "quota": false,
-      "overloaded": false
+      "id": "ep397",
+      "outcome": "ready",
+      "topic": "Red dwarf: though our Sun is a Yellow Dwarf, these tiny, dim stars are actually the most common in the universe, making up 75% of all stars",
+      "title": "Why the Universe’s Most Common Stars are Invisible",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794398607/universereceipts/ep397-5e78313b.mp4"
+    },
+    {
+      "id": "ep398",
+      "outcome": "rejected",
+      "topic": "Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States",
+      "reason": "low scores: visuals"
+    },
+    {
+      "id": "ep400",
+      "outcome": "rejected",
+      "topic": "Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter",
+      "reason": "low scores: hook, payoff, visuals; 2 frame problems"
+    },
+    {
+      "id": "ep403",
+      "outcome": "rejected",
+      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
+      "reason": "low scores: payoff, visuals; 2 frame problems"
     },
     {
       "id": "ep404",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
+      "reason": "low scores: payoff, visuals, loop"
+    },
+    {
+      "id": "ep405",
+      "outcome": "unfinished",
+      "topic": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
+    },
+    {
+      "id": "ep406",
+      "outcome": "ready",
+      "topic": "Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant",
+      "title": "Jupiter Will Outlive the Death of Our Sun",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794399681/universereceipts/ep406-7b9b513b.mp4"
+    },
+    {
+      "id": "ep407",
+      "outcome": "unfinished",
+      "topic": "Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep408",
+      "outcome": "rejected",
+      "topic": "Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once",
+      "reason": "low scores: payoff, loop"
     }
   ],
   "spawned": [
     {
-      "id": "ep397",
-      "topic": "Red dwarf: though our Sun is a Yellow Dwarf, these tiny, dim stars are actually the most common in the universe, making up 75% of all stars",
-      "call_id": "fc-01M757N20ENSPAB0RJCTE9J26C"
+      "id": "ep409",
+      "topic": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
+      "call_id": "fc-01M75V0JHD7PBA7G7JP4RE5CG3"
     },
     {
-      "id": "ep398",
-      "topic": "Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States",
-      "call_id": "fc-01M757N3XEC6JJ0XQDMZ13RZQB"
-    },
-    {
-      "id": "ep400",
-      "topic": "Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter",
-      "call_id": "fc-01M757N737B89W9J0ZYRQGFEA1"
-    },
-    {
-      "id": "ep403",
-      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "call_id": "fc-01M757N8F9NZT5M1HT2EWKM77Z"
-    },
-    {
-      "id": "ep404",
-      "topic": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
-      "call_id": "fc-01M757N9VY2XGVD9EAM8F68B8C"
-    },
-    {
-      "id": "ep405",
-      "topic": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
-      "call_id": "fc-01M757NB779XTK796H1XCWQE55"
-    },
-    {
-      "id": "ep406",
-      "topic": "Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant",
-      "call_id": "fc-01M757NCMGNGP4CF3P3CC5DCAZ"
-    },
-    {
-      "id": "ep407",
-      "topic": "Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time",
-      "call_id": "fc-01M757NE1T2MZ9RN6TZW31V370"
-    },
-    {
-      "id": "ep408",
-      "topic": "Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once",
-      "call_id": "fc-01M757NH7S0X593BHH995HACNP"
+      "id": "ep410",
+      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
+      "call_id": "fc-01M75V0K7VJGXBWA811819F5QQ"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep397",
-      "topic": "Red dwarf: though our Sun is a Yellow Dwarf, these tiny, dim stars are actually the most common in the universe, making up 75% of all stars",
-      "spawned_at": "2026-11-11T17:29:50+05:30"
+      "id": "ep409",
+      "topic": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
+      "spawned_at": "2026-11-11T23:08:10+05:30"
     },
     {
-      "id": "ep398",
-      "topic": "Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States",
-      "spawned_at": "2026-11-11T17:29:52+05:30"
-    },
-    {
-      "id": "ep400",
-      "topic": "Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter",
-      "spawned_at": "2026-11-11T17:29:55+05:30"
-    },
-    {
-      "id": "ep403",
-      "topic": "Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system",
-      "spawned_at": "2026-11-11T17:29:57+05:30"
-    },
-    {
-      "id": "ep404",
-      "topic": "Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body",
-      "spawned_at": "2026-11-11T17:29:58+05:30"
-    },
-    {
-      "id": "ep405",
-      "topic": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
-      "spawned_at": "2026-11-11T17:29:59+05:30"
-    },
-    {
-      "id": "ep406",
-      "topic": "Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant",
-      "spawned_at": "2026-11-11T17:30:01+05:30"
-    },
-    {
-      "id": "ep407",
-      "topic": "Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time",
-      "spawned_at": "2026-11-11T17:30:02+05:30"
-    },
-    {
-      "id": "ep408",
-      "topic": "Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once",
-      "spawned_at": "2026-11-11T17:30:06+05:30"
+      "id": "ep410",
+      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
+      "spawned_at": "2026-11-11T23:08:11+05:30"
     }
   ],
   "published": [],
@@ -395,36 +321,41 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 13,
+    "calls": 53,
     "by_model": {
-      "gemini-3.8-flash": 6,
-      "gemini-3.5-flash-lite": 4,
-      "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 1,
-      "gemini-flash-latest": 1
+      "gemini-3-flash-preview": 25,
+      "gemini-3.8-flash": 4,
+      "gemini-3.6-flash": 13,
+      "gemini-3.5-flash-lite": 8,
+      "gemini-3.1-flash-lite": 1,
+      "gemini-3.5-flash": 2
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash"
+    ]
   },
   "renders": {
-    "modal": 3,
+    "modal": 21,
     "runner": 0
   },
   "daily_done": "2026-11-11",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 7.42,
+    "metered": 7.94,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 171,
+    "cloud": 167,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 20.58
+    "modal_credit_left": 20.06
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 31,
-  "parked_topics": 68
+  "open_topics": 30,
+  "parked_topics": 70
 }

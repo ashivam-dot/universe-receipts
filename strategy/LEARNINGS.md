@@ -14,7 +14,7 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 | Average percentage viewed | `analytics.averageViewPercentage` | 82.0% | 80%+ (loops can push it past 100%) |
 | Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 128% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
-| Likes per 100 views | `likes` / `views` | 2.3 | 4+ |
+| Likes per 100 views | `likes` / `views` | 2.4 | 4+ |
 
 ## Rules we've proven
 
@@ -26,13 +26,13 @@ each promoted on two Shorts; their evidence is kept below.)
 
 - Prioritize cosmic-scale subjects (billions of light-years, Voyager's journey) over human-scale objects in the hook to maximize reach. Evidence: ep165, ep260, ep346, ep356, ep359 (median early_reach 1580) vs ep181, ep186, ep195, ep345 (median 535.5).
 - Replace passive opening exposition with immediate conflict or active paradox hooks in beat 1 to improve distribution. Evidence: ep346, ep352, ep356, ep359 (median early_reach 1746) vs ep345, ep355, ep367, ep258 (median 482.5).
-- The last line must be a complete sentence leading naturally back into the first to drive rewatches. Evidence: ep072, ep201, ep262, ep266, ep268 (median AVP 116.3%) vs ep146, ep165, ep185, ep197 (median 64.4%).
+- No jargon, discovery dates, catalog names, or technical orbital/mass calculations: replace them with one familiar physical comparison. Evidence: ep346, 356, 260, 265 (median 1663) vs ep181, 186, 195, 197, 362, 367 (median 685.5).
 - Anchor hooks with authority institutions (NASA, Apollo) or named historical missions to improve distribution. Evidence: ep137, ep262, ep265, ep352, ep356 (median early_reach 1375) vs ep186, ep185, ep197, ep172 (median 711).
+- The last line must be a complete sentence leading naturally back into the first to drive rewatches. Evidence: ep072, ep201, ep262, ep266, ep268 (median AVP 116.3%) vs ep146, ep165, ep185, ep197 (median 64.4%).
 - End right after the climax: no aftermath subplot, redundant summary, or reflective wrap-up to avoid retention drops. Evidence: ep165, ep266, ep346, ep347, ep352, ep355 (median AVP 80.5%) vs ep186, ep172, ep195, ep197, ep221, ep254 (median 66.4%).
-- Open with the most surprising true thing about a well-known subject in the first 2 seconds to maximize early hold. Evidence: ep111, ep133, ep201, ep263, ep265 (median at10 1.42).
+- Open with the most surprising true thing about a well-known subject in the first 2 seconds to maximize early hold. Evidence: ep111, ep133, ep201, ep263, ep265 (median at10 1.42) vs ep352, 367, 181, 172 (median 1.15).
 - Deliver the core payoff within 3 seconds of the hook, and never restate the hook's idea in the next beat. Evidence: ep004, ep105, ep125, ep133, ep172, ep221.
 - Make every middle beat a new, bigger reveal; keep beats two and three short to maintain momentum. Evidence: ep008, ep032, ep084, ep165, ep184, ep188.
-- No jargon, discovery dates, or catalog names: replace them with one familiar physical comparison to keep explanations accessible. Evidence: ep079, ep133, ep172, ep181, ep186, ep195, ep197, ep362.
 - In a hazard story, keep the safety resolution for the last beat to maintain tension. Evidence: ep130, ep133, ep137, ep159, ep184.
 
 ## Hypotheses to test (from research, not yet our data)
@@ -43,7 +43,6 @@ At most 8. Each is tested against the current rules on comparable Shorts before 
 - End scripts with an interactive debate prompt or open stakes-driven question to spark comments and boost engagement (ep349, ep356, ep357, ep359, ep362).
 - Lead hooks with a relative comparison of our galaxy's scale failure vs the subject (e.g., '100 Milky Ways') to lower initial swipe rate (ep349, ep356).
 - Frame hooks using a direct 'you' perspective (e.g., 'If you stood on Pluto today') to increase viewer relevance and watch time (ep357).
-- Cut technical orbital mass calculations and catalog mission citations from middle beats to sustain mid-video retention (ep362, ep367).
 - Compress scientific definitions into a single beat under 4 seconds to reach core resolution by the 12-second mark.
 - One number per beat: never stack figures or dates in consecutive beats to avoid cognitive overload.
 - For evergreen subjects, use plain search-query phrasing as the title or hook to drive search traffic.
@@ -55,14 +54,14 @@ contradiction.
 
 | Short | Series | Hook style | Observed 24-30h views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 53% | 64.6% | 114% | 1 | Contradiction hook with Apollo authority achieved 791 early views at 28.1h; low AVP (64.63%) reflects mid-script technical explanation drag. |
-| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.8% | 116% | 1 | Curious scale statement hook yielded above-median engaged share (61.3%), but early reach (519 at 25.1h) and AVP (60.76%) lagged channel medians. |
-| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | Paradox hook achieved 984 early views at 24.6h; average percentage viewed (63.59%) dragged down by mid-script orbital explanation. |
-| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.3% | 148% | 2 | High-conflict cosmic scale hook produced top-tier early hold (at10 1.476) and rewatches (AVP 101.33%), reaching 982 early views at 28.1h. |
-| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.1% | 114% | 3 | Terrifying premise earned 3 subs, but narrow human-scale object framing limited early reach (546 at 25.1h) and engaged share (51.3%). |
-| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.2% | 112% | 0 | Story hook suffered from human-scale setup without cosmic stakes, producing lowest early reach (400 at 27.1h) and 59.17% AVP. |
-| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.1% | 126% | 0 | Myth-busting hook held strong retention (85.06% AVP), but engaged share (46.2%) and early reach (660 at 24.5h) were constrained by ordinary scale. |
-| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.3% | 119% | 4 | Cosmic scale Pluto hook achieved massive early reach (1495 at 28.1h) and 4 subs, though an open ending kept AVP at 65.28%. |
+| ep172 | Space Myths, Busted | contradiction, scale_ladder | 791 | 53% | 64.6% | 114% | 1 | – |
+| ep195 | Space Got Weird | statement, scale_ladder | 519 | 61% | 60.8% | 116% | 1 | – |
+| ep197 | Space Myths, Busted | contradiction, scale_ladder | 984 | 54% | 63.6% | 116% | 1 | – |
+| ep201 | Scale Breaker | statement, myth_vs_fact | 982 | 56% | 101.3% | 148% | 2 | – |
+| ep181 | The Universe Is Terrifying | statement, scale_ladder | 546 | 51% | 69.1% | 114% | 3 | – |
+| ep221 | Mission Files | contradiction, story | 400 | 54% | 59.2% | 112% | 0 | – |
+| ep185 | Space Myths, Busted | contradiction, myth_vs_fact | 660 | 46% | 85.1% | 126% | 0 | – |
+| ep165 | Space Myths, Busted | statement, myth_vs_fact | 1495 | 56% | 65.3% | 119% | 4 | – |
 | ep174 | Mission Files | statement, story | 260 | 52% | 64.5% | 106% | 1 | published while YouTube held the whole channel back; not evidence |
 | ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 50% | 39.8% | 96% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep210 | Mission Files | contradiction, mystery | 149 | 40% | 40.5% | 97% | 0 | published while YouTube held the whole channel back; not evidence |
@@ -82,27 +81,27 @@ contradiction.
 | ep225 | Space Got Weird | contradiction, mystery | 41 | 48% | 58.1% | 112% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep078 | The Universe Is Terrifying | contradiction, scale_ladder | 85 | 41% | 71.8% | 128% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep244 | Space Myths, Busted | statement, record | 51 | 35% | 72.0% | 130% | 0 | published while YouTube held the whole channel back; not evidence |
-| ep254 | Scale Breaker | statement, story | 1061 | 47% | 68.2% | 122% | 3 | Hypervelocity star narrative sustained 1061 early reach at 24.2h, but engaged share was below median (46.7%) and AVP held at 68.18%. |
-| ep258 | Space Myths, Busted | statement, scale_ladder | 394 | 42% | 73.6% | 120% | 1 | Galileo ear hook underperformed on early reach (394 at 24.6h) due to slow exposition, but held steady 73.64% AVP. |
-| ep260 | Scale Breaker | statement, story | 1414 | 45% | 98.5% | 140% | 4 | Voyager cosmic journey hook drove breakout early reach (1414 at 24.6h) and 98.48% AVP through relentless cosmic scale. |
-| ep262 | Mission Files | statement, myth_vs_fact | 931 | 49% | 135.3% | 201% | 1 | NASA authority hook coupled with seamless loop mechanics generated stellar rewatches (135.29% AVP, 2.012 at10) and 931 early reach at 28.1h. |
-| ep266 | Space Myths, Busted | contradiction, myth_vs_fact | 1146 | 50% | 103.1% | 146% | 0 | Seamless ending sentence loop drove rewatches (103.06% AVP, 1.458 at10), translating to 1146 early reach at 29.6h. |
-| ep265 | Space Got Weird | statement, mystery | 1379 | 56% | 73.8% | 133% | 0 | Apollo authority sensory hook drove 1379 early reach at 27.1h with strong initial hold (1.326 at10), though late pacing tapered AVP to 73.78%. |
-| ep263 | Space Myths, Busted | contradiction, record | 1065 | 50% | 83.9% | 125% | 0 | Clear myth contradiction yielded 1065 early reach at 29.5h and 83.91% AVP, beating the channel median avg_viewed. |
-| ep268 | Space Got Weird | statement, mystery | 1060 | 49% | 120.0% | 173% | 0 | Loop structure and curious trivia drove an exceptional 120.05% AVP and 1.733 at10, netting 1060 early reach at 27.1h. |
-| ep346 | The Universe Is Terrifying | statement, scale_ladder | 1912 | 52% | 80.3% | 131% | 6 | Massive cosmic scale hook propelled 1912 early reach at 29.6h and 6 subs, staying above median AVP at 80.29%. |
-| ep347 | Scale Breaker | statement, scale_ladder | 1001 | 46% | 65.5% | 118% | 2 | Abstract galactic mass premise captured 1001 early reach at 29.5h, but mid-script technical drag pulled AVP down to 65.53%. |
-| ep359 | Space Got Weird | statement, myth_vs_fact | 1580 | 51% | 81.0% | 124% | 0 | Active paradox hook drove 1580 early reach at 27.1h and solid hold (80.99% AVP), outperforming the earlier Galileo draft. |
-| ep345 | Space Got Weird | statement, scale_ladder | 571 | 46% | 89.2% | 137% | 0 | Narrow asteroid topic slowed early reach (571 at 29.5h), though high like conversion (2.8%) showed topic interest among retained viewers. |
-| ep355 | Space Myths, Busted | statement, story | 330 | 42% | 76.0% | 124% | 0 | Expository summary ending and lack of loop dropped watching_at_end to 0.5, yielding weak early reach (330 at 27.1h). |
-| ep367 | Space Got Weird | statement, scale_ladder | 660 | 52% | 69.3% | 117% | 0 | Technical mass calculations and lack of conflict hook held early reach to 660 at 26.1h and dragged AVP to 69.31%. |
-| ep352 | Mission Files | statement, scale_ladder | 1372 | 46% | 80.6% | 129% | 0 | Strong probe conflict drove 1372 early reach at 29.6h, but redundant sign-off lowered final retention. |
-| ep356 | Scale Breaker | statement, story | 2135 | 45% | 96.3% | 139% | 3 | Voyager perspective hook reached 2135 early reach at 27.1h with 96.27% AVP, though absence of discussion prompt yielded only 3 comments. |
-| ep362 | The Universe Is Terrifying | statement, mystery | 1017 | 45% | 84.0% | 140% | 3 | Dead star impact premise produced 1017 early reach at 24.1h and 84.04% AVP, but catalog jargon limited engagement to 1.8 likes/100. |
-| ep349 | Scale Breaker | statement, scale_ladder | 1199 | 50% | 83.3% | 128% | 2 | Relative scale comparison delivered 1199 early reach at 29.6h and 83.3% AVP, with high like conversion (2.8 likes/100). |
-| ep357 | Space Got Weird | statement, story | 1268 | 48% | 66.6% | 117% | 0 | Pluto landscape topic earned above-median early reach (1268 at 27.1h), but factual closure left comments at zero. |
-| ep351 | Mission Files | contradiction, scale_ladder | 799 | – | – | – | – | Delayed crisis until beat 5 stalled views_per_hour (27.0) and early reach (799 at 29.5h), despite high viewer approval (3.3 likes/100). |
-| ep360 | Mission Files | statement, myth_vs_fact | 1167 | – | – | – | – | High-stakes Apollo crisis hook drove strong early distribution (1167 early reach at 27.1h) with steady views per hour (43.1). |
+| ep254 | Scale Breaker | statement, story | 1061 | 47% | 68.2% | 122% | 3 | – |
+| ep258 | Space Myths, Busted | statement, scale_ladder | 394 | 42% | 73.6% | 120% | 1 | – |
+| ep260 | Scale Breaker | statement, story | 1414 | 45% | 98.5% | 140% | 4 | – |
+| ep262 | Mission Files | statement, myth_vs_fact | 931 | 49% | 135.3% | 201% | 1 | – |
+| ep266 | Space Myths, Busted | contradiction, myth_vs_fact | 1146 | 50% | 103.1% | 146% | 0 | – |
+| ep265 | Space Got Weird | statement, mystery | 1379 | 56% | 73.8% | 133% | 0 | – |
+| ep263 | Space Myths, Busted | contradiction, record | 1065 | 50% | 83.9% | 125% | 0 | – |
+| ep268 | Space Got Weird | statement, mystery | 1060 | 49% | 120.0% | 173% | 0 | – |
+| ep346 | The Universe Is Terrifying | statement, scale_ladder | 1912 | 52% | 80.3% | 131% | 6 | – |
+| ep347 | Scale Breaker | statement, scale_ladder | 1001 | 46% | 65.5% | 118% | 2 | – |
+| ep359 | Space Got Weird | statement, myth_vs_fact | 1580 | 51% | 81.0% | 124% | 0 | – |
+| ep345 | Space Got Weird | statement, scale_ladder | 571 | 46% | 89.2% | 137% | 0 | topic (asteroid) reach low; hook dropped early (1.29 at5); loop failed (0.36 end). |
+| ep355 | Space Myths, Busted | statement, story | 330 | 42% | 76.0% | 124% | 0 | poison gas hook stopped scroll (0.53 share); summary beat killed loop retention (0.50 end). |
+| ep367 | Space Got Weird | statement, scale_ladder | 660 | 52% | 69.3% | 117% | 0 | paradox topic earned high feed share; technical mass jargon and citations stalled late retention. |
+| ep352 | Mission Files | statement, scale_ladder | 1372 | 46% | 80.6% | 129% | 0 | text-heavy hook underperformed (1.14 at5); reach ahead of median but retention collapsed post-climax. |
+| ep356 | Scale Breaker | statement, story | 2135 | 45% | 96.3% | 139% | 3 | authority hook (Voyager) drove high early hold; loop failed to generate rewatches (0.57 end). |
+| ep362 | The Universe Is Terrifying | statement, mystery | 1017 | 45% | 84.0% | 140% | 3 | statement hook grabbed viewers (1.48 at5); technical names (Rossi) caused massive mid-script drop-off. |
+| ep349 | Scale Breaker | statement, scale_ladder | 1199 | 50% | 83.3% | 128% | 2 | scale hook drove ahead reach and high likes; closed-fact ending resulted in zero comments. |
+| ep357 | Space Got Weird | statement, story | 1268 | 48% | 66.6% | 117% | 0 | strong topic reach (1.5x); factual delivery lacked personal relevance or conversational triggers. |
+| ep351 | Mission Files | contradiction, scale_ladder | 799 | – | – | – | – | high viewer satisfaction (3.3 likes); slow momentum from technical backstory throttled distribution velocity. |
+| ep360 | Mission Files | statement, myth_vs_fact | 1167 | – | – | – | – | authority hook (NASA) provided stable distribution matching channel historical baseline. |
 
 ## Log
 
@@ -249,3 +248,4 @@ contradiction.
 - 2026-11-11: Recalculated channel medians across the last 10 eligible Shorts, dropped summary ending hypotheses contradicted by ep347/ep352/ep355 drop-offs, and added a hypothesis targeting mid-script citation cuts.
 - 2026-11-11: Today we integrated review findings from ten Shorts into action items, prioritizing active hook delivery and eliminating redundant summary beats to safeguard retention.
 - 2026-11-11: Logged 24h+ early reach diagnostics for ep351 and ep360; added beat 2 crisis placement hypothesis from ep351 diagnosis.
+- 2026-11-11: Consolidated technical mass and catalog mission citations into the jargon ban rule (Rule 3) following retention drops in ep362 and ep367.

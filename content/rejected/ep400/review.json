@@ -1,0 +1,160 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-11T17:37:48+05:30",
+      "check": {
+        "duration": 24.33,
+        "words": 68,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'it' after 'planet you see'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing stat, but lacks immediate dramatic tension.",
+        "clarity": "Clear distinction between dark matter and dark energy.",
+        "payoff": "Informative summary, though the conclusion lacks a dramatic twist.",
+        "visuals": "Diagrams are helpful but contain crowded, cropped text.",
+        "loop": "Ends with a smooth audio transition back to the start."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Diagram text is cropped on the edges."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Start with 'Ninety-five percent of the entire universe is completely invisible.'",
+        "Beat 6: Change to 'That invisible 95% actively controls how our cosmos evolves.'"
+      ],
+      "better_than_last": "Illustrates complex theoretical physics concepts more clearly than past episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-11T17:43:02+05:30",
+      "check": {
+        "duration": 28.4,
+        "words": 78,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The bold statement and text overlay immediately grab attention within the first two seconds.",
+        "clarity": "Complex cosmological concepts are broken down cleanly into simple analogies.",
+        "payoff": "Contrasting visible reality against the unseen universe satisfyingly resolves the hook.",
+        "visuals": "Beat 2 reuses the image from beat 1, and beat 4 is letterboxed inside a window.",
+        "loop": "The 5 percent ending connects mathematically and grammatically into the 95 percent opening line."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "same picture as beat 1"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The mathematical loop connecting the final 5% line directly back to the opening 95% statistic creates a cleaner seamless replay than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-11T17:44:21+05:30",
+      "check": {
+        "duration": 28.4,
+        "words": 78,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Stat is strong but visual repetition immediately loses momentum.",
+        "clarity": "Explains dark matter and energy roles simply and effectively.",
+        "payoff": "Final line restates the hook without a concluding surprise.",
+        "visuals": "Uses duplicate imagery and text-heavy diagrams unsuited for mobile.",
+        "loop": "Numerical transition from 5 percent to 95 percent is smooth."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "same picture as beat 1"
+        },
+        {
+          "beat": 5,
+          "problem": "mostly text and too much small detail for phone size"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: say 'We are the rare exceptions in a dark cosmos.'",
+        "Beat 8: say 'Everything we see is just the five percent that isn't...'"
+      ],
+      "better_than_last": "This Short handles abstract physics concepts more clearly than the technical jargon in the Meteor Storm episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, visuals; 2 frame problems",
+  "rejected_at": "2026-11-11T17:44:21+05:30"
+}

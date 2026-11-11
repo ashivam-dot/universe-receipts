@@ -78,7 +78,7 @@ unexplained, not alien.
 | 2026-11-10 | Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing — dropped (ep402) | Space Got Weird | NASA recently announced the discovery of corundum crystals (rubies) in the latest Martian rock samples. |
 | 2026-11-10 | Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts — parked (ep401) | The Universe Is Terrifying | New findings from the Chandra X-ray Observatory explain the star's mysterious and violent periodic eruptions. |
 | 2026-11-11 | Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it — making (ep405) | Scale Breaker | NASA announced Voyager 1 is crossing the milestone of being one full light-day away from Earth. |
-| 2026-11-11 | Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom | Scale Breaker | NASA astrophysicists published new research showing how the LISA mission can detect hidden exoplanets via gravitational waves. |
+| 2026-11-11 | Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom — making (ep409) | Scale Breaker | NASA astrophysicists published new research showing how the LISA mission can detect hidden exoplanets via gravitational waves. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -177,7 +177,7 @@ unexplained, not alien.
 - Kilonova (2017): the violent collision of two neutron stars that ripples spacetime and forges thousands of Earth-masses worth of pure gold and platinum — done (ep191)
 - Cygnus X-1 (1964): the first confirmed black hole is actively tearing away superheated gas from a blue supergiant companion at half the speed of light — dropped (ep376)
 - Vela Pulsar (1968): a dead star spinning 11 times a second that shoots a violent jet of superheated plasma through space while glitching its spin rate — done (ep226)
-- Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body — making (ep404)
+- Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body — dropped (ep404)
 - GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye — done (ep346)
 - Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — parked (ep281)
 - Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe — dropped (ep294)
@@ -185,7 +185,7 @@ unexplained, not alien.
 - Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — parked (ep296)
 - Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks — parked (ep385)
 - Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever — parked (ep399)
-- Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant — making (ep406)
+- Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant — done (ep406)
 
 ### Scale Breaker
 
@@ -235,9 +235,9 @@ unexplained, not alien.
 - Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton — done (ep389)
 - Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way — dropped (ep393)
 - Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way — parked (ep394)
-- Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States — making (ep398)
-- Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter — making (ep400)
-- Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once — making (ep408)
+- Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States — parked (ep398)
+- Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter — parked (ep400)
+- Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once — parked (ep408)
 
 ### Mission Files
 
@@ -302,7 +302,7 @@ unexplained, not alien.
 - 10199 Chariklo (2014): a tiny 155-mile-wide minor planet stunned astronomers when they discovered it possesses its own system of dense rings, a feature thought possible only around giant gas worlds — done (ep195)
 - 3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids — done (ep345)
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
-- Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — making (ep403)
+- Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — dropped (ep403)
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose — parked (ep316)
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — parked (ep259)
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — parked (ep293)
@@ -377,7 +377,7 @@ unexplained, not alien.
 - Mercury (planet) (1965): radar observations shattered the long-held belief that it permanently keeps one face to the Sun, proving it actually rotates three times for every two orbits — done (ep197)
 - Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side — dropped (ep374)
 - Escape velocity (1859): you do not need to reach 25,000 miles per hour to escape Earth's gravity; any speed will work as long as you have continuous thrust — done (ep216)
-- Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — parked (ep238)
+- Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — making (ep410)
 - Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of "seared steak," "hot metal," and "welding fumes" — dropped (ep256)
 - Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight — parked (ep292)
 - Rings of Saturn (1610): Galileo first described the planet as having "ears" because his telescope wasn't clear enough to reveal the rings — done (ep258)
@@ -392,5 +392,5 @@ unexplained, not alien.
 - Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation — done (ep355)
 - Venus (1962): Venus spins in the opposite direction of almost every other planet, meaning the Sun rises in the west and sets in the east — done (ep378)
 - Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz — done (ep381)
-- Red dwarf: though our Sun is a Yellow Dwarf, these tiny, dim stars are actually the most common in the universe, making up 75% of all stars — making (ep397)
+- Red dwarf: though our Sun is a Yellow Dwarf, these tiny, dim stars are actually the most common in the universe, making up 75% of all stars — done (ep397)
 - Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time — making (ep407)

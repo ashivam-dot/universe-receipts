@@ -1,0 +1,176 @@
+id: ep408
+title: Why Neptune Only Finished One Orbit Since 1846
+series: Scale Breaker
+format: v3
+description: Humanity discovered Neptune in 1846, but the ice giant travels so far out that it takes 165 Earth years to circle
+  the Sun. It completed its very first observed orbit in July 2011.
+sources:
+- https://en.wikipedia.org/wiki/Neptune
+- https://science.nasa.gov/neptune/neptune-facts/
+- https://esahubble.org/announcements/ann1115/
+- https://www.stsci.edu/contents/news-releases/2011/news-2011-19
+hashtags:
+- '#space'
+- '#neptune'
+- '#solarsystem'
+tags:
+- neptune
+- solar system
+- astronomy
+- space
+- planetary science
+- orbit
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+  say:
+    Urbain Le Verrier: ur ban luh veh ree ay
+    Galle: gah luh
+    Urbain: ur bane
+beats:
+- text: Neptune has completed only one orbit since humans found it.
+  emphasis:
+  - only one orbit
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/9f/Neptune_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Neptune 1.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Neptune_1.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.19
+    - 0.19
+    - 0.81
+    - 0.81
+- text: It is the only planet invisible to the naked human eye.
+  emphasis:
+  - invisible
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Invisible
+      small: To naked human eyes
+    motion: zoom_in
+- text: Neptune orbits at an average distance of 2.8 billion miles.
+  emphasis:
+  - 2.8 billion miles
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 2.8 billion miles
+      small: Average distance from the Sun
+    motion: zoom_in
+- text: Out there, each of its four seasons lasts forty Earth years.
+  emphasis:
+  - forty Earth years
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Springtime_on_Neptune-_Increased_Brightness_Shows_Seasonal_Change.jpg/1920px-Springtime_on_Neptune-_Increased_Brightness_Shows_Seasonal_Change.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Springtime on Neptune- Increased Brightness Shows Seasonal Change.jpg
+      credit: NASA Hubble
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Springtime_on_Neptune-_Increased_Brightness_Shows_Seasonal_Change.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 40 years
+      small: Single season duration
+- text: Mathematician Urbain Le Verrier calculated its location before telescopes saw it.
+  emphasis:
+  - Urbain Le Verrier
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/89/Urbain_Le_Verrier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Urbain Le Verrier.jpg
+      credit: User Magnus Manske on en.wikipedia
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Urbain_Le_Verrier.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.45
+    focus_y: 0.28
+    box:
+    - 0.26
+    - 0.05
+    - 0.65
+    - 0.44
+- text: Astronomer Johann Gottfried Galle found the world on his first search night.
+  emphasis:
+  - Johann Gottfried Galle
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: '1846'
+      small: Berlin Observatory discovery
+    motion: zoom_in
+- text: Yet Neptune did not complete that first observed lap until July 2011.
+  emphasis:
+  - July 2011
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Compass_and_Scale_Image_of_Neptune_%282011-19-2864%29.jpg/1920px-Compass_and_Scale_Image_of_Neptune_%282011-19-2864%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Compass and Scale Image of Neptune (2011-19-2864).jpg
+      credit: 'NASA, ESA, and the Hubble Heritage Team (STScI/AURA); Illustration Credit: NASA, ESA, and Z. Levay (STScI)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Compass_and_Scale_Image_of_Neptune_(2011-19-2864).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: July 2011
+      small: First complete orbit
+- text: A single orbit of the ice giant takes 165 Earth years.
+  emphasis:
+  - 165 Earth years
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 2.8 BILLION MILES OUT

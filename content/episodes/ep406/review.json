@@ -1,0 +1,168 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-11T17:46:29+05:30",
+      "check": {
+        "duration": 23.47,
+        "words": 77,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong premise captures interest immediately.",
+        "clarity": "Stellar evolution steps are explained logically.",
+        "payoff": "Survival fact is interesting but lacks drama.",
+        "visuals": "Several frames contain cluttered, illegible text.",
+        "loop": "Grammatically seamless transition back to start."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Diagram contains illegible small text labels."
+        },
+        {
+          "beat": 3,
+          "problem": "Scientific graph overlay obscures the subject."
+        },
+        {
+          "beat": 4,
+          "problem": "Frame is mostly text and simple graphics."
+        },
+        {
+          "beat": 6,
+          "problem": "Distracting watermark text in bottom corner."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: While the inner worlds vanish, these giants will orbit the sun's cold corpse."
+      ],
+      "better_than_last": "The narrative structure and loop are tighter than the meteor storm episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-11T17:49:50+05:30",
+      "check": {
+        "duration": 25.6,
+        "words": 79,
+        "integrated_lufs": -13.7,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening that immediately challenges the common assumption of total solar destruction.",
+        "clarity": "The progression from fuel exhaustion to expansion to contraction is very easy to follow.",
+        "payoff": "Satisfactorily explains how the distance of the gas giants allows for their long-term survival.",
+        "visuals": "Several frames use technical diagrams or inaccurate celestial representations that distract from the narrative.",
+        "loop": "The transition from 'cold corpse' back to the surviving planets works logically for a replay."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "mostly text and a technical graph about neon which is unrelated to the spoken line about hydrogen"
+        },
+        {
+          "beat": 7,
+          "problem": "wrong object as the visual depicts a massive accretion disk or black hole rather than a white dwarf"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short uses a much clearer comparative diagram in beat five to explain spatial scale than the recent episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-11T17:51:21+05:30",
+      "check": {
+        "duration": 25.23,
+        "words": 79,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "A clear, high-stakes claim that effectively grabs attention.",
+        "clarity": "The sequence of solar evolution is very easy to follow.",
+        "payoff": "The image of planets orbiting a cold corpse is a strong emotional beat.",
+        "visuals": "Strong astronomical imagery, though some diagrams have small text.",
+        "loop": "The transition works well as a continuous thought even if not a single sentence."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "diagram labels are too small to read on phone screens"
+        },
+        {
+          "beat": 5,
+          "problem": "contains technical text and numbers that are difficult to read"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short captures a grander, more philosophical scale compared to the specific historical missions of recent episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

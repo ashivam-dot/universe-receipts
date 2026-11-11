@@ -1,0 +1,152 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-10T17:39:54+05:30",
+      "check": {
+        "duration": 34.46,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'of' after 'half'",
+          "'(nothing)' heard as 'star' after 'sits sagittarius a'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong personal connection creates immediate interest.",
+        "clarity": "Black hole flare tangent disrupts core narrative focus.",
+        "payoff": "Returns to main thesis, though mid-script detour weakens effect.",
+        "visuals": "Clear space imagery, but letterboxing reduces visual punch.",
+        "loop": "Seamless verbal and visual connection back to start."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 5: 'Distant supernova explosions drove this matter across space.'",
+        "Beat 6: 'These intergalactic currents fed gas directly into our galaxy.'"
+      ],
+      "better_than_last": "Connects cosmic galaxy dynamics directly to personal human chemistry more effectively than recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-11T17:37:18+05:30",
+      "check": {
+        "duration": 27.97,
+        "words": 79,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'of' after 'half'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Personal angle effectively grabs attention immediately.",
+        "clarity": "Straightforward timeline and scientific explanation.",
+        "payoff": "Ends by repeating the hook rather than adding a fresh insight.",
+        "visuals": "Clear, relevant astronomical imagery throughout.",
+        "loop": "Final phrase flows naturally back into the opening sentence."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Reframe final sentence to emphasize supernovas launching these atoms directly into us."
+      ],
+      "better_than_last": "Stronger personal hook tying complex astrophysics to human composition.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-11T17:39:31+05:30",
+      "check": {
+        "duration": 26.49,
+        "words": 76,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.5,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'of' after 'half'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong personal hook connecting human composition to deep space.",
+        "clarity": "Logical progression from historical views to intergalactic gas transfer.",
+        "payoff": "Satisfying resolution linking cosmic dust back to the viewer.",
+        "visuals": "Images are relevant but feature excessive black borders and bottom text.",
+        "loop": "Final sentence transitions seamlessly back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "contains visible caption text at the bottom"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode features a stronger personal hook that connects grand cosmological scale directly to human existence.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-11T17:39:31+05:30"
+}

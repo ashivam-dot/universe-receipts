@@ -1,0 +1,190 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-11T17:43:36+05:30",
+      "check": {
+        "duration": 27.27,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The hook uses a strong mental image of a football shape to make a dwarf planet's rotation relatable.",
+        "clarity": "Using Earth and Jupiter as benchmarks for rotation speed makes the '4 hour' stat extremely easy to grasp.",
+        "payoff": "The discovery of the ring system provides a satisfying second surprise to reward the viewer.",
+        "visuals": "Multiple beats use a mass-distribution chart that is completely unrelated to rotation speed or shape.",
+        "loop": "The script ends and begins with the exact same phrase, creating a perfectly seamless loop."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "off-topic chart showing planetary mass and distance instead of spin speed"
+        },
+        {
+          "beat": 5,
+          "problem": "off-topic chart that fails to visualize centrifugal force or the egg shape mentioned"
+        },
+        {
+          "beat": 6,
+          "problem": "technical diagram that is mostly text and not visually striking or clear at phone size"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The comparative structure of the rotation speeds provides a higher level of clarity than the more straightforward narratives in the recent episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-11T17:50:29+05:30",
+      "check": {
+        "duration": 24.82,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.9,
+        "warnings": [],
+        "speech_differences": [
+          "'haumea' heard as 'halmia' after 'the frozen world'",
+          "'haumea' heard as 'halmia' after 'object in 2017'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The verbal and visual hook effectively captures attention.",
+        "clarity": "The logical comparison between planet rotation speeds is easy to follow.",
+        "payoff": "The addition of the ring system fact provides a good secondary surprise.",
+        "visuals": "Hallucinated diagrams and incorrect planet frames diminish scientific credibility.",
+        "loop": "The conceptual repetition creates a satisfying enough transition for a loop."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Diagram contains non-English planet names and is likely an AI hallucination."
+        },
+        {
+          "beat": 5,
+          "problem": "Diagram uses incorrect terminology like 'Kham-Sestemi' for the Solar System."
+        },
+        {
+          "beat": 6,
+          "problem": "The frame explicitly identifies the object as Eris, which is incorrect."
+        },
+        {
+          "beat": 7,
+          "problem": "Visual shows multiple ringed bodies instead of a single ringed dwarf planet."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Haumea",
+          "respelling": "how may ah"
+        },
+        {
+          "beat": 7,
+          "word": "Haumea",
+          "respelling": "how may ah"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "The tangible physical description of the planet's shape is more evocative than the abstract premise of episode 391.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-11T17:52:05+05:30",
+      "check": {
+        "duration": 28.43,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The visual comparison to a football creates immediate intrigue.",
+        "clarity": "Relative rotation speeds provide an excellent sense of scale.",
+        "payoff": "The discovery of rings is interesting but needs more impact.",
+        "visuals": "Several frames contain inaccurate labels for the planets mentioned.",
+        "loop": "The closing sentence transitions perfectly back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Image contains labels for Kepler-51 exoplanets rather than Jupiter."
+        },
+        {
+          "beat": 5,
+          "problem": "The solar system map fails to visualize the centrifugal distortion."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: In 2017, astronomers were shocked to find rings around this egg.",
+        "Beat 7: It is the first dwarf planet ever found with its own rings."
+      ],
+      "better_than_last": "This episode uses more effective comparative metrics to explain speed than ep395.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals; 2 frame problems",
+  "rejected_at": "2026-11-11T17:52:05+05:30"
+}

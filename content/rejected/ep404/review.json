@@ -1,0 +1,171 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-11T11:14:27+05:30",
+      "check": {
+        "duration": 33.43,
+        "words": 90,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -3.9,
+        "warnings": [],
+        "speech_differences": [
+          "'burrows' heard as 'grows' after 'a dead star'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The idea of a dead star hiding inside a living star immediately grabs attention.",
+        "clarity": "The step-by-step explanation of the hybrid star's internal process is simple to follow.",
+        "payoff": "Concluding with the core collapsing into a black hole provides a strong narrative payoff.",
+        "visuals": "Beat 5 displays a dense scientific diagram that is mostly text and unreadable on phone screens.",
+        "loop": "The final beat connects seamlessly back to the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It presents a much more exotic and mind-bending astrophysical phenomenon than recent historical space stories.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-11T11:16:42+05:30",
+      "check": {
+        "duration": 33.43,
+        "words": 90,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -3.9,
+        "warnings": [],
+        "speech_differences": [
+          "'burrows' heard as 'grows' after 'a dead star'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong mysterious opening that immediately identifies the two subjects.",
+        "clarity": "The middle section uses heavy nuclear physics jargon that might confuse a general audience.",
+        "payoff": "The transformation into a black hole provides a definitive and satisfying conclusion.",
+        "visuals": "Several frames are either too academic or too generic to maintain the 'mind-bending' feel.",
+        "loop": "Perfect grammatical and thematic transition from the final word back to the start."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "mostly text and a complex graph that is unreadable at phone size"
+        },
+        {
+          "beat": 6,
+          "problem": "generic star field that does not illustrate the surface convection described"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 9,
+          "word": "burrows",
+          "respelling": "burr ohs"
+        }
+      ],
+      "rewrite": [
+        "Beat 5: This intense heat creates new, heavy elements deep inside the star.",
+        "Beat 6: The star then churns these rare metals all the way to its surface."
+      ],
+      "better_than_last": "This Short achieves a much more seamless loop than ep391 by ending with the same phrase that initiates the hook.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-11T17:35:17+05:30",
+      "check": {
+        "duration": 32.95,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong intriguing statement about a dead star hiding inside another.",
+        "clarity": "Narrative flow is easy to follow with simple physical steps.",
+        "payoff": "Collapsing into a black hole is somewhat conventional for extreme cosmic events.",
+        "visuals": "Frame 5 features an illegible and text-heavy scientific chart unsuited for mobile.",
+        "loop": "The final phrase does not transition cleanly into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: \"And that destruction begins because\""
+      ],
+      "better_than_last": "Features a more dramatic internal astronomical mechanism than recent historical mission topics.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals, loop",
+  "rejected_at": "2026-11-11T17:35:17+05:30"
+}
