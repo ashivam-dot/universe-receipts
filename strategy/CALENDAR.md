@@ -93,6 +93,7 @@ unexplained, not alien.
 | Dec 14 | Apollo 17 (1972): Gene Cernan left his daughter's initials traced in the lunar dust before stepping off the Moon on humanity's last Apollo spacewalk | Mission Files |
 | Dec 15 | Gemini 6A (1965): on Dec 15, NASA pulled off the first crewed spacecraft rendezvous, maneuvering within one foot of another capsule at 17,000 mph | Near Misses |
 | Dec 21 | Apollo 8 (1968): on this day, the first humans to ever leave Earth orbit entered lunar gravity and broadcast Christmas Eve from space | Mission Files |
+| Dec 21 | Apollo 8 (1968): on Dec 21, NASA launched Apollo 8, sending the first human crew beyond Earth orbit toward the Moon | Mission Files |
 | Dec 25 | James Webb Space Telescope (2021): on Christmas Day, NASA launched a $10 billion observatory into deep space to look back to the beginning of time | Mission Files |
 | Dec 27 | Allan Hills 84001 (1984): on Dec 27, scientists found a meteorite from Mars in Antarctica that later launched a global debate over alien microfossils | Space Got Weird |
 | Dec 30 | Edwin Hubble (1924): on this day, the astronomer officially proved that the 'nebula' Andromeda was actually an entire galaxy outside our own | Scale Breaker |
@@ -186,6 +187,7 @@ unexplained, not alien.
 - Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks — parked (ep385)
 - Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever — parked (ep399)
 - Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant — done (ep406)
+- Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light
 
 ### Scale Breaker
 
@@ -273,6 +275,7 @@ unexplained, not alien.
 - Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — parked (ep303)
 - Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — done (ep360)
 - Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years — parked (ep371)
+- Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth
 
 ### Space Got Weird
 
@@ -316,6 +319,8 @@ unexplained, not alien.
 - Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water — done (ep359)
 - Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon — dropped (ep361)
 - Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun — done (ep379)
+- Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain
+- Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space
 
 ### Near Misses
 

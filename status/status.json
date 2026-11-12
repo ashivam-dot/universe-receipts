@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-12T11:13:45+05:30",
+  "updated_at": "2026-11-12T17:09:12+05:30",
   "day": 42,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M774162ZWG9DF91Y8XH7DNXR",
+    "id": "ta-01M77RMAPWMHKZR63SE9RPKPDR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-12T11:05:15+05:30",
-    "started_at_utc": "2026-11-12T05:35:15+00:00",
-    "seconds": 510
+    "started_at": "2026-11-12T17:05:10+05:30",
+    "started_at_utc": "2026-11-12T11:35:10+00:00",
+    "seconds": 242
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 1.1
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "109 posts",
-      "seconds": 2.6
+      "detail": "111 posts",
+      "seconds": 0.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep373 to 'Near Misses'; added ep378 to 'Space Myths, Busted'",
-      "seconds": 4.8
+      "detail": "nothing new",
+      "seconds": 3.7
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep351 language en/None -> en; ep360 language en/None -> en",
-      "seconds": 1.8
+      "detail": "every live Short is in English",
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -45,55 +45,93 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep349 at 72 h: ahead of the channel's earlier Shorts at this age: 1272 views against a median of 1016 (1.3x); ep357 at 72 h: ahead of the channel's earlier Shorts at this age: 1487 views against a median of 1018 (1.5x); ep365 at 24 h: level with the channel's earlier Shorts at this age: 1027 views against a median of 873 (1.2x); ep369 at 24 h: behind the channel's earlier Shorts at this age: 130 views against a median of 917 (0.1x); learnings: Formalized the loop and cosmic-scale rules using ep346-ep369 data; added hook redundancy and conflict-timing hypotheses after ep369's reach collapse.",
-      "seconds": 455.0
+      "detail": "ep373 at 6 h: level with the channel's earlier Shorts at this age: 714 views against a median of 659 (1.1x); ep378 at 6 h: ahead of the channel's earlier Shorts at this age: 1122 views against a median of 664 (1.7x)",
+      "seconds": 4.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep411 ready",
-      "seconds": 7.6
+      "detail": "nothing in the cloud",
+      "seconds": 4.1
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "127 subscribers",
+      "seconds": 10.0
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Reviewed 10 recent Shorts (ep349, ep351, ep352, ep356, ep357, ep360, ep362, ep365, ep367, ep369); maintained proven rules and refined hypotheses to prioritize non-redundant hooks and faster beat 2 con",
+      "seconds": 101.0
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 2.1
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 15.9
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "5 added",
+      "seconds": 70.5
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-042.md",
+      "seconds": 2.9
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "preflight ep380",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.4
     },
     {
       "name": "preflight ep387",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.4
+    },
+    {
+      "name": "preflight ep411",
+      "ok": true,
+      "detail": "video downloads whole (10 MB in 0 s)",
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 11.5
-    },
-    {
-      "name": "schedule ep411",
-      "ok": true,
-      "detail": "2026-11-12T12:30:00-05:00",
-      "seconds": 1.7
-    },
-    {
-      "name": "schedule ep397",
-      "ok": true,
-      "detail": "2026-11-14T21:30:00-05:00",
-      "seconds": 1.9
+      "seconds": 2.1
     }
   ],
   "errors": [],
   "owner_action": [],
-  "notes": [],
+  "notes": [
+    "Buffer is full (10 queued); 4 waiting"
+  ],
   "inventory": {
     "total": 14,
     "in_buffer": 10,
@@ -185,69 +223,36 @@
       "score": 21
     }
   ],
-  "made": [
-    {
-      "id": "ep411",
-      "outcome": "ready",
-      "topic": "Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space",
-      "title": "Why NASA Turned Voyager 1 Back Toward the Sun",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794441277/universereceipts/ep411-a7eb722e.mp4"
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
-  "published": [
-    {
-      "id": "ep411",
-      "title": "Why NASA Turned Voyager 1 Back Toward the Sun",
-      "due_at": "2026-11-12T12:30:00-05:00"
-    },
-    {
-      "id": "ep397",
-      "title": "Why the Universe’s Most Common Stars are Invisible",
-      "due_at": "2026-11-14T21:30:00-05:00"
-    }
-  ],
+  "published": [],
   "live": 101,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 11,
+    "calls": 3,
     "by_model": {
-      "gemini-3.6-flash": 3,
-      "gemini-3.5-flash": 1,
-      "gemini-3-flash-preview": 3,
-      "gemini-3.5-flash-lite": 2,
-      "gemini-3.8-flash": 2
+      "gemini-3.6-flash": 2,
+      "gemini-3.5-flash": 1
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 1,
+    "modal": 0,
     "runner": 0
   },
-  "daily_done": "2026-11-11",
+  "daily_done": "2026-11-12",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 8.11,
+    "metered": 8.14,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": null,
   "starved": 0,
   "made_here": 0,
-  "open_topics": 29,
+  "open_topics": 34,
   "parked_topics": 70
 }
