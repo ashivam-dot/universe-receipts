@@ -1,0 +1,202 @@
+id: ep411
+title: Why NASA Turned Voyager 1 Back Toward the Sun
+series: Scale Breaker
+format: v3
+description: Before shutting down its cameras forever, Voyager 1 turned around to capture the first portrait of our Solar
+  System from the outside.
+sources:
+- https://en.wikipedia.org/wiki/Family_Portrait_(Voyager)
+- http://photojournal.jpl.nasa.gov/catalog/PIA00451
+- https://www.planetary.org/articles/family-portrait
+hashtags:
+- '#space'
+- '#voyager'
+- '#nasa'
+tags:
+- voyager 1
+- family portrait
+- carl sagan
+- pale blue dot
+- solar system
+- space exploration
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA pointed Voyager 1 right back at the Sun.
+  emphasis:
+  - right back at the Sun
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d2/Voyager.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Blinding sunlight risked destroying its cameras nearly four billion miles out.
+  emphasis:
+  - destroying its cameras
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/28/Voyager_Portrait_Family_diagram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager Portrait Family diagram.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_Portrait_Family_diagram.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 4 BILLION MILES
+      small: from Earth
+- text: Astronomer Carl Sagan had spent years begging NASA to turn around.
+  emphasis:
+  - Carl Sagan
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Planetary_society2.jpg/1280px-Planetary_society2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Planetary society2.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Planetary_society2.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.42
+    focus_y: 0.5
+    box:
+    - 0.3
+    - 0.36
+    - 0.53
+    - 0.64
+- text: Voyager 1 was tilted about 32 degrees above the planets' plane.
+  emphasis:
+  - 32 degrees above
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Family_portrait_%28Voyager_1%29.png/3840px-Family_portrait_%28Voyager_1%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Family portrait (Voyager 1).png
+      credit: NASA, Voyager 1
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Family_portrait_(Voyager_1).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 32 DEGREES
+      small: above the planets
+- text: Engineers snapped 60 frames using their darkest filter and fastest shutter.
+  emphasis:
+  - darkest filter
+  - fastest shutter
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/64/View_of_the_Sun%2C_Earth_and_Venus_from_Voyager_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: View of the Sun, Earth and Venus from Voyager 1.png
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:View_of_the_Sun,_Earth_and_Venus_from_Voyager_1.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.85
+    focus_y: 0.68
+    box:
+    - 0.72
+    - 0.52
+    - 0.98
+    - 0.84
+    card:
+      kind: fact
+      big: DARKEST FILTER
+      small: fastest shutter
+- text: Mercury and Mars were lost, but six distant planets appeared.
+  emphasis:
+  - six distant planets
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Solar_System_Group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Solar System Group.jpg
+      credit: NASA / Voyager 1 probe
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_System_Group.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 6 PLANETS
+      small: across 60 frames
+- text: Those final photographs became our first family portrait from the outside.
+  emphasis:
+  - first family portrait
+  - from the outside
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/71/PaleBlueDot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PaleBlueDot.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PaleBlueDot.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.56
+    focus_y: 0.41
+- text: No camera had ever looked back toward home.
+  emphasis:
+  - looked back toward home
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 4 BILLION MILES AWAY

@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-12T05:06:35+05:30",
+  "updated_at": "2026-11-12T11:13:45+05:30",
   "day": 42,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M76FDZMKE0EBKZ7YZ5PB7W0R",
+    "id": "ta-01M774162ZWG9DF91Y8XH7DNXR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-12T05:05:20+05:30",
-    "started_at_utc": "2026-11-11T23:35:20+00:00",
-    "seconds": 76
+    "started_at": "2026-11-12T11:05:15+05:30",
+    "started_at_utc": "2026-11-12T05:35:15+00:00",
+    "seconds": 510
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.2
+      "seconds": 2.0
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "109 posts",
-      "seconds": 5.6
+      "seconds": 2.6
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 5.0
+      "detail": "added ep373 to 'Near Misses'; added ep378 to 'Space Myths, Busted'",
+      "seconds": 4.8
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.4
+      "detail": "ep351 language en/None -> en; ep360 language en/None -> en",
+      "seconds": 1.8
     },
     {
       "name": "on youtube",
@@ -45,77 +45,59 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 3.0
+      "detail": "ep349 at 72 h: ahead of the channel's earlier Shorts at this age: 1272 views against a median of 1016 (1.3x); ep357 at 72 h: ahead of the channel's earlier Shorts at this age: 1487 views against a median of 1018 (1.5x); ep365 at 24 h: level with the channel's earlier Shorts at this age: 1027 views against a median of 873 (1.2x); ep369 at 24 h: behind the channel's earlier Shorts at this age: 130 views against a median of 917 (0.1x); learnings: Formalized the loop and cosmic-scale rules using ep346-ep369 data; added hook redundancy and conflict-timing hypotheses after ep369's reach collapse.",
+      "seconds": 455.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep409 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep410 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 14.0
+      "detail": "ep411 ready",
+      "seconds": 7.6
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.8
-    },
-    {
-      "name": "preflight ep373",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 1.8
-    },
-    {
-      "name": "preflight ep378",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 1.1
+      "seconds": 0.2
     },
     {
       "name": "preflight ep380",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 1.8
+      "seconds": 0.6
     },
     {
       "name": "preflight ep387",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.8
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.6
+      "seconds": 11.5
     },
     {
-      "name": "start ep411",
+      "name": "schedule ep411",
       "ok": true,
-      "detail": "Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space",
-      "seconds": 3.1
+      "detail": "2026-11-12T12:30:00-05:00",
+      "seconds": 1.7
     },
     {
-      "name": "publish",
+      "name": "schedule ep397",
       "ok": true,
-      "detail": "",
-      "seconds": 2.5
+      "detail": "2026-11-14T21:30:00-05:00",
+      "seconds": 1.9
     }
   ],
   "errors": [],
   "owner_action": [],
-  "notes": [
-    "ep409 stopped on Gemini's free quota; it resumes in a later run",
-    "ep410 stopped on Gemini's free quota; it resumes in a later run",
-    "Buffer is full (10 queued); 5 waiting",
-    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer is full (10 queued); 5 waiting"
-  ],
+  "notes": [],
   "inventory": {
-    "total": 15,
+    "total": 14,
     "in_buffer": 10,
-    "waiting": 5,
+    "waiting": 4,
     "target": 14,
     "making": [
       "ep405",
@@ -123,20 +105,13 @@
       "ep409",
       "ep410"
     ],
-    "remote": [
-      "ep411"
-    ]
+    "remote": []
   },
   "queue": [
     {
-      "id": "ep378",
-      "title": "The Planet That Spins Backward",
-      "due_at": "2026-11-11T19:00:00-05:00"
-    },
-    {
-      "id": "ep373",
-      "title": "The Rocket That Struck ITSELF",
-      "due_at": "2026-11-11T21:30:00-05:00"
+      "id": "ep411",
+      "title": "Why NASA Turned Voyager 1 Back Toward the Sun",
+      "due_at": "2026-11-12T12:30:00-05:00"
     },
     {
       "id": "ep380",
@@ -162,6 +137,11 @@
       "id": "ep379",
       "title": "The Coldest Planet Isn't the Farthest Away",
       "due_at": "2026-11-14T19:00:00-05:00"
+    },
+    {
+      "id": "ep397",
+      "title": "Why the Universe’s Most Common Stars are Invisible",
+      "due_at": "2026-11-14T21:30:00-05:00"
     },
     {
       "id": "ep391",
@@ -199,12 +179,6 @@
       "score": 20
     },
     {
-      "id": "ep397",
-      "title": "Why the Universe’s Most Common Stars are Invisible",
-      "series": "Space Myths, Busted",
-      "score": 22
-    },
-    {
       "id": "ep406",
       "title": "Jupiter Will Outlive the Death of Our Sun",
       "series": "The Universe Is Terrifying",
@@ -213,67 +187,65 @@
   ],
   "made": [
     {
-      "id": "ep409",
-      "outcome": "unfinished",
-      "topic": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep411",
+      "outcome": "ready",
+      "topic": "Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space",
+      "title": "Why NASA Turned Voyager 1 Back Toward the Sun",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794441277/universereceipts/ep411-a7eb722e.mp4"
+    }
+  ],
+  "spawned": [],
+  "in_cloud": [],
+  "published": [
+    {
+      "id": "ep411",
+      "title": "Why NASA Turned Voyager 1 Back Toward the Sun",
+      "due_at": "2026-11-12T12:30:00-05:00"
     },
     {
-      "id": "ep410",
-      "outcome": "unfinished",
-      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep397",
+      "title": "Why the Universe’s Most Common Stars are Invisible",
+      "due_at": "2026-11-14T21:30:00-05:00"
     }
   ],
-  "spawned": [
-    {
-      "id": "ep411",
-      "topic": "Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space",
-      "call_id": "fc-01M76FGNPGEYZKYXJ4GB0RJ138"
-    }
-  ],
-  "in_cloud": [
-    {
-      "id": "ep411",
-      "topic": "Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space",
-      "spawned_at": "2026-11-12T05:06:29+05:30"
-    }
-  ],
-  "published": [],
-  "live": 99,
+  "live": 101,
   "failed_posts": [],
   "not_live": [],
   "llm": {
     "calls": 11,
     "by_model": {
-      "gemini-3.5-flash-lite": 7,
-      "gemini-3.6-flash": 2,
-      "gemini-3-flash-preview": 2
+      "gemini-3.6-flash": 3,
+      "gemini-3.5-flash": 1,
+      "gemini-3-flash-preview": 3,
+      "gemini-3.5-flash-lite": 2,
+      "gemini-3.8-flash": 2
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash"
+    ]
   },
   "renders": {
-    "modal": 3,
+    "modal": 1,
     "runner": 0
   },
   "daily_done": "2026-11-11",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 8.05,
+    "metered": 8.11,
     "billed": 0.0
   },
   "modal_credit": 30.0,
-  "capacity": {
-    "cloud": 166,
-    "runner": 0,
-    "runner_minutes": 0,
-    "modal_credit_left": 19.95
-  },
+  "capacity": null,
   "starved": 0,
   "made_here": 0,
   "open_topics": 29,
