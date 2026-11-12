@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-12T23:06:13+05:30",
-  "day": 42,
+  "updated_at": "2026-11-13T05:05:57+05:30",
+  "day": 43,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M78D7GQAJK0W3AM3E48ZD20R",
+    "id": "ta-01M791TNSRKN8HETZ1PQFQYJER",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-12T23:05:10+05:30",
-    "started_at_utc": "2026-11-12T17:35:10+00:00",
-    "seconds": 64
+    "started_at": "2026-11-13T05:05:10+05:30",
+    "started_at_utc": "2026-11-12T23:35:10+00:00",
+    "seconds": 47
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 1.8
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "111 posts",
-      "seconds": 2.0
+      "detail": "112 posts",
+      "seconds": 0.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "added ep411 to 'Scale Breaker'",
-      "seconds": 8.0
+      "detail": "nothing new",
+      "seconds": 4.8
     },
     {
       "name": "languages",
@@ -45,14 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 3.9
+      "detail": "ep411 at 6 h: ahead of the channel's earlier Shorts at this age: 1037 views against a median of 668 (1.6x)",
+      "seconds": 4.6
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "nothing in the cloud",
-      "seconds": 4.4
+      "detail": "ep405 ready",
+      "seconds": 6.8
     },
     {
       "name": "buffer channel",
@@ -64,43 +64,25 @@
       "name": "preflight ep380",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "preflight ep381",
-      "ok": true,
-      "detail": "video downloads whole (16 MB in 0 s)",
-      "seconds": 0.4
-    },
-    {
-      "name": "preflight ep386",
-      "ok": true,
-      "detail": "video downloads whole (14 MB in 0 s)",
-      "seconds": 0.6
-    },
-    {
-      "name": "preflight ep387",
       "ok": true,
       "detail": "video still hosted",
       "seconds": 0.2
     },
     {
-      "name": "publish",
+      "name": "preflight ep386",
       "ok": true,
-      "detail": "",
-      "seconds": 8.8
+      "detail": "video still hosted",
+      "seconds": 0.3
     },
     {
-      "name": "schedule ep406",
+      "name": "preflight ep387",
       "ok": true,
-      "detail": "2026-11-15T19:00:00-05:00",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep405",
-      "ok": true,
-      "detail": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
-      "seconds": 0.9
+      "detail": "video still hosted",
+      "seconds": 0.4
     },
     {
       "name": "publish",
@@ -112,21 +94,19 @@
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 3 waiting"
+    "Buffer is full (10 queued); 4 waiting"
   ],
   "inventory": {
-    "total": 13,
+    "total": 14,
     "in_buffer": 10,
-    "waiting": 3,
+    "waiting": 4,
     "target": 14,
     "making": [
       "ep407",
       "ep409",
       "ep410"
     ],
-    "remote": [
-      "ep405"
-    ]
+    "remote": []
   },
   "queue": [
     {
@@ -198,56 +178,56 @@
       "title": "The Invisible Star Devouring Cassiopeia's Giant",
       "series": "The Universe Is Terrifying",
       "score": 20
-    }
-  ],
-  "made": [],
-  "spawned": [
+    },
     {
       "id": "ep405",
-      "topic": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
-      "call_id": "fc-01M78D9H76QK1TYS1NCT2TVJB4"
+      "title": "The Spacecraft One Light-Day Away From Earth",
+      "series": "Scale Breaker",
+      "score": 20
     }
   ],
-  "in_cloud": [
+  "made": [
     {
       "id": "ep405",
+      "outcome": "ready",
       "topic": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
-      "spawned_at": "2026-11-12T23:06:07+05:30"
+      "title": "The Spacecraft One Light-Day Away From Earth",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794505203/universereceipts/ep405-b54f7fc5.mp4"
     }
   ],
-  "published": [
-    {
-      "id": "ep406",
-      "title": "Jupiter Will Outlive the Death of Our Sun",
-      "due_at": "2026-11-15T19:00:00-05:00"
-    }
-  ],
+  "spawned": [],
+  "in_cloud": [],
+  "published": [],
   "live": 102,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 0,
-    "by_model": {},
+    "calls": 1,
+    "by_model": {
+      "gemini-3.8-flash": 1
+    },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 0,
+    "modal": 1,
     "runner": 0
   },
   "daily_done": "2026-11-12",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 8.14,
+    "metered": 8.17,
     "billed": 0.0
   },
   "modal_credit": 30.0,
-  "capacity": {
-    "cloud": 165,
-    "runner": 0,
-    "runner_minutes": 0,
-    "modal_credit_left": 19.86
-  },
+  "capacity": null,
   "starved": 0,
   "made_here": 0,
   "open_topics": 34,
