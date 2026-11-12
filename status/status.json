@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-11-12T17:09:12+05:30",
+  "updated_at": "2026-11-12T23:06:13+05:30",
   "day": 42,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M77RMAPWMHKZR63SE9RPKPDR",
+    "id": "ta-01M78D7GQAJK0W3AM3E48ZD20R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-12T17:05:10+05:30",
-    "started_at_utc": "2026-11-12T11:35:10+00:00",
-    "seconds": 242
+    "started_at": "2026-11-12T23:05:10+05:30",
+    "started_at_utc": "2026-11-12T17:35:10+00:00",
+    "seconds": 64
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "111 posts",
-      "seconds": 0.7
+      "seconds": 2.0
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 3.7
+      "detail": "added ep411 to 'Scale Breaker'",
+      "seconds": 8.0
     },
     {
       "name": "languages",
@@ -45,56 +45,14 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep373 at 6 h: level with the channel's earlier Shorts at this age: 714 views against a median of 659 (1.1x); ep378 at 6 h: ahead of the channel's earlier Shorts at this age: 1122 views against a median of 664 (1.7x)",
-      "seconds": 4.2
+      "detail": "no checkpoint due",
+      "seconds": 3.9
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 4.1
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "127 subscribers",
-      "seconds": 10.0
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Reviewed 10 recent Shorts (ep349, ep351, ep352, ep356, ep357, ep360, ep362, ep365, ep367, ep369); maintained proven rules and refined hypotheses to prioritize non-redundant hooks and faster beat 2 con",
-      "seconds": 101.0
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 2.1
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 15.9
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 70.5
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-042.md",
-      "seconds": 2.9
+      "seconds": 4.4
     },
     {
       "name": "buffer channel",
@@ -109,48 +67,68 @@
       "seconds": 0.4
     },
     {
-      "name": "preflight ep387",
+      "name": "preflight ep381",
       "ok": true,
-      "detail": "video still hosted",
+      "detail": "video downloads whole (16 MB in 0 s)",
       "seconds": 0.4
     },
     {
-      "name": "preflight ep411",
+      "name": "preflight ep386",
       "ok": true,
-      "detail": "video downloads whole (10 MB in 0 s)",
+      "detail": "video downloads whole (14 MB in 0 s)",
+      "seconds": 0.6
+    },
+    {
+      "name": "preflight ep387",
+      "ok": true,
+      "detail": "video still hosted",
       "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
+      "seconds": 8.8
+    },
+    {
+      "name": "schedule ep406",
+      "ok": true,
+      "detail": "2026-11-15T19:00:00-05:00",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep405",
+      "ok": true,
+      "detail": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
+      "seconds": 0.9
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 2.3
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 4 waiting"
+    "Buffer is full (10 queued); 3 waiting"
   ],
   "inventory": {
-    "total": 14,
+    "total": 13,
     "in_buffer": 10,
-    "waiting": 4,
+    "waiting": 3,
     "target": 14,
     "making": [
-      "ep405",
       "ep407",
       "ep409",
       "ep410"
     ],
-    "remote": []
+    "remote": [
+      "ep405"
+    ]
   },
   "queue": [
-    {
-      "id": "ep411",
-      "title": "Why NASA Turned Voyager 1 Back Toward the Sun",
-      "due_at": "2026-11-12T12:30:00-05:00"
-    },
     {
       "id": "ep380",
       "title": "Jupiter's Invisible Magnetic Monster",
@@ -180,6 +158,11 @@
       "id": "ep397",
       "title": "Why the Universe’s Most Common Stars are Invisible",
       "due_at": "2026-11-14T21:30:00-05:00"
+    },
+    {
+      "id": "ep406",
+      "title": "Jupiter Will Outlive the Death of Our Sun",
+      "due_at": "2026-11-15T19:00:00-05:00"
     },
     {
       "id": "ep391",
@@ -215,27 +198,36 @@
       "title": "The Invisible Star Devouring Cassiopeia's Giant",
       "series": "The Universe Is Terrifying",
       "score": 20
-    },
-    {
-      "id": "ep406",
-      "title": "Jupiter Will Outlive the Death of Our Sun",
-      "series": "The Universe Is Terrifying",
-      "score": 21
     }
   ],
   "made": [],
-  "spawned": [],
-  "in_cloud": [],
-  "published": [],
-  "live": 101,
+  "spawned": [
+    {
+      "id": "ep405",
+      "topic": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
+      "call_id": "fc-01M78D9H76QK1TYS1NCT2TVJB4"
+    }
+  ],
+  "in_cloud": [
+    {
+      "id": "ep405",
+      "topic": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
+      "spawned_at": "2026-11-12T23:06:07+05:30"
+    }
+  ],
+  "published": [
+    {
+      "id": "ep406",
+      "title": "Jupiter Will Outlive the Death of Our Sun",
+      "due_at": "2026-11-15T19:00:00-05:00"
+    }
+  ],
+  "live": 102,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 3,
-    "by_model": {
-      "gemini-3.6-flash": 2,
-      "gemini-3.5-flash": 1
-    },
+    "calls": 0,
+    "by_model": {},
     "out_of_quota": []
   },
   "renders": {
@@ -250,7 +242,12 @@
     "billed": 0.0
   },
   "modal_credit": 30.0,
-  "capacity": null,
+  "capacity": {
+    "cloud": 165,
+    "runner": 0,
+    "runner_minutes": 0,
+    "modal_credit_left": 19.86
+  },
   "starved": 0,
   "made_here": 0,
   "open_topics": 34,
