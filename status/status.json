@@ -1,123 +1,137 @@
 {
-  "updated_at": "2026-11-13T05:05:57+05:30",
+  "updated_at": "2026-11-13T11:21:34+05:30",
   "day": 43,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M791TNSRKN8HETZ1PQFQYJER",
+    "id": "ta-01M79PDVNEHRHSK3FB9P2EJ0FR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-13T05:05:10+05:30",
-    "started_at_utc": "2026-11-12T23:35:10+00:00",
-    "seconds": 47
+    "started_at": "2026-11-13T11:05:13+05:30",
+    "started_at_utc": "2026-11-13T05:35:13+00:00",
+    "seconds": 981
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
+      "seconds": 2.0
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "112 posts",
-      "seconds": 0.7
+      "seconds": 2.9
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "nothing new",
-      "seconds": 4.8
+      "detail": "added ep380 to 'Scale Breaker'; added ep387 to 'Mission Files'",
+      "seconds": 5.0
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.5
+      "detail": "ep369 language en/None -> en",
+      "seconds": 0.9
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep411 at 6 h: ahead of the channel's earlier Shorts at this age: 1037 views against a median of 668 (1.6x)",
-      "seconds": 4.6
+      "detail": "ep351 at 72 h: level with the channel's earlier Shorts at this age: 1012 views against a median of 1019 (1.0x); ep360 at 72 h: ahead of the channel's earlier Shorts at this age: 1277 views against a median of 1018 (1.3x); ep373 at 24 h: level with the channel's earlier Shorts at this age: 847 views against a median of 873 (1.0x); ep378 at 24 h: ahead of the channel's earlier Shorts at this age: 1171 views against a median of 847 (1.4x); learnings: Reviewed 10 recent Shorts, confirming that verbatim hook repetition causes reach failure (ep369) while summary endings hurt engagement across missio",
+      "seconds": 919.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep405 ready",
-      "seconds": 6.8
+      "detail": "nothing in the cloud",
+      "seconds": 4.4
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.1
-    },
-    {
-      "name": "preflight ep380",
-      "ok": true,
-      "detail": "video still hosted",
       "seconds": 0.2
     },
     {
       "name": "preflight ep381",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "name": "preflight ep386",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.3
-    },
-    {
-      "name": "preflight ep387",
-      "ok": true,
-      "detail": "video still hosted",
-      "seconds": 0.4
+      "seconds": 0.6
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.3
+      "seconds": 10.5
+    },
+    {
+      "name": "schedule ep405",
+      "ok": true,
+      "detail": "2026-11-13T16:30:00-05:00",
+      "seconds": 1.9
+    },
+    {
+      "name": "schedule ep390",
+      "ok": true,
+      "detail": "2026-11-15T21:30:00-05:00",
+      "seconds": 1.2
+    },
+    {
+      "name": "start ep407",
+      "ok": true,
+      "detail": "Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time",
+      "seconds": 1.9
+    },
+    {
+      "name": "start ep409",
+      "ok": true,
+      "detail": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
+      "seconds": 1.6
+    },
+    {
+      "name": "publish",
+      "ok": true,
+      "detail": "",
+      "seconds": 2.2
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 4 waiting"
+    "Buffer is full (10 queued); 2 waiting"
   ],
   "inventory": {
-    "total": 14,
+    "total": 12,
     "in_buffer": 10,
-    "waiting": 4,
+    "waiting": 2,
     "target": 14,
     "making": [
-      "ep407",
-      "ep409",
       "ep410"
     ],
-    "remote": []
+    "remote": [
+      "ep407",
+      "ep409"
+    ]
   },
   "queue": [
     {
-      "id": "ep380",
-      "title": "Jupiter's Invisible Magnetic Monster",
-      "due_at": "2026-11-12T19:00:00-05:00"
-    },
-    {
-      "id": "ep387",
-      "title": "Rosetta's 2 MPH Comet Landing",
-      "due_at": "2026-11-12T21:30:00-05:00"
+      "id": "ep405",
+      "title": "The Spacecraft One Light-Day Away From Earth",
+      "due_at": "2026-11-13T16:30:00-05:00"
     },
     {
       "id": "ep386",
@@ -143,6 +157,11 @@
       "id": "ep406",
       "title": "Jupiter Will Outlive the Death of Our Sun",
       "due_at": "2026-11-15T19:00:00-05:00"
+    },
+    {
+      "id": "ep390",
+      "title": "The Invisible Star Devouring Cassiopeia's Giant",
+      "due_at": "2026-11-15T21:30:00-05:00"
     },
     {
       "id": "ep391",
@@ -172,62 +191,74 @@
       "title": "The Invisible Tug on Sirius",
       "series": "Scale Breaker",
       "score": 20
+    }
+  ],
+  "made": [],
+  "spawned": [
+    {
+      "id": "ep407",
+      "topic": "Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time",
+      "call_id": "fc-01M79QBYJJR81C02CMKB2652KB"
+    },
+    {
+      "id": "ep409",
+      "topic": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
+      "call_id": "fc-01M79QC071SJWG7BZAAZ5V5189"
+    }
+  ],
+  "in_cloud": [
+    {
+      "id": "ep407",
+      "topic": "Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time",
+      "spawned_at": "2026-11-13T11:21:26+05:30"
+    },
+    {
+      "id": "ep409",
+      "topic": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
+      "spawned_at": "2026-11-13T11:21:28+05:30"
+    }
+  ],
+  "published": [
+    {
+      "id": "ep405",
+      "title": "The Spacecraft One Light-Day Away From Earth",
+      "due_at": "2026-11-13T16:30:00-05:00"
     },
     {
       "id": "ep390",
       "title": "The Invisible Star Devouring Cassiopeia's Giant",
-      "series": "The Universe Is Terrifying",
-      "score": 20
-    },
-    {
-      "id": "ep405",
-      "title": "The Spacecraft One Light-Day Away From Earth",
-      "series": "Scale Breaker",
-      "score": 20
+      "due_at": "2026-11-15T21:30:00-05:00"
     }
   ],
-  "made": [
-    {
-      "id": "ep405",
-      "outcome": "ready",
-      "topic": "Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it",
-      "title": "The Spacecraft One Light-Day Away From Earth",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794505203/universereceipts/ep405-b54f7fc5.mp4"
-    }
-  ],
-  "spawned": [],
-  "in_cloud": [],
-  "published": [],
-  "live": 102,
+  "live": 104,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 1,
+    "calls": 5,
     "by_model": {
-      "gemini-3.8-flash": 1
+      "gemini-3.7-flash": 4,
+      "gemini-3.6-flash": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 1,
+    "modal": 0,
     "runner": 0
   },
   "daily_done": "2026-11-12",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 8.17,
+    "metered": 8.19,
     "billed": 0.0
   },
   "modal_credit": 30.0,
-  "capacity": null,
+  "capacity": {
+    "cloud": 165,
+    "runner": 0,
+    "runner_minutes": 0,
+    "modal_credit_left": 19.81
+  },
   "starved": 0,
   "made_here": 0,
   "open_topics": 34,
