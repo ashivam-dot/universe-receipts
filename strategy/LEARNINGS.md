@@ -91,16 +91,16 @@ contradiction.
 | ep355 | Space Myths, Busted | statement, story | 330 | 43% | 76.3% | 124% | 0 | – |
 | ep367 | Space Got Weird | statement, scale_ladder | 660 | 52% | 70.0% | 118% | 0 | – |
 | ep352 | Mission Files | statement, scale_ladder | 1372 | 46% | 80.1% | 128% | 0 | – |
-| ep356 | Scale Breaker | statement, story | 2135 | 44% | 93.8% | 137% | 3 | Cosmic scale hook drove high early reach (2,135), but summary ending limited loop retention. |
-| ep362 | The Universe Is Terrifying | statement, mystery | 1017 | 45% | 83.8% | 139% | 3 | Terrifying mystery hook performed well, but mid-script satellite catalog jargon hurt rewatch retention. |
-| ep349 | Scale Breaker | statement, scale_ladder | 1199 | 50% | 83.5% | 128% | 2 | Scale ladder topic boosted likes and engaged share, but weak loop transition lowered final retention. |
-| ep357 | Space Got Weird | statement, story | 1268 | 48% | 68.3% | 119% | 0 | Interesting topic achieved strong likes, but passive opening and middle backstory dragged down feed share. |
-| ep351 | Mission Files | contradiction, scale_ladder | 799 | 48% | 73.5% | 124% | 0 | High feed share was undercut by 3 backstory beats before conflict, dropping 50% retention to 0.639. |
-| ep360 | Mission Files | statement, myth_vs_fact | 1167 | 54% | 63.3% | 122% | 0 | Active conflict hook generated top-tier retention, but flat historical wrap-up depressed like rate. |
-| ep369 | Near Misses | statement, scale_ladder | 130 | 42% | 103.0% | 158% | 0 | Repeating hook title text in beat 1 caused immediate swipe-away, collapsing early reach to 130. |
-| ep365 | Mission Files | statement, record | 1027 | 48% | 57.3% | 117% | 0 | Solid mission hook maintained reach, but dry summary ending produced low likes and engagement. |
-| ep378 | Space Myths, Busted | statement, record | 1171 | – | – | – | – | Paradox hook drove strong early reach, but circular summary ending yielded zero comments. |
-| ep373 | Near Misses | statement, myth_vs_fact | 847 | – | – | – | – | High viewer satisfaction among those who stayed, but slow hook pacing and broken ending loop limited reach. |
+| ep356 | Scale Breaker | statement, story | 2135 | 44% | 93.8% | 137% | 3 | Strong cosmic scale hook drove early reach (2,135 views), but summary closing failed to trigger seamless rewatches or comment engagement. |
+| ep362 | The Universe Is Terrifying | statement, mystery | 1017 | 45% | 83.8% | 139% | 3 | Statement hook produced strong early retention (at10 1.394), but technical catalog proper nouns slowed mid-script momentum. |
+| ep349 | Scale Breaker | statement, scale_ladder | 1199 | 50% | 83.5% | 128% | 2 | Above-median engaged share (0.499), but ending beat lacked an explicit verbal loop into the hook statement. |
+| ep357 | Space Got Weird | statement, story | 1268 | 48% | 68.3% | 119% | 0 | Solid like engagement (2.6 likes/100), but passive opening exposition and dense middle beats lowered overall feed share. |
+| ep351 | Mission Files | contradiction, scale_ladder | 799 | 48% | 73.5% | 124% | 0 | High initial feed distribution (0.941 feed share), but lingering on three beats of technical backstory before the crisis stalled mid-retention. |
+| ep360 | Mission Files | statement, myth_vs_fact | 1167 | 54% | 63.3% | 122% | 0 | Exceptional early hold and narrative tension (at10 1.219), but passive historical recap suppressed like and comment engagement. |
+| ep369 | Near Misses | statement, scale_ladder | 130 | 42% | 103.0% | 158% | 0 | Beat 1 verbatim repeated the hook text, causing immediate swipe-away and severely depressed early reach (130 views). |
+| ep365 | Mission Files | statement, record | 1027 | 48% | 57.3% | 117% | 0 | Steady pacing achieved median reach (1,027 early views), but dry historical takeaway capped viewer like conversion. |
+| ep378 | Space Myths, Busted | statement, record | 1171 | – | – | – | – | Paradox hook drove strong 30-hour distribution (1,171 views), though circular ending offered no prompt to stimulate comments. |
+| ep373 | Near Misses | statement, myth_vs_fact | 847 | – | – | – | – | Niche troubleshooting narrative drove strong viewer sentiment (2.5 likes/100), but weak hook velocity and broken ending loop limited reach. |
 
 ## Log
 
@@ -251,3 +251,4 @@ contradiction.
 - 2026-11-12: Formalized the loop and cosmic-scale rules using ep346-ep369 data; added hook redundancy and conflict-timing hypotheses after ep369's reach collapse.
 - 2026-11-12: Reviewed 10 recent Shorts (ep349, ep351, ep352, ep356, ep357, ep360, ep362, ep365, ep367, ep369); maintained proven rules and refined hypotheses to prioritize non-redundant hooks and faster beat 2 conflict entry.
 - 2026-11-13: Reviewed 10 recent Shorts, confirming that verbatim hook repetition causes reach failure (ep369) while summary endings hurt engagement across mission and mystery series.
+- 2026-11-13: Updated learning log with diagnostic reviews of 10 recent Shorts (ep349 to ep378) evaluating pacing, redundant beats, and loop structures.

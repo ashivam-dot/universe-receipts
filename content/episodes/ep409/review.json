@@ -45,7 +45,100 @@
       "better_than_last": "Compared to recent episodes, this script creates a stronger contrast between massive cosmic scale and subatomic precision.",
       "judge": "gemini-3.6-flash",
       "passed": false
+    },
+    {
+      "at": "2026-11-13T11:29:18+05:30",
+      "check": {
+        "duration": 25.0,
+        "words": 71,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -3.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The extreme scale of a structure wider than the Sun instantly hooks curiosity.",
+        "clarity": "The script breaks down LISA's size, orbit, and detection method step-by-step.",
+        "payoff": "Contrasting a structure wider than the Sun with subatomic measurements provides a great reveal.",
+        "visuals": "Uses real ESA spacecraft and lab hardware, though beat 5 visually skips ahead to black holes.",
+        "loop": "The final statement about listening to spacetime connects directly back into beat 1."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "shows a graphic of merging black holes instead of the gold-platinum cubes inside the craft"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short delivers a stronger sense of scale by pairing a massive solar comparison with subatomic precision.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    },
+    {
+      "at": "2026-11-13T11:35:01+05:30",
+      "check": {
+        "duration": 26.19,
+        "words": 71,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "An intriguing sense of scale immediately grabs attention.",
+        "clarity": "Explains a complex space interferometer in simple, digestible steps.",
+        "payoff": "Great contrast between the massive 1.6-million-mile size and sub-atomic measurement precision.",
+        "visuals": "Beat 5 reuses the Ariane rocket exterior shot which does not show the gold-platinum cubes.",
+        "loop": "Ends directly into the idea of the spacecraft triangle starting beat 1."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows a rocket launch vehicle exterior instead of the gold-platinum cubes floating inside the craft."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short creates a sharper visual contrast between massive megastructure dimensions and sub-atomic scale precision than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 2,
+  "kept_round": 2
 }

@@ -78,7 +78,9 @@ unexplained, not alien.
 | 2026-11-10 | Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing — dropped (ep402) | Space Got Weird | NASA recently announced the discovery of corundum crystals (rubies) in the latest Martian rock samples. |
 | 2026-11-10 | Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts — parked (ep401) | The Universe Is Terrifying | New findings from the Chandra X-ray Observatory explain the star's mysterious and violent periodic eruptions. |
 | 2026-11-11 | Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it — done (ep405) | Scale Breaker | NASA announced Voyager 1 is crossing the milestone of being one full light-day away from Earth. |
-| 2026-11-11 | Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom — making (ep409) | Scale Breaker | NASA astrophysicists published new research showing how the LISA mission can detect hidden exoplanets via gravitational waves. |
+| 2026-11-11 | Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom — done (ep409) | Scale Breaker | NASA astrophysicists published new research showing how the LISA mission can detect hidden exoplanets via gravitational waves. |
+| 2026-11-13 | NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years | Scale Breaker | Featured in NASA's Astronomy Picture of the Day on November 13, 2026. |
+| 2026-11-13 | Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display | Mission Files | Highlighted in a new NASA news feature detailing the historic photography of its urban transport. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -91,6 +93,7 @@ unexplained, not alien.
 | Dec 6 | Vanguard TV-3 (1957): on Dec 6, America's televised answer to Sputnik rose just four feet off the ground before bursting into a catastrophic launchpad fireball | Mission Files |
 | Dec 7 | Apollo 17 (1972): on Dec 7, NASA launched humanity's final Apollo moon mission, carrying Harrison Schmitt, the first and only professional geologist to walk on the Moon | Mission Files |
 | Dec 14 | Apollo 17 (1972): Gene Cernan left his daughter's initials traced in the lunar dust before stepping off the Moon on humanity's last Apollo spacewalk | Mission Files |
+| Dec 14 | Mariner 2 (1962): on Dec 14, Mariner 2 flew past Venus, completing humanity's first successful planetary encounter | Mission Files |
 | Dec 15 | Gemini 6A (1965): on Dec 15, NASA pulled off the first crewed spacecraft rendezvous, maneuvering within one foot of another capsule at 17,000 mph | Near Misses |
 | Dec 21 | Apollo 8 (1968): on this day, the first humans to ever leave Earth orbit entered lunar gravity and broadcast Christmas Eve from space | Mission Files |
 | Dec 21 | Apollo 8 (1968): on Dec 21, NASA launched Apollo 8, sending the first human crew beyond Earth orbit toward the Moon | Mission Files |
@@ -110,8 +113,8 @@ unexplained, not alien.
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot — parked (ep382) | Mission Files |
 | Nov 15 | Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules — parked (ep383) | Near Misses |
 | Nov 17 | Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay — done (ep395) | Space Got Weird |
-| Nov 20 | Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title | Space Got Weird |
-| Nov 20 | Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space | Mission Files |
+| Nov 20 | Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title — making (ep412) | Space Got Weird |
+| Nov 20 | Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space — making (ep413) | Mission Files |
 | Nov 26 | Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind "sky crane" to land on the Martian surface | Mission Files |
 | Nov 27 | Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed | Mission Files |
 | Nov 28 | Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations | Mission Files |
@@ -240,6 +243,8 @@ unexplained, not alien.
 - Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States — parked (ep398)
 - Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter — parked (ep400)
 - Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once — parked (ep408)
+- Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over
+- Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit
 
 ### Mission Files
 
@@ -398,4 +403,6 @@ unexplained, not alien.
 - Venus (1962): Venus spins in the opposite direction of almost every other planet, meaning the Sun rises in the west and sets in the east — done (ep378)
 - Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz — done (ep381)
 - Red dwarf: though our Sun is a Yellow Dwarf, these tiny, dim stars are actually the most common in the universe, making up 75% of all stars — done (ep397)
-- Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time — making (ep407)
+- Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time — parked (ep407)
+- Space Shuttle (1981): space shuttles did not land using engine power, but dropped out of orbit as unpowered 80-ton gliders
+- Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases
