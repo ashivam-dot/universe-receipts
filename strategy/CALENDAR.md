@@ -113,8 +113,8 @@ unexplained, not alien.
 | Nov 15 | Buran (spacecraft) (1988): the Soviet Union's only shuttle flew to orbit and landed entirely on autopilot — parked (ep382) | Mission Files |
 | Nov 15 | Kosmos 1408 (2021): a Russian anti-satellite missile test blasted this defunct satellite into over 1,500 pieces of shrapnel, forcing astronauts on the International Space Station to shelter in their escape capsules — parked (ep383) | Near Misses |
 | Nov 17 | Lunokhod 1 (1970): the world's first robotic rover landed on the Moon on this day, steered by operators on Earth using joysticks across a frustrating 3-second delay — done (ep395) | Space Got Weird |
-| Nov 20 | Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title — making (ep412) | Space Got Weird |
-| Nov 20 | Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space — making (ep413) | Mission Files |
+| Nov 20 | Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title — done (ep412) | Space Got Weird |
+| Nov 20 | Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space — done (ep413) | Mission Files |
 | Nov 26 | Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind "sky crane" to land on the Martian surface | Mission Files |
 | Nov 27 | Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed | Mission Files |
 | Nov 28 | Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations | Mission Files |
@@ -144,7 +144,7 @@ unexplained, not alien.
 | Nov 14 | Apollo 12 (1969): lightning struck the rocket twice in its first minute, and the mission flew on — done (ep373) | Near Misses |
 | Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away — done (ep391) | Space Got Weird |
 | Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors — done (ep396) | Space Got Weird |
-| Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean | Mission Files |
+| Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean — making (ep414) | Mission Files |
 | Nov 26 | InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough | Mission Files |
 | Nov 30 | Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock | Space Got Weird |
 
@@ -387,7 +387,7 @@ unexplained, not alien.
 - Mercury (planet) (1965): radar observations shattered the long-held belief that it permanently keeps one face to the Sun, proving it actually rotates three times for every two orbits — done (ep197)
 - Lunar phase: the changing appearance of the Moon is not caused by Earth's shadow, but by our shifting perspective of its sunlit side — dropped (ep374)
 - Escape velocity (1859): you do not need to reach 25,000 miles per hour to escape Earth's gravity; any speed will work as long as you have continuous thrust — done (ep216)
-- Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — making (ep410)
+- Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data — done (ep410)
 - Outer space (2002): space actually has a distinct smell, described by astronauts as a mix of "seared steak," "hot metal," and "welding fumes" — dropped (ep256)
 - Cydonia (region of Mars) (1976): high-resolution satellite imagery proved the spooky 'Face on Mars' was just an eroded rock mesa illuminated by sunlight — parked (ep292)
 - Rings of Saturn (1610): Galileo first described the planet as having "ears" because his telescope wasn't clear enough to reveal the rings — done (ep258)
@@ -404,5 +404,5 @@ unexplained, not alien.
 - Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz — done (ep381)
 - Red dwarf: though our Sun is a Yellow Dwarf, these tiny, dim stars are actually the most common in the universe, making up 75% of all stars — done (ep397)
 - Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time — parked (ep407)
-- Space Shuttle (1981): space shuttles did not land using engine power, but dropped out of orbit as unpowered 80-ton gliders
+- Space Shuttle (1981): space shuttles did not land using engine power, but dropped out of orbit as unpowered 80-ton gliders — making (ep415)
 - Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases

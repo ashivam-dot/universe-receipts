@@ -1,0 +1,159 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-13T17:21:11+05:30",
+      "check": {
+        "duration": 32.25,
+        "words": 88,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.5,
+        "warnings": [],
+        "speech_differences": [
+          "'nebulae' heard as 'nebula' after 'telescope on distant'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Clear historical premise, though it lacks an immediate high-stakes hook.",
+        "clarity": "Logical narrative flow with distinct ideas per beat.",
+        "payoff": "Einstein's blunder callback brings a satisfying conclusion.",
+        "visuals": "Beats 4 and 6 feature diagrams with unreadable text on mobile screens.",
+        "loop": "Last sentence connects smoothly into the opening beat."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 6,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Astronomers once believed our single galaxy was the entire universe."
+      ],
+      "better_than_last": "Provides a tighter character-driven arc than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-13T17:31:59+05:30",
+      "check": {
+        "duration": 32.89,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.8,
+        "warnings": [],
+        "speech_differences": [
+          "'seemed' heard as 'seem' after 'patches in space'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The initial premise effectively challenges common knowledge about the universe.",
+        "clarity": "The transition from Hubble's background to his discoveries is logical.",
+        "payoff": "Einstein's famous blunder provides a strong historical conclusion.",
+        "visuals": "Historic imagery and scientific diagrams illustrate the concepts well.",
+        "loop": "The final line mirrors the opening hook for a smooth transition."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short features a more impactful historical payoff and superior loop integration compared to recent episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-13T17:34:04+05:30",
+      "check": {
+        "duration": 32.49,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "A strong counter-intuitive premise that immediately challenges the viewer's modern understanding of space.",
+        "clarity": "The narrative arc from a single-galaxy belief to an expanding universe is explained with perfect logical flow.",
+        "payoff": "The inclusion of Einstein's 'biggest blunder' provides a satisfying historical validation of Hubble's discovery.",
+        "visuals": "Excellent use of historical plates and diagrams, though the main portrait of Hubble is repetitive.",
+        "loop": "The transition from the mystery of existing galaxies back to the original belief is perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "the same picture as another beat"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short provides a much tighter narrative loop and more consistent visual relevance than the Jupiter surviving the Sun episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

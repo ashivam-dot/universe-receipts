@@ -1,0 +1,105 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-13T17:16:39+05:30",
+      "check": {
+        "duration": 29.97,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'ve blamed' heard as 'blame' after 'human crime we'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Direct statement busts the myth immediately but lacks a compelling narrative pull.",
+        "clarity": "Clear progression of ideas explaining data against lunar madness beliefs.",
+        "payoff": "Contrast with coral spawning is interesting but arrives somewhat late.",
+        "visuals": "Multiple frames contain dense academic text diagrams hard to read on phones.",
+        "loop": "Ending line flows smoothly back into the opening hook phrase."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "mostly text"
+        },
+        {
+          "beat": 6,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Change to 'For centuries, we blamed the full moon for spikes in human madness.'",
+        "Beat 8: Change to 'Moonlight guides marine coral spawning, yet leaves human behavior untouched.'"
+      ],
+      "better_than_last": "Focuses on a universally recognizable cultural myth rather than purely astronomical mechanics.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-13T17:23:29+05:30",
+      "check": {
+        "duration": 33.23,
+        "words": 88,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The relatable myth creates immediate interest for a general audience.",
+        "clarity": "The argument moves logically from belief to data-driven debunking.",
+        "payoff": "Identifying the weekend traffic bias provides a satisfying explanation.",
+        "visuals": "Imagery effectively bridges historical concepts with modern data points.",
+        "loop": "The concluding list flows smoothly back into the opening claim."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script offers a more cohesive logical arc compared to the recent Jupiter survival short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

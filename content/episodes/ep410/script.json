@@ -2,45 +2,44 @@
   "hooks": [
     {
       "style": "statement",
-      "text": "The full moon has zero effect on human crime."
+      "text": "We blamed the full moon for spikes in human madness."
     },
     {
       "style": "question",
-      "text": "Does the full moon actually make people go crazy?"
+      "text": "Does a full moon cause real surges in human madness?"
     },
     {
       "style": "contradiction",
-      "text": "The full moon doesn't cause spikes in hospital visits."
+      "text": "The full moon has zero effect on human crime rates."
     }
   ],
   "hook_style": "statement",
   "structure": "scale_ladder",
-  "title": "The Full Moon Madness Myth",
-  "description": "Decades of data and scientific reviews prove that the full moon has no correlation with human crime or hospital surges.",
+  "title": "The Full Moon Madness Myth Busted",
+  "description": "Decades of data and scientific reviews prove that the full moon has zero correlation with human crime or hospital surges.",
   "hashtags": [
     "#space",
     "#moon",
-    "#myth"
+    "#spacemyths"
   ],
   "tags": [
     "moon",
-    "astronomy",
     "lunar effect",
+    "astronomy",
+    "space myths",
     "science",
-    "crime",
-    "medicine",
-    "lunar myth"
+    "full moon"
   ],
   "beats": [
     {
-      "text": "The full moon has zero effect on human crime.",
+      "text": "We blamed the full moon for spikes in human madness.",
       "emphasis": [
-        "zero effect"
+        "spikes in human madness"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1
+        10
       ],
       "visual": "Full Moon high resolution view LRO",
       "subjects": [
@@ -58,9 +57,9 @@
       }
     },
     {
-      "text": "We’ve blamed lunar cycles for hospital chaos for centuries.",
+      "text": "Many police and emergency doctors still believe the moon causes chaos.",
       "emphasis": [
-        "hospital chaos"
+        "causes chaos"
       ],
       "sfx": "whoosh",
       "pause_after": 0.12,
@@ -83,39 +82,15 @@
       }
     },
     {
-      "text": "Many police and doctors still swear it causes madness.",
+      "text": "Researchers analyzed thirty years of hospital and police records.",
       "emphasis": [
-        "swear it causes madness"
+        "thirty years"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        10
-      ],
-      "visual": "Police car with lights flashing at night",
-      "subjects": [
-        "Police"
-      ],
-      "year": 0,
-      "queries": [
-        "police car night",
-        "emergency lights night"
-      ],
-      "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
-      }
-    },
-    {
-      "text": "Scientific reviews analyzed over thirty years of crime statistics.",
-      "emphasis": [
-        "thirty years"
-      ],
-      "sfx": "whoosh",
-      "pause_after": 0.12,
-      "claims": [
         1,
+        5,
         14
       ],
       "visual": "Diagram of lunar phases and orbital geometry",
@@ -134,15 +109,14 @@
       }
     },
     {
-      "text": "They looked for a spike during one specific moon phase.",
+      "text": "They tracked emergency visits across every single lunar phase.",
       "emphasis": [
-        "specific moon phase"
+        "every single lunar phase"
       ],
-      "sfx": "none",
+      "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
-        5,
-        6
+        5
       ],
       "visual": "Moon phases diagram Earth orbit",
       "subjects": [
@@ -160,7 +134,7 @@
       }
     },
     {
-      "text": "Instead, they found admission rates were identical on four other days.",
+      "text": "Full moon admissions were identical to four normal lunar days.",
       "emphasis": [
         "identical"
       ],
@@ -179,20 +153,19 @@
         "moon phase calendar"
       ],
       "card": {
-        "kind": "none",
-        "big": "",
-        "small": ""
+        "kind": "fact",
+        "big": "IDENTICAL",
+        "small": "Full moon vs normal days"
       }
     },
     {
-      "text": "The final correlation between the moon and madness is exactly zero.",
+      "text": "Apparent surges are just weekend traffic patterns in disguise.",
       "emphasis": [
-        "exactly zero"
+        "weekend traffic patterns"
       ],
-      "sfx": "riser",
+      "sfx": "pop",
       "pause_after": 0.12,
       "claims": [
-        1,
         12
       ],
       "visual": "Busy city street at night photograph",
@@ -211,7 +184,33 @@
       }
     },
     {
-      "text": "Moonlight triggers coral spawning, but it won't change your behavior.",
+      "text": "Decades of meta-analyses prove the real correlation is zero.",
+      "emphasis": [
+        "correlation is zero"
+      ],
+      "sfx": "riser",
+      "pause_after": 0.12,
+      "claims": [
+        1
+      ],
+      "visual": "Full Earth and Moon system view DSCOVR",
+      "subjects": [
+        "Earth",
+        "Moon"
+      ],
+      "year": 0,
+      "queries": [
+        "earth and moon dscovr",
+        "earth moon system"
+      ],
+      "card": {
+        "kind": "fact",
+        "big": "ZERO LINK",
+        "small": "Decades of data"
+      }
+    },
+    {
+      "text": "Moonlight guides marine coral spawning, yet leaves human behavior untouched.",
       "emphasis": [
         "coral spawning"
       ],
@@ -237,14 +236,16 @@
       }
     },
     {
-      "text": "Decades of evidence confirm the moon has zero effect on human crime.",
+      "text": "Data shows no link to crime, births, or sudden hospital surges.",
       "emphasis": [
-        "zero effect"
+        "no link"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1
+        1,
+        2,
+        5
       ],
       "visual": "Full Moon high resolution view LRO",
       "subjects": [
@@ -262,7 +263,7 @@
       }
     }
   ],
-  "hook_text": "THE LUNAR MYTH",
+  "hook_text": "THE LUNAR EFFECT MYTH",
   "loop": true,
-  "better_than_last": "I replaced technical terms like 'meta-analysis' with 'scientific reviews' to maintain a conversational tone while keeping the precision of the zero-correlation claim."
+  "better_than_last": "Trimmed Beat 1 to 10 words to comply strictly with the maximum hook length while keeping the reviewer's requested phrasing."
 }

@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-13T17:12:14+05:30",
+  "updated_at": "2026-11-13T23:08:15+05:30",
   "day": 43,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M7AB16AX3H3N9NGQDQW06Y6R",
+    "id": "ta-01M7AZMBGVFXPE74TDH33XK8CR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-13T17:05:20+05:30",
-    "started_at_utc": "2026-11-13T11:35:20+00:00",
-    "seconds": 414
+    "started_at": "2026-11-13T23:05:14+05:30",
+    "started_at_utc": "2026-11-13T17:35:14+00:00",
+    "seconds": 181
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 2.3
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "114 posts",
-      "seconds": 1.5
+      "seconds": 1.2
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 4.2
+      "seconds": 13.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.5
+      "seconds": 2.8
     },
     {
       "name": "on youtube",
@@ -45,128 +45,91 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep380 at 6 h: ahead of the channel's earlier Shorts at this age: 1230 views against a median of 675 (1.8x); ep387 at 6 h: level with the channel's earlier Shorts at this age: 664 views against a median of 682 (1.0x)",
-      "seconds": 4.9
+      "detail": "ep411 at 24 h: ahead of the channel's earlier Shorts at this age: 1246 views against a median of 882 (1.4x); learnings: Updated learning log with automated diagnoses and reach reviews for episodes ep362 through ep411.",
+      "seconds": 102.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep407 rejected (low scores: visuals); ep409 ready",
-      "seconds": 10.4
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "128 subscribers",
-      "seconds": 6.8
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Updated learning log with diagnostic reviews of 10 recent Shorts (ep349 to ep378) evaluating pacing, redundant beats, and loop structures.",
-      "seconds": 266.2
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 2.1
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 11.1
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 56.3
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-043.md",
-      "seconds": 2.7
+      "detail": "ep410 ready; ep412 ready; ep413 ready",
+      "seconds": 11.4
     },
     {
       "name": "buffer channel",
       "ok": true,
       "detail": "connected",
-      "seconds": 0.2
+      "seconds": 0.1
+    },
+    {
+      "name": "preflight ep379",
+      "ok": true,
+      "detail": "video downloads whole (10 MB in 0 s)",
+      "seconds": 0.4
     },
     {
       "name": "preflight ep381",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.3
     },
     {
       "name": "preflight ep386",
       "ok": true,
       "detail": "video still hosted",
-      "seconds": 0.6
+      "seconds": 0.4
+    },
+    {
+      "name": "preflight ep397",
+      "ok": true,
+      "detail": "video downloads whole (10 MB in 0 s)",
+      "seconds": 0.4
     },
     {
       "name": "preflight ep405",
       "ok": true,
-      "detail": "video downloads whole (14 MB in 1 s)",
-      "seconds": 1.3
+      "detail": "video still hosted",
+      "seconds": 0.2
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.2
+      "seconds": 2.4
     },
     {
-      "name": "start ep410",
+      "name": "start ep414",
       "ok": true,
-      "detail": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "seconds": 1.7
+      "detail": "International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean",
+      "seconds": 0.7
     },
     {
-      "name": "start ep412",
+      "name": "start ep415",
       "ok": true,
-      "detail": "Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title",
-      "seconds": 1.7
-    },
-    {
-      "name": "start ep413",
-      "ok": true,
-      "detail": "Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space",
-      "seconds": 0.9
+      "detail": "Space Shuttle (1981): space shuttles did not land using engine power, but dropped out of orbit as unpowered 80-ton gliders",
+      "seconds": 1.0
     },
     {
       "name": "publish",
       "ok": true,
       "detail": "",
-      "seconds": 2.3
+      "seconds": 2.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer is full (10 queued); 3 waiting",
-    "Buffer is full (10 queued); 3 waiting"
+    "Buffer is full (10 queued); 6 waiting",
+    "Buffer is full (10 queued); 6 waiting"
   ],
   "inventory": {
-    "total": 13,
+    "total": 16,
     "in_buffer": 10,
-    "waiting": 3,
+    "waiting": 6,
     "target": 14,
     "making": [],
     "remote": [
-      "ep410",
-      "ep412",
-      "ep413"
+      "ep414",
+      "ep415"
     ]
   },
   "queue": [
@@ -239,62 +202,92 @@
       "title": "The Space Detector Wider Than the Sun",
       "series": "Scale Breaker",
       "score": 24
+    },
+    {
+      "id": "ep410",
+      "title": "The Full Moon Madness Myth Busted",
+      "series": "Space Myths, Busted",
+      "score": 20
+    },
+    {
+      "id": "ep412",
+      "title": "How One Astronomer Proved the UNIVERSE Is Expanding",
+      "series": "Space Got Weird",
+      "score": 23
+    },
+    {
+      "id": "ep413",
+      "title": "The Ghost Module That Started the Space Station",
+      "series": "Mission Files",
+      "score": 23
     }
   ],
   "made": [
     {
-      "id": "ep407",
-      "outcome": "rejected",
-      "topic": "Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time",
-      "reason": "low scores: visuals"
+      "id": "ep410",
+      "outcome": "ready",
+      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
+      "title": "The Full Moon Madness Myth Busted",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794570809/universereceipts/ep410-54d3cb2a.mp4"
     },
     {
-      "id": "ep409",
+      "id": "ep412",
       "outcome": "ready",
-      "topic": "Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom",
-      "title": "The Space Detector Wider Than the Sun",
+      "topic": "Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title",
+      "title": "How One Astronomer Proved the UNIVERSE Is Expanding",
       "scores": {
         "hook": 5,
         "clarity": 5,
-        "payoff": 5,
+        "payoff": 4,
         "visuals": 4,
         "loop": 5
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794549901/universereceipts/ep409-d78a3a89.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794571445/universereceipts/ep412-4dc036d0.mp4"
+    },
+    {
+      "id": "ep413",
+      "outcome": "ready",
+      "topic": "Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space",
+      "title": "The Ghost Module That Started the Space Station",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794570693/universereceipts/ep413-8360a7cd.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep410",
-      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "call_id": "fc-01M7ABE04Y2B0VYSAEVXG02QGQ"
+      "id": "ep414",
+      "topic": "International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean",
+      "call_id": "fc-01M7AZSXRX4SD2N63BP680Z4R1"
     },
     {
-      "id": "ep412",
-      "topic": "Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title",
-      "call_id": "fc-01M7ABE1SA5EPCRP867AMR1PSP"
-    },
-    {
-      "id": "ep413",
-      "topic": "Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space",
-      "call_id": "fc-01M7ABE2NZDJHGXB8XS1W7KNGG"
+      "id": "ep415",
+      "topic": "Space Shuttle (1981): space shuttles did not land using engine power, but dropped out of orbit as unpowered 80-ton gliders",
+      "call_id": "fc-01M7AZSYPEPXQG318C9KV8WAJ9"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep410",
-      "topic": "Lunar effect (1978): centuries of claims that a full moon causes spikes in crime and emergency room visits are entirely unsupported by data",
-      "spawned_at": "2026-11-13T17:12:05+05:30"
+      "id": "ep414",
+      "topic": "International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean",
+      "spawned_at": "2026-11-13T23:08:07+05:30"
     },
     {
-      "id": "ep412",
-      "topic": "Edwin Hubble (1889): the astronomer who proved the universe is expanding was also a champion heavyweight boxer once offered a shot at the world title",
-      "spawned_at": "2026-11-13T17:12:07+05:30"
-    },
-    {
-      "id": "ep413",
-      "topic": "Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space",
-      "spawned_at": "2026-11-13T17:12:08+05:30"
+      "id": "ep415",
+      "topic": "Space Shuttle (1981): space shuttles did not land using engine power, but dropped out of orbit as unpowered 80-ton gliders",
+      "spawned_at": "2026-11-13T23:08:08+05:30"
     }
   ],
   "published": [],
@@ -302,35 +295,36 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 10,
+    "calls": 26,
     "by_model": {
-      "gemini-3.6-flash": 4,
-      "gemini-3.5-flash": 2,
-      "gemini-3-flash-preview": 3,
-      "gemini-3.5-flash-lite": 1
+      "gemini-3.6-flash": 17,
+      "gemini-3-flash-preview": 5,
+      "gemini-3.5-flash-lite": 4
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.7-flash"
+    ]
   },
   "renders": {
-    "modal": 4,
+    "modal": 6,
     "runner": 0
   },
   "daily_done": "2026-11-13",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 8.34,
+    "metered": 8.55,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 163,
+    "cloud": 162,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 19.66
+    "modal_credit_left": 19.45
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 39,
+  "open_topics": 37,
   "parked_topics": 71
 }
