@@ -1,0 +1,145 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-13T23:14:22+05:30",
+      "check": {
+        "duration": 25.46,
+        "words": 71,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -3.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 3,
+        "visuals": 5,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The heavy-hitting text overlay and the scale of '80-ton' make for a strong initial hook.",
+        "clarity": "The script follows a logical progression from the concept to the history and then specific mission data.",
+        "payoff": "The ending is more of a summary than a surprising twist or revelation that builds on the hook.",
+        "visuals": "Excellent use of archival footage that specifically matches the years and components mentioned.",
+        "loop": "The transition is smooth and makes sense, though the phrasing is very similar to the opening."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Since the engines couldn't restart, pilots had just one shot at the runway.",
+        "Beat 7: There was zero room for error for an eighty-ton glider."
+      ],
+      "better_than_last": "The archival visuals here are much more specific and high-quality than the mixed media used in the expansion episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-13T23:17:51+05:30",
+      "check": {
+        "duration": 26.0,
+        "words": 75,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening fact is significant but lacks an immediate dramatic hook.",
+        "clarity": "The technical progression from engines to landing stakes is very easy to follow.",
+        "payoff": "The resolution is logical but lacks a strong final surprise or punchy delivery.",
+        "visuals": "Relevant archival imagery effectively supports each beat of the narration.",
+        "loop": "The final sentence connects seamlessly back to the start of the script."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Every NASA shuttle landing was technically a high-stakes, unpowered emergency.",
+        "Beat 6: With no engines for a second attempt, any miss meant a total loss."
+      ],
+      "better_than_last": "This script maintains a more consistent technical focus than the recent Ghost Module episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-13T23:22:13+05:30",
+      "check": {
+        "duration": 33.37,
+        "words": 87,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The framing of a standard landing as an emergency is a strong curiosity driver.",
+        "clarity": "The explanation of the glider physics vs engine use is very easy to follow.",
+        "payoff": "The ending essentially repeats the hook rather than offering a final revelation.",
+        "visuals": "One major frame shows a powered transport flight instead of the glider descent.",
+        "loop": "The phrasing flows naturally back into the start for a high-retention loop."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The frame shows the shuttle on a carrier aircraft, which is powered and not gliding."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: This design saved massive weight, proving every landing could be handled as an unpowered emergency."
+      ],
+      "better_than_last": "This Short uses a more urgent and provocative hook compared to the technical premise of the Ghost Module story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-11-13T23:22:13+05:30"
+}
