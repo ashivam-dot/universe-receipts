@@ -1,0 +1,233 @@
+id: ep417
+title: The Hidden Flaw That Doomed Shuttle Columbia
+series: The Universe Is Terrifying
+format: v3
+description: Space Shuttle Columbia was lost in 2003 when a foam strike damaged its wing. While the crew was lost, a canister
+  of live roundworms remarkably survived.
+sources:
+- https://en.wikipedia.org/wiki/Space_Shuttle_Columbia_disaster
+- https://en.wikipedia.org/wiki/Space_Shuttle_Columbia
+- https://web.archive.org/web/20200811105612/https://history.nasa.gov/columbia/Troxell/Columbia%20Web%20Site/Biographies/Crew%20Profile%20Information/Crew%20Biographies/ASTRON~2.HTM
+- http://www.space.com/19436-columbia-disaster.html
+- http://news.bbc.co.uk/2/hi/technology/2720225.stm
+hashtags:
+- '#space'
+- '#nasa'
+- '#columbia'
+tags:
+- space shuttle
+- columbia
+- sts-107
+- nasa history
+- space disaster
+- science
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Columbia's twenty-eighth mission revealed a deadly flaw.
+  emphasis:
+  - deadly flaw
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/ff/Sts107_flight_insignia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Sts107 flight insignia.jpg
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Sts107_flight_insignia.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 28th Mission
+      small: Space Shuttle Columbia
+- text: It was the world's first shuttle to reach space.
+  emphasis:
+  - first shuttle
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/S81-30459.jpg/1920px-S81-30459.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: S81-30459.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:S81-30459.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.4
+    card:
+      kind: dateline
+      big: April 1981
+      small: First Shuttle Flight
+- text: Just eighty-two seconds after liftoff, a foam piece struck.
+  emphasis:
+  - foam piece struck
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 82 Seconds
+      small: Debris Strike
+    motion: zoom_in
+- text: This impact punched a hole in the wing's armor.
+  emphasis:
+  - punched a hole
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Impact-test.jpg/1920px-Impact-test.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Impact-test.jpg
+      credit: Rick Stiles
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Impact-test.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.45
+    focus_y: 0.45
+    box:
+    - 0.35
+    - 0.25
+    - 0.58
+    - 0.62
+- text: Superheated gases melted the wing's internal structure during reentry.
+  emphasis:
+  - Superheated gases
+  - melted
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Space_Shuttle_re-entry_art_%28ARC-1975-AC75-1919%29.jpg/1920px-Space_Shuttle_re-entry_art_%28ARC-1975-AC75-1919%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Space Shuttle re-entry art (ARC-1975-AC75-1919).jpg
+      credit: NASA Ames Research Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Space_Shuttle_re-entry_art_(ARC-1975-AC75-1919).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Columbia disintegrated at fifteen times the speed of sound.
+  emphasis:
+  - disintegrated
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/ColumbiaFLIR2003.png/1280px-ColumbiaFLIR2003.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ColumbiaFLIR2003.png
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ColumbiaFLIR2003.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: February 1, 2003
+      small: Disaster Over Texas
+- text: All seven crew members were lost in the breakup.
+  emphasis:
+  - lost
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Crew_of_STS-107%2C_official_photo.jpg/3840px-Crew_of_STS-107%2C_official_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Crew of STS-107, official photo.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Crew_of_STS-107,_official_photo.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Investigators found NASA could've launched a rescue using Atlantis.
+  emphasis:
+  - rescue using Atlantis
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Space_Shuttle_Atlantis_on_Launch_Pad_%2828026561445%29.jpg/1920px-Space_Shuttle_Atlantis_on_Launch_Pad_%2828026561445%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Space Shuttle Atlantis on Launch Pad (28026561445).jpg
+      credit: NASA Hubble Space Telescope
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Space_Shuttle_Atlantis_on_Launch_Pad_(28026561445).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.6
+    focus_y: 0.4
+    box:
+    - 0.48
+    - 0.18
+    - 0.68
+    - 0.68
+    card:
+      kind: fact
+      big: Atlantis
+      small: Theoretical Rescue
+- text: Amazingly, a canister of live roundworms survived the fall.
+  emphasis:
+  - roundworms survived
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://inaturalist-open-data.s3.amazonaws.com/photos/28187857/original.jpg
+    credit:
+      source: iNaturalist
+      title: Caenorhabditis elegans (Caenorhabditis elegans)
+      credit: (c) Casey H. Richart, some rights reserved (CC BY)
+      license: CC BY 4.0
+      url: https://www.inaturalist.org/observations/18438333
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: These survivors were the legacy of that twenty-eighth mission.
+  emphasis:
+  - legacy
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:mystery
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 28 MISSIONS, ONE FLAW

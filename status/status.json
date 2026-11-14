@@ -1,76 +1,70 @@
 {
-  "updated_at": "2026-11-14T05:06:07+05:30",
+  "updated_at": "2026-11-14T11:14:14+05:30",
   "day": 44,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M7BM7H7KH0Q36WSDPVXNPEER",
+    "id": "ta-01M7C8TQGJW66E26MXCEZQ6AAR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-14T05:05:18+05:30",
-    "started_at_utc": "2026-11-13T23:35:18+00:00",
-    "seconds": 49
+    "started_at": "2026-11-14T11:05:20+05:30",
+    "started_at_utc": "2026-11-14T05:35:20+00:00",
+    "seconds": 534
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 3.4
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.2
+      "seconds": 0.4
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 4.3
+      "seconds": 4.7
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.4
+      "detail": "ep365 language en/None -> en; ep373 language en/None -> en; ep378 language en/None -> en; ep411 language en/None -> en",
+      "seconds": 3.4
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 3.8
+      "detail": "ep365 at 72 h: level with the channel's earlier Shorts at this age: 1036 views against a median of 1019 (1.0x); ep369 at 72 h: behind the channel's earlier Shorts at this age: 192 views against a median of 1020 (0.2x); ep380 at 24 h: ahead of the channel's earlier Shorts at this age: 1399 views against a median of 917 (1.5x); ep387 at 24 h: level with the channel's earlier Shorts at this age: 866 views against a median of 922 (0.9x); learnings: Updated medians and introduced pacing and engagement hypotheses from recent script reviews to address AVP and like-rate decline.",
+      "seconds": 473.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep414 unfinished (LookupError: unknown encoding: .utf8); ep415 rejected (low scores: payoff, visuals)",
-      "seconds": 10.5
+      "detail": "ep414 ready; ep416 rejected (research: only 0 claims have two different sites); ep417 ready",
+      "seconds": 22.6
     },
     {
-      "name": "start ep414",
+      "name": "start ep418",
       "ok": true,
-      "detail": "International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean",
-      "seconds": 1.7
+      "detail": "Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth",
+      "seconds": 3.1
     },
     {
-      "name": "start ep416",
+      "name": "start ep419",
       "ok": true,
-      "detail": "Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases",
-      "seconds": 1.7
-    },
-    {
-      "name": "start ep417",
-      "ok": true,
-      "detail": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth",
-      "seconds": 1.7
+      "detail": "Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over",
+      "seconds": 3.1
     }
   ],
   "errors": [],
@@ -79,15 +73,14 @@
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 16,
+    "total": 18,
     "in_buffer": 10,
-    "waiting": 6,
+    "waiting": 8,
     "target": 14,
     "making": [],
     "remote": [
-      "ep414",
-      "ep416",
-      "ep417"
+      "ep418",
+      "ep419"
     ]
   },
   "queue": [
@@ -178,56 +171,78 @@
       "title": "The Ghost Module That Started the Space Station",
       "series": "Mission Files",
       "score": 23
+    },
+    {
+      "id": "ep414",
+      "title": "The Biggest Thing in Space Is Headed for the Ocean",
+      "series": "Mission Files",
+      "score": 20
+    },
+    {
+      "id": "ep417",
+      "title": "The Hidden Flaw That Doomed Shuttle Columbia",
+      "series": "The Universe Is Terrifying",
+      "score": 24
     }
   ],
   "made": [
     {
       "id": "ep414",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean",
-      "reason": "LookupError: unknown encoding: .utf8",
-      "quota": false,
-      "overloaded": false
+      "title": "The Biggest Thing in Space Is Headed for the Ocean",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794613684/universereceipts/ep414-4bf85e76.mp4"
     },
     {
-      "id": "ep415",
+      "id": "ep416",
       "outcome": "rejected",
-      "topic": "Space Shuttle (1981): space shuttles did not land using engine power, but dropped out of orbit as unpowered 80-ton gliders",
-      "reason": "low scores: payoff, visuals"
+      "topic": "Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases",
+      "reason": "research: only 0 claims have two different sites"
+    },
+    {
+      "id": "ep417",
+      "outcome": "ready",
+      "topic": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth",
+      "title": "The Hidden Flaw That Doomed Shuttle Columbia",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794613863/universereceipts/ep417-c7273991.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep414",
-      "topic": "International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean",
-      "call_id": "fc-01M7BM96JGBXPV7W82SFR0SQBG"
+      "id": "ep418",
+      "topic": "Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth",
+      "call_id": "fc-01M7C9B904F646JRQPA3AZ7JRA"
     },
     {
-      "id": "ep416",
-      "topic": "Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases",
-      "call_id": "fc-01M7BM986H4XJPWEFWC1QKJ34Q"
-    },
-    {
-      "id": "ep417",
-      "topic": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth",
-      "call_id": "fc-01M7BM99SSTPQEMEYCHJEWGB5N"
+      "id": "ep419",
+      "topic": "Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over",
+      "call_id": "fc-01M7C9BBZ7Z6HR1GC58HCK99M9"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep414",
-      "topic": "International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean",
-      "spawned_at": "2026-11-14T05:05:59+05:30"
+      "id": "ep418",
+      "topic": "Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth",
+      "spawned_at": "2026-11-14T11:14:08+05:30"
     },
     {
-      "id": "ep416",
-      "topic": "Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases",
-      "spawned_at": "2026-11-14T05:06:01+05:30"
-    },
-    {
-      "id": "ep417",
-      "topic": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth",
-      "spawned_at": "2026-11-14T05:06:03+05:30"
+      "id": "ep419",
+      "topic": "Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over",
+      "spawned_at": "2026-11-14T11:14:11+05:30"
     }
   ],
   "published": [],
@@ -235,13 +250,20 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 15,
+    "calls": 22,
     "by_model": {
-      "gemini-3.5-flash-lite": 4,
-      "gemini-3.6-flash": 2,
-      "gemini-3-flash-preview": 9
+      "gemini-3.8-flash": 6,
+      "gemini-3.6-flash": 5,
+      "gemini-3-flash-preview": 5,
+      "gemini-3.5-flash-lite": 5,
+      "gemini-3.7-flash": 1
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
     "modal": 3,
@@ -251,18 +273,18 @@
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 8.67,
+    "metered": 8.81,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 161,
+    "cloud": 159,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 19.33
+    "modal_credit_left": 19.19
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 36,
+  "open_topics": 34,
   "parked_topics": 71
 }

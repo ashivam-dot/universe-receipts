@@ -1,0 +1,99 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-14T05:16:30+05:30",
+      "check": {
+        "duration": 31.7,
+        "words": 89,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "iNaturalist",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The text overlay is strong but the spoken line is a bit too encyclopedic for a scroll-stopper.",
+        "clarity": "The timeline of the disaster and the subsequent discovery is logically structured and easy to follow.",
+        "payoff": "The survival of the roundworms provides a genuine and surprising biological twist to a mechanical tragedy.",
+        "visuals": "Most imagery is accurate and historical, but one technical schematic identifies the wrong orbiter.",
+        "loop": "The transition from survivors back to the shuttle's origin is grammatically smooth and thematic."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "the wrong object (blueprint is labeled Discovery, not Columbia)"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "beat 1: Columbia's twenty-eighth mission revealed a deadly flaw."
+      ],
+      "better_than_last": "This Short provides a more compelling emotional arc than recent episodes by contrasting a human tragedy with a miraculous biological survival.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-14T05:21:02+05:30",
+      "check": {
+        "duration": 29.12,
+        "words": 88,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "iNaturalist",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The mention of a 'deadly flaw' creates immediate stakes for a historical event.",
+        "clarity": "The narrative follows a perfect chronological sequence from the strike to the discovery of survivors.",
+        "payoff": "The roundworm survival story is a classic, mind-bending space fact that perfectly pays off the 'deadly' setup.",
+        "visuals": "Includes excellent authentic footage and appropriate technical demonstrations of the damage.",
+        "loop": "The repetition of 'twenty-eighth mission' creates a perfectly seamless transition."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode provides a more emotionally resonant and surprising narrative arc than the technical history of ep413.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}
