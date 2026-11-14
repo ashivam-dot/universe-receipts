@@ -1,0 +1,178 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-14T17:27:34+05:30",
+      "check": {
+        "duration": 29.73,
+        "words": 86,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -3.2,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'and' after 'our solar system'",
+          "'iii' heard as 'the 3rd' after 'on a titan'",
+          "'tops' heard as 'tufts' after 'saturn is cloud'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise effectively piques viewer curiosity immediately.",
+        "clarity": "Simple chronological narrative is easy for general audiences to follow.",
+        "payoff": "Satisfying explanation reveals the deliberate Titan gravity assist.",
+        "visuals": "Diagram in beat 2 contains foreign text and frame 9 is rotated sideways.",
+        "loop": "Final statement connects seamlessly back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Diagram labels planetary orbits in German instead of English."
+        },
+        {
+          "beat": 9,
+          "problem": "Diagram image is rotated 90 degrees counter-clockwise."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode maintains tighter pacing and stronger thematic cohesion than recent shorts.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-14T17:29:03+05:30",
+      "check": {
+        "duration": 29.73,
+        "words": 86,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -3.2,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'and' after 'our solar system'",
+          "'iii' heard as 'the 3rd' after 'on a titan'",
+          "'tops' heard as 'tufts' after 'saturn is cloud'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening hook stating NASA intentionally expelled the probe.",
+        "clarity": "Easy to follow linear sequence explaining the flight path.",
+        "payoff": "The Titan gravity assist twist is clear but lacks high dramatic impact.",
+        "visuals": "Diagram in beat 2 is text-heavy and beat 8 reuses an mismatched graphic.",
+        "loop": "Seamless transition from final line back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Diagram contains small, illegible text and non-English planet names."
+        },
+        {
+          "beat": 8,
+          "problem": "Image shows Titan's atmosphere rather than illustrating the planetary trajectory or gravity assist."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "tops",
+          "respelling": "tahps"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: Change to 'Sacrificing further planet flybys, Titan's gravity hurled Voyager permanently out of the solar system.'"
+      ],
+      "better_than_last": "Maintains a more focused single-narrative thread than episode 414.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-14T17:52:32+05:30",
+      "check": {
+        "duration": 33.42,
+        "words": 94,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [
+          "'planners' heard as 'planters' after 'saturn is clouds'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening statement that immediately defines the subject.",
+        "clarity": "Logical progression from launch to the final gravity assist.",
+        "payoff": "Effective reveal regarding the intentional sacrifice of future flybys.",
+        "visuals": "Consistent, high-quality space imagery matching the narration.",
+        "loop": "Phrasing creates a perfectly seamless transition back to the start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Text in the image identifies the craft as Voyager 2 instead of Voyager 1."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The narrative loop is more polished than the recent International Space Station episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

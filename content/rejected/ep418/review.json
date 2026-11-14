@@ -1,0 +1,164 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-14T17:25:46+05:30",
+      "check": {
+        "duration": 31.73,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Sets up a compelling deep space rescue story immediately in the first beat.",
+        "clarity": "Follows a clean, logical narrative from mechanical failure to software workaround.",
+        "payoff": "Rewriting code to save the mission and discover ocean worlds is a great resolution.",
+        "visuals": "Beat 2 is a text-heavy diagram and Beat 3 displays an asteroid instead of Jupiter.",
+        "loop": "The final mention of deep space leads smoothly back into the opening premise."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "mostly text with small technical diagram labels that are unreadable on a phone"
+        },
+        {
+          "beat": 3,
+          "problem": "shows an asteroid image while the narration refers to photos from Jupiter"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It delivers a much stronger narrative resolution than recent episodes by directly tying the deep-space software fix to the discovery of ocean worlds.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-14T17:27:31+05:30",
+      "check": {
+        "duration": 30.33,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'and' after 'to unlock it'",
+          "'is' heard as '(nothing)' after 'rewrote the probe'",
+          "'(nothing)' heard as 'thanks' after 'in deep space'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Clear problem statement that hooks interest quickly.",
+        "clarity": "Easy to follow step-by-step resolution.",
+        "payoff": "Satisfying reveal of the Europa discovery result.",
+        "visuals": "One frame misidentifies the target celestial body.",
+        "loop": "Seamless transition back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows an asteroid instead of Jupiter or its moons."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a clearer problem-solving narrative structure than episode 414.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-14T17:28:54+05:30",
+      "check": {
+        "duration": 30.33,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'and' after 'to unlock it'",
+          "'is' heard as '(nothing)' after 'rewrote the probe'",
+          "'(nothing)' heard as 'thanks' after 'in deep space'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Clear mystery presented immediately catches attention.",
+        "clarity": "Simple step-by-step explanation easy to follow.",
+        "payoff": "Good resolution highlighting the software workaround's success.",
+        "visuals": "Beat 3 shows asteroids rather than Jupiter.",
+        "loop": "End line leads naturally back into the start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows asteroids instead of Jupiter."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Explains the technical software solution more clearly than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-14T17:28:54+05:30"
+}

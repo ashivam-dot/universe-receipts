@@ -192,7 +192,7 @@ unexplained, not alien.
 - Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks — parked (ep385)
 - Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever — parked (ep399)
 - Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant — done (ep406)
-- Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light
+- Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light — making (ep425)
 
 ### Scale Breaker
 
@@ -245,8 +245,8 @@ unexplained, not alien.
 - Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States — parked (ep398)
 - Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter — parked (ep400)
 - Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once — parked (ep408)
-- Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over — making (ep419)
-- Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit
+- Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over — parked (ep419)
+- Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit — making (ep423)
 
 ### Mission Files
 
@@ -282,8 +282,8 @@ unexplained, not alien.
 - Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — parked (ep303)
 - Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — done (ep360)
 - Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years — parked (ep371)
-- Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth — making (ep418)
-- Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space — making (ep421)
+- Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth — parked (ep418)
+- Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space — done (ep421)
 
 ### Space Got Weird
 
@@ -315,7 +315,7 @@ unexplained, not alien.
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
 - Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — dropped (ep403)
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose — parked (ep316)
-- Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — parked (ep259)
+- Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — making (ep424)
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — parked (ep293)
 - Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls — parked (ep276)
 - Moon (1969): Apollo astronauts discovered that lunar dust smells exactly like spent gunpowder and can cause moon hay fever — done (ep265)
@@ -327,7 +327,7 @@ unexplained, not alien.
 - Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water — done (ep359)
 - Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon — dropped (ep361)
 - Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun — done (ep379)
-- Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain — making (ep422)
+- Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain — done (ep422)
 - Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space
 
 ### Near Misses
@@ -361,7 +361,7 @@ unexplained, not alien.
 - Apollo 11 (1969): a broken switch nearly stranded the astronauts on the Moon forever until Buzz Aldrin jammed a felt-tip pen into the circuit breaker — dropped (ep297)
 - Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting — parked (ep300)
 - Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock — done (ep369)
-- Apollo 13 (1970): the oxygen tank explosion was so violent it blew an entire 13-foot panel off the service module, which the crew only saw right before reentry — making (ep420)
+- Apollo 13 (1970): the oxygen tank explosion was so violent it blew an entire 13-foot panel off the service module, which the crew only saw right before reentry — dropped (ep420)
 
 ### Space Myths, Busted
 

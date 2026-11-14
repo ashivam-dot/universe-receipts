@@ -1,0 +1,255 @@
+id: ep421
+title: How NASA Slung Voyager 1 Into Deep Space
+series: Mission Files
+format: v3
+description: Voyager 1 didn't drift out of the solar system by accident. NASA intentionally sacrificed a Pluto mission to
+  sling the probe into interstellar space.
+sources:
+- https://en.wikipedia.org/wiki/Voyager_1
+- https://web.archive.org/web/20221210180431/http://www.nasa.gov/centers/goddard/news/topstory/2003/1105voyager_facts.html
+- https://www.scientificamerican.com/article/nasas-voyager-1-spacecraft-down-to-just-two-working-science-instruments/
+- https://en.wikipedia.org/wiki/Titan_(moon)
+- https://www.nature.com/articles/s41586-025-09818-x
+hashtags:
+- '#space'
+- '#voyager'
+- '#nasa'
+tags:
+- voyager 1
+- nasa
+- saturn
+- titan
+- interstellar space
+- mission files
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA threw Voyager 1 out of our solar system.
+  emphasis:
+  - threw Voyager 1
+  - out of our solar system
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/NASA%E2%80%99s_Voyager_Probe_Speeds_Through_Space_%28Artist%E2%80%99s_Concept%29_%28PIA26353%29.tiff/lossy-page1-1280px-NASA%E2%80%99s_Voyager_Probe_Speeds_Through_Space_%28Artist%E2%80%99s_Concept%29_%28PIA26353%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA’s Voyager Probe Speeds Through Space (Artist’s Concept) (PIA26353).tiff
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_Voyager_Probe_Speeds_Through_Space_(Artist%E2%80%99s_Concept)_(PIA26353).tiff
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.2
+    - 0.2
+    - 0.6
+    - 0.75
+- text: Most think the probe just drifted away by accident.
+  emphasis:
+  - drifted away
+  - by accident
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Voyager_trajectories.jpg/960px-Voyager_trajectories.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager trajectories.jpg
+      credit: Stauriko
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Voyager_trajectories.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.55
+    focus_y: 0.65
+    box:
+    - 0.3
+    - 0.4
+    - 0.8
+    - 0.95
+- text: Engineers launched it from Florida on a Titan rocket.
+  emphasis:
+  - Florida
+  - Titan rocket
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Titan_3E_with_Voyager_1.jpg/1920px-Titan_3E_with_Voyager_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Titan 3E with Voyager 1.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Titan_3E_with_Voyager_1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.52
+    focus_y: 0.3
+    box:
+    - 0.45
+    - 0.05
+    - 0.56
+    - 0.48
+    card:
+      kind: dateline
+      big: September 1977
+      small: Cape Canaveral, Florida
+- text: Built by JPL, the craft reached Jupiter first.
+  emphasis:
+  - JPL
+  - Jupiter
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Voyager_1_-_Jupiter_Mosaic_-_1979-03-11_%2819069026659%29.png/1280px-Voyager_1_-_Jupiter_Mosaic_-_1979-03-11_%2819069026659%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager 1 - Jupiter Mosaic - 1979-03-11 (19069026659).png
+      credit: Justin Cowart
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_1_-_Jupiter_Mosaic_-_1979-03-11_(19069026659).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.3
+    focus_y: 0.5
+    box:
+    - 0.07
+    - 0.08
+    - 0.54
+    - 0.97
+    card:
+      kind: fact
+      big: 349,000 KM
+      small: Jupiter Flyby Distance
+- text: The craft swept within 124,000 kilometers of Saturn's clouds.
+  emphasis:
+  - 124,000 kilometers
+  - Saturn's clouds
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/53/Saturn%27s_ring_system_-_Voyager_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Saturn's ring system - Voyager 1.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Saturn%27s_ring_system_-_Voyager_1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: November 1980
+      small: Saturn Flyby
+- text: Planners then deliberately targeted Titan, Saturn's largest moon.
+  emphasis:
+  - deliberately targeted
+  - Titan
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/fe/Titan_in_true_color_by_Kevin_M._Gill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Titan in true color by Kevin M. Gill.jpg
+      credit: NASA/JPL-Caltech/SSI/Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Titan_in_true_color_by_Kevin_M._Gill.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They prioritized studying its dense, nitrogen-rich atmosphere.
+  emphasis:
+  - nitrogen-rich atmosphere
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Simultaneous_views_of_Titan%27s_surface_and_atmosphere_%28eso0412c%29.tiff/lossy-page1-1280px-Simultaneous_views_of_Titan%27s_surface_and_atmosphere_%28eso0412c%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Simultaneous views of Titan's surface and atmosphere (eso0412c).tiff
+      credit: ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Simultaneous_views_of_Titan%27s_surface_and_atmosphere_(eso0412c).tiff
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.75
+    focus_y: 0.5
+    box:
+    - 0.54
+    - 0.1
+    - 0.96
+    - 0.9
+- text: Sacrificing further planet flybys, Titan's gravity hurled Voyager permanently out of the solar system.
+  emphasis:
+  - Titan's gravity
+  - solar system
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Titan
+      small: Gravity Slingshot
+    motion: zoom_in
+- text: The slingshot bent its path right off the planetary plane.
+  emphasis:
+  - slingshot
+  - planetary plane
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Interstellar_probes_%28cropped%29.jpg/1920px-Interstellar_probes_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Interstellar probes (cropped).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Interstellar_probes_(cropped).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.35
+    focus_y: 0.28
+    box:
+    - 0.23
+    - 0.13
+    - 0.52
+    - 0.44
+- text: NASA's plan actually threw Voyager 1 out of our solar system.
+  emphasis:
+  - NASA's plan
+  - threw Voyager 1
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: BEYOND THE PLANETS

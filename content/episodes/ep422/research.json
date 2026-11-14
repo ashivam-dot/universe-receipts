@@ -1,0 +1,198 @@
+{
+  "viable": true,
+  "reason": "The provided sources contain over a dozen facts about Saturn that are independently verified by both cited websites.",
+  "story": "Saturn is a massive gas giant and the sixth planet from the Sun, famous for being the only planet in our Solar System less dense than water. Deep inside, its scorching core reaches temperatures of 11,700 degrees Celsius. Remarkably, Saturn radiates 2.5 times more energy into space than it absorbs from the Sun. Scientists attribute this intense heat production to liquid helium raining down through vast layers of lower-density hydrogen. As these helium droplets descend, friction generates extreme heat, eventually forming a helium shell around a core that is 9 to 22 times the mass of Earth. This internal heat furnace powers violent global atmospheric features, including peak easterly winds driving up to 1,800 kilometers per hour, a giant storm with an eyewall at its south pole, and a mysterious persisting hexagonal wave pattern at its north pole first spotted by Voyager spacecraft.",
+  "angle": "Saturn acts as an internal engine, radiating 2.5 times more energy into space than it absorbs from the Sun thanks to friction from internal helium rain.",
+  "claims": [
+    {
+      "claim": "Saturn is the sixth planet from the Sun.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Saturn is classified as a gas giant planet.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Saturn is the only planet in the Solar System with an average density lower than water.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Saturn's core reaches an estimated temperature of 11,700 °C.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Saturn radiates 2.5 times more energy into space than it receives from the Sun.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Saturn's core mass is estimated to be between 9 and 22 times the mass of Earth.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Friction from helium droplets moving through hydrogen in Saturn's interior generates heat.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "claim": "Descending helium droplets inside Saturn may accumulate into a helium shell around the core.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Saturn's outer atmosphere is composed of 96.3% molecular hydrogen and 3.25% helium by volume.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Saturn's upper cloud layers are composed of ammonia ice crystals.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Peak easterly wind speeds on Saturn reach 1,800 kilometers per hour (500 m/s).",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A persisting hexagonal wave pattern exists around Saturn's north pole.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The hexagonal cloud pattern at Saturn's north pole was first observed in Voyager spacecraft images.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Saturn's south pole storm has a clearly defined eyewall observed by the Cassini spacecraft.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "S2 briefly states helium droplets rise from deep in Saturn's interior before stating they descend, whereas S1 describes them raining out; scripts should refer to descending helium rain or falling helium droplets.",
+    "S1 gives Saturn's core diameter as about 20,000 km while S2 gives about 25,000 km; scripts should leave out exact core diameter or attribute differences."
+  ],
+  "visuals": [
+    {
+      "subject": "Saturn full globe view from Cassini",
+      "queries": [
+        "Saturn Cassini full view",
+        "Saturn natural color Cassini globe"
+      ]
+    },
+    {
+      "subject": "Saturn interior layer structure illustration",
+      "queries": [
+        "Saturn interior layers diagram",
+        "Saturn internal structure diagram"
+      ]
+    },
+    {
+      "subject": "Saturn hexagonal north polar storm",
+      "queries": [
+        "Saturn north pole hexagon Cassini",
+        "Saturn north polar vortex hexagon"
+      ]
+    },
+    {
+      "subject": "Saturn south polar storm eyewall",
+      "queries": [
+        "Saturn south pole hurricane Cassini",
+        "Saturn south polar eyewall"
+      ]
+    },
+    {
+      "subject": "Cassini spacecraft orbiting Saturn illustration",
+      "queries": [
+        "Cassini spacecraft Saturn illustration",
+        "Cassini orbiter Saturn artist concept"
+      ]
+    },
+    {
+      "subject": "Voyager 1 spacecraft full view",
+      "queries": [
+        "Voyager 1 spacecraft",
+        "Voyager spacecraft flight model"
+      ]
+    },
+    {
+      "subject": "Great White Spot storm on Saturn Hubble image",
+      "queries": [
+        "Saturn Great White Spot Hubble",
+        "Saturn equatorial storm 1990 Hubble"
+      ]
+    },
+    {
+      "subject": "Saturn rings detailed view Cassini",
+      "queries": [
+        "Saturn rings Cassini mosaic",
+        "Saturn main ring system Cassini"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Saturn",
+      "title": "Saturn",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "http://www.universetoday.com/15298/saturn/",
+      "title": "The Planet Saturn",
+      "site": "universetoday.com"
+    }
+  ],
+  "topic": "Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain",
+  "series": "Space Got Weird"
+}
