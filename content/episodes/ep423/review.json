@@ -1,0 +1,52 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-14T23:13:15+05:30",
+      "check": {
+        "duration": 28.9,
+        "words": 87,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'watched' heard as 'watch' after 'milky way astronomers'",
+          "'joined' heard as 'join' after 'radio telescopes then'",
+          "'gas' heard as 'dast' after 'earth sized eye'",
+          "'hole' heard as 'whole' after 'gas orbits the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The extreme contrast between 4 million suns and a single orbit is a high-retention opening.",
+        "clarity": "Logical progression from the object's mass to the stars orbiting it and finally the imaging process.",
+        "payoff": "Solid thematic closure on the object's density, though it ends where it began rather than with a new fact.",
+        "visuals": "Uses the official EHT comparison graphics and orbital plots which perfectly illustrate the scale.",
+        "loop": "The final line mirrors the first perfectly, creating a seamless transition for the viewer."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short uses a side-by-side scale comparison in the hook to make an abstract concept of density more tangible than the orbital mechanics in the Voyager episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 1
+}

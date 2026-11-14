@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-14T23:05:49+05:30",
-  "day": 44,
+  "updated_at": "2026-11-15T05:06:04+05:30",
+  "day": 45,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M7DJ12MMBBNHZ6TAND402ETR",
+    "id": "ta-01M7E6M5KKXK062PY06MSJN8QR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-14T23:05:12+05:30",
-    "started_at_utc": "2026-11-14T17:35:12+00:00",
-    "seconds": 38
+    "started_at": "2026-11-15T05:05:12+05:30",
+    "started_at_utc": "2026-11-14T23:35:12+00:00",
+    "seconds": 51
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 2.1
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.1
+      "seconds": 0.4
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.2
+      "seconds": 4.2
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.5
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -46,31 +46,31 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 3.3
+      "seconds": 3.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep418 rejected (low scores: visuals); ep419 rejected (low scores: visuals; 2 frame problems); ep420 rejected (research: only 0 claims have two different sites); ep421 ready; ep422 ready",
-      "seconds": 12.1
+      "detail": "ep423 ready; ep424 rejected (research: only 0 claims have two different sites); ep425 ready",
+      "seconds": 14.2
     },
     {
-      "name": "start ep423",
+      "name": "start ep426",
       "ok": true,
-      "detail": "Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit",
-      "seconds": 0.6
+      "detail": "Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space",
+      "seconds": 1.9
     },
     {
-      "name": "start ep424",
+      "name": "start ep427",
       "ok": true,
-      "detail": "Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice",
-      "seconds": 0.5
+      "detail": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
+      "seconds": 1.8
     },
     {
-      "name": "start ep425",
+      "name": "start ep428",
       "ok": true,
-      "detail": "Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light",
-      "seconds": 0.5
+      "detail": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
+      "seconds": 1.8
     }
   ],
   "errors": [],
@@ -79,15 +79,15 @@
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 20,
+    "total": 22,
     "in_buffer": 10,
-    "waiting": 10,
+    "waiting": 12,
     "target": 14,
     "making": [],
     "remote": [
-      "ep423",
-      "ep424",
-      "ep425"
+      "ep426",
+      "ep427",
+      "ep428"
     ]
   },
   "queue": [
@@ -202,46 +202,26 @@
       "title": "Saturn Glows With Its Own Internal Rain",
       "series": "Space Got Weird",
       "score": 24
+    },
+    {
+      "id": "ep423",
+      "title": "Why Our Galaxy's Giant Black Hole Is Tiny",
+      "series": "Scale Breaker",
+      "score": 24
+    },
+    {
+      "id": "ep425",
+      "title": "The Violent Magnetic Fits of Our Central Black Hole",
+      "series": "The Universe Is Terrifying",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep418",
-      "outcome": "rejected",
-      "topic": "Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep419",
-      "outcome": "rejected",
-      "topic": "Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over",
-      "reason": "low scores: visuals; 2 frame problems"
-    },
-    {
-      "id": "ep420",
-      "outcome": "rejected",
-      "topic": "Apollo 13 (1970): the oxygen tank explosion was so violent it blew an entire 13-foot panel off the service module, which the crew only saw right before reentry",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
-      "id": "ep421",
+      "id": "ep423",
       "outcome": "ready",
-      "topic": "Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space",
-      "title": "How NASA Slung Voyager 1 Into Deep Space",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794658954/universereceipts/ep421-69fec8c6.mp4"
-    },
-    {
-      "id": "ep422",
-      "outcome": "ready",
-      "topic": "Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain",
-      "title": "Saturn Glows With Its Own Internal Rain",
+      "topic": "Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit",
+      "title": "Why Our Galaxy's Giant Black Hole Is Tiny",
       "scores": {
         "hook": 5,
         "clarity": 5,
@@ -249,41 +229,61 @@
         "visuals": 5,
         "loop": 5
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794658221/universereceipts/ep422-d1cb305b.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794678197/universereceipts/ep423-83882179.mp4"
+    },
+    {
+      "id": "ep424",
+      "outcome": "rejected",
+      "topic": "Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice",
+      "reason": "research: only 0 claims have two different sites"
+    },
+    {
+      "id": "ep425",
+      "outcome": "ready",
+      "topic": "Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light",
+      "title": "The Violent Magnetic Fits of Our Central Black Hole",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794678548/universereceipts/ep425-afea5782.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep423",
-      "topic": "Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit",
-      "call_id": "fc-01M7DJ2ACTVQRGP1V2HXG4SVP4"
+      "id": "ep426",
+      "topic": "Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space",
+      "call_id": "fc-01M7E6NTFXTXCY66BVA69ZRF0E"
     },
     {
-      "id": "ep424",
-      "topic": "Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice",
-      "call_id": "fc-01M7DJ2AWE8CEWVHX46TBM308K"
+      "id": "ep427",
+      "topic": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
+      "call_id": "fc-01M7E6NW9MF4934178E4QHPJHN"
     },
     {
-      "id": "ep425",
-      "topic": "Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light",
-      "call_id": "fc-01M7DJ2BDQ3H5W6SQ5MWGJJN15"
+      "id": "ep428",
+      "topic": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
+      "call_id": "fc-01M7E6NY3090VMCPXJVKCMFGX3"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep423",
-      "topic": "Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit",
-      "spawned_at": "2026-11-14T23:05:46+05:30"
+      "id": "ep426",
+      "topic": "Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space",
+      "spawned_at": "2026-11-15T05:05:56+05:30"
     },
     {
-      "id": "ep424",
-      "topic": "Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice",
-      "spawned_at": "2026-11-14T23:05:46+05:30"
+      "id": "ep427",
+      "topic": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
+      "spawned_at": "2026-11-15T05:05:58+05:30"
     },
     {
-      "id": "ep425",
-      "topic": "Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light",
-      "spawned_at": "2026-11-14T23:05:47+05:30"
+      "id": "ep428",
+      "topic": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
+      "spawned_at": "2026-11-15T05:06:00+05:30"
     }
   ],
   "published": [],
@@ -291,34 +291,34 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 31,
+    "calls": 13,
     "by_model": {
-      "gemini-3.6-flash": 14,
-      "gemini-3-flash-preview": 10,
-      "gemini-3.5-flash-lite": 7
+      "gemini-3.6-flash": 2,
+      "gemini-3-flash-preview": 9,
+      "gemini-3.5-flash-lite": 2
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 10,
+    "modal": 4,
     "runner": 0
   },
   "daily_done": "2026-11-14",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 9.23,
+    "metered": 9.34,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 156,
+    "cloud": 155,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 18.77
+    "modal_credit_left": 18.66
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 33,
-  "parked_topics": 72
+  "open_topics": 31,
+  "parked_topics": 71
 }

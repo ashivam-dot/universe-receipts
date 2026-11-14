@@ -1,0 +1,173 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-14T23:14:44+05:30",
+      "check": {
+        "duration": 31.8,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'star' after 'gas sagittarius a'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong active opening with effective text overlay.",
+        "clarity": "Narrative flows logically from discovery to mass and data.",
+        "payoff": "The 30 percent light speed fact provides a solid climax.",
+        "visuals": "Uses high-quality scientific imagery and accurate EHT data.",
+        "loop": "Phrasing and imagery return to the start perfectly."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Frame includes an unnamed person; close-up is blurry."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This short utilizes 2024 research data which feels more current than the Voyager or Shuttle episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    },
+    {
+      "at": "2026-11-14T23:16:47+05:30",
+      "check": {
+        "duration": 31.8,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'star' after 'gas sagittarius a'",
+          "'reinhard' heard as 'reinhardt' after 'of light astronomer'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The combination of the iconic event horizon image and the 'magnetic monster' text is a solid scroll-stopper.",
+        "clarity": "The explanation moves perfectly from the black hole's mass to its discovery and finally its unique magnetic behavior.",
+        "payoff": "The specific detail about gas being launched at 30 percent light speed provides a high-quality scientific payoff.",
+        "visuals": "Beat 7 shows a generic ESO signing ceremony instead of astronomer Reinhard Genzel or his Nobel Prize award.",
+        "loop": "Ending and starting on the phrase 'magnetic monster' makes the replay feel intentional and seamless."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "The image depicts a generic ESO contract signing rather than Reinhard Genzel or his Nobel Prize."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short provides greater clarity and a tighter narrative loop than ep421.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-14T23:19:07+05:30",
+      "check": {
+        "duration": 31.8,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'star' after 'gas sagittarius a'",
+          "'reinhard' heard as 'reinhardt' after 'of light astronomer'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong imagery and immediate tension with the 'monster' descriptor.",
+        "clarity": "Information flows logically from general mass to specific behaviors.",
+        "payoff": "The conclusion is factual but lacks a surprising emotional punch.",
+        "visuals": "Includes relevant data, but some frames are cluttered or small.",
+        "loop": "The return to the 'magnetic monster' theme is seamless."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Telescope array is too small and dark for mobile screens."
+        },
+        {
+          "beat": 5,
+          "problem": "Frame includes M87* comparison which is never mentioned."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Sagittarius A*",
+          "respelling": "sadge ih tair ee us ay star"
+        },
+        {
+          "beat": 7,
+          "word": "Reinhard",
+          "respelling": "rine hard"
+        }
+      ],
+      "rewrite": [
+        "Beat 6: These eruptions blast gas clumps out at ninety thousand kilometers per second.",
+        "Beat 7: Genzel's Nobel Prize confirms this monster is the galaxy's anchor."
+      ],
+      "better_than_last": "Features more recent and direct observational data than the Voyager retrospective.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "kept_round": 1
+}
