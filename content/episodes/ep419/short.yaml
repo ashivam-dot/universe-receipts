@@ -1,0 +1,207 @@
+id: ep419
+title: Jupiter Was Once Twice Its Current Size
+series: Scale Breaker
+format: v3
+description: Jupiter is the undisputed architect of our solar system, but it used to be much larger. Primordial Jupiter once
+  commanded a volume equivalent to 8,000 Earths.
+sources:
+- https://en.wikipedia.org/wiki/Jupiter
+- https://www.caltech.edu/about/news/jupiter-was-formerly-twice-its-current-size-and-had-a-much-stronger-magnetic-field
+- https://science.nasa.gov/asset/hubble/jupiter-opal-2024/
+- https://www.eso.org/public/news/eso9402/
+hashtags:
+- '#space'
+- '#jupiter'
+- '#solarsystem'
+tags:
+- Jupiter
+- NASA
+- astronomy
+- gas giant
+- space facts
+- Great Red Spot
+- Io
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Jupiter was once twice as wide as it is today.
+  emphasis:
+  - twice as wide
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/PIA22690_-_Jupiter_in_the_Rearview_Mirror.jpg/1280px-PIA22690_-_Jupiter_in_the_Rearview_Mirror.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA22690 - Jupiter in the Rearview Mirror.jpg
+      credit: NASA/JPL-Caltech/SwRI/MSSS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA22690_-_Jupiter_in_the_Rearview_Mirror.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That ancient monster could have swallowed 8,000 Earths.
+  emphasis:
+  - 8,000 Earths
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c2/Jupiter%2C_Earth_size_comparison.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter, Earth size comparison.jpg
+      credit: NASABrian0918 at English Wikipedia
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Jupiter,_Earth_size_comparison.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 8,000 EARTHS
+      small: ancient volume
+- text: Even now, every other planet fits inside it twice over.
+  emphasis:
+  - fits inside it
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/de/Graph_of_Planetary_Mass_Versus_Distance_From_the_Sun.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Graph of Planetary Mass Versus Distance From the Sun.png
+      credit: Emily Lakdawalla for The Planetary Society using image data from NASA/JPL-Caltech/SSI/SwRI/CIW/ISRO/Daniel Chang,
+        processed by Björn Jónsson, Emily Lakdawalla, Daniel Macháček, Mattias Malmer, Alex Pa
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Graph_of_Planetary_Mass_Versus_Distance_From_the_Sun.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Its gravity was so strong it sculpted our entire solar system.
+  emphasis:
+  - sculpted
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/ALMA_image_of_the_protoplanetary_disc_around_V883_Orionis_%28annotated%29_%28eso1626e%29.jpg/3840px-ALMA_image_of_the_protoplanetary_disc_around_V883_Orionis_%28annotated%29_%28eso1626e%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ALMA image of the protoplanetary disc around V883 Orionis (annotated) (eso1626e).jpg
+      credit: ALMA (ESO/NAOJ/NRAO)/L. Cieza
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:ALMA_image_of_the_protoplanetary_disc_around_V883_Orionis_(annotated)_(eso1626e).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Jupiter rotates so fast a full day lasts ten hours.
+  emphasis:
+  - ten hours
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Jupiter_OPAL_2024_%282024-009%29.png/3840px-Jupiter_OPAL_2024_%282024-009%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter OPAL 2024 (2024-009).png
+      credit: Science Amy Simon (NASA-GSFC) Image NASA, ESA, Joseph DePasquale (STScI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Jupiter_OPAL_2024_(2024-009).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 10 HOURS
+      small: one full rotation
+- text: This speed feeds a storm bigger than the Earth itself.
+  emphasis:
+  - bigger than the Earth
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Jupiter_-_Great_Red_Spot_-_PJ7-60_61_62_-_Balanced_%2849803032983%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter - Great Red Spot - PJ7-60 61 62 - Balanced (49803032983).png
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Jupiter_-_Great_Red_Spot_-_PJ7-60_61_62_-_Balanced_(49803032983).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: STORM
+      small: Earth-sized
+- text: The volcanic moon Io is being stretched by that massive pull.
+  emphasis:
+  - stretched
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Io_Volcanic_Eruption_Galileo.png/960px-Io_Volcanic_Eruption_Galileo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Io Volcanic Eruption Galileo.png
+      credit: NASA/JPL/DLR
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Io_Volcanic_Eruption_Galileo.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But modern Jupiter is just a remnant of that former self.
+  emphasis:
+  - just a remnant
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Child_of_Another_Star_%28gemini-childofanotherstar%29.jpg/1920px-Child_of_Another_Star_%28gemini-childofanotherstar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Child of Another Star (gemini-childofanotherstar).jpg
+      credit: International Gemini Observatory
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Child_of_Another_Star_(gemini-childofanotherstar).jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The gas giant was once twice as wide.
+  emphasis:
+  - twice as wide
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A GIANT SHRINKS

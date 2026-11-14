@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-14T11:14:14+05:30",
+  "updated_at": "2026-11-14T17:18:41+05:30",
   "day": 44,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M7C8TQGJW66E26MXCEZQ6AAR",
+    "id": "ta-01M7CXDYAQ8Z80RMV7Z3F5B75R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-14T11:05:20+05:30",
-    "started_at_utc": "2026-11-14T05:35:20+00:00",
-    "seconds": 534
+    "started_at": "2026-11-14T17:05:19+05:30",
+    "started_at_utc": "2026-11-14T11:35:19+00:00",
+    "seconds": 802
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.4
+      "seconds": 2.2
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 4.7
+      "seconds": 4.1
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep365 language en/None -> en; ep373 language en/None -> en; ep378 language en/None -> en; ep411 language en/None -> en",
-      "seconds": 3.4
+      "detail": "every live Short is in English",
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -45,31 +45,93 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep365 at 72 h: level with the channel's earlier Shorts at this age: 1036 views against a median of 1019 (1.0x); ep369 at 72 h: behind the channel's earlier Shorts at this age: 192 views against a median of 1020 (0.2x); ep380 at 24 h: ahead of the channel's earlier Shorts at this age: 1399 views against a median of 917 (1.5x); ep387 at 24 h: level with the channel's earlier Shorts at this age: 866 views against a median of 922 (0.9x); learnings: Updated medians and introduced pacing and engagement hypotheses from recent script reviews to address AVP and like-rate decline.",
-      "seconds": 473.1
+      "detail": "no checkpoint due",
+      "seconds": 3.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep414 ready; ep416 rejected (research: only 0 claims have two different sites); ep417 ready",
-      "seconds": 22.6
+      "detail": "ep418 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep419 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 10.8
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "129 subscribers",
+      "seconds": 7.6
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Evaluated recent uploads (ep357, ep351, ep360, ep369, ep365, ep378, ep373, ep411, ep380, ep387) against channel medians, integrating review feedback on pacing, hook style, and comment-prompting ending",
+      "seconds": 692.3
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 2.1
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "1 added",
+      "seconds": 15.2
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "3 added",
+      "seconds": 30.8
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-044.md",
+      "seconds": 2.6
     },
     {
       "name": "start ep418",
       "ok": true,
       "detail": "Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth",
-      "seconds": 3.1
+      "seconds": 1.9
     },
     {
       "name": "start ep419",
       "ok": true,
       "detail": "Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over",
-      "seconds": 3.1
+      "seconds": 1.9
+    },
+    {
+      "name": "start ep420",
+      "ok": true,
+      "detail": "Apollo 13 (1970): the oxygen tank explosion was so violent it blew an entire 13-foot panel off the service module, which the crew only saw right before reentry",
+      "seconds": 1.9
+    },
+    {
+      "name": "start ep421",
+      "ok": true,
+      "detail": "Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep422",
+      "ok": true,
+      "detail": "Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain",
+      "seconds": 1.8
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
+    "ep418 stopped on Gemini's free quota; it resumes in a later run",
+    "ep419 stopped on Gemini's free quota; it resumes in a later run",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -80,7 +142,10 @@
     "making": [],
     "remote": [
       "ep418",
-      "ep419"
+      "ep419",
+      "ep420",
+      "ep421",
+      "ep422"
     ]
   },
   "queue": [
@@ -187,62 +252,74 @@
   ],
   "made": [
     {
-      "id": "ep414",
-      "outcome": "ready",
-      "topic": "International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean",
-      "title": "The Biggest Thing in Space Is Headed for the Ocean",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794613684/universereceipts/ep414-4bf85e76.mp4"
+      "id": "ep418",
+      "outcome": "unfinished",
+      "topic": "Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep416",
-      "outcome": "rejected",
-      "topic": "Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
-      "id": "ep417",
-      "outcome": "ready",
-      "topic": "Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth",
-      "title": "The Hidden Flaw That Doomed Shuttle Columbia",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794613863/universereceipts/ep417-c7273991.mp4"
+      "id": "ep419",
+      "outcome": "unfinished",
+      "topic": "Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
       "id": "ep418",
       "topic": "Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth",
-      "call_id": "fc-01M7C9B904F646JRQPA3AZ7JRA"
+      "call_id": "fc-01M7CY6FGS5NH9RSN7VEBR3X1B"
     },
     {
       "id": "ep419",
       "topic": "Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over",
-      "call_id": "fc-01M7C9BBZ7Z6HR1GC58HCK99M9"
+      "call_id": "fc-01M7CY6HC8D1RD36ZE68NNPY20"
+    },
+    {
+      "id": "ep420",
+      "topic": "Apollo 13 (1970): the oxygen tank explosion was so violent it blew an entire 13-foot panel off the service module, which the crew only saw right before reentry",
+      "call_id": "fc-01M7CY6K5ZRN90DW6HB5PQ83SK"
+    },
+    {
+      "id": "ep421",
+      "topic": "Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space",
+      "call_id": "fc-01M7CY6M5TDGSRDVW2P3XFEHS3"
+    },
+    {
+      "id": "ep422",
+      "topic": "Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain",
+      "call_id": "fc-01M7CY6NZ6DFDRT4Y00M3WZF7E"
     }
   ],
   "in_cloud": [
     {
       "id": "ep418",
       "topic": "Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth",
-      "spawned_at": "2026-11-14T11:14:08+05:30"
+      "spawned_at": "2026-11-14T17:18:30+05:30"
     },
     {
       "id": "ep419",
       "topic": "Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over",
-      "spawned_at": "2026-11-14T11:14:11+05:30"
+      "spawned_at": "2026-11-14T17:18:32+05:30"
+    },
+    {
+      "id": "ep420",
+      "topic": "Apollo 13 (1970): the oxygen tank explosion was so violent it blew an entire 13-foot panel off the service module, which the crew only saw right before reentry",
+      "spawned_at": "2026-11-14T17:18:34+05:30"
+    },
+    {
+      "id": "ep421",
+      "topic": "Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space",
+      "spawned_at": "2026-11-14T17:18:35+05:30"
+    },
+    {
+      "id": "ep422",
+      "topic": "Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain",
+      "spawned_at": "2026-11-14T17:18:37+05:30"
     }
   ],
   "published": [],
@@ -250,41 +327,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 22,
+    "calls": 13,
     "by_model": {
-      "gemini-3.8-flash": 6,
       "gemini-3.6-flash": 5,
-      "gemini-3-flash-preview": 5,
       "gemini-3.5-flash-lite": 5,
-      "gemini-3.7-flash": 1
+      "gemini-3-flash-preview": 2,
+      "gemini-3.8-flash": 1
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 3,
+    "modal": 2,
     "runner": 0
   },
-  "daily_done": "2026-11-13",
+  "daily_done": "2026-11-14",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 8.81,
+    "metered": 8.94,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 159,
+    "cloud": 158,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 19.19
+    "modal_credit_left": 19.07
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 34,
+  "open_topics": 35,
   "parked_topics": 71
 }

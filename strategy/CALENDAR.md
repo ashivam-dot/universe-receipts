@@ -81,6 +81,7 @@ unexplained, not alien.
 | 2026-11-11 | Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom — done (ep409) | Scale Breaker | NASA astrophysicists published new research showing how the LISA mission can detect hidden exoplanets via gravitational waves. |
 | 2026-11-13 | NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years | Scale Breaker | Featured in NASA's Astronomy Picture of the Day on November 13, 2026. |
 | 2026-11-13 | Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display | Mission Files | Highlighted in a new NASA news feature detailing the historic photography of its urban transport. |
+| 2026-11-14 | Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training | Mission Files | NASA highlighted Gemini XII and astronaut Buzz Aldrin's historic orbital flight for its November anniversary. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -92,6 +93,7 @@ unexplained, not alien.
 | Dec 4 | Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat | Mission Files |
 | Dec 6 | Vanguard TV-3 (1957): on Dec 6, America's televised answer to Sputnik rose just four feet off the ground before bursting into a catastrophic launchpad fireball | Mission Files |
 | Dec 7 | Apollo 17 (1972): on Dec 7, NASA launched humanity's final Apollo moon mission, carrying Harrison Schmitt, the first and only professional geologist to walk on the Moon | Mission Files |
+| Dec 8 | SpaceX COTS Demo Flight 1 (2010): on Dec 8, SpaceX became the first private company to launch a spacecraft into orbit and recover it intact from the ocean | Mission Files |
 | Dec 14 | Apollo 17 (1972): Gene Cernan left his daughter's initials traced in the lunar dust before stepping off the Moon on humanity's last Apollo spacewalk | Mission Files |
 | Dec 14 | Mariner 2 (1962): on Dec 14, Mariner 2 flew past Venus, completing humanity's first successful planetary encounter | Mission Files |
 | Dec 15 | Gemini 6A (1965): on Dec 15, NASA pulled off the first crewed spacecraft rendezvous, maneuvering within one foot of another capsule at 17,000 mph | Near Misses |
@@ -281,6 +283,7 @@ unexplained, not alien.
 - Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — done (ep360)
 - Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years — parked (ep371)
 - Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth — making (ep418)
+- Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space — making (ep421)
 
 ### Space Got Weird
 
@@ -324,7 +327,7 @@ unexplained, not alien.
 - Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water — done (ep359)
 - Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon — dropped (ep361)
 - Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun — done (ep379)
-- Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain
+- Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain — making (ep422)
 - Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space
 
 ### Near Misses
@@ -358,6 +361,7 @@ unexplained, not alien.
 - Apollo 11 (1969): a broken switch nearly stranded the astronauts on the Moon forever until Buzz Aldrin jammed a felt-tip pen into the circuit breaker — dropped (ep297)
 - Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting — parked (ep300)
 - Apollo 13 (1970): the stranded crew survived their return journey by building a makeshift air filter out of duct tape, cardboard, and a sock — done (ep369)
+- Apollo 13 (1970): the oxygen tank explosion was so violent it blew an entire 13-foot panel off the service module, which the crew only saw right before reentry — making (ep420)
 
 ### Space Myths, Busted
 

@@ -1,0 +1,208 @@
+id: ep418
+title: How NASA Repaired Galileo Millions of Miles Away
+series: Mission Files
+format: v3
+description: When the Galileo spacecraft's main antenna failed to unfold, NASA engineers saved the mission by beaming rewritten
+  code across deep space.
+sources:
+- https://en.wikipedia.org/wiki/Galileo_(spacecraft)
+- https://www.newyorker.com/magazine/2003/09/08/what-galileo-saw
+- https://web.archive.org/web/20230930032039/https://www2.jpl.nasa.gov/galileo/news/thiswk/today030921.html
+- https://web.archive.org/web/20210126152333/http://www.dartmouth.edu/~chance/course/Syllabi/97Dartmouth/day-6/sagan.html
+- https://www.universetoday.com/8884/galileo-plunges-into-jupiter/
+- http://news.bbc.co.uk/2/hi/science/nature/3122432.stm
+hashtags:
+- '#space'
+- '#galileo'
+- '#nasa'
+tags:
+- galileo
+- nasa
+- jupiter
+- spacecraft
+- astronomy
+- deep space
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA fixed a jammed spacecraft millions of miles from Earth.
+  emphasis:
+  - jammed spacecraft
+  - millions of miles
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Artwork Galileo-Io-Jupiter.JPG
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.6
+    focus_y: 0.5
+- text: In deep space, Galileo's primary main antenna jammed shut.
+  emphasis:
+  - main antenna
+  - jammed shut
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Detailed_Drawing_of_the_Galileo_Spacecraft.png/1280px-Detailed_Drawing_of_the_Galileo_Spacecraft.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Detailed Drawing of the Galileo Spacecraft.png
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Detailed_Drawing_of_the_Galileo_Spacecraft.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.3
+    focus_y: 0.2
+    box:
+    - 0.18
+    - 0.05
+    - 0.48
+    - 0.35
+    card:
+      kind: fact
+      big: JAMMED DISH
+      small: Galileo main antenna
+- text: Without that dish, beaming photos from Jupiter seemed impossible.
+  emphasis:
+  - beaming photos
+  - seemed impossible
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Galileo_Gaspra_Mosaic.jpg/1280px-Galileo_Gaspra_Mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Galileo Gaspra Mosaic.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Galileo_Gaspra_Mosaic.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Engineers at mission control tried every trick to unlock it.
+  emphasis:
+  - mission control
+  - every trick
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/4a/VP_Quayle_Attends_TCDT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: VP Quayle Attends TCDT.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:VP_Quayle_Attends_TCDT.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: When physical fixes failed, they completely rewrote the probe's software.
+  emphasis:
+  - rewrote
+  - probe's software
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: NEW CODE
+      small: Software overhaul
+    motion: zoom_in
+- text: They beamed the new code across hundreds of millions of miles.
+  emphasis:
+  - beamed the new code
+  - millions of miles
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Deep_Space_Antenna_210%27_at_Goldstone%2C_CA_%28JPL_ref-_P-116594AC%29_%28ARC-1972-A72-2699%29.jpg/1920px-Deep_Space_Antenna_210%27_at_Goldstone%2C_CA_%28JPL_ref-_P-116594AC%29_%28ARC-1972-A72-2699%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Deep Space Antenna 210' at Goldstone, CA (JPL ref- P-116594AC) (ARC-1972-A72-2699).jpg
+      credit: NASA Ames Research Center / JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Deep_Space_Antenna_210%27_at_Goldstone,_CA_(JPL_ref-_P-116594AC)_(ARC-1972-A72-2699).jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.4
+    focus_y: 0.4
+- text: The software compressed data so the weak backup antenna worked.
+  emphasis:
+  - compressed data
+  - backup antenna
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Galileo_Jupiter_probe_leaves_the_Orbiter_%28ACD95-0229%29.jpg/3840px-Galileo_Jupiter_probe_leaves_the_Orbiter_%28ACD95-0229%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Galileo Jupiter probe leaves the Orbiter (ACD95-0229).jpg
+      credit: Don Davis
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Galileo_Jupiter_probe_leaves_the_Orbiter_(ACD95-0229).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.6
+    focus_y: 0.3
+    box:
+    - 0.5
+    - 0.15
+    - 0.75
+    - 0.45
+- text: That code saved the mission, revealing ocean worlds around Jupiter.
+  emphasis:
+  - saved the mission
+  - ocean worlds
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/54/Europa-moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Europa-moon.jpg
+      credit: NASA/JPL/DLR
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Europa-moon.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: No human could ever reach the broken dish in deep space.
+  emphasis:
+  - broken dish
+  - deep space
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.6
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: RESCUED ACROSS DEEP SPACE
