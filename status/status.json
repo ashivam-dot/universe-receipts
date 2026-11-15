@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-15T11:17:27+05:30",
+  "updated_at": "2026-11-15T17:42:40+05:30",
   "day": 45,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M7EV7BFKNYK7199GTW6DZ0YR",
+    "id": "ta-01M7FFTJMF24QGEC0E8FHSK2ER",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-15T11:05:13+05:30",
-    "started_at_utc": "2026-11-15T05:35:13+00:00",
-    "seconds": 734
+    "started_at": "2026-11-15T17:05:12+05:30",
+    "started_at_utc": "2026-11-15T11:35:12+00:00",
+    "seconds": 2248
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 1.7
     },
     {
       "name": "sync",
@@ -33,46 +33,81 @@
     {
       "name": "languages",
       "ok": true,
-      "detail": "ep380 language en/None -> en; ep387 language en/None -> en",
-      "seconds": 1.5
+      "detail": "every live Short is in English",
+      "seconds": 0.7
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep373 at 72 h: level with the channel's earlier Shorts at this age: 965 views against a median of 1019 (0.9x); ep378 at 72 h: level with the channel's earlier Shorts at this age: 1184 views against a median of 1018 (1.2x); learnings: Evaluated performance reviews across ep357, ep351, ep360, ep369, ep365, ep378, ep373, ep411, ep380, and ep387 to track hook retention, mid-script pacing stalls, and ending prompt effects.",
-      "seconds": 683.9
+      "detail": "no checkpoint due",
+      "seconds": 4.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep426 rejected (research: only 0 claims have two different sites); ep427 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep428 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 14.0
+      "detail": "ep429 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep430 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 10.1
     },
     {
-      "name": "start ep429",
+      "name": "analytics",
       "ok": true,
-      "detail": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
-      "seconds": 2.5
+      "detail": "129 subscribers",
+      "seconds": 11.5
     },
     {
-      "name": "start ep430",
+      "name": "learnings",
       "ok": true,
-      "detail": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
-      "seconds": 2.6
+      "detail": "Analyzed performance reviews across 10 recent uploads, confirming that summary endings depress viewer engagement while early conflict and seamless verbal loops maximize retention.",
+      "seconds": 976.4
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 2.2
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 858.9
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "3 added",
+      "seconds": 194.4
+    },
+    {
+      "name": "weekly review",
+      "ok": true,
+      "detail": "week-07.md",
+      "seconds": 167.7
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-045.md",
+      "seconds": 3.2
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep427 stopped on Gemini's free quota; it resumes in a later run",
-    "ep428 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "ep429 stopped on Gemini's free quota; it resumes in a later run",
+    "ep430 stopped on Gemini's free quota; it resumes in a later run",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -82,12 +117,11 @@
     "target": 14,
     "making": [
       "ep427",
-      "ep428"
-    ],
-    "remote": [
+      "ep428",
       "ep429",
       "ep430"
-    ]
+    ],
+    "remote": []
   },
   "queue": [
     {
@@ -217,89 +251,53 @@
   ],
   "made": [
     {
-      "id": "ep426",
-      "outcome": "rejected",
-      "topic": "Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
-      "id": "ep427",
+      "id": "ep429",
       "outcome": "unfinished",
-      "topic": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
+      "topic": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep428",
+      "id": "ep430",
       "outcome": "unfinished",
-      "topic": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
+      "topic": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     }
   ],
-  "spawned": [
-    {
-      "id": "ep429",
-      "topic": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
-      "call_id": "fc-01M7EVXVSPA5KGYMGSBV70XS75"
-    },
-    {
-      "id": "ep430",
-      "topic": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
-      "call_id": "fc-01M7EVXXXK9TJEPVX99MHDVJR9"
-    }
-  ],
-  "in_cloud": [
-    {
-      "id": "ep429",
-      "topic": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
-      "spawned_at": "2026-11-15T11:17:20+05:30"
-    },
-    {
-      "id": "ep430",
-      "topic": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
-      "spawned_at": "2026-11-15T11:17:22+05:30"
-    }
-  ],
+  "spawned": [],
+  "in_cloud": [],
   "published": [],
   "live": 104,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 29,
+    "calls": 15,
     "by_model": {
-      "gemini-3.6-flash": 9,
-      "gemini-3.5-flash": 2,
-      "gemini-3.5-flash-lite": 10,
-      "gemini-3-flash-preview": 8
+      "gemini-3.6-flash": 2,
+      "gemini-3.7-flash": 3,
+      "gemini-3.5-flash-lite": 9,
+      "gemini-3-flash-preview": 1
     },
-    "out_of_quota": [
-      "gemini-3.6-flash",
-      "gemini-3.7-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 5,
+    "modal": 2,
     "runner": 0
   },
-  "daily_done": "2026-11-14",
+  "daily_done": "2026-11-15",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 9.53,
+    "metered": 9.64,
     "billed": 0.0
   },
   "modal_credit": 30.0,
-  "capacity": {
-    "cloud": 153,
-    "runner": 0,
-    "runner_minutes": 0,
-    "modal_credit_left": 18.47
-  },
+  "capacity": null,
   "starved": 0,
   "made_here": 0,
-  "open_topics": 29,
+  "open_topics": 32,
   "parked_topics": 71
 }

@@ -1,0 +1,164 @@
+id: ep430
+title: The Colossal Star Cloud Hidden Inside Andromeda
+series: Scale Breaker
+format: v3
+description: Discover NGC 206, a gargantuan star-forming region in the Andromeda Galaxy so massive it is visible across millions
+  of light-years.
+sources:
+- https://en.wikipedia.org/wiki/NGC_206
+- https://cseligman.com/text/atlas/ngc2.htm#206
+hashtags:
+- '#space'
+- '#andromeda'
+- '#galaxies'
+tags:
+- NGC 206
+- Andromeda Galaxy
+- William Herschel
+- astronomy
+- star cloud
+- M31
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A single star cloud in Andromeda contains hundreds of supergiants.
+  emphasis:
+  - star cloud in Andromeda
+  - hundreds of supergiants
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/M31%2C_the_Andromeda_Galaxy%2C_Killarney_Provincial_Park_Observatory.jpg/3840px-M31%2C_the_Andromeda_Galaxy%2C_Killarney_Provincial_Park_Observatory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: M31, the Andromeda Galaxy, Killarney Provincial Park Observatory.jpg
+      credit: Brucewaters
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:M31,_the_Andromeda_Galaxy,_Killarney_Provincial_Park_Observatory.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.53
+    focus_y: 0.5
+- text: Astronomer William Herschel first spotted this strange hazy patch through his telescope.
+  emphasis:
+  - William Herschel
+  - hazy patch
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/William_Herschel01_hires.jpg/1920px-William_Herschel01_hires.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: William Herschel01 hires.jpg
+      credit: Lemuel Francis Abbott
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:William_Herschel01_hires.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.55
+    focus_y: 0.42
+    box:
+    - 0.3
+    - 0.1
+    - 0.8
+    - 0.8
+    card:
+      kind: dateline
+      big: October 17, 1786
+      small: Discovery
+- text: It appeared as a very large nebulosity.
+  emphasis:
+  - very large nebulosity
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: NGC
+      small: New General Catalogue
+    motion: zoom_in
+- text: It did not look like a tiny point of light.
+  emphasis:
+  - tiny point of light
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Star_forming_region%2C_NGC_206_%28noao-ngc206%29.jpg/1920px-Star_forming_region%2C_NGC_206_%28noao-ngc206%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Star forming region, NGC 206 (noao-ngc206).jpg
+      credit: T.A. Rector and A. Strom (University of Alaska Anchorage) and WIYN
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Star_forming_region,_NGC_206_(noao-ngc206).jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: John Herschel mapped its massive scale later on.
+  emphasis:
+  - John Herschel
+  - massive scale
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Sir_John_Frederick_William_Herschel_%281872%29_%2814580147588%29.jpg/1280px-Sir_John_Frederick_William_Herschel_%281872%29_%2814580147588%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Sir John Frederick William Herschel (1872) (14580147588).jpg
+      credit: Internet Archive Book Images
+      license: No restrictions
+      url: https://commons.wikimedia.org/wiki/File:Sir_John_Frederick_William_Herschel_(1872)_(14580147588).jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.25
+    - 0.1
+    - 0.85
+    - 0.9
+- text: This colossal nursery sits right inside our neighbor galaxy.
+  emphasis:
+  - colossal nursery
+  - neighbor galaxy
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Potw1512a.tif/lossy-page1-3840px-Potw1512a.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Potw1512a.tif
+      credit: 'Credit: ESA/Hubble & NASA'
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Potw1512a.tif
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Hundreds of supergiants fill that single star cloud in Andromeda.
+  emphasis:
+  - Hundreds of supergiants
+  - single star cloud
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.53
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A GARGANTUAN NEIGHBORHOOD

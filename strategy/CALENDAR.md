@@ -102,6 +102,7 @@ unexplained, not alien.
 | Dec 25 | James Webb Space Telescope (2021): on Christmas Day, NASA launched a $10 billion observatory into deep space to look back to the beginning of time | Mission Files |
 | Dec 27 | Allan Hills 84001 (1984): on Dec 27, scientists found a meteorite from Mars in Antarctica that later launched a global debate over alien microfossils | Space Got Weird |
 | Dec 30 | Edwin Hubble (1924): on this day, the astronomer officially proved that the 'nebula' Andromeda was actually an entire galaxy outside our own | Scale Breaker |
+| Jan 2 | Luna 1 (1959): on Jan 2, humanity launched the first probe meant to strike the Moon, but a timing glitch made it miss and become the first craft to orbit the Sun | Near Misses |
 | Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day — parked (ep217) | Mission Files |
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury — done (ep252) | Mission Files |
 | Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar — parked (ep271) | Near Misses |
@@ -247,6 +248,7 @@ unexplained, not alien.
 - Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once — parked (ep408)
 - Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over — parked (ep419)
 - Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit — done (ep423)
+- Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined
 
 ### Mission Files
 
@@ -329,6 +331,7 @@ unexplained, not alien.
 - Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun — done (ep379)
 - Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain — done (ep422)
 - Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space — dropped (ep426)
+- Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures
 
 ### Near Misses
 
