@@ -1,113 +1,63 @@
 {
-  "updated_at": "2026-11-15T17:42:40+05:30",
+  "updated_at": "2026-11-15T23:09:28+05:30",
   "day": 45,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M7FFTJMF24QGEC0E8FHSK2ER",
+    "id": "ta-01M7G4DR33QNB1491FNTYK8E7R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-15T17:05:12+05:30",
-    "started_at_utc": "2026-11-15T11:35:12+00:00",
-    "seconds": 2248
+    "started_at": "2026-11-15T23:05:15+05:30",
+    "started_at_utc": "2026-11-15T17:35:15+00:00",
+    "seconds": 253
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 1.6
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.2
+      "seconds": 1.2
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 3.9
+      "seconds": 5.8
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.7
+      "seconds": 1.6
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 1.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 4.2
+      "detail": "ep411 at 72 h: ahead of the channel's earlier Shorts at this age: 1294 views against a median of 1019 (1.3x); learnings: Logged evaluations for ep357 through ep387, updated 10-Short baseline medians, and focused hypotheses on cutting mid-script spec exposition and verbatim ending loops.",
+      "seconds": 224.8
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep429 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep430 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 10.1
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "129 subscribers",
-      "seconds": 11.5
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Analyzed performance reviews across 10 recent uploads, confirming that summary endings depress viewer engagement while early conflict and seamless verbal loops maximize retention.",
-      "seconds": 976.4
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 2.2
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 858.9
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "3 added",
-      "seconds": 194.4
-    },
-    {
-      "name": "weekly review",
-      "ok": true,
-      "detail": "week-07.md",
-      "seconds": 167.7
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-045.md",
-      "seconds": 3.2
+      "detail": "nothing in the cloud",
+      "seconds": 5.6
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep429 stopped on Gemini's free quota; it resumes in a later run",
-    "ep430 stopped on Gemini's free quota; it resumes in a later run",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -249,24 +199,7 @@
       "score": 20
     }
   ],
-  "made": [
-    {
-      "id": "ep429",
-      "outcome": "unfinished",
-      "topic": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep430",
-      "outcome": "unfinished",
-      "topic": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
   "published": [],
@@ -274,24 +207,21 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 15,
+    "calls": 2,
     "by_model": {
-      "gemini-3.6-flash": 2,
-      "gemini-3.7-flash": 3,
-      "gemini-3.5-flash-lite": 9,
-      "gemini-3-flash-preview": 1
+      "gemini-3.8-flash": 2
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 2,
+    "modal": 0,
     "runner": 0
   },
   "daily_done": "2026-11-15",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 9.64,
+    "metered": 9.65,
     "billed": 0.0
   },
   "modal_credit": 30.0,
