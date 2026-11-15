@@ -79,9 +79,9 @@ unexplained, not alien.
 | 2026-11-10 | Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts — parked (ep401) | The Universe Is Terrifying | New findings from the Chandra X-ray Observatory explain the star's mysterious and violent periodic eruptions. |
 | 2026-11-11 | Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it — done (ep405) | Scale Breaker | NASA announced Voyager 1 is crossing the milestone of being one full light-day away from Earth. |
 | 2026-11-11 | Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom — done (ep409) | Scale Breaker | NASA astrophysicists published new research showing how the LISA mission can detect hidden exoplanets via gravitational waves. |
-| 2026-11-13 | NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years | Scale Breaker | Featured in NASA's Astronomy Picture of the Day on November 13, 2026. |
+| 2026-11-13 | NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years — making (ep430) | Scale Breaker | Featured in NASA's Astronomy Picture of the Day on November 13, 2026. |
 | 2026-11-13 | Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display — making (ep427) | Mission Files | Highlighted in a new NASA news feature detailing the historic photography of its urban transport. |
-| 2026-11-14 | Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training | Mission Files | NASA highlighted Gemini XII and astronaut Buzz Aldrin's historic orbital flight for its November anniversary. |
+| 2026-11-14 | Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training — making (ep429) | Mission Files | NASA highlighted Gemini XII and astronaut Buzz Aldrin's historic orbital flight for its November anniversary. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -328,7 +328,7 @@ unexplained, not alien.
 - Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon — dropped (ep361)
 - Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun — done (ep379)
 - Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain — done (ep422)
-- Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space — making (ep426)
+- Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space — dropped (ep426)
 
 ### Near Misses
 

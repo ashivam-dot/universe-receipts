@@ -1,0 +1,249 @@
+id: ep428
+title: Why Venus Glows With a Ring of Fire
+series: Space Got Weird
+format: v3
+description: When Venus passes in front of the Sun, its thick atmosphere acts like a lens to create a stunning celestial halo.
+sources:
+- https://annex.exploratorium.edu/venus/question4.html
+- https://arxiv.org/abs/1206.3489
+- https://www.cambridge.org/core/journals/proceedings-of-the-international-astronomical-union/article/mikhail-lomonosov-and-the-discovery-of-the-atmosphere-of-venus-during-the-1761-transit/DB3469287EF11031C59499390B271609
+- https://en.wikipedia.org/wiki/Phases_of_Venus
+- https://www.physics.rutgers.edu/~croft/ANAGRAM.htm
+- https://web.archive.org/web/20050308045223/http://www.st-edmunds.cam.ac.uk/cis/gingerich/lecture3.html
+- http://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html
+hashtags:
+- '#space'
+- '#venus'
+- '#astronomy'
+tags:
+- venus
+- astronomy
+- galileo
+- transit
+- atmosphere
+- halo
+- space
+- '1761'
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Sunlight bending through Venus's atmosphere creates a glowing halo.
+  emphasis:
+  - glowing halo
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/The_Rare_Transit_of_Venus_-_2004_%287296491948%29.jpg/960px-The_Rare_Transit_of_Venus_-_2004_%287296491948%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Rare Transit of Venus - 2004 (7296491948).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Rare_Transit_of_Venus_-_2004_(7296491948).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.25
+    box:
+    - 0.33
+    - 0.05
+    - 0.68
+    - 0.46
+    card:
+      kind: fact
+      big: GLOWING HALO
+      small: Venus atmosphere light refraction
+- text: We all recognize the Moon's cycle from crescent to full.
+  emphasis:
+  - Moon's cycle
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/9d/Astronomy%3B_a_translucent_diagram_of_the_phases_of_the_Moon._Wellcome_V0025021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Astronomy; a translucent diagram of the phases of the Moon. Wellcome V0025021.jpg
+      credit: John Emslie
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Astronomy;_a_translucent_diagram_of_the_phases_of_the_Moon._Wellcome_V0025021.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.05
+    - 0.15
+    - 0.95
+    - 0.85
+- text: Galileo Galilei discovered Venus mimics those same phases in 1610.
+  emphasis:
+  - Galileo Galilei
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Fases_de_Venus_-_Galileo_Galilei.png/960px-Fases_de_Venus_-_Galileo_Galilei.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Fases de Venus - Galileo Galilei.png
+      credit: Galileo Galilei
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Fases_de_Venus_-_Galileo_Galilei.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.05
+    - 0.05
+    - 0.95
+    - 0.7
+    card:
+      kind: dateline
+      big: '1610'
+      small: Galileo's discovery
+- text: At full phase, it looks like a tiny, distant dot.
+  emphasis:
+  - tiny, distant dot
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Venus_-_November_20_2016_%2842926275871%29.jpg/960px-Venus_-_November_20_2016_%2842926275871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Venus - November 20 2016 (42926275871).jpg
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Venus_-_November_20_2016_(42926275871).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: TINY DOT
+      small: Venus at full phase
+- text: When closer, it swells into a crescent six times larger.
+  emphasis:
+  - six times larger
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/28/Riccioli-Venus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Riccioli-Venus.jpg
+      credit: G. B. Riccioli
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Riccioli-Venus.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.25
+    focus_y: 0.5
+    box:
+    - 0.05
+    - 0.05
+    - 0.45
+    - 0.95
+    card:
+      kind: fact
+      big: 6X LARGER
+      small: Venus near Earth
+- text: But its most mysterious phase happens against the Sun.
+  emphasis:
+  - against the Sun
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/55/Venus%27_transit_across_the_Sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Venus' transit across the Sun.jpg
+      credit: NASA/SDO/HMI
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Venus%27_transit_across_the_Sun.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.43
+    - 0.35
+    - 0.57
+    - 0.64
+- text: Astronomers saw a ring of fire during the 1761 transit.
+  emphasis:
+  - ring of fire
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/16/Halley_1716_proposal_of_determining_the_parallax_of_the_sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Halley 1716 proposal of determining the parallax of the sun.jpg
+      credit: Edmond Halley
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Halley_1716_proposal_of_determining_the_parallax_of_the_sun.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.72
+    focus_y: 0.5
+    box:
+    - 0.45
+    - 0.05
+    - 0.95
+    - 0.95
+    card:
+      kind: dateline
+      big: '1761'
+      small: The first proof
+- text: Thick clouds wrap sunlight all the way around the planet.
+  emphasis:
+  - wrap sunlight
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/83/Global_view_uvi_Venus_%28Akatsuki%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Global view uvi Venus (Akatsuki).jpg
+      credit: Meli thev
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Global_view_uvi_Venus_(Akatsuki).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Because even before its transit, light bends around the planet's edge.
+  emphasis:
+  - bends around
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.25
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE HALO EFFECT

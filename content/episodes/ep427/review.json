@@ -1,0 +1,124 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-15T05:20:29+05:30",
+      "check": {
+        "duration": 26.43,
+        "words": 81,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -4.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Clear but lacks the immediate stakes found in higher-performing episodes.",
+        "clarity": "Narrative is linear and very easy for a casual viewer to follow.",
+        "payoff": "The logisitical hurdles like tree removal provide a satisfying reveal.",
+        "visuals": "Critical error where flight footage is used to describe ground transport.",
+        "loop": "Speed-based conclusion flows naturally back into the start of the haul."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows the shuttle on a 747 aircraft instead of the street transporter."
+        },
+        {
+          "beat": 6,
+          "problem": "Shows flight footage while describing street-level obstacles like power lines."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A 150,000-pound spaceship took a three-day crawl through Los Angeles.",
+        "Beat 4: But the 12-mile journey across the city took 68 hours.",
+        "Beat 8: The entire trip averaged just two miles per hour."
+      ],
+      "better_than_last": "This provides a stronger sense of physical scale by grounding the spacecraft in a familiar city environment.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-15T05:23:26+05:30",
+      "check": {
+        "duration": 28.53,
+        "words": 84,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [
+          "'endeavour' heard as 'endeavor' after 'through los angeles'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing concept but lacks the mind-bending cosmic scale of previous hits.",
+        "clarity": "Logically organized and easy to follow on the first listen.",
+        "payoff": "Ends on a dry statistic rather than a surprising or emotional beat.",
+        "visuals": "Several frames fail to show the shuttle or match the specific street-level action described.",
+        "loop": "The transition from travel speed back to weight is smooth and effective."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Displays a satellite or cargo component rather than the Space Shuttle Endeavour."
+        },
+        {
+          "beat": 4,
+          "problem": "Generic crowd shot where the shuttle is not visible or clear."
+        },
+        {
+          "beat": 6,
+          "problem": "Reused crowd shot does not illustrate the removal of traffic lights or power lines."
+        },
+        {
+          "beat": 7,
+          "problem": "Hangar image does not depict the shuttle navigating narrow city streets."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: After 123 million miles in space, this shuttle faced a 12-mile traffic jam.",
+        "Beat 8: The spacecraft survived orbit, but city streets were its slowest mission yet."
+      ],
+      "better_than_last": "Provides a grounded, human-scale perspective on space hardware compared to the abstract physics of recent black hole episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -1,0 +1,181 @@
+id: ep427
+title: How NASA Hauled a Space Shuttle Through City Streets
+series: Mission Files
+format: v3
+description: 'After flying nearly 123 million miles in space, Space Shuttle Endeavour took its slowest journey yet: a 68-hour
+  crawl through the streets of Los Angeles.'
+sources:
+- https://en.wikipedia.org/wiki/Space_Shuttle_Endeavour
+- https://www.space.com/18123-space-shuttle-endeavour.html
+- https://www.spacedaily.com/t-space-shuttle-endeavour-12-mile-los-angeles-68-hours/
+- https://www.americaspace.com/2020/09/20/northrop-grumman-donates-flight-proven-srbs-to-endeavour-exhibit-at-csc/
+- https://www.latimes.com/entertainment-arts/story/2026-06-24/california-science-center-space-shuttle-endeavour-opening-date
+- https://web.archive.org/web/20200222025959/https://www.nasa.gov/centers/kennedy/shuttleoperations/orbiters/endeavour-info.html
+hashtags:
+- '#space'
+- '#nasa'
+- '#endeavour'
+tags:
+- space shuttle
+- endeavour
+- nasa
+- los angeles
+- spaceflight
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA hauled a space shuttle through city streets.
+  emphasis:
+  - city streets
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/36/STS-134_Endeavour_approaches_the_VAB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: STS-134 Endeavour approaches the VAB.jpg
+      credit: NASA/Jack Pfaller
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-134_Endeavour_approaches_the_VAB.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.55
+    focus_y: 0.45
+    box:
+    - 0.15
+    - 0.08
+    - 0.85
+    - 0.75
+    card:
+      kind: fact
+      big: 12 MILES
+      small: city street haul
+- text: Endeavour had already flown nearly 123 million space miles.
+  emphasis:
+  - 123 million
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Endeavour_from_ISS_before_docking.jpg/3840px-Endeavour_from_ISS_before_docking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Endeavour from ISS before docking.jpg
+      credit: NASA Expedition 20 crew
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Endeavour_from_ISS_before_docking.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.55
+    focus_y: 0.5
+    box:
+    - 0.2
+    - 0.3
+    - 0.9
+    - 0.85
+    card:
+      kind: fact
+      big: 123 MILLION MILES
+      small: in space orbit
+- text: It was built from spare parts left behind by other orbiters.
+  emphasis:
+  - spare parts
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/a0/Platforms_Around_Endeavour_In_Orbiter_Processing_Facility-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Platforms Around Endeavour In Orbiter Processing Facility-2.jpg
+      credit: Kim Shiflett
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Platforms_Around_Endeavour_In_Orbiter_Processing_Facility-2.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: SPARE PARTS
+      small: structural components
+- text: But its 12-mile journey through Los Angeles took 68 hours.
+  emphasis:
+  - 68 hours
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/42/NASA%27s_Boeing_747_SCA_with_the_Space_Shuttle_Endeavour_on_top_climbs_out_after_takeoff_from_Edwards_Air_Force_Base_%28EC01-0129-18%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: NASA's Boeing 747 SCA with the Space Shuttle Endeavour on top climbs out after takeoff from Edwards Air Force
+        Base (EC01-0129-18).jpg
+      credit: NASA Armstrong Flight Research Center / NASA/Tony Landis
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA%27s_Boeing_747_SCA_with_the_Space_Shuttle_Endeavour_on_top_climbs_out_after_takeoff_from_Edwards_Air_Force_Base_(EC01-0129-18).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.4
+    card:
+      kind: dateline
+      big: October 2012
+      small: Los Angeles transport
+- text: Crews cut down over 400 trees to clear the wide wings.
+  emphasis:
+  - 400 trees
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 400 TREES
+      small: removed for wingspan
+    motion: zoom_in
+- text: Workers shut off power lines and pulled down traffic lights.
+  emphasis:
+  - power lines
+  sfx: riser
+  visual:
+    reuse: 4
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+- text: The spacecraft squeezed past apartment buildings with inches of clearance.
+  emphasis:
+  - inches of clearance
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: INCHES
+      small: building clearance
+    motion: zoom_in
+- text: Top speed for the entire trip was just two miles per hour.
+  emphasis:
+  - two miles per hour
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.55
+    focus_y: 0.45
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 12 MILES ON CITY STREETS

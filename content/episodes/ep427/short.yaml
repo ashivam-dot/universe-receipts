@@ -1,0 +1,158 @@
+id: ep427
+title: The Slowest Journey of Space Shuttle Endeavour
+series: Mission Files
+format: v3
+description: 'After logging 123 million miles in orbit, Space Shuttle Endeavour faced its toughest mission yet: navigating
+  12 miles of urban Los Angeles.'
+sources:
+- https://en.wikipedia.org/wiki/Space_Shuttle_Endeavour
+- https://www.americaspace.com/2020/09/20/northrop-grumman-donates-flight-proven-srbs-to-endeavour-exhibit-at-csc/
+- https://www.spacedaily.com/t-space-shuttle-endeavour-12-mile-los-angeles-68-hours/
+- https://www.space.com/18123-space-shuttle-endeavour.html
+- https://web.archive.org/web/20200222025959/https://www.nasa.gov/centers/kennedy/shuttleoperations/orbiters/endeavour-info.html
+- https://www.latimes.com/entertainment-arts/story/2026-06-24/california-science-center-space-shuttle-endeavour-opening-date
+hashtags:
+- '#space'
+- '#nasa'
+- '#endeavour'
+tags:
+- space shuttle
+- endeavour
+- nasa
+- los angeles
+- transport
+- engineering
+- spaceflight
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: After millions of miles, this shuttle faced a traffic jam.
+  emphasis:
+  - traffic jam
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Endeavour_escorts_1255.jpg/1920px-Endeavour_escorts_1255.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Endeavour escorts 1255.jpg
+      credit: Pedro Xing
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Endeavour_escorts_1255.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.8
+    box:
+    - 0.35
+    - 0.75
+    - 0.65
+    - 0.95
+    card:
+      kind: fact
+      big: 123 MILLION
+      small: miles flown
+- text: It was built from spare structural parts left over from other orbiters.
+  emphasis:
+  - spare structural parts
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/a0/Platforms_Around_Endeavour_In_Orbiter_Processing_Facility-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Platforms Around Endeavour In Orbiter Processing Facility-2.jpg
+      credit: Kim Shiflett
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Platforms_Around_Endeavour_In_Orbiter_Processing_Facility-2.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: SPARE PARTS
+      small: shuttle construction
+- text: The massive journey across the city took 68 hours.
+  emphasis:
+  - 68 hours
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: OCTOBER 2012
+      small: Los Angeles haul
+    motion: zoom_in
+- text: Crews cut down over 400 trees to clear the wide wings.
+  emphasis:
+  - 400 trees
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 400 TREES
+      small: removed for clearance
+    motion: zoom_in
+- text: Workers pulled down traffic lights and shut off high-voltage power lines.
+  emphasis:
+  - power lines
+  sfx: riser
+  visual:
+    reuse: 2
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The shuttle squeezed past apartment buildings with only inches of clearance.
+  emphasis:
+  - inches of clearance
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Endeavour_rollout_ceremony.jpg/3840px-Endeavour_rollout_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Endeavour rollout ceremony.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Endeavour_rollout_ceremony.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.3
+    focus_y: 0.5
+    box:
+    - 0.1
+    - 0.4
+    - 0.5
+    - 0.8
+    card:
+      kind: fact
+      big: INCHES
+      small: from buildings
+- text: The spacecraft survived orbit, but city streets were its slowest mission yet.
+  emphasis:
+  - slowest mission yet
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.8
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 123 MILLION MILES

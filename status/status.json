@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-15T05:06:04+05:30",
+  "updated_at": "2026-11-15T11:17:27+05:30",
   "day": 45,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M7E6M5KKXK062PY06MSJN8QR",
+    "id": "ta-01M7EV7BFKNYK7199GTW6DZ0YR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-15T05:05:12+05:30",
-    "started_at_utc": "2026-11-14T23:35:12+00:00",
-    "seconds": 51
+    "started_at": "2026-11-15T11:05:13+05:30",
+    "started_at_utc": "2026-11-15T05:35:13+00:00",
+    "seconds": 734
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
+      "seconds": 2.0
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "nothing new",
-      "seconds": 4.2
+      "seconds": 3.9
     },
     {
       "name": "languages",
       "ok": true,
-      "detail": "every live Short is in English",
-      "seconds": 0.4
+      "detail": "ep380 language en/None -> en; ep387 language en/None -> en",
+      "seconds": 1.5
     },
     {
       "name": "on youtube",
@@ -45,37 +45,34 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 3.1
+      "detail": "ep373 at 72 h: level with the channel's earlier Shorts at this age: 965 views against a median of 1019 (0.9x); ep378 at 72 h: level with the channel's earlier Shorts at this age: 1184 views against a median of 1018 (1.2x); learnings: Evaluated performance reviews across ep357, ep351, ep360, ep369, ep365, ep378, ep373, ep411, ep380, and ep387 to track hook retention, mid-script pacing stalls, and ending prompt effects.",
+      "seconds": 683.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep423 ready; ep424 rejected (research: only 0 claims have two different sites); ep425 ready",
-      "seconds": 14.2
+      "detail": "ep426 rejected (research: only 0 claims have two different sites); ep427 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep428 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 14.0
     },
     {
-      "name": "start ep426",
+      "name": "start ep429",
       "ok": true,
-      "detail": "Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space",
-      "seconds": 1.9
+      "detail": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
+      "seconds": 2.5
     },
     {
-      "name": "start ep427",
+      "name": "start ep430",
       "ok": true,
-      "detail": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
-      "seconds": 1.8
-    },
-    {
-      "name": "start ep428",
-      "ok": true,
-      "detail": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
-      "seconds": 1.8
+      "detail": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
+      "seconds": 2.6
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
+    "ep427 stopped on Gemini's free quota; it resumes in a later run",
+    "ep428 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -83,11 +80,13 @@
     "in_buffer": 10,
     "waiting": 12,
     "target": 14,
-    "making": [],
-    "remote": [
-      "ep426",
+    "making": [
       "ep427",
       "ep428"
+    ],
+    "remote": [
+      "ep429",
+      "ep430"
     ]
   },
   "queue": [
@@ -218,72 +217,50 @@
   ],
   "made": [
     {
-      "id": "ep423",
-      "outcome": "ready",
-      "topic": "Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit",
-      "title": "Why Our Galaxy's Giant Black Hole Is Tiny",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794678197/universereceipts/ep423-83882179.mp4"
-    },
-    {
-      "id": "ep424",
+      "id": "ep426",
       "outcome": "rejected",
-      "topic": "Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice",
+      "topic": "Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space",
       "reason": "research: only 0 claims have two different sites"
     },
     {
-      "id": "ep425",
-      "outcome": "ready",
-      "topic": "Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light",
-      "title": "The Violent Magnetic Fits of Our Central Black Hole",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794678548/universereceipts/ep425-afea5782.mp4"
+      "id": "ep427",
+      "outcome": "unfinished",
+      "topic": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep428",
+      "outcome": "unfinished",
+      "topic": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep426",
-      "topic": "Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space",
-      "call_id": "fc-01M7E6NTFXTXCY66BVA69ZRF0E"
+      "id": "ep429",
+      "topic": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
+      "call_id": "fc-01M7EVXVSPA5KGYMGSBV70XS75"
     },
     {
-      "id": "ep427",
-      "topic": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
-      "call_id": "fc-01M7E6NW9MF4934178E4QHPJHN"
-    },
-    {
-      "id": "ep428",
-      "topic": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
-      "call_id": "fc-01M7E6NY3090VMCPXJVKCMFGX3"
+      "id": "ep430",
+      "topic": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
+      "call_id": "fc-01M7EVXXXK9TJEPVX99MHDVJR9"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep426",
-      "topic": "Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space",
-      "spawned_at": "2026-11-15T05:05:56+05:30"
+      "id": "ep429",
+      "topic": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
+      "spawned_at": "2026-11-15T11:17:20+05:30"
     },
     {
-      "id": "ep427",
-      "topic": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
-      "spawned_at": "2026-11-15T05:05:58+05:30"
-    },
-    {
-      "id": "ep428",
-      "topic": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
-      "spawned_at": "2026-11-15T05:06:00+05:30"
+      "id": "ep430",
+      "topic": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
+      "spawned_at": "2026-11-15T11:17:22+05:30"
     }
   ],
   "published": [],
@@ -291,34 +268,38 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 13,
+    "calls": 29,
     "by_model": {
-      "gemini-3.6-flash": 2,
-      "gemini-3-flash-preview": 9,
-      "gemini-3.5-flash-lite": 2
+      "gemini-3.6-flash": 9,
+      "gemini-3.5-flash": 2,
+      "gemini-3.5-flash-lite": 10,
+      "gemini-3-flash-preview": 8
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.6-flash",
+      "gemini-3.7-flash"
+    ]
   },
   "renders": {
-    "modal": 4,
+    "modal": 5,
     "runner": 0
   },
   "daily_done": "2026-11-14",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 9.34,
+    "metered": 9.53,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 155,
+    "cloud": 153,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 18.66
+    "modal_credit_left": 18.47
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 31,
+  "open_topics": 29,
   "parked_topics": 71
 }

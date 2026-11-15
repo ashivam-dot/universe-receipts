@@ -10,11 +10,11 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 48% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 67.4% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 121% | rising week over week |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 47% | 70%+; under 60% rarely takes off |
+| Average percentage viewed | `analytics.averageViewPercentage` | 78.4% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 132% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
-| Likes per 100 views | `likes` / `views` | 2.2 | 4+ |
+| Likes per 100 views | `likes` / `views` | 2.0 | 4+ |
 
 ## Rules we've proven
 
@@ -55,28 +55,26 @@ contradiction.
 
 | Short | Series | Hook style | Observed 24-30h views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep174 | Mission Files | statement, story | 260 | 52% | 64.5% | 106% | 1 | – |
-| ep203 | Near Misses | contradiction, myth_vs_fact | 131 | 50% | 39.8% | 96% | 0 | – |
-| ep210 | Mission Files | contradiction, mystery | 149 | 40% | 40.5% | 97% | 0 | – |
-| 4vqKkpkfwyY | ? | –, story | – | 30% | 44.5% | 110% | 0 | – |
-| ep177 | Mission Files | statement, story | 127 | 55% | 53.4% | 102% | 0 | – |
-| ep216 | Space Myths, Busted | contradiction, record | 90 | 52% | 57.9% | 108% | 0 | – |
-| 7lDBiMMlASI | ? | –, story | – | 27% | 86.5% | 142% | 0 | – |
-| ep190 | Mission Files | statement, story | 14 | 43% | 69.0% | – | 0 | – |
-| n8iv0-XfRnY | ? | –, story | – | – | – | – | – | – |
-| sPUubWIORv4 | ? | –, story | – | – | – | – | – | – |
-| TKHYK3-F_QI | ? | –, story | – | – | – | – | – | – |
-| 3FU0QDuIAAQ | ? | –, story | – | – | – | – | – | – |
-| UrEN-tyt2DY | ? | –, story | – | – | – | – | – | – |
-| VWs9pa7NFJo | ? | –, story | – | – | – | – | – | – |
-| Ql418EoNwCQ | ? | –, story | – | – | – | – | – | – |
-| 5bfuZgx-CS4 | ? | –, story | – | – | – | – | – | – |
+| ep210 | Mission Files | contradiction, mystery | 149 | 40% | 40.5% | 97% | 0 | published while YouTube held the whole channel back; not evidence |
+| 4vqKkpkfwyY | ? | –, story | – | 30% | 44.5% | 110% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep177 | Mission Files | statement, story | 127 | 55% | 53.4% | 102% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep216 | Space Myths, Busted | contradiction, record | 90 | 52% | 57.9% | 108% | 0 | published while YouTube held the whole channel back; not evidence |
+| 7lDBiMMlASI | ? | –, story | – | 27% | 86.5% | 142% | 0 | published while YouTube held the whole channel back; not evidence |
+| ep190 | Mission Files | statement, story | 14 | 43% | 69.0% | – | 0 | published while YouTube held the whole channel back; not evidence |
+| n8iv0-XfRnY | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| sPUubWIORv4 | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| TKHYK3-F_QI | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| 3FU0QDuIAAQ | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| UrEN-tyt2DY | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| VWs9pa7NFJo | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| Ql418EoNwCQ | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
+| 5bfuZgx-CS4 | ? | –, story | – | – | – | – | – | published while YouTube held the whole channel back; not evidence |
 | ep225 | Space Got Weird | contradiction, mystery | 41 | 48% | 58.1% | 112% | 0 | – |
 | ep078 | The Universe Is Terrifying | contradiction, scale_ladder | 85 | 41% | 71.8% | 128% | 0 | – |
-| ep244 | Space Myths, Busted | statement, record | 51 | 36% | 69.6% | 129% | 0 | – |
+| ep244 | Space Myths, Busted | statement, record | 51 | 37% | 66.9% | 124% | 0 | – |
 | ep254 | Scale Breaker | statement, story | 1061 | 47% | 68.2% | 122% | 3 | – |
 | ep258 | Space Myths, Busted | statement, scale_ladder | 394 | 42% | 73.6% | 120% | 1 | – |
-| ep260 | Scale Breaker | statement, story | 1414 | 45% | 98.5% | 140% | 4 | – |
+| ep260 | Scale Breaker | statement, story | 1414 | 46% | 98.4% | 140% | 4 | – |
 | ep262 | Mission Files | statement, myth_vs_fact | 931 | 49% | 135.3% | 201% | 1 | – |
 | ep266 | Space Myths, Busted | contradiction, myth_vs_fact | 1146 | 50% | 103.1% | 146% | 0 | – |
 | ep265 | Space Got Weird | statement, mystery | 1379 | 56% | 73.8% | 133% | 0 | – |
@@ -91,17 +89,20 @@ contradiction.
 | ep352 | Mission Files | statement, scale_ladder | 1372 | 46% | 79.8% | 128% | 0 | – |
 | ep356 | Scale Breaker | statement, story | 2135 | 44% | 93.9% | 137% | 3 | – |
 | ep362 | The Universe Is Terrifying | statement, mystery | 1017 | 46% | 83.3% | 139% | 3 | – |
-| ep349 | Scale Breaker | statement, scale_ladder | 1199 | 50% | 83.6% | 128% | 2 | – |
-| ep357 | Space Got Weird | statement, story | 1268 | 49% | 67.4% | 118% | 0 | Strong early reach above median driven by topic, but mid-script atmospheric beats and weak loop reduced retention. |
-| ep351 | Mission Files | contradiction, scale_ladder | 799 | 48% | 71.6% | 122% | 0 | High feed share gave median reach, but three beats of tech backstory before conflict slowed pacing and lowered retention. |
-| ep360 | Mission Files | statement, myth_vs_fact | 1167 | 53% | 63.1% | 121% | 0 | Sealed-hatch hook and mechanical tension yielded top-tier retention, but matter-of-fact ending suppressed likes and comments. |
-| ep369 | Near Misses | statement, scale_ladder | 130 | 45% | 76.7% | 136% | 0 | Strong topic interest initially, but three repetitive beats restating the hook stalled mid-pacing and crashed reach below median. |
-| ep365 | Mission Files | statement, record | 1027 | 47% | 59.2% | 119% | 0 | Reprogramming payoff drove high rewatch percentage, but passive dust hook reduced initial engaged feed share. |
-| ep378 | Space Myths, Busted | statement, record | 1171 | 46% | 74.4% | 125% | 0 | Paradoxical Venus hook generated strong views above median, though circular ending lacked an engagement prompt for comments. |
-| ep373 | Near Misses | statement, myth_vs_fact | 847 | 49% | 65.0% | 118% | 0 | Troubleshooting narrative achieved high like rate, but slow hook velocity and broken ending loop limited rewatch momentum. |
-| ep411 | Scale Breaker | statement, mystery | 1246 | – | – | – | – | Voyager mystery hook drove reach 1.4x above median, but lack of ending debate prompt resulted in zero comments. |
-| ep380 | Scale Breaker | statement, story | 1399 | – | – | – | – | Jupiter structure topic achieved 1.5x median reach and high views per hour, but explanatory wrap-up limited like conversion. |
-| ep387 | Mission Files | statement, scale_ladder | 866 | – | – | – | – | Rosetta comet topic maintained steady reach near median, but verbatim hook repetition in final beat lowered viewer satisfaction. |
+| ep349 | Scale Breaker | statement, scale_ladder | 1199 | 50% | 83.7% | 128% | 2 | – |
+| ep357 | Space Got Weird | statement, story | 1268 | 49% | 67.7% | 118% | 0 | Above-median early reach (1,268 views at 27.1h vs 1,027 median) with strong topic interest, but static opening line and atmospheric mid-script pacing dropped average percentage viewed to 67.7%. |
+| ep351 | Mission Files | contradiction, scale_ladder | 799 | 49% | 71.4% | 122% | 0 | Average early reach (799 views at 29.5h) with high feed distribution (94.1%), but technical backstory in beat 1 stalled mid-video retention at 50% down to 63.9%. |
+| ep360 | Mission Files | statement, myth_vs_fact | 1167 | 53% | 63.0% | 121% | 0 | Above-median early reach (1,167 views at 27.1h) with outstanding initial hold (watching at 5s 1.722), though matter-of-fact historical recap ending suppressed likes (1.7 per 100) and comments (0). |
+| ep369 | Near Misses | statement, scale_ladder | 130 | 47% | 74.9% | 132% | 0 | Behind median early reach (130 views at 29.5h vs 1,027 median) as three consecutive beats restating suffocation risk killed mid-video retention (31.2% at 50%). |
+| ep365 | Mission Files | statement, record | 1027 | 47% | 59.4% | 119% | 0 | Level early reach (1,027 views at 27.1h) with high loop potential, but static scene-setting hook text ('BLINDED BY DUST') dropped engaged share to 27.3%. |
+| ep378 | Space Myths, Busted | statement, record | 1171 | 46% | 120.9% | 173% | 0 | Ahead of median early reach (1,171 views at 29.5h) with massive early hold (watching at 5s 7.333), though repeating the opening statement verbatim at the end dropped final completion to 35.6%. |
+| ep373 | Near Misses | statement, myth_vs_fact | 847 | 49% | 67.2% | 119% | 0 | Level early reach (847 views at 27.1h) with strong mid-script hold (71.7% at 50%), but spoiling the lightning mystery upfront in beat 1 limited initial hold. |
+| ep411 | Scale Breaker | statement, mystery | 1246 | 44% | 93.5% | 135% | 1 | Above-median early reach (1,246 views at 24.1h vs 882 median age baseline) driven by Voyager scale narrative, though lack of a closing debate prompt resulted in zero comments. |
+| ep380 | Scale Breaker | statement, story | 1399 | 53% | 78.4% | 127% | 1 | Above-median early reach (1,399 views at 29.5h vs 917 median age baseline) with good comment engagement, though standard summary wrap-up kept likes per 100 at median 2.0. |
+| ep387 | Mission Files | statement, scale_ladder | 866 | 51% | 147.0% | 203% | 0 | Level early reach (866 views at 27.1h) with exceptional rewatch loop (147.0% AVP, 2.026 at10), though repeating the opening hook at the end capped likes per 100 at 1.4. |
+| AqjFtgMXTqI | ? | –, story | – | – | – | – | – | – |
+| AGVNlHYNopg | ? | –, story | – | – | – | – | – | – |
+| acGOaPvE6tM | ? | –, story | – | – | – | – | – | – |
 
 ## Log
 
@@ -256,3 +257,4 @@ contradiction.
 - 2026-11-13: Updated learning log with automated diagnoses and reach reviews for episodes ep362 through ep411.
 - 2026-11-14: Updated medians and introduced pacing and engagement hypotheses from recent script reviews to address AVP and like-rate decline.
 - 2026-11-14: Evaluated recent uploads (ep357, ep351, ep360, ep369, ep365, ep378, ep373, ep411, ep380, ep387) against channel medians, integrating review feedback on pacing, hook style, and comment-prompting endings.
+- 2026-11-15: Evaluated performance reviews across ep357, ep351, ep360, ep369, ep365, ep378, ep373, ep411, ep380, and ep387 to track hook retention, mid-script pacing stalls, and ending prompt effects.
