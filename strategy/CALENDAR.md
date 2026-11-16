@@ -52,7 +52,7 @@ unexplained, not alien.
 | 2026-10-25 | 2024 PT5 (2024): an asteroid that was captured by Earth's gravity to serve as a temporary second moon for 57 days — done (ep249) | Space Got Weird | The Moon is currently trending with over 27,000 views following recent news about Earth's temporary 'mini-moon' events. |
 | 2026-10-25 | Lunar lava tube (2009): gargantuan underground tunnels on the Moon that are large enough to fit the entire city of Philadelphia inside — done (ep250) | Scale Breaker | Interest in the Moon is high on Wikipedia following NASA's recent updates on accelerating lander development for 2028. |
 | 2026-10-29 | CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour — done (ep254) | Scale Breaker | NASA's citizen science highlights this week brought renewed attention to the project that discovered this galaxy-escaping object. |
-| 2026-10-29 | Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo — making (ep428) | Space Got Weird | This specific visual phenomenon was featured as the NASA Astronomy Picture of the Day on October 29. |
+| 2026-10-29 | Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo — done (ep428) | Space Got Weird | This specific visual phenomenon was featured as the NASA Astronomy Picture of the Day on October 29. |
 | 2026-10-30 | Dragonfly (spacecraft) (2021): this nuclear-powered rotorcraft will leapfrog across Titan, covering more ground in a single flight than the Curiosity rover has in twelve years — done (ep262) | Mission Files | NASA just opened a public campaign to send names to Titan aboard the craft. |
 | 2026-10-30 | Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet — parked (ep335) | Scale Breaker | NASA scientists just identified 13 specific craters on Mars where this ancient rock may have originated. |
 | 2026-11-01 | Pioneer 11 (1973): NASA's forgotten interstellar probe is coasting in dead silence toward a star in Aquila that it will not reach for four million years — dropped (ep309) | Scale Breaker | Follow-up to ep260, which broke out (1,268 views in 13 h, 25.4x the median) |
@@ -79,9 +79,9 @@ unexplained, not alien.
 | 2026-11-10 | Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts — parked (ep401) | The Universe Is Terrifying | New findings from the Chandra X-ray Observatory explain the star's mysterious and violent periodic eruptions. |
 | 2026-11-11 | Voyager 1 (1977): the probe has reached one light-day from Earth, meaning a radio signal traveling at the speed of light takes 24 hours to reach it — done (ep405) | Scale Breaker | NASA announced Voyager 1 is crossing the milestone of being one full light-day away from Earth. |
 | 2026-11-11 | Laser Interferometer Space Antenna (2024): a planned space detector spanning 1.6 million miles—wider than the Sun—built to measure spacetime tremors smaller than an atom — done (ep409) | Scale Breaker | NASA astrophysicists published new research showing how the LISA mission can detect hidden exoplanets via gravitational waves. |
-| 2026-11-13 | NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years — making (ep430) | Scale Breaker | Featured in NASA's Astronomy Picture of the Day on November 13, 2026. |
-| 2026-11-13 | Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display — making (ep427) | Mission Files | Highlighted in a new NASA news feature detailing the historic photography of its urban transport. |
-| 2026-11-14 | Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training — making (ep429) | Mission Files | NASA highlighted Gemini XII and astronaut Buzz Aldrin's historic orbital flight for its November anniversary. |
+| 2026-11-13 | NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years — parked (ep430) | Scale Breaker | Featured in NASA's Astronomy Picture of the Day on November 13, 2026. |
+| 2026-11-13 | Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display — parked (ep427) | Mission Files | Highlighted in a new NASA news feature detailing the historic photography of its urban transport. |
+| 2026-11-14 | Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training — done (ep429) | Mission Files | NASA highlighted Gemini XII and astronaut Buzz Aldrin's historic orbital flight for its November anniversary. |
 | 2026-11-16 | NGC 7129 (1794): newborn stars blasting supersonic gas jets that carve glowing cosmic bubbles out of interstellar dust | Space Got Weird | Featured in NASA's Astronomy Picture of the Day highlighting James Webb Space Telescope observations of its protostellar jets. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
@@ -282,7 +282,7 @@ unexplained, not alien.
 - Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth — parked (ep353)
 - Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands — done (ep351)
 - Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — parked (ep279)
-- Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — making (ep431)
+- Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — dropped (ep431)
 - James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — parked (ep302)
 - Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — parked (ep303)
 - Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — done (ep360)
@@ -334,7 +334,7 @@ unexplained, not alien.
 - Uranus (1986): Uranus has the coldest planetary atmosphere in the solar system at minus 371°F, despite not being the farthest from the Sun — done (ep379)
 - Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain — done (ep422)
 - Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space — dropped (ep426)
-- Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures
+- Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures — making (ep432)
 
 ### Near Misses
 

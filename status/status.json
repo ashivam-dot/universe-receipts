@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-16T17:33:06+05:30",
+  "updated_at": "2026-11-16T23:06:06+05:30",
   "day": 46,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7J276PJTG9GHXGBW29MF9WR",
+    "id": "ta-01M7JPTF93VE6WP4B51TG3J43R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-16T17:05:07+05:30",
-    "started_at_utc": "2026-11-16T11:35:07+00:00",
-    "seconds": 1679
+    "started_at": "2026-11-16T23:05:13+05:30",
+    "started_at_utc": "2026-11-16T17:35:13+00:00",
+    "seconds": 54
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 1.8
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
-      "error": "HttpError: <HttpError 500 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLOEeYv1s3CLc&maxResults=50&pageToken=EAAaBlBUOkNBOA&alt=json returned \"Internal error encountered.\". Details: \"[{'message': 'Internal error encountered.', 'domain': 'global', 'reason': 'backendError'}]\">",
-      "seconds": 471.7
+      "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
+      "seconds": 1.8
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.7
     },
     {
       "name": "on youtube",
@@ -47,106 +47,36 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 1.9
+      "seconds": 3.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "nothing in the cloud",
-      "seconds": 2.4
+      "detail": "ep427 rejected (low scores: hook, payoff, visuals, loop; 3 frame problems); ep428 ready; ep429 ready; ep430 rejected (low scores: hook, payoff, visuals, loop); ep431 rejected (research: only 0 claims have two different sites)",
+      "seconds": 19.7
     },
     {
-      "name": "analytics",
+      "name": "start ep432",
       "ok": true,
-      "detail": "131 subscribers",
-      "seconds": 10.8
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Logged performance reviews for ep351, ep357, ep360, ep365, ep369, ep373, ep378, ep380, ep387, and ep411 to refine script rule evidence and active hypotheses.",
-      "seconds": 979.3
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 1.1
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "1 added",
-      "seconds": 72.8
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "4 added",
-      "seconds": 118.8
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-046.md",
-      "seconds": 1.4
-    },
-    {
-      "name": "start ep427",
-      "ok": true,
-      "detail": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep428",
-      "ok": true,
-      "detail": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
-      "seconds": 0.5
-    },
-    {
-      "name": "start ep429",
-      "ok": true,
-      "detail": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep430",
-      "ok": true,
-      "detail": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep431",
-      "ok": true,
-      "detail": "Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs",
-      "seconds": 0.4
+      "detail": "Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures",
+      "seconds": 1.3
     }
   ],
   "errors": [
-    "playlists: HttpError: <HttpError 500 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLOEeYv1s3CLc&maxResults=50&pageToken=EAAaBlBUOkNBOA&alt=json returned \"Internal error encountered.\". Details: \"[{'message': 'Internal error encountered.', 'domain': 'global', 'reason': 'backendError'}]\">"
+    "playlists: HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">"
   ],
   "owner_action": [],
   "notes": [
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 22,
+    "total": 24,
     "in_buffer": 10,
-    "waiting": 12,
+    "waiting": 14,
     "target": 14,
     "making": [],
     "remote": [
-      "ep427",
-      "ep428",
-      "ep429",
-      "ep430",
-      "ep431"
+      "ep432"
     ]
   },
   "queue": [
@@ -273,61 +203,80 @@
       "title": "The Violent Magnetic Fits of Our Central Black Hole",
       "series": "The Universe Is Terrifying",
       "score": 20
-    }
-  ],
-  "made": [],
-  "spawned": [
-    {
-      "id": "ep427",
-      "topic": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
-      "call_id": "fc-01M7J3TGBM0GS0PN2V4XP4BRMP"
     },
     {
       "id": "ep428",
-      "topic": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
-      "call_id": "fc-01M7J3TGSVCBAD99AP2TX2T5V1"
+      "title": "Why Venus Glows With a Ring of Fire",
+      "series": "Space Got Weird",
+      "score": 20
     },
     {
       "id": "ep429",
+      "title": "How Gemini 12 Solved Spacewalk Exhaustion",
+      "series": "Mission Files",
+      "score": 23
+    }
+  ],
+  "made": [
+    {
+      "id": "ep427",
+      "outcome": "rejected",
+      "topic": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
+      "reason": "low scores: hook, payoff, visuals, loop; 3 frame problems"
+    },
+    {
+      "id": "ep428",
+      "outcome": "ready",
+      "topic": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
+      "title": "Why Venus Glows With a Ring of Fire",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794831495/universereceipts/ep428-e27028d5.mp4"
+    },
+    {
+      "id": "ep429",
+      "outcome": "ready",
       "topic": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
-      "call_id": "fc-01M7J3TH7DPS87X1CCA0C6VHT7"
+      "title": "How Gemini 12 Solved Spacewalk Exhaustion",
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794832031/universereceipts/ep429-f670e647.mp4"
     },
     {
       "id": "ep430",
+      "outcome": "rejected",
       "topic": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
-      "call_id": "fc-01M7J3THKTF8KJCMCZAWQ2QZKR"
+      "reason": "low scores: hook, payoff, visuals, loop"
     },
     {
       "id": "ep431",
+      "outcome": "rejected",
       "topic": "Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs",
-      "call_id": "fc-01M7J3THZAZB0TXM12VDQBD59D"
+      "reason": "research: only 0 claims have two different sites"
+    }
+  ],
+  "spawned": [
+    {
+      "id": "ep432",
+      "topic": "Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures",
+      "call_id": "fc-01M7JPW8AZJKFS2KWWR3BN38J1"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep427",
-      "topic": "Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display",
-      "spawned_at": "2026-11-16T17:33:02+05:30"
-    },
-    {
-      "id": "ep428",
-      "topic": "Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo",
-      "spawned_at": "2026-11-16T17:33:02+05:30"
-    },
-    {
-      "id": "ep429",
-      "topic": "Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training",
-      "spawned_at": "2026-11-16T17:33:03+05:30"
-    },
-    {
-      "id": "ep430",
-      "topic": "NGC 206 (1786): a star cloud in Andromeda so colossal it contains hundreds of supergiant stars visible across two million light-years",
-      "spawned_at": "2026-11-16T17:33:03+05:30"
-    },
-    {
-      "id": "ep431",
-      "topic": "Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs",
-      "spawned_at": "2026-11-16T17:33:03+05:30"
+      "id": "ep432",
+      "topic": "Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures",
+      "spawned_at": "2026-11-16T23:06:02+05:30"
     }
   ],
   "published": [],
@@ -335,33 +284,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 3,
+    "calls": 27,
     "by_model": {
-      "gemini-3.6-flash": 2,
-      "gemini-3.8-flash": 1
+      "gemini-3.8-flash": 6,
+      "gemini-3.6-flash": 14,
+      "gemini-3.5-flash-lite": 5,
+      "gemini-3.5-flash": 2
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 0,
+    "modal": 9,
     "runner": 0
   },
   "daily_done": "2026-11-16",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 9.73,
+    "metered": 9.99,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 152,
+    "cloud": 150,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 18.27
+    "modal_credit_left": 18.01
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 37,
-  "parked_topics": 70
+  "open_topics": 36,
+  "parked_topics": 72
 }

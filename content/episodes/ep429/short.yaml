@@ -2,7 +2,7 @@ id: ep429
 title: How Gemini 12 Solved Spacewalk Exhaustion
 series: Mission Files
 format: v3
-description: Discover how Buzz Aldrin conquered deadly space fatigue on Gemini 12 by introducing underwater pool training.
+description: Discover how Buzz Aldrin conquered deadly space fatigue on Gemini 12 by using underwater pool training.
 sources:
 - https://en.wikipedia.org/wiki/Gemini_12
 - https://www.space.com/space-exploration/on-this-day-in-space-november-11-2026
@@ -32,37 +32,42 @@ beats:
   - nearly killed
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/S66-63536.jpg/3840px-S66-63536.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/8/8a/Project_Gemini_Comes_to_Life_%28LROC404_-_GT4-37149-013_G04_web%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: S66-63536.jpg
-      credit: NASA/Jim Lovell
+      title: Project Gemini Comes to Life (LROC404 - GT4-37149-013 G04 web).png
+      credit: NASA/JSC/Arizona State University
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:S66-63536.jpg
+      url: https://commons.wikimedia.org/wiki/File:Project_Gemini_Comes_to_Life_(LROC404_-_GT4-37149-013_G04_web).png
     fallbacks:
     - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.45
-- text: Pilots couldn't work in zero gravity without proper body restraints.
+    motion: zoom_out
+    focus_x: 0.65
+    focus_y: 0.35
+    box:
+    - 0.42
+    - 0.0
+    - 0.95
+    - 0.75
+- text: Pilots suffered extreme overheating without proper foot and body restraints.
   emphasis:
-  - body restraints
+  - extreme overheating
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/a/a1/Gemini_Capsule_-_wind_tunnel_model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/8/84/Aldrin_Gemini_XII_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Gemini Capsule - wind tunnel model.jpg
+      title: Aldrin Gemini XII 5.jpg
       credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Gemini_Capsule_-_wind_tunnel_model.jpg
+      url: https://commons.wikimedia.org/wiki/File:Aldrin_Gemini_XII_5.jpg
     fallbacks:
     - color
     motion: pan_left
-    focus_x: 0.75
-    focus_y: 0.5
-- text: NASA launched Gemini 12 in November 1966 to fix this crisis.
+    focus_x: 0.48
+    focus_y: 0.45
+- text: NASA launched Gemini 12 in November 1966 to solve the problem.
   emphasis:
   - November 1966
   visual:
@@ -78,86 +83,100 @@ beats:
     - card
     - color
     motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.4
+    focus_x: 0.52
+    focus_y: 0.52
     card:
       kind: dateline
       big: November 1966
       small: Gemini 12 Launch
-- text: Command pilot James Lovell and pilot Buzz Aldrin faced radar failure.
+- text: Command pilot James Lovell and pilot Buzz Aldrin flew the mission.
   emphasis:
-  - radar failure
+  - James Lovell
+  - Buzz Aldrin
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/3/3d/Portrait_-_Gemini_12_-_Prime_and_Backup_Crews_%28s66-46955%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/PORTRAIT_-_GEMINI_12_PRIME_CREW_%28s66-46952%29.jpg/1920px-PORTRAIT_-_GEMINI_12_PRIME_CREW_%28s66-46952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Portrait - Gemini 12 - Prime and Backup Crews (s66-46955).jpg
+      title: PORTRAIT - GEMINI 12 PRIME CREW (s66-46952).jpg
       credit: NASA Johnson Space Center
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Portrait_-_Gemini_12_-_Prime_and_Backup_Crews_(s66-46955).jpg
+      url: https://commons.wikimedia.org/wiki/File:PORTRAIT_-_GEMINI_12_PRIME_CREW_(s66-46952).jpg
     fallbacks:
     - color
-    motion: pan_left
+    motion: pan_up
     focus_x: 0.5
-    focus_y: 0.35
-- text: Aldrin used a sextant to manually compute their orbital rendezvous maneuvers.
+    focus_y: 0.38
+- text: Aldrin trained for weightlessness inside an underwater neutral buoyancy pool.
   emphasis:
-  - sextant
+  - underwater neutral buoyancy pool
   sfx: riser
   visual:
-    source: card
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/GEMINI-TITAN_%28GT%29-12_-_ASTRONAUT_TRAINING_-_UNDERWATER_-_MD_%28s66-54934%29.jpg/3840px-GEMINI-TITAN_%28GT%29-12_-_ASTRONAUT_TRAINING_-_UNDERWATER_-_MD_%28s66-54934%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: GEMINI-TITAN (GT)-12 - ASTRONAUT TRAINING - UNDERWATER - MD (s66-54934).jpg
+      credit: NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:GEMINI-TITAN_(GT)-12_-_ASTRONAUT_TRAINING_-_UNDERWATER_-_MD_(s66-54934).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.57
+    focus_y: 0.52
     card:
       kind: fact
-      big: Manual Math
-      small: Sextant rendezvous calculation
-    motion: zoom_in
-- text: He then tested custom foot restraints during three difficult spacewalks.
+      big: Pool Training
+      small: Neutral buoyancy simulation
+- text: In orbit, he used custom foot restraints across three spacewalks.
   emphasis:
   - foot restraints
+  - three spacewalks
   sfx: whoosh
   visual:
     source: url
-    url: https://live.staticflickr.com/65535/49416029833_4d2de43d4c_b.jpg
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gemini_12_-_Edwin_Aldrin_in_open_hatch_of_spacecraft_during_EVA.jpg/3840px-Gemini_12_-_Edwin_Aldrin_in_open_hatch_of_spacecraft_during_EVA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
-      source: Flickr via Openverse
-      title: Buzz Aldrin's EVA flashlight used on his first space walk, back in the heavy-velcro era
-      credit: jurvetson
-      license: CC BY 2.0
-      url: https://www.flickr.com/photos/44124348109@N01/49416029833
+      source: Wikimedia Commons
+      title: Gemini 12 - Edwin Aldrin in open hatch of spacecraft during EVA.jpg
+      credit: NASA/Jim Lovell
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Gemini_12_-_Edwin_Aldrin_in_open_hatch_of_spacecraft_during_EVA.jpg
     fallbacks:
     - color
     motion: pan_left
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Underwater pool training had finally mastered the deadly zero gravity fatigue.
+    focus_x: 0.55
+    focus_y: 0.48
+- text: His underwater pool training definitively conquered zero-gravity physical exhaustion.
   emphasis:
-  - Underwater pool training
+  - definitively conquered
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Gemini_4_EVA_training_2.jpg/1920px-Gemini_4_EVA_training_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Gemini_XII_EVA_with_Buzz_Aldrin_and_the_Earth_in_his_visor%27s_reflection.jpg/960px-Gemini_XII_EVA_with_Buzz_Aldrin_and_the_Earth_in_his_visor%27s_reflection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Gemini 4 EVA training 2.jpg
+      title: Gemini XII EVA with Buzz Aldrin and the Earth in his visor's reflection.jpg
       credit: NASA
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Gemini_4_EVA_training_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Gemini_XII_EVA_with_Buzz_Aldrin_and_the_Earth_in_his_visor%27s_reflection.jpg
     fallbacks:
     - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Space walk exhaustion nearly killed astronauts before underwater pools saved missions.
+    motion: zoom_out
+    focus_x: 0.48
+    focus_y: 0.58
+- text: His techniques proved human beings could safely work outside their spacecraft.
   emphasis:
-  - nearly killed astronauts
+  - safely work outside
   visual:
     reuse: 1
-    motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.45
+    motion: zoom_in
+    focus_x: 0.65
+    focus_y: 0.35
 look: bold
 music:
   path: bed:chase

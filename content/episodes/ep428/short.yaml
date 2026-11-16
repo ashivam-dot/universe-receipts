@@ -2,7 +2,7 @@ id: ep428
 title: Why Venus Glows With a Ring of Fire
 series: Space Got Weird
 format: v3
-description: When Venus passes in front of the Sun, its thick atmosphere acts like a lens to create a stunning celestial halo.
+description: When Venus passes in front of the Sun, its dense atmosphere bends light to create a spectacular glowing halo.
 sources:
 - https://annex.exploratorium.edu/venus/question4.html
 - https://arxiv.org/abs/1206.3489
@@ -189,49 +189,32 @@ beats:
   sfx: pop
   pause_after: 0.4
   visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/1/16/Halley_1716_proposal_of_determining_the_parallax_of_the_sun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Halley 1716 proposal of determining the parallax of the sun.jpg
-      credit: Edmond Halley
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Halley_1716_proposal_of_determining_the_parallax_of_the_sun.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_right
-    focus_x: 0.72
-    focus_y: 0.5
-    box:
-    - 0.45
-    - 0.05
-    - 0.95
-    - 0.95
+    source: card
     card:
       kind: dateline
       big: '1761'
       small: The first proof
-- text: Thick clouds wrap sunlight all the way around the planet.
+    motion: zoom_in
+- text: Its hidden atmosphere glows before Venus even crosses the Sun.
   emphasis:
-  - wrap sunlight
+  - hidden atmosphere glows
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/8/83/Global_view_uvi_Venus_%28Akatsuki%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Venuspioneeruv.jpg/1920px-Venuspioneeruv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Global view uvi Venus (Akatsuki).jpg
-      credit: Meli thev
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Global_view_uvi_Venus_(Akatsuki).jpg
+      title: Venuspioneeruv.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Venuspioneeruv.jpg
     fallbacks:
     - color
-    motion: zoom_in
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
-- text: Because even before its transit, light bends around the planet's edge.
+- text: That bright ring appears before the disk touches the Sun.
   emphasis:
-  - bends around
+  - bright ring appears
   sfx: pop
   pause_after: 0.4
   visual:
@@ -246,4 +229,4 @@ music:
   fade_out: 1.0
 captions:
   hook_size: 150
-hook_text: THE HALO EFFECT
+hook_text: THE CELESTIAL HALO

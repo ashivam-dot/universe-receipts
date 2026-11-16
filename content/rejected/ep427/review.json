@@ -118,7 +118,67 @@
       "better_than_last": "Provides a grounded, human-scale perspective on space hardware compared to the abstract physics of recent black hole episodes.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-16T17:34:44+05:30",
+      "check": {
+        "duration": 24.1,
+        "words": 76,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Opening image shows mostly sky rather than an engaging view of the shuttle.",
+        "clarity": "Narrative is direct and easy to follow.",
+        "payoff": "The ending restates the premise rather than offering a strong final punch.",
+        "visuals": "Multiple generic or repeated frames weaken visual interest.",
+        "loop": "Transitions back logically, though the phrasing feels slightly redundant."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The shuttle is a tiny dot in the distance, mostly sky."
+        },
+        {
+          "beat": 5,
+          "problem": "Indoor hangar photo does not fit narrative about outdoor power lines and street obstacles."
+        },
+        {
+          "beat": 6,
+          "problem": "Subject is cropped closely, showing crowds and building roof rather than narrow clearance by apartment buildings."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: \"A space shuttle survived 123 million miles in orbit, only to hit Los Angeles traffic.\"",
+        "Beat 7: \"Moving 12 miles through city streets became Endeavour's slowest journey.\""
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, visuals, loop; 3 frame problems",
+  "rejected_at": "2026-11-16T17:34:44+05:30"
 }

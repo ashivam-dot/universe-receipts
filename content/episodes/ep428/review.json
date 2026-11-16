@@ -46,7 +46,105 @@
       "better_than_last": "This episode integrates historical primary sources more effectively than ep425.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-16T17:38:49+05:30",
+      "check": {
+        "duration": 31.13,
+        "words": 89,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.4,
+        "warnings": [],
+        "speech_differences": [
+          "'is' heard as '(nothing)' after 'recognize the moon'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong imagery of atmospheric light bending catches immediate attention.",
+        "clarity": "The progression from lunar phases to planetary transit is easy to follow.",
+        "payoff": "The explanation lands well, though the climax feels slightly understated.",
+        "visuals": "Several beats rely on text-dense historical diagrams that read poorly on mobile.",
+        "loop": "Beat 9 connects smoothly back to the opening sentence on light bending."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Instead of just clouds wrapping light, emphasize that Venus reveals its hidden atmosphere before even crossing the Sun."
+      ],
+      "better_than_last": "It connects historical observational astronomy directly to atmospheric physics more smoothly than recent episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-16T17:48:14+05:30",
+      "check": {
+        "duration": 32.73,
+        "words": 88,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [
+          "'is' heard as '(nothing)' after 'recognize the moon'",
+          "'disk' heard as 'disc' after 'appears before the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening imagery of the glowing atmospheric halo.",
+        "clarity": "Easy to follow progression from lunar phases to Venus transit.",
+        "payoff": "Effective reveal that the glow appears before transit begins.",
+        "visuals": "Clear historical diagrams and transit footage support the topic well.",
+        "loop": "Transitions cleanly from the final beat back to the hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short provides a clearer historical arc leading to its key reveal than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

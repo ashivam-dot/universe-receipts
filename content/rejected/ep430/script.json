@@ -2,46 +2,47 @@
   "hooks": [
     {
       "style": "statement",
-      "text": "A single star cloud in Andromeda contains hundreds of supergiants."
+      "text": "A colossal star cloud is visible inside the Andromeda Galaxy."
     },
     {
       "style": "contradiction",
-      "text": "You can see individual stars in another galaxy with telescopes."
+      "text": "One giant structure in Andromeda is not a separate galaxy."
     },
     {
       "style": "number",
-      "text": "Over two million light-years away sits a colossal star cloud."
+      "text": "Over two million light-years away sits a giant star cloud."
     }
   ],
   "hook_style": "statement",
   "structure": "mystery",
-  "title": "The Colossal Star Cloud Hidden Inside Andromeda",
-  "description": "Discover NGC 206, a gargantuan star-forming region in the Andromeda Galaxy so massive it is visible across millions of light-years.",
+  "title": "The Giant Star Cloud Inside the Andromeda Galaxy",
+  "description": "Astronomers discovered NGC 206, a giant star-forming cloud in the Andromeda Galaxy visible across intergalactic space.",
   "hashtags": [
     "#space",
     "#andromeda",
-    "#galaxies"
+    "#ngc206"
   ],
   "tags": [
     "NGC 206",
     "Andromeda Galaxy",
     "William Herschel",
-    "astronomy",
     "star cloud",
+    "astronomy",
     "M31"
   ],
   "beats": [
     {
-      "text": "A single star cloud in Andromeda contains hundreds of supergiants.",
+      "text": "A colossal star cloud is visible inside the Andromeda Galaxy.",
       "emphasis": [
-        "star cloud in Andromeda",
-        "hundreds of supergiants"
+        "colossal star cloud",
+        "Andromeda Galaxy"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1,
-        2
+        2,
+        6,
+        9
       ],
       "visual": "Hubble Space Telescope mosaic of the Andromeda Galaxy M31, 2015",
       "subjects": [
@@ -59,7 +60,7 @@
       }
     },
     {
-      "text": "Astronomer William Herschel first spotted this strange hazy patch through his telescope.",
+      "text": "Astronomer William Herschel first spotted a strange, hazy patch in 1786.",
       "emphasis": [
         "William Herschel",
         "hazy patch"
@@ -68,8 +69,7 @@
       "pause_after": 0.12,
       "claims": [
         4,
-        5,
-        9
+        5
       ],
       "visual": "Portrait of astronomer William Herschel, 1785",
       "subjects": [
@@ -87,40 +87,17 @@
       }
     },
     {
-      "text": "It appeared as a very large nebulosity.",
+      "text": "The object did not look like a tiny point of light.",
       "emphasis": [
-        "very large nebulosity"
-      ],
-      "sfx": "none",
-      "pause_after": 0.12,
-      "claims": [
-        9,
-        12
-      ],
-      "visual": "New General Catalogue of Nebulae and Clusters of Stars book title page",
-      "subjects": [],
-      "year": 1888,
-      "queries": [
-        "New General Catalogue book",
-        "NGC catalog title page"
-      ],
-      "card": {
-        "kind": "fact",
-        "big": "NGC",
-        "small": "New General Catalogue"
-      }
-    },
-    {
-      "text": "It did not look like a tiny point of light.",
-      "emphasis": [
-        "tiny point of light"
+        "did not look",
+        "tiny point"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
         10
       ],
-      "visual": "Close-up Hubble image of NGC 206 star cloud in Andromeda, 2010",
+      "visual": "Close-up image of the NGC 206 region in Andromeda, 2010",
       "subjects": [
         "NGC 206"
       ],
@@ -136,12 +113,35 @@
       }
     },
     {
-      "text": "John Herschel mapped its massive scale later on.",
+      "text": "Historical descriptions labeled it as a very large nebulosity.",
+      "emphasis": [
+        "very large nebulosity"
+      ],
+      "sfx": "none",
+      "pause_after": 0.12,
+      "claims": [
+        9
+      ],
+      "visual": "Historical astronomical observations journal page, 1800",
+      "subjects": [],
+      "year": 0,
+      "queries": [
+        "Historical astronomical paper 18th century",
+        "Herschel deep sky notes"
+      ],
+      "card": {
+        "kind": "none",
+        "big": "",
+        "small": ""
+      }
+    },
+    {
+      "text": "John Herschel mapped the massive region in the nineteenth century.",
       "emphasis": [
         "John Herschel",
-        "massive scale"
+        "mapped"
       ],
-      "sfx": "riser",
+      "sfx": "whoosh",
       "pause_after": 0.12,
       "claims": [
         8
@@ -162,21 +162,45 @@
       }
     },
     {
-      "text": "This colossal nursery sits right inside our neighbor galaxy.",
+      "text": "Astronomers later added the entry into the New General Catalogue as NGC 206.",
       "emphasis": [
-        "colossal nursery",
-        "neighbor galaxy"
+        "New General Catalogue",
+        "NGC 206"
+      ],
+      "sfx": "riser",
+      "pause_after": 0.12,
+      "claims": [
+        1,
+        12
+      ],
+      "visual": "New General Catalogue title page book cover, 1888",
+      "subjects": [],
+      "year": 1888,
+      "queries": [
+        "New General Catalogue book",
+        "NGC catalog title page"
+      ],
+      "card": {
+        "kind": "fact",
+        "big": "NGC 206",
+        "small": "New General Catalogue"
+      }
+    },
+    {
+      "text": "That early hazy patch is actually a giant star-forming region inside Andromeda.",
+      "emphasis": [
+        "hazy patch",
+        "star-forming region"
       ],
       "sfx": "pop",
       "pause_after": 0.4,
       "claims": [
         2,
-        3,
-        6,
         7,
+        9,
         11
       ],
-      "visual": "Diagram of spiral galaxy arms and star-forming regions, 2020",
+      "visual": "Diagram illustrating Andromeda spiral arm structures, 2020",
       "subjects": [
         "Andromeda Galaxy"
       ],
@@ -192,26 +216,26 @@
       }
     },
     {
-      "text": "Hundreds of supergiants fill that single star cloud in Andromeda.",
+      "text": "Deep space photographs now reveal this colossal stellar engine across the void.",
       "emphasis": [
-        "Hundreds of supergiants",
-        "single star cloud"
+        "colossal stellar engine",
+        "across the void"
       ],
       "sfx": "none",
       "pause_after": 0.12,
       "claims": [
-        1,
-        2
+        6,
+        7,
+        10
       ],
-      "visual": "Hubble Space Telescope image showing individual stars in NGC 206, 2012",
+      "visual": "Wide field view of Messier 31 Andromeda Galaxy, 2018",
       "subjects": [
-        "NGC 206",
         "Andromeda Galaxy"
       ],
       "year": 0,
       "queries": [
-        "NGC 206 resolved stars Hubble",
-        "Andromeda star cloud NGC 206"
+        "Andromeda Galaxy wide field view",
+        "M31 Andromeda galaxy DSS"
       ],
       "card": {
         "kind": "none",
@@ -220,7 +244,7 @@
       }
     }
   ],
-  "hook_text": "A GARGANTUAN NEIGHBORHOOD",
+  "hook_text": "GIANT STRUCTURE IN ANDROMEDA",
   "loop": true,
-  "better_than_last": "This episode expands the beat count to 7 beats and increases word count to 75 words to meet strict length criteria while preserving the mystery structure."
+  "better_than_last": "Trimmed Beat 7 to 12 words to adhere strictly to the 14-word maximum per beat while maintaining the requested mystery payoff and fixed hashtag formatting."
 }

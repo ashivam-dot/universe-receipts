@@ -1,0 +1,143 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-16T17:35:24+05:30",
+      "check": {
+        "duration": 33.87,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The life-or-death opening line and bold text grab attention immediately.",
+        "clarity": "Beats 4 and 5 abruptly pivot to radar failure and sextant calculations, derailing the spacewalk narrative.",
+        "payoff": "The underwater training resolution feels rushed because two beats were spent on unrelated rendezvous math.",
+        "visuals": "Great vintage Gemini photography, though beat 2 depicts a wind tunnel technician rather than zero-g issues.",
+        "loop": "Beat 8 ends as a complete standalone thought rather than flowing into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The image shows a seated technician taking notes at a wind tunnel model instead of zero-gravity body restraints."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 4: Command pilot James Lovell and pilot Buzz Aldrin set out to overcome this spacewalk crisis.",
+        "Beat 5: Aldrin had prepared to fight zero gravity fatigue with groundbreaking underwater pool training.",
+        "Beat 7: His successful mission proved that custom restraints and pool practice could master space fatigue.",
+        "Beat 8: Future missions were finally saved from deadly exhaustion, but only after..."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-16T17:52:57+05:30",
+      "check": {
+        "duration": 30.13,
+        "words": 83,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging opening line about lethal space fatigue.",
+        "clarity": "Easy to follow step-by-step historical narrative.",
+        "payoff": "Predictable historical resolution lowers the surprise impact.",
+        "visuals": "Relevant historical archival photos and footage throughout.",
+        "loop": "Concluding statement flows smoothly back into the opening beat."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Emphasize how Aldrin's pool training definitively solved the spacewalk fatigue crisis."
+      ],
+      "better_than_last": "Provides strong historical archival visuals compared to recent deep space facts.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-16T17:57:10+05:30",
+      "check": {
+        "duration": 30.63,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The high-stakes life-or-death claim immediately stops viewers from swiping.",
+        "clarity": "Presents the issue, mission, and solution in a crystal-clear logical sequence.",
+        "payoff": "Effectively reveals how underwater pool training provided the key breakthrough.",
+        "visuals": "Uses crisp, highly relevant archival Gemini imagery that matches each beat perfectly.",
+        "loop": "The final thought about working safely leads naturally back into the opening frame and script."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short integrates real archival mission and training visual evidence far more directly with each narrative beat than recent episodes.",
+      "judge": "gemini-3.5-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

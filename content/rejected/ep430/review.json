@@ -1,0 +1,160 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-16T17:38:15+05:30",
+      "check": {
+        "duration": 23.07,
+        "words": 66,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 2,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Revealing the entire fact upfront without mystery or tension gives viewers little reason to stay.",
+        "clarity": "The core statements are clear, though beats 6 and 7 merely repeat beat 1.",
+        "payoff": "There is no twist or escalation because the ending just restates the opening sentence.",
+        "visuals": "Beat 3's title card is irrelevant to the voiceover, and historical portraits overshadow the cosmic scale.",
+        "loop": "Repeating beat 1's idea back-to-back in beat 7 feels like an accidental echo rather than a seamless loop."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The title card text 'NGC / New General Catalogue' does not fit what beat 3 says and is never mentioned in the narration."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Astronomer William Herschel first spotted a strange hazy patch that did not look like a tiny point of light.",
+        "Beat 2: It appeared through his telescope as a very large nebulosity.",
+        "Beat 6: John Herschel mapped its massive scale inside our neighbor galaxy Andromeda.",
+        "Beat 7: Revealing a colossal star cloud packed with hundreds of supergiants, ever since..."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-16T17:47:45+05:30",
+      "check": {
+        "duration": 29.43,
+        "words": 85,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'catalogue' heard as 'catalog' after 'the new general'",
+          "'deep space' heard as 'workspace' after 'our neighbor galaxy'",
+          "'void' heard as 'board' after 'engine across the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Establishes an intriguing structure in Andromeda right away.",
+        "clarity": "Easy to follow historical progression from Herschel to cataloging.",
+        "payoff": "Lacks a surprising twist or mind-bending payoff near the end, simply restating the opening premise.",
+        "visuals": "Good historical portraits and clear cosmic imagery matching the narrative.",
+        "loop": "Connects smoothly back into the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: What early astronomers saw as a hazy patch is actually a giant star-forming region inside Andromeda.",
+        "Beat 8: Deep space photographs now reveal this colossal stellar engine across the void."
+      ],
+      "better_than_last": "It grounds the astronomical object nicely with clear historical portraits and catalog context.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-16T17:51:48+05:30",
+      "check": {
+        "duration": 30.89,
+        "words": 88,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'catalogue' heard as 'catalog' after 'the new general'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Decent premise, but lacks a high-stakes grabber.",
+        "clarity": "Easy to follow chronological explanation.",
+        "payoff": "Ends on basic confirmation rather than a dramatic reveal.",
+        "visuals": "Frame 7 contains cluttered panel layouts with text.",
+        "loop": "Phrasing transitions decently, though slightly repetitive."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Cluttered image panel with small scientific text overlays."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: 'Inside the Andromeda Galaxy lies a giant star cloud visible across intergalactic space.'",
+        "Beat 8: 'Deep space photographs now reveal this giant star-forming cloud...'"
+      ],
+      "better_than_last": "Presents a simple historical sequence that is easier to follow.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, visuals, loop",
+  "rejected_at": "2026-11-16T17:51:48+05:30"
+}
