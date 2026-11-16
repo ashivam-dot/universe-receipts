@@ -1,0 +1,198 @@
+{
+  "viable": false,
+  "reason": "The provided sources do not contain evidence from two independent sites supporting the core topic that Hubble photos start as pure black and white with colors reconstructed from separate exposures, and lack enough overlapping claims across independent websites to support a story on this premise.",
+  "story": "The provided sources do not contain sufficient overlapping facts across independent sites to tell the story of how Hubble captures black-and-white exposures and reconstructs color images. While the sources cover Hubble's 1990 launch on STS-31, its low Earth orbit constraints, and instrument recalibrations, key details about color image processing are absent across multiple sources.",
+  "angle": "Hubble's orbit through the South Atlantic Anomaly and atmospheric drag causes its predicted position to drift by thousands of kilometers, forcing ground controllers to constantly adjust observation schedules.",
+  "claims": [
+    {
+      "claim": "Hubble Space Telescope was launched into low Earth orbit in 1990.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Hubble was carried into space aboard Space Shuttle Discovery on mission STS-31.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Hubble Space Telescope is a joint project between NASA and the European Space Agency.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Hubble orbits Earth at an inclination of approximately 28.5 degrees.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Atmospheric drag makes predicting Hubble's position weeks in advance difficult, creating errors up to 4,000 kilometers.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Hubble features Continuous Viewing Zones within 24 degrees of its orbital poles where targets are not occulted by Earth.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Scientific observations must be halted when Hubble passes through the radiation of the South Atlantic Anomaly.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Faint Object Spectrograph was replaced by the Space Telescope Imaging Spectrograph during Servicing Mission 2.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The retired Faint Object Spectrograph instrument is displayed at the Smithsonian National Air and Space Museum.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Space Telescope Science Institute collaborates with European institutions to manage Hubble data archives.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "The exact orbital altitude is described as 380 statute miles / 330 nautical miles in S3, while S1 and S7 generalise it as ~540 km or less than 600 km; a script should attribute exact numbers to NASA mission logs or state the general low Earth orbit altitude."
+  ],
+  "visuals": [
+    {
+      "subject": "Hubble Space Telescope in orbit",
+      "queries": [
+        "Hubble Space Telescope in orbit",
+        "STS-31 Hubble deployment"
+      ]
+    },
+    {
+      "subject": "Space Shuttle Discovery STS-31 launch",
+      "queries": [
+        "STS-31 launch",
+        "Space Shuttle Discovery STS-31"
+      ]
+    },
+    {
+      "subject": "Faint Object Spectrograph on display",
+      "queries": [
+        "Faint Object Spectrograph Smithsonian",
+        "Hubble FOS instrument display"
+      ]
+    },
+    {
+      "subject": "South Atlantic Anomaly diagram",
+      "queries": [
+        "South Atlantic Anomaly diagram",
+        "Van Allen radiation belt diagram"
+      ]
+    },
+    {
+      "subject": "Hubble orbit Continuous Viewing Zone diagram",
+      "queries": [
+        "Hubble orbit diagram",
+        "Continuous Viewing Zone diagram"
+      ]
+    },
+    {
+      "subject": "STS-31 crew portrait",
+      "queries": [
+        "STS-31 crew photo",
+        "Loren Shriver STS-31 crew"
+      ]
+    },
+    {
+      "subject": "Space Telescope Science Institute campus",
+      "queries": [
+        "Space Telescope Science Institute Johns Hopkins",
+        "STScI Baltimore building"
+      ]
+    },
+    {
+      "subject": "Advanced Camera for Surveys on Hubble",
+      "queries": [
+        "Advanced Camera for Surveys Hubble",
+        "ACS instrument Hubble"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope",
+      "title": "Hubble Space Telescope",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Astrophotography",
+      "title": "Astrophotography",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://web.archive.org/web/20170507092146/https://www.nasa.gov/mission_pages/shuttle/shuttlemissions/archives/sts-31.html",
+      "title": "NASA - STS-31",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S4",
+      "url": "https://web.archive.org/web/20130525154922/http://www.sciops.esa.int/index.php?project=HST",
+      "title": "European HST Archive at ESA/ESAC",
+      "site": "esa.int"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.eso.org/public/news/eso1815/",
+      "title": "ALMA and VLT Find Evidence for Stars Forming Just 250 Million Years After Big Bang",
+      "site": "eso.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://esahubble.org/news/heic0112/",
+      "title": "Greater accuracy deepens understanding - Hubble's Faint Object Spectrograph re-calibrated",
+      "site": "esahubble.org"
+    },
+    {
+      "label": "S7",
+      "url": "https://web.archive.org/web/20220716221122/https://hst-docs.stsci.edu/hsp/past-hst-proposal-opportunities/the-hubble-space-telescope-primer-for-cycle-26/hst-cycle-26-primer-orbital-constraints",
+      "title": "HST Cycle 26 Primer Orbital Constraints",
+      "site": "stsci.edu"
+    }
+  ],
+  "topic": "Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures",
+  "series": "Space Got Weird"
+}
