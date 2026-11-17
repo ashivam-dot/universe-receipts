@@ -1,0 +1,243 @@
+{
+  "viable": true,
+  "reason": "The provided sources contain over 10 cross-verified claims detailing the launch damage, emergency parasol deployment, and spacewalk repairs that saved Skylab.",
+  "story": "On May 14, 1973, NASA launched Skylab, America's first space station, aboard a modified Saturn V rocket. But during ascent, severe aerodynamic forces ripped away its micrometeoroid shield, which doubled as a thermal protection barrier. The tearing shield destroyed one main solar panel and jammed the other under metal debris, leaving the space station underpowered and rapidly overheating to over 130 degrees Fahrenheit. The high heat threatened to release toxic gases and ruin onboard electronics. Eleven days later, astronauts Charles Conrad, Paul Weitz, and Joseph Kerwin launched aboard Skylab 2 to attempt space's first major orbital repair. Working from inside, they pushed a parasol sunshade out through an instrument port, dropping temperatures back to livable levels. Then, during a risky spacewalk, Conrad and Kerwin cut the metal debris jamming the remaining solar panel. When the panel snapped open, the recoil flung both astronauts cartwheeling into space, saved only by their safety tethers. Power surged back on, saving the space station.",
+  "angle": "When astronauts forced open Skylab's jammed solar array during an emergency space repair, the sudden recoil catapulted both spacewalkers into the void of space, saved only by their safety tethers.",
+  "claims": [
+    {
+      "claim": "Skylab was launched into Earth orbit on May 14, 1973, aboard a modified Saturn V rocket.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Aerodynamic forces during launch tore off Skylab's micrometeoroid shield, which also functioned as its thermal shield.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The loss of the micrometeoroid shield completely ripped away one of the station's main solar array panels.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Debris from the lost shield jammed Skylab's remaining main solar panel, preventing it from deploying.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Without the thermal shield, internal temperatures aboard Skylab rose to over 130 degrees Fahrenheit, threatening to release toxic gases and ruin equipment.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The damage to both main solar panels left the space station with a severe electrical power deficit.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The first crewed repair mission, Skylab 2, launched on May 25, 1973, carrying astronauts Charles Conrad, Paul Weitz, and Joseph Kerwin.",
+      "sources": [
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "To lower temperatures, the crew deployed a replacement parasol sunshade through an airlock instrument port from inside the station.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Deploying the parasol sunshade brought Skylab's internal temperatures down to acceptable, livable levels.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Astronauts Conrad and Kerwin performed a spacewalk using a cutter on a 25-foot pole to sever the metal strap jamming the solar array.",
+      "sources": [
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "When the jammed solar array beam broke free and opened, the sudden release of tension sent both Conrad and Kerwin tumbling into space until their safety tethers caught them.",
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Freeing the solar array allowed its solar panels to deploy and begin generating power, saving the space station.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Skylab 2 crew successfully stayed aboard the repaired space station for 28 days.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Peak temperature discrepancies: Source S6 mentions internal temperatures reached over 130°F to 150°F, whereas source S5 notes exterior temperatures reached 200°F higher than expected. The script should attribute internal heat generally as exceeding 130°F.",
+    "Mission numbering discrepancy: Contemporary 1973 reporting in S7 refers to the final 84-day crewed mission as Skylab 3, whereas main historical sources (S1, S5) label the crewed missions sequentially as Skylab 2, Skylab 3, and Skylab 4. The script should use standard mission names or reference crews by astronaut names."
+  ],
+  "visuals": [
+    {
+      "subject": "Saturn V rocket launching Skylab 1 into orbit",
+      "queries": [
+        "Saturn V Skylab 1 launch",
+        "SA-513 Saturn V lift off"
+      ]
+    },
+    {
+      "subject": "Skylab space station in orbit showing launch damage and missing solar array",
+      "queries": [
+        "Skylab orbital workshop damaged",
+        "Skylab 1 space station orbit photo"
+      ]
+    },
+    {
+      "subject": "Diagram illustrating the internal layout and modules of the Skylab space station",
+      "queries": [
+        "Skylab diagram NASA",
+        "Skylab cutaway illustration"
+      ]
+    },
+    {
+      "subject": "Emergency parasol thermal sunshade deployed on Skylab",
+      "queries": [
+        "Skylab parasol sunshade",
+        "Skylab solar shield parasol photo"
+      ]
+    },
+    {
+      "subject": "Skylab 2 astronaut crew portrait",
+      "queries": [
+        "Skylab 2 crew portrait",
+        "Charles Conrad Paul Weitz Joseph Kerwin"
+      ]
+    },
+    {
+      "subject": "Spacewalk repair to free the jammed solar array beam on Skylab",
+      "queries": [
+        "Skylab 2 solar array spacewalk repair",
+        "Pete Conrad solar array EVA Skylab"
+      ]
+    },
+    {
+      "subject": "Apollo Command and Service Module docked to Skylab",
+      "queries": [
+        "Apollo CSM docked Skylab",
+        "Skylab Apollo Command Module docking"
+      ]
+    },
+    {
+      "subject": "Astronauts training for the solar array cutter repair in the Neutral Buoyancy Simulator",
+      "queries": [
+        "Neutral Buoyancy Simulator Skylab training",
+        "Marshall Space Flight Center underwater suit training"
+      ]
+    },
+    {
+      "subject": "Apollo Telescope Mount solar observatory on Skylab",
+      "queries": [
+        "Apollo Telescope Mount Skylab",
+        "Skylab solar observatory ATM"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Skylab",
+      "title": "Skylab",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.nasa.gov/history/50-years-ago-skylab-2-astronauts-deploy-jammed-solar-array-during-spacewalk/",
+      "title": "50 Years Ago: Skylab 2 Astronauts Deploy Jammed Solar Array During Spacewalk - NASA",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.cosmos.esa.int/web/xmm-newton/nobel",
+      "title": "2002 Nobel Prize for physics to the discoverer of X-ray celestial sources - XMM-Newton - Cosmos",
+      "site": "esa.int"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.americaspace.com/2012/08/12/launch-minus-nine-days-the-space-rescue-that-never-was/",
+      "title": "Launch Minus Nine Days: The Space Rescue That Never Was - AmericaSpace",
+      "site": "americaspace.com"
+    },
+    {
+      "label": "S5",
+      "url": "http://www.space.com/21055-skylab-space-station-nasa-infographic.html",
+      "title": "Skylab: How NASA's First Space Station Worked (Infographic)",
+      "site": "space.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://airandspace.si.edu/stories/editorial/saving-skylab",
+      "title": "Saving Skylab",
+      "site": "si.edu"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.nytimes.com/1973/11/24/archives/a-skylab-gyroscope-fails-leaving-only-2-for-control.html",
+      "title": "A Skylab Gyroscope Fails, Leaving Only 2 for Control (Published 1973)",
+      "site": "nytimes.com"
+    }
+  ],
+  "topic": "Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting",
+  "series": "Near Misses"
+}

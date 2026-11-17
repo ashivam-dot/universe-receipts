@@ -1,0 +1,151 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-17T05:12:39+05:30",
+      "check": {
+        "duration": 29.67,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The immediate threat of astronauts being flung into the void is a perfect high-stakes hook.",
+        "clarity": "The narrative flows perfectly from the initial damage to the heat issue and the final physical solution.",
+        "payoff": "The reveal of the safety tethers provides a satisfying resolution to the hook's danger.",
+        "visuals": "Most frames are historically accurate, but beat 7 mistakenly uses an underwater training photo.",
+        "loop": "The transition from 'recoil' back to 'cutting' is logical but lacks a phonetic bridge."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "shows astronauts in a neutral buoyancy training tank underwater rather than in space; the water surface and divers are visible."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short uses a more dramatic personal survival angle compared to the technical focus of the Gemini 12 episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-17T05:14:17+05:30",
+      "check": {
+        "duration": 29.67,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "An immediate high-stakes physical conflict that demands the viewer see the resolution.",
+        "clarity": "The script does an excellent job of explaining the context of the damage before the fix.",
+        "payoff": "The sudden tension release of the 'recoil' is a satisfying payoff for the 'flung' hook.",
+        "visuals": "Most frames are excellent historical documents, but beat 7 is a training pool photo.",
+        "loop": "The transition from the station's recoil back to the act of cutting is logical but not perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "This is a photo of underwater training in the WETF tank; a scuba diver is clearly visible in the background."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short provides a much clearer chronological narrative of a specific historical event than the more abstract explanation of Venus's halo in episode 428.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-17T05:16:12+05:30",
+      "check": {
+        "duration": 29.67,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The hook is excellent, using a high-stakes scenario to immediately grab attention.",
+        "clarity": "The script perfectly sequences the events from the initial damage to the final recovery.",
+        "payoff": "The explanation of the safety tethers provides a satisfying resolution to the danger presented in the hook.",
+        "visuals": "Beat 7 uses a neutral buoyancy tank photo with visible scuba divers, which contradicts the outer space setting.",
+        "loop": "The closing sentence ends too definitively to allow for a seamless transition back to the beginning."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows an underwater training tank with visible scuba divers instead of outer space."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Power returned, saving the station after that dangerous"
+      ],
+      "better_than_last": "This episode features a more visceral and immediate hook than the technical introduction used in episode 429.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals, loop",
+  "rejected_at": "2026-11-17T05:16:12+05:30"
+}

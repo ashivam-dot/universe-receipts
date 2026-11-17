@@ -1,0 +1,203 @@
+id: ep433
+title: The Spacewalk Repair That Catapulted Astronauts
+series: Near Misses
+format: v3
+description: During an emergency repair on Skylab in 1973, freeing a jammed solar wing flung two astronauts into space.
+sources:
+- https://en.wikipedia.org/wiki/Skylab
+- https://www.nasa.gov/history/50-years-ago-skylab-2-astronauts-deploy-jammed-solar-array-during-spacewalk/
+- http://www.space.com/21055-skylab-space-station-nasa-infographic.html
+- https://airandspace.si.edu/stories/editorial/saving-skylab
+hashtags:
+- '#space'
+- '#skylab'
+- '#nasa'
+tags:
+- skylab
+- nasa
+- spacewalk
+- apollo
+- space station
+- astronaut
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Cutting a jammed solar panel flung two astronauts into space.
+  emphasis:
+  - flung two astronauts
+  - into space
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/37/Skylab_2_EVA_%2852848370932%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Skylab 2 EVA (52848370932).jpg
+      credit: NASA on The Commons
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Skylab_2_EVA_(52848370932).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.52
+    focus_y: 0.55
+    box:
+    - 0.24
+    - 0.24
+    - 0.81
+    - 0.94
+- text: Launch forces had ripped away Skylab's shield and main solar panel.
+  emphasis:
+  - ripped away
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/df/Skylab_Station_Viewed_by_Skylab_2_Command_Module_-_GPN-2000-001709.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Skylab Station Viewed by Skylab 2 Command Module - GPN-2000-001709.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Skylab_Station_Viewed_by_Skylab_2_Command_Module_-_GPN-2000-001709.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.58
+    focus_y: 0.52
+- text: Internal station heat quickly climbed past 130 degrees Fahrenheit.
+  emphasis:
+  - 130 degrees
+  - Fahrenheit
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Cutaway_View_of_Skylab_Orbital_Workshop_0101589.jpg/960px-Cutaway_View_of_Skylab_Orbital_Workshop_0101589.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Cutaway View of Skylab Orbital Workshop 0101589.jpg
+      credit: NASA/MSFC
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Cutaway_View_of_Skylab_Orbital_Workshop_0101589.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: OVER 130°F
+      small: Internal Skylab temperature
+- text: The crew first pushed a replacement parasol out to cool it down.
+  emphasis:
+  - replacement parasol
+  - cool it down
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Skylab_%287042380%29.jpg/1920px-Skylab_%287042380%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Skylab (7042380).jpg
+      credit: NASA Marshall Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Skylab_(7042380).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.43
+    focus_y: 0.55
+    box:
+    - 0.3
+    - 0.35
+    - 0.58
+    - 0.9
+- text: Next, astronauts Charles Conrad and Joseph Kerwin used a 25-foot pole cutter.
+  emphasis:
+  - Charles Conrad
+  - Joseph Kerwin
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Skylab_2_crew_mission_Saturn_IB_pose.jpg/960px-Skylab_2_crew_mission_Saturn_IB_pose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Skylab 2 crew mission Saturn IB pose.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Skylab_2_crew_mission_Saturn_IB_pose.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.55
+    focus_y: 0.72
+    box:
+    - 0.37
+    - 0.46
+    - 0.72
+    - 0.98
+    card:
+      kind: fact
+      big: 25 FEET
+      small: Cutter pole length
+- text: The trapped solar wing suddenly snapped open under massive tension.
+  emphasis:
+  - snapped open
+  - massive tension
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/28/Skylab_2_View_of_crewmen_performing_EVA_taken_from_inside_OWS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Skylab 2 View of crewmen performing EVA taken from inside OWS.jpg
+      credit: NASA/Paul J. Weitz
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Skylab_2_View_of_crewmen_performing_EVA_taken_from_inside_OWS.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.45
+- text: Thin safety tethers were all that kept them from drifting away.
+  emphasis:
+  - safety tethers
+  - drifting away
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Around_Marshall_%287013607%29.jpg/960px-Around_Marshall_%287013607%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Around Marshall (7013607).jpg
+      credit: NASA Marshall Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Around_Marshall_(7013607).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Power returned, saving the station after their dangerous recoil.
+  emphasis:
+  - Power returned
+  - saving the station
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.52
+    focus_y: 0.55
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
