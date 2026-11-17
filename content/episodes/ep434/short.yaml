@@ -1,0 +1,226 @@
+id: ep434
+title: The Planet That Orbits Completely Sideways
+series: Space Got Weird
+format: v3
+description: Uranus sits knocked completely on its rotational axis, causing 42-year-long seasons of nonstop daylight and darkness.
+sources:
+- https://en.wikipedia.org/wiki/Uranus
+- https://www.nytimes.com/2020/03/27/science/uranus-bubble-voyager.html
+- https://www.theguardian.com/science/2022/jul/16/uranus-mission-space-exploration-nasa
+- https://web.archive.org/web/20200807125253/https://solarsystem.nasa.gov/planets/uranus/exploration/?page=0&per_page=10&order=launch_date+desc,title+asc&search=&tags=Uranus&category=33
+- https://www.planetary.org/articles/chinas-plans-for-outer-solar-system-exploration
+hashtags:
+- '#space'
+- '#uranus'
+- '#voyager2'
+tags:
+- uranus
+- voyager 2
+- ice giant
+- astronomy
+- solar system
+- space facts
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: One planet in our solar system orbits completely sideways.
+  emphasis:
+  - completely sideways
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/db/Hubble_Captures_Full_View_of_Uranus%27s_Rings_on_Edge-_Unannotated_%282007-32-2178%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Hubble Captures Full View of Uranus's Rings on Edge- Unannotated (2007-32-2178).jpg
+      credit: NASA, ESA, and M. Showalter (SETI Institute)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_Captures_Full_View_of_Uranus%27s_Rings_on_Edge-_Unannotated_(2007-32-2178).jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.46
+- text: This ice giant sits on the edge of the solar system.
+  emphasis:
+  - ice giant
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/8b/Uranus_from_Voyager_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Uranus from Voyager 2.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Uranus_from_Voyager_2.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It takes 84 Earth years to orbit the Sun once.
+  emphasis:
+  - 84 Earth years
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 84 Years
+      small: Single Orbit
+    motion: zoom_in
+- text: Most worlds spin like tops, but Uranus rolls like a ball.
+  emphasis:
+  - rolls like a ball
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Exploring_Planet_Uranus_Resource_Page_%28SVS20390_-_Shot6_4kProRes_00001_print%29.jpg/960px-Exploring_Planet_Uranus_Resource_Page_%28SVS20390_-_Shot6_4kProRes_00001_print%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Exploring Planet Uranus Resource Page (SVS20390 - Shot6 4kProRes 00001 print).jpg
+      credit: NASA's Scientific Visualization Studio - KBR Wyle Services, LLC/Walt Feimer, Advocates in Manpower Management,
+        Inc./Jenny McElligott, KBR Wyle Services, LLC/Kim Dongjae, ADNET Systems, Inc./Aaron E. L
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Exploring_Planet_Uranus_Resource_Page_(SVS20390_-_Shot6_4kProRes_00001_print).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.3
+- text: Its extreme tilt creates seasons that last for decades.
+  emphasis:
+  - last for decades
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hubble_takes_a_grand_tour_of_the_Solar_System_%2851688936521%29.jpg/3840px-Hubble_takes_a_grand_tour_of_the_Solar_System_%2851688936521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble takes a grand tour of the Solar System (51688936521).jpg
+      credit: European Space Agency
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Hubble_takes_a_grand_tour_of_the_Solar_System_(51688936521).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.75
+    focus_y: 0.5
+    box:
+    - 0.69
+    - 0.43
+    - 0.8
+    - 0.63
+- text: One pole gets 42 years of nonstop daylight.
+  emphasis:
+  - 42 years
+  - nonstop daylight
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c1/Uranus_aurorae_%28October_2022%29_%28heic2503a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Uranus aurorae (October 2022) (heic2503a).jpg
+      credit: ESA/Hubble, NASA, L. Lamy, L. Sromovsky
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Uranus_aurorae_(October_2022)_(heic2503a).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 42 Years
+      small: Nonstop Daylight
+- text: The other side freezes in 42 years of pitch darkness.
+  emphasis:
+  - pitch darkness
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/af/Uranus_Final_Image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Uranus Final Image.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Uranus_Final_Image.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.38
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 42 Years
+      small: Continuous Dark
+- text: Voyager 2 visited in 1986 and found the coldest world.
+  emphasis:
+  - coldest world
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/29/Voyager_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager spacecraft.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.4
+    focus_y: 0.4
+    card:
+      kind: dateline
+      big: '1986'
+      small: Voyager 2 Flyby
+- text: This unique orientation makes it the most lopsided world known.
+  emphasis:
+  - most lopsided
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/PIA00032_Uranus_in_True_and_False_Color.jpg/1920px-PIA00032_Uranus_in_True_and_False_Color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA00032 Uranus in True and False Color.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA00032_Uranus_in_True_and_False_Color.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.25
+    focus_y: 0.5
+    box:
+    - 0.03
+    - 0.1
+    - 0.45
+    - 0.85
+- text: That frozen world still orbits completely sideways.
+  emphasis:
+  - orbits completely sideways
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.46
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 42-YEAR LONG NIGHTS

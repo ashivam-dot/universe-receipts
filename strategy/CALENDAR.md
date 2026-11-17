@@ -83,6 +83,8 @@ unexplained, not alien.
 | 2026-11-13 | Space Shuttle Endeavour (1992): built from spare structural parts after the Challenger disaster, it navigated 12 miles of urban Los Angeles streets to reach its final museum display — parked (ep427) | Mission Files | Highlighted in a new NASA news feature detailing the historic photography of its urban transport. |
 | 2026-11-14 | Gemini 12 (1966): Buzz Aldrin conquered the deadly exhaustion of early spacewalks by inventing underwater zero-gravity training — done (ep429) | Mission Files | NASA highlighted Gemini XII and astronaut Buzz Aldrin's historic orbital flight for its November anniversary. |
 | 2026-11-16 | NGC 7129 (1794): newborn stars blasting supersonic gas jets that carve glowing cosmic bubbles out of interstellar dust | Space Got Weird | Featured in NASA's Astronomy Picture of the Day highlighting James Webb Space Telescope observations of its protostellar jets. |
+| 2026-11-17 | Voyager 2 (1986): for forty years we believed Uranus had a bizarre, lopsided magnetic field, only to realize the probe caught the planet during a rare solar wind fluke — making (ep435) | Space Got Weird | A new study in Nature Astronomy this week re-evaluating the 1986 flyby data is trending. |
+| 2026-11-17 | Venera 3 (1965): the first human-made object to strike the surface of another planet, it likely crash-landed and was destroyed without sending a single bit of data | Mission Files | November 16 was the 59th anniversary of the launch of this pioneer mission. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -102,6 +104,7 @@ unexplained, not alien.
 | Dec 21 | Apollo 8 (1968): on Dec 21, NASA launched Apollo 8, sending the first human crew beyond Earth orbit toward the Moon | Mission Files |
 | Dec 25 | James Webb Space Telescope (2021): on Christmas Day, NASA launched a $10 billion observatory into deep space to look back to the beginning of time | Mission Files |
 | Dec 27 | Allan Hills 84001 (1984): on Dec 27, scientists found a meteorite from Mars in Antarctica that later launched a global debate over alien microfossils | Space Got Weird |
+| Dec 27 | Johannes Kepler (1571): he discovered that planets don't move in perfect circles, but in 'squashed' ovals called ellipses | Space Myths, Busted |
 | Dec 30 | Edwin Hubble (1924): on this day, the astronomer officially proved that the 'nebula' Andromeda was actually an entire galaxy outside our own | Scale Breaker |
 | Jan 2 | Luna 1 (1959): on Jan 2, humanity launched the first probe meant to strike the Moon, but a timing glitch made it miss and become the first craft to orbit the Sun | Near Misses |
 | Jan 4 | Spirit (rover) (2004): on Jan 4, NASA's Spirit rover slammed onto Mars wrapped in protective airbags, surviving a mission that lasted 20 times longer than intended | Mission Files |
@@ -252,6 +255,7 @@ unexplained, not alien.
 - Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit — done (ep423)
 - Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined
 - Pluto (1930): despite being famous worldwide as a planet for 76 years, Pluto's total surface area is smaller than the country of Russia
+- Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system
 
 ### Mission Files
 
@@ -283,12 +287,13 @@ unexplained, not alien.
 - Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands — done (ep351)
 - Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — parked (ep279)
 - Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — dropped (ep431)
-- James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — parked (ep302)
+- James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — making (ep436)
 - Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — parked (ep303)
 - Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — done (ep360)
 - Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years — parked (ep371)
 - Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth — parked (ep418)
 - Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space — done (ep421)
+- Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour
 
 ### Space Got Weird
 
@@ -327,7 +332,7 @@ unexplained, not alien.
 - Saturn (2013): extreme pressure in the atmosphere may create diamond rain, where 1,000 tons of diamonds are produced every year — dropped (ep267)
 - Uranus (1781): discoverer William Herschel originally wanted to name the newly found seventh planet after King George III — done (ep268)
 - Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself — parked (ep274)
-- Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness — making (ep434)
+- Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness — done (ep434)
 - Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers — done (ep357)
 - Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water — done (ep359)
 - Apollo 11 (1969): Buzz Aldrin took communion on the lunar surface right after landing, making wine the first liquid consumed on the Moon — dropped (ep361)
@@ -335,6 +340,7 @@ unexplained, not alien.
 - Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain — done (ep422)
 - Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space — dropped (ep426)
 - Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures — dropped (ep432)
+- Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs
 
 ### Near Misses
 
@@ -416,5 +422,5 @@ unexplained, not alien.
 - Big Dipper (1869): the stars of the famous asterism are not physically bound together in space, and their differing velocities will bend the handle and break the spoon apart over time — parked (ep407)
 - Space Shuttle (1981): space shuttles did not land using engine power, but dropped out of orbit as unpowered 80-ton gliders — parked (ep415)
 - Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases — dropped (ep416)
-- Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion
+- Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion — making (ep437)
 - Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium

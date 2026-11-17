@@ -10,11 +10,11 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 48% | 70%+; under 60% rarely takes off |
-| Average percentage viewed | `analytics.averageViewPercentage` | 93.7% | 80%+ (loops can push it past 100%) |
-| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 140% | rising week over week |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 51% | 70%+; under 60% rarely takes off |
+| Average percentage viewed | `analytics.averageViewPercentage` | 88.6% | 80%+ (loops can push it past 100%) |
+| Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 133% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
-| Likes per 100 views | `likes` / `views` | 1.8 | 4+ |
+| Likes per 100 views | `likes` / `views` | 1.6 | 4+ |
 
 ## Rules we've proven
 
@@ -25,10 +25,10 @@ also copy it into `strategy/SCRIPT-RULES.md`, then cite the evidence here. (Cons
 each promoted on two Shorts; their evidence is kept below.)
 
 - Prioritize cosmic-scale subjects (billions of light-years, Voyager's journey) over human-scale objects in the hook to maximize reach. Evidence: ep165, ep260, ep346, ep356, ep359 (median early_reach 1580) vs ep181, ep186, ep195, ep345 (median 535.5).
+- The last line must be a complete sentence or syntactical fragment leading naturally back into the first to drive rewatches. Evidence: ep072, ep201, ep262, ep268, ep380 (median AVP 120.0%) vs ep360, ep365, ep351, ep373 (median 65.1%).
 - Replace passive opening exposition with immediate conflict or active paradox hooks in beat 1 to improve distribution. Evidence: ep346, ep352, ep356, ep359 (median early_reach 1746) vs ep345, ep355, ep367, ep258 (median 482.5).
 - No jargon, discovery dates, catalog names, or technical orbital/mass calculations: replace them with one familiar physical comparison. Evidence: ep346, 356, 260, 265 (median 1663) vs ep181, 186, 195, 197, 362, 367 (median 685.5).
 - Anchor hooks with authority institutions (NASA, Apollo) or named historical missions to improve distribution. Evidence: ep137, ep262, ep265, ep352, ep356 (median early_reach 1375) vs ep186, ep185, ep197, ep172 (median 711).
-- The last line must be a complete sentence leading naturally back into the first to drive rewatches. Evidence: ep072, ep201, ep262, ep266, ep268 (median AVP 111.5%) vs ep146, ep165, ep185, ep197 (median 64.4%).
 - End right after the climax: no aftermath subplot, redundant summary, or reflective wrap-up to avoid retention drops. Evidence: ep165, ep266, ep346, ep347, ep352, ep355 (median AVP 80.5%) vs ep186, ep172, ep195, ep197, ep221, ep254 (median 66.4%).
 - Open with the most surprising true thing about a well-known subject in the first 2 seconds to maximize early hold. Evidence: ep111, ep133, ep201, ep263, ep265 (median at10 1.42) vs ep352, 367, 181, 172 (median 1.15).
 - Deliver the core payoff within 3 seconds of the hook, and never restate the hook's idea in the next beat. Evidence: ep004, ep105, ep125, ep133, ep172, ep221.
@@ -40,12 +40,10 @@ each promoted on two Shorts; their evidence is kept below.)
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
 - End scripts with an open friction line, debate prompt, or fresh insight rather than an explanatory recap to stimulate comments and likes above 2.5 per 100 views (ep360, ep378, ep380, ep387, ep411).
-- Introduce the inciting mechanical failure or dilemma directly in beat 2 rather than spending lines on tech specs or metaphorical re-explanations to prevent mid-script retention collapse (ep351, ep367, ep369).
-- Replace static scene-setting hook lines with an active high-stakes question or crisis contradiction in beat 1 to lift engaged share above 50% (ep357, ep365, ep373, ep387).
-- Loop syntactically into the opening hook line on the final beat rather than ending on a closed poetic statement to push AVP past 100% (ep378, ep380, ep411).
-- Eliminate hook-to-script redundancy where beat 1 repeats the title/hook wording verbatim to prevent immediate swipe-away (ep369, ep373, ep387).
+- Introduce the inciting mechanical failure or dilemma directly in beat 2 rather than spending lines on tech specs or metaphorical re-explanations to prevent mid-script retention collapse (ep351, ep369).
+- Replace static scene-setting hook lines with an active high-stakes question or crisis contradiction in beat 1 to lift engaged share above 50% (ep365, ep357, ep387).
+- Eliminate hook-to-script redundancy where beat 2 or the final beat repeats the title/hook wording verbatim to prevent swipe-away or completion drops (ep369, ep373, ep378).
 - Frame hooks using a direct 'you' perspective (e.g., 'If you stood on Pluto today') to increase viewer relevance and early hold (ep357).
-- Replace final summary beats with a direct visual instruction to seamlessly loop back into the hook statement (ep349, ep356).
 - Compress scientific definitions into a single beat under 4 seconds to reach core resolution before 12 seconds.
 
 ## Scoreboard
@@ -55,7 +53,6 @@ contradiction.
 
 | Short | Series | Hook style | Observed 24-30h views | Engaged share | Avg % viewed | Watching at 10% | Subs gained | Likely reason |
 |---|---|---|---|---|---|---|---|---|
-| ep177 | Mission Files | statement, story | 127 | 55% | 53.4% | 102% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep216 | Space Myths, Busted | contradiction, record | 90 | 52% | 57.9% | 108% | 0 | published while YouTube held the whole channel back; not evidence |
 | 7lDBiMMlASI | ? | –, story | – | 27% | 86.5% | 142% | 0 | published while YouTube held the whole channel back; not evidence |
 | ep190 | Mission Files | statement, story | 14 | 43% | 69.0% | – | 0 | published while YouTube held the whole channel back; not evidence |
@@ -71,7 +68,7 @@ contradiction.
 | ep078 | The Universe Is Terrifying | contradiction, scale_ladder | 85 | 41% | 71.8% | 128% | 0 | – |
 | ep244 | Space Myths, Busted | statement, record | 51 | 37% | 66.9% | 124% | 0 | – |
 | ep254 | Scale Breaker | statement, story | 1061 | 47% | 68.2% | 122% | 3 | – |
-| ep258 | Space Myths, Busted | statement, scale_ladder | 394 | 42% | 73.6% | 120% | 1 | – |
+| ep258 | Space Myths, Busted | statement, scale_ladder | 394 | 42% | 73.4% | 120% | 1 | – |
 | ep260 | Scale Breaker | statement, story | 1414 | 46% | 98.4% | 140% | 4 | – |
 | ep262 | Mission Files | statement, myth_vs_fact | 931 | 49% | 135.3% | 201% | 1 | – |
 | ep266 | Space Myths, Busted | contradiction, myth_vs_fact | 1146 | 50% | 103.1% | 146% | 0 | – |
@@ -88,21 +85,23 @@ contradiction.
 | ep356 | Scale Breaker | statement, story | 2135 | 44% | 93.7% | 137% | 3 | – |
 | ep362 | The Universe Is Terrifying | statement, mystery | 1017 | 46% | 83.3% | 139% | 3 | – |
 | ep349 | Scale Breaker | statement, scale_ladder | 1199 | 50% | 83.7% | 128% | 2 | – |
-| ep357 | Space Got Weird | statement, story | 1268 | 49% | 67.7% | 118% | 0 | At 27.1h early_reach was 1268 views vs median ~1018. Lifetime views 1502, likes 40 (2.6 likes/100 views vs 1.8 median). High viewer approval associated with Pluto topic, but engaged_share (0.489) and mid-video retention dropped, associated with passive hook phrasing and atmospheric spec beats before the core reveal. |
-| ep351 | Mission Files | contradiction, scale_ladder | 799 | 49% | 71.5% | 122% | 0 | At 29.5h early_reach was 799 views vs median ~1019. Lifetime views 1018, likes 29 (2.8 likes/100 views vs 1.8 median). High feed share (0.941) associated with blind probe topic, but mid-retention fell to 0.639 at 50% associated with spending beats 1-3 on tech specs before introducing the main failure. |
-| ep360 | Mission Files | statement, myth_vs_fact | 1167 | 54% | 62.8% | 121% | 0 | At 27.1h early_reach was 1167 views vs median ~1018. Lifetime views 1285, likes 22 (1.7 likes/100 views vs 1.8 median). Active hatch tension hook associated with high at10 (1.209) and end retention (0.889), but lower likes and 0 comments associated with closing on a historical recap rather than a discussion prompt. |
-| ep369 | Near Misses | statement, scale_ladder | 130 | 47% | 74.9% | 132% | 0 | At 29.5h early_reach was 130 views vs median ~1020. Lifetime views 195, likes 5 (2.6 likes/100 views vs 1.8 median). Low reach associated with late slot publication date and repetitive hook/pacing in beats 1-3 restating suffocation before delivering the mechanical problem. |
-| ep365 | Mission Files | statement, record | 1027 | 47% | 59.2% | 119% | 0 | At 27.1h early_reach was 1027 views vs median ~1019. Lifetime views 1036, likes 21 (2.0 likes/100 views vs 1.8 median). Adaptive reprogramming payoff associated with strong rewatches (AVP 59.18% current / 160.1% lifetime), but engaged_share was 0.472, associated with static scene-setting visuals and hook. |
-| ep378 | Space Myths, Busted | statement, record | 1171 | 46% | 119.4% | 172% | 0 | At 29.5h early_reach was 1171 views vs median ~1018. Lifetime views 1193, likes 24 (2.0 likes/100 views vs 1.8 median). Text hook '1 DAY > 1 YEAR' associated with high early hold (at10 1.718, AVP 119.44%), but end completion fell, associated with repeating the opening hook verbatim in the final beat instead of seamless looping. |
-| ep373 | Near Misses | statement, myth_vs_fact | 847 | 49% | 67.6% | 119% | 0 | At 27.1h early_reach was 847 views vs median ~1019. Lifetime views 964, likes 22 (2.3 likes/100 views vs 1.8 median). Apollo 12 lightning action maintained mid-retention (0.717 at 50%), but initial hold (at10 1.194) and end hold were lower, associated with spoiling the resolution upfront and verbatim final beat repeat. |
-| ep411 | Scale Breaker | statement, mystery | 1246 | 44% | 91.2% | 133% | 1 | At 24.1h early_reach was 1246 views vs median ~1019. Lifetime views 1296, likes 33 (2.5 likes/100 views vs 1.8 median). Voyager solar risk topic associated with strong hold (at10 1.332, AVP 91.21%), but engaged_share (0.440) and end hold were lower, associated with a closed poetic final line and lack of comment prompt. |
-| ep380 | Scale Breaker | statement, story | 1399 | 53% | 96.1% | 145% | 1 | At 29.5h early_reach was 1399 views vs median ~1020. Lifetime views 1465, likes 31 (2.1 likes/100 views vs 1.8 median). Jupiter scale hook and seamless circular loop structure associated with high AVP (96.09% current, 201.4% lifetime) and end retention, though informational closing limited engagement conversions. |
-| ep387 | Mission Files | statement, scale_ladder | 866 | 50% | 125.8% | 180% | 0 | At 27.1h early_reach was 866 views vs median ~1020. Lifetime views 1046, likes 13 (1.2 likes/100 views vs 1.8 median). Circular loop supported end retention (0.496), but flat declarative hook phrasing and slow pacing associated with lower likes/100 and moderate 5s hold. |
-| AqjFtgMXTqI | ? | –, story | – | 47% | 82.3% | 129% | 0 | – |
-| AGVNlHYNopg | ? | –, story | – | 44% | 86.7% | 136% | 1 | – |
-| acGOaPvE6tM | ? | –, story | – | 57% | 100.3% | 152% | 0 | – |
-| 8-qEZaPD6kA | ? | –, story | – | – | – | – | – | – |
-| Ri5FCuxB37w | ? | –, story | – | – | – | – | – | – |
+| ep357 | Space Got Weird | statement, story | 1268 | 49% | 67.7% | 118% | 0 | Topic scale (Pluto mountains) and high approval (2.6 likes) were offset by low engaged share from a passive, descriptive hook. |
+| ep351 | Mission Files | contradiction, scale_ladder | 799 | 49% | 71.5% | 122% | 0 | NASA mystery topic earned high feed reach, but mid-script tech specs caused a steep retention drop before the payoff. |
+| ep360 | Mission Files | statement, myth_vs_fact | 1167 | 54% | 62.8% | 121% | 0 | Authority hook (NASA fire) and tight pacing drove elite retention, but the matter-of-fact ending failed to spark likes/comments. |
+| ep369 | Near Misses | statement, scale_ladder | 130 | 47% | 74.9% | 132% | 0 | Topic (Apollo 13) had potential, but reach failed and retention collapsed due to three consecutive beats of redundant hook explanation. |
+| ep365 | Mission Files | statement, record | 1027 | 47% | 59.2% | 119% | 0 | Record-breaking rewatches (160% AVP) from a tight programming payoff, but the static 'Blinded by Dust' hook cratered initial engaged share. |
+| ep378 | Space Myths, Busted | statement, record | 1171 | 46% | 118.8% | 171% | 0 | Elite hook (Venus record) captured viewers, but verbatim repetition of the hook at the end killed completion rates and rewatch value. |
+| ep373 | Near Misses | statement, myth_vs_fact | 847 | 49% | 67.6% | 119% | 0 | NASA mission topic held steady mid-script, but a spoiled hook and repetitive loop phrasing capped potential rewatch growth. |
+| ep411 | Scale Breaker | statement, mystery | 1246 | 44% | 91.1% | 133% | 2 | Cosmic scale hook (Voyager) drove strong hold and satisfaction, though a closed poetic ending limited the potential for rewatch cycles. |
+| ep380 | Scale Breaker | statement, story | 1399 | 53% | 95.8% | 144% | 1 | Perfect syntactical loop and scale topic drove extreme AVP (201%), but a passive summary beat prevented conversion to likes/subs. |
+| ep387 | Mission Files | statement, scale_ladder | 866 | 50% | 120.1% | 174% | 0 | Flat declarative hook and summary ending resulted in average reach and the channel's lowest recent engagement (1.2 likes). |
+| AqjFtgMXTqI | ? | –, story | – | 46% | 86.0% | 132% | 0 | Cosmic scale topic (Voyager) reached moderate views despite unknown hook metrics; visuals focused on interstellar deep space. |
+| AGVNlHYNopg | ? | –, story | – | 44% | 84.0% | 133% | 1 | Human-scale ISS topic showed lower initial momentum compared to cosmic-scale peers in the same publication slot. |
+| acGOaPvE6tM | ? | –, story | – | 57% | 98.7% | 150% | 0 | NASA/Apollo mission authority and unique tech hook secured high engaged share (56.8%) despite late publication timing. |
+| 8-qEZaPD6kA | ? | –, story | – | 54% | 67.4% | 121% | 0 | Space record topic (Coldest planet) drove decent views; pacing benefited from a simple scale comparison over jargon. |
+| Ri5FCuxB37w | ? | –, story | – | 53% | 59.6% | 116% | 0 | Topic of invisible stars struggled with early hold, likely due to a lack of authority anchoring or visual immediate payoff. |
+| OvKnCj4R7l0 | ? | –, story | – | – | – | – | – | Future cosmic scale topic (Jupiter outliving Sun) maintained high view counts in the prime midnight publication slot. |
+| xzg92YECK5g | ? | –, story | – | – | – | – | – | Niche stellar topic without authority mission anchoring showed limited reach compared to historical NASA stories. |
 
 ## Log
 
@@ -262,3 +261,4 @@ contradiction.
 - 2026-11-15: Logged evaluations for ep357 through ep387, updated 10-Short baseline medians, and focused hypotheses on cutting mid-script spec exposition and verbatim ending loops.
 - 2026-11-16: Evaluated lifetime metrics and diagnostic feedback across recent uploads, confirming strong loop performance on cosmic topics while updating hypotheses for hook pacing and script endings.
 - 2026-11-16: Logged performance reviews for ep351, ep357, ep360, ep365, ep369, ep373, ep378, ep380, ep387, and ep411 to refine script rule evidence and active hypotheses.
+- 2026-11-17: Promoted syntactical looping to Rule 5 and introduced hypotheses targeting mid-script retention and engagement based on recent NASA and scale-themed mission results.
