@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-11-17T23:05:57+05:30",
-  "day": 47,
+  "updated_at": "2026-11-18T05:06:11+05:30",
+  "day": 48,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7N973X8PAGKVA4Y2ATHVEBR",
+    "id": "ta-01M7NXT979KB3Z2KCVS5M29TZR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-17T23:05:12+05:30",
-    "started_at_utc": "2026-11-17T17:35:12+00:00",
-    "seconds": 45
+    "started_at": "2026-11-18T05:05:15+05:30",
+    "started_at_utc": "2026-11-17T23:35:15+00:00",
+    "seconds": 56
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
+      "seconds": 2.8
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.4
+      "seconds": 2.8
     },
     {
       "name": "languages",
@@ -47,25 +47,25 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 3.0
+      "seconds": 2.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep435 rejected (research: The core twist of the story—that Uranus's lopsided magnetic field was a 'solar wind fluke' discovered in 2024—is only found in one site (Wikipedia [S2]). Other key 'weird' details like the 2020 plasmoid discovery and the planet being the 'coldest' in the solar system also fail the two-site requirement, leaving the sources unable to support the specific surprising narrative requested.); ep436 ready; ep437 rejected (research: only 0 claims have two different sites)",
-      "seconds": 14.0
+      "detail": "ep438 rejected (low scores: payoff, visuals); ep439 ready",
+      "seconds": 13.8
     },
     {
-      "name": "start ep438",
+      "name": "start ep440",
       "ok": true,
-      "detail": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
-      "seconds": 1.7
+      "detail": "Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning",
+      "seconds": 2.4
     },
     {
-      "name": "start ep439",
+      "name": "start ep441",
       "ok": true,
-      "detail": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
-      "seconds": 1.3
+      "detail": "Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs",
+      "seconds": 1.1
     }
   ],
   "errors": [
@@ -76,14 +76,14 @@
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 26,
+    "total": 27,
     "in_buffer": 10,
-    "waiting": 16,
+    "waiting": 17,
     "target": 14,
     "making": [],
     "remote": [
-      "ep438",
-      "ep439"
+      "ep440",
+      "ep441"
     ]
   },
   "queue": [
@@ -234,58 +234,58 @@
       "title": "How a Tennis Court in Space Saves Webb",
       "series": "Mission Files",
       "score": 20
+    },
+    {
+      "id": "ep439",
+      "title": "The Disappearing Mega-Storm on Neptune",
+      "series": "Mission Files",
+      "score": 22
     }
   ],
   "made": [
     {
-      "id": "ep435",
+      "id": "ep438",
       "outcome": "rejected",
-      "topic": "Voyager 2 (1986): for forty years we believed Uranus had a bizarre, lopsided magnetic field, only to realize the probe caught the planet during a rare solar wind fluke",
-      "reason": "research: The core twist of the story—that Uranus's lopsided magnetic field was a 'solar wind fluke' discovered in 2024—is only found in one site (Wikipedia [S2]). Other key 'weird' details like the 2020 plasmoid discovery and the planet being the 'coldest' in the solar system also fail the two-site requirement, leaving the sources unable to support the specific surprising narrative requested."
+      "topic": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
+      "reason": "low scores: payoff, visuals"
     },
     {
-      "id": "ep436",
+      "id": "ep439",
       "outcome": "ready",
-      "topic": "James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388",
-      "title": "How a Tennis Court in Space Saves Webb",
+      "topic": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
+      "title": "The Disappearing Mega-Storm on Neptune",
       "scores": {
         "hook": 4,
-        "clarity": 4,
+        "clarity": 5,
         "payoff": 4,
-        "visuals": 4,
+        "visuals": 5,
         "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794916690/universereceipts/ep436-09c996d3.mp4"
-    },
-    {
-      "id": "ep437",
-      "outcome": "rejected",
-      "topic": "Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion",
-      "reason": "research: only 0 claims have two different sites"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794938052/universereceipts/ep439-ded80c9c.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep438",
-      "topic": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
-      "call_id": "fc-01M7N98NNA9BHQQ7XJPHKR7A1Y"
+      "id": "ep440",
+      "topic": "Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning",
+      "call_id": "fc-01M7NXW96NMYDZ8M38S5THDDNN"
     },
     {
-      "id": "ep439",
-      "topic": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
-      "call_id": "fc-01M7N98PWSYE0TC6XPG1SY8Z7D"
+      "id": "ep441",
+      "topic": "Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs",
+      "call_id": "fc-01M7NXWA8XSZB16NGEXC7Q7448"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep438",
-      "topic": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
-      "spawned_at": "2026-11-17T23:05:52+05:30"
+      "id": "ep440",
+      "topic": "Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning",
+      "spawned_at": "2026-11-18T05:06:06+05:30"
     },
     {
-      "id": "ep439",
-      "topic": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
-      "spawned_at": "2026-11-17T23:05:53+05:30"
+      "id": "ep441",
+      "topic": "Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs",
+      "spawned_at": "2026-11-18T05:06:07+05:30"
     }
   ],
   "published": [],
@@ -293,34 +293,36 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 10,
+    "calls": 19,
     "by_model": {
-      "gemini-3.5-flash-lite": 3,
-      "gemini-3-flash-preview": 6,
-      "gemini-3.6-flash": 1
+      "gemini-3.6-flash": 4,
+      "gemini-3-flash-preview": 10,
+      "gemini-3.1-flash-lite": 3,
+      "gemini-3.5-flash": 1,
+      "gemini-3.5-flash-lite": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 1,
+    "modal": 4,
     "runner": 0
   },
   "daily_done": "2026-11-17",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 10.23,
+    "metered": 10.36,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 148,
+    "cloud": 147,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 17.77
+    "modal_credit_left": 17.64
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 40,
-  "parked_topics": 67
+  "open_topics": 39,
+  "parked_topics": 66
 }

@@ -1,0 +1,197 @@
+id: ep438
+title: Why Jupiter Doesn't Actually Orbit the Sun
+series: Space Myths, Busted
+format: v3
+description: Jupiter's massive gravity pulls the center of its orbit into empty space just above the solar surface.
+sources:
+- https://en.wikipedia.org/wiki/Barycenter
+- https://spaceplace.nasa.gov/barycenter/
+- https://earthsky.org/astronomy-essentials/do-the-planets-revolve-around-the-sun-barycenter/
+- https://www.sciencealert.com/jupiter-is-so-freaking-massive-it-doesn-t-actually-orbit-the-sun
+hashtags:
+- '#space'
+- '#jupiter'
+- '#nasa'
+tags:
+- jupiter
+- sun
+- barycenter
+- orbit
+- astronomy
+- physics
+- nasa
+- exoplanets
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Jupiter doesn't actually orbit the center of the Sun.
+  emphasis:
+  - doesn't actually orbit
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Jupiter_-_PJ12-87_-_April_1_2018_%2827388934018%29.jpg/3840px-Jupiter_-_PJ12-87_-_April_1_2018_%2827388934018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter - PJ12-87 - April 1 2018 (27388934018).jpg
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Jupiter_-_PJ12-87_-_April_1_2018_(27388934018).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Objects orbit a shared balancing point called a barycenter.
+  emphasis:
+  - barycenter
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Solar_System_Illustration_%28rubin-20220314-Solar-System-hero%29.tiff/lossy-page1-3840px-Solar_System_Illustration_%28rubin-20220314-Solar-System-hero%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Solar System Illustration (rubin-20220314-Solar-System-hero).tiff
+      credit: Rubin Observatory/NSF/AURA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Solar_System_Illustration_(rubin-20220314-Solar-System-hero).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: BARYCENTER
+      small: Shared center of mass
+- text: For Earth, that point sits deep inside the solar interior.
+  emphasis:
+  - deep inside
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/The_violent_youth_of_solar_proxies.jpg/3840px-The_violent_youth_of_solar_proxies.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The violent youth of solar proxies.jpg
+      credit: IAU/E. Guinan
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_violent_youth_of_solar_proxies.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.85
+    focus_y: 0.25
+    box:
+    - 0.75
+    - 0.05
+    - 0.95
+    - 0.45
+- text: But Jupiter is a gas giant with immense mass.
+  emphasis:
+  - immense mass
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/fa/Jupiter_-_PJ12-82_-_April_1_2018_%2841167307412%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter - PJ12-82 - April 1 2018 (41167307412).jpg
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Jupiter_-_PJ12-82_-_April_1_2018_(41167307412).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Its gravity pulls the orbital center outside the Sun's surface.
+  emphasis:
+  - outside
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/PIA21077_Brown_Dwarf_Microlensing_Diagram.jpg/3840px-PIA21077_Brown_Dwarf_Microlensing_Diagram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA21077 Brown Dwarf Microlensing Diagram.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA21077_Brown_Dwarf_Microlensing_Diagram.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.25
+    focus_y: 0.25
+    card:
+      kind: fact
+      big: 1.07 RADII
+      small: Outside solar surface
+- text: This barycenter sits in empty space above the Sun.
+  emphasis:
+  - empty space
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/SDO_20130421_000100_4096_0171_%28AIA%29.jpg/3840px-SDO_20130421_000100_4096_0171_%28AIA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: SDO 20130421 000100 4096 0171 (AIA).jpg
+      credit: Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams.
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:SDO_20130421_000100_4096_0171_(AIA).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: As Jupiter moves, its weight makes the Sun wobble.
+  emphasis:
+  - Sun wobble
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 6
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This specific wobble is how we find planets around other stars.
+  emphasis:
+  - other stars
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/dc/NASA-Exoplanet-WaterWorlds-20180817.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: NASA-Exoplanet-WaterWorlds-20180817.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA-Exoplanet-WaterWorlds-20180817.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It proves Jupiter doesn't actually orbit the center of the Sun.
+  emphasis:
+  - doesn't actually orbit
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: ORBITING EMPTY SPACE

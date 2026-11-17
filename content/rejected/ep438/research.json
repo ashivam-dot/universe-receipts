@@ -1,0 +1,209 @@
+{
+  "viable": true,
+  "reason": "The provided sources yield more than 10 cross-verified claims explaining how Jupiter and the Sun orbit a common barycenter outside the solar surface.",
+  "story": "We are taught in school that planets revolve around the Sun, but the true physics of celestial mechanics is slightly different. Objects in space actually orbit their common center of mass, known as a barycenter. For smaller planets like Earth, the Sun is so overwhelmingly massive that the Earth-Sun barycenter lies deep inside the Sun's interior. Jupiter, however, is a massive gas giant. Because of Jupiter's immense mass and distance, the common center of mass between Jupiter and the Sun sits roughly 1.07 solar radii from the Sun's center—just above the Sun's surface. This means Jupiter does not orbit the Sun's center; rather, both the Sun and Jupiter orbit a point in empty space. As the planets move, the solar system's barycenter dynamically shifts, causing the Sun to wobble. Astronomers utilize this exact stellar wobble to detect distant exoplanets orbiting far-off stars.",
+  "angle": "Jupiter doesn't actually orbit the Sun; both Jupiter and the Sun orbit a point of empty space just above the solar surface.",
+  "claims": [
+    {
+      "claim": "In astronomy, the common center of mass around which two or more bodies orbit is called a barycenter.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Planets and stars do not orbit the exact physical center of the star, but rather their shared center of mass.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "When an orbiting planet is much less massive than its star, the barycenter lies deep inside the star.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The barycenter of the Earth-Sun system is located inside the Sun.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Jupiter is massive enough and far enough away that the Sun-Jupiter barycenter lies outside the Sun's surface.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The center of mass between Jupiter and the Sun is located approximately 1.07 solar radii from the Sun's center.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Both the Sun and Jupiter orbit around a point of empty space located just above the Sun's surface.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The movement of the Sun around the shifting barycenter causes the Sun to wobble in space.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The overall position of the solar system's barycenter shifts constantly based on the positions of the planets.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The combined barycenter of the entire solar system can sit outside the surface of the Sun.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Astronomers discover exoplanets by searching for the wobble of distant stars orbiting their system barycenters.",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Jupiter is a gas giant with significantly greater mass than Earth.",
+      "sources": [
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Specific upcoming dates for when the barycenter moves back inside the Sun (such as early 2027) are only stated by EarthSky (S3); the script should state the shifting nature of the barycenter generally or attribute specific timeline projections."
+  ],
+  "visuals": [
+    {
+      "subject": "Jupiter global view",
+      "queries": [
+        "Jupiter Juno spacecraft photograph",
+        "Jupiter full disk Hubble mosaic"
+      ]
+    },
+    {
+      "subject": "Sun solar disk",
+      "queries": [
+        "Sun SDO atmospheric imaging assembly photo",
+        "Sun white light optical photograph"
+      ]
+    },
+    {
+      "subject": "Sun and Jupiter barycenter orbit diagram",
+      "queries": [
+        "Sun Jupiter barycenter orbit diagram illustration",
+        "Barycenter two body orbit diagram illustration"
+      ]
+    },
+    {
+      "subject": "Pluto and Charon barycenter orbit diagram",
+      "queries": [
+        "Pluto Charon orbit barycenter diagram illustration",
+        "Binary system barycenter orbit illustration"
+      ]
+    },
+    {
+      "subject": "Solar System planetary alignment diagram",
+      "queries": [
+        "Solar system planets orbits diagram illustration",
+        "Solar system planetary positions illustration"
+      ]
+    },
+    {
+      "subject": "Exoplanet radial velocity wobble diagram",
+      "queries": [
+        "Radial velocity exoplanet wobble diagram illustration",
+        "Star Doppler wobble exoplanet illustration"
+      ]
+    },
+    {
+      "subject": "Solar System gas giant planets",
+      "queries": [
+        "Gas giant planets solar system montage photo",
+        "Jupiter Saturn Uranus Neptune montage photo"
+      ]
+    },
+    {
+      "subject": "Juno spacecraft studying Jupiter",
+      "queries": [
+        "Juno spacecraft at Jupiter NASA illustration",
+        "Juno spacecraft render photo"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Barycenter",
+      "title": "Barycenter",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://spaceplace.nasa.gov/barycenter/",
+      "title": "What Is a Barycenter?",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://earthsky.org/astronomy-essentials/do-the-planets-revolve-around-the-sun-barycenter/",
+      "title": "Do the planets revolve around the sun? Not exactly",
+      "site": "earthsky.org"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.sciencealert.com/jupiter-is-so-freaking-massive-it-doesn-t-actually-orbit-the-sun",
+      "title": "Jupiter Is So Freaking Massive, It Doesn't Actually Orbit The Sun",
+      "site": "sciencealert.com"
+    }
+  ],
+  "topic": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
+  "series": "Space Myths, Busted"
+}

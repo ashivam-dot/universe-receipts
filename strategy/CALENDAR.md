@@ -288,7 +288,7 @@ unexplained, not alien.
 - Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — parked (ep279)
 - Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — dropped (ep431)
 - James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — done (ep436)
-- Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — making (ep439)
+- Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — done (ep439)
 - Apollo 1 (1967): a silent fire on the launchpad that completely reshaped NASA safety protocols — done (ep360)
 - Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years — parked (ep371)
 - Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth — parked (ep418)
@@ -340,7 +340,7 @@ unexplained, not alien.
 - Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain — done (ep422)
 - Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space — dropped (ep426)
 - Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures — dropped (ep432)
-- Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs
+- Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs — making (ep441)
 
 ### Near Misses
 
@@ -413,8 +413,8 @@ unexplained, not alien.
 - Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look — parked (ep272)
 - Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs — parked (ep275)
 - Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate — parked (ep277)
-- Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — making (ep438)
-- Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning — parked (ep301)
+- Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — dropped (ep438)
+- Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning — making (ep440)
 - Halley's Comet (1910): tail gases that sparked widespread panic over earthly suffocation — done (ep355)
 - Venus (1962): Venus spins in the opposite direction of almost every other planet, meaning the Sun rises in the west and sets in the east — done (ep378)
 - Apollo Guidance Computer (1969): the computer that navigated astronauts to the Moon operated on just 64 kilobytes of memory and a clock speed under 1 MHz — done (ep381)

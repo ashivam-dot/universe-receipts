@@ -1,0 +1,223 @@
+id: ep439
+title: The Disappearing Mega-Storm on Neptune
+series: Mission Files
+format: v3
+description: When Voyager 2 flew past Neptune in 1989, it photographed an Earth-sized mega-storm called the Great Dark Spot.
+  Just five years later, the giant storm was gone.
+sources:
+- https://en.wikipedia.org/wiki/Great_Dark_Spot
+- https://en.wikipedia.org/wiki/Exploration_of_Neptune
+- https://www.nasa.gov/history/30-years-ago-voyager-2-explores-neptune/
+- https://www.planetary.org/articles/return-to-neptune-plans
+- https://dailygalaxy.com/2021/08/the-mystery-continues-new-hubble-observations-of-blue-neptunes-dark-vortex/
+- https://www.jasondekarske.com/research/psss/
+- https://arxiv.org/abs/1106.0132
+hashtags:
+- '#space'
+- '#voyager'
+- '#neptune'
+tags:
+- voyager 2
+- neptune
+- great dark spot
+- nasa
+- hubble
+- triton
+- space facts
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Voyager 2 found an Earth-sized storm on distant Neptune.
+  emphasis:
+  - Earth-sized storm
+  - distant Neptune
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d1/PIA01142.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA01142.jpg
+      credit: NASA/Voyager 2 Team
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA01142.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.42
+    focus_y: 0.46
+    box:
+    - 0.18
+    - 0.1
+    - 0.92
+    - 0.95
+    card:
+      kind: fact
+      big: EARTH-SIZED STORM
+      small: Discovered on Neptune
+- text: It was a massive anticyclone swirling in freezing darkness.
+  emphasis:
+  - massive anticyclone
+  - freezing darkness
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c8/Neptune_clouds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Neptune clouds.jpg
+      credit: NASA / Jet Propulsion Lab
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Neptune_clouds.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Neptune gets only three percent of the sunlight Jupiter receives.
+  emphasis:
+  - three percent
+  - sunlight Jupiter receives
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/PIA00046.jpg/960px-PIA00046.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA00046.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA00046.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 3% SUNLIGHT
+      small: Compared to Jupiter
+- text: Yet Voyager 2 imaged dark rings and unknown moons.
+  emphasis:
+  - dark rings
+  - unknown moons
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Neptune_ring_arcs.jpg/960px-Neptune_ring_arcs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Neptune ring arcs.jpg
+      credit: NASA/Voyager 2 Team
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Neptune_ring_arcs.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.45
+    focus_y: 0.4
+    box:
+    - 0.15
+    - 0.15
+    - 0.95
+    - 0.85
+- text: It even caught active ice geysers erupting on Triton.
+  emphasis:
+  - ice geysers
+  - Triton
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/37/Voyager_2_Triton_14bg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager 2 Triton 14bg.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_2_Triton_14bg.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers pointed the Hubble Space Telescope at Neptune in 1994.
+  emphasis:
+  - Hubble Space Telescope
+  - '1994'
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/53/Deployment_of_the_Hubble_Space_Telescope_%2828248653761%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Deployment of the Hubble Space Telescope (28248653761).jpg
+      credit: NASA Hubble Space Telescope
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Deployment_of_the_Hubble_Space_Telescope_(28248653761).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.35
+    - 0.3
+    - 0.65
+    - 0.8
+    card:
+      kind: dateline
+      big: '1994'
+      small: Hubble Observation
+- text: The Great Dark Spot had completely vanished.
+  emphasis:
+  - completely vanished
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Neptune_cloud_cover_over_three_decades_%28opo2319a%29.jpg/1920px-Neptune_cloud_cover_over_three_decades_%28opo2319a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Neptune cloud cover over three decades (opo2319a).jpg
+      credit: NASA, ESA, E. Chavez (UC Berkeley), I. de Pater (UC Berkeley)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Neptune_cloud_cover_over_three_decades_(opo2319a).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.12
+    focus_y: 0.25
+    box:
+    - 0.03
+    - 0.08
+    - 0.22
+    - 0.48
+    card:
+      kind: fact
+      big: VANISHED
+      small: Storm missing entirely
+- text: Nobody expected a mega-storm on distant Neptune to just vanish.
+  emphasis:
+  - just vanish
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.42
+    focus_y: 0.46
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

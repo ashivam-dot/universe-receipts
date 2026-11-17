@@ -1,0 +1,167 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-17T23:22:28+05:30",
+      "check": {
+        "duration": 28.09,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strongly counter-intuitive opening premise.",
+        "clarity": "Clear comparison between Earth and Jupiter.",
+        "payoff": "Fact is educational but lacks punch.",
+        "visuals": "Beat 4 incorrectly displays Uranus and Neptune.",
+        "loop": "Seamless transition back to the start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "shows Uranus and Neptune instead of Jupiter"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: This specific wobble is how we hunt for alien worlds."
+      ],
+      "better_than_last": "The loop logic is tighter than ep436.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-17T23:25:57+05:30",
+      "check": {
+        "duration": 29.53,
+        "words": 90,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -3.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strongly challenges common assumptions about solar orbits immediately.",
+        "clarity": "Technical explanation of barycenters may be dense for quick consumption.",
+        "payoff": "Connecting the orbital quirk to exoplanet detection provides a good conclusion.",
+        "visuals": "Imagery ranges from helpful diagrams to confusing composite shots.",
+        "loop": "Last line transitions perfectly into the first for an endless cycle."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Historical woodcut diagram is an unclear choice for modern physics."
+        },
+        {
+          "beat": 4,
+          "problem": "Fantasy composite showing Jupiter and moons from a surface is misleading."
+        },
+        {
+          "beat": 5,
+          "problem": "Graph contains non-English labels and is unreadable at phone scale."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 2: Objects orbit a shared balancing point called a barycenter.",
+        "Beat 8: This specific wobble is how we find planets around other stars."
+      ],
+      "better_than_last": "The premise is more conceptually mind-bending than the recent Webb telescope facts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-17T23:33:12+05:30",
+      "check": {
+        "duration": 24.83,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong counter-intuitive claim challenges common knowledge.",
+        "clarity": "Successfully simplifies complex orbital mechanics for beginners.",
+        "payoff": "Good transition to the broader context of exoplanet discovery.",
+        "visuals": "Mostly high quality, but beat five features an incorrect diagram.",
+        "loop": "Seamlessly connects the conclusion back to the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Diagram shows microlensing and brown dwarfs rather than a barycenter."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: This subtle dance is how we detect alien planets across the galaxy."
+      ],
+      "better_than_last": "Provides a more cohesive scientific narrative than the tennis court analogy in episode 436.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-11-17T23:33:12+05:30"
+}
