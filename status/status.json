@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-17T17:14:01+05:30",
+  "updated_at": "2026-11-17T23:05:57+05:30",
   "day": 47,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7MMKXZZDV29D46334NFSCER",
+    "id": "ta-01M7N973X8PAGKVA4Y2ATHVEBR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-17T17:05:09+05:30",
-    "started_at_utc": "2026-11-17T11:35:09+00:00",
-    "seconds": 532
+    "started_at": "2026-11-17T23:05:12+05:30",
+    "started_at_utc": "2026-11-17T17:35:12+00:00",
+    "seconds": 45
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 1.8
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 1.9
+      "seconds": 2.4
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.7
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -47,73 +47,25 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 4.1
+      "seconds": 3.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep434 ready",
-      "seconds": 7.0
+      "detail": "ep435 rejected (research: The core twist of the story—that Uranus's lopsided magnetic field was a 'solar wind fluke' discovered in 2024—is only found in one site (Wikipedia [S2]). Other key 'weird' details like the 2020 plasmoid discovery and the planet being the 'coldest' in the solar system also fail the two-site requirement, leaving the sources unable to support the specific surprising narrative requested.); ep436 ready; ep437 rejected (research: only 0 claims have two different sites)",
+      "seconds": 14.0
     },
     {
-      "name": "analytics",
+      "name": "start ep438",
       "ok": true,
-      "detail": "133 subscribers",
-      "seconds": 10.3
+      "detail": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
+      "seconds": 1.7
     },
     {
-      "name": "learnings",
+      "name": "start ep439",
       "ok": true,
-      "detail": "Promoted syntactical looping to Rule 5 and introduced hypotheses targeting mid-script retention and engagement based on recent NASA and scale-themed mission results.",
-      "seconds": 376.2
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 2.2
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 60.8
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "4 added",
-      "seconds": 36.5
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-047.md",
-      "seconds": 3.0
-    },
-    {
-      "name": "start ep435",
-      "ok": true,
-      "detail": "Voyager 2 (1986): for forty years we believed Uranus had a bizarre, lopsided magnetic field, only to realize the probe caught the planet during a rare solar wind fluke",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep436",
-      "ok": true,
-      "detail": "James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep437",
-      "ok": true,
-      "detail": "Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion",
-      "seconds": 0.5
+      "detail": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
+      "seconds": 1.3
     }
   ],
   "errors": [
@@ -124,15 +76,14 @@
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 25,
+    "total": 26,
     "in_buffer": 10,
-    "waiting": 15,
+    "waiting": 16,
     "target": 14,
     "making": [],
     "remote": [
-      "ep435",
-      "ep436",
-      "ep437"
+      "ep438",
+      "ep439"
     ]
   },
   "queue": [
@@ -277,56 +228,64 @@
       "title": "The Planet That Orbits Completely Sideways",
       "series": "Space Got Weird",
       "score": 24
+    },
+    {
+      "id": "ep436",
+      "title": "How a Tennis Court in Space Saves Webb",
+      "series": "Mission Files",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep434",
+      "id": "ep435",
+      "outcome": "rejected",
+      "topic": "Voyager 2 (1986): for forty years we believed Uranus had a bizarre, lopsided magnetic field, only to realize the probe caught the planet during a rare solar wind fluke",
+      "reason": "research: The core twist of the story—that Uranus's lopsided magnetic field was a 'solar wind fluke' discovered in 2024—is only found in one site (Wikipedia [S2]). Other key 'weird' details like the 2020 plasmoid discovery and the planet being the 'coldest' in the solar system also fail the two-site requirement, leaving the sources unable to support the specific surprising narrative requested."
+    },
+    {
+      "id": "ep436",
       "outcome": "ready",
-      "topic": "Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness",
-      "title": "The Planet That Orbits Completely Sideways",
+      "topic": "James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388",
+      "title": "How a Tennis Court in Space Saves Webb",
       "scores": {
-        "hook": 5,
-        "clarity": 5,
+        "hook": 4,
+        "clarity": 4,
         "payoff": 4,
-        "visuals": 5,
-        "loop": 5
+        "visuals": 4,
+        "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794894290/universereceipts/ep434-f225d2d9.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794916690/universereceipts/ep436-09c996d3.mp4"
+    },
+    {
+      "id": "ep437",
+      "outcome": "rejected",
+      "topic": "Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion",
+      "reason": "research: only 0 claims have two different sites"
     }
   ],
   "spawned": [
     {
-      "id": "ep435",
-      "topic": "Voyager 2 (1986): for forty years we believed Uranus had a bizarre, lopsided magnetic field, only to realize the probe caught the planet during a rare solar wind fluke",
-      "call_id": "fc-01M7MN478GYD89453YE485W7DF"
+      "id": "ep438",
+      "topic": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
+      "call_id": "fc-01M7N98NNA9BHQQ7XJPHKR7A1Y"
     },
     {
-      "id": "ep436",
-      "topic": "James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388",
-      "call_id": "fc-01M7MN47V2QTGV5T496QEGYGF4"
-    },
-    {
-      "id": "ep437",
-      "topic": "Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion",
-      "call_id": "fc-01M7MN48B3VXXTPJ5SD83ADA1J"
+      "id": "ep439",
+      "topic": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
+      "call_id": "fc-01M7N98PWSYE0TC6XPG1SY8Z7D"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep435",
-      "topic": "Voyager 2 (1986): for forty years we believed Uranus had a bizarre, lopsided magnetic field, only to realize the probe caught the planet during a rare solar wind fluke",
-      "spawned_at": "2026-11-17T17:13:55+05:30"
+      "id": "ep438",
+      "topic": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
+      "spawned_at": "2026-11-17T23:05:52+05:30"
     },
     {
-      "id": "ep436",
-      "topic": "James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388",
-      "spawned_at": "2026-11-17T17:13:55+05:30"
-    },
-    {
-      "id": "ep437",
-      "topic": "Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion",
-      "spawned_at": "2026-11-17T17:13:56+05:30"
+      "id": "ep439",
+      "topic": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
+      "spawned_at": "2026-11-17T23:05:53+05:30"
     }
   ],
   "published": [],
@@ -334,23 +293,23 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 14,
+    "calls": 10,
     "by_model": {
-      "gemini-3-flash-preview": 9,
       "gemini-3.5-flash-lite": 3,
-      "gemini-3.6-flash": 2
+      "gemini-3-flash-preview": 6,
+      "gemini-3.6-flash": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 2,
+    "modal": 1,
     "runner": 0
   },
   "daily_done": "2026-11-17",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 10.16,
+    "metered": 10.23,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -358,10 +317,10 @@
     "cloud": 148,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 17.85
+    "modal_credit_left": 17.77
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 40,
-  "parked_topics": 69
+  "parked_topics": 67
 }
