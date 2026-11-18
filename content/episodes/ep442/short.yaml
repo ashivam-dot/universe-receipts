@@ -1,0 +1,188 @@
+id: ep442
+title: Why the Moon Smells Like Gunpowder
+series: Scale Breaker
+format: v3
+description: The Moon's abrasive dust levitates under solar radiation and holds a surprising scent. Here is what twelve Apollo
+  astronauts discovered on our nearest neighbor.
+sources:
+- https://en.wikipedia.org/wiki/Moon
+- https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon
+- https://solarsystem.nasa.gov/moons/earths-moon/in-depth.amp
+hashtags:
+- '#space'
+- '#moon'
+- '#apollo'
+tags:
+- moon
+- apollo
+- lunar dust
+- space
+- astronomy
+- nasa
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The Moon's surface dust smells like burnt gunpowder.
+  emphasis:
+  - burnt gunpowder
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Buzz_Aldrin%27s_bootprint_on_the_Moon%2C_AS11-40-5877_%2821472308758%29.jpg/1920px-Buzz_Aldrin%27s_bootprint_on_the_Moon%2C_AS11-40-5877_%2821472308758%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Buzz Aldrin's bootprint on the Moon, AS11-40-5877 (21472308758).jpg
+      credit: Buzz Aldrin
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Buzz_Aldrin%27s_bootprint_on_the_Moon,_AS11-40-5877_(21472308758).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.65
+    box:
+    - 0.4
+    - 0.45
+    - 0.62
+    - 0.85
+- text: Solar radiation gives that abrasive dust an electrostatic charge.
+  emphasis:
+  - electrostatic charge
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/26/Chang%27e-6_lunar_regolith_under_stereomicroscope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Chang'e-6 lunar regolith under stereomicroscope.jpg
+      credit: Chunlai Li, Hao Hu, Meng-Fei Yang
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Chang%27e-6_lunar_regolith_under_stereomicroscope.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Instead of resting quietly, the particles actually levitate above the ground.
+  emphasis:
+  - actually levitate
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/AS16-118-18972_%2821674382106%29.jpg/3840px-AS16-118-18972_%2821674382106%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS16-118-18972 (21674382106).jpg
+      credit: Project Apollo Archive
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS16-118-18972_(21674382106).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A nearly vacuum exosphere leaves the regolith completely exposed to space.
+  emphasis:
+  - vacuum exosphere
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/AS16-112-18220_%2821497124699%29.jpg/3840px-AS16-112-18220_%2821497124699%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS16-112-18220 (21497124699).jpg
+      credit: Project Apollo Archive
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS16-112-18220_(21497124699).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Down there, surface gravity is only one-sixth of Earth's.
+  emphasis:
+  - one-sixth
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Question_Answered%21_%28LROC537_-_AS16-113-18339_4web%29.png/960px-Question_Answered%21_%28LROC537_-_AS16-113-18339_4web%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Question Answered! (LROC537 - AS16-113-18339 4web).png
+      credit: NASA/Charlie Duke
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Question_Answered!_(LROC537_-_AS16-113-18339_4web).png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.62
+    focus_y: 0.4
+    box:
+    - 0.55
+    - 0.25
+    - 0.72
+    - 0.58
+- text: NASA's SOFIA airborne observatory detected water across that sunlit surface in October 2020.
+  emphasis:
+  - SOFIA
+  - water
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/53/SOFIA_in_air.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: SOFIA in air.jpg
+      credit: NASA/Carla Thomas
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:SOFIA_in_air.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: October 2020
+      small: NASA SOFIA detection
+- text: Across six Apollo missions, exactly twelve humans walked on that ground.
+  emphasis:
+  - twelve humans
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Apollo_17_Cernan_on_moon.jpg/1920px-Apollo_17_Cernan_on_moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apollo 17 Cernan on moon.jpg
+      credit: NASA / Harrison H. Schmitt
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apollo_17_Cernan_on_moon.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The only world humans ever visited carries that unmistakable scent.
+  emphasis:
+  - unmistakable scent
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.65
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: ONE-SIXTH GRAVITY, ZERO AIR

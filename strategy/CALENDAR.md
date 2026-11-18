@@ -97,6 +97,7 @@ unexplained, not alien.
 | Dec 6 | Vanguard TV-3 (1957): on Dec 6, America's televised answer to Sputnik rose just four feet off the ground before bursting into a catastrophic launchpad fireball | Mission Files |
 | Dec 7 | Apollo 17 (1972): on Dec 7, NASA launched humanity's final Apollo moon mission, carrying Harrison Schmitt, the first and only professional geologist to walk on the Moon | Mission Files |
 | Dec 8 | SpaceX COTS Demo Flight 1 (2010): on Dec 8, SpaceX became the first private company to launch a spacecraft into orbit and recover it intact from the ocean | Mission Files |
+| Dec 10 | Voyager 2 (2018): on Dec 10, Voyager 2 crossed the heliopause into interstellar space with its working plasma instrument intact, giving scientists their first direct look at deep space particle flow | Mission Files |
 | Dec 14 | Apollo 17 (1972): Gene Cernan left his daughter's initials traced in the lunar dust before stepping off the Moon on humanity's last Apollo spacewalk | Mission Files |
 | Dec 14 | Mariner 2 (1962): on Dec 14, Mariner 2 flew past Venus, completing humanity's first successful planetary encounter | Mission Files |
 | Dec 15 | Gemini 6A (1965): on Dec 15, NASA pulled off the first crewed spacecraft rendezvous, maneuvering within one foot of another capsule at 17,000 mph | Near Misses |
@@ -254,7 +255,7 @@ unexplained, not alien.
 - Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over — parked (ep419)
 - Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit — done (ep423)
 - Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined — making (ep442)
-- Pluto (1930): despite being famous worldwide as a planet for 76 years, Pluto's total surface area is smaller than the country of Russia
+- Pluto (1930): despite being famous worldwide as a planet for 76 years, Pluto's total surface area is smaller than the country of Russia — making (ep445)
 - Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system
 
 ### Mission Files
@@ -294,6 +295,7 @@ unexplained, not alien.
 - Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth — parked (ep418)
 - Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space — done (ep421)
 - Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour — making (ep443)
+- Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers
 
 ### Space Got Weird
 
@@ -410,7 +412,7 @@ unexplained, not alien.
 - Black hole (1916): they don't actually function like cosmic vacuum cleaners; if the Sun were replaced by one, Earth wouldn't be sucked in — done (ep263)
 - Milky Way (1610): the "milk" in the sky isn't a cloud of gas, but the combined light of billions of individual stars too faint to see alone — done (ep266)
 - Mars (1976): the "Red Planet" is actually a golden-brown butterscotch color; its red hue is just a thin layer of iron oxide dust — dropped (ep269)
-- Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look — parked (ep272)
+- Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look — making (ep444)
 - Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs — parked (ep275)
 - Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate — parked (ep277)
 - Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — dropped (ep438)
