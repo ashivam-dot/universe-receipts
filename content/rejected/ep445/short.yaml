@@ -1,0 +1,257 @@
+id: ep445
+title: Pluto Is Smaller Than Earth's Moon
+series: Scale Breaker
+format: v3
+description: Despite being classified as a planet for 76 years, Pluto is actually smaller in diameter than our own Moon.
+sources:
+- https://en.wikipedia.org/wiki/Pluto
+- https://science.nasa.gov/dwarf-planets/pluto/facts/
+- https://web.archive.org/web/20110927042714/http://www.planetary.org/explore/topics/topten/tyson_pluto_is_not.html
+- http://www.space.com/spacewatch/050311_pluto_guide.html
+- https://news.bbc.co.uk/2/hi/science/nature/4596246.stm
+- https://web.archive.org/web/20210307022014/https://www.nationalgeographic.com/science/article/pluto-planets-new-horizons-one-year-anniversary-nasa-space-science
+- https://web.archive.org/web/20110715221348/http://www.psi.edu/press/archive/20080919planetdebate/
+hashtags:
+- '#space'
+- '#pluto'
+- '#nasa'
+tags:
+- pluto
+- dwarf planet
+- astronomy
+- moon
+- clyde tombaugh
+- nasa
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Pluto is smaller in diameter than Earth's Moon.
+  emphasis:
+  - smaller
+  - Moon
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/3840px-Pluto_in_True_Color_-_High-Res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pluto in True Color - High-Res.jpg
+      credit: NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: SMALLER THAN MOON
+      small: Pluto's diameter comparison
+- text: This world is barely wider than the United States.
+  emphasis:
+  - wider
+  - United States
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d1/Pluto%2C_Earth_size_comparison.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Pluto, Earth size comparison.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pluto,_Earth_size_comparison.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Clyde Tombaugh spotted it at Lowell Observatory in 1930.
+  emphasis:
+  - Clyde Tombaugh
+  - '1930'
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/0/01/Clyde_W._Tombaugh.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Clyde W. Tombaugh.jpeg
+      credit: Unknown authorUnknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Clyde_W._Tombaugh.jpeg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.75
+    focus_y: 0.55
+    box:
+    - 0.54
+    - 0.3
+    - 0.95
+    - 0.95
+    card:
+      kind: dateline
+      big: '1930'
+      small: Lowell Observatory, Arizona
+- text: Venetia Burney suggested the name for the ninth planet.
+  emphasis:
+  - Venetia Burney
+  - ninth planet
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Photo_of_Venetia_Burney%2C_aged_11%2C_c._1929.jpg/960px-Photo_of_Venetia_Burney%2C_aged_11%2C_c._1929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Photo of Venetia Burney, aged 11, c. 1929.jpg
+      credit: J. Weston & Sons, Eastbourne
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Photo_of_Venetia_Burney,_aged_11,_c._1929.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.58
+    focus_y: 0.45
+    box:
+    - 0.2
+    - 0.1
+    - 0.8
+    - 0.9
+- text: It takes 248 Earth years to circle the Sun.
+  emphasis:
+  - 248 Earth years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/The_orbit_of_2001_KX76_compared_to_the_orbit_of_the_planets_%28heic0110c%29.tiff/lossy-page1-1920px-The_orbit_of_2001_KX76_compared_to_the_orbit_of_the_planets_%28heic0110c%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The orbit of 2001 KX76 compared to the orbit of the planets (heic0110c).tiff
+      credit: ESA, ESO, Astrovirtel & Gerhard Hahn (German Aerospace Center, DLR)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_orbit_of_2001_KX76_compared_to_the_orbit_of_the_planets_(heic0110c).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 248 YEARS
+      small: One orbit around Sun
+- text: Five moons like Hydra orbit this frozen world.
+  emphasis:
+  - Five moons
+  - frozen
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Pluto_and_its_five_moons.jpg/3840px-Pluto_and_its_five_moons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pluto and its five moons.jpg
+      credit: NASA, ESA and M. Showalter (SETI Institute)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pluto_and_its_five_moons.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Charon is so big it stays locked facing Pluto.
+  emphasis:
+  - Charon
+  - locked
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/2d/Pluto_and_Charon_%28New_Horizons%29_%282020-54-4766-Image%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Pluto and Charon (New Horizons) (2020-54-4766-Image).png
+      credit: 'IMAGE: NASA, APL, SwRI'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pluto_and_Charon_(New_Horizons)_(2020-54-4766-Image).png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: LOCKED
+      small: Mutually tidally locked
+- text: It was reclassified in 2006 for failing to clear its orbit.
+  emphasis:
+  - reclassified
+  - '2006'
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Relationship_of_the_Kuiper_Belt_to_the_Oort_Cloud_%28opo0204i%29.jpg/1920px-Relationship_of_the_Kuiper_Belt_to_the_Oort_Cloud_%28opo0204i%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Relationship of the Kuiper Belt to the Oort Cloud (opo0204i).jpg
+      credit: NASA/ESA and A. Feild (Space Telescope Science Institute)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Relationship_of_the_Kuiper_Belt_to_the_Oort_Cloud_(opo0204i).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.2
+    box:
+    - 0.03
+    - 0.05
+    - 0.97
+    - 0.35
+    card:
+      kind: dateline
+      big: '2006'
+      small: Dwarf planet status
+- text: That demotion wasn't just about size.
+  emphasis:
+  - demotion
+  - size
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Pluto%E2%80%99s_Heart_-_Like_a_Cosmic_Lava_Lamp.jpg/1920px-Pluto%E2%80%99s_Heart_-_Like_a_Cosmic_Lava_Lamp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pluto’s Heart - Like a Cosmic Lava Lamp.jpg
+      credit: NASA/JHUAPL/SwRI
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pluto%E2%80%99s_Heart_-_Like_a_Cosmic_Lava_Lamp.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Still, Pluto is smaller in diameter than Earth's Moon.
+  emphasis:
+  - smaller
+  - Earth's Moon
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: TINY NINTH PLANET

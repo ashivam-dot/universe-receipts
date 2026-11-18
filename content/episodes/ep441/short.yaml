@@ -58,13 +58,13 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/PIA01488_Uranus%27_Upper_Atmosphere.jpg/1920px-PIA01488_Uranus%27_Upper_Atmosphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/b/bb/Uranus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: PIA01488 Uranus' Upper Atmosphere.jpg
-      credit: NASA/JPL/USGS
+      title: Uranus.jpg
+      credit: NASA/JPL
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PIA01488_Uranus%27_Upper_Atmosphere.jpg
+      url: https://commons.wikimedia.org/wiki/File:Uranus.jpg
     fallbacks:
     - color
     motion: zoom_in
@@ -97,29 +97,29 @@ beats:
       kind: fact
       big: VOYAGER 2
       small: Flyby in 1986
-- text: Then Hawaii's Gemini North telescope analyzed reflected sunlight off the clouds.
+- text: Then Hawaii's Gemini North telescope analyzed sunlight reflected off the clouds.
   emphasis:
   - Gemini North
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Canada_France_and_Gemini_North_Telescope._Mauna_Kea_Summit_%28503952%29_%2822031500202%29.jpg/3840px-Canada_France_and_Gemini_North_Telescope._Mauna_Kea_Summit_%28503952%29_%2822031500202%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Gemini_North%2C_Mauna_Kea_%28noao-02253%29.jpg/1920px-Gemini_North%2C_Mauna_Kea_%28noao-02253%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Canada France and Gemini North Telescope. Mauna Kea Summit (503952) (22031500202).jpg
-      credit: Robert Linsdell from St. Andrews, Canada
-      license: CC BY 2.0
-      url: https://commons.wikimedia.org/wiki/File:Canada_France_and_Gemini_North_Telescope._Mauna_Kea_Summit_(503952)_(22031500202).jpg
+      title: Gemini North, Mauna Kea (noao-02253).jpg
+      credit: NOIRLab/NSF/AURA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Gemini_North,_Mauna_Kea_(noao-02253).jpg
     fallbacks:
     - color
-    motion: pan_left
-    focus_x: 0.85
+    motion: pan_up
+    focus_x: 0.5
     focus_y: 0.45
     box:
-    - 0.66
-    - 0.08
-    - 1.0
-    - 0.88
+    - 0.18
+    - 0.28
+    - 0.77
+    - 0.77
 - text: Instruments detected faint spectral lines of toxic hydrogen sulfide.
   emphasis:
   - hydrogen sulfide
@@ -166,37 +166,37 @@ beats:
     - 0.42
     - 0.94
     - 0.88
-- text: In that minus 200 degree atmosphere, nobody could ever smell it.
+- text: You'd freeze and suffocate instantly in that minus 200 degree atmosphere.
   emphasis:
-  - could ever smell it
+  - freeze and suffocate
   sfx: riser
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/3/36/Many_Bright_Clouds_on_Uranus_%28opo9835a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Uranus_Hubble.jpg/960px-Uranus_Hubble.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Many Bright Clouds on Uranus (opo9835a).jpg
-      credit: Erich Karkoschka (University of Arizona) and NASA/ESA
+      title: Uranus Hubble.jpg
+      credit: NASA/ESA and Erich Karkoschka, University of Arizona
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Many_Bright_Clouds_on_Uranus_(opo9835a).jpg
+      url: https://commons.wikimedia.org/wiki/File:Uranus_Hubble.jpg
     fallbacks:
     - card
     - color
     motion: zoom_out
-    focus_x: 0.44
-    focus_y: 0.49
+    focus_x: 0.5
+    focus_y: 0.5
     box:
-    - 0.24
-    - 0.13
-    - 0.64
-    - 0.85
+    - 0.1
+    - 0.09
+    - 0.9
+    - 0.9
     card:
       kind: fact
       big: -200°C
       small: Cloud deck temperature
-- text: You'd freeze and suffocate long before catching a single whiff.
+- text: But if you could breathe, the upper clouds smell like rotten eggs.
   emphasis:
-  - freeze and suffocate
+  - rotten eggs
   sfx: pop
   pause_after: 0.4
   visual:

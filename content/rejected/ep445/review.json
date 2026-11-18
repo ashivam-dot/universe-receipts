@@ -1,0 +1,160 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-18T17:31:17+05:30",
+      "check": {
+        "duration": 33.29,
+        "words": 94,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'to' after 'it failed to'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Opening fact is well-known rather than highly surprising.",
+        "clarity": "Logical structure that is simple to follow.",
+        "payoff": "Concludes by repeating the premise instead of revealing a twist.",
+        "visuals": "Diagrams are clear but text labels are tiny on mobile screens.",
+        "loop": "Final statement flows directly back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Diagram text labels are too small to read on phone screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 10: Change to 'Yet its tiny size is not the only reason it lost planet status.'"
+      ],
+      "better_than_last": "Maintains a sharper focus on a single core subject than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-18T17:36:43+05:30",
+      "check": {
+        "duration": 27.43,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "A well-known fact that could use more immediate intrigue.",
+        "clarity": "Strong logical flow explaining size and classification rules.",
+        "payoff": "Satisfactorily explains the specific reason for Pluto's demotion.",
+        "visuals": "Informative diagrams provided, though some are text-reliant.",
+        "loop": "Connects logically but lacks a smooth grammatical transition."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Pluto is actually smaller in diameter than our Moon.",
+        "Beat 10: Demotion wasn't just about size, but it is still shocking that..."
+      ],
+      "better_than_last": "Provides better technical context for planetary classification than the Neptune episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-18T17:40:44+05:30",
+      "check": {
+        "duration": 28.37,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "A solid comparison that uses a familiar object to establish a sense of scale.",
+        "clarity": "The visual in beat 2 contradicts the script, which may confuse viewers on first watch.",
+        "payoff": "The script ends exactly where it began without providing a new insight or 'receipt'.",
+        "visuals": "Beat 2 shows Africa and Madagascar while the narration discusses the United States.",
+        "loop": "The script uses a identical sentence structure to create a perfectly seamless loop."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "off-topic; frame shows Africa and the Indian Ocean while the script mentions the United States."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: That demotion happened because it failed to clear other objects from its orbit.",
+        "Beat 10: It's still mind-blowing that Pluto is smaller than our own Moon."
+      ],
+      "better_than_last": "The loop transition is more natural and seamless than the Neptune episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-11-18T17:40:44+05:30"
+}

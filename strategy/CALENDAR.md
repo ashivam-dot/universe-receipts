@@ -66,7 +66,7 @@ unexplained, not alien.
 | 2026-11-03 | Supermassive black hole (1963): they do not sit exclusively at the hearts of galaxies, as some roam through intergalactic space entirely alone — dropped (ep328) | Space Myths, Busted | Follow-up to ep263, which broke out (1,048 views in 12 h, 25.3x the median) |
 | 2026-11-03 | Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory — parked (ep334) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
 | 2026-11-03 | Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names — parked (ep329) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
-| 2026-11-03 | Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models — parked (ep330) | Scale Breaker | Trending on NASA news this week with new Hubble findings on dwarf galaxies. |
+| 2026-11-03 | Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models — making (ep447) | Scale Breaker | Trending on NASA news this week with new Hubble findings on dwarf galaxies. |
 | 2026-11-05 | SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes — dropped (ep358) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
 | 2026-11-05 | SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night — done (ep362) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
 | 2026-11-05 | IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear — dropped (ep364) | Space Got Weird | Featured in NASA's Astronomy Picture of the Day on November 4. |
@@ -254,8 +254,8 @@ unexplained, not alien.
 - Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once — parked (ep408)
 - Jupiter (1610): Jupiter is so massive that every other planet in the solar system combined could fit inside it twice over — parked (ep419)
 - Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit — done (ep423)
-- Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined — making (ep442)
-- Pluto (1930): despite being famous worldwide as a planet for 76 years, Pluto's total surface area is smaller than the country of Russia — making (ep445)
+- Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined — done (ep442)
+- Pluto (1930): despite being famous worldwide as a planet for 76 years, Pluto's total surface area is smaller than the country of Russia — parked (ep445)
 - Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system
 
 ### Mission Files
@@ -294,7 +294,7 @@ unexplained, not alien.
 - Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years — parked (ep371)
 - Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth — parked (ep418)
 - Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space — done (ep421)
-- Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour — making (ep443)
+- Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour — done (ep443)
 - Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers
 
 ### Space Got Weird
@@ -342,7 +342,7 @@ unexplained, not alien.
 - Saturn (1848): the ringed planet radiates twice as much energy into space as it absorbs from the Sun, powered by liquid helium rain — done (ep422)
 - Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space — dropped (ep426)
 - Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures — dropped (ep432)
-- Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs — making (ep441)
+- Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs — done (ep441)
 
 ### Near Misses
 
@@ -412,7 +412,7 @@ unexplained, not alien.
 - Black hole (1916): they don't actually function like cosmic vacuum cleaners; if the Sun were replaced by one, Earth wouldn't be sucked in — done (ep263)
 - Milky Way (1610): the "milk" in the sky isn't a cloud of gas, but the combined light of billions of individual stars too faint to see alone — done (ep266)
 - Mars (1976): the "Red Planet" is actually a golden-brown butterscotch color; its red hue is just a thin layer of iron oxide dust — dropped (ep269)
-- Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look — making (ep444)
+- Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look — dropped (ep444)
 - Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs — parked (ep275)
 - Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate — parked (ep277)
 - Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — dropped (ep438)
@@ -425,4 +425,4 @@ unexplained, not alien.
 - Space Shuttle (1981): space shuttles did not land using engine power, but dropped out of orbit as unpowered 80-ton gliders — parked (ep415)
 - Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases — dropped (ep416)
 - Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion — dropped (ep437)
-- Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium
+- Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium — making (ep446)

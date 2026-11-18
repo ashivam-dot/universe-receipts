@@ -1,0 +1,142 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-18T17:19:33+05:30",
+      "check": {
+        "duration": 30.75,
+        "words": 82,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'sofia' heard as 'sophia' after 'is nasa is'",
+          "'scent' heard as 'set' after 'carries that unmistakable'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "A striking sensory claim about lunar dust that immediately catches curiosity.",
+        "clarity": "The sudden jump to SOFIA detecting water breaks the narrative flow about surface dust conditions.",
+        "payoff": "Never resolves why the dust smells like gunpowder or connects the surface environment to the astronauts' discovery.",
+        "visuals": "Crisp lunar photography and microscopic dust imagery, though an airplane over farmland feels jarring mid-Short.",
+        "loop": "Beat 8 sets up the opening line cleanly so the replay feels natural."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Across six Apollo missions, exactly twelve humans walked on that ground.",
+        "Beat 7: Those twelve explorers were the only ones to encounter that charged, exposed regolith."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3.7-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-18T17:29:29+05:30",
+      "check": {
+        "duration": 28.75,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "A sensory description of the Moon's surface is an effective opening.",
+        "clarity": "The scientific explanations for the dust's behavior are clear.",
+        "payoff": "The ending lacks a significant reveal to follow through on the setup.",
+        "visuals": "Imagery is high-quality and directly relevant to the narrative.",
+        "loop": "The transition back to the start is functional but not seamless."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Those twelve explorers smelled it on their suits after returning to the lander.",
+        "Beat 8: They were shocked to discover that..."
+      ],
+      "better_than_last": "This short features much stronger visual cohesion than the Neptune episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-18T17:37:55+05:30",
+      "check": {
+        "duration": 30.13,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The sensory contradiction of smell in a vacuum is an immediate and effective hook.",
+        "clarity": "The explanation of radiation and gravity is concise and builds logically toward the conclusion.",
+        "payoff": "The reveal of 'lunar hay fever' is a surprising and relatable consequence of the smell.",
+        "visuals": "Excellent use of authentic Apollo mission imagery that perfectly matches the timeline of the script.",
+        "loop": "The repetition of the gunpowder line creates a flawless transition from end to beginning."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short creates a more visceral sensory connection to the Moon than the technical focus of the James Webb or Neptune episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

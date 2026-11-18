@@ -1,0 +1,98 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-18T17:15:59+05:30",
+      "check": {
+        "duration": 29.65,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong sensory premise grabs attention quickly.",
+        "clarity": "Logical narrative progression with one main idea per beat.",
+        "payoff": "The twist about suffocation is neat but somewhat predictable.",
+        "visuals": "Relevant images, though beat 2 is overly noisy and low quality.",
+        "loop": "Last line connects cleanly back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "blurry and noisy image artifacting"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: You'd freeze and suffocate instantly, but if you could breathe, the upper clouds of Uranus smell like rotten eggs."
+      ],
+      "better_than_last": "Provides a more visceral, sensory curiosity hook than recent mission-focused episodes.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-18T17:28:37+05:30",
+      "check": {
+        "duration": 29.79,
+        "words": 83,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'smell' after 'upper clouds smell'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong sensory hook uses common relatable smells.",
+        "clarity": "Logical flow from initial mystery to scientific resolution.",
+        "payoff": "Explains the sulfur chemistry difference between gas giants.",
+        "visuals": "Accurate spacecraft and planetary imagery used throughout.",
+        "loop": "Hook repetition provides a seamless transition for replays."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a clearer scientific explanation than the Neptune storm episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

@@ -1,0 +1,200 @@
+id: ep444
+title: Why the Apollo 11 Flag Looked Like It Was Waving
+series: Space Myths, Busted
+format: v3
+description: NASA designed a horizontal rod to hold the Apollo flag extended, but vacuum physics kept the fabric swinging
+  after astronauts planted it.
+sources:
+- https://sentinelmission.org/blog/how-to-explain-why-the-flag-moved-on-the-moon/
+- https://biologyinsights.com/why-was-the-flag-waving-on-the-moon/
+- https://en.wikipedia.org/wiki/Lunar_Flag_Assembly
+- https://www.nasa.gov/history/flag-day-flying-high-the-stars-and-stripes-in-space/
+- https://airandspace.si.edu/stories/editorial/moons-early-light
+hashtags:
+- '#space'
+- '#apollo11'
+- '#nasa'
+tags:
+- apollo 11
+- moon landing
+- nasa
+- space myth
+- lunar flag
+- physics
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The Apollo flag on the Moon never waved.
+  emphasis:
+  - never waved
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Buzz_salutes_the_U.S._Flag-crop.jpg/1920px-Buzz_salutes_the_U.S._Flag-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Buzz salutes the U.S. Flag-crop.jpg
+      credit: Soerfm
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Buzz_salutes_the_U.S._Flag-crop.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Earth's atmosphere easily dampens fluttering cloth within seconds.
+  emphasis:
+  - dampens fluttering cloth
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: AIR DRAG
+      small: stops flutter on Earth
+    motion: zoom_in
+- text: But the lunar vacuum has zero air to stop motion.
+  emphasis:
+  - zero air
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Apollo_11_Lunar_Lander_-_5927_NASA.jpg/1920px-Apollo_11_Lunar_Lander_-_5927_NASA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apollo 11 Lunar Lander - 5927 NASA.jpg
+      credit: Neil Armstrong
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apollo_11_Lunar_Lander_-_5927_NASA.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.1
+    - 0.06
+    - 0.9
+    - 0.68
+- text: NASA added a top horizontal rod to hold the flag fabric open.
+  emphasis:
+  - horizontal rod
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg/3840px-AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS15-88-11866 - Apollo 15 flag, rover, LM, Irwin - restoration1.jpg
+      credit: NASA Johnson Space Center Restored by Bammesk
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.39
+    focus_y: 0.38
+    box:
+    - 0.3
+    - 0.32
+    - 0.48
+    - 0.44
+    card:
+      kind: fact
+      big: TOP ROD
+      small: held flag extended
+- text: Astronauts physically twisted and jostled the pole while planting it.
+  emphasis:
+  - twisted and jostled
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Apollo_17_Astronaut_Cernan_Adjusts_U.S._Flag_on_Lunar_Surface_%285052744448%29.jpg/1280px-Apollo_17_Astronaut_Cernan_Adjusts_U.S._Flag_on_Lunar_Surface_%285052744448%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apollo 17 Astronaut Cernan Adjusts U.S. Flag on Lunar Surface (5052744448).jpg
+      credit: NASA on The Commons
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apollo_17_Astronaut_Cernan_Adjusts_U.S._Flag_on_Lunar_Surface_(5052744448).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.65
+    box:
+    - 0.0
+    - 0.36
+    - 0.98
+    - 1.0
+- text: Without atmospheric drag, that disturbance made the fabric oscillate like a pendulum.
+  emphasis:
+  - oscillate like a pendulum
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Conrad_Unfurls_Flag_-_GPN-2000-001104.jpg/1920px-Conrad_Unfurls_Flag_-_GPN-2000-001104.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Conrad Unfurls Flag - GPN-2000-001104.jpg
+      credit: NASA Alan Bean
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Conrad_Unfurls_Flag_-_GPN-2000-001104.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: NO DRAG
+      small: motion acts like a pendulum
+- text: The moment astronauts released the pole, the flag stood completely still.
+  emphasis:
+  - completely still
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Eugene_Cernan_with_the_US_flag%2C_Apollo_17%2C_AS17-134-20386.png/1920px-Eugene_Cernan_with_the_US_flag%2C_Apollo_17%2C_AS17-134-20386.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Eugene Cernan with the US flag, Apollo 17, AS17-134-20386.png
+      credit: Harrison Schmitt / Apollo 17
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Eugene_Cernan_with_the_US_flag,_Apollo_17,_AS17-134-20386.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.55
+    box:
+    - 0.09
+    - 0.31
+    - 0.89
+    - 0.81
+    card:
+      kind: fact
+      big: STILL
+      small: motionless when untouched
+- text: No real breeze touched any American flag on the Moon.
+  emphasis:
+  - No real breeze
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: APOLLO'S VACUUM FLAG
