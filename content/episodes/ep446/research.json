@@ -1,0 +1,229 @@
+{
+  "viable": true,
+  "reason": "The sources contain over ten cross-referenced claims detailing the history and physics of solar and artificial nuclear fusion.",
+  "story": "For centuries, people assumed the Sun was on fire. But fire is a chemical reaction requiring oxygen, while the Sun glows through nuclear fusion. In 1920, astrophysicist Arthur Eddington correctly proposed that stars fuse hydrogen into helium. Francis Aston had discovered that four hydrogen atoms weigh slightly more than one helium atom, with that missing 0.7 percent of mass converting into pure energy via Einstein's E=mc squared. In 1934, Mark Oliphant, Paul Harteck, and Ernest Rutherford achieved artificial deuterium fusion in the lab. Soon after, Hans Bethe mapped out the Sun's proton-proton chain. Surprisingly, solar fusion is remarkably gradual: at fifteen million kelvin, the solar core generates only about 276 watts per cubic meter, less volumetric power than a resting human body. The Sun's sheer size is what lights up the solar system.",
+  "angle": "Despite its blinding intensity, the Sun's core produces less heat per cubic meter than a resting human body.",
+  "claims": [
+    {
+      "claim": "In 1920, Arthur Eddington predicted that the fusion of hydrogen into helium powers stars.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Francis Aston discovered that four hydrogen atoms are heavier than a single helium atom.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "George Gamow applied quantum tunneling to atomic nuclei to explain fusion as an inverse process to alpha decay.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Robert Atkinson and Fritz Houtermans used quantum tunneling to calculate early estimates of stellar fusion rates.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Hans Bethe detailed the proton-proton chain reaction mechanism that dominates energy production in Sun-type stars.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mark Oliphant, Paul Harteck, and Ernest Rutherford achieved the first intentional experimental demonstration of fusion in 1934.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In 1938, Arthur Ruhlig at the University of Michigan reported secondary high-energy neutrons from deuterium-tritium fusion.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Manhattan Project research revealed that the deuterium-tritium fusion cross-section is roughly 100 times larger than the deuterium-deuterium cross-section.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Sun generates its energy in its core by fusing hydrogen nuclei into helium.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Nuclear fusion in the Sun's core requires temperatures around 15 million to 15.7 million kelvin.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Hydrogen fusion converts roughly 0.7 percent of the reactant mass into energy.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The volumetric energy generation rate of the solar core is approximately 276 watts per cubic meter.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The volumetric heat generation rate of the solar core is less than the volumetric heat output of a resting adult human body.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In higher-mass stars, the CNO cycle is a dominant nuclear fusion pathway.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Joint European Torus (JET) produced record-setting amounts of fusion energy in tokamak experiments.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The National Ignition Facility (NIF) accomplished controlled fusion ignition using laser-driven inertial confinement.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Peak JET fusion energy output records: S1 cites 69 MJ produced in 2023, whereas S3 cites a record of 59 MJ (attribute: 'according to different experimental reports').",
+    "Exact solar core temperature: S1 states about 15 million kelvin while S2 specifies 15.7 million kelvin (attribute: 'estimates range between 15 and 15.7 million kelvin').",
+    "Arthur Ruhlig's 1938 proton recoil ratio: S1 notes Ruhlig reported secondary DT neutrons, while S3 highlights that his reported 1:1000 ratio was higher than modern calculations (attribute: 'according to recent historical analysis')."
+  ],
+  "visuals": [
+    {
+      "subject": "Solar core cross-section diagram (illustration)",
+      "queries": [
+        "Sun interior structure diagram illustration",
+        "Solar core radiative convective zone diagram illustration"
+      ]
+    },
+    {
+      "subject": "Arthur Eddington portrait",
+      "queries": [
+        "Arthur Eddington portrait photo",
+        "Sir Arthur Eddington photograph"
+      ]
+    },
+    {
+      "subject": "Francis William Aston portrait",
+      "queries": [
+        "Francis William Aston photo",
+        "Francis William Aston portrait"
+      ]
+    },
+    {
+      "subject": "Proton-proton chain fusion diagram (illustration)",
+      "queries": [
+        "Proton-proton chain reaction diagram illustration",
+        "Nuclear fusion proton proton chain illustration"
+      ]
+    },
+    {
+      "subject": "Hans Bethe portrait",
+      "queries": [
+        "Hans Bethe photo",
+        "Hans Bethe portrait photograph"
+      ]
+    },
+    {
+      "subject": "Joint European Torus (JET) tokamak interior",
+      "queries": [
+        "Joint European Torus interior photo",
+        "JET tokamak reactor vessel photo"
+      ]
+    },
+    {
+      "subject": "National Ignition Facility target chamber",
+      "queries": [
+        "National Ignition Facility target chamber photo",
+        "NIF laser target chamber photo"
+      ]
+    },
+    {
+      "subject": "Cavendish Laboratory building",
+      "queries": [
+        "Cavendish Laboratory Cambridge photo",
+        "Old Cavendish Laboratory Free School Lane photo"
+      ]
+    },
+    {
+      "subject": "Parker Solar Probe near the Sun (illustration)",
+      "queries": [
+        "Parker Solar Probe artist concept illustration",
+        "Parker Solar Probe spacecraft illustration"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Nuclear_fusion",
+      "title": "Nuclear fusion",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://theuniverseepisodes.com/how-does-the-sun-burn-without-oxygen/",
+      "title": "How Does the Sun Burn Without Oxygen? Fusion, Not Fire",
+      "site": "theuniverseepisodes.com"
+    },
+    {
+      "label": "S3",
+      "url": "https://ar5iv.labs.arxiv.org/html/2302.04206",
+      "title": "The earliest DT nuclear fusion discoveries",
+      "site": "arxiv.org"
+    }
+  ],
+  "topic": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
+  "series": "Space Myths, Busted"
+}

@@ -1,0 +1,60 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-18T23:15:19+05:30",
+      "check": {
+        "duration": 32.13,
+        "words": 85,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of a cosmic leak is intriguing and the title card is effective.",
+        "clarity": "The narrative flows logically from star formation to galactic loss.",
+        "payoff": "Calling them polluters is interesting but lacks a high-impact emotional punch.",
+        "visuals": "Several frames utilize diagrams with too much text for a quick mobile view.",
+        "loop": "The repetition of the leak concept creates a smooth, seamless transition."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The diagram contains extensive small text that is difficult to read on a phone."
+        },
+        {
+          "beat": 7,
+          "problem": "The graphic is too technical and cluttered for a fast-paced vertical video."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Instead of 'primary chemical polluters', say 'the universe's most efficient chemical polluters.'",
+        "Beat 5: Replace 'these tiny star systems are empty' with 'these tiny systems have lost nearly all their oxygen.'"
+      ],
+      "better_than_last": "This Short uses a more compelling narrative hook than episode 443 by framing a discovery as a mysterious leak.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-18T23:06:19+05:30",
-  "day": 48,
+  "updated_at": "2026-11-19T05:06:02+05:30",
+  "day": 49,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7QVKT5RGCV3D2XXQM06Q90R",
+    "id": "ta-01M7RG700JH7EMS0TS1JKMF0FR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-18T23:05:17+05:30",
-    "started_at_utc": "2026-11-18T17:35:17+00:00",
-    "seconds": 61
+    "started_at": "2026-11-19T05:05:13+05:30",
+    "started_at_utc": "2026-11-18T23:35:13+00:00",
+    "seconds": 49
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.2
+      "seconds": 2.1
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 3.5
+      "seconds": 2.3
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.8
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -47,25 +47,25 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 2.8
+      "seconds": 5.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep441 ready; ep442 ready; ep443 ready; ep444 rejected (low scores: payoff, visuals, loop); ep445 rejected (low scores: payoff, visuals)",
-      "seconds": 27.1
+      "detail": "ep446 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep447 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 11.8
     },
     {
-      "name": "start ep446",
+      "name": "start ep448",
       "ok": true,
-      "detail": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
-      "seconds": 3.3
+      "detail": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
+      "seconds": 1.5
     },
     {
-      "name": "start ep447",
+      "name": "start ep449",
       "ok": true,
-      "detail": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
-      "seconds": 3.2
+      "detail": "InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough",
+      "seconds": 1.6
     }
   ],
   "errors": [
@@ -73,6 +73,9 @@
   ],
   "owner_action": [],
   "notes": [
+    "ep446 stopped on Gemini's free quota; it resumes in a later run",
+    "ep447 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -80,10 +83,13 @@
     "in_buffer": 10,
     "waiting": 21,
     "target": 14,
-    "making": [],
-    "remote": [
+    "making": [
       "ep446",
       "ep447"
+    ],
+    "remote": [
+      "ep448",
+      "ep449"
     ]
   },
   "queue": [
@@ -268,82 +274,44 @@
   ],
   "made": [
     {
-      "id": "ep441",
-      "outcome": "ready",
-      "topic": "Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs",
-      "title": "Why Uranus Smells Like Rotten Eggs",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795003117/universereceipts/ep441-1e31497b.mp4"
+      "id": "ep446",
+      "outcome": "unfinished",
+      "topic": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep442",
-      "outcome": "ready",
-      "topic": "Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined",
-      "title": "Why the Moon Smells Like Spent Gunpowder",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795003675/universereceipts/ep442-6245c0b6.mp4"
-    },
-    {
-      "id": "ep443",
-      "outcome": "ready",
-      "topic": "Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour",
-      "title": "The Tiny Rover That Survived Mars",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795002508/universereceipts/ep443-a96298ce.mp4"
-    },
-    {
-      "id": "ep444",
-      "outcome": "rejected",
-      "topic": "Apollo 11 (1969): the US flag didn't \"wave\" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look",
-      "reason": "low scores: payoff, visuals, loop"
-    },
-    {
-      "id": "ep445",
-      "outcome": "rejected",
-      "topic": "Pluto (1930): despite being famous worldwide as a planet for 76 years, Pluto's total surface area is smaller than the country of Russia",
-      "reason": "low scores: payoff, visuals"
+      "id": "ep447",
+      "outcome": "unfinished",
+      "topic": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep446",
-      "topic": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
-      "call_id": "fc-01M7QVP0FXFSJDMQR9YATCHFA7"
+      "id": "ep448",
+      "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
+      "call_id": "fc-01M7RG8NJ3C905HXWGQKWD6QM6"
     },
     {
-      "id": "ep447",
-      "topic": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
-      "call_id": "fc-01M7QVP3KD3E9V7C9VYB1V67HA"
+      "id": "ep449",
+      "topic": "InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough",
+      "call_id": "fc-01M7RG8Q4XJ6G2Z8C1ZA6X9FNX"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep446",
-      "topic": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
-      "spawned_at": "2026-11-18T23:06:12+05:30"
+      "id": "ep448",
+      "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
+      "spawned_at": "2026-11-19T05:05:55+05:30"
     },
     {
-      "id": "ep447",
-      "topic": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
-      "spawned_at": "2026-11-18T23:06:16+05:30"
+      "id": "ep449",
+      "topic": "InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough",
+      "spawned_at": "2026-11-19T05:05:57+05:30"
     }
   ],
   "published": [],
@@ -351,37 +319,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 41,
+    "calls": 14,
     "by_model": {
-      "gemini-3.8-flash": 1,
-      "gemini-3.6-flash": 14,
-      "gemini-3.5-flash-lite": 8,
-      "gemini-3-flash-preview": 14,
-      "gemini-3.7-flash": 3,
-      "gemini-3.5-flash": 1
+      "gemini-3.6-flash": 1,
+      "gemini-3-flash-preview": 7,
+      "gemini-3.5-flash-lite": 5,
+      "gemini-3.1-flash-lite": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 12,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-11-18",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 10.93,
+    "metered": 11.07,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 142,
+    "cloud": 141,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 17.07
+    "modal_credit_left": 16.93
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 37,
+  "open_topics": 35,
   "parked_topics": 65
 }
