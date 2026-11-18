@@ -1,0 +1,214 @@
+id: ep441
+title: Why Uranus Smells Like Rotten Eggs
+series: Space Got Weird
+format: v3
+description: Scientists solved a decades-old mystery about what hides in Uranus's clouds. The culprit is hydrogen sulfide,
+  but you would never survive to smell it.
+sources:
+- https://www.nasa.gov/solar-system/what-uranus-cloud-tops-have-in-common-with-rotten-eggs/
+- https://www.gemini.edu/news/press-releases/gemini1802
+- https://www.sciencenews.org/article/uranus-smells-rotten-eggs
+- https://www.abc.net.au/news/2018-04-24/uranus-smells-like-rotten-eggs-scientists-find/9692186
+- https://en.wikipedia.org/wiki/Atmosphere_of_Uranus
+hashtags:
+- '#space'
+- '#uranus'
+- '#astronomy'
+tags:
+- uranus
+- space
+- astronomy
+- gemini north
+- hydrogen sulfide
+- voyager 2
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The upper clouds of Uranus smell like rotten eggs.
+  emphasis:
+  - rotten eggs
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Uranus_as_seen_by_NASA%27s_Voyager_2_%28remastered%29_-_JPEG_converted.jpg/1280px-Uranus_as_seen_by_NASA%27s_Voyager_2_%28remastered%29_-_JPEG_converted.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Uranus as seen by NASA's Voyager 2 (remastered) - JPEG converted.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Uranus_as_seen_by_NASA%27s_Voyager_2_(remastered)_-_JPEG_converted.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: ROTTEN EGGS
+      small: Upper cloud deck
+- text: Astronomers long assumed ammonia gas dominated the giant planet.
+  emphasis:
+  - assumed ammonia
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/PIA01488_Uranus%27_Upper_Atmosphere.jpg/1920px-PIA01488_Uranus%27_Upper_Atmosphere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA01488 Uranus' Upper Atmosphere.jpg
+      credit: NASA/JPL/USGS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA01488_Uranus%27_Upper_Atmosphere.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Even NASA's Voyager 2 flyby couldn't identify what was up there.
+  emphasis:
+  - Voyager 2
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/59/Uranus_and_Voyager_%2824660826102%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Uranus and Voyager (24660826102).png
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Uranus_and_Voyager_(24660826102).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.65
+    focus_y: 0.5
+    box:
+    - 0.52
+    - 0.05
+    - 0.77
+    - 0.92
+    card:
+      kind: fact
+      big: VOYAGER 2
+      small: Flyby in 1986
+- text: Then Hawaii's Gemini North telescope analyzed reflected sunlight off the clouds.
+  emphasis:
+  - Gemini North
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Canada_France_and_Gemini_North_Telescope._Mauna_Kea_Summit_%28503952%29_%2822031500202%29.jpg/3840px-Canada_France_and_Gemini_North_Telescope._Mauna_Kea_Summit_%28503952%29_%2822031500202%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Canada France and Gemini North Telescope. Mauna Kea Summit (503952) (22031500202).jpg
+      credit: Robert Linsdell from St. Andrews, Canada
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Canada_France_and_Gemini_North_Telescope._Mauna_Kea_Summit_(503952)_(22031500202).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.85
+    focus_y: 0.45
+    box:
+    - 0.66
+    - 0.08
+    - 1.0
+    - 0.88
+- text: Instruments detected faint spectral lines of toxic hydrogen sulfide.
+  emphasis:
+  - hydrogen sulfide
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Hydrogen-sulfide-3D-balls.png/960px-Hydrogen-sulfide-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hydrogen-sulfide-3D-balls.png
+      credit: Ben Mills
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hydrogen-sulfide-3D-balls.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: H2S
+      small: Hydrogen sulfide detected
+- text: Unlike Jupiter's ammonia clouds, Uranus formed cold enough to freeze sulfur.
+  emphasis:
+  - freeze sulfur
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/PIA21776_-_Jupiter_Storms_of_the_High_North.jpg/1920px-PIA21776_-_Jupiter_Storms_of_the_High_North.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA21776 - Jupiter Storms of the High North.jpg
+      credit: NASA/JPL-Caltech/SwRI/MSSS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA21776_-_Jupiter_Storms_of_the_High_North.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.68
+    focus_y: 0.65
+    box:
+    - 0.42
+    - 0.42
+    - 0.94
+    - 0.88
+- text: In that minus 200 degree atmosphere, nobody could ever smell it.
+  emphasis:
+  - could ever smell it
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/36/Many_Bright_Clouds_on_Uranus_%28opo9835a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Many Bright Clouds on Uranus (opo9835a).jpg
+      credit: Erich Karkoschka (University of Arizona) and NASA/ESA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Many_Bright_Clouds_on_Uranus_(opo9835a).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.44
+    focus_y: 0.49
+    box:
+    - 0.24
+    - 0.13
+    - 0.64
+    - 0.85
+    card:
+      kind: fact
+      big: -200°C
+      small: Cloud deck temperature
+- text: You'd freeze and suffocate long before catching a single whiff.
+  emphasis:
+  - freeze and suffocate
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A FROZEN STINKING WORLD

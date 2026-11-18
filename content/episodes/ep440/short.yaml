@@ -1,0 +1,242 @@
+id: ep440
+title: The Missing Letter in Neil Armstrong's Moon Speech
+series: Space Myths, Busted
+format: v3
+description: Neil Armstrong's historic Moon landing quote accidentally changed meaning due to a single missing letter. Here
+  is what really happened on Apollo 11.
+sources:
+- https://en.wikipedia.org/wiki/One_small_step
+- https://www.nasa.gov/history/july-20-1969-one-giant-leap-for-mankind/
+- https://www.newyorker.com/news/news-desk/neil-armstrongs-voice
+- https://www.telegraph.co.uk/news/science/space/9770712/Neil-Armstrongs-family-reveal-origins-of-one-small-step-line.html
+- http://www.collectspace.com/news/news-100306a.html
+hashtags:
+- '#space'
+- '#apollo11'
+- '#nasa'
+tags:
+- apollo 11
+- neil armstrong
+- moon landing
+- space myths
+- nasa
+- space history
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Apollo 11 astronaut Neil Armstrong flubbed his most famous line.
+  emphasis:
+  - flubbed his most famous line
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Saturn_Apollo_Program_%289018112%29.jpg/1920px-Saturn_Apollo_Program_%289018112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Saturn Apollo Program (9018112).jpg
+      credit: NASA Marshall Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Saturn_Apollo_Program_(9018112).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.6
+    focus_y: 0.28
+    box:
+    - 0.55
+    - 0.15
+    - 0.65
+    - 0.41
+- text: Over 500 million people listened to his lunar broadcast live.
+  emphasis:
+  - 500 million people
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/View_of_Mission_Control_during_lunar_surface_Apollo_11_EVA_%28S69-39593%29.jpg/3840px-View_of_Mission_Control_during_lunar_surface_Apollo_11_EVA_%28S69-39593%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: View of Mission Control during lunar surface Apollo 11 EVA (S69-39593).jpg
+      credit: NASA Johnson Space Center / NA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:View_of_Mission_Control_during_lunar_surface_Apollo_11_EVA_(S69-39593).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.6
+    card:
+      kind: fact
+      big: 500 million
+      small: live listeners worldwide
+- text: He planned to say, 'one small step for a man'.
+  emphasis:
+  - for a man
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Apollo_11_Lunar_Lander_-_5927_NASA.jpg/1920px-Apollo_11_Lunar_Lander_-_5927_NASA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apollo 11 Lunar Lander - 5927 NASA.jpg
+      credit: Neil Armstrong
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apollo_11_Lunar_Lander_-_5927_NASA.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.45
+    card:
+      kind: quote
+      big: for [a] man
+      small: intended phrasing
+- text: In the broadcast, he dropped the word 'a'.
+  emphasis:
+  - dropped the word 'a'
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Telecast_of_Astronauts_Armstrong_and_Aldrin_by_the_Lunar_Module_%28S69-39563%29.jpg/3840px-Telecast_of_Astronauts_Armstrong_and_Aldrin_by_the_Lunar_Module_%28S69-39563%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Telecast of Astronauts Armstrong and Aldrin by the Lunar Module (S69-39563).jpg
+      credit: NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Telecast_of_Astronauts_Armstrong_and_Aldrin_by_the_Lunar_Module_(S69-39563).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Missing 'a'
+      small: omitted on live broadcast
+- text: Without that word, 'man' meant all of humanity.
+  emphasis:
+  - all of humanity
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/A_Man_on_the_Moon%2C_AS11-40-5903_%2821039130393%29.jpg/3840px-A_Man_on_the_Moon%2C_AS11-40-5903_%2821039130393%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: A Man on the Moon, AS11-40-5903 (21039130393).jpg
+      credit: Neil A. Armstrong
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(21039130393).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.18
+    box:
+    - 0.4
+    - 0.1
+    - 0.6
+    - 0.25
+- text: The speech accidentally compared mankind to mankind.
+  emphasis:
+  - compared mankind to mankind
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/57/Apollo_11_plaque_closeup_on_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Apollo 11 plaque closeup on Moon.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apollo_11_plaque_closeup_on_Moon.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Man = Mankind
+      small: unintended tautology
+- text: Armstrong and NASA initially claimed radio static swallowed the syllable.
+  emphasis:
+  - radio static
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/AS11-37-5528_-_Apollo_11_-_Apollo_11_Mission_image_-_Neil_A._Armstrong_inside_the_Lunar_Module_after_EVA_-_NARA_-_16683662.jpg/3840px-AS11-37-5528_-_Apollo_11_-_Apollo_11_Mission_image_-_Neil_A._Armstrong_inside_the_Lunar_Module_after_EVA_-_NARA_-_16683662.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: AS11-37-5528 - Apollo 11 - Apollo 11 Mission image - Neil A. Armstrong inside the Lunar Module after EVA - NARA
+        - 16683662.jpg
+      credit: Unknown authorUnknown author or not provided
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS11-37-5528_-_Apollo_11_-_Apollo_11_Mission_image_-_Neil_A._Armstrong_inside_the_Lunar_Module_after_EVA_-_NARA_-_16683662.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.4
+    - 0.25
+    - 0.6
+    - 0.55
+    card:
+      kind: fact
+      big: Radio static
+      small: initial NASA defense
+- text: After re-listening to recordings, Armstrong conceded he simply dropped it.
+  emphasis:
+  - conceded he simply dropped it
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/A11PCf.jpg/3840px-A11PCf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: A11PCf.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:A11PCf.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.38
+    focus_y: 0.47
+- text: Official transcripts still place that elusive letter inside brackets.
+  emphasis:
+  - inside brackets
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: quote
+      big: for [a] man
+      small: official transcript notation
+    motion: zoom_in
+- text: More than 500 million listeners heard that legendary slip.
+  emphasis:
+  - legendary slip
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.6
+    focus_y: 0.28
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE MISSING LETTER

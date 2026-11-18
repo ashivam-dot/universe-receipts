@@ -1,35 +1,35 @@
 {
-  "updated_at": "2026-11-18T05:06:11+05:30",
+  "updated_at": "2026-11-18T11:06:03+05:30",
   "day": 48,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7NXT979KB3Z2KCVS5M29TZR",
+    "id": "ta-01M7PJDECC9SFRQ6KREDA8X9QR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-18T05:05:15+05:30",
-    "started_at_utc": "2026-11-17T23:35:15+00:00",
-    "seconds": 56
+    "started_at": "2026-11-18T11:05:12+05:30",
+    "started_at_utc": "2026-11-18T05:35:12+00:00",
+    "seconds": 51
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.8
+      "seconds": 2.0
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.8
+      "seconds": 2.9
     },
     {
       "name": "languages",
@@ -47,25 +47,25 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 2.9
+      "seconds": 4.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep438 rejected (low scores: payoff, visuals); ep439 ready",
-      "seconds": 13.8
+      "detail": "ep440 ready; ep441 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 11.5
     },
     {
-      "name": "start ep440",
+      "name": "start ep442",
       "ok": true,
-      "detail": "Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning",
-      "seconds": 2.4
+      "detail": "Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined",
+      "seconds": 1.7
     },
     {
-      "name": "start ep441",
+      "name": "start ep443",
       "ok": true,
-      "detail": "Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs",
-      "seconds": 1.1
+      "detail": "Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour",
+      "seconds": 1.7
     }
   ],
   "errors": [
@@ -73,17 +73,21 @@
   ],
   "owner_action": [],
   "notes": [
+    "ep441 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 27,
+    "total": 28,
     "in_buffer": 10,
-    "waiting": 17,
+    "waiting": 18,
     "target": 14,
-    "making": [],
-    "remote": [
-      "ep440",
+    "making": [
       "ep441"
+    ],
+    "remote": [
+      "ep442",
+      "ep443"
     ]
   },
   "queue": [
@@ -240,52 +244,60 @@
       "title": "The Disappearing Mega-Storm on Neptune",
       "series": "Mission Files",
       "score": 22
+    },
+    {
+      "id": "ep440",
+      "title": "The Missing Letter in Neil Armstrong's Moon Speech",
+      "series": "Space Myths, Busted",
+      "score": 24
     }
   ],
   "made": [
     {
-      "id": "ep438",
-      "outcome": "rejected",
-      "topic": "Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface",
-      "reason": "low scores: payoff, visuals"
-    },
-    {
-      "id": "ep439",
+      "id": "ep440",
       "outcome": "ready",
-      "topic": "Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system",
-      "title": "The Disappearing Mega-Storm on Neptune",
+      "topic": "Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning",
+      "title": "The Missing Letter in Neil Armstrong's Moon Speech",
       "scores": {
-        "hook": 4,
+        "hook": 5,
         "clarity": 5,
         "payoff": 4,
         "visuals": 5,
-        "loop": 4
+        "loop": 5
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794938052/universereceipts/ep439-ded80c9c.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1794959717/universereceipts/ep440-3484f458.mp4"
+    },
+    {
+      "id": "ep441",
+      "outcome": "unfinished",
+      "topic": "Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep440",
-      "topic": "Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning",
-      "call_id": "fc-01M7NXW96NMYDZ8M38S5THDDNN"
+      "id": "ep442",
+      "topic": "Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined",
+      "call_id": "fc-01M7PJF58N4CXP8CMCJKKSD10Z"
     },
     {
-      "id": "ep441",
-      "topic": "Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs",
-      "call_id": "fc-01M7NXWA8XSZB16NGEXC7Q7448"
+      "id": "ep443",
+      "topic": "Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour",
+      "call_id": "fc-01M7PJF6Y28XSSAVGC0H385FKE"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep440",
-      "topic": "Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning",
-      "spawned_at": "2026-11-18T05:06:06+05:30"
+      "id": "ep442",
+      "topic": "Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined",
+      "spawned_at": "2026-11-18T11:05:56+05:30"
     },
     {
-      "id": "ep441",
-      "topic": "Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs",
-      "spawned_at": "2026-11-18T05:06:07+05:30"
+      "id": "ep443",
+      "topic": "Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour",
+      "spawned_at": "2026-11-18T11:05:58+05:30"
     }
   ],
   "published": [],
@@ -293,36 +305,36 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 19,
+    "calls": 12,
     "by_model": {
-      "gemini-3.6-flash": 4,
-      "gemini-3-flash-preview": 10,
-      "gemini-3.1-flash-lite": 3,
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 1
+      "gemini-3.5-flash-lite": 4,
+      "gemini-3.8-flash": 3,
+      "gemini-3-flash-preview": 3,
+      "gemini-3.7-flash": 1,
+      "gemini-flash-latest": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 4,
+    "modal": 2,
     "runner": 0
   },
   "daily_done": "2026-11-17",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 10.36,
+    "metered": 10.47,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 147,
+    "cloud": 146,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 17.64
+    "modal_credit_left": 17.53
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 39,
+  "open_topics": 37,
   "parked_topics": 66
 }
