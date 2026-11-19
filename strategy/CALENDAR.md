@@ -154,7 +154,7 @@ unexplained, not alien.
 | Nov 16 | Arecibo message (1974): humanity beamed a picture message at a star cluster 25,000 light-years away — done (ep391) | Space Got Weird |
 | Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors — done (ep396) | Space Got Weird |
 | Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean — done (ep414) | Mission Files |
-| Nov 26 | InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough — making (ep449) | Mission Files |
+| Nov 26 | InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough — dropped (ep449) | Mission Files |
 | Nov 30 | Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock | Space Got Weird |
 
 ## Backlog
@@ -195,7 +195,7 @@ unexplained, not alien.
 - Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — parked (ep281)
 - Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe — dropped (ep294)
 - Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — done (ep417)
-- Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — parked (ep296)
+- Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — making (ep451)
 - Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks — parked (ep385)
 - Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever — parked (ep399)
 - Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant — done (ep406)
@@ -256,7 +256,7 @@ unexplained, not alien.
 - Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit — done (ep423)
 - Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined — done (ep442)
 - Pluto (1930): despite being famous worldwide as a planet for 76 years, Pluto's total surface area is smaller than the country of Russia — parked (ep445)
-- Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system
+- Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system — making (ep450)
 
 ### Mission Files
 

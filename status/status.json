@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-19T05:06:02+05:30",
+  "updated_at": "2026-11-19T11:05:46+05:30",
   "day": 49,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7RG700JH7EMS0TS1JKMF0FR",
+    "id": "ta-01M7S4T5A56J07BD354AET9B2R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-19T05:05:13+05:30",
-    "started_at_utc": "2026-11-18T23:35:13+00:00",
-    "seconds": 49
+    "started_at": "2026-11-19T11:05:07+05:30",
+    "started_at_utc": "2026-11-19T05:35:07+00:00",
+    "seconds": 39
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
+      "seconds": 1.3
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.3
+      "seconds": 1.8
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -47,25 +47,25 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 5.0
+      "seconds": 3.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep446 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep447 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 11.8
+      "detail": "ep448 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep449 rejected (research: The core of the story—the heat probe's failure to dig deep enough after two years of attempts—is only supported by one site ([S1]). Sources [S5] and [S6] are pre-launch articles describing the probe's intent, while [S2] and [S4] focus on seismic results and do not mention the probe's unsuccessful outcome.)",
+      "seconds": 9.1
     },
     {
-      "name": "start ep448",
+      "name": "start ep450",
       "ok": true,
-      "detail": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
-      "seconds": 1.5
+      "detail": "Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system",
+      "seconds": 0.8
     },
     {
-      "name": "start ep449",
+      "name": "start ep451",
       "ok": true,
-      "detail": "InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough",
-      "seconds": 1.6
+      "detail": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
+      "seconds": 0.9
     }
   ],
   "errors": [
@@ -73,8 +73,7 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep446 stopped on Gemini's free quota; it resumes in a later run",
-    "ep447 stopped on Gemini's free quota; it resumes in a later run",
+    "ep448 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
@@ -85,11 +84,12 @@
     "target": 14,
     "making": [
       "ep446",
-      "ep447"
+      "ep447",
+      "ep448"
     ],
     "remote": [
-      "ep448",
-      "ep449"
+      "ep450",
+      "ep451"
     ]
   },
   "queue": [
@@ -274,44 +274,42 @@
   ],
   "made": [
     {
-      "id": "ep446",
+      "id": "ep448",
       "outcome": "unfinished",
-      "topic": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
+      "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep447",
-      "outcome": "unfinished",
-      "topic": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep449",
+      "outcome": "rejected",
+      "topic": "InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough",
+      "reason": "research: The core of the story—the heat probe's failure to dig deep enough after two years of attempts—is only supported by one site ([S1]). Sources [S5] and [S6] are pre-launch articles describing the probe's intent, while [S2] and [S4] focus on seismic results and do not mention the probe's unsuccessful outcome."
     }
   ],
   "spawned": [
     {
-      "id": "ep448",
-      "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
-      "call_id": "fc-01M7RG8NJ3C905HXWGQKWD6QM6"
+      "id": "ep450",
+      "topic": "Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system",
+      "call_id": "fc-01M7S4VDYQ1T6KS97YBC5BZWDH"
     },
     {
-      "id": "ep449",
-      "topic": "InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough",
-      "call_id": "fc-01M7RG8Q4XJ6G2Z8C1ZA6X9FNX"
+      "id": "ep451",
+      "topic": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
+      "call_id": "fc-01M7S4VET42EJMCMJ2A38YHMF4"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep448",
-      "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
-      "spawned_at": "2026-11-19T05:05:55+05:30"
+      "id": "ep450",
+      "topic": "Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system",
+      "spawned_at": "2026-11-19T11:05:42+05:30"
     },
     {
-      "id": "ep449",
-      "topic": "InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough",
-      "spawned_at": "2026-11-19T05:05:57+05:30"
+      "id": "ep451",
+      "topic": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
+      "spawned_at": "2026-11-19T11:05:42+05:30"
     }
   ],
   "published": [],
@@ -319,35 +317,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 14,
+    "calls": 8,
     "by_model": {
+      "gemini-3.5-flash-lite": 3,
       "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 7,
-      "gemini-3.5-flash-lite": 5,
-      "gemini-3.1-flash-lite": 1
+      "gemini-3.5-flash": 1,
+      "gemini-3-flash-preview": 3
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 3,
+    "modal": 1,
     "runner": 0
   },
   "daily_done": "2026-11-18",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 11.07,
+    "metered": 11.13,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 141,
+    "cloud": 140,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 16.93
+    "modal_credit_left": 16.87
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 35,
-  "parked_topics": 65
+  "open_topics": 34,
+  "parked_topics": 64
 }
