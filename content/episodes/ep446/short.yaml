@@ -2,7 +2,7 @@ id: ep446
 title: Why the Sun Is Not Actually on Fire
 series: Space Myths, Busted
 format: v3
-description: The Sun doesn't burn like a bonfire; it's powered by nuclear fusion. Surprisingly, its core produces less heat
+description: The Sun doesn't burn like a bonfire; it is powered by nuclear fusion. Surprisingly, its core produces less heat
   per volume than your own body.
 sources:
 - https://en.wikipedia.org/wiki/Nuclear_fusion
@@ -104,7 +104,7 @@ beats:
       kind: dateline
       big: '1920'
       small: Arthur Eddington's Theory
-- text: It crushes hydrogen into helium at 15 million kelvin.
+- text: Nuclear fusion crushes hydrogen into helium at 15 million kelvin.
   emphasis:
   - 15 million kelvin
   visual:
@@ -120,8 +120,13 @@ beats:
     - card
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.35
+    focus_y: 0.45
+    box:
+    - 0.0
+    - 0.0
+    - 0.65
+    - 0.95
     card:
       kind: fact
       big: 15 MILLION K
@@ -188,20 +193,20 @@ beats:
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: You’re technically a more efficient heater than the Sun.
+- text: You're technically a more efficient heater than the Sun.
   emphasis:
   - more efficient heater
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://iiif.wellcomecollection.org/image/V0024864/full/!1920,1920/0/default.jpg
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/3840px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
-      source: Wellcome Collection
-      title: Apollo riding the chariot of the Sun across the heavens. Engraving by J. Sadeler after M. de Vos.
-      credit: Wellcome Collection
+      source: Wikimedia Commons
+      title: The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg
+      credit: NASA/SDO (AIA)
       license: Public domain
-      url: https://wellcomecollection.org/works/by597d3r
+      url: https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg
     fallbacks:
     - card
     - color

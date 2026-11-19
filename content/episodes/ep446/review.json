@@ -1,0 +1,106 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-19T17:23:14+05:30",
+      "check": {
+        "duration": 31.45,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'re' heard as 'are' after 'human body you'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong misconception hook that immediately halts scrolling.",
+        "clarity": "Ending logic about size conflicts with the earlier fusion explanation.",
+        "payoff": "The human body comparison provides a memorable counterintuitive twist.",
+        "visuals": "Several frames rely on tiny diagram text and disconnected historical art.",
+        "loop": "Last line repeats the hook premise rather than flowing seamlessly into it."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "mostly text and unreadable diagram labels at phone scale"
+        },
+        {
+          "beat": 9,
+          "problem": "off-topic historical engraving"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 10: Which is why you should remember:"
+      ],
+      "better_than_last": "The volumetric heat comparison grounds abstract stellar astrophysics directly in relatable human biology.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-19T17:26:44+05:30",
+      "check": {
+        "duration": 32.67,
+        "words": 94,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The immediate dismissal of a common misconception is highly effective for retention.",
+        "clarity": "Complex nuclear concepts are well-simplified using clear comparisons to fire and oxygen.",
+        "payoff": "Comparing human metabolic heat to the solar core is a surprising, memorable twist.",
+        "visuals": "Diagrams and thermal imagery are accurately placed and visually distinct at mobile scale.",
+        "loop": "The final statement transitions naturally into the hook, making the replay feel intentional."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script utilizes a stronger biological comparison than the previous sensory-focused episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

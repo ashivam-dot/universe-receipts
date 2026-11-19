@@ -9,8 +9,8 @@ sources:
 - https://web.archive.org/web/20120803000108/http://blogs.scientificamerican.com/guest-blog/2011/11/28/sky-crane-how-to-land-curiosity-on-the-surface-of-mars/
 hashtags:
 - '#space'
+- '#spacecombo'
 - '#nasa'
-- '#mars'
 tags:
 - curiosity
 - mars
@@ -26,6 +26,8 @@ voice:
   max_pause: 0.25
   direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
     and playful, natural rises and falls, never an announcer or documentary voice
+  say:
+    explosive: eks ploh siv
 beats:
 - text: NASA lowered a car-sized rover onto Mars using hovering rockets.
   emphasis:
@@ -57,23 +59,18 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/PIA05229_label.jpg/1280px-PIA05229_label.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d8/NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: PIA05229 label.jpg
-      credit: NASA/JPL/Malin Space Science Systems
+      title: NASA Mars Rover.jpg
+      credit: NASA/JPL/Cornell University, Maas Digital LLC
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PIA05229_label.jpg
+      url: https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg
     fallbacks:
     - color
-    motion: pan_left
-    focus_x: 0.45
-    focus_y: 0.5
-    box:
-    - 0.3
-    - 0.45
-    - 0.6
-    - 0.65
+    motion: zoom_in
+    focus_x: 0.44
+    focus_y: 0.54
 - text: But at nearly one ton, Curiosity was far too heavy.
   emphasis:
   - nearly one ton
@@ -177,32 +174,27 @@ beats:
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/c/ce/20090428MSLEntry2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Curiosity_rover_self_portrait_at_John_Klein_site_%28PIA16764%2C_cropped%29.jpg/3840px-Curiosity_rover_self_portrait_at_John_Klein_site_%28PIA16764%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: 20090428MSLEntry2.jpg
-      credit: NASA/JPL
+      title: Curiosity rover self portrait at John Klein site (PIA16764, cropped).jpg
+      credit: NASA/JPL-Caltech/MSSS
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:20090428MSLEntry2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Curiosity_rover_self_portrait_at_John_Klein_site_(PIA16764,_cropped).jpg
     fallbacks:
     - card
     - color
-    motion: pan_right
-    focus_x: 0.9
-    focus_y: 0.9
-    box:
-    - 0.85
-    - 0.8
-    - 0.98
-    - 0.98
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
     card:
       kind: fact
       big: CUTTERS
       small: Explosive Tether Cutters
-- text: No simpler method could safely land a vehicle that heavy.
+- text: To survive the landing, NASA lowered a car-sized rover onto Mars using hovering rockets.
   emphasis:
-  - safely land
-  - vehicle that heavy
+  - survive the landing
+  - hovering rockets
   visual:
     reuse: 1
     motion: zoom_out

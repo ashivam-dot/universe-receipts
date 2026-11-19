@@ -1,0 +1,112 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-19T17:24:51+05:30",
+      "check": {
+        "duration": 29.66,
+        "words": 93,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -3.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong opening hook that creates immediate curiosity about a familiar star disappearing.",
+        "clarity": "Explains the astrophysics sequence clearly in simple one-idea beats.",
+        "payoff": "Satisfying resolution explaining how the star's own ejected gas cooled into light-blocking dust.",
+        "visuals": "Lower visual score due to wrong supernova remnant, watermarked image, and repeated graphic.",
+        "loop": "The closing line connects seamlessly in narrative and cadence to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "blurry and heavily artifacted night sky picture"
+        },
+        {
+          "beat": 5,
+          "problem": "wrong object (shows Tycho's supernova remnant instead of Betelgeuse) with a visible website watermark"
+        },
+        {
+          "beat": 6,
+          "problem": "picture of a supernova remnant doesn't fit the line stating the star wasn't dying"
+        },
+        {
+          "beat": 9,
+          "problem": "same picture as beat 3"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It presents a clearer step-by-step mystery resolution than ep441 while matching the strong payoff of ep442.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-19T17:26:45+05:30",
+      "check": {
+        "duration": 29.17,
+        "words": 93,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [
+          "'feared' heard as 'fear' after 'swallow jupiter many'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Immediate hook about a famous bright star vanishing grabs attention fast.",
+        "clarity": "Follows a clean line from dimming mystery to the simple explanation.",
+        "payoff": "The twist that it choked on its own burped dust cloud pays off wonderfully.",
+        "visuals": "Uses actual astronomical imaging and accurate scale graphics to explain the physics.",
+        "loop": "The concluding phrase leads directly into the opening hook phrase seamlessly."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short combines actual astronomical imaging and orbit scale diagrams to make a complex stellar event immediately clear and visual.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

@@ -65,8 +65,8 @@ unexplained, not alien.
 | 2026-11-03 | Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside — parked (ep327) | Space Myths, Busted | Follow-up to ep263, which broke out (1,048 views in 12 h, 25.3x the median) |
 | 2026-11-03 | Supermassive black hole (1963): they do not sit exclusively at the hearts of galaxies, as some roam through intergalactic space entirely alone — dropped (ep328) | Space Myths, Busted | Follow-up to ep263, which broke out (1,048 views in 12 h, 25.3x the median) |
 | 2026-11-03 | Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory — parked (ep334) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
-| 2026-11-03 | Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names — making (ep452) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
-| 2026-11-03 | Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models — making (ep447) | Scale Breaker | Trending on NASA news this week with new Hubble findings on dwarf galaxies. |
+| 2026-11-03 | Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names — done (ep452) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
+| 2026-11-03 | Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models — dropped (ep447) | Scale Breaker | Trending on NASA news this week with new Hubble findings on dwarf galaxies. |
 | 2026-11-05 | SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes — dropped (ep358) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
 | 2026-11-05 | SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night — done (ep362) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
 | 2026-11-05 | IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear — dropped (ep364) | Space Got Weird | Featured in NASA's Astronomy Picture of the Day on November 4. |
@@ -198,7 +198,7 @@ unexplained, not alien.
 - Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — parked (ep281)
 - Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe — dropped (ep294)
 - Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — done (ep417)
-- Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — making (ep451)
+- Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — done (ep451)
 - Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks — parked (ep385)
 - Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever — parked (ep399)
 - Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant — done (ep406)
@@ -260,10 +260,10 @@ unexplained, not alien.
 - Sagittarius A* (2022): our galaxy's supermassive black hole contains four million solar masses packed into a space that could fit inside Mercury's orbit — done (ep423)
 - Moon (1969): Earth's Moon is so disproportionately large that it dwarfs Pluto and is wider than all other inner solar system moons combined — done (ep442)
 - Pluto (1930): despite being famous worldwide as a planet for 76 years, Pluto's total surface area is smaller than the country of Russia — parked (ep445)
-- Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system — making (ep450)
-- Betelgeuse (2022): the iconic red supergiant is so vast that if swapped with our Sun, its surface would swallow the orbit of Jupiter — making (ep453)
-- White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton
-- Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere
+- Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system — done (ep450)
+- Betelgeuse (2022): the iconic red supergiant is so vast that if swapped with our Sun, its surface would swallow the orbit of Jupiter — parked (ep453)
+- White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton — making (ep456)
+- Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere — making (ep458)
 
 ### Mission Files
 
@@ -302,7 +302,7 @@ unexplained, not alien.
 - Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth — parked (ep418)
 - Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space — done (ep421)
 - Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour — done (ep443)
-- Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers
+- Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers — making (ep459)
 
 ### Space Got Weird
 
@@ -336,11 +336,11 @@ unexplained, not alien.
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose — parked (ep316)
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — dropped (ep424)
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — parked (ep293)
-- Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls — parked (ep276)
+- Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls — making (ep457)
 - Moon (1969): Apollo astronauts discovered that lunar dust smells exactly like spent gunpowder and can cause moon hay fever — done (ep265)
 - Saturn (2013): extreme pressure in the atmosphere may create diamond rain, where 1,000 tons of diamonds are produced every year — dropped (ep267)
 - Uranus (1781): discoverer William Herschel originally wanted to name the newly found seventh planet after King George III — done (ep268)
-- Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself — making (ep454)
+- Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself — dropped (ep454)
 - Uranus (1986): the planet orbits the Sun knocked completely on its side, causing 42-year-long seasons of nonstop daylight and darkness — done (ep434)
 - Pluto (2015): the distant dwarf planet with towering water-ice mountains and a sprawling heart of nitrogen glaciers — done (ep357)
 - Saturn (1659): Saturn is so light and fluffy that it is the only planet in the solar system that would float in water — done (ep359)
@@ -420,7 +420,7 @@ unexplained, not alien.
 - Milky Way (1610): the "milk" in the sky isn't a cloud of gas, but the combined light of billions of individual stars too faint to see alone — done (ep266)
 - Mars (1976): the "Red Planet" is actually a golden-brown butterscotch color; its red hue is just a thin layer of iron oxide dust — dropped (ep269)
 - Apollo 11 (1969): the US flag didn't "wave" in the wind; it was held up by a horizontal rod that jammed, creating a wrinkled look — dropped (ep444)
-- Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs — making (ep455)
+- Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs — done (ep455)
 - Hawking radiation (1974): theoretical proof revealed black holes are not completely black, but slowly leak thermal radiation until they explode and evaporate — parked (ep277)
 - Jupiter (1979): Jupiter doesn't actually orbit the Sun, but a barycenter in empty space just above the solar surface — dropped (ep438)
 - Neil Armstrong (1969): his iconic 'one small step for man' quote was missing the word 'a', changing its literal meaning — done (ep440)
@@ -432,4 +432,4 @@ unexplained, not alien.
 - Space Shuttle (1981): space shuttles did not land using engine power, but dropped out of orbit as unpowered 80-ton gliders — parked (ep415)
 - Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases — dropped (ep416)
 - Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion — dropped (ep437)
-- Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium — making (ep446)
+- Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium — done (ep446)

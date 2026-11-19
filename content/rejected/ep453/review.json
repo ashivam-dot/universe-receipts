@@ -1,0 +1,164 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-19T17:27:09+05:30",
+      "check": {
+        "duration": 31.47,
+        "words": 91,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong visual concept catches attention quickly.",
+        "clarity": "Easy to follow linear story structure.",
+        "payoff": "Daylight supernova detail provides a solid conclusion.",
+        "visuals": "Clear visuals overall, but beat 7 is mostly text.",
+        "loop": "Seamless transition back to the initial frame."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "mostly text"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Clearer visual comparison of scale than episode 441.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-19T17:28:35+05:30",
+      "check": {
+        "duration": 29.47,
+        "words": 91,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Scale of Jupiter's orbit being consumed is immediately engaging.",
+        "clarity": "Narrative moves logically from physical size to the 2019 event.",
+        "payoff": "The prospect of a daylight supernova is a satisfying conclusion.",
+        "visuals": "Imagery includes unrelated astronomical events like SN 1987A.",
+        "loop": "Final noun phrase connects cleanly to the starting sentence."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Image is too blurry and lacks necessary detail."
+        },
+        {
+          "beat": 8,
+          "problem": "Incorrectly uses an image of Supernova 1987A."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-19T17:29:41+05:30",
+      "check": {
+        "duration": 29.47,
+        "words": 91,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Concept is immediate and easy to visualize.",
+        "clarity": "Narrative moves logically from size to history.",
+        "payoff": "The daylight supernova is a classic, high-impact fact.",
+        "visuals": "Reliance on cluttered diagrams reduces mobile impact.",
+        "loop": "The transition between final word and hook is smooth."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Diagram text is too small and cluttered."
+        },
+        {
+          "beat": 5,
+          "problem": "Infographic labels are unreadable on mobile."
+        },
+        {
+          "beat": 6,
+          "problem": "Image is excessively blurry."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Visualizes size more effectively than recent smell-based facts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 3 frame problems",
+  "rejected_at": "2026-11-19T17:29:41+05:30"
+}

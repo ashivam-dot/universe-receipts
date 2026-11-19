@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-19T17:16:30+05:30",
+  "updated_at": "2026-11-19T23:06:13+05:30",
   "day": 49,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7SSDBR13JQBWW036WXPJ6WR",
+    "id": "ta-01M7TE0GVEPSF0CVE01H4RF4TR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-19T17:05:12+05:30",
-    "started_at_utc": "2026-11-19T11:35:12+00:00",
-    "seconds": 678
+    "started_at": "2026-11-19T23:05:10+05:30",
+    "started_at_utc": "2026-11-19T17:35:10+00:00",
+    "seconds": 63
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.2
+      "seconds": 1.7
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.4
+      "seconds": 9.1
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.6
+      "seconds": 0.8
     },
     {
       "name": "on youtube",
@@ -47,109 +47,43 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 3.2
+      "seconds": 2.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep450 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep451 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 9.5
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "134 subscribers",
-      "seconds": 8.9
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Processed 10 recent diagnostic reviews (ep357-ep387), validating retention patterns around circular loops and identifying hook redundancy friction.",
-      "seconds": 444.9
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 2.1
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 106.9
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "5 added",
-      "seconds": 60.3
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-049.md",
-      "seconds": 2.5
-    },
-    {
-      "name": "start ep446",
-      "ok": true,
-      "detail": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep447",
-      "ok": true,
-      "detail": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
-      "seconds": 1.6
+      "detail": "ep446 ready; ep447 rejected (low scores: hook, payoff, visuals, loop; 2 frame problems); ep448 unfinished (IndexError: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1); ep450 ready; ep451 ready; ep452 ready; ep453 rejected (low scores: visuals; 3 frame problems); ep454 rejected (low scores: payoff); ep455 ready",
+      "seconds": 28.1
     },
     {
       "name": "start ep448",
       "ok": true,
       "detail": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
-      "seconds": 1.1
+      "seconds": 1.0
     },
     {
-      "name": "start ep450",
+      "name": "start ep456",
       "ok": true,
-      "detail": "Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system",
-      "seconds": 1.7
+      "detail": "White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton",
+      "seconds": 1.0
     },
     {
-      "name": "start ep451",
+      "name": "start ep457",
       "ok": true,
-      "detail": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
-      "seconds": 1.5
+      "detail": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
+      "seconds": 0.9
     },
     {
-      "name": "start ep452",
+      "name": "start ep458",
       "ok": true,
-      "detail": "Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names",
-      "seconds": 1.1
+      "detail": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
+      "seconds": 0.9
     },
     {
-      "name": "start ep453",
+      "name": "start ep459",
       "ok": true,
-      "detail": "Betelgeuse (2022): the iconic red supergiant is so vast that if swapped with our Sun, its surface would swallow the orbit of Jupiter",
-      "seconds": 1.1
-    },
-    {
-      "name": "start ep454",
-      "ok": true,
-      "detail": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
-      "seconds": 1.1
-    },
-    {
-      "name": "start ep455",
-      "ok": true,
-      "detail": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
-      "seconds": 1.1
+      "detail": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
+      "seconds": 0.9
     }
   ],
   "errors": [
@@ -157,26 +91,20 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep450 stopped on Gemini's free quota; it resumes in a later run",
-    "ep451 stopped on Gemini's free quota; it resumes in a later run",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 31,
+    "total": 36,
     "in_buffer": 10,
-    "waiting": 21,
+    "waiting": 26,
     "target": 14,
     "making": [],
     "remote": [
-      "ep446",
-      "ep447",
       "ep448",
-      "ep450",
-      "ep451",
-      "ep452",
-      "ep453",
-      "ep454",
-      "ep455"
+      "ep456",
+      "ep457",
+      "ep458",
+      "ep459"
     ]
   },
   "queue": [
@@ -357,118 +285,188 @@
       "title": "The Tiny Rover That Survived Mars",
       "series": "Mission Files",
       "score": 22
+    },
+    {
+      "id": "ep446",
+      "title": "Why the Sun Is Not Actually on Fire",
+      "series": "Space Myths, Busted",
+      "score": 20
+    },
+    {
+      "id": "ep450",
+      "title": "How Scientists Photographed a Monster Black Hole",
+      "series": "Scale Breaker",
+      "score": 25
+    },
+    {
+      "id": "ep451",
+      "title": "Why Orion's Brightest Star Suddenly Dimmed",
+      "series": "The Universe Is Terrifying",
+      "score": 25
+    },
+    {
+      "id": "ep452",
+      "title": "When Uranus Was Almost Named King George",
+      "series": "Space Got Weird",
+      "score": 20
+    },
+    {
+      "id": "ep455",
+      "title": "Saturn's Rings Are Younger Than Dinosaurs",
+      "series": "Space Myths, Busted",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep450",
+      "id": "ep446",
+      "outcome": "ready",
+      "topic": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
+      "title": "Why the Sun Is Not Actually on Fire",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795089405/universereceipts/ep446-f386bcf3.mp4"
+    },
+    {
+      "id": "ep447",
+      "outcome": "rejected",
+      "topic": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
+      "reason": "low scores: hook, payoff, visuals, loop; 2 frame problems"
+    },
+    {
+      "id": "ep448",
       "outcome": "unfinished",
-      "topic": "Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
+      "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
+      "reason": "IndexError: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1",
+      "quota": false,
       "overloaded": false
     },
     {
+      "id": "ep450",
+      "outcome": "ready",
+      "topic": "Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system",
+      "title": "How Scientists Photographed a Monster Black Hole",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795089349/universereceipts/ep450-05ff3729.mp4"
+    },
+    {
       "id": "ep451",
-      "outcome": "unfinished",
+      "outcome": "ready",
       "topic": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "title": "Why Orion's Brightest Star Suddenly Dimmed",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795089410/universereceipts/ep451-ae994f08.mp4"
+    },
+    {
+      "id": "ep452",
+      "outcome": "ready",
+      "topic": "Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names",
+      "title": "When Uranus Was Almost Named King George",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795089430/universereceipts/ep452-37f7de84.mp4"
+    },
+    {
+      "id": "ep453",
+      "outcome": "rejected",
+      "topic": "Betelgeuse (2022): the iconic red supergiant is so vast that if swapped with our Sun, its surface would swallow the orbit of Jupiter",
+      "reason": "low scores: visuals; 3 frame problems"
+    },
+    {
+      "id": "ep454",
+      "outcome": "rejected",
+      "topic": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
+      "reason": "low scores: payoff"
+    },
+    {
+      "id": "ep455",
+      "outcome": "ready",
+      "topic": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
+      "title": "Saturn's Rings Are Younger Than Dinosaurs",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795089583/universereceipts/ep455-8f9b77e4.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep446",
-      "topic": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
-      "call_id": "fc-01M7ST1Z2970HDMN2PG3BC0CGZ"
-    },
-    {
-      "id": "ep447",
-      "topic": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
-      "call_id": "fc-01M7ST20M5H6YJ0GF485D7SEFK"
-    },
-    {
       "id": "ep448",
       "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
-      "call_id": "fc-01M7ST21PGQATH0SEBG91AV56K"
+      "call_id": "fc-01M7TE2H9XFRD74MXGT4AF70HH"
     },
     {
-      "id": "ep450",
-      "topic": "Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system",
-      "call_id": "fc-01M7ST23A4XST6J0SW2GK14S8T"
+      "id": "ep456",
+      "topic": "White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton",
+      "call_id": "fc-01M7TE2J819SEYVZE0XP80ECDP"
     },
     {
-      "id": "ep451",
-      "topic": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
-      "call_id": "fc-01M7ST24SX22BM11YS307M24ZA"
+      "id": "ep457",
+      "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
+      "call_id": "fc-01M7TE2K4WEA3DKF4W9TQ87FPS"
     },
     {
-      "id": "ep452",
-      "topic": "Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names",
-      "call_id": "fc-01M7ST25WNKZ67ENY8X21BF43J"
+      "id": "ep458",
+      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
+      "call_id": "fc-01M7TE2M0ZB3RJX19FXMYGJ0AY"
     },
     {
-      "id": "ep453",
-      "topic": "Betelgeuse (2022): the iconic red supergiant is so vast that if swapped with our Sun, its surface would swallow the orbit of Jupiter",
-      "call_id": "fc-01M7ST26YT7VC025CAPER5R8RV"
-    },
-    {
-      "id": "ep454",
-      "topic": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
-      "call_id": "fc-01M7ST280NHKRD1VNC3AHX0PB1"
-    },
-    {
-      "id": "ep455",
-      "topic": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
-      "call_id": "fc-01M7ST294GG2VXMNZ6K5E5S91E"
+      "id": "ep459",
+      "topic": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
+      "call_id": "fc-01M7TE2MY8WX5ZJD2QFGAYZ12C"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep446",
-      "topic": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
-      "spawned_at": "2026-11-19T17:16:16+05:30"
-    },
-    {
-      "id": "ep447",
-      "topic": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
-      "spawned_at": "2026-11-19T17:16:17+05:30"
-    },
-    {
       "id": "ep448",
       "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
-      "spawned_at": "2026-11-19T17:16:19+05:30"
+      "spawned_at": "2026-11-19T23:06:06+05:30"
     },
     {
-      "id": "ep450",
-      "topic": "Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system",
-      "spawned_at": "2026-11-19T17:16:20+05:30"
+      "id": "ep456",
+      "topic": "White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton",
+      "spawned_at": "2026-11-19T23:06:07+05:30"
     },
     {
-      "id": "ep451",
-      "topic": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
-      "spawned_at": "2026-11-19T17:16:22+05:30"
+      "id": "ep457",
+      "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
+      "spawned_at": "2026-11-19T23:06:08+05:30"
     },
     {
-      "id": "ep452",
-      "topic": "Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names",
-      "spawned_at": "2026-11-19T17:16:23+05:30"
+      "id": "ep458",
+      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
+      "spawned_at": "2026-11-19T23:06:09+05:30"
     },
     {
-      "id": "ep453",
-      "topic": "Betelgeuse (2022): the iconic red supergiant is so vast that if swapped with our Sun, its surface would swallow the orbit of Jupiter",
-      "spawned_at": "2026-11-19T17:16:24+05:30"
-    },
-    {
-      "id": "ep454",
-      "topic": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
-      "spawned_at": "2026-11-19T17:16:25+05:30"
-    },
-    {
-      "id": "ep455",
-      "topic": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
-      "spawned_at": "2026-11-19T17:16:26+05:30"
+      "id": "ep459",
+      "topic": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
+      "spawned_at": "2026-11-19T23:06:10+05:30"
     }
   ],
   "published": [],
@@ -476,37 +474,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 13,
+    "calls": 50,
     "by_model": {
-      "gemini-3.6-flash": 3,
-      "gemini-3.5-flash-lite": 4,
-      "gemini-3.8-flash": 1,
-      "gemini-3.5-flash": 1,
-      "gemini-3-flash-preview": 2,
-      "gemini-3.1-flash-lite": 2
+      "gemini-3.8-flash": 4,
+      "gemini-3.6-flash": 23,
+      "gemini-3.5-flash-lite": 10,
+      "gemini-3-flash-preview": 13
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 2,
+    "modal": 19,
     "runner": 0
   },
   "daily_done": "2026-11-19",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 11.25,
+    "metered": 11.72,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 139,
+    "cloud": 135,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 16.75
+    "modal_credit_left": 16.28
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 40,
+  "open_topics": 37,
   "parked_topics": 61
 }

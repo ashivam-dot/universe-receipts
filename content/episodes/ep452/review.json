@@ -1,0 +1,49 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-19T17:27:08+05:30",
+      "check": {
+        "duration": 30.73,
+        "words": 88,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -3.7,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'the' after 'george king george'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Direct and informative opening though it lacks a strong initial hook.",
+        "clarity": "Logical progression of historical events ensures the story is easy to follow.",
+        "payoff": "Successfully explains the transition from the proposed royal name to the current one.",
+        "visuals": "Consistently uses relevant historical portraits and accurate space imagery.",
+        "loop": "The concluding mention of the planet's name transitions smoothly back to the start."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script offers a more compelling historical narrative compared to the simple fact-based trivia of recent episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 1
+}

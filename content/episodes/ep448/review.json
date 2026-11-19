@@ -1,0 +1,113 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-19T17:21:04+05:30",
+      "check": {
+        "duration": 27.77,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong visual hook with clear, punchy stakes.",
+        "clarity": "Logical chronological progression of the landing sequence.",
+        "payoff": "The crane flyaway is neat but lacks a punchy final twist.",
+        "visuals": "Multiple beats rely on illegible, text-heavy diagrams.",
+        "loop": "Last line connects conceptually but lacks a smooth sentence bridge."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "blurry, low-resolution diagram with unreadable text"
+        },
+        {
+          "beat": 7,
+          "problem": "mostly text and unreadable diagram at phone size"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: To survive the landing, NASA lowered a car-sized rover onto Mars using hovering rockets."
+      ],
+      "better_than_last": "Provides a more dynamic step-by-step engineering breakdown than ep443.",
+      "judge": "gemini-3.8-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-19T17:31:08+05:30",
+      "check": {
+        "duration": 38.3,
+        "words": 85,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'explosive' heard as '(nothing)' after 'its 6 wheels'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong start with a clear, intriguing technical premise.",
+        "clarity": "Explains the transition from airbags to crane effectively.",
+        "payoff": "Ends with the dramatic detachment and crane flyaway.",
+        "visuals": "Beat 7 uses a cluttered diagram with too much text.",
+        "loop": "Phrasing allows for a smooth, continuous replay."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "cluttered diagram with small text and multiple phases"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "explosive",
+          "respelling": "eks ploh siv"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This episode provides a more detailed mechanical payoff compared to episode 443.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

@@ -36,24 +36,12 @@ beats:
   emphasis:
   - went dark
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Orionis_Constellation_%281_Minute_Exposure%29.jpg/3840px-Orionis_Constellation_%281_Minute_Exposure%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Orionis Constellation (1 Minute Exposure).jpg
-      credit: Justin Quintal
-      license: CC BY 3.0
-      url: https://commons.wikimedia.org/wiki/File:Orionis_Constellation_(1_Minute_Exposure).jpg
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.25
-    focus_y: 0.15
-    box:
-    - 0.1
-    - 0.0
-    - 0.4
-    - 0.3
+    source: card
+    card:
+      kind: fact
+      big: went dark
+      small: ''
+    motion: zoom_in
 - text: Orion's red shoulder, the supergiant Betelgeuse, suddenly lost its brilliance.
   emphasis:
   - supergiant Betelgeuse
@@ -122,17 +110,8 @@ beats:
   emphasis:
   - about to explode
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Tycho%27s_Supernova_Remnant-_Exploding_Stars_and_Stripes_%282011-tycho_-_tycho_1024%29.jpg/960px-Tycho%27s_Supernova_Remnant-_Exploding_Stars_and_Stripes_%282011-tycho_-_tycho_1024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Tycho's Supernova Remnant- Exploding Stars and Stripes (2011-tycho - tycho 1024).jpg
-      credit: 'X-ray: NASA/CXC/Rutgers/K.Eriksen et al.; Optical: DSS'
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Tycho%27s_Supernova_Remnant-_Exploding_Stars_and_Stripes_(2011-tycho_-_tycho_1024).jpg
-    fallbacks:
-    - color
-    motion: pan_right
+    reuse: 4
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
 - text: But the star wasn't dying; it was actually burping.
@@ -141,7 +120,7 @@ beats:
   sfx: riser
   pause_after: 0.4
   visual:
-    reuse: 5
+    reuse: 3
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
@@ -179,17 +158,8 @@ beats:
   sfx: pop
   pause_after: 0.4
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Betelgeuse%E2%80%99s_surface_before_and_during_its_2019%E2%80%932020_Great_Dimming_%28eso2109a%29.jpg/1280px-Betelgeuse%E2%80%99s_surface_before_and_during_its_2019%E2%80%932020_Great_Dimming_%28eso2109a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Betelgeuse’s surface before and during its 2019–2020 Great Dimming (eso2109a).jpg
-      credit: ESO/M. Montargès et al.
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Betelgeuse%E2%80%99s_surface_before_and_during_its_2019%E2%80%932020_Great_Dimming_(eso2109a).jpg
-    fallbacks:
-    - color
-    motion: pan_right
+    reuse: 8
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
 - text: Even the brightest stars in our sky can go dark.
@@ -199,8 +169,6 @@ beats:
   visual:
     reuse: 1
     motion: zoom_out
-    focus_x: 0.25
-    focus_y: 0.15
 look: bold
 music:
   path: bed:mystery

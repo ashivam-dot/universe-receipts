@@ -1,0 +1,154 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-19T17:29:05+05:30",
+      "check": {
+        "duration": 24.96,
+        "words": 71,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [
+          "'christy' heard as 'christie' after 'outside astronomer james'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The claim that a planet orbits 'empty space' is an excellent, immediate contradiction of common knowledge.",
+        "clarity": "The script does a great job of building from the 'what' to the 'why' without using overly dense jargon.",
+        "payoff": "The detail about the worlds being tidally locked face-to-face is a satisfying second mind-bending fact.",
+        "visuals": "Beat 2 is confusing as it shows a space station mission (Lunar Gateway) rather than a natural moon.",
+        "loop": "Ending on the 'invisible pivot' perfectly sets up the opening line about orbiting empty space."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The visual shows the 'Lunar Gateway' space station mission and its complex orbit, which is off-topic for a point about natural moons."
+        },
+        {
+          "beat": 4,
+          "problem": "This scientific diagram is too text-heavy and small to be legible on a phone screen."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode provides a more fascinating spatial 'receipt' than the historical narrative of the Mars microwave-sized rover in episode 443.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-19T17:30:41+05:30",
+      "check": {
+        "duration": 22.93,
+        "words": 71,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'christy' heard as 'christie' after 'outside astronomer james'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong opening paradox regarding Pluto's movement.",
+        "clarity": "The barycenter concept is slightly rushed for general audiences.",
+        "payoff": "The ending repeats the hook without a secondary revelation.",
+        "visuals": "Beat 2 features irrelevant Lunar Gateway trajectory data.",
+        "loop": "Functional transition back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a complex Lunar Gateway orbit instead of a simple planetary center."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "beat 2: Most moons circle their planet's center.",
+        "beat 7: Pluto doesn't orbit its moon, it orbits a..."
+      ],
+      "better_than_last": "Explains a complex gravitational mechanic better than the simple size facts in the rover episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-19T17:34:54+05:30",
+      "check": {
+        "duration": 23.73,
+        "words": 69,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'christy' heard as 'christie' after 'outside astronomer james'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The counterintuitive premise effectively captures attention immediately.",
+        "clarity": "Logical flow from standard orbits to Pluto's unique case.",
+        "payoff": "The barycenter reveal is interesting but lacks a high-impact twist.",
+        "visuals": "Diagrams and historical photos are relevant and support the narrative.",
+        "loop": "The final phrase mirrors the opening for a smooth transition."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides clearer visual diagrams for scale than the rover episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff",
+  "rejected_at": "2026-11-19T17:34:54+05:30"
+}

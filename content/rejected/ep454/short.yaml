@@ -1,0 +1,169 @@
+id: ep454
+title: The Invisible Point Pluto Orbits
+series: Space Got Weird
+format: v3
+description: Pluto and its moon Charon orbit a shared point of gravity in open space. Astronomer James Christy found this
+  weird dance when Pluto looked lopsided.
+sources:
+- https://en.wikipedia.org/wiki/Charon_(moon)
+- https://web.archive.org/web/20200417193151/https://www.iau.org/public/themes/pluto/
+- https://web.archive.org/web/20060118020147/http://eso.org/outreach/press-rel/pr-2006/pr-02-06.html
+- https://web.archive.org/web/20130502041319/http://solarsystem.nasa.gov/multimedia/display.cfm?IM_ID=572
+hashtags:
+- '#space'
+- '#pluto'
+- '#charon'
+tags:
+- Pluto
+- Charon
+- James Christy
+- gravity
+- barycenter
+- NASA
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Pluto orbits a point in empty space.
+  emphasis:
+  - empty space
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/73/Global-LORRI-PlutoMosaic-TrueColor-Hillary-Norgay-20150714.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Global-LORRI-PlutoMosaic-TrueColor-Hillary-Norgay-20150714.jpg
+      credit: NASA/JHUAPL/SwRI
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Global-LORRI-PlutoMosaic-TrueColor-Hillary-Norgay-20150714.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: EMPTY SPACE
+      small: Pluto's orbital center
+- text: Most moons circle their planet's center.
+  emphasis:
+  - planet's center
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Moon_apsidal_precession.png/1280px-Moon_apsidal_precession.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Moon apsidal precession.png
+      credit: Rfassbind
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Moon_apsidal_precession.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But Pluto's largest moon Charon is roughly half Pluto's size.
+  emphasis:
+  - half Pluto's size
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Charon-Neutral-Bright-Release.jpg/1280px-Charon-Neutral-Bright-Release.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Charon-Neutral-Bright-Release.jpg
+      credit: NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Charon-Neutral-Bright-Release.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Charon has one-eighth of Pluto's mass, pulling their balance point outside.
+  emphasis:
+  - balance point outside
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/The_Earth%27s_Moon_and_the_Pluto-Charon_System_%284077756375%29.jpg/1920px-The_Earth%27s_Moon_and_the_Pluto-Charon_System_%284077756375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Earth's Moon and the Pluto-Charon System (4077756375).jpg
+      credit: Lunar and Planetary Institute from Houston, TX, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:The_Earth%27s_Moon_and_the_Pluto-Charon_System_(4077756375).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomer James Christy discovered Charon in 1978 from a strange bulge.
+  emphasis:
+  - strange bulge
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/James_Christy_%26_Robert_Harrington_in_1978.jpg/960px-James_Christy_%26_Robert_Harrington_in_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: James Christy & Robert Harrington in 1978.jpg
+      credit: US-Navy
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:James_Christy_%26_Robert_Harrington_in_1978.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.25
+    focus_y: 0.7
+    box:
+    - 0.17
+    - 0.44
+    - 0.34
+    - 0.97
+    card:
+      kind: dateline
+      big: '1978'
+      small: US Naval Observatory
+- text: The two worlds stay locked face to face, orbiting every six days.
+  emphasis:
+  - face to face
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Pluto-Charon_double_planet.png/960px-Pluto-Charon_double_planet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pluto-Charon double planet.png
+      credit: Lanthanum-138 at English Wikipedia
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pluto-Charon_double_planet.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Pluto doesn't orbit its moon, it orbits a spot in empty space.
+  emphasis:
+  - spot in empty space
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE SHARED PIVOT

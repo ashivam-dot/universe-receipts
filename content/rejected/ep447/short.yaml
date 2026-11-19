@@ -1,0 +1,208 @@
+id: ep447
+title: Hubble Finds Tiny Galaxies Leaking Oxygen Into Space
+series: Scale Breaker
+format: v3
+description: NASA's Hubble Space Telescope has discovered that dwarf galaxies are purging their oxygen into deep space through
+  violent galactic winds.
+sources:
+- https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/
+- https://www.eso.org/public/news/eso1815/
+- https://en.wikipedia.org/wiki/Hubble_Space_Telescope
+hashtags:
+- '#space'
+- '#hubble'
+- '#nasa'
+tags:
+- astronomy
+- galaxies
+- oxygen
+- hubble space telescope
+- science news
+- supernova
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Tiny dwarf galaxies are leaking oxygen into deep space.
+  emphasis:
+  - leaking oxygen
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f4/Hubble_Reveals_Stellar_Fireworks_in_%E2%80%98Skyrocket%E2%80%99_Galaxy_%2827946907106%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Hubble Reveals Stellar Fireworks in ‘Skyrocket’ Galaxy (27946907106).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_Reveals_Stellar_Fireworks_in_%E2%80%98Skyrocket%E2%80%99_Galaxy_(27946907106).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Every breath we take was forged inside a star.
+  emphasis:
+  - forged inside
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Massive_star_cutaway_pre-collapse_%28pinned%29.png/1280px-Massive_star_cutaway_pre-collapse_%28pinned%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Massive star cutaway pre-collapse (pinned).png
+      credit: FT2
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Massive_star_cutaway_pre-collapse_(pinned).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.25
+    focus_y: 0.5
+    box:
+    - 0.0
+    - 0.05
+    - 0.45
+    - 0.95
+    card:
+      kind: fact
+      big: Oxygen
+      small: Star forged
+- text: When stars explode as supernovae, they expel that oxygen.
+  emphasis:
+  - expel that oxygen
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/aa/The_Crab_Nebula_%28opo9622a2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: The Crab Nebula (opo9622a2).jpg
+      credit: Jeff Hester and Paul Scowen (Arizona State University), and NASA/ESA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Crab_Nebula_(opo9622a2).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Most massive galaxies have enough gravity to hold onto it.
+  emphasis:
+  - gravity to hold
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/M81%2C_NGC_3031_%28noao-m81%29.jpg/3840px-M81%2C_NGC_3031_%28noao-m81%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: M81, NGC 3031 (noao-m81).jpg
+      credit: N.A.Sharp/NOIRLab/NSF/AURA/
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:M81,_NGC_3031_(noao-m81).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.52
+    focus_y: 0.48
+- text: But NASA’s Hubble found dwarf galaxies missing massive amounts of oxygen.
+  emphasis:
+  - missing massive amounts
+  sfx: whoosh
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hubble_Space_Telescope_%2827946391011%29.jpg/1280px-Hubble_Space_Telescope_%2827946391011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble Space Telescope (27946391011).jpg
+      credit: NASA Hubble Space Telescope
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_Space_Telescope_(27946391011).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.58
+    focus_y: 0.44
+    box:
+    - 0.38
+    - 0.21
+    - 0.79
+    - 0.67
+- text: Violent galactic winds act like a powerful cosmic purge.
+  emphasis:
+  - cosmic purge
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/M82_%2811524877534%29.png/3840px-M82_%2811524877534%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: M82 (11524877534).png
+      credit: geckzilla
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:M82_(11524877534).png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: These gales blast gas far beyond their borders.
+  emphasis:
+  - beyond their borders
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Artist%E2%80%99s_Impression_of_Milky_Way_Inflows_and_Outflows_%282019-46-4570%29.tif/lossy-page1-3840px-Artist%E2%80%99s_Impression_of_Milky_Way_Inflows_and_Outflows_%282019-46-4570%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s Impression of Milky Way Inflows and Outflows (2019-46-4570).tif
+      credit: NASA, ESA, and D. Player (STScI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_Impression_of_Milky_Way_Inflows_and_Outflows_(2019-46-4570).tif
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.4
+- text: These tiny systems purge oxygen, seeding the intergalactic void.
+  emphasis:
+  - intergalactic void
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Small_Magellanic_Cloud_%28ground-based_image%29_%28heic0603d%29.jpg/1920px-Small_Magellanic_Cloud_%28ground-based_image%29_%28heic0603d%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Small Magellanic Cloud (ground-based image) (heic0603d).jpg
+      credit: 'ESA/Hubble and Digitized Sky Survey 2. Acknowledgements: Davide De Martin'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Small_Magellanic_Cloud_(ground-based_image)_(heic0603d).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.42
+    focus_y: 0.42
+    card:
+      kind: fact
+      big: Polluters
+      small: Intergalactic void
+- text: Without enough gravity, there is only one explanation.
+  emphasis:
+  - only one explanation
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE GREAT COSMIC LEAK
