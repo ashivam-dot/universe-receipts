@@ -1,0 +1,217 @@
+id: ep450
+title: How Scientists Photographed a Monster Black Hole
+series: Scale Breaker
+format: v3
+description: In 2019, astronomers unveiled humanity's first photo of a supermassive black hole spanning 40 billion kilometers.
+sources:
+- https://en.wikipedia.org/wiki/Event_Horizon_Telescope
+- https://science.nasa.gov/universe/black-holes/black-hole-image-makes-history-nasa-telescopes-coordinated-observations/
+- https://www.eso.org/public/news/eso1907/
+- https://www.noirlab.edu/public/blog/the-uarizona-12-meter-telescope/
+- https://en.wikipedia.org/wiki/Messier_87
+- https://astronomy.com/news/2019/04/the-nature-of-m87-a-look-at-a-supermassive-black-hole
+hashtags:
+- '#space'
+- '#blackhole'
+- '#nasa'
+tags:
+- space
+- astronomy
+- black hole
+- messier 87
+- eht
+- science
+- nasa
+- universe
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Scientists turned planet Earth into one giant radio dish.
+  emphasis:
+  - planet Earth
+  - giant radio dish
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Event_Horizon_Telescope_Collaboration_%28testing-general-relativity-with-the-event-horizon%29.jpg/1920px-Event_Horizon_Telescope_Collaboration_%28testing-general-relativity-with-the-event-horizon%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Event Horizon Telescope Collaboration (testing-general-relativity-with-the-event-horizon).jpg
+      credit: D. Marrone/UofA
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Event_Horizon_Telescope_Collaboration_(testing-general-relativity-with-the-event-horizon).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Eight observatories targeted a galaxy 55 million light-years away.
+  emphasis:
+  - Eight observatories
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Nineteen_ALMA_antennas_on_the_Chajnantor_plateau_%28eso1137g%29.tiff/lossy-page1-3840px-Nineteen_ALMA_antennas_on_the_Chajnantor_plateau_%28eso1137g%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Nineteen ALMA antennas on the Chajnantor plateau (eso1137g).tiff
+      credit: ALMA (ESO/NAOJ/NRAO)/W. Garnier (ALMA)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Nineteen_ALMA_antennas_on_the_Chajnantor_plateau_(eso1137g).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 8 OBSERVATORIES
+      small: 55 million light-years
+- text: Every dish synchronized its recordings using atomic clocks.
+  emphasis:
+  - atomic clocks
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Hydrogen_maser_atomic_clock_installed_at_the_ALMA_AOS_%28140604_almamaser_05%29.tiff/lossy-page1-960px-Hydrogen_maser_atomic_clock_installed_at_the_ALMA_AOS_%28140604_almamaser_05%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hydrogen maser atomic clock installed at the ALMA AOS (140604 almamaser 05).tiff
+      credit: ALMA (ESO/NAOJ/NRAO), C. Padilla
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Hydrogen_maser_atomic_clock_installed_at_the_ALMA_AOS_(140604_almamaser_05).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: ATOMIC CLOCKS
+      small: Sub-nanosecond sync
+- text: But the raw data was way too massive for the internet.
+  emphasis:
+  - too massive
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: TOO BIG FOR WEB
+      small: Data transfer limit
+    motion: zoom_in
+- text: Engineers had to fly petabytes of hard drives on airplanes.
+  emphasis:
+  - petabytes of hard drives
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/South_Pole_Telescope_with_Joaquin_Vieira.jpg/1280px-South_Pole_Telescope_with_Joaquin_Vieira.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: South Pole Telescope with Joaquin Vieira.jpg
+      credit: Joaquin Vieira
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:South_Pole_Telescope_with_Joaquin_Vieira.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: PETABYTES
+      small: Flown on hard drives
+- text: Supercomputers processed the data into humanity's first black hole image.
+  emphasis:
+  - first black hole image
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/8b/Side_by_side_of_the_first_two_images_of_black_holes_%28eso2208-eht-mwd%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Side by side of the first two images of black holes (eso2208-eht-mwd).jpg
+      credit: EHT Collaboration
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Side_by_side_of_the_first_two_images_of_black_holes_(eso2208-eht-mwd).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: April 2019
+      small: First image revealed
+- text: The shadow spans nearly forty billion kilometers across.
+  emphasis:
+  - forty billion kilometers
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/M87%2A_and_Sgr_A%2A_side-by-side_in_polarised_light_%28eso2406b%29.tiff/lossy-page1-3840px-M87%2A_and_Sgr_A%2A_side-by-side_in_polarised_light_%28eso2406b%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: M87* and Sgr A* side-by-side in polarised light (eso2406b).tiff
+      credit: EHT Collaboration
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:M87*_and_Sgr_A*_side-by-side_in_polarised_light_(eso2406b).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 40 BILLION KM
+      small: Shadow diameter
+- text: Its ring of light could swallow our entire solar system.
+  emphasis:
+  - swallow our entire solar system
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Simulated_black_hole_with_thick_accretion_disk.png/960px-Simulated_black_hole_with_thick_accretion_disk.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Simulated black hole with thick accretion disk.png
+      credit: Shocksingularity
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Simulated_black_hole_with_thick_accretion_disk.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: SOLAR SYSTEM
+      small: Dwarfed by the ring
+- text: No single telescope on Earth was big enough.
+  emphasis:
+  - big enough
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: EARTH-SIZED TELESCOPE
