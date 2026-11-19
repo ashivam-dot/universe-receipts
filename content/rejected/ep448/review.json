@@ -107,7 +107,72 @@
       "better_than_last": "This episode provides a more detailed mechanical payoff compared to episode 443.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-19T23:14:23+05:30",
+      "check": {
+        "duration": 32.8,
+        "words": 85,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'the' after 'using hovering rockets'",
+          "'thrusters' heard as 'the rusters' after 'sky crane ignited'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong visual premise that immediately hooks curiosity.",
+        "clarity": "Chronological progression of the landing sequence is easy to follow.",
+        "payoff": "The crane flyaway concludes the maneuver reasonably well.",
+        "visuals": "Later beats use static surface selfies instead of descent depictions.",
+        "loop": "Beat 8 repeats Beat 1 verbatim rather than leading seamlessly into it."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a bare rover on the surface instead of the airbags mentioned."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows a static rover selfie instead of the crane severing lines or flying away."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "thrusters",
+          "respelling": "thrust erz"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: That daring descent was the only way"
+      ],
+      "better_than_last": "It delivers a tighter technical breakdown of a single engineering event than recent episodes.",
+      "judge": "gemini-3.7-flash",
+      "passed": false
     }
   ],
-  "best_round": 2
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals, loop; 2 frame problems",
+  "rejected_at": "2026-11-19T23:14:23+05:30"
 }

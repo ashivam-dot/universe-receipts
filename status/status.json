@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-19T23:06:13+05:30",
-  "day": 49,
+  "updated_at": "2026-11-20T05:05:55+05:30",
+  "day": 50,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7TE0GVEPSF0CVE01H4RF4TR",
+    "id": "ta-01M7V2KQ78PZH5YFNPHCPRVKGR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-19T23:05:10+05:30",
-    "started_at_utc": "2026-11-19T17:35:10+00:00",
-    "seconds": 63
+    "started_at": "2026-11-20T05:05:09+05:30",
+    "started_at_utc": "2026-11-19T23:35:09+00:00",
+    "seconds": 46
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 1.6
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 9.1
+      "seconds": 1.8
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.8
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -47,43 +47,31 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 2.5
+      "seconds": 3.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep446 ready; ep447 rejected (low scores: hook, payoff, visuals, loop; 2 frame problems); ep448 unfinished (IndexError: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1); ep450 ready; ep451 ready; ep452 ready; ep453 rejected (low scores: visuals; 3 frame problems); ep454 rejected (low scores: payoff); ep455 ready",
-      "seconds": 28.1
+      "detail": "ep448 rejected (low scores: payoff, visuals, loop; 2 frame problems); ep456 rejected (research: only 0 claims have two different sites); ep457 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep458 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep459 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', ",
+      "seconds": 14.3
     },
     {
-      "name": "start ep448",
+      "name": "start ep460",
       "ok": true,
-      "detail": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
+      "detail": "Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep461",
+      "ok": true,
+      "detail": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
       "seconds": 1.0
     },
     {
-      "name": "start ep456",
+      "name": "start ep462",
       "ok": true,
-      "detail": "White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep457",
-      "ok": true,
-      "detail": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep458",
-      "ok": true,
-      "detail": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep459",
-      "ok": true,
-      "detail": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
-      "seconds": 0.9
+      "detail": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
+      "seconds": 1.1
     }
   ],
   "errors": [
@@ -91,6 +79,10 @@
   ],
   "owner_action": [],
   "notes": [
+    "ep457 stopped on Gemini's free quota; it resumes in a later run",
+    "ep458 stopped on Gemini's free quota; it resumes in a later run",
+    "ep459 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -98,13 +90,15 @@
     "in_buffer": 10,
     "waiting": 26,
     "target": 14,
-    "making": [],
-    "remote": [
-      "ep448",
-      "ep456",
+    "making": [
       "ep457",
       "ep458",
       "ep459"
+    ],
+    "remote": [
+      "ep460",
+      "ep461",
+      "ep462"
     ]
   },
   "queue": [
@@ -319,154 +313,74 @@
   ],
   "made": [
     {
-      "id": "ep446",
-      "outcome": "ready",
-      "topic": "Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium",
-      "title": "Why the Sun Is Not Actually on Fire",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795089405/universereceipts/ep446-f386bcf3.mp4"
-    },
-    {
-      "id": "ep447",
-      "outcome": "rejected",
-      "topic": "Hubble Space Telescope: NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies (2026): Hubble data revealed that dwarf galaxies are missing massive amounts of expected oxygen, defying galactic models",
-      "reason": "low scores: hook, payoff, visuals, loop; 2 frame problems"
-    },
-    {
       "id": "ep448",
-      "outcome": "unfinished",
+      "outcome": "rejected",
       "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
-      "reason": "IndexError: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1",
-      "quota": false,
+      "reason": "low scores: payoff, visuals, loop; 2 frame problems"
+    },
+    {
+      "id": "ep456",
+      "outcome": "rejected",
+      "topic": "White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton",
+      "reason": "research: only 0 claims have two different sites"
+    },
+    {
+      "id": "ep457",
+      "outcome": "unfinished",
+      "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep450",
-      "outcome": "ready",
-      "topic": "Messier 87 (2019): the first-ever photo of a black hole revealed a ring of light so colossal it could swallow our entire solar system",
-      "title": "How Scientists Photographed a Monster Black Hole",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795089349/universereceipts/ep450-05ff3729.mp4"
+      "id": "ep458",
+      "outcome": "unfinished",
+      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     },
     {
-      "id": "ep451",
-      "outcome": "ready",
-      "topic": "Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light",
-      "title": "Why Orion's Brightest Star Suddenly Dimmed",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795089410/universereceipts/ep451-ae994f08.mp4"
-    },
-    {
-      "id": "ep452",
-      "outcome": "ready",
-      "topic": "Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names",
-      "title": "When Uranus Was Almost Named King George",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795089430/universereceipts/ep452-37f7de84.mp4"
-    },
-    {
-      "id": "ep453",
-      "outcome": "rejected",
-      "topic": "Betelgeuse (2022): the iconic red supergiant is so vast that if swapped with our Sun, its surface would swallow the orbit of Jupiter",
-      "reason": "low scores: visuals; 3 frame problems"
-    },
-    {
-      "id": "ep454",
-      "outcome": "rejected",
-      "topic": "Charon (moon) (1978): Pluto's primary moon is so massive that the two bodies orbit a shared point in empty space outside Pluto itself",
-      "reason": "low scores: payoff"
-    },
-    {
-      "id": "ep455",
-      "outcome": "ready",
-      "topic": "Rings of Saturn (2023): Cassini data proved Saturn's massive ring system is not ancient, but young debris from a shattered moon born during the age of dinosaurs",
-      "title": "Saturn's Rings Are Younger Than Dinosaurs",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795089583/universereceipts/ep455-8f9b77e4.mp4"
+      "id": "ep459",
+      "outcome": "unfinished",
+      "topic": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep448",
-      "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
-      "call_id": "fc-01M7TE2H9XFRD74MXGT4AF70HH"
+      "id": "ep460",
+      "topic": "Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed",
+      "call_id": "fc-01M7V2N630K414K5NBPF29BXGE"
     },
     {
-      "id": "ep456",
-      "topic": "White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton",
-      "call_id": "fc-01M7TE2J819SEYVZE0XP80ECDP"
+      "id": "ep461",
+      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
+      "call_id": "fc-01M7V2N715FKT5XWXRVB1JAPRW"
     },
     {
-      "id": "ep457",
-      "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
-      "call_id": "fc-01M7TE2K4WEA3DKF4W9TQ87FPS"
-    },
-    {
-      "id": "ep458",
-      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
-      "call_id": "fc-01M7TE2M0ZB3RJX19FXMYGJ0AY"
-    },
-    {
-      "id": "ep459",
-      "topic": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
-      "call_id": "fc-01M7TE2MY8WX5ZJD2QFGAYZ12C"
+      "id": "ep462",
+      "topic": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
+      "call_id": "fc-01M7V2N83XX3TT1MC0FY5K1A0A"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep448",
-      "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
-      "spawned_at": "2026-11-19T23:06:06+05:30"
+      "id": "ep460",
+      "topic": "Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed",
+      "spawned_at": "2026-11-20T05:05:49+05:30"
     },
     {
-      "id": "ep456",
-      "topic": "White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton",
-      "spawned_at": "2026-11-19T23:06:07+05:30"
+      "id": "ep461",
+      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
+      "spawned_at": "2026-11-20T05:05:50+05:30"
     },
     {
-      "id": "ep457",
-      "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
-      "spawned_at": "2026-11-19T23:06:08+05:30"
-    },
-    {
-      "id": "ep458",
-      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
-      "spawned_at": "2026-11-19T23:06:09+05:30"
-    },
-    {
-      "id": "ep459",
-      "topic": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
-      "spawned_at": "2026-11-19T23:06:10+05:30"
+      "id": "ep462",
+      "topic": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
+      "spawned_at": "2026-11-20T05:05:51+05:30"
     }
   ],
   "published": [],
@@ -474,35 +388,36 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 50,
+    "calls": 18,
     "by_model": {
-      "gemini-3.8-flash": 4,
-      "gemini-3.6-flash": 23,
-      "gemini-3.5-flash-lite": 10,
-      "gemini-3-flash-preview": 13
+      "gemini-3.7-flash": 4,
+      "gemini-3.5-flash-lite": 6,
+      "gemini-3.6-flash": 2,
+      "gemini-3.1-flash-lite": 5,
+      "gemini-3.5-flash": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 19,
+    "modal": 4,
     "runner": 0
   },
   "daily_done": "2026-11-19",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 11.72,
+    "metered": 11.91,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 135,
+    "cloud": 134,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 16.28
+    "modal_credit_left": 16.09
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 37,
+  "open_topics": 35,
   "parked_topics": 61
 }

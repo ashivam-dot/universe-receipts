@@ -1,0 +1,201 @@
+id: ep459
+title: How a Hammer Failed to Save NASA's First Color Moon TV
+series: Mission Files
+format: v3
+description: During Apollo 12 in 1969, NASA brought its first live color TV camera to the Moon. When astronaut Alan Bean accidentally
+  pointed it at the Sun, he tried fixing the ruined broadcast with a hammer.
+sources:
+- https://en.wikipedia.org/wiki/Apollo_12
+- https://economictimes.indiatimes.com/news/international/us/in-1969-apollo-12-began-broadcasting-from-the-moon-but-alan-bean-accidentally-aimed-its-camera-at-the-sun-and-killed-the-live-tv-feed/articleshow/133422884.cms
+- https://www.weirdsciencehistory.com/articles/the-first-color-tv-camera-on-the-moon-that-got-pointed-at-the-sun
+- https://airandspace.si.edu/stories/editorial/seeing-apollo-12
+hashtags:
+- '#space'
+- '#apollo12'
+- '#nasa'
+tags:
+- apollo 12
+- alan bean
+- moon landing
+- nasa
+- space history
+- color tv camera
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: An astronaut ruined NASA's first lunar color camera within minutes.
+  emphasis:
+  - ruined
+  - lunar color camera
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Apollo_12_TV_Camera.jpg/1920px-Apollo_12_TV_Camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Apollo 12 TV Camera.jpg
+      credit: NASA/Pete Conrad
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Apollo_12_TV_Camera.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.42
+    focus_y: 0.35
+    box:
+    - 0.29
+    - 0.28
+    - 0.52
+    - 0.39
+- text: Millions watched expecting live color footage of the Apollo 12 moonwalk.
+  emphasis:
+  - Apollo 12
+  - live color footage
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/da/AS12-46-6749_%2821688668102%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: AS12-46-6749 (21688668102) (cropped).jpg
+      credit: Project Apollo Archive
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:AS12-46-6749_(21688668102)_(cropped).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.55
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: November 1969
+      small: Ocean of Storms
+- text: Astronaut Alan Bean accidentally pointed the camera lens directly into the Sun.
+  emphasis:
+  - Alan Bean
+  - directly into the Sun
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Alan_Bean_deploys_ALSEP_during_first_Apollo_12_EVA_on_moon.jpg/3840px-Alan_Bean_deploys_ALSEP_during_first_Apollo_12_EVA_on_moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Alan Bean deploys ALSEP during first Apollo 12 EVA on moon.jpg
+      credit: Pete Conrad
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Alan_Bean_deploys_ALSEP_during_first_Apollo_12_EVA_on_moon.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.52
+    focus_y: 0.55
+    box:
+    - 0.44
+    - 0.45
+    - 0.61
+    - 0.69
+- text: Intense solar light burned out the camera's sensitive tube instantly.
+  emphasis:
+  - burned out
+  - sensitive tube
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://live.staticflickr.com/2650/4253873699_46687554bb_b.jpg
+    credit:
+      source: Nasa via Openverse
+      title: Passing of Stan Lebar
+      credit: NASA Goddard Photo and Video
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/24662369@N07/4253873699
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.4
+    focus_y: 0.35
+    box:
+    - 0.17
+    - 0.16
+    - 0.62
+    - 0.61
+- text: The live video feed to Earth went black almost immediately.
+  emphasis:
+  - went black
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: TV Feed Lost
+      small: Live broadcast terminated
+    motion: zoom_in
+- text: Bean tried fixing the space-age camera by hitting it with his hammer.
+  emphasis:
+  - hitting it
+  - hammer
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/John_Young_stands_on_the_rim_of_Plum_Crater_while_collecting_lunar_samples.jpg/1920px-John_Young_stands_on_the_rim_of_Plum_Crater_while_collecting_lunar_samples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: John Young stands on the rim of Plum Crater while collecting lunar samples.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:John_Young_stands_on_the_rim_of_Plum_Crater_while_collecting_lunar_samples.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.88
+    focus_y: 0.32
+    box:
+    - 0.73
+    - 0.13
+    - 0.98
+    - 0.44
+- text: The low-tech repair failed, leaving NASA with only still photographs.
+  emphasis:
+  - still photographs
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Astronaut_Pete_Conrad_on_the_Moon_%28AS12-48-7071%29.jpg/1920px-Astronaut_Pete_Conrad_on_the_Moon_%28AS12-48-7071%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Astronaut Pete Conrad on the Moon (AS12-48-7071).jpg
+      credit: Apollo astronaut Alan Bean
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Astronaut_Pete_Conrad_on_the_Moon_(AS12-48-7071).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.48
+    focus_y: 0.45
+    card:
+      kind: fact
+      big: Still Film Only
+      small: No live TV remaining
+- text: The space-age camera never broadcast another frame.
+  emphasis:
+  - never broadcast
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.42
+    focus_y: 0.35
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: FIRST MOON COLOR TV BLINDED
