@@ -131,8 +131,8 @@ unexplained, not alien.
 | Nov 20 | Zarya (1998): the first module of the International Space Station launched into orbit on this day, beginning decades of continuous human presence in space — done (ep413) | Mission Files |
 | Nov 26 | Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind "sky crane" to land on the Martian surface — parked (ep448) | Mission Files |
 | Nov 27 | Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed — done (ep460) | Mission Files |
-| Nov 28 | Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations | Mission Files |
-| Nov 28 | PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1 | Space Got Weird |
+| Nov 28 | Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations — making (ep472) | Mission Files |
+| Nov 28 | PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1 — making (ep473) | Space Got Weird |
 | Dec 2 | Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries | Space Got Weird |
 | Dec 2 | Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever | Mission Files |
 | Dec 2 | STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope | Mission Files |

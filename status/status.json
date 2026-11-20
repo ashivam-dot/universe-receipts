@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-11-20T23:05:52+05:30",
-  "day": 50,
+  "updated_at": "2026-11-21T05:06:01+05:30",
+  "day": 51,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7X0D7ZM36S2QN3X95CFFE7R",
+    "id": "ta-01M7XN0EAJKKZ73J6RVGV5SZMR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-20T23:05:07+05:30",
-    "started_at_utc": "2026-11-20T17:35:07+00:00",
-    "seconds": 45
+    "started_at": "2026-11-21T05:05:12+05:30",
+    "started_at_utc": "2026-11-20T23:35:12+00:00",
+    "seconds": 48
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 1.6
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "playlists",
@@ -35,7 +35,7 @@
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.6
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -47,31 +47,25 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 2.1
+      "seconds": 5.0
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep457 ready; ep458 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep459 ready; ep461 rejected (low scores: visuals; 3 frame problems); ep462 rejected (low scores: visuals); ep463 ready; ep464 rejected (low scores: hook, payoff, loop; true peak 1.1 dBFS is above -1); ep465 rejected (low scores: payoff, visuals; 2 frame problems); ep466 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash',",
-      "seconds": 24.5
+      "detail": "ep469 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep470 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep471 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 12.7
     },
     {
-      "name": "start ep469",
+      "name": "start ep472",
       "ok": true,
-      "detail": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "seconds": 0.5
+      "detail": "Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations",
+      "seconds": 1.4
     },
     {
-      "name": "start ep470",
+      "name": "start ep473",
       "ok": true,
-      "detail": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
-      "seconds": 0.4
-    },
-    {
-      "name": "start ep471",
-      "ok": true,
-      "detail": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "seconds": 0.4
+      "detail": "PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1",
+      "seconds": 1.4
     }
   ],
   "errors": [
@@ -79,8 +73,9 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep458 stopped on Gemini's free quota; it resumes in a later run",
-    "ep466 stopped on Gemini's free quota; it resumes in a later run",
+    "ep469 stopped on Gemini's free quota; it resumes in a later run",
+    "ep470 stopped on Gemini's free quota; it resumes in a later run",
+    "ep471 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
@@ -91,12 +86,14 @@
     "target": 14,
     "making": [
       "ep458",
-      "ep466"
-    ],
-    "remote": [
+      "ep466",
       "ep469",
       "ep470",
       "ep471"
+    ],
+    "remote": [
+      "ep472",
+      "ep473"
     ]
   },
   "queue": [
@@ -347,148 +344,52 @@
   ],
   "made": [
     {
-      "id": "ep457",
-      "outcome": "ready",
-      "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
-      "title": "The Truth Behind Apollo 14's Famous Moon Golf Shot",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795175654/universereceipts/ep457-006487d2.mp4"
-    },
-    {
-      "id": "ep458",
+      "id": "ep469",
       "outcome": "unfinished",
-      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
+      "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep459",
-      "outcome": "ready",
-      "topic": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
-      "title": "How a Hammer Failed to Save NASA's First Color Moon TV",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795175353/universereceipts/ep459-182d3101.mp4"
-    },
-    {
-      "id": "ep461",
-      "outcome": "rejected",
-      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
-      "reason": "low scores: visuals; 3 frame problems"
-    },
-    {
-      "id": "ep462",
-      "outcome": "rejected",
-      "topic": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep463",
-      "outcome": "ready",
-      "topic": "Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside",
-      "title": "Why You Wouldn't Feel a Black Hole's Edge",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795175388/universereceipts/ep463-c909ca93.mp4"
-    },
-    {
-      "id": "ep464",
-      "outcome": "rejected",
-      "topic": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
-      "reason": "low scores: hook, payoff, loop; true peak 1.1 dBFS is above -1"
-    },
-    {
-      "id": "ep465",
-      "outcome": "rejected",
-      "topic": "Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years",
-      "reason": "low scores: payoff, visuals; 2 frame problems"
-    },
-    {
-      "id": "ep466",
+      "id": "ep470",
       "outcome": "unfinished",
-      "topic": "Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma",
+      "topic": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep467",
-      "outcome": "ready",
-      "topic": "Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform",
-      "title": "The Hidden Two-Mile Mountains inside Saturn's Rings",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795175841/universereceipts/ep467-b854c07b.mp4"
-    },
-    {
-      "id": "ep468",
-      "outcome": "ready",
-      "topic": "Polaris (2018): the iconic North Star is actually a triple star system dominated by a supergiant four times more massive than the Sun",
-      "title": "The Triple Secret of the North Star",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795176007/universereceipts/ep468-afba7ba6.mp4"
+      "id": "ep471",
+      "outcome": "unfinished",
+      "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep469",
-      "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "call_id": "fc-01M7X0EQKJRVVX70FJCM72WFPT"
+      "id": "ep472",
+      "topic": "Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations",
+      "call_id": "fc-01M7XN22HNCVXH8ER1ZRFBPQCC"
     },
     {
-      "id": "ep470",
-      "topic": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
-      "call_id": "fc-01M7X0ER07FSSBBHH5FPBVB33Z"
-    },
-    {
-      "id": "ep471",
-      "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "call_id": "fc-01M7X0ERDE0C32W8G5J5XTZHZR"
+      "id": "ep473",
+      "topic": "PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1",
+      "call_id": "fc-01M7XN23YA5YVWHRKGAFMM3ZH0"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep469",
-      "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "spawned_at": "2026-11-20T23:05:49+05:30"
+      "id": "ep472",
+      "topic": "Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations",
+      "spawned_at": "2026-11-21T05:05:54+05:30"
     },
     {
-      "id": "ep470",
-      "topic": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
-      "spawned_at": "2026-11-20T23:05:49+05:30"
-    },
-    {
-      "id": "ep471",
-      "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "spawned_at": "2026-11-20T23:05:50+05:30"
+      "id": "ep473",
+      "topic": "PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1",
+      "spawned_at": "2026-11-21T05:05:56+05:30"
     }
   ],
   "published": [],
@@ -496,35 +397,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 54,
+    "calls": 15,
     "by_model": {
-      "gemini-3.6-flash": 20,
-      "gemini-3-flash-preview": 18,
-      "gemini-3.5-flash-lite": 14,
-      "gemini-3.5-flash": 2
+      "gemini-3.5-flash-lite": 6,
+      "gemini-3.6-flash": 2,
+      "gemini-3-flash-preview": 1,
+      "gemini-3.1-flash-lite": 6
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 23,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-11-20",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 12.86,
+    "metered": 12.97,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 126,
+    "cloud": 125,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 15.14
+    "modal_credit_left": 15.03
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 36,
+  "open_topics": 34,
   "parked_topics": 58
 }

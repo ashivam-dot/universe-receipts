@@ -1,0 +1,138 @@
+id: ep471
+title: The Giant Asteroid That Sneaked Past Earth
+series: Near Misses
+format: v3
+description: An asteroid the size of the Washington Monument zipped past Earth closer than the Moon before anyone noticed.
+sources:
+- https://en.wikipedia.org/wiki/2018_AH
+- https://www.jpost.com/science/large-asteroid-stronger-than-nuke-heading-towards-earth-late-december-687091
+hashtags:
+- '#space'
+- '#asteroid'
+- '#nasa'
+tags:
+- asteroid
+- earth
+- space
+- astronomy
+- near miss
+- mauna loa
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: An asteroid zipped closer than the Moon without anyone noticing.
+  emphasis:
+  - closer than the Moon
+  - without anyone noticing
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/A_New_View_of_the_Moon.jpg/3840px-A_New_View_of_the_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: A New View of the Moon.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:A_New_View_of_the_Moon.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It stretched roughly 100 to 190 meters across.
+  emphasis:
+  - 100 to 190 meters
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 100-190m
+      small: Washington Monument scale
+    motion: zoom_in
+- text: That made it comparable in size to the Washington Monument.
+  emphasis:
+  - Washington Monument
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/51/PIA21259_-_Celestial_Object_2016_WF9%2C_a_NEOWISE_Discovery_%28Artist_Concept%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA21259 - Celestial Object 2016 WF9, a NEOWISE Discovery (Artist Concept).jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA21259_-_Celestial_Object_2016_WF9,_a_NEOWISE_Discovery_(Artist_Concept).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It was the largest asteroid to pass that close since 1971.
+  emphasis:
+  - largest asteroid
+  - since 1971
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: SINCE 1971
+      small: Largest close approach
+    motion: zoom_in
+- text: The rock approached blindly from the blinding glare of the Sun.
+  emphasis:
+  - glare of the Sun
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Magnificent_CME_Erupts_on_the_Sun_-_August_31.jpg/1280px-Magnificent_CME_Erupts_on_the_Sun_-_August_31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Magnificent CME Erupts on the Sun - August 31.jpg
+      credit: NASA Goddard Space Flight Center
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Magnificent_CME_Erupts_on_the_Sun_-_August_31.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers only spotted it two days after it already rushed past.
+  emphasis:
+  - two days after
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Mauna_Loa_Observatory.png/1280px-Mauna_Loa_Observatory.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mauna Loa Observatory.png
+      credit: NOAA Research cover image
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mauna_Loa_Observatory.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Nobody noticed when the giant rock nearly clipped us.
+  emphasis:
+  - nobody noticed
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
