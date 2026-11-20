@@ -1,0 +1,225 @@
+id: ep461
+title: The Storm That Swallowed Three Earths
+series: Scale Breaker
+format: v3
+description: Jupiter's Great Red Spot is slowly shrinking after centuries of observation, but its massive 250-kilometer vortex
+  can still engulf our entire world.
+sources:
+- https://en.wikipedia.org/wiki/Great_Red_Spot
+- https://www.nasa.gov/missions/jupiters-great-red-spot-getting-taller-as-it-shrinks-nasa-team-finds/
+- https://web.archive.org/web/20040610075946/http://csep10.phys.utk.edu/astr161/lect/jupiter/redspot.html
+- https://www.universetoday.com/articles/why-is-jupiters-great-red-spot-shrinking-its-starving
+- https://news.yale.edu/2024/07/18/new-explanation-jupiters-great-shrinking-spot
+- https://www.space.com/3134-jupiter-data-sheet.html
+- https://astronomy.com/news/2019/11/jupiters-great-red-spot-is-not-disappearing
+hashtags:
+- '#space'
+- '#jupiter'
+- '#nasa'
+tags:
+- great red spot
+- jupiter
+- solar system
+- nasa
+- astronomy
+- planet earth
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Jupiter's giant storm once swallowed three Earths side-by-side.
+  emphasis:
+  - three Earths
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Earth_and_the_Great_Red_Spot_%284078049755%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Earth and the Great Red Spot (4078049755).jpg
+      credit: Lunar and Planetary Institute from Houston, TX, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Earth_and_the_Great_Red_Spot_(4078049755).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Even after shrinking for a century, it still swallows Earth whole.
+  emphasis:
+  - shrinking
+  - Earth whole
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Jupiter%E2%80%99s_Colourful_Palette.tif/lossy-page1-1920px-Jupiter%E2%80%99s_Colourful_Palette.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter’s Colourful Palette.tif
+      credit: NASA, ESA, A. Simon (Goddard Space Flight Center), and M.H. Wong (University of California, Berkeley)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Jupiter%E2%80%99s_Colourful_Palette.tif
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.15
+    - 0.15
+    - 0.85
+    - 0.85
+- text: Winds around the edge roar past 200 miles per hour.
+  emphasis:
+  - 200 miles per hour
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Jupiter%27s_Great_Red_Spot_-_Juno_Perijove_7_-_July_11_2017_%2838606452501%29.jpg/1280px-Jupiter%27s_Great_Red_Spot_-_Juno_Perijove_7_-_July_11_2017_%2838606452501%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter's Great Red Spot - Juno Perijove 7 - July 11 2017 (38606452501).jpg
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Jupiter%27s_Great_Red_Spot_-_Juno_Perijove_7_-_July_11_2017_(38606452501).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 200 mph
+      small: edge wind speeds
+- text: It plunges 250 kilometers deep into Jupiter's dense atmosphere.
+  emphasis:
+  - 250 kilometers deep
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/NASA%E2%80%99s_Webb_Discovers_New_Feature_in_Jupiter%E2%80%99s_Atmosphere_%2853270123023%29.jpg/1280px-NASA%E2%80%99s_Webb_Discovers_New_Feature_in_Jupiter%E2%80%99s_Atmosphere_%2853270123023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA’s Webb Discovers New Feature in Jupiter’s Atmosphere (53270123023).jpg
+      credit: NASA's James Webb Space Telescope from Greenbelt, MD, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_Webb_Discovers_New_Feature_in_Jupiter%E2%80%99s_Atmosphere_(53270123023).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 250 km
+      small: depth below clouds
+- text: Without a solid surface below, nothing creates friction to stop it.
+  emphasis:
+  - solid surface
+  - stop it
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Grosser_roter_fleck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Grosser roter fleck.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Grosser_roter_fleck.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.55
+    focus_y: 0.5
+    box:
+    - 0.25
+    - 0.0
+    - 0.85
+    - 1.0
+- text: It survives by cannibalizing smaller passing storms like atmospheric prey.
+  emphasis:
+  - cannibalizing
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Three_Red_Spots_Mix_It_Up_on_Jupiter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Three Red Spots Mix It Up on Jupiter.jpg
+      credit: NASA, ESA, A. Simon-Miller (Goddard Space Flight Center), N. Chanover (New Mexico State University), and G.
+        Orton (Jet Propulsion Laboratory)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Three_Red_Spots_Mix_It_Up_on_Jupiter.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: When those smaller storms thin out, this monster begins to starve.
+  emphasis:
+  - begins to starve
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Jupiter%E2%80%99s_storms-_temperatures_and_cloud_colours_%28eso1010a%29.tiff/lossy-page1-1920px-Jupiter%E2%80%99s_storms-_temperatures_and_cloud_colours_%28eso1010a%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter’s storms- temperatures and cloud colours (eso1010a).tiff
+      credit: ESO/NASA/JPL/ESA/L. Fletcher
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Jupiter%E2%80%99s_storms-_temperatures_and_cloud_colours_(eso1010a).tiff
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Massive red fragments peeled away from its perimeter in 2019.
+  emphasis:
+  - red fragments
+  - peeled away
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/37/Jupiter_-_Perijove_18_-_GRS_Map_Projected_%2848062525062%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter - Perijove 18 - GRS Map Projected (48062525062).jpg
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Jupiter_-_Perijove_18_-_GRS_Map_Projected_(48062525062).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.65
+    focus_y: 0.45
+    box:
+    - 0.5
+    - 0.25
+    - 0.95
+    - 0.65
+    card:
+      kind: dateline
+      big: '2019'
+      small: outer flaking event
+- text: Yet deep inside, the solar system's largest storm keeps churning.
+  emphasis:
+  - largest storm
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A 250-KILOMETER ABYSS

@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-20T05:05:55+05:30",
+  "updated_at": "2026-11-20T11:05:56+05:30",
   "day": 50,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7V2KQ78PZH5YFNPHCPRVKGR",
+    "id": "ta-01M7VQ6W8DH8H9B3Q0Y7ZJS45R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-20T05:05:09+05:30",
-    "started_at_utc": "2026-11-19T23:35:09+00:00",
-    "seconds": 46
+    "started_at": "2026-11-20T11:05:08+05:30",
+    "started_at_utc": "2026-11-20T05:35:08+00:00",
+    "seconds": 48
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.6
+      "seconds": 1.2
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 1.8
+      "seconds": 2.8
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -47,31 +47,31 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 3.3
+      "seconds": 4.1
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep448 rejected (low scores: payoff, visuals, loop; 2 frame problems); ep456 rejected (research: only 0 claims have two different sites); ep457 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep458 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep459 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', ",
-      "seconds": 14.3
+      "detail": "ep460 ready; ep461 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep462 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 11.7
     },
     {
-      "name": "start ep460",
+      "name": "start ep463",
       "ok": true,
-      "detail": "Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed",
-      "seconds": 0.8
+      "detail": "Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside",
+      "seconds": 0.6
     },
     {
-      "name": "start ep461",
+      "name": "start ep464",
       "ok": true,
-      "detail": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
-      "seconds": 1.0
+      "detail": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
+      "seconds": 0.5
     },
     {
-      "name": "start ep462",
+      "name": "start ep465",
       "ok": true,
-      "detail": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
-      "seconds": 1.1
+      "detail": "Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years",
+      "seconds": 0.5
     }
   ],
   "errors": [
@@ -79,26 +79,27 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep457 stopped on Gemini's free quota; it resumes in a later run",
-    "ep458 stopped on Gemini's free quota; it resumes in a later run",
-    "ep459 stopped on Gemini's free quota; it resumes in a later run",
+    "ep461 stopped on Gemini's free quota; it resumes in a later run",
+    "ep462 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 36,
+    "total": 37,
     "in_buffer": 10,
-    "waiting": 26,
+    "waiting": 27,
     "target": 14,
     "making": [
       "ep457",
       "ep458",
-      "ep459"
-    ],
-    "remote": [
-      "ep460",
+      "ep459",
       "ep461",
       "ep462"
+    ],
+    "remote": [
+      "ep463",
+      "ep464",
+      "ep465"
     ]
   },
   "queue": [
@@ -309,41 +310,41 @@
       "title": "Saturn's Rings Are Younger Than Dinosaurs",
       "series": "Space Myths, Busted",
       "score": 20
+    },
+    {
+      "id": "ep460",
+      "title": "The First Craft on Mars Carried Skis",
+      "series": "Mission Files",
+      "score": 23
     }
   ],
   "made": [
     {
-      "id": "ep448",
-      "outcome": "rejected",
-      "topic": "Mars Science Laboratory (2011): on Nov 26, NASA launched the Curiosity rover, which used a first-of-its-kind \"sky crane\" to land on the Martian surface",
-      "reason": "low scores: payoff, visuals, loop; 2 frame problems"
+      "id": "ep460",
+      "outcome": "ready",
+      "topic": "Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed",
+      "title": "The First Craft on Mars Carried Skis",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795132461/universereceipts/ep460-f77b654e.mp4"
     },
     {
-      "id": "ep456",
-      "outcome": "rejected",
-      "topic": "White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
-      "id": "ep457",
+      "id": "ep461",
       "outcome": "unfinished",
-      "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
+      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep458",
+      "id": "ep462",
       "outcome": "unfinished",
-      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep459",
-      "outcome": "unfinished",
-      "topic": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
+      "topic": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -351,36 +352,36 @@
   ],
   "spawned": [
     {
-      "id": "ep460",
-      "topic": "Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed",
-      "call_id": "fc-01M7V2N630K414K5NBPF29BXGE"
+      "id": "ep463",
+      "topic": "Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside",
+      "call_id": "fc-01M7VQ8CT5DENWD3VGTYCQNQKQ"
     },
     {
-      "id": "ep461",
-      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
-      "call_id": "fc-01M7V2N715FKT5XWXRVB1JAPRW"
+      "id": "ep464",
+      "topic": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
+      "call_id": "fc-01M7VQ8DAVESRGCBHN3NVGPA4V"
     },
     {
-      "id": "ep462",
-      "topic": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
-      "call_id": "fc-01M7V2N83XX3TT1MC0FY5K1A0A"
+      "id": "ep465",
+      "topic": "Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years",
+      "call_id": "fc-01M7VQ8DV62Z76EHY6C2PEFFZX"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep460",
-      "topic": "Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed",
-      "spawned_at": "2026-11-20T05:05:49+05:30"
+      "id": "ep463",
+      "topic": "Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside",
+      "spawned_at": "2026-11-20T11:05:50+05:30"
     },
     {
-      "id": "ep461",
-      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
-      "spawned_at": "2026-11-20T05:05:50+05:30"
+      "id": "ep464",
+      "topic": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
+      "spawned_at": "2026-11-20T11:05:50+05:30"
     },
     {
-      "id": "ep462",
-      "topic": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
-      "spawned_at": "2026-11-20T05:05:51+05:30"
+      "id": "ep465",
+      "topic": "Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years",
+      "spawned_at": "2026-11-20T11:05:51+05:30"
     }
   ],
   "published": [],
@@ -388,36 +389,36 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 18,
+    "calls": 30,
     "by_model": {
-      "gemini-3.7-flash": 4,
-      "gemini-3.5-flash-lite": 6,
-      "gemini-3.6-flash": 2,
-      "gemini-3.1-flash-lite": 5,
+      "gemini-3.8-flash": 7,
+      "gemini-3.5-flash-lite": 11,
+      "gemini-3.6-flash": 5,
+      "gemini-3-flash-preview": 6,
       "gemini-3.5-flash": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 4,
+    "modal": 8,
     "runner": 0
   },
   "daily_done": "2026-11-19",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 11.91,
+    "metered": 12.14,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 134,
+    "cloud": 132,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 16.09
+    "modal_credit_left": 15.86
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 35,
-  "parked_topics": 61
+  "open_topics": 34,
+  "parked_topics": 59
 }

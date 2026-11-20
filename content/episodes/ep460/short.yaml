@@ -1,0 +1,169 @@
+id: ep460
+title: The First Craft on Mars Carried Skis
+series: Mission Files
+format: v3
+description: In 1971, Soviet spacecraft Mars 2 became the first human-made object to reach Mars, carrying a miniature rover
+  built to waddle on skis.
+sources:
+- https://en.wikipedia.org/wiki/Mars_2
+- https://en.wikipedia.org/wiki/Soviet_Mars_program
+- https://www.19fortyfive.com/2026/06/on-november-27-1971-the-soviet-mars-2-became-the-first-human-made-object-ever-to-reach-the-surface-of-mars-but-it-arrived-by-crashing-its-landing-wrecked-by-one-of-the-largest-dust-storms/
+- https://space.skyrocket.de/doc_sdat/mars-71.htm
+- https://www.ebsco.com/research-starters/history/mars-2-first-spacecraft-impact-mars
+- http://www.planetary.org/explore/space-topics/space-missions/missions-to-mars.html#mars2
+hashtags:
+- '#space'
+- '#mars'
+- '#spaceexploration'
+tags:
+- mars 2
+- prop m
+- mars lander
+- space history
+- soviet space program
+- mars exploration
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The first human craft on Mars carried skis.
+  emphasis:
+  - carried skis
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: carried skis
+      small: ''
+    motion: zoom_in
+- text: Its tiny robotic rover was designed to waddle on a tether.
+  emphasis:
+  - waddle on a tether
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 50 FEET
+      small: tethered umbilical cable
+    motion: zoom_in
+- text: Soviet probe Mars 2 arrived in 1971 during a planet-wide dust storm.
+  emphasis:
+  - planet-wide dust storm
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Nix_Olympica_Identified_by_Mariner_9_on_Mars_Approach_%287651156590%29.jpg/1280px-Nix_Olympica_Identified_by_Mariner_9_on_Mars_Approach_%287651156590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Nix Olympica Identified by Mariner 9 on Mars Approach (7651156590).jpg
+      credit: NASA on The Commons
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Nix_Olympica_Identified_by_Mariner_9_on_Mars_Approach_(7651156590).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.55
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '1971'
+      small: Martian dust storm
+- text: The lander slammed into the Martian atmosphere at six kilometers per second.
+  emphasis:
+  - six kilometers per second
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Entry.jpg/960px-Entry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Entry.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Entry.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.57
+    focus_y: 0.67
+    box:
+    - 0.43
+    - 0.5
+    - 0.7
+    - 0.82
+    card:
+      kind: fact
+      big: 6 KM/S
+      small: atmospheric entry speed
+- text: Blinded by the raging dust, the descent sequence failed completely.
+  emphasis:
+  - failed completely
+  sfx: riser
+  visual:
+    reuse: 4
+    motion: zoom_out
+    focus_x: 0.57
+    focus_y: 0.67
+- text: The craft smashed into the dirt, destroying the rover on impact.
+  emphasis:
+  - smashed into the dirt
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Hellas_Planitia_G19_025635_1396_XN_40S307W.png/1280px-Hellas_Planitia_G19_025635_1396_XN_40S307W.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hellas Planitia G19 025635 1396 XN 40S307W.png
+      credit: image:NASA/JPL-Caltech/UArizona - modified by Mariagat1959
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hellas_Planitia_G19_025635_1396_XN_40S307W.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Yet that violent crash made it the first human object on Mars.
+  emphasis:
+  - first human object
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/State_Coat_of_Arms_of_the_USSR_%281946-1956_version%29..png/1280px-State_Coat_of_Arms_of_the_USSR_%281946-1956_version%29..png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: State Coat of Arms of the USSR (1946-1956 version)..png
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:State_Coat_of_Arms_of_the_USSR_(1946-1956_version)..png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: FIRST CONTACT
+      small: November 27, 1971
+- text: Nothing made by human hands had ever reached Mars.
+  emphasis:
+  - ever reached Mars
+  visual:
+    reuse: 1
+    motion: zoom_out
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
