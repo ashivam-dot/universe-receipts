@@ -54,7 +54,7 @@ unexplained, not alien.
 | 2026-10-29 | CWISE J1249+3621 (2024): a hypervelocity object discovered by everyday citizens that is screaming through space at over one million miles per hour — done (ep254) | Scale Breaker | NASA's citizen science highlights this week brought renewed attention to the project that discovered this galaxy-escaping object. |
 | 2026-10-29 | Phases of Venus (1761): when passing between Earth and the Sun, the planet's thick atmosphere can bend light into a glowing ring that makes it look like a celestial halo — done (ep428) | Space Got Weird | This specific visual phenomenon was featured as the NASA Astronomy Picture of the Day on October 29. |
 | 2026-10-30 | Dragonfly (spacecraft) (2021): this nuclear-powered rotorcraft will leapfrog across Titan, covering more ground in a single flight than the Curiosity rover has in twelve years — done (ep262) | Mission Files | NASA just opened a public campaign to send names to Titan aboard the craft. |
-| 2026-10-30 | Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet — parked (ep335) | Scale Breaker | NASA scientists just identified 13 specific craters on Mars where this ancient rock may have originated. |
+| 2026-10-30 | Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet — making (ep470) | Scale Breaker | NASA scientists just identified 13 specific craters on Mars where this ancient rock may have originated. |
 | 2026-11-01 | Pioneer 11 (1973): NASA's forgotten interstellar probe is coasting in dead silence toward a star in Aquila that it will not reach for four million years — dropped (ep309) | Scale Breaker | Follow-up to ep260, which broke out (1,268 views in 13 h, 25.4x the median) |
 | 2026-11-01 | Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas — parked (ep321) | Scale Breaker | Follow-up to ep260, which broke out (1,268 views in 13 h, 25.4x the median) |
 | 2026-11-02 | Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas — parked (ep305) | Space Got Weird | Follow-up to ep265, which broke out (1,155 views in 9 h, 25.1x the median) |
@@ -62,7 +62,7 @@ unexplained, not alien.
 | 2026-11-02 | Moon illusion (1962): the Moon on the horizon isn't magnified by Earth's atmosphere, but is an optical illusion created by the human brain that stays the exact same size in photos — parked (ep313) | Space Myths, Busted | Follow-up to ep266, which broke out (1,064 views in 12 h, 23.1x the median) |
 | 2026-11-02 | Scintillation (astronomy) (1953): stars don't actually flicker or pulsate in space, as their steady light is distorted entirely by turbulent pockets of air in Earth's atmosphere — parked (ep320) | Space Myths, Busted | Follow-up to ep266, which broke out (1,064 views in 12 h, 23.1x the median) |
 | 2026-11-02 | Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring — parked (ep308) | Space Got Weird | Featured on NASA APOD highlighting the volcano's recurring 1,100-mile-long cloud. |
-| 2026-11-03 | Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside — making (ep463) | Space Myths, Busted | Follow-up to ep263, which broke out (1,048 views in 12 h, 25.3x the median) |
+| 2026-11-03 | Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside — done (ep463) | Space Myths, Busted | Follow-up to ep263, which broke out (1,048 views in 12 h, 25.3x the median) |
 | 2026-11-03 | Supermassive black hole (1963): they do not sit exclusively at the hearts of galaxies, as some roam through intergalactic space entirely alone — dropped (ep328) | Space Myths, Busted | Follow-up to ep263, which broke out (1,048 views in 12 h, 25.3x the median) |
 | 2026-11-03 | Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory — parked (ep334) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
 | 2026-11-03 | Uranus: George III of the United Kingdom (1789): William Herschel attempted to honor his royal patron by naming his newly discovered planet 'Georgium Sidus', a choice rejected by international astronomers who preferred mythological names — done (ep452) | Space Got Weird | Follow-up to ep268, which broke out (1,031 views in 9 h, 24.8x the median) |
@@ -86,7 +86,7 @@ unexplained, not alien.
 | 2026-11-17 | Voyager 2 (1986): for forty years we believed Uranus had a bizarre, lopsided magnetic field, only to realize the probe caught the planet during a rare solar wind fluke — dropped (ep435) | Space Got Weird | A new study in Nature Astronomy this week re-evaluating the 1986 flyby data is trending. |
 | 2026-11-17 | Venera 3 (1965): the first human-made object to strike the surface of another planet, it likely crash-landed and was destroyed without sending a single bit of data | Mission Files | November 16 was the 59th anniversary of the launch of this pioneer mission. |
 | 2026-11-19 | Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body | Space Got Weird | NASA announced data confirming a first-of-its-kind stellar merger in the Andromeda galaxy. |
-| 2026-11-19 | Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years — making (ep465) | Scale Breaker | Featured on NASA's Astronomy Picture of the Day. |
+| 2026-11-19 | Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years — parked (ep465) | Scale Breaker | Featured on NASA's Astronomy Picture of the Day. |
 | 2026-11-20 | Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods | Mission Files | Featured in recent NASA news after researchers used its open data to accelerate pulsar discovery by a factor of one million. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
@@ -205,7 +205,7 @@ unexplained, not alien.
 - Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever — parked (ep399)
 - Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant — done (ep406)
 - Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light — done (ep425)
-- Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel — making (ep462)
+- Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel — parked (ep462)
 - Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma — making (ep466)
 
 ### Scale Breaker
@@ -247,7 +247,7 @@ unexplained, not alien.
 - Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way — parked (ep311)
 - CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered — parked (ep344)
 - Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge — done (ep260)
-- Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth — making (ep461)
+- Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth — dropped (ep461)
 - Earth (1970): the brilliant pale blue dot that is invisible from beyond our solar system without special optics — done (ep356)
 - Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness — parked (ep370)
 - Jupiter (1979): Jupiter's invisible magnetosphere is so vast that if visible from Earth, it would look twice as large as the full Moon — done (ep380)
@@ -267,7 +267,7 @@ unexplained, not alien.
 - Betelgeuse (2022): the iconic red supergiant is so vast that if swapped with our Sun, its surface would swallow the orbit of Jupiter — parked (ep453)
 - White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton — dropped (ep456)
 - Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere — making (ep458)
-- Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform — making (ep467)
+- Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform — done (ep467)
 
 ### Mission Files
 
@@ -306,7 +306,7 @@ unexplained, not alien.
 - Galileo (spacecraft) (1991): its main high-gain antenna failed to unfold in deep space, forcing engineers to rewrite mission software from Earth — parked (ep418)
 - Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space — done (ep421)
 - Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour — done (ep443)
-- Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers — making (ep459)
+- Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers — done (ep459)
 
 ### Space Got Weird
 
@@ -340,7 +340,7 @@ unexplained, not alien.
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose — parked (ep316)
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — dropped (ep424)
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — parked (ep293)
-- Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls — making (ep457)
+- Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls — done (ep457)
 - Moon (1969): Apollo astronauts discovered that lunar dust smells exactly like spent gunpowder and can cause moon hay fever — done (ep265)
 - Saturn (2013): extreme pressure in the atmosphere may create diamond rain, where 1,000 tons of diamonds are produced every year — dropped (ep267)
 - Uranus (1781): discoverer William Herschel originally wanted to name the newly found seventh planet after King George III — done (ep268)
@@ -379,9 +379,9 @@ unexplained, not alien.
 - Apollo 11 (1969): computer overloads and a boulder-strewn landing zone forced astronauts to fly manually, touching down on the Moon with under 30 seconds of fuel left — dropped (ep180)
 - 2020 QG (2020): an asteroid zoomed just 1,830 miles above Earth, making it the closest non-impacting flyby recorded at the time, detected after it passed — done (ep203)
 - 2023 DZ2 (2023): a city-bus-sized asteroid that passed halfway between Earth and the Moon, discovered just days before its closest approach — dropped (ep377)
-- STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew — making (ep464)
-- 2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it — parked (ep340)
-- Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball — parked (ep310)
+- STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew — dropped (ep464)
+- 2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it — making (ep471)
+- Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball — making (ep469)
 - International Space Station (2022): astronauts had to fire the station's thrusters to dodge a piece of space junk traveling at 17,500 mph — dropped (ep270)
 - Apollo 11 (1969): a broken switch nearly stranded the astronauts on the Moon forever until Buzz Aldrin jammed a felt-tip pen into the circuit breaker — dropped (ep297)
 - Skylab 1 (1973): launch damage tore off the station's heat shield and solar panels, forcing astronauts to deploy an emergency parasol in space to prevent it from melting — dropped (ep433)
@@ -437,4 +437,4 @@ unexplained, not alien.
 - Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases — dropped (ep416)
 - Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion — dropped (ep437)
 - Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium — done (ep446)
-- Polaris (2018): the iconic North Star is actually a triple star system dominated by a supergiant four times more massive than the Sun — making (ep468)
+- Polaris (2018): the iconic North Star is actually a triple star system dominated by a supergiant four times more massive than the Sun — done (ep468)

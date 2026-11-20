@@ -105,24 +105,10 @@ beats:
   - sensitive tube
   sfx: whoosh
   visual:
-    source: url
-    url: https://live.staticflickr.com/2650/4253873699_46687554bb_b.jpg
-    credit:
-      source: Nasa via Openverse
-      title: Passing of Stan Lebar
-      credit: NASA Goddard Photo and Video
-      license: CC BY 2.0
-      url: https://www.flickr.com/photos/24662369@N07/4253873699
-    fallbacks:
-    - color
-    motion: pan_left
-    focus_x: 0.4
-    focus_y: 0.35
-    box:
-    - 0.17
-    - 0.16
-    - 0.62
-    - 0.61
+    reuse: 3
+    motion: zoom_in
+    focus_x: 0.52
+    focus_y: 0.55
 - text: The live video feed to Earth went black almost immediately.
   emphasis:
   - went black

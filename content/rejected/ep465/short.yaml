@@ -1,0 +1,182 @@
+id: ep465
+title: The Giant Cosmic Tower That Is Erasing Itself
+series: Scale Breaker
+format: v3
+description: The iconic Horsehead Nebula is being slowly destroyed by nearby stellar radiation. Discover how this giant cosmic
+  structure will disappear within five million years.
+sources:
+- https://science.nasa.gov/asset/hubble/the-horsehead-nebula/
+- https://www.esa.int/articles/about-us/directorates/science/webb/webb-captures-iconic-horsehead-nebula-in-unprecedented-detail
+- https://www.eso.org/public/australia/news/eso0202/
+- https://www.space.com/stargazing/astrophotography/astrophotographer-spends-115-hours-capturing-horsehead-nebula-in-striking-detail-with-backyard-telescope
+- https://en.wikipedia.org/wiki/Horsehead_Nebula
+- https://www.astronomy.com/observing/101-must-see-cosmic-objects-the-horsehead-nebula/
+- https://www.bbc.co.uk/news/world-us-canada-40879870
+hashtags:
+- '#space'
+- '#nebula'
+- '#orion'
+tags:
+- Horsehead Nebula
+- Orion
+- astronomy
+- Williamina Fleming
+- space
+- nebula
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A giant cosmic tower in Orion is actively erasing itself.
+  emphasis:
+  - actively erasing
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/46/Horsehead-Hubble.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Horsehead-Hubble.jpg
+      credit: NASA, NOAO, ESA and The Hubble Heritage Team STScI/AURA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Horsehead-Hubble.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.15
+    - 0.05
+    - 0.85
+    - 0.8
+- text: This iconic silhouette's the Horsehead Nebula, roughly 1,400 light-years away.
+  emphasis:
+  - Horsehead Nebula
+  - 1,400 light-years
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/IC_434_%2850982686502%29.jpg/1920px-IC_434_%2850982686502%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: IC 434 (50982686502).jpg
+      credit: Carsten Frenzl from Deutschland
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:IC_434_(50982686502).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.54
+    focus_y: 0.57
+    card:
+      kind: fact
+      big: 1,400 light-years
+      small: Distance from Earth
+- text: A former maid named Williamina Fleming first discovered it in 1888.
+  emphasis:
+  - Williamina Fleming
+  - '1888'
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Williamina_Paton_Stevens_Fleming_circa_1890s.jpg/1280px-Williamina_Paton_Stevens_Fleming_circa_1890s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Williamina Paton Stevens Fleming circa 1890s.jpg
+      credit: Unknown authorUnknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Williamina_Paton_Stevens_Fleming_circa_1890s.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.48
+    focus_y: 0.35
+    box:
+    - 0.35
+    - 0.22
+    - 0.61
+    - 0.48
+    card:
+      kind: dateline
+      big: '1888'
+      small: Harvard Observatory
+- text: The dense cloud blocks light from glowing red hydrogen gas behind it.
+  emphasis:
+  - dense cloud
+  - hydrogen gas
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Dark_Horsehead_Nebula_in_emission_nebula_IC_434%2C_in_the_constellation_Orion.jpg/1280px-Dark_Horsehead_Nebula_in_emission_nebula_IC_434%2C_in_the_constellation_Orion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Dark Horsehead Nebula in emission nebula IC 434, in the constellation Orion.jpg
+      credit: Carsten Frenzl from Obernburg, Deutschland
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Dark_Horsehead_Nebula_in_emission_nebula_IC_434,_in_the_constellation_Orion.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.56
+- text: Nearby massive stars are now blasting the pillar with ultraviolet radiation.
+  emphasis:
+  - ultraviolet radiation
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/5a/Horsehead_Nebula_in_narrowband_and_visible_light.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Horsehead Nebula in narrowband and visible light.png
+      credit: Badunkie
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Horsehead_Nebula_in_narrowband_and_visible_light.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+- text: Radiation will completely vaporize the 3-light-year structure within five million years.
+  emphasis:
+  - vaporize
+  - five million years
+  sfx: riser
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Planets_Beware-_NASA_Unburies_Danger_Zones_of_Star_Cluster_%282024-cygob2_-_cygob2_lg%29.jpg/1920px-Planets_Beware-_NASA_Unburies_Danger_Zones_of_Star_Cluster_%282024-cygob2_-_cygob2_lg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Planets Beware- NASA Unburies Danger Zones of Star Cluster (2024-cygob2 - cygob2 lg).jpg
+      credit: 'X-ray: NASA/CXC/SAO/J. Drake et al, IR: NASA/JPL-Caltech/Spitzer; Image Processing: NASA/CXC/SAO/N. Wolk'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Planets_Beware-_NASA_Unburies_Danger_Zones_of_Star_Cluster_(2024-cygob2_-_cygob2_lg).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.35
+- text: Only newborn stars will remain to replace the giant.
+  emphasis:
+  - newborn stars
+  sfx: pop
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 3 LIGHT-YEARS TALL, VANISHING

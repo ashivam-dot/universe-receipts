@@ -1,0 +1,153 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-20T17:22:55+05:30",
+      "check": {
+        "duration": 29.57,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Intriguing premise about spy satellites and shuttle damage right away.",
+        "clarity": "Explanations flow logically from the launch acoustic shockwave to the inspection solution.",
+        "payoff": "Delivers on how the secret satellite was used to verify heat tile safety.",
+        "visuals": "Beat 4 inadvertently shows the tragic Challenger explosion plume rather than ignition dynamics.",
+        "loop": "The final line connects directly back into the opening hook seamlessly."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "shows the Challenger disaster explosion smoke plume instead of launch ignition shockwaves"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It builds high dramatic tension around a historic space mission problem far more effectively than ep452.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-20T17:25:47+05:30",
+      "check": {
+        "duration": 30.9,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": 1.1,
+        "warnings": [
+          "true peak 1.1 dBFS is above -1"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong mention of espionage to fix space hardware.",
+        "clarity": "Logical flow from launch mechanics to secret solution.",
+        "payoff": "The astronaut's visual confirmation adds a great personal twist.",
+        "visuals": "Accurate archival footage and specific mission diagrams used.",
+        "loop": "Ends and begins on the central theme of spy satellites."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more compelling historical mystery compared to the recent Saturn rings trivia.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-20T17:27:25+05:30",
+      "check": {
+        "duration": 30.9,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": 1.1,
+        "warnings": [
+          "true peak 1.1 dBFS is above -1"
+        ],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The concept is strong but needs a more aggressive opening.",
+        "clarity": "Narrative flow is logical and successfully explains complex physics.",
+        "payoff": "The reveal is historically interesting but lacks a major twist.",
+        "visuals": "Excellent use of high-quality, period-accurate archival imagery.",
+        "loop": "Circular logic works but the transition feels slightly mechanical."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A secret spy satellite was the only way to save the first space shuttle launch.",
+        "Beat 9: Astronaut John Young actually spotted the secret satellite watching him from orbit.",
+        "Beat 10: The first shuttle survived only because of this secret spy satellite."
+      ],
+      "better_than_last": "This episode adds a compelling human element that was missing from recent planetary discovery facts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, loop; true peak 1.1 dBFS is above -1",
+  "rejected_at": "2026-11-20T17:27:25+05:30"
+}

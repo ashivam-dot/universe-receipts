@@ -1,0 +1,150 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-20T05:12:44+05:30",
+      "check": {
+        "duration": 27.7,
+        "words": 79,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.8,
+        "warnings": [],
+        "speech_differences": [
+          "'its' heard as 'this' after 'years to build'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong, time-specific opening hook.",
+        "clarity": "Narrative remains easy to follow.",
+        "payoff": "X-ray echo provides a solid reveal.",
+        "visuals": "Beat 7 is cluttered and text-heavy.",
+        "loop": "The cliffhanger transitions perfectly back to the start."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Multi-panel graphic with illegible small text and unmentioned asteroid theory."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Features a more active and recent discovery than the Saturn or Uranus episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-20T05:14:15+05:30",
+      "check": {
+        "duration": 27.7,
+        "words": 79,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.8,
+        "warnings": [],
+        "speech_differences": [
+          "'its' heard as 'this' after 'years to build'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Direct and informative, it establishes the subject matter immediately.",
+        "clarity": "The script clearly explains how we can see an eruption that happened centuries ago.",
+        "payoff": "The reveal of the massive energy scale provides a satisfying and mind-bending conclusion.",
+        "visuals": "Excellent use of authentic telescope imagery, though the comparison in beat 3 is small.",
+        "loop": "The last line ends on a new thought and doesn't lead back into the opening hook."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: It hasn't been that long since"
+      ],
+      "better_than_last": "The use of real Event Horizon Telescope and Chandra X-ray imagery provides more scientific authenticity than the dinosaur episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-20T17:21:06+05:30",
+      "check": {
+        "duration": 27.3,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial premise grabs immediate attention.",
+        "clarity": "Logical sequence makes the concept easy to follow.",
+        "payoff": "The sudden energy outburst provides a solid conclusion.",
+        "visuals": "Beat 7 incorrectly shows a star and planet.",
+        "loop": "Repeated phrase seamlessly connects the ending to the start."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows a star and orbiting planet visual rather than a supermassive black hole flare."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Features a cleaner audio loop than ep455.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-20T17:21:06+05:30"
+}

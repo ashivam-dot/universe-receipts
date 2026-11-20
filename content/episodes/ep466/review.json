@@ -1,0 +1,65 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-20T17:41:09+05:30",
+      "check": {
+        "duration": 26.13,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'vacuum the probe'",
+          "'(nothing)' heard as 'that' after 'solar system now'",
+          "'s' heard as 'is' after 'persistent soundtrack it'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The mystery of a vibrating void is a solid attention-grabber.",
+        "clarity": "The sequence from the sensor failure to the solar reveal is logical.",
+        "payoff": "The conclusion is a bit poetic; a more concrete fact would land harder.",
+        "visuals": "Visual interest is high, but the repetition and one abstract map hinder quality.",
+        "loop": "The return to the start is seamless and grammatically consistent."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Duplicate image from beat 2; does not illustrate a silent vacuum."
+        },
+        {
+          "beat": 6,
+          "problem": "The graphic looks like a planetary heat map rather than interstellar plasma."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: This hum is the sound of interstellar gas vibrating.",
+        "Beat 9: It confirms that space is never truly empty."
+      ],
+      "better_than_last": "This episode uses more relevant technical diagrams to explain the science than the Saturn rings short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

@@ -1,0 +1,218 @@
+id: ep467
+title: The Hidden Two-Mile Mountains inside Saturn's Rings
+series: Scale Breaker
+format: v3
+description: NASA's Cassini spacecraft revealed that Saturn's paper-thin rings contain massive vertical ice peaks reaching
+  over two miles high.
+sources:
+- https://en.wikipedia.org/wiki/Rings_of_Saturn
+- https://science.nasa.gov/mission/cassini/science/rings/
+- https://www.planetary.org/blogs/emily-lakdawalla/2009/2084.html
+- http://www.space.com/scienceastronomy/090921-new-saturn-ring-images.html
+- https://web.archive.org/web/20101215155552/http://news.nationalgeographic.com/news/2010/12/101213-saturn-rings-moon-ice-jupiter-science-space/
+hashtags:
+- '#space'
+- '#saturn'
+- '#nasa'
+tags:
+- Saturn
+- rings of Saturn
+- Cassini
+- space mystery
+- astronomy
+- equinox
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+  say:
+    drag: drag
+beats:
+- text: Saturn's paper-thin rings hide icy mountains two miles tall.
+  emphasis:
+  - paper-thin rings
+  - two miles tall
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/PIA17172_Saturn_eclipse_mosaic_bright_crop.jpg/3840px-PIA17172_Saturn_eclipse_mosaic_bright_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA17172 Saturn eclipse mosaic bright crop.jpg
+      credit: NASA / JPL-Caltech / Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA17172_Saturn_eclipse_mosaic_bright_crop.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.26
+    - 0.28
+    - 0.74
+    - 0.72
+    card:
+      kind: fact
+      big: 2 MILES TALL
+      small: Hidden icy peaks in Saturn's rings
+- text: Astronomers long believed the rings were perfectly smooth, thin sheets of ice.
+  emphasis:
+  - perfectly smooth
+  - thin sheets
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/51/Saturn%27s_Rings_Edge-on_%281995-31-320%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Saturn's Rings Edge-on (1995-31-320).jpg
+      credit: 'Credit: Phil Nicholson (Cornell University) and NASA'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Saturn%27s_Rings_Edge-on_(1995-31-320).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.56
+    focus_y: 0.49
+    box:
+    - 0.28
+    - 0.27
+    - 0.91
+    - 0.72
+- text: NASA's Cassini spacecraft observed Saturn during a rare equinox in 2009.
+  emphasis:
+  - Cassini spacecraft
+  - rare equinox
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Saturn_-_July_18_2009_%2837311217562%29.jpg/960px-Saturn_-_July_18_2009_%2837311217562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Saturn - July 18 2009 (37311217562).jpg
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Saturn_-_July_18_2009_(37311217562).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.65
+    focus_y: 0.48
+    card:
+      kind: dateline
+      big: AUGUST 2009
+      small: Saturn Equinox
+- text: Sunlight hit the ring plane edge-on, casting sudden, towering shadows.
+  emphasis:
+  - edge-on
+  - towering shadows
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Saturn_-_August_12_2009_%2830604990692%29.jpg/1280px-Saturn_-_August_12_2009_%2830604990692%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Saturn - August 12 2009 (30604990692).jpg
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Saturn_-_August_12_2009_(30604990692).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.48
+    focus_y: 0.45
+- text: Those shadows were cast by massive vertical peaks of crushed ice.
+  emphasis:
+  - vertical peaks
+  - crushed ice
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/PIA11668_The_Tallest_Peaks.jpg/960px-PIA11668_The_Tallest_Peaks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA11668 The Tallest Peaks.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA11668_The_Tallest_Peaks.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.0
+    - 0.35
+    - 1.0
+    - 0.55
+    card:
+      kind: fact
+      big: 4 KILOMETERS
+      small: Peak height of vertical ring clumps
+- text: Tiny embedded moons drag the surrounding material into giant waves.
+  emphasis:
+  - embedded moons
+  - giant waves
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/PIA08319_Daphnis_in_Keeler_Gap.jpg/1280px-PIA08319_Daphnis_in_Keeler_Gap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA08319 Daphnis in Keeler Gap.jpg
+      credit: NASA/JPL/Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA08319_Daphnis_in_Keeler_Gap.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.44
+    focus_y: 0.55
+- text: These mountain-sized ice chunks constantly smash, pile up, and reform.
+  emphasis:
+  - constantly smash
+  - reform
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/25/A_Ring_propeller_%22Santos-Dumont%22_%28PIA_21433%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: A Ring propeller "Santos-Dumont" (PIA 21433).jpg
+      credit: NASA / Jet Propulsion Lab-Caltech / Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:A_Ring_propeller_%22Santos-Dumont%22_(PIA_21433).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.22
+    - 0.2
+    - 0.73
+    - 0.5
+- text: From a distance, all that violent chaos completely disappears.
+  emphasis:
+  - violent chaos
+  - completely disappears
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: HIDDEN ICY MOUNTAINS

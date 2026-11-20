@@ -1,0 +1,169 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-20T17:23:23+05:30",
+      "check": {
+        "duration": 32.16,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing concept, though the opening statement is somewhat passive.",
+        "clarity": "Clear narrative arc with one digestible idea per frame.",
+        "payoff": "The erosion timeline explains the premise but offers little twist.",
+        "visuals": "Imagery is relevant, but beat 2 features an awkward inset border.",
+        "loop": "Seamlessly transitions the concluding sentence into the start."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The image appears as a bordered inset photo rather than filling the vertical screen."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: A giant cosmic tower in Orion is actively erasing itself into nothing.",
+        "Beat 6: Radiation will completely vaporize the three-light-year structure within five million years."
+      ],
+      "better_than_last": "It weaves the historical detail of Williamina Fleming smoothly into the scientific narrative.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-20T17:28:04+05:30",
+      "check": {
+        "duration": 27.23,
+        "words": 74,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'williamina' heard as 'wilhelmina' after 'harvard maid named'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 5,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The 'erasing itself' mystery combined with the massive scale is an immediate thumb-stopper.",
+        "clarity": "The script does an excellent job of explaining exactly why the nebula is disappearing in simple steps.",
+        "payoff": "The timeline and the eventual fate are satisfying, though the 'newborn stars' end is a bit common in space content.",
+        "visuals": "The high-contrast infrared and ultraviolet imagery from JWST is stunning and perfectly clear.",
+        "loop": "The final sentence ends with a hard stop that doesn't flow back into the beginning of the hook."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Williamina",
+          "respelling": "wil luh mee nuh"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: Leaving only newborn stars to replace"
+      ],
+      "better_than_last": "This Short's use of high-definition infrared visuals and a specific historical narrative about Williamina Fleming makes it more compelling than the broader planetary facts in the Saturn episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-20T17:31:49+05:30",
+      "check": {
+        "duration": 26.17,
+        "words": 74,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -3.5,
+        "warnings": [],
+        "speech_differences": [
+          "'williamina' heard as 'wilhelmina' after 'former maid named'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of an erasing tower is immediately intriguing.",
+        "clarity": "Logical transition from historical discovery to astrophysics.",
+        "payoff": "The long timeline for destruction lacks immediate punch.",
+        "visuals": "Color discrepancies and generic assets harm immersion.",
+        "loop": "Ending on giant connects well to the start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "image is grayscale while narration describes glowing red gas."
+        },
+        {
+          "beat": 6,
+          "problem": "image is a generic starfield, not the Horsehead Nebula."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Williamina",
+          "respelling": "will lee uh mee nuh"
+        }
+      ],
+      "rewrite": [
+        "Beat 6: The massive tower is doomed, vaporizing completely within five million years.",
+        "Beat 7: The silhouette will vanish, leaving only newborn stars behind."
+      ],
+      "better_than_last": "Features a more compelling historical discovery angle than previous technical planetary facts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals; 2 frame problems",
+  "rejected_at": "2026-11-20T17:31:49+05:30"
+}

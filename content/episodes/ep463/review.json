@@ -1,0 +1,100 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-20T17:18:01+05:30",
+      "check": {
+        "duration": 25.4,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'karl' heard as 'carl' after 'albert einstein and'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The paradoxical premise grabs immediate attention.",
+        "clarity": "Clearly contrasts small and supermassive black holes step by step.",
+        "payoff": "Delivers a satisfying explanation for why massive event horizons feel seamless.",
+        "visuals": "Beat 4 relies on a dense technical chart that is unreadable on phone screens.",
+        "loop": "The final line flows smoothly right back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Contains a dense technical plot with small text that is unreadable on mobile devices."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It explains complex theoretical physics through an engaging first-person scenario better than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-20T17:19:46+05:30",
+      "check": {
+        "duration": 27.87,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.7,
+        "warnings": [],
+        "speech_differences": [
+          "'karl' heard as 'carl' after 'albert einstein and'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong counter-intuitive statement backed up by a clean and intriguing text overlay.",
+        "clarity": "Explains the physics of event horizon crossing and tidal forces in simple, progressive steps.",
+        "payoff": "Fully satisfies the hook by explaining why supermassive black hole horizons are surprisingly smooth.",
+        "visuals": "High quality images and diagrams, though beat 4 uses a technical paper schematic.",
+        "loop": "The final thought on smooth gravity flows perfectly back into the opening claim about not noticing the fall."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short explains a complex physics concept more effectively than recent episodes by clearly contrasting small versus supermassive black holes.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

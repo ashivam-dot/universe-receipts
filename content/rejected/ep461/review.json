@@ -1,0 +1,192 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-20T05:16:28+05:30",
+      "check": {
+        "duration": 30.76,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'earths' heard as 'earth' after 'once swallowed 3'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong scale comparison effectively stops the swipe immediately.",
+        "clarity": "Logical progression from size to the mechanics of survival.",
+        "payoff": "The cannibalism concept is intriguing but lacks a final punch.",
+        "visuals": "Multiple frames are too technical or poorly framed for mobile.",
+        "loop": "Functional transition that would benefit from a direct verbal bridge."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Infographic text and watermarks are unreadable on phone screens."
+        },
+        {
+          "beat": 5,
+          "problem": "Large black void in the upper left indicates poor cropping."
+        },
+        {
+          "beat": 6,
+          "problem": "Three-panel comparison is too small for mobile viewers to discern."
+        },
+        {
+          "beat": 7,
+          "problem": "Image resolution is noticeably low and appears blurry."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "Earths",
+          "respelling": "erths"
+        }
+      ],
+      "rewrite": [
+        "Beat 6: Change to 'It survives by eating smaller passing storms.'",
+        "Beat 9: Change to 'Which is how this giant storm once swallowed...'"
+      ],
+      "better_than_last": "The predatory metaphor provides a more visceral hook than the dinosaur comparison in episode 455.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-20T17:23:13+05:30",
+      "check": {
+        "duration": 30.73,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong scale concept immediately grabs attention.",
+        "clarity": "Logical structure with clear single-idea beats.",
+        "payoff": "Ending feels abrupt without a strong final reveal.",
+        "visuals": "Includes text-heavy charts and background text clutter.",
+        "loop": "Seamlessly transitions into the starting line."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Frame displays a complex text chart unreadable on mobile screens."
+        },
+        {
+          "beat": 9,
+          "problem": "Image features prominent off-topic background text."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 9: Change to focus on the storm's projected final disappearance timeline.",
+        "Beat 10: Change to 'Which explains how a shrinking storm once swallowed' to heighten the final payoff."
+      ],
+      "better_than_last": "This script establishes scale more effectively in the opening beat than episode 455.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-20T17:27:11+05:30",
+      "check": {
+        "duration": 32.73,
+        "words": 91,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The scale comparison of three Earths is a powerful, immediate visual and verbal hook.",
+        "clarity": "The script clearly explains the storm's mechanics and why its size is changing over time.",
+        "payoff": "The fact that this seemingly permanent feature could vanish in decades provides a solid ending.",
+        "visuals": "High-quality subject matter, though several frames are cluttered with scientific text or low-resolution crops.",
+        "loop": "The sentence structure flows perfectly from the last beat back into the first."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Frame contains small, unreadable scientific labels and citations that clutter the mobile screen."
+        },
+        {
+          "beat": 8,
+          "problem": "Scientific composite with unreadable text and low visual clarity for a vertical format."
+        },
+        {
+          "beat": 9,
+          "problem": "The image is pixelated and blurry compared to the high-detail shots used in earlier beats."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The scale-based hook is more immediate and visually evocative than the dinosaur comparison used in episode 455.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 3 frame problems",
+  "rejected_at": "2026-11-20T17:27:11+05:30"
+}
