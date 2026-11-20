@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-20T11:05:56+05:30",
+  "updated_at": "2026-11-20T17:15:00+05:30",
   "day": 50,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7VQ6W8DH8H9B3Q0Y7ZJS45R",
+    "id": "ta-01M7WBT2HFEB523B0RQ1PB1P5R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-20T11:05:08+05:30",
-    "started_at_utc": "2026-11-20T05:35:08+00:00",
-    "seconds": 48
+    "started_at": "2026-11-20T17:05:16+05:30",
+    "started_at_utc": "2026-11-20T11:35:16+00:00",
+    "seconds": 584
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 3.2
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.8
+      "seconds": 2.9
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.5
+      "seconds": 0.6
     },
     {
       "name": "on youtube",
@@ -47,31 +47,121 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 4.1
+      "seconds": 4.4
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep460 ready; ep461 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep462 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 11.7
+      "detail": "ep463 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep464 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep465 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 16.8
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "135 subscribers",
+      "seconds": 19.6
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Processed 10 Short reviews, evaluating hook efficiency, mid-script spec drag, and loop wrap-ups against channel medians.",
+      "seconds": 417.8
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 2.5
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "1 added",
+      "seconds": 15.8
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "4 added",
+      "seconds": 50.3
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-050.md",
+      "seconds": 3.0
+    },
+    {
+      "name": "start ep457",
+      "ok": true,
+      "detail": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
+      "seconds": 2.3
+    },
+    {
+      "name": "start ep458",
+      "ok": true,
+      "detail": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
+      "seconds": 2.4
+    },
+    {
+      "name": "start ep459",
+      "ok": true,
+      "detail": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
+      "seconds": 2.3
+    },
+    {
+      "name": "start ep461",
+      "ok": true,
+      "detail": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
+      "seconds": 2.2
+    },
+    {
+      "name": "start ep462",
+      "ok": true,
+      "detail": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
+      "seconds": 1.3
     },
     {
       "name": "start ep463",
       "ok": true,
       "detail": "Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside",
-      "seconds": 0.6
+      "seconds": 1.3
     },
     {
       "name": "start ep464",
       "ok": true,
       "detail": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
-      "seconds": 0.5
+      "seconds": 1.5
     },
     {
       "name": "start ep465",
       "ok": true,
       "detail": "Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years",
-      "seconds": 0.5
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep466",
+      "ok": true,
+      "detail": "Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep467",
+      "ok": true,
+      "detail": "Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep468",
+      "ok": true,
+      "detail": "Polaris (2018): the iconic North Star is actually a triple star system dominated by a supergiant four times more massive than the Sun",
+      "seconds": 1.3
     }
   ],
   "errors": [
@@ -79,9 +169,9 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep461 stopped on Gemini's free quota; it resumes in a later run",
-    "ep462 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "ep463 stopped on Gemini's free quota; it resumes in a later run",
+    "ep464 stopped on Gemini's free quota; it resumes in a later run",
+    "ep465 stopped on Gemini's free quota; it resumes in a later run",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -89,17 +179,19 @@
     "in_buffer": 10,
     "waiting": 27,
     "target": 14,
-    "making": [
+    "making": [],
+    "remote": [
       "ep457",
       "ep458",
       "ep459",
       "ep461",
-      "ep462"
-    ],
-    "remote": [
+      "ep462",
       "ep463",
       "ep464",
-      "ep465"
+      "ep465",
+      "ep466",
+      "ep467",
+      "ep468"
     ]
   },
   "queue": [
@@ -320,31 +412,25 @@
   ],
   "made": [
     {
-      "id": "ep460",
-      "outcome": "ready",
-      "topic": "Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed",
-      "title": "The First Craft on Mars Carried Skis",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795132461/universereceipts/ep460-f77b654e.mp4"
-    },
-    {
-      "id": "ep461",
+      "id": "ep463",
       "outcome": "unfinished",
-      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
+      "topic": "Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep462",
+      "id": "ep464",
       "outcome": "unfinished",
-      "topic": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
+      "topic": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep465",
+      "outcome": "unfinished",
+      "topic": "Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -352,36 +438,116 @@
   ],
   "spawned": [
     {
+      "id": "ep457",
+      "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
+      "call_id": "fc-01M7WCBQMR09PEKMNYTF2VWSN8"
+    },
+    {
+      "id": "ep458",
+      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
+      "call_id": "fc-01M7WCBSYKW3F9PX51CXANB2D0"
+    },
+    {
+      "id": "ep459",
+      "topic": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
+      "call_id": "fc-01M7WCBW582CV318D0MP3EQ2FH"
+    },
+    {
+      "id": "ep461",
+      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
+      "call_id": "fc-01M7WCBYB7FJHZS44VM1KAD76C"
+    },
+    {
+      "id": "ep462",
+      "topic": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
+      "call_id": "fc-01M7WCBZMJKSG2XAAPNVRQYW3C"
+    },
+    {
       "id": "ep463",
       "topic": "Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside",
-      "call_id": "fc-01M7VQ8CT5DENWD3VGTYCQNQKQ"
+      "call_id": "fc-01M7WCC0XX7Q5DB3K0TDJTXZDK"
     },
     {
       "id": "ep464",
       "topic": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
-      "call_id": "fc-01M7VQ8DAVESRGCBHN3NVGPA4V"
+      "call_id": "fc-01M7WCC2BDSZTK4W1AE60KJ323"
     },
     {
       "id": "ep465",
       "topic": "Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years",
-      "call_id": "fc-01M7VQ8DV62Z76EHY6C2PEFFZX"
+      "call_id": "fc-01M7WCC3KJATPR5D20M9BXZ62N"
+    },
+    {
+      "id": "ep466",
+      "topic": "Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma",
+      "call_id": "fc-01M7WCC4VH2MQPGVEAW9JZP8DH"
+    },
+    {
+      "id": "ep467",
+      "topic": "Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform",
+      "call_id": "fc-01M7WCC63B2XQCJ41F2J5N1KBE"
+    },
+    {
+      "id": "ep468",
+      "topic": "Polaris (2018): the iconic North Star is actually a triple star system dominated by a supergiant four times more massive than the Sun",
+      "call_id": "fc-01M7WCC7AQND0E2MHR0YP5D6QJ"
     }
   ],
   "in_cloud": [
     {
+      "id": "ep457",
+      "topic": "Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls",
+      "spawned_at": "2026-11-20T17:14:39+05:30"
+    },
+    {
+      "id": "ep458",
+      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
+      "spawned_at": "2026-11-20T17:14:42+05:30"
+    },
+    {
+      "id": "ep459",
+      "topic": "Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers",
+      "spawned_at": "2026-11-20T17:14:44+05:30"
+    },
+    {
+      "id": "ep461",
+      "topic": "Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth",
+      "spawned_at": "2026-11-20T17:14:46+05:30"
+    },
+    {
+      "id": "ep462",
+      "topic": "Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel",
+      "spawned_at": "2026-11-20T17:14:47+05:30"
+    },
+    {
       "id": "ep463",
       "topic": "Event horizon (1916): you would not instantly notice crossing the edge of a giant black hole, feeling no crushing forces until deep inside",
-      "spawned_at": "2026-11-20T11:05:50+05:30"
+      "spawned_at": "2026-11-20T17:14:49+05:30"
     },
     {
       "id": "ep464",
       "topic": "STS-1 (1981): NASA's first shuttle launch created a shockwave so unexpectedly violent it warped the craft's flight controls and nearly doomed the crew",
-      "spawned_at": "2026-11-20T11:05:50+05:30"
+      "spawned_at": "2026-11-20T17:14:50+05:30"
     },
     {
       "id": "ep465",
       "topic": "Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years",
-      "spawned_at": "2026-11-20T11:05:51+05:30"
+      "spawned_at": "2026-11-20T17:14:51+05:30"
+    },
+    {
+      "id": "ep466",
+      "topic": "Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma",
+      "spawned_at": "2026-11-20T17:14:53+05:30"
+    },
+    {
+      "id": "ep467",
+      "topic": "Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform",
+      "spawned_at": "2026-11-20T17:14:54+05:30"
+    },
+    {
+      "id": "ep468",
+      "topic": "Polaris (2018): the iconic North Star is actually a triple star system dominated by a supergiant four times more massive than the Sun",
+      "spawned_at": "2026-11-20T17:14:55+05:30"
     }
   ],
   "published": [],
@@ -389,36 +555,34 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 30,
+    "calls": 15,
     "by_model": {
-      "gemini-3.8-flash": 7,
-      "gemini-3.5-flash-lite": 11,
-      "gemini-3.6-flash": 5,
-      "gemini-3-flash-preview": 6,
-      "gemini-3.5-flash": 1
+      "gemini-3.6-flash": 3,
+      "gemini-3-flash-preview": 5,
+      "gemini-3.5-flash-lite": 7
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 8,
+    "modal": 3,
     "runner": 0
   },
-  "daily_done": "2026-11-19",
+  "daily_done": "2026-11-20",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 12.14,
+    "metered": 12.3,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 132,
+    "cloud": 130,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 15.86
+    "modal_credit_left": 15.7
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 34,
+  "open_topics": 36,
   "parked_topics": 59
 }

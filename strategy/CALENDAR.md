@@ -87,6 +87,7 @@ unexplained, not alien.
 | 2026-11-17 | Venera 3 (1965): the first human-made object to strike the surface of another planet, it likely crash-landed and was destroyed without sending a single bit of data | Mission Files | November 16 was the 59th anniversary of the launch of this pioneer mission. |
 | 2026-11-19 | Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body | Space Got Weird | NASA announced data confirming a first-of-its-kind stellar merger in the Andromeda galaxy. |
 | 2026-11-19 | Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years — making (ep465) | Scale Breaker | Featured on NASA's Astronomy Picture of the Day. |
+| 2026-11-20 | Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods | Mission Files | Featured in recent NASA news after researchers used its open data to accelerate pulsar discovery by a factor of one million. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -109,6 +110,7 @@ unexplained, not alien.
 | Dec 25 | James Webb Space Telescope (2021): on Christmas Day, NASA launched a $10 billion observatory into deep space to look back to the beginning of time | Mission Files |
 | Dec 27 | Allan Hills 84001 (1984): on Dec 27, scientists found a meteorite from Mars in Antarctica that later launched a global debate over alien microfossils | Space Got Weird |
 | Dec 27 | Johannes Kepler (1571): he discovered that planets don't move in perfect circles, but in 'squashed' ovals called ellipses | Space Myths, Busted |
+| Dec 28 | Neptune (1612): on Dec 28, Galileo recorded Neptune in his notebook, but mistook the distant planet for a faint star | Space Got Weird |
 | Dec 30 | Edwin Hubble (1924): on this day, the astronomer officially proved that the 'nebula' Andromeda was actually an entire galaxy outside our own | Scale Breaker |
 | Jan 2 | Luna 1 (1959): on Jan 2, humanity launched the first probe meant to strike the Moon, but a timing glitch made it miss and become the first craft to orbit the Sun | Near Misses |
 | Jan 4 | Spirit (rover) (2004): on Jan 4, NASA's Spirit rover slammed onto Mars wrapped in protective airbags, surviving a mission that lasted 20 times longer than intended | Mission Files |
@@ -204,6 +206,7 @@ unexplained, not alien.
 - Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant — done (ep406)
 - Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light — done (ep425)
 - Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel — making (ep462)
+- Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma — making (ep466)
 
 ### Scale Breaker
 
@@ -264,6 +267,7 @@ unexplained, not alien.
 - Betelgeuse (2022): the iconic red supergiant is so vast that if swapped with our Sun, its surface would swallow the orbit of Jupiter — parked (ep453)
 - White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton — dropped (ep456)
 - Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere — making (ep458)
+- Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform — making (ep467)
 
 ### Mission Files
 
@@ -433,3 +437,4 @@ unexplained, not alien.
 - Comet (1950): comets are not burning meteors, but dirty snowballs composed of primitive ice, dust, and toxic frozen gases — dropped (ep416)
 - Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion — dropped (ep437)
 - Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium — done (ep446)
+- Polaris (2018): the iconic North Star is actually a triple star system dominated by a supergiant four times more massive than the Sun — making (ep468)
