@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-21T17:19:44+05:30",
+  "updated_at": "2026-11-21T23:06:07+05:30",
   "day": 51,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7YY6S00S0GZ3YW44RVXR18R",
+    "id": "ta-01M7ZJSZ42P31FN4GPFE1AHFXR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-21T17:05:13+05:30",
-    "started_at_utc": "2026-11-21T11:35:13+00:00",
-    "seconds": 872
+    "started_at": "2026-11-21T23:05:09+05:30",
+    "started_at_utc": "2026-11-21T17:35:09+00:00",
+    "seconds": 58
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 1.2
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.4
+      "seconds": 2.0
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.6
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -47,121 +47,37 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 4.4
+      "seconds": 3.9
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep474 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep475 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 11.0
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "134 subscribers",
-      "seconds": 7.7
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Updated performance medians and promoted the 'Open Friction' ending rule following evidence that factual summaries suppress likes across mission-focused stories.",
-      "seconds": 621.6
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 2.6
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 53.3
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 121.2
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-051.md",
-      "seconds": 3.2
-    },
-    {
-      "name": "start ep458",
-      "ok": true,
-      "detail": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep466",
-      "ok": true,
-      "detail": "Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep469",
-      "ok": true,
-      "detail": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep470",
-      "ok": true,
-      "detail": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep471",
-      "ok": true,
-      "detail": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep474",
-      "ok": true,
-      "detail": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep475",
-      "ok": true,
-      "detail": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
-      "seconds": 1.6
-    },
-    {
-      "name": "start ep476",
-      "ok": true,
-      "detail": "Voyager 2 (1977): the mission almost ended minutes after lift-off when the probe's computer mistook rocket vibrations for a catastrophic system failure",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep477",
-      "ok": true,
-      "detail": "Atmosphere of Earth (1946): if Earth were a standard desktop globe, the entire layer of air that supports all life would be thinner than a single coat of spray-on varnish",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep478",
-      "ok": true,
-      "detail": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
-      "seconds": 0.8
+      "detail": "ep458 rejected (low scores: clarity, payoff); ep466 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep469 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep470 rejected (low scores: loop); ep471 ready; ep474 rejected (low scores: payoff, visuals); ep475 ready; ep476 rejected (research: The provided sources ",
+      "seconds": 22.9
     },
     {
       "name": "start ep479",
       "ok": true,
       "detail": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "seconds": 0.9
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep480",
+      "ok": true,
+      "detail": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep481",
+      "ok": true,
+      "detail": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep482",
+      "ok": true,
+      "detail": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
+      "seconds": 0.5
     }
   ],
   "errors": [
@@ -169,28 +85,27 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep474 stopped on Gemini's free quota; it resumes in a later run",
-    "ep475 stopped on Gemini's free quota; it resumes in a later run",
+    "ep466 stopped on Gemini's free quota; it resumes in a later run",
+    "ep469 stopped on Gemini's free quota; it resumes in a later run",
+    "ep478 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 43,
+    "total": 45,
     "in_buffer": 10,
-    "waiting": 33,
+    "waiting": 35,
     "target": 14,
-    "making": [],
-    "remote": [
-      "ep458",
+    "making": [
       "ep466",
       "ep469",
-      "ep470",
-      "ep471",
-      "ep474",
-      "ep475",
-      "ep476",
-      "ep477",
-      "ep478",
-      "ep479"
+      "ep478"
+    ],
+    "remote": [
+      "ep479",
+      "ep480",
+      "ep481",
+      "ep482"
     ]
   },
   "queue": [
@@ -439,142 +354,158 @@
       "score": 25
     },
     {
+      "id": "ep471",
+      "title": "The Giant Asteroid That Sneaked Past Earth",
+      "series": "Near Misses",
+      "score": 20
+    },
+    {
       "id": "ep472",
       "title": "How Art Pastels Revealed the True Face of Mars",
       "series": "Mission Files",
       "score": 20
+    },
+    {
+      "id": "ep475",
+      "title": "Waking Voyager 1 Engines After 37 Years",
+      "series": "Mission Files",
+      "score": 25
     }
   ],
   "made": [
     {
-      "id": "ep474",
+      "id": "ep458",
+      "outcome": "rejected",
+      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
+      "reason": "low scores: clarity, payoff"
+    },
+    {
+      "id": "ep466",
       "outcome": "unfinished",
-      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "topic": "Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep475",
+      "id": "ep469",
       "outcome": "unfinished",
-      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep470",
+      "outcome": "rejected",
+      "topic": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
+      "reason": "low scores: loop"
+    },
+    {
+      "id": "ep471",
+      "outcome": "ready",
+      "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
+      "title": "The Giant Asteroid That Sneaked Past Earth",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795262182/universereceipts/ep471-2c948527.mp4"
+    },
+    {
+      "id": "ep474",
+      "outcome": "rejected",
+      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "reason": "low scores: payoff, visuals"
+    },
+    {
+      "id": "ep475",
+      "outcome": "ready",
+      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "title": "Waking Voyager 1 Engines After 37 Years",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795262342/universereceipts/ep475-4027485d.mp4"
+    },
+    {
+      "id": "ep476",
+      "outcome": "rejected",
+      "topic": "Voyager 2 (1977): the mission almost ended minutes after lift-off when the probe's computer mistook rocket vibrations for a catastrophic system failure",
+      "reason": "research: The provided sources do not mention the mission-ending near-miss involving rocket vibrations minutes after lift-off, and other glitches like the 1978 radio failure lack the 10-claim, two-site depth required to tell that specific story."
+    },
+    {
+      "id": "ep477",
+      "outcome": "rejected",
+      "topic": "Atmosphere of Earth (1946): if Earth were a standard desktop globe, the entire layer of air that supports all life would be thinner than a single coat of spray-on varnish",
+      "reason": "research: only 0 claims have two different sites"
+    },
+    {
+      "id": "ep478",
+      "outcome": "unfinished",
+      "topic": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep479",
+      "outcome": "unfinished",
+      "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
+      "reason": "ProtocolError: ('Connection broken: IncompleteRead(3042 bytes read)', IncompleteRead(3042 bytes read))",
+      "quota": false,
       "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep458",
-      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
-      "call_id": "fc-01M7YZ18VV6ZAE8MMTD82QA0Q8"
-    },
-    {
-      "id": "ep466",
-      "topic": "Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma",
-      "call_id": "fc-01M7YZ19QSTFHV062VWQ5S7HBJ"
-    },
-    {
-      "id": "ep469",
-      "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "call_id": "fc-01M7YZ1BAQQ9ZC7SXKVTYZBNHE"
-    },
-    {
-      "id": "ep470",
-      "topic": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
-      "call_id": "fc-01M7YZ1C6ZB3XZ6KRYQF6D1VPA"
-    },
-    {
-      "id": "ep471",
-      "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "call_id": "fc-01M7YZ1D2601ZWCKE2A05248QC"
-    },
-    {
-      "id": "ep474",
-      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
-      "call_id": "fc-01M7YZ1EJVDXNRE0REPFSZXNMN"
-    },
-    {
-      "id": "ep475",
-      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
-      "call_id": "fc-01M7YZ1G4XVV4791BNZNWPWREM"
-    },
-    {
-      "id": "ep476",
-      "topic": "Voyager 2 (1977): the mission almost ended minutes after lift-off when the probe's computer mistook rocket vibrations for a catastrophic system failure",
-      "call_id": "fc-01M7YZ1GZZ7WYQKQ46EAKX8MFZ"
-    },
-    {
-      "id": "ep477",
-      "topic": "Atmosphere of Earth (1946): if Earth were a standard desktop globe, the entire layer of air that supports all life would be thinner than a single coat of spray-on varnish",
-      "call_id": "fc-01M7YZ1HV8B398WNVD22XT8581"
-    },
-    {
-      "id": "ep478",
-      "topic": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
-      "call_id": "fc-01M7YZ1JNFTJBWXD4H7HGSNY0Q"
-    },
-    {
       "id": "ep479",
       "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "call_id": "fc-01M7YZ1KG7Z82J4W6S894P0REW"
+      "call_id": "fc-01M7ZJVSWTCMBJ094ECN1GR9KX"
+    },
+    {
+      "id": "ep480",
+      "topic": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
+      "call_id": "fc-01M7ZJVTCZXJF3ZNAE37EP2VS7"
+    },
+    {
+      "id": "ep481",
+      "topic": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
+      "call_id": "fc-01M7ZJVTX063P2XHE247393WSC"
+    },
+    {
+      "id": "ep482",
+      "topic": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
+      "call_id": "fc-01M7ZJVVCP2VM412JMGWAMQWBH"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep458",
-      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
-      "spawned_at": "2026-11-21T17:19:28+05:30"
-    },
-    {
-      "id": "ep466",
-      "topic": "Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma",
-      "spawned_at": "2026-11-21T17:19:29+05:30"
-    },
-    {
-      "id": "ep469",
-      "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "spawned_at": "2026-11-21T17:19:31+05:30"
-    },
-    {
-      "id": "ep470",
-      "topic": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
-      "spawned_at": "2026-11-21T17:19:32+05:30"
-    },
-    {
-      "id": "ep471",
-      "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "spawned_at": "2026-11-21T17:19:32+05:30"
-    },
-    {
-      "id": "ep474",
-      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
-      "spawned_at": "2026-11-21T17:19:34+05:30"
-    },
-    {
-      "id": "ep475",
-      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
-      "spawned_at": "2026-11-21T17:19:36+05:30"
-    },
-    {
-      "id": "ep476",
-      "topic": "Voyager 2 (1977): the mission almost ended minutes after lift-off when the probe's computer mistook rocket vibrations for a catastrophic system failure",
-      "spawned_at": "2026-11-21T17:19:36+05:30"
-    },
-    {
-      "id": "ep477",
-      "topic": "Atmosphere of Earth (1946): if Earth were a standard desktop globe, the entire layer of air that supports all life would be thinner than a single coat of spray-on varnish",
-      "spawned_at": "2026-11-21T17:19:37+05:30"
-    },
-    {
-      "id": "ep478",
-      "topic": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
-      "spawned_at": "2026-11-21T17:19:38+05:30"
-    },
-    {
       "id": "ep479",
       "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "spawned_at": "2026-11-21T17:19:39+05:30"
+      "spawned_at": "2026-11-21T23:06:00+05:30"
+    },
+    {
+      "id": "ep480",
+      "topic": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
+      "spawned_at": "2026-11-21T23:06:01+05:30"
+    },
+    {
+      "id": "ep481",
+      "topic": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
+      "spawned_at": "2026-11-21T23:06:01+05:30"
+    },
+    {
+      "id": "ep482",
+      "topic": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
+      "spawned_at": "2026-11-21T23:06:02+05:30"
     }
   ],
   "published": [],
@@ -582,36 +513,34 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 19,
+    "calls": 31,
     "by_model": {
-      "gemini-3-flash-preview": 5,
+      "gemini-3-flash-preview": 21,
       "gemini-3.5-flash-lite": 8,
-      "gemini-3.7-flash": 1,
-      "gemini-3.6-flash": 4,
-      "gemini-3.5-flash": 1
+      "gemini-3.6-flash": 2
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 4,
+    "modal": 13,
     "runner": 0
   },
   "daily_done": "2026-11-21",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 13.2,
+    "metered": 13.59,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 123,
+    "cloud": 120,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 14.8
+    "modal_credit_left": 14.41
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 36,
-  "parked_topics": 54
+  "parked_topics": 52
 }

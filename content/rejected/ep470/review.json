@@ -1,0 +1,160 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-21T17:28:06+05:30",
+      "check": {
+        "duration": 24.62,
+        "words": 69,
+        "integrated_lufs": -13.7,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 2
+      },
+      "notes": {
+        "hook": "Opening is factual but lacks a high-stakes curiosity gap.",
+        "clarity": "Narrative flow from age to origin is easy to follow.",
+        "payoff": "The Rosetta Stone comparison is illustrative but lacks surprise.",
+        "visuals": "Imagery is mostly high-quality but contains technical distractions.",
+        "loop": "The final sentence does not transition back to the hook."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Image includes a foreign spelling 'Sirkoon' of a technical term."
+        },
+        {
+          "beat": 6,
+          "problem": "Microscope diagram is too technical with unreadable labels."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: This rosy meteorite is the oldest piece of Martian crust ever found.",
+        "Beat 7: It was discovered hiding beneath the Sahara's..."
+      ],
+      "better_than_last": "",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-21T17:33:03+05:30",
+      "check": {
+        "duration": 25.67,
+        "words": 78,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'used' heard as 'use' after 'beauty meteorite scientists'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The script's color description contradicts the grayscale image shown.",
+        "clarity": "Moves logically from discovery to scientific significance.",
+        "payoff": "Proving water existed 4 billion years ago is a solid conclusion.",
+        "visuals": "Technical scans are dry and lack standard space imagery impact.",
+        "loop": "The transition from a watery world back to the stone is seamless."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "The grayscale image fails to show the rosy color mentioned in the script."
+        },
+        {
+          "beat": 5,
+          "problem": "Technical annotations are too small to be legible on mobile."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: This ancient stone is the oldest Martian crust ever found."
+      ],
+      "better_than_last": "Offers more specific planetary evidence than the Mars pastel story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-21T17:37:28+05:30",
+      "check": {
+        "duration": 25.87,
+        "words": 86,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Immediate high-stakes claim with clear on-screen text.",
+        "clarity": "Well-paced explanation of how we know the date and what it means.",
+        "payoff": "The connection to ancient liquid water is a satisfying conclusion.",
+        "visuals": "Clear scientific imagery, though beat 5 reuses the crystal shot.",
+        "loop": "The last sentence ends the thought completely rather than leading back to the start."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Scientists found the secrets of a wet world inside..."
+      ],
+      "better_than_last": "Provides better context by comparing the find to the previous record holder, 'Black Beauty'.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: loop",
+  "rejected_at": "2026-11-21T17:37:28+05:30"
+}

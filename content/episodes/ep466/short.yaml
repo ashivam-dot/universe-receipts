@@ -11,15 +11,14 @@ sources:
 hashtags:
 - '#space'
 - '#voyager'
-- '#interstellar'
+- '#nasa'
 tags:
 - voyager 1
-- nasa
 - interstellar space
 - plasma
 - astronomy
 - deep space
-- universe
+- physics
 voice:
   engine: gemini
   voice: Zubenelgenubi
@@ -34,18 +33,23 @@ beats:
   - eerie hum
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/PIA22566-VoyagerProgram%26Heliosphere-Chart-20181003.jpg/960px-PIA22566-VoyagerProgram%26Heliosphere-Chart-20181003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Voyager_spacecraft_%28cropped2%29.jpg/1920px-Voyager_spacecraft_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: PIA22566-VoyagerProgram&Heliosphere-Chart-20181003.jpg
-      credit: NASA/JPL-Caltech
+      title: Voyager spacecraft (cropped2).jpg
+      credit: NASA/JPL
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PIA22566-VoyagerProgram%26Heliosphere-Chart-20181003.jpg
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_(cropped2).jpg
     fallbacks:
     - color
     motion: pan_right
     focus_x: 0.45
     focus_y: 0.5
+    box:
+    - 0.1
+    - 0.1
+    - 0.9
+    - 0.9
 - text: Voyager 1 heard it after crossing the border in 2012.
   emphasis:
   - crossing the border
@@ -74,16 +78,16 @@ beats:
   - silent vacuum
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Interstellar_medium_annotated.webp/1280px-Interstellar_medium_annotated.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/2/2f/Hubble_ultra_deep_field.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Interstellar medium annotated.webp
-      credit: 'Credit: Charles Carter/Keck Institute for Space Studies'
+      title: Hubble ultra deep field.jpg
+      credit: NASA and the European Space Agency.
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Interstellar_medium_annotated.webp
+      url: https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg
     fallbacks:
     - color
-    motion: pan_right
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
 - text: The probe’s main sensor had been dead since 1980.
@@ -101,36 +105,41 @@ beats:
     fallbacks:
     - card
     - color
-    motion: zoom_out
-    focus_x: 0.4
+    motion: zoom_in
+    focus_x: 0.35
     focus_y: 0.3
     box:
-    - 0.25
-    - 0.1
+    - 0.2
+    - 0.15
     - 0.45
     - 0.35
     card:
       kind: dateline
       big: '1980'
       small: Voyager 1 Sensor
-- text: Scientists had to wait for a solar eruption to hit.
+- text: Scientists waited for a solar eruption to hit.
   emphasis:
   - solar eruption
   sfx: whoosh
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/7/72/NASA-SDO_-_solar_flare_November_5%2C_2013%2C_X3%2C3_class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/NASA-SDO_-_solar_flare_October_29%2C_2013%2C_X2%2C3_class.jpg/3840px-NASA-SDO_-_solar_flare_October_29%2C_2013%2C_X2%2C3_class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: NASA-SDO - solar flare November 5, 2013, X3,3 class.jpg
-      credit: Zarateman
+      title: NASA-SDO - solar flare October 29, 2013, X2,3 class.jpg
+      credit: NASA/SDO
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:NASA-SDO_-_solar_flare_November_5,_2013,_X3,3_class.jpg
+      url: https://commons.wikimedia.org/wiki/File:NASA-SDO_-_solar_flare_October_29,_2013,_X2,3_class.jpg
     fallbacks:
     - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    motion: zoom_out
+    focus_x: 0.85
+    focus_y: 0.48
+    box:
+    - 0.75
+    - 0.35
+    - 0.95
+    - 0.6
 - text: The blast shook the plasma surrounding the ship.
   emphasis:
   - shook the plasma
@@ -148,63 +157,68 @@ beats:
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: It revealed gas much denser than inside our solar system.
+- text: The blast revealed gas much thicker than anyone expected.
   emphasis:
-  - much denser
+  - much thicker
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/NewHeliopause_558121.jpg/1280px-NewHeliopause_558121.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://live.staticflickr.com/7013/6474236799_7d53a8b5ff_b.jpg
     credit:
-      source: Wikimedia Commons
-      title: NewHeliopause 558121.jpg
-      credit: NASA/Goddard Space Flight Center/CI Lab
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:NewHeliopause_558121.jpg
+      source: Flickr via Openverse
+      title: Voyager 1 Encounters Stagnation Region
+      credit: NASA Universe
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/50306086@N07/6474236799
     fallbacks:
     - card
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.35
+    focus_y: 0.45
+    box:
+    - 0.1
+    - 0.2
+    - 0.6
+    - 0.8
     card:
       kind: fact
-      big: Dense Plasma
-      small: Beyond the Border
-- text: This hum is the sound of interstellar gas vibrating.
+      big: Thick Gas
+      small: Beyond the Sun
+- text: This hum is the constant, ghostly music of the galaxy itself.
   emphasis:
-  - gas vibrating
+  - ghostly music
   sfx: pop
   pause_after: 0.4
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Voyager-gold-record-display-10-5-1977_30214218763_o.jpg/1920px-Voyager-gold-record-display-10-5-1977_30214218763_o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg/1920px-The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Voyager-gold-record-display-10-5-1977 30214218763 o.jpg
+      title: The Sounds of Earth Record Cover - GPN-2000-001978.jpg
       credit: NASA/JPL
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Voyager-gold-record-display-10-5-1977_30214218763_o.jpg
+      url: https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg
     fallbacks:
     - color
     motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
-- text: It confirms that space is never truly empty.
+- text: It proves the 'empty' void is actually a thick soup of gas.
   emphasis:
-  - never truly empty
+  - soup of gas
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/VISTA_gigapixel_mosaic_of_the_central_parts_of_the_Milky_Way-Eso1242a.tif/lossy-page1-3840px-VISTA_gigapixel_mosaic_of_the_central_parts_of_the_Milky_Way-Eso1242a.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/The_Galactic_Center.jpg/1920px-The_Galactic_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: VISTA gigapixel mosaic of the central parts of the Milky Way-Eso1242a.tif
-      credit: 'ESO/VVV Survey/D. MinnitiAcknowledgement: Ignacio Toledo, Martin Kornmesser'
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:VISTA_gigapixel_mosaic_of_the_central_parts_of_the_Milky_Way-Eso1242a.tif
+      title: The Galactic Center.jpg
+      credit: 2MASS/G. Kopan, R. Hurt
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Galactic_Center.jpg
     fallbacks:
     - color
-    motion: pan_right
+    motion: pan_down
     focus_x: 0.5
     focus_y: 0.5
 - text: Even in the dark, deep space is vibrating.
@@ -222,4 +236,4 @@ music:
   fade_out: 1.0
 captions:
   hook_size: 150
-hook_text: 3 BILLION MILES OUT
+hook_text: THE VOID IS HUMMING

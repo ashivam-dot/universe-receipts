@@ -1,0 +1,167 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-20T17:31:18+05:30",
+      "check": {
+        "duration": 23.73,
+        "words": 70,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -3.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Confusing wording in the opening statement.",
+        "clarity": "Simple and easy to follow narrative.",
+        "payoff": "Lacks a compelling final reveal.",
+        "visuals": "Beat 5 features untranslated foreign diagram text.",
+        "loop": "Ending phrasing creates repetitive transitions."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Diagram contains foreign language text."
+        },
+        {
+          "beat": 6,
+          "problem": "Displays abstract data graph rather than clear visual imagery."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Jupiter's famous storm plunges 200 miles deep into its atmosphere.",
+        "Beat 7: That lack of surface friction is why..."
+      ],
+      "better_than_last": "Provides clear mission context by referencing NASA's Juno spacecraft.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-21T17:28:14+05:30",
+      "check": {
+        "duration": 24.75,
+        "words": 75,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [
+          "'roots' heard as 'routes' after 'tops these storm'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong factual opening, though 200 miles needs a relative scale.",
+        "clarity": "Logical progression from measurement to the underlying physics.",
+        "payoff": "The friction explanation provides a satisfying but quiet conclusion.",
+        "visuals": "Incorrect mission branding in beat 4 and technical clutter in 5.",
+        "loop": "Mechanically perfect transition that completes the final thought."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Shows Webb Space Telescope data for a Juno mission discovery."
+        },
+        {
+          "beat": 5,
+          "problem": "Technical diagram with illegible text for mobile screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 4: It revealed a vertical vortex twice as deep as Earth's oceans.",
+        "Beat 7: This lack of resistance is why the storm plunges 200 miles deep."
+      ],
+      "better_than_last": "Provides a more cohesive scientific narrative than the Mars pastels episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-21T17:32:40+05:30",
+      "check": {
+        "duration": 25.4,
+        "words": 74,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'a' heard as 'the' after 'it is just'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The 200-mile depth figure is an effective attention-grabber.",
+        "clarity": "Contradictory scale comparisons between oceans and the 200-mile figure are confusing.",
+        "payoff": "The conclusion repeats the intro without providing a final punchy realization.",
+        "visuals": "Scientific assets are clear and high-quality, though one is cluttered.",
+        "loop": "The final line flows into the first without any verbal friction."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "The infographic contains excessive small text that is illegible on phone screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 4: It revealed a vertical vortex plunging those 200 miles deep.",
+        "Beat 7: This lack of resistance is why the storm reaches such extreme depths."
+      ],
+      "better_than_last": "This entry provides a much clearer sense of physical scale through planetary cross-sections compared to ep467.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: clarity, payoff",
+  "rejected_at": "2026-11-21T17:32:40+05:30"
+}

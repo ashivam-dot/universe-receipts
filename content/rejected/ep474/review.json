@@ -1,0 +1,180 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-21T11:20:54+05:30",
+      "check": {
+        "duration": 30.43,
+        "words": 76,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'miles' heard as 'monos' after 'of 1000s of'",
+          "'looked' heard as 'look' after 'mysterious bulges that'",
+          "'christiaan' heard as 'christian' after 'completely baffled astronomer'",
+          "'disk' heard as 'desk' after 'this razor thin'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing central concept grabs attention quickly.",
+        "clarity": "Linear historical narrative is easy to follow.",
+        "payoff": "Explains the phenomenon well, though lacks a shocking reveal.",
+        "visuals": "Several frames rely on small text diagrams.",
+        "loop": "Seamlessly transitions back into the first line."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Contains heavy text overlay graphic."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "Christiaan",
+          "respelling": "kris tee ahn"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: 'This exact alignment creates the illusion that the disk disappears.'"
+      ],
+      "better_than_last": "Offers a stronger historical storytelling arc than recent entries.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-21T11:26:06+05:30",
+      "check": {
+        "duration": 29.99,
+        "words": 77,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'christiaan' heard as 'christian' after 'completely baffled astronomer'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Effective mystery established immediately.",
+        "clarity": "Clear narrative progression across beats.",
+        "payoff": "Logical geometric explanation delivered cleanly.",
+        "visuals": "Multiple frames feature text-heavy diagrams.",
+        "loop": "Seamless thematic transition back to start."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Contains metadata text overlay."
+        },
+        {
+          "beat": 5,
+          "problem": "Mostly historic manuscript text."
+        },
+        {
+          "beat": 6,
+          "problem": "Diagram dominated by label text."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Tighter focus on a single historical mystery than ep472.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-21T17:28:03+05:30",
+      "check": {
+        "duration": 27.87,
+        "words": 77,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'christiaan' heard as 'christian' after 'completely baffled astronomer'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong premise that invites curiosity immediately.",
+        "clarity": "The narrative timeline is easy to follow.",
+        "payoff": "Explains the thickness well, though lacks a major twist.",
+        "visuals": "Historic images mostly match the narrative beats.",
+        "loop": "Connection between disappears and vanish is solid."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Image shows planetary interior cutaway instead of focusing on the ring detachment."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "Christiaan",
+          "respelling": "kris tee ahn"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides a clearer historical narrative compared to the Mars art pastel episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-11-21T17:28:03+05:30"
+}

@@ -59,6 +59,68 @@
       "better_than_last": "This episode uses more relevant technical diagrams to explain the science than the Saturn rings short.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-21T17:31:18+05:30",
+      "check": {
+        "duration": 27.29,
+        "words": 89,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'vacuum the probe'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The mystery of a cosmic hum is an effective narrative opening.",
+        "clarity": "Logical progression from the sensor failure to the solar solution is followable.",
+        "payoff": "The reveal serves as a factual summary rather than a surprising twist.",
+        "visuals": "Reliance on technical diagrams makes several segments difficult to parse on mobile.",
+        "loop": "The final sentence transitions into the first without any perceptible break."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Diagram text is too small and cluttered for mobile screens."
+        },
+        {
+          "beat": 4,
+          "problem": "Technical blueprint is overly complex and visually dry."
+        },
+        {
+          "beat": 8,
+          "problem": "Golden Record visual is misleading as the hum originates from interstellar plasma."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: This hum is the constant, ghostly music of the galaxy itself.",
+        "Beat 9: It proves the 'empty' void is actually a thick soup of gas."
+      ],
+      "better_than_last": "The atmospheric mystery is more engaging than the straightforward technical report of episode 472.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
     }
   ],
   "best_round": 1

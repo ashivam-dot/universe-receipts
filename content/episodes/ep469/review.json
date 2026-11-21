@@ -1,0 +1,64 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-21T17:30:29+05:30",
+      "check": {
+        "duration": 27.87,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'crewed launchpad' heard as 'crude launch pad' after 'for the only'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "High-stakes opening grabs immediate viewer attention.",
+        "clarity": "Logical chronological sequence of the emergency event.",
+        "payoff": "Amusing twist explaining why the audio recorder was cut.",
+        "visuals": "Includes incorrect NASA crew photo and off-topic stock graphics.",
+        "loop": "Natural phrasing link from the final line to the opening."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Generic line art drawing rather than relevant imagery."
+        },
+        {
+          "beat": 7,
+          "problem": "Aerial site diagram does not show the mentioned fireball."
+        },
+        {
+          "beat": 8,
+          "problem": "Wrong space program; shows NASA Shuttle crew instead of Soviet cosmonauts."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more intense human-interest survival narrative than the pastel Mars imagery story.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
