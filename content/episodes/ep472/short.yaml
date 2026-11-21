@@ -1,0 +1,161 @@
+id: ep472
+title: How Art Pastels Revealed the True Face of Mars
+series: Mission Files
+format: v3
+description: Before computers processed the first close-up data from Mars, NASA engineers hand-colored a pixel printout using
+  pastels. Mariner 4 revealed a cold, cratered world instead of a living planet.
+sources:
+- https://en.wikipedia.org/wiki/Mariner_4
+- https://science.nasa.gov/mission/mariner-4/
+- https://web.archive.org/web/20221231233510/http://www.directedplay.com/first-tv-image-of-mars
+- http://www.marsdaily.com/reports/Has_The_Mariner_Meteor_Mystery_Been_Solved_999.html
+- http://filmer.blogspot.com/2004/01/beagle-here-beagle-beagle.html
+hashtags:
+- '#space'
+- '#mariner4'
+- '#mars'
+tags:
+- mars
+- mariner 4
+- nasa
+- jpl
+- space exploration
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Engineers hand-colored the first photo of Mars using art pastels.
+  emphasis:
+  - hand-colored
+  - art pastels
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/First_TV_Image_of_Mars_%28cropped%29.jpg/960px-First_TV_Image_of_Mars_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: First TV Image of Mars (cropped).jpg
+      credit: NASA/JPL/Dan Goods
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:First_TV_Image_of_Mars_(cropped).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: ART PASTELS
+      small: used for first Mars image
+- text: JPL scientists couldn't wait hours for computers to process Mariner 4's data.
+  emphasis:
+  - couldn't wait hours
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Mariner_4_Launch_Preparations.jpeg/1280px-Mariner_4_Launch_Preparations.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mariner 4 Launch Preparations.jpeg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mariner_4_Launch_Preparations.jpeg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.51
+    focus_y: 0.53
+- text: People expected to see liquid canals and signs of alien civilization.
+  emphasis:
+  - liquid canals
+  - alien civilization
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/f3/Lowell_Mars_channels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Lowell Mars channels.jpg
+      credit: Percival Lowell
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Lowell_Mars_channels.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: So engineers pinned numerical printouts to a wall and painted each pixel.
+  emphasis:
+  - pinned numerical printouts
+  - painted each pixel
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/88/Mariner_4_print-out_data.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mariner 4 print-out data.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mariner_4_print-out_data.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.57
+    focus_y: 0.52
+    card:
+      kind: fact
+      big: PIXEL DATA
+      small: printed on ticker-tape
+- text: The completed drawing didn't reveal a lush, living alien world.
+  emphasis:
+  - didn't reveal
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/First_close_up_image_of_another_planet_-_Mars_by_Mariner_4.jpg/960px-First_close_up_image_of_another_planet_-_Mars_by_Mariner_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: First close up image of another planet - Mars by Mariner 4.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:First_close_up_image_of_another_planet_-_Mars_by_Mariner_4.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Instead, it showed a dead, frozen surface covered in ancient craters.
+  emphasis:
+  - dead, frozen surface
+  - ancient craters
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: -148°F
+      small: daytime temperature on Mars
+    motion: zoom_in
+- text: That simple paper image changed our vision of Mars forever.
+  emphasis:
+  - changed our vision
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-21T05:06:01+05:30",
+  "updated_at": "2026-11-21T11:06:04+05:30",
   "day": 51,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7XN0EAJKKZ73J6RVGV5SZMR",
+    "id": "ta-01M7Y9KKQXHYBZ85VQK735DG0R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-21T05:05:12+05:30",
-    "started_at_utc": "2026-11-20T23:35:12+00:00",
-    "seconds": 48
+    "started_at": "2026-11-21T11:05:12+05:30",
+    "started_at_utc": "2026-11-21T05:35:12+00:00",
+    "seconds": 52
   },
   "stages": [
     {
@@ -29,7 +29,7 @@
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 1.8
+      "seconds": 2.0
     },
     {
       "name": "languages",
@@ -47,25 +47,25 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 5.0
+      "seconds": 4.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep469 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep470 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep471 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 12.7
+      "detail": "ep472 ready; ep473 rejected (research: only 0 claims have two different sites)",
+      "seconds": 10.8
     },
     {
-      "name": "start ep472",
+      "name": "start ep474",
       "ok": true,
-      "detail": "Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations",
-      "seconds": 1.4
+      "detail": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "seconds": 3.2
     },
     {
-      "name": "start ep473",
+      "name": "start ep475",
       "ok": true,
-      "detail": "PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1",
-      "seconds": 1.4
+      "detail": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "seconds": 0.9
     }
   ],
   "errors": [
@@ -73,16 +73,13 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep469 stopped on Gemini's free quota; it resumes in a later run",
-    "ep470 stopped on Gemini's free quota; it resumes in a later run",
-    "ep471 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 42,
+    "total": 43,
     "in_buffer": 10,
-    "waiting": 32,
+    "waiting": 33,
     "target": 14,
     "making": [
       "ep458",
@@ -92,8 +89,8 @@
       "ep471"
     ],
     "remote": [
-      "ep472",
-      "ep473"
+      "ep474",
+      "ep475"
     ]
   },
   "queue": [
@@ -340,56 +337,58 @@
       "title": "The Triple Secret of the North Star",
       "series": "Space Myths, Busted",
       "score": 25
+    },
+    {
+      "id": "ep472",
+      "title": "How Art Pastels Revealed the True Face of Mars",
+      "series": "Mission Files",
+      "score": 20
     }
   ],
   "made": [
     {
-      "id": "ep469",
-      "outcome": "unfinished",
-      "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep472",
+      "outcome": "ready",
+      "topic": "Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations",
+      "title": "How Art Pastels Revealed the True Face of Mars",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795218224/universereceipts/ep472-894b25a0.mp4"
     },
     {
-      "id": "ep470",
-      "outcome": "unfinished",
-      "topic": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep471",
-      "outcome": "unfinished",
-      "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep473",
+      "outcome": "rejected",
+      "topic": "PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1",
+      "reason": "research: only 0 claims have two different sites"
     }
   ],
   "spawned": [
     {
-      "id": "ep472",
-      "topic": "Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations",
-      "call_id": "fc-01M7XN22HNCVXH8ER1ZRFBPQCC"
+      "id": "ep474",
+      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "call_id": "fc-01M7Y9NBEKMQYPE2PQK95C9QRM"
     },
     {
-      "id": "ep473",
-      "topic": "PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1",
-      "call_id": "fc-01M7XN23YA5YVWHRKGAFMM3ZH0"
+      "id": "ep475",
+      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "call_id": "fc-01M7Y9NCAJXXHX8CCKP1N6E9Y7"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep472",
-      "topic": "Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations",
-      "spawned_at": "2026-11-21T05:05:54+05:30"
+      "id": "ep474",
+      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
+      "spawned_at": "2026-11-21T11:05:57+05:30"
     },
     {
-      "id": "ep473",
-      "topic": "PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1",
-      "spawned_at": "2026-11-21T05:05:56+05:30"
+      "id": "ep475",
+      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
+      "spawned_at": "2026-11-21T11:05:58+05:30"
     }
   ],
   "published": [],
@@ -397,35 +396,34 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 15,
+    "calls": 6,
     "by_model": {
-      "gemini-3.5-flash-lite": 6,
-      "gemini-3.6-flash": 2,
-      "gemini-3-flash-preview": 1,
-      "gemini-3.1-flash-lite": 6
+      "gemini-3.6-flash": 4,
+      "gemini-3.5-flash-lite": 1,
+      "gemini-3-flash-preview": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 3,
+    "modal": 1,
     "runner": 0
   },
   "daily_done": "2026-11-20",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 12.97,
+    "metered": 13.01,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 125,
+    "cloud": 124,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 15.03
+    "modal_credit_left": 14.99
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 34,
-  "parked_topics": 58
+  "parked_topics": 56
 }
