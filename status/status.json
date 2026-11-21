@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-21T23:06:07+05:30",
-  "day": 51,
+  "updated_at": "2026-11-22T05:06:19+05:30",
+  "day": 52,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M7ZJSZ42P31FN4GPFE1AHFXR",
+    "id": "ta-01M807D4VTTRFSXB6F26K34EDR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-21T23:05:09+05:30",
-    "started_at_utc": "2026-11-21T17:35:09+00:00",
-    "seconds": 58
+    "started_at": "2026-11-22T05:05:14+05:30",
+    "started_at_utc": "2026-11-21T23:35:14+00:00",
+    "seconds": 64
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 2.1
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.1
+      "seconds": 0.4
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.0
+      "seconds": 2.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.5
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -47,37 +47,37 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 3.9
+      "seconds": 5.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep458 rejected (low scores: clarity, payoff); ep466 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep469 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep470 rejected (low scores: loop); ep471 ready; ep474 rejected (low scores: payoff, visuals); ep475 ready; ep476 rejected (research: The provided sources ",
-      "seconds": 22.9
+      "detail": "ep479 unfinished (ProtocolError: ('Connection broken: IncompleteRead(3042 bytes read)', IncompleteRead(3042 bytes read))); ep480 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep481 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep482 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-fl",
+      "seconds": 17.0
     },
     {
       "name": "start ep479",
       "ok": true,
       "detail": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "seconds": 0.5
+      "seconds": 1.2
     },
     {
-      "name": "start ep480",
+      "name": "start ep483",
       "ok": true,
-      "detail": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
-      "seconds": 0.5
+      "detail": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
+      "seconds": 1.0
     },
     {
-      "name": "start ep481",
+      "name": "start ep484",
       "ok": true,
-      "detail": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
-      "seconds": 0.5
+      "detail": "Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way",
+      "seconds": 1.0
     },
     {
-      "name": "start ep482",
+      "name": "start ep485",
       "ok": true,
-      "detail": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
-      "seconds": 0.5
+      "detail": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
+      "seconds": 1.6
     }
   ],
   "errors": [
@@ -85,9 +85,9 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep466 stopped on Gemini's free quota; it resumes in a later run",
-    "ep469 stopped on Gemini's free quota; it resumes in a later run",
-    "ep478 stopped on Gemini's free quota; it resumes in a later run",
+    "ep480 stopped on Gemini's free quota; it resumes in a later run",
+    "ep481 stopped on Gemini's free quota; it resumes in a later run",
+    "ep482 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
@@ -99,13 +99,16 @@
     "making": [
       "ep466",
       "ep469",
-      "ep478"
-    ],
-    "remote": [
-      "ep479",
+      "ep478",
       "ep480",
       "ep481",
       "ep482"
+    ],
+    "remote": [
+      "ep479",
+      "ep483",
+      "ep484",
+      "ep485"
     ]
   },
   "queue": [
@@ -374,93 +377,35 @@
   ],
   "made": [
     {
-      "id": "ep458",
-      "outcome": "rejected",
-      "topic": "Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere",
-      "reason": "low scores: clarity, payoff"
-    },
-    {
-      "id": "ep466",
-      "outcome": "unfinished",
-      "topic": "Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep469",
-      "outcome": "unfinished",
-      "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep470",
-      "outcome": "rejected",
-      "topic": "Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet",
-      "reason": "low scores: loop"
-    },
-    {
-      "id": "ep471",
-      "outcome": "ready",
-      "topic": "2018 AH (2018): an asteroid the size of the Washington Monument zipped past Earth closer than the Moon before astronomers even noticed it",
-      "title": "The Giant Asteroid That Sneaked Past Earth",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795262182/universereceipts/ep471-2c948527.mp4"
-    },
-    {
-      "id": "ep474",
-      "outcome": "rejected",
-      "topic": "Rings of Saturn (1659): despite spanning over 170,000 miles wide, Saturn's main rings are razor-thin, averaging just 30 feet in thickness",
-      "reason": "low scores: payoff, visuals"
-    },
-    {
-      "id": "ep475",
-      "outcome": "ready",
-      "topic": "Voyager 1 (2017): NASA successfully fired backup thrusters on the interstellar probe that had been completely dormant for 37 years",
-      "title": "Waking Voyager 1 Engines After 37 Years",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795262342/universereceipts/ep475-4027485d.mp4"
-    },
-    {
-      "id": "ep476",
-      "outcome": "rejected",
-      "topic": "Voyager 2 (1977): the mission almost ended minutes after lift-off when the probe's computer mistook rocket vibrations for a catastrophic system failure",
-      "reason": "research: The provided sources do not mention the mission-ending near-miss involving rocket vibrations minutes after lift-off, and other glitches like the 1978 radio failure lack the 10-claim, two-site depth required to tell that specific story."
-    },
-    {
-      "id": "ep477",
-      "outcome": "rejected",
-      "topic": "Atmosphere of Earth (1946): if Earth were a standard desktop globe, the entire layer of air that supports all life would be thinner than a single coat of spray-on varnish",
-      "reason": "research: only 0 claims have two different sites"
-    },
-    {
-      "id": "ep478",
-      "outcome": "unfinished",
-      "topic": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
       "id": "ep479",
       "outcome": "unfinished",
       "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
       "reason": "ProtocolError: ('Connection broken: IncompleteRead(3042 bytes read)', IncompleteRead(3042 bytes read))",
       "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep480",
+      "outcome": "unfinished",
+      "topic": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep481",
+      "outcome": "unfinished",
+      "topic": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
+    },
+    {
+      "id": "ep482",
+      "outcome": "unfinished",
+      "topic": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
       "overloaded": false
     }
   ],
@@ -468,44 +413,44 @@
     {
       "id": "ep479",
       "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "call_id": "fc-01M7ZJVSWTCMBJ094ECN1GR9KX"
+      "call_id": "fc-01M807F82R5A3A6C62C3C8C1J4"
     },
     {
-      "id": "ep480",
-      "topic": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
-      "call_id": "fc-01M7ZJVTCZXJF3ZNAE37EP2VS7"
+      "id": "ep483",
+      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
+      "call_id": "fc-01M807F90P18NNXGPZGX13MA4A"
     },
     {
-      "id": "ep481",
-      "topic": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
-      "call_id": "fc-01M7ZJVTX063P2XHE247393WSC"
+      "id": "ep484",
+      "topic": "Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way",
+      "call_id": "fc-01M807F9ZW8S0YH14Q7JGSNDGJ"
     },
     {
-      "id": "ep482",
-      "topic": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
-      "call_id": "fc-01M7ZJVVCP2VM412JMGWAMQWBH"
+      "id": "ep485",
+      "topic": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
+      "call_id": "fc-01M807FBKHVPB5815D3X9D7843"
     }
   ],
   "in_cloud": [
     {
       "id": "ep479",
       "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "spawned_at": "2026-11-21T23:06:00+05:30"
+      "spawned_at": "2026-11-22T05:06:09+05:30"
     },
     {
-      "id": "ep480",
-      "topic": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
-      "spawned_at": "2026-11-21T23:06:01+05:30"
+      "id": "ep483",
+      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
+      "spawned_at": "2026-11-22T05:06:10+05:30"
     },
     {
-      "id": "ep481",
-      "topic": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
-      "spawned_at": "2026-11-21T23:06:01+05:30"
+      "id": "ep484",
+      "topic": "Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way",
+      "spawned_at": "2026-11-22T05:06:11+05:30"
     },
     {
-      "id": "ep482",
-      "topic": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
-      "spawned_at": "2026-11-21T23:06:02+05:30"
+      "id": "ep485",
+      "topic": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
+      "spawned_at": "2026-11-22T05:06:13+05:30"
     }
   ],
   "published": [],
@@ -513,34 +458,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 31,
+    "calls": 24,
     "by_model": {
-      "gemini-3-flash-preview": 21,
-      "gemini-3.5-flash-lite": 8,
-      "gemini-3.6-flash": 2
+      "gemini-3.5-flash": 1,
+      "gemini-3-flash-preview": 7,
+      "gemini-3.5-flash-lite": 9,
+      "gemini-3.6-flash": 7
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 13,
+    "modal": 7,
     "runner": 0
   },
   "daily_done": "2026-11-21",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 13.59,
+    "metered": 13.81,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 120,
+    "cloud": 118,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 14.41
+    "modal_credit_left": 14.19
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 36,
-  "parked_topics": 52
+  "parked_topics": 49
 }

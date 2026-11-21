@@ -1,0 +1,65 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-21T23:12:36+05:30",
+      "check": {
+        "duration": 31.47,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'a' heard as '(nothing)'",
+          "'arsia mons' heard as 'arceomons' after 'grows high above'",
+          "'arsia mons' heard as 'arceomons' after 'freeze around but'",
+          "'this' heard as '(nothing)' after 'of clean air'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong sense of scale immediately establishes the mystery.",
+        "clarity": "Scientific concepts are explained in a logical sequence.",
+        "payoff": "The conclusion feels more like a summary than a surprising twist.",
+        "visuals": "Uses relevant satellite imagery and clear supporting diagrams.",
+        "loop": "Temporal connection between sunrise and morning creates a smooth cycle."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Arsia",
+          "respelling": "ar see ah"
+        },
+        {
+          "beat": 3,
+          "word": "Mons",
+          "respelling": "monz"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: This makes the cloud technically impossible by Earth standards every morning."
+      ],
+      "better_than_last": "This entry provides a deeper scientific explanation than the 'art pastels' story while maintaining visual clarity.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

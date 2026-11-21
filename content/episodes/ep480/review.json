@@ -1,0 +1,52 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-21T23:25:34+05:30",
+      "check": {
+        "duration": 31.5,
+        "words": 82,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'center' heard as 'centre' after 'through its very'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Opening line about a cosmic void quickly grabs viewer interest.",
+        "clarity": "Narrative progresses logically from ancient supernovas to present day.",
+        "payoff": "The revelation of moving into the bubble offers a mild resolution.",
+        "visuals": "Images accurately represent concepts, though beat 4 uses dense labels.",
+        "loop": "Final sentence connects back to the opening statement effectively."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Change to 'Surprisingly, our Sun didn't create this space; we just entered it recently.'",
+        "Beat 8: Change to 'Leaving us drifting right through its million-degree center.'"
+      ],
+      "better_than_last": "It presents a more cohesive spatial perspective than the recent Mars pastel episode.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

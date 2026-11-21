@@ -1,0 +1,207 @@
+id: ep480
+title: Why the Sun Is Hiding in a Million-Degree Bubble
+series: Scale Breaker
+format: v3
+description: Our solar system is currently crossing a massive cavity carved by ancient supernovas.
+sources:
+- https://en.wikipedia.org/wiki/Local_Bubble
+- https://www.astronomy.com/science/the-1000-light-year-wide-cosmic-bubble-around-earth/
+- https://www.space.com/what-is-local-bubble-solar-system
+- https://www.smithsonianmag.com/smart-news/the-solar-system-is-shrouded-by-a-local-bubble-that-birthed-all-the-nearest-stars-180979396/
+- https://www.cfa.harvard.edu/news/1000-light-year-wide-bubble-surrounding-earth-source-all-nearby-young-stars
+- https://web.archive.org/web/20131121061128/http://interstellar.jpl.nasa.gov/interstellar/probe/introduction/neighborhood.html
+- https://www.nature.com/articles/s41550-019-0814-z
+hashtags:
+- '#space'
+- '#astronomy'
+- '#supernova'
+tags:
+- local bubble
+- solar system
+- supernova
+- astronomy
+- space facts
+- gaia observatory
+- star formation
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Our solar system is drifting through a massive hollow cavity.
+  emphasis:
+  - hollow cavity
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/3d/Local_bubble.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Local bubble.jpg
+      credit: NASA; modified from original version by User:Geni
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Local_bubble.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.52
+    focus_y: 0.48
+    box:
+    - 0.44
+    - 0.4
+    - 0.6
+    - 0.58
+- text: Roughly 15 ancient supernovas blasted this hole 1,000 light-years wide.
+  emphasis:
+  - blasted this hole
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/The_Supernova_scenario_%28eso0509d%29.tiff/lossy-page1-1920px-The_Supernova_scenario_%28eso0509d%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Supernova scenario (eso0509d).tiff
+      credit: ESO
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_Supernova_scenario_(eso0509d).tiff
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.3
+    focus_y: 0.28
+    box:
+    - 0.05
+    - 0.05
+    - 0.48
+    - 0.48
+    card:
+      kind: fact
+      big: 1,000 light-years
+      small: wide cavity
+- text: It's filled with thin plasma heated to a million degrees.
+  emphasis:
+  - million degrees
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/73/XRISM_Clocks_Hot_Wind_of_Galaxy_M82_%28SVS14968_-_M82_Chandra_1kpc_Inset_labels%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: XRISM Clocks Hot Wind of Galaxy M82 (SVS14968 - M82 Chandra 1kpc Inset labels).jpg
+      credit: NASA's Scientific Visualization Studio - eMITS/Scott Wiessinger, University of Maryland College Park/Jeanette
+        Kazmierczak, University of Maryland College Park/Francis Reddy
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:XRISM_Clocks_Hot_Wind_of_Galaxy_M82_(SVS14968_-_M82_Chandra_1kpc_Inset_labels).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Deep-sea crust on Earth still holds radioactive iron from those explosions.
+  emphasis:
+  - radioactive iron
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Seafloor_Crust_USGS.jpg/960px-Seafloor_Crust_USGS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Seafloor Crust USGS.jpg
+      credit: Amy West, USGS Science Communications Contractor
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Seafloor_Crust_USGS.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Iron-60
+      small: found in sea crust
+- text: This giant bubble triggered the birth of every nearby star.
+  emphasis:
+  - birth
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/The_young_stars_of_Taurus_%28potw2526a%29.jpg/1920px-The_young_stars_of_Taurus_%28potw2526a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The young stars of Taurus (potw2526a).jpg
+      credit: ESA/Hubble & NASA, G. Duchêne
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_young_stars_of_Taurus_(potw2526a).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Newborn star nurseries like Taurus sit on its shell, expanding outward.
+  emphasis:
+  - expanding outward
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Rho_Ophiuchi_%28NIRCam_Compass_Image%29_%282023-128%29.png/1920px-Rho_Ophiuchi_%28NIRCam_Compass_Image%29_%282023-128%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Rho Ophiuchi (NIRCam Compass Image) (2023-128).png
+      credit: Image
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Rho_Ophiuchi_(NIRCam_Compass_Image)_(2023-128).png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 4 miles
+      small: per second expansion
+- text: Surprisingly, our Sun didn't create this space; we just entered it recently.
+  emphasis:
+  - didn't create
+  - entered it recently
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Solar_System-_EIC_Display_%28SVS5674_-_4%29.jpg/3840px-Solar_System-_EIC_Display_%28SVS5674_-_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Solar System- EIC Display (SVS5674 - 4).jpg
+      credit: NASA's Scientific Visualization Studio - Science and Technology Corporation/Kel Elkins
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_System-_EIC_Display_(SVS5674_-_4).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 5 million years
+      small: since we entered
+- text: Leaving us drifting right through its million-degree center.
+  emphasis:
+  - million-degree center
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.52
+    focus_y: 0.48
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 1,000 LIGHT-YEAR VOID

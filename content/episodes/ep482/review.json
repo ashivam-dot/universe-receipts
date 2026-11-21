@@ -1,0 +1,104 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-21T23:17:22+05:30",
+      "check": {
+        "duration": 31.53,
+        "words": 76,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [
+          "'pull' heard as 'pole' after 'thought a local'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The premise of hidden motion is effective.",
+        "clarity": "The transition between cosmic structures is clear.",
+        "payoff": "The shift from local to supercluster scale works.",
+        "visuals": "Images accurately depict the clusters and constellations mentioned.",
+        "loop": "The final sentence feels like a hard stop."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "pull",
+          "respelling": "puul"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: Because right now..."
+      ],
+      "better_than_last": "Provides a more profound sense of scale than the Mars pastel story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-21T23:20:41+05:30",
+      "check": {
+        "duration": 32.13,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Excellent use of the viewer's own Sun and galaxy to create immediate personal stakes.",
+        "clarity": "Very logical progression from the Sun to the Great Attractor and finally the Supercluster.",
+        "payoff": "The twist that the famous Great Attractor is actually being bossed around is a great reveal.",
+        "visuals": "Consistent and high-quality space photography, though the technical charts are a bit dense.",
+        "loop": "The sentence structure flows perfectly from the dark of the void back to the movement of the Sun."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The image is a map with dozens of tiny text labels that are unreadable and cluttered at phone size."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short provides a much more profound sense of cosmic scale and 'mind-bending' mystery than the more localized technical focus of the Voyager or Mars episodes.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

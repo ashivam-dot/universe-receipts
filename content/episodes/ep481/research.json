@@ -1,0 +1,280 @@
+{
+  "viable": true,
+  "reason": "The provided sources contain over 15 multi-sourced claims detailing the geography of Arsia Mons, the discovery of its giant elongated cloud, and the breakthrough theoretical physics explaining its formation.",
+  "story": "Every spring morning on Mars, a massive 1,100-mile-long water-ice cloud emerges over the 12-mile-tall volcano Arsia Mons. Racing westward at over 380 miles per hour, this phenomenon—the Arsia Mons Elongated Cloud—evaporates completely before afternoon. While NASA's Viking 2 orbiter caught glimpses of it in the 1970s, ESA's Mars Express tracked its full daily lifecycle using a webcam originally installed just to confirm the 2003 release of the Beagle 2 lander. Modeling this giant cloud baffled scientists for years because clouds on Earth form when water vapor condenses around dust or pollen particles. But recent computer simulations revealed that Arsia Mons forces air up its slope so fast that temperatures plummet 54 degrees Fahrenheit in ten minutes. In Mars's ultra-clean upper atmosphere, water vapor freezes spontaneously straight out of thin air—a long-theoretical process called homogeneous ice nucleation that has never before been observed in nature.",
+  "angle": "A 1,100-mile-long Martian cloud forms every morning through 'homogeneous ice nucleation'—a theoretical process where water freezes spontaneously out of thin air without needing any dust or seed particles, never before observed in any planetary atmosphere.",
+  "claims": [
+    {
+      "claim": "Arsia Mons is a giant volcano located near the equator on Mars.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Arsia Mons stands about 12 miles (20 kilometers) high.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Arsia Mons has a diameter of roughly 270 miles (435 kilometers).",
+      "sources": [
+        "S1",
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Arsia Mons features a summit caldera that is 72 miles (110 km) wide.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mauna Loa in Hawaii is the largest volcano on Earth.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A recurring water-ice cloud known as the Arsia Mons Elongated Cloud (AMEC) forms over Arsia Mons during Martian spring and summer.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Arsia Mons Elongated Cloud can reach lengths of up to 1,800 kilometers (1,100 miles).",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The cloud forms high above the volcano at an altitude of about 45 kilometers (28 miles).",
+      "sources": [
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The cloud expands westward rapidly at speeds over 600 km/h (380 mph) before detaching and evaporating in the late morning.",
+      "sources": [
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The cloud was monitored across multiple daily lifecycles using the Visual Monitoring Camera (VMC), also known as the Mars Webcam, aboard ESA's Mars Express.",
+      "sources": [
+        "S3",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The VMC camera was originally installed on Mars Express to visually confirm the separation of the Beagle 2 lander in 2003.",
+      "sources": [
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA's Viking 2 mission partially imaged the elongated cloud feature as early as the 1970s.",
+      "sources": [
+        "S3",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Clouds on Earth form through heterogeneous nucleation, where water condenses around atmospheric particles like dust, salt, or pollen.",
+      "sources": [
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Computer simulations revealed that the Arsia Mons cloud forms via homogeneous ice nucleation, where water vapor condenses or freezes entirely on its own without pre-existing seed particles.",
+      "sources": [
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Homogeneous ice nucleation requires extreme supersaturation, needing humidity levels roughly 100,000 times higher than normal.",
+      "sources": [
+        "S4",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Air forced up the flanks of Arsia Mons drops in temperature by about 30 degrees Celsius (54 degrees Fahrenheit) in just 10 minutes.",
+      "sources": [
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Satellite images revealed seven dark spots on the flanks of Arsia Mons, including one named Jeanne, which represent possible cave entrances or deep pits.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Season of occurrence: Source S1 states the cloud forms near the start of southern winter, whereas sources S3, S5, and S7 state it forms during spring and summer. The script should use 'spring and summer' or attribute the variation.",
+    "Nature of dark spots on volcano flanks: Source S6 and earlier reports treat the dark spots as potential overhanging cave skylights, while S1 notes that more recent images suggest some features may simply be vertical pits rather than subterranean cave entrances. Script should attribute as 'putative cave entrances or deep vertical pits'."
+  ],
+  "visuals": [
+    {
+      "subject": "Arsia Mons daytime infrared mosaic",
+      "queries": [
+        "Arsia Mons THEMIS mosaic",
+        "Arsia Mons volcano Mars Odyssey"
+      ]
+    },
+    {
+      "subject": "Beagle 2 lander attached to Mars Express orbiter",
+      "queries": [
+        "Beagle 2 Mars Express spacecraft",
+        "Beagle 2 lander illustration"
+      ]
+    },
+    {
+      "subject": "ESA Mars Express orbiter in orbit around Mars (artist's concept)",
+      "queries": [
+        "Mars Express orbiter illustration",
+        "Mars Express spacecraft concept"
+      ]
+    },
+    {
+      "subject": "Arsia Mons Elongated Cloud imaged by Mars Express Visual Monitoring Camera",
+      "queries": [
+        "Arsia Mons Elongated Cloud Mars Express VMC",
+        "Arsia Mons cloud Mars Webcam"
+      ]
+    },
+    {
+      "subject": "Arsia Mons cloud captured by High Resolution Stereo Camera (HRSC)",
+      "queries": [
+        "Arsia Mons cloud HRSC Mars Express",
+        "Arsia Mons volcano cloud HRSC"
+      ]
+    },
+    {
+      "subject": "Viking 2 Orbiter photograph of Mars",
+      "queries": [
+        "Viking 2 orbiter Mars photograph",
+        "Viking 2 spacecraft Mars image"
+      ]
+    },
+    {
+      "subject": "Diagram illustrating homogeneous versus heterogeneous ice nucleation (illustration)",
+      "queries": [
+        "Homogeneous ice nucleation diagram",
+        "Cloud microphysics nucleation diagram"
+      ]
+    },
+    {
+      "subject": "Jeanne cave entrance pit on Arsia Mons captured by HiRISE",
+      "queries": [
+        "Jeanne cave entrance Arsia Mons HiRISE",
+        "Arsia Mons pit crater HiRISE MRO"
+      ]
+    },
+    {
+      "subject": "Topographical map of Tharsis Montes showing Arsia Mons",
+      "queries": [
+        "Tharsis Montes topographic map MOLA",
+        "Arsia Mons Tharsis region map"
+      ]
+    },
+    {
+      "subject": "Mauna Loa shield volcano on Earth",
+      "queries": [
+        "Mauna Loa volcano aerial view",
+        "Mauna Loa shield volcano aerial photo"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Arsia_Mons",
+      "title": "Arsia Mons",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "http://photojournal.jpl.nasa.gov/catalog/PIA03948",
+      "title": "Arsia Mons Mosaic - NASA Science",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_Express_unlocks_the_secrets_of_curious_cloud",
+      "title": "Mars Express unlocks the secrets of curious cloud",
+      "site": "esa.int"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.nature.com/articles/s41561-026-02089-9",
+      "title": "Homogeneous ice nucleation from water vapour suggested by elongated clouds on Mars - Nature Geoscience",
+      "site": "nature.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.astronomy.com/science/the-weird-science-behind-mars-weirdest-cloud/",
+      "title": "The weird science behind Mars’ weirdest cloud",
+      "site": "astronomy.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://web.archive.org/web/20070526121623/http://www.planetary.org/blog/article/00000984/",
+      "title": "The Planetary Society Weblog",
+      "site": "planetary.org"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.livescience.com/space/mars/1-000-mile-long-cloud-that-forms-and-vanishes-on-mars-every-day-obeys-exotic-physics-never-seen-on-earth",
+      "title": "1,000-mile-long cloud that forms and vanishes on Mars every day obeys 'exotic physics' never seen on Earth",
+      "site": "livescience.com"
+    }
+  ],
+  "topic": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
+  "series": "Space Got Weird"
+}
