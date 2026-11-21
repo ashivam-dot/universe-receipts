@@ -88,6 +88,8 @@ unexplained, not alien.
 | 2026-11-19 | Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body | Space Got Weird | NASA announced data confirming a first-of-its-kind stellar merger in the Andromeda galaxy. |
 | 2026-11-19 | Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years — parked (ep465) | Scale Breaker | Featured on NASA's Astronomy Picture of the Day. |
 | 2026-11-20 | Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods | Mission Files | Featured in recent NASA news after researchers used its open data to accelerate pulsar discovery by a factor of one million. |
+| 2026-11-21 | Voyager 2 (1977): the mission almost ended minutes after lift-off when the probe's computer mistook rocket vibrations for a catastrophic system failure — making (ep476) | Near Misses | Voyager 1 is currently trending on Wikipedia and today's NASA APOD features Voyager 2's Neptune images. |
+| 2026-11-21 | Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press | Mission Files | NASA just released a new milestone collage featuring all 49 drill holes from the rover's 5,061-sol mission. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -114,6 +116,7 @@ unexplained, not alien.
 | Dec 30 | Edwin Hubble (1924): on this day, the astronomer officially proved that the 'nebula' Andromeda was actually an entire galaxy outside our own | Scale Breaker |
 | Jan 2 | Luna 1 (1959): on Jan 2, humanity launched the first probe meant to strike the Moon, but a timing glitch made it miss and become the first craft to orbit the Sun | Near Misses |
 | Jan 4 | Spirit (rover) (2004): on Jan 4, NASA's Spirit rover slammed onto Mars wrapped in protective airbags, surviving a mission that lasted 20 times longer than intended | Mission Files |
+| Jan 5 | Eris (dwarf planet) (2005): on this day, astronomers discovered a world so massive it challenged Pluto's status, eventually leading to its demotion as a planet | Space Got Weird |
 | Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day — parked (ep217) | Mission Files |
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury — done (ep252) | Mission Files |
 | Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar — parked (ep271) | Near Misses |
@@ -197,7 +200,7 @@ unexplained, not alien.
 - Vela Pulsar (1968): a dead star spinning 11 times a second that shoots a violent jet of superheated plasma through space while glitching its spin rate — done (ep226)
 - Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body — dropped (ep404)
 - GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye — done (ep346)
-- Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — parked (ep281)
+- Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — making (ep479)
 - Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe — dropped (ep294)
 - Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — done (ep417)
 - Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — done (ep451)
@@ -268,6 +271,7 @@ unexplained, not alien.
 - White dwarf (1910): when our Sun dies, it will shrink into a dead core so dense that a single sugar cube of its matter would weigh over a ton — dropped (ep456)
 - Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere — making (ep458)
 - Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform — done (ep467)
+- Atmosphere of Earth (1946): if Earth were a standard desktop globe, the entire layer of air that supports all life would be thinner than a single coat of spray-on varnish — making (ep477)
 
 ### Mission Files
 
@@ -339,7 +343,7 @@ unexplained, not alien.
 - Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — dropped (ep403)
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose — parked (ep316)
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — dropped (ep424)
-- TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — parked (ep293)
+- TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — making (ep478)
 - Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls — done (ep457)
 - Moon (1969): Apollo astronauts discovered that lunar dust smells exactly like spent gunpowder and can cause moon hay fever — done (ep265)
 - Saturn (2013): extreme pressure in the atmosphere may create diamond rain, where 1,000 tons of diamonds are produced every year — dropped (ep267)

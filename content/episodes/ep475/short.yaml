@@ -1,0 +1,189 @@
+id: ep475
+title: Waking Voyager 1 Engines After 37 Years
+series: Mission Files
+format: v3
+description: NASA engineers successfully fired backup thrusters on Voyager 1 in interstellar space after nearly four decades
+  of dormancy.
+sources:
+- https://en.wikipedia.org/wiki/Voyager_1
+- https://web.archive.org/web/20190418200450/https://solarsystem.nasa.gov/missions/voyager-1/in-depth/
+- https://www.livescience.com/23822-voyager-spacecraft-solar-system.html
+hashtags:
+- '#space'
+- '#voyager1'
+- '#nasa'
+tags:
+- voyager 1
+- interstellar space
+- nasa
+- backup thrusters
+- mission files
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA fired backup thrusters on a probe in interstellar space.
+  emphasis:
+  - interstellar space
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Voyager_1%27s_view_of_Solar_System_%28artist%27s_impression%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager 1's view of Solar System (artist's impression).jpg
+      credit: NASA, ESA, and G. Bacon (STScI)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Voyager_1%27s_view_of_Solar_System_(artist%27s_impression).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.65
+    focus_y: 0.45
+- text: These backup engines had stayed completely silent since 1980.
+  emphasis:
+  - completely silent
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: '1980'
+      small: Last used
+    motion: zoom_in
+- text: Voyager 1 was drifting over 11 billion miles from home.
+  emphasis:
+  - 11 billion miles
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/PIA17046_-_Voyager_1_Goes_Interstellar.jpg/3840px-PIA17046_-_Voyager_1_Goes_Interstellar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA17046 - Voyager 1 Goes Interstellar.jpg
+      credit: NASA / JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA17046_-_Voyager_1_Goes_Interstellar.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.5
+- text: These components stayed cold and unused in the void.
+  emphasis:
+  - cold and unused
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/ac/PIA17036_Voyager_the_Explorer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA17036 Voyager the Explorer.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA17036_Voyager_the_Explorer.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Its primary steering jets were finally starting to fail.
+  emphasis:
+  - starting to fail
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Voyager_diagram.jpg/960px-Voyager_diagram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager diagram.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_diagram.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.6
+    - 0.65
+    - 0.85
+- text: Engineers sent a signal during late 2017 to wake the backups.
+  emphasis:
+  - sent a signal
+  - late 2017
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Mission_control_on_flight_day_14.jpg/3840px-Mission_control_on_flight_day_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mission control on flight day 14.jpg
+      credit: Robert Markowitz
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mission_control_on_flight_day_14.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Those 37-year-old thrusters fired perfectly on the first try.
+  emphasis:
+  - fired perfectly
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e1/Stone_Voyager_4c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Stone Voyager 4c.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Stone_Voyager_4c.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.6
+    focus_y: 0.4
+    card:
+      kind: fact
+      big: 37 YEARS
+      small: Dormant backup thrusters
+- text: The ancient probe can now keep calling home for years.
+  emphasis:
+  - keep calling home
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg/1920px-The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Sounds of Earth Record Cover - GPN-2000-001978.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: We still depend on backup thrusters in interstellar space.
+  emphasis:
+  - backup thrusters
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.65
+    focus_y: 0.45
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 37 YEARS OF SILENCE
