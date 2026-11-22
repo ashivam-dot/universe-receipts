@@ -1,0 +1,200 @@
+id: ep494
+title: The Million-Times-Faster Star Hunt
+series: Mission Files
+format: v3
+description: NASA's Fermi telescope gathered open data that choked supercomputers for centuries of processing. Borrowing math
+  from quantum cryptography solved the search in ten hours.
+sources:
+- https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/
+- https://www.universetoday.com/19879/fermi-telescope-makes-first-big-discovery-gamma-ray-pulsar/
+- https://tech.yahoo.com/science/articles/nasa-fermi-data-reveals-hidden-175000974.html
+- https://casrai.org/news/fermi-gamma-ray-telescope-cryptography-algorithm-accelerates-pulsar-discovery-2026
+- https://en.wikipedia.org/wiki/Fermi_Gamma-ray_Space_Telescope
+- http://www-glast.stanford.edu/
+hashtags:
+- '#space'
+- '#nasa'
+- '#astronomy'
+tags:
+- Fermi telescope
+- pulsars
+- quantum cryptography
+- astronomy
+- neutron stars
+- NASA data
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Physicists found a hidden dead star a million times faster.
+  emphasis:
+  - million times faster
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Noirlab2218a_Neutron_Star_Merger_in_the_Early_Universe.jpg/3840px-Noirlab2218a_Neutron_Star_Merger_in_the_Early_Universe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Noirlab2218a Neutron Star Merger in the Early Universe.jpg
+      credit: NOIRLab/NSF/AURA/J. da Silva/Spaceengine
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Noirlab2218a_Neutron_Star_Merger_in_the_Early_Universe.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.44
+    box:
+    - 0.32
+    - 0.18
+    - 0.58
+    - 0.72
+- text: Standard methods burned six hundred years of computing and found nothing.
+  emphasis:
+  - six hundred years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Einstein%40home_working.jpg/3840px-Einstein%40home_working.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Einstein@home working.jpg
+      credit: Robert
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Einstein@home_working.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.49
+    focus_y: 0.47
+    card:
+      kind: fact
+      big: 600 years
+      small: Computation found nothing
+- text: NASA's Fermi telescope captures only sparse photons across the sky.
+  emphasis:
+  - Fermi telescope
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Fermi Gamma-ray Space Telescope spacecraft model.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Sifting through noise used to swallow whole volunteer computing networks.
+  emphasis:
+  - computing networks
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Fermi%27s_12-year_View_of_the_Gamma-ray_Sky_%28SVS14090_-_Fermi_144-month_Fermi_all-sky_hammer_4000x2000%29.png/3840px-Fermi%27s_12-year_View_of_the_Gamma-ray_Sky_%28SVS14090_-_Fermi_144-month_Fermi_all-sky_hammer_4000x2000%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Fermi's 12-year View of the Gamma-ray Sky (SVS14090 - Fermi 144-month Fermi all-sky hammer 4000x2000).png
+      credit: NASA's Scientific Visualization Studio - University of Maryland College Park/Francis Reddy
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Fermi%27s_12-year_View_of_the_Gamma-ray_Sky_(SVS14090_-_Fermi_144-month_Fermi_all-sky_hammer_4000x2000).png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: So researchers borrowed math designed to test quantum encryption.
+  emphasis:
+  - quantum encryption
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: Post-quantum
+      small: Lattice cryptography math
+    motion: zoom_in
+- text: They mapped the search as geometry in a high-dimensional lattice.
+  emphasis:
+  - high-dimensional lattice
+  visual:
+    reuse: 4
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A standard computer processor found the target in ten hours.
+  emphasis:
+  - ten hours
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://live.staticflickr.com/7597/16205191643_b4574329b8_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: ULSI_AMC_DX_DLC_40MHz_2015-03-14-11.56.50_-_ZS-DMap_-_Stack-DSC09781-DSC09831
+      credit: FritzchensFritz
+      license: CC0
+      url: http://www.flickr.com/photos/130561288@N04/16205191643
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.22
+    - 0.2
+    - 0.78
+    - 0.76
+    card:
+      kind: fact
+      big: 10 hours
+      small: Single standard processor
+- text: It revealed a pulsar spinning 261 times per second.
+  emphasis:
+  - 261 times
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pulsar_model.jpg/960px-Pulsar_model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pulsar model.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pulsar_model.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 261 spins
+      small: Per second
+- text: No telescope search had ever moved so fast.
+  emphasis:
+  - so fast
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.44
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 1,000,000X FASTER SEARCH

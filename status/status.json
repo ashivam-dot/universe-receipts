@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-22T23:06:16+05:30",
-  "day": 52,
+  "updated_at": "2026-11-23T05:06:13+05:30",
+  "day": 53,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M8256P76YH1AJ4TEBBRV823R",
+    "id": "ta-01M82SSW9A5Q4JH6PAMKQAAE8R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-22T23:05:09+05:30",
-    "started_at_utc": "2026-11-22T17:35:09+00:00",
-    "seconds": 67
+    "started_at": "2026-11-23T05:05:17+05:30",
+    "started_at_utc": "2026-11-22T23:35:17+00:00",
+    "seconds": 56
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.1
+      "seconds": 2.1
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.1
+      "seconds": 0.4
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.4
+      "seconds": 2.3
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.7
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -47,31 +47,25 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 3.9
+      "seconds": 5.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep466 ready; ep469 rejected (low scores: visuals; 3 frame problems); ep478 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep480 ready; ep481 rejected; ep482 ready; ep483 ready; ep485 rejected (low scores: payoff, visuals); ep486 rejected (low scores: payoff); ep487 ready; ep488 ready; ep489 rejected (low scores: loop; 2 frame problems); ep490 unfinished (RuntimeError: ep490: every take said things that aren't in the script); ep491 unfinished (OutOfQ",
-      "seconds": 30.9
+      "detail": "ep490 unfinished (RuntimeError: no Gemini TTS model read the script: gemini-3.8-flash-tts: HTTP 429 GenerateRequestsPerDayPerProjectPerModel-FreeTier=10); ep493 rejected (research: fewer than two readable sources); ep494 ready",
+      "seconds": 15.5
     },
     {
       "name": "start ep490",
       "ok": true,
       "detail": "Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains",
-      "seconds": 0.7
+      "seconds": 1.8
     },
     {
-      "name": "start ep493",
+      "name": "start ep495",
       "ok": true,
-      "detail": "Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose",
-      "seconds": 0.6
-    },
-    {
-      "name": "start ep494",
-      "ok": true,
-      "detail": "Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods",
-      "seconds": 0.6
+      "detail": "Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock",
+      "seconds": 1.0
     }
   ],
   "errors": [
@@ -79,15 +73,13 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep478 stopped on Gemini's free quota; it resumes in a later run",
-    "ep491 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 52,
+    "total": 53,
     "in_buffer": 10,
-    "waiting": 42,
+    "waiting": 43,
     "target": 14,
     "making": [
       "ep478",
@@ -95,8 +87,7 @@
     ],
     "remote": [
       "ep490",
-      "ep493",
-      "ep494"
+      "ep495"
     ]
   },
   "queue": [
@@ -403,186 +394,66 @@
       "title": "NASA Caught a Star Swallowing Its Planet",
       "series": "Space Got Weird",
       "score": 24
+    },
+    {
+      "id": "ep494",
+      "title": "The Million-Times-Faster Star Hunt",
+      "series": "Mission Files",
+      "score": 25
     }
   ],
   "made": [
     {
-      "id": "ep466",
-      "outcome": "ready",
-      "topic": "Voyager 1 (2012): as the probe entered interstellar space, it detected an eerie, low-frequency hum vibrating through deep space plasma",
-      "title": "The Eerie Hum Voyager 1 Found in Interstellar Space",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795348425/universereceipts/ep466-84647d98.mp4"
-    },
-    {
-      "id": "ep469",
-      "outcome": "rejected",
-      "topic": "Soyuz T-10a (1983): an emergency escape system yanked a crew capsule free just seconds before the launchpad below exploded into a massive fireball",
-      "reason": "low scores: visuals; 3 frame problems"
-    },
-    {
-      "id": "ep478",
-      "outcome": "unfinished",
-      "topic": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep480",
-      "outcome": "ready",
-      "topic": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
-      "title": "Why the Sun Is Hiding in a Million-Degree Bubble",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795348320/universereceipts/ep480-9e98c343.mp4"
-    },
-    {
-      "id": "ep481",
-      "outcome": "rejected",
-      "topic": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
-      "reason": ""
-    },
-    {
-      "id": "ep482",
-      "outcome": "ready",
-      "topic": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
-      "title": "The Cosmic Monster Dragging Our Entire Galaxy",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795347919/universereceipts/ep482-682072f3.mp4"
-    },
-    {
-      "id": "ep483",
-      "outcome": "ready",
-      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
-      "title": "What Happens When Betelgeuse Explodes?",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795347887/universereceipts/ep483-21bd44a4.mp4"
-    },
-    {
-      "id": "ep485",
-      "outcome": "rejected",
-      "topic": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
-      "reason": "low scores: payoff, visuals"
-    },
-    {
-      "id": "ep486",
-      "outcome": "rejected",
-      "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
-      "reason": "low scores: payoff"
-    },
-    {
-      "id": "ep487",
-      "outcome": "ready",
-      "topic": "Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press",
-      "title": "How NASA Saved Curiosity With a Human Trick",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795347911/universereceipts/ep487-98c72e90.mp4"
-    },
-    {
-      "id": "ep488",
-      "outcome": "ready",
-      "topic": "Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body",
-      "title": "NASA Caught a Star Swallowing Its Planet",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795348005/universereceipts/ep488-b174408d.mp4"
-    },
-    {
-      "id": "ep489",
-      "outcome": "rejected",
-      "topic": "2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years",
-      "reason": "low scores: loop; 2 frame problems"
-    },
-    {
       "id": "ep490",
       "outcome": "unfinished",
       "topic": "Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains",
-      "reason": "RuntimeError: ep490: every take said things that aren't in the script",
+      "reason": "RuntimeError: no Gemini TTS model read the script: gemini-3.8-flash-tts: HTTP 429 GenerateRequestsPerDayPerProjectPerModel-FreeTier=10",
       "quota": false,
       "overloaded": false
     },
     {
-      "id": "ep491",
-      "outcome": "unfinished",
-      "topic": "International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep493",
+      "outcome": "rejected",
+      "topic": "Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose",
+      "reason": "research: fewer than two readable sources"
     },
     {
-      "id": "ep492",
-      "outcome": "rejected",
-      "topic": "Noctilucent cloud (2006): high-altitude clouds on Mars formed of frozen carbon dioxide that glow brightly in the twilight long after sunset",
-      "reason": "research: only 0 claims have two different sites"
+      "id": "ep494",
+      "outcome": "ready",
+      "topic": "Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods",
+      "title": "The Million-Times-Faster Star Hunt",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795369596/universereceipts/ep494-d8183264.mp4"
     }
   ],
   "spawned": [
     {
       "id": "ep490",
       "topic": "Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains",
-      "call_id": "fc-01M8258TAW7WFHVW8CSR119E2P"
+      "call_id": "fc-01M82SVW66EFSVH9T2ZX0K46PQ"
     },
     {
-      "id": "ep493",
-      "topic": "Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose",
-      "call_id": "fc-01M8258TYE66JGB5E9JQ5002NM"
-    },
-    {
-      "id": "ep494",
-      "topic": "Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods",
-      "call_id": "fc-01M8258VGCMFR0QMY7E94DFJ2C"
+      "id": "ep495",
+      "topic": "Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock",
+      "call_id": "fc-01M82SVX4DBYYPNM4EVF055HGT"
     }
   ],
   "in_cloud": [
     {
       "id": "ep490",
       "topic": "Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains",
-      "spawned_at": "2026-11-22T23:06:10+05:30"
+      "spawned_at": "2026-11-23T05:06:06+05:30"
     },
     {
-      "id": "ep493",
-      "topic": "Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose",
-      "spawned_at": "2026-11-22T23:06:11+05:30"
-    },
-    {
-      "id": "ep494",
-      "topic": "Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods",
-      "spawned_at": "2026-11-22T23:06:11+05:30"
+      "id": "ep495",
+      "topic": "Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock",
+      "spawned_at": "2026-11-23T05:06:07+05:30"
     }
   ],
   "published": [],
@@ -590,24 +461,24 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 70,
+    "calls": 6,
     "by_model": {
-      "gemini-3.6-flash": 25,
-      "gemini-3.5-flash": 3,
-      "gemini-3-flash-preview": 26,
-      "gemini-3.5-flash-lite": 16
+      "gemini-3.5-flash-lite": 2,
+      "gemini-3.8-flash": 2,
+      "gemini-3.6-flash": 1,
+      "gemini-3-flash-preview": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 28,
+    "modal": 1,
     "runner": 0
   },
   "daily_done": "2026-11-22",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 15.06,
+    "metered": 15.14,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -615,10 +486,10 @@
     "cloud": 107,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 12.94
+    "modal_credit_left": 12.86
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 35,
+  "open_topics": 34,
   "parked_topics": 46
 }

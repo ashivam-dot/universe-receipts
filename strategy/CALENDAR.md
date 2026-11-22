@@ -87,7 +87,7 @@ unexplained, not alien.
 | 2026-11-17 | Venera 3 (1965): the first human-made object to strike the surface of another planet, it likely crash-landed and was destroyed without sending a single bit of data | Mission Files | November 16 was the 59th anniversary of the launch of this pioneer mission. |
 | 2026-11-19 | Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body — done (ep488) | Space Got Weird | NASA announced data confirming a first-of-its-kind stellar merger in the Andromeda galaxy. |
 | 2026-11-19 | Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years — parked (ep465) | Scale Breaker | Featured on NASA's Astronomy Picture of the Day. |
-| 2026-11-20 | Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods — making (ep494) | Mission Files | Featured in recent NASA news after researchers used its open data to accelerate pulsar discovery by a factor of one million. |
+| 2026-11-20 | Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods — done (ep494) | Mission Files | Featured in recent NASA news after researchers used its open data to accelerate pulsar discovery by a factor of one million. |
 | 2026-11-21 | Voyager 2 (1977): the mission almost ended minutes after lift-off when the probe's computer mistook rocket vibrations for a catastrophic system failure — dropped (ep476) | Near Misses | Voyager 1 is currently trending on Wikipedia and today's NASA APOD features Voyager 2's Neptune images. |
 | 2026-11-21 | Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press — done (ep487) | Mission Files | NASA just released a new milestone collage featuring all 49 drill holes from the rover's 5,061-sol mission. |
 | 2026-11-22 | Juno (spacecraft) (2016): a solar-powered probe braving Jupiter's lethal radiation belts to discover Earth-sized polar cyclones locked in a stable geometric dance | Mission Files | Featured on NASA APOD with newly processed images of Jupiter's vibrant, swirling atmospheric clouds. |
@@ -166,7 +166,7 @@ unexplained, not alien.
 | Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors — done (ep396) | Space Got Weird |
 | Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean — done (ep414) | Mission Files |
 | Nov 26 | InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough — dropped (ep449) | Mission Files |
-| Nov 30 | Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock | Space Got Weird |
+| Nov 30 | Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock — making (ep495) | Space Got Weird |
 
 ## Backlog
 
@@ -346,7 +346,7 @@ unexplained, not alien.
 - 3200 Phaethon (1983): a bizarre rock orbiting so close to the Sun that it bakes and breaks apart, acting like a comet to create the Geminids — done (ep345)
 - PSR J1719−1438 b (2011): an exoplanet made almost entirely of ultra-dense crystalline carbon, effectively forming a planet-sized diamond — done (ep225)
 - Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — dropped (ep403)
-- Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose — making (ep493)
+- Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose — dropped (ep493)
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — dropped (ep424)
 - TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — making (ep478)
 - Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls — done (ep457)
