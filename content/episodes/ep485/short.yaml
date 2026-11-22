@@ -1,0 +1,214 @@
+id: ep485
+title: The Saturnian Moon That Acts Like a Sponge
+series: Space Got Weird
+format: v3
+description: Hyperion is a bizarre moon that is roughly forty percent empty space. This causes meteor impacts to compress
+  its surface like foam rather than blasting out debris.
+sources:
+- https://en.wikipedia.org/wiki/Hyperion_(moon)
+- https://web.archive.org/web/20160410083133/http://saturn.jpl.nasa.gov/science/moons/hyperion/
+- http://www.space.com/scienceastronomy/070704_sponge_moon.html
+- https://arxiv.org/abs/2602.09281
+hashtags:
+- '#space'
+- '#saturn'
+- '#hyperion'
+tags:
+- hyperion
+- saturn
+- moon
+- nasa
+- cassini
+- astronomy
+- science
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Saturn has an icy moon shaped like a sponge.
+  emphasis:
+  - sponge
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Hyperion_-_September_2005_%2816174518896%29.jpg/960px-Hyperion_-_September_2005_%2816174518896%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hyperion - September 2005 (16174518896).jpg
+      credit: Kevin M. Gill
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hyperion_-_September_2005_(16174518896).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.44
+    focus_y: 0.48
+    box:
+    - 0.05
+    - 0.03
+    - 0.77
+    - 0.96
+- text: When Cassini arrived in 2005, its craters looked wrong.
+  emphasis:
+  - looked wrong
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cassini_Saturn_Orbit_Insertion.jpg/3840px-Cassini_Saturn_Orbit_Insertion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Cassini Saturn Orbit Insertion.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Cassini_Saturn_Orbit_Insertion.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.55
+    focus_y: 0.45
+    box:
+    - 0.3
+    - 0.1
+    - 0.95
+    - 0.75
+    card:
+      kind: dateline
+      big: '2005'
+      small: Cassini Flyby
+- text: Normal impacts blast debris everywhere, but this moon has almost none.
+  emphasis:
+  - almost none
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Hyperion_true.jpg/1280px-Hyperion_true.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hyperion true.jpg
+      credit: NASA / JPL / SSI / Gordan Ugarkovic
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hyperion_true.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: 'The secret: roughly forty percent of Hyperion is empty space.'
+  emphasis:
+  - empty space
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Hyperion_-_2015-05-30_%2818398702135%29.jpg/960px-Hyperion_-_2015-05-30_%2818398702135%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hyperion - 2015-05-30 (18398702135).jpg
+      credit: Justin Cowart
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hyperion_-_2015-05-30_(18398702135).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 40%
+      small: Empty Space
+- text: Because it's porous ice, meteors don't blast debris outward.
+  emphasis:
+  - porous ice
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Bond-Lassell_Dorsum_on_Hyperion.jpg/1280px-Bond-Lassell_Dorsum_on_Hyperion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Bond-Lassell Dorsum on Hyperion.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Bond-Lassell_Dorsum_on_Hyperion.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They punch directly inward, compressing the ice like foam.
+  emphasis:
+  - like foam
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Mendelssohn_crater_EW0231567383G_TwoTerrains.map.jpg/1280px-Mendelssohn_crater_EW0231567383G_TwoTerrains.map.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mendelssohn crater EW0231567383G TwoTerrains.map.jpg
+      credit: NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mendelssohn_crater_EW0231567383G_TwoTerrains.map.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Gravity from giant Titan also forces the moon into a chaotic tumble.
+  emphasis:
+  - chaotic tumble
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Titan_in_front_of_the_ring_and_Saturn.jpg/1280px-Titan_in_front_of_the_ring_and_Saturn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Titan in front of the ring and Saturn.jpg
+      credit: 'Produced By: Cassini Imaging Team,  Image Credit: NASA/JPL-Caltech/Space Science Institute'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Titan_in_front_of_the_ring_and_Saturn.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Titan
+      small: Orbital Tugs
+- text: Its axis wobbles in a spin that's completely unpredictable.
+  emphasis:
+  - completely unpredictable
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/47/Lunas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Lunas.jpg
+      credit: Originally uploaded from NASA by Bricktop; edited by Deuar, KFP, TotoBaggins, Yáser
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Lunas.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That unpredictable spin is unique to this giant cosmic sponge.
+  emphasis:
+  - unique
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.44
+    focus_y: 0.48
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: SATURN'S GIANT SPONGE

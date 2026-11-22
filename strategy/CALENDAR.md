@@ -70,7 +70,7 @@ unexplained, not alien.
 | 2026-11-05 | SN 1987A (1987): the closest supernova observed in 400 years blasted Earth with invisible subatomic neutrinos hours before its blinding light reached telescopes — dropped (ep358) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
 | 2026-11-05 | SGR 1900+14 (1998): a massive starquake on a magnetar 20,000 light-years away released a gamma-ray pulse so powerful it physically ionized Earth's upper atmosphere in the dead of night — done (ep362) | The Universe Is Terrifying | Follow-up to ep346, which broke out (1,600 views in 12 h, 41.6x the median) |
 | 2026-11-05 | IC 342 (1895): a massive spiral galaxy hidden right behind the Milky Way's dusty equator that would be visible to the naked eye if space were clear — dropped (ep364) | Space Got Weird | Featured in NASA's Astronomy Picture of the Day on November 4. |
-| 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe — parked (ep363) | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
+| 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe — making (ep486) | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
 | 2026-11-06 | Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge — making (ep485) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
 | 2026-11-06 | Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years — done (ep367) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
 | 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging — parked (ep392) | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
@@ -85,11 +85,11 @@ unexplained, not alien.
 | 2026-11-16 | NGC 7129 (1794): newborn stars blasting supersonic gas jets that carve glowing cosmic bubbles out of interstellar dust | Space Got Weird | Featured in NASA's Astronomy Picture of the Day highlighting James Webb Space Telescope observations of its protostellar jets. |
 | 2026-11-17 | Voyager 2 (1986): for forty years we believed Uranus had a bizarre, lopsided magnetic field, only to realize the probe caught the planet during a rare solar wind fluke — dropped (ep435) | Space Got Weird | A new study in Nature Astronomy this week re-evaluating the 1986 flyby data is trending. |
 | 2026-11-17 | Venera 3 (1965): the first human-made object to strike the surface of another planet, it likely crash-landed and was destroyed without sending a single bit of data | Mission Files | November 16 was the 59th anniversary of the launch of this pioneer mission. |
-| 2026-11-19 | Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body | Space Got Weird | NASA announced data confirming a first-of-its-kind stellar merger in the Andromeda galaxy. |
+| 2026-11-19 | Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body — making (ep488) | Space Got Weird | NASA announced data confirming a first-of-its-kind stellar merger in the Andromeda galaxy. |
 | 2026-11-19 | Horsehead Nebula (1888): an iconic 3-light-year-tall cosmic dust cloud that is slowly being eroded and will be erased within 5 million years — parked (ep465) | Scale Breaker | Featured on NASA's Astronomy Picture of the Day. |
 | 2026-11-20 | Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods | Mission Files | Featured in recent NASA news after researchers used its open data to accelerate pulsar discovery by a factor of one million. |
 | 2026-11-21 | Voyager 2 (1977): the mission almost ended minutes after lift-off when the probe's computer mistook rocket vibrations for a catastrophic system failure — dropped (ep476) | Near Misses | Voyager 1 is currently trending on Wikipedia and today's NASA APOD features Voyager 2's Neptune images. |
-| 2026-11-21 | Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press | Mission Files | NASA just released a new milestone collage featuring all 49 drill holes from the rover's 5,061-sol mission. |
+| 2026-11-21 | Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press — making (ep487) | Mission Files | NASA just released a new milestone collage featuring all 49 drill holes from the rover's 5,061-sol mission. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -200,7 +200,7 @@ unexplained, not alien.
 - Vela Pulsar (1968): a dead star spinning 11 times a second that shoots a violent jet of superheated plasma through space while glitching its spin rate — done (ep226)
 - Thorne–Żytkow object (1977): a bizarre hybrid star that hides a dead neutron star core inside its red giant body — dropped (ep404)
 - GRB 080319B (2008): a dying star 7.5 billion light-years away exploded with such fury it could be seen from Earth with the naked eye — done (ep346)
-- Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — making (ep479)
+- Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died — dropped (ep479)
 - Dark flow (2008): a mysterious, unseen force pulling hundreds of galaxy clusters toward a single point outside the observable universe — dropped (ep294)
 - Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — done (ep417)
 - Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — done (ep451)
@@ -247,7 +247,7 @@ unexplained, not alien.
 - Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it — making (ep482)
 - Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity — parked (ep338)
 - Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter — done (ep347)
-- Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way — making (ep484)
+- Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way — done (ep484)
 - CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered — parked (ep344)
 - Oort cloud (1950): a colossal shell of icy objects that is so far away it takes sunlight over a year to reach its outer edge — done (ep260)
 - Great Red Spot (1831): this massive storm on Jupiter is currently shrinking, but it is still large enough to swallow the entire Earth — dropped (ep461)
@@ -298,7 +298,7 @@ unexplained, not alien.
 - Lucy (spacecraft) (2021): a mission designed to tour a record number of asteroids, featuring a twelve-year journey past the Trojan swarms — dropped (ep333)
 - Stardust (spacecraft) (1999): NASA captured cometary dust at hypersonic speeds using 'frozen smoke' aerogel and safely parachuted the samples back to Earth — done (ep190)
 - Venera 4 (1967): the first probe to enter another planet's atmosphere and send back data, transmitting as it fell through Venus's crushing skies — done (ep352)
-- 2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years — parked (ep337)
+- 2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years — making (ep489)
 - Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth — parked (ep353)
 - Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands — done (ep351)
 - Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — parked (ep279)

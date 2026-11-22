@@ -1,0 +1,108 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-22T05:15:00+05:30",
+      "check": {
+        "duration": 34.67,
+        "words": 89,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'blast' heard as 'blasted' after 'sense normal impacts'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing visual premise catches attention quickly.",
+        "clarity": "Simple structure explains porous density clearly.",
+        "payoff": "Solid explanation of foam-like impact absorption.",
+        "visuals": "Mosaic artifacts with black boxes visible in frame.",
+        "loop": "Smooth transition back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Incomplete mosaic image with black artifact boxes"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Clear visual metaphor of foam compression explains the moon structure well.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T05:16:43+05:30",
+      "check": {
+        "duration": 34.67,
+        "words": 89,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'blast' heard as 'blasted' after 'sense normal impacts'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The visual comparison to a sponge is immediately engaging for viewers.",
+        "clarity": "The script handles the physics of porous impact very effectively.",
+        "payoff": "The ending transitions to orbital mechanics, weakening the primary sponge theme.",
+        "visuals": "One beat uses a generic planetary surface instead of the specific subject.",
+        "loop": "The final line creates a smooth grammatical bridge back to the start."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows a generic, rocky lunar crater rather than the porous, foam-like ice of Hyperion."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Gravity from giant Titan also forces the moon into a chaotic tumble.",
+        "Beat 9: That unpredictable spin is unique to..."
+      ],
+      "better_than_last": "Provides a more distinct scientific explanation for lunar morphology than the Mars pastel episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

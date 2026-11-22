@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-22T05:06:19+05:30",
+  "updated_at": "2026-11-22T11:06:11+05:30",
   "day": 52,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M807D4VTTRFSXB6F26K34EDR",
+    "id": "ta-01M80W0APTBC5VA0WK0HTNYHCR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-22T05:05:14+05:30",
-    "started_at_utc": "2026-11-21T23:35:14+00:00",
-    "seconds": 64
+    "started_at": "2026-11-22T11:05:11+05:30",
+    "started_at_utc": "2026-11-22T05:35:11+00:00",
+    "seconds": 60
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
+      "seconds": 1.5
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.5
+      "seconds": 2.0
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -47,37 +47,37 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 5.3
+      "seconds": 4.7
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep479 unfinished (ProtocolError: ('Connection broken: IncompleteRead(3042 bytes read)', IncompleteRead(3042 bytes read))); ep480 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep481 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep482 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-fl",
-      "seconds": 17.0
+      "detail": "ep479 unfinished (ProtocolError: ('Connection broken: IncompleteRead(3042 bytes read)', IncompleteRead(3042 bytes read))); ep483 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep484 ready; ep485 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 16.4
     },
     {
-      "name": "start ep479",
+      "name": "start ep486",
       "ok": true,
-      "detail": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "seconds": 1.2
-    },
-    {
-      "name": "start ep483",
-      "ok": true,
-      "detail": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep484",
-      "ok": true,
-      "detail": "Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep485",
-      "ok": true,
-      "detail": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
+      "detail": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
       "seconds": 1.6
+    },
+    {
+      "name": "start ep487",
+      "ok": true,
+      "detail": "Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep488",
+      "ok": true,
+      "detail": "Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body",
+      "seconds": 1.5
+    },
+    {
+      "name": "start ep489",
+      "ok": true,
+      "detail": "2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years",
+      "seconds": 1.7
     }
   ],
   "errors": [
@@ -85,16 +85,15 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep480 stopped on Gemini's free quota; it resumes in a later run",
-    "ep481 stopped on Gemini's free quota; it resumes in a later run",
-    "ep482 stopped on Gemini's free quota; it resumes in a later run",
+    "ep483 stopped on Gemini's free quota; it resumes in a later run",
+    "ep485 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 45,
+    "total": 46,
     "in_buffer": 10,
-    "waiting": 35,
+    "waiting": 36,
     "target": 14,
     "making": [
       "ep466",
@@ -102,13 +101,15 @@
       "ep478",
       "ep480",
       "ep481",
-      "ep482"
+      "ep482",
+      "ep483",
+      "ep485"
     ],
     "remote": [
-      "ep479",
-      "ep483",
-      "ep484",
-      "ep485"
+      "ep486",
+      "ep487",
+      "ep488",
+      "ep489"
     ]
   },
   "queue": [
@@ -373,6 +374,12 @@
       "title": "Waking Voyager 1 Engines After 37 Years",
       "series": "Mission Files",
       "score": 25
+    },
+    {
+      "id": "ep484",
+      "title": "The Glowing Giants That Dwarf Our Galaxy",
+      "series": "Scale Breaker",
+      "score": 20
     }
   ],
   "made": [
@@ -385,25 +392,31 @@
       "overloaded": false
     },
     {
-      "id": "ep480",
+      "id": "ep483",
       "outcome": "unfinished",
-      "topic": "Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas",
+      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep481",
-      "outcome": "unfinished",
-      "topic": "Arsia Mons (1971): a giant Martian volcano that creates a mysterious water-ice cloud over 1,000 miles long every spring",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep484",
+      "outcome": "ready",
+      "topic": "Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way",
+      "title": "The Glowing Giants That Dwarf Our Galaxy",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795304539/universereceipts/ep484-537e1454.mp4"
     },
     {
-      "id": "ep482",
+      "id": "ep485",
       "outcome": "unfinished",
-      "topic": "Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it",
+      "topic": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -411,46 +424,46 @@
   ],
   "spawned": [
     {
-      "id": "ep479",
-      "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "call_id": "fc-01M807F82R5A3A6C62C3C8C1J4"
+      "id": "ep486",
+      "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
+      "call_id": "fc-01M80W265WYXV4PPQJRES5VN6F"
     },
     {
-      "id": "ep483",
-      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
-      "call_id": "fc-01M807F90P18NNXGPZGX13MA4A"
+      "id": "ep487",
+      "topic": "Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press",
+      "call_id": "fc-01M80W27QK4BZK1E3QRWSWCW1T"
     },
     {
-      "id": "ep484",
-      "topic": "Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way",
-      "call_id": "fc-01M807F9ZW8S0YH14Q7JGSNDGJ"
+      "id": "ep488",
+      "topic": "Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body",
+      "call_id": "fc-01M80W296ZM1VQ7KAVCC9NSTPZ"
     },
     {
-      "id": "ep485",
-      "topic": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
-      "call_id": "fc-01M807FBKHVPB5815D3X9D7843"
+      "id": "ep489",
+      "topic": "2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years",
+      "call_id": "fc-01M80W2AW4606S9WY8XXFFNT5E"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep479",
-      "topic": "Cassiopeia A (1947): the youngest known supernova remnant in the Milky Way, whose exploded star turned itself completely inside out as it died",
-      "spawned_at": "2026-11-22T05:06:09+05:30"
+      "id": "ep486",
+      "topic": "NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe",
+      "spawned_at": "2026-11-22T11:06:01+05:30"
     },
     {
-      "id": "ep483",
-      "topic": "Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks",
-      "spawned_at": "2026-11-22T05:06:10+05:30"
+      "id": "ep487",
+      "topic": "Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press",
+      "spawned_at": "2026-11-22T11:06:03+05:30"
     },
     {
-      "id": "ep484",
-      "topic": "Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way",
-      "spawned_at": "2026-11-22T05:06:11+05:30"
+      "id": "ep488",
+      "topic": "Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body",
+      "spawned_at": "2026-11-22T11:06:04+05:30"
     },
     {
-      "id": "ep485",
-      "topic": "Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge",
-      "spawned_at": "2026-11-22T05:06:13+05:30"
+      "id": "ep489",
+      "topic": "2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years",
+      "spawned_at": "2026-11-22T11:06:06+05:30"
     }
   ],
   "published": [],
@@ -458,35 +471,37 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 24,
+    "calls": 26,
     "by_model": {
+      "gemini-3.5-flash-lite": 11,
+      "gemini-3.8-flash": 2,
+      "gemini-3.6-flash": 6,
       "gemini-3.5-flash": 1,
-      "gemini-3-flash-preview": 7,
-      "gemini-3.5-flash-lite": 9,
-      "gemini-3.6-flash": 7
+      "gemini-3-flash-preview": 5,
+      "gemini-3.7-flash": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 7,
+    "modal": 6,
     "runner": 0
   },
   "daily_done": "2026-11-21",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 13.81,
+    "metered": 14.01,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 118,
+    "cloud": 116,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 14.19
+    "modal_credit_left": 13.99
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 36,
-  "parked_topics": 49
+  "open_topics": 34,
+  "parked_topics": 47
 }

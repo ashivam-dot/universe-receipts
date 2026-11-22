@@ -1,0 +1,60 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-22T05:12:23+05:30",
+      "check": {
+        "duration": 29.8,
+        "words": 85,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong imagery of shadows at night grabs attention immediately.",
+        "clarity": "Narrative logically follows the timeline from mystery to solution.",
+        "payoff": "The dust reveal is accurate but lacks emotional impact.",
+        "visuals": "Uses a famous image of a different supernova incorrectly.",
+        "loop": "Phrasing transitions smoothly back to the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Shows Supernova 1987A instead of Betelgeuse."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "Betelgeuse",
+          "respelling": "beetle juice"
+        }
+      ],
+      "rewrite": [
+        "Beat 6: Hubble found the star burped a massive gas cloud that cooled into dust."
+      ],
+      "better_than_last": "This Short leverages a more recognizable astronomical subject than the asteroid in episode 471.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

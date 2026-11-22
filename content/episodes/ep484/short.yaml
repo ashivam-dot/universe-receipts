@@ -1,0 +1,207 @@
+id: ep484
+title: The Glowing Giants That Dwarf Our Galaxy
+series: Scale Breaker
+format: v3
+description: Deep in the early universe, enormous clouds of glowing hydrogen span hundreds of thousands of light-years. Astronomers
+  solved the mystery of what powers these cosmic behemoths.
+sources:
+- https://en.wikipedia.org/wiki/Lyman-alpha_blob
+- https://www.eso.org/public/news/eso1130/
+- https://www.subarutelescope.org/Pressrelease/2006/07/26/index.html
+hashtags:
+- '#space'
+- '#astronomy'
+- '#universe'
+tags:
+- space
+- astronomy
+- cosmos
+- milky way
+- black hole
+- universe
+- science
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Giant clouds of glowing gas dwarf our entire galaxy.
+  emphasis:
+  - glowing gas
+  - dwarf
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/be/Composite_Image_of_a_Blob_%282009-labs-more-1_-_labs_noxray%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Composite Image of a Blob (2009-labs-more-1 - labs noxray).jpg
+      credit: '(Credit: X-ray (NASA/CXC/Durham Univ./D.Alexander et al.); Optical (NASA/ESA/STScI/IoA/S.Chapman et al.); Lyman-alpha
+        Optical (NAOJ/Subaru/Tohoku Univ./T.Hayashino et al.); Infrared (NASA/JPL-Caltech/'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Composite_Image_of_a_Blob_(2009-labs-more-1_-_labs_noxray).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.3
+    - 0.65
+    - 0.75
+- text: Astronomers in 2000 discovered hydrogen blobs spanning 400,000 light-years across.
+  emphasis:
+  - '2000'
+  - 400,000 light-years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Lyman-alpha_blob_LAB-1.jpg/1920px-Lyman-alpha_blob_LAB-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Lyman-alpha blob LAB-1.jpg
+      credit: ESO/M. Hayes
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Lyman-alpha_blob_LAB-1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.4
+    - 0.3
+    - 0.6
+    - 0.6
+    card:
+      kind: dateline
+      big: '2000'
+      small: Deep space discovery
+- text: Using the Subaru Telescope, team members found 30 more along a cosmic filament.
+  emphasis:
+  - Subaru Telescope
+  - cosmic filament
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Subaru_and_Keck_Telescopes._Mauna_Kea_Summit_%28503960%29_%2822086583112%29.jpg/3840px-Subaru_and_Keck_Telescopes._Mauna_Kea_Summit_%28503960%29_%2822086583112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Subaru and Keck Telescopes. Mauna Kea Summit (503960) (22086583112).jpg
+      credit: Robert Linsdell from St. Andrews, Canada
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Subaru_and_Keck_Telescopes._Mauna_Kea_Summit_(503960)_(22086583112).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.12
+    focus_y: 0.64
+    box:
+    - 0.04
+    - 0.48
+    - 0.2
+    - 0.8
+    card:
+      kind: fact
+      big: 30 BLOBS
+      small: Along cosmic filament
+- text: Nothing that huge should shine so brightly billions of light-years away.
+  emphasis:
+  - shine so brightly
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: BILLIONS OF LIGHT-YEARS
+      small: Distant early universe
+    motion: zoom_in
+- text: Scientists debated if gas was falling in or supernovas were blowing out.
+  emphasis:
+  - falling in
+  - supernovas
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/50/HST_SN_1987A_20th_anniversary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: HST SN 1987A 20th anniversary.jpg
+      credit: NASA, ESA, P. Challis, and R. Kirshner (Harvard-Smithsonian Center for Astrophysics)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:HST_SN_1987A_20th_anniversary.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.35
+    - 0.65
+    - 0.65
+- text: But polarized light proved the primary power was hidden inside.
+  emphasis:
+  - polarized light
+  - hidden inside
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/ESO_Very_Large_Telescope_%28kamphues08D31034%29.jpg/3840px-ESO_Very_Large_Telescope_%28kamphues08D31034%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ESO Very Large Telescope (kamphues08D31034).jpg
+      credit: ESO/F. Kamphues
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:ESO_Very_Large_Telescope_(kamphues08D31034).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.85
+- text: Supermassive black holes inside act like cosmic lightbulbs, illuminating the gas.
+  emphasis:
+  - black holes
+  - lightbulbs
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Artist%E2%80%99s_impression_of_supermassive_black_hole_seed.jpg/960px-Artist%E2%80%99s_impression_of_supermassive_black_hole_seed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s impression of supermassive black hole seed.jpg
+      credit: NASA/CXC/M. Weiss
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_supermassive_black_hole_seed.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.45
+    card:
+      kind: fact
+      big: COSMIC LIGHTBULBS
+      small: Supermassive black holes
+- text: These hidden engines explain how giant gas clouds dwarf our galaxy.
+  emphasis:
+  - hidden engines
+  - dwarf our galaxy
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 400,000 LIGHT-YEARS WIDE
