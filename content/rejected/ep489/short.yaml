@@ -1,0 +1,196 @@
+id: ep489
+title: The Survivor of the Red Planet
+series: Mission Files
+format: v3
+description: NASA's 2001 Mars Odyssey has outlasted nearly every mission at Mars, serving as a critical lifeline for over
+  two decades.
+sources:
+- https://en.wikipedia.org/wiki/2001_Mars_Odyssey
+- https://www.planetary.org/space-missions/odyssey
+- https://www.space.com/18270-mars-odyssey.html
+- http://www.universetoday.com/81675/the-longest-martian-odyssey-ever
+- https://www.latimes.com/local/la-xpm-2012-aug-07-la-sci-mars-seven-minutes-20120807-story.html
+- https://science.nasa.gov/mission/odyssey/
+hashtags:
+- '#space'
+- '#mars'
+- '#nasa'
+tags:
+- Mars Odyssey
+- NASA
+- Arthur C. Clarke
+- space exploration
+- Mars orbit
+- Mars rovers
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: One battered spacecraft has been mapping Mars for twenty-three years.
+  emphasis:
+  - twenty-three years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/2001_mars_odyssey_wizja.jpg/3840px-2001_mars_odyssey_wizja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 2001 mars odyssey wizja.jpg
+      credit: NASA/JPL/Corby Waste
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:2001_mars_odyssey_wizja.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Most people think robots die quickly in that harsh desert.
+  emphasis:
+  - die quickly
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/PlanetMars-VallesMarineris-VikingOrbiter-1980.jpg/3840px-PlanetMars-VallesMarineris-VikingOrbiter-1980.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PlanetMars-VallesMarineris-VikingOrbiter-1980.jpg
+      credit: NASA/USGS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PlanetMars-VallesMarineris-VikingOrbiter-1980.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But Arthur C. Clarke personally blessed this mission’s name.
+  emphasis:
+  - Arthur C. Clarke
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/23/Arthur_C._Clarke_%281982%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Arthur C. Clarke (1982).jpg
+      credit: Rob Croes for Anefo
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Arthur_C._Clarke_(1982).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.35
+    focus_y: 0.4
+    box:
+    - 0.15
+    - 0.1
+    - 0.6
+    - 0.8
+    card:
+      kind: quote
+      big: Arthur C. Clarke
+      small: Mission namesake
+- text: To reach orbit, it surfed the thin Martian atmosphere to slow down.
+  emphasis:
+  - surfed
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/MOI-badge_br.jpg/1920px-MOI-badge_br.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: MOI-badge br.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:MOI-badge_br.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.2
+    - 0.25
+    - 0.8
+    - 0.55
+- text: A solar storm fried its radiation sensor in 2003.
+  emphasis:
+  - solar storm
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: '2003'
+      small: Solar storm
+    motion: zoom_in
+- text: This legend even guided Curiosity safely through the seven minutes of terror.
+  emphasis:
+  - Curiosity
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/593484main_pia14839_full_Curiosity%27s_Sky_Crane_Maneuver%2C_Artist%27s_Concept.jpg/1920px-593484main_pia14839_full_Curiosity%27s_Sky_Crane_Maneuver%2C_Artist%27s_Concept.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 593484main pia14839 full Curiosity's Sky Crane Maneuver, Artist's Concept.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:593484main_pia14839_full_Curiosity%27s_Sky_Crane_Maneuver,_Artist%27s_Concept.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.6
+    box:
+    - 0.25
+    - 0.35
+    - 0.75
+    - 0.9
+    card:
+      kind: fact
+      big: Curiosity
+      small: Guided to surface
+- text: It serves as an interplanetary internet, relaying rover data.
+  emphasis:
+  - interplanetary internet
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/bb/PIA07942_Mars_Odyssey_Seen_by_Mars_Global_Surveyor%2C_Figure_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: PIA07942 Mars Odyssey Seen by Mars Global Surveyor, Figure 2.jpg
+      credit: NASA/JPL/MSSS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA07942_Mars_Odyssey_Seen_by_Mars_Global_Surveyor,_Figure_2.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.7
+    focus_y: 0.4
+    card:
+      kind: fact
+      big: 85%
+      small: Rover data relayed
+- text: That is why one battered spacecraft has been mapping Mars for twenty-three years.
+  emphasis:
+  - mapping Mars
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 23 YEARS AT MARS

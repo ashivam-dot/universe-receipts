@@ -1,0 +1,243 @@
+id: ep490
+title: The Sun is the most perfect sphere in nature
+series: Scale Breaker
+format: v3
+description: NASA satellite measurements revealed that the Sun holds a virtually unyielding round shape despite violent solar
+  magnetic cycles. From core fusion to the outer heliosphere, its disk remains locked.
+sources:
+- https://en.wikipedia.org/wiki/Sun
+- https://web.archive.org/web/20250711074917/https://www.science.org/doi/10.1126/science.1223231
+- https://www.nature.com/articles/s41586-020-2934-0
+- https://sci.esa.int/web/soho/-/36805-the-distortion-of-the-heliosphere
+hashtags:
+- '#space'
+- '#sun'
+- '#nasa'
+tags:
+- sun
+- solar system
+- nasa
+- heliosphere
+- fusion
+- voyager
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The Sun is the most perfect sphere in nature.
+  emphasis:
+  - perfect sphere
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/ee/2017_Total_Solar_Eclipse_%2835909952653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: 2017 Total Solar Eclipse (35909952653).jpg
+      credit: Aubrey Gemignani
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:2017_Total_Solar_Eclipse_(35909952653).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.2
+    - 0.2
+    - 0.8
+    - 0.8
+    card:
+      kind: fact
+      big: PERFECT SPHERE
+      small: Natural sphere
+- text: Even violent eleven-year magnetic storms cannot bulge its disk.
+  emphasis:
+  - magnetic storms
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Looping_Hot_%286192052215%29.jpg/3840px-Looping_Hot_%286192052215%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Looping Hot (6192052215).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Looping_Hot_(6192052215).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.4
+- text: NASA's Solar Dynamics Observatory measured this roundness from space.
+  emphasis:
+  - Solar Dynamics Observatory
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Solar_Dynamics_Observatory_-Artist%27s_Concept-_%283797161573%29.jpg/960px-Solar_Dynamics_Observatory_-Artist%27s_Concept-_%283797161573%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Solar Dynamics Observatory -Artist's Concept- (3797161573).jpg
+      credit: NASA Goddard Photo and Video
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_Dynamics_Observatory_-Artist%27s_Concept-_(3797161573).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.55
+    box:
+    - 0.2
+    - 0.3
+    - 0.7
+    - 0.8
+- text: Deep inside, fusion converts hydrogen into helium.
+  emphasis:
+  - fusion
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/BBSO_full-disk_H-alpha_2002-07-26_153931_color.png/1920px-BBSO_full-disk_H-alpha_2002-07-26_153931_color.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: BBSO full-disk H-alpha 2002-07-26 153931 color.png
+      credit: BBSO/NJIT
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:BBSO_full-disk_H-alpha_2002-07-26_153931_color.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The proton-proton chain generates ninety-nine percent of that power.
+  emphasis:
+  - ninety-nine percent
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Proton%E2%80%93proton_chain_reaction.png/1280px-Proton%E2%80%93proton_chain_reaction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Proton–proton chain reaction.png
+      credit: Nagendra Nath Mondal
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Proton%E2%80%93proton_chain_reaction.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 99 PERCENT
+      small: Proton-proton power
+- text: The CNO cycle adds around one percent more.
+  emphasis:
+  - CNO cycle
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/57/CNO_%28corrected%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: CNO (corrected).png
+      credit: Ariel Provost
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:CNO_(corrected).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 1 PERCENT
+      small: CNO cycle energy
+- text: This energy drives a magnetized solar wind.
+  emphasis:
+  - solar wind
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Solar_maximum_coronal_streamers_from_SOHO_LASCO_C2.jpg/960px-Solar_maximum_coronal_streamers_from_SOHO_LASCO_C2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Solar maximum coronal streamers from SOHO LASCO C2.jpg
+      credit: SOHO (ESA & NASA)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_maximum_coronal_streamers_from_SOHO_LASCO_C2.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That wind inflates a giant shield called the heliosphere.
+  emphasis:
+  - heliosphere
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/16/Ibexheliosphererevised.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Ibexheliosphererevised.jpg
+      credit: 'Credits: NASA/IBEX/Adler Planetarium'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ibexheliosphererevised.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: HELIOSPHERE
+      small: Cosmic shield
+- text: Voyager 1 crossed it into interstellar space.
+  emphasis:
+  - Voyager 1
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Voyager_1%27s_view_of_Solar_System_%28artist%27s_impression%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Voyager 1's view of Solar System (artist's impression).jpg
+      credit: NASA, ESA, and G. Bacon (STScI)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Voyager_1%27s_view_of_Solar_System_(artist%27s_impression).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.7
+    focus_y: 0.4
+    box:
+    - 0.55
+    - 0.25
+    - 0.85
+    - 0.55
+- text: Yet across all scales, the Sun remains a perfect sphere.
+  emphasis:
+  - perfect sphere
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: PERFECT NATURAL SPHERE

@@ -1,0 +1,192 @@
+id: ep478
+title: Seven Earths Huddled Around a Tiny Sun
+series: Space Got Weird
+format: v3
+description: The TRAPPIST-1 system packs seven Earth-sized worlds into a space smaller than Mercury's orbit, creating a world
+  divided between fire and ice.
+sources:
+- https://en.wikipedia.org/wiki/TRAPPIST-1e
+- https://en.wikipedia.org/wiki/TRAPPIST-1
+- https://www.nasa.gov/centers-and-facilities/jpl/day-of-discovery-7-earth-size-planets/
+- https://www.nature.com/articles/nature21360
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5321506
+- https://exoplanetarchive.ipac.caltech.edu/overview/TRAPPIST-1
+- https://www.space.com/trappist-1-exoplanet-habitability-atmospheric-stripping
+hashtags:
+- '#space'
+- '#trappist1'
+- '#exoplanet'
+tags:
+- TRAPPIST-1e
+- exoplanets
+- red dwarf
+- NASA
+- astronomy
+- space facts
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Seven Earth-sized planets are crammed inside the orbit of Mercury.
+  emphasis:
+  - Seven
+  - crammed
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/7a/Trappist-1_and_its_planets%2C_compared_to_the_inner_Solar_system.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Trappist-1 and its planets, compared to the inner Solar system.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Trappist-1_and_its_planets,_compared_to_the_inner_Solar_system.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: They circle a red dwarf barely larger than Jupiter.
+  emphasis:
+  - barely larger
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Artist_impression_of_ultra_fluffy_gas_giant_planet_orbiting_a_red_dwarf_star.jpg/3840px-Artist_impression_of_ultra_fluffy_gas_giant_planet_orbiting_a_red_dwarf_star.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist impression of ultra fluffy gas giant planet orbiting a red dwarf star.jpg
+      credit: NOIRLab/NSF/AURA/J. da Silva/Spaceengine/M. Zamani
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist_impression_of_ultra_fluffy_gas_giant_planet_orbiting_a_red_dwarf_star.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.28
+    focus_y: 0.45
+- text: On the world TRAPPIST-1e, one year lasts just six days.
+  emphasis:
+  - six days
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/22/Trappist_1dcrop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Trappist 1dcrop.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Trappist_1dcrop.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '2017'
+      small: TRAPPIST-1 discovery
+- text: It stays permanently locked with one side always facing its sun.
+  emphasis:
+  - permanently locked
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Exoplanet_WASP-43b_orbits_its_parent_star.jpg/960px-Exoplanet_WASP-43b_orbits_its_parent_star.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Exoplanet WASP-43b orbits its parent star.jpg
+      credit: NASA, ESA, and Z. Levay (STScI)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Exoplanet_WASP-43b_orbits_its_parent_star.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.4
+- text: One half is scorched desert; the other is frozen night.
+  emphasis:
+  - scorched
+  - frozen
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/PIA21423_-_Surface_of_TRAPPIST-1f.jpg/3840px-PIA21423_-_Surface_of_TRAPPIST-1f.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: PIA21423 - Surface of TRAPPIST-1f.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:PIA21423_-_Surface_of_TRAPPIST-1f.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.68
+    focus_y: 0.35
+- text: Stellar winds drive currents that heat the planet, slowly stripping away its atmosphere.
+  emphasis:
+  - stripping away
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Artist_impression_of_a_young_low-mass_star_stripping_away_the_atmosphere_of_an_even_younger_exoplanet.jpg/3840px-Artist_impression_of_a_young_low-mass_star_stripping_away_the_atmosphere_of_an_even_younger_exoplanet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist impression of a young low-mass star stripping away the atmosphere of an even younger exoplanet.jpg
+      credit: 'X-ray: NASA/CXC/RIT/A. Varga et al.; Illustration: NASA/CXC/SAO/M. Weiss; Image Processing: NASA/CXC/SAO/N.
+        Wolk'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist_impression_of_a_young_low-mass_star_stripping_away_the_atmosphere_of_an_even_younger_exoplanet.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.17
+    focus_y: 0.68
+    box:
+    - 0.08
+    - 0.58
+    - 0.32
+    - 0.78
+    card:
+      kind: fact
+      big: Stellar winds
+      small: atmospheric stripping
+- text: It remains caught between a paradise and an airless rock.
+  emphasis:
+  - airless rock
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/TRAPPIST-1e_Artist%27s_Impression.png/960px-TRAPPIST-1e_Artist%27s_Impression.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: TRAPPIST-1e Artist's Impression.png
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:TRAPPIST-1e_Artist%27s_Impression.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Yet all seven worlds still fit inside Mercury's orbit.
+  emphasis:
+  - Mercury's orbit
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 7 EARTHS, 1 TINY ORBIT

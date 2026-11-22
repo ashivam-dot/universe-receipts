@@ -121,7 +121,53 @@
       "better_than_last": "The atmospheric mystery is more engaging than the straightforward technical report of episode 472.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-22T17:23:42+05:30",
+      "check": {
+        "duration": 30.86,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'vacuum the probe'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong statement paired with bold on-screen text immediately draws the viewer in.",
+        "clarity": "Explains complex plasma wave science cleanly in clear sequential beats.",
+        "payoff": "Satisfying reveal that deep space is packed with dense plasma humming with galactic music.",
+        "visuals": "Excellent mix of technical Voyager schematics, solar observations, and diagrams.",
+        "loop": "The final phrasing leads directly back into the opening sentence without a beat."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It balances a sense of cosmic mystery with precise scientific explanation better than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

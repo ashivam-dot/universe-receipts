@@ -1,0 +1,167 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-22T17:14:20+05:30",
+      "check": {
+        "duration": 28.53,
+        "words": 77,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening line captures immediate interest with an impressive timeframe.",
+        "clarity": "Logical sequence makes complex orbital mechanics and history easily digestible.",
+        "payoff": "Revealing its crucial data-relay role provides a satisfying narrative resolution.",
+        "visuals": "Multiple beats feature visual issues including a tiny thumbnail grid and blocking artifacts.",
+        "loop": "Ending phrase links smoothly directly back into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "Collage of tiny thumbnail images is unclear and unreadable on phone screens."
+        },
+        {
+          "beat": 7,
+          "problem": "Large black block artifact obscures the bottom left corner."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It provides a more direct seamless loop phrase transition than episode 484.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:16:10+05:30",
+      "check": {
+        "duration": 26.49,
+        "words": 77,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Longevity claim effectively captures viewer interest.",
+        "clarity": "Narrative structure is direct and simple.",
+        "payoff": "Factual conclusion lacks a mind-bending surprise.",
+        "visuals": "Several frames are off-topic or low quality.",
+        "loop": "Seamless transition ensures a high-quality replay."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a moon-like object instead of Mars."
+        },
+        {
+          "beat": 5,
+          "problem": "Image is too narrow and blurry to identify."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: It serves as an interplanetary internet, relaying rover data."
+      ],
+      "better_than_last": "Stronger narrative loop compared to the Mars pastel episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:19:20+05:30",
+      "check": {
+        "duration": 28.6,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'blessed this mission'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong start highlighting the probe's surprising longevity.",
+        "clarity": "Narrative sequence from launch to current role is logical.",
+        "payoff": "Connecting the aging probe to modern rover missions is effective.",
+        "visuals": "Consistently relevant imagery that supports the technical concepts.",
+        "loop": "Phrasing in beat 8 creates a stutter when repeating beat 1."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Visual shows an engine firing but text describes aerobraking via drag."
+        },
+        {
+          "beat": 7,
+          "problem": "Schematic contains small technical text difficult to read on mobile."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Change to 'And even now, this...' to lead into the first line."
+      ],
+      "better_than_last": "Integrates historical cultural links more effectively than recent data-heavy shorts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: loop; 2 frame problems",
+  "rejected_at": "2026-11-22T17:19:20+05:30"
+}

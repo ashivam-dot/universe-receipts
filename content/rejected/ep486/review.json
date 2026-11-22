@@ -1,0 +1,174 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-22T17:14:16+05:30",
+      "check": {
+        "duration": 28.66,
+        "words": 74,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'canes venatici' heard as 'kane is venocchi' after 'a cluster in'",
+          "'pulls' heard as 'poles' after 'canes venatici gravitational'",
+          "'that' heard as '(nothing)' after 'across its core'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial contrast between galaxy size and explosive activity.",
+        "clarity": "Straightforward explanation of how neighbor gravity triggers starbursts.",
+        "payoff": "Satisfying reveal of external gravitational forces shaping the galaxy.",
+        "visuals": "Beat 6 visual has a missing black tile artifact.",
+        "loop": "Final phrasing flows naturally back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Image has a large missing black box section in the top right quadrant."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Canes Venatici",
+          "respelling": "kay neez veh nat uh see"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Narrative structure moves more directly to the physical cause than ep484.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:15:49+05:30",
+      "check": {
+        "duration": 28.62,
+        "words": 74,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'venatici' heard as 'venatusi' after 'cluster in canes'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong contrast between galaxy size and activity levels.",
+        "clarity": "Beat 3 contains excessive historical data for one segment.",
+        "payoff": "The explanation is standard physics rather than a surprise.",
+        "visuals": "Consistent, high-quality astronomical imagery and useful charts.",
+        "loop": "Natural linguistic flow connects the end back to start."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Venatici",
+          "respelling": "vuh nat ee chee"
+        }
+      ],
+      "rewrite": [
+        "Beat 3: William Herschel discovered this galaxy, which is far from quiet.",
+        "Beat 5: Nearby neighbors are violently squeezing its gas through gravity.",
+        "Beat 6: This pressure creates the active pink nurseries seen today."
+      ],
+      "better_than_last": "The visual thematic consistency is superior to ep484.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:19:32+05:30",
+      "check": {
+        "duration": 32.63,
+        "words": 69,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'canes venatici' heard as 'caney is venotacy' after 'irregular dwarf in'",
+          "'forced' heard as 'force' after 'intense cosmic collisions'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Size contrast creates immediate curiosity.",
+        "clarity": "Logical transition from discovery to mechanical cause.",
+        "payoff": "Scientific explanation lacks a shocking revelation.",
+        "visuals": "High-resolution assets match the script precisely.",
+        "loop": "Phrasing ensures a seamless transition for replays."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 4,
+          "word": "Canes Venatici",
+          "respelling": "kay neez ven ah tee see"
+        },
+        {
+          "beat": 7,
+          "word": "forced",
+          "respelling": "forst"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: Gravitational theft from neighbors forced this tiny galaxy to ignite."
+      ],
+      "better_than_last": "Visual diversity in galactic models exceeds the Mars pastel episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: payoff",
+  "rejected_at": "2026-11-22T17:19:32+05:30"
+}

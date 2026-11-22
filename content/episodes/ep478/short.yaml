@@ -1,9 +1,9 @@
 id: ep478
-title: Seven Earths Huddled Around a Tiny Sun
+title: Seven Earths Packed inside Mercury's Orbit
 series: Space Got Weird
 format: v3
-description: The TRAPPIST-1 system packs seven Earth-sized worlds into a space smaller than Mercury's orbit, creating a world
-  of eternal fire and ice.
+description: The TRAPPIST-1 system fits seven Earth-sized worlds into a space smaller than Mercury's orbit, creating a world
+  divided between fire and ice.
 sources:
 - https://en.wikipedia.org/wiki/TRAPPIST-1e
 - https://en.wikipedia.org/wiki/TRAPPIST-1
@@ -49,37 +49,47 @@ beats:
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: They circle a red dwarf barely larger than the planet Jupiter.
+    focus_x: 0.75
+    focus_y: 0.45
+    box:
+    - 0.53
+    - 0.1
+    - 0.98
+    - 0.8
+- text: They circle a red dwarf star barely larger than Jupiter.
   emphasis:
   - barely larger
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/b/b2/96235main_compjpg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/8/86/PIA21429_-_Transit_Illustration_of_TRAPPIST-1_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: 96235main compjpg.jpg
-      credit: NASA
+      title: PIA21429 - Transit Illustration of TRAPPIST-1 (cropped).jpg
+      credit: NASA/JPL-Caltech
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:96235main_compjpg.jpg
+      url: https://commons.wikimedia.org/wiki/File:PIA21429_-_Transit_Illustration_of_TRAPPIST-1_(cropped).jpg
     fallbacks:
     - color
     motion: pan_left
-    focus_x: 0.08
-    focus_y: 0.54
-- text: On the world TRAPPIST-1e, one year lasts just six days.
+    focus_x: 0.24
+    focus_y: 0.28
+    box:
+    - 0.13
+    - 0.15
+    - 0.35
+    - 0.45
+- text: On the world TRAPPIST-1e, one full year lasts just six days.
   emphasis:
   - six days
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/2/22/Trappist_1dcrop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://upload.wikimedia.org/wikipedia/commons/3/38/TRAPPIST-1e_artist_impression_2018.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Trappist 1dcrop.jpg
+      title: TRAPPIST-1e artist impression 2018.png
       credit: NASA/JPL-Caltech
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Trappist_1dcrop.jpg
+      url: https://commons.wikimedia.org/wiki/File:TRAPPIST-1e_artist_impression_2018.png
     fallbacks:
     - card
     - color
@@ -89,7 +99,7 @@ beats:
     card:
       kind: dateline
       big: '2017'
-      small: TRAPPIST-1 discovery
+      small: TRAPPIST-1 announcement
 - text: It stays permanently locked with one side always facing its sun.
   emphasis:
   - permanently locked
@@ -106,7 +116,7 @@ beats:
     - color
     motion: pan_left
     focus_x: 0.5
-    focus_y: 0.4
+    focus_y: 0.5
 - text: One half is scorched desert; the other is frozen night.
   emphasis:
   - scorched
@@ -114,56 +124,47 @@ beats:
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/PIA21423_-_Surface_of_TRAPPIST-1f.jpg/3840px-PIA21423_-_Surface_of_TRAPPIST-1f.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Artist%E2%80%99s_impression_of_view_from_one_of_the_middle_planets_in_the_TRAPPIST-1_system.jpg/3840px-Artist%E2%80%99s_impression_of_view_from_one_of_the_middle_planets_in_the_TRAPPIST-1_system.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: PIA21423 - Surface of TRAPPIST-1f.jpg
-      credit: NASA/JPL-Caltech
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:PIA21423_-_Surface_of_TRAPPIST-1f.jpg
+      title: Artist’s impression of view from one of the middle planets in the TRAPPIST-1 system.jpg
+      credit: ESO/N. Bartmann/spaceengine.org
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_view_from_one_of_the_middle_planets_in_the_TRAPPIST-1_system.jpg
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.68
-    focus_y: 0.35
-- text: This rapid orbit through stellar winds creates massive electric currents.
+    focus_x: 0.5
+    focus_y: 0.7
+- text: Electric currents from intense stellar winds may be stripping its air.
   emphasis:
-  - electric currents
+  - stripping its air
   sfx: pop
   pause_after: 0.4
   visual:
-    source: card
-    card:
-      kind: fact
-      big: Electric
-      small: planetary currents
-    motion: zoom_in
-- text: These currents act like a heater, potentially stripping the atmosphere.
-  emphasis:
-  - heater
-  visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Artist_impression_of_a_young_low-mass_star_stripping_away_the_atmosphere_of_an_even_younger_exoplanet.jpg/3840px-Artist_impression_of_a_young_low-mass_star_stripping_away_the_atmosphere_of_an_even_younger_exoplanet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Artist%27s_concept_of_exoplanet_with_comet-like_tail_%28opo1021a%29.tiff/lossy-page1-1920px-Artist%27s_concept_of_exoplanet_with_comet-like_tail_%28opo1021a%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Artist impression of a young low-mass star stripping away the atmosphere of an even younger exoplanet.jpg
-      credit: 'X-ray: NASA/CXC/RIT/A. Varga et al.; Illustration: NASA/CXC/SAO/M. Weiss; Image Processing: NASA/CXC/SAO/N.
-        Wolk'
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Artist_impression_of_a_young_low-mass_star_stripping_away_the_atmosphere_of_an_even_younger_exoplanet.jpg
+      title: Artist's concept of exoplanet with comet-like tail (opo1021a).tiff
+      credit: 'Artwork Credit: NASA, ESA, and G. Bacon (STScI). Science Credit: J. Linsky (University of Colorado, Boulder,
+        Colo., USA)'
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist%27s_concept_of_exoplanet_with_comet-like_tail_(opo1021a).tiff
     fallbacks:
+    - card
     - color
-    motion: pan_right
-    focus_x: 0.3
-    focus_y: 0.65
-    box:
-    - 0.1
-    - 0.5
-    - 0.45
-    - 0.85
-- text: It is a world caught between paradise and airless rock.
+    motion: zoom_in
+    focus_x: 0.36
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: Electric currents
+      small: atmospheric stripping
+- text: This world hangs between a lush paradise and a barren, airless stone.
   emphasis:
-  - airless rock
+  - lush paradise
+  - airless stone
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/NASA%27s_Webb_Hints_at_Possible_Atmosphere_Surrounding_Rocky_Exoplanet_%28Artist_Concept%29_-_53706147943.jpg/3840px-NASA%27s_Webb_Hints_at_Possible_Atmosphere_Surrounding_Rocky_Exoplanet_%28Artist_Concept%29_-_53706147943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -175,18 +176,23 @@ beats:
       url: https://commons.wikimedia.org/wiki/File:NASA%27s_Webb_Hints_at_Possible_Atmosphere_Surrounding_Rocky_Exoplanet_(Artist_Concept)_-_53706147943.jpg
     fallbacks:
     - color
-    motion: pan_left
-    focus_x: 0.7
-    focus_y: 0.45
-- text: A whole solar system still huddles around this tiny, red star.
+    motion: pan_right
+    focus_x: 0.75
+    focus_y: 0.5
+    box:
+    - 0.55
+    - 0.1
+    - 0.95
+    - 0.95
+- text: All while remaining just one of seven worlds packed inside Mercury's orbit.
   emphasis:
-  - huddles
+  - Mercury's orbit
   sfx: whoosh
   visual:
     reuse: 1
     motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.75
+    focus_y: 0.45
 look: bold
 music:
   path: bed:wonder

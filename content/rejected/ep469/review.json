@@ -1,0 +1,183 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-21T17:30:29+05:30",
+      "check": {
+        "duration": 27.87,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'crewed launchpad' heard as 'crude launch pad' after 'for the only'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "High-stakes opening grabs immediate viewer attention.",
+        "clarity": "Logical chronological sequence of the emergency event.",
+        "payoff": "Amusing twist explaining why the audio recorder was cut.",
+        "visuals": "Includes incorrect NASA crew photo and off-topic stock graphics.",
+        "loop": "Natural phrasing link from the final line to the opening."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Generic line art drawing rather than relevant imagery."
+        },
+        {
+          "beat": 7,
+          "problem": "Aerial site diagram does not show the mentioned fireball."
+        },
+        {
+          "beat": 8,
+          "problem": "Wrong space program; shows NASA Shuttle crew instead of Soviet cosmonauts."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a more intense human-interest survival narrative than the pastel Mars imagery story.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:14:39+05:30",
+      "check": {
+        "duration": 29.1,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'crewed launchpad' heard as 'crude launch pad' after 'for the only'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong initial tension created by the emergency framing.",
+        "clarity": "Easy to follow chronological sequence of events.",
+        "payoff": "The detail about muting the recorder to hide swearing lands well.",
+        "visuals": "Includes an incorrect modern space station crew photo and misaligned display shots.",
+        "loop": "The final statement does not transition smoothly into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows a museum display capsule rather than an exploding launchpad."
+        },
+        {
+          "beat": 8,
+          "problem": "Shows a modern multi-person space station crew instead of the two 1983 Soviet cosmonauts."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 10: Change 'That is how surviving destruction sounds.' to 'Which explains why it still sounds wild that' to transition smoothly into beat 1."
+      ],
+      "better_than_last": "This Short features a more engaging historical twist than episode 484.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:17:05+05:30",
+      "check": {
+        "duration": 28.63,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'crewed launchpad' heard as 'crude launch pad' after 'for the only'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening line immediately creates tension with an explosive scenario.",
+        "clarity": "The timeline of events is straightforward and easy for anyone to follow.",
+        "payoff": "The detail about turning off the voice recorder provides a solid humorous twist.",
+        "visuals": "Multiple frames fail to illustrate the action described in the voiceover.",
+        "loop": "The concluding phrase connects smoothly back into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 1,
+          "problem": "Shows military officers looking at a light rather than a rocket or launchpad."
+        },
+        {
+          "beat": 4,
+          "problem": "Shows a clean spacecraft assembly bay instead of damaged wires or flames."
+        },
+        {
+          "beat": 7,
+          "problem": "Reuses the museum capsule photo which does not depict a launchpad fireball."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode delivers a stronger human twist than recent historical overviews.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals; 3 frame problems",
+  "rejected_at": "2026-11-22T17:17:05+05:30"
+}

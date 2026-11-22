@@ -11,8 +11,8 @@ sources:
 - https://arxiv.org/abs/2504.07275
 hashtags:
 - '#space'
+- '#exoplanet'
 - '#jwst'
-- '#astronomy'
 tags:
 - astronomy
 - james webb space telescope
@@ -101,13 +101,13 @@ beats:
   - red giant
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/M%E1%BA%B7t_Tr%E1%BB%9Di_b%C3%A2y_gi%E1%BB%9D_v%C3%A0_t%C6%B0%C6%A1ng_lai.jpg/1920px-M%E1%BA%B7t_Tr%E1%BB%9Di_b%C3%A2y_gi%E1%BB%9D_v%C3%A0_t%C6%B0%C6%A1ng_lai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://upload.wikimedia.org/wikipedia/commons/5/52/Red_giant_simulation_4_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
     credit:
       source: Wikimedia Commons
-      title: Mặt Trời bây giờ và tương lai.jpg
-      credit: Oona Räisänen (User:Mysid), User:Mrsanitazier, Matúš Motlo
+      title: Red giant simulation 4 (cropped).jpg
+      credit: A. Chiavassa, R. Kudritzki, B. Davies, B. Freytag and S. E. de Mink
       license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:M%E1%BA%B7t_Tr%E1%BB%9Di_b%C3%A2y_gi%E1%BB%9D_v%C3%A0_t%C6%B0%C6%A1ng_lai.jpg
+      url: https://commons.wikimedia.org/wiki/File:Red_giant_simulation_4_(cropped).jpg
     fallbacks:
     - color
     motion: zoom_in
@@ -142,42 +142,47 @@ beats:
   sfx: pop
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/5/5e/JWST_nirspec_large.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/A_%22NIRSpec-tacular_View%22_of_NASA%27s_Webb_Telescope_Instrument_%2814870250567%29.jpg/1920px-A_%22NIRSpec-tacular_View%22_of_NASA%27s_Webb_Telescope_Instrument_%2814870250567%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: JWST nirspec large.jpg
-      credit: NASA
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:JWST_nirspec_large.jpg
+      title: A "NIRSpec-tacular View" of NASA's Webb Telescope Instrument (14870250567).jpg
+      credit: NASA's James Webb Space Telescope from Greenbelt, MD, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:A_%22NIRSpec-tacular_View%22_of_NASA%27s_Webb_Telescope_Instrument_(14870250567).jpg
     fallbacks:
     - card
     - color
-    motion: pan_left
+    motion: zoom_in
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
       big: MAIN SEQUENCE
       small: UNEXPANDED STAR
-- text: Gravitational drag caused the planet's orbit to slowly decay.
+- text: Friction dragged the planet inward over time.
   emphasis:
-  - orbit
-  - slowly decay
+  - Friction dragged
+  - inward
   sfx: riser
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Lower_Middle_Upper_LEO.jpg/3840px-Lower_Middle_Upper_LEO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/NASA%27s_Webb_Hints_at_Possible_Atmosphere_Surrounding_Rocky_Exoplanet_%28Artist_Concept%29_-_53706147943.jpg/3840px-NASA%27s_Webb_Hints_at_Possible_Atmosphere_Surrounding_Rocky_Exoplanet_%28Artist_Concept%29_-_53706147943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Lower Middle Upper LEO.jpg
-      credit: Space Travel Blog / Rute Marta Jansone / Pekka Janhunen
-      license: CC BY 4.0
-      url: https://commons.wikimedia.org/wiki/File:Lower_Middle_Upper_LEO.jpg
+      title: NASA's Webb Hints at Possible Atmosphere Surrounding Rocky Exoplanet (Artist Concept) - 53706147943.jpg
+      credit: James Webb Space Telescope
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:NASA%27s_Webb_Hints_at_Possible_Atmosphere_Surrounding_Rocky_Exoplanet_(Artist_Concept)_-_53706147943.jpg
     fallbacks:
     - color
     motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    focus_x: 0.73
+    focus_y: 0.45
+    box:
+    - 0.52
+    - 0.03
+    - 0.94
+    - 0.76
 - text: The planet plunged to its death into an unexpanded star.
   emphasis:
   - plunged
@@ -226,10 +231,10 @@ beats:
       kind: fact
       big: CARBON MONOXIDE
       small: DETECTED BY JWST
-- text: Webb proved orbital decay pulled the planet in.
+- text: Proving orbital decay destroyed the world.
   emphasis:
   - orbital decay
-  - pulled the planet in
+  - destroyed
   visual:
     reuse: 1
     motion: zoom_out

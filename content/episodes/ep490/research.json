@@ -1,0 +1,212 @@
+{
+  "viable": true,
+  "reason": "The sources provide over 10 cross-verified claims from multiple independent websites regarding solar physics, mass calculations, solar shape, and heliospheric dynamics.",
+  "story": "To measure the Sun, humanity first had to weigh the Earth. In 1798, Henry Cavendish used a delicate torsion balance to determine the gravitational constant, giving scientists the key tool to calculate planetary and solar masses using Isaac Newton's laws. Applying these principles revealed that the Sun dominates our entire cosmic neighborhood, driving the Solar System with its immense gravity. Deep inside its core, nuclear fusion transforms hydrogen into helium, primarily via the proton-proton chain which supplies about 99 percent of its power, alongside a tiny contribution from the CNO cycle. Beyond its power output, observations by NASA's Solar Dynamics Observatory show that the Sun is the closest thing to a perfect sphere ever observed in nature, maintaining its shape throughout intense 11-year magnetic cycles. Meanwhile, its solar wind carves out the heliosphere, a massive magnetic shield protecting our cosmic home from interstellar radiation.",
+  "angle": "The Sun is the closest natural object to a perfect sphere ever observed, holding a constant shape that refuses to bulge or distort even during intense 11-year solar magnetic storms.",
+  "claims": [
+    {
+      "claim": "Hydrogen fusion in the solar core converts hydrogen into helium to power the Sun.",
+      "sources": [
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The proton-proton (pp) chain reaction generates approximately 99 percent of the Sun's total energy.",
+      "sources": [
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The CNO fusion cycle contributes around 1 percent (or 0.8 percent) of the total energy produced by the Sun.",
+      "sources": [
+        "S2",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Henry Cavendish measured the gravitational constant in 1798 using a torsion balance experiment.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Isaac Newton used universal gravitation principles to mathematically determine solar and planetary mass relationships.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Solar Dynamics Observatory measured the precise oblateness and shape of the Sun from space.",
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Sun's oblate shape remains constant and does not vary with the 11-year solar activity cycle.",
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Sun is considered the natural object closest to a perfect sphere ever observed.",
+      "sources": [
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The heliosphere is a protective bubble created by the solar wind that shields the Solar System from interstellar gas and cosmic rays.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The Voyager 1 spacecraft traveled to the outer region of the heliosphere to study the solar wind boundary.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The solar wind is a continuous outflow of magnetized plasma and particles emitted by the Sun into space.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mass of celestial bodies can be calculated using Newton's laws by analyzing gravitational interactions and orbital motions.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Exact percentage of CNO cycle energy contribution: S2 cites 0.8% while S5 cites 'of the order of 1 per cent'. Script should state 'around 1 percent'.",
+    "Voyager 1 heliosphere status: S4 (from 2005) notes Voyager 1 approaching the termination shock at 94 AU, whereas S2 (modern) confirms it entered the interstellar medium in August 2012 at 122 AU. Script should use the confirmed crossing."
+  ],
+  "visuals": [
+    {
+      "subject": "Solar Dynamics Observatory Spacecraft",
+      "queries": [
+        "Solar Dynamics Observatory spacecraft concept",
+        "SDO spacecraft launch illustration"
+      ]
+    },
+    {
+      "subject": "Sun in visible light showing perfect roundness",
+      "queries": [
+        "Sun full disk SDO HMI",
+        "Solar disk high resolution SDO"
+      ]
+    },
+    {
+      "subject": "Solar core nuclear fusion cross-section illustration",
+      "queries": [
+        "Sun interior structure diagram illustration",
+        "Proton proton chain nuclear fusion diagram"
+      ]
+    },
+    {
+      "subject": "Borexino solar neutrino detector",
+      "queries": [
+        "Borexino detector inner sphere Gran Sasso",
+        "Borexino liquid scintillator detector"
+      ]
+    },
+    {
+      "subject": "Henry Cavendish torsion balance experiment diagram",
+      "queries": [
+        "Cavendish experiment schematic diagram",
+        "Cavendish torsion balance illustration"
+      ]
+    },
+    {
+      "subject": "Heliosphere shielding the Solar System illustration",
+      "queries": [
+        "Heliosphere structure diagram NASA",
+        "Solar wind termination shock illustration"
+      ]
+    },
+    {
+      "subject": "Voyager 1 spacecraft in interstellar space illustration",
+      "queries": [
+        "Voyager 1 spacecraft artwork NASA",
+        "Voyager spacecraft interstellar medium illustration"
+      ]
+    },
+    {
+      "subject": "Sunspots and magnetic loops on the solar surface",
+      "queries": [
+        "Sunspot group active region SDO",
+        "Solar magnetic field lines coronal loops SDO"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Solar_mass",
+      "title": "Solar mass",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://en.wikipedia.org/wiki/Sun",
+      "title": "Sun",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://web.archive.org/web/20100527142627/http://education.gsfc.nasa.gov/eclipse/pages/faq.html",
+      "title": "NASA - Eclipse 99",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S4",
+      "url": "https://sci.esa.int/web/soho/-/36805-the-distortion-of-the-heliosphere",
+      "title": "The Distortion of the Heliosphere: our Interstellar Magnetic Compass - SOHO - Science Portal",
+      "site": "esa.int"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.nature.com/articles/s41586-020-2934-0",
+      "title": "Experimental evidence of neutrinos produced in the CNO fusion cycle in the Sun - Nature",
+      "site": "nature.com"
+    },
+    {
+      "label": "S6",
+      "url": "https://web.archive.org/web/20250711074917/https://www.science.org/doi/10.1126/science.1223231",
+      "title": "The Precise Solar Shape and Its Variability",
+      "site": "science.org"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.scientificamerican.com/article/how-do-scientists-measure/",
+      "title": "How do scientists measure or calculate the weight of a planet?",
+      "site": "scientificamerican.com"
+    }
+  ],
+  "topic": "Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains",
+  "series": "Scale Breaker"
+}

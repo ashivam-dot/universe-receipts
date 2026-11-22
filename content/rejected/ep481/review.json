@@ -1,0 +1,184 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-21T23:12:36+05:30",
+      "check": {
+        "duration": 31.47,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'a' heard as '(nothing)'",
+          "'arsia mons' heard as 'arceomons' after 'grows high above'",
+          "'arsia mons' heard as 'arceomons' after 'freeze around but'",
+          "'this' heard as '(nothing)' after 'of clean air'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong sense of scale immediately establishes the mystery.",
+        "clarity": "Scientific concepts are explained in a logical sequence.",
+        "payoff": "The conclusion feels more like a summary than a surprising twist.",
+        "visuals": "Uses relevant satellite imagery and clear supporting diagrams.",
+        "loop": "Temporal connection between sunrise and morning creates a smooth cycle."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Arsia",
+          "respelling": "ar see ah"
+        },
+        {
+          "beat": 3,
+          "word": "Mons",
+          "respelling": "monz"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: This makes the cloud technically impossible by Earth standards every morning."
+      ],
+      "better_than_last": "This entry provides a deeper scientific explanation than the 'art pastels' story while maintaining visual clarity.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:13:54+05:30",
+      "check": {
+        "duration": 32.27,
+        "words": 89,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.7,
+        "warnings": [],
+        "speech_differences": [
+          "'grows' heard as 'goes' after 'noon the cloud'",
+          "'arsia' heard as 'arcea' after 'grows high above'",
+          "'this' heard as 'its' after 'tall esa tracked'",
+          "'arsia' heard as 'arcea' after 'freeze around but'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong visual hook establishing impressive planetary scale immediately.",
+        "clarity": "Straightforward progression explaining the atmospheric phenomenon clearly.",
+        "payoff": "The explanation of dust-free freezing feels slightly technical rather than surprising.",
+        "visuals": "Some frames feature cluttered technical diagrams with tiny text.",
+        "loop": "The final frame sentence connects smoothly back to beat one."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Displays a technical topographic chart with small text labels."
+        },
+        {
+          "beat": 5,
+          "problem": "Contains small diagrammatic text that is hard to read on mobile screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Change to 'Without dust to form around, ice freezes directly out of clean air.'",
+        "Beat 8: Change to 'Creating this massive morning structure daily.'"
+      ],
+      "better_than_last": "It presents a clearer central mechanism than ep484 while maintaining high visual interest.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:16:45+05:30",
+      "check": {
+        "duration": 31.9,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'arsia' heard as 'arcea' after 'grows high above'",
+          "'arsia' heard as 'arcea' after 'freeze around but'",
+          "'morning' heard as 'mourning' after 'creating this massive'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The specific scale of a 1,100-mile cloud on a volcano is a powerful, high-contrast opening.",
+        "clarity": "Excellent progression from the visual phenomenon to the 'how' behind the science.",
+        "payoff": "The explanation of the rapid 54-degree temperature drop justifies the 'spontaneous' freezing.",
+        "visuals": "Strong use of actual VMC orbital imagery, though the beat 5 diagram is slightly cluttered.",
+        "loop": "Perfectly seamless; 'daily' at the end flows naturally back into the start of the sentence."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Arsia",
+          "respelling": "ar see ah"
+        },
+        {
+          "beat": 6,
+          "word": "Arsia",
+          "respelling": "ar see ah"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short uses specific orbital footage of the exact phenomenon mentioned rather than the more generic illustrations used in the Glowing Giants episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "failed the quality gate",
+  "rejected_at": "2026-11-22T17:16:46+05:30"
+}

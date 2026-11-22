@@ -1,0 +1,104 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-22T17:22:02+05:30",
+      "check": {
+        "duration": 33.93,
+        "words": 93,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong comparison concept catches attention quickly.",
+        "clarity": "Easy to follow, though beat 6 introduces dense concepts rapidly.",
+        "payoff": "Ending feels somewhat descriptive rather than delivering a unexpected turn.",
+        "visuals": "Informative diagrams, but has minor frame artifacts and scaling errors.",
+        "loop": "Final phrase leads naturally back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Depicts a bright yellow star instead of a small red dwarf."
+        },
+        {
+          "beat": 7,
+          "problem": "Contains an unexpected black inset frame artifact in the top left."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: 'Stellar winds drive currents that heat the planet, slowly stripping away its atmosphere.'"
+      ],
+      "better_than_last": "Provides clearer visual size comparisons than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:25:48+05:30",
+      "check": {
+        "duration": 32.55,
+        "words": 82,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The comparison of seven Earths to Mercury's orbit creates immediate scale-based intrigue.",
+        "clarity": "Logical progression from system scale to individual planet conditions makes it easy to follow.",
+        "payoff": "The conclusion functions well as a summary but lacks a surprising final revelation.",
+        "visuals": "NASA-grade diagrams and high-quality artist impressions perfectly align with the script beats.",
+        "loop": "Returning to the Mercury orbit comparison creates a smooth, circular narrative flow."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: 'This world hangs in the balance between a lush paradise and a barren, airless stone.'",
+        "Beat 8: 'All while remaining just one of seven worlds packed inside Mercury’s orbit.'"
+      ],
+      "better_than_last": "The visual aids for scale and tidal locking are more helpful than the abstract gas clouds in ep484.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2
+}

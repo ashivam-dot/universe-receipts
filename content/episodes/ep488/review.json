@@ -66,7 +66,119 @@
       "better_than_last": "Stronger scientific mystery than the giants in episode 484.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-22T17:13:12+05:30",
+      "check": {
+        "duration": 29.5,
+        "words": 90,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [
+          "'the' heard as 'to' after 'giant nasa pointed'",
+          "'(nothing)' heard as 'is' after 'the james webb'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong initial premise immediately captures interest.",
+        "clarity": "Scientific explanation repeats the same point twice in late beats.",
+        "payoff": "The mechanism reveal lacks dramatic punch.",
+        "visuals": "Several frames contain non-English text or irrelevant satellite diagrams.",
+        "loop": "Seamlessly transitions back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Contains prominent non-English text overlay."
+        },
+        {
+          "beat": 6,
+          "problem": "Displays an instrument technical schematic rather than astronomical visual."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows an Earth LEO satellite orbit diagram instead of an exoplanet."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Change to 'Friction dragged the planet inward over time.'",
+        "Beat 10: Change to 'Proving orbital decay destroyed the world.'"
+      ],
+      "better_than_last": "It presents a more focused scientific twist than ep484.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:16:44+05:30",
+      "check": {
+        "duration": 29.6,
+        "words": 86,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The high-stakes concept of a star eating a planet is an immediate thumb-stopper.",
+        "clarity": "The script does an excellent job of explaining the 'how' without getting bogged down in jargon.",
+        "payoff": "The reveal that orbital decay caused the destruction rather than stellar expansion is a great twist.",
+        "visuals": "Most frames are cinematic, though the technical hardware shot in beat 6 feels out of place.",
+        "loop": "The concluding phrase flows perfectly back into the start of the hook for a seamless replay."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "shows technical cleanroom hardware which is off-topic and jarring compared to the cosmic artist concepts used elsewhere"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script features a more engaging investigative narrative than ep484 by setting up a scientific expectation and then subverting it with the Webb discovery.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

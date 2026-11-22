@@ -82,25 +82,24 @@ beats:
       kind: fact
       big: 1,000 light-years
       small: wide cavity
-- text: It's filled with thin plasma heated to a million degrees.
+- text: This void is filled with plasma heated to a million degrees.
   emphasis:
   - million degrees
   pause_after: 0.4
   visual:
     source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/7/73/XRISM_Clocks_Hot_Wind_of_Galaxy_M82_%28SVS14968_-_M82_Chandra_1kpc_Inset_labels%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/NGC_7635HSTFull.jpg/1280px-NGC_7635HSTFull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: XRISM Clocks Hot Wind of Galaxy M82 (SVS14968 - M82 Chandra 1kpc Inset labels).jpg
-      credit: NASA's Scientific Visualization Studio - eMITS/Scott Wiessinger, University of Maryland College Park/Jeanette
-        Kazmierczak, University of Maryland College Park/Francis Reddy
+      title: NGC 7635HSTFull.jpg
+      credit: NASA, Donald Walter (South Carolina State University), Paul Scowen and Brian Moore (Arizona State University)
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:XRISM_Clocks_Hot_Wind_of_Galaxy_M82_(SVS14968_-_M82_Chandra_1kpc_Inset_labels).jpg
+      url: https://commons.wikimedia.org/wiki/File:NGC_7635HSTFull.jpg
     fallbacks:
     - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
+    motion: zoom_out
+    focus_x: 0.4
+    focus_y: 0.7
 - text: Deep-sea crust on Earth still holds radioactive iron from those explosions.
   emphasis:
   - radioactive iron
@@ -118,12 +117,12 @@ beats:
     - color
     motion: pan_up
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.4
     card:
       kind: fact
       big: Iron-60
-      small: found in sea crust
-- text: This giant bubble triggered the birth of every nearby star.
+      small: in deep-sea crust
+- text: The shockwaves triggered the birth of every star within 500 light-years.
   emphasis:
   - birth
   sfx: whoosh
@@ -139,11 +138,11 @@ beats:
     fallbacks:
     - color
     motion: zoom_out
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Newborn star nurseries like Taurus sit on its shell, expanding outward.
+    focus_x: 0.54
+    focus_y: 0.48
+- text: Newborn nurseries like the Taurus cloud sit on the bubble's expanding edge.
   emphasis:
-  - expanding outward
+  - expanding edge
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Rho_Ophiuchi_%28NIRCam_Compass_Image%29_%282023-128%29.png/1920px-Rho_Ophiuchi_%28NIRCam_Compass_Image%29_%282023-128%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -154,19 +153,14 @@ beats:
       license: Public domain
       url: https://commons.wikimedia.org/wiki/File:Rho_Ophiuchi_(NIRCam_Compass_Image)_(2023-128).png
     fallbacks:
-    - card
     - color
     motion: zoom_in
     focus_x: 0.5
-    focus_y: 0.5
-    card:
-      kind: fact
-      big: 4 miles
-      small: per second expansion
-- text: Surprisingly, our Sun didn't create this space; we just entered it recently.
+    focus_y: 0.7
+- text: Surprisingly, our Sun didn't carve this void; we just drifted into it recently.
   emphasis:
-  - didn't create
-  - entered it recently
+  - didn't carve
+  - drifted into it
   sfx: riser
   visual:
     source: url
@@ -182,14 +176,14 @@ beats:
     - color
     motion: pan_right
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.45
     card:
       kind: fact
       big: 5 million years
       small: since we entered
-- text: Leaving us drifting right through its million-degree center.
+- text: Leaving us passing directly through a massive hollow cavity.
   emphasis:
-  - million-degree center
+  - massive hollow cavity
   sfx: pop
   pause_after: 0.4
   visual:

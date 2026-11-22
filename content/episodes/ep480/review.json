@@ -46,7 +46,107 @@
       "better_than_last": "It presents a more cohesive spatial perspective than the recent Mars pastel episode.",
       "judge": "gemini-3.6-flash",
       "passed": false
+    },
+    {
+      "at": "2026-11-22T17:18:31+05:30",
+      "check": {
+        "duration": 30.6,
+        "words": 82,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'a' after 'blasted this hole'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Sets up an intriguing cosmic concept quickly.",
+        "clarity": "Logical sequence that is easy to digest.",
+        "payoff": "The final takeaway lacks a dramatic twist.",
+        "visuals": "Several beats feature poor framing or tiny text.",
+        "loop": "Connects smoothly back to the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Frame is dominated by small text labels that are hard to read on a mobile screen."
+        },
+        {
+          "beat": 7,
+          "problem": "Graphic is constrained to a narrow letterbox frame with excessive dark empty space."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Surprisingly, our Sun didn't carve this void; we just drifted into it recently.",
+        "Beat 8: Leaving us passing directly through a massive..."
+      ],
+      "better_than_last": "Maintains a more consistent focus on a single cohesive astronomical concept throughout.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:21:59+05:30",
+      "check": {
+        "duration": 32.52,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'a' after 'blasted this hole'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The '1,000 light-year void' text overlay provides a strong immediate hook for a cosmic mystery.",
+        "clarity": "The narrative flows perfectly from the discovery to the cause and then to the physical evidence.",
+        "payoff": "Connecting the space phenomenon to radioactive iron in our own deep-sea crust is a fantastic grounding payoff.",
+        "visuals": "Every frame is high quality and specifically relevant, especially the deep-sea sediment labels.",
+        "loop": "The grammatical and visual transition between the last and first frames is completely seamless."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short does an excellent job of grounding a massive astronomical concept with specific geological evidence found on Earth.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
     }
   ],
-  "best_round": 1
+  "best_round": 3
 }

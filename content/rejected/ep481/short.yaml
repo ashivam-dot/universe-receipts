@@ -1,0 +1,222 @@
+id: ep481
+title: The Martian Volcano That Freezes Air Without Dust
+series: Space Got Weird
+format: v3
+description: Every morning on Mars, a 1,100-mile water-ice cloud forms over the giant volcano Arsia Mons. Scientists discovered
+  it freezes spontaneously out of thin air without any dust particles.
+sources:
+- https://en.wikipedia.org/wiki/Arsia_Mons
+- http://photojournal.jpl.nasa.gov/catalog/PIA03948
+- https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_Express_unlocks_the_secrets_of_curious_cloud
+- https://www.livescience.com/space/mars/1-000-mile-long-cloud-that-forms-and-vanishes-on-mars-every-day-obeys-exotic-physics-never-seen-on-earth
+- https://www.astronomy.com/science/the-weird-science-behind-mars-weirdest-cloud/
+- https://www.nature.com/articles/s41561-026-02089-9
+hashtags:
+- '#space'
+- '#mars'
+- '#astronomy'
+tags:
+- mars
+- arsia mons
+- volcano
+- cloud
+- mars express
+- space
+- astronomy
+- nasa
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A 1,100-mile cloud appears over a Martian volcano every morning.
+  emphasis:
+  - 1,100-mile cloud
+  - Martian volcano
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/54/Mars_-_Cloudy_Arsia_Mons_-_ESA_Mars_Express_%2854559293995%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mars - Cloudy Arsia Mons - ESA Mars Express (54559293995).jpg
+      credit: Andrea Luck
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Mars_-_Cloudy_Arsia_Mons_-_ESA_Mars_Express_(54559293995).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.5
+    box:
+    - 0.0
+    - 0.3
+    - 0.8
+    - 0.7
+    card:
+      kind: fact
+      big: 1,100 miles
+      small: length of cloud
+- text: It races westward at 380 miles per hour, then vanishes before noon.
+  emphasis:
+  - 380 miles per hour
+  - vanishes
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Mars_-_February_13_2014_%2832620724830%29.jpg/1920px-Mars_-_February_13_2014_%2832620724830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars - February 13 2014 (32620724830).jpg
+      credit: Kevin Gill from Los Angeles, CA, United States
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Mars_-_February_13_2014_(32620724830).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.2
+    focus_y: 0.5
+    box:
+    - 0.05
+    - 0.2
+    - 0.35
+    - 0.8
+    card:
+      kind: fact
+      big: 380 mph
+      small: cloud expansion speed
+- text: The cloud grows high above Arsia Mons, a volcano 12 miles tall.
+  emphasis:
+  - Arsia Mons
+  - 12 miles tall
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Arsia_Mons_THEMIS_day_IR_100m_v11.5_0.5.jpg/3840px-Arsia_Mons_THEMIS_day_IR_100m_v11.5_0.5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Arsia Mons THEMIS day IR 100m v11.5 0.5.jpg
+      credit: NASA / JPL-Caltech / Arizona State University
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Arsia_Mons_THEMIS_day_IR_100m_v11.5_0.5.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.35
+    - 0.65
+    - 0.65
+    card:
+      kind: fact
+      big: 12 miles high
+      small: height of Arsia Mons
+- text: ESA tracked this daily lifecycle using an ordinary webcam on Mars Express.
+  emphasis:
+  - ordinary webcam
+  - Mars Express
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Mars_Express_over_Tharsis_volcanoes.jpg/3840px-Mars_Express_over_Tharsis_volcanoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars Express over Tharsis volcanoes.jpg
+      credit: NASA/JPL/ESA, Corby Waste
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Express_over_Tharsis_volcanoes.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Earth clouds need dust or pollen particles to freeze around.
+  emphasis:
+  - dust or pollen
+  - freeze around
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Representation_of_the_direct_and_first_indirect_effect_of_aerosols_on_the_albedo_of_clouds.png/960px-Representation_of_the_direct_and_first_indirect_effect_of_aerosols_on_the_albedo_of_clouds.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Representation of the direct and first indirect effect of aerosols on the albedo of clouds.png
+      credit: Goosse H., P.Y. Barriat, W. Lefebvre, M.F. Loutre and V. Zunz, (2008-2010). Introduction to climate dynamics
+        and climate modeling. Online textbook available at http://www.climate.be/textbook.
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Representation_of_the_direct_and_first_indirect_effect_of_aerosols_on_the_albedo_of_clouds.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.7
+    focus_y: 0.35
+    box:
+    - 0.45
+    - 0.15
+    - 0.95
+    - 0.65
+- text: But Arsia Mons forces air upward, dropping temperatures 54 degrees in ten minutes.
+  emphasis:
+  - 54 degrees
+  - ten minutes
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: -54 °F
+      small: drop in 10 minutes
+    motion: zoom_in
+- text: Without dust to form around, ice freezes directly out of clean air.
+  emphasis:
+  - Without dust
+  - clean air
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Snowflake_2018-02-05_6819-26_-_Flickr_-_Alexey_Kljatov.jpg/1920px-Snowflake_2018-02-05_6819-26_-_Flickr_-_Alexey_Kljatov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Snowflake 2018-02-05 6819-26 - Flickr - Alexey Kljatov.jpg
+      credit: Alexey Kljatov
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Snowflake_2018-02-05_6819-26_-_Flickr_-_Alexey_Kljatov.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.18
+    - 0.08
+    - 0.82
+    - 0.92
+    card:
+      kind: fact
+      big: No dust
+      small: spontaneous ice nucleation
+- text: Creating this massive morning structure daily.
+  emphasis:
+  - massive morning structure
+  - daily
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 1,100-MILE CLOUD ON MARS

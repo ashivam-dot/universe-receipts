@@ -54,7 +54,102 @@
       "better_than_last": "This Short leverages a more recognizable astronomical subject than the asteroid in episode 471.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-22T17:13:10+05:30",
+      "check": {
+        "duration": 28.0,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong, vivid hook about a star casting night shadows.",
+        "clarity": "Easy to follow linear narrative explaining the 2019 Great Dimming.",
+        "payoff": "Satisfying resolution revealing the dust cloud explanation and Earth's safety.",
+        "visuals": "Beat 6 background features an off-topic deep field of distant galaxies.",
+        "loop": "Seamless transition from the last phrase directly into the first line."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The background shows an off-topic deep field of distant galaxies instead of Betelgeuse."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short delivers a stronger initial mystery hook and a cleaner loop than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    },
+    {
+      "at": "2026-11-22T17:14:46+05:30",
+      "check": {
+        "duration": 27.93,
+        "words": 84,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engages immediately with an intriguing premise.",
+        "clarity": "Clear narrative progression explaining the dimming event.",
+        "payoff": "Dust cloud reveal satisfactorily resolves the mystery.",
+        "visuals": "Mostly high quality, though beat 6 visual quality drops.",
+        "loop": "Final line transitions smoothly back to the start."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Image is extremely blurry and pixelated."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Offers a more coherent mystery-and-resolution structure than ep484.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
     }
   ],
-  "best_round": 1
+  "best_round": 2,
+  "kept_round": 2
 }

@@ -1,0 +1,98 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-22T17:13:13+05:30",
+      "check": {
+        "duration": 29.63,
+        "words": 88,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -3.2,
+        "warnings": [],
+        "speech_differences": [
+          "'sized' heard as 'size' after 'stuck the car'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Clear premise immediately highlights an intriguing space repair.",
+        "clarity": "Simple step-by-step narration easy to follow in one listen.",
+        "payoff": "Reprogramming the arm into a human drill press provides a satisfying resolution.",
+        "visuals": "Relevant rover photos, though some selfie images repeat across beats.",
+        "loop": "Final statement flows cleanly back into the opening hook."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Uses the same Curiosity selfie picture as Beat 3."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a clearer narrative arc and technical problem-solving payoff than episode 484.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-22T17:15:10+05:30",
+      "check": {
+        "duration": 29.99,
+        "words": 88,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The on-screen text and immediate problem statement create a strong sense of urgency.",
+        "clarity": "The sequence from mechanical failure to communication delay to software solution is very logical.",
+        "payoff": "The 'human drill press' analogy makes the technical solution feel tangible and clever.",
+        "visuals": "Every shot is authentic to the Curiosity mission and matches the script perfectly.",
+        "loop": "The final sentence sets up the hook as the inevitable alternative, creating a seamless cycle."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script manages a more sophisticated and seamless loop than ep484 while matching the high technical clarity of the Voyager 1 episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}
