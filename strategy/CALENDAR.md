@@ -90,6 +90,8 @@ unexplained, not alien.
 | 2026-11-20 | Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods | Mission Files | Featured in recent NASA news after researchers used its open data to accelerate pulsar discovery by a factor of one million. |
 | 2026-11-21 | Voyager 2 (1977): the mission almost ended minutes after lift-off when the probe's computer mistook rocket vibrations for a catastrophic system failure — dropped (ep476) | Near Misses | Voyager 1 is currently trending on Wikipedia and today's NASA APOD features Voyager 2's Neptune images. |
 | 2026-11-21 | Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press — making (ep487) | Mission Files | NASA just released a new milestone collage featuring all 49 drill holes from the rover's 5,061-sol mission. |
+| 2026-11-22 | Juno (spacecraft) (2016): a solar-powered probe braving Jupiter's lethal radiation belts to discover Earth-sized polar cyclones locked in a stable geometric dance | Mission Files | Featured on NASA APOD with newly processed images of Jupiter's vibrant, swirling atmospheric clouds. |
+| 2026-11-22 | Noctilucent cloud (2006): high-altitude clouds on Mars formed of frozen carbon dioxide that glow brightly in the twilight long after sunset — making (ep492) | Space Got Weird | NASA's Curiosity rover recently captured new footage of drifting twilight clouds in the Martian atmosphere. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -107,6 +109,7 @@ unexplained, not alien.
 | Dec 14 | Mariner 2 (1962): on Dec 14, Mariner 2 flew past Venus, completing humanity's first successful planetary encounter | Mission Files |
 | Dec 15 | Gemini 6A (1965): on Dec 15, NASA pulled off the first crewed spacecraft rendezvous, maneuvering within one foot of another capsule at 17,000 mph | Near Misses |
 | Dec 15 | Venera 7 (1970): on Dec 15, the Soviet probe made the first successful soft landing on another planet, surviving Venus's intense heat to beam back data | Mission Files |
+| Dec 19 | Apollo 17 (1972): on Dec 19, humanity's final lunar crew splashed down safely in the Pacific Ocean, officially bringing the Apollo moon program to an end | Mission Files |
 | Dec 21 | Apollo 8 (1968): on this day, the first humans to ever leave Earth orbit entered lunar gravity and broadcast Christmas Eve from space | Mission Files |
 | Dec 21 | Apollo 8 (1968): on Dec 21, NASA launched Apollo 8, sending the first human crew beyond Earth orbit toward the Moon | Mission Files |
 | Dec 25 | James Webb Space Telescope (2021): on Christmas Day, NASA launched a $10 billion observatory into deep space to look back to the beginning of time | Mission Files |
@@ -272,6 +275,8 @@ unexplained, not alien.
 - Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere — parked (ep458)
 - Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform — done (ep467)
 - Atmosphere of Earth (1946): if Earth were a standard desktop globe, the entire layer of air that supports all life would be thinner than a single coat of spray-on varnish — dropped (ep477)
+- Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains — making (ep490)
+- International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours — making (ep491)
 
 ### Mission Files
 

@@ -1,0 +1,258 @@
+{
+  "viable": true,
+  "reason": "The sources support 15 multi-sourced claims detailing Curiosity's launch, sky crane landing, unique design features, drill motor failure, and robotic arm workaround.",
+  "story": "Launched on November 26, 2011, NASA's car-sized Curiosity rover journeyed to Mars, landing inside Gale Crater on August 6, 2012, after being lowered to the surface by a rocket-powered sky crane. Designed to investigate ancient habitability, Curiosity carries advanced scientific gear, including a sample drill at the end of its 7-foot robotic arm. Packed alongside its scientific instruments are microchips containing over 1.2 million public signatures, a presidential plaque, and wheel treads designed to imprint JPL in Morse code across Martian sand. In December 2016, a critical motor powering the drill feed mechanism failed, leaving Curiosity unable to extend its drill bit to collect rock samples. Refusing to let the mission end there, NASA engineers programmed a novel workaround: using the rover's 7-foot robotic arm itself to press the drill into rocks like a human operating a drill press. In May 2018, Curiosity successfully resumed drilling on Mars.",
+  "angle": "When Curiosity's drill motor failed millions of miles from Earth, NASA saved the mission by teaching the rover to use its entire 7-foot robotic arm like a human drill press.",
+  "claims": [
+    {
+      "claim": "Curiosity launched on an Atlas V rocket from Cape Canaveral, Florida, on November 26, 2011.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Curiosity is a car-sized Mars rover sent to explore Mars.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Curiosity landed in Gale Crater on Mars on August 6, 2012 UTC.",
+      "sources": [
+        "S1",
+        "S2",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Radio signals between Earth and Mars take approximately 14 minutes to transmit across deep space.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Curiosity landed safely after being lowered to the Martian surface from a tether by a rocket-powered sky crane.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Twelve-year-old Clara Ma won a nationwide contest to name the rover Curiosity.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Clara Ma visited NASA's Jet Propulsion Laboratory to sign her name directly onto the rover's structure.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "More than 1.2 million public signatures were etched onto silicon microchips mounted on Curiosity's deck.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Curiosity carries a deck plaque inscribed with the signatures of President Barack Obama and Vice President Joe Biden.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Curiosity's wheel treads leave impressions in Martian sand that spell out JPL in Morse code.",
+      "sources": [
+        "S1",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Curiosity's primary science destination inside Gale Crater is Mount Sharp.",
+      "sources": [
+        "S1",
+        "S5",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Curiosity is equipped with a rock-sampling drill mounted on a 7-foot-long robotic arm.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In December 2016, a motor failure in the drill feed mechanism prevented the rover from extending its drill bit.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA engineers created an alternative technique using the robotic arm itself to drive the drill into rocks without using the feed motor.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Curiosity successfully resumed rock drilling on Mars in May 2018 using the new arm-driven method.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Rover weight varies by source (S1 states 899 kg/1,982 lbs, S3 states 1,654 lbs); the script should avoid specific pound figures and simply state 'car-sized'.",
+    "Signal delay varies slightly by source (S1 states 14 min 6 sec, S3 states roughly 20 min, S5 states 14 min); the script should state 'roughly 14 minutes'."
+  ],
+  "visuals": [
+    {
+      "subject": "Curiosity rover selfie on Mars",
+      "queries": [
+        "Curiosity rover selfie Mars",
+        "Curiosity rover Gale Crater photo"
+      ]
+    },
+    {
+      "subject": "Atlas V launch of Mars Science Laboratory",
+      "queries": [
+        "Atlas V MSL launch Cape Canaveral",
+        "Curiosity rover launch Atlas V"
+      ]
+    },
+    {
+      "subject": "Sky crane lowered rover illustration",
+      "queries": [
+        "Curiosity sky crane landing illustration",
+        "Mars Science Laboratory sky crane concept"
+      ]
+    },
+    {
+      "subject": "Mount Sharp in Gale Crater",
+      "queries": [
+        "Mount Sharp Aeolis Mons Curiosity",
+        "Gale Crater Mount Sharp Mars photo"
+      ]
+    },
+    {
+      "subject": "Curiosity 7-foot robotic arm and drill turret",
+      "queries": [
+        "Curiosity robotic arm turret",
+        "Curiosity drill bit Mars photo"
+      ]
+    },
+    {
+      "subject": "Clara Ma signing Curiosity at JPL clean room",
+      "queries": [
+        "Clara Ma Curiosity JPL cleanroom",
+        "Clara Ma signing Curiosity rover"
+      ]
+    },
+    {
+      "subject": "Send Your Name to Mars microchip on Curiosity deck",
+      "queries": [
+        "Curiosity Send Your Name to Mars chip",
+        "Microchip on Curiosity deck"
+      ]
+    },
+    {
+      "subject": "President Barack Obama signature plaque on Curiosity deck",
+      "queries": [
+        "Curiosity presidential plaque Obama signature",
+        "Curiosity deck plaque signatures"
+      ]
+    },
+    {
+      "subject": "Curiosity wheel tracks showing JPL Morse code",
+      "queries": [
+        "Curiosity wheel tracks Morse code",
+        "Curiosity wheel tread JPL morse code"
+      ]
+    },
+    {
+      "subject": "Curiosity Navcam panorama of Martian landscape",
+      "queries": [
+        "Curiosity Navcam panorama Gale Crater",
+        "Curiosity first 3D panorama Mars"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Curiosity_(rover)",
+      "title": "Curiosity (rover)",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://web.archive.org/web/20201030135906/https://trs.jpl.nasa.gov/handle/2014/44069?show=full",
+      "title": "2011 Mars Science Laboratory trajectory reconstruction and performance from launch through landing",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://web.archive.org/web/20120803000108/http://blogs.scientificamerican.com/guest-blog/2011/11/28/sky-crane-how-to-land-curiosity-on-the-surface-of-mars/",
+      "title": "Sky Crane – how to land Curiosity on the surface of Mars | Guest Blog, Scientific American Blog Network",
+      "site": "scientificamerican.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.planetary.org/articles/08080751-curiosity-first-navcam-pan-3d",
+      "title": "Grab your 3D glasses for this view of Curiosity's landscape on Mars",
+      "site": "planetary.org"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.space.com/37722-mars-rover-curiosity-five-years-anniversary.html",
+      "title": "After 5 Years on Mars, NASA's Curiosity Rover Is Still Making Big Discoveries",
+      "site": "space.com"
+    },
+    {
+      "label": "S6",
+      "url": "http://www.collectspace.com/news/news-112611a.html",
+      "title": "NASA's Curiosity rover flying to Mars with Obama's, others' autographs on board | collectSPACE",
+      "site": "collectspace.com"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.bbc.co.uk/news/science-environment-19201742",
+      "title": "Mars rover makes first colour panorama",
+      "site": "bbc.co.uk"
+    }
+  ],
+  "topic": "Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press",
+  "series": "Mission Files"
+}

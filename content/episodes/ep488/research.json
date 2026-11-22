@@ -1,0 +1,220 @@
+{
+  "viable": true,
+  "reason": "The sources provide 13 multi-sourced claims from four independent sites detailing the ZTF SLRN-2020 planetary engulfment and JWST findings.",
+  "story": "In a historic discovery, astronomers caught a star consuming an exoplanet in the Milky Way. The event, named ZTF SLRN-2020, was first detected as an optical outburst by the Zwicky Transient Facility after infrared warming was seen by NEOWISE. Astronomers initially suspected an aging star had expanded into a red giant and engulfed its nearby planet. However, follow-up observations using the James Webb Space Telescope's MIRI and NIRSpec instruments revealed a major twist: the star had not swollen up at all. Instead, it was an unexpanded main-sequence star. Gravitational tidal interactions had caused the Jupiter-sized planet's orbit to slowly decay until it plunged into the star's atmosphere. JWST detected carbon monoxide gas and circumstellar dust around the surviving star, providing the first clear look at the aftermath of a planetary engulfment.",
+  "angle": "Astronomers expected a dying red giant star to have swollen up to devour its planet, but JWST revealed the star was an unswollen main-sequence star and the planet spiraled inward to its own death due to orbital decay.",
+  "claims": [
+    {
+      "claim": "The astronomical event ZTF SLRN-2020 represents a star engulfing an exoplanet.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The optical flash of ZTF SLRN-2020 was discovered using the Zwicky Transient Facility.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA's NEOWISE survey detected infrared brightening at the event location prior to or alongside the optical flash.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Follow-up observations of ZTF SLRN-2020 were performed using the James Webb Space Telescope.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "JWST analyzed ZTF SLRN-2020 using both its MIRI and NIRSpec instruments.",
+      "sources": [
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "JWST spectroscopy detected carbon monoxide emission surrounding the star after the event.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Circumstellar dust was detected around the host star following the engulfment.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "JWST data showed the host star was a main-sequence star that had not evolved into an expanded red giant.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The planetary engulfment was triggered by orbital decay of the planet rather than expansion of the host star.",
+      "sources": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The consumed planet was estimated to be a gas giant between Jupiter-sized and up to 10 Jupiter masses.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The engulfment event took place within the Milky Way galaxy.",
+      "sources": [
+        "S2",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "JWST spectroscopy detected hydrogen Brackett-alpha emission from the system.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Dust modeling indicated the presence of both warm (~700 K) and cool (~300 K) dust components.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "disputed": [
+    "Distance to the system: NASA JPL states 12,000 light-years while NOIRLab states 13,000 light-years; script should attribute or state approximately 12,000 to 13,000 light-years.",
+    "Onset timing of infrared brightening: Wikipedia cites NEOWISE brightening 7 months prior to optical peak, while NASA JPL states a year prior; script should state several months to a year.",
+    "Initial star classification: Early analysis suggested an expanding red giant star, whereas JWST spectra proved it was an unexpanded main-sequence star; script should contrast the initial red giant hypothesis with JWST's findings."
+  ],
+  "visuals": [
+    {
+      "subject": "Zwicky Transient Facility telescope dome at Palomar Observatory",
+      "queries": [
+        "Palomar Observatory 48-inch Samuel Oschin Telescope",
+        "Zwicky Transient Facility Palomar Observatory"
+      ]
+    },
+    {
+      "subject": "Artist concept of an exoplanet spiraling into its host star (illustration)",
+      "queries": [
+        "Exoplanet engulfment star illustration",
+        "Planet spiraling into star artist concept"
+      ]
+    },
+    {
+      "subject": "James Webb Space Telescope in space (illustration)",
+      "queries": [
+        "James Webb Space Telescope artist concept",
+        "JWST spacecraft rendering"
+      ]
+    },
+    {
+      "subject": "JWST Mid-Infrared Instrument (MIRI) hardware",
+      "queries": [
+        "James Webb Space Telescope MIRI instrument",
+        "JWST Mid-Infrared Instrument flight model"
+      ]
+    },
+    {
+      "subject": "JWST Near-Infrared Spectrograph (NIRSpec) hardware",
+      "queries": [
+        "James Webb Space Telescope NIRSpec instrument",
+        "JWST NIRSpec flight model"
+      ]
+    },
+    {
+      "subject": "Gemini South telescope structure in Chile",
+      "queries": [
+        "Gemini South telescope mirror structure",
+        "Gemini South Observatory Cerro Pachon"
+      ]
+    },
+    {
+      "subject": "NEOWISE space telescope orbiting Earth (illustration)",
+      "queries": [
+        "WISE spacecraft artist concept",
+        "NEOWISE satellite illustration"
+      ]
+    },
+    {
+      "subject": "Diagram of planetary orbital decay due to tidal forces (illustration)",
+      "queries": [
+        "Orbital decay illustration diagram",
+        "Tidal decay planetary orbit diagram"
+      ]
+    },
+    {
+      "subject": "Artist concept of a circumstellar disk surrounding a star (illustration)",
+      "queries": [
+        "Circumstellar disk artist concept",
+        "Gas accretion disk surrounding star illustration"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/ZTF_SLRN-2020",
+      "title": "ZTF SLRN-2020",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://www.jpl.nasa.gov/news/nasa-webbs-autopsy-of-planet-swallowed-by-star-yields-surprise/",
+      "title": "NASA Webb’s Autopsy of Planet Swallowed by Star Yields Surprise",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://noirlab.edu/public/news/noirlab2311/",
+      "title": "Astronomers Witness Star Devouring Planet: Possible Preview of the Ultimate Fate of Earth - Gemini South captures first direct evidence of an exoplanet being swallowed by an ancient Sun-like star",
+      "site": "noirlab.edu"
+    },
+    {
+      "label": "S4",
+      "url": "https://arxiv.org/abs/2504.07275",
+      "title": "Revealing a main-sequence star that consumed a planet with JWST",
+      "site": "arxiv.org"
+    }
+  ],
+  "topic": "Stellar merger (2026): a sun-like star spiraled into and was consumed by a supergiant star in Andromeda to form a single giant body",
+  "series": "Space Got Weird"
+}

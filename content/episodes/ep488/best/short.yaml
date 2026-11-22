@@ -1,0 +1,235 @@
+id: ep488
+title: NASA Caught a Star Swallowing Its Planet
+series: Space Got Weird
+format: v3
+description: Astronomers expected a swollen red giant star to have devoured a nearby world, but Webb proved an unexpanded
+  sun pulled the planet in through orbital decay.
+sources:
+- https://en.wikipedia.org/wiki/ZTF_SLRN-2020
+- https://www.jpl.nasa.gov/news/nasa-webbs-autopsy-of-planet-swallowed-by-star-yields-surprise/
+- https://noirlab.edu/public/news/noirlab2311/
+- https://arxiv.org/abs/2504.07275
+hashtags:
+- '#space'
+- '#jwst'
+- '#astronomy'
+tags:
+- astronomy
+- james webb space telescope
+- exoplanet
+- nasa
+- space facts
+- science
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA caught a star swallowing a Jupiter-sized planet.
+  emphasis:
+  - NASA caught
+  - swallowing
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/f/fb/Illustration_of_the_rogue_planet_Cha_1107-7626_%28eso2516a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Illustration of the rogue planet Cha 1107-7626 (eso2516a).jpg
+      credit: ESO/L. Calçada/M. Kornmesser
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Illustration_of_the_rogue_planet_Cha_1107-7626_(eso2516a).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.52
+    focus_y: 0.45
+    card:
+      kind: fact
+      big: ZTF SLRN-2020
+      small: PLANETARY ENGULFMENT
+- text: Everyone assumed an aging star expanded and ate its neighbor.
+  emphasis:
+  - expanded
+  - ate
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Betelgeuse_and_wake_of_its_companion_star_%28artist%27s_concept%29_%28opo2602%29.tiff/lossy-page1-3840px-Betelgeuse_and_wake_of_its_companion_star_%28artist%27s_concept%29_%28opo2602%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Betelgeuse and wake of its companion star (artist's concept) (opo2602).tiff
+      credit: 'NASA, ESA, E. Wheatley (STScI), Science: A. Dupree (CfA)'
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Betelgeuse_and_wake_of_its_companion_star_(artist%27s_concept)_(opo2602).tiff
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.45
+    focus_y: 0.5
+- text: Infrared surveys first spotted the flash across our galaxy.
+  emphasis:
+  - first spotted
+  - our galaxy
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/WISE_artist_concept_%28PIA17254%29.jpg/3840px-WISE_artist_concept_%28PIA17254%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: WISE artist concept (PIA17254).jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:WISE_artist_concept_(PIA17254).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.45
+    card:
+      kind: dateline
+      big: Milky Way
+      small: ZTF SLRN-2020 EVENT
+- text: Astronomers expected to find a swollen red giant.
+  emphasis:
+  - expected
+  - red giant
+  visual:
+    reuse: 3
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.45
+- text: NASA pointed the James Webb Space Telescope at the star.
+  emphasis:
+  - James Webb Space Telescope
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Artist_concept_of_JWST_%2850489833002_107cb9e661_o%29.jpg/1920px-Artist_concept_of_JWST_%2850489833002_107cb9e661_o%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist concept of JWST (50489833002 107cb9e661 o).jpg
+      credit: Adriana Manrique Gutierrez, NASA Animator
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist_concept_of_JWST_(50489833002_107cb9e661_o).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.42
+    card:
+      kind: fact
+      big: JWST MIRI
+      small: INFRARED SPECTROSCOPY
+- text: Spectra proved the host star had not swollen up.
+  emphasis:
+  - not swollen up
+  sfx: pop
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/ca/Acoustic_Testing_of_a_Webb_Telescope_Space-bound_Instrument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Acoustic Testing of a Webb Telescope Space-bound Instrument.jpg
+      credit: NASA's James Webb Space Telescope from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Acoustic_Testing_of_a_Webb_Telescope_Space-bound_Instrument.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: MAIN SEQUENCE
+      small: UNEXPANDED STAR
+- text: Gravitational drag caused the planet's orbit to slowly decay.
+  emphasis:
+  - orbit
+  - slowly decay
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Save_LEO_roadmap.jpg/3840px-Save_LEO_roadmap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Save LEO roadmap.jpg
+      credit: Space Travel Blog / Rute Marta Jansone / Pekka Janhunen
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Save_LEO_roadmap.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.48
+- text: The planet plunged to its death into an unexpanded star.
+  emphasis:
+  - plunged
+  - unexpanded star
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/dd/WASP-12b_%28NASA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: WASP-12b (NASA).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:WASP-12b_(NASA).jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: ORBITAL DECAY
+      small: PLUNGED INTO STAR
+- text: Webb even detected carbon monoxide gas from the wreckage.
+  emphasis:
+  - carbon monoxide
+  - wreckage
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Early_Stages_of_the_FU_Orionis_Outburst_%28Artist%27s_Concept%29_%282024-037%29.tiff/lossy-page1-3840px-Early_Stages_of_the_FU_Orionis_Outburst_%28Artist%27s_Concept%29_%282024-037%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Early Stages of the FU Orionis Outburst (Artist's Concept) (2024-037).tiff
+      credit: Artwork NASA-JPL, Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Early_Stages_of_the_FU_Orionis_Outburst_(Artist%27s_Concept)_(2024-037).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: CARBON MONOXIDE
+      small: DETECTED BY JWST
+- text: It proved how a world spirals directly into its sun.
+  emphasis:
+  - spirals directly
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.52
+    focus_y: 0.45
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 1 STAR, 1 DESTROYED PLANET

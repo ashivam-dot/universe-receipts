@@ -1,0 +1,72 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-22T11:12:28+05:30",
+      "check": {
+        "duration": 32.92,
+        "words": 92,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.6,
+        "warnings": [],
+        "speech_differences": [
+          "'pointed' heard as 'appointed' after 'red giant nasa'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Engaging opening claim captures attention immediately.",
+        "clarity": "Path from theory to discovery is easy to follow.",
+        "payoff": "Orbital decay provides a solid scientific subversion.",
+        "visuals": "Several frames are off-topic or generic technical shots.",
+        "loop": "Functional transition but lacks a smooth phonetic bridge."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Satellite image does not represent a red giant star."
+        },
+        {
+          "beat": 6,
+          "problem": "Factory floor photo does not show scientific spectra data."
+        },
+        {
+          "beat": 7,
+          "problem": "Earth orbit diagram is irrelevant to an exoplanet system."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 5,
+          "word": "pointed",
+          "respelling": "poyn ted"
+        }
+      ],
+      "rewrite": [
+        "Beat 10: Webb proved orbital decay pulled the planet in."
+      ],
+      "better_than_last": "Stronger scientific mystery than the giants in episode 484.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}
