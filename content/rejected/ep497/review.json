@@ -1,0 +1,196 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-23T11:19:43+05:30",
+      "check": {
+        "duration": 32.4,
+        "words": 94,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'hull' heard as 'hall' after 'through the spacecraft'",
+          "'alfmed' heard as 'alphamed' after 'tested this with'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The mystery of seeing light through closed eyelids is an effective scroll-stopper.",
+        "clarity": "The narrative moves logically from the observation to the physical mechanism.",
+        "payoff": "The reveal that human eyes functioned as particle detectors is a satisfying conclusion.",
+        "visuals": "Multiple shots feature generic diagrams or equipment that does not match the script.",
+        "loop": "The final sentence repeats the hook's key phrase for a seamless transition."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows Earth instead of the deep space environment described."
+        },
+        {
+          "beat": 5,
+          "problem": "Diagram depicts bionic vision technology rather than cosmic rays hitting a retina."
+        },
+        {
+          "beat": 7,
+          "problem": "Shows a standard communications cap instead of the specific ALFMED device."
+        },
+        {
+          "beat": 8,
+          "problem": "The frame is primarily a text-heavy technical manual page."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "ALFMED",
+          "respelling": "alf med"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This script connects a historical mystery to scientific evidence more effectively than the meteorite episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-23T11:21:18+05:30",
+      "check": {
+        "duration": 32.53,
+        "words": 94,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'alfmed' heard as 'alphamed' after 'tested this with'",
+          "'eyelids' heard as 'eyelets' after 'through their closed'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of seeing through closed eyelids provides a strong curiosity gap.",
+        "clarity": "Information flows logically from the mysterious symptom to the scientific cause.",
+        "payoff": "Connecting human anatomy to particle detection provides a satisfying conclusion.",
+        "visuals": "The majority of frames are accurate, but one contains unrelated stock footage.",
+        "loop": "The script ending provides a perfect grammatical lead-in back to the start."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "the frame shows a modern office hallway which is unrelated to particle tracks or space missions"
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "ALFMED",
+          "respelling": "alf med"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This short features a more refined loop and better technical diagrams than ep488.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-23T11:22:42+05:30",
+      "check": {
+        "duration": 32.53,
+        "words": 94,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'alfmed' heard as 'alphamed' after 'tested this with'",
+          "'eyelids' heard as 'eyelets' after 'through their closed'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening statement that immediately introduces a relatable yet alien mystery.",
+        "clarity": "Logical progression from the mystery to the physical cause and experimental proof.",
+        "payoff": "The ALFMED connection provides a satisfying scientific confirmation of the astronauts' claims.",
+        "visuals": "Most frames are accurate, but the Earth comparison shot lacks visual impact.",
+        "loop": "Seamless transition using the 'closed eyelids' phrasing to connect the end to the start."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The image is abstract green grain that doesn't effectively illustrate Earth or darkness."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 7,
+          "word": "ALFMED",
+          "respelling": "alf med"
+        },
+        {
+          "beat": 9,
+          "word": "eyelids",
+          "respelling": "eye lids"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "This Short provides a more concrete physical 'receipt' via the ALFMED device compared to the legal drama of ep495.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-23T11:22:43+05:30"
+}

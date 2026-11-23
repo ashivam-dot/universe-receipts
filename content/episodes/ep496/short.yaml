@@ -1,0 +1,212 @@
+id: ep496
+title: The Milky Way's Upcoming Fireworks
+series: Scale Breaker
+format: v3
+description: Astronomers discovered our galaxy's center is reaching a critical density that will trigger an annual starburst.
+sources:
+- https://en.wikipedia.org/wiki/Galactic_Center
+- https://web.archive.org/web/20020808061115/http://www.space.com/scienceastronomy/astronomy/boom_times_020610-1.html
+- http://www.nasa.gov/press/2015/january/nasa-s-chandra-detects-record-breaking-outburst-from-milky-way-s-black-hole/
+hashtags:
+- '#space'
+- '#milkyway'
+- '#blackhole'
+tags:
+- milky way
+- black hole
+- supernova
+- nasa
+- astronomy
+- sagittarius a star
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A giant star will explode in our galaxy every year.
+  emphasis:
+  - every year
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/30/NASA%27s_Chandra_Examines_Milky_Way_at_Arms%27_Length_%28Illustration_Showing_Updated_Spiral_Arm_Positions%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: NASA's Chandra Examines Milky Way at Arms' Length (Illustration Showing Updated Spiral Arm Positions).jpg
+      credit: NASA/CXC/SAO/M.Weiss
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA%27s_Chandra_Examines_Milky_Way_at_Arms%27_Length_(Illustration_Showing_Updated_Spiral_Arm_Positions).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Usually, our galaxy sees a supernova only once a century.
+  emphasis:
+  - once a century
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Crab_Nebula_imaged_using_James_Webb_Space_Telescope.png/3840px-Crab_Nebula_imaged_using_James_Webb_Space_Telescope.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Crab Nebula imaged using James Webb Space Telescope.png
+      credit: NASA, ESA, CSA, STScI, T. Temim (Princeton University)
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Crab_Nebula_imaged_using_James_Webb_Space_Telescope.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 1 PER CENTURY
+      small: CURRENT SUPERNOVA RATE
+- text: But 25,000 light-years away, the Milky Way’s heart is charging up.
+  emphasis:
+  - charging up
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Milky_Way_Center_%28MeerKAT_and_Webb%29%2C_Labeled_%282025-115%29.png/3840px-Milky_Way_Center_%28MeerKAT_and_Webb%29%2C_Labeled_%282025-115%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Milky Way Center (MeerKAT and Webb), Labeled (2025-115).png
+      credit: 'Image: NASA, ESA, CSA, STScI, SARAO, Samuel Crowe (UVA), John Bally (CU), Ruben Fedriani (IAA-CSIC), Ian Heywood
+        (Oxford)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Milky_Way_Center_(MeerKAT_and_Webb),_Labeled_(2025-115).png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: NASA’s Chandra telescope caught a flare 400 times brighter than normal.
+  emphasis:
+  - 400 times
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/X-RayFlare-BlackHole-MilkyWay-20140105.jpg/960px-X-RayFlare-BlackHole-MilkyWay-20140105.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: X-RayFlare-BlackHole-MilkyWay-20140105.jpg
+      credit: NASA/CXC/Stanford/I. Zhuravleva et al.
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:X-RayFlare-BlackHole-MilkyWay-20140105.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 400 TIMES
+      small: X-RAY FLARE INTENSITY
+- text: Our central black hole has the mass of four million suns.
+  emphasis:
+  - four million
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Illustration_of_the_black_hole_Sagittarius_A%2A_at_the_center_of_the_Milky_Way_%28noirlab2130d%29.tiff/lossy-page1-3840px-Illustration_of_the_black_hole_Sagittarius_A%2A_at_the_center_of_the_Milky_Way_%28noirlab2130d%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Illustration of the black hole Sagittarius A* at the center of the Milky Way (noirlab2130d).tiff
+      credit: "International Gemini Observatory/NOIRLab/NSF/AURA/J. da Silva/(Spaceengine). \n\nAcknowledgement: M. Zamani\
+        \ (NSF's NOIRLab)"
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Illustration_of_the_black_hole_Sagittarius_A*_at_the_center_of_the_Milky_Way_(noirlab2130d).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 4 MILLION
+      small: SOLAR MASSES
+- text: A dense ring of gas is now reaching a critical density.
+  emphasis:
+  - critical density
+  sfx: riser
+  visual:
+    source: url
+    url: https://live.staticflickr.com/65535/53084246454_dfe047f043_b.jpg
+    credit:
+      source: Flickr via Openverse
+      title: NGC 6822 (MIRI image)
+      credit: James Webb Space Telescope
+      license: CC BY 2.0
+      url: https://www.flickr.com/photos/50785054@N03/53084246454
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A massive starburst episode begins in 200 million years.
+  emphasis:
+  - starburst
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Two_views_of_the_starburst_galaxy_Messier_82_%28M82%29_ESA170_-_Two_views_of_the_starburst_galaxy_Messier_82_M82.tiff/lossy-page1-1920px-Two_views_of_the_starburst_galaxy_Messier_82_%28M82%29_ESA170_-_Two_views_of_the_starburst_galaxy_Messier_82_M82.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Two views of the starburst galaxy Messier 82 (M82) ESA170 - Two views of the starburst galaxy Messier 82 M82.tiff
+      credit: European Space Agency
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Two_views_of_the_starburst_galaxy_Messier_82_(M82)_ESA170_-_Two_views_of_the_starburst_galaxy_Messier_82_M82.tiff
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 200 MILLION
+      small: YEARS UNTIL STARBURST
+- text: One star will then die in a supernova every single year.
+  emphasis:
+  - every single year
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Illustration_of_Alternate_Trigger_Mechanism_%282010-type1a-more-2_-_label%29.tiff/lossy-page1-1920px-Illustration_of_Alternate_Trigger_Mechanism_%282010-type1a-more-2_-_label%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Illustration of Alternate Trigger Mechanism (2010-type1a-more-2 - label).tiff
+      credit: '(Illustration: NASA/CXC/M.Weiss)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Illustration_of_Alternate_Trigger_Mechanism_(2010-type1a-more-2_-_label).tiff
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 1 PER YEAR
+      small: FUTURE SUPERNOVA RATE
+- text: Our galaxy’s heart is preparing to detonate every year.
+  emphasis:
+  - detonate
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: EVERY SINGLE YEAR
