@@ -1,0 +1,190 @@
+id: ep499
+title: The quasar wall that might not be real
+series: Scale Breaker
+format: v3
+description: Astronomers mapped 73 quasars into a wall 4 billion light-years across, but later analysis suggests it might
+  just be a statistical fluke.
+sources:
+- https://web.archive.org/web/20130114020821/http://www.ras.org.uk/news-and-press/224-news-2013/2212-astronomers-discover-the-largest-structure-in-the-universe
+- http://www.sci-news.com/astronomy/article00818.html
+- https://en.wikipedia.org/wiki/Huge-LQG
+- https://arxiv.org/abs/1306.1700
+hashtags:
+- '#space'
+- '#quasars'
+- '#cosmology'
+tags:
+- quasars
+- Huge-LQG
+- cosmological principle
+- large scale structure
+- Sloan Digital Sky Survey
+- Roger Clowes
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Light takes 4 billion years to cross this.
+  emphasis:
+  - 4 billion years
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d3/Artist%27s_impression_of_quasar1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Artist's impression of quasar1.jpg
+      credit: NASA/ESA/ESO/Wolfram Freudling et al
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Artist%27s_impression_of_quasar1.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 4 BILLION LIGHT-YEARS
+      small: time for light to cross
+- text: It's 73 quasars, the glowing cores of early-universe galaxies.
+  emphasis:
+  - 73 quasars
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Artist%E2%80%99s_rendering_of_quasar_P172%2B18_%28eso2103a%29.jpg/3840px-Artist%E2%80%99s_rendering_of_quasar_P172%2B18_%28eso2103a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s rendering of quasar P172+18 (eso2103a).jpg
+      credit: ESO/M. Kornmesser
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_rendering_of_quasar_P172%2B18_(eso2103a).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 73 QUASARS
+      small: glowing cores of ancient galaxies
+- text: The nearest big galaxy, Andromeda, is a dot beside it.
+  emphasis:
+  - Andromeda
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hubble%E2%80%99s_panoramic_view_of_the_Andromeda_Galaxy_%28heic2501a%29.tiff/lossy-page1-3840px-Hubble%E2%80%99s_panoramic_view_of_the_Andromeda_Galaxy_%28heic2501a%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble’s panoramic view of the Andromeda Galaxy (heic2501a).tiff
+      credit: NASA, ESA, B. Williams (University of Washington)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Hubble%E2%80%99s_panoramic_view_of_the_Andromeda_Galaxy_(heic2501a).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: ANDROMEDA
+      small: our nearest big galaxy
+- text: This structure is 1600 times that distance.
+  emphasis:
+  - 1600 times
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/DESI_Uses_Distant_Quasars_to_Map_the_Cosmic_Web_%28noirlab2408d%29.tiff/lossy-page1-3840px-DESI_Uses_Distant_Quasars_to_Map_the_Cosmic_Web_%28noirlab2408d%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: DESI Uses Distant Quasars to Map the Cosmic Web (noirlab2408d).tiff
+      credit: NOIRLab/NSF/AURA/P. Marenfeld
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:DESI_Uses_Distant_Quasars_to_Map_the_Cosmic_Web_(noirlab2408d).tiff
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 1600×
+      small: the distance to Andromeda
+- text: Cosmic theory says nothing should be bigger than 370 megaparsecs.
+  emphasis:
+  - 370 megaparsecs
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 370 MEGAPARSECS
+      small: theoretical maximum size
+    motion: zoom_in
+- text: This one stretches to 1200.
+  emphasis:
+  - '1200'
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/8a/CosmoDistanceMeasures_z_to_onehalf.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: CosmoDistanceMeasures z to onehalf.png
+      credit: Wesino at English Wikipedia
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:CosmoDistanceMeasures_z_to_onehalf.png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 1200 MEGAPARSECS
+      small: measured span of Huge-LQG
+- text: But it might just be random noise, not a real wall.
+  emphasis:
+  - random noise
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/1a/The_FLAMINGO_project_%E2%80%93_cosmological_hydrodynamical_simulations_for_large-scale_structure_and_galaxy_cluster_surveys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: The FLAMINGO project – cosmological hydrodynamical simulations for large-scale structure and galaxy cluster surveys.jpg
+      credit: 'Authors of the study: Schaye, Joop ; Kugel, Roi ; Schaller, Matthieu ; Helly, John C. ; Braspenning, Joey ;
+        Elbers, Willem ; McCarthy, Ian G. ; van Daalen, Marcel P. ; Vandenbroucke, Bert ; Frenk, Car'
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_FLAMINGO_project_%E2%80%93_cosmological_hydrodynamical_simulations_for_large-scale_structure_and_galaxy_cluster_surveys.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Light still takes 4 billion years to cross it.
+  emphasis:
+  - still takes 4 billion years
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 73 QUASARS, ONE WALL

@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-23T23:06:07+05:30",
-  "day": 53,
+  "updated_at": "2026-11-24T05:06:01+05:30",
+  "day": 54,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M84QKD9N1GCBDE63C9N3CGMR",
+    "id": "ta-01M85C6JMFZ09QH95FZ8702A0R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-23T23:05:11+05:30",
-    "started_at_utc": "2026-11-23T17:35:11+00:00",
-    "seconds": 56
+    "started_at": "2026-11-24T05:05:19+05:30",
+    "started_at_utc": "2026-11-23T23:35:19+00:00",
+    "seconds": 42
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.4
+      "seconds": 7.1
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.3
+      "seconds": 3.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.6
+      "seconds": 0.7
     },
     {
       "name": "on youtube",
@@ -47,19 +47,19 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 5.5
+      "seconds": 2.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep478 rejected (low scores: payoff, visuals); ep491 ready; ep496 rejected (low scores: payoff, visuals); ep498 rejected (low scores: visuals)",
-      "seconds": 13.6
+      "detail": "ep499 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 8.5
     },
     {
-      "name": "start ep499",
+      "name": "start ep500",
       "ok": true,
-      "detail": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
-      "seconds": 1.1
+      "detail": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
+      "seconds": 2.8
     }
   ],
   "errors": [
@@ -67,6 +67,8 @@
   ],
   "owner_action": [],
   "notes": [
+    "ep499 stopped on Gemini's free quota; it resumes in a later run",
+    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
@@ -74,9 +76,11 @@
     "in_buffer": 10,
     "waiting": 45,
     "target": 14,
-    "making": [],
-    "remote": [
+    "making": [
       "ep499"
+    ],
+    "remote": [
+      "ep500"
     ]
   },
   "queue": [
@@ -405,50 +409,26 @@
   ],
   "made": [
     {
-      "id": "ep478",
-      "outcome": "rejected",
-      "topic": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
-      "reason": "low scores: payoff, visuals"
-    },
-    {
-      "id": "ep491",
-      "outcome": "ready",
-      "topic": "International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours",
-      "title": "Why Astronauts See 16 Sunrises Every Day",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795434811/universereceipts/ep491-eb64bfa7.mp4"
-    },
-    {
-      "id": "ep496",
-      "outcome": "rejected",
-      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
-      "reason": "low scores: payoff, visuals"
-    },
-    {
-      "id": "ep498",
-      "outcome": "rejected",
-      "topic": "Voyager 1 (1998): became the most distant human-made object in history, overtaking Pioneer 10 while traveling over 38,000 miles per hour relative to the Sun",
-      "reason": "low scores: visuals"
+      "id": "ep499",
+      "outcome": "unfinished",
+      "topic": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
+      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
+      "quota": true,
+      "overloaded": false
     }
   ],
   "spawned": [
     {
-      "id": "ep499",
-      "topic": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
-      "call_id": "fc-01M84QN8EZ9HQYY7G53TX5X818"
+      "id": "ep500",
+      "topic": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
+      "call_id": "fc-01M85C8B3J2DEWDGM75BEMCREN"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep499",
-      "topic": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
-      "spawned_at": "2026-11-23T23:06:01+05:30"
+      "id": "ep500",
+      "topic": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
+      "spawned_at": "2026-11-24T05:05:58+05:30"
     }
   ],
   "published": [],
@@ -456,35 +436,36 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 12,
+    "calls": 5,
     "by_model": {
-      "gemini-3.5-flash": 2,
-      "gemini-3.6-flash": 8,
       "gemini-3.5-flash-lite": 1,
-      "gemini-3-flash-preview": 1
+      "ovh:Qwen3.5-397B-A17B": 1,
+      "ovh:Qwen3.8-27B": 1,
+      "gemini-3.1-flash-lite": 1,
+      "gemma-4-31b-it": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 8,
+    "modal": 1,
     "runner": 0
   },
   "daily_done": "2026-11-23",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 15.63,
+    "metered": 15.68,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 103,
+    "cloud": 102,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 12.38
+    "modal_credit_left": 12.32
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 35,
-  "parked_topics": 45
+  "parked_topics": 44
 }

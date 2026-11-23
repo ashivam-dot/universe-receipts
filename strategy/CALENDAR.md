@@ -209,7 +209,7 @@ unexplained, not alien.
 - Space Shuttle Columbia disaster (2003): a piece of foam debris caused a hole in the wing that led to the shuttle's destruction during its return to Earth — done (ep417)
 - Betelgeuse (2019): the famous red supergiant suddenly dimmed because it blew out a massive dust cloud that blocked its own light — done (ep451)
 - Betelgeuse (2020): if this giant red star exploded today, it would shine as bright as a half-moon and cast visible shadows on Earth for weeks — done (ep483)
-- Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever — parked (ep399)
+- Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever — making (ep500)
 - Future of Earth (1950): in about one billion years, the steadily brightening Sun will evaporate all of Earth's oceans and scorch the planet long before the star becomes a red giant — done (ep406)
 - Sagittarius A* (2020): violent magnetic flaring around our central black hole accelerates subatomic particles to nearly the speed of light — done (ep425)
 - Supermassive black hole (2024): the supermassive black hole at the center of the Milky Way is spinning so fast it warps space into a cosmic funnel — parked (ep462)
