@@ -1,0 +1,174 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-23T17:23:05+05:30",
+      "check": {
+        "duration": 31.46,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.4,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'the milky way'",
+          "'s' heard as 'is' after 'charging up nasa'",
+          "'s' heard as 'is' after 'year our galaxy'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise grabs immediate attention.",
+        "clarity": "Clear concept progression that is easy to follow.",
+        "payoff": "The distant future timeline offers a solid contextual twist.",
+        "visuals": "Several frames feature cluttered diagrams and awkward cropping.",
+        "loop": "Ends seamlessly back into the opening script line."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Image contains cluttered, unreadable chart labels and small text."
+        },
+        {
+          "beat": 6,
+          "problem": "Letterboxed narrow image crop reduces visual impact."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Maintains a clearer central narrative thread than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-23T17:27:33+05:30",
+      "check": {
+        "duration": 32.85,
+        "words": 93,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -2.8,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'the milky way'",
+          "'s' heard as 'is' after 'charging up nasa'",
+          "'s' heard as 'is' after 'year our galaxy'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The promise of an annual galactic explosion instantly grabs attention.",
+        "clarity": "The progression from current observation to future starburst sequence is clear.",
+        "payoff": "The 200-million-year timeline provides a solid cosmic context twist to the headline claim.",
+        "visuals": "Beat 3 is covered in text labels and Beat 6 displays a generic starfield instead of gas density.",
+        "loop": "Beat 9 connects to Beat 1 naturally, though repeating 'every year' back-to-back is slightly redundant."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Image is mostly text and annotated diagram labels, making it hard to read on phone screens."
+        },
+        {
+          "beat": 6,
+          "problem": "Shows a generic starfield background rather than visualizing a dense ring of gas."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-23T17:34:20+05:30",
+      "check": {
+        "duration": 30.8,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [
+          "'s' heard as 'is' after 'the milky way'",
+          "'s' heard as 'is' after 'charging up nasa'",
+          "'s' heard as 'is' after 'year our galaxy'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Grabs attention immediately with an alarming annual explosion claim.",
+        "clarity": "Simple logical progression explaining galactic starbursts.",
+        "payoff": "The 200-million-year timeline lowers the immediate mystery impact.",
+        "visuals": "Clear graphics, though beat 3 uses an inaccurate nebula frame.",
+        "loop": "Final phrasing transitions smoothly back to the opening line."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Reused supernova remnant picture does not represent the galactic center."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Change to 'This massive starburst episode won't start for 200 million years.'"
+      ],
+      "better_than_last": "It presents a clearer timeline sequence than recent cosmic event Shorts.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-11-23T17:34:20+05:30"
+}

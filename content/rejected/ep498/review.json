@@ -1,0 +1,160 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-23T17:28:24+05:30",
+      "check": {
+        "duration": 31.23,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong trade-off premise grabs immediate viewer interest.",
+        "clarity": "Clear narrative arc tracing Voyager 1 trajectory decisions.",
+        "payoff": "Effective twist linking the Titan maneuver to interstellar travel.",
+        "visuals": "Clear space diagrams, though beat 6 shows the wrong planet.",
+        "loop": "Seamless audio transition looping directly back to beat 1."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows Saturn instead of Uranus or Neptune."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Clearer central trade-off narrative connecting path adjustments directly to interstellar outcomes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-23T17:32:43+05:30",
+      "check": {
+        "duration": 31.23,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Clear trade-off premise engages viewers quickly.",
+        "clarity": "Linear historical narrative is simple to follow.",
+        "payoff": "Reaching interstellar space provides a solid conclusion.",
+        "visuals": "Beat 6 displays Saturn instead of Uranus or Neptune.",
+        "loop": "Ending phrasing connects seamlessly back into the hook."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "shows Saturn instead of Uranus or Neptune"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This episode provides a clearer orbital mechanics narrative than recent entries.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-23T17:40:02+05:30",
+      "check": {
+        "duration": 32.57,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'sacrificed' heard as 'is sacrifice' after 'nasa'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The trade-off premise creates immediate curiosity.",
+        "clarity": "Chronological flow makes mission goals easy to follow.",
+        "payoff": "Successfully links the moon flyby to the interstellar record.",
+        "visuals": "Most frames are accurate, though one is generic.",
+        "loop": "Final phrasing leads naturally back to the beginning."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows Saturn's rings instead of Uranus or Neptune."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 9,
+          "word": "sacrificed",
+          "respelling": "sack ri ficed"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "The logical trade-off narrative is more compelling than the legal anecdote in episode 495.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-23T17:40:02+05:30"
+}

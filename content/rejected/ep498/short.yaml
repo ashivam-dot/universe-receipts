@@ -1,0 +1,236 @@
+id: ep498
+title: Why NASA Traded Two Planets for One Moon
+series: Scale Breaker
+format: v3
+description: Voyager 1 sacrificed flybys of Uranus and Neptune to examine Saturn's moon Titan. The trajectory change launched
+  Earth's most distant spacecraft into interstellar space.
+sources:
+- https://en.wikipedia.org/wiki/Voyager_1
+- https://en.wikipedia.org/wiki/Voyager_program
+- https://science.nasa.gov/mission/voyager/voyager-1/
+- https://www.universetoday.com/articles/big-bang-fix-puts-voyager-across-the-one-light-day-mark
+- https://www.space.com/voyager-1-data-glitch-solved
+- https://www.scientificamerican.com/article/record-breaking-voyager-spacecraft-begin-to-power-down/
+hashtags:
+- '#space'
+- '#voyager'
+- '#nasa'
+tags:
+- voyager 1
+- nasa
+- astronomy
+- interstellar space
+- pioneer 10
+- titan
+- space exploration
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA sacrificed visits to two giant planets for one moon.
+  emphasis:
+  - sacrificed visits
+  - two giant planets
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Voyager_spacecraft_%28cropped2%29.jpg/1920px-Voyager_spacecraft_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager spacecraft (cropped2).jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_(cropped2).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.45
+    focus_y: 0.48
+- text: Voyager 1 launched on a sprint past Jupiter and Saturn.
+  emphasis:
+  - launched
+  - Jupiter and Saturn
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Titan_3E_with_Voyager_1.jpg/1920px-Titan_3E_with_Voyager_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Titan 3E with Voyager 1.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Titan_3E_with_Voyager_1.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.52
+    focus_y: 0.35
+    box:
+    - 0.35
+    - 0.08
+    - 0.58
+    - 0.48
+- text: It discovered active volcanoes erupting on Jupiter's moon Io.
+  emphasis:
+  - discovered active volcanoes
+  - Io
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/29/Io_roompluim_van_de_vulkaan_Loki%2C_duidelijk_verlicht_te_zien.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Io roompluim van de vulkaan Loki, duidelijk verlicht te zien.jpg
+      credit: NASA/JPL/USGS
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Io_roompluim_van_de_vulkaan_Loki,_duidelijk_verlicht_te_zien.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.15
+    focus_y: 0.45
+    box:
+    - 0.08
+    - 0.35
+    - 0.25
+    - 0.55
+    card:
+      kind: fact
+      big: ACTIVE VOLCANOES
+      small: Discovered on Io
+- text: But reaching Saturn's moon Titan required a sharp trajectory adjustment.
+  emphasis:
+  - moon Titan
+  - trajectory adjustment
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Voyager_2_-_Titan_-_3128_7866_2.png/1280px-Voyager_2_-_Titan_-_3128_7866_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Voyager 2 - Titan - 3128 7866 2.png
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Voyager_2_-_Titan_-_3128_7866_2.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.48
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: November 1980
+      small: Titan flyby
+- text: That maneuver flung the probe completely out of the planetary plane.
+  emphasis:
+  - flung the probe
+  - planetary plane
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Interstellar_probes_%28cropped%29.jpg/1920px-Interstellar_probes_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Interstellar probes (cropped).jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Interstellar_probes_(cropped).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.32
+    focus_y: 0.22
+    box:
+    - 0.22
+    - 0.12
+    - 0.42
+    - 0.32
+    card:
+      kind: fact
+      big: OUT OF PLANE
+      small: Ecliptic trajectory deflection
+- text: It gave up any chance of visiting Uranus or Neptune.
+  emphasis:
+  - gave up
+  - Uranus or Neptune
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Cassini_Saturn_rings_Staggering_Structure_PIA21627.jpg/960px-Cassini_Saturn_rings_Staggering_Structure_PIA21627.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Cassini Saturn rings Staggering Structure PIA21627.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Cassini_Saturn_rings_Staggering_Structure_PIA21627.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Yet that extreme path helped Voyager 1 overtake Pioneer 10 in 1998.
+  emphasis:
+  - overtake Pioneer 10
+  - '1998'
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: February 1998
+      small: Overtook Pioneer 10
+    motion: zoom_in
+- text: It became the first human object to cross into interstellar space.
+  emphasis:
+  - interstellar space
+  - first human object
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/STEREO_ENAs_HI.jpg/1280px-STEREO_ENAs_HI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STEREO ENAs HI.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STEREO_ENAs_HI.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.16
+    focus_y: 0.5
+    box:
+    - 0.05
+    - 0.42
+    - 0.25
+    - 0.58
+    card:
+      kind: dateline
+      big: August 2012
+      small: Entered interstellar space
+- text: That historic flight happened because NASA sacrificed visits to two giant planets.
+  emphasis:
+  - historic flight
+  - sacrificed visits
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.48
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 2 PLANETS FOR 1 MOON

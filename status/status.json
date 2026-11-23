@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-23T17:15:23+05:30",
+  "updated_at": "2026-11-23T23:06:07+05:30",
   "day": 53,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M84307P9WKHGZF9B1FBQR2JR",
+    "id": "ta-01M84QKD9N1GCBDE63C9N3CGMR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-23T17:05:10+05:30",
-    "started_at_utc": "2026-11-23T11:35:10+00:00",
-    "seconds": 613
+    "started_at": "2026-11-23T23:05:11+05:30",
+    "started_at_utc": "2026-11-23T17:35:11+00:00",
+    "seconds": 56
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 1.4
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.3
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 1.8
+      "seconds": 2.3
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.5
+      "seconds": 0.6
     },
     {
       "name": "on youtube",
@@ -47,79 +47,19 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 3.5
+      "seconds": 5.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep496 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep497 rejected (low scores: visuals)",
-      "seconds": 8.4
+      "detail": "ep478 rejected (low scores: payoff, visuals); ep491 ready; ep496 rejected (low scores: payoff, visuals); ep498 rejected (low scores: visuals)",
+      "seconds": 13.6
     },
     {
-      "name": "analytics",
+      "name": "start ep499",
       "ok": true,
-      "detail": "134 subscribers",
-      "seconds": 11.3
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Reviewed 10 recent Shorts (ep351–ep411), updating performance diagnoses and refining script hypotheses for hook style, early crisis placement, and loop endings.",
-      "seconds": 497.9
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 2.4
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 18.1
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "2 added",
-      "seconds": 36.1
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-053.md",
-      "seconds": 2.8
-    },
-    {
-      "name": "start ep478",
-      "ok": true,
-      "detail": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
-      "seconds": 1.0
-    },
-    {
-      "name": "start ep491",
-      "ok": true,
-      "detail": "International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours",
-      "seconds": 0.9
-    },
-    {
-      "name": "start ep496",
-      "ok": true,
-      "detail": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
-      "seconds": 0.8
-    },
-    {
-      "name": "start ep498",
-      "ok": true,
-      "detail": "Voyager 1 (1998): became the most distant human-made object in history, overtaking Pioneer 10 while traveling over 38,000 miles per hour relative to the Sun",
-      "seconds": 0.9
+      "detail": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
+      "seconds": 1.1
     }
   ],
   "errors": [
@@ -127,20 +67,16 @@
   ],
   "owner_action": [],
   "notes": [
-    "ep496 stopped on Gemini's free quota; it resumes in a later run",
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 54,
+    "total": 55,
     "in_buffer": 10,
-    "waiting": 44,
+    "waiting": 45,
     "target": 14,
     "making": [],
     "remote": [
-      "ep478",
-      "ep491",
-      "ep496",
-      "ep498"
+      "ep499"
     ]
   },
   "queue": [
@@ -449,6 +385,12 @@
       "score": 24
     },
     {
+      "id": "ep491",
+      "title": "Why Astronauts See 16 Sunrises Every Day",
+      "series": "Scale Breaker",
+      "score": 25
+    },
+    {
       "id": "ep494",
       "title": "The Million-Times-Faster Star Hunt",
       "series": "Mission Files",
@@ -463,62 +405,50 @@
   ],
   "made": [
     {
-      "id": "ep496",
-      "outcome": "unfinished",
-      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
+      "id": "ep478",
+      "outcome": "rejected",
+      "topic": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
+      "reason": "low scores: payoff, visuals"
     },
     {
-      "id": "ep497",
+      "id": "ep491",
+      "outcome": "ready",
+      "topic": "International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours",
+      "title": "Why Astronauts See 16 Sunrises Every Day",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 5,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795434811/universereceipts/ep491-eb64bfa7.mp4"
+    },
+    {
+      "id": "ep496",
       "outcome": "rejected",
-      "topic": "Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas",
+      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
+      "reason": "low scores: payoff, visuals"
+    },
+    {
+      "id": "ep498",
+      "outcome": "rejected",
+      "topic": "Voyager 1 (1998): became the most distant human-made object in history, overtaking Pioneer 10 while traveling over 38,000 miles per hour relative to the Sun",
       "reason": "low scores: visuals"
     }
   ],
   "spawned": [
     {
-      "id": "ep478",
-      "topic": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
-      "call_id": "fc-01M843K08WAQQGJV7DFMVYMMZE"
-    },
-    {
-      "id": "ep491",
-      "topic": "International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours",
-      "call_id": "fc-01M843K15TQMMPJHJ2ZG4NJKVW"
-    },
-    {
-      "id": "ep496",
-      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
-      "call_id": "fc-01M843K202YZ87ZZKGGKF8NZ8M"
-    },
-    {
-      "id": "ep498",
-      "topic": "Voyager 1 (1998): became the most distant human-made object in history, overtaking Pioneer 10 while traveling over 38,000 miles per hour relative to the Sun",
-      "call_id": "fc-01M843K2WKEQSB73XYHV0SN47B"
+      "id": "ep499",
+      "topic": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
+      "call_id": "fc-01M84QN8EZ9HQYY7G53TX5X818"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep478",
-      "topic": "TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night",
-      "spawned_at": "2026-11-23T17:15:16+05:30"
-    },
-    {
-      "id": "ep491",
-      "topic": "International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours",
-      "spawned_at": "2026-11-23T17:15:17+05:30"
-    },
-    {
-      "id": "ep496",
-      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
-      "spawned_at": "2026-11-23T17:15:17+05:30"
-    },
-    {
-      "id": "ep498",
-      "topic": "Voyager 1 (1998): became the most distant human-made object in history, overtaking Pioneer 10 while traveling over 38,000 miles per hour relative to the Sun",
-      "spawned_at": "2026-11-23T17:15:18+05:30"
+      "id": "ep499",
+      "topic": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
+      "spawned_at": "2026-11-23T23:06:01+05:30"
     }
   ],
   "published": [],
@@ -526,31 +456,32 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 17,
+    "calls": 12,
     "by_model": {
+      "gemini-3.5-flash": 2,
       "gemini-3.6-flash": 8,
-      "gemini-3.5-flash-lite": 5,
-      "gemini-3-flash-preview": 4
+      "gemini-3.5-flash-lite": 1,
+      "gemini-3-flash-preview": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 4,
+    "modal": 8,
     "runner": 0
   },
   "daily_done": "2026-11-23",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 15.39,
+    "metered": 15.63,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 105,
+    "cloud": 103,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 12.62
+    "modal_credit_left": 12.38
   },
   "starved": 0,
   "made_here": 0,

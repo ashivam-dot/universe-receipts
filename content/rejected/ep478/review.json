@@ -98,7 +98,59 @@
       "better_than_last": "The visual aids for scale and tidal locking are more helpful than the abstract gas clouds in ep484.",
       "judge": "gemini-3-flash-preview",
       "passed": false
+    },
+    {
+      "at": "2026-11-23T17:26:50+05:30",
+      "check": {
+        "duration": 29.77,
+        "words": 87,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing cosmic scale premise captures interest quickly.",
+        "clarity": "Simple progression of concepts across beats.",
+        "payoff": "Weak resolution without a strong concluding twist.",
+        "visuals": "Visuals contain noticeable text overlays and watermarks.",
+        "loop": "Ending flows back into the opening premise reasonably well."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "a big watermark reading Artist Concept"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Change to 'Stellar winds may be stripping its air, leaving behind a barren, airless stone.'"
+      ],
+      "better_than_last": "This episode features a clearer comparative scale visualization than recent entries.",
+      "judge": "gemini-3.5-flash",
+      "passed": false
     }
   ],
-  "best_round": 2
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-11-23T17:26:50+05:30"
 }

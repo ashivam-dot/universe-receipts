@@ -249,7 +249,7 @@ unexplained, not alien.
 - Phoenix Cluster (2010): an colossal galaxy cluster creating over 700 stars a year with a central black hole weighing 58 billion Suns — dropped (ep375)
 - Sloan Great Wall (2003): a colossal thread of galaxies spanning 1.37 billion light-years across the cosmos — dropped (ep243)
 - Shapley Supercluster (1930): a colossal concentration of over 8,000 galaxies that exerts a gravitational pull powerful enough to haul our entire Milky Way toward it — done (ep482)
-- Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity — parked (ep338)
+- Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity — making (ep499)
 - Coma Cluster (1933): a massive city of thousands of galaxies whose missing invisible mass provided the very first evidence for dark matter — done (ep347)
 - Lyman-alpha blob (2000): enormous clouds of glowing gas, some of the largest objects in the universe, that are ten times larger than the Milky Way — done (ep484)
 - CfA2 Great Wall (1989): a colossal sheet of galaxies over 500 million light-years long that was the largest structure in the universe when discovered — parked (ep344)
@@ -262,7 +262,7 @@ unexplained, not alien.
 - International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds — done (ep386)
 - Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton — done (ep389)
 - Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way — dropped (ep393)
-- Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way — making (ep496)
+- Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way — dropped (ep496)
 - Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States — parked (ep398)
 - Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter — parked (ep400)
 - Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once — parked (ep408)
@@ -277,8 +277,8 @@ unexplained, not alien.
 - Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform — done (ep467)
 - Atmosphere of Earth (1946): if Earth were a standard desktop globe, the entire layer of air that supports all life would be thinner than a single coat of spray-on varnish — dropped (ep477)
 - Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains — parked (ep490)
-- International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours — making (ep491)
-- Voyager 1 (1998): became the most distant human-made object in history, overtaking Pioneer 10 while traveling over 38,000 miles per hour relative to the Sun — making (ep498)
+- International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours — done (ep491)
+- Voyager 1 (1998): became the most distant human-made object in history, overtaking Pioneer 10 while traveling over 38,000 miles per hour relative to the Sun — parked (ep498)
 
 ### Mission Files
 
@@ -350,7 +350,7 @@ unexplained, not alien.
 - Haumea (2004): a dwarf planet spinning so fast it deformed into an egg shape and grew its own ring system — dropped (ep403)
 - Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose — dropped (ep493)
 - Gliese 1214 b (2009): a steamy ocean planet enveloped in a dense atmospheric blanket of hot high-pressure water ice — dropped (ep424)
-- TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — making (ep478)
+- TRAPPIST-1e (2017): an Earth-sized exoplanet permanently locked facing its star, creating a world divided into eternal scorching day and endless frozen night — dropped (ep478)
 - Alan Shepard (1971): the first American in space famously smuggled a six-iron golf club head to the Moon and hit two balls — done (ep457)
 - Moon (1969): Apollo astronauts discovered that lunar dust smells exactly like spent gunpowder and can cause moon hay fever — done (ep265)
 - Saturn (2013): extreme pressure in the atmosphere may create diamond rain, where 1,000 tons of diamonds are produced every year — dropped (ep267)
