@@ -57,7 +57,7 @@ unexplained, not alien.
 | 2026-10-30 | Martian meteorite (2022): the Teghaza 001 specimen contains 4.5-billion-year-old crystals from the very first crust that ever formed on the Red Planet — dropped (ep470) | Scale Breaker | NASA scientists just identified 13 specific craters on Mars where this ancient rock may have originated. |
 | 2026-11-01 | Pioneer 11 (1973): NASA's forgotten interstellar probe is coasting in dead silence toward a star in Aquila that it will not reach for four million years — dropped (ep309) | Scale Breaker | Follow-up to ep260, which broke out (1,268 views in 13 h, 25.4x the median) |
 | 2026-11-01 | Local Bubble (1974): our entire solar system is currently drifting through a 1,000-light-year-wide cavity of million-degree gas blasted out by ancient supernovas — done (ep480) | Scale Breaker | Follow-up to ep260, which broke out (1,268 views in 13 h, 25.4x the median) |
-| 2026-11-02 | Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas — parked (ep305) | Space Got Weird | Follow-up to ep265, which broke out (1,155 views in 9 h, 25.1x the median) |
+| 2026-11-02 | Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas — making (ep497) | Space Got Weird | Follow-up to ep265, which broke out (1,155 views in 9 h, 25.1x the median) |
 | 2026-11-02 | Moonquake (1969): when Apollo astronauts intentionally crashed a spent lunar module into the surface, seismic detectors revealed the dry, rigid Moon rang like a bell for over an hour — dropped (ep326) | Space Got Weird | Follow-up to ep265, which broke out (1,155 views in 9 h, 25.1x the median) |
 | 2026-11-02 | Moon illusion (1962): the Moon on the horizon isn't magnified by Earth's atmosphere, but is an optical illusion created by the human brain that stays the exact same size in photos — parked (ep313) | Space Myths, Busted | Follow-up to ep266, which broke out (1,064 views in 12 h, 23.1x the median) |
 | 2026-11-02 | Scintillation (astronomy) (1953): stars don't actually flicker or pulsate in space, as their steady light is distorted entirely by turbulent pockets of air in Earth's atmosphere — parked (ep320) | Space Myths, Busted | Follow-up to ep266, which broke out (1,064 views in 12 h, 23.1x the median) |
@@ -166,7 +166,7 @@ unexplained, not alien.
 | Nov 17 | Leonids (1833): a meteor storm so intense it launched the science of meteors — done (ep396) | Space Got Weird |
 | Nov 20 | International Space Station (1998): its first piece launched this day; NASA is paying SpaceX up to $843 million for a craft to steer it into the ocean — done (ep414) | Mission Files |
 | Nov 26 | InSight (2018): its heat probe spent two years trying to dig into Mars and never got deep enough — dropped (ep449) | Mission Files |
-| Nov 30 | Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock — making (ep495) | Space Got Weird |
+| Nov 30 | Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock — done (ep495) | Space Got Weird |
 
 ## Backlog
 
@@ -261,7 +261,7 @@ unexplained, not alien.
 - International Space Station (1998): spanning 356 feet across, the space station is larger than an American football field and weighs over 900,000 pounds — done (ep386)
 - Sirius (1862): the brightest star in the night sky is orbited by a white dwarf star so dense that one cubic inch of it weighs over a ton — done (ep389)
 - Andromeda Galaxy (2015): Andromeda's gigantic halo of hot gas is so immense that it is already physically touching the Milky Way — dropped (ep393)
-- Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way — parked (ep394)
+- Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way — making (ep496)
 - Solar System: if the Sun were the size of a white blood cell, the Milky Way galaxy would be roughly the size of the continental United States — parked (ep398)
 - Intergalactic space: the voids between galaxies are so empty that there is often only one single atom of matter per cubic meter — parked (ep400)
 - Neptune (2011): the ice giant completed its very first full orbit around the Sun since its human discovery in 1846, taking 165 Earth years to circle once — parked (ep408)
@@ -275,7 +275,7 @@ unexplained, not alien.
 - Great Red Spot (2019): Jupiter's iconic planetary storm is not just wide, but plunges over 200 miles deep into the gas giant's atmosphere — parked (ep458)
 - Rings of Saturn (2004): Cassini revealed Saturn's iconic rings contain mountain-sized ice chunks that constantly smash and reform — done (ep467)
 - Atmosphere of Earth (1946): if Earth were a standard desktop globe, the entire layer of air that supports all life would be thinner than a single coat of spray-on varnish — dropped (ep477)
-- Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains — making (ep490)
+- Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains — parked (ep490)
 - International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours — making (ep491)
 
 ### Mission Files

@@ -1,41 +1,41 @@
 {
-  "updated_at": "2026-11-23T05:06:13+05:30",
+  "updated_at": "2026-11-23T11:06:06+05:30",
   "day": 53,
   "result": "degraded",
   "run": {
     "host": "modal",
-    "id": "ta-01M82SSW9A5Q4JH6PAMKQAAE8R",
+    "id": "ta-01M83ED2ZZZZ9G510RHSSTYEZR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-23T05:05:17+05:30",
-    "started_at_utc": "2026-11-22T23:35:17+00:00",
-    "seconds": 56
+    "started_at": "2026-11-23T11:05:13+05:30",
+    "started_at_utc": "2026-11-23T05:35:13+00:00",
+    "seconds": 53
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.1
+      "seconds": 1.7
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.4
+      "seconds": 0.2
     },
     {
       "name": "playlists",
       "ok": false,
       "detail": "",
       "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
-      "seconds": 2.3
+      "seconds": 1.9
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.7
     },
     {
       "name": "on youtube",
@@ -47,25 +47,25 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 5.5
+      "seconds": 4.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep490 unfinished (RuntimeError: no Gemini TTS model read the script: gemini-3.8-flash-tts: HTTP 429 GenerateRequestsPerDayPerProjectPerModel-FreeTier=10); ep493 rejected (research: fewer than two readable sources); ep494 ready",
-      "seconds": 15.5
+      "detail": "ep490 unfinished (RuntimeError: ep490: every take said things that aren't in the script); ep495 ready",
+      "seconds": 11.4
     },
     {
-      "name": "start ep490",
+      "name": "start ep496",
       "ok": true,
-      "detail": "Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains",
+      "detail": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep497",
+      "ok": true,
+      "detail": "Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas",
       "seconds": 1.8
-    },
-    {
-      "name": "start ep495",
-      "ok": true,
-      "detail": "Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock",
-      "seconds": 1.0
     }
   ],
   "errors": [
@@ -77,17 +77,17 @@
     "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
-    "total": 53,
+    "total": 54,
     "in_buffer": 10,
-    "waiting": 43,
+    "waiting": 44,
     "target": 14,
     "making": [
       "ep478",
       "ep491"
     ],
     "remote": [
-      "ep490",
-      "ep495"
+      "ep496",
+      "ep497"
     ]
   },
   "queue": [
@@ -400,6 +400,12 @@
       "title": "The Million-Times-Faster Star Hunt",
       "series": "Mission Files",
       "score": 25
+    },
+    {
+      "id": "ep495",
+      "title": "The Space Rock That Struck a Woman and Sparked a Lawsuit",
+      "series": "Space Got Weird",
+      "score": 20
     }
   ],
   "made": [
@@ -407,53 +413,47 @@
       "id": "ep490",
       "outcome": "unfinished",
       "topic": "Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains",
-      "reason": "RuntimeError: no Gemini TTS model read the script: gemini-3.8-flash-tts: HTTP 429 GenerateRequestsPerDayPerProjectPerModel-FreeTier=10",
+      "reason": "RuntimeError: ep490: every take said things that aren't in the script",
       "quota": false,
       "overloaded": false
     },
     {
-      "id": "ep493",
-      "outcome": "rejected",
-      "topic": "Arp 273 (1966): two interacting galaxies that gravity has twisted into the shape of a perfect cosmic rose",
-      "reason": "research: fewer than two readable sources"
-    },
-    {
-      "id": "ep494",
+      "id": "ep495",
       "outcome": "ready",
-      "topic": "Fermi Gamma-ray Space Telescope (2008): open data from this space observatory enabled a computational technique to discover hidden pulsars a million times faster than standard methods",
-      "title": "The Million-Times-Faster Star Hunt",
+      "topic": "Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock",
+      "title": "The Space Rock That Struck a Woman and Sparked a Lawsuit",
       "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 5,
-        "loop": 5
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
       },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795369596/universereceipts/ep494-d8183264.mp4"
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795391414/universereceipts/ep495-55413397.mp4"
     }
   ],
   "spawned": [
     {
-      "id": "ep490",
-      "topic": "Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains",
-      "call_id": "fc-01M82SVW66EFSVH9T2ZX0K46PQ"
+      "id": "ep496",
+      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
+      "call_id": "fc-01M83EET4FSWAKNQWZ8FRGV3VY"
     },
     {
-      "id": "ep495",
-      "topic": "Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock",
-      "call_id": "fc-01M82SVX4DBYYPNM4EVF055HGT"
+      "id": "ep497",
+      "topic": "Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas",
+      "call_id": "fc-01M83EEVWK39WGY7S3C5RA9YP2"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep490",
-      "topic": "Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains",
-      "spawned_at": "2026-11-23T05:06:06+05:30"
+      "id": "ep496",
+      "topic": "Fermi bubbles (2010): two gargantuan bubbles of high-energy gamma rays extend 25,000 light-years above and below the center of the Milky Way",
+      "spawned_at": "2026-11-23T11:05:58+05:30"
     },
     {
-      "id": "ep495",
-      "topic": "Sylacauga (meteorite) (1954): after a meteorite hit a woman napping on her couch, her landlord claimed it, and her family paid $500 for the rock",
-      "spawned_at": "2026-11-23T05:06:07+05:30"
+      "id": "ep497",
+      "topic": "Cosmic ray visual phenomena (1969): Apollo astronauts trying to sleep in deep space saw bizarre flashes of light slicing through their closed eyelids, caused by high-energy particles piercing their retinas",
+      "spawned_at": "2026-11-23T11:06:00+05:30"
     }
   ],
   "published": [],
@@ -461,35 +461,35 @@
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 6,
+    "calls": 8,
     "by_model": {
       "gemini-3.5-flash-lite": 2,
-      "gemini-3.8-flash": 2,
       "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 1
+      "gemini-3.5-flash": 2,
+      "gemini-3-flash-preview": 3
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 1,
+    "modal": 2,
     "runner": 0
   },
   "daily_done": "2026-11-22",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 15.14,
+    "metered": 15.22,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 107,
+    "cloud": 106,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 12.86
+    "modal_credit_left": 12.78
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 34,
-  "parked_topics": 46
+  "parked_topics": 45
 }
