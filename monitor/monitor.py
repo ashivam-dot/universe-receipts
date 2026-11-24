@@ -50,9 +50,12 @@ CRON_MINUTE = 35
 # auto.BUFFER_PAUSED_UNTIL: the Shorts due until then are scheduled on YouTube directly, so Buffer's queue is empty.
 BUFFER_PAUSED_UNTIL = dt.datetime(2026, 10, 29, 19, 0, tzinfo=dt.timezone.utc)
 DIGEST_HOUR = 8
-# Buffer allows 250 API requests a day for the key, shared with the studio's runs. The Mac reads it at most this
-# often and shows the last answer in between; the watchdog on GitHub reads it on each of its checks.
-BUFFER_EVERY = dt.timedelta(hours=2)
+# Buffer allows 250 API requests a day and 1,000 a month for the key, shared with the studio's runs; the month's ran
+# out on 13 Nov 2026 with the watchdog reading on each of its 8 daily checks. The Mac reads it at most this often and
+# shows the last answer in between. The watchdog on GitHub keeps no answer between checks, so it reads only on checks
+# in the first BUFFER_GITHUB_HOURS of each 12 (UTC): GitHub starts its 3-hourly cron at uneven times.
+BUFFER_EVERY = dt.timedelta(hours=12)
+BUFFER_GITHUB_HOURS = 3
 # The studio sends a post Buffer failed again while its due time is this recent (publish.RESEND_WINDOW).
 RESEND_WINDOW = dt.timedelta(hours=1)
 # The Studio app opens this link itself. No button for Buffer: its app claims none of Buffer's web links, and its
@@ -185,6 +188,9 @@ def buffer(env: dict) -> dict:
     kept = json.loads(path.read_text()) if path.exists() else {}
     if kept.get("next_read") and now < dt.datetime.fromisoformat(kept["next_read"]):
         return kept
+    if not kept and os.environ.get("GITHUB_ACTIONS") and now.hour % 12 >= BUFFER_GITHUB_HOURS \
+            and os.environ.get("YTC_DIGEST_NOW") != "true":
+        return {}
     try:
         found = _read_buffer(key, env, kept.get("org")) | {"checked_at": now.isoformat(),
                                                              "next_read": (now + BUFFER_EVERY).isoformat()}
@@ -380,7 +386,9 @@ def assess(data: dict) -> list[tuple[str, str]]:
                                          f"sending it again: {why}"))
             else:
                 problems.append(("alert", f"Buffer couldn't publish a post due {_when(post.get('dueAt'))} IST: {why}"))
-        due = sorted(_parse_time(p["dueAt"]) for p in buf["scheduled"] if p.get("dueAt"))
+        # Shorts uploaded to YouTube directly while Buffer refused requests (publish.schedule_direct) hold slots too.
+        direct = [_parse_time(q["due_at"]) for q in status.get("queue", []) if q.get("direct") and q.get("due_at")]
+        due = sorted([_parse_time(p["dueAt"]) for p in buf["scheduled"] if p.get("dueAt")] + [d for d in direct if d and d > now])
         if now < BUFFER_PAUSED_UNTIL:
             pass
         elif not due:

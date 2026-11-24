@@ -1011,6 +1011,21 @@ def buffer_paused() -> bool:
     return _now() < BUFFER_PAUSED_UNTIL
 
 
+# Buffer's monthly API allowance ran out on 13 Nov 2026 and refused every request until 28 Nov: the last queued
+# Short went out on 18 Nov and nothing new was scheduled. While Buffer stays refused for longer than DIRECT_AFTER,
+# waiting Shorts are uploaded to YouTube directly (publish.schedule_direct), booked only DIRECT_AHEAD ahead: each
+# upload costs 1,600 of YouTube's 10,000 daily quota units.
+DIRECT_AFTER = timedelta(hours=12)
+DIRECT_AHEAD = timedelta(hours=36)
+
+
+def direct_publishing() -> bool:
+    from .publish import buffer_busy
+
+    until = buffer_busy()
+    return bool(until) and until - datetime.now(timezone.utc) > DIRECT_AFTER
+
+
 def check_channel(run: Run) -> bool:
     """Whether Buffer can post to the YouTube channel. Disconnected, locked, or paused, it fails every queued Short,
     and only the owner can fix it."""
@@ -1051,6 +1066,8 @@ def repair_posts(run: Run, requeue: bool = True) -> None:
         name = "publish.json" if e["record"] else "hold.json"
         record = e["record"] or e["held"]
         path = e["folder"] / name
+        if record and record.get("direct") and e["state"] != "error":
+            continue
         if e["state"] in ("scheduled", "waiting") and record.get("media_url") and "media_bytes" not in record:
             try:
                 record["media_bytes"] = hosted_bytes(record["media_url"])
@@ -1082,7 +1099,8 @@ def repair_posts(run: Run, requeue: bool = True) -> None:
                         "retries": record["retries"], "failed": record.get("error"),
                         **({"crossposts": record["crossposts"]} if record.get("crossposts") else {})}
                 (e["folder"] / "hold.json").write_text(json.dumps(held, indent=2), encoding="utf-8")
-                delete_post(record["buffer_post_id"])
+                if record.get("buffer_post_id"):
+                    delete_post(record["buffer_post_id"])
                 path.unlink()
                 if smaller:
                     unhost_video(old)
@@ -1102,6 +1120,8 @@ def preflight_posts(run: Run) -> None:
             return
         record = e["record"]
         if e["state"] != "scheduled" or not record.get("due_at") or datetime.fromisoformat(record["due_at"]) > soon:
+            continue
+        if record.get("direct"):
             continue
         with run.stage(f"preflight {e['id']}") as entry:
             path = e["folder"] / "publish.json"
@@ -1238,7 +1258,7 @@ def release_anniversaries(run: Run) -> None:
     slots = slots_per_day()
     for e in eps:
         record, at = e["record"], (e["topic"] or {}).get("at")
-        if e["state"] != "scheduled" or not at or not record.get("due_at"):
+        if e["state"] != "scheduled" or not at or not record.get("due_at") or record.get("direct"):
             continue
         due = datetime.fromisoformat(record["due_at"]).astimezone(AUDIENCE_TZ)
         day = date.fromisoformat(at)
@@ -1253,17 +1273,43 @@ def release_anniversaries(run: Run) -> None:
             entry["detail"] = f"off its {day:%b %d} anniversary slot: too few other Shorts to fill the days before it"
 
 
-def publish_waiting(run: Run) -> None:
-    from .publish import AUDIENCE_TZ, BUFFER_QUEUE_LIMIT, SLOTS, next_slots, posts, schedule, slots_on
+def _direct_posts(eps: list[dict], since: datetime) -> list[dict]:
+    """The Shorts uploaded to YouTube directly, due since `since`, shaped like Buffer's posts. With `everything`,
+    every Short with a record (Buffer's own can't be read while it refuses requests): those due after now count
+    as queued, the rest as sent, whatever their stale records say."""
+    now = _now()
+    out = []
+    for e in eps:
+        record = e["record"]
+        if not record or not record.get("due_at") or record.get("status") == "error":
+            continue
+        due = datetime.fromisoformat(record["due_at"])
+        if due >= since:
+            out.append({"id": record.get("buffer_post_id") or f"direct:{e['id']}", "dueAt": record["due_at"],
+                        "status": "scheduled" if due > now else "sent", "direct": bool(record.get("direct"))})
+    return out
+
+
+def publish_waiting(run: Run, direct: bool = False) -> None:
+    """Schedule waiting Shorts in the next free slots: through Buffer, or with `direct` on YouTube itself, within
+    DIRECT_AHEAD (direct_publishing)."""
+    from .publish import AUDIENCE_TZ, BUFFER_QUEUE_LIMIT, SLOTS, next_slots, posts, schedule, schedule_direct, slots_on
 
     eps = episodes()
     waiting = [e for e in eps if e["state"] == "waiting"]
     if not waiting:
         return
-    # Three days back covers every day a new post can land on; all of Buffer's history would cost a request per 50 posts.
-    everything = [p for p in posts(since=datetime.now(AUDIENCE_TZ) - timedelta(days=3)) if p["status"] not in ("error", "draft")]
+    since = datetime.now(AUDIENCE_TZ) - timedelta(days=3)
+    if direct:
+        everything = _direct_posts(eps, since)
+        free = len(waiting)
+    else:
+        # Three days back covers every day a new post can land on; all of Buffer's history would cost a request per
+        # 50 posts. Shorts uploaded directly hold their slots too.
+        everything = [p for p in posts(since=since) if p["status"] not in ("error", "draft")]
+        everything += [p for p in _direct_posts(eps, since) if p["direct"]]
+        free = BUFFER_QUEUE_LIMIT - sum(1 for p in everything if p["status"] != "sent" and not p.get("direct"))
     queued = [p for p in everything if p["status"] != "sent"]
-    free = BUFFER_QUEUE_LIMIT - len(queued)
     if free <= 0:
         run.notes.append(f"Buffer is full ({len(queued)} queued); {len(waiting)} waiting")
         return
@@ -1304,8 +1350,10 @@ def publish_waiting(run: Run) -> None:
                     break
         # One slot a day more than the pace, so a timely Short goes out within a day instead of after the queue.
         when = when or next_slots(1, taken, per_day=min(len(SLOTS), pace + 1) if timely(pick) else pace)[0]
-        with run.stage(f"schedule {pick['id']}") as entry:
-            record = schedule(pick["folder"] / "short.yaml", when)
+        if direct and when > today + DIRECT_AHEAD:
+            continue
+        with run.stage(f"{'upload' if direct else 'schedule'} {pick['id']}") as entry:
+            record = (schedule_direct if direct else schedule)(pick["folder"] / "short.yaml", when)
             taken.add(datetime.fromisoformat(record["due_at"]).astimezone(AUDIENCE_TZ))
             run.published.append({"id": pick["id"], "title": pick["title"], "due_at": record["due_at"]})
             entry["detail"] = record["due_at"]
@@ -1921,7 +1969,8 @@ def write_status(run: Run, result: str) -> dict:
         "owner_action": list(dict.fromkeys(run.owner_action)),
         "notes": run.notes,
         "inventory": inv,
-        "queue": [{"id": e["id"], "title": e["title"], "due_at": e["record"]["due_at"]}
+        "queue": [{"id": e["id"], "title": e["title"], "due_at": e["record"]["due_at"],
+                   **({"direct": True} if e["record"].get("direct") else {})}
                   for e in sorted((e for e in eps if e["state"] == "scheduled"), key=lambda e: e["record"]["due_at"])],
         "waiting": [{"id": e["id"], "title": e["title"], "series": e["series"], "score": _scores(e)} for e in eps if e["state"] == "waiting"],
         "made": run.made,
@@ -1972,6 +2021,11 @@ def main(produce_count: int | None = None, publish: bool = True, daily_mode: str
     with run.stage("sync") as entry:
         records = sync(EPISODES)
         entry["detail"] = f"{len(records)} posts"
+    if any(e["state"] == "scheduled" and e["record"].get("direct") for e in episodes()):
+        with run.stage("direct uploads") as entry:
+            from .youtube import settle_direct
+
+            entry["detail"] = "; ".join(settle_direct(EPISODES))[:300] or "none due yet"
     with run.stage("playlists") as entry:
         from .youtube import file_into_playlists
 
@@ -2012,6 +2066,9 @@ def main(produce_count: int | None = None, publish: bool = True, daily_mode: str
         release_anniversaries(run)
         with run.stage("publish"):
             publish_waiting(run)
+    elif publish and not buffer_paused() and direct_publishing():
+        with run.stage("publish on youtube"):
+            publish_waiting(run, direct=True)
     inv = inventory()
     if produce_count is None:
         # Shorts still being made in the cloud count as made, or every run would start another batch.
@@ -2037,8 +2094,10 @@ def main(produce_count: int | None = None, publish: bool = True, daily_mode: str
     if can_post and not buffer_busy():
         crosspost_scheduled(run)
     if until := buffer_busy():
-        run.notes.append(f"Buffer's API limit is used up until {until.astimezone(IST):%H:%M} IST, so this run left Buffer "
-                         "alone; the Shorts it already has still go out, and a later run schedules the waiting ones")
+        run.notes.append(f"Buffer's API limit is used up until {until.astimezone(IST):%b %d %H:%M} IST, so this run left "
+                         "Buffer alone; the Shorts it already has still go out, and "
+                         + ("waiting Shorts are uploaded to YouTube directly until then" if direct_publishing()
+                            else "a later run schedules the waiting ones"))
     if run.quota_until:
         state["gemini_quota_until"] = run.quota_until.isoformat(timespec="minutes")
         _write_json(STATUS / "state.json", state)

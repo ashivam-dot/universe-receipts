@@ -313,9 +313,10 @@ def studio_run(trigger: str = "schedule", args: list[str] | None = None) -> dict
     return {"exit": code, "saved": saved, "minutes": round((datetime.now(timezone.utc) - started).total_seconds() / 60, 1)}
 
 
-# A few minutes after each of publish.SLOTS, in the audience's time. Buffer failed about one post in five in the first
-# days, and a studio run only finds a failure hours later, when the next free slot is days away.
-WATCH_SCHEDULE = "5,20,40 " + ",".join(str(h) for h in sorted({slot.hour for slot in SLOTS})) + " * * *"
+# Once in the hour of each slot in use (auto.DAILY_CAP is 2), in the audience's time, within publish.RESEND_WINDOW of
+# it. Buffer failed about one post in five in the first days, and a studio run only finds a failure hours later. It
+# checked 3 times in each of 5 hours (15 reads a day), part of what used up Buffer's 1,000 requests a month.
+WATCH_SCHEDULE = "40 " + ",".join(str(h) for h in sorted({slot.hour for slot in SLOTS[:2]})) + " * * *"
 # What slot_watch keeps between checks: Buffer's organization id (a lookup would cost one of Buffer's 250 requests a
 # day on every check), and "alerted:<post id>" for each post it told the owner it couldn't send again, so the phone
 # hears about a post once rather than on every check.

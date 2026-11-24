@@ -76,11 +76,12 @@ def _env(name: str) -> str:
 
 
 class BufferBusy(RuntimeError):
-    """Buffer refused a request for its API limit: 100 requests in 15 minutes and 250 a day, for everything that
-    uses the key (the studio's runs and both monitors)."""
+    """Buffer refused a request for its API limit: 100 requests in 15 minutes, 250 a day and 1,000 a month, for
+    everything that uses the key (the studio's runs, slot_watch and both monitors). The monthly one ran out on
+    13 Nov 2026 and refused every request until 28 Nov 18:52 UTC."""
 
     def __init__(self, until: datetime):
-        super().__init__(f"Buffer's API limit is used up until {until:%H:%M} UTC")
+        super().__init__(f"Buffer's API limit is used up until {until:%b %d %H:%M} UTC")
         self.until = until
 
 
@@ -151,7 +152,30 @@ def channel() -> dict:
     return next((c for c in found if c["id"] == wanted), None) or next(c for c in found if c["service"] == "youtube")
 
 
+# A run reads each channel's queue once (POSTS_DAYS back) and answers later reads from it: it used to read it again
+# for every Short it scheduled, against Buffer's 1,000 requests a month.
+POSTS_DAYS = 30
+_posts_read: dict[str, list[dict]] = {}
+
+
+def forget_posts() -> None:
+    _posts_read.clear()
+
+
 def posts(since: datetime | None = None, channel_id: str | None = None) -> list[dict]:
+    channel_id = channel_id or youtube_channel_id()
+    floor = datetime.now(AUDIENCE_TZ) - timedelta(days=POSTS_DAYS, minutes=10)
+    if since is None or since < floor:
+        return _read_posts(since, channel_id)
+    if channel_id not in _posts_read:
+        # A short look back with nothing read yet (slot_watch's last hour) is one page; the full read can be two.
+        if since > floor + timedelta(days=POSTS_DAYS - 3):
+            return _read_posts(since, channel_id)
+        _posts_read[channel_id] = _read_posts(floor, channel_id)
+    return [p for p in _posts_read[channel_id] if not p.get("dueAt") or datetime.fromisoformat(p["dueAt"]) >= since]
+
+
+def _read_posts(since: datetime | None, channel_id: str) -> list[dict]:
     query = """
     query Posts($input: PostsInput!, $after: String) {
       posts(input: $input, first: 50, after: $after) {
@@ -164,7 +188,7 @@ def posts(since: datetime | None = None, channel_id: str | None = None) -> list[
         pageInfo { hasNextPage endCursor }
       }
     }"""
-    filters: dict = {"channelIds": [channel_id or youtube_channel_id()]}
+    filters: dict = {"channelIds": [channel_id]}
     if since:
         # Buffer returns no posts for a startDate without an endDate.
         filters["startDate"] = since.isoformat()
@@ -337,6 +361,7 @@ def edit_post(post_id: str, spec: ShortSpec, media_url: str, text: str | None = 
     edit = {"id": post_id, "assets": [{"video": {"url": media_url}}], "metadata": _metadata(spec)}
     if text is not None:
         edit["text"] = text
+    forget_posts()
     result = _buffer(mutation, {"input": edit})["editPost"]
     if result["__typename"] != "PostActionSuccess":
         raise RuntimeError(f"Buffer wouldn't edit post {post_id}: {result.get('message')}")
@@ -350,6 +375,7 @@ def delete_post(post_id: str) -> None:
         ... on VoidMutationError { message }
       }
     }"""
+    forget_posts()
     result = _buffer(mutation, {"input": {"id": post_id}})["deletePost"]
     if result["__typename"] != "DeletePostSuccess":
         raise RuntimeError(f"Buffer wouldn't delete post {post_id}: {result.get('message')}")
@@ -374,6 +400,7 @@ def resend(found: dict, when: datetime) -> dict:
     }"""
     edit = {"id": found["id"], "dueAt": when.isoformat(), "mode": "customScheduled", "schedulingType": "automatic",
             "assets": [{"video": {"url": found["video"]}}], "metadata": {"youtube": found["youtube"]}}
+    forget_posts()
     result = _buffer(mutation, {"input": edit})["editPost"]
     if result["__typename"] != "PostActionSuccess":
         raise RuntimeError(f"Buffer wouldn't queue post {found['id']} again: {result.get('message')}")
@@ -552,9 +579,41 @@ def schedule(spec_path: Path, when: datetime | None = None) -> dict:
         if not held:
             unhost_video(public_id)
         raise RuntimeError(f"Buffer rejected {spec.id}: {result.get('message')}")
+    if payload["channelId"] in _posts_read:
+        _posts_read[payload["channelId"]].append(
+            result["post"] | {"dueAt": when.isoformat(), "text": text, "sentAt": None, "externalLink": None})
     record = _record(folder, spec, result["post"] | {"dueAt": when.isoformat()}, public_id, media_url,
                      {k: held[k] for k in ("media_bytes", "retries", "crossposts") if k in (held or {})})
     log.info("scheduled %s for %s", spec.id, when.isoformat())
+    return record
+
+
+def schedule_direct(spec_path: Path, when: datetime) -> dict:
+    """Upload a waiting Short to YouTube as a private video that YouTube makes public at `when`, for when Buffer
+    refuses requests for days (auto.direct_publishing). The record has no Buffer post: `direct` marks it, and
+    youtube.settle_direct marks it sent once YouTube shows it public."""
+    from .youtube import upload_scheduled
+
+    spec_path = spec_path.resolve()
+    spec = ShortSpec.load(spec_path)
+    folder = spec_path.parent
+    if (folder / "publish.json").exists():
+        raise RuntimeError(f"{spec.id} is already scheduled")
+    held = json.loads((folder / "hold.json").read_text(encoding="utf-8"))
+    manifest = json.loads((folder / "work" / "manifest.json").read_text(encoding="utf-8"))
+    text = description(spec, manifest)
+    if problems := youtube_problems(spec.title, text):
+        raise RuntimeError(f"{spec.id} can't go to YouTube as it is: {'; '.join(problems)}")
+    video = folder / f"{spec.id}.mp4"
+    uploaded = upload_scheduled(
+        video if video.exists() else None, held.get("media_url"), title=_youtube_text(spec.title)[:TITLE_CHARS],
+        description=text, category_id=spec.category_id, synthetic=spec.synthetic_media, when=when)
+    keep = {k: held[k] for k in ("media_bytes", "retries", "crossposts") if k in held}
+    record = _record(folder, spec, {"id": None, "dueAt": when.astimezone(AUDIENCE_TZ).isoformat(), "status": "scheduled",
+                                    "externalLink": f"https://www.youtube.com/shorts/{uploaded['id']}"},
+                     held["media_public_id"], held.get("media_url"), {"direct": True, **keep})
+    log.info("uploaded %s to YouTube as %s, public at %s%s", spec.id, uploaded["id"], when.isoformat(),
+             " (it was already there)" if uploaded.get("existing") else "")
     return record
 
 

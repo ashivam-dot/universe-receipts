@@ -1,7 +1,7 @@
 """YouTube Data and Analytics API access through the owner's own Google Cloud app: analytics and playlists.
 
-Uploads don't go through here: videos uploaded by an unaudited app are locked private, so publishing
-uses Buffer instead (see publish.py).
+Publishing goes through Buffer (see publish.py). Uploads come here only while Buffer refuses requests for days
+(publish.schedule_direct): the 27-31 Oct 2026 direct uploads through this app went public at their publishAt.
 """
 
 from __future__ import annotations
@@ -31,6 +31,8 @@ SCOPES = [MANAGE_SCOPE, "https://www.googleapis.com/auth/yt-analytics.readonly"]
 LANGUAGE = "en"
 RETENTION_POINTS = (0.0, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)
 CHANNEL_BROWSER = "chrome-profile-1"
+CHANNEL_ID = "UCal2hAu7VaZimTwaAgeBEyg"
+VIDEO_ID = re.compile(r"(?:shorts/|v=|youtu\.be/)([\w-]{11})")
 VIDEO_METRICS = (
     "views,engagedViews,averageViewDuration,averageViewPercentage,likes,comments,shares,"
     "subscribersGained,subscribersLost"
@@ -234,7 +236,7 @@ def file_into_playlists(content_dir: Path) -> list[str]:
         record = json.loads(record_path.read_text(encoding="utf-8"))
         found = re.search(r"(?:shorts/|v=|youtu\.be/)([\w-]{11})", record.get("youtube_url") or "")
         series = ShortSpec.load(record_path.parent / "short.yaml").series
-        if record.get("status") != "sent" or not found or not series:
+        if record.get("status") != "sent" or not found or not series or record.get("replaced_by"):
             continue
         video_id = found.group(1)
         if series not in playlists and series not in about:
@@ -252,7 +254,14 @@ def file_into_playlists(content_dir: Path) -> list[str]:
         if video_id in members[playlist]:
             continue
         body = {"snippet": {"playlistId": playlist, "resourceId": {"kind": "youtube#video", "videoId": video_id}}}
-        data.playlistItems().insert(part="snippet", body=body).execute()
+        try:
+            data.playlistItems().insert(part="snippet", body=body).execute()
+        except HttpError as err:
+            # A deleted video (ep023's Wmi8yfklomY, gone since 16 Nov 2026) used to fail the stage on every run.
+            if err.resp.status != 404:
+                raise
+            changes.append(f"skipped {record['id']}: YouTube has no video {video_id}")
+            continue
         members[playlist].add(video_id)
         changes.append(f"added {record['id']} to {series!r}")
     return changes
@@ -312,6 +321,81 @@ def check_live(content_dir: Path) -> list[dict]:
             problems.append({"id": short_id, "problem": f"upload {status.get('uploadStatus')}, {status.get('privacyStatus')}"
                                                         + (f" ({reason})" if reason else "")})
     return problems
+
+
+def upload_scheduled(video: Path | None, media_url: str | None, *, title: str, description: str, category_id: str,
+                     synthetic: bool, when: datetime) -> dict:
+    """Upload a Short as private with publishAt `when` (YouTube makes it public then): {"id", "existing"}. The
+    file is `video`, else the hosted copy at `media_url`. A video of the same title already among the channel's
+    latest uploads is returned instead, so a run that stopped after an upload never uploads it twice. An upload
+    costs 1,600 of the project's 10,000 daily quota units."""
+    import io
+
+    import requests
+    from googleapiclient.http import MediaIoBaseUpload
+
+    data = build("youtube", "v3", credentials=_credentials(), cache_discovery=False)
+    channel = data.channels().list(part="id,contentDetails", mine=True).execute()["items"][0]
+    if channel["id"] != CHANNEL_ID:
+        raise RuntimeError(f"the saved YouTube sign-in is channel {channel['id']}, not Universe Receipts")
+    uploads = channel["contentDetails"]["relatedPlaylists"]["uploads"]
+    recent = data.playlistItems().list(part="snippet", playlistId=uploads, maxResults=50).execute()["items"]
+    if twin := next((i for i in recent if i["snippet"]["title"] == title), None):
+        return {"id": twin["snippet"]["resourceId"]["videoId"], "existing": True}
+    if video is not None:
+        content = video.read_bytes()
+    elif media_url:
+        response = requests.get(media_url, timeout=300)
+        response.raise_for_status()
+        if not response.headers.get("content-type", "").startswith("video/"):
+            raise RuntimeError(f"the hosted copy came back as {response.headers.get('content-type')}, not a video")
+        content = response.content
+    else:
+        raise RuntimeError("no video file and no hosted copy")
+    body = {"snippet": {"title": title, "description": description, "categoryId": category_id,
+                        "defaultLanguage": LANGUAGE, "defaultAudioLanguage": LANGUAGE},
+            "status": {"privacyStatus": "private", "publishAt": when.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                       "selfDeclaredMadeForKids": False, "embeddable": True, "license": "youtube",
+                       "containsSyntheticMedia": synthetic}}
+    request = data.videos().insert(part="snippet,status", body=body, notifySubscribers=True, media_body=MediaIoBaseUpload(
+        io.BytesIO(content), mimetype="video/mp4", chunksize=8 * 1024 * 1024, resumable=True))
+    response = None
+    while response is None:
+        _, response = request.next_chunk()
+    if not response["status"].get("publishAt"):
+        raise RuntimeError(f"YouTube took video {response['id']} without its publish time, so it stays private")
+    return {"id": response["id"], "existing": False}
+
+
+def settle_direct(content_dir: Path) -> list[str]:
+    """Mark each Short uploaded directly (publish.schedule_direct) sent once YouTube shows it public, as Buffer's sync
+    does for its posts, and as error when YouTube no longer has it. Returns what changed."""
+    now, due = datetime.now(timezone.utc), {}
+    for record_path in sorted(content_dir.glob("*/publish.json")):
+        record = json.loads(record_path.read_text(encoding="utf-8"))
+        if not record.get("direct") or record.get("status") not in ("scheduled", None) or not record.get("due_at"):
+            continue
+        if (found := VIDEO_ID.search(record.get("youtube_url") or "")) and datetime.fromisoformat(record["due_at"]) <= now:
+            due[found.group(1)] = (record_path, record)
+    if not due:
+        return []
+    data = build("youtube", "v3", credentials=_credentials(), cache_discovery=False)
+    ids, status = list(due), {}
+    for start in range(0, len(ids), 50):
+        for item in data.videos().list(part="status", id=",".join(ids[start:start + 50])).execute()["items"]:
+            status[item["id"]] = item["status"]
+    changes = []
+    for video_id, (record_path, record) in due.items():
+        found = status.get(video_id)
+        if found is None:
+            record.update(status="error", error=f"YouTube has no video {video_id}")
+        elif found.get("privacyStatus") == "public":
+            record.update(status="sent", sent_at=datetime.fromisoformat(record["due_at"]).astimezone(timezone.utc).isoformat())
+        else:
+            continue
+        record_path.write_text(json.dumps(record, indent=2), encoding="utf-8")
+        changes.append(f"{record['id']} {record['status']}")
+    return changes
 
 
 def video_health(video_ids: list[str]) -> dict[str, list[str]]:
