@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-11-24T23:06:31+05:30",
-  "day": 54,
+  "updated_at": "2026-11-25T05:06:10+05:30",
+  "day": 55,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M87A054FN55JMQYD5607N7TR",
+    "id": "ta-01M87YKAZ9XKBKS5PD0EHJ3H1R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-24T23:05:21+05:30",
-    "started_at_utc": "2026-11-24T17:35:21+00:00",
-    "seconds": 70
+    "started_at": "2026-11-25T05:05:12+05:30",
+    "started_at_utc": "2026-11-24T23:35:12+00:00",
+    "seconds": 58
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 1.2
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until Nov 28 18:52 UTC",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "direct uploads",
       "ok": true,
-      "detail": "ep487 sent",
-      "seconds": 0.6
+      "detail": "none due yet",
+      "seconds": 0.4
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY; added ep487 to 'Mission Files'",
-      "seconds": 4.5
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
+      "seconds": 3.7
     },
     {
       "name": "languages",
@@ -46,56 +46,38 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.0
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 1.7
+      "detail": "ep487 at 6 h: behind the channel's earlier Shorts at this age: 64 views against a median of 675 (0.1x)",
+      "seconds": 3.2
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep499 ready; ep500 rejected (low scores: hook, payoff, visuals, loop; 2 frame problems); ep501 rejected (low scores: hook, payoff, visuals; 3 frame problems); ep502 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep503 ready; ep504 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 21.4
+      "detail": "ep505 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep506 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 9.4
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 15.2
+      "seconds": 9.4
     },
     {
-      "name": "upload ep414",
+      "name": "start ep507",
       "ok": true,
-      "detail": "2026-11-25T19:00:00-05:00",
-      "seconds": 5.0
-    },
-    {
-      "name": "upload ep409",
-      "ok": true,
-      "detail": "2026-11-25T21:30:00-05:00",
-      "seconds": 4.4
-    },
-    {
-      "name": "start ep505",
-      "ok": true,
-      "detail": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
-      "seconds": 1.8
-    },
-    {
-      "name": "start ep506",
-      "ok": true,
-      "detail": "Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon",
-      "seconds": 0.9
+      "detail": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
+      "seconds": 0.6
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep502 stopped on Gemini's free quota; it resumes in a later run",
-    "ep504 stopped on Gemini's free quota; it resumes in a later run",
+    "ep505 stopped on Gemini's free quota; it resumes in a later run",
+    "ep506 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and waiting Shorts are uploaded to YouTube directly until then"
   ],
@@ -106,11 +88,12 @@
     "target": 14,
     "making": [
       "ep502",
-      "ep504"
-    ],
-    "remote": [
+      "ep504",
       "ep505",
       "ep506"
+    ],
+    "remote": [
+      "ep507"
     ]
   },
   "queue": [
@@ -445,57 +428,17 @@
   ],
   "made": [
     {
-      "id": "ep499",
-      "outcome": "ready",
-      "topic": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
-      "title": "The quasar wall that breaks the rules",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795521054/universereceipts/ep499-9b8dbde7.mp4"
-    },
-    {
-      "id": "ep500",
-      "outcome": "rejected",
-      "topic": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
-      "reason": "low scores: hook, payoff, visuals, loop; 2 frame problems"
-    },
-    {
-      "id": "ep501",
-      "outcome": "rejected",
-      "topic": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
-      "reason": "low scores: hook, payoff, visuals; 3 frame problems"
-    },
-    {
-      "id": "ep502",
+      "id": "ep505",
       "outcome": "unfinished",
-      "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
+      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
     },
     {
-      "id": "ep503",
-      "outcome": "ready",
-      "topic": "Outer space: despite popular depictions of instant freezing, the vacuum of space is an insulator where overheating is a bigger danger than losing body heat",
-      "title": "Why Space Won't Instantly Freeze You",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795521277/universereceipts/ep503-e34907f1.mp4"
-    },
-    {
-      "id": "ep504",
+      "id": "ep506",
       "outcome": "unfinished",
-      "topic": "Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky",
+      "topic": "Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -503,75 +446,53 @@
   ],
   "spawned": [
     {
-      "id": "ep505",
-      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
-      "call_id": "fc-01M87A2RDT5QHJ7STW9JB4M2DP"
-    },
-    {
-      "id": "ep506",
-      "topic": "Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon",
-      "call_id": "fc-01M87A2S992RPFX14N66YYXXNN"
+      "id": "ep507",
+      "topic": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
+      "call_id": "fc-01M87YN8NRZJ86QJ53F5HB1TTE"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep505",
-      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
-      "spawned_at": "2026-11-24T23:06:27+05:30"
-    },
-    {
-      "id": "ep506",
-      "topic": "Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon",
-      "spawned_at": "2026-11-24T23:06:28+05:30"
+      "id": "ep507",
+      "topic": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
+      "spawned_at": "2026-11-25T05:06:05+05:30"
     }
   ],
-  "published": [
-    {
-      "id": "ep414",
-      "title": "The Biggest Thing in Space Is Headed for the Ocean",
-      "due_at": "2026-11-25T19:00:00-05:00"
-    },
-    {
-      "id": "ep409",
-      "title": "The Space Detector Wider Than the Sun",
-      "due_at": "2026-11-25T21:30:00-05:00"
-    }
-  ],
+  "published": [],
   "live": 105,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 43,
+    "calls": 8,
     "by_model": {
-      "gemini-3.6-flash": 14,
-      "gemini-3-flash-preview": 18,
-      "gemini-3.5-flash-lite": 7,
-      "gemini-3.1-flash-lite": 2,
-      "gemini-3.5-flash": 1,
-      "gemini-flash-lite-latest": 1
+      "gemini-3.6-flash": 1,
+      "ovh:Qwen3.5-397B-A17B": 2,
+      "gemma-4-31b-it": 3,
+      "ovh:Qwen3.8-27B": 1,
+      "gemini-3.5-flash-lite": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 17,
+    "modal": 2,
     "runner": 0
   },
   "daily_done": "2026-11-24",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 16.32,
+    "metered": 16.45,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 97,
+    "cloud": 96,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 11.68
+    "modal_credit_left": 11.55
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 36,
+  "open_topics": 35,
   "parked_topics": 41
 }
