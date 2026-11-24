@@ -1,41 +1,40 @@
 {
-  "updated_at": "2026-11-24T05:06:01+05:30",
+  "updated_at": "2026-11-24T09:30:57+05:30",
   "day": 54,
-  "result": "degraded",
+  "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M85C6JMFZ09QH95FZ8702A0R",
+    "id": "ta-01M85VB9ACEQBM9SEJHN95SNPR",
     "number": null,
-    "trigger": "schedule",
-    "started_at": "2026-11-24T05:05:19+05:30",
-    "started_at_utc": "2026-11-23T23:35:19+00:00",
-    "seconds": 42
+    "trigger": "manual",
+    "started_at": "2026-11-24T09:29:52+05:30",
+    "started_at_utc": "2026-11-24T03:59:52+00:00",
+    "seconds": 65
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 7.1
+      "seconds": 1.6
     },
     {
       "name": "sync",
       "ok": true,
-      "detail": "skipped: Buffer's API limit is used up until 18:52 UTC",
-      "seconds": 0.3
+      "detail": "skipped: Buffer's API limit is used up until Nov 28 18:52 UTC",
+      "seconds": 0.1
     },
     {
       "name": "playlists",
-      "ok": false,
-      "detail": "",
-      "error": "HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">",
+      "ok": true,
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
       "seconds": 3.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.7
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -47,40 +46,63 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 2.2
+      "seconds": 2.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep499 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 8.5
+      "detail": "ep500 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 7.0
     },
     {
-      "name": "start ep500",
+      "name": "publish on youtube",
       "ok": true,
-      "detail": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
-      "seconds": 2.8
+      "detail": "",
+      "seconds": 18.9
+    },
+    {
+      "name": "upload ep412",
+      "ok": true,
+      "detail": "2026-11-24T19:00:00-05:00",
+      "seconds": 3.8
+    },
+    {
+      "name": "upload ep413",
+      "ok": true,
+      "detail": "2026-11-24T21:30:00-05:00",
+      "seconds": 3.9
+    },
+    {
+      "name": "upload ep487",
+      "ok": true,
+      "detail": "2026-11-24T12:30:00-05:00",
+      "seconds": 3.0
+    },
+    {
+      "name": "start ep501",
+      "ok": true,
+      "detail": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
+      "seconds": 0.7
     }
   ],
-  "errors": [
-    "playlists: HttpError: <HttpError 404 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"Video not found.\". Details: \"[{'message': 'Video not found.', 'domain': 'youtube.playlistItem', 'reason': 'videoNotFound'}]\">"
-  ],
+  "errors": [],
   "owner_action": [],
   "notes": [
-    "ep499 stopped on Gemini's free quota; it resumes in a later run",
+    "ep500 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
-    "Buffer's API limit is used up until 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
+    "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and waiting Shorts are uploaded to YouTube directly until then"
   ],
   "inventory": {
     "total": 55,
-    "in_buffer": 10,
-    "waiting": 45,
+    "in_buffer": 13,
+    "waiting": 42,
     "target": 14,
     "making": [
-      "ep499"
+      "ep499",
+      "ep500"
     ],
     "remote": [
-      "ep500"
+      "ep501"
     ]
   },
   "queue": [
@@ -133,6 +155,24 @@
       "id": "ep396",
       "title": "The Meteor Storm That Created Space Science",
       "due_at": "2026-11-17T21:30:00-05:00"
+    },
+    {
+      "id": "ep487",
+      "title": "How NASA Saved Curiosity With a Human Trick",
+      "due_at": "2026-11-24T12:30:00-05:00",
+      "direct": true
+    },
+    {
+      "id": "ep412",
+      "title": "How One Astronomer Proved the UNIVERSE Is Expanding",
+      "due_at": "2026-11-24T19:00:00-05:00",
+      "direct": true
+    },
+    {
+      "id": "ep413",
+      "title": "The Ghost Module That Started the Space Station",
+      "due_at": "2026-11-24T21:30:00-05:00",
+      "direct": true
     }
   ],
   "waiting": [
@@ -159,18 +199,6 @@
       "title": "The Full Moon Madness Myth Busted",
       "series": "Space Myths, Busted",
       "score": 20
-    },
-    {
-      "id": "ep412",
-      "title": "How One Astronomer Proved the UNIVERSE Is Expanding",
-      "series": "Space Got Weird",
-      "score": 23
-    },
-    {
-      "id": "ep413",
-      "title": "The Ghost Module That Started the Space Station",
-      "series": "Mission Files",
-      "score": 23
     },
     {
       "id": "ep414",
@@ -377,12 +405,6 @@
       "score": 20
     },
     {
-      "id": "ep487",
-      "title": "How NASA Saved Curiosity With a Human Trick",
-      "series": "Mission Files",
-      "score": 25
-    },
-    {
       "id": "ep488",
       "title": "NASA Caught a Star Swallowing Its Planet",
       "series": "Space Got Weird",
@@ -409,9 +431,9 @@
   ],
   "made": [
     {
-      "id": "ep499",
+      "id": "ep500",
       "outcome": "unfinished",
-      "topic": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
+      "topic": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -419,30 +441,45 @@
   ],
   "spawned": [
     {
-      "id": "ep500",
-      "topic": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
-      "call_id": "fc-01M85C8B3J2DEWDGM75BEMCREN"
+      "id": "ep501",
+      "topic": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
+      "call_id": "fc-01M85VDD1RPNW2B0ASP31X0W4Y"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep500",
-      "topic": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
-      "spawned_at": "2026-11-24T05:05:58+05:30"
+      "id": "ep501",
+      "topic": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
+      "spawned_at": "2026-11-24T09:30:52+05:30"
     }
   ],
-  "published": [],
+  "published": [
+    {
+      "id": "ep412",
+      "title": "How One Astronomer Proved the UNIVERSE Is Expanding",
+      "due_at": "2026-11-24T19:00:00-05:00"
+    },
+    {
+      "id": "ep413",
+      "title": "The Ghost Module That Started the Space Station",
+      "due_at": "2026-11-24T21:30:00-05:00"
+    },
+    {
+      "id": "ep487",
+      "title": "How NASA Saved Curiosity With a Human Trick",
+      "due_at": "2026-11-24T12:30:00-05:00"
+    }
+  ],
   "live": 104,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 5,
+    "calls": 4,
     "by_model": {
-      "gemini-3.5-flash-lite": 1,
-      "ovh:Qwen3.5-397B-A17B": 1,
-      "ovh:Qwen3.8-27B": 1,
-      "gemini-3.1-flash-lite": 1,
-      "gemma-4-31b-it": 1
+      "gemini-3.8-flash": 1,
+      "gemini-3.6-flash": 1,
+      "gemini-3-flash-preview": 1,
+      "gemini-3.5-flash-lite": 1
     },
     "out_of_quota": []
   },
@@ -454,7 +491,7 @@
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 15.68,
+    "metered": 15.73,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -462,10 +499,10 @@
     "cloud": 102,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 12.32
+    "modal_credit_left": 12.27
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 35,
-  "parked_topics": 44
+  "parked_topics": 43
 }
