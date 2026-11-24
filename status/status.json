@@ -1,40 +1,46 @@
 {
-  "updated_at": "2026-11-24T09:30:57+05:30",
+  "updated_at": "2026-11-24T11:06:21+05:30",
   "day": 54,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M85VB9ACEQBM9SEJHN95SNPR",
+    "id": "ta-01M860SRMDSA5DE6YPWGMYGFPR",
     "number": null,
-    "trigger": "manual",
-    "started_at": "2026-11-24T09:29:52+05:30",
-    "started_at_utc": "2026-11-24T03:59:52+00:00",
-    "seconds": 65
+    "trigger": "schedule",
+    "started_at": "2026-11-24T11:05:13+05:30",
+    "started_at_utc": "2026-11-24T05:35:13+00:00",
+    "seconds": 68
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.6
+      "seconds": 1.7
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until Nov 28 18:52 UTC",
-      "seconds": 0.1
+      "seconds": 0.2
+    },
+    {
+      "name": "direct uploads",
+      "ok": true,
+      "detail": "none due yet",
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
-      "seconds": 3.5
+      "seconds": 3.8
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.5
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
@@ -46,63 +52,52 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 2.5
+      "seconds": 2.6
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep500 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 7.0
+      "detail": "ep501 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 8.0
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 18.9
+      "seconds": 18.0
     },
     {
-      "name": "upload ep412",
+      "name": "upload ep494",
       "ok": true,
-      "detail": "2026-11-24T19:00:00-05:00",
-      "seconds": 3.8
+      "detail": "2026-11-25T12:30:00-05:00",
+      "seconds": 9.3
     },
     {
-      "name": "upload ep413",
+      "name": "start ep502",
       "ok": true,
-      "detail": "2026-11-24T21:30:00-05:00",
-      "seconds": 3.9
-    },
-    {
-      "name": "upload ep487",
-      "ok": true,
-      "detail": "2026-11-24T12:30:00-05:00",
-      "seconds": 3.0
-    },
-    {
-      "name": "start ep501",
-      "ok": true,
-      "detail": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
-      "seconds": 0.7
+      "detail": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
+      "seconds": 1.7
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep500 stopped on Gemini's free quota; it resumes in a later run",
+    "ep501 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and waiting Shorts are uploaded to YouTube directly until then"
   ],
   "inventory": {
     "total": 55,
-    "in_buffer": 13,
-    "waiting": 42,
+    "in_buffer": 14,
+    "waiting": 41,
     "target": 14,
     "making": [
       "ep499",
-      "ep500"
+      "ep500",
+      "ep501"
     ],
     "remote": [
-      "ep501"
+      "ep502"
     ]
   },
   "queue": [
@@ -172,6 +167,12 @@
       "id": "ep413",
       "title": "The Ghost Module That Started the Space Station",
       "due_at": "2026-11-24T21:30:00-05:00",
+      "direct": true
+    },
+    {
+      "id": "ep494",
+      "title": "The Million-Times-Faster Star Hunt",
+      "due_at": "2026-11-25T12:30:00-05:00",
       "direct": true
     }
   ],
@@ -417,12 +418,6 @@
       "score": 25
     },
     {
-      "id": "ep494",
-      "title": "The Million-Times-Faster Star Hunt",
-      "series": "Mission Files",
-      "score": 25
-    },
-    {
       "id": "ep495",
       "title": "The Space Rock That Struck a Woman and Sparked a Lawsuit",
       "series": "Space Got Weird",
@@ -431,9 +426,9 @@
   ],
   "made": [
     {
-      "id": "ep500",
+      "id": "ep501",
       "outcome": "unfinished",
-      "topic": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
+      "topic": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -441,68 +436,58 @@
   ],
   "spawned": [
     {
-      "id": "ep501",
-      "topic": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
-      "call_id": "fc-01M85VDD1RPNW2B0ASP31X0W4Y"
+      "id": "ep502",
+      "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
+      "call_id": "fc-01M860W2KB0CNGXJC9ENW301VS"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep501",
-      "topic": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
-      "spawned_at": "2026-11-24T09:30:52+05:30"
+      "id": "ep502",
+      "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
+      "spawned_at": "2026-11-24T11:06:16+05:30"
     }
   ],
   "published": [
     {
-      "id": "ep412",
-      "title": "How One Astronomer Proved the UNIVERSE Is Expanding",
-      "due_at": "2026-11-24T19:00:00-05:00"
-    },
-    {
-      "id": "ep413",
-      "title": "The Ghost Module That Started the Space Station",
-      "due_at": "2026-11-24T21:30:00-05:00"
-    },
-    {
-      "id": "ep487",
-      "title": "How NASA Saved Curiosity With a Human Trick",
-      "due_at": "2026-11-24T12:30:00-05:00"
+      "id": "ep494",
+      "title": "The Million-Times-Faster Star Hunt",
+      "due_at": "2026-11-25T12:30:00-05:00"
     }
   ],
   "live": 104,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 4,
+    "calls": 8,
     "by_model": {
-      "gemini-3.8-flash": 1,
-      "gemini-3.6-flash": 1,
-      "gemini-3-flash-preview": 1,
-      "gemini-3.5-flash-lite": 1
+      "gemini-3.6-flash": 2,
+      "gemini-3.5-flash": 1,
+      "gemini-3.5-flash-lite": 4,
+      "gemini-3-flash-preview": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 1,
+    "modal": 2,
     "runner": 0
   },
   "daily_done": "2026-11-23",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 15.73,
+    "metered": 15.8,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 102,
+    "cloud": 101,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 12.27
+    "modal_credit_left": 12.2
   },
   "starved": 0,
   "made_here": 0,
   "open_topics": 35,
-  "parked_topics": 43
+  "parked_topics": 42
 }

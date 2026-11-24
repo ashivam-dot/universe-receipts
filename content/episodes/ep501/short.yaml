@@ -1,0 +1,205 @@
+id: ep501
+title: The Erupting Ice Moon of Uranus
+series: Space Got Weird
+format: v3
+description: Astronomer William Lassell discovered Ariel in 1851, but NASA's Voyager 2 revealed a world shaped by ancient
+  ice eruptions.
+sources:
+- https://en.wikipedia.org/wiki/Ariel_(moon)
+- https://science.nasa.gov/uranus/moons/ariel/
+- https://www.scientificamerican.com/article/overlooked-ocean-worlds-fill-the-outer-solar-system/
+- https://www.space.com/uranus-four-biggest-moons-buried-oceans
+hashtags:
+- '#space'
+- '#uranus'
+- '#voyager2'
+tags:
+- ariel moon
+- uranus moons
+- cryovolcanism
+- voyager 2
+- astronomy
+- space mystery
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: An icy moon near Uranus once erupted liquid water.
+  emphasis:
+  - icy moon
+  - erupted liquid water
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Ariel_Closest_Approach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Ariel Closest Approach.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ariel_Closest_Approach.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.68
+    focus_y: 0.38
+    box:
+    - 0.36
+    - 0.0
+    - 1.0
+    - 0.76
+- text: Astronomer William Lassell discovered Ariel in 1851.
+  emphasis:
+  - William Lassell
+  - discovered Ariel
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: '1851'
+      small: William Lassell discovers Ariel
+    motion: zoom_in
+- text: Ariel has the youngest, most reflective surface of Uranus's major moons.
+  emphasis:
+  - youngest
+  - most reflective surface
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Uranus_as_Viewed_from_Earth_-_1994%2C_1997%2C_2006_%28opo0642c%29.tiff/lossy-page1-1280px-Uranus_as_Viewed_from_Earth_-_1994%2C_1997%2C_2006_%28opo0642c%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Uranus as Viewed from Earth - 1994, 1997, 2006 (opo0642c).tiff
+      credit: NASA, ESA, L. Sromovsky (University of Wisconsin, Madison), H. Hammel (Space Science Institute), and K. Rages
+        (SETI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Uranus_as_Viewed_from_Earth_-_1994,_1997,_2006_(opo0642c).tiff
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.18
+    - 0.16
+    - 0.82
+    - 0.76
+    card:
+      kind: fact
+      big: BRIGHTEST MOON
+      small: Youngest surface at Uranus
+- text: NASA's Voyager 2 flew past up close in 1986.
+  emphasis:
+  - Voyager 2
+  - flew past
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/59/Uranus_and_Voyager_%2824660826102%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Uranus and Voyager (24660826102).png
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Uranus_and_Voyager_(24660826102).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: JANUARY 1986
+      small: Voyager 2 flyby
+- text: Photos revealed deep fault valleys slicing across smooth plains.
+  emphasis:
+  - fault valleys
+  - smooth plains
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/e/ea/Ariel_HiRes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Ariel HiRes.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ariel_HiRes.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Those smooth plains formed when molten ice erupted across its crust.
+  emphasis:
+  - molten ice
+  - erupted
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/7/71/Enceladus_%22Cold_geyser%22_Model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Enceladus "Cold geyser" Model.jpg
+      credit: NASA/JPL/Space Science Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Enceladus_%22Cold_geyser%22_Model.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Scientists even detected carbon dioxide frozen on the surface.
+  emphasis:
+  - carbon dioxide
+  - frozen
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/CO2_Europa.png/960px-CO2_Europa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: CO2 Europa.png
+      credit: NASA JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:CO2_Europa.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Recent studies suggest a liquid ocean hides beneath its icy shell.
+  emphasis:
+  - liquid ocean
+  - icy shell
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: HIDDEN OCEAN
+      small: Subsurface liquid water
+    motion: zoom_in
+- text: That hidden warmth proves it's still...
+  emphasis:
+  - hidden warmth
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.68
+    focus_y: 0.38
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: URANUS'S ERUPTING MOON
