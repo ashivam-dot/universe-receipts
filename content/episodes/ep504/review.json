@@ -1,0 +1,100 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-24T17:18:43+05:30",
+      "check": {
+        "duration": 26.6,
+        "words": 78,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Establishes an intriguing visual mystery in the opening seconds.",
+        "clarity": "Breaks down the 400x scale and distance geometry in easy-to-follow steps.",
+        "payoff": "The exact size-distance cancellation pays off the total eclipse phenomenon effectively.",
+        "visuals": "Clean, highly relevant diagrams and astronomical photos for each concept.",
+        "loop": "Beat 8 repeats the exact phrasing of beat 1, making the restart feel repetitive rather than seamless."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: 'That matching ratio is why...'"
+      ],
+      "better_than_last": "Presents a clear numerical cosmic coincidence with more intuitive step-by-step visual logic than ep495.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-24T17:26:40+05:30",
+      "check": {
+        "duration": 25.93,
+        "words": 79,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [
+          "'ii' heard as 'the 2nd' after 'completely during artemis'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wellcome Collection",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Visual premise is engaging for new viewers.",
+        "clarity": "Math logic is delivered clearly.",
+        "payoff": "Ending mission fact feels disconnected from the math.",
+        "visuals": "Diagram text is too small for mobile.",
+        "loop": "Verbal transition is perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Diagram text is too small to be legible on mobile."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: This perfect cosmic match grants Artemis 2 astronauts a 57-minute eclipse."
+      ],
+      "better_than_last": "Better mathematical focus than the ISS sunrise short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

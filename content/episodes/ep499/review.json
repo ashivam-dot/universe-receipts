@@ -1,0 +1,158 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-24T17:13:45+05:30",
+      "check": {
+        "duration": 26.39,
+        "words": 69,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Grabs attention immediately by highlighting an incomprehensible cosmic scale.",
+        "clarity": "Switching abruptly from light-years and Andromeda to megaparsecs confuses casual viewers.",
+        "payoff": "The twist that this massive structure might just be statistical noise works well.",
+        "visuals": "Beats 6 and 7 rely on dry, cluttered scientific figures full of tiny text.",
+        "loop": "Beat 8 mirrors Beat 1 seamlessly in both script and visual frame."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "technical line graph with small text that is unreadable on mobile screens"
+        },
+        {
+          "beat": 7,
+          "problem": "cluttered scientific paper figure with dense mathematical labels and inset boxes"
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 4: This quasar wall spans four billion light-years across.",
+        "Beat 5: Cosmic theory says no structure should exceed 1.2 billion light-years.",
+        "Beat 6: Yet this structure appears to be three times that limit."
+      ],
+      "better_than_last": "The audio loop from Beat 8 back into Beat 1 is tighter and more natural than in ep495.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-24T17:18:51+05:30",
+      "check": {
+        "duration": 25.03,
+        "words": 75,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong sense of scale immediately establishes interest.",
+        "clarity": "Logical progression from size to scientific conflict.",
+        "payoff": "The contradiction with cosmic theory provides a solid peak.",
+        "visuals": "Generally high quality, though some charts are dense.",
+        "loop": "Phrasing perfectly mirrors the start for a smooth cycle."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The scientific diagrams contain small text and labels that are illegible on mobile screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This script utilizes a more effective numerical comparison to highlight the anomaly's scale than episode 495.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    },
+    {
+      "at": "2026-11-24T17:20:52+05:30",
+      "check": {
+        "duration": 25.17,
+        "words": 75,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.3,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Grabs attention using massive cosmic scale.",
+        "clarity": "Explains complex structures with simple comparisons.",
+        "payoff": "Provides scientific skepticism but lacks punch.",
+        "visuals": "Imagery is high quality but inconsistent.",
+        "loop": "Bridges the ending back to start perfectly."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Shows galaxy scale instead of structure scale."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Use a diagram of the Huge-LQG against the cosmic web.",
+        "Beat 7: Change to 'But this massive wall could be a cosmic trick of the light.'"
+      ],
+      "better_than_last": "The loop transition is more seamless than the recent woman-hit-by-meteorite Short.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "kept_round": 2
+}

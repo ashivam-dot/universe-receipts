@@ -1,0 +1,200 @@
+id: ep500
+title: When the Last Black Hole Explodes
+series: The Universe Is Terrifying
+format: v3
+description: In the deep future of our universe, star formation will completely halt and even supermassive black holes will
+  evaporate away. Here is how the cosmos reaches its dark final era.
+sources:
+- https://en.wikipedia.org/wiki/Future_of_an_expanding_universe
+- https://www.astronomy.com/science/the-big-freeze-how-the-universe-will-die/
+- http://spiff.rit.edu/classes/phys240/lectures/future/future.html
+- https://www.orbitalrecord.com/topics/future-of-the-universe/heat-death-of-the-universe
+- https://archive.nytimes.com/www.nytimes.com/books/first/a/adams-universe.html
+- https://bigthink.com/starts-with-a-bang/will-anything-persist-when-universe-dies/
+- https://en.wikipedia.org/wiki/Heat_death_of_the_universe
+hashtags:
+- '#space'
+- '#blackhole'
+- '#universe'
+tags:
+- heat death
+- black hole
+- hawking radiation
+- astronomy
+- space facts
+- dark era
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Every star in the universe will eventually go out forever.
+  emphasis:
+  - go out forever
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg/1920px-NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg
+      credit: NASA, ESA, H. Teplitz and M. Rafelski (IPAC/Caltech), A. Koekemoer (STScI), R. Windhorst (Arizona State University),
+        and Z. Levay (STScI)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA-HS201427a-HubbleUltraDeepField2014-20140603.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: STARS DIE
+      small: Ultimate fate of the universe
+- text: All interstellar gas will run dry in about 100 trillion years.
+  emphasis:
+  - 100 trillion years
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/NASA-RedDwarfPlanet-ArtistConception-20130728.jpg/3840px-NASA-RedDwarfPlanet-ArtistConception-20130728.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA-RedDwarfPlanet-ArtistConception-20130728.jpg
+      credit: David A. Aguilar, Harvard-Smithsonian Center for Astrophysics
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:NASA-RedDwarfPlanet-ArtistConception-20130728.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.52
+    focus_y: 0.48
+    box:
+    - 0.18
+    - 0.14
+    - 0.86
+    - 0.82
+    card:
+      kind: fact
+      big: 100 TRILLION YEARS
+      small: Star formation permanently ends
+- text: The last remaining red dwarfs will slowly fade into dark black dwarfs.
+  emphasis:
+  - black dwarfs
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Messier_57_-_The_Ring_Nebula_-_Flickr_-_gjdonatiello.jpg/1920px-Messier_57_-_The_Ring_Nebula_-_Flickr_-_gjdonatiello.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Messier 57 - The Ring Nebula - Flickr - gjdonatiello.jpg
+      credit: Giuseppe Donatiello from Oria (Brindisi), Italy
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Messier_57_-_The_Ring_Nebula_-_Flickr_-_gjdonatiello.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Gravitational encounters will then fling most dead stars into deep space.
+  emphasis:
+  - fling most dead stars
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Antennae_galaxies_xl.jpg/3840px-Antennae_galaxies_xl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Antennae galaxies xl.jpg
+      credit: NASA, ESA, and the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Antennae_galaxies_xl.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Only supermassive black holes will remain in the empty void.
+  emphasis:
+  - supermassive black holes
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/3840px-Black_hole_-_Messier_87_crop_max_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Black hole - Messier 87 crop max res.jpg
+      credit: Event Horizon Telescope, uploader cropped and converted TIF to JPG
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: BLACK HOLES REMAIN
+      small: The Degenerate Era
+- text: Yet even black holes lose mass through quantum Hawking radiation.
+  emphasis:
+  - Hawking radiation
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Black_hole_%28NASA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Black hole (NASA).jpg
+      credit: NASA/D. Berry
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Black_hole_(NASA).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Until even supermassive black holes detonate and evaporate away.
+  emphasis:
+  - evaporate away
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/5/55/Artist%E2%80%99s_impression_of_a_gamma-ray_burst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Artist’s impression of a gamma-ray burst.jpg
+      credit: ESO/A. Roquette
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_a_gamma-ray_burst.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 1 GOOGOL YEARS
+      small: 10^100 years until total evaporation
+- text: That leaves behind a frozen cosmos where no new light can ever ignite.
+  emphasis:
+  - frozen cosmos
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:mystery
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE END OF ALL LIGHT

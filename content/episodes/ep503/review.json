@@ -1,0 +1,153 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-24T17:19:59+05:30",
+      "check": {
+        "duration": 26.63,
+        "words": 83,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Instantly challenges a widespread cinematic myth with clear focus.",
+        "clarity": "Explains the physical and biological mechanisms step-by-step with simple logic.",
+        "payoff": "The historical account of Jim LeBlanc's boiling saliva provides an unforgettable climax.",
+        "visuals": "Beat 3 incorrectly displays an Earth atmospheric heat balance diagram, and Beat 2 is generic.",
+        "loop": "The final line connects seamlessly into Beat 1 grammatically and conceptually."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a generic deep space galaxy photo rather than illustrating movie freeze/explosion tropes."
+        },
+        {
+          "beat": 3,
+          "problem": "Shows a diagram of Earth atmospheric solar radiation balance instead of vacuum thermal insulation."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It grounds a popular sci-fi myth using a dramatic, real-life NASA vacuum chamber accident.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-24T17:22:24+05:30",
+      "check": {
+        "duration": 25.89,
+        "words": 83,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'blacking' heard as 'blackened' after 'boil right before'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong myth-busting angle with clear overlay text immediately grabs attention.",
+        "clarity": "Explains complex thermal physics and physiological responses in simple step-by-step logic.",
+        "payoff": "The real-world Jim LeBlanc vacuum chamber incident delivers a fascinating and memorable climax.",
+        "visuals": "Beat 2 shows a deep-space galaxy image that is entirely off-topic for a line about movie depictions of freezing human bodies.",
+        "loop": "The final sentence about cold not killing you first flows smoothly into the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a deep-space galaxy image, which is off-topic for a line describing movie depictions of freezing human bodies."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short grounds abstract physiological science in a vivid historical human story with the Jim LeBlanc vacuum chamber incident.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-24T17:24:36+05:30",
+      "check": {
+        "duration": 29.19,
+        "words": 83,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 4,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong myth-busting start engages viewers immediately.",
+        "clarity": "Effectively simplifies complex thermodynamics and biology.",
+        "payoff": "Visceral historical anecdote provides a memorable conclusion.",
+        "visuals": "Technical diagrams and archival photos support the script well.",
+        "loop": "Seamless transition from final result back to the myth."
+      },
+      "frames": [],
+      "speech": [
+        {
+          "beat": 6,
+          "word": "LeBlanc",
+          "respelling": "luh blonk"
+        }
+      ],
+      "rewrite": [],
+      "better_than_last": "Provides higher educational value through physics than the meteorite anecdote.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

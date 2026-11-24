@@ -1,0 +1,203 @@
+id: ep502
+title: The Probe That Had to Leave the Solar System
+series: Mission Files
+format: v3
+description: To see the Sun's unexplored poles, NASA's Ulysses mission took a massive detour to Jupiter. The discovery changed
+  how we see the solar wind.
+sources:
+- https://en.wikipedia.org/wiki/Ulysses_(spacecraft)
+- https://science.nasa.gov/mission/ulysses/
+- https://web.archive.org/web/20110817205127/http://hiauly1.hia.nrc.ca/index.html
+- https://web.archive.org/web/20240210063513/https://arstechnica.com/science/2015/10/dispatches-from-the-death-star-the-rise-and-fall-of-nasas-shuttle-centaur/
+- https://www.esa.int/Enabling_Support/Operations/Ulysses_12_extra_months_of_valuable_science
+- https://web.archive.org/web/20230907002154/https://www.reuters.com/article/us-space-solar-idINTRE5600A220090701
+hashtags:
+- '#space'
+- '#nasa'
+- '#sun'
+tags:
+- Ulysses
+- Sun
+- Jupiter
+- solar wind
+- ESA
+- NASA
+- STS-41
+- Space Shuttle
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA flew to Jupiter just to look at the Sun.
+  emphasis:
+  - Jupiter
+  - Sun
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ulysses_at_Jupiter_H1.jpg/960px-Ulysses_at_Jupiter_H1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ulysses at Jupiter H1.jpg
+      credit: NASA/ESA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ulysses_at_Jupiter_H1.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Standard rockets couldn't push a probe out of Earth's flat orbit.
+  emphasis:
+  - flat orbit
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Dialogue-day3-_yearly_motion.png/1920px-Dialogue-day3-_yearly_motion.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Dialogue-day3- yearly motion.png
+      credit: Galileo Galilei
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Dialogue-day3-_yearly_motion.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: So Ulysses used Jupiter's gravity to loop over the Sun's poles.
+  emphasis:
+  - loop over
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/83/Space_probe_trajectory_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Space probe trajectory example.png
+      credit: Orion 8
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Space_probe_trajectory_example.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It launched in 1990 and hit record-shattering speeds.
+  emphasis:
+  - record-shattering
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/STS-41_launch.jpg/1920px-STS-41_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS-41 launch.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-41_launch.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But the mission found far more than just a view.
+  emphasis:
+  - more than just a view
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/RTG_radiation_measurement.jpg/1920px-RTG_radiation_measurement.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: RTG radiation measurement.jpg
+      credit: Unknown authorUnknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:RTG_radiation_measurement.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Interstellar dust was thirty times more abundant than scientists expected.
+  emphasis:
+  - thirty times more
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/1c/Porous_chondriteIDP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Porous chondriteIDP.jpg
+      credit: The original uploader was Amara at English Wikipedia.
+      license: CC BY 1.0
+      url: https://commons.wikimedia.org/wiki/File:Porous_chondriteIDP.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 30 TIMES
+      small: more abundant dust
+- text: The probe even unexpectedly sailed through three separate comet tails.
+  emphasis:
+  - comet tails
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/2a/Comet_Hyakutake_by_Bill_Ingalls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Comet Hyakutake by Bill Ingalls.jpg
+      credit: Bill Ingalls
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Comet_Hyakutake_by_Bill_Ingalls.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It revealed solar winds moving twice as fast at the poles.
+  emphasis:
+  - twice as fast
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/1d/Solar_wind_Speed_interplanetary_magnetic_field.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Solar wind Speed interplanetary magnetic field.jpg
+      credit: NASA – Marshall Space Flight Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_wind_Speed_interplanetary_magnetic_field.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: TWICE AS FAST
+      small: polar solar winds
+- text: To see the Sun from the top, you have to leave home.
+  emphasis:
+  - leave home
+  sfx: whoosh
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A 500-MILLION-MILE DETOUR

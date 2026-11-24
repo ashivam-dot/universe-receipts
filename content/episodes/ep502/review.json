@@ -1,0 +1,120 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-24T17:19:04+05:30",
+      "check": {
+        "duration": 28.63,
+        "words": 93,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -2.9,
+        "warnings": [],
+        "speech_differences": [
+          "'flew to' heard as 'fluted' after 'nasa'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The counter-intuitive concept of traveling to Jupiter to study the Sun is a strong draw.",
+        "clarity": "Successfully explains the difficulty of leaving the ecliptic plane in simple terms.",
+        "payoff": "The ending transitions into a list of facts rather than a singular surprising resolution.",
+        "visuals": "Reliance on technical diagrams and static lab photos lacks the channel's usual impact.",
+        "loop": "The final line about leaving home provides a logical bridge back to the launch narrative."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Historical diagram contains fine lines and text that are illegible on mobile devices."
+        },
+        {
+          "beat": 5,
+          "problem": "A generic laboratory photo is unengaging and fails to convey the scale of the mission."
+        },
+        {
+          "beat": 8,
+          "problem": "Highly technical data plot is too cluttered with small text for the Shorts format."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 1,
+          "word": "flew to",
+          "respelling": "flu too"
+        }
+      ],
+      "rewrite": [
+        "Beat 5: This massive detour revealed secrets hidden for billions of years.",
+        "Beat 8: It discovered polar solar winds screaming at twice their normal speed."
+      ],
+      "better_than_last": "Provides a more focused scientific explanation of orbital mechanics than the legal drama in ep495.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-24T17:23:39+05:30",
+      "check": {
+        "duration": 30.53,
+        "words": 93,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The irony of flying to Jupiter to see the Sun is a strong draw.",
+        "clarity": "Explains the physics of the ecliptic plane simply and effectively.",
+        "payoff": "The solar wind discovery is solid science but lacks a dramatic twist.",
+        "visuals": "Strong photography, though one diagram is technically inaccurate.",
+        "loop": "The conceptual connection works, though it is not a perfect grammatical loop."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "The diagram depicts a mission to Saturn, while the script discusses Jupiter."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short explains the 'why' behind complex orbital maneuvers more clearly than ep495's legal focus.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1
+}

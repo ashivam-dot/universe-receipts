@@ -1,0 +1,164 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-24T17:17:22+05:30",
+      "check": {
+        "duration": 28.4,
+        "words": 88,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.2,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'a' after 'dry in about'",
+          "'googol' heard as 'google' after 'evaporate after one'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Clear and intriguing statement about the end of all light.",
+        "clarity": "Logical chronological step-by-step breakdown of cosmic death.",
+        "payoff": "Ends predictably on dark freeze rather than an unexpected twist.",
+        "visuals": "Mostly relevant astronomical visuals, though one depicts an unrelated nebula.",
+        "loop": "Seamless transition from the last phrase into the opening premise."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows a planetary nebula instead of a red dwarf or black dwarf star."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: 'Until even supermassive black holes detonate and evaporate away.'"
+      ],
+      "better_than_last": "Maintains a cleaner chronological timeline compared to ep495.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-24T17:20:42+05:30",
+      "check": {
+        "duration": 29.83,
+        "words": 86,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'a' after 'dry in about'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "High-stakes premise.",
+        "clarity": "Logical timeline.",
+        "payoff": "Satisfying conclusion.",
+        "visuals": "Scientific inaccuracy.",
+        "loop": "Seamless connection."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows a planetary nebula instead of a fading red dwarf."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a grander cosmic scope than recent orbital facts.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-24T17:22:29+05:30",
+      "check": {
+        "duration": 31.16,
+        "words": 86,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The statement is grand but lacks a specific curiosity gap to prevent swiping.",
+        "clarity": "The chronological progression of cosmic heat death is very easy to follow.",
+        "payoff": "The explosion of black holes provides a solid, though expected, narrative climax.",
+        "visuals": "A significant factual error exists in using a planetary nebula for red dwarfs.",
+        "loop": "The transition from the finality of light back to the start is logically sound."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Shows the Ring Nebula, which is a planetary nebula; red dwarfs do not form these."
+        },
+        {
+          "beat": 4,
+          "problem": "Shows colliding galaxies rather than the process of individual stars being ejected."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 1: Our universe is currently in its briefest, brightest era.",
+        "Beat 3: The final red dwarfs will eventually cool and harden into black dwarfs.",
+        "Beat 7: Until even the largest black holes vanish in a final, massive explosion."
+      ],
+      "better_than_last": "This script offers a more comprehensive chronological timeline of the far future compared to the localized event in episode 495.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, visuals, loop; 2 frame problems",
+  "rejected_at": "2026-11-24T17:22:29+05:30"
+}

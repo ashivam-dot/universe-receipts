@@ -1,14 +1,12 @@
 id: ep502
-title: The Probe That Had to Leave the Solar System
+title: The 500-Million-Mile Detour to the Sun
 series: Mission Files
 format: v3
-description: To see the Sun's unexplored poles, NASA's Ulysses mission took a massive detour to Jupiter. The discovery changed
-  how we see the solar wind.
+description: To see the Sun's unexplored poles, the Ulysses probe had to fly to Jupiter first. This mission revealed that
+  polar solar winds travel twice as fast.
 sources:
 - https://en.wikipedia.org/wiki/Ulysses_(spacecraft)
 - https://science.nasa.gov/mission/ulysses/
-- https://web.archive.org/web/20110817205127/http://hiauly1.hia.nrc.ca/index.html
-- https://web.archive.org/web/20240210063513/https://arstechnica.com/science/2015/10/dispatches-from-the-death-star-the-rise-and-fall-of-nasas-shuttle-centaur/
 - https://www.esa.int/Enabling_Support/Operations/Ulysses_12_extra_months_of_valuable_science
 - https://web.archive.org/web/20230907002154/https://www.reuters.com/article/us-space-solar-idINTRE5600A220090701
 hashtags:
@@ -52,26 +50,44 @@ beats:
     motion: pan_right
     focus_x: 0.5
     focus_y: 0.5
-- text: Standard rockets couldn't push a probe out of Earth's flat orbit.
+- text: Leaving the Sun behind was actually the only way to see it.
   emphasis:
-  - flat orbit
+  - only way
   visual:
     source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Dialogue-day3-_yearly_motion.png/1920px-Dialogue-day3-_yearly_motion.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Parts_of_Ulysses.jpg/960px-Parts_of_Ulysses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit:
       source: Wikimedia Commons
-      title: Dialogue-day3- yearly motion.png
-      credit: Galileo Galilei
+      title: Parts of Ulysses.jpg
+      credit: NASA/ESA (Image modified by PlanetUser)
       license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:Dialogue-day3-_yearly_motion.png
+      url: https://commons.wikimedia.org/wiki/File:Parts_of_Ulysses.jpg
     fallbacks:
     - color
     motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: So Ulysses used Jupiter's gravity to loop over the Sun's poles.
+- text: Standard rockets are trapped in the Solar System’s flat plane.
   emphasis:
-  - loop over
+  - flat plane
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/24._Orbits_of_planets_all_in_one_plane_%2822125300334%29.jpg/1280px-24._Orbits_of_planets_all_in_one_plane_%2822125300334%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 24. Orbits of planets all in one plane (22125300334).jpg
+      credit: Community Archives
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:24._Orbits_of_planets_all_in_one_plane_(22125300334).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Only Jupiter's gravity could slingshot a probe over the Sun's poles.
+  emphasis:
+  - Jupiter's gravity
+  - Sun's poles
   visual:
     source: url
     url: https://upload.wikimedia.org/wikipedia/commons/8/83/Space_probe_trajectory_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
@@ -83,12 +99,13 @@ beats:
       url: https://commons.wikimedia.org/wiki/File:Space_probe_trajectory_example.png
     fallbacks:
     - color
-    motion: pan_right
+    motion: pan_left
     focus_x: 0.5
     focus_y: 0.5
-- text: It launched in 1990 and hit record-shattering speeds.
+- text: Ulysses launched in 1990 to perform that impossible turn.
   emphasis:
-  - record-shattering
+  - '1990'
+  - impossible turn
   visual:
     source: url
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/STS-41_launch.jpg/1920px-STS-41_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
@@ -99,51 +116,23 @@ beats:
       license: Public domain
       url: https://commons.wikimedia.org/wiki/File:STS-41_launch.jpg
     fallbacks:
-    - color
-    motion: zoom_in
-    focus_x: 0.5
-    focus_y: 0.5
-- text: But the mission found far more than just a view.
-  emphasis:
-  - more than just a view
-  visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/RTG_radiation_measurement.jpg/1920px-RTG_radiation_measurement.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: RTG radiation measurement.jpg
-      credit: Unknown authorUnknown author
-      license: Public domain
-      url: https://commons.wikimedia.org/wiki/File:RTG_radiation_measurement.jpg
-    fallbacks:
-    - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: Interstellar dust was thirty times more abundant than scientists expected.
-  emphasis:
-  - thirty times more
-  visual:
-    source: url
-    url: https://upload.wikimedia.org/wikipedia/commons/1/1c/Porous_chondriteIDP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-    credit:
-      source: Wikimedia Commons
-      title: Porous chondriteIDP.jpg
-      credit: The original uploader was Amara at English Wikipedia.
-      license: CC BY 1.0
-      url: https://commons.wikimedia.org/wiki/File:Porous_chondriteIDP.jpg
-    fallbacks:
     - card
     - color
-    motion: pan_left
+    motion: zoom_out
     focus_x: 0.5
-    focus_y: 0.5
+    focus_y: 0.35
+    box:
+    - 0.41
+    - 0.17
+    - 0.58
+    - 0.51
     card:
-      kind: fact
-      big: 30 TIMES
-      small: more abundant dust
-- text: The probe even unexpectedly sailed through three separate comet tails.
+      kind: dateline
+      big: OCTOBER 1990
+      small: Mission Ulysses
+- text: The probe even accidentally sailed through three different comet tails.
   emphasis:
+  - three
   - comet tails
   sfx: riser
   visual:
@@ -157,10 +146,10 @@ beats:
       url: https://commons.wikimedia.org/wiki/File:Comet_Hyakutake_by_Bill_Ingalls.jpg
     fallbacks:
     - color
-    motion: pan_right
-    focus_x: 0.5
-    focus_y: 0.5
-- text: It revealed solar winds moving twice as fast at the poles.
+    motion: pan_left
+    focus_x: 0.78
+    focus_y: 0.78
+- text: Then it revealed polar winds screaming twice as fast as the equator.
   emphasis:
   - twice as fast
   sfx: pop
@@ -177,16 +166,17 @@ beats:
     fallbacks:
     - card
     - color
-    motion: zoom_in
+    motion: zoom_out
     focus_x: 0.5
     focus_y: 0.5
     card:
       kind: fact
       big: TWICE AS FAST
       small: polar solar winds
-- text: To see the Sun from the top, you have to leave home.
+- text: It remains the only mission sent to Jupiter just to look at the Sun.
   emphasis:
-  - leave home
+  - only mission
+  - look at the Sun
   sfx: whoosh
   visual:
     reuse: 1
@@ -200,4 +190,4 @@ music:
   fade_out: 1.0
 captions:
   hook_size: 150
-hook_text: A 500-MILLION-MILE DETOUR
+hook_text: 500-MILLION-MILE DETOUR

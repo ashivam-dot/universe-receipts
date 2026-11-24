@@ -1,0 +1,209 @@
+{
+  "viable": true,
+  "reason": "The provided sources support 13 distinct claims with citations across four independent sites, confirming that heat loss in space is slow and vacuum exposure causes hypoxia within seconds rather than instant freezing.",
+  "story": "Popular depictions suggest outer space causes instant freezing and explosive bursting, but real space exposure is vastly different. Heat transfer in a vacuum relies strictly on radiation without conduction or convection, meaning heat leaves the human body slowly and there is no danger of freezing instantly. Furthermore, human skin and tissues are strong enough to prevent the body from exploding. The immediate threat in a vacuum is hypoxia: as lungs strip oxygen from the blood, a person loses consciousness in roughly 14 to 15 seconds. During a 1960s NASA vacuum chamber test, engineer Jim LeBlanc lost suit pressure and recalled the saliva on his tongue bubbling before blacking out. While short vacuum exposure can be survived, prolonged spaceflight damages the human body, causing bone loss, muscle atrophy, vision impairment, and potential brain and gastrointestinal damage from deep-space radiation.",
+  "angle": "Space does not instantly freeze or explode the human body; heat loss is slow, and you pass out in 14 seconds as moisture on your tongue bubbles.",
+  "claims": [
+    {
+      "claim": "Exposure to the vacuum of space does not cause immediate freezing because heat loss occurs solely by radiation, which is a slow process.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Human skin and body tissues are strong and elastic enough to prevent a human from exploding upon vacuum exposure.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "In a vacuum environment, gas exchange in the lungs reverses to rapidly extract oxygen from the blood.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A human exposed to a vacuum loses consciousness in approximately 14 to 15 seconds due to rapid blood deoxygenation.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA test subject Jim LeBlanc was accidentally exposed to near-vacuum conditions inside a ground test chamber when his suit pressure hose detached.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Before losing consciousness in a vacuum, Jim LeBlanc experienced the saliva on his tongue starting to bubble or boil.",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Deep-space missions to Mars pose radiation risks that can significantly damage astronauts' brains.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Long journeys in outer space subject astronauts to radiation that can damage gastrointestinal tissues.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Extended exposure to weightlessness causes significant bone mass and bone density loss.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Long-duration spaceflight leads to severe muscle atrophy and loss of muscle mass.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Spaceflight causes vision changes and alterations to eye structure in astronauts on long missions.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Long-duration spaceflight can result in postflight cognitive performance decline.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "NASA conducted a 1-year Twin Study comparing an astronaut aboard the International Space Station to his identical twin brother on Earth.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "Date of Jim LeBlanc vacuum chamber incident: S1 lists December 1966 while S2 lists 1965. Script handling: attribute ('according to one account in 1965 or 1966').",
+    "Hypothesis of elevated intracranial pressure causing vision issues: S1 notes parabolic flight tests showed normal physiological variation rather than pathologically elevated pressure, whereas S4 notes the exact mechanism for SANS is not well understood. Script handling: leave out or attribute."
+  ],
+  "visuals": [
+    {
+      "subject": "NASA Space Environment Simulator vacuum chamber",
+      "queries": [
+        "NASA vacuum chamber test",
+        "Space Environment Simulator Goddard"
+      ]
+    },
+    {
+      "subject": "NASA astronaut wearing Extravehicular Mobility Unit spacesuit",
+      "queries": [
+        "Extravehicular Mobility Unit spacewalk",
+        "Astronaut EMU suit ISS"
+      ]
+    },
+    {
+      "subject": "International Space Station orbiting Earth",
+      "queries": [
+        "International Space Station flight",
+        "ISS full view high resolution"
+      ]
+    },
+    {
+      "subject": "Diagram of human circulatory system and lung gas exchange (illustration)",
+      "queries": [
+        "Human circulatory system diagram",
+        "Human respiratory system diagram"
+      ]
+    },
+    {
+      "subject": "NASA Astronaut Twin Study subjects Scott and Mark Kelly",
+      "queries": [
+        "Scott Kelly Mark Kelly twins",
+        "NASA Twin Study astronauts"
+      ]
+    },
+    {
+      "subject": "Astronaut exercising on ISS Advanced Resistive Exercise Device",
+      "queries": [
+        "ISS Advanced Resistive Exercise Device",
+        "Astronaut exercising ARED ISS"
+      ]
+    },
+    {
+      "subject": "Artist concept of a crewed mission spacecraft traveling to Mars (illustration)",
+      "queries": [
+        "NASA Mars crewed mission artist concept",
+        "Mars spacecraft concept illustration"
+      ]
+    },
+    {
+      "subject": "Microscopic view or diagram of human intestinal villi (illustration)",
+      "queries": [
+        "Gastrointestinal tissue diagram",
+        "Intestinal villi histology photo"
+      ]
+    },
+    {
+      "subject": "Soyuz descent module returning to Earth",
+      "queries": [
+        "Soyuz descent module landing",
+        "Soyuz spacecraft orbital module"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body",
+      "title": "Effect of spaceflight on the human body",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://imagine.gsfc.nasa.gov/ask_astro/space_travel.html",
+      "title": "Imagine the Universe!",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.independent.co.uk/news/science/nasa-mars-deep-space-journey-guts-gi-digestive-animal-study-gastrointestinal-health-a8563926.html",
+      "title": "Travelling further into space might be impossible without dying, Nasa study finds",
+      "site": "independent.co.uk"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7580864",
+      "title": "The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight",
+      "site": "nih.gov"
+    }
+  ],
+  "topic": "Outer space: despite popular depictions of instant freezing, the vacuum of space is an insulator where overheating is a bigger danger than losing body heat",
+  "series": "Space Myths, Busted"
+}

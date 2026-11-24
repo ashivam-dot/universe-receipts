@@ -1,0 +1,189 @@
+id: ep503
+title: Why Space Won't Instantly Freeze You
+series: Space Myths, Busted
+format: v3
+description: Hollywood movies show astronauts freezing solid in space, but the vacuum is actually a thermal insulator. Here
+  is what really happens to your body without a spacesuit.
+sources:
+- https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body
+- https://imagine.gsfc.nasa.gov/ask_astro/space_travel.html
+hashtags:
+- '#space'
+- '#spacemyths'
+- '#nasa'
+tags:
+- space vacuum
+- astronauts
+- space myths
+- nasa
+- science facts
+- human body
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: An exposed astronaut will not freeze instantly in space.
+  emphasis:
+  - not freeze instantly
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/STS-129_EVA3_Robert_Satcher_3.jpg/1920px-STS-129_EVA3_Robert_Satcher_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS-129 EVA3 Robert Satcher 3.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-129_EVA3_Robert_Satcher_3.jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.35
+    focus_y: 0.5
+    box:
+    - 0.1
+    - 0.35
+    - 0.45
+    - 0.75
+- text: Movies show human bodies freezing solid or exploding in a vacuum.
+  emphasis:
+  - freezing solid
+  - exploding
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: freezing solid
+      small: ''
+    motion: zoom_in
+- text: But space is a giant insulator, so heat leaves very slowly.
+  emphasis:
+  - giant insulator
+  - leaves very slowly
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/ISS056-E-79067_-_View_of_Earth.jpg/3840px-ISS056-E-79067_-_View_of_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: ISS056-E-79067 - View of Earth.jpg
+      credit: Earth Science and Remote Sensing Unit, NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:ISS056-E-79067_-_View_of_Earth.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: INSULATOR
+      small: Space heat loss is slow
+- text: Your elastic skin easily keeps your body from bursting.
+  emphasis:
+  - elastic skin
+  - from bursting
+  sfx: pop
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Anatomy_The_Skin_-_NCI_Visuals_Online.jpg/960px-Anatomy_The_Skin_-_NCI_Visuals_Online.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Anatomy The Skin - NCI Visuals Online.jpg
+      credit: Don Bliss (artist)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Anatomy_The_Skin_-_NCI_Visuals_Online.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Instead, your lungs instantly reverse and pull oxygen from your blood.
+  emphasis:
+  - instantly reverse
+  - pull oxygen
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/XBio_illustration_%E2%80%93_Gas_Exchange.png/1280px-XBio_illustration_%E2%80%93_Gas_Exchange.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: XBio illustration – Gas Exchange.png
+      credit: explorebiology
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:XBio_illustration_%E2%80%93_Gas_Exchange.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: HYPOXIA
+      small: Lungs strip oxygen from blood
+- text: In a NASA vacuum test, engineer Jim LeBlanc lost suit pressure.
+  emphasis:
+  - Jim LeBlanc
+  - lost suit pressure
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Thermal_Vacuum_Test_Chamber_A_with_Door_Closed.jpg/1920px-Thermal_Vacuum_Test_Chamber_A_with_Door_Closed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Thermal Vacuum Test Chamber A with Door Closed.jpg
+      credit: NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Thermal_Vacuum_Test_Chamber_A_with_Door_Closed.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: He felt the saliva on his tongue boil right before blacking out.
+  emphasis:
+  - tongue boil
+  - blacking out
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/APOLLO_SPACESUIT_-_A-3H-024_-_LUNAR_EXCURSION_MODULE_%28LEM%29_ASTRONAUT_RESTRAINT_HARNESS_%28S64-21568%29.jpg/1920px-APOLLO_SPACESUIT_-_A-3H-024_-_LUNAR_EXCURSION_MODULE_%28LEM%29_ASTRONAUT_RESTRAINT_HARNESS_%28S64-21568%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: APOLLO SPACESUIT - A-3H-024 - LUNAR EXCURSION MODULE (LEM) ASTRONAUT RESTRAINT HARNESS (S64-21568).jpg
+      credit: NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:APOLLO_SPACESUIT_-_A-3H-024_-_LUNAR_EXCURSION_MODULE_(LEM)_ASTRONAUT_RESTRAINT_HARNESS_(S64-21568).jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.55
+    focus_y: 0.4
+    box:
+    - 0.35
+    - 0.1
+    - 0.75
+    - 0.85
+- text: Cold never gets the chance to kill you first.
+  emphasis:
+  - kill you first
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.35
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: THE VACUUM FREEZE MYTH

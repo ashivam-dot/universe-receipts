@@ -1,0 +1,216 @@
+id: ep504
+title: The 400X Cosmic Match Behind Total Eclipses
+series: Scale Breaker
+format: v3
+description: The Sun is 400 times wider than the Moon and 400 times farther away, creating a near-perfect size match in Earth's
+  sky.
+sources:
+- https://en.wikipedia.org/wiki/Solar_eclipse
+- https://www.scientificamerican.com/article/nasas-artemis-ii-crew-experience-total-solar-eclipse-from-space/
+- https://www.esa.int/Our_Activities/Space_Science/What_is_an_eclipse
+hashtags:
+- '#space'
+- '#eclipse'
+- '#nasa'
+tags:
+- solar eclipse
+- sun
+- moon
+- astronomy
+- totality
+- artemis
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: The Sun and Moon look identical in our sky.
+  emphasis:
+  - identical
+  - sky
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Eclipse_%2840525545663%29.jpg/1280px-Eclipse_%2840525545663%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Eclipse (40525545663).jpg
+      credit: Agnes Happen
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Eclipse_(40525545663).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.44
+    box:
+    - 0.33
+    - 0.38
+    - 0.62
+    - 0.56
+    card:
+      kind: fact
+      big: 0.5 DEGREES
+      small: apparent size in sky
+- text: Most people assume they are naturally similar in size.
+  emphasis:
+  - similar in size
+  visual:
+    source: url
+    url: https://iiif.wellcomecollection.org/image/V0025022/full/!1920,1920/0/default.jpg
+    credit:
+      source: Wellcome Collection
+      title: 'Astronomy: eclipses (top), and the Moon''s passage around the Earth. Coloured engraving by J. Emslie, 1851,
+        after himself'
+      credit: Wellcome Collection
+      license: Public domain
+      url: https://wellcomecollection.org/works/dmzeqfcb
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But the Sun is roughly 400 times wider than the Moon.
+  emphasis:
+  - 400 times wider
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/3840px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg
+      credit: NASA/SDO (AIA)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 400X
+      small: wider diameter
+- text: It is also 400 times farther away from Earth.
+  emphasis:
+  - 400 times farther
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d1/Earth_to_Sun.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Earth to Sun.png
+      credit: Lucas Vieira
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Earth_to_Sun.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 400X
+      small: farther distance
+- text: That matching ratio makes both objects span half a degree.
+  emphasis:
+  - half a degree
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/1/15/Moon_-_24_9_2026_%2855548152177%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Moon - 24 9 2026 (55548152177).jpg
+      credit: Dixe
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Moon_-_24_9_2026_(55548152177).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.44
+    box:
+    - 0.38
+    - 0.28
+    - 0.62
+    - 0.6
+    card:
+      kind: fact
+      big: 0.5°
+      small: angular diameter
+- text: During totality, the Moon covers the Sun's disk completely.
+  emphasis:
+  - totality
+  - completely
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/4-8-2024_total_solar_eclipse_totality_w-_corona_and_plasma_-_Heavener%2C_Oklahoma_-_Flickr_-_Thomas_Shahan_3.jpg/1920px-4-8-2024_total_solar_eclipse_totality_w-_corona_and_plasma_-_Heavener%2C_Oklahoma_-_Flickr_-_Thomas_Shahan_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 4-8-2024 total solar eclipse totality w- corona and plasma - Heavener, Oklahoma - Flickr - Thomas Shahan 3.jpg
+      credit: Thomas Shahan
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:4-8-2024_total_solar_eclipse_totality_w-_corona_and_plasma_-_Heavener,_Oklahoma_-_Flickr_-_Thomas_Shahan_3.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: This perfect cosmic match grants Artemis 2 astronauts a 57-minute eclipse.
+  emphasis:
+  - 57-minute eclipse
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Orion_LunarFLyby_4k_%28656314676363%29.jpg/3840px-Orion_LunarFLyby_4k_%28656314676363%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Orion LunarFLyby 4k (656314676363).jpg
+      credit: Uploaded by Patricia Moore
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Orion_LunarFLyby_4k_(656314676363).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.65
+    focus_y: 0.45
+    box:
+    - 0.45
+    - 0.2
+    - 0.85
+    - 0.7
+    card:
+      kind: fact
+      big: 57 MINUTES
+      small: totality in space
+- text: It is the only reason they look identical in our sky.
+  emphasis:
+  - identical
+  - our sky
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.44
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A 400X COSMIC MATCH

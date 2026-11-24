@@ -1,0 +1,194 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-24T09:38:13+05:30",
+      "check": {
+        "duration": 30.77,
+        "words": 86,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'lassell' heard as 'lasalle' after 'water astronomer william'",
+          "'is' heard as '(nothing)' after 'surface of uranus'",
+          "'that' heard as 'but' after 'its icy shell'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Opening with liquid water eruptions on a remote moon is effective.",
+        "clarity": "The progression from 19th-century discovery to modern ocean theory is clear.",
+        "payoff": "The subsurface ocean theory provides a meaningful answer to the volcanic ice hook.",
+        "visuals": "Assets are high-quality, though using Enceladus as a proxy is factually incorrect.",
+        "loop": "The final line does not lead into the first beat's start grammatically."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "Uses Enceladus imagery instead of the subject moon."
+        },
+        {
+          "beat": 7,
+          "problem": "Uses Enceladus imagery instead of Ariel and doesn't depict carbon dioxide."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "Lassell",
+          "respelling": "lass el"
+        }
+      ],
+      "rewrite": [
+        "Beat 9: That hidden warmth proves it's still..."
+      ],
+      "better_than_last": "Scientific focus is tighter here than the legal story in ep 495.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-24T17:17:18+05:30",
+      "check": {
+        "duration": 29.22,
+        "words": 82,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'lassell' heard as 'lasalle' after 'water astronomer william'",
+          "'is' heard as '(nothing)' after 'surface of uranus'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "An intriguing premise about water erupting in the outer solar system.",
+        "clarity": "Logical flow from discovery to flyby findings and internal structure.",
+        "payoff": "The presence of a hidden ocean cleanly explains the ancient surface activity.",
+        "visuals": "Beat 6 mistakenly uses a diagram labeled Enceladus rather than Ariel.",
+        "loop": "The line completes smoothly back into the opening sentence."
+      },
+      "frames": [
+        {
+          "beat": 6,
+          "problem": "The diagram is explicitly labeled Enceladus, which is the wrong moon."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "It connects historical astronomical discovery directly to modern subsurface ocean findings.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-24T17:20:04+05:30",
+      "check": {
+        "duration": 30.93,
+        "words": 82,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [
+          "'lassell' heard as 'lasalle' after 'water astronomer william'",
+          "'is' heard as '(nothing)' after 'surface of uranus'",
+          "'plains' heard as 'planes' after 'slicing across smooth'",
+          "'plains' heard as 'planes' after 'plains those smooth'",
+          "'still' heard as 'steel' after 'proves it is'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 2,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The opening fact is solid but lacks dramatic urgency.",
+        "clarity": "Logical flow from history to modern mission data.",
+        "payoff": "The ocean reveal is a common trope without a fresh angle.",
+        "visuals": "Several frames use foreign text or illegible small labels.",
+        "loop": "The trailing sentence connects perfectly back to the start."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Scale markers and labels are too small for phone screens."
+        },
+        {
+          "beat": 6,
+          "problem": "The diagram is in Catalan and shows Enceladus, not Ariel."
+        },
+        {
+          "beat": 7,
+          "problem": "Internal labels are illegible at mobile scale."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 2,
+          "word": "lassell",
+          "respelling": "la sell"
+        }
+      ],
+      "rewrite": [
+        "Beat 1: Uranus has a frozen moon that once erupted like a volcano.",
+        "Beat 9: This hidden warmth suggests the moon is..."
+      ],
+      "better_than_last": "It provides a stronger historical throughline than the recent sunrise episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: hook, payoff, visuals; 3 frame problems",
+  "rejected_at": "2026-11-24T17:20:04+05:30"
+}
