@@ -92,6 +92,7 @@ unexplained, not alien.
 | 2026-11-21 | Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press — done (ep487) | Mission Files | NASA just released a new milestone collage featuring all 49 drill holes from the rover's 5,061-sol mission. |
 | 2026-11-22 | Juno (spacecraft) (2016): a solar-powered probe braving Jupiter's lethal radiation belts to discover Earth-sized polar cyclones locked in a stable geometric dance | Mission Files | Featured on NASA APOD with newly processed images of Jupiter's vibrant, swirling atmospheric clouds. |
 | 2026-11-22 | Noctilucent cloud (2006): high-altitude clouds on Mars formed of frozen carbon dioxide that glow brightly in the twilight long after sunset — dropped (ep492) | Space Got Weird | NASA's Curiosity rover recently captured new footage of drifting twilight clouds in the Martian atmosphere. |
+| 2026-11-24 | Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon | Mission Files | NASA just released a dedicated documentary capturing Europa Clipper's journey into deep space. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -117,6 +118,7 @@ unexplained, not alien.
 | Dec 27 | Johannes Kepler (1571): he discovered that planets don't move in perfect circles, but in 'squashed' ovals called ellipses | Space Myths, Busted |
 | Dec 28 | Neptune (1612): on Dec 28, Galileo recorded Neptune in his notebook, but mistook the distant planet for a faint star | Space Got Weird |
 | Dec 30 | Edwin Hubble (1924): on this day, the astronomer officially proved that the 'nebula' Andromeda was actually an entire galaxy outside our own | Scale Breaker |
+| Jan 1 | 486958 Arrokoth (2019): on Jan 1, NASA's New Horizons probe flew past a primitive contact binary four billion miles away, revealing a celestial world shaped like a snowman | Space Got Weird |
 | Jan 2 | Luna 1 (1959): on Jan 2, humanity launched the first probe meant to strike the Moon, but a timing glitch made it miss and become the first craft to orbit the Sun | Near Misses |
 | Jan 4 | Spirit (rover) (2004): on Jan 4, NASA's Spirit rover slammed onto Mars wrapped in protective airbags, surviving a mission that lasted 20 times longer than intended | Mission Files |
 | Jan 5 | Eris (dwarf planet) (2005): on this day, astronomers discovered a world so massive it challenged Pluto's status, eventually leading to its demotion as a planet | Space Got Weird |
@@ -279,6 +281,7 @@ unexplained, not alien.
 - Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains — parked (ep490)
 - International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours — done (ep491)
 - Voyager 1 (1998): became the most distant human-made object in history, overtaking Pioneer 10 while traveling over 38,000 miles per hour relative to the Sun — parked (ep498)
+- Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky — making (ep504)
 
 ### Mission Files
 
@@ -449,3 +452,4 @@ unexplained, not alien.
 - Jupiter (1978): despite the persistent myth that Jupiter is a 'failed star', it would need to gain over 80 times its mass to trigger nuclear fusion — dropped (ep437)
 - Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium — done (ep446)
 - Polaris (2018): the iconic North Star is actually a triple star system dominated by a supergiant four times more massive than the Sun — done (ep468)
+- Outer space: despite popular depictions of instant freezing, the vacuum of space is an insulator where overheating is a bigger danger than losing body heat — making (ep503)

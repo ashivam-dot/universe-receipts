@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-11-24T11:06:21+05:30",
+  "updated_at": "2026-11-24T17:09:56+05:30",
   "day": 54,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M860SRMDSA5DE6YPWGMYGFPR",
+    "id": "ta-01M86NCYNKRYA4572212JSAWJR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-24T11:05:13+05:30",
-    "started_at_utc": "2026-11-24T05:35:13+00:00",
-    "seconds": 68
+    "started_at": "2026-11-24T17:05:10+05:30",
+    "started_at_utc": "2026-11-24T11:35:10+00:00",
+    "seconds": 286
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 1.3
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until Nov 28 18:52 UTC",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "direct uploads",
@@ -34,13 +34,13 @@
       "name": "playlists",
       "ok": true,
       "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
-      "seconds": 3.8
+      "seconds": 3.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -52,38 +52,103 @@
       "name": "short reviews",
       "ok": true,
       "detail": "no checkpoint due",
-      "seconds": 2.6
+      "seconds": 2.4
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep501 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 8.0
+      "detail": "ep502 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 6.6
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "134 subscribers",
+      "seconds": 10.3
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Consolidated overlapping reach rules and integrated latest review findings into hypotheses targeting beat 2 dilemma entry and circular ending loops.",
+      "seconds": 82.4
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 2.5
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "1 added",
+      "seconds": 80.0
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "3 added",
+      "seconds": 52.2
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-054.md",
+      "seconds": 3.0
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 18.0
+      "seconds": 8.3
     },
     {
-      "name": "upload ep494",
+      "name": "start ep499",
       "ok": true,
-      "detail": "2026-11-25T12:30:00-05:00",
-      "seconds": 9.3
+      "detail": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep500",
+      "ok": true,
+      "detail": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep501",
+      "ok": true,
+      "detail": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
+      "seconds": 0.5
     },
     {
       "name": "start ep502",
       "ok": true,
       "detail": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
-      "seconds": 1.7
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep503",
+      "ok": true,
+      "detail": "Outer space: despite popular depictions of instant freezing, the vacuum of space is an insulator where overheating is a bigger danger than losing body heat",
+      "seconds": 0.5
+    },
+    {
+      "name": "start ep504",
+      "ok": true,
+      "detail": "Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky",
+      "seconds": 0.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep501 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "ep502 stopped on Gemini's free quota; it resumes in a later run",
     "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and waiting Shorts are uploaded to YouTube directly until then"
   ],
   "inventory": {
@@ -91,13 +156,14 @@
     "in_buffer": 14,
     "waiting": 41,
     "target": 14,
-    "making": [
+    "making": [],
+    "remote": [
       "ep499",
       "ep500",
-      "ep501"
-    ],
-    "remote": [
-      "ep502"
+      "ep501",
+      "ep502",
+      "ep503",
+      "ep504"
     ]
   },
   "queue": [
@@ -426,9 +492,9 @@
   ],
   "made": [
     {
-      "id": "ep501",
+      "id": "ep502",
       "outcome": "unfinished",
-      "topic": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
+      "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -436,47 +502,90 @@
   ],
   "spawned": [
     {
+      "id": "ep499",
+      "topic": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
+      "call_id": "fc-01M86NNQNM0YKFKY1D9YGWZJM4"
+    },
+    {
+      "id": "ep500",
+      "topic": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
+      "call_id": "fc-01M86NNR4HTMFMCT8WPCCYQCSJ"
+    },
+    {
+      "id": "ep501",
+      "topic": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
+      "call_id": "fc-01M86NNRKB8GPRVSTGMJRP7ZEK"
+    },
+    {
       "id": "ep502",
       "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
-      "call_id": "fc-01M860W2KB0CNGXJC9ENW301VS"
+      "call_id": "fc-01M86NNS1JHSXB94XCVAN7JDW1"
+    },
+    {
+      "id": "ep503",
+      "topic": "Outer space: despite popular depictions of instant freezing, the vacuum of space is an insulator where overheating is a bigger danger than losing body heat",
+      "call_id": "fc-01M86NNSJ4CK1PQR67NFHGEX60"
+    },
+    {
+      "id": "ep504",
+      "topic": "Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky",
+      "call_id": "fc-01M86NNT1M25PFHH00RRQ5WMCV"
     }
   ],
   "in_cloud": [
     {
+      "id": "ep499",
+      "topic": "Huge-LQG (2013): a structure of 73 quasars so vast it spans four billion light-years and breaks the basic cosmological rules of universe uniformity",
+      "spawned_at": "2026-11-24T17:09:48+05:30"
+    },
+    {
+      "id": "ep500",
+      "topic": "Heat death of the universe: in the far future, all stars will die and even black holes will evaporate, leaving the universe completely dark forever",
+      "spawned_at": "2026-11-24T17:09:49+05:30"
+    },
+    {
+      "id": "ep501",
+      "topic": "Ariel (moon): Uranus (1852): William Lassell discovered Uranus's first two moons, Ariel and Umbriel, just weeks after spotting them using a homemade telescope he built inside his Liverpool brewery factory",
+      "spawned_at": "2026-11-24T17:09:49+05:30"
+    },
+    {
       "id": "ep502",
       "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
-      "spawned_at": "2026-11-24T11:06:16+05:30"
-    }
-  ],
-  "published": [
+      "spawned_at": "2026-11-24T17:09:50+05:30"
+    },
     {
-      "id": "ep494",
-      "title": "The Million-Times-Faster Star Hunt",
-      "due_at": "2026-11-25T12:30:00-05:00"
+      "id": "ep503",
+      "topic": "Outer space: despite popular depictions of instant freezing, the vacuum of space is an insulator where overheating is a bigger danger than losing body heat",
+      "spawned_at": "2026-11-24T17:09:50+05:30"
+    },
+    {
+      "id": "ep504",
+      "topic": "Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky",
+      "spawned_at": "2026-11-24T17:09:51+05:30"
     }
   ],
+  "published": [],
   "live": 104,
   "failed_posts": [],
   "not_live": [],
   "llm": {
     "calls": 8,
     "by_model": {
-      "gemini-3.6-flash": 2,
-      "gemini-3.5-flash": 1,
-      "gemini-3.5-flash-lite": 4,
+      "gemini-3.6-flash": 4,
+      "gemini-3.5-flash-lite": 3,
       "gemini-3-flash-preview": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 2,
+    "modal": 1,
     "runner": 0
   },
-  "daily_done": "2026-11-23",
+  "daily_done": "2026-11-24",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 15.8,
+    "metered": 15.87,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -484,10 +593,10 @@
     "cloud": 101,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 12.2
+    "modal_credit_left": 12.13
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 35,
+  "open_topics": 37,
   "parked_topics": 42
 }
