@@ -1,0 +1,169 @@
+id: ep508
+title: The 14-Second Martian Mystery
+series: Mission Files
+format: v3
+description: Discover how the first probe to land on Mars transmitted for less than twenty seconds before going silent forever.
+sources:
+- https://en.wikipedia.org/wiki/Mars_3
+- https://web.archive.org/web/20170629105015/https://www.nasa.gov/mission_pages/MRO/news/mro2013411.html
+- https://web.archive.org/web/20140201172449/http://www.3news.co.nz/Failed-Soviet-Mars-spacecraft-found/tabid/1160/articleID/294301/Default.aspx
+- https://web.archive.org/web/20071005010633/http://www.strykfoto.org/mars3.htm
+- http://mentallandscape.com/C_CatalogMars.htm
+- http://zelenyikot.com/searches-of-mars3/
+- http://www.coseti.org/www.fourthplanet.org/lkart_01.htm
+hashtags:
+- '#space'
+- '#mars'
+- '#sovietspace'
+tags:
+- Mars 3
+- Mars Reconnaissance Orbiter
+- space exploration
+- Red Planet
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A Soviet lander touched Mars and died in seconds.
+  emphasis:
+  - died in seconds
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: died in seconds
+      small: ''
+    motion: zoom_in
+- text: It made history as the first successful soft landing.
+  emphasis:
+  - first successful soft landing
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/FP2A3620_%2823497688248%29_%28cropped%29.jpg/1280px-FP2A3620_%2823497688248%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: FP2A3620 (23497688248) (cropped).jpg
+      credit: Музей Космонавтики from Россия
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:FP2A3620_(23497688248)_(cropped).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Then the probe transmitted data for only fourteen seconds.
+  emphasis:
+  - fourteen seconds
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Springtime_on_Mars_%281995-16-280%29.tiff/lossy-page1-500px-Springtime_on_Mars_%281995-16-280%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Springtime on Mars (1995-16-280).tiff
+      credit: 'Credit: Philip James (University of Toledo), Steven Lee (University of Colorado), NASA'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Springtime_on_Mars_(1995-16-280).tiff
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 14.5 SECONDS
+      small: Transmission time
+- text: It returned only a partial gray image with no details.
+  emphasis:
+  - partial gray image
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Delta_on_Mars.jpg/1920px-Delta_on_Mars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Delta on Mars.jpg
+      credit: NASA/JPL/Malin Space Science Systems
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Delta_on_Mars.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A massive planet-wide dust storm raged below.
+  emphasis:
+  - planet-wide dust storm
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ascraeus_Mons_M9_PIA02999.jpg/3840px-Ascraeus_Mons_M9_PIA02999.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ascraeus Mons M9 PIA02999.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Ascraeus_Mons_M9_PIA02999.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Nobody knew what happened to the lost hardware.
+  emphasis:
+  - lost hardware
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Mars_Reconnaissance_Orbiter_spacecraft_model.png/1920px-Mars_Reconnaissance_Orbiter_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars Reconnaissance Orbiter spacecraft model.png
+      credit: National Aeronautics and Space Administration (NASA)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Reconnaissance_Orbiter_spacecraft_model.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Decades later, citizen scientists searched NASA photos.
+  emphasis:
+  - citizen scientists
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: '2013'
+      small: Amateur discovery
+    motion: zoom_in
+- text: They found the parachute sitting on the surface.
+  emphasis:
+  - found the parachute
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 6
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Amateur sleuths spotted a Soviet lander on Mars.
+  emphasis:
+  - Soviet lander
+  visual:
+    reuse: 1
+    motion: zoom_out
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

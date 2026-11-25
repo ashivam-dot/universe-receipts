@@ -1,89 +1,168 @@
 {
-  "updated_at": "2026-11-25T11:06:05+05:30",
+  "updated_at": "2026-11-25T17:10:17+05:30",
   "day": 55,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M88K6FW9TD234SE36Q561J6R",
+    "id": "ta-01M897SPDNX10TFTP50TC1NQ7R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-25T11:05:10+05:30",
-    "started_at_utc": "2026-11-25T05:35:10+00:00",
-    "seconds": 55
+    "started_at": "2026-11-25T17:05:17+05:30",
+    "started_at_utc": "2026-11-25T11:35:17+00:00",
+    "seconds": 301
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.0
+      "seconds": 1.9
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until Nov 28 18:52 UTC",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "direct uploads",
       "ok": true,
-      "detail": "ep412 sent; ep413 sent",
-      "seconds": 0.5
+      "detail": "none due yet",
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY; added ep412 to 'Space Got Weird'; added ep413 to 'Mission Files'",
-      "seconds": 5.2
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
+      "seconds": 10.8
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.5
+      "seconds": 1.0
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 2.4
+      "detail": "ep412 at 6 h: behind the channel's earlier Shorts at this age: 232 views against a median of 668 (0.3x); ep413 at 6 h: behind the channel's earlier Shorts at this age: 110 views against a median of 666 (0.2x)",
+      "seconds": 3.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep507 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 7.0
+      "detail": "ep508 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 7.6
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "134 subscribers",
+      "seconds": 7.7
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Evaluated performance for ep357, ep351, ep360, ep369, ep365, ep378, ep373, ep411, ep380, and ep387; updated playbook hypotheses based on recent retention bottlenecks and hook dynamics.",
+      "seconds": 149.5
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 2.5
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "\"The Million-Times-Faster Star Hunt\" (vd4KQGvcHYI) has 0 views after 30 hours: it is private",
+      "seconds": 0.1
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "1 added",
+      "seconds": 14.7
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "4 added",
+      "seconds": 53.0
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-055.md",
+      "seconds": 2.9
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 11.1
+      "seconds": 8.0
     },
     {
-      "name": "upload ep488",
+      "name": "start ep502",
       "ok": true,
-      "detail": "2026-11-26T12:30:00-05:00",
-      "seconds": 2.7
+      "detail": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
+      "seconds": 1.7
+    },
+    {
+      "name": "start ep504",
+      "ok": true,
+      "detail": "Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky",
+      "seconds": 1.6
+    },
+    {
+      "name": "start ep505",
+      "ok": true,
+      "detail": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep506",
+      "ok": true,
+      "detail": "Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep507",
+      "ok": true,
+      "detail": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
+      "seconds": 1.6
     },
     {
       "name": "start ep508",
       "ok": true,
       "detail": "Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever",
-      "seconds": 0.5
+      "seconds": 1.2
+    },
+    {
+      "name": "start ep509",
+      "ok": true,
+      "detail": "BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity",
+      "seconds": 1.3
+    },
+    {
+      "name": "start ep510",
+      "ok": true,
+      "detail": "STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope",
+      "seconds": 1.2
     }
   ],
   "errors": [],
-  "owner_action": [],
+  "owner_action": [
+    "\"The Million-Times-Faster Star Hunt\" (https://youtube.com/shorts/vd4KQGvcHYI) is held back: it is private. Check it in Studio."
+  ],
   "notes": [
-    "ep507 stopped on Gemini's free quota; it resumes in a later run",
-    "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
+    "ep508 stopped on Gemini's free quota; it resumes in a later run",
     "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and waiting Shorts are uploaded to YouTube directly until then"
   ],
   "inventory": {
@@ -91,15 +170,16 @@
     "in_buffer": 14,
     "waiting": 40,
     "target": 14,
-    "making": [
+    "making": [],
+    "remote": [
       "ep502",
       "ep504",
       "ep505",
       "ep506",
-      "ep507"
-    ],
-    "remote": [
-      "ep508"
+      "ep507",
+      "ep508",
+      "ep509",
+      "ep510"
     ]
   },
   "queue": [
@@ -422,9 +502,9 @@
   ],
   "made": [
     {
-      "id": "ep507",
+      "id": "ep508",
       "outcome": "unfinished",
-      "topic": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
+      "topic": "Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -432,33 +512,97 @@
   ],
   "spawned": [
     {
+      "id": "ep502",
+      "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
+      "call_id": "fc-01M8982XBTGYRGDD5HH1VCQT91"
+    },
+    {
+      "id": "ep504",
+      "topic": "Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky",
+      "call_id": "fc-01M8982YYHXQK6V1HJ7TQ7GCN8"
+    },
+    {
+      "id": "ep505",
+      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
+      "call_id": "fc-01M898306TKWCKD7SR2G006J57"
+    },
+    {
+      "id": "ep506",
+      "topic": "Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon",
+      "call_id": "fc-01M89831EK5Y3J5YHFQM9GG166"
+    },
+    {
+      "id": "ep507",
+      "topic": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
+      "call_id": "fc-01M898330MHEFADR810TBC0WD0"
+    },
+    {
       "id": "ep508",
       "topic": "Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever",
-      "call_id": "fc-01M88K89KP9VXRKX6YX9C2BKPN"
+      "call_id": "fc-01M898344GF06M79ZTNZ2RDVFG"
+    },
+    {
+      "id": "ep509",
+      "topic": "BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity",
+      "call_id": "fc-01M89835BQH3X7G4VVC6S2YQET"
+    },
+    {
+      "id": "ep510",
+      "topic": "STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope",
+      "call_id": "fc-01M89836GJ72F7H1S8HX6KDFXM"
     }
   ],
   "in_cloud": [
     {
+      "id": "ep502",
+      "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
+      "spawned_at": "2026-11-25T17:10:03+05:30"
+    },
+    {
+      "id": "ep504",
+      "topic": "Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky",
+      "spawned_at": "2026-11-25T17:10:05+05:30"
+    },
+    {
+      "id": "ep505",
+      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
+      "spawned_at": "2026-11-25T17:10:06+05:30"
+    },
+    {
+      "id": "ep506",
+      "topic": "Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon",
+      "spawned_at": "2026-11-25T17:10:08+05:30"
+    },
+    {
+      "id": "ep507",
+      "topic": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
+      "spawned_at": "2026-11-25T17:10:09+05:30"
+    },
+    {
       "id": "ep508",
       "topic": "Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever",
-      "spawned_at": "2026-11-25T11:06:00+05:30"
-    }
-  ],
-  "published": [
+      "spawned_at": "2026-11-25T17:10:10+05:30"
+    },
     {
-      "id": "ep488",
-      "title": "NASA Caught a Star Swallowing Its Planet",
-      "due_at": "2026-11-26T12:30:00-05:00"
+      "id": "ep509",
+      "topic": "BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity",
+      "spawned_at": "2026-11-25T17:10:12+05:30"
+    },
+    {
+      "id": "ep510",
+      "topic": "STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope",
+      "spawned_at": "2026-11-25T17:10:13+05:30"
     }
   ],
+  "published": [],
   "live": 107,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 5,
+    "calls": 8,
     "by_model": {
-      "gemini-3-flash-preview": 1,
-      "gemini-3.5-flash-lite": 4
+      "gemini-3.6-flash": 3,
+      "gemini-3.5-flash-lite": 5
     },
     "out_of_quota": []
   },
@@ -466,11 +610,11 @@
     "modal": 1,
     "runner": 0
   },
-  "daily_done": "2026-11-24",
+  "daily_done": "2026-11-25",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 16.49,
+    "metered": 16.55,
     "billed": 0.0
   },
   "modal_credit": 30.0,
@@ -478,10 +622,10 @@
     "cloud": 95,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 11.51
+    "modal_credit_left": 11.46
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 34,
+  "open_topics": 37,
   "parked_topics": 41
 }

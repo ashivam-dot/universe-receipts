@@ -7,3 +7,4 @@
 - 2026-10-29: "The Star Escaping Our Galaxy at 4 Million MPH" (https://youtube.com/shorts/TKHYK3-F_QI) is held back: it is private. Check it in Studio.
 - 2026-10-29: "The Lonely Reality of the Asteroid Belt" (https://youtube.com/shorts/sPUubWIORv4) is held back: it is private. Check it in Studio.
 - 2026-10-29: "The Coldest Place in the Natural Universe" (https://youtube.com/shorts/n8iv0-XfRnY) is held back: it is private. Check it in Studio.
+- 2026-11-25: "The Million-Times-Faster Star Hunt" (https://youtube.com/shorts/vd4KQGvcHYI) is held back: it is private. Check it in Studio.

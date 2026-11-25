@@ -93,6 +93,7 @@ unexplained, not alien.
 | 2026-11-22 | Juno (spacecraft) (2016): a solar-powered probe braving Jupiter's lethal radiation belts to discover Earth-sized polar cyclones locked in a stable geometric dance | Mission Files | Featured on NASA APOD with newly processed images of Jupiter's vibrant, swirling atmospheric clouds. |
 | 2026-11-22 | Noctilucent cloud (2006): high-altitude clouds on Mars formed of frozen carbon dioxide that glow brightly in the twilight long after sunset — dropped (ep492) | Space Got Weird | NASA's Curiosity rover recently captured new footage of drifting twilight clouds in the Martian atmosphere. |
 | 2026-11-24 | Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon — making (ep506) | Mission Files | NASA just released a dedicated documentary capturing Europa Clipper's journey into deep space. |
+| 2026-11-25 | BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity — making (ep509) | Mission Files | Trending on Wikipedia following recent flyby milestones and orbital insertion preparations. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -123,6 +124,7 @@ unexplained, not alien.
 | Jan 4 | Spirit (rover) (2004): on Jan 4, NASA's Spirit rover slammed onto Mars wrapped in protective airbags, surviving a mission that lasted 20 times longer than intended | Mission Files |
 | Jan 5 | Eris (dwarf planet) (2005): on this day, astronomers discovered a world so massive it challenged Pluto's status, eventually leading to its demotion as a planet | Space Got Weird |
 | Jan 6 | Lunar Prospector (1998): on Jan 6, NASA launched a polar orbiter that confirmed massive deposits of water ice hidden inside the permanently shadowed craters of the Moon | Mission Files |
+| Jan 7 | Galilean moons (1610): Galileo discovered four moons orbiting Jupiter, proving not everything revolved around Earth | Space Got Weird |
 | Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day — parked (ep217) | Mission Files |
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury — done (ep252) | Mission Files |
 | Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar — parked (ep271) | Near Misses |
@@ -144,7 +146,7 @@ unexplained, not alien.
 | Nov 28 | PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1 — dropped (ep473) | Space Got Weird |
 | Dec 2 | Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries — making (ep507) | Space Got Weird |
 | Dec 2 | Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever — making (ep508) | Mission Files |
-| Dec 2 | STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope | Mission Files |
+| Dec 2 | STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope — making (ep510) | Mission Files |
 | Dec 6 | Hayabusa2 (2020): on this day, the spacecraft successfully returned pristine capsule samples from asteroid Ryugu back to Earth | Mission Files |
 | Dec 07 | Apollo 17 (1972): the final crewed flight to the Moon, whose astronauts snapped the iconic whole-Earth Blue Marble photograph | Mission Files |
 | Dec 7 | Galileo (spacecraft) (1995): dropped a probe directly into Jupiter's atmosphere that survived 1,000-degree heat and crushing pressures before being vaporized | Mission Files |
@@ -321,6 +323,7 @@ unexplained, not alien.
 - Voyager 1 (1980): used a high-speed flyby of Saturn's giant moon Titan to sling itself right out of the planetary plane and into interstellar space — done (ep421)
 - Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour — done (ep443)
 - Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers — done (ep459)
+- Voyager 1 (1990): after taking the iconic 'Pale Blue Dot' photo, NASA permanently turned off the probe's cameras to conserve power
 
 ### Space Got Weird
 
@@ -368,6 +371,7 @@ unexplained, not alien.
 - Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space — dropped (ep426)
 - Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures — dropped (ep432)
 - Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs — done (ep441)
+- Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface
 
 ### Near Misses
 
@@ -453,3 +457,4 @@ unexplained, not alien.
 - Nuclear fusion (1920): the Sun is not actually on fire, as fire is a chemical reaction requiring oxygen, whereas the Sun glows via nuclear fusion of hydrogen into helium — done (ep446)
 - Polaris (2018): the iconic North Star is actually a triple star system dominated by a supergiant four times more massive than the Sun — done (ep468)
 - Outer space: despite popular depictions of instant freezing, the vacuum of space is an insulator where overheating is a bigger danger than losing body heat — done (ep503)
+- Moon (2010): high-resolution lunar orbiter images revealed that Earth's Moon is shrinking as its core slowly cools
