@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-25T23:10:01+05:30",
-  "day": 55,
+  "updated_at": "2026-11-26T05:05:57+05:30",
+  "day": 56,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M89WCW4MQCH32HPRY8CCF5PR",
+    "id": "ta-01M8AH01BZ3QPYPMZ5CHC1AVPR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-25T23:05:14+05:30",
-    "started_at_utc": "2026-11-25T17:35:14+00:00",
-    "seconds": 287
+    "started_at": "2026-11-26T05:05:14+05:30",
+    "started_at_utc": "2026-11-25T23:35:14+00:00",
+    "seconds": 43
   },
   "stages": [
     {
@@ -27,14 +27,14 @@
     {
       "name": "direct uploads",
       "ok": true,
-      "detail": "ep494 sent",
-      "seconds": 0.9
+      "detail": "none due yet",
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY; added ep494 to 'Mission Files'",
-      "seconds": 5.0
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
+      "seconds": 3.7
     },
     {
       "name": "languages",
@@ -46,43 +46,25 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.3
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep487 at 24 h: behind the channel's earlier Shorts at this age: 161 views against a median of 917 (0.2x); learnings: Updated review analytics across recent Shorts, evaluating retention impacts from setup pacing and script loop structures.",
-      "seconds": 184.8
+      "detail": "ep494 at 6 h: behind the channel's earlier Shorts at this age: 218 views against a median of 664 (0.3x)",
+      "seconds": 2.8
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep502 rejected (low scores: clarity, payoff, visuals); ep504 ready; ep505 ready; ep506 rejected (low scores: payoff, visuals; 2 frame problems); ep507 rejected (low scores: visuals); ep508 rejected (low scores: visuals); ep509 unfinished (ProtocolError: ('Connection broken: IncompleteRead(3214 bytes read)', IncompleteRead(3214 bytes read))); ep510 ready",
-      "seconds": 28.0
+      "detail": "ep509 unfinished (ProtocolError: ('Connection broken: IncompleteRead(3214 bytes read)', IncompleteRead(3214 bytes read))); ep511 rejected (low scores: visuals)",
+      "seconds": 10.6
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 20.1
-    },
-    {
-      "name": "upload ep429",
-      "ok": true,
-      "detail": "2026-11-26T19:00:00-05:00",
-      "seconds": 10.2
-    },
-    {
-      "name": "start ep509",
-      "ok": true,
-      "detail": "BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity",
-      "seconds": 5.6
-    },
-    {
-      "name": "start ep511",
-      "ok": true,
-      "detail": "Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface",
-      "seconds": 1.9
+      "seconds": 7.8
     }
   ],
   "errors": [],
@@ -95,11 +77,10 @@
     "in_buffer": 14,
     "waiting": 42,
     "target": 14,
-    "making": [],
-    "remote": [
-      "ep509",
-      "ep511"
-    ]
+    "making": [
+      "ep509"
+    ],
+    "remote": []
   },
   "queue": [
     {
@@ -433,58 +414,6 @@
   ],
   "made": [
     {
-      "id": "ep502",
-      "outcome": "rejected",
-      "topic": "Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator",
-      "reason": "low scores: clarity, payoff, visuals"
-    },
-    {
-      "id": "ep504",
-      "outcome": "ready",
-      "topic": "Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky",
-      "title": "The 400X Cosmic Match Behind Total Eclipses",
-      "scores": {
-        "hook": 4,
-        "clarity": 4,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795606996/universereceipts/ep504-07d66eb1.mp4"
-    },
-    {
-      "id": "ep505",
-      "outcome": "ready",
-      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
-      "title": "Vampire Stars Reverse Aging in This Collapsed Cluster",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795607211/universereceipts/ep505-03cd0c72.mp4"
-    },
-    {
-      "id": "ep506",
-      "outcome": "rejected",
-      "topic": "Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon",
-      "reason": "low scores: payoff, visuals; 2 frame problems"
-    },
-    {
-      "id": "ep507",
-      "outcome": "rejected",
-      "topic": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
-      "reason": "low scores: visuals"
-    },
-    {
-      "id": "ep508",
-      "outcome": "rejected",
-      "topic": "Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever",
-      "reason": "low scores: visuals"
-    },
-    {
       "id": "ep509",
       "outcome": "unfinished",
       "topic": "BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity",
@@ -493,84 +422,43 @@
       "overloaded": false
     },
     {
-      "id": "ep510",
-      "outcome": "ready",
-      "topic": "STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope",
-      "title": "The Astronaut Who Threw a Solar Panel into Space",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 4,
-        "visuals": 5,
-        "loop": 4
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795607287/universereceipts/ep510-aa78caff.mp4"
-    }
-  ],
-  "spawned": [
-    {
-      "id": "ep509",
-      "topic": "BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity",
-      "call_id": "fc-01M89WNS9PK9EDSR1PQ2578HRS"
-    },
-    {
       "id": "ep511",
+      "outcome": "rejected",
       "topic": "Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface",
-      "call_id": "fc-01M89WNV4951SAPA4TYP52W4EY"
+      "reason": "low scores: visuals"
     }
   ],
-  "in_cloud": [
-    {
-      "id": "ep509",
-      "topic": "BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity",
-      "spawned_at": "2026-11-25T23:09:53+05:30"
-    },
-    {
-      "id": "ep511",
-      "topic": "Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface",
-      "spawned_at": "2026-11-25T23:09:55+05:30"
-    }
-  ],
-  "published": [
-    {
-      "id": "ep429",
-      "title": "How Gemini 12 Solved Spacewalk Exhaustion",
-      "due_at": "2026-11-26T19:00:00-05:00"
-    }
-  ],
+  "spawned": [],
+  "in_cloud": [],
+  "published": [],
   "live": 108,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 28,
+    "calls": 8,
     "by_model": {
-      "gemini-3.6-flash": 16,
+      "gemini-3.5-flash-lite": 1,
       "gemini-3.5-flash": 2,
-      "gemini-3.5-flash-lite": 6,
-      "gemini-3-flash-preview": 4
+      "gemini-3-flash-preview": 4,
+      "gemma-4-31b-it": 1
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 15,
+    "modal": 3,
     "runner": 0
   },
   "daily_done": "2026-11-25",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 16.91,
+    "metered": 16.98,
     "billed": 0.0
   },
   "modal_credit": 30.0,
-  "capacity": {
-    "cloud": 92,
-    "runner": 0,
-    "runner_minutes": 0,
-    "modal_credit_left": 11.09
-  },
+  "capacity": null,
   "starved": 0,
   "made_here": 0,
   "open_topics": 36,
-  "parked_topics": 44
+  "parked_topics": 45
 }

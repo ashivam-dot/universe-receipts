@@ -1,0 +1,203 @@
+id: ep511
+title: Pluto's Sky Is Freezing Solid Right Now
+series: Space Got Weird
+format: v3
+description: As Pluto moves farther from the Sun in its 248-year orbit, its nitrogen atmosphere is finally collapsing into
+  frost on its surface.
+sources:
+- https://www.scientificamerican.com/article/new-horizons-finds-nitrogen-glaciers-and-hazy-air-on-pluto/
+- https://astronomy.com/news/2020/05/plutos-strange-atmosphere-just-collapsed
+- https://www.space.com/astronomy/pluto/plutos-atmosphere-is-collapsing-as-it-drifts-away-from-the-sun-into-a-deep-freeze
+- https://www.universetoday.com/articles/scientists-watch-as-a-distant-worlds-atmosphere-shrinks-and-thins
+- https://en.wikipedia.org/wiki/Pluto
+- https://web.archive.org/web/20151128162358/http://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html
+hashtags:
+- '#space'
+- '#pluto'
+- '#nasa'
+tags:
+- pluto
+- astronomy
+- new horizons
+- space
+- atmosphere
+- solar system
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Pluto's sky is actively freezing and falling to the ground.
+  emphasis:
+  - actively freezing
+  - falling
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/3840px-Pluto_in_True_Color_-_High-Res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pluto in True Color - High-Res.jpg
+      credit: NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Astronomers expected this collapse right after Pluto passed its closest point.
+  emphasis:
+  - expected this collapse
+  - closest point
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c3/The_changing_faces_of_Pluto_%28opo1006a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: The changing faces of Pluto (opo1006a).jpg
+      credit: NASA, ESA and M. Buie (Southwest Research Institute)
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:The_changing_faces_of_Pluto_(opo1006a).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: But for decades, its atmospheric pressure unexpectedly refused to drop.
+  emphasis:
+  - unexpectedly refused
+  - to drop
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/NH-PlutoCharon-Color-NewHorizons-20150711.jpg/1280px-NH-PlutoCharon-Color-NewHorizons-20150711.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NH-PlutoCharon-Color-NewHorizons-20150711.jpg
+      credit: NASA-JHUAPL-SWRI
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NH-PlutoCharon-Color-NewHorizons-20150711.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.67
+    focus_y: 0.5
+    box:
+    - 0.54
+    - 0.28
+    - 0.8
+    - 0.72
+- text: Nitrogen ice in its heart-shaped basin kept pumping gas into the air.
+  emphasis:
+  - heart-shaped basin
+  - pumping gas
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Flowing_nitrogen_ice_on_Pluto.jpg/960px-Flowing_nitrogen_ice_on_Pluto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Flowing nitrogen ice on Pluto.jpg
+      credit: NASA / Johns Hopkins University Applied Physics Laboratory / Southwest Research Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Flowing_nitrogen_ice_on_Pluto.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.6
+    focus_y: 0.65
+    box:
+    - 0.2
+    - 0.3
+    - 0.9
+    - 0.95
+- text: Astronomers watched distant stars dim behind Pluto to measure its atmosphere.
+  emphasis:
+  - watched distant stars
+  - dim
+  sfx: whoosh
+  visual:
+    reuse: 4
+    motion: zoom_in
+    focus_x: 0.6
+    focus_y: 0.65
+- text: Then measurements revealed a sixteen percent pressure drop starting in 2021.
+  emphasis:
+  - sixteen percent
+  - pressure drop
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/0/0e/MVIC_sunset_scan_of_Pluto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: MVIC sunset scan of Pluto.jpg
+      credit: NASA/JHUAPL/SwRI
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:MVIC_sunset_scan_of_Pluto.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.2
+    box:
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.4
+    card:
+      kind: fact
+      big: 16% DROP
+      small: atmospheric pressure reduction
+- text: As Pluto travels toward its farthest point in 2114, the delay is over.
+  emphasis:
+  - farthest point
+  - delay is over
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/15-011a-NewHorizons-PlutoFlyby-ArtistConcept-14July2015-20150115.jpg/960px-15-011a-NewHorizons-PlutoFlyby-ArtistConcept-14July2015-20150115.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 15-011a-NewHorizons-PlutoFlyby-ArtistConcept-14July2015-20150115.jpg
+      credit: Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:15-011a-NewHorizons-PlutoFlyby-ArtistConcept-14July2015-20150115.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.65
+    focus_y: 0.45
+    box:
+    - 0.4
+    - 0.15
+    - 0.9
+    - 0.75
+    card:
+      kind: dateline
+      big: '2114'
+      small: aphelion approach
+- text: The distant world has entered a centuries-long deep freeze.
+  emphasis:
+  - centuries-long
+  - deep freeze
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

@@ -1,0 +1,153 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-25T23:20:22+05:30",
+      "check": {
+        "duration": 30.37,
+        "words": 87,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -2.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "The concept of a sky freezing and falling to the ground is an immediate scroll-stopper.",
+        "clarity": "The script clearly explains the 'why' (nitrogen basin) and the 'how' (occultation) of the discovery.",
+        "payoff": "The 16 percent drop is a concrete and surprising figure that validates the hook.",
+        "visuals": "The visuals are mostly strong, but beat 5 is factually incorrect for the subject matter.",
+        "loop": "Ends on a cold note that leads naturally back into the description of the freezing sky."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "The Hubble surface map is extremely blurry and pixelated, making it low quality for mobile."
+        },
+        {
+          "beat": 5,
+          "problem": "The frame shows an occultation diagram for the dwarf planet Eris instead of Pluto."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short has a much stronger sense of urgency and current events than the more general 'Vampire Stars' episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-25T23:23:13+05:30",
+      "check": {
+        "duration": 30.37,
+        "words": 87,
+        "integrated_lufs": -13.8,
+        "true_peak_dbfs": -2.8,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The imagery of a sky freezing and falling to the ground is a high-stakes, evocative hook.",
+        "clarity": "The script clearly explains the science of the nitrogen ice and the method used to measure it.",
+        "payoff": "The reveal of the 16 percent drop confirms the mystery established in the first half.",
+        "visuals": "The diagram in beat 5 contains French labels which is inappropriate for an English-language Short.",
+        "loop": "The transition from the 'centuries-long deep freeze' back to the 'actively freezing' sky is perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "the diagram contains text in French (Juillet, Février) rather than English"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short has a more poetic and atmospheric hook compared to the more mechanical solar panel story in ep510.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-25T23:27:25+05:30",
+      "check": {
+        "duration": 33.42,
+        "words": 87,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -1.7,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "A very visceral and intriguing image that stops the scroll immediately.",
+        "clarity": "The story flows logically from the scientific mystery to the recent measurement.",
+        "payoff": "The confirmation of the 2021 pressure drop provides a satisfying resolution.",
+        "visuals": "Most frames are excellent, but beat five's reused image is unrelated to the text.",
+        "loop": "The transition from the deep freeze back to the sky freezing is perfectly seamless."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "the map of nitrogen ice flows does not illustrate the stellar occultation mentioned in the speech"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The hook is significantly more immediate and punchy than the vampire stars or eclipse stories.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 2,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-25T23:27:25+05:30"
+}

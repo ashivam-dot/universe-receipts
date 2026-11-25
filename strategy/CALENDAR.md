@@ -371,7 +371,7 @@ unexplained, not alien.
 - Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space — dropped (ep426)
 - Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures — dropped (ep432)
 - Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs — done (ep441)
-- Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface — making (ep511)
+- Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface — parked (ep511)
 
 ### Near Misses
 
