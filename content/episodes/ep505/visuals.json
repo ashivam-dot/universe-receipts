@@ -58,73 +58,30 @@
     ]
   },
   {
-    "source": "url",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Portret_van_Charles_Messier%2C_RP-P-1910-6776.jpg/1920px-Portret_van_Charles_Messier%2C_RP-P-1910-6776.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": {
-      "source": "Wikimedia Commons",
-      "title": "Portret van Charles Messier, RP-P-1910-6776.jpg",
-      "credit": "Rijksmuseum",
-      "license": "CC0",
-      "url": "https://commons.wikimedia.org/wiki/File:Portret_van_Charles_Messier,_RP-P-1910-6776.jpg"
-    },
-    "fallbacks": [
-      "card",
-      "color"
-    ],
-    "motion": "pan_up",
-    "focus_x": 0.54,
-    "focus_y": 0.3,
+    "source": "card",
     "card": {
       "kind": "fact",
       "big": "13 Billion Years",
       "small": "Cluster Age"
     },
-    "_choice": {
-      "key": "commons:File:Portret van Charles Messier, RP-P-1910-6776.jpg",
-      "origin": "commons",
-      "file": "File:Portret van Charles Messier, RP-P-1910-6776.jpg",
-      "title": "Portret van Charles Messier, RP-P-1910-6776.jpg",
-      "width": 2988,
-      "height": 3828,
-      "license": "CC0",
-      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "artist": "Rijksmuseum",
-      "date": "1801",
-      "year": 1801,
-      "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Charles_Messier,_RP-P-1910-6776.jpg",
-      "route": "category",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Portret_van_Charles_Messier%2C_RP-P-1910-6776.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "historical": 1.0,
-      "match": 0.586
-    },
-    "_fit": "close",
-    "_alternates": [
-      {
-        "key": "commons:File:Charles Messier AGE V10 1802.jpg",
-        "origin": "commons",
-        "file": "File:Charles Messier AGE V10 1802.jpg",
-        "title": "Charles Messier AGE V10 1802.jpg",
-        "width": 846,
-        "height": 1113,
-        "license": "Public domain",
-        "license_url": null,
-        "artist": "Jean Henri Cless",
-        "date": "1802date QS:P571,+1802-00-00T00:00:00Z/9",
-        "year": 1802,
-        "page": "https://commons.wikimedia.org/wiki/File:Charles_Messier_AGE_V10_1802.jpg",
-        "route": "category",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Charles_Messier_AGE_V10_1802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "historical": 1.0,
-        "match": 0.04,
-        "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Charles_Messier_AGE_V10_1802.jpg/500px-Charles_Messier_AGE_V10_1802.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      }
+    "motion": "zoom_in",
+    "_rejected": [
+      "commons:File:Charles Messier AGE V10 1802.jpg",
+      "commons:File:Portret van Charles Messier, RP-P-1910-6776.jpg"
     ]
   },
   {
-    "reuse": 2,
+    "source": "card",
+    "card": {
+      "kind": "fact",
+      "big": "core collapsed",
+      "small": ""
+    },
     "motion": "zoom_in",
-    "focus_x": 0.54,
-    "focus_y": 0.3
+    "_rejected": [
+      "commons:File:Charles Messier AGE V10 1802.jpg",
+      "commons:File:Portret van Charles Messier, RP-P-1910-6776.jpg"
+    ]
   },
   {
     "source": "card",

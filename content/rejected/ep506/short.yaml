@@ -1,0 +1,190 @@
+id: ep506
+title: NASA's Largest Ship Carries Water in 103 Languages
+series: Mission Files
+format: v3
+description: NASA's Europa Clipper carries a metal plate etched with the word water in 103 languages and a poem to Jupiter's
+  ocean moon.
+sources:
+- https://en.wikipedia.org/wiki/Europa_Clipper
+- https://www.space.com/europa-clipper-vault-plate-water-jupiter-moon
+- https://web.archive.org/web/20240408032324/https://phys.org/news/2024-04-life-jupiter-moon-europa-scientists.html
+- https://science.nasa.gov/mission/europa-clipper/
+hashtags:
+- '#space'
+- '#europaclipper'
+- '#nasa'
+tags:
+- europa clipper
+- nasa
+- jupiter
+- europa
+- space mission
+- ada limon
+- water
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: NASA etched 'water' in 103 languages on a spacecraft.
+  emphasis:
+  - 103 languages
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Europa-clipper-phone-backgrounds-01.png/1920px-Europa-clipper-phone-backgrounds-01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Europa-clipper-phone-backgrounds-01.png
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Europa-clipper-phone-backgrounds-01.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 103 languages
+      small: the word water
+- text: The waveforms of those voices are etched on a metal plate.
+  emphasis:
+  - waveforms
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/4/40/Closing_of_the_Europa_Clipper_Vault_%28PIA25959%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Closing of the Europa Clipper Vault (PIA25959).jpg
+      credit: NASA Jet Propulsion Laboratory / NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Closing_of_the_Europa_Clipper_Vault_(PIA25959).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: A poem by poet laureate Ada Limón shares the space.
+  emphasis:
+  - Ada Limón
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Ada_Lim%C3%B3n_%282022%29_%28cropped%29.jpg/1920px-Ada_Lim%C3%B3n_%282022%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Ada Limón (2022) (cropped).jpg
+      credit: Library of Congress Life
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Ada_Lim%C3%B3n_(2022)_(cropped).jpg
+    fallbacks:
+    - color
+    motion: pan_down
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.27
+    - 0.15
+    - 0.73
+    - 0.65
+- text: Over 2.6 million names ride on a microchip too.
+  emphasis:
+  - 2.6 million
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 2.6 million
+      small: public names
+    motion: zoom_in
+- text: The whole ship is NASA's largest ever built.
+  emphasis:
+  - largest ever
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Powerful_Antenna_Installed_On_Europa_Clipper_%28PIA25958%29.jpg/3840px-Powerful_Antenna_Installed_On_Europa_Clipper_%28PIA25958%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Powerful Antenna Installed On Europa Clipper (PIA25958).jpg
+      credit: NASA Jet Propulsion Laboratory / NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Powerful_Antenna_Installed_On_Europa_Clipper_(PIA25958).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: LARGEST EVER
+      small: planetary spacecraft
+- text: Nine instruments can sniff a single bacterium in ice.
+  emphasis:
+  - single bacterium
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Europa_Clipper%27s_Dust_Analyzer.jpg/3840px-Europa_Clipper%27s_Dust_Analyzer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Europa Clipper's Dust Analyzer.jpg
+      credit: NASA/JPL-Caltech
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Europa_Clipper%27s_Dust_Analyzer.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.65
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.25
+    - 0.95
+    - 0.85
+- text: Europa Clipper arrives for 49 flybys in April 2030.
+  emphasis:
+  - 49 flybys
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Clipper_over_Europa_%2817954362619%29.png/1280px-Clipper_over_Europa_%2817954362619%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Clipper over Europa (17954362619).png
+      credit: Kevin M. Gill
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Clipper_over_Europa_(17954362619).png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.4
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: April 2030
+      small: Arrival at Jupiter
+- text: It brings this message to search Europa's hidden ocean.
+  emphasis:
+  - hidden ocean
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: VOICES ON A PLATE

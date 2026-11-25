@@ -55,33 +55,23 @@ beats:
   - star cluster
   sfx: whoosh
   visual:
-    source: url
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Portret_van_Charles_Messier%2C_RP-P-1910-6776.jpg/1920px-Portret_van_Charles_Messier%2C_RP-P-1910-6776.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit:
-      source: Wikimedia Commons
-      title: Portret van Charles Messier, RP-P-1910-6776.jpg
-      credit: Rijksmuseum
-      license: CC0
-      url: https://commons.wikimedia.org/wiki/File:Portret_van_Charles_Messier,_RP-P-1910-6776.jpg
-    fallbacks:
-    - card
-    - color
-    motion: pan_up
-    focus_x: 0.54
-    focus_y: 0.3
+    source: card
     card:
       kind: fact
       big: 13 Billion Years
       small: Cluster Age
+    motion: zoom_in
 - text: Its core collapsed into a dense stellar traffic jam.
   emphasis:
   - core collapsed
   - traffic jam
   visual:
-    reuse: 2
+    source: card
+    card:
+      kind: fact
+      big: core collapsed
+      small: ''
     motion: zoom_in
-    focus_x: 0.54
-    focus_y: 0.3
 - text: Half the cluster's mass squeezed into a tiny sphere.
   emphasis:
   - Half

@@ -1,0 +1,146 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-25T17:16:20+05:30",
+      "check": {
+        "duration": 32.23,
+        "words": 86,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -2.5,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong contrast between a solar mission and comet hunting grabs immediate interest.",
+        "clarity": "Chronological narrative flow is clear and simple to follow.",
+        "payoff": "The citizen science twist delivers a satisfying conclusion.",
+        "visuals": "Technical diagrams in beats 3 and 4 feel somewhat dry for mobile.",
+        "loop": "Final sentence loops seamlessly into the opening line."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short builds a stronger dramatic arc by connecting a near-fatal space disaster directly to crowd-sourced discoveries.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-25T17:19:19+05:30",
+      "check": {
+        "duration": 30.49,
+        "words": 86,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.7,
+        "warnings": [],
+        "speech_differences": [
+          "'recovery' heard as 'recover' after 'off a miracle'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Engaging concept that grabs attention immediately.",
+        "clarity": "Logical flow from mission launch to accidental discovery.",
+        "payoff": "Satisfying reveal about citizen science comet findings.",
+        "visuals": "Good overall imagery, though beat 4 uses a dense schematic.",
+        "loop": "Smooth audio transition connecting the ending back to beat 1."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Schematic diagram with small text labels is hard to read on mobile screens."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Provides a tighter narrative payoff compared to recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-25T17:20:39+05:30",
+      "check": {
+        "duration": 31.03,
+        "words": 86,
+        "integrated_lufs": -14.1,
+        "true_peak_dbfs": -3.2,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Sets up an immediate, intriguing paradox about a solar craft becoming a comet hunter.",
+        "clarity": "Easy to follow story arc from mission failure to unexpected rescue and success.",
+        "payoff": "The reveal of citizen scientists finding over 5,000 comets pays off the setup well.",
+        "visuals": "Beat 4 visual mistakenly shows a diagram for Kepler's K2 mission rather than SOHO.",
+        "loop": "Beat 8 connects smoothly and seamlessly back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "shows a Kepler spacecraft diagram instead of SOHO"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "The audio loop between beat 8 and beat 1 feels remarkably natural compared to recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 3,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-25T17:20:39+05:30"
+}

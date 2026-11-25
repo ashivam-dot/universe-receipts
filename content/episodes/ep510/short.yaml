@@ -1,0 +1,209 @@
+id: ep510
+title: The Astronaut Who Threw a Solar Panel into Space
+series: Mission Files
+format: v3
+description: During NASA's STS-61 mission to repair the Hubble Space Telescope, astronaut Kathy Thornton manually jettisoned
+  a damaged 350-pound solar array directly into orbit.
+sources:
+- https://en.wikipedia.org/wiki/STS-61
+- https://web.archive.org/web/20090320075020/http://science.ksc.nasa.gov/shuttle/missions/sts-61/mission-sts-61.html
+hashtags:
+- '#space'
+- '#nasa'
+- '#hubble'
+tags:
+- STS-61
+- Hubble
+- NASA
+- astronaut
+- spacewalk
+- Endeavour
+- space shuttle
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: An astronaut threw a 350-pound solar panel into space.
+  emphasis:
+  - threw
+  - 350-pound
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/STS-61_Cast-off-_Releasing_a_Solar_Array.jpg/1920px-STS-61_Cast-off-_Releasing_a_Solar_Array.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS-61 Cast-off- Releasing a Solar Array.jpg
+      credit: NASA or National Aeronautics and Space Administration
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-61_Cast-off-_Releasing_a_Solar_Array.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.85
+    focus_y: 0.5
+    box:
+    - 0.75
+    - 0.38
+    - 0.98
+    - 0.68
+    card:
+      kind: fact
+      big: 350 POUNDS
+      small: Jettisoned in space
+- text: High over Somalia, she simply released it into the dark.
+  emphasis:
+  - Somalia
+  - released
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.85
+    focus_y: 0.5
+- text: Shuttle Endeavour had grappled Hubble to fix its blurry mirror.
+  emphasis:
+  - Endeavour
+  - blurry mirror
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Hubble_Space_Telescope_Berthed_in_Endeavour%27s_Payload_Bay_after_Capture_%2828051108701%29.jpg/1920px-Hubble_Space_Telescope_Berthed_in_Endeavour%27s_Payload_Bay_after_Capture_%2828051108701%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble Space Telescope Berthed in Endeavour's Payload Bay after Capture (28051108701).jpg
+      credit: NASA Hubble Space Telescope
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_Space_Telescope_Berthed_in_Endeavour%27s_Payload_Bay_after_Capture_(28051108701).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.4
+    box:
+    - 0.15
+    - 0.17
+    - 0.85
+    - 0.82
+- text: Astronaut Jeffrey Hoffman spotted a solar array bent ninety degrees.
+  emphasis:
+  - Jeffrey Hoffman
+  - ninety degrees
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/97/STS-51-D_Griggs_and_Hoffman_attach_tools_to_RMS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: STS-51-D Griggs and Hoffman attach tools to RMS.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-51-D_Griggs_and_Hoffman_attach_tools_to_RMS.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.35
+    focus_y: 0.65
+    card:
+      kind: fact
+      big: 90 DEGREES
+      small: Bent solar array
+- text: The damaged wing wobbled sixteen times every day in orbit.
+  emphasis:
+  - wobbled
+  - sixteen times
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 16 TIMES
+      small: Daily thermal wobbles
+    motion: zoom_in
+- text: Astronauts unmounted the array at night to avoid electrical shocks.
+  emphasis:
+  - unmounted
+  - electrical shocks
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Installation_of_COSTAR_on_Hubble_Space_Telescope_during_STS-61_%2827514165734%29.jpg/1920px-Installation_of_COSTAR_on_Hubble_Space_Telescope_during_STS-61_%2827514165734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Installation of COSTAR on Hubble Space Telescope during STS-61 (27514165734).jpg
+      credit: NASA Hubble Space Telescope
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Installation_of_COSTAR_on_Hubble_Space_Telescope_during_STS-61_(27514165734).jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.32
+    - 0.11
+    - 0.6
+    - 0.76
+- text: Stowing that twisted panel in Endeavour's payload bay was impossible.
+  emphasis:
+  - twisted panel
+  - impossible
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Hubble_Space_Telescope_Being_Surveyed_by_Cameras_on_Space_Shuttle_Endeavour%27s_Arm_%2828051110831%29.jpg/1920px-Hubble_Space_Telescope_Being_Surveyed_by_Cameras_on_Space_Shuttle_Endeavour%27s_Arm_%2828051110831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Hubble Space Telescope Being Surveyed by Cameras on Space Shuttle Endeavour's Arm (28051110831).jpg
+      credit: NASA Hubble Space Telescope
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Hubble_Space_Telescope_Being_Surveyed_by_Cameras_on_Space_Shuttle_Endeavour%27s_Arm_(28051110831).jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    box:
+    - 0.15
+    - 0.05
+    - 0.85
+    - 0.75
+- text: So astronaut Kathy Thornton shoved the solar array into orbit.
+  emphasis:
+  - Kathy Thornton
+  - shoved
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/STS061-96-052_-_Story_Musgrave_on_RMS_during_STS-61_%28Raw_scan%29.tif/lossy-page1-1920px-STS061-96-052_-_Story_Musgrave_on_RMS_during_STS-61_%28Raw_scan%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS061-96-052 - Story Musgrave on RMS during STS-61 (Raw scan).tif
+      credit: Earth Science and Remote Sensing Unit, NASA Johnson Space Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS061-96-052_-_Story_Musgrave_on_RMS_during_STS-61_(Raw_scan).tif
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.55
+- text: It safely burned up in Earth's atmosphere.
+  emphasis:
+  - burned up
+  - atmosphere
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.85
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

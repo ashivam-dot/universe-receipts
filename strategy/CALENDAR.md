@@ -73,7 +73,7 @@ unexplained, not alien.
 | 2026-11-05 | NGC 4449 (1788): a dwarf galaxy undergoing such an intense starburst that it mimics the chaotic galaxy formation of the early universe — dropped (ep486) | Scale Breaker | Highlighted in a new NASA Hubble Space Telescope release on November 4. |
 | 2026-11-06 | Hyperion (moon) (1848): a sponge-like Saturnian moon that tumbles chaotically through space and builds up a massive static charge — dropped (ep485) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
 | 2026-11-06 | Janus (moon) (1966): shares virtually the exact same orbit with Epimetheus, performing a cosmic dance where they swap places every four years — done (ep367) | Space Got Weird | Follow-up to ep359, which broke out (1,455 views in 9 h, 20.2x the median) |
-| 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging — making (ep505) | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
+| 2026-11-06 | Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging — done (ep505) | Space Got Weird | Featured in recent Hubble Space Telescope observations examining stellar history. |
 | 2026-11-09 | Family Portrait (Voyager) (1990): Voyager 1 snapped the first-ever solar system 'family portrait', capturing six planets as tiny specks of light across four billion miles of space — done (ep411) | Scale Breaker | Follow-up to ep356, which is rising (2,214 views in 33 h, 2.0x the median) |
 | 2026-11-10 | Perseverance (rover) (2026): discovered potential rubies on the Martian surface, crystals that usually only form in the extreme heat and pressure of deep volcanic plumbing — dropped (ep402) | Space Got Weird | NASA recently announced the discovery of corundum crystals (rubies) in the latest Martian rock samples. |
 | 2026-11-10 | Eta Carinae (2026): new X-ray data revealed that a hidden companion star is repeatedly crashing through the giant's atmosphere, causing its violent and mysterious outbursts — parked (ep401) | The Universe Is Terrifying | New findings from the Chandra X-ray Observatory explain the star's mysterious and violent periodic eruptions. |
@@ -92,7 +92,7 @@ unexplained, not alien.
 | 2026-11-21 | Curiosity (rover) (2012): when a critical motor failed, NASA saved the mission by teaching the rover to use its seven-foot robotic arm like a human drill press — done (ep487) | Mission Files | NASA just released a new milestone collage featuring all 49 drill holes from the rover's 5,061-sol mission. |
 | 2026-11-22 | Juno (spacecraft) (2016): a solar-powered probe braving Jupiter's lethal radiation belts to discover Earth-sized polar cyclones locked in a stable geometric dance | Mission Files | Featured on NASA APOD with newly processed images of Jupiter's vibrant, swirling atmospheric clouds. |
 | 2026-11-22 | Noctilucent cloud (2006): high-altitude clouds on Mars formed of frozen carbon dioxide that glow brightly in the twilight long after sunset — dropped (ep492) | Space Got Weird | NASA's Curiosity rover recently captured new footage of drifting twilight clouds in the Martian atmosphere. |
-| 2026-11-24 | Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon — making (ep506) | Mission Files | NASA just released a dedicated documentary capturing Europa Clipper's journey into deep space. |
+| 2026-11-24 | Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon — parked (ep506) | Mission Files | NASA just released a dedicated documentary capturing Europa Clipper's journey into deep space. |
 | 2026-11-25 | BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity — making (ep509) | Mission Files | Trending on Wikipedia following recent flyby milestones and orbital insertion preparations. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
@@ -144,9 +144,9 @@ unexplained, not alien.
 | Nov 27 | Mars 2 (1971): the Soviet lander became the first human-made object to reach Mars on this day, crashing into the red planet after its parachute failed — done (ep460) | Mission Files |
 | Nov 28 | Mariner 4 (1964): the first probe to send back close-up photos of Mars, revealing a dead, cratered moon-like world that shattered dreams of Martian civilizations — done (ep472) | Mission Files |
 | Nov 28 | PSR B1919+21 (1967): the first discovered pulsar flashed with such unnatural precision that astronomers initially cataloged the signal as Little Green Men 1 — dropped (ep473) | Space Got Weird |
-| Dec 2 | Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries — making (ep507) | Space Got Weird |
-| Dec 2 | Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever — making (ep508) | Mission Files |
-| Dec 2 | STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope — making (ep510) | Mission Files |
+| Dec 2 | Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries — parked (ep507) | Space Got Weird |
+| Dec 2 | Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever — parked (ep508) | Mission Files |
+| Dec 2 | STS-61 (1993): astronauts conducted a record five spacewalks to repair the blurry optics of the Hubble Space Telescope — done (ep510) | Mission Files |
 | Dec 6 | Hayabusa2 (2020): on this day, the spacecraft successfully returned pristine capsule samples from asteroid Ryugu back to Earth | Mission Files |
 | Dec 07 | Apollo 17 (1972): the final crewed flight to the Moon, whose astronauts snapped the iconic whole-Earth Blue Marble photograph | Mission Files |
 | Dec 7 | Galileo (spacecraft) (1995): dropped a probe directly into Jupiter's atmosphere that survived 1,000-degree heat and crushing pressures before being vaporized | Mission Files |
@@ -283,7 +283,7 @@ unexplained, not alien.
 - Solar System (2006): the Sun contains 99.86 percent of all mass in our solar system, leaving all eight planets and millions of asteroids to share what tiny fraction remains — parked (ep490)
 - International Space Station (1998): orbiting Earth at 17,500 miles per hour, astronauts aboard the space station experience 16 sunrises and 16 sunsets every 24 hours — done (ep491)
 - Voyager 1 (1998): became the most distant human-made object in history, overtaking Pioneer 10 while traveling over 38,000 miles per hour relative to the Sun — parked (ep498)
-- Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky — making (ep504)
+- Solar eclipse: the Sun is roughly 400 times wider than the Moon and 400 times farther away, creating a near-perfect cosmic matching size in our sky — done (ep504)
 
 ### Mission Files
 
@@ -313,7 +313,7 @@ unexplained, not alien.
 - 2001 Mars Odyssey (2001): the longest-continually active spacecraft at another planet has been mapping the Martian surface for over 23 years — dropped (ep489)
 - Project Echo (1960): NASA's first communication satellites were giant, 100-foot-wide metallic balloons that reflected radio signals back to Earth — parked (ep353)
 - Deep Space 1 (1998): NASA launched an experimental probe that used autonomous artificial intelligence to navigate deep space without human commands — done (ep351)
-- Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — making (ep502)
+- Ulysses (spacecraft) (1990): the first probe to fly over the Sun's poles, discovering that solar winds travel twice as fast at the poles than at the equator — dropped (ep502)
 - Apollo 11 (1969): the astronauts were quarantined for three weeks after returning because NASA feared they might bring back Moon germs — dropped (ep431)
 - James Webb Space Telescope (2022): its sunshield is as big as a tennis court and made of material so thin it keeps one side at 185 degrees while the other is minus 388 — done (ep436)
 - Voyager 2 (1989): the probe discovered Neptune had supersonic winds blowing at 1,300 miles per hour, the fastest recorded anywhere in the solar system — done (ep439)
@@ -371,7 +371,7 @@ unexplained, not alien.
 - Triton (moon) (1989): Neptune's largest moon orbits backward and spews giant icy nitrogen geysers eight kilometers into space — dropped (ep426)
 - Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures — dropped (ep432)
 - Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs — done (ep441)
-- Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface
+- Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface — making (ep511)
 
 ### Near Misses
 

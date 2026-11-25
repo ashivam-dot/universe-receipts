@@ -1,0 +1,152 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-25T17:13:13+05:30",
+      "check": {
+        "duration": 28.0,
+        "words": 75,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -3.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong narrative hook with an immediate mystery.",
+        "clarity": "Easy to follow chronological explanation.",
+        "payoff": "Satisfying historical resolution using modern findings.",
+        "visuals": "Mismatched asset on beat 8 detracts from visual quality.",
+        "loop": "Seamless audio transition between the final line and the start."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "Shows an orbiting spacecraft instead of a parachute on the Martian surface."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "Offers a cleaner resolution arc compared to recent factual summaries.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-25T17:15:17+05:30",
+      "check": {
+        "duration": 27.78,
+        "words": 75,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Sets up an intriguing mystery right away about a landing gone wrong.",
+        "clarity": "Follows a clean chronological storyline from landing to rediscovery.",
+        "payoff": "Delivers a satisfying payoff showing how citizen scientists solved the mystery.",
+        "visuals": "Beat 8 shows an orbital satellite graphic instead of a parachute on the surface.",
+        "loop": "The final beat flows directly back into the opening line."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "The picture shows an orbiting satellite in space rather than a parachute sitting on the Martian surface."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short creates a tighter narrative arc around a space exploration mystery than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-25T17:16:26+05:30",
+      "check": {
+        "duration": 27.78,
+        "words": 75,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "designed card",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "designed card"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Grabs attention immediately with the dramatic loss of the lander.",
+        "clarity": "Clear, single-concept beats make the historical timeline easy to follow.",
+        "payoff": "The discovery by citizen scientists decades later is a satisfying resolution.",
+        "visuals": "Beat 8 visually fails by showing an orbiter in space rather than a parachute on the surface.",
+        "loop": "The final line connects seamlessly into the opening statement."
+      },
+      "frames": [
+        {
+          "beat": 8,
+          "problem": "shows a satellite floating in space, which does not match a parachute sitting on the surface"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: visuals",
+  "rejected_at": "2026-11-25T17:16:26+05:30"
+}

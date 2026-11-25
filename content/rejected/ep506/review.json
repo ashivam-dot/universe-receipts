@@ -1,0 +1,187 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-25T17:15:32+05:30",
+      "check": {
+        "duration": 24.7,
+        "words": 72,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'(nothing)' heard as 'a' after 'etched water in'",
+          "'limon' heard as 'lamone' after 'poet laureate ada'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Intriguing concept hooks viewers quickly within the opening seconds.",
+        "clarity": "Narrative flow is easy to digest for general audiences.",
+        "payoff": "Ties back neatly but could emphasize the subsurface ocean reveal more strongly.",
+        "visuals": "Beat 7 incorrectly displays a TRAPPIST-1 system chart instead of Europa flybys.",
+        "loop": "Seamless transition from 103 voices back to 103 languages."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Displays an off-topic TRAPPIST-1 comparison chart instead of Europa flyby orbits."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Limón",
+          "respelling": "lee mohn"
+        }
+      ],
+      "rewrite": [
+        "Beat 8: 'It carries those 103 words for water to search Europa's hidden ocean.'"
+      ],
+      "better_than_last": " Connects the human payload theme more directly to the scientific target than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-25T17:20:22+05:30",
+      "check": {
+        "duration": 26.7,
+        "words": 74,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [
+          "'ada limon' heard as 'adele monne' after 'by poet laureate'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Flickr via Openverse",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "The specific detail about etching languages is a strong, tangible opener.",
+        "clarity": "The transition from words to sounds in beat 2 is confusing without context.",
+        "payoff": "Concluding with the search for life provides a standard mission resolution.",
+        "visuals": "Most frames are excellent, but beat 7 is entirely off-topic.",
+        "loop": "The connection is logical but the phrasing feels repetitive upon replay."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Frame shows the TRAPPIST-1 system instead of Jupiter and Europa."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Ada Limón",
+          "respelling": "ah dah lee moan"
+        }
+      ],
+      "rewrite": [
+        "beat 2: The waveforms of those voices are etched on a metal plate.",
+        "beat 8: It brings this message to search Europa's hidden ocean."
+      ],
+      "better_than_last": "The focus on a single physical artifact creates a more memorable narrative than the conceptual quasar wall.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-25T17:24:00+05:30",
+      "check": {
+        "duration": 23.63,
+        "words": 74,
+        "integrated_lufs": -13.9,
+        "true_peak_dbfs": -3.3,
+        "warnings": [],
+        "speech_differences": [
+          "'limon' heard as 'lamone' after 'poet laureate ada'",
+          "'ride' heard as 'write' after 'over 2600000 names'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "A strong opening fact that connects language to space exploration.",
+        "clarity": "Logical progression from the message contents to the spacecraft's physical capabilities.",
+        "payoff": "Ends on a mission summary rather than a surprising or emotional conclusion.",
+        "visuals": "Several shots feel like generic laboratory b-roll rather than showing specific items.",
+        "loop": "The transition from the ocean search back to water languages is smooth."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Shows a wide shot of technicians instead of the plate or waveforms described."
+        },
+        {
+          "beat": 5,
+          "problem": "Generic assembly room view; does not convey the scale of the ship."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "Limón",
+          "respelling": "lee moan"
+        }
+      ],
+      "rewrite": [
+        "Beat 6: This tech is built to hunt for life in the ice.",
+        "Beat 8: It carries our voices to find if we're alone."
+      ],
+      "better_than_last": "Balances human culture and planetary science better than the technical quasar story.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals; 2 frame problems",
+  "rejected_at": "2026-11-25T17:24:00+05:30"
+}
