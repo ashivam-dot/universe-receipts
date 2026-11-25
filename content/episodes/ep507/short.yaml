@@ -1,0 +1,169 @@
+id: ep507
+title: The Accidental Comet Hunter
+series: Space Got Weird
+format: v3
+description: Designed to monitor the Sun, the SOHO spacecraft accidentally discovered over 5,000 comets.
+sources:
+- https://en.wikipedia.org/wiki/Solar_and_Heliospheric_Observatory
+- https://science.nasa.gov/mission/soho/
+- https://www.sciencedaily.com/releases/2025/12/251203084928.htm
+- https://www.esa.int/ESA_Multimedia/Images/2024/03/SOHO_reaches_5000_comets
+- http://www.space.com/30562-soho-spacecraft-discovers-3000-comets.html
+- https://sungrazer.nrl.navy.mil/
+hashtags:
+- '#space'
+- '#comet'
+- '#nasa'
+tags:
+- SOHO
+- Sun
+- comets
+- ESA
+- astronomy
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A solar observatory became history's greatest comet hunter.
+  emphasis:
+  - comet hunter
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/NASA_SOHO_spacecraft.png/1280px-NASA_SOHO_spacecraft.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: NASA SOHO spacecraft.png
+      credit: Cgruda
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:NASA_SOHO_spacecraft.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It was launched in 1995 for just a two-year mission.
+  emphasis:
+  - two-year mission
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Atlas_IIAS_launch_with_SOHO.jpg/960px-Atlas_IIAS_launch_with_SOHO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Atlas IIAS launch with SOHO.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Atlas_IIAS_launch_with_SOHO.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '1995'
+      small: Launch
+- text: Then a command error sent it spinning into a silent, frozen deep-space blackout.
+  emphasis:
+  - silent, frozen
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Lagrange_points.jpg/1920px-Lagrange_points.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Lagrange points.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Lagrange_points.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Engineers pulled off a miracle recovery using reaction wheels as virtual gyroscopes.
+  emphasis:
+  - virtual gyroscopes
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/0/0a/Soho_schema.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Soho schema.png
+      credit: Unknown author
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Soho_schema.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Its LASCO instrument blocks the solar glare with an artificial eclipse.
+  emphasis:
+  - artificial eclipse
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Halloween_Storm_-Intense_Solar_Activity-_%283442090793%29.jpg/960px-Halloween_Storm_-Intense_Solar_Activity-_%283442090793%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Halloween Storm -Intense Solar Activity- (3442090793).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Halloween_Storm_-Intense_Solar_Activity-_(3442090793).jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That sun-blocking trick unlocked a staggering scale of discoveries.
+  emphasis:
+  - staggering scale
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/What_is_a_Sungrazing_Comet%3F_-hd_video-_%2811090096633%29.jpg/960px-What_is_a_Sungrazing_Comet%3F_-hd_video-_%2811090096633%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: What is a Sungrazing Comet? -hd video- (11090096633).jpg
+      credit: NASA Goddard Space Flight Center from Greenbelt, MD, USA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:What_is_a_Sungrazing_Comet%3F_-hd_video-_(11090096633).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Citizen scientists combing through public data found over 5,000 comets.
+  emphasis:
+  - 5,000 comets
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 5,000
+      small: Comet discoveries
+    motion: zoom_in
+- text: More than half of all known comets were found by a solar observatory.
+  emphasis:
+  - solar observatory
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: A SUN-WATCHER'S 5,000 COMETS

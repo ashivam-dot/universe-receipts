@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-25T05:06:10+05:30",
+  "updated_at": "2026-11-25T11:06:05+05:30",
   "day": 55,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M87YKAZ9XKBKS5PD0EHJ3H1R",
+    "id": "ta-01M88K6FW9TD234SE36Q561J6R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-25T05:05:12+05:30",
-    "started_at_utc": "2026-11-24T23:35:12+00:00",
-    "seconds": 58
+    "started_at": "2026-11-25T11:05:10+05:30",
+    "started_at_utc": "2026-11-25T05:35:10+00:00",
+    "seconds": 55
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.2
+      "seconds": 1.0
     },
     {
       "name": "sync",
@@ -27,14 +27,14 @@
     {
       "name": "direct uploads",
       "ok": true,
-      "detail": "none due yet",
-      "seconds": 0.4
+      "detail": "ep412 sent; ep413 sent",
+      "seconds": 0.5
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
-      "seconds": 3.7
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY; added ep412 to 'Space Got Weird'; added ep413 to 'Mission Files'",
+      "seconds": 5.2
     },
     {
       "name": "languages",
@@ -51,49 +51,55 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep487 at 6 h: behind the channel's earlier Shorts at this age: 64 views against a median of 675 (0.1x)",
-      "seconds": 3.2
+      "detail": "no checkpoint due",
+      "seconds": 2.4
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep505 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today); ep506 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
-      "seconds": 9.4
+      "detail": "ep507 unfinished (OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today)",
+      "seconds": 7.0
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 9.4
+      "seconds": 11.1
     },
     {
-      "name": "start ep507",
+      "name": "upload ep488",
       "ok": true,
-      "detail": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
-      "seconds": 0.6
+      "detail": "2026-11-26T12:30:00-05:00",
+      "seconds": 2.7
+    },
+    {
+      "name": "start ep508",
+      "ok": true,
+      "detail": "Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever",
+      "seconds": 0.5
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "ep505 stopped on Gemini's free quota; it resumes in a later run",
-    "ep506 stopped on Gemini's free quota; it resumes in a later run",
+    "ep507 stopped on Gemini's free quota; it resumes in a later run",
     "Gemini's Flash quota is spent until 13:35 IST: new Shorts are drafted on the backup models, and each waits for a Flash review after the reset",
     "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and waiting Shorts are uploaded to YouTube directly until then"
   ],
   "inventory": {
-    "total": 56,
-    "in_buffer": 15,
-    "waiting": 41,
+    "total": 54,
+    "in_buffer": 14,
+    "waiting": 40,
     "target": 14,
     "making": [
       "ep502",
       "ep504",
       "ep505",
-      "ep506"
+      "ep506",
+      "ep507"
     ],
     "remote": [
-      "ep507"
+      "ep508"
     ]
   },
   "queue": [
@@ -148,18 +154,6 @@
       "due_at": "2026-11-17T21:30:00-05:00"
     },
     {
-      "id": "ep412",
-      "title": "How One Astronomer Proved the UNIVERSE Is Expanding",
-      "due_at": "2026-11-24T19:00:00-05:00",
-      "direct": true
-    },
-    {
-      "id": "ep413",
-      "title": "The Ghost Module That Started the Space Station",
-      "due_at": "2026-11-24T21:30:00-05:00",
-      "direct": true
-    },
-    {
       "id": "ep494",
       "title": "The Million-Times-Faster Star Hunt",
       "due_at": "2026-11-25T12:30:00-05:00",
@@ -175,6 +169,12 @@
       "id": "ep409",
       "title": "The Space Detector Wider Than the Sun",
       "due_at": "2026-11-25T21:30:00-05:00",
+      "direct": true
+    },
+    {
+      "id": "ep488",
+      "title": "NASA Caught a Star Swallowing Its Planet",
+      "due_at": "2026-11-26T12:30:00-05:00",
       "direct": true
     }
   ],
@@ -396,12 +396,6 @@
       "score": 20
     },
     {
-      "id": "ep488",
-      "title": "NASA Caught a Star Swallowing Its Planet",
-      "series": "Space Got Weird",
-      "score": 24
-    },
-    {
       "id": "ep491",
       "title": "Why Astronauts See 16 Sunrises Every Day",
       "series": "Scale Breaker",
@@ -428,17 +422,9 @@
   ],
   "made": [
     {
-      "id": "ep505",
+      "id": "ep507",
       "outcome": "unfinished",
-      "topic": "Messier 30 (1764): a dense star cluster whose collapsed core squeezed stars together, creating 'vampire' stars that siphon mass from their neighbors to reverse aging",
-      "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
-      "quota": true,
-      "overloaded": false
-    },
-    {
-      "id": "ep506",
-      "outcome": "unfinished",
-      "topic": "Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon",
+      "topic": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
       "reason": "OutOfQuota: no model in ('gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3-flash-preview', 'gemini-flash-latest') has free quota left today",
       "quota": true,
       "overloaded": false
@@ -446,53 +432,56 @@
   ],
   "spawned": [
     {
-      "id": "ep507",
-      "topic": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
-      "call_id": "fc-01M87YN8NRZJ86QJ53F5HB1TTE"
+      "id": "ep508",
+      "topic": "Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever",
+      "call_id": "fc-01M88K89KP9VXRKX6YX9C2BKPN"
     }
   ],
   "in_cloud": [
     {
-      "id": "ep507",
-      "topic": "Solar and Heliospheric Observatory (1995): designed to monitor the Sun, this spacecraft accidentally became history's greatest comet finder with over 5,000 discoveries",
-      "spawned_at": "2026-11-25T05:06:05+05:30"
+      "id": "ep508",
+      "topic": "Mars 3 (1971): the first probe to make a soft landing on Mars transmitted data for only 14.5 seconds before mysteriously cutting out forever",
+      "spawned_at": "2026-11-25T11:06:00+05:30"
     }
   ],
-  "published": [],
-  "live": 105,
+  "published": [
+    {
+      "id": "ep488",
+      "title": "NASA Caught a Star Swallowing Its Planet",
+      "due_at": "2026-11-26T12:30:00-05:00"
+    }
+  ],
+  "live": 107,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 8,
+    "calls": 5,
     "by_model": {
-      "gemini-3.6-flash": 1,
-      "ovh:Qwen3.5-397B-A17B": 2,
-      "gemma-4-31b-it": 3,
-      "ovh:Qwen3.8-27B": 1,
-      "gemini-3.5-flash-lite": 1
+      "gemini-3-flash-preview": 1,
+      "gemini-3.5-flash-lite": 4
     },
     "out_of_quota": []
   },
   "renders": {
-    "modal": 2,
+    "modal": 1,
     "runner": 0
   },
   "daily_done": "2026-11-24",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 16.45,
+    "metered": 16.49,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 96,
+    "cloud": 95,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 11.55
+    "modal_credit_left": 11.51
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 35,
+  "open_topics": 34,
   "parked_topics": 41
 }
