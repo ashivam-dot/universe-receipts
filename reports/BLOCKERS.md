@@ -8,3 +8,4 @@
 - 2026-10-29: "The Lonely Reality of the Asteroid Belt" (https://youtube.com/shorts/sPUubWIORv4) is held back: it is private. Check it in Studio.
 - 2026-10-29: "The Coldest Place in the Natural Universe" (https://youtube.com/shorts/n8iv0-XfRnY) is held back: it is private. Check it in Studio.
 - 2026-11-25: "The Million-Times-Faster Star Hunt" (https://youtube.com/shorts/vd4KQGvcHYI) is held back: it is private. Check it in Studio.
+- 2026-11-26: "NASA Caught a Star Swallowing Its Planet" (https://youtube.com/shorts/SrOs7Mag0m8) is held back: it is private. Check it in Studio.

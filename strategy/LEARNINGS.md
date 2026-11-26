@@ -24,22 +24,21 @@ rules pull in opposite directions keep the better-measured one and move the othe
 also copy it into `strategy/SCRIPT-RULES.md`, then cite the evidence here. (Consolidated 2026-10-25 from 30 rules,
 each promoted on two Shorts; their evidence is kept below.)
 
-- Prioritize cosmic-scale subjects or immediate conflict/active paradox hooks over passive opening exposition in beat 1 to maximize reach. Evidence: ep346, ep352, ep356, ep359 (median early_reach 1746) vs ep345, ep355, ep367, ep258 (median 482.5).
+- Open with a high-stakes question, active crisis, or cosmic paradox within the first 3 seconds to maximize distribution. Evidence: ep346, ep356, ep380, ep378 (median early_reach 1655.5) vs ep365, ep387, ep412, ep413 (median 579.0).
 - The last line must be a syntactical fragment leading naturally back into the first to drive rewatches. Evidence: ep072, ep201, ep262, ep268, ep380 (median AVP 120.0%) vs ep360, ep365, ep351, ep373 (median 65.1%).
 - Never repeat the hook or title wording verbatim in the final beat; use a fresh insight to prevent completion drops. Evidence: ep072, ep201, ep262, ep268, ep380 (median AVP 120.0%) vs ep360, ep369, ep373, ep378 (median AVP 71.1%).
-- No jargon, discovery dates, catalog names, or technical calculations: replace with one familiar physical comparison. Evidence: ep346, 356, 260, 265 (median 1663) vs ep181, 186, 195, 197, 362, 367 (median 685.5).
-- Anchor hooks with authority institutions (NASA, Apollo) or named historical missions to improve distribution. Evidence: ep137, ep262, ep265, ep352, ep356 (median early_reach 1375) vs ep186, ep185, ep197, ep172 (median 711).
+- No jargon, discovery dates, catalog names, or technical calculations: replace with one familiar physical comparison. Evidence: ep346, ep356, ep260, ep265 (median early_reach 1663.0) vs ep181, ep186, ep195, ep197, ep362, ep367 (median 685.5).
+- Anchor hooks with authority institutions (NASA, Apollo) or named historical missions to improve distribution. Evidence: ep137, ep262, ep265, ep352, ep356 (median early_reach 1375.0) vs ep186, ep185, ep197, ep172 (median 711.0).
 - End right after the climax: no aftermath subplot, redundant summary, or reflective wrap-up to avoid retention drops. Evidence: ep165, ep266, ep346, ep347, ep352, ep355 (median AVP 80.5%) vs ep186, ep172, ep195, ep197, ep221, ep254 (median 66.4%).
-- Open with the most surprising true thing about a well-known subject in the first 2 seconds to maximize early hold. Evidence: ep111, ep133, ep201, ep263, ep265, ep378 (median at10 1.42) vs ep352, 367, 181, 172 (median 1.15).
-- End scripts with an open friction line, debate prompt, or fresh insight rather than an explanatory recap to stimulate likes and comments. Evidence: ep351, ep356, ep357, ep369 (median likes/100 2.65) vs ep360, ep378, ep380, ep387, ep411 (median 2.0).
+- End scripts with an open friction line, debate prompt, or fresh insight rather than an explanatory recap to stimulate likes. Evidence: ep351, ep356, ep357, ep369 (median likes/100 2.65) vs ep360, ep378, ep380, ep387, ep411 (median 2.0).
 
 ## Hypotheses to test (from research, not yet our data)
 
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
-- Start with a human conflict, mistake, or high-stakes question rather than a scientific premise to stop the scroll (ep412, ep413, ep365, ep387).
 - Open with problem tension rather than spoiling the resolution in beat 1 to preserve engagement and early hold (ep373, ep487).
-- Introduce the inciting mechanical failure or dilemma directly in beat 2 rather than tech specs or re-explanations to prevent mid-script retention collapse (ep351, ep369).
+- Introduce the inciting mechanical failure or dilemma directly in beat 2 rather than metaphorical re-explanations to prevent mid-script retention collapse (ep351, ep369).
+- Start with a human conflict or mistake rather than a scientific premise to stop the scroll (ep412, ep413, ep365, ep387).
 - Frame hooks using a direct 'you' perspective (e.g., 'If you stood on Pluto today') to increase viewer relevance and early hold (ep357).
 - In a hazard story, keep the safety resolution for the last beat to maintain tension (ep130, ep133, ep137, ep159, ep184).
 - Compress scientific definitions into a single beat under 4 seconds to reach core resolution before 12 seconds.
@@ -76,13 +75,13 @@ contradiction.
 | ep357 | Space Got Weird | statement, story | 1268 | 49% | 67.7% | 118% | 0 | – |
 | ep351 | Mission Files | contradiction, scale_ladder | 799 | 49% | 71.6% | 122% | 0 | – |
 | ep360 | Mission Files | statement, myth_vs_fact | 1167 | 54% | 62.7% | 121% | 0 | – |
-| ep369 | Near Misses | statement, scale_ladder | 130 | 47% | 74.9% | 132% | 0 | conflict hook worked but mid-video repetition of the problem and a dual-beat summary ending killed retention. |
-| ep365 | Mission Files | statement, record | 1027 | 47% | 59.2% | 119% | 0 | strong Mars mystery payoff drove high rewatches but passive atmospheric hook text failed to stop scrollers. |
-| ep378 | Space Myths, Busted | statement, record | 1171 | 49% | 118.4% | 171% | 0 | record-breaking stat hook achieved elite early hold but verbatim repetition of the claim at the end lowered completion. |
-| ep373 | Near Misses | statement, myth_vs_fact | 847 | 51% | 67.5% | 119% | 0 | mid-retention held during crisis beats but reach was limited by a hook that spoiled the resolution immediately. |
-| ep411 | Scale Breaker | statement, mystery | 1246 | 44% | 90.1% | 132% | 2 | scale-based hook and mid-video tension drove high AVP but a closed poetic ending prevented rewatches. |
-| ep380 | Scale Breaker | statement, story | 1399 | 53% | 95.4% | 144% | 1 | exceptional reach and AVP driven by a massive scale hook and a perfect syntactical loop. |
-| ep387 | Mission Files | statement, scale_ladder | 866 | 50% | 119.3% | 173% | 0 | loop structure maintained completion but the low-friction declarative hook resulted in weak early hold. |
+| ep369 | Near Misses | statement, scale_ladder | 130 | 47% | 74.9% | 132% | 0 | Hook and topic held initial interest, but repetitive metaphorical re-explanations in the mid-script are associated with a sharp retention collapse; pacing dragged at the end. |
+| ep365 | Mission Files | statement, record | 1027 | 47% | 59.2% | 119% | 0 | Passive atmospheric hook associated with low engaged share, but high-value reprogramming payoff observed with massive rewatch levels; pacing worked once the story started. |
+| ep378 | Space Myths, Busted | statement, record | 1171 | 49% | 118.4% | 171% | 0 | Record-based hook performed well for scroll-stopping, but verbatim repetition of the opening claim in the loop is associated with a heavy drop in completion rate. |
+| ep373 | Near Misses | statement, myth_vs_fact | 847 | 51% | 67.5% | 119% | 0 | Hook underperformed by spoiling the climax immediately; mid-script pacing held well, but loop failed due to verbatim phrasing repetition. |
+| ep411 | Scale Breaker | statement, mystery | 1246 | 44% | 90.1% | 132% | 2 | Strong hook and mid-video tension associated with high views, but the closed poetic ending is associated with lower end-retention compared to fragment loops. |
+| ep380 | Scale Breaker | statement, story | 1399 | 53% | 95.4% | 144% | 1 | Excellent scale hook and topic; pacing and visuals unknown, but circular syntactic loop observed with channel-high 201% rewatch rates; informational end lagged on likes. |
+| ep387 | Mission Files | statement, scale_ladder | 866 | 50% | 119.3% | 173% | 0 | Factual summary hook associated with trailing reach; circular loop structure successfully sustained end-retention, though topic failed to drive engagement. |
 | AqjFtgMXTqI | ? | –, story | – | 47% | 85.5% | 133% | 0 | – |
 | AGVNlHYNopg | ? | –, story | – | 44% | 85.7% | 135% | 1 | – |
 | acGOaPvE6tM | ? | –, story | – | 56% | 97.8% | 149% | 0 | – |
@@ -93,9 +92,9 @@ contradiction.
 | mQmeA3UaISI | ? | –, story | – | 49% | 114.9% | 164% | 2 | – |
 | jQkifLo0uyM | ? | –, story | – | 43% | 120.9% | 163% | 0 | – |
 | 0Vi60XbtdFI | ? | –, story | – | 54% | 65.1% | 115% | 0 | – |
-| ep487 | Mission Files | statement, myth_vs_fact | 161 | – | – | – | – | significant reach failure because the hook spoiled the entire resolution in the first sentence. |
-| ep412 | Space Got Weird | statement, mystery | 292 | – | – | – | – | high-quality narrative earned high likes per view but the scientific premise hook lacked the friction to stop the scroll. |
-| ep413 | Mission Files | statement, mystery | 144 | – | – | – | – | satisfying mystery structure secured high likes but the informational hook resulted in very low views per hour. |
+| ep487 | Mission Files | statement, myth_vs_fact | 161 | – | – | – | – | Topic and visuals unknown; hook underperformed by resolving the tension in the first sentence, associated with poor engagement and reach. |
+| ep412 | Space Got Weird | statement, mystery | 292 | – | – | – | – | Scientific premise hook associated with failing reach; pacing and loop unknown, but strong narrative content observed with a peak in likes per 100 views. |
+| ep413 | Mission Files | statement, mystery | 144 | – | – | – | – | Informational hook associated with failure to stop the scroll; topic mystery was highly satisfying to the few who stayed, but pacing unknown. |
 | ep488 | Space Got Weird | statement, myth_vs_fact | – | – | – | – | – | – |
 
 ## Log
@@ -267,3 +266,4 @@ contradiction.
 - 2026-11-25: Evaluated performance for ep357, ep351, ep360, ep369, ep365, ep378, ep373, ep411, ep380, and ep387; updated playbook hypotheses based on recent retention bottlenecks and hook dynamics.
 - 2026-11-25: Updated review analytics across recent Shorts, evaluating retention impacts from setup pacing and script loop structures.
 - 2026-11-26: Promoted rule against verbatim hook repetition at endings and added hypothesis for human-centric hooks following reach failures on ep412/413.
+- 2026-11-26: Promoted Rule 1 to prioritize active high-stakes hooks over informational summaries after recent reach collapses on ep412 and ep413.

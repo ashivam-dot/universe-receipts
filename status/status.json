@@ -1,74 +1,118 @@
 {
-  "updated_at": "2026-11-26T11:07:10+05:30",
+  "updated_at": "2026-11-26T17:14:49+05:30",
   "day": 56,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M8B5K6NFXQ5BZP1PEDF5RZFR",
+    "id": "ta-01M8BT6CQDTKMCWDPHA2JFYQYR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-26T11:05:11+05:30",
-    "started_at_utc": "2026-11-26T05:35:11+00:00",
-    "seconds": 118
+    "started_at": "2026-11-26T17:05:14+05:30",
+    "started_at_utc": "2026-11-26T11:35:14+00:00",
+    "seconds": 575
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 1.7
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until Nov 28 18:52 UTC",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "direct uploads",
       "ok": true,
-      "detail": "ep409 sent; ep414 sent",
-      "seconds": 0.6
+      "detail": "none due yet",
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY; added ep409 to 'Scale Breaker'; added ep414 to 'Mission Files'",
-      "seconds": 4.5
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
+      "seconds": 3.7
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.6
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep412 at 24 h: behind the channel's earlier Shorts at this age: 292 views against a median of 892 (0.3x); ep413 at 24 h: behind the channel's earlier Shorts at this age: 144 views against a median of 866 (0.2x); learnings: Promoted rule against verbatim hook repetition at endings and added hypothesis for human-centric hooks following reach failures on ep412/413.",
-      "seconds": 75.5
+      "detail": "ep409 at 6 h: behind the channel's earlier Shorts at this age: 93 views against a median of 662 (0.1x); ep414 at 6 h: behind the channel's earlier Shorts at this age: 132 views against a median of 659 (0.2x)",
+      "seconds": 3.1
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 5.8
+      "seconds": 4.8
+    },
+    {
+      "name": "analytics",
+      "ok": true,
+      "detail": "134 subscribers",
+      "seconds": 7.9
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Promoted Rule 1 to prioritize active high-stakes hooks over informational summaries after recent reach collapses on ep412 and ep413.",
+      "seconds": 160.2
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 2.4
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "\"NASA Caught a Star Swallowing Its Planet\" (SrOs7Mag0m8) has 0 views after 30 hours: it is private",
+      "seconds": 0.1
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 345.6
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "3 added",
+      "seconds": 18.7
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-056.md",
+      "seconds": 2.8
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 9.8
+      "seconds": 8.0
     }
   ],
   "errors": [],
-  "owner_action": [],
+  "owner_action": [
+    "\"NASA Caught a Star Swallowing Its Planet\" (https://youtube.com/shorts/SrOs7Mag0m8) is held back: it is private. Check it in Studio."
+  ],
   "notes": [
     "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and waiting Shorts are uploaded to YouTube directly until then"
   ],
@@ -410,30 +454,26 @@
   "llm": {
     "calls": 3,
     "by_model": {
-      "gemini-3-flash-preview": 3
+      "gemini-3-flash-preview": 1,
+      "gemini-3.5-flash-lite": 2
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
     "modal": 0,
     "runner": 0
   },
-  "daily_done": "2026-11-25",
+  "daily_done": "2026-11-26",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 16.98,
+    "metered": 17.01,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": null,
   "starved": 0,
   "made_here": 0,
-  "open_topics": 36,
+  "open_topics": 39,
   "parked_topics": 45
 }

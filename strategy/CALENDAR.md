@@ -125,6 +125,7 @@ unexplained, not alien.
 | Jan 5 | Eris (dwarf planet) (2005): on this day, astronomers discovered a world so massive it challenged Pluto's status, eventually leading to its demotion as a planet | Space Got Weird |
 | Jan 6 | Lunar Prospector (1998): on Jan 6, NASA launched a polar orbiter that confirmed massive deposits of water ice hidden inside the permanently shadowed craters of the Moon | Mission Files |
 | Jan 7 | Galilean moons (1610): Galileo discovered four moons orbiting Jupiter, proving not everything revolved around Earth | Space Got Weird |
+| Jan 15 | New Horizons (2006): the mission to Pluto launched toward the outer solar system | Mission Files |
 | Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day — parked (ep217) | Mission Files |
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury — done (ep252) | Mission Files |
 | Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar — parked (ep271) | Near Misses |
@@ -324,6 +325,8 @@ unexplained, not alien.
 - Sojourner (rover) (1997): NASA's first Martian rover was only the size of a microwave oven and moved at just 0.02 miles per hour — done (ep443)
 - Apollo 12 (1969): astronaut Alan Bean accidentally ruined the mission's live color TV camera by pointing its lens directly into the Sun, cutting off video to millions of viewers — done (ep459)
 - Voyager 1 (1990): after taking the iconic 'Pale Blue Dot' photo, NASA permanently turned off the probe's cameras to conserve power
+- Rosetta (spacecraft) (2014): tracked a comet for two years and deployed the first lander on its surface
+- Apollo 12 (1969): lightning struck the rocket twice seconds after liftoff, knocking out all power before crew action saved it
 
 ### Space Got Weird
 
