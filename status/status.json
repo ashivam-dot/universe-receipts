@@ -1,70 +1,70 @@
 {
-  "updated_at": "2026-11-26T05:05:57+05:30",
+  "updated_at": "2026-11-26T11:07:10+05:30",
   "day": 56,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M8AH01BZ3QPYPMZ5CHC1AVPR",
+    "id": "ta-01M8B5K6NFXQ5BZP1PEDF5RZFR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-26T05:05:14+05:30",
-    "started_at_utc": "2026-11-25T23:35:14+00:00",
-    "seconds": 43
+    "started_at": "2026-11-26T11:05:11+05:30",
+    "started_at_utc": "2026-11-26T05:35:11+00:00",
+    "seconds": 118
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 2.0
+      "seconds": 1.3
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until Nov 28 18:52 UTC",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "direct uploads",
       "ok": true,
-      "detail": "none due yet",
-      "seconds": 0.3
+      "detail": "ep409 sent; ep414 sent",
+      "seconds": 0.6
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
-      "seconds": 3.7
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY; added ep409 to 'Scale Breaker'; added ep414 to 'Mission Files'",
+      "seconds": 4.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.6
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep494 at 6 h: behind the channel's earlier Shorts at this age: 218 views against a median of 664 (0.3x)",
-      "seconds": 2.8
+      "detail": "ep412 at 24 h: behind the channel's earlier Shorts at this age: 292 views against a median of 892 (0.3x); ep413 at 24 h: behind the channel's earlier Shorts at this age: 144 views against a median of 866 (0.2x); learnings: Promoted rule against verbatim hook repetition at endings and added hypothesis for human-centric hooks following reach failures on ep412/413.",
+      "seconds": 75.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep509 unfinished (ProtocolError: ('Connection broken: IncompleteRead(3214 bytes read)', IncompleteRead(3214 bytes read))); ep511 rejected (low scores: visuals)",
-      "seconds": 10.6
+      "detail": "nothing in the cloud",
+      "seconds": 5.8
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 7.8
+      "seconds": 9.8
     }
   ],
   "errors": [],
@@ -73,8 +73,8 @@
     "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and waiting Shorts are uploaded to YouTube directly until then"
   ],
   "inventory": {
-    "total": 56,
-    "in_buffer": 14,
+    "total": 54,
+    "in_buffer": 12,
     "waiting": 42,
     "target": 14,
     "making": [
@@ -132,18 +132,6 @@
       "id": "ep396",
       "title": "The Meteor Storm That Created Space Science",
       "due_at": "2026-11-17T21:30:00-05:00"
-    },
-    {
-      "id": "ep414",
-      "title": "The Biggest Thing in Space Is Headed for the Ocean",
-      "due_at": "2026-11-25T19:00:00-05:00",
-      "direct": true
-    },
-    {
-      "id": "ep409",
-      "title": "The Space Detector Wider Than the Sun",
-      "due_at": "2026-11-25T21:30:00-05:00",
-      "direct": true
     },
     {
       "id": "ep488",
@@ -412,40 +400,27 @@
       "score": 23
     }
   ],
-  "made": [
-    {
-      "id": "ep509",
-      "outcome": "unfinished",
-      "topic": "BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity",
-      "reason": "ProtocolError: ('Connection broken: IncompleteRead(3214 bytes read)', IncompleteRead(3214 bytes read))",
-      "quota": false,
-      "overloaded": false
-    },
-    {
-      "id": "ep511",
-      "outcome": "rejected",
-      "topic": "Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface",
-      "reason": "low scores: visuals"
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
   "published": [],
-  "live": 108,
+  "live": 110,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 8,
+    "calls": 3,
     "by_model": {
-      "gemini-3.5-flash-lite": 1,
-      "gemini-3.5-flash": 2,
-      "gemini-3-flash-preview": 4,
-      "gemma-4-31b-it": 1
+      "gemini-3-flash-preview": 3
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
-    "modal": 3,
+    "modal": 0,
     "runner": 0
   },
   "daily_done": "2026-11-25",
