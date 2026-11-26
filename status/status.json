@@ -1,46 +1,46 @@
 {
-  "updated_at": "2026-11-26T23:21:46+05:30",
-  "day": 56,
+  "updated_at": "2026-11-27T05:05:40+05:30",
+  "day": 57,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M8CESHWFZD89ZGRH0CBMMPZR",
+    "id": "ta-01M8D3CQS8J755J5XABJHW6EER",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-26T23:05:26+05:30",
-    "started_at_utc": "2026-11-26T17:35:26+00:00",
-    "seconds": 980
+    "started_at": "2026-11-27T05:05:09+05:30",
+    "started_at_utc": "2026-11-26T23:35:09+00:00",
+    "seconds": 31
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 3.4
+      "seconds": 1.0
     },
     {
       "name": "sync",
       "ok": true,
       "detail": "skipped: Buffer's API limit is used up until Nov 28 18:52 UTC",
-      "seconds": 0.4
+      "seconds": 0.1
     },
     {
       "name": "direct uploads",
       "ok": true,
-      "detail": "ep488 sent",
-      "seconds": 0.7
+      "detail": "none due yet",
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY; added ep488 to 'Space Got Weird'",
-      "seconds": 6.2
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
+      "seconds": 3.0
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.7
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
@@ -51,32 +51,20 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep494 at 24 h: behind the channel's earlier Shorts at this age: 239 views against a median of 856 (0.3x); learnings: Analyzed performance diagnostics for ep365, ep378, ep373, ep411, ep380, ep387, ep487, ep412, ep413, and ep494 to validate hook, loop, and jargon rules.",
-      "seconds": 920.1
+      "detail": "ep488 at 6 h: ahead of the channel's earlier Shorts at this age: 900 views against a median of 658 (1.4x)",
+      "seconds": 2.4
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 5.6
+      "seconds": 4.0
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 26.8
-    },
-    {
-      "name": "upload ep460",
-      "ok": true,
-      "detail": "2026-11-27T19:00:00-05:00",
       "seconds": 6.7
-    },
-    {
-      "name": "upload ep442",
-      "ok": true,
-      "detail": "2026-11-27T21:30:00-05:00",
-      "seconds": 11.7
     }
   ],
   "errors": [],
@@ -409,26 +397,13 @@
   "made": [],
   "spawned": [],
   "in_cloud": [],
-  "published": [
-    {
-      "id": "ep460",
-      "title": "The First Craft on Mars Carried Skis",
-      "due_at": "2026-11-27T19:00:00-05:00"
-    },
-    {
-      "id": "ep442",
-      "title": "Why the Moon Smells Like Spent Gunpowder",
-      "due_at": "2026-11-27T21:30:00-05:00"
-    }
-  ],
+  "published": [],
   "live": 111,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 2,
-    "by_model": {
-      "gemini-3.6-flash": 2
-    },
+    "calls": 0,
+    "by_model": {},
     "out_of_quota": []
   },
   "renders": {
