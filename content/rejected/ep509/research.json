@@ -1,0 +1,259 @@
+{
+  "viable": true,
+  "reason": "The sources provide over ten cross-verified claims across independent domain sources to support a compelling 45-second story about BepiColombo's trajectory, engineering challenges, and orbital capture.",
+  "story": "To reach Mercury, falling into the Sun's deep gravity well requires more energy than sending a probe to Pluto. In October 2018, ESA and JAXA launched BepiColombo, a joint mission carrying two science orbiters—ESA's Mercury Planetary Orbiter and JAXA's Mio—stacked atop the ion-propelled Mercury Transfer Module. Named after Giuseppe 'Bepi' Colombo, the pioneer of planetary gravity assists, the spacecraft undertook a seven-year voyage executing nine planetary flybys past Earth, Venus, and Mercury to brake against solar gravity. Despite a cruise power anomaly that delayed arrival by a year, and a fourth Mercury flyby skimming just 165 kilometers above the surface, BepiColombo reached Mercury in November 2026. During insertion, a software glitch cut the main engine burn short, yet gravity still safely captured the probe, making it only the second mission ever to orbit the innermost planet.",
+  "angle": "Placing a spacecraft into orbit around Mercury requires more energy than sending a mission all the way to Pluto because of the Sun's immense gravitational pull.",
+  "claims": [
+    {
+      "claim": "BepiColombo is a joint planetary exploration mission between the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA).",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission is named in honor of Italian mathematician and engineer Giuseppe 'Bepi' Colombo.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Giuseppe Colombo calculated the interplanetary gravity assist maneuver used by NASA's Mariner 10 mission to fly past Mercury multiple times.",
+      "sources": [
+        "S1",
+        "S5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "BepiColombo launched on October 20, 2018, aboard an Ariane 5 rocket from Europe's Spaceport in Kourou, French Guiana.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "BepiColombo is only the second spacecraft mission in history to enter orbit around Mercury, following NASA's MESSENGER.",
+      "sources": [
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The mission includes two primary science orbiters: ESA's Mercury Planetary Orbiter (MPO) and JAXA's Mercury Magnetospheric Orbiter (Mio).",
+      "sources": [
+        "S1",
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "During its cruise phase, the spacecraft stack relied on the Mercury Transfer Module (MTM) for electrical power and solar electric propulsion.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "BepiColombo's flight plan required nine planetary gravity-assist flybys: one of Earth, two of Venus, and six of Mercury.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A power-related anomaly affecting the solar electric propulsion system delayed BepiColombo's final arrival at Mercury by roughly eleven months to a year.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "During its fourth flyby of Mercury in September 2024, BepiColombo passed within 165 kilometers of the planet's surface.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "BepiColombo achieved orbital capture around Mercury in November 2026.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "A software glitch prematurely cut short the orbital insertion thruster burn, but the spacecraft was still captured into a stable orbit around Mercury.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The two scientific orbiters are scheduled to separate from each other in December following orbital entry.",
+      "sources": [
+        "S1",
+        "S4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "JAXA's Mio orbiter was protected from intense solar radiation during cruise by ESA's Magnetospheric Orbiter Sunshield and Interface (MOSIF).",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mercury contains water ice located inside craters near its poles that remain in permanent shadow.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "S6 mentions an early planned launch date of 2013 on a Soyuz-Fregat rocket, whereas later sources confirm it launched in 2018 on an Ariane 5; script should use the actual 2018 Ariane 5 launch.",
+    "S1 mentions potential detection of phosphine in Venus's atmosphere during flybys was disputed by follow-up studies; script should leave out phosphine or present it as unconfirmed/disputed."
+  ],
+  "visuals": [
+    {
+      "subject": "Ariane 5 rocket launching BepiColombo from Kourou",
+      "queries": [
+        "Ariane 5 VA245 launch BepiColombo",
+        "Ariane 5 launch Kourou spaceport"
+      ]
+    },
+    {
+      "subject": "Illustration of BepiColombo composite spacecraft stack in cruise configuration",
+      "queries": [
+        "BepiColombo composite spacecraft ESA artist concept",
+        "BepiColombo cruise stack illustration"
+      ]
+    },
+    {
+      "subject": "Portrait of Giuseppe Bepi Colombo",
+      "queries": [
+        "Giuseppe Bepi Colombo portrait photo",
+        "Giuseppe Colombo mathematician"
+      ]
+    },
+    {
+      "subject": "Diagram of BepiColombo flight trajectory and gravity assist flybys",
+      "queries": [
+        "BepiColombo flight path diagram",
+        "BepiColombo gravity assist trajectory diagram"
+      ]
+    },
+    {
+      "subject": "Mariner 10 spacecraft flyby of Mercury illustration",
+      "queries": [
+        "Mariner 10 spacecraft Mercury illustration",
+        "Mariner 10 Mercury photo NASA"
+      ]
+    },
+    {
+      "subject": "ESA Mercury Planetary Orbiter MPO artist concept",
+      "queries": [
+        "Mercury Planetary Orbiter ESA illustration",
+        "BepiColombo MPO model"
+      ]
+    },
+    {
+      "subject": "JAXA Mio Mercury Magnetospheric Orbiter concept",
+      "queries": [
+        "JAXA Mio Mercury Magnetospheric Orbiter concept",
+        "Mio MMO spacecraft model JAXA"
+      ]
+    },
+    {
+      "subject": "Close-up image of Mercury cratered surface from BepiColombo flyby",
+      "queries": [
+        "BepiColombo MCAM Mercury flyby photo",
+        "Mercury crater surface BepiColombo flyby photo"
+      ]
+    },
+    {
+      "subject": "Illustration of Mercury polar craters containing water ice",
+      "queries": [
+        "Mercury polar crater water ice illustration ESA",
+        "Mercury permanently shadowed crater concept"
+      ]
+    },
+    {
+      "subject": "NASA MESSENGER spacecraft orbiting Mercury illustration",
+      "queries": [
+        "MESSENGER spacecraft Mercury artist concept",
+        "NASA MESSENGER Mercury orbit illustration"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/BepiColombo",
+      "title": "BepiColombo",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn:esa:psa:context:instrument_host:spacecraft.mtm&version=1.1",
+      "title": "PDS: Context Information",
+      "site": "nasa.gov"
+    },
+    {
+      "label": "S3",
+      "url": "http://www.esa.int/Our_Activities/Space_Science/BepiColombo/BepiColombo_Factsheet",
+      "title": "BepiColombo factsheet",
+      "site": "esa.int"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival",
+      "title": "European-Japanese BepiColombo mission becomes 2nd ever to arrive in orbit around Mercury",
+      "site": "space.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://www.universetoday.com/articles/who-was-giuseppe-bepi-colombo-and-why-does-he-have-a-spacecraft-named-after-him",
+      "title": "Who was Giuseppe 'Bepi' Colombo and why Does he Have a Spacecraft Named After him?",
+      "site": "universetoday.com"
+    },
+    {
+      "label": "S6",
+      "url": "http://news.bbc.co.uk/2/hi/science/nature/7195374.stm",
+      "title": "European probe aims for Mercury",
+      "site": "bbc.co.uk"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13672065",
+      "title": "Planetary shielding and surface precipitation of solar energetic particles during BepiColombo’s close Mercury flyby",
+      "site": "nih.gov"
+    }
+  ],
+  "topic": "BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity",
+  "series": "Mission Files"
+}

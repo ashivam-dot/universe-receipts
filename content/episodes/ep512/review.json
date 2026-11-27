@@ -1,0 +1,151 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-27T17:25:14+05:30",
+      "check": {
+        "duration": 28.8,
+        "words": 79,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.5,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 3
+      },
+      "notes": {
+        "hook": "Strong opening premise grabs immediate attention.",
+        "clarity": "Easy to follow linear historical narrative.",
+        "payoff": "Telescope detail provides moderate ending twist.",
+        "visuals": "Clear visuals overall despite watermark on beat 3.",
+        "loop": "Transition phrasing repeats opening concept verbatim."
+      },
+      "frames": [
+        {
+          "beat": 3,
+          "problem": "Contains a visible watermark in top left corner."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 8: Change to 'It docks with Tiangong after policy barred them from the ISS.'"
+      ],
+      "better_than_last": "Features a more compelling geopolitical narrative than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-27T17:29:10+05:30",
+      "check": {
+        "duration": 24.9,
+        "words": 79,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -1.9,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong geopolitical premise captures immediate interest.",
+        "clarity": "Linear sequence of events is easy to follow.",
+        "payoff": "The ending details a telescope addition but lacks a major final twist.",
+        "visuals": "Images are relevant, though beat 4 contains a visible logo watermark.",
+        "loop": "Transitions back into the opening premise reasonably well."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Contains a small logo watermark in the top right corner."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 7: Frame the 300x wider telescope view as a direct competitive leap over existing tech.",
+        "Beat 8: Highlight that the ban directly catalyzed an independent, rival space program."
+      ],
+      "better_than_last": "Offers a stronger narrative arc driven by political conflict and response compared to ep504.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-27T17:35:14+05:30",
+      "check": {
+        "duration": 28.45,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -3.0,
+        "warnings": [],
+        "speech_differences": [],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "The geopolitical tension of a 'forbidden' station is a strong, immediate hook for science viewers.",
+        "clarity": "The narrative arc from the 2011 exclusion law to the station's completion is exceptionally clear.",
+        "payoff": "The specific technical comparison of the Xuntian telescope to Hubble provides a great factual punchline.",
+        "visuals": "The imagery is highly relevant, though the mix of bordered and full-screen layouts feels slightly inconsistent.",
+        "loop": "The repetition of the 'federal law' phrase creates a seamless and professional-sounding circular loop."
+      },
+      "frames": [
+        {
+          "beat": 5,
+          "problem": "contains a large Chinese source watermark at the top of the frame"
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short features a much more seamless narrative loop than the recent solar panel episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": true
+    }
+  ],
+  "best_round": 3
+}

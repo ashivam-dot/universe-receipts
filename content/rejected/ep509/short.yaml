@@ -1,0 +1,211 @@
+id: ep509
+title: The Mission That Brakes Against the Sun
+series: Mission Files
+format: v3
+description: BepiColombo must execute nine planetary flybys over seven years just to slow down enough to orbit Mercury.
+sources:
+- https://en.wikipedia.org/wiki/BepiColombo
+- https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival
+- http://www.esa.int/Our_Activities/Space_Science/BepiColombo/BepiColombo_Factsheet
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13672065
+hashtags:
+- '#space'
+- '#mercury'
+- '#bepicolombo'
+tags:
+- space
+- astronomy
+- bepicolombo
+- mercury
+- esa
+- jaxa
+- spaceflight
+- gravity
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Reaching Mercury takes more energy than flying to Pluto.
+  emphasis:
+  - more energy
+  - Pluto
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Planetas_del_Sistema_Solar_a_escala.png/1920px-Planetas_del_Sistema_Solar_a_escala.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Planetas del Sistema Solar a escala.png
+      credit: Edits by Pepedavila. Source image on Commons edited by Farry, credited by original uploader to "Martin Kornmesser",
+        and later an anonymous edit re-credited it to "zaria mayers".
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Planetas_del_Sistema_Solar_a_escala.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Falling toward the Sun makes a spacecraft fly too fast.
+  emphasis:
+  - too fast
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Solar_sys.jpg/1280px-Solar_sys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Solar sys.jpg
+      credit: Harman Smith and Laura Generosa (nee Berwin), graphic artists and contractors to NASA's Jet Propulsion Laboratory.
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Solar_sys.jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.6
+- text: BepiColombo needs seven years just to slow down.
+  emphasis:
+  - seven years
+  - slow down
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/BepiColombo_spacecraft_model.png/1280px-BepiColombo_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: BepiColombo spacecraft model.png
+      credit: National Aeronautics and Space Administration (NASA)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:BepiColombo_spacecraft_model.png
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: It executed nine planetary flybys to brake against solar gravity.
+  emphasis:
+  - brake
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Exemples_de_manoeuvre_d%27assistance_gravitationnelle_Swingbyvxy-fr.png/960px-Exemples_de_manoeuvre_d%27assistance_gravitationnelle_Swingbyvxy-fr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Exemples de manoeuvre d'assistance gravitationnelle Swingbyvxy-fr.png
+      credit: user:Wasserkäfer
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Exemples_de_manoeuvre_d%27assistance_gravitationnelle_Swingbyvxy-fr.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: The probe skimmed 165 kilometers above the surface in 2024.
+  emphasis:
+  - 165 kilometers
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Mercury_Flyby_-_ESA_JAXA_Bepi_Colombo_%2853993912086%29.png/1280px-Mercury_Flyby_-_ESA_JAXA_Bepi_Colombo_%2853993912086%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mercury Flyby - ESA JAXA Bepi Colombo (53993912086).png
+      credit: Andrea Luck
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Mercury_Flyby_-_ESA_JAXA_Bepi_Colombo_(53993912086).png
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.6
+    focus_y: 0.5
+    box:
+    - 0.35
+    - 0.1
+    - 0.85
+    - 0.9
+    card:
+      kind: dateline
+      big: 165 kilometers
+      small: 2024 Mercury flyby
+- text: A thruster burn in 2026 was the only way to stop.
+  emphasis:
+  - only way
+  - stop
+  sfx: riser
+  visual:
+    source: card
+    card:
+      kind: dateline
+      big: '2026'
+      small: Mercury arrival
+    motion: zoom_in
+- text: Then a software glitch cut that engine burn short.
+  emphasis:
+  - software glitch
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: GLITCH
+      small: thruster burn cut short
+    motion: zoom_in
+- text: Gravity still pulled the spacecraft into a stable orbit.
+  emphasis:
+  - stable orbit
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/8/83/Space_probe_trajectory_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Space probe trajectory example.png
+      credit: Orion 8
+      license: CC0
+      url: https://commons.wikimedia.org/wiki/File:Space_probe_trajectory_example.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.3
+    focus_y: 0.4
+- text: It will be only the second mission to ever orbit Mercury.
+  emphasis:
+  - second mission
+  - ever orbit
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/MESSENGER.jpg/1920px-MESSENGER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: MESSENGER.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:MESSENGER.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Stopping there takes more energy than reaching Pluto.
+  emphasis:
+  - more energy
+  - Pluto
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: HARDER THAN PLUTO

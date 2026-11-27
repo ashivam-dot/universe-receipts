@@ -1,0 +1,201 @@
+id: ep512
+title: How a Space Ban Created a New Station
+series: Mission Files
+format: v3
+description: When US law barred Chinese astronauts from the International Space Station, China responded by building its own
+  modular outpost and a telescope that dwarfs Hubble.
+sources:
+- https://en.wikipedia.org/wiki/Tiangong_space_station
+- https://web.archive.org/web/20210802171003/https://www.nature.com/articles/d41586-021-02018-3
+- https://www.planetary.org/space-missions/chinese-space-station
+- https://web.archive.org/web/20210702073545/https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Astronauts/ESA_and_Chinese_astronauts_train_together
+- https://www.scientificamerican.com/article/china-delays-launch-of-its-xuntian-space-telescope/
+hashtags:
+- '#space'
+- '#tiangong'
+- '#nasa'
+tags:
+- tiangong
+- space station
+- china
+- astronomy
+- xuntian
+- iss
+- exploration
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A federal law banned Chinese astronauts from the ISS.
+  emphasis:
+  - banned
+  - ISS
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/STS-134_International_Space_Station_after_undocking.jpg/3840px-STS-134_International_Space_Station_after_undocking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: STS-134 International Space Station after undocking.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:STS-134_International_Space_Station_after_undocking.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That exclusion only forced a rival laboratory into the sky.
+  emphasis:
+  - rival laboratory
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/3/3c/Wang_Yaping_plays_guzheng_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Wang Yaping plays guzheng 01.png
+      credit: 中国新闻社
+      license: CC BY 3.0
+      url: https://commons.wikimedia.org/wiki/File:Wang_Yaping_plays_guzheng_01.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.52
+    focus_y: 0.14
+- text: China launched the massive Tianhe core module in 2021.
+  emphasis:
+  - Tianhe
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Launch_of_Tianhe_Core_Module_2_%28Cropped%29.jpg/1280px-Launch_of_Tianhe_Core_Module_2_%28Cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Launch of Tianhe Core Module 2 (Cropped).jpg
+      credit: China News Service
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Launch_of_Tianhe_Core_Module_2_(Cropped).jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.35
+    box:
+    - 0.48
+    - 0.1
+    - 0.52
+    - 0.7
+    card:
+      kind: dateline
+      big: April 2021
+      small: Tianhe Core
+- text: They docked two giant experiment modules to complete the station.
+  emphasis:
+  - complete the station
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Wentian_solar_array.jpg/1280px-Wentian_solar_array.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Wentian solar array.jpg
+      credit: China Manned Space Engineering Office
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Wentian_solar_array.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: dateline
+      big: '2022'
+      small: Station Complete
+- text: Seventeen different countries now conduct research on this forbidden outpost.
+  emphasis:
+  - Seventeen
+  - countries
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/9f/%E2%80%9C%E6%A2%A6%E5%A4%A9%E2%80%9D%E6%9D%A5%E5%95%A6%EF%BC%81%E9%99%A4%E4%BA%86%E5%AE%9E%E9%AA%8C%E6%9F%9C%E8%BF%98%E5%B8%A6%E4%BA%86%E2%80%9C%E5%88%92%E8%88%B9%E6%9C%BA%E2%80%9D1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: “梦天”来啦！除了实验柜还带了“划船机”1.png
+      credit: 中国新闻社
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:%E2%80%9C%E6%A2%A6%E5%A4%A9%E2%80%9D%E6%9D%A5%E5%95%A6%EF%BC%81%E9%99%A4%E4%BA%86%E5%AE%9E%E9%AA%8C%E6%9F%9C%E8%BF%98%E5%B8%A6%E4%BA%86%E2%80%9C%E5%88%92%E8%88%B9%E6%9C%BA%E2%80%9D1.png
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 17 Countries
+      small: Global Research
+- text: European astronauts even joined their crew for deep-sea survival training.
+  emphasis:
+  - survival training
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Samantha_Cristoforetti_-_Neutral_Buoyancy_Laboratory_2.jpg/1920px-Samantha_Cristoforetti_-_Neutral_Buoyancy_Laboratory_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Samantha Cristoforetti - Neutral Buoyancy Laboratory 2.jpg
+      credit: James Blair
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Samantha_Cristoforetti_-_Neutral_Buoyancy_Laboratory_2.jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.46
+    focus_y: 0.08
+- text: Their new telescope dwarfs Hubble with a field of view 300 times wider.
+  emphasis:
+  - 300 times wider
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/CSST%E6%83%B3%E8%B1%A1%E5%9B%BE.jpg/3840px-CSST%E6%83%B3%E8%B1%A1%E5%9B%BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: CSST想象图.jpg
+      credit: 中国科学院长春光学精密机械与物理研究所
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:CSST%E6%83%B3%E8%B1%A1%E5%9B%BE.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+    card:
+      kind: fact
+      big: 300x Hubble
+      small: Wider View
+- text: This rival program was born because of that federal law.
+  emphasis:
+  - rival program
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: FORBIDDEN STATION IN ORBIT

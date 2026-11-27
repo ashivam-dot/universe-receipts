@@ -1,0 +1,209 @@
+id: ep513
+title: The 25-Mile Eye Hidden in the Sahara
+series: Space Got Weird
+format: v3
+description: Astronauts from orbit spotted a massive 25-mile ring structure in the Sahara Desert. Here is how geology created
+  the famous Eye of Africa.
+sources:
+- https://en.wikipedia.org/wiki/Richat_Structure
+- https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Eye_of_Africa
+- https://theness.com/neurologicablog/no-atlantis-has-not-been-discovered-in-north-africa/
+hashtags:
+- '#space'
+- '#sahara'
+- '#geology'
+tags:
+- Eye of Africa
+- Richat Structure
+- Sahara Desert
+- geology
+- astronomy
+- Gemini 4
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: Astronauts spotted a giant eye staring back from the Sahara.
+  emphasis:
+  - giant eye
+  - Sahara
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Eye_of_the_Sahara_%2849141999011%29.png/3840px-Eye_of_the_Sahara_%2849141999011%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Eye of the Sahara (49141999011).png
+      credit: SentinelHub
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Eye_of_the_Sahara_(49141999011).png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.48
+    focus_y: 0.52
+- text: Gemini crews used the 25-mile circular rings as a navigation landmark.
+  emphasis:
+  - 25-mile
+  - navigation landmark
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Richat_Structure_from_Gemini_IV.jpg/1920px-Richat_Structure_from_Gemini_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Richat Structure from Gemini IV.jpg
+      credit: NASA/Gemini 4
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Richat_Structure_from_Gemini_IV.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_in
+    focus_x: 0.53
+    focus_y: 0.45
+    box:
+    - 0.35
+    - 0.35
+    - 0.65
+    - 0.6
+    card:
+      kind: dateline
+      big: 25 MILES
+      small: Concentric ring formation
+- text: Scientists first thought a giant meteor smashed the African desert.
+  emphasis:
+  - giant meteor
+  - smashed
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: METEOR THEORY
+      small: Initial impact hypothesis
+    motion: zoom_in
+- text: But geological surveys found zero evidence of a cosmic impact.
+  emphasis:
+  - zero evidence
+  - cosmic impact
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: NO IMPACT
+      small: Zero shocked rock found
+    motion: zoom_in
+- text: Instead, underground magma pushed Earth's crust upward into a dome.
+  emphasis:
+  - underground magma
+  - into a dome
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Richat_structure_cropped.png/960px-Richat_structure_cropped.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Richat structure cropped.png
+      credit: Liu, X.-Y.; Li, A.-B.; Chen, H.; Men, Y.-Q.; Huang, Y.-L
+      license: CC BY 4.0
+      url: https://commons.wikimedia.org/wiki/File:Richat_structure_cropped.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Wind and water carved away softer rock over millions of years.
+  emphasis:
+  - carved away
+  - millions of years
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Upper_Antelope_Canyon_-_Page%2C_AZ_%289645592494%29.jpg/500px-Upper_Antelope_Canyon_-_Page%2C_AZ_%289645592494%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Upper Antelope Canyon - Page, AZ (9645592494).jpg
+      credit: Gregory "Slobirdr" Smith
+      license: CC BY 2.0
+      url: https://commons.wikimedia.org/wiki/File:Upper_Antelope_Canyon_-_Page,_AZ_(9645592494).jpg
+    fallbacks:
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Leaving high concentric ridges of hard rock behind.
+  emphasis:
+  - concentric ridges
+  - hard rock
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Richat_Structure_-_SRTM.jpg/1920px-Richat_Structure_-_SRTM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Richat Structure - SRTM.jpg
+      credit: NASA/JPL/NIMA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Richat_Structure_-_SRTM.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.6
+    box:
+    - 0.25
+    - 0.45
+    - 0.75
+    - 0.95
+- text: Fringe theories claimed the matching rings were Plato's lost Atlantis.
+  emphasis:
+  - lost Atlantis
+  - matching rings
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Plato_Silanio_Louvre_Ma3654.jpg/1920px-Plato_Silanio_Louvre_Ma3654.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Plato Silanio Louvre Ma3654.jpg
+      credit: Copy of Silanion (?)
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Plato_Silanio_Louvre_Ma3654.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_up
+    focus_x: 0.5
+    focus_y: 0.45
+    box:
+    - 0.15
+    - 0.05
+    - 0.85
+    - 0.85
+    card:
+      kind: fact
+      big: ATLANTIS MYTH
+      small: Unsubstantiated fringe theory
+- text: But no ancient city ever built what astronauts saw from space.
+  emphasis:
+  - no ancient city
+  - saw from space
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.48
+    focus_y: 0.52
+look: bold
+music:
+  path: bed:wonder
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 25-MILE DESERT BULLSEYE

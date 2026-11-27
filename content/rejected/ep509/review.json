@@ -1,0 +1,188 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-27T17:28:24+05:30",
+      "check": {
+        "duration": 28.3,
+        "words": 81,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.5,
+        "warnings": [],
+        "speech_differences": [
+          "'launched' heard as 'launch' after 'europe and japan'",
+          "'brake' heard as 'break' after 'planetary flybys to'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong comparative premise grabs attention immediately.",
+        "clarity": "Simple explanation of orbital speed concepts.",
+        "payoff": "The final resolution lacks a dramatic twist.",
+        "visuals": "Beat 7 incorrectly displays the MESSENGER spacecraft.",
+        "loop": "Smooth transition matching beat 8 back to beat 1."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows MESSENGER spacecraft instead of BepiColombo."
+        }
+      ],
+      "speech": [],
+      "rewrite": [
+        "Beat 6: Change to 'In 2026, its main engine must fire precisely to slow down.'",
+        "Beat 7: Change to 'Without that burn, solar gravity pulls it away forever.'"
+      ],
+      "better_than_last": "Explains complex orbital physics more intuitively than recent shorts.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-27T17:34:05+05:30",
+      "check": {
+        "duration": 33.37,
+        "words": 94,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'bepicolombo' heard as 'beppe colombo' after 'and japan launched'",
+          "'brake' heard as 'break' after 'planetary flybys to'",
+          "'skimmed' heard as 'schemed' after 'solar gravity it'",
+          "'a' heard as 'the' after 'it away forever'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Counterintuitive comparison creates immediate interest.",
+        "clarity": "Narrative timeline shifts between 2024 and 2026 are poorly signposted.",
+        "payoff": "Conclusion uses past tense for an event that has not yet occurred.",
+        "visuals": "Beat 7 shows irrelevant stellar diagrams; Beat 9 shows the wrong probe.",
+        "loop": "Ending phrase transitions perfectly into the start of the script."
+      },
+      "frames": [
+        {
+          "beat": 7,
+          "problem": "Shows a stellar infographic instead of mission trajectory."
+        },
+        {
+          "beat": 9,
+          "problem": "Visual shows the wrong spacecraft (Messenger)."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "bepicolombo",
+          "respelling": "beppy co lum bo"
+        }
+      ],
+      "rewrite": [
+        "Beat 9: It will be only the second mission to ever orbit Mercury."
+      ],
+      "better_than_last": "The hook provides a more arresting comparison of orbital mechanics than ep504.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    },
+    {
+      "at": "2026-11-27T17:45:59+05:30",
+      "check": {
+        "duration": 32.27,
+        "words": 95,
+        "integrated_lufs": -14.0,
+        "true_peak_dbfs": -2.1,
+        "warnings": [],
+        "speech_differences": [
+          "'bepicolombo' heard as 'beppe colombo' after 'fly too fast'",
+          "'brake' heard as 'break' after 'planetary flybys to'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 3,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Pluto comparison aids retention.",
+        "clarity": "Accessible explanation of physics.",
+        "payoff": "Glitch provides a good surprise.",
+        "visuals": "Frames relevant; one has foreign text.",
+        "loop": "Seamlessly connects end to start."
+      },
+      "frames": [
+        {
+          "beat": 4,
+          "problem": "Diagram is in French and too technical."
+        }
+      ],
+      "speech": [
+        {
+          "beat": 3,
+          "word": "BepiColombo",
+          "respelling": "beppy ko lombo"
+        }
+      ],
+      "rewrite": [
+        "Beat 7: Then a software glitch killed the engine mid-burn.",
+        "Beat 8: Yet gravity trapped the probe, saving the mission."
+      ],
+      "better_than_last": "Explains complex orbital mechanics more clearly than the solar panel episode.",
+      "judge": "gemini-3-flash-preview",
+      "passed": false
+    }
+  ],
+  "best_round": 1,
+  "verdict": "rejected",
+  "reason": "low scores: payoff, visuals",
+  "rejected_at": "2026-11-27T17:45:59+05:30"
+}
