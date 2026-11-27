@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-27T23:15:37+05:30",
-  "day": 57,
+  "updated_at": "2026-11-28T05:05:53+05:30",
+  "day": 58,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M8F16EVXB78S8HAJX3TGN7ZR",
+    "id": "ta-01M8FNSHY99Y4PXZH5GTGANRSR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-27T23:05:19+05:30",
-    "started_at_utc": "2026-11-27T17:35:19+00:00",
-    "seconds": 618
+    "started_at": "2026-11-28T05:05:16+05:30",
+    "started_at_utc": "2026-11-27T23:35:16+00:00",
+    "seconds": 37
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.7
+      "seconds": 1.8
     },
     {
       "name": "sync",
@@ -28,19 +28,19 @@
       "name": "direct uploads",
       "ok": true,
       "detail": "none due yet",
-      "seconds": 0.2
+      "seconds": 0.3
     },
     {
       "name": "playlists",
       "ok": true,
       "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
-      "seconds": 4.0
+      "seconds": 3.6
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.6
+      "seconds": 0.3
     },
     {
       "name": "on youtube",
@@ -51,38 +51,20 @@
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep487 at 72 h: behind the channel's earlier Shorts at this age: 354 views against a median of 1020 (0.3x); ep488 at 24 h: ahead of the channel's earlier Shorts at this age: 1009 views against a median of 829 (1.2x); learnings: Evaluated 10 recent reviews (ep411, ep380, ep387, ep487, ep412, ep413, ep494, ep414, ep409, ep488) to analyze hook and ending performance across recent episodes.",
-      "seconds": 563.8
+      "detail": "no checkpoint due",
+      "seconds": 2.3
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "ep509 rejected (low scores: payoff, visuals); ep512 ready; ep513 ready",
-      "seconds": 13.8
+      "detail": "nothing in the cloud",
+      "seconds": 4.8
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 18.7
-    },
-    {
-      "name": "upload ep472",
-      "ok": true,
-      "detail": "2026-11-28T19:00:00-05:00",
-      "seconds": 4.7
-    },
-    {
-      "name": "upload ep513",
-      "ok": true,
-      "detail": "2026-11-28T12:30:00-05:00",
-      "seconds": 2.9
-    },
-    {
-      "name": "upload ep512",
-      "ok": true,
-      "detail": "2026-11-28T21:30:00-05:00",
-      "seconds": 3.2
+      "seconds": 8.0
     }
   ],
   "errors": [],
@@ -416,88 +398,27 @@
       "score": 23
     }
   ],
-  "made": [
-    {
-      "id": "ep509",
-      "outcome": "rejected",
-      "topic": "BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity",
-      "reason": "low scores: payoff, visuals"
-    },
-    {
-      "id": "ep512",
-      "outcome": "ready",
-      "topic": "Tiangong space station (2021): a fully modular space station built in orbit after US law barred Chinese astronauts from the International Space Station",
-      "title": "How a Space Ban Created a New Station",
-      "scores": {
-        "hook": 4,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795781115/universereceipts/ep512-c2d991c9.mp4"
-    },
-    {
-      "id": "ep513",
-      "outcome": "ready",
-      "topic": "Richat Structure (1965): a 25-mile-wide geological dome in the Sahara so distinct from orbit that early astronauts used it as a visual landmark",
-      "title": "The 25-Mile Eye Hidden in the Sahara",
-      "scores": {
-        "hook": 5,
-        "clarity": 5,
-        "payoff": 5,
-        "visuals": 4,
-        "loop": 5
-      },
-      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795780651/universereceipts/ep513-ff7d7185.mp4"
-    }
-  ],
+  "made": [],
   "spawned": [],
   "in_cloud": [],
-  "published": [
-    {
-      "id": "ep472",
-      "title": "How Art Pastels Revealed the True Face of Mars",
-      "due_at": "2026-11-28T19:00:00-05:00"
-    },
-    {
-      "id": "ep513",
-      "title": "The 25-Mile Eye Hidden in the Sahara",
-      "due_at": "2026-11-28T12:30:00-05:00"
-    },
-    {
-      "id": "ep512",
-      "title": "How a Space Ban Created a New Station",
-      "due_at": "2026-11-28T21:30:00-05:00"
-    }
-  ],
+  "published": [],
   "live": 112,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 39,
-    "by_model": {
-      "gemini-3.8-flash": 1,
-      "gemini-3.7-flash": 1,
-      "gemini-3.6-flash": 19,
-      "gemini-3.5-flash-lite": 9,
-      "gemini-3.5-flash": 1,
-      "gemini-3-flash-preview": 8
-    },
-    "out_of_quota": [
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "calls": 0,
+    "by_model": {},
+    "out_of_quota": []
   },
   "renders": {
-    "modal": 7,
+    "modal": 0,
     "runner": 0
   },
   "daily_done": "2026-11-27",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 17.31,
+    "metered": 17.32,
     "billed": 0.0
   },
   "modal_credit": 30.0,
