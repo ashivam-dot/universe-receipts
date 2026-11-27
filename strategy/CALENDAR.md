@@ -94,6 +94,8 @@ unexplained, not alien.
 | 2026-11-22 | Noctilucent cloud (2006): high-altitude clouds on Mars formed of frozen carbon dioxide that glow brightly in the twilight long after sunset — dropped (ep492) | Space Got Weird | NASA's Curiosity rover recently captured new footage of drifting twilight clouds in the Martian atmosphere. |
 | 2026-11-24 | Europa Clipper (2024): NASA's largest planetary spacecraft ever built carries a vault plate engraved with a poem and the word water spoken in 103 languages to Jupiter's ocean moon — parked (ep506) | Mission Files | NASA just released a dedicated documentary capturing Europa Clipper's journey into deep space. |
 | 2026-11-25 | BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity — making (ep509) | Mission Files | Trending on Wikipedia following recent flyby milestones and orbital insertion preparations. |
+| 2026-11-27 | Tiangong space station (2021): a fully modular space station built in orbit after US law barred Chinese astronauts from the International Space Station — making (ep512) | Mission Files | Trending on English Wikipedia today with over 18,000 page views. |
+| 2026-11-27 | Richat Structure (1965): a 25-mile-wide geological dome in the Sahara so distinct from orbit that early astronauts used it as a visual landmark — making (ep513) | Space Got Weird | Featured in recent NASA Earth observation imagery taken from the International Space Station. |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
@@ -125,6 +127,7 @@ unexplained, not alien.
 | Jan 5 | Eris (dwarf planet) (2005): on this day, astronomers discovered a world so massive it challenged Pluto's status, eventually leading to its demotion as a planet | Space Got Weird |
 | Jan 6 | Lunar Prospector (1998): on Jan 6, NASA launched a polar orbiter that confirmed massive deposits of water ice hidden inside the permanently shadowed craters of the Moon | Mission Files |
 | Jan 7 | Galilean moons (1610): Galileo discovered four moons orbiting Jupiter, proving not everything revolved around Earth | Space Got Weird |
+| Jan 14 | Huygens (spacecraft) (2005): on Jan 14, ESA's lander touched down on Saturn's moon Titan, revealing liquid methane rivers 800 million miles away | Mission Files |
 | Jan 15 | New Horizons (2006): the mission to Pluto launched toward the outer solar system | Mission Files |
 | Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day — parked (ep217) | Mission Files |
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury — done (ep252) | Mission Files |
@@ -375,6 +378,7 @@ unexplained, not alien.
 - Hubble Space Telescope (1990): every iconic photo released by Hubble starts as pure black and white, with colors reconstructed later from separate filtered exposures — dropped (ep432)
 - Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs — done (ep441)
 - Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface — parked (ep511)
+- Venus (1962): a planet that takes longer to rotate once on its axis than it does to complete a full orbit around the Sun
 
 ### Near Misses
 
