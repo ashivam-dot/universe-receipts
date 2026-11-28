@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-28T05:05:53+05:30",
+  "updated_at": "2026-11-28T11:07:45+05:30",
   "day": 58,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M8FNSHY99Y4PXZH5GTGANRSR",
+    "id": "ta-01M8GACRS73S0XRNQWKBDETZ8R",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-28T05:05:16+05:30",
-    "started_at_utc": "2026-11-27T23:35:16+00:00",
-    "seconds": 37
+    "started_at": "2026-11-28T11:05:19+05:30",
+    "started_at_utc": "2026-11-28T05:35:19+00:00",
+    "seconds": 146
   },
   "stages": [
     {
@@ -27,44 +27,44 @@
     {
       "name": "direct uploads",
       "ok": true,
-      "detail": "none due yet",
-      "seconds": 0.3
+      "detail": "ep442 sent; ep460 sent",
+      "seconds": 0.5
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
-      "seconds": 3.6
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY; added ep442 to 'Scale Breaker'; added ep460 to 'Mission Files'",
+      "seconds": 5.5
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.3
+      "seconds": 0.4
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "no checkpoint due",
-      "seconds": 2.3
+      "detail": "ep412 at 72 h: behind the channel's earlier Shorts at this age: 338 views against a median of 1020 (0.3x); ep413 at 72 h: behind the channel's earlier Shorts at this age: 237 views against a median of 1020 (0.2x); ep429 at 24 h: level with the channel's earlier Shorts at this age: 995 views against a median of 838 (1.2x); learnings: Hardened Rules 2 and 4 to specifically prohibit bureaucratic naming and trivia lists while updating distribution medians for high-stakes hooks.",
+      "seconds": 106.0
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 4.8
+      "seconds": 6.1
     },
     {
       "name": "publish on youtube",
       "ok": true,
       "detail": "",
-      "seconds": 8.0
+      "seconds": 6.3
     }
   ],
   "errors": [],
@@ -73,8 +73,8 @@
     "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and waiting Shorts are uploaded to YouTube directly until then"
   ],
   "inventory": {
-    "total": 54,
-    "in_buffer": 15,
+    "total": 52,
+    "in_buffer": 13,
     "waiting": 39,
     "target": 14,
     "making": [],
@@ -130,18 +130,6 @@
       "id": "ep396",
       "title": "The Meteor Storm That Created Space Science",
       "due_at": "2026-11-17T21:30:00-05:00"
-    },
-    {
-      "id": "ep460",
-      "title": "The First Craft on Mars Carried Skis",
-      "due_at": "2026-11-27T19:00:00-05:00",
-      "direct": true
-    },
-    {
-      "id": "ep442",
-      "title": "Why the Moon Smells Like Spent Gunpowder",
-      "due_at": "2026-11-27T21:30:00-05:00",
-      "direct": true
     },
     {
       "id": "ep513",
@@ -402,13 +390,21 @@
   "spawned": [],
   "in_cloud": [],
   "published": [],
-  "live": 112,
+  "live": 114,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 0,
-    "by_model": {},
-    "out_of_quota": []
+    "calls": 4,
+    "by_model": {
+      "gemini-3.6-flash": 3,
+      "gemini-3-flash-preview": 1
+    },
+    "out_of_quota": [
+      "gemini-3.5-flash",
+      "gemini-3.6-flash",
+      "gemini-3.7-flash",
+      "gemini-3.8-flash"
+    ]
   },
   "renders": {
     "modal": 0,
@@ -418,7 +414,7 @@
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 17.32,
+    "metered": 17.33,
     "billed": 0.0
   },
   "modal_credit": 30.0,
