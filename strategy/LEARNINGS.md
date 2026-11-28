@@ -75,8 +75,8 @@ contradiction.
 | ep378 | Space Myths, Busted | statement, record | 1171 | 49% | 118.4% | 171% | 0 | – |
 | ep373 | Near Misses | statement, myth_vs_fact | 847 | 51% | 67.5% | 119% | 0 | – |
 | ep411 | Scale Breaker | statement, mystery | 1246 | 44% | 90.1% | 132% | 2 | – |
-| ep380 | Scale Breaker | statement, story | 1399 | 52% | 95.2% | 144% | 1 | ahead: scale-ladder hook captured instant reach; seamless syntactical loop drove 95% AVP; info-heavy summary limited likes to 2.0. |
-| ep387 | Mission Files | statement, scale_ladder | 866 | 50% | 119.3% | 173% | 0 | level: flat declarative hook limited distribution; pacing supported by strong loop drove 119% AVP; likes stalled at 1.4. |
+| ep380 | Scale Breaker | statement, story | 1399 | 52% | 95.2% | 144% | 1 | Massive scale statement hook and seamless loop drove strong early reach (1,399 views at 29.5h vs 200.0 median) and 95.2% AVP, though informational ending kept likes at channel median 1.6/100. |
+| ep387 | Mission Files | statement, scale_ladder | 866 | 50% | 119.3% | 173% | 0 | Walking-speed landing premise and circular syntax supported 119.3% AVP, but a flat declarative opening correlated with below-peer early reach (866 at 27.1h) and low 1.2 likes/100. |
 | AqjFtgMXTqI | ? | –, story | – | 47% | 85.5% | 133% | 0 | – |
 | AGVNlHYNopg | ? | –, story | – | 44% | 85.7% | 135% | 1 | – |
 | acGOaPvE6tM | ? | –, story | – | 56% | 97.8% | 149% | 0 | – |
@@ -87,14 +87,14 @@ contradiction.
 | mQmeA3UaISI | ? | –, story | – | 49% | 114.9% | 164% | 2 | – |
 | jQkifLo0uyM | ? | –, story | – | 43% | 120.9% | 163% | 0 | – |
 | 0Vi60XbtdFI | ? | –, story | – | 54% | 65.1% | 115% | 0 | – |
-| ep487 | Mission Files | statement, myth_vs_fact | 161 | 43% | 95.5% | 144% | 0 | behind: narrative hook held attention but reach stalled at 161; high rewatch (95% AVP) failed to convert to likes (0.8). |
-| ep412 | Space Got Weird | statement, mystery | 292 | 49% | 80.3% | 129% | 0 | behind: passive statement hook caused steep swipe-away; pacing collapsed mid-video with poor ending retention (0.25). |
-| ep413 | Mission Files | statement, mystery | 144 | 49% | 80.0% | 129% | 0 | behind: strong initial hold from mystery hook; lack of loop mechanism left completion at 0.41, stalling velocity at 3.2 vph. |
-| ep494 | Mission Files | statement, record | 239 | 42% | 63.5% | 118% | 0 | behind: satisfaction was high (3.3 likes) but abstract technical jargon in mid-beats collapsed reach to 239. |
-| ep414 | Mission Files | statement, record | 160 | 35% | 125.7% | 176% | 0 | behind: dramatic title hook indexed well but pacing was destroyed by five beats of encyclopedia-style stats. |
-| ep409 | Scale Breaker | statement, scale_ladder | 135 | 41% | 53.9% | 113% | 0 | behind: core concept converted likes but bureaucratic exposition in beat 2 collapsed velocity to 5.0 vph. |
-| ep488 | Space Got Weird | statement, myth_vs_fact | 1009 | – | – | – | – | ahead: punchy destruction hook matched top-tier reach; dry factual ending failed to prompt engagement, keeping likes at 1.6. |
-| ep429 | Mission Files | statement, mystery | 995 | – | – | – | – | ahead: 'deadly fatigue' hook drove 33.6 vph; neutral resolution offered no reason to interact, leaving likes at 1.6. |
+| ep487 | Mission Files | statement, myth_vs_fact | 161 | 43% | 95.5% | 144% | 0 | Mars drill premise maintained 95.5% AVP, but an anti-climactic post-climax recap beat in the 17:30 slot saw reach stall at 161 views at 24.1h and muted 0.8 likes/100. |
+| ep412 | Space Got Weird | statement, mystery | 292 | 49% | 80.3% | 129% | 0 | Passive historical premise suffered early swipe drop-offs, yielding low early reach (292 views at 29.6h), though engaged viewers delivered an above-median 2.7 likes/100. |
+| ep413 | Mission Files | statement, mystery | 144 | 49% | 80.0% | 129% | 0 | Ghost module hook sustained 49.4% engaged share, but lack of a seamless loop mechanism limited AVP to 80.0% and reach to 144 views at 27.1h. |
+| ep494 | Mission Files | statement, record | 239 | 42% | 63.5% | 118% | 0 | Technical jargon and abstract setup in middle beats correlated with low early reach (239 views at 24.1h) and 63.5% AVP, despite strong viewer affinity (2.8 likes/100). |
+| ep414 | Mission Files | statement, record | 160 | 35% | 125.7% | 176% | 0 | Dramatic destruction premise stalled due to five beats of passive stat listings, resulting in low early reach (160 views at 29.6h) and weak 0.5 likes/100. |
+| ep409 | Scale Breaker | statement, scale_ladder | 135 | 41% | 53.9% | 113% | 0 | Bureaucratic agency exposition in beat 2 collapsed pacing, producing low early reach (135 views at 27.1h) and bottom-tier 53.9% AVP. |
+| ep488 | Space Got Weird | statement, myth_vs_fact | 1009 | – | – | – | – | Crisis hook of a star swallowing a planet drove top-tier early reach (1,009 views at 24.1h), but a textbook factual ending limited likes to channel median 1.6/100. |
+| ep429 | Mission Files | statement, mystery | 995 | – | – | – | – | Deadly spacewalk hazard hook secured 995 views at 29.6h in early reach, though a purely informative safety resolution held likes to median 1.6/100. |
 
 ## Log
 
@@ -271,3 +271,4 @@ contradiction.
 - 2026-11-27: Analyzed reviews for 10 Shorts (ep373, ep411, ep380, ep387, ep487, ep412, ep413, ep494, ep414, ep409); updated hypotheses to focus on problem-tension hooks, eliminating beat 2 agency naming, and removing trivia detours.
 - 2026-11-27: Evaluated 10 recent reviews (ep411, ep380, ep387, ep487, ep412, ep413, ep494, ep414, ep409, ep488) to analyze hook and ending performance across recent episodes.
 - 2026-11-28: Hardened Rules 2 and 4 to specifically prohibit bureaucratic naming and trivia lists while updating distribution medians for high-stakes hooks.
+- 2026-11-28: Analyzed reviews for ep380 through ep429; confirmed strong early reach for crisis hooks and reinforced rules against middle stat detours and passive recaps.

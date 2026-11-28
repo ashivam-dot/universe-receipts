@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-28T11:07:45+05:30",
+  "updated_at": "2026-11-28T17:34:21+05:30",
   "day": 58,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M8GACRS73S0XRNQWKBDETZ8R",
+    "id": "ta-01M8GYZXYPEQJR15RHEE4D9JER",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-28T11:05:19+05:30",
-    "started_at_utc": "2026-11-28T05:35:19+00:00",
-    "seconds": 146
+    "started_at": "2026-11-28T17:05:14+05:30",
+    "started_at_utc": "2026-11-28T11:35:14+00:00",
+    "seconds": 1746
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.8
+      "seconds": 1.3
     },
     {
       "name": "sync",
@@ -27,14 +27,14 @@
     {
       "name": "direct uploads",
       "ok": true,
-      "detail": "ep442 sent; ep460 sent",
-      "seconds": 0.5
+      "detail": "none due yet",
+      "seconds": 0.4
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY; added ep442 to 'Scale Breaker'; added ep460 to 'Mission Files'",
-      "seconds": 5.5
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
+      "seconds": 3.5
     },
     {
       "name": "languages",
@@ -46,31 +46,79 @@
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.2
+      "seconds": 0.1
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep412 at 72 h: behind the channel's earlier Shorts at this age: 338 views against a median of 1020 (0.3x); ep413 at 72 h: behind the channel's earlier Shorts at this age: 237 views against a median of 1020 (0.2x); ep429 at 24 h: level with the channel's earlier Shorts at this age: 995 views against a median of 838 (1.2x); learnings: Hardened Rules 2 and 4 to specifically prohibit bureaucratic naming and trivia lists while updating distribution medians for high-stakes hooks.",
-      "seconds": 106.0
+      "detail": "ep442 at 6 h: ahead of the channel's earlier Shorts at this age: 819 views against a median of 662 (1.2x); ep460 at 6 h: behind the channel's earlier Shorts at this age: 55 views against a median of 664 (0.1x)",
+      "seconds": 3.2
     },
     {
       "name": "collect",
       "ok": true,
       "detail": "nothing in the cloud",
-      "seconds": 6.1
+      "seconds": 5.2
     },
     {
-      "name": "publish on youtube",
+      "name": "analytics",
       "ok": true,
-      "detail": "",
-      "seconds": 6.3
+      "detail": "138 subscribers",
+      "seconds": 10.2
+    },
+    {
+      "name": "learnings",
+      "ok": true,
+      "detail": "Analyzed reviews for ep380 through ep429; confirmed strong early reach for crisis hooks and reinforced rules against middle stat detours and passive recaps.",
+      "seconds": 288.0
+    },
+    {
+      "name": "breakouts",
+      "ok": true,
+      "detail": "ep488 \"NASA Caught a Star Swallowing Its Planet\" broke out: 1,030 views 42 hours after going live, 6.0x the median of its peers at that age (172); queued no follow-up that passed the checks; ep429 \"How Gemini 12 Solved Spacewalk Exhaustion\" broke out: 1,020 views 36 hours after going live, 5.9x the ",
+      "seconds": 802.1
+    },
+    {
+      "name": "stalled Shorts",
+      "ok": true,
+      "detail": "none",
+      "seconds": 0.0
+    },
+    {
+      "name": "timely topics",
+      "ok": true,
+      "detail": "0 added",
+      "seconds": 235.1
+    },
+    {
+      "name": "new topics",
+      "ok": true,
+      "detail": "4 added",
+      "seconds": 363.2
+    },
+    {
+      "name": "report",
+      "ok": true,
+      "detail": "day-058.md",
+      "seconds": 3.2
+    },
+    {
+      "name": "start ep514",
+      "ok": true,
+      "detail": "Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot",
+      "seconds": 1.0
+    },
+    {
+      "name": "start ep515",
+      "ok": true,
+      "detail": "Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early",
+      "seconds": 0.7
     }
   ],
   "errors": [],
   "owner_action": [],
   "notes": [
-    "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and waiting Shorts are uploaded to YouTube directly until then"
+    "Buffer's API limit is used up until Nov 29 00:22 IST, so this run left Buffer alone; the Shorts it already has still go out, and a later run schedules the waiting ones"
   ],
   "inventory": {
     "total": 52,
@@ -78,7 +126,10 @@
     "waiting": 39,
     "target": 14,
     "making": [],
-    "remote": []
+    "remote": [
+      "ep514",
+      "ep515"
+    ]
   },
   "queue": [
     {
@@ -387,40 +438,63 @@
     }
   ],
   "made": [],
-  "spawned": [],
-  "in_cloud": [],
+  "spawned": [
+    {
+      "id": "ep514",
+      "topic": "Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot",
+      "call_id": "fc-01M8H0NBVREMTRHGG0TYDRMA01"
+    },
+    {
+      "id": "ep515",
+      "topic": "Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early",
+      "call_id": "fc-01M8H0NCHEBDMF67E89X6G81FD"
+    }
+  ],
+  "in_cloud": [
+    {
+      "id": "ep514",
+      "topic": "Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot",
+      "spawned_at": "2026-11-28T17:34:15+05:30"
+    },
+    {
+      "id": "ep515",
+      "topic": "Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early",
+      "spawned_at": "2026-11-28T17:34:16+05:30"
+    }
+  ],
   "published": [],
   "live": 114,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 4,
+    "calls": 5,
     "by_model": {
-      "gemini-3.6-flash": 3,
-      "gemini-3-flash-preview": 1
+      "gemini-3.8-flash": 2,
+      "gemini-3.7-flash": 2,
+      "gemini-3.6-flash": 1
     },
-    "out_of_quota": [
-      "gemini-3.5-flash",
-      "gemini-3.6-flash",
-      "gemini-3.7-flash",
-      "gemini-3.8-flash"
-    ]
+    "out_of_quota": []
   },
   "renders": {
     "modal": 0,
     "runner": 0
   },
-  "daily_done": "2026-11-27",
+  "daily_done": "2026-11-28",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 17.33,
+    "metered": 17.38,
     "billed": 0.0
   },
   "modal_credit": 30.0,
-  "capacity": null,
+  "capacity": {
+    "cloud": 88,
+    "runner": 0,
+    "runner_minutes": 0,
+    "modal_credit_left": 10.62
+  },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 41,
+  "open_topics": 45,
   "parked_topics": 46
 }

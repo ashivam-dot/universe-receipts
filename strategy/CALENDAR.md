@@ -96,13 +96,15 @@ unexplained, not alien.
 | 2026-11-25 | BepiColombo (2018): a dual-probe mission executing nine planetary flybys over seven years just to brake against the Sun's immense gravity — parked (ep509) | Mission Files | Trending on Wikipedia following recent flyby milestones and orbital insertion preparations. |
 | 2026-11-27 | Tiangong space station (2021): a fully modular space station built in orbit after US law barred Chinese astronauts from the International Space Station — done (ep512) | Mission Files | Trending on English Wikipedia today with over 18,000 page views. |
 | 2026-11-27 | Richat Structure (1965): a 25-mile-wide geological dome in the Sahara so distinct from orbit that early astronauts used it as a visual landmark — done (ep513) | Space Got Weird | Featured in recent NASA Earth observation imagery taken from the International Space Station. |
+| 2026-11-28 | Gemini 9A (1966): Gene Cernan suffered a spacewalk so exhausting his heart rate hit 180 beats per minute and sweat fogged his visor completely blind | Mission Files | Follow-up to ep429, which broke out (1,020 views in 36 h, 5.9x the median) |
+| 2026-11-28 | Gemini 4 (1965): after the first American spacewalk, the capsule hatch mechanism jammed open, nearly preventing the astronauts from sealing the cabin before re-entry | Mission Files | Follow-up to ep429, which broke out (1,020 views in 36 h, 5.9x the median) |
 
 ## Anniversaries (publish on the date, 8 p.m. Eastern)
 
 | Date | Story | Series |
 |---|---|---|
-| Dec 3 | Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot | Mission Files |
-| Dec 3 | Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early | Mission Files |
+| Dec 3 | Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot — making (ep514) | Mission Files |
+| Dec 3 | Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early — making (ep515) | Mission Files |
 | Dec 4 | Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball | Mission Files |
 | Dec 4 | Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat | Mission Files |
 | Dec 6 | Vanguard TV-3 (1957): on Dec 6, America's televised answer to Sputnik rose just four feet off the ground before bursting into a catastrophic launchpad fireball | Mission Files |
@@ -129,6 +131,7 @@ unexplained, not alien.
 | Jan 7 | Galilean moons (1610): Galileo discovered four moons orbiting Jupiter, proving not everything revolved around Earth | Space Got Weird |
 | Jan 14 | Huygens (spacecraft) (2005): on Jan 14, ESA's lander touched down on Saturn's moon Titan, revealing liquid methane rivers 800 million miles away | Mission Files |
 | Jan 15 | New Horizons (2006): the mission to Pluto launched toward the outer solar system | Mission Files |
+| Jan 15 | Stardust (spacecraft) (2006): on Jan 15, NASA's Stardust capsule parachuted back to Earth carrying humanity's first pristine sample of comet dust | Mission Files |
 | Oct 29 | 951 Gaspra (1991): became the first asteroid ever visited by a spacecraft when Galileo flew past it on this day — parked (ep217) | Mission Files |
 | Nov 3 | Mariner 10 (1973): the first mission to use a "gravity assist," stealing momentum from Venus to reach Mercury — done (ep252) | Mission Files |
 | Nov 8 | 2005 YU55 (2011): on this day, a giant 1,200-foot asteroid swept past Earth inside the orbit of the Moon, close enough to be tracked with commercial radar — parked (ep271) | Near Misses |
@@ -379,6 +382,7 @@ unexplained, not alien.
 - Uranus (2018): scientists confirmed the planet’s upper atmosphere is composed of hydrogen sulfide, making the entire world smell like rotten eggs — done (ep441)
 - Pluto (2015): as the dwarf planet moves farther from the Sun, its entire atmosphere cools down and freezes onto its surface — parked (ep511)
 - Venus (1962): a planet that takes longer to rotate once on its axis than it does to complete a full orbit around the Sun
+- Atmosphere of Neptune (2020): deep inside Neptune's atmosphere, intense pressure literally crushes methane into continuous showers of real diamonds
 
 ### Near Misses
 
@@ -465,3 +469,5 @@ unexplained, not alien.
 - Polaris (2018): the iconic North Star is actually a triple star system dominated by a supergiant four times more massive than the Sun — done (ep468)
 - Outer space: despite popular depictions of instant freezing, the vacuum of space is an insulator where overheating is a bigger danger than losing body heat — done (ep503)
 - Moon (2010): high-resolution lunar orbiter images revealed that Earth's Moon is shrinking as its core slowly cools
+- Moon (2014): Earth's Moon isn't a perfect sphere, but is shaped like a lopsided lemon due to early Earth's gravitational pull
+- Outer space (2000): empty space itself isn't cold, as a vacuum has no temperature at all because there are no particles to hold heat
