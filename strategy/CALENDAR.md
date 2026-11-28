@@ -104,9 +104,9 @@ unexplained, not alien.
 | Date | Story | Series |
 |---|---|---|
 | Dec 3 | Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot — making (ep514) | Mission Files |
-| Dec 3 | Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early — making (ep515) | Mission Files |
-| Dec 4 | Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball | Mission Files |
-| Dec 4 | Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat | Mission Files |
+| Dec 3 | Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early — done (ep515) | Mission Files |
+| Dec 4 | Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball — making (ep516) | Mission Files |
+| Dec 4 | Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat — making (ep517) | Mission Files |
 | Dec 6 | Vanguard TV-3 (1957): on Dec 6, America's televised answer to Sputnik rose just four feet off the ground before bursting into a catastrophic launchpad fireball | Mission Files |
 | Dec 7 | Apollo 17 (1972): on Dec 7, NASA launched humanity's final Apollo moon mission, carrying Harrison Schmitt, the first and only professional geologist to walk on the Moon | Mission Files |
 | Dec 8 | SpaceX COTS Demo Flight 1 (2010): on Dec 8, SpaceX became the first private company to launch a spacecraft into orbit and recover it intact from the ocean | Mission Files |

@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-28T17:34:21+05:30",
+  "updated_at": "2026-11-28T23:16:28+05:30",
   "day": 58,
   "result": "ok",
   "run": {
     "host": "modal",
-    "id": "ta-01M8GYZXYPEQJR15RHEE4D9JER",
+    "id": "ta-01M8HKK66WVRQ7G2ANC2B4PHAR",
     "number": null,
     "trigger": "schedule",
-    "started_at": "2026-11-28T17:05:14+05:30",
-    "started_at_utc": "2026-11-28T11:35:14+00:00",
-    "seconds": 1746
+    "started_at": "2026-11-28T23:05:16+05:30",
+    "started_at_utc": "2026-11-28T17:35:16+00:00",
+    "seconds": 672
   },
   "stages": [
     {
       "name": "deploy",
       "ok": true,
       "detail": "",
-      "seconds": 1.3
+      "seconds": 1.2
     },
     {
       "name": "sync",
@@ -27,91 +27,55 @@
     {
       "name": "direct uploads",
       "ok": true,
-      "detail": "none due yet",
-      "seconds": 0.4
+      "detail": "ep513 sent",
+      "seconds": 0.7
     },
     {
       "name": "playlists",
       "ok": true,
-      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY",
-      "seconds": 3.5
+      "detail": "skipped ep023: YouTube has no video Wmi8yfklomY; added ep513 to 'Space Got Weird'",
+      "seconds": 4.0
     },
     {
       "name": "languages",
       "ok": true,
       "detail": "every live Short is in English",
-      "seconds": 0.4
+      "seconds": 0.5
     },
     {
       "name": "on youtube",
       "ok": true,
       "detail": "every Short sent is public",
-      "seconds": 0.1
+      "seconds": 0.2
     },
     {
       "name": "short reviews",
       "ok": true,
-      "detail": "ep442 at 6 h: ahead of the channel's earlier Shorts at this age: 819 views against a median of 662 (1.2x); ep460 at 6 h: behind the channel's earlier Shorts at this age: 55 views against a median of 664 (0.1x)",
-      "seconds": 3.2
+      "detail": "ep494 at 72 h: behind the channel's earlier Shorts at this age: 284 views against a median of 1019 (0.3x); learnings: Updated learning log with reviews for 10 Shorts, confirming the conflict between high-retention loop structures and low-engagement neutral endings.",
+      "seconds": 626.5
     },
     {
       "name": "collect",
       "ok": true,
-      "detail": "nothing in the cloud",
-      "seconds": 5.2
-    },
-    {
-      "name": "analytics",
-      "ok": true,
-      "detail": "138 subscribers",
-      "seconds": 10.2
-    },
-    {
-      "name": "learnings",
-      "ok": true,
-      "detail": "Analyzed reviews for ep380 through ep429; confirmed strong early reach for crisis hooks and reinforced rules against middle stat detours and passive recaps.",
-      "seconds": 288.0
-    },
-    {
-      "name": "breakouts",
-      "ok": true,
-      "detail": "ep488 \"NASA Caught a Star Swallowing Its Planet\" broke out: 1,030 views 42 hours after going live, 6.0x the median of its peers at that age (172); queued no follow-up that passed the checks; ep429 \"How Gemini 12 Solved Spacewalk Exhaustion\" broke out: 1,020 views 36 hours after going live, 5.9x the ",
-      "seconds": 802.1
-    },
-    {
-      "name": "stalled Shorts",
-      "ok": true,
-      "detail": "none",
-      "seconds": 0.0
-    },
-    {
-      "name": "timely topics",
-      "ok": true,
-      "detail": "0 added",
-      "seconds": 235.1
-    },
-    {
-      "name": "new topics",
-      "ok": true,
-      "detail": "4 added",
-      "seconds": 363.2
-    },
-    {
-      "name": "report",
-      "ok": true,
-      "detail": "day-058.md",
-      "seconds": 3.2
+      "detail": "ep514 unfinished (RuntimeError: ep514: every take said things that aren't in the script); ep515 ready",
+      "seconds": 9.9
     },
     {
       "name": "start ep514",
       "ok": true,
       "detail": "Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot",
-      "seconds": 1.0
+      "seconds": 0.8
     },
     {
-      "name": "start ep515",
+      "name": "start ep516",
       "ok": true,
-      "detail": "Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early",
+      "detail": "Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball",
+      "seconds": 0.8
+    },
+    {
+      "name": "start ep517",
+      "ok": true,
+      "detail": "Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat",
       "seconds": 0.7
     }
   ],
@@ -122,13 +86,14 @@
   ],
   "inventory": {
     "total": 52,
-    "in_buffer": 13,
-    "waiting": 39,
+    "in_buffer": 12,
+    "waiting": 40,
     "target": 14,
     "making": [],
     "remote": [
       "ep514",
-      "ep515"
+      "ep516",
+      "ep517"
     ]
   },
   "queue": [
@@ -181,12 +146,6 @@
       "id": "ep396",
       "title": "The Meteor Storm That Created Space Science",
       "due_at": "2026-11-17T21:30:00-05:00"
-    },
-    {
-      "id": "ep513",
-      "title": "The 25-Mile Eye Hidden in the Sahara",
-      "due_at": "2026-11-28T12:30:00-05:00",
-      "direct": true
     },
     {
       "id": "ep472",
@@ -435,66 +394,108 @@
       "title": "The Astronaut Who Threw a Solar Panel into Space",
       "series": "Mission Files",
       "score": 23
+    },
+    {
+      "id": "ep515",
+      "title": "The NASA Lander That Cut Its Own Engines",
+      "series": "Mission Files",
+      "score": 24
     }
   ],
-  "made": [],
+  "made": [
+    {
+      "id": "ep514",
+      "outcome": "unfinished",
+      "topic": "Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot",
+      "reason": "RuntimeError: ep514: every take said things that aren't in the script",
+      "quota": false,
+      "overloaded": false
+    },
+    {
+      "id": "ep515",
+      "outcome": "ready",
+      "topic": "Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early",
+      "title": "The NASA Lander That Cut Its Own Engines",
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "media_url": "https://res.cloudinary.com/gtr1bxym/video/upload/v1795868212/universereceipts/ep515-317f9f16.mp4"
+    }
+  ],
   "spawned": [
     {
       "id": "ep514",
       "topic": "Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot",
-      "call_id": "fc-01M8H0NBVREMTRHGG0TYDRMA01"
+      "call_id": "fc-01M8HM7SM9MHHPRXZWHSNN10RN"
     },
     {
-      "id": "ep515",
-      "topic": "Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early",
-      "call_id": "fc-01M8H0NCHEBDMF67E89X6G81FD"
+      "id": "ep516",
+      "topic": "Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball",
+      "call_id": "fc-01M8HM7TCM0XCR5113RC39KBCH"
+    },
+    {
+      "id": "ep517",
+      "topic": "Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat",
+      "call_id": "fc-01M8HM7V44XXVRN4XYD1ND68AH"
     }
   ],
   "in_cloud": [
     {
       "id": "ep514",
       "topic": "Pioneer 10 (1973): on this day, Pioneer 10 made the first close flyby of Jupiter, braving lethal radiation to send back close-up images of the Great Red Spot",
-      "spawned_at": "2026-11-28T17:34:15+05:30"
+      "spawned_at": "2026-11-28T23:16:22+05:30"
     },
     {
-      "id": "ep515",
-      "topic": "Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early",
-      "spawned_at": "2026-11-28T17:34:16+05:30"
+      "id": "ep516",
+      "topic": "Mars Pathfinder (1996): on this day, NASA launched a mission that used giant airbags to bounce across the Martian surface like a ball",
+      "spawned_at": "2026-11-28T23:16:23+05:30"
+    },
+    {
+      "id": "ep517",
+      "topic": "Gemini 7 (1965): on Dec 4, NASA launched two astronauts on a harrowing 14-day endurance mission trapped inside a cockpit the size of a driver's seat",
+      "spawned_at": "2026-11-28T23:16:23+05:30"
     }
   ],
   "published": [],
-  "live": 114,
+  "live": 115,
   "failed_posts": [],
   "not_live": [],
   "llm": {
-    "calls": 5,
+    "calls": 12,
     "by_model": {
-      "gemini-3.8-flash": 2,
-      "gemini-3.7-flash": 2,
-      "gemini-3.6-flash": 1
+      "gemini-3.5-flash": 1,
+      "gemini-3-flash-preview": 1,
+      "gemini-3.6-flash": 8,
+      "gemini-3.5-flash-lite": 2
     },
-    "out_of_quota": []
+    "out_of_quota": [
+      "gemini-3.7-flash"
+    ]
   },
   "renders": {
-    "modal": 0,
+    "modal": 2,
     "runner": 0
   },
   "daily_done": "2026-11-28",
   "minutes_this_month": 9.0,
   "minutes_budget": 20000,
   "modal_cost": {
-    "metered": 17.38,
+    "metered": 17.48,
     "billed": 0.0
   },
   "modal_credit": 30.0,
   "capacity": {
-    "cloud": 88,
+    "cloud": 87,
     "runner": 0,
     "runner_minutes": 0,
-    "modal_credit_left": 10.62
+    "modal_credit_left": 10.52
   },
   "starved": 0,
   "made_here": 0,
-  "open_topics": 45,
+  "open_topics": 43,
   "parked_topics": 46
 }

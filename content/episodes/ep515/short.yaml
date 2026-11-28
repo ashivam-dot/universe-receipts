@@ -1,0 +1,170 @@
+id: ep515
+title: The NASA Lander That Cut Its Own Engines
+series: Mission Files
+format: v3
+description: In December 1999, NASA lost contact with Mars Polar Lander during descent. Investigators discovered a mechanical
+  leg vibration triggered premature engine shutdown 40 meters above the surface.
+sources:
+- https://en.wikipedia.org/wiki/Mars_Polar_Lander
+- https://www.americaspace.com/2019/01/06/could-not-have-survived-20-years-since-nasas-ill-fated-mars-polar-lander/
+- https://web.archive.org/web/20131226075519/http://www.pbs.org/newshour/bb/science/jan-june00/nasa_4-14.html
+- https://azmth.space/mars/missions/mars-polar-lander
+- https://web.archive.org/web/20060818152601/http://www.planetary.org/programs/projects/planetary_microphones/mars_microphone.html
+- https://www.wired.com/1999/12/mars-lander-wont-phone-home/
+hashtags:
+- '#space'
+- '#marspolarlander'
+- '#nasa'
+tags:
+- mars polar lander
+- nasa
+- mars
+- space exploration
+- astronomy
+- space accident
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: A NASA spacecraft cut its engines 40 meters above Mars.
+  emphasis:
+  - cut its engines
+  - 40 meters
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/b/ba/Mars_Polar_Lander_parachute_descent_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mars Polar Lander parachute descent illustration.jpg
+      credit: NASA/JPL/Corby Waste
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Polar_Lander_parachute_descent_illustration.jpg
+    fallbacks:
+    - card
+    - color
+    motion: zoom_out
+    focus_x: 0.45
+    focus_y: 0.55
+    box:
+    - 0.06
+    - 0.03
+    - 0.65
+    - 0.66
+    card:
+      kind: fact
+      big: 40 METERS
+      small: engine shutdown altitude
+- text: Mars Polar Lander carried the first microphone meant to record another planet.
+  emphasis:
+  - first microphone
+  - record another planet
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/98lander-top2.jpg/1920px-98lander-top2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: 98lander-top2.jpg
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:98lander-top2.jpg
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.5
+- text: To cut mission costs, managers opted to send zero landing telemetry.
+  emphasis:
+  - zero landing telemetry
+  - cut mission costs
+  sfx: whoosh
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: ZERO DATA
+      small: telemetry sent during landing
+    motion: zoom_in
+- text: On atmospheric entry, heat shield temperatures topped 1,650 degrees Celsius.
+  emphasis:
+  - 1,650 degrees
+  - heat shield
+  visual:
+    source: card
+    card:
+      kind: fact
+      big: 1,650 °C
+      small: peak heat shield temperature
+    motion: zoom_in
+- text: During descent, the lander snapped its landing legs into position.
+  emphasis:
+  - snapped
+  - landing legs
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Mars_Polar_Lander_-_cruise_configuration.png/1920px-Mars_Polar_Lander_-_cruise_configuration.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Mars Polar Lander - cruise configuration.png
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Polar_Lander_-_cruise_configuration.png
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That sudden mechanical leg vibration triggered a false sensor signal.
+  emphasis:
+  - false sensor signal
+  - mechanical leg vibration
+  sfx: riser
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/9/96/Mars_Polar_Lander_-_artist_depiction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: Mars Polar Lander - artist depiction.png
+      credit: NASA / JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Mars_Polar_Lander_-_artist_depiction.png
+    fallbacks:
+    - color
+    motion: zoom_in
+    focus_x: 0.5
+    focus_y: 0.55
+- text: Flight software latched the fake pulse as an actual surface touchdown.
+  emphasis:
+  - fake pulse
+  - surface touchdown
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 6
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.55
+- text: The $165 million probe free-fell to its destruction in total silence.
+  emphasis:
+  - 165 million
+  - total silence
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    reuse: 1
+    motion: zoom_in
+    focus_x: 0.45
+    focus_y: 0.55
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150

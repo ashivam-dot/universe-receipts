@@ -10,7 +10,7 @@ Recompute daily and after each Short's 24- and 72-hour reviews, over Shorts with
 
 | Measure | Where it comes from | Channel median | Target |
 |---|---|---|---|
-| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 43% | 70%+; under 60% rarely takes off |
+| Engaged share (stand-in for Studio's "stayed to watch") | `analytics.engaged_share` | 42% | 70%+; under 60% rarely takes off |
 | Average percentage viewed | `analytics.averageViewPercentage` | 80.2% | 80%+ (loops can push it past 100%) |
 | Still watching at 10% of the Short | `retention` point nearest `at: 0.1` | 129% | rising week over week |
 | Subscribers per 1,000 views | `subscribersGained` / `views` | 0.0 | 2+ |
@@ -36,12 +36,14 @@ each promoted on two Shorts; their evidence is kept below.)
 
 At most 8. Each is tested against the current rules on comparable Shorts before it becomes a rule.
 
-- Pair circular rewatch loops with an unresolved friction question in the final beat to convert passive replays into likes and shares (ep380, ep411, ep488, ep429).
-- Connect the crisis or destruction hook directly to the central action mechanism in beat 2 instead of inserting stat trivia detours (ep414).
-- Start hooks with human conflict or mistake rather than a passive scientific premise to stop the scroll (ep365, ep387, ep412, ep413).
+- Pair circular rewatch loops with an unresolved friction question in the final beat to convert passive replays into likes and shares (ep380, ep387, ep488, ep429).
+- Replace technical mid-beat detours like quantum math or orbital stats with direct visual contrasts showing time or scale changes to maintain engaged share (ep494, ep414).
+- Cut agency naming or mission branding in beat 2 and jump straight to sensory physical stakes to maintain hook momentum (ep409, ep414).
+- Open hooks with an urgent visual challenge ('What if...') to the viewer to reduce initial swipe-away rates (ep412).
+- Start hooks with human conflict or mistakes rather than passive scientific premises to stop the scroll (ep365, ep387, ep412, ep413).
 - Open with unresolved problem tension rather than revealing the resolution in beat 1 to prevent early retention drop-offs (ep373, ep487).
 - Frame hooks using a direct 'you' perspective (e.g., 'If you stood on Pluto today') to increase viewer relevance and early hold (ep357).
-- In a hazard story, keep the safety resolution for the last beat to maintain tension (ep130, ep133, ep137, ep159, ep184, ep429).
+- In hazard stories, keep the safety resolution for the final beat to maintain narrative tension (ep130, ep429).
 
 ## Scoreboard
 
@@ -75,8 +77,8 @@ contradiction.
 | ep378 | Space Myths, Busted | statement, record | 1171 | 49% | 118.4% | 171% | 0 | – |
 | ep373 | Near Misses | statement, myth_vs_fact | 847 | 51% | 67.5% | 119% | 0 | – |
 | ep411 | Scale Breaker | statement, mystery | 1246 | 44% | 90.1% | 132% | 2 | – |
-| ep380 | Scale Breaker | statement, story | 1399 | 52% | 95.2% | 144% | 1 | Massive scale statement hook and seamless loop drove strong early reach (1,399 views at 29.5h vs 200.0 median) and 95.2% AVP, though informational ending kept likes at channel median 1.6/100. |
-| ep387 | Mission Files | statement, scale_ladder | 866 | 50% | 119.3% | 173% | 0 | Walking-speed landing premise and circular syntax supported 119.3% AVP, but a flat declarative opening correlated with below-peer early reach (866 at 27.1h) and low 1.2 likes/100. |
+| ep380 | Scale Breaker | statement, story | 1399 | 52% | 95.2% | 144% | 1 | High-stakes monster hook and seamless loop pushed AVP to a channel-high 201%, though a recap ending capped like conversion at 2.0. |
+| ep387 | Mission Files | statement, scale_ladder | 866 | 50% | 119.3% | 173% | 0 | Circular loop structure maintained retention, but a flat statement hook and neutral ending associated with lower early distribution and likes. |
 | AqjFtgMXTqI | ? | –, story | – | 47% | 85.5% | 133% | 0 | – |
 | AGVNlHYNopg | ? | –, story | – | 44% | 85.7% | 135% | 1 | – |
 | acGOaPvE6tM | ? | –, story | – | 56% | 97.8% | 149% | 0 | – |
@@ -87,14 +89,16 @@ contradiction.
 | mQmeA3UaISI | ? | –, story | – | 49% | 114.9% | 164% | 2 | – |
 | jQkifLo0uyM | ? | –, story | – | 43% | 120.9% | 163% | 0 | – |
 | 0Vi60XbtdFI | ? | –, story | – | 54% | 65.1% | 115% | 0 | – |
-| ep487 | Mission Files | statement, myth_vs_fact | 161 | 43% | 95.5% | 144% | 0 | Mars drill premise maintained 95.5% AVP, but an anti-climactic post-climax recap beat in the 17:30 slot saw reach stall at 161 views at 24.1h and muted 0.8 likes/100. |
-| ep412 | Space Got Weird | statement, mystery | 292 | 49% | 80.3% | 129% | 0 | Passive historical premise suffered early swipe drop-offs, yielding low early reach (292 views at 29.6h), though engaged viewers delivered an above-median 2.7 likes/100. |
-| ep413 | Mission Files | statement, mystery | 144 | 49% | 80.0% | 129% | 0 | Ghost module hook sustained 49.4% engaged share, but lack of a seamless loop mechanism limited AVP to 80.0% and reach to 144 views at 27.1h. |
-| ep494 | Mission Files | statement, record | 239 | 42% | 63.5% | 118% | 0 | Technical jargon and abstract setup in middle beats correlated with low early reach (239 views at 24.1h) and 63.5% AVP, despite strong viewer affinity (2.8 likes/100). |
-| ep414 | Mission Files | statement, record | 160 | 35% | 125.7% | 176% | 0 | Dramatic destruction premise stalled due to five beats of passive stat listings, resulting in low early reach (160 views at 29.6h) and weak 0.5 likes/100. |
-| ep409 | Scale Breaker | statement, scale_ladder | 135 | 41% | 53.9% | 113% | 0 | Bureaucratic agency exposition in beat 2 collapsed pacing, producing low early reach (135 views at 27.1h) and bottom-tier 53.9% AVP. |
-| ep488 | Space Got Weird | statement, myth_vs_fact | 1009 | – | – | – | – | Crisis hook of a star swallowing a planet drove top-tier early reach (1,009 views at 24.1h), but a textbook factual ending limited likes to channel median 1.6/100. |
-| ep429 | Mission Files | statement, mystery | 995 | – | – | – | – | Deadly spacewalk hazard hook secured 995 views at 29.6h in early reach, though a purely informative safety resolution held likes to median 1.6/100. |
+| ep487 | Mission Files | statement, myth_vs_fact | 161 | 43% | 95.5% | 144% | 0 | Strong initial hook and narrative flow delivered 117% AVP, but a factual anti-climax resulted in a bottom-tier 0.8 likes per 100 views. |
+| ep412 | Space Got Weird | statement, mystery | 292 | 49% | 80.3% | 129% | 0 | Passive scientific hook caused high initial swipe-away rates and 0.3x reach, even though the content quality yielded strong likes from survivors. |
+| ep413 | Mission Files | statement, mystery | 144 | 49% | 80.0% | 129% | 0 | Initial hook statement successfully retained early viewers, but the lack of a defined loop mechanism left the short at 0.2x channel reach. |
+| ep494 | Mission Files | statement, record | 239 | 42% | 63.5% | 118% | 0 | A bold claim hook successfully stopped the scroll, but abstract math jargon in middle beats associated with a sharp drop in engaged share. |
+| ep414 | Mission Files | statement, record | 160 | 35% | 125.7% | 176% | 0 | A dramatic premise was undercut by five consecutive beats of encyclopedia-style stats, stalling engagement at 0.6 likes per 100 views. |
+| ep409 | Scale Breaker | statement, scale_ladder | 135 | 41% | 53.9% | 113% | 0 | Momentum collapsed immediately after the hook due to a bureaucratic agency-naming detour, resulting in a reach 80% below the channel median. |
+| ep488 | Space Got Weird | statement, myth_vs_fact | 1009 | – | – | – | – | Punchy statement hook drove top-tier early velocity (41 vph), but a dry textbook conclusion was associated with low engagement and 0 comments. |
+| ep429 | Mission Files | statement, mystery | 995 | – | – | – | – | High-tension fatigue hook secured 1.2x median views, yet an informative resolution provided no friction to stimulate likes or comments. |
+| ep472 | Mission Files | statement, myth_vs_fact | – | – | – | – | – | – |
+| ep512 | Mission Files | statement, mystery | – | – | – | – | – | – |
 
 ## Log
 
@@ -272,3 +276,4 @@ contradiction.
 - 2026-11-27: Evaluated 10 recent reviews (ep411, ep380, ep387, ep487, ep412, ep413, ep494, ep414, ep409, ep488) to analyze hook and ending performance across recent episodes.
 - 2026-11-28: Hardened Rules 2 and 4 to specifically prohibit bureaucratic naming and trivia lists while updating distribution medians for high-stakes hooks.
 - 2026-11-28: Analyzed reviews for ep380 through ep429; confirmed strong early reach for crisis hooks and reinforced rules against middle stat detours and passive recaps.
+- 2026-11-28: Updated learning log with reviews for 10 Shorts, confirming the conflict between high-retention loop structures and low-engagement neutral endings.

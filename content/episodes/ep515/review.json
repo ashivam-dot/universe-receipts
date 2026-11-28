@@ -1,0 +1,106 @@
+{
+  "rounds": [
+    {
+      "at": "2026-11-28T17:45:02+05:30",
+      "check": {
+        "duration": 30.53,
+        "words": 85,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'lander' heard as 'landers' after 'during descent the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "payoff": 4,
+        "visuals": 3,
+        "loop": 4
+      },
+      "notes": {
+        "hook": "Strong opening premise creates immediate viewer curiosity.",
+        "clarity": "Narrative flow is clean and easy to follow.",
+        "payoff": "Revealing the false touchdown signal delivers a clear resolution.",
+        "visuals": "Several schematic frames contain small, unreadable text.",
+        "loop": "Closing sentence transitions smoothly into the starting phrase."
+      },
+      "frames": [
+        {
+          "beat": 2,
+          "problem": "Diagram contains small unreadable text labels."
+        },
+        {
+          "beat": 5,
+          "problem": "Schematic image has cluttered text."
+        },
+        {
+          "beat": 7,
+          "problem": "Diagram is text-heavy for mobile view."
+        }
+      ],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short provides a clearer explanation of a technical failure than recent episodes.",
+      "judge": "gemini-3.6-flash",
+      "passed": false
+    },
+    {
+      "at": "2026-11-28T17:46:51+05:30",
+      "check": {
+        "duration": 30.53,
+        "words": 85,
+        "integrated_lufs": -14.2,
+        "true_peak_dbfs": -1.8,
+        "warnings": [],
+        "speech_differences": [
+          "'lander' heard as 'landers' after 'during descent the'"
+        ],
+        "speech_error": null,
+        "sources": [
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "designed card",
+          "designed card",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons",
+          "Wikimedia Commons"
+        ]
+      },
+      "scores": {
+        "hook": 5,
+        "clarity": 5,
+        "payoff": 5,
+        "visuals": 4,
+        "loop": 5
+      },
+      "notes": {
+        "hook": "Strong dramatic hook that immediately pulls the viewer into an unexplained space disaster.",
+        "clarity": "Very easy to follow chronological explanation of how a minor vibration caused a fatal crash.",
+        "payoff": "Delivers a satisfying technical explanation for why the lander cut its engines early.",
+        "visuals": "Accurate spacecraft visuals and clear title cards, though beat 5's technical schematic text is small on mobile.",
+        "loop": "The final mention of falling in silence loops perfectly back into the premise of engines cutting high above Mars."
+      },
+      "frames": [],
+      "speech": [],
+      "rewrite": [],
+      "better_than_last": "This Short features an exceptionally tight step-by-step engineering mystery narrative with strong emotional payoff.",
+      "judge": "gemini-3.6-flash",
+      "passed": true
+    }
+  ],
+  "best_round": 2
+}

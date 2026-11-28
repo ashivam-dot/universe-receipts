@@ -1,0 +1,209 @@
+id: ep514
+title: The Speed Record That Broke Pioneer 10
+series: Mission Files
+format: v3
+description: Pioneer 10 survived lethal Jupiter radiation and the main asteroid belt to take the first close-up photos of
+  the Great Red Spot.
+sources:
+- https://en.wikipedia.org/wiki/Pioneer_10
+- https://science.nasa.gov/mission/pioneer-10/
+- https://web.archive.org/web/20250710125158/https://postalmuseum.si.edu/exhibition/about-us-stamps-modern-period-1940-present-commemorative-issues-1970-1979-1974-1975/space
+- https://archive.nytimes.com/www.nytimes.com/library/national/science/042683sci-nasa-neptune.html
+- https://web.archive.org/web/20120422065322/http://www.planetary.org/blog/article/00003459/
+- https://www.space.com/448-problem-gravity-mission-probe-strange-puzzle.html
+hashtags:
+- '#space'
+- '#pioneer10'
+- '#jupiter'
+tags:
+- pioneer 10
+- jupiter
+- nasa
+- space exploration
+- great red spot
+- pioneer anomaly
+voice:
+  engine: gemini
+  voice: Zubenelgenubi
+  language: en-US
+  speed: 1.05
+  max_pause: 0.25
+  direction: fast, energetic, conversational American telling a friend a true space story they can hardly believe; punchy
+    and playful, natural rises and falls, never an announcer or documentary voice
+beats:
+- text: One NASA probe reached thirty-two thousand miles per hour.
+  emphasis:
+  - thirty-two thousand
+  - miles per hour
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Launch_of_Pioneer_10-2.jpg/1920px-Launch_of_Pioneer_10-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Launch of Pioneer 10-2.jpg
+      credit: 'Launch_of_Pioneer_10.jpg: NASA Ames Resarch Center (NASA-ARC)
+
+        derivative work: Nova13 (talk)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Launch_of_Pioneer_10-2.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_down
+    focus_x: 0.53
+    focus_y: 0.45
+    box:
+    - 0.45
+    - 0.05
+    - 0.65
+    - 0.85
+    card:
+      kind: fact
+      big: 32,000 MPH
+      small: speed at launch
+- text: Pioneer 10 became the fastest human-made object in history.
+  emphasis:
+  - fastest
+  - human-made object
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Date-_Dec_1972_Pioneer_10_Artwork_Spacecraft_shown_only_11_hours_after_launch_passing_the_orbit_of_the_Moon_in_this_artist_concept_on_it%27s_way_to_orbit_above_Jupiter%27s_surface_%28used_in_NASA_SP-349%29_%28ARC-1969-AC72-1353%29.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Date- Dec 1972 Pioneer 10 Artwork Spacecraft shown only 11 hours after launch passing the orbit of the Moon in
+        this artist concept on it's way to orbit above Jupiter's surface (used in NASA SP-349) (ARC-1969-AC72-1353).jpg
+      credit: NASA Ames Research Center
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Date-_Dec_1972_Pioneer_10_Artwork_Spacecraft_shown_only_11_hours_after_launch_passing_the_orbit_of_the_Moon_in_this_artist_concept_on_it%27s_way_to_orbit_above_Jupiter%27s_surface_(used_in_NASA_SP-349)_(ARC-1969-AC72-1353).jpg
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.22
+    focus_y: 0.52
+    box:
+    - 0.06
+    - 0.4
+    - 0.45
+    - 0.68
+- text: It was the first craft to navigate through the main asteroid belt.
+  emphasis:
+  - first craft
+  - asteroid belt
+  sfx: whoosh
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Illustration_of_Asteroid_Belts_%282021-005%29.tif/lossy-page1-3840px-Illustration_of_Asteroid_Belts_%282021-005%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Illustration of Asteroid Belts (2021-005).tif
+      credit: 'ILLUSTRATION: NASA, ESA, Joseph Olmsted (STScI)'
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Illustration_of_Asteroid_Belts_(2021-005).tif
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Then Jupiter's intense radiation triggered false commands inside its computer.
+  emphasis:
+  - intense radiation
+  - false commands
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Jupiter%27s_Magnetosphere_animation.png/1920px-Jupiter%27s_Magnetosphere_animation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Jupiter's Magnetosphere animation.png
+      credit: NASA/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Jupiter%27s_Magnetosphere_animation.png
+    fallbacks:
+    - color
+    motion: pan_left
+    focus_x: 0.5
+    focus_y: 0.5
+- text: Yet it survived to send back the first close-up images of Jupiter.
+  emphasis:
+  - first close-up
+  - Jupiter
+  sfx: riser
+  visual:
+    source: url
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pioneer_10_Jupiter_1974_GPN-2000-001698.jpg/1920px-Pioneer_10_Jupiter_1974_GPN-2000-001698.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit:
+      source: Wikimedia Commons
+      title: Pioneer 10 Jupiter 1974 GPN-2000-001698.jpg
+      credit: NASA
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:Pioneer_10_Jupiter_1974_GPN-2000-001698.jpg
+    fallbacks:
+    - color
+    motion: zoom_out
+    focus_x: 0.5
+    focus_y: 0.38
+    box:
+    - 0.22
+    - 0.12
+    - 0.78
+    - 0.58
+- text: Decades later, its own escaping heat unexpectedly slowed the probe down.
+  emphasis:
+  - escaping heat
+  - unexpectedly slowed
+  sfx: pop
+  pause_after: 0.4
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/6/6e/72413main_ACD97-0036-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: 72413main ACD97-0036-3.jpg
+      credit: Nasa/JPL
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:72413main_ACD97-0036-3.jpg
+    fallbacks:
+    - card
+    - color
+    motion: pan_left
+    focus_x: 0.25
+    focus_y: 0.32
+    card:
+      kind: fact
+      big: HEAT DEVIATION
+      small: the Pioneer anomaly
+- text: It now carries a golden plaque toward the red star Aldebaran.
+  emphasis:
+  - golden plaque
+  - Aldebaran
+  visual:
+    source: url
+    url: https://upload.wikimedia.org/wikipedia/commons/2/22/GPN-2000-001621-x.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit:
+      source: Wikimedia Commons
+      title: GPN-2000-001621-x.jpg
+      credit: NASA/HQ
+      license: Public domain
+      url: https://commons.wikimedia.org/wiki/File:GPN-2000-001621-x.jpg
+    fallbacks:
+    - color
+    motion: pan_right
+    focus_x: 0.5
+    focus_y: 0.5
+- text: That legendary speed run started at launch.
+  emphasis:
+  - speed run
+  - at launch
+  visual:
+    reuse: 1
+    motion: zoom_out
+    focus_x: 0.53
+    focus_y: 0.45
+look: bold
+music:
+  path: bed:chase
+  gain_db: -17.0
+  fade_out: 1.0
+captions:
+  hook_size: 150
+hook_text: 32,000 MPH INTO JUPITER

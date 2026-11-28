@@ -1,0 +1,279 @@
+{
+  "viable": true,
+  "reason": "The sources provide robust, multi-source documentation of the spacecraft's design, mission goals, cost-driven decisions, failure mechanism, and orbital search results.",
+  "story": "In December 1999, NASA's Mars Polar Lander arrived at Mars to execute the first touchdown near the Red Planet's south pole. Equipped with a robotic digging arm, microprobes, and the first Mars microphone, the lander aimed to study polar ice and climate. However, under NASA's strict budget caps, project managers made a risky call to omit real-time telemetry during entry, descent, and landing. On December 3, the lander entered the atmosphere and vanished. When silence persisted, an investigation reconstructed the tragic blunder: as the spacecraft descended on a parachute, deploying its landing legs created a sharp mechanical vibration. The flight software misread that brief signal as contact with the Martian surface. The moment the touchdown logic activated 40 meters above the ground, the computer cut the descent engines, sending the $165 million probe free-falling to its destruction.",
+  "angle": "Mars Polar Lander destroyed itself when its computer mistook the vibration of its legs unfolding for landing on the surface, cutting the engines 40 meters in the air.",
+  "claims": [
+    {
+      "claim": "NASA launched Mars Polar Lander on January 3, 1999, aboard a Delta II rocket.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The lander targeted Planum Australe, a region near Mars's south pole, to analyze ground ice and climate.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mars Polar Lander carried two piggyback microprobes known as Deep Space 2.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The spacecraft carried a robotic arm with a scoop to dig into the Martian surface.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The lander was equipped with the Mars Microphone to attempt the first audio recordings on another planet.",
+      "sources": [
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Mars Climate Orbiter was lost just two and a half months before Mars Polar Lander reached Mars.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "The total cost of the Mars Polar Lander mission was approximately 165 million dollars.",
+      "sources": [
+        "S1",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "During atmospheric entry on December 3, 1999, the spacecraft's heat shield absorbed temperatures up to 1,650 degrees Celsius.",
+      "sources": [
+        "S1",
+        "S3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Project managers decided to send zero telemetry during entry, descent, and landing to reduce mission costs.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "All communication with Mars Polar Lander ceased upon atmospheric entry, and no surface signals were ever received.",
+      "sources": [
+        "S1",
+        "S2",
+        "S3",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Both Deep Space 2 microprobes failed to send any signals back after separating for atmospheric entry.",
+      "sources": [
+        "S1",
+        "S3",
+        "S7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Investigators concluded the probable cause of failure was the premature shutdown of descent engines about 40 meters above the Martian surface.",
+      "sources": [
+        "S1",
+        "S3",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Unfolding the landing legs produced false sensor signals that the lander's flight software latched as an actual touchdown.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "An official review board concluded the Mars Surveyor program was underfunded by at least 30 percent.",
+      "sources": [
+        "S1",
+        "S5",
+        "S6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "Orbital searches by NASA's Mars Global Surveyor failed to locate or confirm the crash site of Mars Polar Lander.",
+      "sources": [
+        "S1",
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "disputed": [
+    "S3 states the lander carried a pair of microphones, whereas S1, S2, and S6 describe a single Mars Microphone mounted inside the LIDAR instrument. Script should stick to a single Mars Microphone provided by The Planetary Society.",
+    "Candidate wreckage spotted in 2005 Mars Global Surveyor imagery was later disproved as terrain illumination and image noise in October 2005. Script should state the lander remains unfound."
+  ],
+  "visuals": [
+    {
+      "subject": "Delta II rocket launching Mars Polar Lander from Cape Canaveral",
+      "queries": [
+        "Delta II launch Mars Polar Lander",
+        "Delta II launch SLC-17B 1999"
+      ]
+    },
+    {
+      "subject": "Illustration of Mars Polar Lander deployed on Mars",
+      "queries": [
+        "Mars Polar Lander artist concept",
+        "Mars Polar Lander spacecraft diagram"
+      ]
+    },
+    {
+      "subject": "Deep Space 2 microprobe impactor diagram or model",
+      "queries": [
+        "Deep Space 2 microprobe NASA",
+        "Deep Space 2 penetrator probe"
+      ]
+    },
+    {
+      "subject": "Planum Australe south polar ice cap on Mars from orbit",
+      "queries": [
+        "Planum Australe Mars south pole",
+        "Mars south polar cap spacecraft image"
+      ]
+    },
+    {
+      "subject": "Mars Microphone instrument hardware flight spare",
+      "queries": [
+        "Mars Microphone Planetary Society",
+        "Mars Microphone flight spare photo"
+      ]
+    },
+    {
+      "subject": "Mars Polar Lander robotic arm illustration",
+      "queries": [
+        "Mars Polar Lander robotic arm",
+        "MVACS lander arm illustration"
+      ]
+    },
+    {
+      "subject": "Mars Climate Orbiter spacecraft illustration",
+      "queries": [
+        "Mars Climate Orbiter artist concept",
+        "Mars Climate Orbiter spacecraft"
+      ]
+    },
+    {
+      "subject": "Mars lander entry aeroshell and heat shield artwork",
+      "queries": [
+        "Mars lander entry heatshield artwork",
+        "Mars atmospheric entry illustration"
+      ]
+    },
+    {
+      "subject": "Touchdown sensor on landing leg diagram",
+      "queries": [
+        "Mars lander footpad sensor diagram",
+        "Mars lander touchdown leg mechanism"
+      ]
+    },
+    {
+      "subject": "Mars Global Surveyor orbiter artist concept",
+      "queries": [
+        "Mars Global Surveyor spacecraft artist concept",
+        "Mars Global Surveyor spacecraft"
+      ]
+    },
+    {
+      "subject": "NASA JPL mission control room during Mars Polar Lander entry attempt",
+      "queries": [
+        "JPL mission control 1999",
+        "JPL control room Mars landing attempt"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "S1",
+      "url": "https://en.wikipedia.org/wiki/Mars_Polar_Lander",
+      "title": "Mars Polar Lander",
+      "site": "wikipedia.org"
+    },
+    {
+      "label": "S2",
+      "url": "https://web.archive.org/web/20060818152601/http://www.planetary.org/programs/projects/planetary_microphones/mars_microphone.html",
+      "title": "Projects: Planetary Microphones",
+      "site": "planetary.org"
+    },
+    {
+      "label": "S3",
+      "url": "https://www.americaspace.com/2019/01/06/could-not-have-survived-20-years-since-nasas-ill-fated-mars-polar-lander/",
+      "title": "‘Could Not Have Survived’: 20 Years Since NASA’s Ill-Fated Mars Polar Lander - AmericaSpace",
+      "site": "americaspace.com"
+    },
+    {
+      "label": "S4",
+      "url": "https://www.bbc.com/news/science-environment-44952710",
+      "title": "Liquid water 'lake' revealed on Mars",
+      "site": "bbc.com"
+    },
+    {
+      "label": "S5",
+      "url": "https://web.archive.org/web/20131226075519/http://www.pbs.org/newshour/bb/science/jan-june00/nasa_4-14.html",
+      "title": "Online NewsHour: NASA in Question",
+      "site": "pbs.org"
+    },
+    {
+      "label": "S6",
+      "url": "https://azmth.space/mars/missions/mars-polar-lander",
+      "title": "Mars Polar Lander (1999): Lander Mission Facts, Timeline, and Photos",
+      "site": "azmth.space"
+    },
+    {
+      "label": "S7",
+      "url": "https://www.wired.com/1999/12/mars-lander-wont-phone-home/",
+      "title": "Mars Lander Won't Phone Home",
+      "site": "wired.com"
+    }
+  ],
+  "topic": "Mars Polar Lander (1999): NASA lost contact with the probe during descent after a sensor mistakenly triggered engine shutdown early",
+  "series": "Mission Files"
+}
